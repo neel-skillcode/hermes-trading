@@ -25,6 +25,7 @@ _GIST_ID = os.getenv("GITHUB_GIST_ID", "")
 _STATE_FILES = [
     "heartbeat.json",
     "trades.jsonl",
+    "positions.json",    # open positions — must survive between ticks
     "strategy.yaml",
     "hypotheses.jsonl",
     "goal.yaml",

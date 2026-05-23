@@ -32,6 +32,7 @@ from hermes_trading.adapters import gist_state
 STATE_DIR = Path(__file__).parent.parent / "state"
 TRADES_FILE = STATE_DIR / "trades.jsonl"
 HEARTBEAT_FILE = STATE_DIR / "heartbeat.json"
+POSITIONS_FILE = STATE_DIR / "positions.json"   # persists open positions between ticks
 STRATEGY_FILE = STATE_DIR / "strategy.yaml"
 GOAL_FILE = STATE_DIR / "goal.yaml"
 
@@ -97,6 +98,18 @@ class TradingLoop:
         self.portfolio_peak = hb.get("portfolio_peak", self.portfolio_peak)
         self.total_trades = hb.get("total_trades", 0)
         self.trades_since_reflection = hb.get("trades_since_last_reflection", 0)
+        # Restore open positions from disk so GitHub Actions ticks can manage them
+        if POSITIONS_FILE.exists():
+            try:
+                self.open_positions = json.loads(POSITIONS_FILE.read_text())
+                if self.open_positions:
+                    console.print(f"[dim]Restored {len(self.open_positions)} open position(s) from disk[/dim]")
+            except Exception:
+                self.open_positions = {}
+
+    def _save_positions(self):
+        """Write open positions to disk so they survive between ticks."""
+        POSITIONS_FILE.write_text(json.dumps(self.open_positions, indent=2))
 
     def _read_heartbeat(self) -> dict:
         if HEARTBEAT_FILE.exists():
@@ -115,6 +128,8 @@ class TradingLoop:
             "last_tick": datetime.now(timezone.utc).isoformat(),
             "last_reflection": self.last_reflection_date,
             "trades_since_last_reflection": self.trades_since_reflection,
+            # Include snapshot of open positions for the dashboard
+            "open_position_list": list(self.open_positions.values()),
         }
         if extra:
             data.update(extra)
@@ -267,6 +282,7 @@ class TradingLoop:
 
         for asset, exit_price, reason, pnl_pct in to_close:
             pos = self.open_positions.pop(asset)
+            self._save_positions()   # update disk immediately after removing
             size_usd = pos["size_usd"]
             pnl_usd = size_usd * pnl_pct
             self.portfolio_balance += pnl_usd
@@ -335,6 +351,7 @@ class TradingLoop:
         }
 
         self.open_positions[asset] = trade
+        self._save_positions()   # persist immediately so next tick can manage this position
 
         # Log drawdown override justification if applicable
         dd = self._drawdown_pct()
