@@ -1,0 +1,39 @@
+name: Hermes Trading Tick
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trading-tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh && echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Run trading tick
+        run: uv run python -m hermes_trading.run --single-tick
+        env:
+          HERMES_TRADING_MODE: paper
+          HERMES_TRADING_I_ACCEPT_RISK: 'false'
+
+      - name: Commit state
+        run: |
+          git config user.name "hermes-trading[bot]"
+          git config user.email "hermes-trading[bot]@users.noreply.github.com"
+          git add state/
+          git diff --staged --quiet || (git commit -m "tick: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" && git pull --rebase origin main && git push)
