@@ -1,18 +1,20 @@
-version: "01"
+version: "02"
 
 entry:
   indicators:
     rsi:
       period: 14
-      oversold: 30
-      overbought: 70
+      oversold: 45      # loosened: was 30 — now catches real dips not just crashes
+      overbought: 62    # loosened: was 70 — catches momentum tops earlier
     macd:
       fast: 12
       slow: 26
       signal: 9
     momentum:
       lookback_days: 5
-  min_signal_confluence: 2
+      min_pct: 0.005    # 0.5% move threshold (was 2% hardcoded — far too strict)
+  min_signal_confluence: 1   # 1 strong signal is enough to enter
+  min_confidence: 0.20       # was hardcoded 0.30 — MACD alone gives 0.25
   news_sentiment_weight: 0.35
 
 universe_selection:

@@ -190,7 +190,8 @@ class TradingLoop:
             reasons.append("MACD crossover")
 
         momentum = price_data.get("momentum_5d", 0.0)
-        if abs(momentum) > 0.02:
+        mom_threshold = strategy.get("entry", {}).get("indicators", {}).get("momentum", {}).get("min_pct", 0.005)
+        if abs(momentum) > mom_threshold:
             signals_hit += 1
             confidence += 0.15
             direction = "long" if momentum > 0 else "short"
@@ -214,8 +215,9 @@ class TradingLoop:
             confidence = min(0.95, confidence * 1.15)
             reasons.append("High-impact news detected")
 
-        min_confluence = strategy.get("entry", {}).get("min_signal_confluence", 2)
-        go = signals_hit >= min_confluence and confidence >= 0.30
+        min_confluence = strategy.get("entry", {}).get("min_signal_confluence", 1)
+        min_conf_threshold = strategy.get("entry", {}).get("min_confidence", 0.20)
+        go = signals_hit >= min_confluence and confidence >= min_conf_threshold
 
         # Drawdown override check
         dd = self._drawdown_pct()
