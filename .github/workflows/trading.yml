@@ -1,0 +1,71 @@
+name: Hermes Trading Tick
+
+on:
+  schedule:
+    # Every 5 minutes — minimum GitHub Actions cron interval
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Log signals only, no trades'
+        type: boolean
+        default: false
+
+# Prevent overlapping runs — wait for current tick to finish before starting next
+concurrency:
+  group: trading-tick
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # needed to commit state back to repo
+
+jobs:
+  tick:
+    name: Trading Tick
+    runs-on: ubuntu-latest
+    timeout-minutes: 8   # each tick should complete in ~2 min; 8 min is a safe ceiling
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Always get the latest committed state (another tick may have just pushed)
+          ref: main
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run: uv sync --no-dev
+
+      - name: Run trading tick
+        run: |
+          FLAGS="--single-tick"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            FLAGS="$FLAGS --dry-run"
+          fi
+          uv run python -m hermes_trading.run $FLAGS
+        env:
+          HERMES_TRADING_MODE: paper
+          HERMES_TRADING_I_ACCEPT_RISK: 'false'
+          # Optional — add these as GitHub repo secrets if you have API keys:
+          # NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          # FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+
+      - name: Commit state changes
+        run: |
+          git config user.name "hermes-trading[bot]"
+          git config user.email "hermes-trading[bot]@users.noreply.github.com"
+          git add state/
+          # Only commit if something actually changed
+          if git diff --staged --quiet; then
+            echo "No state changes — nothing to commit."
+          else
+            git commit -m "tick: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            # Pull-rebase in case another tick committed while we were running
+            git pull --rebase origin main
+            git push origin main
+          fi

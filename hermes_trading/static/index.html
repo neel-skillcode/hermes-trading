@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hermes Trading — Live Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --bg2: #0f1628;
+    --bg3: #161e35;
+    --border: #1e2d4a;
+    --accent: #3b82f6;
+    --accent2: #6366f1;
+    --green: #10b981;
+    --red: #ef4444;
+    --yellow: #f59e0b;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --dim: #94a3b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px; min-height: 100vh; }
+
+  /* HEADER */
+  header {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .logo { display: flex; align-items: center; gap: 10px; }
+  .logo-icon { width: 28px; height: 28px; background: linear-gradient(135deg, var(--accent), var(--accent2)); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+  .logo-name { font-size: 15px; font-weight: 700; color: var(--text); letter-spacing: 0.5px; }
+  .logo-sub { font-size: 11px; color: var(--muted); }
+  .header-right { display: flex; align-items: center; gap: 16px; }
+  .status-badge { display: flex; align-items: center; gap: 6px; padding: 5px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; }
+  .status-badge.running { background: rgba(16,185,129,0.15); color: var(--green); border: 1px solid rgba(16,185,129,0.3); }
+  .status-badge.stopped { background: rgba(239,68,68,0.15); color: var(--red); border: 1px solid rgba(239,68,68,0.3); }
+  .status-badge.paper { background: rgba(245,158,11,0.15); color: var(--yellow); border: 1px solid rgba(245,158,11,0.3); }
+  .pulse { width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse 1.5s ease-in-out infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(0.8)} }
+  .last-update { font-size: 11px; color: var(--muted); }
+
+  /* GRID */
+  main { padding: 20px 24px; display: grid; gap: 16px; }
+  .kpi-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
+  .chart-row { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+  .table-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .full-row { width: 100%; }
+
+  /* CARDS */
+  .card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .card-title { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .kpi-val { font-size: 22px; font-weight: 700; line-height: 1; }
+  .kpi-sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .up { color: var(--green); }
+  .down { color: var(--red); }
+  .neutral { color: var(--dim); }
+
+  /* TARGET BAR */
+  .target-bar-wrap { margin-top: 8px; }
+  .target-bar-track { height: 4px; background: var(--border); border-radius: 2px; }
+  .target-bar-fill { height: 4px; border-radius: 2px; background: linear-gradient(90deg, var(--accent), var(--green)); transition: width 0.8s ease; }
+
+  /* CHART */
+  .chart-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .chart-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .chart-title { font-size: 12px; font-weight: 600; color: var(--text); }
+  .chart-container { position: relative; height: 220px; }
+
+  /* UNIVERSE SCAN */
+  .universe-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+
+  /* TABLES */
+  .table-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .table-wrap { overflow-x: auto; max-height: 280px; overflow-y: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding: 6px 8px; text-align: left; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg2); }
+  td { padding: 7px 8px; border-bottom: 1px solid rgba(30,45,74,0.5); vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(59,130,246,0.04); }
+  .badge { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+  .badge.long { background: rgba(16,185,129,0.15); color: var(--green); }
+  .badge.short { background: rgba(239,68,68,0.15); color: var(--red); }
+  .badge.open { background: rgba(59,130,246,0.15); color: var(--accent); }
+  .badge.closed { background: rgba(100,116,139,0.2); color: var(--dim); }
+
+  /* STRATEGY */
+  .strategy-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .strategy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+  .strategy-item { background: var(--bg3); border-radius: 6px; padding: 8px 10px; }
+  .strategy-key { font-size: 10px; color: var(--muted); margin-bottom: 3px; }
+  .strategy-val { font-size: 12px; font-weight: 600; color: var(--text); }
+
+  /* HYPOTHESES */
+  .hyp-item { background: var(--bg3); border-radius: 6px; padding: 10px; margin-bottom: 8px; border-left: 3px solid var(--accent2); }
+  .hyp-meta { display: flex; justify-content: space-between; font-size: 10px; color: var(--muted); margin-bottom: 4px; }
+  .hyp-change { font-size: 12px; font-weight: 600; color: var(--accent); }
+  .hyp-reason { font-size: 11px; color: var(--dim); margin-top: 4px; line-height: 1.5; }
+
+  /* LOG */
+  .log-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .log-box { background: var(--bg); border-radius: 6px; padding: 10px; max-height: 160px; overflow-y: auto; font-size: 11px; line-height: 1.8; }
+  .log-line { color: var(--dim); }
+  .log-line.enter { color: var(--green); }
+  .log-line.closed-win { color: var(--green); }
+  .log-line.closed-loss { color: var(--red); }
+  .log-line.skip { color: var(--muted); }
+
+  /* EMPTY */
+  .empty { text-align: center; padding: 24px; color: var(--muted); font-size: 12px; }
+
+  /* ALPACA BANNER */
+  .alpaca-banner { background: rgba(245,158,11,0.08); border: 1px solid rgba(245,158,11,0.25); border-radius: 8px; padding: 12px 16px; display: flex; align-items: center; gap: 10px; }
+  .alpaca-banner .icon { font-size: 18px; }
+  .alpaca-banner .text { font-size: 12px; color: var(--yellow); }
+  .alpaca-banner .text strong { color: #fbbf24; }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  @media (max-width: 1200px) {
+    .kpi-row { grid-template-columns: repeat(3, 1fr); }
+    .chart-row, .table-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">⚕</div>
+    <div>
+      <div class="logo-name">Hermes Trading</div>
+      <div class="logo-sub">Self-improving agent · Forex + US Equities</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <span class="status-badge paper" id="mode-badge"><span class="pulse"></span>PAPER MODE</span>
+    <span class="status-badge running" id="status-badge"><span class="pulse"></span>RUNNING</span>
+    <span class="last-update" id="last-update">Connecting...</span>
+  </div>
+</header>
+
+<main>
+
+  <!-- ALPACA NOTICE -->
+  <div class="alpaca-banner" id="alpaca-banner">
+    <span class="icon">⚠</span>
+    <div class="text">
+      <strong>Alpaca not connected.</strong>
+      Trades are simulated via yfinance prices. To execute real paper orders,
+      add <code>ALPACA_API_KEY</code> and <code>ALPACA_API_SECRET</code> to your
+      <code>~/hermes-trading/.env</code> and redeploy.
+    </div>
+  </div>
+
+  <!-- KPI ROW -->
+  <div class="kpi-row">
+    <div class="card">
+      <div class="card-title">Portfolio Value</div>
+      <div class="kpi-val" id="kpi-balance">$100,000</div>
+      <div class="kpi-sub">Starting: <span id="kpi-start">$100,000</span></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Total P&amp;L</div>
+      <div class="kpi-val" id="kpi-pnl">$0</div>
+      <div class="kpi-sub" id="kpi-pnl-pct">0.000%</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Target Progress</div>
+      <div class="kpi-val" id="kpi-progress">0%</div>
+      <div class="target-bar-wrap">
+        <div class="target-bar-track"><div class="target-bar-fill" id="target-bar" style="width:0%"></div></div>
+      </div>
+      <div class="kpi-sub">Target: <span id="kpi-target">+45%</span> in <span id="kpi-days">14d</span></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Drawdown</div>
+      <div class="kpi-val" id="kpi-dd">0.00%</div>
+      <div class="kpi-sub">Soft ceiling: <span id="kpi-dd-ceil">22.5%</span></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Win Rate</div>
+      <div class="kpi-val" id="kpi-winrate">—</div>
+      <div class="kpi-sub">Total trades: <span id="kpi-total">0</span></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Open Positions</div>
+      <div class="kpi-val" id="kpi-open">0</div>
+      <div class="kpi-sub">Strategy v<span id="kpi-ver">01</span></div>
+    </div>
+  </div>
+
+  <!-- CHART ROW -->
+  <div class="chart-row">
+    <div class="chart-card">
+      <div class="chart-header">
+        <span class="chart-title">Equity Curve</span>
+        <span class="last-update" id="equity-note">No trades yet — waiting for first signal</span>
+      </div>
+      <div class="chart-container">
+        <canvas id="equityChart"></canvas>
+      </div>
+    </div>
+
+    <div class="universe-card">
+      <div class="card-title" style="margin-bottom:10px">Universe Scan — Top Candidates</div>
+      <table id="universe-table">
+        <thead><tr>
+          <th>Asset</th><th>Score</th><th>RSI</th><th>Mom</th><th>News</th>
+        </tr></thead>
+        <tbody id="universe-body">
+          <tr><td colspan="5" class="empty">Awaiting next scan...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- OPEN POSITIONS + TRADES -->
+  <div class="table-row">
+    <div class="table-card">
+      <div class="card-title" style="margin-bottom:10px">Open Positions</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Asset</th><th>Dir</th><th>Entry</th><th>Size</th><th>SL</th><th>TP</th><th>Conf</th>
+          </tr></thead>
+          <tbody id="positions-body">
+            <tr><td colspan="7" class="empty">No open positions</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="table-card">
+      <div class="card-title" style="margin-bottom:10px">Recent Trades</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>Asset</th><th>Dir</th><th>P&amp;L</th><th>P&amp;L $</th><th>Exit</th><th>Reason</th>
+          </tr></thead>
+          <tbody id="trades-body">
+            <tr><td colspan="6" class="empty">No closed trades yet</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- STRATEGY + HYPOTHESES -->
+  <div class="table-row">
+    <div class="strategy-card">
+      <div class="card-title">Current Strategy</div>
+      <div class="strategy-grid" id="strategy-grid">
+        <div class="strategy-item"><div class="strategy-key">Version</div><div class="strategy-val">v01</div></div>
+      </div>
+    </div>
+
+    <div class="table-card">
+      <div class="card-title" style="margin-bottom:10px">Reflection Log — Hypotheses</div>
+      <div class="table-wrap" id="hyp-list">
+        <div class="empty">No reflections yet — first one fires Mon/Wed/Fri 09:30 ET</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+// ── Chart setup ──────────────────────────────────────────────────────────────
+const ctx = document.getElementById('equityChart').getContext('2d');
+const equityChart = new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: [],
+    datasets: [{
+      label: 'Portfolio Value',
+      data: [],
+      borderColor: '#3b82f6',
+      backgroundColor: 'rgba(59,130,246,0.08)',
+      borderWidth: 2,
+      pointRadius: 0,
+      pointHoverRadius: 4,
+      fill: true,
+      tension: 0.3,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    animation: { duration: 400 },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: '#0f1628',
+        borderColor: '#1e2d4a',
+        borderWidth: 1,
+        titleColor: '#94a3b8',
+        bodyColor: '#e2e8f0',
+        callbacks: {
+          label: ctx => '$' + ctx.parsed.y.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})
+        }
+      }
+    },
+    scales: {
+      x: {
+        display: false,
+      },
+      y: {
+        grid: { color: 'rgba(30,45,74,0.5)' },
+        ticks: {
+          color: '#64748b',
+          font: { size: 11 },
+          callback: v => '$' + (v/1000).toFixed(0) + 'k'
+        }
+      }
+    }
+  }
+});
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+const fmt = (n, d=2) => (n >= 0 ? '+' : '') + n.toFixed(d);
+const fmtMoney = n => (n >= 0 ? '+$' : '-$') + Math.abs(n).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtTime = iso => iso ? new Date(iso).toLocaleTimeString() : '—';
+const fmtDate = iso => iso ? new Date(iso).toLocaleDateString() + ' ' + new Date(iso).toLocaleTimeString() : '—';
+const colorClass = n => n > 0 ? 'up' : n < 0 ? 'down' : 'neutral';
+
+// ── State renderer ────────────────────────────────────────────────────────────
+function render(s) {
+  const p = s.portfolio;
+  const g = s.goal;
+
+  // Header
+  $('last-update').textContent = 'Updated ' + fmtTime(s.timestamp);
+  $('mode-badge').innerHTML = `<span class="pulse"></span>${s.mode.toUpperCase()} MODE`;
+  $('mode-badge').className = 'status-badge ' + (s.mode === 'live' ? 'running' : 'paper');
+  $('status-badge').className = 'status-badge ' + (s.status === 'running' ? 'running' : 'stopped');
+  $('status-badge').innerHTML = `<span class="pulse"></span>${s.status.toUpperCase()}`;
+
+  // Hide Alpaca banner if connected (future: check env flag from API)
+  // $('alpaca-banner').style.display = 'none';
+
+  // KPIs
+  $('kpi-balance').textContent = '$' + p.balance.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+  $('kpi-start').textContent = '$' + g.starting_balance.toLocaleString();
+  $('kpi-pnl').textContent = fmtMoney(p.total_pnl_usd);
+  $('kpi-pnl').className = 'kpi-val ' + colorClass(p.total_pnl_usd);
+  $('kpi-pnl-pct').textContent = fmt(p.total_pnl_pct, 3) + '%';
+
+  const progress = Math.min(100, Math.max(0, (p.total_pnl_pct / g.target_pct) * 100));
+  $('kpi-progress').textContent = fmt(p.total_pnl_pct, 2) + '%';
+  $('kpi-progress').className = 'kpi-val ' + colorClass(p.total_pnl_pct);
+  $('target-bar').style.width = progress + '%';
+  $('kpi-target').textContent = '+' + g.target_pct + '%';
+  $('kpi-days').textContent = g.timeframe_days + 'd';
+
+  const ddColor = p.drawdown_pct > g.soft_dd_ceiling ? 'down' : p.drawdown_pct > g.soft_dd_ceiling * 0.7 ? 'neutral' : 'up';
+  $('kpi-dd').textContent = p.drawdown_pct.toFixed(2) + '%';
+  $('kpi-dd').className = 'kpi-val ' + ddColor;
+  $('kpi-dd-ceil').textContent = g.soft_dd_ceiling + '%';
+
+  $('kpi-winrate').textContent = p.total_trades > 0 ? p.win_rate + '%' : '—';
+  $('kpi-winrate').className = 'kpi-val ' + (p.win_rate >= 50 ? 'up' : p.total_trades > 0 ? 'down' : 'neutral');
+  $('kpi-total').textContent = p.total_trades;
+
+  $('kpi-open').textContent = p.open_positions;
+  $('kpi-ver').textContent = (s.strategy.version || '01');
+
+  // Equity chart
+  if (s.equity_curve.length > 0) {
+    equityChart.data.labels = s.equity_curve.map(e => fmtTime(e.time));
+    equityChart.data.datasets[0].data = s.equity_curve.map(e => e.balance);
+    const startVal = s.equity_curve[0].balance;
+    const endVal = s.equity_curve[s.equity_curve.length - 1].balance;
+    equityChart.data.datasets[0].borderColor = endVal >= startVal ? '#10b981' : '#ef4444';
+    equityChart.data.datasets[0].backgroundColor = endVal >= startVal ? 'rgba(16,185,129,0.08)' : 'rgba(239,68,68,0.08)';
+    equityChart.update('none');
+    $('equity-note').textContent = s.equity_curve.length + ' data points';
+  } else {
+    $('equity-note').textContent = 'No trades yet — waiting for first signal';
+  }
+
+  // Open positions
+  const posBody = $('positions-body');
+  if (s.open_positions.length === 0) {
+    posBody.innerHTML = '<tr><td colspan="7" class="empty">No open positions</td></tr>';
+  } else {
+    posBody.innerHTML = s.open_positions.map(p => `
+      <tr>
+        <td><strong>${p.asset}</strong></td>
+        <td><span class="badge ${p.direction}">${p.direction.toUpperCase()}</span></td>
+        <td>${p.entry_price?.toFixed(5) ?? '—'}</td>
+        <td>$${(p.size_usd||0).toLocaleString(undefined,{maximumFractionDigits:0})}</td>
+        <td class="down">${((p.stop_loss_pct||0)*100).toFixed(2)}%</td>
+        <td class="up">${((p.take_profit_pct||0)*100).toFixed(2)}%</td>
+        <td>${((p.confidence||0)*100).toFixed(0)}%</td>
+      </tr>`).join('');
+  }
+
+  // Recent trades
+  const trBody = $('trades-body');
+  if (s.recent_trades.length === 0) {
+    trBody.innerHTML = '<tr><td colspan="6" class="empty">No closed trades yet</td></tr>';
+  } else {
+    trBody.innerHTML = s.recent_trades.slice(0, 30).map(t => {
+      const pnl = t.pnl_pct || 0;
+      const cls = pnl > 0 ? 'up' : 'down';
+      return `<tr>
+        <td><strong>${t.asset}</strong></td>
+        <td><span class="badge ${t.direction}">${(t.direction||'').toUpperCase()}</span></td>
+        <td class="${cls}">${fmt(pnl*100,2)}%</td>
+        <td class="${cls}">${fmtMoney(t.pnl_usd||0)}</td>
+        <td>${fmtTime(t.exit_time)}</td>
+        <td style="color:var(--muted)">${t.exit_reason||'—'}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  // Strategy
+  const strat = s.strategy;
+  const items = [
+    ['Version', 'v' + (strat.version || '01')],
+    ['RSI Oversold', strat.entry?.indicators?.rsi?.oversold ?? 30],
+    ['RSI Overbought', strat.entry?.indicators?.rsi?.overbought ?? 70],
+    ['Min Signals', strat.entry?.min_signal_confluence ?? 2],
+    ['News Weight', ((strat.entry?.news_sentiment_weight ?? 0.35) * 100).toFixed(0) + '%'],
+    ['Kelly Fraction', (strat.position_sizing?.kelly_fraction ?? 0.25)],
+    ['Max Position', ((strat.position_sizing?.max_position_pct ?? 0.20) * 100).toFixed(0) + '%'],
+    ['ATR Multiplier', strat.stop_loss?.base_atr_multiplier ?? 2.0],
+    ['R/R Ratio', strat.take_profit?.base_rr_ratio ?? 2.5],
+    ['MACD Fast', strat.entry?.indicators?.macd?.fast ?? 12],
+  ];
+  $('strategy-grid').innerHTML = items.map(([k, v]) =>
+    `<div class="strategy-item"><div class="strategy-key">${k}</div><div class="strategy-val">${v}</div></div>`
+  ).join('');
+
+  // Hypotheses
+  const hypList = $('hyp-list');
+  if (s.hypotheses.length === 0) {
+    hypList.innerHTML = '<div class="empty">No reflections yet — first one fires Mon/Wed/Fri 09:30 ET</div>';
+  } else {
+    hypList.innerHTML = s.hypotheses.slice(0, 8).map(h => `
+      <div class="hyp-item">
+        <div class="hyp-meta">
+          <span>${h.mode?.toUpperCase() || 'FALLBACK'} · v${h.version_from}→v${h.version_to}</span>
+          <span>${fmtDate(h.timestamp)}</span>
+        </div>
+        <div class="hyp-change">${h.variable}: ${h.old_value} → ${h.new_value}${h.confidence ? ' · conf ' + (h.confidence*100).toFixed(0)+'%' : ''}</div>
+        <div class="hyp-reason">${h.reasoning || ''}</div>
+      </div>`).join('');
+  }
+}
+
+// ── Universe scan — parse from last log poll (injected by SSE extra) ──────────
+function renderUniverse(candidates) {
+  const body = $('universe-body');
+  if (!candidates || candidates.length === 0) {
+    body.innerHTML = '<tr><td colspan="5" class="empty">Awaiting next scan...</td></tr>';
+    return;
+  }
+  body.innerHTML = candidates.map(c => {
+    const scoreColor = c.rank_score > 0.4 ? 'up' : c.rank_score > 0.25 ? 'neutral' : 'muted';
+    const news = c.news_sentiment ?? 0;
+    return `<tr>
+      <td><strong>${c.asset}</strong></td>
+      <td class="${scoreColor}">${c.rank_score?.toFixed(3) ?? '—'}</td>
+      <td class="${c.rsi > 70 ? 'down' : c.rsi < 30 ? 'up' : 'neutral'}">${c.rsi?.toFixed(1) ?? '—'}</td>
+      <td class="${(c.momentum_5d||0) > 0 ? 'up' : 'down'}">${((c.momentum_5d||0)*100).toFixed(2)}%</td>
+      <td class="${news > 0.1 ? 'up' : news < -0.1 ? 'down' : 'neutral'}">${news >= 0 ? '+' : ''}${news.toFixed(2)}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ── SSE connection ─────────────────────────────────────────────────────────────
+let retryDelay = 2000;
+
+function connect() {
+  const es = new EventSource('/api/stream');
+
+  es.onmessage = e => {
+    try {
+      const state = JSON.parse(e.data);
+      if (state.error) { console.warn('State error:', state.error); return; }
+      render(state);
+      // Universe candidates are attached if available
+      if (state.universe_candidates) renderUniverse(state.universe_candidates);
+      retryDelay = 2000;
+    } catch(err) { console.error('Parse error:', err); }
+  };
+
+  es.onerror = () => {
+    es.close();
+    $('status-badge').innerHTML = `<span class="pulse"></span>RECONNECTING`;
+    $('status-badge').className = 'status-badge stopped';
+    setTimeout(connect, retryDelay);
+    retryDelay = Math.min(retryDelay * 1.5, 30000);
+  };
+}
+
+// Initial load then stream
+fetch('/api/state')
+  .then(r => r.json())
+  .then(s => { render(s); })
+  .catch(() => {});
+
+connect();
+</script>
+</body>
+</html>

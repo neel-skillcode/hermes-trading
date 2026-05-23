@@ -1,0 +1,41 @@
+# Fly.io configuration for hermes-trading worker + dashboard
+app = "hermes-trading"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  HERMES_TRADING_MODE = "paper"
+  HERMES_TRADING_I_ACCEPT_RISK = "false"
+
+[processes]
+  worker = "/app/entrypoint.sh"
+
+# Expose the dashboard on port 8080
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["worker"]
+
+[[mounts]]
+  source = "hermes_state"
+  destination = "/app/state"
+  initial_size = "1gb"
+
+[[http_service.checks]]
+  grace_period = "30s"
+  interval = "15s"
+  method = "GET"
+  path = "/api/state"
+  timeout = "10s"
+
+[deploy]
+  strategy = "immediate"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

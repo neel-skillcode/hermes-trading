@@ -1,0 +1,40 @@
+version: "01"
+
+entry:
+  indicators:
+    rsi:
+      period: 14
+      oversold: 30
+      overbought: 70
+    macd:
+      fast: 12
+      slow: 26
+      signal: 9
+    momentum:
+      lookback_days: 5
+  min_signal_confluence: 2
+  news_sentiment_weight: 0.35
+
+universe_selection:
+  max_candidates: 5
+  min_momentum_score: 0.3
+  min_volume_percentile: 60
+  forex_weight: 0.4
+  equity_weight: 0.6
+
+position_sizing:
+  method: kelly_fractional
+  kelly_fraction: 0.25
+  max_position_pct: 0.20
+
+stop_loss:
+  base_atr_multiplier: 2.0
+  confidence_scale: true
+
+take_profit:
+  base_rr_ratio: 2.5
+  news_boost_max: 0.5
+
+regime_detection:
+  method: rolling_return_classifier
+  lookback_days: 20

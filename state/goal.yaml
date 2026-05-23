@@ -1,0 +1,39 @@
+universe:
+  forex: true
+  us_equities: true
+  exchanges: [NYSE, NASDAQ, AMEX]
+  ai_selection: true
+
+target_return_14d: 0.45
+target_range: [0.40, 0.50]
+timeframe_days: 14
+starting_balance: 100000.0
+
+stop_loss:
+  ai_decided: true
+  min_pct: 0.5
+  max_pct: 15.0
+
+max_drawdown:
+  soft_ceiling: 0.225
+  hard_ceiling: 0.40
+  ai_override: true
+  override_min_confidence: 0.85
+  override_requires_logged_justification: true
+
+min_sharpe:
+  ai_decided: true
+  floor: 0.8
+
+news_analysis:
+  required_per_trade: true
+  required_per_reflection: true
+  sentiment_min_confidence: 0.6
+
+reflection_schedule:
+  days: [MON, WED, FRI]
+  time_et: "09:30"
+  min_trades: 50
+  one_variable_only: true
+
+failure_below: -0.04

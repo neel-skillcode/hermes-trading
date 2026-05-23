@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+dist/
+build/
+*.egg-info/
+
+# State files are intentionally TRACKED in git — they persist across GitHub Actions runs.
+# Only ignore the runtime dashboard log (Fly.io artifact).
+state/dashboard.log
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hermes Trading — Live Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0a0e1a; --card: #111827; --border: #1f2937;
+      --green: #10b981; --red: #ef4444; --yellow: #f59e0b;
+      --accent: #6366f1; --text: #e5e7eb; --muted: #6b7280;
+      --card2: #0f172a;
+    }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+
+    /* ── Header ── */
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .logo { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; color: white; }
+    .logo span { color: var(--accent); }
+    .badges { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; align-items: center; }
+    .badge { padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+    .badge-paper { background: #1e3a5f; color: #60a5fa; }
+    .badge-green { background: #064e3b; color: var(--green); }
+    .badge-red   { background: #450a0a; color: var(--red); }
+    .badge-yellow{ background: #451a03; color: var(--yellow); }
+    #refresh-info { font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+    /* ── Grid ── */
+    main { max-width: 1400px; margin: 0 auto; padding: 20px; display: grid; gap: 16px; }
+
+    /* ── KPI cards ── */
+    .kpi-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+    .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .kpi-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); margin-bottom: 6px; }
+    .kpi-value { font-size: 26px; font-weight: 700; line-height: 1; }
+    .kpi-sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .up { color: var(--green); } .down { color: var(--red); } .neutral { color: var(--text); }
+
+    /* ── Two-column row ── */
+    .two-col { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+    @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* ── Cards ── */
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px; }
+    .card-title { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; }
+    .card-title span { color: var(--text); }
+
+    /* ── Chart ── */
+    .chart-wrap { position: relative; height: 220px; }
+
+    /* ── Tables ── */
+    .tbl-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { color: var(--muted); font-weight: 500; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 9px 10px; border-bottom: 1px solid #161f2e; white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1a2335; }
+    .mono { font-family: 'SF Mono', 'Fira Code', monospace; }
+
+    /* ── Strategy grid ── */
+    .param-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+    .param { background: var(--card2); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+    .param-key { font-size: 11px; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .param-val { font-size: 15px; font-weight: 600; font-family: monospace; }
+
+    /* ── Reflection log ── */
+    .hypothesis { background: var(--card2); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 12px 14px; margin-bottom: 8px; }
+    .hypothesis-header { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+    .hypothesis-text { font-size: 13px; line-height: 1.5; }
+
+    /* ── Empty state ── */
+    .empty { text-align: center; padding: 30px; color: var(--muted); font-size: 13px; }
+
+    /* ── Error banner ── */
+    #error-banner { display: none; background: #450a0a; border: 1px solid #7f1d1d; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; color: #fca5a5; font-size: 13px; }
+
+    /* ── Spinner ── */
+    #loading { position: fixed; top: 0; left: 0; right: 0; height: 2px; background: var(--accent); transform-origin: left; animation: loadbar 2s ease-in-out infinite; }
+    @keyframes loadbar { 0%{transform:scaleX(0)} 50%{transform:scaleX(0.7)} 100%{transform:scaleX(1); opacity:0; }  }
+
+    /* ── Countdown ring ── */
+    #countdown { font-size: 11px; color: var(--muted); padding: 3px 8px; border: 1px solid var(--border); border-radius: 12px; }
+  </style>
+</head>
+<body>
+<div id="loading"></div>
+<div id="data-source-bar" style="background:#0f172a;border-bottom:1px solid #1f2937;padding:4px 24px;font-size:11px;color:#4b5563;text-align:right;">
+  <span id="data-source-info">Initialising…</span>
+</div>
+
+<header>
+  <div class="logo">⚡ <span>Hermes</span> Trading</div>
+  <div class="badges">
+    <span class="badge badge-paper" id="mode-badge">PAPER</span>
+    <span class="badge" id="status-badge">—</span>
+    <span id="countdown">—</span>
+    <span id="refresh-info">Fetching...</span>
+  </div>
+</header>
+
+<main>
+  <div id="error-banner"></div>
+
+  <!-- KPI Row -->
+  <div class="kpi-grid">
+    <div class="kpi">
+      <div class="kpi-label">Portfolio Balance</div>
+      <div class="kpi-value neutral" id="kpi-balance">—</div>
+      <div class="kpi-sub">Starting $100,000</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Total P&amp;L</div>
+      <div class="kpi-value" id="kpi-pnl">—</div>
+      <div class="kpi-sub" id="kpi-pnl-pct">— vs target +45%</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Win Rate</div>
+      <div class="kpi-value" id="kpi-winrate">—</div>
+      <div class="kpi-sub" id="kpi-trades">— total trades</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Open Positions</div>
+      <div class="kpi-value neutral" id="kpi-open">—</div>
+      <div class="kpi-sub">max 5 simultaneous</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Drawdown</div>
+      <div class="kpi-value" id="kpi-dd">—</div>
+      <div class="kpi-sub">soft ceiling 22.5%</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Last Tick</div>
+      <div class="kpi-value neutral" style="font-size:16px" id="kpi-tick">—</div>
+      <div class="kpi-sub">every 5 min via Actions</div>
+    </div>
+  </div>
+
+  <!-- Equity Curve + Candidates -->
+  <div class="two-col">
+    <div class="card">
+      <div class="card-title">Equity Curve <span id="eq-label">—</span></div>
+      <div class="chart-wrap"><canvas id="equity-chart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Top Candidates <span id="scan-time">—</span></div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Asset</th><th>Score</th><th>RSI</th><th>Mom</th></tr></thead>
+          <tbody id="candidates-tbody"><tr><td colspan="4" class="empty">Waiting for first tick…</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Positions + Trades -->
+  <div class="two-col">
+    <div class="card">
+      <div class="card-title">Open Positions <span id="pos-count">0</span></div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Asset</th><th>Dir</th><th>Entry</th><th>Size</th><th>Stop</th><th>Target</th><th>Unrealised</th></tr></thead>
+          <tbody id="positions-tbody"><tr><td colspan="7" class="empty">No open positions.</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">Recent Trades <span id="trades-count">0</span></div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>Asset</th><th>Dir</th><th>P&amp;L %</th><th>Exit</th></tr></thead>
+          <tbody id="trades-tbody"><tr><td colspan="4" class="empty">No closed trades yet.</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strategy -->
+  <div class="card">
+    <div class="card-title">Strategy Parameters <span id="strat-version">—</span></div>
+    <div class="param-grid" id="param-grid"></div>
+  </div>
+
+  <!-- Reflections -->
+  <div class="card">
+    <div class="card-title">Reflection Log (Hypotheses)</div>
+    <div id="hypothesis-list"><div class="empty">No reflections yet — first one triggers Mon/Wed/Fri 09:30 ET after 50+ trades.</div></div>
+  </div>
+</main>
+
+<script>
+// ── Detect data source ─────────────────────────────────────────────────────
+// Priority: ?gist=GIST_ID URL param  →  GitHub Pages auto-detect  →  local dev
+(function detectSource() {
+  const params = new URLSearchParams(window.location.search);
+  const gistId = params.get('gist') || localStorage.getItem('hermes_gist_id');
+
+  if (gistId) {
+    // Gist mode: state files are served from the public Gist raw URL
+    localStorage.setItem('hermes_gist_id', gistId);
+    window.RAW_BASE = `https://gist.githubusercontent.com/raw/${gistId}`;
+    // Gist raw URL format: https://gist.githubusercontent.com/USER/ID/raw/FILENAME
+    // We use a simpler redirect-following form that works without the username
+    window.DATA_MODE = 'gist';
+    window.GIST_ID   = gistId;
+    document.getElementById('data-source-info').textContent = `Data: GitHub Gist ${gistId.slice(0,8)}… · refreshes every 30s`;
+  } else if (window.location.hostname.endsWith('github.io')) {
+    const user = window.location.hostname.split('.')[0];
+    const repo = window.location.pathname.replace(/^\//, '').split('/')[0] || 'hermes-trading';
+    window.RAW_BASE = `https://raw.githubusercontent.com/${user}/${repo}/main`;
+    window.DATA_MODE = 'github';
+    document.getElementById('data-source-info').textContent = `Data: github.com/${user}/${repo} · refreshes every 30s`;
+  } else {
+    window.RAW_BASE = '..';
+    window.DATA_MODE = 'local';
+    document.getElementById('data-source-info').textContent = 'Data: local files';
+  }
+})();
+
+// ── Chart setup ────────────────────────────────────────────────────────────
+let equityChart = null;
+function initChart() {
+  const ctx = document.getElementById('equity-chart').getContext('2d');
+  equityChart = new Chart(ctx, {
+    type: 'line',
+    data: { labels: [], datasets: [{ label: 'Portfolio ($)', data: [], borderWidth: 2, pointRadius: 0, tension: 0.3, fill: true }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { display: false },
+        y: { grid: { color: '#1f2937' }, ticks: { color: '#6b7280', callback: v => '$' + (v/1000).toFixed(0) + 'k' } }
+      },
+      animation: { duration: 400 }
+    }
+  });
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+const fmt$ = v => '$' + Number(v).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const fmtPct = v => (v >= 0 ? '+' : '') + Number(v).toFixed(2) + '%';
+const colorClass = v => Number(v) > 0 ? 'up' : Number(v) < 0 ? 'down' : 'neutral';
+const timeAgo = iso => {
+  if (!iso) return '—';
+  const d = Math.floor((Date.now() - new Date(iso)) / 1000);
+  if (d < 60) return d + 's ago';
+  if (d < 3600) return Math.floor(d/60) + 'm ago';
+  return Math.floor(d/3600) + 'h ago';
+};
+const shortTime = iso => iso ? new Date(iso).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) : '—';
+
+// ── Build URL for a state file ─────────────────────────────────────────────
+function stateUrl(filename) {
+  if (window.DATA_MODE === 'gist') {
+    // Public Gist raw URL (works without auth if gist is public)
+    return `https://gist.github.com/${window.GIST_ID}/raw/${filename}?t=${Date.now()}`;
+  }
+  return RAW_BASE + '/state/' + filename + '?' + Date.now();
+}
+
+// ── Fetch all state ────────────────────────────────────────────────────────
+async function fetchAll() {
+  try {
+    const [hb, tradesRaw, stratRaw, hypothesesRaw] = await Promise.all([
+      fetch(stateUrl('heartbeat.json')).then(r => r.ok ? r.json() : {}),
+      fetch(stateUrl('trades.jsonl')).then(r => r.ok ? r.text() : '').catch(() => ''),
+      fetch(stateUrl('strategy.yaml')).then(r => r.ok ? r.text() : '').catch(() => ''),
+      fetch(stateUrl('hypotheses.jsonl')).then(r => r.ok ? r.text() : '').catch(() => ''),
+    ]);
+
+    const trades = tradesRaw.trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+    const strategy = stratRaw ? jsyaml.load(stratRaw) || {} : {};
+    const hypotheses = hypothesesRaw.trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+
+    updateHeader(hb);
+    updateKPIs(hb, trades);
+    updateEquityCurve(trades, hb);
+    updateCandidates(hb);
+    updatePositions(trades);
+    updateRecentTrades(trades);
+    updateStrategy(strategy);
+    updateHypotheses(hypotheses);
+
+    document.getElementById('error-banner').style.display = 'none';
+    document.getElementById('refresh-info').textContent = 'Updated ' + new Date().toLocaleTimeString();
+  } catch (e) {
+    const b = document.getElementById('error-banner');
+    b.style.display = 'block';
+    b.textContent = 'Could not fetch state: ' + e.message + ' — next retry in 30s';
+  }
+}
+
+// ── Header badges ──────────────────────────────────────────────────────────
+function updateHeader(hb) {
+  const mode = (hb.mode || 'paper').toUpperCase();
+  document.getElementById('mode-badge').textContent = mode;
+  const status = hb.status || 'unknown';
+  const sb = document.getElementById('status-badge');
+  sb.textContent = status.toUpperCase();
+  sb.className = 'badge ' + (status === 'running' ? 'badge-green' : status === 'circuit_open' ? 'badge-red' : 'badge-yellow');
+}
+
+// ── KPIs ───────────────────────────────────────────────────────────────────
+function updateKPIs(hb, trades) {
+  const starting = 100000;
+  const balance  = hb.portfolio_balance || starting;
+  const peak     = hb.portfolio_peak    || starting;
+  const dd       = hb.portfolio_drawdown_pct || 0;
+  const closed   = trades.filter(t => t.status === 'closed');
+  const wins     = closed.filter(t => (t.pnl_pct || 0) > 0);
+  const totalPnl = closed.reduce((a, t) => a + (t.pnl_usd || 0), 0);
+  const pnlPct   = totalPnl / starting * 100;
+  const winRate  = closed.length ? (wins.length / closed.length * 100) : 0;
+  const openPos  = trades.filter(t => t.status === 'open');
+
+  el('kpi-balance').textContent = fmt$(balance);
+  el('kpi-balance').className = 'kpi-value ' + colorClass(balance - starting);
+
+  el('kpi-pnl').textContent = fmt$(totalPnl);
+  el('kpi-pnl').className = 'kpi-value ' + colorClass(totalPnl);
+  el('kpi-pnl-pct').textContent = fmtPct(pnlPct) + ' vs target +45%';
+
+  el('kpi-winrate').textContent = winRate.toFixed(1) + '%';
+  el('kpi-winrate').className = 'kpi-value ' + (winRate >= 55 ? 'up' : winRate >= 40 ? 'neutral' : 'down');
+  el('kpi-trades').textContent = closed.length + ' total trades';
+
+  el('kpi-open').textContent = openPos.length;
+  el('kpi-dd').textContent = fmtPct(-dd);
+  el('kpi-dd').className = 'kpi-value ' + (dd > 22.5 ? 'down' : dd > 10 ? 'neutral' : 'up');
+  el('kpi-tick').textContent = timeAgo(hb.last_tick);
+}
+
+// ── Equity curve ───────────────────────────────────────────────────────────
+function updateEquityCurve(trades, hb) {
+  const closed = trades.filter(t => t.status === 'closed' && t.exit_time);
+  const starting = 100000;
+  let balance = starting;
+  const labels = [], values = [];
+  for (const t of closed) {
+    balance += (t.pnl_usd || 0);
+    labels.push(shortTime(t.exit_time));
+    values.push(balance);
+  }
+  if (!values.length) { labels.push('Now'); values.push(starting); }
+
+  const color = values[values.length-1] >= starting ? '#10b981' : '#ef4444';
+  equityChart.data.labels = labels;
+  equityChart.data.datasets[0].data = values;
+  equityChart.data.datasets[0].borderColor = color;
+  equityChart.data.datasets[0].backgroundColor = color + '18';
+  equityChart.update('none');
+
+  const last = values[values.length-1];
+  const chg  = ((last - starting) / starting * 100).toFixed(2);
+  document.getElementById('eq-label').innerHTML = `<span class="${colorClass(last-starting)}">${fmtPct(parseFloat(chg))}</span>`;
+}
+
+// ── Universe candidates (from heartbeat) ───────────────────────────────────
+function updateCandidates(hb) {
+  const tbody = document.getElementById('candidates-tbody');
+  const cands = hb.last_candidates || [];
+  if (!cands.length) { tbody.innerHTML = '<tr><td colspan="4" class="empty">Waiting for universe scan…</td></tr>'; return; }
+  tbody.innerHTML = cands.slice(0, 8).map(c => `
+    <tr>
+      <td class="mono">${c.asset || '—'}</td>
+      <td>${(c.score || 0).toFixed(3)}</td>
+      <td class="${(c.rsi||50) < 35 ? 'up' : (c.rsi||50) > 65 ? 'down' : 'neutral'}">${(c.rsi||0).toFixed(1)}</td>
+      <td class="${colorClass(c.momentum_5d||0)}">${((c.momentum_5d||0)*100).toFixed(2)}%</td>
+    </tr>`).join('');
+  document.getElementById('scan-time').textContent = timeAgo(hb.last_tick);
+}
+
+// ── Open positions ─────────────────────────────────────────────────────────
+function updatePositions(trades) {
+  const open  = trades.filter(t => t.status === 'open');
+  const tbody = document.getElementById('positions-tbody');
+  document.getElementById('pos-count').textContent = open.length;
+  if (!open.length) { tbody.innerHTML = '<tr><td colspan="7" class="empty">No open positions.</td></tr>'; return; }
+  tbody.innerHTML = open.map(t => {
+    const unreal = ((t.current_price || t.entry_price || 0) - (t.entry_price||0)) * (t.shares||0) * (t.direction==='short'?-1:1);
+    return `<tr>
+      <td class="mono">${t.asset}</td>
+      <td class="${t.direction==='long'?'up':'down'}">${(t.direction||'').toUpperCase()}</td>
+      <td>${fmt$(t.entry_price||0)}</td>
+      <td>${(t.position_size_usd||0).toLocaleString('en-US',{maximumFractionDigits:0})}</td>
+      <td class="down">${fmt$(t.stop_loss||0)}</td>
+      <td class="up">${fmt$(t.take_profit||0)}</td>
+      <td class="${colorClass(unreal)}">${fmt$(unreal)}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ── Recent trades ──────────────────────────────────────────────────────────
+function updateRecentTrades(trades) {
+  const closed = trades.filter(t => t.status === 'closed').slice(-50).reverse();
+  const tbody  = document.getElementById('trades-tbody');
+  document.getElementById('trades-count').textContent = closed.length;
+  if (!closed.length) { tbody.innerHTML = '<tr><td colspan="4" class="empty">No closed trades yet.</td></tr>'; return; }
+  tbody.innerHTML = closed.slice(0,20).map(t => `
+    <tr>
+      <td class="mono">${t.asset}</td>
+      <td class="${t.direction==='long'?'up':'down'}">${(t.direction||'').toUpperCase()}</td>
+      <td class="${colorClass(t.pnl_pct||0)}">${fmtPct((t.pnl_pct||0)*100)}</td>
+      <td style="color:var(--muted)">${shortTime(t.exit_time)}</td>
+    </tr>`).join('');
+}
+
+// ── Strategy parameters ────────────────────────────────────────────────────
+function updateStrategy(s) {
+  document.getElementById('strat-version').textContent = 'v' + (s.version || '—');
+  const params = [
+    ['RSI Oversold',   s?.entry?.indicators?.rsi?.oversold ?? '—'],
+    ['RSI Overbought', s?.entry?.indicators?.rsi?.overbought ?? '—'],
+    ['MACD Fast',      s?.entry?.indicators?.macd?.fast ?? '—'],
+    ['MACD Slow',      s?.entry?.indicators?.macd?.slow ?? '—'],
+    ['Min Confluence', s?.entry?.min_signal_confluence ?? '—'],
+    ['News Weight',    s?.entry?.news_sentiment_weight ?? '—'],
+    ['Max Candidates', s?.universe_selection?.max_candidates ?? '—'],
+    ['Kelly Fraction', s?.position_sizing?.kelly_fraction ?? '—'],
+    ['Max Position %', ((s?.position_sizing?.max_position_pct ?? 0) * 100).toFixed(0) + '%'],
+    ['ATR Multiplier', s?.stop_loss?.base_atr_multiplier ?? '—'],
+    ['Risk/Reward',    s?.take_profit?.base_rr_ratio ?? '—'],
+    ['Forex Weight',   ((s?.universe_selection?.forex_weight ?? 0) * 100).toFixed(0) + '%'],
+  ];
+  document.getElementById('param-grid').innerHTML = params.map(([k, v]) => `
+    <div class="param">
+      <div class="param-key">${k}</div>
+      <div class="param-val">${v}</div>
+    </div>`).join('');
+}
+
+// ── Reflections ────────────────────────────────────────────────────────────
+function updateHypotheses(hyps) {
+  const div = document.getElementById('hypothesis-list');
+  if (!hyps.length) { div.innerHTML = '<div class="empty">No reflections yet — triggers Mon/Wed/Fri 09:30 ET after 50+ trades.</div>'; return; }
+  div.innerHTML = [...hyps].reverse().slice(0,5).map(h => `
+    <div class="hypothesis">
+      <div class="hypothesis-header">
+        <span>v${h.from_version || '?'} → v${h.to_version || '?'} &nbsp;|&nbsp; ${h.mode || 'fallback'}</span>
+        <span>${h.timestamp ? new Date(h.timestamp).toLocaleString() : '—'}</span>
+      </div>
+      <div class="hypothesis-text">${h.hypothesis || h.mutation_description || JSON.stringify(h.mutation || {})}</div>
+    </div>`).join('');
+}
+
+// ── Countdown ──────────────────────────────────────────────────────────────
+let nextRefresh = 30;
+function tick() {
+  document.getElementById('countdown').textContent = 'Refresh in ' + nextRefresh + 's';
+  nextRefresh--;
+  if (nextRefresh < 0) { nextRefresh = 30; fetchAll(); }
+}
+
+// ── Utility ────────────────────────────────────────────────────────────────
+function el(id) { return document.getElementById(id); }
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+initChart();
+fetchAll();
+setInterval(tick, 1000);
+</script>
+</body>
+</html>
