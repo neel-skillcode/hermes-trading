@@ -43,6 +43,33 @@ REFLECTION_DAYS = {"MON": 0, "WED": 2, "FRI": 4}
 console = Console()
 
 
+# ── Market hours helpers ──────────────────────────────────────────────────────
+
+def _is_equity(asset: str) -> bool:
+    """True if the asset is a US equity/ETF (not forex or crypto)."""
+    return "/" not in asset and not asset.endswith("-USD")
+
+def _us_market_open() -> bool:
+    """True during NYSE regular hours: Mon–Fri 09:30–16:00 ET."""
+    now = datetime.now(ET)
+    if now.weekday() >= 5:          # Saturday=5, Sunday=6
+        return False
+    mins = now.hour * 60 + now.minute
+    return 570 <= mins < 960        # 9:30 = 570, 16:00 = 960
+
+def _approaching_market_close() -> bool:
+    """True Mon–Fri 15:45–16:00 ET — day trades should be closed before bell."""
+    now = datetime.now(ET)
+    if now.weekday() >= 5:
+        return False
+    mins = now.hour * 60 + now.minute
+    return 945 <= mins < 960        # 15:45–16:00
+
+def _forex_or_crypto(asset: str) -> bool:
+    """True for assets that trade 24/7 (never need market-hours gate)."""
+    return "/" in asset or asset.endswith("-USD")
+
+
 # ── Circuit breaker ───────────────────────────────────────────────────────────
 
 class CircuitBreaker:
@@ -388,16 +415,58 @@ class TradingLoop:
 
     # ── Position management ───────────────────────────────────────────────────
 
+    async def _close_day_trades_eod(self):
+        """Force-close all open day trades at end of market day (called 15:45–16:00 ET)."""
+        day_positions = [(a, p) for a, p in list(self.open_positions.items())
+                         if p.get("trade_type") == "day" and _is_equity(a)]
+        if not day_positions:
+            return
+        console.print(f"[bold yellow]EOD sweep: force-closing {len(day_positions)} day trade(s) before bell[/bold yellow]")
+        for asset, pos in day_positions:
+            try:
+                current_price = await price_adapter.fetch_live(asset)
+                if not current_price:
+                    current_price = pos["entry_price"]
+                entry = pos["entry_price"]
+                direction = pos["direction"]
+                change_pct = (
+                    (current_price - entry) / entry
+                    if direction == "long"
+                    else (entry - current_price) / entry
+                )
+                pnl_usd = pos["size_usd"] * change_pct
+                self.portfolio_balance += pnl_usd
+                if self.portfolio_balance > self.portfolio_peak:
+                    self.portfolio_peak = self.portfolio_balance
+                trade_record = {
+                    **pos,
+                    "exit_price": current_price,
+                    "exit_time": datetime.now(timezone.utc).isoformat(),
+                    "pnl_pct": round(change_pct, 6),
+                    "pnl_usd": round(pnl_usd, 2),
+                    "exit_reason": "eod_close",
+                    "status": "closed",
+                }
+                self.open_positions.pop(asset)
+                self._log_trade(trade_record)
+                colour = "green" if pnl_usd >= 0 else "red"
+                console.print(f"[{colour}]EOD CLOSE {asset} pnl={change_pct:+.2%} (${pnl_usd:+.0f})[/{colour}]")
+            except Exception as e:
+                console.print(f"[yellow]EOD close failed for {asset}: {e}[/yellow]")
+        self._save_positions()
+
     async def _update_positions(self):
-        """Fetch current prices, apply trailing stop, close on SL/TP."""
+        """Fetch live prices, apply trailing stop, close on SL/TP."""
         to_close: list[tuple] = []
         updated: list[tuple] = []
 
         for asset, pos in list(self.open_positions.items()):
             try:
-                pd = await _with_retry(lambda a=asset: price_adapter.fetch(a))
-                current_price = pd.get("price", pos["entry_price"])
-                entry = pos["entry_price"]
+                # Use fast_info live price — doesn't rely on stale 1h bar closes
+                current_price = await price_adapter.fetch_live(asset)
+                if not current_price:
+                    current_price = pos["entry_price"]
+                entry    = pos["entry_price"]
                 direction = pos["direction"]
 
                 # Update trailing stop (no side-effects — returns new copy)
@@ -565,6 +634,17 @@ class TradingLoop:
             self._write_heartbeat()
             return
 
+        # 1b. End-of-day sweep: force-close equity day trades before bell
+        if _approaching_market_close():
+            await self._close_day_trades_eod()
+
+        market_open = _us_market_open()
+        if not market_open:
+            console.print(
+                f"[dim]US market closed — updating forex/crypto positions only; "
+                f"no new equity entries[/dim]"
+            )
+
         # 2. Macro context (best-effort)
         try:
             await _with_retry(macro_adapter.fetch, breaker=self.circuit_breaker)
@@ -632,6 +712,10 @@ class TradingLoop:
 
             signal = self._evaluate_signals(price_data, news_data, strategy)
             trade_type = self._determine_trade_type(price_data, signal)
+
+            # Gate: don't enter equity positions when US market is closed
+            if _is_equity(asset) and not market_open:
+                continue
 
             # Check type-specific capacity
             n_day  = sum(1 for p in self.open_positions.values() if p.get("trade_type") == "day")

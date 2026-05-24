@@ -120,6 +120,41 @@ def _volume_spike(volumes: np.ndarray, period: int = 20, threshold: float = 1.5)
     return {"spike": ratio >= threshold, "ratio": ratio}
 
 
+async def fetch_live(asset: str) -> float | None:
+    """
+    Fast, lightweight current-price lookup.
+    Uses yf.Ticker.fast_info (15-min delayed for equities, near-real-time for forex/crypto).
+    Falls back to most-recent 5m bar close if fast_info unavailable.
+    """
+    ticker = _to_yf_ticker(asset)
+
+    def _get() -> float | None:
+        t = yf.Ticker(ticker)
+        # fast_info is 10-100× faster than download()
+        try:
+            p = t.fast_info.last_price
+            if p is not None and float(p) > 0:
+                return float(p)
+        except Exception:
+            pass
+        # Fallback: last close from 5-minute bars (covers forex/crypto 24h)
+        try:
+            df = yf.download(ticker, period="1d", interval="5m",
+                             progress=False, auto_adjust=True)
+            if df is not None and not df.empty:
+                if isinstance(df.columns, pd.MultiIndex):
+                    cols = [c for c in df.columns if c[0] == "Close"]
+                    if cols:
+                        return float(df[cols[0]].iloc[-1])
+                else:
+                    return float(df["Close"].iloc[-1])
+        except Exception:
+            pass
+        return None
+
+    return await asyncio.get_event_loop().run_in_executor(None, _get)
+
+
 async def fetch(asset: str, period: str = "60d", interval: str = "1h") -> dict:
     ticker = _to_yf_ticker(asset)
 

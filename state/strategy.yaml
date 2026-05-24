@@ -54,11 +54,11 @@ universe_selection:
 # ── Position sizing ───────────────────────────────────────────────────────────
 position_sizing:
   method: kelly_fractional
-  kelly_fraction: 0.40        # fraction of the theoretical Kelly bet
+  kelly_fraction: 0.80        # aggressive Kelly — high confidence = big bet
   day_trade:
-    max_position_pct: 0.04    # max 4 % of portfolio per day trade ($4 000 on $100 k)
+    max_position_pct: 0.08    # max 8 % of portfolio per day trade ($8 000 on $100 k)
   swing_trade:
-    max_position_pct: 0.08    # max 8 % per swing ($8 000 on $100 k)
+    max_position_pct: 0.12    # max 12 % per swing ($12 000 on $100 k)
 
 # ── Stop loss ────────────────────────────────────────────────────────────────
 stop_loss:
