@@ -191,33 +191,17 @@
 </main>
 
 <script>
-// ── Detect data source ─────────────────────────────────────────────────────
-// Priority: ?gist=GIST_ID URL param  →  GitHub Pages auto-detect  →  local dev
-(function detectSource() {
-  const params = new URLSearchParams(window.location.search);
-  const gistId = params.get('gist') || localStorage.getItem('hermes_gist_id');
+// ── Data source: always raw.githubusercontent.com ──────────────────────────
+// Clear any stale localStorage from old Gist-mode experiments
+localStorage.removeItem('hermes_gist_id');
 
-  if (gistId) {
-    // Gist mode: state files are served from the public Gist raw URL
-    localStorage.setItem('hermes_gist_id', gistId);
-    window.RAW_BASE = `https://gist.githubusercontent.com/raw/${gistId}`;
-    // Gist raw URL format: https://gist.githubusercontent.com/USER/ID/raw/FILENAME
-    // We use a simpler redirect-following form that works without the username
-    window.DATA_MODE = 'gist';
-    window.GIST_ID   = gistId;
-    document.getElementById('data-source-info').textContent = `Data: GitHub Gist ${gistId.slice(0,8)}… · refreshes every 30s`;
-  } else if (window.location.hostname.endsWith('github.io')) {
-    const user = window.location.hostname.split('.')[0];
-    const repo = window.location.pathname.replace(/^\//, '').split('/')[0] || 'hermes-trading';
-    window.RAW_BASE = `https://raw.githubusercontent.com/${user}/${repo}/main`;
-    window.DATA_MODE = 'github';
-    document.getElementById('data-source-info').textContent = `Data: github.com/${user}/${repo} · refreshes every 30s`;
-  } else {
-    window.RAW_BASE = '..';
-    window.DATA_MODE = 'local';
-    document.getElementById('data-source-info').textContent = 'Data: local files';
-  }
-})();
+const RAW_BASE = 'https://raw.githubusercontent.com/neel-skillcode/hermes-trading/main';
+document.getElementById('data-source-info').textContent =
+  'Data: github.com/neel-skillcode/hermes-trading · auto-refreshes every 30s';
+
+function stateUrl(f) {
+  return RAW_BASE + '/state/' + f + '?t=' + Date.now();
+}
 
 // ── Chart setup ────────────────────────────────────────────────────────────
 let equityChart = null;
@@ -251,35 +235,33 @@ const timeAgo = iso => {
 };
 const shortTime = iso => iso ? new Date(iso).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) : '—';
 
-// ── Build URL for a state file ─────────────────────────────────────────────
-function stateUrl(filename) {
-  if (window.DATA_MODE === 'gist') {
-    // Public Gist raw URL (works without auth if gist is public)
-    return `https://gist.github.com/${window.GIST_ID}/raw/${filename}?t=${Date.now()}`;
-  }
-  return RAW_BASE + '/state/' + filename + '?' + Date.now();
-}
-
 // ── Fetch all state ────────────────────────────────────────────────────────
 async function fetchAll() {
   try {
-    const [hb, tradesRaw, stratRaw, hypothesesRaw] = await Promise.all([
-      fetch(stateUrl('heartbeat.json')).then(r => r.ok ? r.json() : {}),
-      fetch(stateUrl('trades.jsonl')).then(r => r.ok ? r.text() : '').catch(() => ''),
-      fetch(stateUrl('strategy.yaml')).then(r => r.ok ? r.text() : '').catch(() => ''),
-      fetch(stateUrl('hypotheses.jsonl')).then(r => r.ok ? r.text() : '').catch(() => ''),
+    const safeJson = r => r.ok ? r.json() : {};
+    const safeText = r => r.ok ? r.text() : '';
+    const [hb, tradesRaw, posObj, stratRaw, hypothesesRaw] = await Promise.all([
+      fetch(stateUrl('heartbeat.json')).then(safeJson).catch(() => ({})),
+      fetch(stateUrl('trades.jsonl')).then(safeText).catch(() => ''),
+      fetch(stateUrl('positions.json')).then(safeJson).catch(() => ({})),
+      fetch(stateUrl('strategy.yaml')).then(safeText).catch(() => ''),
+      fetch(stateUrl('hypotheses.jsonl')).then(safeText).catch(() => ''),
     ]);
 
-    const trades = tradesRaw.trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
-    const strategy = stratRaw ? jsyaml.load(stratRaw) || {} : {};
-    const hypotheses = hypothesesRaw.trim().split('\n').filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+    const parseJsonl = raw => raw.trim().split('\n').filter(Boolean)
+      .map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+
+    const closedTrades = parseJsonl(tradesRaw);   // trades.jsonl = closed only
+    const openPositions = Object.values(posObj);  // positions.json = open only
+    const strategy   = stratRaw ? jsyaml.load(stratRaw) || {} : {};
+    const hypotheses = parseJsonl(hypothesesRaw);
 
     updateHeader(hb);
-    updateKPIs(hb, trades);
-    updateEquityCurve(trades, hb);
+    updateKPIs(hb, closedTrades, openPositions);
+    updateEquityCurve(closedTrades, hb);
     updateCandidates(hb);
-    updatePositions(trades);
-    updateRecentTrades(trades);
+    updatePositions(openPositions);
+    updateRecentTrades(closedTrades);
     updateStrategy(strategy);
     updateHypotheses(hypotheses);
 
@@ -288,7 +270,8 @@ async function fetchAll() {
   } catch (e) {
     const b = document.getElementById('error-banner');
     b.style.display = 'block';
-    b.textContent = 'Could not fetch state: ' + e.message + ' — next retry in 30s';
+    b.textContent = 'Fetch error: ' + e.message;
+    console.error(e);
   }
 }
 
@@ -303,17 +286,15 @@ function updateHeader(hb) {
 }
 
 // ── KPIs ───────────────────────────────────────────────────────────────────
-function updateKPIs(hb, trades) {
-  const starting = 100000;
-  const balance  = hb.portfolio_balance || starting;
-  const peak     = hb.portfolio_peak    || starting;
-  const dd       = hb.portfolio_drawdown_pct || 0;
-  const closed   = trades.filter(t => t.status === 'closed');
-  const wins     = closed.filter(t => (t.pnl_pct || 0) > 0);
-  const totalPnl = closed.reduce((a, t) => a + (t.pnl_usd || 0), 0);
+function updateKPIs(hb, closedTrades, openPositions) {
+  const starting = hb.portfolio_balance !== undefined
+    ? 100000 : 100000;
+  const balance  = hb.portfolio_balance ?? starting;
+  const dd       = hb.portfolio_drawdown_pct ?? 0;
+  const wins     = closedTrades.filter(t => (t.pnl_pct || 0) > 0);
+  const totalPnl = closedTrades.reduce((a, t) => a + (t.pnl_usd || 0), 0);
   const pnlPct   = totalPnl / starting * 100;
-  const winRate  = closed.length ? (wins.length / closed.length * 100) : 0;
-  const openPos  = trades.filter(t => t.status === 'open');
+  const winRate  = closedTrades.length ? (wins.length / closedTrades.length * 100) : 0;
 
   el('kpi-balance').textContent = fmt$(balance);
   el('kpi-balance').className = 'kpi-value ' + colorClass(balance - starting);
@@ -324,9 +305,9 @@ function updateKPIs(hb, trades) {
 
   el('kpi-winrate').textContent = winRate.toFixed(1) + '%';
   el('kpi-winrate').className = 'kpi-value ' + (winRate >= 55 ? 'up' : winRate >= 40 ? 'neutral' : 'down');
-  el('kpi-trades').textContent = closed.length + ' total trades';
+  el('kpi-trades').textContent = closedTrades.length + ' closed trades';
 
-  el('kpi-open').textContent = openPos.length;
+  el('kpi-open').textContent = openPositions.length;
   el('kpi-dd').textContent = fmtPct(-dd);
   el('kpi-dd').className = 'kpi-value ' + (dd > 22.5 ? 'down' : dd > 10 ? 'neutral' : 'up');
   el('kpi-tick').textContent = timeAgo(hb.last_tick);
@@ -372,22 +353,24 @@ function updateCandidates(hb) {
   document.getElementById('scan-time').textContent = timeAgo(hb.last_tick);
 }
 
-// ── Open positions ─────────────────────────────────────────────────────────
-function updatePositions(trades) {
-  const open  = trades.filter(t => t.status === 'open');
+// ── Open positions (from positions.json) ───────────────────────────────────
+function updatePositions(openPositions) {
   const tbody = document.getElementById('positions-tbody');
-  document.getElementById('pos-count').textContent = open.length;
-  if (!open.length) { tbody.innerHTML = '<tr><td colspan="7" class="empty">No open positions.</td></tr>'; return; }
-  tbody.innerHTML = open.map(t => {
-    const unreal = ((t.current_price || t.entry_price || 0) - (t.entry_price||0)) * (t.shares||0) * (t.direction==='short'?-1:1);
+  document.getElementById('pos-count').textContent = openPositions.length;
+  if (!openPositions.length) {
+    tbody.innerHTML = '<tr><td colspan="6" class="empty">No open positions — bot is scanning for signals every 5 min.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = openPositions.map(t => {
+    const sl  = (t.entry_price || 0) * (t.direction === 'long' ? (1 - (t.stop_loss_pct||0)) : (1 + (t.stop_loss_pct||0)));
+    const tp  = (t.entry_price || 0) * (t.direction === 'long' ? (1 + (t.take_profit_pct||0)) : (1 - (t.take_profit_pct||0)));
     return `<tr>
       <td class="mono">${t.asset}</td>
-      <td class="${t.direction==='long'?'up':'down'}">${(t.direction||'').toUpperCase()}</td>
-      <td>${fmt$(t.entry_price||0)}</td>
-      <td>${(t.position_size_usd||0).toLocaleString('en-US',{maximumFractionDigits:0})}</td>
-      <td class="down">${fmt$(t.stop_loss||0)}</td>
-      <td class="up">${fmt$(t.take_profit||0)}</td>
-      <td class="${colorClass(unreal)}">${fmt$(unreal)}</td>
+      <td class="${t.direction==='long'?'up':'down'}">${(t.direction||'long').toUpperCase()}</td>
+      <td class="mono">${(t.entry_price||0).toFixed(5)}</td>
+      <td>$${(t.size_usd||0).toLocaleString('en-US',{maximumFractionDigits:0})}</td>
+      <td class="down mono">${sl.toFixed(5)}</td>
+      <td class="up mono">${tp.toFixed(5)}</td>
     </tr>`;
   }).join('');
 }

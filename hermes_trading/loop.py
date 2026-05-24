@@ -87,6 +87,7 @@ class TradingLoop:
         self.total_trades = 0
         self.trades_since_reflection = 0
         self.last_reflection_date: str | None = None
+        self.last_candidates: list = []   # stored for heartbeat / dashboard
         self.circuit_breaker = CircuitBreaker()
         self._load_state()
 
@@ -130,6 +131,7 @@ class TradingLoop:
             "trades_since_last_reflection": self.trades_since_reflection,
             # Include snapshot of open positions for the dashboard
             "open_position_list": list(self.open_positions.values()),
+            "last_candidates": self.last_candidates,
         }
         if extra:
             data.update(extra)
@@ -403,6 +405,7 @@ class TradingLoop:
             return
 
         candidates = universe.get("candidates", [])
+        self.last_candidates = candidates   # save for heartbeat / dashboard
         if not candidates:
             self._write_heartbeat()
             return
