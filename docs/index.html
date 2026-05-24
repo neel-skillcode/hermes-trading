@@ -112,9 +112,14 @@
       <div class="kpi-sub">Starting $100,000</div>
     </div>
     <div class="kpi">
-      <div class="kpi-label">Total P&amp;L</div>
+      <div class="kpi-label">Total P&amp;L (realized)</div>
       <div class="kpi-value" id="kpi-pnl">—</div>
       <div class="kpi-sub" id="kpi-pnl-pct">— vs target +45%</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Unrealized P&amp;L</div>
+      <div class="kpi-value" id="kpi-unrealized">—</div>
+      <div class="kpi-sub" id="kpi-equity">Equity value —</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">Win Rate</div>
@@ -161,8 +166,8 @@
       <div class="card-title">Open Positions <span id="pos-count">0</span> <span id="pos-breakdown" style="font-size:11px;color:var(--muted);font-weight:400"></span></div>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>Asset</th><th>Type</th><th>Dir</th><th>Entry</th><th>Size</th><th>Stop</th><th>Target</th></tr></thead>
-          <tbody id="positions-tbody"><tr><td colspan="7" class="empty">No open positions.</td></tr></tbody>
+          <thead><tr><th>Asset</th><th>Type</th><th>Dir</th><th>Entry</th><th>Live</th><th>Unreal P&amp;L</th><th>Size</th><th>Stop</th><th>Target</th></tr></thead>
+          <tbody id="positions-tbody"><tr><td colspan="9" class="empty">No open positions.</td></tr></tbody>
         </table>
       </div>
     </div>
@@ -311,6 +316,17 @@ function updateKPIs(hb, closedTrades, openPositions) {
   el('kpi-open').textContent = openPositions.length;
   el('kpi-open-sub').textContent = nDay + ' day · ' + nSwing + ' swing · max 20';
 
+  const unreal = hb.unrealized_pnl_usd ?? 0;
+  const equity = hb.equity_value ?? hb.portfolio_balance ?? starting;
+  el('kpi-unrealized').textContent = fmt$(unreal);
+  el('kpi-unrealized').className   = 'kpi-value ' + colorClass(unreal);
+  el('kpi-equity').textContent     = 'Equity ' + fmt$(equity);
+
+  const mktOpen = hb.market_open;
+  if (mktOpen !== undefined) {
+    el('kpi-tick').style.color = mktOpen ? 'var(--green)' : 'var(--yellow)';
+  }
+
   el('kpi-dd').textContent = fmtPct(-dd);
   el('kpi-dd').className = 'kpi-value ' + (dd > 22.5 ? 'down' : dd > 10 ? 'neutral' : 'up');
   el('kpi-tick').textContent = timeAgo(hb.last_tick);
@@ -374,7 +390,7 @@ function updatePositions(openPositions) {
   const pb = document.getElementById('pos-breakdown');
   if (pb) pb.textContent = openPositions.length ? `${nDay} day · ${nSwing} swing` : '';
   if (!openPositions.length) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty">No open positions — bot scanning 90+ assets every 5 min.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="9" class="empty">No open positions — bot scanning 90+ assets every 5 min.</td></tr>';
     return;
   }
   tbody.innerHTML = openPositions.map(t => {
@@ -384,14 +400,19 @@ function updatePositions(openPositions) {
     const slDisplay = trailPrice ? trailPrice : sl;
     const slLabel = trailPrice ? '⟳' + slDisplay.toFixed(4) : sl.toFixed(4);
     const typeColor = t.trade_type === 'day' ? 'var(--yellow)' : 'var(--accent)';
+    const live = t.current_price || t.entry_price || 0;
+    const unreal = t.unrealized_pnl_usd || 0;
+    const unrealPct = (t.unrealized_pnl_pct || 0) * 100;
     return `<tr>
       <td class="mono">${t.asset}</td>
       <td style="color:${typeColor};font-size:11px;font-weight:600">${(t.trade_type||'?').toUpperCase()}</td>
       <td class="${t.direction==='long'?'up':'down'}">${(t.direction||'long').toUpperCase()}</td>
-      <td class="mono">${(t.entry_price||0).toPrecision(5)}</td>
+      <td class="mono" style="font-size:12px">${(t.entry_price||0).toPrecision(5)}</td>
+      <td class="mono ${colorClass(unreal)}" style="font-size:12px">${live.toPrecision(5)}</td>
+      <td class="${colorClass(unreal)}" style="font-weight:600">${fmtPct(unrealPct)}<br><span style="font-size:11px">${unreal>=0?'+':''}$${Math.abs(unreal).toFixed(0)}</span></td>
       <td>$${(t.size_usd||0).toLocaleString('en-US',{maximumFractionDigits:0})}</td>
-      <td class="down mono" style="font-size:12px">${slLabel}</td>
-      <td class="up mono" style="font-size:12px">${tp.toFixed(4)}</td>
+      <td class="down mono" style="font-size:11px">${slLabel}</td>
+      <td class="up mono" style="font-size:11px">${tp.toPrecision(5)}</td>
     </tr>`;
   }).join('');
 }

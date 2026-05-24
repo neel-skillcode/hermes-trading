@@ -169,11 +169,34 @@ class TradingLoop:
         n_swing = sum(1 for p in self.open_positions.values() if p.get("trade_type") == "swing")
         day_usd = sum(p.get("size_usd", 0) for p in self.open_positions.values() if p.get("trade_type") == "day")
         sw_usd  = sum(p.get("size_usd", 0) for p in self.open_positions.values() if p.get("trade_type") == "swing")
+
+        # Build a current-price lookup from the latest scan so we can show unrealized P&L
+        price_lookup: dict[str, float] = {c["asset"]: c["price"] for c in self.last_candidates if c.get("price")}
+
+        total_unrealized_usd = 0.0
+        pos_list = []
+        for pos in self.open_positions.values():
+            asset = pos["asset"]
+            entry = pos["entry_price"]
+            current = price_lookup.get(asset, entry)
+            direction = pos.get("direction", "long")
+            pct = (current - entry) / entry if direction == "long" else (entry - current) / entry
+            unreal_usd = pos.get("size_usd", 0) * pct
+            total_unrealized_usd += unreal_usd
+            pos_list.append({
+                **pos,
+                "current_price": round(current, 6),
+                "unrealized_pnl_pct": round(pct, 6),
+                "unrealized_pnl_usd": round(unreal_usd, 2),
+            })
+
         data = {
             "status": "running",
             "portfolio_balance": round(self.portfolio_balance, 2),
             "portfolio_peak": round(self.portfolio_peak, 2),
             "portfolio_drawdown_pct": round(dd * 100, 2),
+            "unrealized_pnl_usd": round(total_unrealized_usd, 2),
+            "equity_value": round(self.portfolio_balance + total_unrealized_usd, 2),
             "open_positions": len(self.open_positions),
             "day_trades_open": n_day,
             "swing_trades_open": n_swing,
@@ -184,7 +207,8 @@ class TradingLoop:
             "last_reflection": self.last_reflection_date,
             "trades_since_last_reflection": self.trades_since_reflection,
             "universe_scanned": self.last_scan_total,
-            "open_position_list": list(self.open_positions.values()),
+            "market_open": _us_market_open(),
+            "open_position_list": pos_list,
             "last_candidates": self.last_candidates,
         }
         if extra:
@@ -465,6 +489,7 @@ class TradingLoop:
                 # Use fast_info live price — doesn't rely on stale 1h bar closes
                 current_price = await price_adapter.fetch_live(asset)
                 if not current_price:
+                    console.print(f"[dim yellow]{asset}: fetch_live returned None — skipping[/dim yellow]")
                     current_price = pos["entry_price"]
                 entry    = pos["entry_price"]
                 direction = pos["direction"]
@@ -490,6 +515,12 @@ class TradingLoop:
                     elif direction == "short" and current_price >= trailing:
                         to_close.append((asset, current_price, "trailing_stop", change_pct))
                         continue
+
+                console.print(
+                    f"[dim]{asset} [{pos.get('trade_type','?')}] {direction} "
+                    f"entry={entry:.5g} live={current_price:.5g} "
+                    f"Δ={change_pct:+.2%} SL={-stop_pct:.2%} TP=+{tp_pct:.2%}[/dim]"
+                )
 
                 if change_pct <= -stop_pct:
                     to_close.append((asset, current_price, "stop_loss", change_pct))
