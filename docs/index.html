@@ -124,7 +124,7 @@
     <div class="kpi">
       <div class="kpi-label">Open Positions</div>
       <div class="kpi-value neutral" id="kpi-open">—</div>
-      <div class="kpi-sub">max 5 simultaneous</div>
+      <div class="kpi-sub" id="kpi-open-sub">max 20 simultaneous</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">Drawdown</div>
@@ -145,11 +145,11 @@
       <div class="chart-wrap"><canvas id="equity-chart"></canvas></div>
     </div>
     <div class="card">
-      <div class="card-title">Top Candidates <span id="scan-time">—</span></div>
+      <div class="card-title">Universe Scan <span id="scan-time">—</span></div>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>Asset</th><th>Score</th><th>RSI</th><th>Mom</th></tr></thead>
-          <tbody id="candidates-tbody"><tr><td colspan="4" class="empty">Waiting for first tick…</td></tr></tbody>
+          <thead><tr><th>Asset</th><th>Score</th><th>RSI</th><th>1d Mom</th><th>BB%b</th><th>Vol↑</th><th>News</th></tr></thead>
+          <tbody id="candidates-tbody"><tr><td colspan="7" class="empty">Waiting for first tick…</td></tr></tbody>
         </table>
       </div>
     </div>
@@ -158,10 +158,10 @@
   <!-- Positions + Trades -->
   <div class="two-col">
     <div class="card">
-      <div class="card-title">Open Positions <span id="pos-count">0</span></div>
+      <div class="card-title">Open Positions <span id="pos-count">0</span> <span id="pos-breakdown" style="font-size:11px;color:var(--muted);font-weight:400"></span></div>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>Asset</th><th>Dir</th><th>Entry</th><th>Size</th><th>Stop</th><th>Target</th><th>Unrealised</th></tr></thead>
+          <thead><tr><th>Asset</th><th>Type</th><th>Dir</th><th>Entry</th><th>Size</th><th>Stop</th><th>Target</th></tr></thead>
           <tbody id="positions-tbody"><tr><td colspan="7" class="empty">No open positions.</td></tr></tbody>
         </table>
       </div>
@@ -287,8 +287,7 @@ function updateHeader(hb) {
 
 // ── KPIs ───────────────────────────────────────────────────────────────────
 function updateKPIs(hb, closedTrades, openPositions) {
-  const starting = hb.portfolio_balance !== undefined
-    ? 100000 : 100000;
+  const starting = 100000;
   const balance  = hb.portfolio_balance ?? starting;
   const dd       = hb.portfolio_drawdown_pct ?? 0;
   const wins     = closedTrades.filter(t => (t.pnl_pct || 0) > 0);
@@ -307,7 +306,11 @@ function updateKPIs(hb, closedTrades, openPositions) {
   el('kpi-winrate').className = 'kpi-value ' + (winRate >= 55 ? 'up' : winRate >= 40 ? 'neutral' : 'down');
   el('kpi-trades').textContent = closedTrades.length + ' closed trades';
 
+  const nDay   = hb.day_trades_open ?? openPositions.filter(p => p.trade_type === 'day').length;
+  const nSwing = hb.swing_trades_open ?? openPositions.filter(p => p.trade_type === 'swing').length;
   el('kpi-open').textContent = openPositions.length;
+  el('kpi-open-sub').textContent = nDay + ' day · ' + nSwing + ' swing · max 20';
+
   el('kpi-dd').textContent = fmtPct(-dd);
   el('kpi-dd').className = 'kpi-value ' + (dd > 22.5 ? 'down' : dd > 10 ? 'neutral' : 'up');
   el('kpi-tick').textContent = timeAgo(hb.last_tick);
@@ -342,35 +345,53 @@ function updateEquityCurve(trades, hb) {
 function updateCandidates(hb) {
   const tbody = document.getElementById('candidates-tbody');
   const cands = hb.last_candidates || [];
-  if (!cands.length) { tbody.innerHTML = '<tr><td colspan="4" class="empty">Waiting for universe scan…</td></tr>'; return; }
-  tbody.innerHTML = cands.slice(0, 8).map(c => `
-    <tr>
+  const total = hb.universe_scanned || 0;
+  if (!cands.length) { tbody.innerHTML = '<tr><td colspan="7" class="empty">Waiting for universe scan…</td></tr>'; return; }
+  tbody.innerHTML = cands.slice(0, 15).map(c => {
+    const pctb  = c.bollinger_pct_b ?? 0.5;
+    const pctbCls = pctb <= 0.15 ? 'up' : pctb >= 0.85 ? 'down' : 'neutral';
+    const rsiCls  = (c.rsi||50) < 40 ? 'up' : (c.rsi||50) > 60 ? 'down' : 'neutral';
+    return `<tr>
       <td class="mono">${c.asset || '—'}</td>
-      <td>${(c.score || 0).toFixed(3)}</td>
-      <td class="${(c.rsi||50) < 35 ? 'up' : (c.rsi||50) > 65 ? 'down' : 'neutral'}">${(c.rsi||0).toFixed(1)}</td>
-      <td class="${colorClass(c.momentum_5d||0)}">${((c.momentum_5d||0)*100).toFixed(2)}%</td>
-    </tr>`).join('');
-  document.getElementById('scan-time').textContent = timeAgo(hb.last_tick);
+      <td>${(c.rank_score || 0).toFixed(3)}</td>
+      <td class="${rsiCls}">${(c.rsi||0).toFixed(1)}</td>
+      <td class="${colorClass(c.momentum_1d||0)}">${((c.momentum_1d||0)*100).toFixed(2)}%</td>
+      <td class="${pctbCls}">${pctb.toFixed(2)}</td>
+      <td style="color:${c.volume_spike ? 'var(--green)' : 'var(--muted)'}">${c.volume_spike ? '✓' : '·'}</td>
+      <td class="${colorClass(c.news_sentiment||0)}">${(c.news_sentiment||0) > 0 ? '+' : ''}${(c.news_sentiment||0).toFixed(2)}</td>
+    </tr>`;
+  }).join('');
+  const scanInfo = total ? `${total} scanned · ` : '';
+  document.getElementById('scan-time').textContent = scanInfo + timeAgo(hb.last_tick);
 }
 
 // ── Open positions (from positions.json) ───────────────────────────────────
 function updatePositions(openPositions) {
   const tbody = document.getElementById('positions-tbody');
   document.getElementById('pos-count').textContent = openPositions.length;
+  const nDay   = openPositions.filter(p => p.trade_type === 'day').length;
+  const nSwing = openPositions.filter(p => p.trade_type === 'swing').length;
+  const pb = document.getElementById('pos-breakdown');
+  if (pb) pb.textContent = openPositions.length ? `${nDay} day · ${nSwing} swing` : '';
   if (!openPositions.length) {
-    tbody.innerHTML = '<tr><td colspan="6" class="empty">No open positions — bot is scanning for signals every 5 min.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="7" class="empty">No open positions — bot scanning 90+ assets every 5 min.</td></tr>';
     return;
   }
   tbody.innerHTML = openPositions.map(t => {
-    const sl  = (t.entry_price || 0) * (t.direction === 'long' ? (1 - (t.stop_loss_pct||0)) : (1 + (t.stop_loss_pct||0)));
-    const tp  = (t.entry_price || 0) * (t.direction === 'long' ? (1 + (t.take_profit_pct||0)) : (1 - (t.take_profit_pct||0)));
+    const sl = (t.entry_price || 0) * (t.direction === 'long' ? (1 - (t.stop_loss_pct||0)) : (1 + (t.stop_loss_pct||0)));
+    const tp = (t.entry_price || 0) * (t.direction === 'long' ? (1 + (t.take_profit_pct||0)) : (1 - (t.take_profit_pct||0)));
+    const trailPrice = t.trailing_stop_price;
+    const slDisplay = trailPrice ? trailPrice : sl;
+    const slLabel = trailPrice ? '⟳' + slDisplay.toFixed(4) : sl.toFixed(4);
+    const typeColor = t.trade_type === 'day' ? 'var(--yellow)' : 'var(--accent)';
     return `<tr>
       <td class="mono">${t.asset}</td>
+      <td style="color:${typeColor};font-size:11px;font-weight:600">${(t.trade_type||'?').toUpperCase()}</td>
       <td class="${t.direction==='long'?'up':'down'}">${(t.direction||'long').toUpperCase()}</td>
-      <td class="mono">${(t.entry_price||0).toFixed(5)}</td>
+      <td class="mono">${(t.entry_price||0).toPrecision(5)}</td>
       <td>$${(t.size_usd||0).toLocaleString('en-US',{maximumFractionDigits:0})}</td>
-      <td class="down mono">${sl.toFixed(5)}</td>
-      <td class="up mono">${tp.toFixed(5)}</td>
+      <td class="down mono" style="font-size:12px">${slLabel}</td>
+      <td class="up mono" style="font-size:12px">${tp.toFixed(4)}</td>
     </tr>`;
   }).join('');
 }
@@ -393,19 +414,28 @@ function updateRecentTrades(trades) {
 // ── Strategy parameters ────────────────────────────────────────────────────
 function updateStrategy(s) {
   document.getElementById('strat-version').textContent = 'v' + (s.version || '—');
+  const pct = (v, d=0) => v != null ? ((v*100).toFixed(d) + '%') : '—';
   const params = [
-    ['RSI Oversold',   s?.entry?.indicators?.rsi?.oversold ?? '—'],
-    ['RSI Overbought', s?.entry?.indicators?.rsi?.overbought ?? '—'],
-    ['MACD Fast',      s?.entry?.indicators?.macd?.fast ?? '—'],
-    ['MACD Slow',      s?.entry?.indicators?.macd?.slow ?? '—'],
-    ['Min Confluence', s?.entry?.min_signal_confluence ?? '—'],
-    ['News Weight',    s?.entry?.news_sentiment_weight ?? '—'],
-    ['Max Candidates', s?.universe_selection?.max_candidates ?? '—'],
-    ['Kelly Fraction', s?.position_sizing?.kelly_fraction ?? '—'],
-    ['Max Position %', ((s?.position_sizing?.max_position_pct ?? 0) * 100).toFixed(0) + '%'],
-    ['ATR Multiplier', s?.stop_loss?.base_atr_multiplier ?? '—'],
-    ['Risk/Reward',    s?.take_profit?.base_rr_ratio ?? '—'],
-    ['Forex Weight',   ((s?.universe_selection?.forex_weight ?? 0) * 100).toFixed(0) + '%'],
+    ['RSI Oversold',      s?.entry?.indicators?.rsi?.oversold ?? '—'],
+    ['RSI Overbought',    s?.entry?.indicators?.rsi?.overbought ?? '—'],
+    ['BB Low Threshold',  s?.entry?.indicators?.bollinger?.entry_pct_b_low ?? '—'],
+    ['BB High Threshold', s?.entry?.indicators?.bollinger?.entry_pct_b_high ?? '—'],
+    ['Vol Spike ×',       s?.entry?.indicators?.volume_spike?.multiplier ?? '—'],
+    ['1d Mom Threshold',  pct(s?.entry?.indicators?.momentum_1d?.min_pct, 2)],
+    ['Min Confluence',    s?.entry?.min_signal_confluence ?? '—'],
+    ['Min Confidence',    s?.entry?.min_confidence ?? '—'],
+    ['Max Positions',     s?.universe_selection?.max_positions ?? '—'],
+    ['Max Day Trades',    s?.universe_selection?.max_day_trades ?? '—'],
+    ['Max Swing Trades',  s?.universe_selection?.max_swing_trades ?? '—'],
+    ['Day Capital',       pct(s?.universe_selection?.day_trade_capital_pct)],
+    ['Swing Capital',     pct(s?.universe_selection?.swing_capital_pct)],
+    ['Cash Reserve',      pct(s?.universe_selection?.cash_reserve_pct)],
+    ['Kelly Fraction',    s?.position_sizing?.kelly_fraction ?? '—'],
+    ['Day Max Size',      pct(s?.position_sizing?.day_trade?.max_position_pct)],
+    ['Swing Max Size',    pct(s?.position_sizing?.swing_trade?.max_position_pct)],
+    ['Day RR Ratio',      s?.take_profit?.day_trade?.rr_ratio ?? '—'],
+    ['Swing RR Ratio',    s?.take_profit?.swing_trade?.rr_ratio ?? '—'],
+    ['Trailing Stop',     s?.stop_loss?.trailing ? 'ON' : 'OFF'],
   ];
   document.getElementById('param-grid').innerHTML = params.map(([k, v]) => `
     <div class="param">

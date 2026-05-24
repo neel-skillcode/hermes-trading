@@ -1,42 +1,86 @@
-version: "02"
+version: "03"
 
+# ── Entry signals ────────────────────────────────────────────────────────────
 entry:
   indicators:
     rsi:
       period: 14
-      oversold: 45      # loosened: was 30 — now catches real dips not just crashes
-      overbought: 62    # loosened: was 70 — catches momentum tops earlier
+      oversold: 40        # long signal
+      overbought: 60      # short signal
     macd:
       fast: 12
       slow: 26
       signal: 9
     momentum:
       lookback_days: 5
-      min_pct: 0.005    # 0.5% move threshold (was 2% hardcoded — far too strict)
-  min_signal_confluence: 1   # 1 strong signal is enough to enter
-  min_confidence: 0.20       # was hardcoded 0.30 — MACD alone gives 0.25
-  news_sentiment_weight: 0.35
+      min_pct: 0.003      # 0.3% 5-day move to count
+    momentum_1d:
+      min_pct: 0.004      # 0.4% intraday move triggers day-trade signal
+    bollinger:
+      period: 20
+      std_dev: 2.0
+      entry_pct_b_low: 0.15   # below this → long (oversold)
+      entry_pct_b_high: 0.85  # above this → short (overbought)
+    volume_spike:
+      multiplier: 1.5     # current volume ≥ 1.5× 20-bar avg = confirmation
+  min_signal_confluence: 1   # just 1 strong signal is enough
+  min_confidence: 0.15       # very low floor — let the market decide
+  news_sentiment_weight: 0.25
 
+# ── Universe ─────────────────────────────────────────────────────────────────
 universe_selection:
-  max_candidates: 5
-  min_momentum_score: 0.3
-  min_volume_percentile: 60
-  forex_weight: 0.4
-  equity_weight: 0.6
+  # Position capacity
+  max_positions: 20          # total open positions at once
+  max_day_trades: 12         # subset: intraday/scalp
+  max_swing_trades: 10       # subset: multi-day holds (overlap with day OK up to 20)
 
+  # Capital allocation
+  day_trade_capital_pct: 0.40    # 40 % of portfolio for day trades
+  swing_capital_pct: 0.50        # 50 % for swing trades
+  cash_reserve_pct: 0.10         # 10 % always liquid — never traded
+
+  # Asset-class weights in universe scan
+  forex_weight: 0.35
+  equity_weight: 0.55
+  crypto_weight: 0.10
+
+  # Ranking filters
+  min_momentum_score: 0.15       # minimum rank_score to be a candidate
+  min_volume_percentile: 50
+
+  # How many appear in dashboard scan table
+  display_candidates: 20
+
+# ── Position sizing ───────────────────────────────────────────────────────────
 position_sizing:
   method: kelly_fractional
-  kelly_fraction: 0.25
-  max_position_pct: 0.20
+  kelly_fraction: 0.40        # fraction of the theoretical Kelly bet
+  day_trade:
+    max_position_pct: 0.04    # max 4 % of portfolio per day trade ($4 000 on $100 k)
+  swing_trade:
+    max_position_pct: 0.08    # max 8 % per swing ($8 000 on $100 k)
 
+# ── Stop loss ────────────────────────────────────────────────────────────────
 stop_loss:
-  base_atr_multiplier: 2.0
-  confidence_scale: true
+  trailing: true              # ratchet stop in direction of profit
+  day_trade:
+    atr_multiplier: 0.8       # tight — day trades exit fast
+    min_pct: 0.002            # never tighter than 0.2 %
+    max_pct: 0.015            # never wider than 1.5 %
+  swing_trade:
+    atr_multiplier: 2.5       # wide — room to breathe
+    min_pct: 0.008
+    max_pct: 0.06
 
+# ── Take profit ──────────────────────────────────────────────────────────────
 take_profit:
-  base_rr_ratio: 2.5
+  day_trade:
+    rr_ratio: 2.0             # 2:1 reward-to-risk for day trades
+  swing_trade:
+    rr_ratio: 3.0             # 3:1 for swing
   news_boost_max: 0.5
 
+# ── Regime detection ─────────────────────────────────────────────────────────
 regime_detection:
   method: rolling_return_classifier
   lookback_days: 20

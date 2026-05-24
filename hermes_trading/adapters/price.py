@@ -88,6 +88,38 @@ def _momentum(closes: np.ndarray, lookback: int = 5) -> float:
     return float((closes[-1] - closes[-(lookback + 1)]) / closes[-(lookback + 1)])
 
 
+def _bollinger(closes: np.ndarray, period: int = 20, std_dev: float = 2.0) -> dict:
+    """Bollinger Bands. pct_b=0 → at lower band, 1 → at upper band."""
+    if len(closes) < period:
+        return {"upper": 0.0, "middle": 0.0, "lower": 0.0, "pct_b": 0.5, "bandwidth": 0.05}
+    window = closes[-period:]
+    mid = float(np.mean(window))
+    std = float(np.std(window, ddof=0))
+    upper = mid + std_dev * std
+    lower = mid - std_dev * std
+    price = float(closes[-1])
+    denom = upper - lower
+    pct_b = float((price - lower) / denom) if denom > 0 else 0.5
+    bandwidth = float((upper - lower) / mid) if mid > 0 else 0.05
+    return {
+        "upper": round(upper, 6),
+        "middle": round(mid, 6),
+        "lower": round(lower, 6),
+        "pct_b": round(min(1.5, max(-0.5, pct_b)), 4),
+        "bandwidth": round(bandwidth, 6),
+    }
+
+
+def _volume_spike(volumes: np.ndarray, period: int = 20, threshold: float = 1.5) -> dict:
+    """Detect unusual volume vs recent average (excluding current bar)."""
+    if len(volumes) < period + 1:
+        return {"spike": False, "ratio": 1.0}
+    avg = float(np.mean(volumes[-(period + 1):-1]))
+    current = float(volumes[-1])
+    ratio = round(current / avg, 2) if avg > 0 else 1.0
+    return {"spike": ratio >= threshold, "ratio": ratio}
+
+
 async def fetch(asset: str, period: str = "60d", interval: str = "1h") -> dict:
     ticker = _to_yf_ticker(asset)
 
@@ -119,7 +151,10 @@ async def fetch(asset: str, period: str = "60d", interval: str = "1h") -> dict:
     rsi_val = _rsi(closes)
     macd_val = _macd(closes)
     atr_val = _atr(highs, lows, closes)
-    mom_val = _momentum(closes)
+    mom_val = _momentum(closes, 5)
+    mom_1d_val = _momentum(closes, 24)   # ~1 trading day of 1h bars
+    bb_val = _bollinger(closes)
+    vol_spike_val = _volume_spike(volumes)
     vol_percentile = float(np.percentile(volumes, 60))
     current_vol = float(volumes[-1]) if len(volumes) > 0 else 0.0
 
@@ -141,5 +176,8 @@ async def fetch(asset: str, period: str = "60d", interval: str = "1h") -> dict:
         "atr": atr_val,
         "atr_pct": atr_val / price if price > 0 else 0.0,
         "momentum_5d": mom_val,
+        "momentum_1d": mom_1d_val,
+        "bollinger": bb_val,
+        "volume_spike": vol_spike_val,
         "closes_30": closes[-30:].tolist(),
     }
