@@ -229,7 +229,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 113.75700378417969,
+    "trailing_stop_price": 114.66706
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260524234359",
@@ -255,30 +257,6 @@
     "status": "open",
     "price_trough": 1.6060999631881714,
     "trailing_stop_price": 1.609312
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260524234359",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 77054.2734375,
-    "entry_time": "2026-05-24T23:43:59.164360+00:00",
-    "stop_loss_pct": 0.0035,
-    "take_profit_pct": 0.0076,
-    "size_usd": 2176.0,
-    "position_size_pct": 0.0218,
-    "confidence": 0.34,
-    "signals": [
-      "5d momentum +0.64%",
-      "1d momentum +0.53%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_peak": 77504.4921875,
-    "trailing_stop_price": 77233.226465
   },
   "USD/SEK": {
     "id": "USD/SEK_20260525015405",
@@ -349,8 +327,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 85.58000183105469,
-    "trailing_stop_price": 86.054971
+    "price_trough": 85.3499984741211,
+    "trailing_stop_price": 85.823691
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260525105317",
@@ -376,8 +354,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 9.380000114440918,
-    "trailing_stop_price": 9.444628
+    "price_trough": 9.34000015258789,
+    "trailing_stop_price": 9.404353
   },
   "LLY": {
     "id": "LLY_20260525195530",
@@ -425,7 +403,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 48.15999984741211,
+    "trailing_stop_price": 48.873731
   },
   "COST": {
     "id": "COST_20260525195530",
@@ -467,6 +447,31 @@
       "5d momentum -2.08%",
       "1d momentum -3.48%",
       "BB oversold (pct_b=0.06)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open",
+    "price_peak": 71.81999969482422,
+    "trailing_stop_price": 71.013461
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20260525210112",
+    "asset": "USD/NOK",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.222200393676758,
+    "entry_time": "2026-05-25T21:01:12.343432+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 2177.88,
+    "position_size_pct": 0.0218,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (29.8)",
+      "1d momentum -0.43%",
+      "BB oversold (pct_b=-0.15)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
