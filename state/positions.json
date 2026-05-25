@@ -89,8 +89,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.056879997253418,
-    "trailing_stop_price": 1.048425
+    "price_peak": 1.0569700002670288,
+    "trailing_stop_price": 1.048514
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -277,8 +277,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 77438.7734375,
-    "trailing_stop_price": 77167.73773
+    "price_peak": 77504.4921875,
+    "trailing_stop_price": 77233.226465
   },
   "USD/SEK": {
     "id": "USD/SEK_20260525015405",
@@ -350,28 +350,6 @@
     "strategy_version": "03",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260525061941",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.1025800034403801,
-    "entry_time": "2026-05-25T06:19:41.527795+00:00",
-    "stop_loss_pct": 0.00522,
-    "take_profit_pct": 0.01133,
-    "size_usd": 2174.91,
-    "position_size_pct": 0.0218,
-    "confidence": 0.34,
-    "signals": [
-      "5d momentum +0.89%",
-      "1d momentum -0.44%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open"
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260525105317",
     "asset": "AVAX-USD",
@@ -398,31 +376,6 @@
     "status": "open",
     "price_trough": 9.390000343322754,
     "trailing_stop_price": 9.454697
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260525135523",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 670.760009765625,
-    "entry_time": "2026-05-25T13:55:23.558703+00:00",
-    "stop_loss_pct": 0.00426,
-    "take_profit_pct": 0.01046,
-    "size_usd": 5818.67,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (84.8)",
-      "5d momentum +1.42%",
-      "1d momentum +2.14%",
-      "BB overbought (pct_b=1.12)",
-      "Volume spike 6.1\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open"
   },
   "LLY": {
     "id": "LLY_20260525135523",
@@ -465,6 +418,55 @@
       "5d momentum +1.92%",
       "1d momentum +8.63%",
       "BB overbought (pct_b=0.98)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open",
+    "price_trough": 48.15999984741211,
+    "trailing_stop_price": 48.873731
+  },
+  "COST": {
+    "id": "COST_20260525180245",
+    "asset": "COST",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1027.93994140625,
+    "entry_time": "2026-05-25T18:02:45.482073+00:00",
+    "stop_loss_pct": 0.00716,
+    "take_profit_pct": 0.01637,
+    "size_usd": 3647.16,
+    "position_size_pct": 0.0365,
+    "confidence": 0.57,
+    "signals": [
+      "RSI oversold (18.3)",
+      "1d momentum -5.63%",
+      "Volume spike 1.6\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "UBER": {
+    "id": "UBER_20260525180245",
+    "asset": "UBER",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 71.81500244140625,
+    "entry_time": "2026-05-25T18:02:45.483571+00:00",
+    "stop_loss_pct": 0.01123,
+    "take_profit_pct": 0.02673,
+    "size_usd": 4373.82,
+    "position_size_pct": 0.0437,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (29.0)",
+      "5d momentum -2.08%",
+      "1d momentum -3.48%",
+      "BB oversold (pct_b=0.06)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
