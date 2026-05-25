@@ -63,8 +63,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.380139946937561,
-    "trailing_stop_price": 1.391181
+    "price_trough": 1.3798600435256958,
+    "trailing_stop_price": 1.390899
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -176,7 +176,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.1642799377441406,
+    "trailing_stop_price": 1.173594
   },
   "AUD/USD": {
     "id": "AUD/USD_20260524234359",
@@ -246,7 +248,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.6060999631881714,
+    "trailing_stop_price": 1.609312
   },
   "BTC-USD": {
     "id": "BTC-USD_20260524234359",
@@ -290,7 +294,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 9.180000305175781,
+    "trailing_stop_price": 9.227736
   },
   "ETH-USD": {
     "id": "ETH-USD_20260524234359",
@@ -311,7 +317,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2098.56005859375,
+    "trailing_stop_price": 2107.70978
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260524234359",
@@ -328,6 +336,102 @@
     "signals": [
       "5d momentum +0.39%",
       "1d momentum -0.61%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open",
+    "price_trough": 0.10198000073432922,
+    "trailing_stop_price": 0.102534
+  },
+  "USD/SEK": {
+    "id": "USD/SEK_20260525015405",
+    "asset": "USD/SEK",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.292409896850586,
+    "entry_time": "2026-05-25T01:54:05.628293+00:00",
+    "stop_loss_pct": 0.00216,
+    "take_profit_pct": 0.00513,
+    "size_usd": 4864.0,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (20.7)",
+      "5d momentum -0.68%",
+      "1d momentum -0.53%",
+      "BB oversold (pct_b=-0.16)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "GBP/USD": {
+    "id": "GBP/USD_20260525015405",
+    "asset": "GBP/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.348199486732483,
+    "entry_time": "2026-05-25T01:54:05.629574+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 4864.0,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (77.0)",
+      "5d momentum +0.31%",
+      "1d momentum +0.41%",
+      "BB overbought (pct_b=1.05)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260525015405",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 85.06999969482422,
+    "entry_time": "2026-05-25T01:54:05.630821+00:00",
+    "stop_loss_pct": 0.0066,
+    "take_profit_pct": 0.01506,
+    "size_usd": 3584.0,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (36.2)",
+      "5d momentum +0.47%",
+      "1d momentum -0.98%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260525015405",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3489999771118164,
+    "entry_time": "2026-05-25T01:54:05.631781+00:00",
+    "stop_loss_pct": 0.00468,
+    "take_profit_pct": 0.01067,
+    "size_usd": 3584.0,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (37.7)",
+      "5d momentum +0.43%",
+      "1d momentum -0.72%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
