@@ -110,7 +110,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_peak": 7.834700107574463,
+    "trailing_stop_price": 7.772023
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260524050433",
@@ -272,31 +274,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260524234359",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.210000038146973,
-    "entry_time": "2026-05-24T23:43:59.165163+00:00",
-    "stop_loss_pct": 0.0052,
-    "take_profit_pct": 0.01149,
-    "size_usd": 2688.0,
-    "position_size_pct": 0.0269,
-    "confidence": 0.42,
-    "signals": [
-      "RSI oversold (36.2)",
-      "1d momentum -1.81%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
     "status": "open",
-    "price_trough": 9.180000305175781,
-    "trailing_stop_price": 9.227736
+    "price_peak": 77228.390625,
+    "trailing_stop_price": 76958.091258
   },
   "ETH-USD": {
     "id": "ETH-USD_20260524234359",
@@ -320,30 +300,6 @@
     "status": "open",
     "price_trough": 2098.56005859375,
     "trailing_stop_price": 2107.70978
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260524234359",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.1023000031709671,
-    "entry_time": "2026-05-24T23:43:59.167004+00:00",
-    "stop_loss_pct": 0.00543,
-    "take_profit_pct": 0.01178,
-    "size_usd": 2176.0,
-    "position_size_pct": 0.0218,
-    "confidence": 0.34,
-    "signals": [
-      "5d momentum +0.39%",
-      "1d momentum -0.61%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 0.10198000073432922,
-    "trailing_stop_price": 0.102534
   },
   "USD/SEK": {
     "id": "USD/SEK_20260525015405",
@@ -393,29 +349,6 @@
     "strategy_version": "03",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260525015405",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 85.06999969482422,
-    "entry_time": "2026-05-25T01:54:05.630821+00:00",
-    "stop_loss_pct": 0.0066,
-    "take_profit_pct": 0.01506,
-    "size_usd": 3584.0,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (36.2)",
-      "5d momentum +0.47%",
-      "1d momentum -0.98%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260525015405",
     "asset": "XRP-USD",
@@ -432,6 +365,95 @@
       "RSI oversold (37.7)",
       "5d momentum +0.43%",
       "1d momentum -0.72%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260525061941",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 9.270000457763672,
+    "entry_time": "2026-05-25T06:19:41.523469+00:00",
+    "stop_loss_pct": 0.00509,
+    "take_profit_pct": 0.01142,
+    "size_usd": 3134.43,
+    "position_size_pct": 0.0314,
+    "confidence": 0.49,
+    "signals": [
+      "5d momentum +1.31%",
+      "1d momentum -0.86%",
+      "Volume spike 3.4\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260525061941",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 659.3499755859375,
+    "entry_time": "2026-05-25T06:19:41.525628+00:00",
+    "stop_loss_pct": 0.00309,
+    "take_profit_pct": 0.0067,
+    "size_usd": 2174.91,
+    "position_size_pct": 0.0218,
+    "confidence": 0.34,
+    "signals": [
+      "5d momentum +0.63%",
+      "1d momentum +0.44%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260525061941",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 85.69000244140625,
+    "entry_time": "2026-05-25T06:19:41.526766+00:00",
+    "stop_loss_pct": 0.00555,
+    "take_profit_pct": 0.01205,
+    "size_usd": 2174.91,
+    "position_size_pct": 0.0218,
+    "confidence": 0.34,
+    "signals": [
+      "5d momentum +1.10%",
+      "1d momentum -0.76%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260525061941",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.1025800034403801,
+    "entry_time": "2026-05-25T06:19:41.527795+00:00",
+    "stop_loss_pct": 0.00522,
+    "take_profit_pct": 0.01133,
+    "size_usd": 2174.91,
+    "position_size_pct": 0.0218,
+    "confidence": 0.34,
+    "signals": [
+      "5d momentum +0.89%",
+      "1d momentum -0.44%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
