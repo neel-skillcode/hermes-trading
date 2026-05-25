@@ -40,7 +40,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.9115300178527832,
+    "trailing_stop_price": 0.904238
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -87,8 +89,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.054319977760315,
-    "trailing_stop_price": 1.045885
+    "price_peak": 1.056879997253418,
+    "trailing_stop_price": 1.048425
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -326,30 +328,6 @@
     "strategy_version": "03",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260525061941",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 659.3499755859375,
-    "entry_time": "2026-05-25T06:19:41.525628+00:00",
-    "stop_loss_pct": 0.00309,
-    "take_profit_pct": 0.0067,
-    "size_usd": 2174.91,
-    "position_size_pct": 0.0218,
-    "confidence": 0.34,
-    "signals": [
-      "5d momentum +0.63%",
-      "1d momentum +0.44%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_peak": 660.9600219726562,
-    "trailing_stop_price": 658.917656
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260525061941",
     "asset": "SOL-USD",
@@ -412,6 +390,81 @@
       "1d momentum +0.75%",
       "BB overbought (pct_b=1.02)",
       "Volume spike 2.7\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open",
+    "price_trough": 9.390000343322754,
+    "trailing_stop_price": 9.454697
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260525135523",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 670.760009765625,
+    "entry_time": "2026-05-25T13:55:23.558703+00:00",
+    "stop_loss_pct": 0.00426,
+    "take_profit_pct": 0.01046,
+    "size_usd": 5818.67,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (84.8)",
+      "5d momentum +1.42%",
+      "1d momentum +2.14%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 6.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "LLY": {
+    "id": "LLY_20260525135523",
+    "asset": "LLY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1065.6500244140625,
+    "entry_time": "2026-05-25T13:55:23.560150+00:00",
+    "stop_loss_pct": 0.00816,
+    "take_profit_pct": 0.01921,
+    "size_usd": 4539.84,
+    "position_size_pct": 0.0454,
+    "confidence": 0.71,
+    "signals": [
+      "RSI overbought (83.2)",
+      "5d momentum +0.47%",
+      "1d momentum +5.41%",
+      "Volume spike 1.7\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "RBLX": {
+    "id": "RBLX_20260525135523",
+    "asset": "RBLX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 48.20000076293945,
+    "entry_time": "2026-05-25T13:55:23.561216+00:00",
+    "stop_loss_pct": 0.01482,
+    "take_profit_pct": 0.03527,
+    "size_usd": 3566.58,
+    "position_size_pct": 0.0357,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (72.5)",
+      "5d momentum +1.92%",
+      "1d momentum +8.63%",
+      "BB overbought (pct_b=0.98)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
