@@ -43,6 +43,65 @@ REFLECTION_DAYS = {"MON": 0, "WED": 2, "FRI": 4}
 console = Console()
 
 
+# ── News reasoning keyword buckets (local, zero API cost) ────────────────────
+# Each bucket is a named theme → list of phrases to scan for in headlines.
+# Phrases are lower-cased; headline matching is substring-based.
+
+_BULLISH_BUCKETS: dict[str, list[str]] = {
+    "earnings_beat":    ["beat", "beats", "exceeded", "surpassed", "blowout",
+                         "topped estimates", "profit surge", "record profit", "record earnings"],
+    "analyst_upgrade":  ["upgrade", "upgraded", "buy rating", "outperform", "overweight",
+                         "strong buy", "target raised", "price target raised"],
+    "deal_catalyst":    ["merger", "acquisition", "acquires", "partnership", "strategic deal",
+                         "buyout", "takeover", "contract awarded", "joint venture"],
+    "revenue_strength": ["revenue growth", "sales growth", "raised guidance", "guidance raised",
+                         "record revenue", "record sales", "strong demand", "backlog growth"],
+    "macro_tailwind":   ["rate cut", "rate cuts", "dovish", "stimulus", "soft landing",
+                         "gdp growth", "quantitative easing", "fed pivot"],
+    "price_action_up":  ["rally", "surged", "jumped", "soared", "breakthrough",
+                         "fda approved", "approval granted", "cleared", "green light"],
+}
+
+_BEARISH_BUCKETS: dict[str, list[str]] = {
+    "earnings_miss":    ["miss", "missed", "below estimates", "disappointed", "guidance cut",
+                         "guidance lowered", "revenue miss", "loss widens", "profit warning"],
+    "analyst_downgrade":["downgrade", "downgraded", "sell rating", "underperform", "underweight",
+                         "target cut", "price target cut", "removed from conviction"],
+    "legal_risk":       ["lawsuit", "sued", "investigation", "sec probe", "doj probe",
+                         "fraud", "indicted", "fine", "penalty", "recall", "class action"],
+    "macro_headwind":   ["rate hike", "rate hikes", "inflation surge", "tariff", "tariffs",
+                         "sanctions", "recession", "stagflation", "hawkish", "tightening"],
+    "operational_risk": ["layoffs", "layoff", "restructuring", "writedown", "write-off",
+                         "impairment", "plant closure", "supply shortage", "margin pressure"],
+    "price_action_dn":  ["crashed", "plunged", "tumbled", "selloff", "sell-off",
+                         "warning issued", "downside risk", "headwinds", "pressure"],
+}
+
+# Any of these → block the trade entirely (existential / catastrophic risk)
+_BLOCKING_PHRASES: list[str] = [
+    "bankruptcy", "bankrupt", "chapter 11", "chapter 7",
+    "criminal charges", "indicted for fraud", "ponzi scheme",
+    "trading suspended", "delisted", "suspended trading",
+    "default on debt", "going concern",
+]
+
+# Human-readable labels for each bucket key
+_BUCKET_LABELS: dict[str, str] = {
+    "earnings_beat":     "earnings beat",
+    "analyst_upgrade":   "analyst upgrade",
+    "deal_catalyst":     "M&A / deal catalyst",
+    "revenue_strength":  "strong revenue / guidance",
+    "macro_tailwind":    "macro tailwind",
+    "price_action_up":   "bullish price action",
+    "earnings_miss":     "earnings miss",
+    "analyst_downgrade": "analyst downgrade",
+    "legal_risk":        "legal / regulatory risk",
+    "macro_headwind":    "macro headwind",
+    "operational_risk":  "operational risk",
+    "price_action_dn":   "bearish price action",
+}
+
+
 # ── Market hours helpers ──────────────────────────────────────────────────────
 
 def _is_equity(asset: str) -> bool:
@@ -650,7 +709,7 @@ class TradingLoop:
         import shutil
         return shutil.which("hermes") is not None
 
-    # ── Claude qualitative news analysis ─────────────────────────────────────
+    # ── Qualitative news analysis (free, local) ───────────────────────────────
 
     async def _analyze_news_with_claude(
         self,
@@ -661,88 +720,158 @@ class TradingLoop:
         price_data: dict,
     ) -> dict:
         """
-        Ask Claude to reason about whether recent news supports or contradicts the
-        proposed trade — qualitatively, not as a number.
+        Free local news analysis — no API required.
 
-        Returns:
-          verdict              : one of strongly_supports / supports / neutral /
+        Detects headline categories (earnings, upgrades, Fed signals, M&A,
+        legal/bankruptcy, macro risk, product catalysts) and compares the
+        aggregate news tone against the proposed trade direction.
+
+        Returns the same shape as the old Claude-API version:
+          verdict              : strongly_supports / supports / neutral /
                                  contradicts / strongly_contradicts
-          block_trade          : True only for serious systemic risk
+          block_trade          : True only for existential risk (bankruptcy/fraud)
           confidence_adjustment: float in [-0.30, +0.20]
-          catalyst             : 1-sentence driver
+          catalyst             : 1-sentence key driver
           reasoning            : 2-3 sentence qualitative rationale
         """
-        api_key = os.getenv("ANTHROPIC_API_KEY", "")
-        if not api_key or not headlines:
+        if not headlines:
             return {"verdict": "neutral", "block_trade": False,
-                    "confidence_adjustment": 0.0, "catalyst": "", "reasoning": ""}
+                    "confidence_adjustment": 0.0, "catalyst": "none",
+                    "reasoning": "No headlines available."}
 
-        try:
-            import anthropic  # imported lazily — not required for paper mode
-            import json as _json
+        text_all = " ".join(headlines).lower()
 
-            rsi     = price_data.get("rsi", 50.0)
-            mom_5d  = price_data.get("momentum_5d", 0.0)
-            mom_1d  = price_data.get("momentum_1d", 0.0)
-            pct_b   = price_data.get("bollinger", {}).get("pct_b", 0.5)
-            vol_sp  = price_data.get("volume_spike", {}).get("spike", False)
+        # ── Category pattern matching ─────────────────────────────────────────
+        BULLISH_CATS: dict[str, list[str]] = {
+            "earnings_beat":     ["earnings beat", "revenue beat", "profit beat", "topped estimates",
+                                  "exceeded expectations", "record earnings", "record revenue",
+                                  "strong earnings", "beats estimates", "blew past"],
+            "analyst_upgrade":   ["upgrade", "price target raised", "price target increase",
+                                  "initiated buy", "overweight", "outperform", "strong buy"],
+            "fed_dovish":        ["rate cut", "dovish", "lower rates", "rate pause", "fed eases",
+                                  "pivot", "holds rates"],
+            "ma_catalyst":       ["acquisition", "merger", "buyout", "takeover", "agrees to acquire",
+                                  "deal agreed", "strategic deal"],
+            "product_catalyst":  ["fda approval", "approved by", "drug approved", "new contract",
+                                  "partnership", "breakthrough", "product launch", "patent granted"],
+            "price_surge":       ["surges", "rallies", "soars", "jumps", "spikes",
+                                  "record high", "all-time high", "52-week high"],
+        }
+        BEARISH_CATS: dict[str, list[str]] = {
+            "earnings_miss":     ["earnings miss", "revenue miss", "missed estimates",
+                                  "fell short", "disappointing earnings", "weak earnings",
+                                  "guidance cut", "lowered guidance"],
+            "analyst_downgrade": ["downgrade", "price target cut", "price target reduced",
+                                  "sell rating", "underweight", "underperform", "reduce rating"],
+            "fed_hawkish":       ["rate hike", "hawkish", "higher for longer", "tightening",
+                                  "rate increase", "inflation concern"],
+            "macro_risk":        ["recession", "tariff", "sanctions", "trade war",
+                                  "geopolitical", "crisis", "slowdown", "stagflation"],
+            "price_decline":     ["plunges", "crashes", "tumbles", "slides", "falls sharply",
+                                  "selloff", "rout", "52-week low"],
+        }
+        BLOCK_CATS: dict[str, list[str]] = {
+            "bankruptcy":  ["bankruptcy", "bankrupt", "chapter 11", "chapter 7",
+                            "insolvent", "insolvency", "debt restructuring"],
+            "fraud_legal": ["fraud", "sec charges", "criminal charges", "indictment",
+                            "class action lawsuit", "securities fraud", "accounting fraud"],
+        }
 
-            tech_summary = ", ".join(technical_reasons[:4]) or "no strong signals"
-            headline_block = "\n".join(f"- {h}" for h in headlines[:6])
+        def _matches(patterns: list[str]) -> bool:
+            return any(p in text_all for p in patterns)
 
-            prompt = f"""You are a quant trader on a prop desk reviewing a potential {direction.upper()} trade on {asset}.
+        bull_hits  = {k: _matches(v) for k, v in BULLISH_CATS.items()}
+        bear_hits  = {k: _matches(v) for k, v in BEARISH_CATS.items()}
+        block_hits = {k: _matches(v) for k, v in BLOCK_CATS.items()}
 
-TECHNICAL PICTURE
-  Signals : {tech_summary}
-  RSI     : {rsi:.1f}
-  5d mom  : {mom_5d:+.2%}
-  1d mom  : {mom_1d:+.2%}
-  BB %b   : {pct_b:.2f}  (0=lower band, 1=upper band)
-  Vol↑    : {vol_sp}
+        # ── Hard block ────────────────────────────────────────────────────────
+        for blk_name, hit in block_hits.items():
+            if hit:
+                label = "bankruptcy filing" if blk_name == "bankruptcy" else "fraud/legal charges"
+                return {
+                    "verdict": "strongly_contradicts",
+                    "block_trade": True,
+                    "confidence_adjustment": -0.30,
+                    "catalyst": f"Existential risk: {label}",
+                    "reasoning": (
+                        f"Headlines indicate {label}, posing unacceptable risk. "
+                        f"Trade blocked regardless of technical signals."
+                    ),
+                }
 
-RECENT NEWS
-{headline_block}
+        # ── Headline-level positive/negative word counts ──────────────────────
+        POS_WORDS = {"beat", "surge", "rally", "upgrade", "approval", "deal",
+                     "profit", "growth", "strong", "record", "bullish", "buy",
+                     "outperform", "launch", "gain", "rise", "boost", "positive"}
+        NEG_WORDS = {"miss", "crash", "fall", "downgrade", "loss", "weak", "risk",
+                     "concern", "bearish", "sell", "underperform", "decline", "cut",
+                     "drop", "slump", "warning", "layoff", "recall", "fraud"}
 
-TASK
-Decide whether this news supports, is neutral to, or contradicts a {direction.upper()} entry.
-Think like a trader: does the news change the risk-reward? Is there a catalyst, or does it create a headwind?
+        pos_count = sum(
+            1 for h in headlines
+            if any(w in h.lower().split() for w in POS_WORDS)
+        )
+        neg_count = sum(
+            1 for h in headlines
+            if any(w in h.lower().split() for w in NEG_WORDS)
+        )
 
-Reply with ONLY valid JSON — no markdown, no commentary outside the JSON:
-{{
-  "verdict": "<strongly_supports|supports|neutral|contradicts|strongly_contradicts>",
-  "block_trade": <true|false>,
-  "confidence_adjustment": <float, -0.30 to +0.20>,
-  "catalyst": "<one sentence: the key news driver, or 'none' if irrelevant>",
-  "reasoning": "<2-3 sentences: why this news matters for the trade>"
-}}
+        n_bull = sum(bull_hits.values())
+        n_bear = sum(bear_hits.values())
+        net    = (n_bull * 2 + pos_count) - (n_bear * 2 + neg_count)
 
-RULES
-- block_trade=true ONLY for existential risk: bankruptcy filing, criminal fraud, regulatory ban.
-- confidence_adjustment magnitude guide: irrelevant=0.0, slight=±0.05, clear=±0.10, strong=±0.15.
-- If all headlines are generic market noise with no {asset}-specific relevance, verdict=neutral."""
+        news_dir = "bullish" if net > 0 else "bearish" if net < 0 else "neutral"
+        aligned  = (direction == "long"  and news_dir == "bullish") \
+                or (direction == "short" and news_dir == "bearish")
+        contra   = (direction == "long"  and news_dir == "bearish") \
+                or (direction == "short" and news_dir == "bullish")
 
-            client = anthropic.AsyncAnthropic(api_key=api_key)
-            msg = await client.messages.create(
-                model="claude-haiku-4-5",
-                max_tokens=350,
-                messages=[{"role": "user", "content": prompt}],
-            )
+        # ── Verdict + adjustment ──────────────────────────────────────────────
+        if net == 0 or (n_bull == 0 and n_bear == 0 and abs(pos_count - neg_count) <= 1):
+            verdict, adj = "neutral", 0.0
+        elif aligned:
+            if net >= 4 or n_bull >= 2:
+                verdict, adj = "strongly_supports", 0.12
+            else:
+                verdict, adj = "supports", 0.06
+        elif contra:
+            if net <= -4 or n_bear >= 2:
+                verdict, adj = "strongly_contradicts", -0.15
+            else:
+                verdict, adj = "contradicts", -0.08
+        else:
+            verdict, adj = "neutral", 0.0
 
-            raw = msg.content[0].text.strip()
-            # Strip accidental markdown fences
-            if raw.startswith("```"):
-                raw = raw.split("```")[1]
-                if raw.startswith("json"):
-                    raw = raw[4:]
-            result = _json.loads(raw.strip())
-            # Clamp adjustment just in case the model exceeds bounds
-            result["confidence_adjustment"] = max(-0.30, min(0.20, float(result.get("confidence_adjustment", 0.0))))
-            return result
+        # ── Build human-readable catalyst + reasoning ─────────────────────────
+        cat_parts = (
+            [k.replace("_", " ") for k, v in bull_hits.items() if v]
+            + [k.replace("_", " ") for k, v in bear_hits.items() if v]
+        )
+        catalyst = "; ".join(cat_parts[:3]) if cat_parts else "none"
 
-        except Exception as e:
-            console.print(f"[dim yellow]Claude news analysis skipped for {asset}: {e}[/dim yellow]")
-            return {"verdict": "neutral", "block_trade": False,
-                    "confidence_adjustment": 0.0, "catalyst": "", "reasoning": ""}
+        sentiment_str = (
+            f"{pos_count} bullish / {neg_count} bearish"
+            if (pos_count + neg_count) > 0
+            else "mixed sentiment"
+        )
+        align_str = (
+            "aligns with" if aligned
+            else "cuts against" if contra
+            else "is neutral to"
+        )
+        reasoning = (
+            f"Scanned {len(headlines)} headlines: {catalyst if catalyst != 'none' else 'no clear catalyst'}. "
+            f"Headline tone {sentiment_str} across {len(headlines)} articles. "
+            f"Overall news flow is {news_dir} and {align_str} the {direction} thesis."
+        )
+
+        return {
+            "verdict": verdict,
+            "block_trade": False,
+            "confidence_adjustment": round(adj, 3),
+            "catalyst": catalyst,
+            "reasoning": reasoning,
+        }
 
     # ── Main tick ─────────────────────────────────────────────────────────────
 
