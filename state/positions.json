@@ -181,8 +181,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.1642799377441406,
-    "trailing_stop_price": 1.173594
+    "price_trough": 1.1640088558197021,
+    "trailing_stop_price": 1.173321
   },
   "AUD/USD": {
     "id": "AUD/USD_20260524234359",
@@ -280,7 +280,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_peak": 9.298999786376953,
+    "trailing_stop_price": 9.278914
   },
   "GBP/USD": {
     "id": "GBP/USD_20260525015405",
@@ -305,57 +307,6 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260525061941",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 85.69000244140625,
-    "entry_time": "2026-05-25T06:19:41.526766+00:00",
-    "stop_loss_pct": 0.00555,
-    "take_profit_pct": 0.01205,
-    "size_usd": 2174.91,
-    "position_size_pct": 0.0218,
-    "confidence": 0.34,
-    "signals": [
-      "5d momentum +1.10%",
-      "1d momentum -0.76%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 85.3499984741211,
-    "trailing_stop_price": 85.823691
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260525105317",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.399999618530273,
-    "entry_time": "2026-05-25T10:53:17.532158+00:00",
-    "stop_loss_pct": 0.00689,
-    "take_profit_pct": 0.01692,
-    "size_usd": 5816.48,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (67.8)",
-      "5d momentum +1.29%",
-      "1d momentum +0.75%",
-      "BB overbought (pct_b=1.02)",
-      "Volume spike 2.7\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 9.34000015258789,
-    "trailing_stop_price": 9.404353
   },
   "LLY": {
     "id": "LLY_20260525195530",
@@ -472,6 +423,58 @@
       "RSI oversold (29.8)",
       "1d momentum -0.43%",
       "BB oversold (pct_b=-0.15)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open",
+    "price_peak": 9.243269920349121,
+    "trailing_stop_price": 9.224783
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260526012816",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 84.16000366210938,
+    "entry_time": "2026-05-26T01:28:16.605345+00:00",
+    "stop_loss_pct": 0.00564,
+    "take_profit_pct": 0.01385,
+    "size_usd": 5831.26,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (25.6)",
+      "5d momentum -1.96%",
+      "1d momentum -1.19%",
+      "BB oversold (pct_b=-0.22)",
+      "Volume spike 2.0\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260526012816",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.10086999833583832,
+    "entry_time": "2026-05-26T01:28:16.606566+00:00",
+    "stop_loss_pct": 0.00559,
+    "take_profit_pct": 0.01372,
+    "size_usd": 2217.53,
+    "position_size_pct": 0.0221,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (30.0)",
+      "5d momentum -2.06%",
+      "1d momentum -1.25%",
+      "BB oversold (pct_b=-0.25)",
+      "Volume spike 1.6\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
