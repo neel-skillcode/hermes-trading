@@ -202,7 +202,7 @@ localStorage.removeItem('hermes_gist_id');
 
 const RAW_BASE = 'https://raw.githubusercontent.com/neel-skillcode/hermes-trading/main';
 document.getElementById('data-source-info').textContent =
-  'Data: github.com/neel-skillcode/hermes-trading · auto-refreshes every 30s';
+  'Data: github.com/neel-skillcode/hermes-trading · auto-refreshes every 15s';
 
 function stateUrl(f) {
   return RAW_BASE + '/state/' + f + '?t=' + Date.now();
@@ -480,11 +480,11 @@ function updateHypotheses(hyps) {
 }
 
 // ── Countdown ──────────────────────────────────────────────────────────────
-let nextRefresh = 30;
+let nextRefresh = 15;
 function tick() {
   document.getElementById('countdown').textContent = 'Refresh in ' + nextRefresh + 's';
   nextRefresh--;
-  if (nextRefresh < 0) { nextRefresh = 30; fetchAll(); }
+  if (nextRefresh < 0) { nextRefresh = 15; fetchAll(); }
 }
 
 // ── Utility ────────────────────────────────────────────────────────────────
