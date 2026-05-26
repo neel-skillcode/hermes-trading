@@ -120,6 +120,7 @@ class TradingLoop:
         self.trades_since_reflection = 0
         self.last_reflection_date: str | None = None
         self.last_candidates: list = []
+        self.live_prices: dict[str, float] = {}   # all assets seen in last scan
         self.last_scan_total: int = 0
         self.circuit_breaker = CircuitBreaker()
         self._load_state()
@@ -170,8 +171,10 @@ class TradingLoop:
         day_usd = sum(p.get("size_usd", 0) for p in self.open_positions.values() if p.get("trade_type") == "day")
         sw_usd  = sum(p.get("size_usd", 0) for p in self.open_positions.values() if p.get("trade_type") == "swing")
 
-        # Build a current-price lookup from the latest scan so we can show unrealized P&L
-        price_lookup: dict[str, float] = {c["asset"]: c["price"] for c in self.last_candidates if c.get("price")}
+        # Build a current-price lookup from ALL assets seen in the last universe scan.
+        # self.live_prices contains every ranked asset (90+), not just the top-20 display
+        # candidates — so open positions that scored outside the top 20 still get a price.
+        price_lookup: dict[str, float] = dict(self.live_prices)
 
         total_unrealized_usd = 0.0
         pos_list = []
@@ -647,6 +650,100 @@ class TradingLoop:
         import shutil
         return shutil.which("hermes") is not None
 
+    # ── Claude qualitative news analysis ─────────────────────────────────────
+
+    async def _analyze_news_with_claude(
+        self,
+        asset: str,
+        headlines: list[str],
+        direction: str,
+        technical_reasons: list[str],
+        price_data: dict,
+    ) -> dict:
+        """
+        Ask Claude to reason about whether recent news supports or contradicts the
+        proposed trade — qualitatively, not as a number.
+
+        Returns:
+          verdict              : one of strongly_supports / supports / neutral /
+                                 contradicts / strongly_contradicts
+          block_trade          : True only for serious systemic risk
+          confidence_adjustment: float in [-0.30, +0.20]
+          catalyst             : 1-sentence driver
+          reasoning            : 2-3 sentence qualitative rationale
+        """
+        api_key = os.getenv("ANTHROPIC_API_KEY", "")
+        if not api_key or not headlines:
+            return {"verdict": "neutral", "block_trade": False,
+                    "confidence_adjustment": 0.0, "catalyst": "", "reasoning": ""}
+
+        try:
+            import anthropic  # imported lazily — not required for paper mode
+            import json as _json
+
+            rsi     = price_data.get("rsi", 50.0)
+            mom_5d  = price_data.get("momentum_5d", 0.0)
+            mom_1d  = price_data.get("momentum_1d", 0.0)
+            pct_b   = price_data.get("bollinger", {}).get("pct_b", 0.5)
+            vol_sp  = price_data.get("volume_spike", {}).get("spike", False)
+
+            tech_summary = ", ".join(technical_reasons[:4]) or "no strong signals"
+            headline_block = "\n".join(f"- {h}" for h in headlines[:6])
+
+            prompt = f"""You are a quant trader on a prop desk reviewing a potential {direction.upper()} trade on {asset}.
+
+TECHNICAL PICTURE
+  Signals : {tech_summary}
+  RSI     : {rsi:.1f}
+  5d mom  : {mom_5d:+.2%}
+  1d mom  : {mom_1d:+.2%}
+  BB %b   : {pct_b:.2f}  (0=lower band, 1=upper band)
+  Vol↑    : {vol_sp}
+
+RECENT NEWS
+{headline_block}
+
+TASK
+Decide whether this news supports, is neutral to, or contradicts a {direction.upper()} entry.
+Think like a trader: does the news change the risk-reward? Is there a catalyst, or does it create a headwind?
+
+Reply with ONLY valid JSON — no markdown, no commentary outside the JSON:
+{{
+  "verdict": "<strongly_supports|supports|neutral|contradicts|strongly_contradicts>",
+  "block_trade": <true|false>,
+  "confidence_adjustment": <float, -0.30 to +0.20>,
+  "catalyst": "<one sentence: the key news driver, or 'none' if irrelevant>",
+  "reasoning": "<2-3 sentences: why this news matters for the trade>"
+}}
+
+RULES
+- block_trade=true ONLY for existential risk: bankruptcy filing, criminal fraud, regulatory ban.
+- confidence_adjustment magnitude guide: irrelevant=0.0, slight=±0.05, clear=±0.10, strong=±0.15.
+- If all headlines are generic market noise with no {asset}-specific relevance, verdict=neutral."""
+
+            client = anthropic.AsyncAnthropic(api_key=api_key)
+            msg = await client.messages.create(
+                model="claude-haiku-4-5",
+                max_tokens=350,
+                messages=[{"role": "user", "content": prompt}],
+            )
+
+            raw = msg.content[0].text.strip()
+            # Strip accidental markdown fences
+            if raw.startswith("```"):
+                raw = raw.split("```")[1]
+                if raw.startswith("json"):
+                    raw = raw[4:]
+            result = _json.loads(raw.strip())
+            # Clamp adjustment just in case the model exceeds bounds
+            result["confidence_adjustment"] = max(-0.30, min(0.20, float(result.get("confidence_adjustment", 0.0))))
+            return result
+
+        except Exception as e:
+            console.print(f"[dim yellow]Claude news analysis skipped for {asset}: {e}[/dim yellow]")
+            return {"verdict": "neutral", "block_trade": False,
+                    "confidence_adjustment": 0.0, "catalyst": "", "reasoning": ""}
+
     # ── Main tick ─────────────────────────────────────────────────────────────
 
     async def _tick(self):
@@ -696,6 +793,13 @@ class TradingLoop:
         all_ranked = universe.get("all_ranked", [])
         self.last_candidates = universe.get("candidates", [])   # display-ready, stripped
         self.last_scan_total = universe.get("total_scanned", 0)
+
+        # Update live price cache from the full ranked list (not just top-20 display)
+        # so _write_heartbeat() can compute unrealized P&L for every open position.
+        for c in all_ranked:
+            p = c.get("_price_data", {}).get("price") or c.get("price")
+            if p and float(p) > 0:
+                self.live_prices[c["asset"]] = float(p)
 
         # Print compact scan summary
         table = Table(title=f"Universe scan — {self.last_scan_total} assets", show_header=True, min_width=80)
@@ -757,6 +861,46 @@ class TradingLoop:
                 continue
 
             if signal["go"]:
+                # ── Claude qualitative news check ─────────────────────────────
+                # Only run if there are actual headlines to reason about.
+                # Claude reads the news in the context of the technical direction
+                # and may: (a) block the trade, (b) boost/reduce confidence,
+                # (c) add its reasoning to the signal record.
+                headlines = news_data.get("headlines", [])
+                if headlines:
+                    claude = await self._analyze_news_with_claude(
+                        asset, headlines, signal["direction"], signal["reasons"], price_data
+                    )
+                    verdict = claude.get("verdict", "neutral")
+                    catalyst = claude.get("catalyst", "")
+                    reasoning = claude.get("reasoning", "")
+                    adj = claude.get("confidence_adjustment", 0.0)
+
+                    # Append Claude's qualitative take to the signal reasons
+                    # so it appears in the position record and dashboard
+                    if catalyst and catalyst.lower() != "none":
+                        signal["reasons"].append(f"Claude [{verdict}]: {catalyst}")
+                    elif reasoning:
+                        signal["reasons"].append(f"Claude [{verdict}]: {reasoning[:100]}")
+                    else:
+                        signal["reasons"].append(f"Claude news verdict: {verdict}")
+
+                    # Hard block for existential risk
+                    if claude.get("block_trade"):
+                        blk_reason = reasoning[:120] if reasoning else "existential risk"
+                        console.print(f"[bold red]BLOCKED by Claude [{asset}]: {blk_reason}[/bold red]")
+                        skipped += 1
+                        continue
+
+                    # Adjust confidence based on Claude's read
+                    if abs(adj) > 0.01:
+                        old_conf = signal["confidence"]
+                        signal["confidence"] = round(min(0.99, max(0.05, old_conf + adj)), 3)
+                        console.print(
+                            f"[dim]Claude [{asset}] {verdict}: conf {old_conf:.2f} → "
+                            f"{signal['confidence']:.2f} (adj={adj:+.2f})[/dim]"
+                        )
+
                 await self._enter_trade(candidate, price_data, news_data, signal, trade_type)
                 entered += 1
             else:

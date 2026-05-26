@@ -92,6 +92,11 @@ def _yf_ticker(asset: str) -> str:
 
 
 async def _fetch_yfinance_news(asset: str) -> list[dict]:
+    """
+    Fetch news from yfinance. yfinance ≥0.2.x nests article data under item["content"]:
+        item["content"]["title"], item["content"]["summary"], item["content"]["description"]
+    We fall back to the old flat layout for compatibility.
+    """
     ticker_str = _yf_ticker(asset)
 
     def _get():
@@ -102,11 +107,40 @@ async def _fetch_yfinance_news(asset: str) -> list[dict]:
         raw = await asyncio.get_event_loop().run_in_executor(None, _get)
         articles = []
         for item in raw[:15]:
+            # New yfinance format: content is nested
+            content = item.get("content") or {}
+            if isinstance(content, dict):
+                title   = content.get("title", "")   or item.get("title", "")
+                summary = (
+                    content.get("summary", "")
+                    or content.get("description", "")
+                    or item.get("summary", "")
+                    or item.get("description", "")
+                )
+                provider = (
+                    content.get("provider", {}).get("displayName", "")
+                    or content.get("publisher", "")
+                    or item.get("publisher", "")
+                )
+                pub_ts = (
+                    content.get("pubDate", "")
+                    or content.get("publishedAt", "")
+                    or item.get("providerPublishTime", 0)
+                )
+            else:
+                # Old flat format fallback
+                title   = item.get("title", "")
+                summary = item.get("summary", "") or item.get("description", "")
+                provider = item.get("publisher", "")
+                pub_ts  = item.get("providerPublishTime", 0)
+
+            if not title:
+                continue
             articles.append({
-                "title": item.get("title", ""),
-                "summary": item.get("summary", ""),
-                "publisher": item.get("publisher", ""),
-                "timestamp": item.get("providerPublishTime", 0),
+                "title": title,
+                "summary": summary,
+                "publisher": provider,
+                "timestamp": pub_ts,
                 "source": "yfinance",
             })
         return articles
