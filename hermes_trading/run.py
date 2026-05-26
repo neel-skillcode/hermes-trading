@@ -1,6 +1,9 @@
 """Entry point — loads goal.yaml and starts the async trading loop."""
 import asyncio
 import argparse
+import json
+import traceback
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -9,6 +12,25 @@ from rich.console import Console
 from hermes_trading.loop import TradingLoop
 
 console = Console()
+
+STATE_DIR = Path(__file__).parent.parent / "state"
+HEARTBEAT_FILE = STATE_DIR / "heartbeat.json"
+
+
+def _write_error_heartbeat(msg: str):
+    """Write a minimal heartbeat so the commit step always has something to push."""
+    try:
+        existing = {}
+        if HEARTBEAT_FILE.exists():
+            existing = json.loads(HEARTBEAT_FILE.read_text())
+        existing.update({
+            "status": "error",
+            "error": msg[:300],
+            "last_tick": datetime.now(timezone.utc).isoformat(),
+        })
+        HEARTBEAT_FILE.write_text(json.dumps(existing, indent=2))
+    except Exception:
+        pass
 
 
 def main():
@@ -30,8 +52,16 @@ def main():
     console.print(f"  Target:   +{goal.get('target_return_14d', 0.45)*100:.0f}% in {goal.get('timeframe_days', 14)} days")
     console.print(f"  Balance:  ${goal.get('starting_balance', 100_000):,.0f} (paper)")
 
-    loop = TradingLoop(goal, dry_run=args.dry_run)
-    asyncio.run(loop.run(single_tick=args.single_tick))
+    try:
+        loop = TradingLoop(goal, dry_run=args.dry_run)
+        asyncio.run(loop.run(single_tick=args.single_tick))
+    except Exception as e:
+        err = f"{type(e).__name__}: {e}"
+        console.print(f"[bold red]Fatal tick error: {err}[/bold red]")
+        console.print(traceback.format_exc())
+        _write_error_heartbeat(err)
+        # Exit 0 so GitHub Actions proceeds to the "Commit state" step
+        raise SystemExit(0)
 
 
 if __name__ == "__main__":

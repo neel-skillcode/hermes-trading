@@ -152,7 +152,7 @@ async def fetch(strategy: dict) -> dict:
     display_n = sel.get("display_candidates", 20)
 
     # Score all assets concurrently; semaphore avoids rate-limiting
-    sem = asyncio.Semaphore(10)
+    sem = asyncio.Semaphore(20)
 
     async def guarded(asset: str):
         async with sem:
