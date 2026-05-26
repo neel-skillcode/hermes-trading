@@ -262,32 +262,6 @@
     "price_trough": 1.6060999631881714,
     "trailing_stop_price": 1.609312
   },
-  "USD/SEK": {
-    "id": "USD/SEK_20260525015405",
-    "asset": "USD/SEK",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 9.292409896850586,
-    "entry_time": "2026-05-25T01:54:05.628293+00:00",
-    "stop_loss_pct": 0.00216,
-    "take_profit_pct": 0.00513,
-    "size_usd": 4864.0,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (20.7)",
-      "5d momentum -0.68%",
-      "1d momentum -0.53%",
-      "BB oversold (pct_b=-0.16)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_peak": 9.317529678344727,
-    "trailing_stop_price": 9.297404
-  },
   "GBP/USD": {
     "id": "GBP/USD_20260525015405",
     "asset": "GBP/USD",
@@ -522,6 +496,35 @@
       "Most Undervalued Major Cryptos Heading Into Mid-2026",
       "Introducing Avalanche and Sui Futures",
       "Kraken Adds AVAX Staking as Avalanche Holders Get New Earn Options"
+    ],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open",
+    "price_peak": 9.140000343322754,
+    "trailing_stop_price": 9.058015
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260526232213",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2070.97998046875,
+    "entry_time": "2026-05-26T23:22:13.939879+00:00",
+    "stop_loss_pct": 0.00562,
+    "take_profit_pct": 0.01167,
+    "size_usd": 963.45,
+    "position_size_pct": 0.0096,
+    "confidence": 0.15,
+    "signals": [
+      "1d momentum -1.90%",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.353,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, May 26, 2026: Prices hold despite U.S.-Israel airstrikes",
+      "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain",
+      "Ethereum Firm Sharplink, Solana Treasury Forward Industries Joining Russell 2000, 3000 Indexes"
     ],
     "mode": "paper",
     "strategy_version": "03",
