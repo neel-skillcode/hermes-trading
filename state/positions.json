@@ -41,8 +41,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9115300178527832,
-    "trailing_stop_price": 0.904238
+    "price_peak": 0.9136199951171875,
+    "trailing_stop_price": 0.906311
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -113,8 +113,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.834700107574463,
-    "trailing_stop_price": 7.772023
+    "price_peak": 7.83620023727417,
+    "trailing_stop_price": 7.773511
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260524050433",
@@ -136,7 +136,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_peak": 115.32599639892578,
+    "trailing_stop_price": 114.403388
   },
   "USD/CHF": {
     "id": "USD/CHF_20260524050433",
@@ -157,7 +159,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.7857000231742859,
+    "trailing_stop_price": 0.779414
   },
   "EUR/USD": {
     "id": "EUR/USD_20260524234359",
@@ -181,8 +185,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.1640088558197021,
-    "trailing_stop_price": 1.173321
+    "price_trough": 1.1631964445114136,
+    "trailing_stop_price": 1.172502
   },
   "AUD/USD": {
     "id": "AUD/USD_20260524234359",
@@ -281,8 +285,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 9.298999786376953,
-    "trailing_stop_price": 9.278914
+    "price_peak": 9.317529678344727,
+    "trailing_stop_price": 9.297404
   },
   "GBP/USD": {
     "id": "GBP/USD_20260525015405",
@@ -306,7 +310,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.3443931341171265,
+    "trailing_stop_price": 1.347082
   },
   "LLY": {
     "id": "LLY_20260525195530",
@@ -330,107 +336,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
-  },
-  "RBLX": {
-    "id": "RBLX_20260525195530",
-    "asset": "RBLX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 48.20000076293945,
-    "entry_time": "2026-05-25T19:55:30.371884+00:00",
-    "stop_loss_pct": 0.01482,
-    "take_profit_pct": 0.03527,
-    "size_usd": 4862.85,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (72.5)",
-      "5d momentum +1.92%",
-      "1d momentum +8.63%",
-      "BB overbought (pct_b=0.98)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
     "status": "open",
-    "price_trough": 48.15999984741211,
-    "trailing_stop_price": 48.873731
-  },
-  "COST": {
-    "id": "COST_20260525195530",
-    "asset": "COST",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1027.93994140625,
-    "entry_time": "2026-05-25T19:55:30.372637+00:00",
-    "stop_loss_pct": 0.00716,
-    "take_profit_pct": 0.01637,
-    "size_usd": 3647.14,
-    "position_size_pct": 0.0365,
-    "confidence": 0.57,
-    "signals": [
-      "RSI oversold (18.3)",
-      "1d momentum -5.63%",
-      "Volume spike 1.6\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open"
-  },
-  "UBER": {
-    "id": "UBER_20260525195530",
-    "asset": "UBER",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 71.81500244140625,
-    "entry_time": "2026-05-25T19:55:30.373362+00:00",
-    "stop_loss_pct": 0.01123,
-    "take_profit_pct": 0.02673,
-    "size_usd": 3074.25,
-    "position_size_pct": 0.0307,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (29.0)",
-      "5d momentum -2.08%",
-      "1d momentum -3.48%",
-      "BB oversold (pct_b=0.06)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_peak": 71.81999969482422,
-    "trailing_stop_price": 71.013461
-  },
-  "USD/NOK": {
-    "id": "USD/NOK_20260525210112",
-    "asset": "USD/NOK",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 9.222200393676758,
-    "entry_time": "2026-05-25T21:01:12.343432+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 2177.88,
-    "position_size_pct": 0.0218,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (29.8)",
-      "1d momentum -0.43%",
-      "BB oversold (pct_b=-0.15)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_peak": 9.243269920349121,
-    "trailing_stop_price": 9.224783
+    "price_peak": 1075.6500244140625,
+    "trailing_stop_price": 1066.87272
   },
   "SOL-USD": {
     "id": "SOL-USD_20260526012816",
@@ -478,6 +386,98 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open",
+    "price_peak": 0.10115999728441238,
+    "trailing_stop_price": 0.100595
+  },
+  "SMCI": {
+    "id": "SMCI_20260526183424",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 37.70500183105469,
+    "entry_time": "2026-05-26T18:34:24.846602+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5616.27,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (93.0)",
+      "5d momentum +4.71%",
+      "1d momentum +12.65%",
+      "BB overbought (pct_b=0.88)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.72,
+    "news_headlines": [
+      "Alpha Compute: $21 Million NTM Sales Outlook Shows Scale-Up Potential \u2013 Quarterly Update Report",
+      "Can Nokia's Latest AI Innovation Lab for Data Centers Drive Growth?",
+      "Nvidia CEO Urges Tighter Compliance"
+    ],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260526183424",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 908.1901245117188,
+    "entry_time": "2026-05-26T18:34:24.849069+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5102.19,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (84.4)",
+      "5d momentum +3.48%",
+      "1d momentum +26.92%",
+      "BB overbought (pct_b=0.95)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.487,
+    "news_headlines": [
+      "Stock market today: Dow slips, S&P 500 and Nasdaq rise on Iran peace prospects",
+      "Micron briefly tops $1 trillion in market cap as UBS sees company becoming an AI giant",
+      "Stock market: How to be cautious while not overly bearish"
+    ],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "KLAC": {
+    "id": "KLAC_20260526183424",
+    "asset": "KLAC",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2005.9749755859375,
+    "entry_time": "2026-05-26T18:34:24.850752+00:00",
+    "stop_loss_pct": 0.01046,
+    "take_profit_pct": 0.02506,
+    "size_usd": 3155.92,
+    "position_size_pct": 0.0314,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (88.5)",
+      "5d momentum +0.97%",
+      "1d momentum +10.42%",
+      "BB overbought (pct_b=0.91)",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat"
+    ],
+    "news_sentiment": 0.837,
+    "news_headlines": [
+      "KLA Flags Stronger Chip Equipment Demand, Rare 2027 Visibility at JPMorgan Conference",
+      "Will AutoZone, Grainger, or United Rentals Be the Next Big Stock Split?",
+      "The Bull Case For KLA (KLAC) Could Change Following Earnings Beat And Expanded Capital Returns Learn Why"
+    ],
     "mode": "paper",
     "strategy_version": "03",
     "status": "open"
