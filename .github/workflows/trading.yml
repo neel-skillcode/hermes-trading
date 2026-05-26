@@ -30,6 +30,7 @@ jobs:
         env:
           HERMES_TRADING_MODE: paper
           HERMES_TRADING_I_ACCEPT_RISK: 'false'
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit state
         run: |
