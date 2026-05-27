@@ -18,7 +18,9 @@
     "mode": "paper",
     "strategy_version": "02",
     "status": "open",
-    "trade_type": "swing"
+    "trade_type": "swing",
+    "price_peak": 17.378000259399414,
+    "trailing_stop_price": 17.29111
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20260524050433",
@@ -41,8 +43,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9147499799728394,
-    "trailing_stop_price": 0.907432
+    "price_peak": 0.915090024471283,
+    "trailing_stop_price": 0.907769
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -137,8 +139,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 115.34600067138672,
-    "trailing_stop_price": 114.423233
+    "price_peak": 115.3489990234375,
+    "trailing_stop_price": 114.426207
   },
   "USD/CHF": {
     "id": "USD/CHF_20260524050433",
@@ -160,8 +162,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.7857000231742859,
-    "trailing_stop_price": 0.779414
+    "price_peak": 0.7869399785995483,
+    "trailing_stop_price": 0.780644
   },
   "EUR/USD": {
     "id": "EUR/USD_20260524234359",
@@ -211,8 +213,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 0.7145408987998962,
-    "trailing_stop_price": 0.720257
+    "price_trough": 0.7140306830406189,
+    "trailing_stop_price": 0.719743
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260524234359",
@@ -262,8 +264,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.3443931341171265,
-    "trailing_stop_price": 1.347082
+    "price_trough": 1.3429667949676514,
+    "trailing_stop_price": 1.345653
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260526012816",
@@ -291,70 +293,6 @@
     "status": "open",
     "price_peak": 0.10187999904155731,
     "trailing_stop_price": 0.10131
-  },
-  "SMCI": {
-    "id": "SMCI_20260526183424",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 37.70500183105469,
-    "entry_time": "2026-05-26T18:34:24.846602+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5616.27,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (93.0)",
-      "5d momentum +4.71%",
-      "1d momentum +12.65%",
-      "BB overbought (pct_b=0.88)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.72,
-    "news_headlines": [
-      "Alpha Compute: $21 Million NTM Sales Outlook Shows Scale-Up Potential \u2013 Quarterly Update Report",
-      "Can Nokia's Latest AI Innovation Lab for Data Centers Drive Growth?",
-      "Nvidia CEO Urges Tighter Compliance"
-    ],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 37.099998474121094,
-    "trailing_stop_price": 37.656498
-  },
-  "MU": {
-    "id": "MU_20260526183424",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 908.1901245117188,
-    "entry_time": "2026-05-26T18:34:24.849069+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5102.19,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (84.4)",
-      "5d momentum +3.48%",
-      "1d momentum +26.92%",
-      "BB overbought (pct_b=0.95)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.487,
-    "news_headlines": [
-      "Stock market today: Dow slips, S&P 500 and Nasdaq rise on Iran peace prospects",
-      "Micron briefly tops $1 trillion in market cap as UBS sees company becoming an AI giant",
-      "Stock market: How to be cautious while not overly bearish"
-    ],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 895.8800048828125,
-    "trailing_stop_price": 909.318205
   },
   "KLAC": {
     "id": "KLAC_20260526183424",
@@ -384,7 +322,9 @@
     ],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1977.5999755859375,
+    "trailing_stop_price": 1998.285671
   },
   "BTC-USD": {
     "id": "BTC-USD_20260526203324",
@@ -414,8 +354,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 75726.4296875,
-    "trailing_stop_price": 76190.632701
+    "price_trough": 74959.890625,
+    "trailing_stop_price": 75419.394755
   },
   "XRP-USD": {
     "id": "XRP-USD_20260526203324",
@@ -477,8 +417,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 9.140000343322754,
-    "trailing_stop_price": 9.058015
+    "price_peak": 9.1899995803833,
+    "trailing_stop_price": 9.107565
   },
   "ETH-USD": {
     "id": "ETH-USD_20260526232213",
@@ -505,7 +445,9 @@
     ],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2062.0,
+    "trailing_stop_price": 2073.58844
   },
   "NZD/USD": {
     "id": "NZD/USD_20260527095501",
@@ -534,6 +476,67 @@
     ],
     "mode": "paper",
     "strategy_version": "03",
+    "status": "open"
+  },
+  "RXRX": {
+    "id": "RXRX_20260527163000",
+    "asset": "RXRX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 3.1912999153137207,
+    "entry_time": "2026-05-27T16:30:00.376237+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5611.39,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (62.1)",
+      "5d momentum +8.36%",
+      "1d momentum +8.18%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.455,
+    "news_headlines": [
+      "Recursion Pharmaceuticals Just Hit a 52-Week Low. Is This Former Nvidia Holding a Smart Buy Now?",
+      "Recursion Pharmaceuticals (RXRX) Hits 52-Week Low; Is It In Oversold Territory?",
+      "A Look At Recursion Pharmaceuticals (RXRX) Valuation As Mixed Signals Emerge On Future Growth Prospects"
+    ],
+    "mode": "paper",
+    "strategy_version": "04",
+    "status": "open"
+  },
+  "JPM": {
+    "id": "JPM_20260527163000",
+    "asset": "JPM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 297.9800109863281,
+    "entry_time": "2026-05-27T16:30:00.378334+00:00",
+    "stop_loss_pct": 0.00855,
+    "take_profit_pct": 0.02115,
+    "size_usd": 6099.34,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (29.4)",
+      "5d momentum -2.62%",
+      "1d momentum -1.32%",
+      "BB oversold (pct_b=-0.08)",
+      "Volume spike 2.0\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.533,
+    "news_headlines": [
+      "Top Midday Stories: White House Refutes Iran Report of Interim Peace Deal; Zscaler Shares Plunge After Fiscal Q4 Revenue Guidance Misses Estimates",
+      "Does JPMorgan Chase pay dividends? Yield & payout explained",
+      "Jamie Dimon: Expect the Unexpected on Succession"
+    ],
+    "mode": "paper",
+    "strategy_version": "04",
     "status": "open"
   }
 }
