@@ -246,11 +246,11 @@ tbody tr:active td{background:rgba(68,136,255,.16)}
     <span id="mbadges"></span>
     <div id="mhdr-right">
       <span style="font-family:var(--mono);font-size:10px;color:var(--dim)">Interval:</span>
-      <button class="iv-btn active" onclick="setInterval_('1')">1m</button>
-      <button class="iv-btn" onclick="setInterval_('5')">5m</button>
-      <button class="iv-btn" onclick="setInterval_('15')">15m</button>
-      <button class="iv-btn" onclick="setInterval_('60')">1H</button>
-      <button class="iv-btn" onclick="setInterval_('D')">1D</button>
+      <button class="iv-btn active" onclick="setInterval_('1',this)">1m</button>
+      <button class="iv-btn" onclick="setInterval_('5',this)">5m</button>
+      <button class="iv-btn" onclick="setInterval_('15',this)">15m</button>
+      <button class="iv-btn" onclick="setInterval_('60',this)">1H</button>
+      <button class="iv-btn" onclick="setInterval_('D',this)">1D</button>
       <button id="mbtn-close" onclick="closeModal()">✕ CLOSE</button>
     </div>
   </div>
@@ -559,15 +559,16 @@ function showModal(trade, defaultInterval) {
     : '<span style="color:var(--dim);font-size:10px;font-family:var(--mono)">No signals recorded</span>';
 
   // Set default interval button
+  const IV_LABEL = {'1':'1m','5':'5m','15':'15m','60':'1H','D':'1D'};
   document.querySelectorAll('.iv-btn').forEach(b=>b.classList.remove('active'));
-  const defaultBtn=[...document.querySelectorAll('.iv-btn')].find(b=>b.textContent.trim()===(defaultInterval||'D').replace('60','1H'));
+  const defaultBtn=[...document.querySelectorAll('.iv-btn')].find(b=>b.textContent.trim()===IV_LABEL[defaultInterval||'D']);
   if(defaultBtn)defaultBtn.classList.add('active');
 
   // Open overlay
   $('overlay').classList.add('open');
 
-  // Load chart
-  const iv = type==='day'?'5':'D';
+  // Load chart — use explicit defaultInterval if given, else derive from trade type
+  const iv = defaultInterval || (type==='day'?'5':'D');
   loadTvChart(trade.asset, iv, trade);
 }
 
@@ -622,7 +623,11 @@ function loadTvChart(asset, interval, trade) {
       },
     });
 
+    // Fallback: hide spinner after 12s even if onChartReady never fires
+    const spinFallback = setTimeout(()=>{ $('mchart-loading').style.display='none'; }, 12000);
+
     tvWidget.onChartReady(()=>{
+      clearTimeout(spinFallback);
       $('mchart-loading').style.display='none';
 
       if (!trade || trade._scan_only || !trade.entry_price) return;
@@ -666,9 +671,9 @@ function loadTvChart(asset, interval, trade) {
 }
 
 // ── Interval switcher ─────────────────────────────────────────────────────────
-function setInterval_(iv) {
+function setInterval_(iv, btn) {
   document.querySelectorAll('.iv-btn').forEach(b=>b.classList.remove('active'));
-  event.target.classList.add('active');
+  if (btn) btn.classList.add('active');
   if (activeTrade) loadTvChart(activeTrade.asset, iv, activeTrade);
 }
 
