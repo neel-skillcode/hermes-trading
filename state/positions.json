@@ -41,8 +41,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9138699769973755,
-    "trailing_stop_price": 0.906559
+    "price_peak": 0.9147499799728394,
+    "trailing_stop_price": 0.907432
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -210,7 +210,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "03",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.7145408987998962,
+    "trailing_stop_price": 0.720257
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260524234359",
@@ -236,31 +238,6 @@
     "status": "open",
     "price_trough": 113.75700378417969,
     "trailing_stop_price": 114.66706
-  },
-  "EUR/CAD": {
-    "id": "EUR/CAD_20260524234359",
-    "asset": "EUR/CAD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.6070899963378906,
-    "entry_time": "2026-05-24T23:43:59.163194+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 3968.0,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI overbought (81.0)",
-      "1d momentum +0.43%",
-      "BB overbought (pct_b=1.24)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 1.6060999631881714,
-    "trailing_stop_price": 1.609312
   },
   "GBP/USD": {
     "id": "GBP/USD_20260525015405",
@@ -312,8 +289,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.10115999728441238,
-    "trailing_stop_price": 0.100595
+    "price_peak": 0.10187999904155731,
+    "trailing_stop_price": 0.10131
   },
   "SMCI": {
     "id": "SMCI_20260526183424",
@@ -468,8 +445,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.3286999464035034,
-    "trailing_stop_price": 1.337177
+    "price_trough": 1.3279999494552612,
+    "trailing_stop_price": 1.336473
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260526220907",
@@ -525,6 +502,35 @@
       "Bitcoin and ethereum prices today, Tuesday, May 26, 2026: Prices hold despite U.S.-Israel airstrikes",
       "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain",
       "Ethereum Firm Sharplink, Solana Treasury Forward Industries Joining Russell 2000, 3000 Indexes"
+    ],
+    "mode": "paper",
+    "strategy_version": "03",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260527095501",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.588546872138977,
+    "entry_time": "2026-05-27T09:55:01.186372+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00471,
+    "size_usd": 4579.28,
+    "position_size_pct": 0.0456,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (80.0)",
+      "1d momentum +0.65%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
+    ],
+    "news_sentiment": 0.264,
+    "news_headlines": [
+      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
     ],
     "mode": "paper",
     "strategy_version": "03",
