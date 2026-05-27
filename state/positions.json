@@ -19,8 +19,8 @@
     "strategy_version": "02",
     "status": "open",
     "trade_type": "swing",
-    "price_peak": 17.378000259399414,
-    "trailing_stop_price": 17.29111
+    "price_peak": 17.378189086914062,
+    "trailing_stop_price": 17.291298
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20260524050433",
@@ -43,8 +43,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.915090024471283,
-    "trailing_stop_price": 0.907769
+    "price_peak": 0.9152799844741821,
+    "trailing_stop_price": 0.907958
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -162,8 +162,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.7870699763298035,
-    "trailing_stop_price": 0.780773
+    "price_peak": 0.7875900268554688,
+    "trailing_stop_price": 0.781289
   },
   "EUR/USD": {
     "id": "EUR/USD_20260524234359",
@@ -187,8 +187,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.1629259586334229,
-    "trailing_stop_price": 1.172229
+    "price_trough": 1.162520408630371,
+    "trailing_stop_price": 1.171821
   },
   "AUD/USD": {
     "id": "AUD/USD_20260524234359",
@@ -264,8 +264,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.3426783084869385,
-    "trailing_stop_price": 1.345364
+    "price_trough": 1.3420476913452148,
+    "trailing_stop_price": 1.344732
   },
   "KLAC": {
     "id": "KLAC_20260526183424",
@@ -298,37 +298,6 @@
     "status": "open",
     "price_trough": 1957.18994140625,
     "trailing_stop_price": 1977.662148
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260526203324",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.3315999507904053,
-    "entry_time": "2026-05-26T20:33:24.380318+00:00",
-    "stop_loss_pct": 0.00638,
-    "take_profit_pct": 0.01482,
-    "size_usd": 403.24,
-    "position_size_pct": 0.004,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (37.5)",
-      "5d momentum -0.89%",
-      "1d momentum -1.61%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Holds Above $75,000",
-      "We Asked 4 AI Models If $10,000 In XRP Beats $10,000 In Nvidia by 2030",
-      "Bitcoin ETFs bleed $1B as capital rotates into HYPE, SOL, XRP"
-    ],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 1.3121999502182007,
-    "trailing_stop_price": 1.320572
   },
   "RXRX": {
     "id": "RXRX_20260527163000",
@@ -486,37 +455,6 @@
     "price_peak": 928.4099731445312,
     "trailing_stop_price": 914.483824
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260527205423",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 75103.9921875,
-    "entry_time": "2026-05-27T20:54:23.769165+00:00",
-    "stop_loss_pct": 0.0044,
-    "take_profit_pct": 0.01008,
-    "size_usd": 3692.92,
-    "position_size_pct": 0.0368,
-    "confidence": 0.575,
-    "signals": [
-      "RSI oversold (36.7)",
-      "1d momentum -1.18%",
-      "Volume spike 5.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.73,
-    "news_headlines": [
-      "Bitcoin falls to $75,000 as token decouples from tech rally",
-      "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
-      "FBTC Holds $12 Billion in Bitcoin But Spot ETF Holders Pay Ordinary Income Tax on Forced Distributions Most Have Never Considered"
-    ],
-    "mode": "paper",
-    "strategy_version": "04",
-    "status": "open",
-    "price_trough": 74423.9921875,
-    "trailing_stop_price": 74751.457753
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260527222629",
     "asset": "ETH-USD",
@@ -543,6 +481,37 @@
       "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
       "Ethereum Traders Grow Increasingly Bearish as ETFs Bleed, ETH Sinks Near $2,000",
       "XRP ETF Inflows Just Hit a 2026 High: Is a Price Surge Coming?"
+    ],
+    "mode": "paper",
+    "strategy_version": "04",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260527234450",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.3044999837875366,
+    "entry_time": "2026-05-27T23:44:50.737162+00:00",
+    "stop_loss_pct": 0.0087,
+    "take_profit_pct": 0.02171,
+    "size_usd": 4116.56,
+    "position_size_pct": 0.041,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (34.7)",
+      "5d momentum -1.50%",
+      "1d momentum -1.70%",
+      "BB oversold (pct_b=-0.16)",
+      "Volume spike 4.1\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.353,
+    "news_headlines": [
+      "XRP ETF Inflows Just Hit a 2026 High: Is a Price Surge Coming?",
+      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
+      "Will XRP Ever Skyrocket? What Conditions Would Trigger It"
     ],
     "mode": "paper",
     "strategy_version": "04",
