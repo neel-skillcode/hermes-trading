@@ -1,86 +1,65 @@
-version: "03"
-
-# ── Entry signals ────────────────────────────────────────────────────────────
 entry:
   indicators:
-    rsi:
-      period: 14
-      oversold: 40        # long signal
-      overbought: 60      # short signal
-    macd:
-      fast: 12
-      slow: 26
-      signal: 9
-    momentum:
-      lookback_days: 5
-      min_pct: 0.003      # 0.3% 5-day move to count
-    momentum_1d:
-      min_pct: 0.004      # 0.4% intraday move triggers day-trade signal
     bollinger:
+      entry_pct_b_high: 0.85
+      entry_pct_b_low: 0.15
       period: 20
       std_dev: 2.0
-      entry_pct_b_low: 0.15   # below this → long (oversold)
-      entry_pct_b_high: 0.85  # above this → short (overbought)
+    macd:
+      fast: 12
+      signal: 9
+      slow: 26
+    momentum:
+      lookback_days: 5
+      min_pct: 0.003
+    momentum_1d:
+      min_pct: 0.004
+    rsi:
+      overbought: 60
+      oversold: 42
+      period: 14
     volume_spike:
-      multiplier: 1.5     # current volume ≥ 1.5× 20-bar avg = confirmation
-  min_signal_confluence: 1   # just 1 strong signal is enough
-  min_confidence: 0.15       # very low floor — let the market decide
+      multiplier: 1.5
+  min_confidence: 0.15
+  min_signal_confluence: 1
   news_sentiment_weight: 0.25
-
-# ── Universe ─────────────────────────────────────────────────────────────────
-universe_selection:
-  # Position capacity
-  max_positions: 20          # total open positions at once
-  max_day_trades: 12         # subset: intraday/scalp
-  max_swing_trades: 10       # subset: multi-day holds (overlap with day OK up to 20)
-
-  # Capital allocation
-  day_trade_capital_pct: 0.40    # 40 % of portfolio for day trades
-  swing_capital_pct: 0.50        # 50 % for swing trades
-  cash_reserve_pct: 0.10         # 10 % always liquid — never traded
-
-  # Asset-class weights in universe scan
-  forex_weight: 0.35
-  equity_weight: 0.55
-  crypto_weight: 0.10
-
-  # Ranking filters
-  min_momentum_score: 0.15       # minimum rank_score to be a candidate
-  min_volume_percentile: 50
-
-  # How many appear in dashboard scan table
-  display_candidates: 20
-
-# ── Position sizing ───────────────────────────────────────────────────────────
 position_sizing:
+  day_trade:
+    max_position_pct: 0.08
+  kelly_fraction: 0.8
   method: kelly_fractional
-  kelly_fraction: 0.80        # aggressive Kelly — high confidence = big bet
-  day_trade:
-    max_position_pct: 0.08    # max 8 % of portfolio per day trade ($8 000 on $100 k)
   swing_trade:
-    max_position_pct: 0.12    # max 12 % per swing ($12 000 on $100 k)
-
-# ── Stop loss ────────────────────────────────────────────────────────────────
+    max_position_pct: 0.12
+regime_detection:
+  lookback_days: 20
+  method: rolling_return_classifier
 stop_loss:
-  trailing: true              # ratchet stop in direction of profit
   day_trade:
-    atr_multiplier: 0.8       # tight — day trades exit fast
-    min_pct: 0.002            # never tighter than 0.2 %
-    max_pct: 0.015            # never wider than 1.5 %
+    atr_multiplier: 0.8
+    max_pct: 0.015
+    min_pct: 0.002
   swing_trade:
-    atr_multiplier: 2.5       # wide — room to breathe
-    min_pct: 0.008
+    atr_multiplier: 2.5
     max_pct: 0.06
-
-# ── Take profit ──────────────────────────────────────────────────────────────
+    min_pct: 0.008
+  trailing: true
 take_profit:
   day_trade:
-    rr_ratio: 2.0             # 2:1 reward-to-risk for day trades
-  swing_trade:
-    rr_ratio: 3.0             # 3:1 for swing
+    rr_ratio: 2.0
   news_boost_max: 0.5
-
-# ── Regime detection ─────────────────────────────────────────────────────────
-regime_detection:
-  method: rolling_return_classifier
-  lookback_days: 20
+  swing_trade:
+    rr_ratio: 3.0
+universe_selection:
+  cash_reserve_pct: 0.1
+  crypto_weight: 0.1
+  day_trade_capital_pct: 0.4
+  display_candidates: 20
+  equity_weight: 0.55
+  forex_weight: 0.35
+  max_day_trades: 12
+  max_positions: 20
+  max_swing_trades: 10
+  min_momentum_score: 0.15
+  min_volume_percentile: 50
+  swing_capital_pct: 0.5
+version: '04'

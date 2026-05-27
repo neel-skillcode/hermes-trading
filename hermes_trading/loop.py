@@ -1045,15 +1045,24 @@ class TradingLoop:
             f"swing={sum(1 for p in self.open_positions.values() if p.get('trade_type')=='swing')})[/dim]"
         )
 
-        # 6. Reflection check
+        # 6. Reflection check — run synchronously so the files are written
+        #    before GitHub Actions' "Commit state" step fires.
         if self._should_reflect_today():
-            console.print("[bold magenta]Reflection: Mon/Wed/Fri 09:30 ET[/bold magenta]")
+            console.print("[bold magenta]Reflection triggered — running now[/bold magenta]")
             mode = "--hermes" if self._hermes_available() else "--fallback"
-            subprocess.Popen(
-                ["python", "-m", "hermes_trading.reflect", mode],
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
-            )
+            try:
+                result = subprocess.run(
+                    ["python3", "-m", "hermes_trading.reflect", mode],
+                    capture_output=True,
+                    text=True,
+                    timeout=60,
+                )
+                if result.stdout:
+                    console.print(result.stdout.strip())
+                if result.returncode != 0 and result.stderr:
+                    console.print(f"[yellow]Reflect stderr: {result.stderr[:200]}[/yellow]")
+            except Exception as e:
+                console.print(f"[yellow]Reflection failed: {e}[/yellow]")
             self.last_reflection_date = datetime.now(ET).date().isoformat()
             self.trades_since_reflection = 0
 
