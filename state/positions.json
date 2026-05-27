@@ -327,37 +327,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.319200038909912,
-    "trailing_stop_price": 1.327617
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260526232213",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2070.97998046875,
-    "entry_time": "2026-05-26T23:22:13.939879+00:00",
-    "stop_loss_pct": 0.00562,
-    "take_profit_pct": 0.01167,
-    "size_usd": 963.45,
-    "position_size_pct": 0.0096,
-    "confidence": 0.15,
-    "signals": [
-      "1d momentum -1.90%",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.353,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, May 26, 2026: Prices hold despite U.S.-Israel airstrikes",
-      "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain",
-      "Ethereum Firm Sharplink, Solana Treasury Forward Industries Joining Russell 2000, 3000 Indexes"
-    ],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 2048.52001953125,
-    "trailing_stop_price": 2060.032702
+    "price_trough": 1.3121999502182007,
+    "trailing_stop_price": 1.320572
   },
   "RXRX": {
     "id": "RXRX_20260527163000",
@@ -539,6 +510,39 @@
       "Bitcoin falls to $75,000 as token decouples from tech rally",
       "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
       "FBTC Holds $12 Billion in Bitcoin But Spot ETF Holders Pay Ordinary Income Tax on Forced Distributions Most Have Never Considered"
+    ],
+    "mode": "paper",
+    "strategy_version": "04",
+    "status": "open",
+    "price_trough": 74423.9921875,
+    "trailing_stop_price": 74751.457753
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260527222629",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2023.5699462890625,
+    "entry_time": "2026-05-27T22:26:29.350430+00:00",
+    "stop_loss_pct": 0.00858,
+    "take_profit_pct": 0.02123,
+    "size_usd": 2518.56,
+    "position_size_pct": 0.0251,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (23.9)",
+      "5d momentum -1.19%",
+      "1d momentum -2.04%",
+      "BB oversold (pct_b=-0.08)",
+      "Volume spike 4.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.172,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
+      "Ethereum Traders Grow Increasingly Bearish as ETFs Bleed, ETH Sinks Near $2,000",
+      "XRP ETF Inflows Just Hit a 2026 High: Is a Price Surge Coming?"
     ],
     "mode": "paper",
     "strategy_version": "04",
