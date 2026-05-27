@@ -694,15 +694,12 @@ class TradingLoop:
     # ── Reflection ────────────────────────────────────────────────────────────
 
     def _should_reflect_today(self) -> bool:
+        """Fire once per day whenever min_trades have accumulated since last reflection."""
         now_et = datetime.now(ET)
-        if now_et.weekday() not in REFLECTION_DAYS.values():
-            return False
-        if now_et.hour != 9 or now_et.minute > 5:
-            return False
         today = now_et.date().isoformat()
         if self.last_reflection_date == today:
-            return False
-        min_trades = self.goal.get("reflection_schedule", {}).get("min_trades", 50)
+            return False   # already reflected today
+        min_trades = self.goal.get("reflection_schedule", {}).get("min_trades", 10)
         return self.trades_since_reflection >= min_trades
 
     def _hermes_available(self) -> bool:

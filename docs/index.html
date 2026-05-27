@@ -95,6 +95,27 @@ tbody tr:active td{background:rgba(68,136,255,.16)}
 ::-webkit-scrollbar{width:3px;height:3px}
 ::-webkit-scrollbar-thumb{background:var(--bd2);border-radius:3px}
 
+/* ── Reflection log ── */
+#reflect-section{border-top:1px solid var(--bd);background:var(--s1)}
+#reflect-hdr{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;background:var(--s2);border-bottom:1px solid var(--bd)}
+#reflect-list{display:flex;flex-direction:column}
+.ref-row{display:grid;grid-template-columns:90px 1fr auto;gap:0;border-bottom:1px solid var(--bd);padding:11px 16px 11px 14px;align-items:start}
+.ref-row:last-child{border-bottom:none}
+.ref-ver{font-family:var(--mono);font-size:11px;color:var(--dim);padding-top:2px;white-space:nowrap}
+.ref-ver strong{color:var(--blue)}
+.ref-body{min-width:0}
+.ref-change{font-family:var(--mono);font-size:12px;color:var(--bright);margin-bottom:4px}
+.ref-change .ref-path{color:var(--dim);font-size:11px}
+.ref-change .ref-arrow{color:var(--dim);margin:0 6px}
+.ref-change .ref-old{color:var(--red)}
+.ref-change .ref-new{color:var(--green)}
+.ref-reason{font-size:11px;color:var(--dim);line-height:1.45;font-family:var(--sans);max-width:800px}
+.ref-meta{display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap}
+.ref-ts{font-family:var(--mono);font-size:10px;color:var(--dim)}
+.badge-mode-f{display:inline-block;padding:1px 6px;border-radius:2px;font-size:9px;font-weight:700;letter-spacing:1px;background:rgba(255,204,0,.08);color:var(--yellow);border:1px solid rgba(255,204,0,.2)}
+.badge-mode-h{display:inline-block;padding:1px 6px;border-radius:2px;font-size:9px;font-weight:700;letter-spacing:1px;background:rgba(170,119,255,.1);color:var(--purple);border:1px solid rgba(170,119,255,.2)}
+.ref-conf{font-family:var(--mono);font-size:10px;padding-top:3px;color:var(--dim);white-space:nowrap}
+
 /* ══════════════════════════════════════
    CHART MODAL
    ══════════════════════════════════════ */
@@ -229,6 +250,15 @@ tbody tr:active td{background:rgba(68,136,255,.16)}
   </div>
 </div>
 
+<!-- ── Reflection log ── -->
+<div id="reflect-section">
+  <div id="reflect-hdr">
+    <span class="ph-title">Reflection Log · Strategy Evolution</span>
+    <span class="ph-badge" id="reflect-badge">—</span>
+  </div>
+  <div id="reflect-list"><div class="empty" style="padding:18px">Awaiting first reflection — triggers once 10 trades close</div></div>
+</div>
+
 <div id="footer">
   <span>hermes-trading · paper mode · github actions every 5 min</span>
   <span id="footer-r">—</span>
@@ -322,11 +352,13 @@ function jsonl(raw){
 
 async function refresh(){
   try{
-    const [hb,trTxt]=await Promise.all([
+    const [hb,trTxt,refTxt]=await Promise.all([
       fetch(url('heartbeat.json')).then(sj),
       fetch(url('trades.jsonl')).then(st),
+      fetch(url('hypotheses.jsonl')).then(st),
     ]);
     draw(hb,jsonl(trTxt));
+    drawReflections(jsonl(refTxt));
     $('footer-r').textContent='fetched '+new Date().toLocaleTimeString();
   }catch(e){$('footer-r').textContent='fetch error · '+e.message}
 }
@@ -668,6 +700,66 @@ function loadTvChart(asset, interval, trade) {
       }
     });
   }, 80);
+}
+
+// ── Reflection log ────────────────────────────────────────────────────────────
+function drawReflections(entries) {
+  const list = $('reflect-list');
+  const badge = $('reflect-badge');
+  if (!entries || !entries.length) {
+    badge.textContent = '0 entries';
+    list.innerHTML = '<div class="empty" style="padding:18px">Awaiting first reflection — triggers once 10 trades close</div>';
+    return;
+  }
+
+  // Newest first
+  const rev = [...entries].reverse();
+  badge.textContent = rev.length + (rev.length === 1 ? ' entry' : ' entries');
+
+  list.innerHTML = rev.map(r => {
+    const ts = r.timestamp ? new Date(r.timestamp).toLocaleString([], {
+      month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'
+    }) : '—';
+    const modeBadge = r.mode === 'hermes'
+      ? '<span class="badge-mode-h">HERMES</span>'
+      : '<span class="badge-mode-f">FALLBACK</span>';
+    const confStr = r.confidence != null
+      ? `conf ${Math.round(r.confidence * 100)}%` : '';
+
+    // Format the variable path for readability
+    const pathLabel = (r.variable || '—')
+      .replace(/\./g, ' › ')
+      .replace(/_/g, ' ');
+
+    // Format old → new values
+    const fmtVal = v => v == null ? '—' : (typeof v === 'number' ? v.toLocaleString('en-US', {maximumFractionDigits:5}) : String(v));
+
+    const changeHtml = `
+      <span class="ref-path">${pathLabel}</span>
+      <span class="ref-arrow">→</span>
+      <span class="ref-old">${fmtVal(r.old_value)}</span>
+      <span class="ref-arrow">⟶</span>
+      <span class="ref-new">${fmtVal(r.new_value)}</span>
+    `;
+
+    const versionHtml = r.version_from != null
+      ? `v<strong>${r.version_from}</strong> → v<strong>${r.version_to}</strong>`
+      : `v<strong>${r.version_to || '?'}</strong>`;
+
+    return `<div class="ref-row">
+      <div class="ref-ver">${versionHtml}</div>
+      <div class="ref-body">
+        <div class="ref-meta">
+          <span class="ref-ts">${ts}</span>
+          ${modeBadge}
+          ${confStr ? `<span style="font-family:var(--mono);font-size:10px;color:var(--dim)">${confStr}</span>` : ''}
+        </div>
+        <div class="ref-change">${changeHtml}</div>
+        ${r.reasoning ? `<div class="ref-reason">${r.reasoning}</div>` : ''}
+      </div>
+      <div class="ref-conf"></div>
+    </div>`;
+  }).join('');
 }
 
 // ── Interval switcher ─────────────────────────────────────────────────────────
