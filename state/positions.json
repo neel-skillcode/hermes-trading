@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.3791999816894531,
-    "trailing_stop_price": 1.390234
+    "price_trough": 1.3778300285339355,
+    "trailing_stop_price": 1.388853
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -116,8 +116,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 115.39700317382812,
-    "trailing_stop_price": 114.473827
+    "price_peak": 115.58599853515625,
+    "trailing_stop_price": 114.661311
   },
   "USD/CHF": {
     "id": "USD/CHF_20260524050433",
@@ -218,39 +218,6 @@
     "price_trough": 113.55999755859375,
     "trailing_stop_price": 114.468478
   },
-  "JPM": {
-    "id": "JPM_20260527163000",
-    "asset": "JPM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 297.9800109863281,
-    "entry_time": "2026-05-27T16:30:00.378334+00:00",
-    "stop_loss_pct": 0.00855,
-    "take_profit_pct": 0.02115,
-    "size_usd": 6099.34,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (29.4)",
-      "5d momentum -2.62%",
-      "1d momentum -1.32%",
-      "BB oversold (pct_b=-0.08)",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.533,
-    "news_headlines": [
-      "Top Midday Stories: White House Refutes Iran Report of Interim Peace Deal; Zscaler Shares Plunge After Fiscal Q4 Revenue Guidance Misses Estimates",
-      "Does JPMorgan Chase pay dividends? Yield & payout explained",
-      "Jamie Dimon: Expect the Unexpected on Succession"
-    ],
-    "mode": "paper",
-    "strategy_version": "04",
-    "status": "open",
-    "price_peak": 299.2799987792969,
-    "trailing_stop_price": 296.721155
-  },
   "META": {
     "id": "META_20260527184030",
     "asset": "META",
@@ -280,37 +247,6 @@
     "mode": "paper",
     "strategy_version": "04",
     "status": "open"
-  },
-  "MU": {
-    "id": "MU_20260527184030",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 915.4500122070312,
-    "entry_time": "2026-05-27T18:40:30.295132+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03573,
-    "size_usd": 4907.48,
-    "position_size_pct": 0.0489,
-    "confidence": 0.764,
-    "signals": [
-      "RSI overbought (83.3)",
-      "5d momentum +2.60%",
-      "1d momentum +22.03%",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.805,
-    "news_headlines": [
-      "Micron replaces mighty Walmart in the $1 trillion club",
-      "How does Micron stack up to Nvidia after reaching $1T market cap?",
-      "Nvidia and Micron emerge as biggest winners in Goldman's AI earnings forecast"
-    ],
-    "mode": "paper",
-    "strategy_version": "04",
-    "status": "open",
-    "price_peak": 944.5507202148438,
-    "trailing_stop_price": 930.382459
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260528055024",
@@ -375,8 +311,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 0.09900999814271927,
-    "trailing_stop_price": 0.097921
+    "price_peak": 0.10001999884843826,
+    "trailing_stop_price": 0.09892
   },
   "ORCL": {
     "id": "ORCL_20260528164943",
@@ -404,35 +340,6 @@
       "After Comparing Every Generative AI ETF These 3 Capture the Software Layer Most Investors Miss",
       "Oracle at $192: Buy, Sell or Hold?",
       "3 Software Stocks to Watch as the Industry Grapples With Headwinds"
-    ],
-    "mode": "paper",
-    "strategy_version": "05",
-    "status": "open"
-  },
-  "QCOM": {
-    "id": "QCOM_20260528164943",
-    "asset": "QCOM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 247.53619384765625,
-    "entry_time": "2026-05-28T16:49:43.193173+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03553,
-    "size_usd": 4743.06,
-    "position_size_pct": 0.0472,
-    "confidence": 0.738,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +8.68%",
-      "1d momentum +4.37%",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.826,
-    "news_headlines": [
-      "ARM vs. SNPS: Which AI Chip Design Stock Should Investors Buy?",
-      "Jensen Huang Just Said $40 Trillion. Here Are 5 Physical AI Stocks Wall Street Is Quietly Loading Up On Before the Rest of the Market Catches On",
-      "AI boom squeezes optical tech and Huawei makes a chip comeback"
     ],
     "mode": "paper",
     "strategy_version": "05",
@@ -466,7 +373,9 @@
     ],
     "mode": "paper",
     "strategy_version": "05",
-    "status": "open"
+    "status": "open",
+    "price_trough": 335.864990234375,
+    "trailing_stop_price": 340.902965
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -491,6 +400,99 @@
       "Why a Plunging Dollar Is Missing Out on the Relief Rally",
       "How Markets Reacted to Trump's Iran Post, in Charts",
       "The Dollar Isn\u2019t Done. Why It\u2019s Outshining Rivals Amid Iran Crisis."
+    ],
+    "mode": "paper",
+    "strategy_version": "05",
+    "status": "open",
+    "price_peak": 159.2550048828125,
+    "trailing_stop_price": 157.980965
+  },
+  "HOOD": {
+    "id": "HOOD_20260528193027",
+    "asset": "HOOD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 83.91179656982422,
+    "entry_time": "2026-05-28T19:30:27.505081+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6101.58,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (97.4)",
+      "5d momentum +6.85%",
+      "1d momentum +12.73%",
+      "BB overbought (pct_b=1.06)",
+      "Volume spike 1.5\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.351,
+    "news_headlines": [
+      "Robinhood stock rises after the company allows AI agents for trading and credit card purchases",
+      "Iran Peace Deal Hopes Lift Bitcoin Back Above $73K, But Retail Warns CLARITY Act Stalemate Is The Real Overhang",
+      "Coinbase to Expand Global Fiat Access With Standard Chartered?"
+    ],
+    "mode": "paper",
+    "strategy_version": "05",
+    "status": "open"
+  },
+  "RXRX": {
+    "id": "RXRX_20260528193027",
+    "asset": "RXRX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 3.449899911880493,
+    "entry_time": "2026-05-28T19:30:27.507203+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5099.64,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (87.3)",
+      "5d momentum +6.97%",
+      "1d momentum +12.56%",
+      "BB overbought (pct_b=0.98)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": 0.64,
+    "news_headlines": [
+      "Verge, following trial failure, rebrands its AI drug discovery ambitions",
+      "Recursion Pharmaceuticals Just Hit a 52-Week Low. Is This Former Nvidia Holding a Smart Buy Now?",
+      "Recursion Pharmaceuticals (RXRX) Hits 52-Week Low; Is It In Oversold Territory?"
+    ],
+    "mode": "paper",
+    "strategy_version": "05",
+    "status": "open"
+  },
+  "UNG": {
+    "id": "UNG_20260528193027",
+    "asset": "UNG",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 11.904999732971191,
+    "entry_time": "2026-05-28T19:30:27.508549+00:00",
+    "stop_loss_pct": 0.01165,
+    "take_profit_pct": 0.0284,
+    "size_usd": 4522.49,
+    "position_size_pct": 0.0451,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (86.0)",
+      "5d momentum +3.79%",
+      "1d momentum +8.82%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "Sector Update: Energy Stocks Advance Premarket Thursday",
+      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid New US Attacks on Iran",
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Amid S&P 500, Nasdaq Rally, Middle East Peace Optimism"
     ],
     "mode": "paper",
     "strategy_version": "05",
