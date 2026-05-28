@@ -1,27 +1,4 @@
 {
-  "USD/MXN": {
-    "id": "USD/MXN_20260523235934",
-    "asset": "USD/MXN",
-    "direction": "long",
-    "entry_price": 17.322500228881836,
-    "entry_time": "2026-05-23T23:59:34.630178+00:00",
-    "stop_loss_pct": 0.005,
-    "take_profit_pct": 0.01312,
-    "size_usd": 1250.0,
-    "position_size_pct": 0.0125,
-    "confidence": 0.25,
-    "signals": [
-      "MACD crossover"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "02",
-    "status": "open",
-    "trade_type": "swing",
-    "price_peak": 17.409530639648438,
-    "trailing_stop_price": 17.322483
-  },
   "EUR/CHF": {
     "id": "EUR/CHF_20260524050433",
     "asset": "EUR/CHF",
@@ -67,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.3796000480651855,
-    "trailing_stop_price": 1.390637
+    "price_trough": 1.3791999816894531,
+    "trailing_stop_price": 1.390234
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -139,8 +116,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 115.3489990234375,
-    "trailing_stop_price": 114.426207
+    "price_peak": 115.39700317382812,
+    "trailing_stop_price": 114.473827
   },
   "USD/CHF": {
     "id": "USD/CHF_20260524050433",
@@ -241,70 +218,6 @@
     "price_trough": 113.55999755859375,
     "trailing_stop_price": 114.468478
   },
-  "KLAC": {
-    "id": "KLAC_20260526183424",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2005.9749755859375,
-    "entry_time": "2026-05-26T18:34:24.850752+00:00",
-    "stop_loss_pct": 0.01046,
-    "take_profit_pct": 0.02506,
-    "size_usd": 3155.92,
-    "position_size_pct": 0.0314,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (88.5)",
-      "5d momentum +0.97%",
-      "1d momentum +10.42%",
-      "BB overbought (pct_b=0.91)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat"
-    ],
-    "news_sentiment": 0.837,
-    "news_headlines": [
-      "KLA Flags Stronger Chip Equipment Demand, Rare 2027 Visibility at JPMorgan Conference",
-      "Will AutoZone, Grainger, or United Rentals Be the Next Big Stock Split?",
-      "The Bull Case For KLA (KLAC) Could Change Following Earnings Beat And Expanded Capital Returns Learn Why"
-    ],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 1957.18994140625,
-    "trailing_stop_price": 1977.662148
-  },
-  "RXRX": {
-    "id": "RXRX_20260527163000",
-    "asset": "RXRX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 3.1912999153137207,
-    "entry_time": "2026-05-27T16:30:00.376237+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5611.39,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (62.1)",
-      "5d momentum +8.36%",
-      "1d momentum +8.18%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.455,
-    "news_headlines": [
-      "Recursion Pharmaceuticals Just Hit a 52-Week Low. Is This Former Nvidia Holding a Smart Buy Now?",
-      "Recursion Pharmaceuticals (RXRX) Hits 52-Week Low; Is It In Oversold Territory?",
-      "A Look At Recursion Pharmaceuticals (RXRX) Valuation As Mixed Signals Emerge On Future Growth Prospects"
-    ],
-    "mode": "paper",
-    "strategy_version": "04",
-    "status": "open",
-    "price_trough": 3.1700000762939453,
-    "trailing_stop_price": 3.21755
-  },
   "JPM": {
     "id": "JPM_20260527163000",
     "asset": "JPM",
@@ -368,36 +281,6 @@
     "strategy_version": "04",
     "status": "open"
   },
-  "IONQ": {
-    "id": "IONQ_20260527184030",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 65.23999786376953,
-    "entry_time": "2026-05-27T18:40:30.293217+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03383,
-    "size_usd": 3282.36,
-    "position_size_pct": 0.0327,
-    "confidence": 0.511,
-    "signals": [
-      "5d momentum +8.51%",
-      "1d momentum +10.29%",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.568,
-    "news_headlines": [
-      "How Low Can RGTI Stock Go?",
-      "Stock Market Today, May 26: D-Wave Quantum Falls Even After Commerce Department $100 Million Funding",
-      "Quantum Stocks Just Got a Lifeline\u2014Who Benefits Most?"
-    ],
-    "mode": "paper",
-    "strategy_version": "04",
-    "status": "open",
-    "price_peak": 65.4000015258789,
-    "trailing_stop_price": 64.419002
-  },
   "MU": {
     "id": "MU_20260527184030",
     "asset": "MU",
@@ -426,8 +309,8 @@
     "mode": "paper",
     "strategy_version": "04",
     "status": "open",
-    "price_peak": 928.4099731445312,
-    "trailing_stop_price": 914.483824
+    "price_peak": 944.5507202148438,
+    "trailing_stop_price": 930.382459
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260528055024",
@@ -458,7 +341,9 @@
     ],
     "mode": "paper",
     "strategy_version": "05",
-    "status": "open"
+    "status": "open",
+    "price_peak": 8.949999809265137,
+    "trailing_stop_price": 8.854503
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260528055024",
@@ -486,6 +371,126 @@
       "Bitcoin, Ethereum, XRP, Dogecoin Tumble Amid Report Of Fresh US Strikes On Iran: Analyst Flags 'Structurally Fragile Setup' Developing For BTC",
       "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
       "Top Cryptocurrencies Fall; Bitcoin Holds Above $75,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "05",
+    "status": "open",
+    "price_peak": 0.09900999814271927,
+    "trailing_stop_price": 0.097921
+  },
+  "ORCL": {
+    "id": "ORCL_20260528164943",
+    "asset": "ORCL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 203.3350067138672,
+    "entry_time": "2026-05-28T16:49:43.191249+00:00",
+    "stop_loss_pct": 0.01168,
+    "take_profit_pct": 0.02696,
+    "size_usd": 3965.4,
+    "position_size_pct": 0.0395,
+    "confidence": 0.617,
+    "signals": [
+      "RSI overbought (77.8)",
+      "5d momentum +6.76%",
+      "1d momentum +6.11%",
+      "BB overbought (pct_b=1.05)",
+      "News +0.42 (conf 0.62) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.419,
+    "news_headlines": [
+      "After Comparing Every Generative AI ETF These 3 Capture the Software Layer Most Investors Miss",
+      "Oracle at $192: Buy, Sell or Hold?",
+      "3 Software Stocks to Watch as the Industry Grapples With Headwinds"
+    ],
+    "mode": "paper",
+    "strategy_version": "05",
+    "status": "open"
+  },
+  "QCOM": {
+    "id": "QCOM_20260528164943",
+    "asset": "QCOM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 247.53619384765625,
+    "entry_time": "2026-05-28T16:49:43.193173+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03553,
+    "size_usd": 4743.06,
+    "position_size_pct": 0.0472,
+    "confidence": 0.738,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +8.68%",
+      "1d momentum +4.37%",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.826,
+    "news_headlines": [
+      "ARM vs. SNPS: Which AI Chip Design Stock Should Investors Buy?",
+      "Jensen Huang Just Said $40 Trillion. Here Are 5 Physical AI Stocks Wall Street Is Quietly Loading Up On Before the Rest of the Market Catches On",
+      "AI boom squeezes optical tech and Huawei makes a chip comeback"
+    ],
+    "mode": "paper",
+    "strategy_version": "05",
+    "status": "open"
+  },
+  "ARM": {
+    "id": "ARM_20260528164943",
+    "asset": "ARM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 346.04998779296875,
+    "entry_time": "2026-05-28T16:49:43.194932+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 3420.33,
+    "position_size_pct": 0.0341,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (68.0)",
+      "5d momentum +13.99%",
+      "1d momentum +13.15%",
+      "BB overbought (pct_b=1.01)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.826,
+    "news_headlines": [
+      "Why Arm Holdings Stock Jumped Higher Today",
+      "ARM vs. SNPS: Which AI Chip Design Stock Should Investors Buy?",
+      "US Equity Indexes Edge Higher as Crude Oil Slumps, Tech Giants Take Breather"
+    ],
+    "mode": "paper",
+    "strategy_version": "05",
+    "status": "open"
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20260528164943",
+    "asset": "USD/JPY",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 159.16900634765625,
+    "entry_time": "2026-05-28T16:49:43.212349+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02561,
+    "size_usd": 3885.06,
+    "position_size_pct": 0.0387,
+    "confidence": 0.403,
+    "signals": [
+      "RSI oversold (28.0)",
+      "BB oversold (pct_b=-0.12)",
+      "High-impact catalyst",
+      "Claude [contradicts]: macro risk"
+    ],
+    "news_sentiment": 0.857,
+    "news_headlines": [
+      "Why a Plunging Dollar Is Missing Out on the Relief Rally",
+      "How Markets Reacted to Trump's Iran Post, in Charts",
+      "The Dollar Isn\u2019t Done. Why It\u2019s Outshining Rivals Amid Iran Crisis."
     ],
     "mode": "paper",
     "strategy_version": "05",
