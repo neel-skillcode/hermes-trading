@@ -19,8 +19,8 @@
     "strategy_version": "02",
     "status": "open",
     "trade_type": "swing",
-    "price_peak": 17.380399703979492,
-    "trailing_stop_price": 17.293498
+    "price_peak": 17.409530639648438,
+    "trailing_stop_price": 17.322483
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20260524050433",
@@ -162,8 +162,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.7880300283432007,
-    "trailing_stop_price": 0.781726
+    "price_peak": 0.7886999845504761,
+    "trailing_stop_price": 0.78239
   },
   "EUR/USD": {
     "id": "EUR/USD_20260524234359",
@@ -187,8 +187,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.16225004196167,
-    "trailing_stop_price": 1.171548
+    "price_trough": 1.1603620052337646,
+    "trailing_stop_price": 1.169645
   },
   "AUD/USD": {
     "id": "AUD/USD_20260524234359",
@@ -213,8 +213,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 0.7131650447845459,
-    "trailing_stop_price": 0.71887
+    "price_trough": 0.7119971513748169,
+    "trailing_stop_price": 0.717693
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260524234359",
@@ -238,8 +238,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 113.697998046875,
-    "trailing_stop_price": 114.607582
+    "price_trough": 113.55999755859375,
+    "trailing_stop_price": 114.468478
   },
   "KLAC": {
     "id": "KLAC_20260526183424",
@@ -429,97 +429,66 @@
     "price_peak": 928.4099731445312,
     "trailing_stop_price": 914.483824
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260527222629",
-    "asset": "ETH-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260528055024",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 2023.5699462890625,
-    "entry_time": "2026-05-27T22:26:29.350430+00:00",
-    "stop_loss_pct": 0.00858,
-    "take_profit_pct": 0.02123,
-    "size_usd": 2518.56,
-    "position_size_pct": 0.0251,
+    "entry_price": 8.770000457763672,
+    "entry_time": "2026-05-28T05:50:24.150198+00:00",
+    "stop_loss_pct": 0.01067,
+    "take_profit_pct": 0.02642,
+    "size_usd": 6093.53,
+    "position_size_pct": 0.0608,
     "confidence": 0.95,
     "signals": [
-      "RSI oversold (23.9)",
-      "5d momentum -1.19%",
-      "1d momentum -2.04%",
-      "BB oversold (pct_b=-0.08)",
-      "Volume spike 4.8\u00d7",
+      "RSI oversold (16.7)",
+      "5d momentum -2.99%",
+      "1d momentum -4.26%",
+      "BB oversold (pct_b=-0.11)",
+      "Volume spike 2.6\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.172,
+    "news_sentiment": 0.278,
     "news_headlines": [
-      "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
-      "Ethereum Traders Grow Increasingly Bearish as ETFs Bleed, ETH Sinks Near $2,000",
-      "XRP ETF Inflows Just Hit a 2026 High: Is a Price Surge Coming?"
+      "Most Undervalued Major Cryptos Heading Into Mid-2026",
+      "Introducing Avalanche and Sui Futures",
+      "Kraken Adds AVAX Staking as Avalanche Holders Get New Earn Options"
     ],
     "mode": "paper",
-    "strategy_version": "04",
+    "strategy_version": "05",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260527234450",
-    "asset": "XRP-USD",
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260528055024",
+    "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 1.3044999837875366,
-    "entry_time": "2026-05-27T23:44:50.737162+00:00",
-    "stop_loss_pct": 0.0087,
-    "take_profit_pct": 0.02171,
-    "size_usd": 4116.56,
-    "position_size_pct": 0.041,
+    "entry_price": 0.09737999737262726,
+    "entry_time": "2026-05-28T05:50:24.152646+00:00",
+    "stop_loss_pct": 0.011,
+    "take_profit_pct": 0.02743,
+    "size_usd": 5324.97,
+    "position_size_pct": 0.0531,
     "confidence": 0.99,
     "signals": [
-      "RSI oversold (34.7)",
-      "5d momentum -1.50%",
-      "1d momentum -1.70%",
-      "BB oversold (pct_b=-0.16)",
-      "Volume spike 4.1\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.353,
-    "news_headlines": [
-      "XRP ETF Inflows Just Hit a 2026 High: Is a Price Surge Coming?",
-      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
-      "Will XRP Ever Skyrocket? What Conditions Would Trigger It"
-    ],
-    "mode": "paper",
-    "strategy_version": "04",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260528012624",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 74289.6015625,
-    "entry_time": "2026-05-28T01:26:24.360146+00:00",
-    "stop_loss_pct": 0.0067,
-    "take_profit_pct": 0.01671,
-    "size_usd": 4874.17,
-    "position_size_pct": 0.0485,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (28.0)",
-      "5d momentum -1.13%",
-      "1d momentum -1.95%",
-      "BB oversold (pct_b=0.14)",
-      "Volume spike 2.1\u00d7",
+      "RSI oversold (14.5)",
+      "5d momentum -3.00%",
+      "1d momentum -4.11%",
+      "BB oversold (pct_b=-0.10)",
+      "Volume spike 1.8\u00d7",
       "High-impact catalyst",
       "Claude [strongly_supports]: price surge"
     ],
-    "news_sentiment": 0.566,
+    "news_sentiment": 0.437,
     "news_headlines": [
-      "Bitcoin falls to $75,000 as token decouples from tech rally",
-      "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
-      "Dow Jones Futures Rise As Snowflake Surges Late On Earnings; Fed Inflation Data Due"
+      "Bitcoin, Ethereum, XRP, Dogecoin Tumble Amid Report Of Fresh US Strikes On Iran: Analyst Flags 'Structurally Fragile Setup' Developing For BTC",
+      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
+      "Top Cryptocurrencies Fall; Bitcoin Holds Above $75,000"
     ],
     "mode": "paper",
-    "strategy_version": "04",
+    "strategy_version": "05",
     "status": "open"
   }
 }
