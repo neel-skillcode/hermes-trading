@@ -19,8 +19,8 @@
     "strategy_version": "02",
     "status": "open",
     "trade_type": "swing",
-    "price_peak": 17.378189086914062,
-    "trailing_stop_price": 17.291298
+    "price_peak": 17.380399703979492,
+    "trailing_stop_price": 17.293498
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20260524050433",
@@ -43,8 +43,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9152799844741821,
-    "trailing_stop_price": 0.907958
+    "price_peak": 0.9155899882316589,
+    "trailing_stop_price": 0.908265
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -162,8 +162,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.7875900268554688,
-    "trailing_stop_price": 0.781289
+    "price_peak": 0.7880300283432007,
+    "trailing_stop_price": 0.781726
   },
   "EUR/USD": {
     "id": "EUR/USD_20260524234359",
@@ -187,8 +187,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.162520408630371,
-    "trailing_stop_price": 1.171821
+    "price_trough": 1.16225004196167,
+    "trailing_stop_price": 1.171548
   },
   "AUD/USD": {
     "id": "AUD/USD_20260524234359",
@@ -213,8 +213,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 0.7138268351554871,
-    "trailing_stop_price": 0.719537
+    "price_trough": 0.7131650447845459,
+    "trailing_stop_price": 0.71887
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260524234359",
@@ -238,34 +238,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 113.75700378417969,
-    "trailing_stop_price": 114.66706
-  },
-  "GBP/USD": {
-    "id": "GBP/USD_20260525015405",
-    "asset": "GBP/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.348199486732483,
-    "entry_time": "2026-05-25T01:54:05.629574+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 4864.0,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (77.0)",
-      "5d momentum +0.31%",
-      "1d momentum +0.41%",
-      "BB overbought (pct_b=1.05)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 1.3420476913452148,
-    "trailing_stop_price": 1.344732
+    "price_trough": 113.697998046875,
+    "trailing_stop_price": 114.607582
   },
   "KLAC": {
     "id": "KLAC_20260526183424",
@@ -512,6 +486,37 @@
       "XRP ETF Inflows Just Hit a 2026 High: Is a Price Surge Coming?",
       "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
       "Will XRP Ever Skyrocket? What Conditions Would Trigger It"
+    ],
+    "mode": "paper",
+    "strategy_version": "04",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260528012624",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74289.6015625,
+    "entry_time": "2026-05-28T01:26:24.360146+00:00",
+    "stop_loss_pct": 0.0067,
+    "take_profit_pct": 0.01671,
+    "size_usd": 4874.17,
+    "position_size_pct": 0.0485,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (28.0)",
+      "5d momentum -1.13%",
+      "1d momentum -1.95%",
+      "BB oversold (pct_b=0.14)",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.566,
+    "news_headlines": [
+      "Bitcoin falls to $75,000 as token decouples from tech rally",
+      "Bitcoin and ethereum prices today, Wednesday, May 27, 2026: Lowest opening prices this week",
+      "Dow Jones Futures Rise As Snowflake Surges Late On Earnings; Fed Inflation Data Due"
     ],
     "mode": "paper",
     "strategy_version": "04",
