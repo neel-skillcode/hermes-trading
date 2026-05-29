@@ -199,29 +199,6 @@
     "price_peak": 159.33799743652344,
     "trailing_stop_price": 158.063293
   },
-  "AUD/NZD": {
-    "id": "AUD/NZD_20260529044113",
-    "asset": "AUD/NZD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.2016500234603882,
-    "entry_time": "2026-05-29T04:41:13.522270+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 774.44,
-    "position_size_pct": 0.0077,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (17.1)",
-      "1d momentum -0.77%",
-      "BB oversold (pct_b=-0.03)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "06",
-    "status": "open"
-  },
   "PLTR": {
     "id": "PLTR_20260529143103",
     "asset": "PLTR",
@@ -470,8 +447,8 @@
     "mode": "paper",
     "strategy_version": "07",
     "status": "open",
-    "price_trough": 191.14019775390625,
-    "trailing_stop_price": 194.007301
+    "price_trough": 191.10000610351562,
+    "trailing_stop_price": 193.966506
   },
   "NZD/USD": {
     "id": "NZD/USD_20260529200250",
@@ -528,7 +505,9 @@
     ],
     "mode": "paper",
     "strategy_version": "07",
-    "status": "open"
+    "status": "open",
+    "price_trough": 8.779999732971191,
+    "trailing_stop_price": 8.857878
   },
   "USD/CHF": {
     "id": "USD/CHF_20260529200250",
@@ -549,6 +528,35 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "07",
+    "status": "open",
+    "price_peak": 0.7807499766349792,
+    "trailing_stop_price": 0.779188
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260529220126",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 640.989990234375,
+    "entry_time": "2026-05-29T22:01:26.803548+00:00",
+    "stop_loss_pct": 0.00384,
+    "take_profit_pct": 0.00813,
+    "size_usd": 803.52,
+    "position_size_pct": 0.0081,
+    "confidence": 0.23,
+    "signals": [
+      "1d momentum +0.46%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.172,
+    "news_headlines": [
+      "VanEck Launches First BNB Exchange-Traded Fund",
+      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
+      "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain"
+    ],
     "mode": "paper",
     "strategy_version": "07",
     "status": "open"

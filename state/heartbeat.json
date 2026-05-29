@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99310.0,
+  "portfolio_balance": 99308.32,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 1.18,
-  "unrealized_pnl_usd": 189.54,
-  "equity_value": 99499.54,
+  "unrealized_pnl_usd": 189.75,
+  "equity_value": 99498.08,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39694.25,
+  "day_capital_used_usd": 39723.33,
   "swing_capital_used_usd": 35629.48,
-  "total_trades": 61,
-  "last_tick": "2026-05-29T20:02:50.400794+00:00",
+  "total_trades": 62,
+  "last_tick": "2026-05-29T22:01:26.806046+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "trades_since_last_reflection": 8,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9155899882316589,
       "trailing_stop_price": 0.908265,
-      "current_price": 0.91032,
-      "unrealized_pnl_pct": -0.000154,
-      "unrealized_pnl_usd": -0.21
+      "current_price": 0.91017,
+      "unrealized_pnl_pct": -0.000318,
+      "unrealized_pnl_usd": -0.43
     },
     {
       "id": "USD/CAD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_trough": 1.3778300285339355,
       "trailing_stop_price": 1.388853,
-      "current_price": 1.37882,
-      "unrealized_pnl_pct": 0.002301,
-      "unrealized_pnl_usd": 3.09
+      "current_price": 1.3793,
+      "unrealized_pnl_pct": 0.001954,
+      "unrealized_pnl_usd": 2.63
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 1.0570000410079956,
       "trailing_stop_price": 1.048544,
-      "current_price": 1.051,
-      "unrealized_pnl_pct": -0.002818,
-      "unrealized_pnl_usd": -3.79
+      "current_price": 1.05006,
+      "unrealized_pnl_pct": -0.00371,
+      "unrealized_pnl_usd": -4.99
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -121,9 +121,9 @@
       "status": "open",
       "price_peak": 7.836619853973389,
       "trailing_stop_price": 7.773927,
-      "current_price": 7.8365,
-      "unrealized_pnl_pct": 0.000281,
-      "unrealized_pnl_usd": 0.38
+      "current_price": 7.8359,
+      "unrealized_pnl_pct": 0.000204,
+      "unrealized_pnl_usd": 0.27
     },
     {
       "id": "CAD/JPY_20260524050433",
@@ -148,9 +148,9 @@
       "status": "open",
       "price_peak": 115.58599853515625,
       "trailing_stop_price": 114.661311,
-      "current_price": 115.498001,
-      "unrealized_pnl_pct": 0.002926,
-      "unrealized_pnl_usd": 3.93
+      "current_price": 115.422997,
+      "unrealized_pnl_pct": 0.002275,
+      "unrealized_pnl_usd": 3.06
     },
     {
       "id": "EUR/USD_20260524234359",
@@ -176,9 +176,9 @@
       "status": "open",
       "price_trough": 1.1603620052337646,
       "trailing_stop_price": 1.169645,
-      "current_price": 1.166725,
-      "unrealized_pnl_pct": -0.001633,
-      "unrealized_pnl_usd": -10.51
+      "current_price": 1.165909,
+      "unrealized_pnl_pct": -0.000933,
+      "unrealized_pnl_usd": -6.0
     },
     {
       "id": "AUD/JPY_20260524234359",
@@ -204,9 +204,9 @@
       "status": "open",
       "price_trough": 113.55999755859375,
       "trailing_stop_price": 114.468478,
-      "current_price": 114.458,
-      "unrealized_pnl_pct": -0.005835,
-      "unrealized_pnl_usd": -37.53
+      "current_price": 114.407997,
+      "unrealized_pnl_pct": -0.005396,
+      "unrealized_pnl_usd": -34.71
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -237,35 +237,9 @@
       "status": "open",
       "price_peak": 159.33799743652344,
       "trailing_stop_price": 158.063293,
-      "current_price": 159.266006,
-      "unrealized_pnl_pct": 0.000609,
-      "unrealized_pnl_usd": 2.37
-    },
-    {
-      "id": "AUD/NZD_20260529044113",
-      "asset": "AUD/NZD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1.2016500234603882,
-      "entry_time": "2026-05-29T04:41:13.522270+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00462,
-      "size_usd": 774.44,
-      "position_size_pct": 0.0077,
-      "confidence": 0.62,
-      "signals": [
-        "RSI oversold (17.1)",
-        "1d momentum -0.77%",
-        "BB oversold (pct_b=-0.03)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "06",
-      "status": "open",
-      "current_price": 1.20021,
-      "unrealized_pnl_pct": -0.001198,
-      "unrealized_pnl_usd": -0.93
+      "current_price": 159.255005,
+      "unrealized_pnl_pct": 0.00054,
+      "unrealized_pnl_usd": 2.1
     },
     {
       "id": "PLTR_20260529143103",
@@ -366,9 +340,9 @@
       "status": "open",
       "price_peak": 2027.510009765625,
       "trailing_stop_price": 1994.015544,
-      "current_price": 2014.52002,
-      "unrealized_pnl_pct": 0.015332,
-      "unrealized_pnl_usd": 103.51
+      "current_price": 2006.5,
+      "unrealized_pnl_pct": 0.01129,
+      "unrealized_pnl_usd": 76.22
     },
     {
       "id": "NVDA_20260529143103",
@@ -468,9 +442,9 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "current_price": 225.759995,
-      "unrealized_pnl_pct": -0.011809,
-      "unrealized_pnl_usd": -59.66
+      "current_price": 225.740005,
+      "unrealized_pnl_pct": -0.01172,
+      "unrealized_pnl_usd": -59.21
     },
     {
       "id": "SOFI_20260529175235",
@@ -536,11 +510,11 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "price_trough": 191.14019775390625,
-      "trailing_stop_price": 194.007301,
-      "current_price": 191.059998,
-      "unrealized_pnl_pct": 0.011614,
-      "unrealized_pnl_usd": 27.91
+      "price_trough": 191.10000610351562,
+      "trailing_stop_price": 193.966506,
+      "current_price": 191.020004,
+      "unrealized_pnl_pct": 0.011821,
+      "unrealized_pnl_usd": 28.4
     },
     {
       "id": "NZD/USD_20260529200250",
@@ -569,9 +543,9 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "current_price": 0.599054,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 0.599018,
+      "unrealized_pnl_pct": -6e-05,
+      "unrealized_pnl_usd": -0.18
     },
     {
       "id": "AVAX-USD_20260529200250",
@@ -601,9 +575,11 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "current_price": 8.83,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 8.779999732971191,
+      "trailing_stop_price": 8.857878,
+      "current_price": 8.78,
+      "unrealized_pnl_pct": 0.005663,
+      "unrealized_pnl_usd": 20.3
     },
     {
       "id": "USD/CHF_20260529200250",
@@ -627,7 +603,39 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "current_price": 0.78049,
+      "price_peak": 0.7807499766349792,
+      "trailing_stop_price": 0.779188,
+      "current_price": 0.78075,
+      "unrealized_pnl_pct": 0.000333,
+      "unrealized_pnl_usd": 1.31
+    },
+    {
+      "id": "BNB-USD_20260529220126",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 640.989990234375,
+      "entry_time": "2026-05-29T22:01:26.803548+00:00",
+      "stop_loss_pct": 0.00384,
+      "take_profit_pct": 0.00813,
+      "size_usd": 803.52,
+      "position_size_pct": 0.0081,
+      "confidence": 0.23,
+      "signals": [
+        "1d momentum +0.46%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": -0.172,
+      "news_headlines": [
+        "VanEck Launches First BNB Exchange-Traded Fund",
+        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
+        "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain"
+      ],
+      "mode": "paper",
+      "strategy_version": "07",
+      "status": "open",
+      "current_price": 640.98999,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -635,7 +643,7 @@
   "last_candidates": [
     {
       "asset": "INTC",
-      "rank_score": 0.7901,
+      "rank_score": 0.7872,
       "price": 114.63999938964844,
       "rsi": 29.702189646204815,
       "momentum_5d": -0.036558484817203085,
@@ -645,12 +653,12 @@
       "bollinger_pct_b": -0.2317,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.368,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.297,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Dell, Cisco: How 'throwback' tech stocks fit into the AI trade",
-        "What Historically Happens to Stocks When the Fed Goes Silent in Summer",
-        "The CEOs of the world's biggest chip companies are descending on Taiwan next week"
+        "Nvidia, AMD, & other chip names in focus at Computex 2026",
+        "GOP lawmakers' portfolios are migrating to Trump favorites like Intel and bitcoin",
+        "Republican lawmakers are trading like Trump, piling into Big Tech stocks"
       ],
       "high_impact_news": true
     },
@@ -669,30 +677,9 @@
       "news_sentiment": 0.429,
       "news_confidence": 0.42,
       "news_headlines": [
+        "Stock Market Today, May 29: Rivian Automotive Jumps on R2 SUV Launch Confirmation",
         "Rivian Faces NHTSA Probe Covering 115,000 R1 Vehicles",
-        "Rivian Rallies 8% as Tesla, Nio Stall: R2 Launch and Software Growth in Focus",
-        "Nio Just Achieved What Rivian and Lucid Dream of. Is It Finally a Buy?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MSFT",
-      "rank_score": 0.7614,
-      "price": 448.6400146484375,
-      "rsi": 93.0305682470708,
-      "momentum_5d": 0.01127039905082108,
-      "momentum_1d": 0.0845753489559706,
-      "macd_crossover": false,
-      "atr_pct": 0.011729839020480306,
-      "bollinger_pct_b": 0.9075,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.833,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "AI spending fervor is comparable to industrial push during World War 2",
-        "Lenovo Stock Doubles in May on AI Server Boom\u2014Best Month in 27 Years",
-        "Snowflake, Oracle, ServiceNow Stocks Rally As AI Trade Heats Up Again"
+        "Rivian Rallies 8% as Tesla, Nio Stall: R2 Launch and Software Growth in Focus"
       ],
       "high_impact_news": true
     },
@@ -708,27 +695,48 @@
       "bollinger_pct_b": 1.0328,
       "volume_spike": true,
       "volume_spike_ratio": 2.58,
-      "news_sentiment": 0.814,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.574,
+      "news_confidence": 0.61,
       "news_headlines": [
-        "Is Sandisk a Millionaire-Maker Stock?",
-        "Anthropic's $36 Billion AI Chip Deal Draws Apollo, Blackstone",
-        "Broadcom Stock, Fiber Optic Leader Ciena Lead Another AI Earnings Bonanza"
+        "'Volatility equals opportunity' in options trades as tech soars",
+        "Dow Jones Futures: Market Hits Highs On Iran Hopes; Nvidia, Tesla Lead 5 Trillion-Dollar Stocks Near Buy Points",
+        "Jobs report on tap for soaring US stocks as rate path, bond yields eyed as risks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MSFT",
+      "rank_score": 0.7534,
+      "price": 448.6400146484375,
+      "rsi": 93.0305682470708,
+      "momentum_5d": 0.01127039905082108,
+      "momentum_1d": 0.0845753489559706,
+      "macd_crossover": false,
+      "atr_pct": 0.011729839020480306,
+      "bollinger_pct_b": 0.9075,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.41,
+      "news_sentiment": 0.552,
+      "news_confidence": 0.58,
+      "news_headlines": [
+        "'Volatility equals opportunity' in options trades as tech soars",
+        "AI spending fervor is comparable to industrial push during World War 2",
+        "Nvidia Dropped a Cryptic Clue About Its Next Big Move Ahead of GTC Event"
       ],
       "high_impact_news": true
     },
     {
       "asset": "IONQ",
-      "rank_score": 0.6965,
-      "price": 72.06500244140625,
-      "rsi": 73.043800254471,
-      "momentum_5d": 0.060247184745611276,
-      "momentum_1d": 0.12636766109747494,
+      "rank_score": 0.6961,
+      "price": 72.05999755859375,
+      "rsi": 73.03449593089975,
+      "momentum_5d": 0.06017355104364548,
+      "momentum_1d": 0.12628943535742634,
       "macd_crossover": false,
-      "atr_pct": 0.027849463175458996,
-      "bollinger_pct_b": 0.9547,
+      "atr_pct": 0.02785139744279603,
+      "bollinger_pct_b": 0.9542,
       "volume_spike": false,
-      "volume_spike_ratio": 0.99,
+      "volume_spike_ratio": 1.02,
       "news_sentiment": 0.431,
       "news_confidence": 0.45,
       "news_headlines": [
@@ -739,29 +747,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.682,
-      "price": 225.75999450683594,
-      "rsi": 94.92790575064684,
-      "momentum_5d": 0.02688191148167453,
-      "momentum_1d": 0.18276355995722823,
-      "macd_crossover": false,
-      "atr_pct": 0.019235023409629758,
-      "bollinger_pct_b": 0.8799,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.766,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "Snowflake, Oracle, ServiceNow Stocks Rally As AI Trade Heats Up Again",
-        "Why Is The US Stock Market Up Today?",
-        "Prediction: AMD\u2019s Rapid Data Center Expansion Fuels Bullish Target"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "REGN",
-      "rank_score": 0.6773,
+      "rank_score": 0.6843,
       "price": 614.030029296875,
       "rsi": 16.515255347407106,
       "momentum_5d": -0.006681027609483594,
@@ -771,12 +758,33 @@
       "bollinger_pct_b": 0.1408,
       "volume_spike": true,
       "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.545,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.633,
+      "news_confidence": 0.49,
       "news_headlines": [
+        "Regeneron (REGN) Down 12.1% Since Last Earnings Report: Can It Rebound?",
         "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest",
-        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth",
-        "Why Apogee Slipped On Its Dupixent-Rivaling Eczema Results"
+        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.6807,
+      "price": 225.74000549316406,
+      "rsi": 94.92529405198206,
+      "momentum_5d": 0.026790990339455124,
+      "momentum_1d": 0.1826588368993533,
+      "macd_crossover": false,
+      "atr_pct": 0.019236726648473375,
+      "bollinger_pct_b": 0.8796,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.25,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Assessing Oracle (ORCL) Valuation After Strong Multi\u2011Month Share Price Momentum",
+        "Financial Services Roundup: Market Talk",
+        "Snowflake, Oracle, ServiceNow Stocks Rally As AI Trade Heats Up Again"
       ],
       "high_impact_news": true
     },
@@ -795,7 +803,7 @@
       "news_sentiment": 0.364,
       "news_confidence": 0.44,
       "news_headlines": [
-        "More Drivers Are Joining the High Miles Club. This Stock Could Pull Ahead.",
+        "More Drivers Are Joining the High-Miles Club. This Stock Could Pull Ahead.",
         "Bernie Sanders Hails Uber, Lyft 70,000 Driver Unionization, Labels It A 'Historic' Victory: Workers Deserve 'Living Wage & Dignity'",
         "Labor union participation is on the rise even as U.S. companies spend $1.7 billion annually to halt union formation"
       ],
@@ -803,7 +811,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.6574,
+      "rank_score": 0.6504,
       "price": 94.3499984741211,
       "rsi": 97.6352894057293,
       "momentum_5d": 0.02318012105595369,
@@ -813,33 +821,54 @@
       "bollinger_pct_b": 0.8805,
       "volume_spike": false,
       "volume_spike_ratio": 1.18,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.371,
+      "news_confidence": 0.35,
       "news_headlines": [
         "Robinhood stock is surging \u2014 and bitcoin isn't the reason this time",
-        "This Risk ETF Is Riding Its Best Seven-Day Stretch in a Year",
-        "Coinbase, Robinhood Stocks Soar as Regulator Permits Crypto Perpetual Futures for U.S."
+        "Robinhood Is Opening the Door to U.S. Cannabis With Reform On the Horizon",
+        "Weekly Wrap: Crypto Prices Breakdown As Bitcoin Falls In May"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "COST",
-      "rank_score": 0.6415,
-      "price": 956.0700073242188,
-      "rsi": 22.420366437848784,
-      "momentum_5d": 0.006919438993384677,
-      "momentum_1d": -0.042273143920366144,
+      "asset": "XLK",
+      "rank_score": 0.64,
+      "price": 191.0399932861328,
+      "rsi": 89.4644676920394,
+      "momentum_5d": 0.0025188692993736656,
+      "momentum_1d": 0.03477412164847161,
       "macd_crossover": false,
-      "atr_pct": 0.01123695148727051,
-      "bollinger_pct_b": 0.2018,
+      "atr_pct": 0.006350509280701676,
+      "bollinger_pct_b": 0.8436,
       "volume_spike": true,
-      "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.138,
-      "news_confidence": 0.58,
+      "volume_spike_ratio": 1.51,
+      "news_sentiment": 0.925,
+      "news_confidence": 0.53,
       "news_headlines": [
-        "Costco sells 'record-breaking' amounts of gas as fuel costs soar",
-        "Sector Update: Consumer Stocks Decline Late Afternoon",
-        "3 Cash-Heavy Stocks Worth Your Attention"
+        "Exchange-Traded Funds Mixed, US Equities Advance After Midday",
+        "How Is Salesforce's Stock Performance Compared to Other Technology Stocks?",
+        "Cisco Systems Stock: Is CSCO Outperforming the Technology Sector?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XOM",
+      "rank_score": 0.6387,
+      "price": 145.3699951171875,
+      "rsi": 22.431927525847073,
+      "momentum_5d": -0.0005500297884719505,
+      "momentum_1d": -0.0343110135136094,
+      "macd_crossover": false,
+      "atr_pct": 0.007835771344791213,
+      "bollinger_pct_b": 0.113,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.86,
+      "news_sentiment": 0.705,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Sector Update: Energy Stocks Fall Late Afternoon",
+        "Three Energy ETFs Are Yielding Over 2.5 Percent While Delivering 24 to 31 Percent Returns in 2026",
+        "Why Occidental Petroleum Is a Buy Despite Falling Oil Prices"
       ],
       "high_impact_news": true
     },
@@ -865,59 +894,38 @@
       "high_impact_news": true
     },
     {
-      "asset": "XOM",
-      "rank_score": 0.6357,
-      "price": 145.3699951171875,
-      "rsi": 22.431927525847073,
-      "momentum_5d": -0.0005500297884719505,
-      "momentum_1d": -0.0343110135136094,
+      "asset": "COST",
+      "rank_score": 0.6335,
+      "price": 956.0700073242188,
+      "rsi": 22.420366437848784,
+      "momentum_5d": 0.006919438993384677,
+      "momentum_1d": -0.042273143920366144,
       "macd_crossover": false,
-      "atr_pct": 0.007835771344791213,
-      "bollinger_pct_b": 0.113,
+      "atr_pct": 0.01123695148727051,
+      "bollinger_pct_b": 0.2018,
       "volume_spike": true,
-      "volume_spike_ratio": 1.83,
-      "news_sentiment": 0.705,
-      "news_confidence": 0.61,
+      "volume_spike_ratio": 2.24,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.48,
       "news_headlines": [
-        "Sector Update: Energy Stocks Fall Late Afternoon",
-        "Three Energy ETFs Are Yielding Over 2.5 Percent While Delivering 24 to 31 Percent Returns in 2026",
-        "Why Occidental Petroleum Is a Buy Despite Falling Oil Prices"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MS",
-      "rank_score": 0.6285,
-      "price": 208.02999877929688,
-      "rsi": 82.76697058639854,
-      "momentum_5d": 0.0006253241300104647,
-      "momentum_1d": 0.038384758819883374,
-      "macd_crossover": false,
-      "atr_pct": 0.0066542041154270745,
-      "bollinger_pct_b": 0.8739,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.475,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Morgan Stanley Joins Elite List As Stock Hits Highs; Goldman Sachs Rides Massive Deals Wave",
-        "Why Is Moelis (MC) Up 2.7% Since Last Earnings Report?",
-        "MongoDB climbs after first-quarter beat and stronger full-year guidance (MDB)"
+        "Costco sells 'record-breaking' amounts of gas as fuel costs soar",
+        "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%",
+        "News of the day: Canada's shrinking economy, a technical recession, Scotiabank expands south, Costco tariff refunds, early retirement and more"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SLB",
-      "rank_score": 0.625,
-      "price": 54.53499984741211,
-      "rsi": 26.80053648812853,
-      "momentum_5d": -0.001830300671605979,
-      "momentum_1d": -0.06297252349627355,
+      "rank_score": 0.6267,
+      "price": 54.54999923706055,
+      "rsi": 26.895794896456593,
+      "momentum_5d": -0.0015557625530145884,
+      "momentum_1d": -0.06271480202802937,
       "macd_crossover": false,
-      "atr_pct": 0.009769075537401457,
-      "bollinger_pct_b": 0.1471,
+      "atr_pct": 0.009766389374751779,
+      "bollinger_pct_b": 0.1518,
       "volume_spike": true,
-      "volume_spike_ratio": 1.78,
+      "volume_spike_ratio": 1.82,
       "news_sentiment": 0.917,
       "news_confidence": 0.48,
       "news_headlines": [
@@ -928,38 +936,59 @@
       "high_impact_news": true
     },
     {
-      "asset": "PLTR",
-      "rank_score": 0.6209,
-      "price": 156.58999633789062,
-      "rsi": 94.06812095517512,
-      "momentum_5d": -0.0031194645241415355,
-      "momentum_1d": 0.13999705621790653,
+      "asset": "MS",
+      "rank_score": 0.6244,
+      "price": 208.0,
+      "rsi": 82.713912997178,
+      "momentum_5d": 0.0004810298530620405,
+      "momentum_1d": 0.03823501947753918,
       "macd_crossover": false,
-      "atr_pct": 0.01943870072674173,
-      "bollinger_pct_b": 0.8283,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.855,
-      "news_confidence": 0.69,
+      "atr_pct": 0.0066620334164126885,
+      "bollinger_pct_b": 0.8715,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.393,
+      "news_confidence": 0.56,
       "news_headlines": [
-        "Palantir Stock Is Having Its Best Day in a Year. Software Looks Like a Buy Again.",
-        "High Growth Tech Stocks in US for May 2026",
-        "Dell, Rocket Lab, Palantir, and More Stocks That Explain the Market Today"
+        "Morgan Stanley discloses Bitcoin, XRP, SOL holdings",
+        "Morgan Stanley Joins Elite List As Stock Hits Highs; Goldman Sachs Rides Massive Deals Wave",
+        "Why Is Moelis (MC) Up 2.7% Since Last Earnings Report?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.6191,
+      "price": 380.3900146484375,
+      "rsi": 20.210803180283264,
+      "momentum_5d": -0.007462453624429224,
+      "momentum_1d": -0.01445704732134068,
+      "macd_crossover": false,
+      "atr_pct": 0.007730606422704537,
+      "bollinger_pct_b": 0.0312,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.98,
+      "news_sentiment": 0.88,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "The difference between on-prem AI vs. data centers",
+        "How Safe Is a Tesla Robo-Taxi?",
+        "Dow Jones Futures: Market Hits Highs On Iran Hopes; Nvidia, Tesla Lead 5 Trillion-Dollar Stocks Near Buy Points"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SNAP",
-      "rank_score": 0.6062,
-      "price": 5.715000152587891,
-      "rsi": 32.996476064014615,
-      "momentum_5d": -0.012953335018871717,
-      "momentum_1d": -0.012100206857487259,
+      "rank_score": 0.6169,
+      "price": 5.710000038146973,
+      "rsi": 32.67894981723941,
+      "momentum_5d": -0.013816912648208649,
+      "momentum_1d": -0.012964530897729844,
       "macd_crossover": false,
-      "atr_pct": 0.015123103724576672,
-      "bollinger_pct_b": -0.0193,
+      "atr_pct": 0.015136346675333165,
+      "bollinger_pct_b": -0.0341,
       "volume_spike": true,
-      "volume_spike_ratio": 2.34,
+      "volume_spike_ratio": 2.37,
       "news_sentiment": 0.707,
       "news_confidence": 0.41,
       "news_headlines": [
@@ -970,23 +999,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "GOOGL",
-      "rank_score": 0.6061,
-      "price": 380.3900146484375,
-      "rsi": 20.210803180283264,
-      "momentum_5d": -0.007462453624429224,
-      "momentum_1d": -0.01445704732134068,
+      "asset": "PLTR",
+      "rank_score": 0.6119,
+      "price": 156.58999633789062,
+      "rsi": 94.06812095517512,
+      "momentum_5d": -0.0031194645241415355,
+      "momentum_1d": 0.13999705621790653,
       "macd_crossover": false,
-      "atr_pct": 0.007730606422704537,
-      "bollinger_pct_b": 0.0312,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.66,
-      "news_confidence": 0.47,
+      "atr_pct": 0.01943870072674173,
+      "bollinger_pct_b": 0.8283,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.01,
+      "news_sentiment": 0.806,
+      "news_confidence": 0.62,
       "news_headlines": [
-        "The difference between on-prem AI vs. data centers",
-        "Anthropic releases new Claude Opus 4.8 AI model",
-        "Eli Lilly Breaks Out Amid Vaccine Push; Three More Stocks At Highs"
+        "Dell, Rocket Lab, Palantir, and More Stocks That Explain the Market Today",
+        "Palantir Stock Is Having Its Best Day in a Year. Software Looks Like a Buy Again.",
+        "High Growth Tech Stocks in US for May 2026"
       ],
       "high_impact_news": true
     },
@@ -1005,36 +1034,15 @@
       "news_sentiment": 0.889,
       "news_confidence": 0.54,
       "news_headlines": [
+        "Dell, Rocket Lab, Palantir, and More Stocks That Explain the Market Today",
         "Here's Why SoFi Stock Is Jumping Today",
-        "SoFi's Expanding Ecosystem Highlights Strong Growth Momentum",
-        "Dell, Rocket Lab, Palantir, and More Stocks That Explain the Market Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLK",
-      "rank_score": 0.5787,
-      "price": 191.02999877929688,
-      "rsi": 89.45191727108053,
-      "momentum_5d": 0.0024664212149698842,
-      "momentum_1d": 0.03471998608840081,
-      "macd_crossover": false,
-      "atr_pct": 0.006350841533273645,
-      "bollinger_pct_b": 0.8428,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.46,
-      "news_sentiment": 0.787,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "Exchange-Traded Funds Mixed, US Equities Advance After Midday",
-        "Stock Market News for May 29, 2026",
-        "Exchange-Traded Funds, Equity Futures Rise Pre-Bell Friday Amid US-Iran Deal Hopes"
+        "SoFi's Expanding Ecosystem Highlights Strong Growth Momentum"
       ],
       "high_impact_news": true
     },
     {
       "asset": "WMT",
-      "rank_score": 0.5731,
+      "rank_score": 0.5701,
       "price": 115.70999908447266,
       "rsi": 32.182788140558756,
       "momentum_5d": 0.006918140909468436,
@@ -1044,12 +1052,12 @@
       "bollinger_pct_b": 0.1939,
       "volume_spike": false,
       "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.4,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.394,
+      "news_confidence": 0.33,
       "news_headlines": [
-        "Walmart Expands Supplier Access to Consolidation Network in First-Mile Overhaul",
-        "KR vs. WMT: Which Stock Is the Better Value Option?",
-        "Nuclear Stock Face-Off: Is Oklo or NuScale Power the Better Buy Right Now?"
+        "Best student credit cards for June 2026: Start building credit with rewards on spending",
+        "Bonds May Finally Be Ready to Give Stocks a Run for Their Money",
+        "Walmart Expands Supplier Access to Consolidation Network in First-Mile Overhaul"
       ],
       "high_impact_news": true
     }
