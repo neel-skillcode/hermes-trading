@@ -92,8 +92,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.83620023727417,
-    "trailing_stop_price": 7.773511
+    "price_peak": 7.836619853973389,
+    "trailing_stop_price": 7.773927
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260524050433",
@@ -168,38 +168,6 @@
     "status": "open",
     "price_trough": 113.55999755859375,
     "trailing_stop_price": 114.468478
-  },
-  "META": {
-    "id": "META_20260527184030",
-    "asset": "META",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 630.2000122070312,
-    "entry_time": "2026-05-27T18:40:30.290724+00:00",
-    "stop_loss_pct": 0.00834,
-    "take_profit_pct": 0.02032,
-    "size_usd": 5614.05,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (75.5)",
-      "5d momentum +2.47%",
-      "1d momentum +4.83%",
-      "BB overbought (pct_b=1.25)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.517,
-    "news_headlines": [
-      "Meta board member Dana White says Mark Zuckerberg is like Trump, Carl Icahn, and Michael Jordan in one key way",
-      "Micron joins the $1 trillion club as AI memory rally outruns megacaps: Chart of the Day",
-      "Fireworks AI Eyes $15 Billion Valuation In New Funding Talks"
-    ],
-    "mode": "paper",
-    "strategy_version": "04",
-    "status": "open",
-    "price_trough": 624.8400268554688,
-    "trailing_stop_price": 630.051193
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -375,7 +343,9 @@
     ],
     "mode": "paper",
     "strategy_version": "06",
-    "status": "open"
+    "status": "open",
+    "price_trough": 211.13999938964844,
+    "trailing_stop_price": 215.443033
   },
   "RIVN": {
     "id": "RIVN_20260529175235",
@@ -405,37 +375,9 @@
     ],
     "mode": "paper",
     "strategy_version": "07",
-    "status": "open"
-  },
-  "HOOD": {
-    "id": "HOOD_20260529175235",
-    "asset": "HOOD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 92.80500030517578,
-    "entry_time": "2026-05-29T17:52:35.388479+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5051.73,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (96.1)",
-      "5d momentum +9.38%",
-      "1d momentum +23.67%",
-      "BB overbought (pct_b=0.92)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.756,
-    "news_headlines": [
-      "Robinhood stock is surging \u2014 and bitcoin isn't the reason this time",
-      "HOOD Stock Hits 4-Month High After Analyst Upgrades \u2013 Retail Traders Target $100 By Market Close",
-      "Wintermute Enters Prediction Markets as Event Contract Trading Tops $60B"
-    ],
-    "mode": "paper",
-    "strategy_version": "07",
-    "status": "open"
+    "status": "open",
+    "price_trough": 16.299999237060547,
+    "trailing_stop_price": 16.538305
   },
   "ORCL": {
     "id": "ORCL_20260529175235",
@@ -495,7 +437,9 @@
     ],
     "mode": "paper",
     "strategy_version": "07",
-    "status": "open"
+    "status": "open",
+    "price_trough": 18.219999313354492,
+    "trailing_stop_price": 18.493299
   },
   "CRM": {
     "id": "CRM_20260529175235",
@@ -523,6 +467,88 @@
       "Snowflake stock soars on growing enterprise AI demand, AWS partnership",
       "Equity Markets Rise Intraday as Trump Sets Out Conditions For Iran Deal"
     ],
+    "mode": "paper",
+    "strategy_version": "07",
+    "status": "open",
+    "price_trough": 191.14019775390625,
+    "trailing_stop_price": 194.007301
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260529200250",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.5990535020828247,
+    "entry_time": "2026-05-29T20:02:50.395794+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00448,
+    "size_usd": 3069.87,
+    "position_size_pct": 0.0309,
+    "confidence": 0.483,
+    "signals": [
+      "RSI overbought (79.3)",
+      "1d momentum +0.91%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
+    ],
+    "news_sentiment": 0.264,
+    "news_headlines": [
+      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
+    ],
+    "mode": "paper",
+    "strategy_version": "07",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260529200250",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 8.829999923706055,
+    "entry_time": "2026-05-29T20:02:50.398161+00:00",
+    "stop_loss_pct": 0.00887,
+    "take_profit_pct": 0.02024,
+    "size_usd": 3584.69,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (41.5)",
+      "5d momentum -0.90%",
+      "1d momentum -1.12%",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.235,
+    "news_headlines": [
+      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
+      "Best Crypto To Buy With $100 Right Now",
+      "Most Undervalued Major Cryptos Heading Into Mid-2026"
+    ],
+    "mode": "paper",
+    "strategy_version": "07",
+    "status": "open"
+  },
+  "USD/CHF": {
+    "id": "USD/CHF_20260529200250",
+    "asset": "USD/CHF",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.780489981174469,
+    "entry_time": "2026-05-29T20:02:50.399137+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 3940.62,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (34.4)",
+      "1d momentum -0.40%",
+      "BB oversold (pct_b=0.11)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "07",
     "status": "open"
