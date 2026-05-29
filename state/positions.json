@@ -248,39 +248,6 @@
     "strategy_version": "04",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260528055024",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 8.770000457763672,
-    "entry_time": "2026-05-28T05:50:24.150198+00:00",
-    "stop_loss_pct": 0.01067,
-    "take_profit_pct": 0.02642,
-    "size_usd": 6093.53,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (16.7)",
-      "5d momentum -2.99%",
-      "1d momentum -4.26%",
-      "BB oversold (pct_b=-0.11)",
-      "Volume spike 2.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.278,
-    "news_headlines": [
-      "Most Undervalued Major Cryptos Heading Into Mid-2026",
-      "Introducing Avalanche and Sui Futures",
-      "Kraken Adds AVAX Staking as Avalanche Holders Get New Earn Options"
-    ],
-    "mode": "paper",
-    "strategy_version": "05",
-    "status": "open",
-    "price_peak": 8.949999809265137,
-    "trailing_stop_price": 8.854503
-  },
   "ORCL": {
     "id": "ORCL_20260528164943",
     "asset": "ORCL",
@@ -517,6 +484,37 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "06",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260529115022",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.0987899973988533,
+    "entry_time": "2026-05-29T11:50:22.056688+00:00",
+    "stop_loss_pct": 0.00626,
+    "take_profit_pct": 0.01563,
+    "size_usd": 6115.77,
+    "position_size_pct": 0.0609,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (35.8)",
+      "5d momentum -0.67%",
+      "1d momentum +0.89%",
+      "BB oversold (pct_b=0.01)",
+      "Volume spike 3.2\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.061,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP, Dogecoin Stall Over Iran Ceasefire Uncertainty: Analyst Suggests BTC Buyers Could Be Taking 'Control'",
+      "Which Top 10 Crypto Has The Weakest 2026 Outlook?",
+      "Should You Forget Bitcoin and Buy Dogecoin Instead?"
+    ],
     "mode": "paper",
     "strategy_version": "06",
     "status": "open"
