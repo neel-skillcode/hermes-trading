@@ -3,15 +3,15 @@
   "portfolio_balance": 99291.53,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 1.19,
-  "unrealized_pnl_usd": 282.11,
-  "equity_value": 99573.64,
+  "unrealized_pnl_usd": 271.96,
+  "equity_value": 99563.49,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 39716.61,
   "swing_capital_used_usd": 35629.48,
   "total_trades": 64,
-  "last_tick": "2026-05-30T15:22:27.317197+00:00",
+  "last_tick": "2026-05-30T16:32:19.113633+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -340,9 +340,9 @@
       "status": "open",
       "price_peak": 2027.510009765625,
       "trailing_stop_price": 1994.015544,
-      "current_price": 2023.099976,
-      "unrealized_pnl_pct": 0.019656,
-      "unrealized_pnl_usd": 132.71
+      "current_price": 2023.060059,
+      "unrealized_pnl_pct": 0.019636,
+      "unrealized_pnl_usd": 132.57
     },
     {
       "id": "NVDA_20260529143103",
@@ -605,17 +605,38 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "price_trough": 1.3395999670028687,
-      "trailing_stop_price": 1.352701,
-      "current_price": 1.34,
-      "unrealized_pnl_pct": 0.012819,
-      "unrealized_pnl_usd": 56.16
+      "price_trough": 1.3430999517440796,
+      "trailing_stop_price": 1.356235,
+      "current_price": 1.3431,
+      "unrealized_pnl_pct": 0.010535,
+      "unrealized_pnl_usd": 46.16
     }
   ],
   "last_candidates": [
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.8391,
+      "price": 700.4199829101562,
+      "rsi": 94.48889558270736,
+      "momentum_5d": 0.04083570655489858,
+      "momentum_1d": 0.08902918738190428,
+      "macd_crossover": false,
+      "atr_pct": 0.008322562419482682,
+      "bollinger_pct_b": 1.0304,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.19,
+      "news_sentiment": -0.172,
+      "news_confidence": 0.29,
+      "news_headlines": [
+        "VanEck Launches First BNB Exchange-Traded Fund",
+        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
+        "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "INTC",
-      "rank_score": 0.8002,
+      "rank_score": 0.8122,
       "price": 114.63999938964844,
       "rsi": 29.702189646204815,
       "momentum_5d": -0.036558484817203085,
@@ -625,12 +646,12 @@
       "bollinger_pct_b": -0.2317,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.522,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
       "news_headlines": [
         "GOP lawmakers' portfolios are migrating to Trump favorites like Intel and bitcoin",
-        "Jim Cramer Explains How He Ignored the Past Price to Score a Huge Win in Arm Holdings",
-        "The Vanguard ETF Investors Overlook Because It Sounds Boring, But Actually Isn't"
+        "A Once-in-a-Decade Buying Opportunity for This Dominant Growth Stock",
+        "Could XRP Be the Next Bitcoin?"
       ],
       "high_impact_news": true
     },
@@ -671,14 +692,14 @@
       "news_confidence": 0.55,
       "news_headlines": [
         "'Volatility equals opportunity' in options trades as tech soars",
-        "Prediction: This Artificial Intelligence (AI) Inference Specialist Is Going to Soar After June 3",
-        "Broadcom Deepens AI Infrastructure Role With US$36b Deal And FuriosaAI Pact"
+        "Dow Jones Futures: Market Hits Highs On Iran Hopes, These AI Stocks Struggle; Nvidia, Tesla Lead 5 Titans Near Buy Points",
+        "Prediction: This Artificial Intelligence (AI) Inference Specialist Is Going to Soar After June 3"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.7414,
+      "rank_score": 0.7464,
       "price": 448.6400146484375,
       "rsi": 93.0305682470708,
       "momentum_5d": 0.01127039905082108,
@@ -688,12 +709,12 @@
       "bollinger_pct_b": 0.9075,
       "volume_spike": true,
       "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.581,
+      "news_confidence": 0.43,
       "news_headlines": [
         "'Volatility equals opportunity' in options trades as tech soars",
-        "Jim Cramer on Microsoft: \u201cI Think My Nose Got This One Totally Wrong\u201d",
-        "NWI Management Dumps 42,700 MercadoLibre Shares Worth $82.4 Million"
+        "The 10-Year Treasury Yield Approaching 5% Could Reshape SCHG\u2019s Next 12 Months",
+        "Jim Cramer on Microsoft: \u201cI Think My Nose Got This One Totally Wrong\u201d"
       ],
       "high_impact_news": true
     },
@@ -803,6 +824,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "COST",
+      "rank_score": 0.6495,
+      "price": 956.0700073242188,
+      "rsi": 22.420366437848784,
+      "momentum_5d": 0.006919438993384677,
+      "momentum_1d": -0.042273143920366144,
+      "macd_crossover": false,
+      "atr_pct": 0.01123695148727051,
+      "bollinger_pct_b": 0.2018,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.24,
+      "news_sentiment": 0.286,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Costco just made a major move to fix a member pain point",
+        "Costco's Gas Stations Set All-Time Records As Drivers Hunt For Lower Prices",
+        "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "XLK",
       "rank_score": 0.64,
       "price": 191.0399932861328,
@@ -862,48 +904,6 @@
         "Verge, following trial failure, rebrands its AI drug discovery ambitions",
         "Recursion Pharmaceuticals Just Hit a 52-Week Low. Is This Former Nvidia Holding a Smart Buy Now?",
         "Recursion Pharmaceuticals (RXRX) Hits 52-Week Low; Is It In Oversold Territory?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.6356,
-      "price": 687.75,
-      "rsi": 93.39727049086655,
-      "momentum_5d": 0.019704619390891857,
-      "momentum_1d": 0.07625736123963008,
-      "macd_crossover": false,
-      "atr_pct": 0.007541165022783923,
-      "bollinger_pct_b": 0.9326,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.94,
-      "news_sentiment": -0.172,
-      "news_confidence": 0.29,
-      "news_headlines": [
-        "VanEck Launches First BNB Exchange-Traded Fund",
-        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
-        "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.6335,
-      "price": 956.0700073242188,
-      "rsi": 22.420366437848784,
-      "momentum_5d": 0.006919438993384677,
-      "momentum_1d": -0.042273143920366144,
-      "macd_crossover": false,
-      "atr_pct": 0.01123695148727051,
-      "bollinger_pct_b": 0.2018,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%",
-        "News of the day: Canada's shrinking economy, a technical recession, Scotiabank expands south, Costco tariff refunds, early retirement and more",
-        "Stocks to Watch Recap: Dell, Gap, Costco, SentinelOne"
       ],
       "high_impact_news": true
     },
@@ -993,7 +993,7 @@
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.5849,
+      "rank_score": 0.5759,
       "price": 156.58999633789062,
       "rsi": 94.06812095517512,
       "momentum_5d": -0.0031194645241415355,
@@ -1003,33 +1003,33 @@
       "bollinger_pct_b": 0.8283,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.489,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.35,
+      "news_confidence": 0.4,
       "news_headlines": [
+        "Palantir Technologies Inc. (PLTR): Renaissance Technologies Continues Trimming Stake",
         "Billionaire Peter Thiel moves out of U.S. citing harsh concerns",
-        "Forget SaaS: Why AI Agents Could Make ServiceNow and Palantir Technologies the Next Trillion-Dollar Platforms",
-        "Palantir Vatican AI Clash Puts Defense Focus And Investor Risks In Focus"
+        "Forget SaaS: Why AI Agents Could Make ServiceNow and Palantir Technologies the Next Trillion-Dollar Platforms"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "GOOGL",
-      "rank_score": 0.5811,
-      "price": 380.3900146484375,
-      "rsi": 20.210803180283264,
-      "momentum_5d": -0.007462453624429224,
-      "momentum_1d": -0.01445704732134068,
-      "macd_crossover": false,
-      "atr_pct": 0.007730606422704537,
-      "bollinger_pct_b": 0.0312,
+      "asset": "BMY",
+      "rank_score": 0.5682,
+      "price": 57.185001373291016,
+      "rsi": 44.66773187427406,
+      "momentum_5d": 0.007665222436846091,
+      "momentum_1d": -0.017270961971748162,
+      "macd_crossover": true,
+      "atr_pct": 0.008025320642739238,
+      "bollinger_pct_b": 0.4824,
       "volume_spike": true,
-      "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.176,
-      "news_confidence": 0.34,
+      "volume_spike_ratio": 2.78,
+      "news_sentiment": 0.487,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "Jim Cramer on Microsoft: \u201cI Think My Nose Got This One Totally Wrong\u201d",
-        "The groupthink boom: what three top VCs really think about the AI frenzy",
-        "Broadcom Deepens AI Infrastructure Role With US$36b Deal And FuriosaAI Pact"
+        "Illumina Oncology Launches Put Product Depth Against Rapid Share Price Gains",
+        "This Biotech Stock Is Up 85%. FDA Has Agreed to Review a Skin Cancer Drug.",
+        "Can MRK's New Drugs & Pipeline Aid Long-Term Growth Post Keytruda LOE?"
       ],
       "high_impact_news": true
     }
