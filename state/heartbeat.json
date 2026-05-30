@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99308.32,
+  "portfolio_balance": 99291.53,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 1.18,
-  "unrealized_pnl_usd": 183.24,
-  "equity_value": 99491.56,
-  "open_positions": 20,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 1.19,
+  "unrealized_pnl_usd": 202.97,
+  "equity_value": 99494.51,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39723.33,
+  "day_capital_used_usd": 39716.61,
   "swing_capital_used_usd": 35629.48,
-  "total_trades": 62,
-  "last_tick": "2026-05-29T23:22:39.397257+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "total_trades": 64,
+  "last_tick": "2026-05-30T01:25:08.102679+00:00",
+  "last_reflection": "2026-05-29",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -340,9 +340,9 @@
       "status": "open",
       "price_peak": 2027.510009765625,
       "trailing_stop_price": 1994.015544,
-      "current_price": 2006.880005,
-      "unrealized_pnl_pct": 0.011481,
-      "unrealized_pnl_usd": 77.52
+      "current_price": 2016.349976,
+      "unrealized_pnl_pct": 0.016254,
+      "unrealized_pnl_usd": 109.74
     },
     {
       "id": "NVDA_20260529143103",
@@ -548,40 +548,6 @@
       "unrealized_pnl_usd": -0.18
     },
     {
-      "id": "AVAX-USD_20260529200250",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 8.829999923706055,
-      "entry_time": "2026-05-29T20:02:50.398161+00:00",
-      "stop_loss_pct": 0.00887,
-      "take_profit_pct": 0.02024,
-      "size_usd": 3584.69,
-      "position_size_pct": 0.0361,
-      "confidence": 0.564,
-      "signals": [
-        "RSI oversold (41.5)",
-        "5d momentum -0.90%",
-        "1d momentum -1.12%",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade"
-      ],
-      "news_sentiment": 0.235,
-      "news_headlines": [
-        "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
-        "Best Crypto To Buy With $100 Right Now",
-        "Most Undervalued Major Cryptos Heading Into Mid-2026"
-      ],
-      "mode": "paper",
-      "strategy_version": "07",
-      "status": "open",
-      "price_trough": 8.779999732971191,
-      "trailing_stop_price": 8.857878,
-      "current_price": 8.8,
-      "unrealized_pnl_pct": 0.003397,
-      "unrealized_pnl_usd": 12.18
-    },
-    {
       "id": "USD/CHF_20260529200250",
       "asset": "USD/CHF",
       "trade_type": "day",
@@ -610,36 +576,38 @@
       "unrealized_pnl_usd": 1.31
     },
     {
-      "id": "BNB-USD_20260529220126",
-      "asset": "BNB-USD",
+      "id": "XRP-USD_20260530012507",
+      "asset": "XRP-USD",
       "trade_type": "day",
-      "direction": "long",
-      "entry_price": 640.989990234375,
-      "entry_time": "2026-05-29T22:01:26.803548+00:00",
-      "stop_loss_pct": 0.00384,
-      "take_profit_pct": 0.00813,
-      "size_usd": 803.52,
-      "position_size_pct": 0.0081,
-      "confidence": 0.23,
+      "direction": "short",
+      "entry_price": 1.3573999404907227,
+      "entry_time": "2026-05-30T01:25:07.420105+00:00",
+      "stop_loss_pct": 0.00978,
+      "take_profit_pct": 0.02383,
+      "size_usd": 4381.49,
+      "position_size_pct": 0.0441,
+      "confidence": 0.87,
       "signals": [
-        "1d momentum +0.46%",
+        "RSI overbought (69.2)",
+        "5d momentum +2.92%",
+        "1d momentum +3.36%",
+        "BB overbought (pct_b=1.25)",
+        "Volume spike 5.9\u00d7",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+        "Claude [contradicts]: analyst upgrade"
       ],
-      "news_sentiment": -0.172,
+      "news_sentiment": 0.312,
       "news_headlines": [
-        "VanEck Launches First BNB Exchange-Traded Fund",
-        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
-        "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain"
+        "What $1,000 in Bitcoin, Ethereum, And XRP Five Years Ago Is Worth Today",
+        "Morgan Stanley discloses Bitcoin, XRP, SOL holdings",
+        "How High Could Solana (SOL) Realistically Go This Cycle?"
       ],
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "price_peak": 641.239990234375,
-      "trailing_stop_price": 638.777629,
-      "current_price": 641.23999,
-      "unrealized_pnl_pct": 0.00039,
-      "unrealized_pnl_usd": 0.31
+      "current_price": 1.3574,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -661,6 +629,27 @@
         "Nvidia, AMD, & other chip names in focus at Computex 2026",
         "GOP lawmakers' portfolios are migrating to Trump favorites like Intel and bitcoin",
         "Republican lawmakers are trading like Trump, piling into Big Tech stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.7849,
+      "price": 1.3573999404907227,
+      "rsi": 69.23802657795994,
+      "momentum_5d": 0.02919095585713143,
+      "momentum_1d": 0.033579476504841395,
+      "macd_crossover": false,
+      "atr_pct": 0.010008616321062003,
+      "bollinger_pct_b": 1.2496,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.93,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "What $1,000 in Bitcoin, Ethereum, And XRP Five Years Ago Is Worth Today",
+        "Morgan Stanley discloses Bitcoin, XRP, SOL holdings",
+        "How High Could Solana (SOL) Realistically Go This Cycle?"
       ],
       "high_impact_news": true
     },
@@ -708,7 +697,7 @@
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.7464,
+      "rank_score": 0.7394,
       "price": 448.6400146484375,
       "rsi": 93.0305682470708,
       "momentum_5d": 0.01127039905082108,
@@ -718,12 +707,12 @@
       "bollinger_pct_b": 0.9075,
       "volume_spike": true,
       "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.439,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.346,
+      "news_confidence": 0.52,
       "news_headlines": [
         "'Volatility equals opportunity' in options trades as tech soars",
         "AI spending fervor is comparable to industrial push during World War 2",
-        "Nvidia Dropped a Cryptic Clue About Its Next Big Move Ahead of GTC Event"
+        "Amazon vs. Microsoft: What Their Revenue Trends Tell Investors"
       ],
       "high_impact_news": true
     },
@@ -770,6 +759,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ORCL",
+      "rank_score": 0.6807,
+      "price": 225.74000549316406,
+      "rsi": 94.92529405198206,
+      "momentum_5d": 0.026790990339455124,
+      "momentum_1d": 0.1826588368993533,
+      "macd_crossover": false,
+      "atr_pct": 0.019236726648473375,
+      "bollinger_pct_b": 0.8796,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.25,
+      "news_sentiment": 0.711,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "As Nvidia, Oracle And Amazon Pour Billions Into AI, Wall Street Is Quietly Hedging For Trouble",
+        "Assessing Oracle (ORCL) Valuation After Strong Multi\u2011Month Share Price Momentum",
+        "Financial Services Roundup: Market Talk"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.6765,
       "price": 14.119999885559082,
@@ -791,29 +801,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.6757,
-      "price": 225.74000549316406,
-      "rsi": 94.92529405198206,
-      "momentum_5d": 0.026790990339455124,
-      "momentum_1d": 0.1826588368993533,
-      "macd_crossover": false,
-      "atr_pct": 0.019236726648473375,
-      "bollinger_pct_b": 0.8796,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.661,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "As Nvidia, Oracle And Amazon Pour Billions Into AI, Wall Street Is Quietly Hedging For Trouble",
-        "Assessing Oracle (ORCL) Valuation After Strong Multi\u2011Month Share Price Momentum",
-        "Financial Services Roundup: Market Talk"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HOOD",
-      "rank_score": 0.6554,
+      "rank_score": 0.6524,
       "price": 94.3499984741211,
       "rsi": 97.6352894057293,
       "momentum_5d": 0.02318012105595369,
@@ -823,12 +812,12 @@
       "bollinger_pct_b": 0.8805,
       "volume_spike": false,
       "volume_spike_ratio": 1.18,
-      "news_sentiment": 0.474,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.35,
       "news_headlines": [
         "Robinhood stock is surging \u2014 and bitcoin isn't the reason this time",
-        "Stock Market Today, May 29: Robinhood Surges Despite Bitcoin's Struggles",
-        "Robinhood Is Opening the Door to U.S. Cannabis With Reform On the Horizon"
+        "COIN, HOOD Stocks Jump After US Regulator Greenlights Crypto Perpetual Futures",
+        "Stock Market Today, May 29: Robinhood Surges Despite Bitcoin's Struggles"
       ],
       "high_impact_news": true
     },
@@ -855,7 +844,7 @@
     },
     {
       "asset": "XOM",
-      "rank_score": 0.6387,
+      "rank_score": 0.6367,
       "price": 145.3699951171875,
       "rsi": 22.431927525847073,
       "momentum_5d": -0.0005500297884719505,
@@ -865,12 +854,12 @@
       "bollinger_pct_b": 0.113,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.705,
-      "news_confidence": 0.61,
+      "news_sentiment": 0.695,
+      "news_confidence": 0.59,
       "news_headlines": [
+        "Iran says no final deal reached with U.S. as ceasefire talks continue",
         "Sector Update: Energy Stocks Fall Late Afternoon",
-        "Three Energy ETFs Are Yielding Over 2.5 Percent While Delivering 24 to 31 Percent Returns in 2026",
-        "Why Occidental Petroleum Is a Buy Despite Falling Oil Prices"
+        "Three Energy ETFs Are Yielding Over 2.5 Percent While Delivering 24 to 31 Percent Returns in 2026"
       ],
       "high_impact_news": true
     },
@@ -939,7 +928,7 @@
     },
     {
       "asset": "MS",
-      "rank_score": 0.6244,
+      "rank_score": 0.6254,
       "price": 208.0,
       "rsi": 82.713912997178,
       "momentum_5d": 0.0004810298530620405,
@@ -949,18 +938,18 @@
       "bollinger_pct_b": 0.8715,
       "volume_spike": true,
       "volume_spike_ratio": 1.69,
-      "news_sentiment": 0.393,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.404,
+      "news_confidence": 0.57,
       "news_headlines": [
+        "Morgan Stanley resets MongoDB stock price target after earnings",
         "Morgan Stanley discloses Bitcoin, XRP, SOL holdings",
-        "Morgan Stanley Joins Elite List As Stock Hits Highs; Goldman Sachs Rides Massive Deals Wave",
-        "Why Is Moelis (MC) Up 2.7% Since Last Earnings Report?"
+        "Morgan Stanley Joins Elite List As Stock Hits Highs; Goldman Sachs Rides Massive Deals Wave"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SNAP",
-      "rank_score": 0.6169,
+      "rank_score": 0.6099,
       "price": 5.710000038146973,
       "rsi": 32.67894981723941,
       "momentum_5d": -0.013816912648208649,
@@ -970,33 +959,12 @@
       "bollinger_pct_b": -0.0341,
       "volume_spike": true,
       "volume_spike_ratio": 2.37,
-      "news_sentiment": 0.707,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "KeyBanc Keeps Sector Weight Rating on SNAP",
-        "Is Meta\u2019s next growth engine subscriptions?",
-        "Meta (META) Quietly Launches A New Social App"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.6071,
-      "price": 380.3900146484375,
-      "rsi": 20.210803180283264,
-      "momentum_5d": -0.007462453624429224,
-      "momentum_1d": -0.01445704732134068,
-      "macd_crossover": false,
-      "atr_pct": 0.007730606422704537,
-      "bollinger_pct_b": 0.0312,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.696,
+      "news_sentiment": 0.478,
       "news_confidence": 0.46,
       "news_headlines": [
-        "The difference between on-prem AI vs. data centers",
-        "As Nvidia, Oracle And Amazon Pour Billions Into AI, Wall Street Is Quietly Hedging For Trouble",
-        "Alphabet (GOOGL) Stock Falls Amid Market Uptick: What Investors Need to Know"
+        "Social media companies pay $27 million to settle Kentucky school district\u2019s lawsuit over social media harms, records show",
+        "KeyBanc Keeps Sector Weight Rating on SNAP",
+        "Is Meta\u2019s next growth engine subscriptions?"
       ],
       "high_impact_news": true
     },
@@ -1043,23 +1011,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "WMT",
-      "rank_score": 0.5751,
-      "price": 115.70999908447266,
-      "rsi": 32.182788140558756,
-      "momentum_5d": 0.006918140909468436,
-      "momentum_1d": -0.020154097105804698,
-      "macd_crossover": true,
-      "atr_pct": 0.008163820509791104,
-      "bollinger_pct_b": 0.1939,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.36,
+      "asset": "GOOGL",
+      "rank_score": 0.5801,
+      "price": 380.3900146484375,
+      "rsi": 20.210803180283264,
+      "momentum_5d": -0.007462453624429224,
+      "momentum_1d": -0.01445704732134068,
+      "macd_crossover": false,
+      "atr_pct": 0.007730606422704537,
+      "bollinger_pct_b": 0.0312,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.98,
+      "news_sentiment": 0.135,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Best student credit cards for June 2026: Start building credit with rewards on spending",
-        "Nvidia Continues to Be the Core Engine of AI, Says Analyst. Plus, Walmart and 4 More Stocks.",
-        "Bonds May Finally Be Ready to Give Stocks a Run for Their Money"
+        "The difference between on-prem AI vs. data centers",
+        "YMAG Bundles YieldMax\u2019s Magnificent Seven Strategy Into One Ticker, And the NAV Decay Compounds Across All Seven",
+        "Mattel Stock Is Down 24%. Here's What a $50.9 Million Exit Could Mean"
       ],
       "high_impact_news": true
     }
