@@ -3,16 +3,16 @@
   "portfolio_balance": 99291.53,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 1.19,
-  "unrealized_pnl_usd": 202.97,
-  "equity_value": 99494.51,
+  "unrealized_pnl_usd": 224.07,
+  "equity_value": 99515.6,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 39716.61,
   "swing_capital_used_usd": 35629.48,
   "total_trades": 64,
-  "last_tick": "2026-05-30T01:25:08.102679+00:00",
-  "last_reflection": "2026-05-29",
+  "last_tick": "2026-05-30T05:07:37.833548+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -340,9 +340,9 @@
       "status": "open",
       "price_peak": 2027.510009765625,
       "trailing_stop_price": 1994.015544,
-      "current_price": 2016.349976,
-      "unrealized_pnl_pct": 0.016254,
-      "unrealized_pnl_usd": 109.74
+      "current_price": 2012.589966,
+      "unrealized_pnl_pct": 0.014359,
+      "unrealized_pnl_usd": 96.95
     },
     {
       "id": "NVDA_20260529143103",
@@ -605,15 +605,17 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "current_price": 1.3574,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1.3466999530792236,
+      "trailing_stop_price": 1.359871,
+      "current_price": 1.3469,
+      "unrealized_pnl_pct": 0.007735,
+      "unrealized_pnl_usd": 33.89
     }
   ],
   "last_candidates": [
     {
       "asset": "INTC",
-      "rank_score": 0.7941,
+      "rank_score": 0.7892,
       "price": 114.63999938964844,
       "rsi": 29.702189646204815,
       "momentum_5d": -0.036558484817203085,
@@ -623,33 +625,12 @@
       "bollinger_pct_b": -0.2317,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.562,
-      "news_confidence": 0.32,
+      "news_sentiment": 0.448,
+      "news_confidence": 0.29,
       "news_headlines": [
-        "Nvidia, AMD, & other chip names in focus at Computex 2026",
-        "GOP lawmakers' portfolios are migrating to Trump favorites like Intel and bitcoin",
-        "Republican lawmakers are trading like Trump, piling into Big Tech stocks"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.7849,
-      "price": 1.3573999404907227,
-      "rsi": 69.23802657795994,
-      "momentum_5d": 0.02919095585713143,
-      "momentum_1d": 0.033579476504841395,
-      "macd_crossover": false,
-      "atr_pct": 0.010008616321062003,
-      "bollinger_pct_b": 1.2496,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.93,
-      "news_sentiment": 0.312,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "What $1,000 in Bitcoin, Ethereum, And XRP Five Years Ago Is Worth Today",
-        "Morgan Stanley discloses Bitcoin, XRP, SOL holdings",
-        "How High Could Solana (SOL) Realistically Go This Cycle?"
+        "Dell, Cisco: How 'throwback' tech stocks fit into the AI trade",
+        "Wall Street Has a Consensus on This AI Stock. The Consensus Is Dead Wrong.",
+        "Why Dell Stock Skyrocketed to a New All-Time High Today"
       ],
       "high_impact_news": true
     },
@@ -689,15 +670,15 @@
       "news_sentiment": 0.5,
       "news_confidence": 0.56,
       "news_headlines": [
-        "'Volatility equals opportunity' in options trades as tech soars",
         "Family Offices Bypass Private Equity and Go Direct",
-        "What to Know About This Fund's $4.8 Million e.l.f. Beauty Exit After a Tough Year"
+        "What to Know About This Fund's $4.8 Million e.l.f. Beauty Exit After a Tough Year",
+        "Jobs Report, Broadcom Earnings: What to Watch in the Next Week"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.7394,
+      "rank_score": 0.7443,
       "price": 448.6400146484375,
       "rsi": 93.0305682470708,
       "momentum_5d": 0.01127039905082108,
@@ -707,12 +688,12 @@
       "bollinger_pct_b": 0.9075,
       "volume_spike": true,
       "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.346,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.469,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "'Volatility equals opportunity' in options trades as tech soars",
         "AI spending fervor is comparable to industrial push during World War 2",
-        "Amazon vs. Microsoft: What Their Revenue Trends Tell Investors"
+        "Amazon vs. Microsoft: What Their Revenue Trends Tell Investors",
+        "YMAG Bundles YieldMax\u2019s Magnificent Seven Strategy Into One Ticker, And the NAV Decay Compounds Across All Seven"
       ],
       "high_impact_news": true
     },
@@ -738,27 +719,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "REGN",
-      "rank_score": 0.6843,
-      "price": 614.030029296875,
-      "rsi": 16.515255347407106,
-      "momentum_5d": -0.006681027609483594,
-      "momentum_1d": -0.036135246742324524,
-      "macd_crossover": false,
-      "atr_pct": 0.006931645785749872,
-      "bollinger_pct_b": 0.1408,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.633,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Regeneron (REGN) Down 12.1% Since Last Earnings Report: Can It Rebound?",
-        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest",
-        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ORCL",
       "rank_score": 0.6807,
       "price": 225.74000549316406,
@@ -776,6 +736,27 @@
         "As Nvidia, Oracle And Amazon Pour Billions Into AI, Wall Street Is Quietly Hedging For Trouble",
         "Assessing Oracle (ORCL) Valuation After Strong Multi\u2011Month Share Price Momentum",
         "Financial Services Roundup: Market Talk"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "REGN",
+      "rank_score": 0.6773,
+      "price": 614.030029296875,
+      "rsi": 16.515255347407106,
+      "momentum_5d": -0.006681027609483594,
+      "momentum_1d": -0.036135246742324524,
+      "macd_crossover": false,
+      "atr_pct": 0.006931645785749872,
+      "bollinger_pct_b": 0.1408,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.11,
+      "news_sentiment": 0.545,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest",
+        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth",
+        "Why Apogee Slipped On Its Dupixent-Rivaling Eczema Results"
       ],
       "high_impact_news": true
     },
@@ -843,6 +824,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "COST",
+      "rank_score": 0.6385,
+      "price": 956.0700073242188,
+      "rsi": 22.420366437848784,
+      "momentum_5d": 0.006919438993384677,
+      "momentum_1d": -0.042273143920366144,
+      "macd_crossover": false,
+      "atr_pct": 0.01123695148727051,
+      "bollinger_pct_b": 0.2018,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.24,
+      "news_sentiment": 0.106,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Costco sells 'record-breaking' amounts of gas as fuel costs soar",
+        "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%",
+        "News of the day: Canada's shrinking economy, a technical recession, Scotiabank expands south, Costco tariff refunds, early retirement and more"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "XOM",
       "rank_score": 0.6367,
       "price": 145.3699951171875,
@@ -881,27 +883,6 @@
         "Verge, following trial failure, rebrands its AI drug discovery ambitions",
         "Recursion Pharmaceuticals Just Hit a 52-Week Low. Is This Former Nvidia Holding a Smart Buy Now?",
         "Recursion Pharmaceuticals (RXRX) Hits 52-Week Low; Is It In Oversold Territory?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.6335,
-      "price": 956.0700073242188,
-      "rsi": 22.420366437848784,
-      "momentum_5d": 0.006919438993384677,
-      "momentum_1d": -0.042273143920366144,
-      "macd_crossover": false,
-      "atr_pct": 0.01123695148727051,
-      "bollinger_pct_b": 0.2018,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Costco sells 'record-breaking' amounts of gas as fuel costs soar",
-        "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%",
-        "News of the day: Canada's shrinking economy, a technical recession, Scotiabank expands south, Costco tariff refunds, early retirement and more"
       ],
       "high_impact_news": true
     },
@@ -948,29 +929,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "SNAP",
-      "rank_score": 0.6099,
-      "price": 5.710000038146973,
-      "rsi": 32.67894981723941,
-      "momentum_5d": -0.013816912648208649,
-      "momentum_1d": -0.012964530897729844,
-      "macd_crossover": false,
-      "atr_pct": 0.015136346675333165,
-      "bollinger_pct_b": -0.0341,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.37,
-      "news_sentiment": 0.478,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Social media companies pay $27 million to settle Kentucky school district\u2019s lawsuit over social media harms, records show",
-        "KeyBanc Keeps Sector Weight Rating on SNAP",
-        "Is Meta\u2019s next growth engine subscriptions?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "PLTR",
-      "rank_score": 0.6069,
+      "rank_score": 0.6029,
       "price": 156.58999633789062,
       "rsi": 94.06812095517512,
       "momentum_5d": -0.0031194645241415355,
@@ -980,18 +940,39 @@
       "bollinger_pct_b": 0.8283,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.692,
-      "news_confidence": 0.65,
+      "news_sentiment": 0.672,
+      "news_confidence": 0.61,
       "news_headlines": [
+        "Palantir Vatican AI Clash Puts Defense Focus And Investor Risks In Focus",
         "Highlights: Measuring Risk \u2013 AI & Cybersecurity in the Boardroom: 2nd Princeton CorpGov Forum",
-        "Why Is Palantir Technologies (PLTR) Stock Soaring Today",
-        "Dell, Rocket Lab, Palantir, and More Stocks That Explain the Market Today"
+        "Why Is Palantir Technologies (PLTR) Stock Soaring Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SNAP",
+      "rank_score": 0.5939,
+      "price": 5.710000038146973,
+      "rsi": 32.67894981723941,
+      "momentum_5d": -0.013816912648208649,
+      "momentum_1d": -0.012964530897729844,
+      "macd_crossover": false,
+      "atr_pct": 0.015136346675333165,
+      "bollinger_pct_b": -0.0341,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.37,
+      "news_sentiment": 0.111,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Meta, TikTok, Snap, and YouTube settle school lawsuit for $27M",
+        "Reddit vs. Snap: What Do Their Revenue Trends Tell Investors?",
+        "Social media companies pay $27 million to settle Kentucky school district\u2019s lawsuit over social media harms, records show"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SOFI",
-      "rank_score": 0.5929,
+      "rank_score": 0.5919,
       "price": 18.235000610351562,
       "rsi": 82.86335597165385,
       "momentum_5d": -0.011385149793826415,
@@ -1001,18 +982,18 @@
       "bollinger_pct_b": 0.8136,
       "volume_spike": false,
       "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.889,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.887,
+      "news_confidence": 0.53,
       "news_headlines": [
         "Dell, Rocket Lab, Palantir, and More Stocks That Explain the Market Today",
-        "Here's Why SoFi Stock Is Jumping Today",
-        "SoFi's Expanding Ecosystem Highlights Strong Growth Momentum"
+        "SOFI Stock Pops Following SoFi's Stablecoin Announcement. What to Know.",
+        "Here's Why SoFi Stock Is Jumping Today"
       ],
       "high_impact_news": true
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.5801,
+      "rank_score": 0.5841,
       "price": 380.3900146484375,
       "rsi": 20.210803180283264,
       "momentum_5d": -0.007462453624429224,
@@ -1022,12 +1003,33 @@
       "bollinger_pct_b": 0.0312,
       "volume_spike": true,
       "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.135,
-      "news_confidence": 0.37,
+      "news_sentiment": -0.209,
+      "news_confidence": 0.43,
       "news_headlines": [
         "The difference between on-prem AI vs. data centers",
-        "YMAG Bundles YieldMax\u2019s Magnificent Seven Strategy Into One Ticker, And the NAV Decay Compounds Across All Seven",
-        "Mattel Stock Is Down 24%. Here's What a $50.9 Million Exit Could Mean"
+        "Meta, TikTok, Snap, and YouTube settle school lawsuit for $27M",
+        "Founders seize on Indian court ruling to revive criticism of Google\u2019s ad business"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "WMT",
+      "rank_score": 0.5801,
+      "price": 115.70999908447266,
+      "rsi": 32.182788140558756,
+      "momentum_5d": 0.006918140909468436,
+      "momentum_1d": -0.020154097105804698,
+      "macd_crossover": true,
+      "atr_pct": 0.008163820509791104,
+      "bollinger_pct_b": 0.1939,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.43,
+      "news_sentiment": 0.59,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "ICE enforcement surge led to 668,000 job losses, Brookings says",
+        "Nvidia Continues to Be the Core Engine of AI, Says Analyst. Plus, Walmart and 4 More Stocks.",
+        "Bonds May Finally Be Ready to Give Stocks a Run for Their Money"
       ],
       "high_impact_news": true
     }
