@@ -3,15 +3,15 @@
   "portfolio_balance": 99291.53,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 1.19,
-  "unrealized_pnl_usd": 224.07,
-  "equity_value": 99515.6,
+  "unrealized_pnl_usd": 250.32,
+  "equity_value": 99541.85,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 39716.61,
   "swing_capital_used_usd": 35629.48,
   "total_trades": 64,
-  "last_tick": "2026-05-30T05:07:37.833548+00:00",
+  "last_tick": "2026-05-30T07:50:13.349446+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -340,9 +340,9 @@
       "status": "open",
       "price_peak": 2027.510009765625,
       "trailing_stop_price": 1994.015544,
-      "current_price": 2012.589966,
-      "unrealized_pnl_pct": 0.014359,
-      "unrealized_pnl_usd": 96.95
+      "current_price": 2012.810059,
+      "unrealized_pnl_pct": 0.01447,
+      "unrealized_pnl_usd": 97.7
     },
     {
       "id": "NVDA_20260529143103",
@@ -605,17 +605,17 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "price_trough": 1.3466999530792236,
-      "trailing_stop_price": 1.359871,
-      "current_price": 1.3469,
-      "unrealized_pnl_pct": 0.007735,
-      "unrealized_pnl_usd": 33.89
+      "price_trough": 1.3389999866485596,
+      "trailing_stop_price": 1.352095,
+      "current_price": 1.339,
+      "unrealized_pnl_pct": 0.013555,
+      "unrealized_pnl_usd": 59.39
     }
   ],
   "last_candidates": [
     {
       "asset": "INTC",
-      "rank_score": 0.7892,
+      "rank_score": 0.7862,
       "price": 114.63999938964844,
       "rsi": 29.702189646204815,
       "momentum_5d": -0.036558484817203085,
@@ -625,12 +625,33 @@
       "bollinger_pct_b": -0.2317,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.448,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.26,
+      "news_headlines": [
+        "Nvidia, AMD, & other chip names in focus at Computex 2026",
+        "GOP lawmakers' portfolios are migrating to Trump favorites like Intel and bitcoin",
+        "Republican lawmakers are trading like Trump, piling into Big Tech stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.7832,
+      "price": 671.1599731445312,
+      "rsi": 91.72994809863835,
+      "momentum_5d": 0.021319254675460905,
+      "momentum_1d": 0.0545534073438784,
+      "macd_crossover": false,
+      "atr_pct": 0.006562209743693308,
+      "bollinger_pct_b": 1.0349,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.7,
+      "news_sentiment": -0.172,
       "news_confidence": 0.29,
       "news_headlines": [
-        "Dell, Cisco: How 'throwback' tech stocks fit into the AI trade",
-        "Wall Street Has a Consensus on This AI Stock. The Consensus Is Dead Wrong.",
-        "Why Dell Stock Skyrocketed to a New All-Time High Today"
+        "VanEck Launches First BNB Exchange-Traded Fund",
+        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000",
+        "Pump.fun Expands App Trading Across Ethereum, Base and BNB Chain"
       ],
       "high_impact_news": true
     },
@@ -670,15 +691,15 @@
       "news_sentiment": 0.5,
       "news_confidence": 0.56,
       "news_headlines": [
+        "'Volatility equals opportunity' in options trades as tech soars",
         "Family Offices Bypass Private Equity and Go Direct",
-        "What to Know About This Fund's $4.8 Million e.l.f. Beauty Exit After a Tough Year",
-        "Jobs Report, Broadcom Earnings: What to Watch in the Next Week"
+        "What to Know About This Fund's $4.8 Million e.l.f. Beauty Exit After a Tough Year"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.7443,
+      "rank_score": 0.7424,
       "price": 448.6400146484375,
       "rsi": 93.0305682470708,
       "momentum_5d": 0.01127039905082108,
@@ -688,18 +709,18 @@
       "bollinger_pct_b": 0.9075,
       "volume_spike": true,
       "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.469,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.467,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "'Volatility equals opportunity' in options trades as tech soars",
         "AI spending fervor is comparable to industrial push during World War 2",
-        "Amazon vs. Microsoft: What Their Revenue Trends Tell Investors",
-        "YMAG Bundles YieldMax\u2019s Magnificent Seven Strategy Into One Ticker, And the NAV Decay Compounds Across All Seven"
+        "Dell Technologies (DELL) Wins $10B Govt Contract, Hits All-Time High"
       ],
       "high_impact_news": true
     },
     {
       "asset": "IONQ",
-      "rank_score": 0.6961,
+      "rank_score": 0.6957,
       "price": 72.05999755859375,
       "rsi": 73.03449593089975,
       "momentum_5d": 0.06017355104364548,
@@ -709,12 +730,33 @@
       "bollinger_pct_b": 0.9542,
       "volume_spike": false,
       "volume_spike_ratio": 1.02,
-      "news_sentiment": 0.431,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.463,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "IonQ vs. Quantum Computing Inc.: What Their Revenue Trends Tell Investors",
         "Quantum Computing Stocks: Quantinuum IPO Valuation Versus IonQ, D-Wave",
-        "Stock Market Today, May 28: Rigetti Computing Extends Gains on Quantum Optimism",
-        "2 Russell 2000 Stocks to Target This Week and 1 We Find Risky"
+        "Stock Market Today, May 28: Rigetti Computing Extends Gains on Quantum Optimism"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "REGN",
+      "rank_score": 0.6843,
+      "price": 614.030029296875,
+      "rsi": 16.515255347407106,
+      "momentum_5d": -0.006681027609483594,
+      "momentum_1d": -0.036135246742324524,
+      "macd_crossover": false,
+      "atr_pct": 0.006931645785749872,
+      "bollinger_pct_b": 0.1408,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.11,
+      "news_sentiment": 0.633,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Regeneron (REGN) Down 12.1% Since Last Earnings Report: Can It Rebound?",
+        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest",
+        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth"
       ],
       "high_impact_news": true
     },
@@ -736,27 +778,6 @@
         "As Nvidia, Oracle And Amazon Pour Billions Into AI, Wall Street Is Quietly Hedging For Trouble",
         "Assessing Oracle (ORCL) Valuation After Strong Multi\u2011Month Share Price Momentum",
         "Financial Services Roundup: Market Talk"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "REGN",
-      "rank_score": 0.6773,
-      "price": 614.030029296875,
-      "rsi": 16.515255347407106,
-      "momentum_5d": -0.006681027609483594,
-      "momentum_1d": -0.036135246742324524,
-      "macd_crossover": false,
-      "atr_pct": 0.006931645785749872,
-      "bollinger_pct_b": 0.1408,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.545,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest",
-        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth",
-        "Why Apogee Slipped On Its Dupixent-Rivaling Eczema Results"
       ],
       "high_impact_news": true
     },
@@ -783,7 +804,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.6524,
+      "rank_score": 0.6584,
       "price": 94.3499984741211,
       "rsi": 97.6352894057293,
       "momentum_5d": 0.02318012105595369,
@@ -793,12 +814,12 @@
       "bollinger_pct_b": 0.8805,
       "volume_spike": false,
       "volume_spike_ratio": 1.18,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.35,
+      "news_sentiment": 0.538,
+      "news_confidence": 0.39,
       "news_headlines": [
         "Robinhood stock is surging \u2014 and bitcoin isn't the reason this time",
-        "COIN, HOOD Stocks Jump After US Regulator Greenlights Crypto Perpetual Futures",
-        "Stock Market Today, May 29: Robinhood Surges Despite Bitcoin's Struggles"
+        "Robinhood Markets Bets on Agentic AI Trading as Assets Climb to $350 Billion",
+        "COIN, HOOD Stocks Jump After US Regulator Greenlights Crypto Perpetual Futures"
       ],
       "high_impact_news": true
     },
@@ -820,27 +841,6 @@
         "Exchange-Traded Funds Mixed, US Equities Advance After Midday",
         "How Is Salesforce's Stock Performance Compared to Other Technology Stocks?",
         "Cisco Systems Stock: Is CSCO Outperforming the Technology Sector?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.6385,
-      "price": 956.0700073242188,
-      "rsi": 22.420366437848784,
-      "momentum_5d": 0.006919438993384677,
-      "momentum_1d": -0.042273143920366144,
-      "macd_crossover": false,
-      "atr_pct": 0.01123695148727051,
-      "bollinger_pct_b": 0.2018,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.106,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Costco sells 'record-breaking' amounts of gas as fuel costs soar",
-        "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%",
-        "News of the day: Canada's shrinking economy, a technical recession, Scotiabank expands south, Costco tariff refunds, early retirement and more"
       ],
       "high_impact_news": true
     },
@@ -883,6 +883,27 @@
         "Verge, following trial failure, rebrands its AI drug discovery ambitions",
         "Recursion Pharmaceuticals Just Hit a 52-Week Low. Is This Former Nvidia Holding a Smart Buy Now?",
         "Recursion Pharmaceuticals (RXRX) Hits 52-Week Low; Is It In Oversold Territory?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.6335,
+      "price": 956.0700073242188,
+      "rsi": 22.420366437848784,
+      "momentum_5d": 0.006919438993384677,
+      "momentum_1d": -0.042273143920366144,
+      "macd_crossover": false,
+      "atr_pct": 0.01123695148727051,
+      "bollinger_pct_b": 0.2018,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.24,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Costco sells 'record-breaking' amounts of gas as fuel costs soar",
+        "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%",
+        "News of the day: Canada's shrinking economy, a technical recession, Scotiabank expands south, Costco tariff refunds, early retirement and more"
       ],
       "high_impact_news": true
     },
@@ -930,7 +951,7 @@
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.6029,
+      "rank_score": 0.6069,
       "price": 156.58999633789062,
       "rsi": 94.06812095517512,
       "momentum_5d": -0.0031194645241415355,
@@ -940,8 +961,8 @@
       "bollinger_pct_b": 0.8283,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.672,
-      "news_confidence": 0.61,
+      "news_sentiment": 0.692,
+      "news_confidence": 0.65,
       "news_headlines": [
         "Palantir Vatican AI Clash Puts Defense Focus And Investor Risks In Focus",
         "Highlights: Measuring Risk \u2013 AI & Cybersecurity in the Boardroom: 2nd Princeton CorpGov Forum",
@@ -993,7 +1014,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.5841,
+      "rank_score": 0.5821,
       "price": 380.3900146484375,
       "rsi": 20.210803180283264,
       "momentum_5d": -0.007462453624429224,
@@ -1003,33 +1024,12 @@
       "bollinger_pct_b": 0.0312,
       "volume_spike": true,
       "volume_spike_ratio": 1.98,
-      "news_sentiment": -0.209,
-      "news_confidence": 0.43,
+      "news_sentiment": -0.2,
+      "news_confidence": 0.35,
       "news_headlines": [
         "The difference between on-prem AI vs. data centers",
-        "Meta, TikTok, Snap, and YouTube settle school lawsuit for $27M",
-        "Founders seize on Indian court ruling to revive criticism of Google\u2019s ad business"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "WMT",
-      "rank_score": 0.5801,
-      "price": 115.70999908447266,
-      "rsi": 32.182788140558756,
-      "momentum_5d": 0.006918140909468436,
-      "momentum_1d": -0.020154097105804698,
-      "macd_crossover": true,
-      "atr_pct": 0.008163820509791104,
-      "bollinger_pct_b": 0.1939,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.59,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "ICE enforcement surge led to 668,000 job losses, Brookings says",
-        "Nvidia Continues to Be the Core Engine of AI, Says Analyst. Plus, Walmart and 4 More Stocks.",
-        "Bonds May Finally Be Ready to Give Stocks a Run for Their Money"
+        "Here Are the 3 Cheapest Magnificent Seven Stocks According to a Popular Metric. Are They Buys?",
+        "Strait of Hormuz carries more than oil, handling 20% of global data flows"
       ],
       "high_impact_news": true
     }
