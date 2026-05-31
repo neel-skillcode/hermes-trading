@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99291.53,
+  "portfolio_balance": 99396.76,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 1.19,
-  "unrealized_pnl_usd": 239.57,
-  "equity_value": 99531.1,
+  "portfolio_drawdown_pct": 1.09,
+  "unrealized_pnl_usd": 135.8,
+  "equity_value": 99532.56,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39716.61,
+  "day_capital_used_usd": 39758.7,
   "swing_capital_used_usd": 35629.48,
-  "total_trades": 64,
-  "last_tick": "2026-05-31T18:47:58.597176+00:00",
+  "total_trades": 65,
+  "last_tick": "2026-05-31T19:57:25.210696+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -340,9 +340,9 @@
       "status": "open",
       "price_peak": 2027.510009765625,
       "trailing_stop_price": 1994.015544,
-      "current_price": 1997.319946,
-      "unrealized_pnl_pct": 0.006663,
-      "unrealized_pnl_usd": 44.99
+      "current_price": 1996.609985,
+      "unrealized_pnl_pct": 0.006305,
+      "unrealized_pnl_usd": 42.57
     },
     {
       "id": "NVDA_20260529143103",
@@ -569,53 +569,51 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "price_peak": 0.7807499766349792,
-      "trailing_stop_price": 0.779188,
+      "price_peak": 0.7810999751091003,
+      "trailing_stop_price": 0.779538,
       "current_price": 0.78075,
       "unrealized_pnl_pct": 0.000333,
       "unrealized_pnl_usd": 1.31
     },
     {
-      "id": "XRP-USD_20260530012507",
-      "asset": "XRP-USD",
+      "id": "AVAX-USD_20260531195725",
+      "asset": "AVAX-USD",
       "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.3573999404907227,
-      "entry_time": "2026-05-30T01:25:07.420105+00:00",
-      "stop_loss_pct": 0.00978,
-      "take_profit_pct": 0.02383,
-      "size_usd": 4381.49,
-      "position_size_pct": 0.0441,
-      "confidence": 0.87,
+      "direction": "long",
+      "entry_price": 8.829999923706055,
+      "entry_time": "2026-05-31T19:57:25.204844+00:00",
+      "stop_loss_pct": 0.00628,
+      "take_profit_pct": 0.01567,
+      "size_usd": 4423.58,
+      "position_size_pct": 0.0445,
+      "confidence": 0.99,
       "signals": [
-        "RSI overbought (69.2)",
-        "5d momentum +2.92%",
-        "1d momentum +3.36%",
-        "BB overbought (pct_b=1.25)",
-        "Volume spike 5.9\u00d7",
+        "RSI oversold (25.0)",
+        "5d momentum -0.34%",
+        "1d momentum -1.67%",
+        "BB oversold (pct_b=0.07)",
+        "Volume spike 2.5\u00d7",
         "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade"
+        "Claude [supports]: analyst upgrade"
       ],
-      "news_sentiment": 0.312,
+      "news_sentiment": 0.235,
       "news_headlines": [
-        "What $1,000 in Bitcoin, Ethereum, And XRP Five Years Ago Is Worth Today",
-        "Morgan Stanley discloses Bitcoin, XRP, SOL holdings",
-        "How High Could Solana (SOL) Realistically Go This Cycle?"
+        "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
+        "Best Crypto To Buy With $100 Right Now",
+        "Most Undervalued Major Cryptos Heading Into Mid-2026"
       ],
       "mode": "paper",
-      "strategy_version": "07",
+      "strategy_version": "08",
       "status": "open",
-      "price_trough": 1.3259999752044678,
-      "trailing_stop_price": 1.338968,
-      "current_price": 1.326,
-      "unrealized_pnl_pct": 0.023132,
-      "unrealized_pnl_usd": 101.35
+      "current_price": 8.83,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "INTC",
-      "rank_score": 0.7931,
+      "rank_score": 0.8002,
       "price": 114.63999938964844,
       "rsi": 29.702189646204815,
       "momentum_5d": -0.036558484817203085,
@@ -625,12 +623,12 @@
       "bollinger_pct_b": -0.2317,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.459,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "Is Iren the Next Winner of Nvidia's Neocloud Spending Spree?",
-        "3 Vanguard ETFs Long-Term Investors Should Consider Adding in June",
-        "Nio Just Launched a Budget EV to Take On Tesla and BYD. Is Nio Stock Finally Worth Buying?"
+        "Why Zscaler Stock Plummeted This Week",
+        "Why Poet Technologies Stock Plummeted This Week",
+        "The S&P 500's Dividend Yield Hasn't Been This Low Since the 1800s. That Makes This Top Dividend ETF Even More Enticing."
       ],
       "high_impact_news": true
     },
@@ -762,7 +760,7 @@
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.6757,
+      "rank_score": 0.6707,
       "price": 225.74000549316406,
       "rsi": 94.92529405198206,
       "momentum_5d": 0.026790990339455124,
@@ -772,12 +770,12 @@
       "bollinger_pct_b": 0.8796,
       "volume_spike": false,
       "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.661,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.605,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "AI Hyperscalers Are Taking on Debt, But the Broader Market Looks More Leveraged",
         "MongoDB's AI Advantage Is Starting to Show Up in Results",
-        "As Nvidia, Oracle And Amazon Pour Billions Into AI, Wall Street Is Quietly Hedging For Trouble",
-        "Assessing Oracle (ORCL) Valuation After Strong Multi\u2011Month Share Price Momentum"
+        "As Nvidia, Oracle And Amazon Pour Billions Into AI, Wall Street Is Quietly Hedging For Trouble"
       ],
       "high_impact_news": true
     },
@@ -804,7 +802,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.6584,
+      "rank_score": 0.6634,
       "price": 94.3499984741211,
       "rsi": 97.6352894057293,
       "momentum_5d": 0.02318012105595369,
@@ -814,12 +812,12 @@
       "bollinger_pct_b": 0.8805,
       "volume_spike": false,
       "volume_spike_ratio": 1.18,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.722,
+      "news_confidence": 0.36,
       "news_headlines": [
+        "Why a Fintech-Focused Fund Just Added $44 Million of MercadoLibre Stock",
         "Cathie Wood dumps $12 million in surging tech stock",
-        "The Impending Gold Rush for The US Perp Market",
-        "Cathie Wood\u2019s ARK Takes More Profits In Robinhood, Buys KTOS And FUTU Instead"
+        "The Impending Gold Rush for The US Perp Market"
       ],
       "high_impact_news": true
     },
@@ -909,7 +907,7 @@
     },
     {
       "asset": "XOM",
-      "rank_score": 0.6107,
+      "rank_score": 0.6087,
       "price": 145.3699951171875,
       "rsi": 22.431927525847073,
       "momentum_5d": -0.0005500297884719505,
@@ -919,18 +917,39 @@
       "bollinger_pct_b": 0.113,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.231,
-      "news_confidence": 0.65,
+      "news_sentiment": 0.206,
+      "news_confidence": 0.63,
       "news_headlines": [
+        "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
         "The 2 Signals That Will Determine XLE\u2019s Performance Through Year-End",
-        "This is why Exxon Mobil Corporation (XOM) is the Best Oil Stock to Buy amid the US-Iran War",
-        "Exxon and Chevron Are Warning That Oil Prices Could Skyrocket in the Coming Weeks. Here's What That Could Mean for Investors."
+        "This is why Exxon Mobil Corporation (XOM) is the Best Oil Stock to Buy amid the US-Iran War"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6041,
+      "price": 1996.6099853515625,
+      "rsi": 21.879733141002518,
+      "momentum_5d": -0.004278874473442816,
+      "momentum_1d": -0.014423703537305281,
+      "macd_crossover": false,
+      "atr_pct": 0.0038776358535943705,
+      "bollinger_pct_b": 0.0379,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.35,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Is AI unique or just the latest tech to 'terraform' financial systems?",
+        "What are the Best Cryptocurrencies to Buy in June?",
+        "Solana ETFs See Zero Outflows in May: Is a SOL Price Surge Coming?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.6061,
+      "rank_score": 0.6011,
       "price": 380.3900146484375,
       "rsi": 20.210803180283264,
       "momentum_5d": -0.007462453624429224,
@@ -940,12 +959,12 @@
       "bollinger_pct_b": 0.0312,
       "volume_spike": true,
       "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
       "news_headlines": [
         "Big Tech companies are screwing the average investor \u2014 here's how",
         "IPOs are no longer Wall Street's starting line \u2014 they're the exit ramp: Chart of the Day",
-        "Quantum Computing Just Hit Commercial Viability and These 3 ETFs Sit on Top of the Compute Transition"
+        "A $3 Million Insurance Bet: What This Fund Might Be Seeing in Ryan Specialty Stock"
       ],
       "high_impact_news": true
     },
@@ -992,44 +1011,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5841,
-      "price": 1997.3199462890625,
-      "rsi": 20.72772073220466,
-      "momentum_5d": -0.009992681154141331,
-      "momentum_1d": -0.01347428115471547,
-      "macd_crossover": false,
-      "atr_pct": 0.0037003058864934933,
-      "bollinger_pct_b": -0.0159,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.73,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "Is AI unique or just the latest tech to 'terraform' financial systems?",
-        "The Real Reason XRP Keeps Bouncing Back -- and What Comes Next",
-        "Bitcoin And Ethereum Bled This Week - But These 4 Altcoins Jumped, One Up 157%"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PLTR",
+      "asset": "AVAX-USD",
       "rank_score": 0.5789,
-      "price": 156.58999633789062,
-      "rsi": 94.06812095517512,
-      "momentum_5d": -0.0031194645241415355,
-      "momentum_1d": 0.13999705621790653,
+      "price": 8.829999923706055,
+      "rsi": 25.000178812825894,
+      "momentum_5d": -0.003385974507186625,
+      "momentum_1d": -0.01670374456310032,
       "macd_crossover": false,
-      "atr_pct": 0.01943870072674173,
-      "bollinger_pct_b": 0.8283,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.362,
-      "news_confidence": 0.47,
+      "atr_pct": 0.0060669717910201305,
+      "bollinger_pct_b": 0.069,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.46,
+      "news_sentiment": 0.235,
+      "news_confidence": 0.34,
       "news_headlines": [
-        "Dell blockbuster orders trigger Palantir stock surge",
-        "Why is Palantir Technologies Inc. (PLTR) One of the Stocks to Buy for The Long Term?",
-        "Palantir Technologies Inc. (PLTR): Renaissance Technologies Continues Trimming Stake"
+        "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
+        "Best Crypto To Buy With $100 Right Now",
+        "Most Undervalued Major Cryptos Heading Into Mid-2026"
       ],
       "high_impact_news": true
     }
