@@ -144,31 +144,6 @@
     "price_trough": 1.1603620052337646,
     "trailing_stop_price": 1.169645
   },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260524234359",
-    "asset": "AUD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 113.79399871826172,
-    "entry_time": "2026-05-24T23:43:59.162247+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 6432.0,
-    "position_size_pct": 0.0643,
-    "confidence": 0.67,
-    "signals": [
-      "RSI overbought (63.4)",
-      "MACD crossover",
-      "BB overbought (pct_b=1.21)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 113.55999755859375,
-    "trailing_stop_price": 114.468478
-  },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
     "asset": "USD/JPY",
@@ -196,8 +171,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 159.38499450683594,
-    "trailing_stop_price": 158.109915
+    "price_peak": 159.41299438476562,
+    "trailing_stop_price": 158.13769
   },
   "PLTR": {
     "id": "PLTR_20260529143103",
@@ -500,8 +475,8 @@
     "mode": "paper",
     "strategy_version": "07",
     "status": "open",
-    "price_peak": 0.781499981880188,
-    "trailing_stop_price": 0.779937
+    "price_peak": 0.7824100255966187,
+    "trailing_stop_price": 0.780845
   },
   "BNB-USD": {
     "id": "BNB-USD_20260531231657",
@@ -529,7 +504,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_trough": 708.8400268554688,
+    "trailing_stop_price": 714.057089
   },
   "AUD/NZD": {
     "id": "AUD/NZD_20260531231657",
@@ -548,6 +525,33 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "08",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260601001740",
+    "asset": "AUD/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 114.49099731445312,
+    "entry_time": "2026-06-01T00:17:40.422350+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02616,
+    "size_usd": 5154.59,
+    "position_size_pct": 0.0518,
+    "confidence": 0.54,
+    "signals": [
+      "RSI overbought (75.8)",
+      "MACD crossover",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+    ],
+    "news_sentiment": -0.778,
+    "news_headlines": [
+      "Further Strength for the Australian Dollar After Higher Inflation",
+      "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
+    ],
     "mode": "paper",
     "strategy_version": "08",
     "status": "open"
