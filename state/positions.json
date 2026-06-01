@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0583200454711914,
-    "trailing_stop_price": 1.049853
+    "price_peak": 1.0585999488830566,
+    "trailing_stop_price": 1.050131
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -174,38 +174,6 @@
     "price_peak": 159.67999267578125,
     "trailing_stop_price": 158.402553
   },
-  "SOFI": {
-    "id": "SOFI_20260529175235",
-    "asset": "SOFI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 18.438600540161133,
-    "entry_time": "2026-05-29T17:52:35.392174+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5051.73,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (88.6)",
-      "5d momentum +8.62%",
-      "1d momentum +14.20%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.702,
-    "news_headlines": [
-      "SoFi Technologies (SOFI) Up 5.4% Since Last Earnings Report: Can It Continue?",
-      "Down 30% From Its Highs, SoFi Is Speeding Toward Aggressive Long-Term Profits",
-      "Open Transaction Layer Launches With Fireblocks, Robinhood and MetaMask Backing"
-    ],
-    "mode": "paper",
-    "strategy_version": "07",
-    "status": "open",
-    "price_trough": 18.219999313354492,
-    "trailing_stop_price": 18.493299
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
     "asset": "AUD/JPY",
@@ -292,7 +260,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_trough": 14.859999656677246,
+    "trailing_stop_price": 15.050653
   },
   "ORCL": {
     "id": "ORCL_20260601162829",
@@ -354,7 +324,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_trough": 258.6600036621094,
+    "trailing_stop_price": 261.435426
   },
   "CRM": {
     "id": "CRM_20260601162829",
@@ -384,7 +356,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_trough": 209.60000610351562,
+    "trailing_stop_price": 212.744006
   },
   "AVGO": {
     "id": "AVGO_20260601162829",
@@ -415,7 +389,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_trough": 459.9700012207031,
+    "trailing_stop_price": 465.784022
   },
   "ARM": {
     "id": "ARM_20260601162829",
@@ -445,7 +421,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_trough": 408.8500061035156,
+    "trailing_stop_price": 414.982756
   },
   "BTC-USD": {
     "id": "BTC-USD_20260601162829",
@@ -476,7 +454,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_peak": 71512.46875,
+    "trailing_stop_price": 71050.498202
   },
   "META": {
     "id": "META_20260601162829",
@@ -505,6 +485,63 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260601204447",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.10063999891281128,
+    "entry_time": "2026-06-01T20:44:47.746645+00:00",
+    "stop_loss_pct": 0.00707,
+    "take_profit_pct": 0.01595,
+    "size_usd": 3201.95,
+    "position_size_pct": 0.0327,
+    "confidence": 0.511,
+    "signals": [
+      "5d momentum +2.52%",
+      "1d momentum +0.90%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000",
+      "Kalshi Eyes Perpetual Futures for XRP, Solana, Dogecoin\u2014And These Altcoins",
+      "House of Doge and Paxos Partner to Expand Regulated Access to Dogecoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "09",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260601204447",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 8.949999809265137,
+    "entry_time": "2026-06-01T20:44:47.749152+00:00",
+    "stop_loss_pct": 0.00881,
+    "take_profit_pct": 0.02073,
+    "size_usd": 1834.29,
+    "position_size_pct": 0.0187,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (61.1)",
+      "5d momentum +2.64%",
+      "1d momentum +0.79%",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
+      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
+      "Best Crypto To Buy With $100 Right Now"
+    ],
+    "mode": "paper",
+    "strategy_version": "09",
     "status": "open"
   }
 }
