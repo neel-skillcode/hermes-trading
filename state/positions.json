@@ -171,8 +171,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 159.44400024414062,
-    "trailing_stop_price": 158.168448
+    "price_peak": 159.46400451660156,
+    "trailing_stop_price": 158.188292
   },
   "PLTR": {
     "id": "PLTR_20260529143103",
@@ -236,37 +236,6 @@
     "mode": "paper",
     "strategy_version": "06",
     "status": "open"
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260529143103",
-    "asset": "ETH-USD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 1984.0999755859375,
-    "entry_time": "2026-05-29T14:31:03.472836+00:00",
-    "stop_loss_pct": 0.01652,
-    "take_profit_pct": 0.05539,
-    "size_usd": 6751.53,
-    "position_size_pct": 0.0676,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (34.3)",
-      "5d momentum -1.38%",
-      "BB oversold (pct_b=-0.20)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.152,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Friday, May 29, 2026: Prices open lower, despite news of U.S.-Iran truce",
-      "Ethereum\u2019s Price Breaks Down Below $2,000",
-      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated"
-    ],
-    "mode": "paper",
-    "strategy_version": "06",
-    "status": "open",
-    "price_peak": 2027.510009765625,
-    "trailing_stop_price": 1994.015544
   },
   "NVDA": {
     "id": "NVDA_20260529143103",
@@ -425,31 +394,6 @@
     "price_trough": 191.10000610351562,
     "trailing_stop_price": 193.966506
   },
-  "USD/CHF": {
-    "id": "USD/CHF_20260529200250",
-    "asset": "USD/CHF",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.780489981174469,
-    "entry_time": "2026-05-29T20:02:50.399137+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 3940.62,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (34.4)",
-      "1d momentum -0.40%",
-      "BB oversold (pct_b=0.11)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "07",
-    "status": "open",
-    "price_peak": 0.7828400135040283,
-    "trailing_stop_price": 0.781274
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
     "asset": "AUD/JPY",
@@ -475,7 +419,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_trough": 114.41200256347656,
+    "trailing_stop_price": 115.327299
   },
   "BNB-USD": {
     "id": "BNB-USD_20260601052059",
@@ -505,33 +451,65 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
+    "status": "open",
+    "price_peak": 696.969970703125,
+    "trailing_stop_price": 689.031483
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260601052059",
-    "asset": "XRP-USD",
+  "BTC-USD": {
+    "id": "BTC-USD_20260601103551",
+    "asset": "BTC-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 1.3193000555038452,
-    "entry_time": "2026-06-01T05:20:59.829110+00:00",
-    "stop_loss_pct": 0.00706,
-    "take_profit_pct": 0.01762,
-    "size_usd": 1962.8,
-    "position_size_pct": 0.0197,
+    "entry_price": 72568.0703125,
+    "entry_time": "2026-06-01T10:35:51.336715+00:00",
+    "stop_loss_pct": 0.00578,
+    "take_profit_pct": 0.01443,
+    "size_usd": 5894.8,
+    "position_size_pct": 0.0593,
     "confidence": 0.99,
     "signals": [
-      "RSI oversold (42.9)",
-      "5d momentum -1.24%",
-      "1d momentum -1.64%",
-      "BB oversold (pct_b=0.08)",
+      "RSI oversold (32.7)",
+      "5d momentum -0.93%",
+      "1d momentum -1.66%",
+      "BB oversold (pct_b=-0.02)",
+      "Volume spike 1.9\u00d7",
+      "News +0.24 (conf 0.63) \u2192 long",
       "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [supports]: price surge"
     ],
-    "news_sentiment": 0.81,
+    "news_sentiment": 0.238,
     "news_headlines": [
-      "Bitcoin, Ethereum, XRP, Dogecoin Flat As Trump In 'No Hurry' To Sign Iran Deal: Analyst Says BTC Needs Weekly Close Above This Level For Bullish Move",
-      "Trump Says He 'Saved' Crypto, But Did Bitcoin, Ethereum, XRP Actually Benefit?",
-      "Is Solana or XRP the Real Ethereum Killer?"
+      "Cango Inc (CANG) Q1 2026 Earnings Call Highlights: Navigating Challenges with Strategic ...",
+      "Bitcoin Falls as U.S.-Iran Conflict Dents Risk Appetite",
+      "Bitcoin Bulls Are Defending One Key Level, Losing It Means a 10% Fall"
+    ],
+    "mode": "paper",
+    "strategy_version": "08",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260601103551",
+    "asset": "NZD/USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 0.5956635475158691,
+    "entry_time": "2026-06-01T10:35:51.340289+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02593,
+    "size_usd": 4611.77,
+    "position_size_pct": 0.0464,
+    "confidence": 0.483,
+    "signals": [
+      "RSI oversold (18.1)",
+      "BB oversold (pct_b=0.03)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
+    ],
+    "news_sentiment": 0.264,
+    "news_headlines": [
+      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
     ],
     "mode": "paper",
     "strategy_version": "08",

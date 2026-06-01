@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99481.66,
+  "portfolio_balance": 99460.1,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 1.01,
-  "unrealized_pnl_usd": 190.25,
-  "equity_value": 99671.91,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 1.03,
+  "unrealized_pnl_usd": 150.39,
+  "equity_value": 99610.49,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39792.66,
-  "swing_capital_used_usd": 34352.07,
-  "total_trades": 70,
-  "last_tick": "2026-06-01T05:20:59.834351+00:00",
+  "day_capital_used_usd": 39784.04,
+  "swing_capital_used_usd": 32212.31,
+  "total_trades": 73,
+  "last_tick": "2026-06-01T10:35:51.344999+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9155899882316589,
       "trailing_stop_price": 0.908265,
-      "current_price": 0.91207,
-      "unrealized_pnl_pct": 0.001768,
-      "unrealized_pnl_usd": 2.38
+      "current_price": 0.91335,
+      "unrealized_pnl_pct": 0.003174,
+      "unrealized_pnl_usd": 4.27
     },
     {
       "id": "USD/CAD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_trough": 1.3778300285339355,
       "trailing_stop_price": 1.388853,
-      "current_price": 1.3803,
-      "unrealized_pnl_pct": 0.00123,
-      "unrealized_pnl_usd": 1.65
+      "current_price": 1.38209,
+      "unrealized_pnl_pct": -6.5e-05,
+      "unrealized_pnl_usd": -0.09
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 1.0570000410079956,
       "trailing_stop_price": 1.048544,
-      "current_price": 1.0539,
-      "unrealized_pnl_pct": -6.6e-05,
-      "unrealized_pnl_usd": -0.09
+      "current_price": 1.05522,
+      "unrealized_pnl_pct": 0.001186,
+      "unrealized_pnl_usd": 1.59
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -148,9 +148,9 @@
       "status": "open",
       "price_peak": 115.58599853515625,
       "trailing_stop_price": 114.661311,
-      "current_price": 115.471001,
-      "unrealized_pnl_pct": 0.002692,
-      "unrealized_pnl_usd": 3.62
+      "current_price": 115.374001,
+      "unrealized_pnl_pct": 0.00185,
+      "unrealized_pnl_usd": 2.49
     },
     {
       "id": "EUR/USD_20260524234359",
@@ -176,9 +176,9 @@
       "status": "open",
       "price_trough": 1.1603620052337646,
       "trailing_stop_price": 1.169645,
-      "current_price": 1.165501,
-      "unrealized_pnl_pct": -0.000583,
-      "unrealized_pnl_usd": -3.75
+      "current_price": 1.16523,
+      "unrealized_pnl_pct": -0.00035,
+      "unrealized_pnl_usd": -2.25
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -207,11 +207,11 @@
       "mode": "paper",
       "strategy_version": "05",
       "status": "open",
-      "price_peak": 159.44400024414062,
-      "trailing_stop_price": 158.168448,
-      "current_price": 159.442993,
-      "unrealized_pnl_pct": 0.001721,
-      "unrealized_pnl_usd": 6.69
+      "price_peak": 159.46400451660156,
+      "trailing_stop_price": 158.188292,
+      "current_price": 159.457993,
+      "unrealized_pnl_pct": 0.001816,
+      "unrealized_pnl_usd": 7.05
     },
     {
       "id": "PLTR_20260529143103",
@@ -281,40 +281,6 @@
       "current_price": 956.070007,
       "unrealized_pnl_pct": -0.00082,
       "unrealized_pnl_usd": -5.19
-    },
-    {
-      "id": "ETH-USD_20260529143103",
-      "asset": "ETH-USD",
-      "trade_type": "swing",
-      "direction": "long",
-      "entry_price": 1984.0999755859375,
-      "entry_time": "2026-05-29T14:31:03.472836+00:00",
-      "stop_loss_pct": 0.01652,
-      "take_profit_pct": 0.05539,
-      "size_usd": 6751.53,
-      "position_size_pct": 0.0676,
-      "confidence": 0.704,
-      "signals": [
-        "RSI oversold (34.3)",
-        "5d momentum -1.38%",
-        "BB oversold (pct_b=-0.20)",
-        "High-impact catalyst",
-        "Claude [supports]: analyst upgrade"
-      ],
-      "news_sentiment": 0.152,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, May 29, 2026: Prices open lower, despite news of U.S.-Iran truce",
-        "Ethereum\u2019s Price Breaks Down Below $2,000",
-        "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated"
-      ],
-      "mode": "paper",
-      "strategy_version": "06",
-      "status": "open",
-      "price_peak": 2027.510009765625,
-      "trailing_stop_price": 1994.015544,
-      "current_price": 1996.609985,
-      "unrealized_pnl_pct": 0.006305,
-      "unrealized_pnl_usd": 42.57
     },
     {
       "id": "NVDA_20260529143103",
@@ -489,34 +455,6 @@
       "unrealized_pnl_usd": 28.4
     },
     {
-      "id": "USD/CHF_20260529200250",
-      "asset": "USD/CHF",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.780489981174469,
-      "entry_time": "2026-05-29T20:02:50.399137+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00462,
-      "size_usd": 3940.62,
-      "position_size_pct": 0.0397,
-      "confidence": 0.62,
-      "signals": [
-        "RSI oversold (34.4)",
-        "1d momentum -0.40%",
-        "BB oversold (pct_b=0.11)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "07",
-      "status": "open",
-      "price_peak": 0.7828400135040283,
-      "trailing_stop_price": 0.781274,
-      "current_price": 0.78277,
-      "unrealized_pnl_pct": 0.002921,
-      "unrealized_pnl_usd": 11.51
-    },
-    {
       "id": "AUD/JPY_20260601001740",
       "asset": "AUD/JPY",
       "trade_type": "swing",
@@ -542,9 +480,11 @@
       "mode": "paper",
       "strategy_version": "08",
       "status": "open",
-      "current_price": 114.599998,
-      "unrealized_pnl_pct": -0.000952,
-      "unrealized_pnl_usd": -4.91
+      "price_trough": 114.41200256347656,
+      "trailing_stop_price": 115.327299,
+      "current_price": 114.412003,
+      "unrealized_pnl_pct": 0.00069,
+      "unrealized_pnl_usd": 3.56
     },
     {
       "id": "BNB-USD_20260601052059",
@@ -575,40 +515,75 @@
       "mode": "paper",
       "strategy_version": "08",
       "status": "open",
-      "current_price": 696.570007,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 696.969970703125,
+      "trailing_stop_price": 689.031483,
+      "current_price": 696.969971,
+      "unrealized_pnl_pct": 0.000574,
+      "unrealized_pnl_usd": 3.2
     },
     {
-      "id": "XRP-USD_20260601052059",
-      "asset": "XRP-USD",
+      "id": "BTC-USD_20260601103551",
+      "asset": "BTC-USD",
       "trade_type": "day",
       "direction": "long",
-      "entry_price": 1.3193000555038452,
-      "entry_time": "2026-06-01T05:20:59.829110+00:00",
-      "stop_loss_pct": 0.00706,
-      "take_profit_pct": 0.01762,
-      "size_usd": 1962.8,
-      "position_size_pct": 0.0197,
+      "entry_price": 72568.0703125,
+      "entry_time": "2026-06-01T10:35:51.336715+00:00",
+      "stop_loss_pct": 0.00578,
+      "take_profit_pct": 0.01443,
+      "size_usd": 5894.8,
+      "position_size_pct": 0.0593,
       "confidence": 0.99,
       "signals": [
-        "RSI oversold (42.9)",
-        "5d momentum -1.24%",
-        "1d momentum -1.64%",
-        "BB oversold (pct_b=0.08)",
+        "RSI oversold (32.7)",
+        "5d momentum -0.93%",
+        "1d momentum -1.66%",
+        "BB oversold (pct_b=-0.02)",
+        "Volume spike 1.9\u00d7",
+        "News +0.24 (conf 0.63) \u2192 long",
         "High-impact catalyst",
-        "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+        "Claude [supports]: price surge"
       ],
-      "news_sentiment": 0.81,
+      "news_sentiment": 0.238,
       "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Flat As Trump In 'No Hurry' To Sign Iran Deal: Analyst Says BTC Needs Weekly Close Above This Level For Bullish Move",
-        "Trump Says He 'Saved' Crypto, But Did Bitcoin, Ethereum, XRP Actually Benefit?",
-        "Is Solana or XRP the Real Ethereum Killer?"
+        "Cango Inc (CANG) Q1 2026 Earnings Call Highlights: Navigating Challenges with Strategic ...",
+        "Bitcoin Falls as U.S.-Iran Conflict Dents Risk Appetite",
+        "Bitcoin Bulls Are Defending One Key Level, Losing It Means a 10% Fall"
       ],
       "mode": "paper",
       "strategy_version": "08",
       "status": "open",
-      "current_price": 1.3193,
+      "current_price": 72568.070312,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "NZD/USD_20260601103551",
+      "asset": "NZD/USD",
+      "trade_type": "swing",
+      "direction": "long",
+      "entry_price": 0.5956635475158691,
+      "entry_time": "2026-06-01T10:35:51.340289+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02593,
+      "size_usd": 4611.77,
+      "position_size_pct": 0.0464,
+      "confidence": 0.483,
+      "signals": [
+        "RSI oversold (18.1)",
+        "BB oversold (pct_b=0.03)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
+      ],
+      "news_sentiment": 0.264,
+      "news_headlines": [
+        "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+        "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+        "Dollar flirts with new 2026 highs as oil price jump hurts euro"
+      ],
+      "mode": "paper",
+      "strategy_version": "08",
+      "status": "open",
+      "current_price": 0.595664,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -616,7 +591,7 @@
   "last_candidates": [
     {
       "asset": "INTC",
-      "rank_score": 0.8002,
+      "rank_score": 0.7942,
       "price": 114.63999938964844,
       "rsi": 29.702189646204815,
       "momentum_5d": -0.036558484817203085,
@@ -626,12 +601,12 @@
       "bollinger_pct_b": -0.2317,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.48,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.462,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip",
-        "Nvidia Enters Windows Laptop Market, Taking On Intel and AMD",
-        "Insiders Are Buying This Nvidia-Backed $15 Stock Hand Over Fist. Should You?"
+        "Nvidia debuts RTX Spark processor for Windows laptops, taking aim at Intel, AMD",
+        "Is XRP a Buy if It Drops Below $1?",
+        "Stocks to Watch: Nvidia, Qualcomm, easyJet"
       ],
       "high_impact_news": true
     },
@@ -658,7 +633,7 @@
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.7712,
+      "rank_score": 0.7682,
       "price": 447.2099914550781,
       "rsi": 76.08270140970889,
       "momentum_5d": 0.016721374737228154,
@@ -668,18 +643,18 @@
       "bollinger_pct_b": 1.0328,
       "volume_spike": true,
       "volume_spike_ratio": 2.58,
-      "news_sentiment": 0.788,
-      "news_confidence": 0.66,
+      "news_sentiment": 0.891,
+      "news_confidence": 0.55,
       "news_headlines": [
         "Jobs report, retail earnings, AI in focus next week",
-        "Broadcom Reports Earnings June 3. Time to Buy?",
-        "Broadcom (AVGO) \u2013 Among the 15 Best Dividend Paying Stocks to Buy Right Now"
+        "US Equity Investors to Focus on Labor Market Data and Trump's Decision on Framework to End Iran War This Week",
+        "Micron and 6 Other Stocks Set to Win Big From the AI Bottleneck"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.7574,
+      "rank_score": 0.7367,
       "price": 448.6400146484375,
       "rsi": 93.0305682470708,
       "momentum_5d": 0.01127039905082108,
@@ -689,18 +664,18 @@
       "bollinger_pct_b": 0.9075,
       "volume_spike": true,
       "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.374,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "Nvidia debuts RTX Spark processor for Windows laptops, taking aim at Intel, AMD",
         "Big Tech companies are screwing the average investor \u2014 here's how",
-        "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip",
-        "Nvidia Introduces First PCs Designed for AI Agents"
+        "Nvidia launches PC chip to bring AI directly to personal computers"
       ],
       "high_impact_news": true
     },
     {
       "asset": "IONQ",
-      "rank_score": 0.6967,
+      "rank_score": 0.6867,
       "price": 72.05999755859375,
       "rsi": 73.03449593089975,
       "momentum_5d": 0.06017355104364548,
@@ -710,18 +685,18 @@
       "bollinger_pct_b": 0.9542,
       "volume_spike": false,
       "volume_spike_ratio": 1.02,
-      "news_sentiment": 0.625,
+      "news_sentiment": 0.312,
       "news_confidence": 0.32,
       "news_headlines": [
-        "Quantum Computing Just Hit Commercial Viability and These 3 ETFs Sit on Top of the Compute Transition",
-        "This Quantum Computing Stock Is the One the Smart Money Doesn't Want You to Find",
-        "The Quantum Computing Boom Is Back. IBM Proves It Is the Smartest Stock to Buy"
+        "Is IonQ Stock Going to $100?",
+        "Uncle Sam Is Buying Into Quantum Computing Stocks. Should You?",
+        "IonQ\u2019s Sovereign Quantum Role Fuels Rerating And Valuation Questions"
       ],
       "high_impact_news": true
     },
     {
       "asset": "REGN",
-      "rank_score": 0.6893,
+      "rank_score": 0.6823,
       "price": 614.030029296875,
       "rsi": 16.515255347407106,
       "momentum_5d": -0.006681027609483594,
@@ -731,12 +706,54 @@
       "bollinger_pct_b": 0.1408,
       "volume_spike": true,
       "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.617,
+      "news_confidence": 0.47,
       "news_headlines": [
         "Regeneron (REGN) Says EMA Accepted Review for Otarmeni Application",
-        "Regeneron (REGN) Down 12.1% Since Last Earnings Report: Can It Rebound?",
-        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest"
+        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest",
+        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.6795,
+      "price": 956.0700073242188,
+      "rsi": 22.420366437848784,
+      "momentum_5d": 0.006919438993384677,
+      "momentum_1d": -0.042273143920366144,
+      "macd_crossover": false,
+      "atr_pct": 0.01123695148727051,
+      "bollinger_pct_b": 0.2018,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.24,
+      "news_sentiment": 0.697,
+      "news_confidence": 0.66,
+      "news_headlines": [
+        "Is Costco Stock a Buy on the Dip as Same-Store Sales Surge?",
+        "Sam\u2019s Club leans on Amazon playbook to challenge Costco",
+        "Truist Highlights Costco\u2019s (COST) Sales Momentum While Flagging Membership Growth Slowdown"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HOOD",
+      "rank_score": 0.6784,
+      "price": 94.3499984741211,
+      "rsi": 97.6352894057293,
+      "momentum_5d": 0.02318012105595369,
+      "momentum_1d": 0.27551705984985037,
+      "macd_crossover": false,
+      "atr_pct": 0.02492814166071007,
+      "bollinger_pct_b": 0.8805,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.18,
+      "news_sentiment": 0.872,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "How to Try to Buy SpaceX Stock at the IPO Price",
+        "HOOD Stock Clocks Best Month In 2026: Growth Story Intact Despite Crypto Weakness, Says Analyst",
+        "Robinhood\u2019s WonderFi Move And Cannabis Access Raise Valuation Questions"
       ],
       "high_impact_news": true
     },
@@ -762,71 +779,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "COST",
-      "rank_score": 0.6725,
-      "price": 956.0700073242188,
-      "rsi": 22.420366437848784,
-      "momentum_5d": 0.006919438993384677,
-      "momentum_1d": -0.042273143920366144,
-      "macd_crossover": false,
-      "atr_pct": 0.01123695148727051,
-      "bollinger_pct_b": 0.2018,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.65,
-      "news_headlines": [
-        "Sam\u2019s Club leans on Amazon playbook to challenge Costco",
-        "Truist Highlights Costco\u2019s (COST) Sales Momentum While Flagging Membership Growth Slowdown",
-        "Costco Wholesale Corporation (NASDAQ:COST) Just Released Its Third-Quarter Earnings: Here's What Analysts Think"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HOOD",
-      "rank_score": 0.6654,
-      "price": 94.3499984741211,
-      "rsi": 97.6352894057293,
-      "momentum_5d": 0.02318012105595369,
-      "momentum_1d": 0.27551705984985037,
-      "macd_crossover": false,
-      "atr_pct": 0.02492814166071007,
-      "bollinger_pct_b": 0.8805,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.18,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Robinhood\u2019s WonderFi Move And Cannabis Access Raise Valuation Questions",
-        "Why a Fintech-Focused Fund Just Added $44 Million of MercadoLibre Stock",
-        "Cathie Wood dumps $12 million in surging tech stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.664,
-      "price": 225.74000549316406,
-      "rsi": 94.92529405198206,
-      "momentum_5d": 0.026790990339455124,
-      "momentum_1d": 0.1826588368993533,
-      "macd_crossover": false,
-      "atr_pct": 0.019236726648473375,
-      "bollinger_pct_b": 0.8796,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "BofA doubles down on cautious S&P 500 view for rest of 2026",
-        "Berkshire Hathaway to Buy Taylor Morrison for $6.8 Billion",
-        "Oracle Corporation (ORCL): Leopold Aschenbrenner Is Bearish on This Software Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MS",
-      "rank_score": 0.6393,
+      "rank_score": 0.6543,
       "price": 208.0,
       "rsi": 82.713912997178,
       "momentum_5d": 0.0004810298530620405,
@@ -836,12 +790,33 @@
       "bollinger_pct_b": 0.8715,
       "volume_spike": true,
       "volume_spike_ratio": 1.69,
-      "news_sentiment": 0.552,
-      "news_confidence": 0.67,
+      "news_sentiment": 0.812,
+      "news_confidence": 0.64,
       "news_headlines": [
+        "How to Try to Buy SpaceX Stock at the IPO Price",
         "Regulators Didn\u2019t Speak to US Fund at Heart of Segantii Trial",
-        "Why The Flutter Entertainment (FLUT) Investment Narrative Is Shifting As Expectations And Valuations Reset",
-        "Morgan Stanley flags unexpected Dell stock update after earnings"
+        "Why The Flutter Entertainment (FLUT) Investment Narrative Is Shifting As Expectations And Valuations Reset"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.652,
+      "price": 225.74000549316406,
+      "rsi": 94.92529405198206,
+      "momentum_5d": 0.026790990339455124,
+      "momentum_1d": 0.1826588368993533,
+      "macd_crossover": false,
+      "atr_pct": 0.019236726648473375,
+      "bollinger_pct_b": 0.8796,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.25,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "NVDA, AMD, MU, MSFT, ORCL: Dan Ives Lists Stocks In His Shopping Bag Amid Ongoing Memory Supercycle",
+        "3 Hyped Up  Stocks We\u2019re Skeptical Of",
+        "Berkshire Hathaway to Buy Taylor Morrison for $6.8 Billion"
       ],
       "high_impact_news": true
     },
@@ -910,7 +885,7 @@
     },
     {
       "asset": "XOM",
-      "rank_score": 0.6147,
+      "rank_score": 0.6097,
       "price": 145.3699951171875,
       "rsi": 22.431927525847073,
       "momentum_5d": -0.0005500297884719505,
@@ -920,18 +895,18 @@
       "bollinger_pct_b": 0.113,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.259,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "BATL, USO, UCO Edge Higher As Oil Gains: Exxon Executive Warns Shrinking Inventories Could Send Crude To $160",
         "Analysts Get Bullish on Exxon Mobil (XOM)",
-        "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
-        "The 2 Signals That Will Determine XLE\u2019s Performance Through Year-End"
+        "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)"
       ],
       "high_impact_news": true
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.6011,
+      "rank_score": 0.5941,
       "price": 380.3900146484375,
       "rsi": 20.210803180283264,
       "momentum_5d": -0.007462453624429224,
@@ -941,12 +916,12 @@
       "bollinger_pct_b": 0.0312,
       "volume_spike": true,
       "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.591,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.487,
+      "news_confidence": 0.39,
       "news_headlines": [
         "Big Tech companies are screwing the average investor \u2014 here's how",
         "IPOs are no longer Wall Street's starting line \u2014 they're the exit ramp: Chart of the Day",
-        "Analysis-AI debt sales reshape global corporate bond markets"
+        "Warren Buffett's Successor, Greg Abel, Started His Tenure With a Bang by Dumping Amazon and More Than Tripling Berkshire's Stake in a Virtual Monopoly"
       ],
       "high_impact_news": true
     },
@@ -986,15 +961,36 @@
       "news_sentiment": 0.882,
       "news_confidence": 0.51,
       "news_headlines": [
+        "How to Try to Buy SpaceX Stock at the IPO Price",
         "Could SoFi Stock Finally Be The Next S&P 500 Addition? Here\u2019s What Retail Thinks",
-        "Nasdaq, S&P 500, Dow Futures Edge Higher Even As Trump Keeps Iran Deal In Limbo: BBAI, SPCE, SOFI, IBM In Focus",
-        "Time to Diversify Internationally?"
+        "Nasdaq, S&P 500, Dow Futures Edge Higher Even As Trump Keeps Iran Deal In Limbo: BBAI, SPCE, SOFI, IBM In Focus"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5746,
+      "price": 72568.0703125,
+      "rsi": 32.73751317096098,
+      "momentum_5d": -0.009306133436689783,
+      "momentum_1d": -0.01657319641373215,
+      "macd_crossover": false,
+      "atr_pct": 0.00558747251329959,
+      "bollinger_pct_b": -0.0223,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.92,
+      "news_sentiment": 0.238,
+      "news_confidence": 0.63,
+      "news_headlines": [
+        "Cango Inc (CANG) Q1 2026 Earnings Call Highlights: Navigating Challenges with Strategic ...",
+        "Bitcoin Falls as U.S.-Iran Conflict Dents Risk Appetite",
+        "Bitcoin Bulls Are Defending One Key Level, Losing It Means a 10% Fall"
       ],
       "high_impact_news": true
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.5839,
+      "rank_score": 0.5679,
       "price": 156.58999633789062,
       "rsi": 94.06812095517512,
       "momentum_5d": -0.0031194645241415355,
@@ -1004,33 +1000,12 @@
       "bollinger_pct_b": 0.8283,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.44,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.158,
+      "news_confidence": 0.38,
       "news_headlines": [
-        "BofA doubles down on cautious S&P 500 view for rest of 2026",
-        "Dell blockbuster orders trigger Palantir stock surge",
-        "Why is Palantir Technologies Inc. (PLTR) One of the Stocks to Buy for The Long Term?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "WMT",
-      "rank_score": 0.5671,
-      "price": 115.70999908447266,
-      "rsi": 32.182788140558756,
-      "momentum_5d": 0.006918140909468436,
-      "momentum_1d": -0.020154097105804698,
-      "macd_crossover": true,
-      "atr_pct": 0.008163820509791104,
-      "bollinger_pct_b": 0.1939,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.278,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Market concentration is creating 'fragility':  Only 60% of S&P 500 stocks are above their 200-day average",
-        "DRAM Memory Boom: Why Micron Stock Could Still Double",
-        "SpaceX IPO Nears and Retail Makes a Comeback"
+        "Why Is NOW Stock Surging In Premarket?",
+        "Prediction: This Will Be Palantir's Stock Price in a Year",
+        "BofA doubles down on cautious S&P 500 view for rest of 2026"
       ],
       "high_impact_news": true
     }
