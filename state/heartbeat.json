@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99432.68,
+  "portfolio_balance": 99481.66,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 1.05,
-  "unrealized_pnl_usd": 234.15,
-  "equity_value": 99666.83,
-  "open_positions": 20,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 1.01,
+  "unrealized_pnl_usd": 190.25,
+  "equity_value": 99671.91,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39683.24,
+  "day_capital_used_usd": 39792.66,
   "swing_capital_used_usd": 34352.07,
-  "total_trades": 67,
-  "last_tick": "2026-06-01T00:17:40.424644+00:00",
+  "total_trades": 70,
+  "last_tick": "2026-06-01T05:20:59.834351+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 6,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9155899882316589,
       "trailing_stop_price": 0.908265,
-      "current_price": 0.91152,
-      "unrealized_pnl_pct": 0.001164,
-      "unrealized_pnl_usd": 1.56
+      "current_price": 0.91207,
+      "unrealized_pnl_pct": 0.001768,
+      "unrealized_pnl_usd": 2.38
     },
     {
       "id": "USD/CAD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_trough": 1.3778300285339355,
       "trailing_stop_price": 1.388853,
-      "current_price": 1.37999,
-      "unrealized_pnl_pct": 0.001454,
-      "unrealized_pnl_usd": 1.95
+      "current_price": 1.3803,
+      "unrealized_pnl_pct": 0.00123,
+      "unrealized_pnl_usd": 1.65
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 1.0570000410079956,
       "trailing_stop_price": 1.048544,
-      "current_price": 1.05226,
-      "unrealized_pnl_pct": -0.001622,
-      "unrealized_pnl_usd": -2.18
+      "current_price": 1.0539,
+      "unrealized_pnl_pct": -6.6e-05,
+      "unrealized_pnl_usd": -0.09
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -119,11 +119,11 @@
       "mode": "paper",
       "strategy_version": "03",
       "status": "open",
-      "price_peak": 7.836619853973389,
-      "trailing_stop_price": 7.773927,
-      "current_price": 7.8357,
-      "unrealized_pnl_pct": 0.000179,
-      "unrealized_pnl_usd": 0.24
+      "price_peak": 7.836900234222412,
+      "trailing_stop_price": 7.774205,
+      "current_price": 7.8367,
+      "unrealized_pnl_pct": 0.000306,
+      "unrealized_pnl_usd": 0.41
     },
     {
       "id": "CAD/JPY_20260524050433",
@@ -148,9 +148,9 @@
       "status": "open",
       "price_peak": 115.58599853515625,
       "trailing_stop_price": 114.661311,
-      "current_price": 115.504997,
-      "unrealized_pnl_pct": 0.002987,
-      "unrealized_pnl_usd": 4.01
+      "current_price": 115.471001,
+      "unrealized_pnl_pct": 0.002692,
+      "unrealized_pnl_usd": 3.62
     },
     {
       "id": "EUR/USD_20260524234359",
@@ -207,11 +207,11 @@
       "mode": "paper",
       "strategy_version": "05",
       "status": "open",
-      "price_peak": 159.41299438476562,
-      "trailing_stop_price": 158.13769,
-      "current_price": 159.417007,
-      "unrealized_pnl_pct": 0.001558,
-      "unrealized_pnl_usd": 6.05
+      "price_peak": 159.44400024414062,
+      "trailing_stop_price": 158.168448,
+      "current_price": 159.442993,
+      "unrealized_pnl_pct": 0.001721,
+      "unrealized_pnl_usd": 6.69
     },
     {
       "id": "PLTR_20260529143103",
@@ -312,9 +312,9 @@
       "status": "open",
       "price_peak": 2027.510009765625,
       "trailing_stop_price": 1994.015544,
-      "current_price": 2008.910034,
-      "unrealized_pnl_pct": 0.012504,
-      "unrealized_pnl_usd": 84.42
+      "current_price": 1996.609985,
+      "unrealized_pnl_pct": 0.006305,
+      "unrealized_pnl_usd": 42.57
     },
     {
       "id": "NVDA_20260529143103",
@@ -489,37 +489,6 @@
       "unrealized_pnl_usd": 28.4
     },
     {
-      "id": "NZD/USD_20260529200250",
-      "asset": "NZD/USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.5990535020828247,
-      "entry_time": "2026-05-29T20:02:50.395794+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00448,
-      "size_usd": 3069.87,
-      "position_size_pct": 0.0309,
-      "confidence": 0.483,
-      "signals": [
-        "RSI overbought (79.3)",
-        "1d momentum +0.91%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
-      ],
-      "news_sentiment": 0.264,
-      "news_headlines": [
-        "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-        "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-        "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-      ],
-      "mode": "paper",
-      "strategy_version": "07",
-      "status": "open",
-      "current_price": 0.59805,
-      "unrealized_pnl_pct": -0.001675,
-      "unrealized_pnl_usd": -5.14
-    },
-    {
       "id": "USD/CHF_20260529200250",
       "asset": "USD/CHF",
       "trade_type": "day",
@@ -541,68 +510,11 @@
       "mode": "paper",
       "strategy_version": "07",
       "status": "open",
-      "price_peak": 0.7824100255966187,
-      "trailing_stop_price": 0.780845,
-      "current_price": 0.78241,
-      "unrealized_pnl_pct": 0.00246,
-      "unrealized_pnl_usd": 9.69
-    },
-    {
-      "id": "BNB-USD_20260531231657",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 710.52001953125,
-      "entry_time": "2026-05-31T23:16:57.719923+00:00",
-      "stop_loss_pct": 0.00736,
-      "take_profit_pct": 0.0165,
-      "size_usd": 3074.88,
-      "position_size_pct": 0.0309,
-      "confidence": 0.483,
-      "signals": [
-        "RSI oversold (39.9)",
-        "1d momentum -0.97%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-      ],
-      "news_sentiment": -0.172,
-      "news_headlines": [
-        "Fake Bridge Messages Let Hacker Drain $815,000 From Alephium",
-        "VanEck Launches First BNB Exchange-Traded Fund",
-        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000"
-      ],
-      "mode": "paper",
-      "strategy_version": "08",
-      "status": "open",
-      "price_trough": 708.8400268554688,
-      "trailing_stop_price": 714.057089,
-      "current_price": 708.840027,
-      "unrealized_pnl_pct": 0.002364,
-      "unrealized_pnl_usd": 7.27
-    },
-    {
-      "id": "AUD/NZD_20260531231657",
-      "asset": "AUD/NZD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.2009700536727905,
-      "entry_time": "2026-05-31T23:16:57.721221+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.0042,
-      "size_usd": 1273.24,
-      "position_size_pct": 0.0128,
-      "confidence": 0.2,
-      "signals": [
-        "1d momentum -0.49%"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "08",
-      "status": "open",
-      "current_price": 1.20112,
-      "unrealized_pnl_pct": -0.000125,
-      "unrealized_pnl_usd": -0.16
+      "price_peak": 0.7828400135040283,
+      "trailing_stop_price": 0.781274,
+      "current_price": 0.78277,
+      "unrealized_pnl_pct": 0.002921,
+      "unrealized_pnl_usd": 11.51
     },
     {
       "id": "AUD/JPY_20260601001740",
@@ -630,7 +542,73 @@
       "mode": "paper",
       "strategy_version": "08",
       "status": "open",
-      "current_price": 114.490997,
+      "current_price": 114.599998,
+      "unrealized_pnl_pct": -0.000952,
+      "unrealized_pnl_usd": -4.91
+    },
+    {
+      "id": "BNB-USD_20260601052059",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 696.5700073242188,
+      "entry_time": "2026-06-01T05:20:59.826772+00:00",
+      "stop_loss_pct": 0.01139,
+      "take_profit_pct": 0.02776,
+      "size_usd": 5564.61,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
+      "signals": [
+        "RSI oversold (31.9)",
+        "5d momentum -1.85%",
+        "1d momentum -5.41%",
+        "BB oversold (pct_b=0.10)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "Fake Bridge Messages Let Hacker Drain $815,000 From Alephium",
+        "VanEck Launches First BNB Exchange-Traded Fund",
+        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $75,000"
+      ],
+      "mode": "paper",
+      "strategy_version": "08",
+      "status": "open",
+      "current_price": 696.570007,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "XRP-USD_20260601052059",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1.3193000555038452,
+      "entry_time": "2026-06-01T05:20:59.829110+00:00",
+      "stop_loss_pct": 0.00706,
+      "take_profit_pct": 0.01762,
+      "size_usd": 1962.8,
+      "position_size_pct": 0.0197,
+      "confidence": 0.99,
+      "signals": [
+        "RSI oversold (42.9)",
+        "5d momentum -1.24%",
+        "1d momentum -1.64%",
+        "BB oversold (pct_b=0.08)",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.81,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Flat As Trump In 'No Hurry' To Sign Iran Deal: Analyst Says BTC Needs Weekly Close Above This Level For Bullish Move",
+        "Trump Says He 'Saved' Crypto, But Did Bitcoin, Ethereum, XRP Actually Benefit?",
+        "Is Solana or XRP the Real Ethereum Killer?"
+      ],
+      "mode": "paper",
+      "strategy_version": "08",
+      "status": "open",
+      "current_price": 1.3193,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -638,7 +616,7 @@
   "last_candidates": [
     {
       "asset": "INTC",
-      "rank_score": 0.7962,
+      "rank_score": 0.8002,
       "price": 114.63999938964844,
       "rsi": 29.702189646204815,
       "momentum_5d": -0.036558484817203085,
@@ -648,12 +626,12 @@
       "bollinger_pct_b": -0.2317,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.417,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.48,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "Wall Street Just Cut Figma's Price Target. History Says That's the Time to Buy.",
-        "If the Fed Hikes Again, These 3 Financial Stocks Should Still Hold Up",
-        "The AI Trade Just Broke Out Beyond Chips: 3 Stocks Powering the Next Leg Higher"
+        "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip",
+        "Nvidia Enters Windows Laptop Market, Taking On Intel and AMD",
+        "Insiders Are Buying This Nvidia-Backed $15 Stock Hand Over Fist. Should You?"
       ],
       "high_impact_news": true
     },
@@ -680,7 +658,7 @@
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.7662,
+      "rank_score": 0.7712,
       "price": 447.2099914550781,
       "rsi": 76.08270140970889,
       "momentum_5d": 0.016721374737228154,
@@ -690,18 +668,18 @@
       "bollinger_pct_b": 1.0328,
       "volume_spike": true,
       "volume_spike_ratio": 2.58,
-      "news_sentiment": 0.746,
-      "news_confidence": 0.63,
+      "news_sentiment": 0.788,
+      "news_confidence": 0.66,
       "news_headlines": [
         "Jobs report, retail earnings, AI in focus next week",
-        "Dow Jones Futures, Oil Prices Rise As Trump Makes This Iran Move; Nvidia, Tesla Lead 5 Titans Near Buy Points",
-        "Broadcom Inc (AVGO) Launches Broadband Chip With AI Capabilities"
+        "Broadcom Reports Earnings June 3. Time to Buy?",
+        "Broadcom (AVGO) \u2013 Among the 15 Best Dividend Paying Stocks to Buy Right Now"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.7534,
+      "rank_score": 0.7574,
       "price": 448.6400146484375,
       "rsi": 93.0305682470708,
       "momentum_5d": 0.01127039905082108,
@@ -711,12 +689,12 @@
       "bollinger_pct_b": 0.9075,
       "volume_spike": true,
       "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.762,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
       "news_headlines": [
         "Big Tech companies are screwing the average investor \u2014 here's how",
-        "Microsoft Tightens AI Tools As Investors Focus On Outcome Based Adoption",
-        "Why This Fund Sold $35 Million of Bristow Group Amid a 40% Stock Surge"
+        "Nvidia Says Anthropic, OpenAI Among Users of New Vera Chip",
+        "Nvidia Introduces First PCs Designed for AI Agents"
       ],
       "high_impact_news": true
     },
@@ -743,7 +721,7 @@
     },
     {
       "asset": "REGN",
-      "rank_score": 0.6823,
+      "rank_score": 0.6893,
       "price": 614.030029296875,
       "rsi": 16.515255347407106,
       "momentum_5d": -0.006681027609483594,
@@ -753,12 +731,12 @@
       "bollinger_pct_b": 0.1408,
       "volume_spike": true,
       "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.617,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.75,
+      "news_confidence": 0.48,
       "news_headlines": [
         "Regeneron (REGN) Says EMA Accepted Review for Otarmeni Application",
-        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest",
-        "These 2 Cheap Biotech Stocks Offer Potential for Low-Beta Growth"
+        "Regeneron (REGN) Down 12.1% Since Last Earnings Report: Can It Rebound?",
+        "Regeneron And Parabilis Target Undruggable Proteins As Valuation Draws Interest"
       ],
       "high_impact_news": true
     },
@@ -827,7 +805,7 @@
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.6567,
+      "rank_score": 0.664,
       "price": 225.74000549316406,
       "rsi": 94.92529405198206,
       "momentum_5d": 0.026790990339455124,
@@ -837,12 +815,33 @@
       "bollinger_pct_b": 0.8796,
       "volume_spike": false,
       "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.346,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "Oracle Corporation (ORCL): Leopold Aschenbrenner Is Bearish on This Software Stock",
-        "AI Hyperscalers Are Taking on Debt, But the Broader Market Looks More Leveraged",
-        "MongoDB's AI Advantage Is Starting to Show Up in Results"
+        "BofA doubles down on cautious S&P 500 view for rest of 2026",
+        "Berkshire Hathaway to Buy Taylor Morrison for $6.8 Billion",
+        "Oracle Corporation (ORCL): Leopold Aschenbrenner Is Bearish on This Software Stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MS",
+      "rank_score": 0.6393,
+      "price": 208.0,
+      "rsi": 82.713912997178,
+      "momentum_5d": 0.0004810298530620405,
+      "momentum_1d": 0.03823501947753918,
+      "macd_crossover": false,
+      "atr_pct": 0.0066620334164126885,
+      "bollinger_pct_b": 0.8715,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.552,
+      "news_confidence": 0.67,
+      "news_headlines": [
+        "Regulators Didn\u2019t Speak to US Fund at Heart of Segantii Trial",
+        "Why The Flutter Entertainment (FLUT) Investment Narrative Is Shifting As Expectations And Valuations Reset",
+        "Morgan Stanley flags unexpected Dell stock update after earnings"
       ],
       "high_impact_news": true
     },
@@ -910,50 +909,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "MS",
-      "rank_score": 0.6184,
-      "price": 208.0,
-      "rsi": 82.713912997178,
-      "momentum_5d": 0.0004810298530620405,
-      "momentum_1d": 0.03823501947753918,
-      "macd_crossover": false,
-      "atr_pct": 0.0066620334164126885,
-      "bollinger_pct_b": 0.8715,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.69,
-      "news_sentiment": 0.308,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Morgan Stanley flags unexpected Dell stock update after earnings",
-        "HSBC CEO Pitches HK Clients, Hires More Bankers After Setbacks",
-        "Morgan Stanley slashes targets on 3 software stocks after earnings"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.6091,
-      "price": 380.3900146484375,
-      "rsi": 20.210803180283264,
-      "momentum_5d": -0.007462453624429224,
-      "momentum_1d": -0.01445704732134068,
-      "macd_crossover": false,
-      "atr_pct": 0.007730606422704537,
-      "bollinger_pct_b": 0.0312,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.68,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "Big Tech companies are screwing the average investor \u2014 here's how",
-        "IPOs are no longer Wall Street's starting line \u2014 they're the exit ramp: Chart of the Day",
-        "Dow Jones Futures, Oil Prices Rise As Trump Makes This Iran Move; Nvidia, Tesla Lead 5 Titans Near Buy Points"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "XOM",
-      "rank_score": 0.6087,
+      "rank_score": 0.6147,
       "price": 145.3699951171875,
       "rsi": 22.431927525847073,
       "momentum_5d": -0.0005500297884719505,
@@ -963,12 +920,33 @@
       "bollinger_pct_b": 0.113,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.206,
-      "news_confidence": 0.63,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.57,
       "news_headlines": [
+        "Analysts Get Bullish on Exxon Mobil (XOM)",
         "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
-        "The 2 Signals That Will Determine XLE\u2019s Performance Through Year-End",
-        "This is why Exxon Mobil Corporation (XOM) is the Best Oil Stock to Buy amid the US-Iran War"
+        "The 2 Signals That Will Determine XLE\u2019s Performance Through Year-End"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.6011,
+      "price": 380.3900146484375,
+      "rsi": 20.210803180283264,
+      "momentum_5d": -0.007462453624429224,
+      "momentum_1d": -0.01445704732134068,
+      "macd_crossover": false,
+      "atr_pct": 0.007730606422704537,
+      "bollinger_pct_b": 0.0312,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.98,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Big Tech companies are screwing the average investor \u2014 here's how",
+        "IPOs are no longer Wall Street's starting line \u2014 they're the exit ramp: Chart of the Day",
+        "Analysis-AI debt sales reshape global corporate bond markets"
       ],
       "high_impact_news": true
     },
@@ -995,7 +973,7 @@
     },
     {
       "asset": "SOFI",
-      "rank_score": 0.5909,
+      "rank_score": 0.5898,
       "price": 18.235000610351562,
       "rsi": 82.86335597165385,
       "momentum_5d": -0.011385149793826415,
@@ -1005,18 +983,18 @@
       "bollinger_pct_b": 0.8136,
       "volume_spike": false,
       "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.885,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.882,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "Time to Diversify Internationally?",
-        "3 Stocks to Buy With Less Than $20",
-        "Solana News: SoFi Just Launched a Bank-Backed Stablecoin With Monthly Audits and a 4.2% Yield"
+        "Could SoFi Stock Finally Be The Next S&P 500 Addition? Here\u2019s What Retail Thinks",
+        "Nasdaq, S&P 500, Dow Futures Edge Higher Even As Trump Keeps Iran Deal In Limbo: BBAI, SPCE, SOFI, IBM In Focus",
+        "Time to Diversify Internationally?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.5789,
+      "rank_score": 0.5839,
       "price": 156.58999633789062,
       "rsi": 94.06812095517512,
       "momentum_5d": -0.0031194645241415355,
@@ -1026,12 +1004,12 @@
       "bollinger_pct_b": 0.8283,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.362,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.44,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "BofA doubles down on cautious S&P 500 view for rest of 2026",
         "Dell blockbuster orders trigger Palantir stock surge",
-        "Why is Palantir Technologies Inc. (PLTR) One of the Stocks to Buy for The Long Term?",
-        "Palantir Technologies Inc. (PLTR): Renaissance Technologies Continues Trimming Stake"
+        "Why is Palantir Technologies Inc. (PLTR) One of the Stocks to Buy for The Long Term?"
       ],
       "high_impact_news": true
     },
