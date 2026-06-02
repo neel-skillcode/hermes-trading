@@ -116,8 +116,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 115.58599853515625,
-    "trailing_stop_price": 114.661311
+    "price_peak": 115.59100341796875,
+    "trailing_stop_price": 114.666275
   },
   "EUR/USD": {
     "id": "EUR/USD_20260524234359",
@@ -293,8 +293,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_trough": 408.8500061035156,
-    "trailing_stop_price": 414.982756
+    "price_trough": 402.7099914550781,
+    "trailing_stop_price": 408.750641
   },
   "META": {
     "id": "META_20260601162829",
@@ -325,36 +325,6 @@
     "strategy_version": "08",
     "status": "open"
   },
-  "MRVL": {
-    "id": "MRVL_20260602171250",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 285.0,
-    "entry_time": "2026-06-02T17:12:50.223308+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 4979.14,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (88.9)",
-      "5d momentum +27.92%",
-      "1d momentum +44.92%",
-      "BB overbought (pct_b=1.03)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.767,
-    "news_headlines": [
-      "Jensen Huang explains why Marvell is the next trillion company",
-      "Tech stocks today: Google stock falls on plans to raise $80 billion, Nvidia CEO blesses Marvell stock",
-      "Stock Market Today: S&P 500 Hits A New High; This Power Stock Gets A Jolt (Live Coverage)"
-    ],
-    "mode": "paper",
-    "strategy_version": "09",
-    "status": "open"
-  },
   "ON": {
     "id": "ON_20260602171250",
     "asset": "ON",
@@ -380,36 +350,6 @@
       "This SpaceX-Linked Chip Stock Is Surging. Data Center Revenue Could Double in 2027.",
       "Navitas Trades at a Huge Premium: Buy, Hold or Sell the Stock?",
       "Top Stock for AI\u2019s Next Megatrend: Infineon"
-    ],
-    "mode": "paper",
-    "strategy_version": "09",
-    "status": "open"
-  },
-  "AMAT": {
-    "id": "AMAT_20260602171250",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 480.1499938964844,
-    "entry_time": "2026-06-02T17:12:50.226288+00:00",
-    "stop_loss_pct": 0.01333,
-    "take_profit_pct": 0.03248,
-    "size_usd": 5480.81,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (79.1)",
-      "5d momentum +5.23%",
-      "1d momentum +7.22%",
-      "BB overbought (pct_b=0.98)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.636,
-    "news_headlines": [
-      "Applied Materials: The AI Stock That Wins No Matter Which Chip Wins",
-      "AI Power Boards and SiC Grid to Aid Navitas Semiconductor's Prospects",
-      "NVTS Stock: What the Neutral Stance Means at Today's Valuation"
     ],
     "mode": "paper",
     "strategy_version": "09",
@@ -443,7 +383,9 @@
     ],
     "mode": "paper",
     "strategy_version": "09",
-    "status": "open"
+    "status": "open",
+    "price_peak": 43.72999954223633,
+    "trailing_stop_price": 43.257716
   },
   "RBLX": {
     "id": "RBLX_20260602171250",
@@ -473,36 +415,99 @@
     ],
     "mode": "paper",
     "strategy_version": "09",
+    "status": "open",
+    "price_peak": 45.0,
+    "trailing_stop_price": 44.325
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260602202010",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1902.719970703125,
+    "entry_time": "2026-06-02T20:20:10.921396+00:00",
+    "stop_loss_pct": 0.01091,
+    "take_profit_pct": 0.02699,
+    "size_usd": 5941.03,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (15.8)",
+      "5d momentum -0.44%",
+      "1d momentum -5.01%",
+      "BB oversold (pct_b=0.08)",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.429,
+    "news_headlines": [
+      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
+      "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?",
+      "Charles Schwab Unveils 24/7 Crypto Futures Trading"
+    ],
+    "mode": "paper",
+    "strategy_version": "10",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260602202010",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 67012.0703125,
+    "entry_time": "2026-06-02T20:20:10.923448+00:00",
+    "stop_loss_pct": 0.00817,
+    "take_profit_pct": 0.01935,
+    "size_usd": 4602.73,
+    "position_size_pct": 0.0471,
+    "confidence": 0.736,
+    "signals": [
+      "RSI oversold (10.9)",
+      "1d momentum -6.09%",
+      "BB oversold (pct_b=0.14)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: price decline"
+    ],
+    "news_sentiment": -0.561,
+    "news_headlines": [
+      "Why Michael Saylor's $2.5M bitcoin sale is turning heads",
+      "Top economist issues stark warning as Bitcoin crashes",
+      "Stock Market Today: Dow Leads With Cisco At The Helm; Nvidia Falls (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "10",
     "status": "open"
   },
   "DOGE-USD": {
-    "id": "DOGE-USD_20260602171250",
+    "id": "DOGE-USD_20260602202010",
     "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 0.09544000029563904,
-    "entry_time": "2026-06-02T17:12:50.231389+00:00",
-    "stop_loss_pct": 0.01167,
-    "take_profit_pct": 0.02911,
-    "size_usd": 2800.88,
-    "position_size_pct": 0.0286,
+    "entry_price": 0.09356000274419785,
+    "entry_time": "2026-06-02T20:20:10.925378+00:00",
+    "stop_loss_pct": 0.014,
+    "take_profit_pct": 0.03492,
+    "size_usd": 2609.33,
+    "position_size_pct": 0.0267,
     "confidence": 0.99,
     "signals": [
       "RSI oversold (16.0)",
-      "5d momentum -3.20%",
-      "1d momentum -4.59%",
-      "BB oversold (pct_b=0.06)",
+      "5d momentum -1.22%",
+      "1d momentum -6.91%",
+      "BB oversold (pct_b=0.05)",
       "High-impact catalyst",
       "Claude [strongly_supports]: price surge"
     ],
-    "news_sentiment": 0.75,
+    "news_sentiment": 0.608,
     "news_headlines": [
+      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
       "Kalshi Files for XRP, XLM, SOL, SHIB, HBAR, DOGE, & 6 Other Altcoins Perp Futures",
-      "Bitcoin, XRP Fall, Ethereum, Dogecoin Flat As Israel-Hezbollah War Threatens Iran Deal: 'Critical' Cluster Could Decide BTC's Next Move, Says Analyst",
-      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000"
+      "Bitcoin, XRP Fall, Ethereum, Dogecoin Flat As Israel-Hezbollah War Threatens Iran Deal: 'Critical' Cluster Could Decide BTC's Next Move, Says Analyst"
     ],
     "mode": "paper",
-    "strategy_version": "09",
+    "strategy_version": "10",
     "status": "open"
   }
 }
