@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0586199760437012,
-    "trailing_stop_price": 1.050151
+    "price_peak": 1.0599499940872192,
+    "trailing_stop_price": 1.05147
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -171,8 +171,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 159.7779998779297,
-    "trailing_stop_price": 158.499776
+    "price_peak": 159.927001953125,
+    "trailing_stop_price": 158.647586
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -231,39 +231,6 @@
     "strategy_version": "08",
     "status": "open"
   },
-  "LYFT": {
-    "id": "LYFT_20260601162829",
-    "asset": "LYFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 14.979999542236328,
-    "entry_time": "2026-06-01T16:28:29.768697+00:00",
-    "stop_loss_pct": 0.01283,
-    "take_profit_pct": 0.03124,
-    "size_usd": 5453.62,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (89.6)",
-      "5d momentum +5.75%",
-      "1d momentum +10.23%",
-      "BB overbought (pct_b=1.16)",
-      "Volume spike 3.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.364,
-    "news_headlines": [
-      "More Drivers Are Joining the High-Miles Club. This Stock Could Pull Ahead.",
-      "Bernie Sanders Hails Uber, Lyft 70,000 Driver Unionization, Labels It A 'Historic' Victory: Workers Deserve 'Living Wage & Dignity'",
-      "Labor union participation is on the rise even as U.S. companies spend $1.7 billion annually to halt union formation"
-    ],
-    "mode": "paper",
-    "strategy_version": "08",
-    "status": "open",
-    "price_trough": 14.859999656677246,
-    "trailing_stop_price": 15.050653
-  },
   "ORCL": {
     "id": "ORCL_20260601162829",
     "asset": "ORCL",
@@ -293,105 +260,9 @@
     ],
     "mode": "paper",
     "strategy_version": "08",
-    "status": "open"
-  },
-  "MPC": {
-    "id": "MPC_20260601162829",
-    "asset": "MPC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 259.80499267578125,
-    "entry_time": "2026-06-01T16:28:29.772538+00:00",
-    "stop_loss_pct": 0.01073,
-    "take_profit_pct": 0.02614,
-    "size_usd": 5453.62,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (68.5)",
-      "5d momentum +4.47%",
-      "1d momentum +4.72%",
-      "BB overbought (pct_b=1.05)",
-      "Volume spike 2.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.882,
-    "news_headlines": [
-      "The Zacks Analyst Blog Highlights Marathon Petroleum, Nabors Industries and Suncor Energy",
-      "Are Oils-Energy Stocks Lagging  Kolibri Global Energy Inc. (KGEI) This Year?",
-      "Is Marathon Petroleum (MPC) a Buy as Wall Street Analysts Look Optimistic?"
-    ],
-    "mode": "paper",
-    "strategy_version": "08",
     "status": "open",
-    "price_trough": 258.6600036621094,
-    "trailing_stop_price": 261.435426
-  },
-  "CRM": {
-    "id": "CRM_20260601162829",
-    "asset": "CRM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 209.8800048828125,
-    "entry_time": "2026-06-01T16:28:29.774318+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 4977.21,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (82.2)",
-      "5d momentum +9.10%",
-      "1d momentum +17.15%",
-      "BB overbought (pct_b=1.01)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.889,
-    "news_headlines": [
-      "Stock Market Today: Dow Falls On New Iran Threat; Warren Buffett's Berkshire Boosts Stock (Live Coverage)",
-      "Top Midday Stories: Oil Rises After Iran Reportedly Says It's Halting Messages With US; Nvidia Launches New AI Chip for Laptops",
-      "Palantir Eyes Buy Point As Software Stocks Extend Rally On Snowflake, Dell Earnings"
-    ],
-    "mode": "paper",
-    "strategy_version": "08",
-    "status": "open",
-    "price_trough": 209.60000610351562,
-    "trailing_stop_price": 212.744006
-  },
-  "AVGO": {
-    "id": "AVGO_20260601162829",
-    "asset": "AVGO",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 460.8800964355469,
-    "entry_time": "2026-06-01T16:28:29.776115+00:00",
-    "stop_loss_pct": 0.01264,
-    "take_profit_pct": 0.02905,
-    "size_usd": 3748.58,
-    "position_size_pct": 0.0383,
-    "confidence": 0.598,
-    "signals": [
-      "RSI overbought (84.4)",
-      "5d momentum +5.68%",
-      "1d momentum +9.27%",
-      "BB overbought (pct_b=1.05)",
-      "News +0.86 (conf 0.68) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.865,
-    "news_headlines": [
-      "Jobs report, retail earnings, AI in focus next week",
-      "S&P 500 Companies' Earnings Grow 28% as Reporting Season Approaches End, Oppenheimer Says",
-      "Prediction: Broadcom's June 3 Earnings Report Will Matter More Than Any \"Magnificent Seven\" Stock This Quarter"
-    ],
-    "mode": "paper",
-    "strategy_version": "08",
-    "status": "open",
-    "price_trough": 459.9700012207031,
-    "trailing_stop_price": 465.784022
+    "price_trough": 244.17999267578125,
+    "trailing_stop_price": 247.842693
   },
   "ARM": {
     "id": "ARM_20260601162829",
@@ -454,64 +325,181 @@
     "strategy_version": "08",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260602090751",
-    "asset": "XRP-USD",
+  "MRVL": {
+    "id": "MRVL_20260602171250",
+    "asset": "MRVL",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.2616000175476074,
-    "entry_time": "2026-06-02T09:07:51.119340+00:00",
-    "stop_loss_pct": 0.00738,
-    "take_profit_pct": 0.01798,
-    "size_usd": 5269.41,
-    "position_size_pct": 0.0538,
+    "direction": "short",
+    "entry_price": 285.0,
+    "entry_time": "2026-06-02T17:12:50.223308+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 4979.14,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (88.9)",
+      "5d momentum +27.92%",
+      "1d momentum +44.92%",
+      "BB overbought (pct_b=1.03)",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.767,
+    "news_headlines": [
+      "Jensen Huang explains why Marvell is the next trillion company",
+      "Tech stocks today: Google stock falls on plans to raise $80 billion, Nvidia CEO blesses Marvell stock",
+      "Stock Market Today: S&P 500 Hits A New High; This Power Stock Gets A Jolt (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "09",
+    "status": "open"
+  },
+  "ON": {
+    "id": "ON_20260602171250",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 128.6199951171875,
+    "entry_time": "2026-06-02T17:12:50.224856+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5480.81,
+    "position_size_pct": 0.0559,
     "confidence": 0.874,
     "signals": [
-      "RSI oversold (25.8)",
-      "5d momentum -1.31%",
-      "1d momentum -3.16%",
-      "BB oversold (pct_b=0.08)",
+      "RSI overbought (71.2)",
+      "5d momentum +6.42%",
+      "1d momentum +5.09%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.708,
+    "news_headlines": [
+      "This SpaceX-Linked Chip Stock Is Surging. Data Center Revenue Could Double in 2027.",
+      "Navitas Trades at a Huge Premium: Buy, Hold or Sell the Stock?",
+      "Top Stock for AI\u2019s Next Megatrend: Infineon"
+    ],
+    "mode": "paper",
+    "strategy_version": "09",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260602171250",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 480.1499938964844,
+    "entry_time": "2026-06-02T17:12:50.226288+00:00",
+    "stop_loss_pct": 0.01333,
+    "take_profit_pct": 0.03248,
+    "size_usd": 5480.81,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (79.1)",
+      "5d momentum +5.23%",
+      "1d momentum +7.22%",
+      "BB overbought (pct_b=0.98)",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.244,
+    "news_sentiment": 0.636,
+    "news_headlines": [
+      "Applied Materials: The AI Stock That Wins No Matter Which Chip Wins",
+      "AI Power Boards and SiC Grid to Aid Navitas Semiconductor's Prospects",
+      "NVTS Stock: What the Neutral Stance Means at Today's Valuation"
+    ],
+    "mode": "paper",
+    "strategy_version": "09",
+    "status": "open"
+  },
+  "NKE": {
+    "id": "NKE_20260602171250",
+    "asset": "NKE",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 43.68000030517578,
+    "entry_time": "2026-06-02T17:12:50.228098+00:00",
+    "stop_loss_pct": 0.0108,
+    "take_profit_pct": 0.02551,
+    "size_usd": 4540.17,
+    "position_size_pct": 0.0463,
+    "confidence": 0.724,
+    "signals": [
+      "RSI oversold (16.7)",
+      "5d momentum -4.59%",
+      "1d momentum -6.86%",
+      "BB oversold (pct_b=-0.00)",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: fed dovish; analyst downgrade; macro risk"
+    ],
+    "news_sentiment": -0.111,
+    "news_headlines": [
+      "Nike Analyst: \u201895% of People Say Nike Is a Brand for Me\u2019 \u2013 No Other Brand Gets Above 60%",
+      "NIKE's Turnaround Story: Are Earnings Finally Finding Footing?",
+      "Tariff-Driven Inflation Is Trapping Mortgage Rates, and the Fed Can\u2019t Fix It with Rate Cuts"
+    ],
+    "mode": "paper",
+    "strategy_version": "09",
+    "status": "open"
+  },
+  "RBLX": {
+    "id": "RBLX_20260602171250",
+    "asset": "RBLX",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 44.935001373291016,
+    "entry_time": "2026-06-02T17:12:50.229535+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5480.81,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (31.5)",
+      "5d momentum -5.03%",
+      "1d momentum -4.68%",
+      "BB oversold (pct_b=0.04)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.596,
+    "news_headlines": [
+      "Is It Time To Reassess Roblox (RBLX) After A 42% Year To Date Share Price Fall?",
+      "2nd Princeton CorpGov Forum: Complete Highlights and Panels in 4K from Endowments to PE in Sports",
+      "Roblox Corporation (RBLX): Renaissance Technologies Remains Bullish"
+    ],
+    "mode": "paper",
+    "strategy_version": "09",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260602171250",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.09544000029563904,
+    "entry_time": "2026-06-02T17:12:50.231389+00:00",
+    "stop_loss_pct": 0.01167,
+    "take_profit_pct": 0.02911,
+    "size_usd": 2800.88,
+    "position_size_pct": 0.0286,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (16.0)",
+      "5d momentum -3.20%",
+      "1d momentum -4.59%",
+      "BB oversold (pct_b=0.06)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.75,
     "news_headlines": [
       "Kalshi Files for XRP, XLM, SOL, SHIB, HBAR, DOGE, & 6 Other Altcoins Perp Futures",
       "Bitcoin, XRP Fall, Ethereum, Dogecoin Flat As Israel-Hezbollah War Threatens Iran Deal: 'Critical' Cluster Could Decide BTC's Next Move, Says Analyst",
       "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "09",
-    "status": "open",
-    "price_peak": 1.2619999647140503,
-    "trailing_stop_price": 1.252686
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260602125123",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 69013.3984375,
-    "entry_time": "2026-06-02T12:51:23.688610+00:00",
-    "stop_loss_pct": 0.00671,
-    "take_profit_pct": 0.01673,
-    "size_usd": 3810.0,
-    "position_size_pct": 0.0389,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (14.9)",
-      "5d momentum -1.42%",
-      "1d momentum -4.32%",
-      "BB oversold (pct_b=0.03)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.2,
-    "news_headlines": [
-      "Why Michael Saylor's $2.5M bitcoin sale is turning heads",
-      "Strategy sells $2.5M in bitcoin, Berkshire to acquire Taylor Morrison",
-      "Bitcoin and ethereum prices today, Monday, June 1, 2026: Prices falling this morning"
     ],
     "mode": "paper",
     "strategy_version": "09",
