@@ -92,8 +92,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.837820053100586,
-    "trailing_stop_price": 7.775117
+    "price_peak": 7.83804988861084,
+    "trailing_stop_price": 7.775345
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260524050433",
@@ -171,8 +171,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 159.70799255371094,
-    "trailing_stop_price": 158.430329
+    "price_peak": 159.73800659179688,
+    "trailing_stop_price": 158.460103
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -454,55 +454,26 @@
     "strategy_version": "08",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260601204447",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.10063999891281128,
-    "entry_time": "2026-06-01T20:44:47.746645+00:00",
-    "stop_loss_pct": 0.00707,
-    "take_profit_pct": 0.01595,
-    "size_usd": 3201.95,
-    "position_size_pct": 0.0327,
-    "confidence": 0.511,
-    "signals": [
-      "5d momentum +2.52%",
-      "1d momentum +0.90%",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: price surge"
-    ],
-    "news_sentiment": 0.73,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000",
-      "Kalshi Eyes Perpetual Futures for XRP, Solana, Dogecoin\u2014And These Altcoins",
-      "House of Doge and Paxos Partner to Expand Regulated Access to Dogecoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "09",
-    "status": "open"
-  },
   "BTC-USD": {
-    "id": "BTC-USD_20260602045742",
+    "id": "BTC-USD_20260602090751",
     "asset": "BTC-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 70702.1484375,
-    "entry_time": "2026-06-02T04:57:42.834894+00:00",
-    "stop_loss_pct": 0.00626,
-    "take_profit_pct": 0.01508,
-    "size_usd": 5117.31,
-    "position_size_pct": 0.0523,
-    "confidence": 0.817,
+    "direction": "long",
+    "entry_price": 69517.28125,
+    "entry_time": "2026-06-02T09:07:51.117756+00:00",
+    "stop_loss_pct": 0.00559,
+    "take_profit_pct": 0.01289,
+    "size_usd": 3821.51,
+    "position_size_pct": 0.039,
+    "confidence": 0.61,
     "signals": [
-      "RSI oversold (38.9)",
-      "5d momentum -0.85%",
-      "1d momentum -3.70%",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      "RSI oversold (20.4)",
+      "5d momentum -1.67%",
+      "1d momentum -4.49%",
+      "BB oversold (pct_b=-0.03)",
+      "Claude [strongly_contradicts]: price decline"
     ],
-    "news_sentiment": 0.1,
+    "news_sentiment": 0.167,
     "news_headlines": [
       "Why Michael Saylor's $2.5M bitcoin sale is turning heads",
       "Strategy sells $2.5M in bitcoin, Berkshire to acquire Taylor Morrison",
@@ -513,29 +484,30 @@
     "status": "open"
   },
   "XRP-USD": {
-    "id": "XRP-USD_20260602045742",
+    "id": "XRP-USD_20260602090751",
     "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 1.2791999578475952,
-    "entry_time": "2026-06-02T04:57:42.836990+00:00",
-    "stop_loss_pct": 0.00661,
-    "take_profit_pct": 0.01527,
-    "size_usd": 763.95,
-    "position_size_pct": 0.0078,
-    "confidence": 0.621,
+    "entry_price": 1.2616000175476074,
+    "entry_time": "2026-06-02T09:07:51.119340+00:00",
+    "stop_loss_pct": 0.00738,
+    "take_profit_pct": 0.01798,
+    "size_usd": 5269.41,
+    "position_size_pct": 0.0538,
+    "confidence": 0.874,
     "signals": [
-      "5d momentum -1.26%",
-      "1d momentum -3.13%",
-      "BB oversold (pct_b=0.11)",
+      "RSI oversold (25.8)",
+      "5d momentum -1.31%",
+      "1d momentum -3.16%",
+      "BB oversold (pct_b=0.08)",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.261,
+    "news_sentiment": 0.244,
     "news_headlines": [
+      "Kalshi Files for XRP, XLM, SOL, SHIB, HBAR, DOGE, & 6 Other Altcoins Perp Futures",
       "Bitcoin, XRP Fall, Ethereum, Dogecoin Flat As Israel-Hezbollah War Threatens Iran Deal: 'Critical' Cluster Could Decide BTC's Next Move, Says Analyst",
-      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000",
-      "Kalshi Eyes Perpetual Futures for XRP, Solana, Dogecoin\u2014And These Altcoins"
+      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000"
     ],
     "mode": "paper",
     "strategy_version": "09",
