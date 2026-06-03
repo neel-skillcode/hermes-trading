@@ -426,37 +426,6 @@
     "strategy_version": "11",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260603185645",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 627.989990234375,
-    "entry_time": "2026-06-03T18:56:45.969053+00:00",
-    "stop_loss_pct": 0.01072,
-    "take_profit_pct": 0.02654,
-    "size_usd": 4406.83,
-    "position_size_pct": 0.0453,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (41.5)",
-      "MACD crossover",
-      "5d momentum -0.67%",
-      "1d momentum -4.70%",
-      "BB oversold (pct_b=0.15)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.333,
-    "news_headlines": [
-      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
-      "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?",
-      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "11",
-    "status": "open"
-  },
   "GBP/USD": {
     "id": "GBP/USD_20260603185645",
     "asset": "GBP/USD",
@@ -484,8 +453,8 @@
     "mode": "paper",
     "strategy_version": "11",
     "status": "open",
-    "price_peak": 1.3418675661087036,
-    "trailing_stop_price": 1.331133
+    "price_peak": 1.3421196937561035,
+    "trailing_stop_price": 1.331383
   },
   "SOL-USD": {
     "id": "SOL-USD_20260603214823",
@@ -512,6 +481,38 @@
       "HYPE Token ETFs: What Hyperliquid Is and Whether THYP, BHYP, or HYPG Is Worth Buying",
       "Mastercard taps Solana as it brings stablecoin settlement to its global card network",
       "As Oil Moves Higher, Bitcoin Sinks to Lowest Price Since March"
+    ],
+    "mode": "paper",
+    "strategy_version": "11",
+    "status": "open",
+    "price_trough": 71.55999755859375,
+    "trailing_stop_price": 72.477397
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260603232449",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 64294.05859375,
+    "entry_time": "2026-06-03T23:24:49.029296+00:00",
+    "stop_loss_pct": 0.00897,
+    "take_profit_pct": 0.0215,
+    "size_usd": 4384.68,
+    "position_size_pct": 0.0451,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (22.0)",
+      "5d momentum -2.50%",
+      "1d momentum -3.54%",
+      "BB oversold (pct_b=-0.07)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Bitcoin continues plunge as one analyst says token's  'bear market is in late stages'",
+      "Bitcoin dropped below $70K. So how are crypto traders feeling?",
+      "Analyst who called 2025 Bitcoin rally sends stark message"
     ],
     "mode": "paper",
     "strategy_version": "11",
