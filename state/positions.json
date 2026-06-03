@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9155899882316589,
-    "trailing_stop_price": 0.908265
+    "price_peak": 0.9161099791526794,
+    "trailing_stop_price": 0.908781
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0599499940872192,
-    "trailing_stop_price": 1.05147
+    "price_peak": 1.0604900121688843,
+    "trailing_stop_price": 1.052006
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -171,8 +171,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 159.927001953125,
-    "trailing_stop_price": 158.647586
+    "price_peak": 159.95700073242188,
+    "trailing_stop_price": 158.677345
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -419,37 +419,6 @@
     "price_peak": 45.0,
     "trailing_stop_price": 44.325
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260602202010",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1902.719970703125,
-    "entry_time": "2026-06-02T20:20:10.921396+00:00",
-    "stop_loss_pct": 0.01091,
-    "take_profit_pct": 0.02699,
-    "size_usd": 5941.03,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (15.8)",
-      "5d momentum -0.44%",
-      "1d momentum -5.01%",
-      "BB oversold (pct_b=0.08)",
-      "Volume spike 1.7\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.429,
-    "news_headlines": [
-      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
-      "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?",
-      "Charles Schwab Unveils 24/7 Crypto Futures Trading"
-    ],
-    "mode": "paper",
-    "strategy_version": "10",
-    "status": "open"
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260602202010",
     "asset": "BTC-USD",
@@ -505,6 +474,66 @@
       "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
       "Kalshi Files for XRP, XLM, SOL, SHIB, HBAR, DOGE, & 6 Other Altcoins Perp Futures",
       "Bitcoin, XRP Fall, Ethereum, Dogecoin Flat As Israel-Hezbollah War Threatens Iran Deal: 'Critical' Cluster Could Decide BTC's Next Move, Says Analyst"
+    ],
+    "mode": "paper",
+    "strategy_version": "10",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260603001447",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1864.9200439453125,
+    "entry_time": "2026-06-03T00:14:47.123835+00:00",
+    "stop_loss_pct": 0.01293,
+    "take_profit_pct": 0.0319,
+    "size_usd": 5833.8,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (12.4)",
+      "5d momentum -2.34%",
+      "1d momentum -6.94%",
+      "BB oversold (pct_b=0.00)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": -0.081,
+    "news_headlines": [
+      "3 Reasons I'm Nervous About XRP Right Now",
+      "As Bitcoin Sinks, It's Time for Ethereum to Outperform: Standard Chartered",
+      "Western Union, Visa, PayPal, Meta: why major payments giants are racing to Solana"
+    ],
+    "mode": "paper",
+    "strategy_version": "10",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260603001447",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74.63999938964844,
+    "entry_time": "2026-06-03T00:14:47.125770+00:00",
+    "stop_loss_pct": 0.01418,
+    "take_profit_pct": 0.03499,
+    "size_usd": 59.28,
+    "position_size_pct": 0.0006,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (16.3)",
+      "5d momentum -1.83%",
+      "1d momentum -8.01%",
+      "BB oversold (pct_b=0.10)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.05,
+    "news_headlines": [
+      "Solana adds native subscriptions and recurring payments to its blockchain",
+      "Western Union, Visa, PayPal, Meta: why major payments giants are racing to Solana",
+      "GalaxyOne is offering 8% yield on cash. Here's where it comes from"
     ],
     "mode": "paper",
     "strategy_version": "10",
