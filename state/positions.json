@@ -20,32 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9175000190734863,
-    "trailing_stop_price": 0.91016
-  },
-  "USD/CAD": {
-    "id": "USD/CAD_20260524050433",
-    "asset": "USD/CAD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1.3819999694824219,
-    "entry_time": "2026-05-24T05:04:33.577285+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02568,
-    "size_usd": 1344.0,
-    "position_size_pct": 0.0134,
-    "confidence": 0.42,
-    "signals": [
-      "RSI overbought (71.4)",
-      "BB overbought (pct_b=0.90)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 1.3778300285339355,
-    "trailing_stop_price": 1.388853
+    "price_peak": 0.918969988822937,
+    "trailing_stop_price": 0.911618
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -68,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0617300271987915,
-    "trailing_stop_price": 1.053236
+    "price_peak": 1.062980055809021,
+    "trailing_stop_price": 1.054476
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -141,8 +117,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.1603620052337646,
-    "trailing_stop_price": 1.169645
+    "price_trough": 1.1602274179458618,
+    "trailing_stop_price": 1.169509
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -171,8 +147,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 159.98300170898438,
-    "trailing_stop_price": 158.703138
+    "price_peak": 160.02099609375,
+    "trailing_stop_price": 158.740828
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -200,8 +176,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_trough": 114.20700073242188,
-    "trailing_stop_price": 115.120657
+    "price_trough": 114.10900115966797,
+    "trailing_stop_price": 115.021873
   },
   "META": {
     "id": "META_20260601162829",
@@ -231,8 +207,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_peak": 615.3599853515625,
-    "trailing_stop_price": 597.699154
+    "price_peak": 622.4700927734375,
+    "trailing_stop_price": 604.605201
   },
   "NKE": {
     "id": "NKE_20260602171250",
@@ -266,38 +242,6 @@
     "price_peak": 43.72999954223633,
     "trailing_stop_price": 43.257716
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260602202010",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 67012.0703125,
-    "entry_time": "2026-06-02T20:20:10.923448+00:00",
-    "stop_loss_pct": 0.00817,
-    "take_profit_pct": 0.01935,
-    "size_usd": 4602.73,
-    "position_size_pct": 0.0471,
-    "confidence": 0.736,
-    "signals": [
-      "RSI oversold (10.9)",
-      "1d momentum -6.09%",
-      "BB oversold (pct_b=0.14)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: price decline"
-    ],
-    "news_sentiment": -0.561,
-    "news_headlines": [
-      "Why Michael Saylor's $2.5M bitcoin sale is turning heads",
-      "Top economist issues stark warning as Bitcoin crashes",
-      "Stock Market Today: Dow Leads With Cisco At The Helm; Nvidia Falls (Live Coverage)"
-    ],
-    "mode": "paper",
-    "strategy_version": "10",
-    "status": "open",
-    "price_peak": 67171.390625,
-    "trailing_stop_price": 66622.600364
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260602202010",
     "asset": "DOGE-USD",
@@ -329,38 +273,6 @@
     "status": "open",
     "price_peak": 0.094030000269413,
     "trailing_stop_price": 0.092714
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260603001447",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 74.63999938964844,
-    "entry_time": "2026-06-03T00:14:47.125770+00:00",
-    "stop_loss_pct": 0.01418,
-    "take_profit_pct": 0.03499,
-    "size_usd": 59.28,
-    "position_size_pct": 0.0006,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (16.3)",
-      "5d momentum -1.83%",
-      "1d momentum -8.01%",
-      "BB oversold (pct_b=0.10)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.05,
-    "news_headlines": [
-      "Solana adds native subscriptions and recurring payments to its blockchain",
-      "Western Union, Visa, PayPal, Meta: why major payments giants are racing to Solana",
-      "GalaxyOne is offering 8% yield on cash. Here's where it comes from"
-    ],
-    "mode": "paper",
-    "strategy_version": "10",
-    "status": "open",
-    "price_peak": 75.16000366210938,
-    "trailing_stop_price": 74.094235
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260603101341",
@@ -420,37 +332,9 @@
     ],
     "mode": "paper",
     "strategy_version": "10",
-    "status": "open"
-  },
-  "LCID": {
-    "id": "LCID_20260603150545",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 5.945000171661377,
-    "entry_time": "2026-06-03T15:05:45.361962+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6184.32,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (16.5)",
-      "5d momentum -7.97%",
-      "1d momentum -8.33%",
-      "BB oversold (pct_b=-0.09)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: price surge"
-    ],
-    "news_sentiment": 0.478,
-    "news_headlines": [
-      "Rolls-Royce updates Spectre EV \u2014 one of the few luxury EVs performing well",
-      "Lucid vs. Rivian Automotive: Which EV Maker is Winning the Revenue Race?",
-      "3 Cash-Burning Stocks That Concern Us"
-    ],
-    "mode": "paper",
-    "strategy_version": "10",
-    "status": "open"
+    "status": "open",
+    "price_trough": 302.5700988769531,
+    "trailing_stop_price": 307.10865
   },
   "SOUN": {
     "id": "SOUN_20260603150545",
@@ -480,7 +364,9 @@
     ],
     "mode": "paper",
     "strategy_version": "10",
-    "status": "open"
+    "status": "open",
+    "price_peak": 8.1850004196167,
+    "trailing_stop_price": 8.062225
   },
   "PYPL": {
     "id": "PYPL_20260603150545",
@@ -512,34 +398,123 @@
     "strategy_version": "10",
     "status": "open"
   },
+  "LCID": {
+    "id": "LCID_20260603185645",
+    "asset": "LCID",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 5.784999847412109,
+    "entry_time": "2026-06-03T18:56:45.965899+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6164.88,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (11.1)",
+      "5d momentum -3.15%",
+      "1d momentum -12.02%",
+      "BB oversold (pct_b=0.09)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.478,
+    "news_headlines": [
+      "Rolls-Royce updates Spectre EV \u2014 one of the few luxury EVs performing well",
+      "Lucid vs. Rivian Automotive: Which EV Maker is Winning the Revenue Race?",
+      "3 Cash-Burning Stocks That Concern Us"
+    ],
+    "mode": "paper",
+    "strategy_version": "11",
+    "status": "open"
+  },
   "KLAC": {
-    "id": "KLAC_20260603150545",
+    "id": "KLAC_20260603185645",
     "asset": "KLAC",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 2089.550048828125,
-    "entry_time": "2026-06-03T15:05:45.366691+00:00",
-    "stop_loss_pct": 0.01223,
-    "take_profit_pct": 0.02931,
-    "size_usd": 4792.45,
-    "position_size_pct": 0.0491,
+    "entry_price": 2125.070068359375,
+    "entry_time": "2026-06-03T18:56:45.967749+00:00",
+    "stop_loss_pct": 0.0126,
+    "take_profit_pct": 0.0302,
+    "size_usd": 4944.36,
+    "position_size_pct": 0.0508,
     "confidence": 0.794,
     "signals": [
-      "RSI overbought (89.3)",
-      "5d momentum +4.57%",
-      "1d momentum +7.92%",
-      "BB overbought (pct_b=0.99)",
+      "RSI overbought (88.0)",
+      "5d momentum +1.90%",
+      "1d momentum +10.60%",
+      "BB overbought (pct_b=0.88)",
       "High-impact catalyst",
       "Claude [contradicts]: analyst upgrade; price surge"
     ],
-    "news_sentiment": 0.872,
+    "news_sentiment": 0.87,
     "news_headlines": [
+      "Will Strong Cash Flows Support Lam Research's Buyback Strategy Ahead?",
       "Can Rising Process Control Intensity Drive KLA's Next Growth Phase?",
-      "Stock Indexes Post New Record Highs Amid AI Enthusiasm",
-      "Stocks Push Higher on US Labor Market Strength and AI Spending"
+      "Stock Indexes Post New Record Highs Amid AI Enthusiasm"
     ],
     "mode": "paper",
-    "strategy_version": "10",
+    "strategy_version": "11",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260603185645",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 627.989990234375,
+    "entry_time": "2026-06-03T18:56:45.969053+00:00",
+    "stop_loss_pct": 0.01072,
+    "take_profit_pct": 0.02654,
+    "size_usd": 4406.83,
+    "position_size_pct": 0.0453,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (41.5)",
+      "MACD crossover",
+      "5d momentum -0.67%",
+      "1d momentum -4.70%",
+      "BB oversold (pct_b=0.15)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.333,
+    "news_headlines": [
+      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
+      "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?",
+      "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "11",
+    "status": "open"
+  },
+  "GBP/USD": {
+    "id": "GBP/USD_20260603185645",
+    "asset": "GBP/USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 1.3417595624923706,
+    "entry_time": "2026-06-03T18:56:45.998675+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02617,
+    "size_usd": 5072.02,
+    "position_size_pct": 0.0521,
+    "confidence": 0.543,
+    "signals": [
+      "RSI oversold (26.3)",
+      "BB oversold (pct_b=0.06)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.287,
+    "news_headlines": [
+      "Dollar climbs as US strikes on Iran dent ceasefire optimism",
+      "Dollar drifts lower as oil falls on Hormuz deal optimism",
+      "Deutsche Bank sees room for a further rally in EUR/GBP"
+    ],
+    "mode": "paper",
+    "strategy_version": "11",
     "status": "open"
   }
 }
