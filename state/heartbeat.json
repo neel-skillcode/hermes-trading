@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 97594.39,
+  "portfolio_balance": 97551.12,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 2.88,
-  "unrealized_pnl_usd": 67.82,
-  "equity_value": 97662.21,
+  "portfolio_drawdown_pct": 2.93,
+  "unrealized_pnl_usd": 162.95,
+  "equity_value": 97714.08,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 39037.76,
-  "swing_capital_used_usd": 32858.82,
-  "total_trades": 98,
-  "last_tick": "2026-06-03T05:19:57.208809+00:00",
+  "swing_capital_used_usd": 31796.35,
+  "total_trades": 99,
+  "last_tick": "2026-06-03T10:13:41.465256+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -38,11 +38,11 @@
       "mode": "paper",
       "strategy_version": "03",
       "status": "open",
-      "price_peak": 0.9164000153541565,
-      "trailing_stop_price": 0.909069,
-      "current_price": 0.91638,
-      "unrealized_pnl_pct": 0.006502,
-      "unrealized_pnl_usd": 8.74
+      "price_peak": 0.9167900085449219,
+      "trailing_stop_price": 0.909456,
+      "current_price": 0.91683,
+      "unrealized_pnl_pct": 0.006996,
+      "unrealized_pnl_usd": 9.4
     },
     {
       "id": "USD/CAD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_trough": 1.3778300285339355,
       "trailing_stop_price": 1.388853,
-      "current_price": 1.38495,
-      "unrealized_pnl_pct": -0.002135,
-      "unrealized_pnl_usd": -2.87
+      "current_price": 1.38515,
+      "unrealized_pnl_pct": -0.002279,
+      "unrealized_pnl_usd": -3.06
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -92,11 +92,11 @@
       "mode": "paper",
       "strategy_version": "03",
       "status": "open",
-      "price_peak": 1.061110019683838,
-      "trailing_stop_price": 1.052621,
-      "current_price": 1.06105,
-      "unrealized_pnl_pct": 0.006718,
-      "unrealized_pnl_usd": 9.03
+      "price_peak": 1.0617300271987915,
+      "trailing_stop_price": 1.053236,
+      "current_price": 1.06173,
+      "unrealized_pnl_pct": 0.007363,
+      "unrealized_pnl_usd": 9.9
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -121,9 +121,9 @@
       "status": "open",
       "price_peak": 7.83804988861084,
       "trailing_stop_price": 7.775345,
-      "current_price": 7.83607,
-      "unrealized_pnl_pct": 0.000226,
-      "unrealized_pnl_usd": 0.3
+      "current_price": 7.8358,
+      "unrealized_pnl_pct": 0.000191,
+      "unrealized_pnl_usd": 0.26
     },
     {
       "id": "CAD/JPY_20260524050433",
@@ -148,9 +148,9 @@
       "status": "open",
       "price_peak": 115.59100341796875,
       "trailing_stop_price": 114.666275,
-      "current_price": 115.434998,
-      "unrealized_pnl_pct": 0.002379,
-      "unrealized_pnl_usd": 3.2
+      "current_price": 115.351997,
+      "unrealized_pnl_pct": 0.001658,
+      "unrealized_pnl_usd": 2.23
     },
     {
       "id": "EUR/USD_20260524234359",
@@ -176,9 +176,9 @@
       "status": "open",
       "price_trough": 1.1603620052337646,
       "trailing_stop_price": 1.169645,
-      "current_price": 1.163061,
-      "unrealized_pnl_pct": 0.001512,
-      "unrealized_pnl_usd": 9.72
+      "current_price": 1.161845,
+      "unrealized_pnl_pct": 0.002556,
+      "unrealized_pnl_usd": 16.44
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -209,9 +209,9 @@
       "status": "open",
       "price_peak": 159.95700073242188,
       "trailing_stop_price": 158.677345,
-      "current_price": 159.873993,
-      "unrealized_pnl_pct": 0.004429,
-      "unrealized_pnl_usd": 17.21
+      "current_price": 159.785995,
+      "unrealized_pnl_pct": 0.003876,
+      "unrealized_pnl_usd": 15.06
     },
     {
       "id": "AUD/JPY_20260601001740",
@@ -241,40 +241,9 @@
       "status": "open",
       "price_trough": 114.20700073242188,
       "trailing_stop_price": 115.120657,
-      "current_price": 114.637001,
-      "unrealized_pnl_pct": -0.001275,
-      "unrealized_pnl_usd": -6.57
-    },
-    {
-      "id": "NZD/USD_20260601103551",
-      "asset": "NZD/USD",
-      "trade_type": "swing",
-      "direction": "long",
-      "entry_price": 0.5956635475158691,
-      "entry_time": "2026-06-01T10:35:51.340289+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02593,
-      "size_usd": 4611.77,
-      "position_size_pct": 0.0464,
-      "confidence": 0.483,
-      "signals": [
-        "RSI oversold (18.1)",
-        "BB oversold (pct_b=0.03)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
-      ],
-      "news_sentiment": 0.264,
-      "news_headlines": [
-        "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-        "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-        "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-      ],
-      "mode": "paper",
-      "strategy_version": "08",
-      "status": "open",
-      "current_price": 0.591541,
-      "unrealized_pnl_pct": -0.006921,
-      "unrealized_pnl_usd": -31.92
+      "current_price": 114.570999,
+      "unrealized_pnl_pct": -0.000699,
+      "unrealized_pnl_usd": -3.6
     },
     {
       "id": "ORCL_20260601162829",
@@ -511,11 +480,11 @@
       "mode": "paper",
       "strategy_version": "10",
       "status": "open",
-      "price_peak": 67089.6171875,
-      "trailing_stop_price": 66541.495015,
-      "current_price": 67079.59375,
-      "unrealized_pnl_pct": 0.001008,
-      "unrealized_pnl_usd": 4.64
+      "price_peak": 67171.390625,
+      "trailing_stop_price": 66622.600364,
+      "current_price": 67169.460938,
+      "unrealized_pnl_pct": 0.002349,
+      "unrealized_pnl_usd": 10.81
     },
     {
       "id": "DOGE-USD_20260602202010",
@@ -546,11 +515,11 @@
       "mode": "paper",
       "strategy_version": "10",
       "status": "open",
-      "price_peak": 0.09392999857664108,
-      "trailing_stop_price": 0.092615,
-      "current_price": 0.09391,
-      "unrealized_pnl_pct": 0.003741,
-      "unrealized_pnl_usd": 9.76
+      "price_peak": 0.094030000269413,
+      "trailing_stop_price": 0.092714,
+      "current_price": 0.09403,
+      "unrealized_pnl_pct": 0.005023,
+      "unrealized_pnl_usd": 13.11
     },
     {
       "id": "ETH-USD_20260603001447",
@@ -581,11 +550,11 @@
       "mode": "paper",
       "strategy_version": "10",
       "status": "open",
-      "price_peak": 1868.969970703125,
-      "trailing_stop_price": 1844.804189,
-      "current_price": 1867.920044,
-      "unrealized_pnl_pct": 0.001609,
-      "unrealized_pnl_usd": 9.38
+      "price_peak": 1882.43994140625,
+      "trailing_stop_price": 1858.099993,
+      "current_price": 1882.439941,
+      "unrealized_pnl_pct": 0.009394,
+      "unrealized_pnl_usd": 54.81
     },
     {
       "id": "SOL-USD_20260603001447",
@@ -616,9 +585,40 @@
       "mode": "paper",
       "strategy_version": "10",
       "status": "open",
-      "price_peak": 74.66999816894531,
-      "trailing_stop_price": 73.611178,
-      "current_price": 74.639999,
+      "price_peak": 75.16000366210938,
+      "trailing_stop_price": 74.094235,
+      "current_price": 75.160004,
+      "unrealized_pnl_pct": 0.006967,
+      "unrealized_pnl_usd": 0.41
+    },
+    {
+      "id": "EUR/JPY_20260603101341",
+      "asset": "EUR/JPY",
+      "trade_type": "swing",
+      "direction": "long",
+      "entry_price": 185.57400512695312,
+      "entry_time": "2026-06-03T10:13:41.462003+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02552,
+      "size_usd": 3549.3,
+      "position_size_pct": 0.0364,
+      "confidence": 0.379,
+      "signals": [
+        "RSI oversold (30.3)",
+        "BB oversold (pct_b=0.11)",
+        "News -0.54 (conf 0.65) \u2192 short",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 2 articles. Overa"
+      ],
+      "news_sentiment": -0.538,
+      "news_headlines": [
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
+        "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
+      ],
+      "mode": "paper",
+      "strategy_version": "10",
+      "status": "open",
+      "current_price": 185.574005,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -647,7 +647,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.7062,
+      "rank_score": 0.7061,
       "price": 361.8399963378906,
       "rsi": 15.456526211343345,
       "momentum_5d": -0.021181098832552224,
@@ -657,33 +657,12 @@
       "bollinger_pct_b": 0.0301,
       "volume_spike": true,
       "volume_spike_ratio": 1.68,
-      "news_sentiment": 0.455,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.588,
+      "news_confidence": 0.34,
       "news_headlines": [
         "Trump signs executive order scaling back AI review requirements",
         "How Google is funding its AI push",
-        "AI is carrying the S&P 500 rally: Chart of the Day"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.687,
-      "price": 290.7099914550781,
-      "rsi": 92.05060955933386,
-      "momentum_5d": 0.031360064649033334,
-      "momentum_1d": 0.42274746170386,
-      "macd_crossover": false,
-      "atr_pct": 0.035698715520907136,
-      "bollinger_pct_b": 0.8946,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.875,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Marvell stock soars as Nvidia CEO calls chipmaker 'the next trillion-dollar company'",
-        "Marvell stock among the gainers in latest AI trade upswing",
-        "Morning Bid: Marvell, a fitting name for the latest AI darling"
+        "Warren Buffett's Successor, Greg Abel, Has More Than 28% of Berkshire Hathaway's $330 Billion Portfolio Invested in 2 AI Titans"
       ],
       "high_impact_news": true
     },
@@ -710,7 +689,7 @@
     },
     {
       "asset": "BMY",
-      "rank_score": 0.6798,
+      "rank_score": 0.6778,
       "price": 54.45000076293945,
       "rsi": 14.22413879136387,
       "momentum_5d": -0.0033860632246205673,
@@ -720,12 +699,33 @@
       "bollinger_pct_b": 0.2749,
       "volume_spike": false,
       "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.633,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.617,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "BMY Gets Opdivo Label Expansion in the EU, Update on Camzyos",
-        "Assessing Bristol Myers Squibb (BMY) Valuation As Shares Track Mixed Returns And Earnings Outlook",
-        "Why Bristol Myers Squibb Stock Isn't Nearly As Cheap As It Looks"
+        "Bristol Myers vs. Pfizer: Which High\u2011Yield Dividend Stock Wins Now?",
+        "Is Bristol-Myers Squibb Stock Underperforming the Dow?",
+        "BMY Gets Opdivo Label Expansion in the EU, Update on Camzyos"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRVL",
+      "rank_score": 0.671,
+      "price": 290.7099914550781,
+      "rsi": 92.05060955933386,
+      "momentum_5d": 0.031360064649033334,
+      "momentum_1d": 0.42274746170386,
+      "macd_crossover": false,
+      "atr_pct": 0.035698715520907136,
+      "bollinger_pct_b": 0.8946,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.25,
+      "news_sentiment": 0.52,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Marvell stock soars as Nvidia CEO calls chipmaker 'the next trillion-dollar company'",
+        "Marvell stock among the gainers in latest AI trade upswing",
+        "5 Revealing Analyst Questions From Marvell Technology\u2019s Q1 Earnings Call"
       ],
       "high_impact_news": true
     },
@@ -793,29 +793,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6493,
-      "price": 8.289999961853027,
-      "rsi": 46.999976158119345,
-      "momentum_5d": 0.009744205034633711,
-      "momentum_1d": -0.05040087095704336,
-      "macd_crossover": true,
-      "atr_pct": 0.01654315162657512,
-      "bollinger_pct_b": 0.418,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.57,
-      "news_sentiment": 0.081,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
-        "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
-        "Best Crypto To Buy With $100 Right Now"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SBUX",
-      "rank_score": 0.639,
+      "rank_score": 0.64,
       "price": 95.48999786376953,
       "rsi": 24.862308674474704,
       "momentum_5d": -0.014042340028688415,
@@ -825,12 +804,12 @@
       "bollinger_pct_b": 0.1698,
       "volume_spike": true,
       "volume_spike_ratio": 1.73,
-      "news_sentiment": 0.767,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.773,
+      "news_confidence": 0.44,
       "news_headlines": [
+        "Too Close for Comfort: How Over-Expansion Is Hurting Major Retailers",
         "How Is Starbucks\u2019 Stock Performance Compared to Other Consumer Discretionary Stocks?",
-        "Does Starbucks\u2019 (SBUX) Nostalgia-Driven Menu Strategy Clarify or Complicate Its Long-Term Brand Narrative?",
-        "Smart Money Owns 87% of Starbucks. Should Retail Investors Follow?"
+        "Does Starbucks\u2019 (SBUX) Nostalgia-Driven Menu Strategy Clarify or Complicate Its Long-Term Brand Narrative?"
       ],
       "high_impact_news": true
     },
@@ -857,7 +836,7 @@
     },
     {
       "asset": "BAC",
-      "rank_score": 0.61,
+      "rank_score": 0.6045,
       "price": 52.5,
       "rsi": 70.99052444821915,
       "momentum_5d": 0.00038110628693080196,
@@ -867,39 +846,18 @@
       "bollinger_pct_b": 0.8644,
       "volume_spike": true,
       "volume_spike_ratio": 1.94,
-      "news_sentiment": 0.607,
-      "news_confidence": 0.61,
+      "news_sentiment": 0.553,
+      "news_confidence": 0.57,
       "news_headlines": [
+        "Is Bank of America (BAC) Still Attractive After Its Strong Multi Year Share Price Run?",
         "SpaceX Seeks $135 a Share for $75 Billion IPO, Reuters Says",
-        "Mobia Medical poised for commercial expansion, BofA says in initial coverage",
-        "FedEx Freight initiated at \u2018Buy\u2019 by Bank of America on margin expansion potential"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.6028,
-      "price": 640.9299926757812,
-      "rsi": 31.985800583109565,
-      "momentum_5d": -0.019624964663169518,
-      "momentum_1d": -0.06115603276486811,
-      "macd_crossover": false,
-      "atr_pct": 0.012983372640031906,
-      "bollinger_pct_b": 0.1795,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.7,
-      "news_sentiment": -0.333,
-      "news_confidence": 0.3,
-      "news_headlines": [
-        "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
-        "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?",
-        "Top Cryptocurrencies Mixed; Bitcoin Drops Below $72,000"
+        "Mobia Medical poised for commercial expansion, BofA says in initial coverage"
       ],
       "high_impact_news": true
     },
     {
       "asset": "META",
-      "rank_score": 0.5887,
+      "rank_score": 0.5957,
       "price": 597.6599731445312,
       "rsi": 18.46293332979944,
       "momentum_5d": -0.015986996477794023,
@@ -909,12 +867,12 @@
       "bollinger_pct_b": 0.1494,
       "volume_spike": false,
       "volume_spike_ratio": 0.93,
-      "news_sentiment": 0.684,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.673,
+      "news_confidence": 0.49,
       "news_headlines": [
         "SpaceX, OpenAI & Anthropic IPOs: Investors should ask one question",
-        "AI is carrying the S&P 500 rally: Chart of the Day",
-        "Cheap Stocks, Nervous Market, Big Opportunity: Where to Put $10,000 Right Now"
+        "Analysis-AI building boom ripples through inflation-hit Treasury market",
+        "Jensen Huang Praises Meta, Says \u2018Nobody Uses AI Better\u2019 \u2013 META Stock Rebounds In Premarket"
       ],
       "high_impact_news": true
     },
@@ -940,23 +898,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "MU",
-      "rank_score": 0.5748,
-      "price": 1064.0799560546875,
-      "rsi": 86.77961841665376,
-      "momentum_5d": 0.022927598736569955,
-      "momentum_1d": 0.13683755988748664,
+      "asset": "AMZN",
+      "rank_score": 0.5656,
+      "price": 256.5,
+      "rsi": 21.192970509989678,
+      "momentum_5d": -0.01603495777667941,
+      "momentum_1d": -0.05364524825312655,
       "macd_crossover": false,
-      "atr_pct": 0.020719034512115413,
-      "bollinger_pct_b": 0.8112,
+      "atr_pct": 0.011292498213306704,
+      "bollinger_pct_b": 0.1606,
       "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.4,
+      "volume_spike_ratio": 0.9,
+      "news_sentiment": 0.467,
+      "news_confidence": 0.3,
       "news_headlines": [
         "Marvell stock soars as Nvidia CEO calls chipmaker 'the next trillion-dollar company'",
-        "The record-setting S&P 500 is putting up some impressive stats: By the numbers",
-        "Morning Bid: Marvell, a fitting name for the latest AI darling"
+        "Private infra, real estate capital to play larger financing role in AI data center boom, Goldman says",
+        "Tangem Pushes Offline Crypto Hardware Wallets Into 200 US Stores"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.5651,
+      "price": 481.5400085449219,
+      "rsi": 78.26413148786145,
+      "momentum_5d": 0.0018412578000283554,
+      "momentum_1d": 0.12508008095047718,
+      "macd_crossover": false,
+      "atr_pct": 0.018242939049559044,
+      "bollinger_pct_b": 0.8383,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.89,
+      "news_sentiment": 0.927,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "What's moving markets: June 3",
+        "Nasdaq, S&P 500 Futures Take A Breather Ahead Of ADP Jobs Data: Why PANW, AVGO, CRWD, PLTR, ASTC, GME, XOS Are In Focus",
+        "Nvidia vs. Broadcom: Which AI Chip Stock Is the Better Buy Right Now?"
       ],
       "high_impact_news": true
     },
@@ -1003,27 +982,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5551,
-      "price": 0.09391000121831894,
-      "rsi": 45.84617124552201,
-      "momentum_5d": 0.008808717043445633,
-      "momentum_1d": -0.05494617467393495,
-      "macd_crossover": true,
-      "atr_pct": 0.015234956346094872,
-      "bollinger_pct_b": 0.4121,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.542,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Cardsmiths' New America250 Trading Cards Have Real Bitcoin, Dogecoin Up for Grabs",
-        "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
-        "Kalshi Files for XRP, XLM, SOL, SHIB, HBAR, DOGE, & 6 Other Altcoins Perp Futures"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARM",
       "rank_score": 0.5516,
       "price": 402.5450134277344,
@@ -1041,6 +999,48 @@
         "Why a massive Nvidia stock rally may be just getting started",
         "SoftBank CEO doubles down on AI, stock market message for 2026",
         "Arm's $15 Billion AI Chip Target May Arrive Early"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "C",
+      "rank_score": 0.5485,
+      "price": 131.2550048828125,
+      "rsi": 83.07411395397858,
+      "momentum_5d": -0.005455587705284032,
+      "momentum_1d": 0.060303771807701786,
+      "macd_crossover": false,
+      "atr_pct": 0.009726760425935076,
+      "bollinger_pct_b": 0.8327,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.15,
+      "news_sentiment": 0.202,
+      "news_confidence": 0.62,
+      "news_headlines": [
+        "Citigroup\u2019s Tokenization Push And Valuation Gap Draw Investor Attention",
+        "SpaceX Seeks $135 a Share for $75 Billion IPO, Reuters Says",
+        "IBM Stock Hits 52-Week High \u2014 Citi Raises Price Target To $375 On Quantum Push, Says Stock Is \u2018Misunderstood\u2019"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MU",
+      "rank_score": 0.5468,
+      "price": 1064.0799560546875,
+      "rsi": 86.77961841665376,
+      "momentum_5d": 0.022927598736569955,
+      "momentum_1d": 0.13683755988748664,
+      "macd_crossover": false,
+      "atr_pct": 0.020719034512115413,
+      "bollinger_pct_b": 0.8112,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 0.062,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Marvell stock soars as Nvidia CEO calls chipmaker 'the next trillion-dollar company'",
+        "The record-setting S&P 500 is putting up some impressive stats: By the numbers",
+        "Nvidia CEO Pitches \u2018Insane\u2019 AI Returns to Billionaire Families"
       ],
       "high_impact_news": true
     }

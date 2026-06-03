@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9161099791526794,
-    "trailing_stop_price": 0.908781
+    "price_peak": 0.9167900085449219,
+    "trailing_stop_price": 0.909456
   },
   "USD/CAD": {
     "id": "USD/CAD_20260524050433",
@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0604900121688843,
-    "trailing_stop_price": 1.052006
+    "price_peak": 1.0617300271987915,
+    "trailing_stop_price": 1.053236
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -202,34 +202,6 @@
     "status": "open",
     "price_trough": 114.20700073242188,
     "trailing_stop_price": 115.120657
-  },
-  "NZD/USD": {
-    "id": "NZD/USD_20260601103551",
-    "asset": "NZD/USD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 0.5956635475158691,
-    "entry_time": "2026-06-01T10:35:51.340289+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02593,
-    "size_usd": 4611.77,
-    "position_size_pct": 0.0464,
-    "confidence": 0.483,
-    "signals": [
-      "RSI oversold (18.1)",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
-    ],
-    "news_sentiment": 0.264,
-    "news_headlines": [
-      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-    ],
-    "mode": "paper",
-    "strategy_version": "08",
-    "status": "open"
   },
   "ORCL": {
     "id": "ORCL_20260601162829",
@@ -447,7 +419,9 @@
     ],
     "mode": "paper",
     "strategy_version": "10",
-    "status": "open"
+    "status": "open",
+    "price_peak": 67171.390625,
+    "trailing_stop_price": 66622.600364
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260602202010",
@@ -477,7 +451,9 @@
     ],
     "mode": "paper",
     "strategy_version": "10",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.094030000269413,
+    "trailing_stop_price": 0.092714
   },
   "ETH-USD": {
     "id": "ETH-USD_20260603001447",
@@ -507,7 +483,9 @@
     ],
     "mode": "paper",
     "strategy_version": "10",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1882.43994140625,
+    "trailing_stop_price": 1858.099993
   },
   "SOL-USD": {
     "id": "SOL-USD_20260603001447",
@@ -534,6 +512,36 @@
       "Solana adds native subscriptions and recurring payments to its blockchain",
       "Western Union, Visa, PayPal, Meta: why major payments giants are racing to Solana",
       "GalaxyOne is offering 8% yield on cash. Here's where it comes from"
+    ],
+    "mode": "paper",
+    "strategy_version": "10",
+    "status": "open",
+    "price_peak": 75.16000366210938,
+    "trailing_stop_price": 74.094235
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260603101341",
+    "asset": "EUR/JPY",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 185.57400512695312,
+    "entry_time": "2026-06-03T10:13:41.462003+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02552,
+    "size_usd": 3549.3,
+    "position_size_pct": 0.0364,
+    "confidence": 0.379,
+    "signals": [
+      "RSI oversold (30.3)",
+      "BB oversold (pct_b=0.11)",
+      "News -0.54 (conf 0.65) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 2 articles. Overa"
+    ],
+    "news_sentiment": -0.538,
+    "news_headlines": [
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
+      "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
     ],
     "mode": "paper",
     "strategy_version": "10",
