@@ -270,70 +270,6 @@
     "price_peak": 1.3452250957489014,
     "trailing_stop_price": 1.334463
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260604103323",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.08749999850988388,
-    "entry_time": "2026-06-04T10:33:23.685577+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5440.18,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (36.3)",
-      "5d momentum -2.73%",
-      "1d momentum -7.07%",
-      "BB oversold (pct_b=0.04)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.338,
-    "news_headlines": [
-      "Dogecoin Is A 'Buy', Analyst Says, As House Of Doge Integrates With Paxos Network",
-      "Bitcoin Below $63,000, Ethereum, XRP, Dogecoin Also Plummet Amid 'Extreme Fear': Analyst Pinpoints Bearish Shift In BTC's Risk Profile",
-      "Cardsmiths' New America250 Trading Cards Have Real Bitcoin, Dogecoin Up for Grabs"
-    ],
-    "mode": "paper",
-    "strategy_version": "12",
-    "status": "open",
-    "price_peak": 0.08904000371694565,
-    "trailing_stop_price": 0.087704
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260604103323",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 7.650000095367432,
-    "entry_time": "2026-06-04T10:33:23.687652+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 731.46,
-    "position_size_pct": 0.0075,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (39.1)",
-      "5d momentum -3.04%",
-      "1d momentum -8.27%",
-      "BB oversold (pct_b=0.01)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
-      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
-      "Best Crypto To Buy With $100 Right Now"
-    ],
-    "mode": "paper",
-    "strategy_version": "12",
-    "status": "open",
-    "price_peak": 7.769999980926514,
-    "trailing_stop_price": 7.65345
-  },
   "AVGO": {
     "id": "AVGO_20260604134502",
     "asset": "AVGO",
@@ -457,7 +393,9 @@
     ],
     "mode": "paper",
     "strategy_version": "12",
-    "status": "open"
+    "status": "open",
+    "price_trough": 67.83999633789062,
+    "trailing_stop_price": 68.647971
   },
   "XRP-USD": {
     "id": "XRP-USD_20260604210132",
@@ -485,7 +423,9 @@
     ],
     "mode": "paper",
     "strategy_version": "12",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.159600019454956,
+    "trailing_stop_price": 1.171671
   },
   "BNB-USD": {
     "id": "BNB-USD_20260604210132",
@@ -512,7 +452,9 @@
     ],
     "mode": "paper",
     "strategy_version": "12",
-    "status": "open"
+    "status": "open",
+    "price_trough": 599.0399780273438,
+    "trailing_stop_price": 603.239248
   },
   "ETH-USD": {
     "id": "ETH-USD_20260604210132",
@@ -539,7 +481,9 @@
     ],
     "mode": "paper",
     "strategy_version": "12",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1757.6500244140625,
+    "trailing_stop_price": 1773.011886
   },
   "BTC-USD": {
     "id": "BTC-USD_20260604210132",
@@ -563,6 +507,68 @@
       "Better.com, Coinbase team up on crypto-backed mortgages",
       "Bitcoin and ethereum prices today, Thursday, June 4, 2026: Bitcoin prices plunge below pre-war levels",
       "Amazon-Backed X-Energy Dives To A Post-IPO Low. Here's Why."
+    ],
+    "mode": "paper",
+    "strategy_version": "12",
+    "status": "open",
+    "price_trough": 63396.01953125,
+    "trailing_stop_price": 63901.285807
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260604224033",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.0872500017285347,
+    "entry_time": "2026-06-04T22:40:33.573169+00:00",
+    "stop_loss_pct": 0.01406,
+    "take_profit_pct": 0.03426,
+    "size_usd": 5460.18,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (40.5)",
+      "5d momentum -2.21%",
+      "1d momentum -5.12%",
+      "BB oversold (pct_b=0.11)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.338,
+    "news_headlines": [
+      "Dogecoin Is A 'Buy', Analyst Says, As House Of Doge Integrates With Paxos Network",
+      "Bitcoin Below $63,000, Ethereum, XRP, Dogecoin Also Plummet Amid 'Extreme Fear': Analyst Pinpoints Bearish Shift In BTC's Risk Profile",
+      "Cardsmiths' New America250 Trading Cards Have Real Bitcoin, Dogecoin Up for Grabs"
+    ],
+    "mode": "paper",
+    "strategy_version": "12",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260604224033",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 7.599999904632568,
+    "entry_time": "2026-06-04T22:40:33.575786+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 5835.02,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (36.8)",
+      "5d momentum -1.94%",
+      "1d momentum -6.17%",
+      "BB oversold (pct_b=0.13)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
+      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
+      "Best Crypto To Buy With $100 Right Now"
     ],
     "mode": "paper",
     "strategy_version": "12",
