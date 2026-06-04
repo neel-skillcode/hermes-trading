@@ -453,8 +453,8 @@
     "mode": "paper",
     "strategy_version": "11",
     "status": "open",
-    "price_peak": 1.3425341844558716,
-    "trailing_stop_price": 1.331794
+    "price_peak": 1.3427504301071167,
+    "trailing_stop_price": 1.332008
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260604020357",
@@ -484,33 +484,35 @@
     ],
     "mode": "paper",
     "strategy_version": "11",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.08986999839544296,
+    "trailing_stop_price": 0.088522
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260604020357",
-    "asset": "SOL-USD",
+  "BTC-USD": {
+    "id": "BTC-USD_20260604065323",
+    "asset": "BTC-USD",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 67.83999633789062,
-    "entry_time": "2026-06-04T02:03:57.901679+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 814.97,
-    "position_size_pct": 0.0084,
-    "confidence": 0.934,
+    "direction": "short",
+    "entry_price": 64066.19140625,
+    "entry_time": "2026-06-04T06:53:23.712967+00:00",
+    "stop_loss_pct": 0.01494,
+    "take_profit_pct": 0.03683,
+    "size_usd": 827.7,
+    "position_size_pct": 0.0085,
+    "confidence": 0.931,
     "signals": [
-      "RSI oversold (16.2)",
-      "5d momentum -6.67%",
-      "1d momentum -8.69%",
-      "BB oversold (pct_b=-0.10)",
+      "RSI oversold (38.7)",
+      "MACD crossover",
+      "5d momentum +3.19%",
+      "1d momentum -4.21%",
       "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 3 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.241,
+    "news_sentiment": -0.139,
     "news_headlines": [
-      "HYPE Token ETFs: What Hyperliquid Is and Whether THYP, BHYP, or HYPG Is Worth Buying",
-      "Mastercard taps Solana as it brings stablecoin settlement to its global card network",
-      "As Oil Moves Higher, Bitcoin Sinks to Lowest Price Since March"
+      "Bitcoin continues plunge as one analyst says token's  'bear market is in late stages'",
+      "Bitcoin dropped below $70K. So how are crypto traders feeling?",
+      "BitMine Tests Saylor\u2019s Capital Strategy While Sitting on $8 Billion ETH Loss"
     ],
     "mode": "paper",
     "strategy_version": "11",
