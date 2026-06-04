@@ -207,40 +207,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_peak": 631.5650024414062,
-    "trailing_stop_price": 613.439087
-  },
-  "NKE": {
-    "id": "NKE_20260602171250",
-    "asset": "NKE",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 43.68000030517578,
-    "entry_time": "2026-06-02T17:12:50.228098+00:00",
-    "stop_loss_pct": 0.0108,
-    "take_profit_pct": 0.02551,
-    "size_usd": 4540.17,
-    "position_size_pct": 0.0463,
-    "confidence": 0.724,
-    "signals": [
-      "RSI oversold (16.7)",
-      "5d momentum -4.59%",
-      "1d momentum -6.86%",
-      "BB oversold (pct_b=-0.00)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: fed dovish; analyst downgrade; macro risk"
-    ],
-    "news_sentiment": -0.111,
-    "news_headlines": [
-      "Nike Analyst: \u201895% of People Say Nike Is a Brand for Me\u2019 \u2013 No Other Brand Gets Above 60%",
-      "NIKE's Turnaround Story: Are Earnings Finally Finding Footing?",
-      "Tariff-Driven Inflation Is Trapping Mortgage Rates, and the Fed Can\u2019t Fix It with Rate Cuts"
-    ],
-    "mode": "paper",
-    "strategy_version": "09",
-    "status": "open",
-    "price_peak": 44.189998626708984,
-    "trailing_stop_price": 43.712747
+    "price_peak": 632.4299926757812,
+    "trailing_stop_price": 614.279252
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260603101341",
@@ -490,7 +458,9 @@
     ],
     "mode": "paper",
     "strategy_version": "12",
-    "status": "open"
+    "status": "open",
+    "price_peak": 409.67999267578125,
+    "trailing_stop_price": 403.534793
   },
   "UNH": {
     "id": "UNH_20260604134502",
@@ -521,7 +491,9 @@
     ],
     "mode": "paper",
     "strategy_version": "12",
-    "status": "open"
+    "status": "open",
+    "price_trough": 396.7900085449219,
+    "trailing_stop_price": 401.309447
   },
   "MU": {
     "id": "MU_20260604134502",
@@ -550,6 +522,38 @@
       "Intel, AMD, Micron shares sink as Broadcom results spark semiconductor sector sell-off",
       "US Equity Futures Mixed Pre-Bell as Broadcom Falls, Clashes Continue in Middle East",
       "Micron Stock Drops, Brace for the Memory-Price Peak"
+    ],
+    "mode": "paper",
+    "strategy_version": "12",
+    "status": "open",
+    "price_peak": 1011.3610229492188,
+    "trailing_stop_price": 996.190608
+  },
+  "MRNA": {
+    "id": "MRNA_20260604163825",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 51.459999084472656,
+    "entry_time": "2026-06-04T16:38:25.860243+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 4527.49,
+    "position_size_pct": 0.0463,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (88.9)",
+      "5d momentum +5.34%",
+      "1d momentum +16.01%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.805,
+    "news_headlines": [
+      "Moderna (MRNA) Climbs 7.5% Ahead of Next Week\u2019s Key Updates",
+      "Meet the Biotech Stock That's Trouncing Lilly, Merck, and Pfizer in 2026",
+      "Moderna CEPI Ebola Vaccine Work Highlights Broader Infectious Disease Ambitions"
     ],
     "mode": "paper",
     "strategy_version": "12",
