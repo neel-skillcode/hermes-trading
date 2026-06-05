@@ -117,8 +117,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.1524720191955566,
-    "trailing_stop_price": 1.161692
+    "price_trough": 1.1522064208984375,
+    "trailing_stop_price": 1.161424
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -176,38 +176,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_trough": 112.9489974975586,
-    "trailing_stop_price": 113.852589
-  },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260603101341",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 185.57400512695312,
-    "entry_time": "2026-06-03T10:13:41.462003+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02552,
-    "size_usd": 3549.3,
-    "position_size_pct": 0.0364,
-    "confidence": 0.379,
-    "signals": [
-      "RSI oversold (30.3)",
-      "BB oversold (pct_b=0.11)",
-      "News -0.54 (conf 0.65) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 2 articles. Overa"
-    ],
-    "news_sentiment": -0.538,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
-      "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
-    ],
-    "mode": "paper",
-    "strategy_version": "10",
-    "status": "open",
-    "price_peak": 186.05299377441406,
-    "trailing_stop_price": 184.56457
+    "price_trough": 112.76000213623047,
+    "trailing_stop_price": 113.662082
   },
   "SLV": {
     "id": "SLV_20260605161646",
@@ -269,7 +239,9 @@
     ],
     "mode": "paper",
     "strategy_version": "13",
-    "status": "open"
+    "status": "open",
+    "price_peak": 152.39999389648438,
+    "trailing_stop_price": 150.113994
   },
   "SMCI": {
     "id": "SMCI_20260605161646",
@@ -297,66 +269,6 @@
       "Stock Market Today: Nasdaq Slides 2% As Chips Drop, Yields Rise; AMD, Intel Lead Semis Sell-Off (Live Coverage)",
       "Stocks to Watch Recap: Broadcom, Universal Music,  Quantinuum",
       "Quantinuum, Broadcom, UnitedHealth, and More Stocks That Explain Today\u2019s Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "13",
-    "status": "open"
-  },
-  "QCOM": {
-    "id": "QCOM_20260605161646",
-    "asset": "QCOM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 221.85000610351562,
-    "entry_time": "2026-06-05T16:16:46.732586+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6153.42,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (16.2)",
-      "5d momentum -8.47%",
-      "1d momentum -3.11%",
-      "BB oversold (pct_b=-0.13)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade; price surge; price decline"
-    ],
-    "news_sentiment": 0.684,
-    "news_headlines": [
-      "Qualcomm executive on agentic AI push: \u2019The demand signal is clear\u2019",
-      "Qualcomm (QCOM) Stock Slides as Market Rises: Facts to Know Before You Trade",
-      "Stocks Rebound on Strength in Banks and Managed Healthcare"
-    ],
-    "mode": "paper",
-    "strategy_version": "13",
-    "status": "open"
-  },
-  "LCID": {
-    "id": "LCID_20260605161646",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 5.199999809265137,
-    "entry_time": "2026-06-05T16:16:46.735202+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 5805.34,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (20.0)",
-      "5d momentum -9.57%",
-      "1d momentum -22.05%",
-      "BB oversold (pct_b=0.00)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.447,
-    "news_headlines": [
-      "Lucid Group (LCID) Down 7.6% Since Last Earnings Report: Can It Rebound?",
-      "Uber reportedly commits $500m to robotaxi startup Nuro",
-      "Lucid Group CEO Shift Tests Execution, Transparency And Legal Risk"
     ],
     "mode": "paper",
     "strategy_version": "13",
@@ -449,7 +361,9 @@
     ],
     "mode": "paper",
     "strategy_version": "14",
-    "status": "open"
+    "status": "open",
+    "price_peak": 16.350000381469727,
+    "trailing_stop_price": 16.10475
   },
   "SNAP": {
     "id": "SNAP_20260605181600",
@@ -473,6 +387,122 @@
       "Why Is Snap (SNAP) Up 1.5% Since Last Earnings Report?",
       "Sector Update: Tech Stocks Fall Thursday Afternoon",
       "Snapchat is growing its presence in India"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open",
+    "price_trough": 5.760000228881836,
+    "trailing_stop_price": 5.9904
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20260605201553",
+    "asset": "AUD/USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.7040765881538391,
+    "entry_time": "2026-06-05T20:15:53.928673+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00483,
+    "size_usd": 5147.85,
+    "position_size_pct": 0.0533,
+    "confidence": 0.833,
+    "signals": [
+      "RSI oversold (14.8)",
+      "1d momentum -1.33%",
+      "BB oversold (pct_b=0.07)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: fed dovish"
+    ],
+    "news_sentiment": 0.415,
+    "news_headlines": [
+      "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
+      "Dollar drifts lower as oil falls on Hormuz deal optimism",
+      "The Dollar is Now Lower Than When the Iran War Began"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260605201553",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.5792064666748047,
+    "entry_time": "2026-06-05T20:15:53.929986+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 5401.23,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (15.2)",
+      "5d momentum -0.30%",
+      "1d momentum -1.30%",
+      "BB oversold (pct_b=0.08)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
+    ],
+    "news_sentiment": 0.264,
+    "news_headlines": [
+      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260605201553",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 572.5,
+    "entry_time": "2026-06-05T20:15:53.931330+00:00",
+    "stop_loss_pct": 0.01385,
+    "take_profit_pct": 0.03041,
+    "size_usd": 1298.34,
+    "position_size_pct": 0.0134,
+    "confidence": 0.391,
+    "signals": [
+      "5d momentum -1.03%",
+      "1d momentum -5.36%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.455,
+    "news_headlines": [
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $61,000 Level",
+      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
+      "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "EUR/GBP": {
+    "id": "EUR/GBP_20260605201553",
+    "asset": "EUR/GBP",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 0.8639699816703796,
+    "entry_time": "2026-06-05T20:15:53.937549+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02525,
+    "size_usd": 2901.46,
+    "position_size_pct": 0.03,
+    "confidence": 0.313,
+    "signals": [
+      "RSI oversold (35.8)",
+      "High-impact catalyst",
+      "Claude [supports]: fed dovish"
+    ],
+    "news_sentiment": -0.395,
+    "news_headlines": [
+      "Pound Mostly Steady After Weaker GDP",
+      "ECB holds interest rates at 2% after eurozone inflation drops in January",
+      "Eurozone economy expands 0.3% in final quarter of 2025, above expectations"
     ],
     "mode": "paper",
     "strategy_version": "14",
