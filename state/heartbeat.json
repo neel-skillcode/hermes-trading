@@ -3,15 +3,15 @@
   "portfolio_balance": 96560.85,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 3.91,
-  "unrealized_pnl_usd": -16.15,
-  "equity_value": 96544.7,
+  "unrealized_pnl_usd": -5.99,
+  "equity_value": 96554.86,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 38624.34,
   "swing_capital_used_usd": 29760.5,
   "total_trades": 149,
-  "last_tick": "2026-06-05T22:50:38.262298+00:00",
+  "last_tick": "2026-06-05T23:55:22.527207+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -550,9 +550,11 @@
       "mode": "paper",
       "strategy_version": "14",
       "status": "open",
-      "current_price": 576.099976,
-      "unrealized_pnl_pct": -0.006288,
-      "unrealized_pnl_usd": -8.16
+      "price_trough": 571.6199951171875,
+      "trailing_stop_price": 579.536932,
+      "current_price": 571.619995,
+      "unrealized_pnl_pct": 0.001537,
+      "unrealized_pnl_usd": 2.0
     },
     {
       "id": "EUR/GBP_20260605201553",
@@ -650,6 +652,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "KLAC",
+      "rank_score": 0.7805,
+      "price": 1929.1300048828125,
+      "rsi": 21.92982914331381,
+      "momentum_5d": -0.03768683620524457,
+      "momentum_1d": -0.03458059195454962,
+      "macd_crossover": false,
+      "atr_pct": 0.02285780925846031,
+      "bollinger_pct_b": -0.0171,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.69,
+      "news_sentiment": 0.487,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Entegris and KLA Corporation Stocks Trade Down, What You Need To Know",
+        "KLA (KLAC) Suffers a Larger Drop Than the General Market: Key Insights",
+        "KLA Split And Dividend Hike Contrast With Rich Valuation And AI Hopes"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "QQQ",
       "rank_score": 0.7775,
       "price": 705.2100219726562,
@@ -671,29 +694,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "KLAC",
-      "rank_score": 0.7735,
-      "price": 1929.1300048828125,
-      "rsi": 21.92982914331381,
-      "momentum_5d": -0.03768683620524457,
-      "momentum_1d": -0.03458059195454962,
-      "macd_crossover": false,
-      "atr_pct": 0.02285780925846031,
-      "bollinger_pct_b": -0.0171,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.69,
-      "news_sentiment": 0.353,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "KLA Split And Dividend Hike Contrast With Rich Valuation And AI Hopes",
-        "Stocks Tumble on Tech Weakness and Fed Rate Hike Speculation",
-        "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
-      "rank_score": 0.7646,
+      "rank_score": 0.7576,
       "price": 215.52999877929688,
       "rsi": 12.273025128761674,
       "momentum_5d": -0.04565177880701186,
@@ -703,12 +705,12 @@
       "bollinger_pct_b": 0.0667,
       "volume_spike": true,
       "volume_spike_ratio": 1.78,
-      "news_sentiment": -0.222,
-      "news_confidence": 0.36,
+      "news_sentiment": -0.024,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "Why Qualcomm (QCOM) Stock Is Nosediving",
         "Decoding AVGO Stock's Premium Valuation",
-        "Nasdaq Suffers Worst Day in More Than a Year; S&P 500 Snaps Winning Weekly Streak",
-        "50% Upside For AVGO Stock?"
+        "Nasdaq Suffers Worst Day in More Than a Year; S&P 500 Snaps Winning Weekly Streak"
       ],
       "high_impact_news": true
     },
@@ -735,7 +737,7 @@
     },
     {
       "asset": "MU",
-      "rank_score": 0.7467,
+      "rank_score": 0.7476,
       "price": 864.02001953125,
       "rsi": 10.252184518828074,
       "momentum_5d": -0.06766296118763955,
@@ -745,18 +747,18 @@
       "bollinger_pct_b": 0.0527,
       "volume_spike": false,
       "volume_spike_ratio": 1.11,
-      "news_sentiment": -0.064,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.083,
+      "news_confidence": 0.48,
       "news_headlines": [
         "Chip sell-off rattles markets",
         "The stock market's scorching run means the rich will keep getting richer: Chart",
-        "Is Micron (MU) One of the Best Cheap Stocks to Buy for Beginners?"
+        "Intel and Micron Shares Plummet, What You Need To Know"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.7376,
+      "rank_score": 0.7446,
       "price": 263.4700012207031,
       "rsi": 31.963638230202847,
       "momentum_5d": -0.09120072473325935,
@@ -766,18 +768,18 @@
       "bollinger_pct_b": -0.0945,
       "volume_spike": false,
       "volume_spike_ratio": 0.9,
-      "news_sentiment": 0.189,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Marvell stock pops after S&P 500 inclusion announcement",
-        "Marvell Technology, Flex To Join S&P 500 Index In Quarterly Rebalance",
-        "Marvell Stock Was Just Added to S&P 500. Here\u2019s Who Else Was Included and Bumped."
+        "Marvell Technology and IPG Photonics Shares Are Falling, What You Need To Know",
+        "MRVL Stock Jumps After-Hours On S&P 500 Inclusion",
+        "Marvell stock pops after S&P 500 inclusion announcement"
       ],
       "high_impact_news": true
     },
     {
       "asset": "INTC",
-      "rank_score": 0.7011,
+      "rank_score": 0.7081,
       "price": 98.95999908447266,
       "rsi": 13.520688959105883,
       "momentum_5d": -0.04818699699344475,
@@ -787,12 +789,12 @@
       "bollinger_pct_b": 0.0101,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.08,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.55,
       "news_headlines": [
         "Nasdaq plunges 1,100 points over renewed rate hike concerns",
-        "Berkshire Hathaway Just Agreed to Put $10 Billion Into Alphabet's AI Build-Out. Should Investors Follow?",
-        "Chips sector bloodbath drags Nasdaq down 4.2%"
+        "Intel and Micron Shares Plummet, What You Need To Know",
+        "Berkshire Hathaway Just Agreed to Put $10 Billion Into Alphabet's AI Build-Out. Should Investors Follow?"
       ],
       "high_impact_news": true
     },
@@ -839,27 +841,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.685,
-      "price": 1595.699951171875,
-      "rsi": 37.734244603535984,
-      "momentum_5d": 0.0015188302310347338,
-      "momentum_1d": -0.0969797463179504,
-      "macd_crossover": true,
-      "atr_pct": 0.020804569050878293,
-      "bollinger_pct_b": 0.292,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.1,
-      "news_sentiment": -0.159,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, June 5, 2026: Prices continue their descent - 5 reasons why",
-        "Analyst who nailed 2021 Bitcoin crash sends another warning",
-        "Morgan Stanley Opens New Crypto-to-ETF Path With Galaxy Digital"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARM",
       "rank_score": 0.6734,
       "price": 342.5,
@@ -882,7 +863,7 @@
     },
     {
       "asset": "AMD",
-      "rank_score": 0.6575,
+      "rank_score": 0.6675,
       "price": 466.3760986328125,
       "rsi": 15.568406946382439,
       "momentum_5d": -0.040857991524746645,
@@ -892,12 +873,12 @@
       "bollinger_pct_b": 0.0797,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.092,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.313,
+      "news_confidence": 0.46,
       "news_headlines": [
+        "Why AMD (AMD) Shares Are Trading Lower Today",
         "Chips sector bloodbath drags Nasdaq down 4.2%",
-        "Decoding AVGO Stock's Premium Valuation",
-        "Nasdaq Suffers Worst Day in More Than a Year; S&P 500 Snaps Winning Weekly Streak"
+        "Decoding AVGO Stock's Premium Valuation"
       ],
       "high_impact_news": true
     },
@@ -944,6 +925,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVGO",
+      "rank_score": 0.6382,
+      "price": 385.7300109863281,
+      "rsi": 16.274652865319837,
+      "momentum_5d": -0.031559069023055906,
+      "momentum_1d": -0.1881990082484539,
+      "macd_crossover": false,
+      "atr_pct": 0.044439823919848645,
+      "bollinger_pct_b": 0.221,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 0.893,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Nasdaq plunges 1,100 points over renewed rate hike concerns",
+        "Entegris and KLA Corporation Stocks Trade Down, What You Need To Know",
+        "Teradyne and Monolithic Power Systems Shares Plummet, What You Need To Know"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "IONQ",
       "rank_score": 0.6375,
       "price": 56.779998779296875,
@@ -986,23 +988,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.6162,
-      "price": 385.7300109863281,
-      "rsi": 16.274652865319837,
-      "momentum_5d": -0.031559069023055906,
-      "momentum_1d": -0.1881990082484539,
+      "asset": "ETH-USD",
+      "rank_score": 0.6188,
+      "price": 1581.2099609375,
+      "rsi": 31.106506980442973,
+      "momentum_5d": 0.018919345177343543,
+      "momentum_1d": -0.10607011401800727,
       "macd_crossover": false,
-      "atr_pct": 0.044439823919848645,
-      "bollinger_pct_b": 0.221,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.52,
+      "atr_pct": 0.021784402096573417,
+      "bollinger_pct_b": 0.2408,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.06,
+      "news_sentiment": -0.159,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "Nasdaq plunges 1,100 points over renewed rate hike concerns",
-        "Marvell stock pops after S&P 500 inclusion announcement",
-        "Stock Market Today, June 5: Broadcom Falls as Strong AI Results Fail to Lift Guidance"
+        "Bitcoin and ethereum prices today, Friday, June 5, 2026: Prices continue their descent - 5 reasons why",
+        "Analyst who nailed 2021 Bitcoin crash sends another warning",
+        "Morgan Stanley Opens New Crypto-to-ETF Path With Galaxy Digital"
       ],
       "high_impact_news": true
     }
