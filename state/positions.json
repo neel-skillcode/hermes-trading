@@ -117,8 +117,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.1530035734176636,
-    "trailing_stop_price": 1.162228
+    "price_trough": 1.1524720191955566,
+    "trailing_stop_price": 1.161692
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -147,8 +147,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 160.281005859375,
-    "trailing_stop_price": 158.998758
+    "price_peak": 160.29600524902344,
+    "trailing_stop_price": 159.013637
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -176,8 +176,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_trough": 112.99600219726562,
-    "trailing_stop_price": 113.89997
+    "price_trough": 112.9489974975586,
+    "trailing_stop_price": 113.852589
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260603101341",
@@ -208,36 +208,6 @@
     "status": "open",
     "price_peak": 186.05299377441406,
     "trailing_stop_price": 184.56457
-  },
-  "GBP/USD": {
-    "id": "GBP/USD_20260603185645",
-    "asset": "GBP/USD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 1.3417595624923706,
-    "entry_time": "2026-06-03T18:56:45.998675+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02617,
-    "size_usd": 5072.02,
-    "position_size_pct": 0.0521,
-    "confidence": 0.543,
-    "signals": [
-      "RSI oversold (26.3)",
-      "BB oversold (pct_b=0.06)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; macro risk"
-    ],
-    "news_sentiment": 0.287,
-    "news_headlines": [
-      "Dollar climbs as US strikes on Iran dent ceasefire optimism",
-      "Dollar drifts lower as oil falls on Hormuz deal optimism",
-      "Deutsche Bank sees room for a further rally in EUR/GBP"
-    ],
-    "mode": "paper",
-    "strategy_version": "11",
-    "status": "open",
-    "price_peak": 1.3452250957489014,
-    "trailing_stop_price": 1.334463
   },
   "SLV": {
     "id": "SLV_20260605161646",
@@ -362,36 +332,6 @@
     "strategy_version": "13",
     "status": "open"
   },
-  "IONQ": {
-    "id": "IONQ_20260605161646",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 58.25,
-    "entry_time": "2026-06-05T16:16:46.733748+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5432.41,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (17.2)",
-      "5d momentum -13.95%",
-      "1d momentum -15.88%",
-      "BB oversold (pct_b=-0.10)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.685,
-    "news_headlines": [
-      "D-Wave Unveils Fault-Tolerant Quantum Computing Plan: What's Ahead?",
-      "An Overlooked Quantum ETF Just Did What the Broad Market Took Years to Accomplish",
-      "Quantinuum secures $1.68bn in Nasdaq debut"
-    ],
-    "mode": "paper",
-    "strategy_version": "13",
-    "status": "open"
-  },
   "LCID": {
     "id": "LCID_20260605161646",
     "asset": "LCID",
@@ -417,36 +357,6 @@
       "Lucid Group (LCID) Down 7.6% Since Last Earnings Report: Can It Rebound?",
       "Uber reportedly commits $500m to robotaxi startup Nuro",
       "Lucid Group CEO Shift Tests Execution, Transparency And Legal Risk"
-    ],
-    "mode": "paper",
-    "strategy_version": "13",
-    "status": "open"
-  },
-  "MU": {
-    "id": "MU_20260605161646",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 917.8900756835938,
-    "entry_time": "2026-06-05T16:16:46.736813+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 4176.86,
-    "position_size_pct": 0.043,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (18.6)",
-      "5d momentum -10.99%",
-      "1d momentum -11.30%",
-      "BB oversold (pct_b=-0.05)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.273,
-    "news_headlines": [
-      "The stock market's scorching run means the rich will keep getting richer: Chart",
-      "Intel, AMD, Micron shares trim losses after Broadcom results spark semiconductor sector sell-off",
-      "Micron\u2019s HBM4 Certification With Nvidia Puts AI Memory Margins In Focus"
     ],
     "mode": "paper",
     "strategy_version": "13",
@@ -479,6 +389,93 @@
     ],
     "mode": "paper",
     "strategy_version": "13",
+    "status": "open"
+  },
+  "IONQ": {
+    "id": "IONQ_20260605181600",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 56.809898376464844,
+    "entry_time": "2026-06-05T18:16:00.203055+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5416.8,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (12.2)",
+      "5d momentum -13.45%",
+      "1d momentum -19.33%",
+      "BB oversold (pct_b=0.01)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.547,
+    "news_headlines": [
+      "Why IonQ Stock Crashed Today",
+      "Quantinuum Trades Below Offer Price. Why the Quantum Stock Is Sliding.",
+      "Why Is IonQ (IONQ) Up 37.7% Since Last Earnings Report?"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "RIVN": {
+    "id": "RIVN_20260605181600",
+    "asset": "RIVN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 16.30500030517578,
+    "entry_time": "2026-06-05T18:16:00.205447+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 4080.82,
+    "position_size_pct": 0.0421,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (20.9)",
+      "5d momentum -9.98%",
+      "1d momentum -6.24%",
+      "BB oversold (pct_b=-0.04)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge; price decline"
+    ],
+    "news_sentiment": 0.822,
+    "news_headlines": [
+      "Can AT&T's Extended Tie-Ups for Connected Car Accelerate Growth?",
+      "Here's Why Rivian Stock Jumped This Week",
+      "AT&T, CMCSA, CMG Hit 52-Week Lows: What Dragged These Stocks Lower?"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "SNAP": {
+    "id": "SNAP_20260605181600",
+    "asset": "SNAP",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 5.764999866485596,
+    "entry_time": "2026-06-05T18:16:00.251108+00:00",
+    "stop_loss_pct": 0.04,
+    "take_profit_pct": 0.12161,
+    "size_usd": 753.02,
+    "position_size_pct": 0.0078,
+    "confidence": 0.081,
+    "signals": [
+      "5d momentum -5.18%",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.158,
+    "news_headlines": [
+      "Why Is Snap (SNAP) Up 1.5% Since Last Earnings Report?",
+      "Sector Update: Tech Stocks Fall Thursday Afternoon",
+      "Snapchat is growing its presence in India"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
     "status": "open"
   }
 }
