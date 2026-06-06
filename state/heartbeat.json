@@ -3,15 +3,15 @@
   "portfolio_balance": 96560.85,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 3.91,
-  "unrealized_pnl_usd": -5.99,
-  "equity_value": 96554.86,
+  "unrealized_pnl_usd": -15.93,
+  "equity_value": 96544.92,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 38624.34,
   "swing_capital_used_usd": 29760.5,
   "total_trades": 149,
-  "last_tick": "2026-06-05T23:55:22.527207+00:00",
+  "last_tick": "2026-06-06T02:35:54.540803+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -550,11 +550,9 @@
       "mode": "paper",
       "strategy_version": "14",
       "status": "open",
-      "price_trough": 571.6199951171875,
-      "trailing_stop_price": 579.536932,
-      "current_price": 571.619995,
-      "unrealized_pnl_pct": 0.001537,
-      "unrealized_pnl_usd": 2.0
+      "current_price": 576.0,
+      "unrealized_pnl_pct": -0.006114,
+      "unrealized_pnl_usd": -7.94
     },
     {
       "id": "EUR/GBP_20260605201553",
@@ -645,9 +643,9 @@
       "news_sentiment": 0.459,
       "news_confidence": 0.37,
       "news_headlines": [
+        "Amkor and onsemi Shares Plummet, What You Need To Know",
         "Prediction: ON Semiconductor Could Be 2026\u2019s Big Tech Stock",
-        "Assessing ON Semiconductor (ON) Valuation After A Sharp Momentum-Fueled Share Price Rally",
-        "How Is Microchip Technology's Stock Performance Compared to Other Semiconductor Stocks?"
+        "Assessing ON Semiconductor (ON) Valuation After A Sharp Momentum-Fueled Share Price Rally"
       ],
       "high_impact_news": true
     },
@@ -694,6 +692,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MU",
+      "rank_score": 0.7596,
+      "price": 864.02001953125,
+      "rsi": 10.252184518828074,
+      "momentum_5d": -0.06766296118763955,
+      "momentum_1d": -0.17358991165953555,
+      "macd_crossover": false,
+      "atr_pct": 0.043448859335066446,
+      "bollinger_pct_b": 0.0527,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.11,
+      "news_sentiment": 0.32,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Chip sell-off rattles markets",
+        "The stock market's scorching run means the rich will keep getting richer: Chart",
+        "Intel and Micron Shares Plummet, What You Need To Know"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "QCOM",
       "rank_score": 0.7576,
       "price": 215.52999877929688,
@@ -711,6 +730,27 @@
         "Why Qualcomm (QCOM) Stock Is Nosediving",
         "Decoding AVGO Stock's Premium Valuation",
         "Nasdaq Suffers Worst Day in More Than a Year; S&P 500 Snaps Winning Weekly Streak"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRVL",
+      "rank_score": 0.7496,
+      "price": 263.4700012207031,
+      "rsi": 31.963638230202847,
+      "momentum_5d": -0.09120072473325935,
+      "momentum_1d": -0.07359350606526148,
+      "macd_crossover": false,
+      "atr_pct": 0.05559480518277097,
+      "bollinger_pct_b": -0.0945,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.9,
+      "news_sentiment": 0.487,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today",
+        "Marvell Technology and IPG Photonics Shares Are Falling, What You Need To Know",
+        "MRVL Stock Jumps After-Hours On S&P 500 Inclusion"
       ],
       "high_impact_news": true
     },
@@ -736,50 +776,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "MU",
-      "rank_score": 0.7476,
-      "price": 864.02001953125,
-      "rsi": 10.252184518828074,
-      "momentum_5d": -0.06766296118763955,
-      "momentum_1d": -0.17358991165953555,
-      "macd_crossover": false,
-      "atr_pct": 0.043448859335066446,
-      "bollinger_pct_b": 0.0527,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.11,
-      "news_sentiment": 0.083,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Chip sell-off rattles markets",
-        "The stock market's scorching run means the rich will keep getting richer: Chart",
-        "Intel and Micron Shares Plummet, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.7446,
-      "price": 263.4700012207031,
-      "rsi": 31.963638230202847,
-      "momentum_5d": -0.09120072473325935,
-      "momentum_1d": -0.07359350606526148,
-      "macd_crossover": false,
-      "atr_pct": 0.05559480518277097,
-      "bollinger_pct_b": -0.0945,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.9,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Marvell Technology and IPG Photonics Shares Are Falling, What You Need To Know",
-        "MRVL Stock Jumps After-Hours On S&P 500 Inclusion",
-        "Marvell stock pops after S&P 500 inclusion announcement"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "INTC",
-      "rank_score": 0.7081,
+      "rank_score": 0.7251,
       "price": 98.95999908447266,
       "rsi": 13.520688959105883,
       "momentum_5d": -0.04818699699344475,
@@ -789,12 +787,12 @@
       "bollinger_pct_b": 0.0101,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.56,
+      "news_confidence": 0.5,
       "news_headlines": [
         "Nasdaq plunges 1,100 points over renewed rate hike concerns",
-        "Intel and Micron Shares Plummet, What You Need To Know",
-        "Berkshire Hathaway Just Agreed to Put $10 Billion Into Alphabet's AI Build-Out. Should Investors Follow?"
+        "Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today",
+        "Why Archer Aviation Stock Plummeted Today"
       ],
       "high_impact_news": true
     },
@@ -835,29 +833,8 @@
       "news_confidence": 0.35,
       "news_headlines": [
         "Don't expect to see SpaceX on the S&P 500 so soon after IPO",
-        "Nasdaq Posts Worst Drop Since April 2025, S&P 500 And Dow Drop As Strong Jobs Data Ignites Rate Hike Bets \u2014 TSLA, GME, META, BA, MSTR, GOOGL In Focus",
-        "Goldman\u2019s Future Tech ETF Turned $10k Into $15.2k While the S&P 500 Made $1.1k"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ARM",
-      "rank_score": 0.6734,
-      "price": 342.5,
-      "rsi": 18.643912753214522,
-      "momentum_5d": -0.04643909186455626,
-      "momentum_1d": -0.163532439926855,
-      "macd_crossover": false,
-      "atr_pct": 0.03988152942518248,
-      "bollinger_pct_b": 0.1134,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.532,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Nvidia Is Moving Into Intel and Qualcomm's Turf. These Are the Losers Investors Should Watch Closely.",
-        "Arm\u2019s AI Data Center Push Meets Export Hurdles And Lofty Valuation",
-        "Arm Insiders Sold $25.6 Million in Stock. They Missed a Historic Rally."
+        "Why Vanguard\u2019s VOO Won the Trillion-Dollars-in-Assets Race",
+        "Nasdaq Posts Worst Drop Since April 2025, S&P 500 And Dow Drop As Strong Jobs Data Ignites Rate Hike Bets \u2014 TSLA, GME, META, BA, MSTR, GOOGL In Focus"
       ],
       "high_impact_news": true
     },
@@ -883,6 +860,69 @@
       "high_impact_news": true
     },
     {
+      "asset": "ARM",
+      "rank_score": 0.6664,
+      "price": 342.5,
+      "rsi": 18.643912753214522,
+      "momentum_5d": -0.04643909186455626,
+      "momentum_1d": -0.163532439926855,
+      "macd_crossover": false,
+      "atr_pct": 0.03988152942518248,
+      "bollinger_pct_b": 0.1134,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today",
+        "Arm Insiders Sold $25.6 Million in Stock. They Missed a Historic Rally.",
+        "Nvidia Is Moving Into Intel and Qualcomm's Turf. These Are the Losers Investors Should Watch Closely."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.6542,
+      "price": 385.7300109863281,
+      "rsi": 16.274652865319837,
+      "momentum_5d": -0.031559069023055906,
+      "momentum_1d": -0.1881990082484539,
+      "macd_crossover": false,
+      "atr_pct": 0.044439823919848645,
+      "bollinger_pct_b": 0.221,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 1.0,
+      "news_confidence": 0.66,
+      "news_headlines": [
+        "Nasdaq plunges 1,100 points over renewed rate hike concerns",
+        "A Look At Apollo Global Management (APO) Valuation After AI Infrastructure Push And Revenue Growth",
+        "Here's What I Think Is Going on With Broadcom Stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TSLA",
+      "rank_score": 0.6488,
+      "price": 390.9700012207031,
+      "rsi": 4.322410221758503,
+      "momentum_5d": -0.02910427661389099,
+      "momentum_1d": -0.07249780003105838,
+      "macd_crossover": false,
+      "atr_pct": 0.014322238946662453,
+      "bollinger_pct_b": 0.0606,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.04,
+      "news_sentiment": 0.464,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "This Trump-backed drone company is competing directly with China",
+        "How skeptical should investors be of these mega-IPOs?",
+        "Don't expect to see SpaceX on the S&P 500 so soon after IPO"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARKK",
       "rank_score": 0.6488,
       "price": 74.55000305175781,
@@ -897,51 +937,9 @@
       "news_sentiment": 0.25,
       "news_confidence": 0.24,
       "news_headlines": [
+        "Why Cathie Wood and Berkshire Hathaway Both Love Google Stock Here",
         "Google Stock Was Bought by Investors as Different as Cathie Wood\u2019s ARK and Berkshire Hathaway",
-        "Cathie Wood Makes a Major Move Into Alphabet",
-        "Cathie Wood Buys 267,000 Shares of Surging Tech Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TSLA",
-      "rank_score": 0.6479,
-      "price": 390.9700012207031,
-      "rsi": 4.322410221758503,
-      "momentum_5d": -0.02910427661389099,
-      "momentum_1d": -0.07249780003105838,
-      "macd_crossover": false,
-      "atr_pct": 0.014322238946662453,
-      "bollinger_pct_b": 0.0606,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.04,
-      "news_sentiment": 0.455,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "This Trump-backed drone company is competing directly with China",
-        "How skeptical should investors be of these mega-IPOs?",
-        "Don't expect to see SpaceX on the S&P 500 so soon after IPO"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.6382,
-      "price": 385.7300109863281,
-      "rsi": 16.274652865319837,
-      "momentum_5d": -0.031559069023055906,
-      "momentum_1d": -0.1881990082484539,
-      "macd_crossover": false,
-      "atr_pct": 0.044439823919848645,
-      "bollinger_pct_b": 0.221,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.893,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Nasdaq plunges 1,100 points over renewed rate hike concerns",
-        "Entegris and KLA Corporation Stocks Trade Down, What You Need To Know",
-        "Teradyne and Monolithic Power Systems Shares Plummet, What You Need To Know"
+        "Cathie Wood Makes a Major Move Into Alphabet"
       ],
       "high_impact_news": true
     },
@@ -981,30 +979,30 @@
       "news_sentiment": 0.75,
       "news_confidence": 0.4,
       "news_headlines": [
+        "If You Buy Rivian Right Now, Could It Make You a Millionaire?",
         "AT&T lands Rivian win as Wall Street sees a growing threat",
-        "Can AT&T's Extended Tie-Ups for Connected Car Accelerate Growth?",
-        "Here's Why Rivian Stock Jumped This Week"
+        "Can AT&T's Extended Tie-Ups for Connected Car Accelerate Growth?"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.6188,
-      "price": 1581.2099609375,
-      "rsi": 31.106506980442973,
-      "momentum_5d": 0.018919345177343543,
-      "momentum_1d": -0.10607011401800727,
+      "asset": "ABBV",
+      "rank_score": 0.612,
+      "price": 227.25999450683594,
+      "rsi": 79.07574824572083,
+      "momentum_5d": -0.00941506267696308,
+      "momentum_1d": 0.06852856156075063,
       "macd_crossover": false,
-      "atr_pct": 0.021784402096573417,
-      "bollinger_pct_b": 0.2408,
+      "atr_pct": 0.010087997161064444,
+      "bollinger_pct_b": 0.715,
       "volume_spike": true,
-      "volume_spike_ratio": 2.06,
-      "news_sentiment": -0.159,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 1.64,
+      "news_sentiment": 0.855,
+      "news_confidence": 0.55,
       "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, June 5, 2026: Prices continue their descent - 5 reasons why",
-        "Analyst who nailed 2021 Bitcoin crash sends another warning",
-        "Morgan Stanley Opens New Crypto-to-ETF Path With Galaxy Digital"
+        "Is Amgen An Undervalued Stock Or Value Trap?",
+        "AbbVie (ABBV) Announces European Commission\u2019s Approval of AQUIPTA\u00ae",
+        "AbbVie (ABBV) Ascends While Market Falls: Some Facts to Note"
       ],
       "high_impact_news": true
     }
