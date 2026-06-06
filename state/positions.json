@@ -421,7 +421,9 @@
     ],
     "mode": "paper",
     "strategy_version": "14",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.7049700617790222,
+    "trailing_stop_price": 0.70356
   },
   "NZD/USD": {
     "id": "NZD/USD_20260605201553",
@@ -451,35 +453,9 @@
     ],
     "mode": "paper",
     "strategy_version": "14",
-    "status": "open"
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260605201553",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 572.5,
-    "entry_time": "2026-06-05T20:15:53.931330+00:00",
-    "stop_loss_pct": 0.01385,
-    "take_profit_pct": 0.03041,
-    "size_usd": 1298.34,
-    "position_size_pct": 0.0134,
-    "confidence": 0.391,
-    "signals": [
-      "5d momentum -1.03%",
-      "1d momentum -5.36%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.455,
-    "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $61,000 Level",
-      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
-      "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?"
-    ],
-    "mode": "paper",
-    "strategy_version": "14",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.5798109769821167,
+    "trailing_stop_price": 0.578651
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
@@ -503,6 +479,35 @@
       "Pound Mostly Steady After Weaker GDP",
       "ECB holds interest rates at 2% after eurozone inflation drops in January",
       "Eurozone economy expands 0.3% in final quarter of 2025, above expectations"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260606084641",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 63.16999816894531,
+    "entry_time": "2026-06-06T08:46:41.005918+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03508,
+    "size_usd": 1290.97,
+    "position_size_pct": 0.0134,
+    "confidence": 0.678,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +0.57%",
+      "1d momentum -3.19%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.333,
+    "news_headlines": [
+      "The Next Move in the Cryptocurrency Market Might Shock You",
+      "Analyst who nailed 2021 Bitcoin crash sends another warning",
+      "Morgan Stanley Opens New Crypto-to-ETF Path With Galaxy Digital"
     ],
     "mode": "paper",
     "strategy_version": "14",
