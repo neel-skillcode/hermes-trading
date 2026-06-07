@@ -3,15 +3,15 @@
   "portfolio_balance": 96542.44,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 3.93,
-  "unrealized_pnl_usd": 15.92,
-  "equity_value": 96558.36,
+  "unrealized_pnl_usd": -15.35,
+  "equity_value": 96527.09,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 38616.97,
   "swing_capital_used_usd": 29760.5,
   "total_trades": 150,
-  "last_tick": "2026-06-06T23:37:57.339720+00:00",
+  "last_tick": "2026-06-07T01:52:56.017269+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -581,11 +581,9 @@
       "mode": "paper",
       "strategy_version": "14",
       "status": "open",
-      "price_trough": 61.9900016784668,
-      "trailing_stop_price": 62.919852,
-      "current_price": 62.0,
-      "unrealized_pnl_pct": 0.018521,
-      "unrealized_pnl_usd": 23.91
+      "current_price": 63.529999,
+      "unrealized_pnl_pct": -0.005699,
+      "unrealized_pnl_usd": -7.36
     }
   ],
   "last_candidates": [
@@ -675,7 +673,7 @@
     },
     {
       "asset": "QQQ",
-      "rank_score": 0.7705,
+      "rank_score": 0.7655,
       "price": 705.2100219726562,
       "rsi": 11.891133865360189,
       "momentum_5d": -0.023685066856868258,
@@ -685,12 +683,33 @@
       "bollinger_pct_b": -0.0034,
       "volume_spike": true,
       "volume_spike_ratio": 2.22,
-      "news_sentiment": 0.125,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.022,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "$10,000 Invested in XLK on New Year\u2019s Eve Is Worth $13,434 Today",
         "Should You Really Invest in QQQ Right Now? Or Is IVV the Better Buy? Here's What the Data Suggests.",
-        "What Will SpaceX\u2019s IPO Mean for Your Index Funds?",
-        "QQQ vs VGT: Which Tech ETF Is Better?"
+        "What Will SpaceX\u2019s IPO Mean for Your Index Funds?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLK",
+      "rank_score": 0.7592,
+      "price": 180.25999450683594,
+      "rsi": 13.970223683387175,
+      "momentum_5d": -0.02850988120677242,
+      "momentum_1d": -0.08520684234910544,
+      "macd_crossover": false,
+      "atr_pct": 0.01333787889233392,
+      "bollinger_pct_b": 0.0472,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.11,
+      "news_sentiment": 0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "$10,000 Invested in XLK on New Year\u2019s Eve Is Worth $13,434 Today",
+        "Which Is the Better Artificial Intelligence (AI) ETF, Roundhill's CHAT or State Street's XLK?",
+        "The Tech Rally Goes in Reverse as Markets Anticipate Tighter Money"
       ],
       "high_impact_news": true
     },
@@ -712,27 +731,6 @@
         "Qualcomm Edge AI Win With Primax Fuels New Enterprise Valuation Questions",
         "Why Qualcomm (QCOM) Stock Is Nosediving",
         "Decoding AVGO Stock's Premium Valuation"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLK",
-      "rank_score": 0.7521,
-      "price": 180.25999450683594,
-      "rsi": 13.970223683387175,
-      "momentum_5d": -0.02850988120677242,
-      "momentum_1d": -0.08520684234910544,
-      "macd_crossover": false,
-      "atr_pct": 0.01333787889233392,
-      "bollinger_pct_b": 0.0472,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.128,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Which Is the Better Artificial Intelligence (AI) ETF, Roundhill's CHAT or State Street's XLK?",
-        "The Tech Rally Goes in Reverse as Markets Anticipate Tighter Money",
-        "Sector Update: Tech Stocks Lower Late Afternoon"
       ],
       "high_impact_news": true
     },
@@ -759,7 +757,7 @@
     },
     {
       "asset": "MU",
-      "rank_score": 0.7453,
+      "rank_score": 0.7443,
       "price": 864.02001953125,
       "rsi": 10.252184518828074,
       "momentum_5d": -0.06766296118763955,
@@ -769,8 +767,8 @@
       "bollinger_pct_b": 0.0527,
       "volume_spike": false,
       "volume_spike_ratio": 1.11,
-      "news_sentiment": 0.045,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.019,
+      "news_confidence": 0.36,
       "news_headlines": [
         "Micron Makes the $1 Trillion Club a Little More Crowded",
         "Fed's Mary Daly has blunt message for AI stock investors",
@@ -780,7 +778,7 @@
     },
     {
       "asset": "INTC",
-      "rank_score": 0.7091,
+      "rank_score": 0.7221,
       "price": 98.95999908447266,
       "rsi": 13.520688959105883,
       "momentum_5d": -0.04818699699344475,
@@ -790,12 +788,33 @@
       "bollinger_pct_b": 0.0101,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.28,
+      "news_sentiment": 0.676,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Could Nvidia Reach a $10 Trillion Market Cap? I Think So. And It Will Happen Faster Than You Think.",
-        "I Fought The Law (And The Law Won), Vol. 3",
-        "Anthropic's Valuation Just Hit $965 Billion. These 2 Magnificent AI Stocks Are the Real Winners"
+        "Here's Why Warren Buffett Changed His Mind About Tech Stocks",
+        "Cerebras Opened at $350 -- Nearly Double Its IPO Price -- Then Pulled Back 20% the Next Day. Is Cerebras Stock a Buy or a Trap?",
+        "Investors Are Growing More Fearful of the Stock Market. Warren Buffett Has 6 Words for Moments Like This."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.7073,
+      "price": 0.0833199992775917,
+      "rsi": 68.55120558450807,
+      "momentum_5d": 0.030677885793584075,
+      "momentum_1d": 0.0170898606253904,
+      "macd_crossover": false,
+      "atr_pct": 0.011196067426043208,
+      "bollinger_pct_b": 1.2287,
+      "volume_spike": true,
+      "volume_spike_ratio": 20.4,
+      "news_sentiment": 0.051,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Is Dogecoin a Joke Investment -- or a Serious Long-Term Bet?",
+        "Top Cryptocurrencies Fall; Bitcoin Drops Below $61,000 Level",
+        "Dogecoin Is A 'Buy', Analyst Says, As House Of Doge Integrates With Paxos Network"
       ],
       "high_impact_news": true
     },
@@ -821,6 +840,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.69,
+      "price": 1.1145999431610107,
+      "rsi": 67.43000229015854,
+      "momentum_5d": 0.027754715747113613,
+      "momentum_1d": 0.011800918331360039,
+      "macd_crossover": false,
+      "atr_pct": 0.011259634398954407,
+      "bollinger_pct_b": 1.2202,
+      "volume_spike": true,
+      "volume_spike_ratio": 19.81,
+      "news_sentiment": -0.406,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Is Ripple (XRP) Still A Good Crypto to Buy In 2026?",
+        "XRP Price Analysis: Will XRP ETF Inflows Stall as Price Approaches $1?",
+        "XRP Plunges to 2024 Lows With Risk of a 23% Drop: Will Ripple\u2019s Ex-CTO Roadmap Help Boost the Price?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SPY",
       "rank_score": 0.6822,
       "price": 737.4000244140625,
@@ -835,15 +875,15 @@
       "news_sentiment": -0.062,
       "news_confidence": 0.32,
       "news_headlines": [
+        "$10,000 Invested in XLK on New Year\u2019s Eve Is Worth $13,434 Today",
         "$10,000 in VOLT Became $13,750 in Six Months While the S&P 500 Limped to $11,100",
-        "$10,000 in Asia\u2019s Biggest 50 Stocks Became $15,267 in Five Months: Here\u2019s Why",
-        "ICLN\u2019s 45% YTD Surge Marks a Regime Shift: From Policy Bet to Infrastructure Play, With a July Deadline Looming"
+        "$10,000 in Asia\u2019s Biggest 50 Stocks Became $15,267 in Five Months: Here\u2019s Why"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AMD",
-      "rank_score": 0.6821,
+      "rank_score": 0.6771,
       "price": 466.3760986328125,
       "rsi": 15.568406946382439,
       "momentum_5d": -0.040857991524746645,
@@ -853,12 +893,12 @@
       "bollinger_pct_b": 0.0797,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
       "news_headlines": [
         "AI Chip Stocks Sold Off This Week. Is AMD a Buying Opportunity or a Falling Knife?",
         "TD Cowen Raises PT on Advanced Micro Devices (AMD) Stock",
-        "SpaceX IPO Could Create More Wealth Than All IPOs in the Last 20 Years Combined. Here\u2019s Why Early Investors Are Banking On It"
+        "Retail Investors Are Beating Wall Street Benchmarks With AI Stocks. Why That Could Change Soon."
       ],
       "high_impact_news": true
     },
@@ -927,7 +967,7 @@
     },
     {
       "asset": "RIVN",
-      "rank_score": 0.6372,
+      "rank_score": 0.6346,
       "price": 16.350000381469727,
       "rsi": 20.762010099642907,
       "momentum_5d": -0.029385512143793147,
@@ -937,12 +977,12 @@
       "bollinger_pct_b": 0.0855,
       "volume_spike": false,
       "volume_spike_ratio": 0.73,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.651,
+      "news_confidence": 0.42,
       "news_headlines": [
+        "Rivian Faces Safety Probe As 5G Partnership Shapes R2 Investment Case",
         "If You Buy Rivian Right Now, Could It Make You a Millionaire?",
-        "AT&T lands Rivian win as Wall Street sees a growing threat",
-        "Can AT&T's Extended Tie-Ups for Connected Car Accelerate Growth?"
+        "AT&T lands Rivian win as Wall Street sees a growing threat"
       ],
       "high_impact_news": true
     },
@@ -964,48 +1004,6 @@
         "IonQ (IONQ) Valuation Check After Sharp Pullback And Popular Overvaluation Narrative",
         "The Next Quantum Computing IPO CEO Just Told CNBC \u2018It Is Not 10 to 15 Years Out. It\u2019s Very Much Now\u2019",
         "Quantinuum Stock Closes Below Its Offer Price. Why the Buzzy Quantum IPO Is Faltering."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.6162,
-      "price": 385.7300109863281,
-      "rsi": 16.274652865319837,
-      "momentum_5d": -0.031559069023055906,
-      "momentum_1d": -0.1881990082484539,
-      "macd_crossover": false,
-      "atr_pct": 0.044439823919848645,
-      "bollinger_pct_b": 0.221,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "$10,000 in FNGU Became $8,392 in One Session as Tech Leverage Cut Both Ways",
-        "AI Chip Stocks Sold Off This Week. Is AMD a Buying Opportunity or a Falling Knife?",
-        "The Biggest IPOs in History -- and How They Performed"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ABBV",
-      "rank_score": 0.611,
-      "price": 227.25999450683594,
-      "rsi": 79.07574824572083,
-      "momentum_5d": -0.00941506267696308,
-      "momentum_1d": 0.06852856156075063,
-      "macd_crossover": false,
-      "atr_pct": 0.010087997161064444,
-      "bollinger_pct_b": 0.715,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.852,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "AbbVie (ABBV) Valuation Check After New Cancer And Migraine Drug Approvals",
-        "SCHD\u2019s $85 Billion Strategy Now Concentrates 41 Percent of Your Money in Just Ten Stocks",
-        "Is Amgen An Undervalued Stock Or Value Trap?"
       ],
       "high_impact_news": true
     }
