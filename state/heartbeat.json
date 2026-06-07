@@ -3,15 +3,15 @@
   "portfolio_balance": 96496.32,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 3.98,
-  "unrealized_pnl_usd": 12.89,
-  "equity_value": 96509.21,
+  "unrealized_pnl_usd": -0.37,
+  "equity_value": 96495.95,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 38598.53,
   "swing_capital_used_usd": 29760.5,
   "total_trades": 152,
-  "last_tick": "2026-06-07T16:04:22.485668+00:00",
+  "last_tick": "2026-06-07T17:38:09.784342+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -583,11 +583,11 @@
       "mode": "paper",
       "strategy_version": "14",
       "status": "open",
-      "price_trough": 1.1331000328063965,
-      "trailing_stop_price": 1.146969,
-      "current_price": 1.1332,
-      "unrealized_pnl_pct": 0.016405,
-      "unrealized_pnl_usd": 20.88
+      "price_trough": 1.1452000141143799,
+      "trailing_stop_price": 1.159217,
+      "current_price": 1.1452,
+      "unrealized_pnl_pct": 0.005989,
+      "unrealized_pnl_usd": 7.62
     }
   ],
   "last_candidates": [
@@ -677,7 +677,7 @@
     },
     {
       "asset": "QQQ",
-      "rank_score": 0.7655,
+      "rank_score": 0.7755,
       "price": 705.2100219726562,
       "rsi": 11.891133865360189,
       "momentum_5d": -0.023685066856868258,
@@ -687,12 +687,12 @@
       "bollinger_pct_b": -0.0034,
       "volume_spike": true,
       "volume_spike_ratio": 2.22,
-      "news_sentiment": 0.022,
-      "news_confidence": 0.45,
+      "news_sentiment": -0.256,
+      "news_confidence": 0.43,
       "news_headlines": [
+        "KORU Is Up 236% Year to Date but Just Lost Half Its Value in a Single Trading Day",
         "$10,000 Invested in XLK on New Year\u2019s Eve Is Worth $13,434 Today",
-        "Should You Really Invest in QQQ Right Now? Or Is IVV the Better Buy? Here's What the Data Suggests.",
-        "What Will SpaceX\u2019s IPO Mean for Your Index Funds?"
+        "Should You Really Invest in QQQ Right Now? Or Is IVV the Better Buy? Here's What the Data Suggests."
       ],
       "high_impact_news": true
     },
@@ -774,15 +774,15 @@
       "news_sentiment": 0.316,
       "news_confidence": 0.38,
       "news_headlines": [
+        "Marvell Technology (MRVL) Is Up 28.5% After AI Switch Launch And S&P 500 Entry - Has The Bull Case Changed?",
         "Why Marvell Technology Rallied in May",
-        "Nvidia CEO Jensen Huang Says This Is the Next Trillion-Dollar AI Chip Stock. Is He Right?",
-        "Marvell Gets Another Shout-Out: It Is Joining the S&P 500"
+        "Nvidia CEO Jensen Huang Says This Is the Next Trillion-Dollar AI Chip Stock. Is He Right?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "INTC",
-      "rank_score": 0.7281,
+      "rank_score": 0.7221,
       "price": 98.95999908447266,
       "rsi": 13.520688959105883,
       "momentum_5d": -0.04818699699344475,
@@ -792,12 +792,12 @@
       "bollinger_pct_b": 0.0101,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.676,
+      "news_confidence": 0.37,
       "news_headlines": [
         "AI stock mania is taking over the markets in 2026",
-        "If You Had Invested $10,000 in This Top Warren Buffett Stock 10 Years Ago, Here's How Much You'd Have Today",
-        "Here Are 5 AI-Related Stocks to Buy and Hold for the Next 5 Years"
+        "If You'd Invested $10,000 in Nvidia Stock 10 Years Ago, Here's How Much You'd Have Today",
+        "If You Had Invested $10,000 in This Top Warren Buffett Stock 10 Years Ago, Here's How Much You'd Have Today"
       ],
       "high_impact_news": true
     },
@@ -837,9 +837,30 @@
       "news_sentiment": 0.0,
       "news_confidence": 0.32,
       "news_headlines": [
+        "Lithium ETF LIT Returned 125% to Investors Who Bought at Last Year\u2019s Low",
         "Mizuho Strategist: Healthcare Is Now a Value Sector as Pharma Stocks Underperform Tech",
-        "How $350,000 in International Dividend Stocks Can Produce $19,000 a Year and Reduce U.S. Concentration Risk",
-        "An Overlooked Cleantech Fund Just Did in Eighteen Months What the S&P 500 Took Five Years to Accomplish"
+        "How $350,000 in International Dividend Stocks Can Produce $19,000 a Year and Reduce U.S. Concentration Risk"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.6655,
+      "price": 466.3760986328125,
+      "rsi": 15.568406946382439,
+      "momentum_5d": -0.040857991524746645,
+      "momentum_1d": -0.08950328988485672,
+      "macd_crossover": false,
+      "atr_pct": 0.03089074128423668,
+      "bollinger_pct_b": 0.0797,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.39,
+      "news_sentiment": 0.398,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "AI stock mania is taking over the markets in 2026",
+        "Why Marvell Technology Rallied in May",
+        "Is It Too Late To Consider AMD (AMD) After Its 301% One Year Surge?"
       ],
       "high_impact_news": true
     },
@@ -861,27 +882,6 @@
         "AI stock mania is taking over the markets in 2026",
         "Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today",
         "Arm Insiders Sold $25.6 Million in Stock. They Missed a Historic Rally."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.6605,
-      "price": 466.3760986328125,
-      "rsi": 15.568406946382439,
-      "momentum_5d": -0.040857991524746645,
-      "momentum_1d": -0.08950328988485672,
-      "macd_crossover": false,
-      "atr_pct": 0.03089074128423668,
-      "bollinger_pct_b": 0.0797,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.262,
-      "news_confidence": 0.28,
-      "news_headlines": [
-        "AI stock mania is taking over the markets in 2026",
-        "Why Marvell Technology Rallied in May",
-        "Is It Too Late To Consider AMD (AMD) After Its 301% One Year Surge?"
       ],
       "high_impact_news": true
     },
@@ -970,29 +970,29 @@
       "high_impact_news": true
     },
     {
-      "asset": "MSFT",
-      "rank_score": 0.6176,
-      "price": 416.67999267578125,
-      "rsi": 21.70210001410257,
-      "momentum_5d": -0.013191468725253033,
-      "momentum_1d": -0.06252392392872123,
+      "asset": "ETH-USD",
+      "rank_score": 0.625,
+      "price": 1635.9100341796875,
+      "rsi": 70.59062196981864,
+      "momentum_5d": 0.010170239940565873,
+      "momentum_1d": 0.05350915802517487,
       "macd_crossover": false,
-      "atr_pct": 0.00803981506311339,
-      "bollinger_pct_b": 0.0295,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.826,
-      "news_confidence": 0.46,
+      "atr_pct": 0.009788355938956158,
+      "bollinger_pct_b": 0.7812,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.87,
+      "news_sentiment": -0.22,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "Microsoft Quantum Push And Board Shift Raise New Valuation Questions",
-        "Is AECOM (ACM) A Good Stock To Buy Now?",
-        "Here Are 5 AI-Related Stocks to Buy and Hold for the Next 5 Years"
+        "1 Unstoppable Crypto to Buy Before It Soars 3,000%, According to Wall Street's Tom Lee",
+        "Which of Bitcoin, XRP, Ethereum, or Solana Recovers First?",
+        "How to Get Crypto Exposure Without Owning Crypto Directly"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AMZN",
-      "rank_score": 0.6142,
+      "rank_score": 0.6191,
       "price": 245.97000122070312,
       "rsi": 38.895083139457064,
       "momentum_5d": -0.030144132274803438,
@@ -1002,12 +1002,12 @@
       "bollinger_pct_b": 0.0161,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.6,
+      "news_sentiment": 0.789,
+      "news_confidence": 0.57,
       "news_headlines": [
+        "Ulta Beauty adds new offering for customers amid Amazon threat",
         "Is AECOM (ACM) A Good Stock To Buy Now?",
-        "Here Are 5 AI-Related Stocks to Buy and Hold for the Next 5 Years",
-        "Why UBS remains bullish on the hyperscaler stocks despite capex concerns"
+        "Here Are 5 AI-Related Stocks to Buy and Hold for the Next 5 Years"
       ],
       "high_impact_news": true
     }
