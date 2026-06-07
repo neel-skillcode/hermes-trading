@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 96496.32,
+  "portfolio_balance": 96476.58,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 3.98,
-  "unrealized_pnl_usd": 2.84,
-  "equity_value": 96499.16,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "portfolio_drawdown_pct": 4.0,
+  "unrealized_pnl_usd": 8.34,
+  "equity_value": 96484.92,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 38598.53,
+  "day_capital_used_usd": 38590.63,
   "swing_capital_used_usd": 29760.5,
-  "total_trades": 152,
-  "last_tick": "2026-06-07T18:53:59.556006+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 154,
+  "last_tick": "2026-06-07T20:06:31.037246+00:00",
+  "last_reflection": "2026-06-07",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -147,8 +147,8 @@
       "mode": "paper",
       "strategy_version": "03",
       "status": "open",
-      "price_trough": 1.1522064208984375,
-      "trailing_stop_price": 1.161424,
+      "price_trough": 1.1518083810806274,
+      "trailing_stop_price": 1.161023,
       "current_price": 1.152738,
       "unrealized_pnl_pct": 0.010375,
       "unrealized_pnl_usd": 66.73
@@ -180,8 +180,8 @@
       "mode": "paper",
       "strategy_version": "05",
       "status": "open",
-      "price_peak": 160.29600524902344,
-      "trailing_stop_price": 159.013637,
+      "price_peak": 160.31300354003906,
+      "trailing_stop_price": 159.0305,
       "current_price": 160.292999,
       "unrealized_pnl_pct": 0.007062,
       "unrealized_pnl_usd": 27.43
@@ -212,8 +212,8 @@
       "mode": "paper",
       "strategy_version": "08",
       "status": "open",
-      "price_trough": 112.76000213623047,
-      "trailing_stop_price": 113.662082,
+      "price_trough": 112.58000183105469,
+      "trailing_stop_price": 113.480642,
       "current_price": 112.970001,
       "unrealized_pnl_pct": 0.013285,
       "unrealized_pnl_usd": 68.48
@@ -455,75 +455,6 @@
       "unrealized_pnl_usd": 0.65
     },
     {
-      "id": "AUD/USD_20260605201553",
-      "asset": "AUD/USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.7040765881538391,
-      "entry_time": "2026-06-05T20:15:53.928673+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00483,
-      "size_usd": 5147.85,
-      "position_size_pct": 0.0533,
-      "confidence": 0.833,
-      "signals": [
-        "RSI oversold (14.8)",
-        "1d momentum -1.33%",
-        "BB oversold (pct_b=0.07)",
-        "High-impact catalyst",
-        "Claude [strongly_supports]: fed dovish"
-      ],
-      "news_sentiment": 0.415,
-      "news_headlines": [
-        "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
-        "Dollar drifts lower as oil falls on Hormuz deal optimism",
-        "The Dollar is Now Lower Than When the Iran War Began"
-      ],
-      "mode": "paper",
-      "strategy_version": "14",
-      "status": "open",
-      "price_peak": 0.7049700617790222,
-      "trailing_stop_price": 0.70356,
-      "current_price": 0.70497,
-      "unrealized_pnl_pct": 0.001269,
-      "unrealized_pnl_usd": 6.53
-    },
-    {
-      "id": "NZD/USD_20260605201553",
-      "asset": "NZD/USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.5792064666748047,
-      "entry_time": "2026-06-05T20:15:53.929986+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00487,
-      "size_usd": 5401.23,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI oversold (15.2)",
-        "5d momentum -0.30%",
-        "1d momentum -1.30%",
-        "BB oversold (pct_b=0.08)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
-      ],
-      "news_sentiment": 0.264,
-      "news_headlines": [
-        "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-        "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-        "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-      ],
-      "mode": "paper",
-      "strategy_version": "14",
-      "status": "open",
-      "price_peak": 0.5798109769821167,
-      "trailing_stop_price": 0.578651,
-      "current_price": 0.579811,
-      "unrealized_pnl_pct": 0.001044,
-      "unrealized_pnl_usd": 5.64
-    },
-    {
       "id": "EUR/GBP_20260605201553",
       "asset": "EUR/GBP",
       "trade_type": "swing",
@@ -583,11 +514,106 @@
       "mode": "paper",
       "strategy_version": "14",
       "status": "open",
-      "price_trough": 1.142699956893921,
-      "trailing_stop_price": 1.156687,
-      "current_price": 1.1423,
-      "unrealized_pnl_pct": 0.008506,
-      "unrealized_pnl_usd": 10.82
+      "price_trough": 1.1262999773025513,
+      "trailing_stop_price": 1.140086,
+      "current_price": 1.1263,
+      "unrealized_pnl_pct": 0.022394,
+      "unrealized_pnl_usd": 28.5
+    },
+    {
+      "id": "NZD/USD_20260607200630",
+      "asset": "NZD/USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.5798109769821167,
+      "entry_time": "2026-06-07T20:06:30.404907+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00448,
+      "size_usd": 2982.28,
+      "position_size_pct": 0.0309,
+      "confidence": 0.483,
+      "signals": [
+        "RSI oversold (11.7)",
+        "1d momentum -1.19%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
+      ],
+      "news_sentiment": 0.264,
+      "news_headlines": [
+        "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+        "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+        "Dollar flirts with new 2026 highs as oil price jump hurts euro"
+      ],
+      "mode": "paper",
+      "strategy_version": "14",
+      "status": "open",
+      "current_price": 0.579811,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AUD/USD_20260607200630",
+      "asset": "AUD/USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.7049700617790222,
+      "entry_time": "2026-06-07T20:06:30.406818+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.0044,
+      "size_usd": 2488.32,
+      "position_size_pct": 0.0258,
+      "confidence": 0.403,
+      "signals": [
+        "RSI oversold (12.8)",
+        "1d momentum -1.21%",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed dovish"
+      ],
+      "news_sentiment": 0.415,
+      "news_headlines": [
+        "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
+        "Dollar drifts lower as oil falls on Hormuz deal optimism",
+        "The Dollar is Now Lower Than When the Iran War Began"
+      ],
+      "mode": "paper",
+      "strategy_version": "14",
+      "status": "open",
+      "current_price": 0.70497,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AVAX-USD_20260607200630",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 6.550000190734863,
+      "entry_time": "2026-06-07T20:06:30.408592+00:00",
+      "stop_loss_pct": 0.01232,
+      "take_profit_pct": 0.03038,
+      "size_usd": 5070.58,
+      "position_size_pct": 0.0526,
+      "confidence": 0.934,
+      "signals": [
+        "RSI oversold (30.6)",
+        "5d momentum -2.38%",
+        "1d momentum -1.06%",
+        "BB oversold (pct_b=-0.02)",
+        "High-impact catalyst",
+        "Claude [supports]: analyst upgrade"
+      ],
+      "news_sentiment": 0.081,
+      "news_headlines": [
+        "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
+        "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
+        "Best Crypto To Buy With $100 Right Now"
+      ],
+      "mode": "paper",
+      "strategy_version": "14",
+      "status": "open",
+      "current_price": 6.55,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -796,8 +822,8 @@
       "news_confidence": 0.37,
       "news_headlines": [
         "AI stock mania is taking over the markets in 2026",
-        "Nvidia's CEO Just Called This Stock the Next Trillion-Dollar Company. Is It Time to Load Up on Shares?",
-        "Investment Banks Keep Raising Their Price Target on This Rare-Earth Mining Stock. Time to Buy?"
+        "Time Is Running Out to Lock In This Financial Stock's Sky-High Yield",
+        "Nvidia's CEO Just Called This Stock the Next Trillion-Dollar Company. Is It Time to Load Up on Shares?"
       ],
       "high_impact_news": true
     },
@@ -880,8 +906,8 @@
       "news_confidence": 0.39,
       "news_headlines": [
         "AI stock mania is taking over the markets in 2026",
-        "Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today",
-        "Arm Insiders Sold $25.6 Million in Stock. They Missed a Historic Rally."
+        "The Bull Case For Arm Holdings (ARM) Could Change Following AI Chip Selloff And Rate Jitters \u2013 Learn Why",
+        "Why Nvidia, Intel, Marvell, and Other AI Stocks Plunged Today"
       ],
       "high_impact_news": true
     },
@@ -900,9 +926,9 @@
       "news_sentiment": 0.429,
       "news_confidence": 0.28,
       "news_headlines": [
+        "Cathie Wood\u2019s ARK Buys Coinbase and Circle While Trimming Archer and Baidu",
         "Cathie Wood buys $99 million of popular megacap stock",
-        "3 Cathie Wood ETFs to Buy Before They (Likely) Invest in SpaceX",
-        "Why Cathie Wood and Berkshire Hathaway Both Love Google Stock Here"
+        "3 Cathie Wood ETFs to Buy Before They (Likely) Invest in SpaceX"
       ],
       "high_impact_news": true
     },
@@ -939,12 +965,12 @@
       "bollinger_pct_b": 0.0606,
       "volume_spike": false,
       "volume_spike_ratio": 1.04,
-      "news_sentiment": 0.317,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.371,
+      "news_confidence": 0.35,
       "news_headlines": [
-        "What Jensen Huang Just Said About Elon Musk Shows Why Tesla May Be Worth More Than SpaceX",
-        "\u201cWait for the First Dip and Then Come In.\u201d How Wall Street Experts Are Playing the SpaceX IPO.",
-        "Patrick Bet-David Show\u2019s Adam Sosnick Compares His Bitcoin 'Dry Powder' To The Tesla Cash That Built SpaceX"
+        "BYD just answered the question Tesla keeps fighting in court",
+        "Starlink Is Incredible\u2014and It\u2019s the Key to the SpaceX IPO",
+        "What Jensen Huang Just Said About Elon Musk Shows Why Tesla May Be Worth More Than SpaceX"
       ],
       "high_impact_news": true
     },
@@ -971,7 +997,7 @@
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.6216,
+      "rank_score": 0.6166,
       "price": 416.67999267578125,
       "rsi": 21.70210001410257,
       "momentum_5d": -0.013191468725253033,
@@ -981,18 +1007,18 @@
       "bollinger_pct_b": 0.0295,
       "volume_spike": false,
       "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.875,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.822,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "Why Microsoft Distancing Itself From OpenAI Is a Good Thing for Investors",
         "Forget SCHD: DGRO\u2019s Looser Quality Filter Has Quietly Delivered Higher Total Returns Over the Last Decade",
-        "Grid Dynamics Holdings Inc. (GDYN) Unveils AI Modernization Service on Microsoft Azure",
-        "Trump's New AI Clock Starts Ticking: Will Microsoft, Oracle Or Palantir Become 'Trusted Partners'?"
+        "Grid Dynamics Holdings Inc. (GDYN) Unveils AI Modernization Service on Microsoft Azure"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AMZN",
-      "rank_score": 0.6191,
+      "rank_score": 0.6111,
       "price": 245.97000122070312,
       "rsi": 38.895083139457064,
       "momentum_5d": -0.030144132274803438,
@@ -1002,12 +1028,12 @@
       "bollinger_pct_b": 0.0161,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.789,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.725,
+      "news_confidence": 0.51,
       "news_headlines": [
+        "Why Microsoft Distancing Itself From OpenAI Is a Good Thing for Investors",
         "Ulta Beauty adds new offering for customers amid Amazon threat",
-        "Is AECOM (ACM) A Good Stock To Buy Now?",
-        "Here Are 5 AI-Related Stocks to Buy and Hold for the Next 5 Years"
+        "Is AECOM (ACM) A Good Stock To Buy Now?"
       ],
       "high_impact_news": true
     }

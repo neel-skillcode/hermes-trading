@@ -117,8 +117,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.1522064208984375,
-    "trailing_stop_price": 1.161424
+    "price_trough": 1.1518083810806274,
+    "trailing_stop_price": 1.161023
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -147,8 +147,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 160.29600524902344,
-    "trailing_stop_price": 159.013637
+    "price_peak": 160.31300354003906,
+    "trailing_stop_price": 159.0305
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -176,8 +176,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_trough": 112.76000213623047,
-    "trailing_stop_price": 113.662082
+    "price_trough": 112.58000183105469,
+    "trailing_stop_price": 113.480642
   },
   "SLV": {
     "id": "SLV_20260605161646",
@@ -394,69 +394,6 @@
     "price_trough": 5.760000228881836,
     "trailing_stop_price": 5.9904
   },
-  "AUD/USD": {
-    "id": "AUD/USD_20260605201553",
-    "asset": "AUD/USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.7040765881538391,
-    "entry_time": "2026-06-05T20:15:53.928673+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00483,
-    "size_usd": 5147.85,
-    "position_size_pct": 0.0533,
-    "confidence": 0.833,
-    "signals": [
-      "RSI oversold (14.8)",
-      "1d momentum -1.33%",
-      "BB oversold (pct_b=0.07)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: fed dovish"
-    ],
-    "news_sentiment": 0.415,
-    "news_headlines": [
-      "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
-      "Dollar drifts lower as oil falls on Hormuz deal optimism",
-      "The Dollar is Now Lower Than When the Iran War Began"
-    ],
-    "mode": "paper",
-    "strategy_version": "14",
-    "status": "open",
-    "price_peak": 0.7049700617790222,
-    "trailing_stop_price": 0.70356
-  },
-  "NZD/USD": {
-    "id": "NZD/USD_20260605201553",
-    "asset": "NZD/USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.5792064666748047,
-    "entry_time": "2026-06-05T20:15:53.929986+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00487,
-    "size_usd": 5401.23,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (15.2)",
-      "5d momentum -0.30%",
-      "1d momentum -1.30%",
-      "BB oversold (pct_b=0.08)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
-    ],
-    "news_sentiment": 0.264,
-    "news_headlines": [
-      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-    ],
-    "mode": "paper",
-    "strategy_version": "14",
-    "status": "open",
-    "price_peak": 0.5798109769821167,
-    "trailing_stop_price": 0.578651
-  },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
     "asset": "EUR/GBP",
@@ -510,6 +447,94 @@
       "Prediction: XRP (Ripple) Will Be Worth This Much in 5 Years",
       "Is Ripple (XRP) Still A Good Crypto to Buy In 2026?",
       "XRP Price Analysis: Will XRP ETF Inflows Stall as Price Approaches $1?"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open",
+    "price_trough": 1.1262999773025513,
+    "trailing_stop_price": 1.140086
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260607200630",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.5798109769821167,
+    "entry_time": "2026-06-07T20:06:30.404907+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00448,
+    "size_usd": 2982.28,
+    "position_size_pct": 0.0309,
+    "confidence": 0.483,
+    "signals": [
+      "RSI oversold (11.7)",
+      "1d momentum -1.19%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
+    ],
+    "news_sentiment": 0.264,
+    "news_headlines": [
+      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20260607200630",
+    "asset": "AUD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.7049700617790222,
+    "entry_time": "2026-06-07T20:06:30.406818+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.0044,
+    "size_usd": 2488.32,
+    "position_size_pct": 0.0258,
+    "confidence": 0.403,
+    "signals": [
+      "RSI oversold (12.8)",
+      "1d momentum -1.21%",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish"
+    ],
+    "news_sentiment": 0.415,
+    "news_headlines": [
+      "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
+      "Dollar drifts lower as oil falls on Hormuz deal optimism",
+      "The Dollar is Now Lower Than When the Iran War Began"
+    ],
+    "mode": "paper",
+    "strategy_version": "14",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260607200630",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.550000190734863,
+    "entry_time": "2026-06-07T20:06:30.408592+00:00",
+    "stop_loss_pct": 0.01232,
+    "take_profit_pct": 0.03038,
+    "size_usd": 5070.58,
+    "position_size_pct": 0.0526,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (30.6)",
+      "5d momentum -2.38%",
+      "1d momentum -1.06%",
+      "BB oversold (pct_b=-0.02)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
+      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
+      "Best Crypto To Buy With $100 Right Now"
     ],
     "mode": "paper",
     "strategy_version": "14",
