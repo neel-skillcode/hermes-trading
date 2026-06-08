@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9200699925422668,
-    "trailing_stop_price": 0.912709
+    "price_peak": 0.9201899766921997,
+    "trailing_stop_price": 0.912828
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -299,38 +299,6 @@
     "price_peak": 0.8650199770927429,
     "trailing_stop_price": 0.8581
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260607223447",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1673.8299560546875,
-    "entry_time": "2026-06-07T22:34:47.561246+00:00",
-    "stop_loss_pct": 0.01242,
-    "take_profit_pct": 0.03074,
-    "size_usd": 5876.16,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (62.9)",
-      "MACD crossover",
-      "5d momentum +2.66%",
-      "1d momentum +7.39%",
-      "BB overbought (pct_b=1.24)",
-      "Volume spike 10.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge; price decline"
-    ],
-    "news_sentiment": -0.22,
-    "news_headlines": [
-      "1 Unstoppable Crypto to Buy Before It Soars 3,000%, According to Wall Street's Tom Lee",
-      "Which of Bitcoin, XRP, Ethereum, or Solana Recovers First?",
-      "How to Get Crypto Exposure Without Owning Crypto Directly"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open"
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260608020102",
     "asset": "SOL-USD",
@@ -451,7 +419,9 @@
     ],
     "mode": "paper",
     "strategy_version": "15",
-    "status": "open"
+    "status": "open",
+    "price_trough": 949.280029296875,
+    "trailing_stop_price": 963.51923
   },
   "SMCI": {
     "id": "SMCI_20260608181313",
@@ -481,7 +451,9 @@
     ],
     "mode": "paper",
     "strategy_version": "15",
-    "status": "open"
+    "status": "open",
+    "price_trough": 43.9900016784668,
+    "trailing_stop_price": 44.649852
   },
   "AMAT": {
     "id": "AMAT_20260608181313",
@@ -511,6 +483,66 @@
     ],
     "mode": "paper",
     "strategy_version": "15",
+    "status": "open",
+    "price_trough": 492.1700134277344,
+    "trailing_stop_price": 499.552564
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260608233756",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1698.010009765625,
+    "entry_time": "2026-06-08T23:37:56.790649+00:00",
+    "stop_loss_pct": 0.01024,
+    "take_profit_pct": 0.02497,
+    "size_usd": 5493.73,
+    "position_size_pct": 0.0561,
+    "confidence": 0.877,
+    "signals": [
+      "RSI overbought (66.6)",
+      "5d momentum +0.82%",
+      "1d momentum +0.49%",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.407,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Monday, June 8, 2026: Moving up after bitcoin prices fell below $60,000",
+      "Bored Ape Maker Yuga Labs Rescues Dozens of Ethereum NFTs From Exploit",
+      "Top Cryptocurrencies Rise; Bitcoin Holds Above $63,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260608233756",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.1714999675750732,
+    "entry_time": "2026-06-08T23:37:56.792916+00:00",
+    "stop_loss_pct": 0.00986,
+    "take_profit_pct": 0.02239,
+    "size_usd": 347.66,
+    "position_size_pct": 0.0036,
+    "confidence": 0.543,
+    "signals": [
+      "RSI overbought (63.2)",
+      "1d momentum +1.43%",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.024,
+    "news_headlines": [
+      "Top Cryptocurrencies Rise; Bitcoin Holds Above $63,000",
+      "AI XRP Price Prediction: ChatGPT Forecasts XRP Price After 19% Slide",
+      "Is the SpaceX IPO Crashing the Crypto Market?"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
     "status": "open"
   }
 }
