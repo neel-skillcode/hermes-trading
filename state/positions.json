@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.063230037689209,
-    "trailing_stop_price": 1.054724
+    "price_peak": 1.0642900466918945,
+    "trailing_stop_price": 1.055776
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -423,36 +423,6 @@
     "price_peak": 0.8642100095748901,
     "trailing_stop_price": 0.857296
   },
-  "NZD/USD": {
-    "id": "NZD/USD_20260607200630",
-    "asset": "NZD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.5798109769821167,
-    "entry_time": "2026-06-07T20:06:30.404907+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00448,
-    "size_usd": 2982.28,
-    "position_size_pct": 0.0309,
-    "confidence": 0.483,
-    "signals": [
-      "RSI oversold (11.7)",
-      "1d momentum -1.19%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
-    ],
-    "news_sentiment": 0.264,
-    "news_headlines": [
-      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-    ],
-    "mode": "paper",
-    "strategy_version": "14",
-    "status": "open",
-    "price_trough": 0.5792064666748047,
-    "trailing_stop_price": 0.580365
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260607223447",
     "asset": "ETH-USD",
@@ -515,8 +485,8 @@
     "mode": "paper",
     "strategy_version": "15",
     "status": "open",
-    "price_trough": 603.719970703125,
-    "trailing_stop_price": 609.419087
+    "price_trough": 601.97998046875,
+    "trailing_stop_price": 607.662671
   },
   "SOL-USD": {
     "id": "SOL-USD_20260608020102",
@@ -542,6 +512,39 @@
       "Solana Founder Anatoly Yakovenko Mocks Bernie Sanders\u2019 AI Jobs Warning",
       "Which of Bitcoin, XRP, Ethereum, or Solana Recovers First?",
       "Pump.fun Bounty Backfires After Man Inks Misspelled Meme Coin on Forehead"
+    ],
+    "mode": "paper",
+    "strategy_version": "15",
+    "status": "open",
+    "price_peak": 66.76000213623047,
+    "trailing_stop_price": 65.934181
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260608115430",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1592999696731567,
+    "entry_time": "2026-06-08T11:54:30.580603+00:00",
+    "stop_loss_pct": 0.01352,
+    "take_profit_pct": 0.03374,
+    "size_usd": 2975.6,
+    "position_size_pct": 0.0308,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (63.4)",
+      "5d momentum +1.66%",
+      "1d momentum +1.73%",
+      "BB overbought (pct_b=0.85)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.32,
+    "news_headlines": [
+      "These 2 Bearish Signs Could Spell Trouble for XRP",
+      "XRP News: David Schwartz Just Said XRP Is Becoming a Settlement Layer for Stocks and Loans, Is the Infrastructure Actually Ready?",
+      "The Best Cryptocurrency to Buy With $1,000 Right Now"
     ],
     "mode": "paper",
     "strategy_version": "15",
