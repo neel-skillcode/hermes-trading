@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.918969988822937,
-    "trailing_stop_price": 0.911618
+    "price_peak": 0.9189900159835815,
+    "trailing_stop_price": 0.911638
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.062980055809021,
-    "trailing_stop_price": 1.054476
+    "price_peak": 1.063230037689209,
+    "trailing_stop_price": 1.054724
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -420,8 +420,8 @@
     "mode": "paper",
     "strategy_version": "14",
     "status": "open",
-    "price_peak": 0.8640699982643127,
-    "trailing_stop_price": 0.857157
+    "price_peak": 0.8642100095748901,
+    "trailing_stop_price": 0.857296
   },
   "NZD/USD": {
     "id": "NZD/USD_20260607200630",
@@ -452,36 +452,6 @@
     "status": "open",
     "price_trough": 0.5792064666748047,
     "trailing_stop_price": 0.580365
-  },
-  "AUD/USD": {
-    "id": "AUD/USD_20260607200630",
-    "asset": "AUD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.7049700617790222,
-    "entry_time": "2026-06-07T20:06:30.406818+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.0044,
-    "size_usd": 2488.32,
-    "position_size_pct": 0.0258,
-    "confidence": 0.403,
-    "signals": [
-      "RSI oversold (12.8)",
-      "1d momentum -1.21%",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish"
-    ],
-    "news_sentiment": 0.415,
-    "news_headlines": [
-      "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
-      "Dollar drifts lower as oil falls on Hormuz deal optimism",
-      "The Dollar is Now Lower Than When the Iran War Began"
-    ],
-    "mode": "paper",
-    "strategy_version": "14",
-    "status": "open",
-    "price_trough": 0.7035812139511108,
-    "trailing_stop_price": 0.704988
   },
   "ETH-USD": {
     "id": "ETH-USD_20260607223447",
@@ -541,6 +511,37 @@
       "Top Cryptocurrencies Fall; Bitcoin Drops Below $61,000 Level",
       "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
       "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?"
+    ],
+    "mode": "paper",
+    "strategy_version": "15",
+    "status": "open",
+    "price_trough": 603.719970703125,
+    "trailing_stop_price": 609.419087
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260608020102",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 66.19000244140625,
+    "entry_time": "2026-06-08T02:01:02.437537+00:00",
+    "stop_loss_pct": 0.01237,
+    "take_profit_pct": 0.02873,
+    "size_usd": 2488.04,
+    "position_size_pct": 0.0257,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (66.0)",
+      "5d momentum +2.48%",
+      "1d momentum +4.20%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.318,
+    "news_headlines": [
+      "Solana Founder Anatoly Yakovenko Mocks Bernie Sanders\u2019 AI Jobs Warning",
+      "Which of Bitcoin, XRP, Ethereum, or Solana Recovers First?",
+      "Pump.fun Bounty Backfires After Man Inks Misspelled Meme Coin on Forehead"
     ],
     "mode": "paper",
     "strategy_version": "15",
