@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9198799729347229,
-    "trailing_stop_price": 0.912521
+    "price_peak": 0.9200699925422668,
+    "trailing_stop_price": 0.912709
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -210,39 +210,6 @@
     "strategy_version": "13",
     "status": "open"
   },
-  "SMCI": {
-    "id": "SMCI_20260605161646",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 41.790000915527344,
-    "entry_time": "2026-06-05T16:16:46.730934+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6153.42,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (25.9)",
-      "5d momentum -11.75%",
-      "1d momentum -10.86%",
-      "BB oversold (pct_b=-0.08)",
-      "News +0.77 (conf 0.67) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: product catalyst; price decline"
-    ],
-    "news_sentiment": 0.769,
-    "news_headlines": [
-      "Stock Market Today: Nasdaq Slides 2% As Chips Drop, Yields Rise; AMD, Intel Lead Semis Sell-Off (Live Coverage)",
-      "Stocks to Watch Recap: Broadcom, Universal Music,  Quantinuum",
-      "Quantinuum, Broadcom, UnitedHealth, and More Stocks That Explain Today\u2019s Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "13",
-    "status": "open",
-    "price_peak": 43.220001220703125,
-    "trailing_stop_price": 42.571701
-  },
   "LRCX": {
     "id": "LRCX_20260605161646",
     "asset": "LRCX",
@@ -271,8 +238,8 @@
     "mode": "paper",
     "strategy_version": "13",
     "status": "open",
-    "price_peak": 327.17999267578125,
-    "trailing_stop_price": 310.313864
+    "price_peak": 327.25,
+    "trailing_stop_price": 310.380263
   },
   "SNAP": {
     "id": "SNAP_20260605181600",
@@ -364,39 +331,6 @@
     "strategy_version": "15",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260607223447",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 603.8400268554688,
-    "entry_time": "2026-06-07T22:34:47.562525+00:00",
-    "stop_loss_pct": 0.00944,
-    "take_profit_pct": 0.02337,
-    "size_usd": 535.3,
-    "position_size_pct": 0.0055,
-    "confidence": 0.95,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +1.33%",
-      "1d momentum +5.49%",
-      "BB overbought (pct_b=1.12)",
-      "Volume spike 9.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.455,
-    "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $61,000 Level",
-      "Top Cryptocurrencies Decline; Bitcoin Drops Below $68,000 Level",
-      "Crypto Crash Wipes Out 7% in 24 Hours: What\u2019s Next?"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open",
-    "price_trough": 601.97998046875,
-    "trailing_stop_price": 607.662671
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260608020102",
     "asset": "SOL-USD",
@@ -425,69 +359,8 @@
     "mode": "paper",
     "strategy_version": "15",
     "status": "open",
-    "price_peak": 67.31999969482422,
-    "trailing_stop_price": 66.487251
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260608115430",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1592999696731567,
-    "entry_time": "2026-06-08T11:54:30.580603+00:00",
-    "stop_loss_pct": 0.01352,
-    "take_profit_pct": 0.03374,
-    "size_usd": 2975.6,
-    "position_size_pct": 0.0308,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (63.4)",
-      "5d momentum +1.66%",
-      "1d momentum +1.73%",
-      "BB overbought (pct_b=0.85)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.32,
-    "news_headlines": [
-      "These 2 Bearish Signs Could Spell Trouble for XRP",
-      "XRP News: David Schwartz Just Said XRP Is Becoming a Settlement Layer for Stocks and Loans, Is the Infrastructure Actually Ready?",
-      "The Best Cryptocurrency to Buy With $1,000 Right Now"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open"
-  },
-  "IONQ": {
-    "id": "IONQ_20260608153342",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 62.369998931884766,
-    "entry_time": "2026-06-08T15:33:42.796322+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03698,
-    "size_usd": 5827.54,
-    "position_size_pct": 0.0596,
-    "confidence": 0.931,
-    "signals": [
-      "RSI oversold (37.7)",
-      "MACD crossover",
-      "5d momentum +9.73%",
-      "1d momentum -12.65%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.487,
-    "news_headlines": [
-      "Brokers Suggest Investing in IonQ (IONQ): Read This Before Placing a Bet",
-      "IonQ (IONQ) Valuation Check After Sharp Pullback And Popular Overvaluation Narrative",
-      "The Next Quantum Computing IPO CEO Just Told CNBC \u2018It Is Not 10 to 15 Years Out. It\u2019s Very Much Now\u2019"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open"
+    "price_peak": 67.38999938964844,
+    "trailing_stop_price": 66.556385
   },
   "HOOD": {
     "id": "HOOD_20260608153342",
@@ -543,6 +416,98 @@
       "AI is 'not existential' to Apple as it is for rest of Silicon Valley",
       "Australia, Canada, Japan trade bodies fret over being left out in made-in-Europe drive",
       "Blackstone Digital Infrastructure Trust Offers Data Center Exposure With Limited Development Risk, BofA Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "15",
+    "status": "open",
+    "price_peak": 412.44000244140625,
+    "trailing_stop_price": 409.412693
+  },
+  "MU": {
+    "id": "MU_20260608181313",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 953.4299926757812,
+    "entry_time": "2026-06-08T18:13:13.901499+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03638,
+    "size_usd": 5335.6,
+    "position_size_pct": 0.0545,
+    "confidence": 0.851,
+    "signals": [
+      "RSI oversold (34.9)",
+      "MACD crossover",
+      "5d momentum +10.35%",
+      "1d momentum -10.28%",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge; price decline"
+    ],
+    "news_sentiment": 0.163,
+    "news_headlines": [
+      "Marvell stock surges on S&P 500 inclusion",
+      "Micron stock rebounds along with chip sector following broader market rout",
+      "Stocks to Watch: Marvell Technology, Apple, Broadcom, Strategy"
+    ],
+    "mode": "paper",
+    "strategy_version": "15",
+    "status": "open"
+  },
+  "SMCI": {
+    "id": "SMCI_20260608181313",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 44.540000915527344,
+    "entry_time": "2026-06-08T18:13:13.902977+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03698,
+    "size_usd": 5837.18,
+    "position_size_pct": 0.0596,
+    "confidence": 0.931,
+    "signals": [
+      "RSI oversold (36.4)",
+      "MACD crossover",
+      "5d momentum +6.99%",
+      "1d momentum -5.45%",
+      "High-impact catalyst",
+      "Claude [neutral]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.105,
+    "news_headlines": [
+      "Supermicro Stock Is Up By More Than 70% in 30 Days. Is It a Buy?",
+      "Micron, Intel, Tesla, Apple, Lilly, and More Stocks That Explain Today\u2019s Market",
+      "Market Fear Index Slides as Investors Pile Back Into Tech Stocks"
+    ],
+    "mode": "paper",
+    "strategy_version": "15",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260608181313",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 493.45001220703125,
+    "entry_time": "2026-06-08T18:13:13.904239+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03698,
+    "size_usd": 4383.82,
+    "position_size_pct": 0.0447,
+    "confidence": 0.931,
+    "signals": [
+      "RSI oversold (42.6)",
+      "MACD crossover",
+      "5d momentum +8.94%",
+      "1d momentum -2.00%",
+      "High-impact catalyst",
+      "Claude [neutral]: fed hawkish"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "3 chip stocks to buy after recent SOX pullback: Citi",
+      "Should You Buy, Sell or Hold AMAT Stock After a 167% Rise in a Year?",
+      "Are Computer and Technology Stocks Lagging  Applied Materials (AMAT) This Year?"
     ],
     "mode": "paper",
     "strategy_version": "15",
