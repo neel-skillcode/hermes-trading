@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9201899766921997,
-    "trailing_stop_price": 0.912828
+    "price_peak": 0.920710027217865,
+    "trailing_stop_price": 0.913344
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0642900466918945,
-    "trailing_stop_price": 1.055776
+    "price_peak": 1.0663299560546875,
+    "trailing_stop_price": 1.057799
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -456,64 +456,6 @@
     "price_trough": 492.1700134277344,
     "trailing_stop_price": 499.552564
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260609054939",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 67.22000122070312,
-    "entry_time": "2026-06-09T05:49:39.353604+00:00",
-    "stop_loss_pct": 0.0096,
-    "take_profit_pct": 0.0219,
-    "size_usd": 3525.01,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "5d momentum +2.75%",
-      "1d momentum +2.97%",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.265,
-    "news_headlines": [
-      "Bitcoin, Ethereum, XRP, Dogecoin Slide Even As Michael Saylor's Strategy Inc Resumes Buying BTC: Analyst Says 'Buy' The ETH Dip",
-      "Top Cryptocurrencies Rise; Bitcoin Holds Above $63,000",
-      "Solana Crash Post-Mortem: 3 On-Chain Metrics Reveal the Damage"
-    ],
-    "mode": "paper",
-    "strategy_version": "16",
-    "status": "open"
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260609054939",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1690.699951171875,
-    "entry_time": "2026-06-09T05:49:39.355766+00:00",
-    "stop_loss_pct": 0.00918,
-    "take_profit_pct": 0.02122,
-    "size_usd": 3900.01,
-    "position_size_pct": 0.0399,
-    "confidence": 0.624,
-    "signals": [
-      "5d momentum +1.65%",
-      "1d momentum +2.30%",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Monday, June 8, 2026: Moving up after bitcoin prices fell below $60,000",
-      "Humanity Protocol Token Crashes 88% Following Private Key Breach",
-      "Bitcoin, Ethereum, XRP, Dogecoin Slide Even As Michael Saylor's Strategy Inc Resumes Buying BTC: Analyst Says 'Buy' The ETH Dip"
-    ],
-    "mode": "paper",
-    "strategy_version": "16",
-    "status": "open"
-  },
   "NZD/USD": {
     "id": "NZD/USD_20260609054939",
     "asset": "NZD/USD",
@@ -539,6 +481,66 @@
       "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
       "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
       "Dollar flirts with new 2026 highs as oil price jump hurts euro"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260609115213",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 62604.01953125,
+    "entry_time": "2026-06-09T11:52:13.316266+00:00",
+    "stop_loss_pct": 0.00684,
+    "take_profit_pct": 0.01692,
+    "size_usd": 5930.93,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (30.4)",
+      "5d momentum -1.04%",
+      "1d momentum -1.29%",
+      "BB oversold (pct_b=0.13)",
+      "Volume spike 1.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: analyst upgrade; fed hawkish"
+    ],
+    "news_sentiment": 0.014,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives",
+      "Bitcoin and ethereum prices today, Monday, June 8, 2026: Moving up after bitcoin prices fell below $60,000",
+      "Japan\u2019s Biggest Crypto Banking Experiment Is Here, and the US Can\u2019t Do This Yet"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
+    "status": "open"
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260609115213",
+    "asset": "EUR/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 185.33700561523438,
+    "entry_time": "2026-06-09T11:52:13.317947+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00481,
+    "size_usd": 1450.76,
+    "position_size_pct": 0.0149,
+    "confidence": 0.814,
+    "signals": [
+      "RSI overbought (82.0)",
+      "1d momentum +0.43%",
+      "BB overbought (pct_b=1.13)",
+      "News -0.54 (conf 0.65) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 2 articles. Overa"
+    ],
+    "news_sentiment": -0.538,
+    "news_headlines": [
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
+      "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
     ],
     "mode": "paper",
     "strategy_version": "16",
