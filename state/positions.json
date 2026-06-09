@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9211900234222412,
-    "trailing_stop_price": 0.913821
+    "price_peak": 0.9215099811553955,
+    "trailing_stop_price": 0.914138
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0674500465393066,
-    "trailing_stop_price": 1.05891
+    "price_peak": 1.0681400299072266,
+    "trailing_stop_price": 1.059595
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -179,35 +179,6 @@
     "price_trough": 112.50700378417969,
     "trailing_stop_price": 113.40706
   },
-  "SNAP": {
-    "id": "SNAP_20260605181600",
-    "asset": "SNAP",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 5.764999866485596,
-    "entry_time": "2026-06-05T18:16:00.251108+00:00",
-    "stop_loss_pct": 0.04,
-    "take_profit_pct": 0.12161,
-    "size_usd": 753.02,
-    "position_size_pct": 0.0078,
-    "confidence": 0.081,
-    "signals": [
-      "5d momentum -5.18%",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.158,
-    "news_headlines": [
-      "Why Is Snap (SNAP) Up 1.5% Since Last Earnings Report?",
-      "Sector Update: Tech Stocks Fall Thursday Afternoon",
-      "Snapchat is growing its presence in India"
-    ],
-    "mode": "paper",
-    "strategy_version": "14",
-    "status": "open",
-    "price_trough": 5.304999828338623,
-    "trailing_stop_price": 5.5172
-  },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
     "asset": "EUR/GBP",
@@ -329,7 +300,9 @@
     ],
     "mode": "paper",
     "strategy_version": "17",
-    "status": "open"
+    "status": "open",
+    "price_peak": 174.9149932861328,
+    "trailing_stop_price": 172.964691
   },
   "BTC-USD": {
     "id": "BTC-USD_20260609164749",
@@ -360,37 +333,9 @@
     ],
     "mode": "paper",
     "strategy_version": "17",
-    "status": "open"
-  },
-  "QCOM": {
-    "id": "QCOM_20260609164749",
-    "asset": "QCOM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 193.97000122070312,
-    "entry_time": "2026-06-09T16:47:49.194798+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 5789.42,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (18.2)",
-      "5d momentum -10.74%",
-      "1d momentum -19.56%",
-      "BB oversold (pct_b=0.01)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.571,
-    "news_headlines": [
-      "US Equity Indexes Sink as Big-Tech Craters in Midday Trading",
-      "What Lit a Fire Under Qualcomm Stock?",
-      "Qualcomm Drops 8% on ByteDance ASIC Deal, Marvell Falls 10% as Custom-Silicon Stocks Slide"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open"
+    "status": "open",
+    "price_peak": 61737.80859375,
+    "trailing_stop_price": 61250.697284
   },
   "ETH-USD": {
     "id": "ETH-USD_20260609164749",
@@ -421,67 +366,9 @@
     ],
     "mode": "paper",
     "strategy_version": "17",
-    "status": "open"
-  },
-  "MRVL": {
-    "id": "MRVL_20260609164749",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 246.35000610351562,
-    "entry_time": "2026-06-09T16:47:49.197772+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6136.54,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (34.6)",
-      "5d momentum -15.95%",
-      "1d momentum -16.06%",
-      "BB oversold (pct_b=-0.00)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: price surge"
-    ],
-    "news_sentiment": 0.455,
-    "news_headlines": [
-      "Micron, Marvell lead chip stocks lower in AI trade reversal",
-      "Marvell stock surges on S&P 500 inclusion",
-      "US Equity Indexes Sink as Big-Tech Craters in Midday Trading"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open"
-  },
-  "ARM": {
-    "id": "ARM_20260609164749",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 299.4100036621094,
-    "entry_time": "2026-06-09T16:47:49.199524+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 3233.48,
-    "position_size_pct": 0.0334,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (23.6)",
-      "5d momentum -14.00%",
-      "1d momentum -21.38%",
-      "BB oversold (pct_b=-0.04)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.371,
-    "news_headlines": [
-      "US Equity Indexes Sink as Big-Tech Craters in Midday Trading",
-      "Stocks Rally as Buyers Return After AI-Led Selloff",
-      "After 11% Wipeout, XSD Investors Must Hate Broadcom"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1649.3800048828125,
+    "trailing_stop_price": 1632.440872
   },
   "USD/CHF": {
     "id": "USD/CHF_20260609164749",
@@ -502,6 +389,153 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open",
+    "price_trough": 0.7979400157928467,
+    "trailing_stop_price": 0.804324
+  },
+  "LRCX": {
+    "id": "LRCX_20260609190325",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 326.6600036621094,
+    "entry_time": "2026-06-09T19:03:25.374253+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03508,
+    "size_usd": 4243.23,
+    "position_size_pct": 0.0434,
+    "confidence": 0.678,
+    "signals": [
+      "MACD crossover",
+      "5d momentum -4.16%",
+      "1d momentum -2.99%",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.719,
+    "news_headlines": [
+      "Lam Research (LRCX): A Strategic Investment in the Transformative Industry",
+      "Ultra Clean and Thor Industries have been highlighted as Zacks Bull and Bear of the Day",
+      "Semtech, Lam Research, and Photronics Shares Are Soaring, What You Need To Know"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "ORCL": {
+    "id": "ORCL_20260609190325",
+    "asset": "ORCL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 205.46499633789062,
+    "entry_time": "2026-06-09T19:03:25.376120+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03423,
+    "size_usd": 3529.76,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (34.1)",
+      "5d momentum -3.28%",
+      "1d momentum -11.72%",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.897,
+    "news_headlines": [
+      "Mizuho Lifts PT on Arm Holdings (ARM) on Agentic AI Tailwinds",
+      "Oracle's Cloud Growth Story Faces a Key Moment",
+      "Palantir vs Oracle: Two AI Plays, One Winner"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "SOUN": {
+    "id": "SOUN_20260609190325",
+    "asset": "SOUN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 7.010000228881836,
+    "entry_time": "2026-06-09T19:03:25.377830+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 5845.39,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (34.4)",
+      "5d momentum -3.71%",
+      "1d momentum -13.24%",
+      "BB oversold (pct_b=0.13)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.573,
+    "news_headlines": [
+      "Is SoundHound AI (SOUN) Quietly Rewriting Its Governance To Shift The Investor-Litigation Balance?",
+      "Nebius Group vs. SoundHound AI: Which AI Stock Is a Better Buy in 2026?",
+      "Is SoundHound (SOUN) an AI Bubble Stocks to Short Now?"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "UNH": {
+    "id": "UNH_20260609190325",
+    "asset": "UNH",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 412.8900146484375,
+    "entry_time": "2026-06-09T19:03:25.379500+00:00",
+    "stop_loss_pct": 0.00699,
+    "take_profit_pct": 0.0162,
+    "size_usd": 1915.57,
+    "position_size_pct": 0.0196,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (77.3)",
+      "1d momentum +4.19%",
+      "BB overbought (pct_b=0.91)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.673,
+    "news_headlines": [
+      "Dow Jones ETFs: Better Than S&P 500 & Nasdaq Now?",
+      "Morgan Stanley Remains Bullish on UnitedHealth (UNH) Amid Sector Recovery",
+      "Beat the Market the Zacks Way: Extreme Networks, Bloom Energy, UnitedHealth in Focus"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260609190325",
+    "asset": "AMAT",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 498.1499938964844,
+    "entry_time": "2026-06-09T19:03:25.409356+00:00",
+    "stop_loss_pct": 0.06,
+    "take_profit_pct": 0.19002,
+    "size_usd": 3135.48,
+    "position_size_pct": 0.0321,
+    "confidence": 0.334,
+    "signals": [
+      "RSI overbought (62.9)",
+      "5d momentum -3.05%",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.75,
+    "news_headlines": [
+      "Stocks to Watch Tuesday: Marvell, Intel, GSK, Vail Resorts",
+      "Applied Materials, Inc. (AMAT) Eyes Growing Southeast Asia Workforce by 25%",
+      "Here's How Much a $1000 Investment in Applied Materials Made 10 Years Ago Would Be Worth Today"
+    ],
     "mode": "paper",
     "strategy_version": "17",
     "status": "open"
