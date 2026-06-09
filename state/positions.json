@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0663299560546875,
-    "trailing_stop_price": 1.057799
+    "price_peak": 1.0665500164031982,
+    "trailing_stop_price": 1.058018
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -238,8 +238,8 @@
     "mode": "paper",
     "strategy_version": "13",
     "status": "open",
-    "price_peak": 327.25,
-    "trailing_stop_price": 310.380263
+    "price_peak": 343.2651062011719,
+    "trailing_stop_price": 325.56979
   },
   "SNAP": {
     "id": "SNAP_20260605181600",
@@ -298,35 +298,6 @@
     "status": "open",
     "price_peak": 0.8650199770927429,
     "trailing_stop_price": 0.8581
-  },
-  "HOOD": {
-    "id": "HOOD_20260608153342",
-    "asset": "HOOD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 84.62000274658203,
-    "entry_time": "2026-06-08T15:33:42.798766+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03448,
-    "size_usd": 3743.15,
-    "position_size_pct": 0.0383,
-    "confidence": 0.598,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +5.83%",
-      "1d momentum -3.98%",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.964,
-    "news_headlines": [
-      "How to Buy the SpaceX IPO Stock? Crypto Users Have an Inside Lane",
-      "Strategy Buys $101 Million Worth of Bitcoin. It\u2019s a Good Sign for Crypto.",
-      "Red Cat Holdings Inc (RCAT) Expands Defense Portfolio With Drone and Maritime Growth"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open"
   },
   "MSFT": {
     "id": "MSFT_20260608153342",
@@ -392,70 +363,6 @@
     "price_trough": 949.280029296875,
     "trailing_stop_price": 963.51923
   },
-  "SMCI": {
-    "id": "SMCI_20260608181313",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 44.540000915527344,
-    "entry_time": "2026-06-08T18:13:13.902977+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03698,
-    "size_usd": 5837.18,
-    "position_size_pct": 0.0596,
-    "confidence": 0.931,
-    "signals": [
-      "RSI oversold (36.4)",
-      "MACD crossover",
-      "5d momentum +6.99%",
-      "1d momentum -5.45%",
-      "High-impact catalyst",
-      "Claude [neutral]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.105,
-    "news_headlines": [
-      "Supermicro Stock Is Up By More Than 70% in 30 Days. Is It a Buy?",
-      "Micron, Intel, Tesla, Apple, Lilly, and More Stocks That Explain Today\u2019s Market",
-      "Market Fear Index Slides as Investors Pile Back Into Tech Stocks"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open",
-    "price_trough": 43.9900016784668,
-    "trailing_stop_price": 44.649852
-  },
-  "AMAT": {
-    "id": "AMAT_20260608181313",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 493.45001220703125,
-    "entry_time": "2026-06-08T18:13:13.904239+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03698,
-    "size_usd": 4383.82,
-    "position_size_pct": 0.0447,
-    "confidence": 0.931,
-    "signals": [
-      "RSI oversold (42.6)",
-      "MACD crossover",
-      "5d momentum +8.94%",
-      "1d momentum -2.00%",
-      "High-impact catalyst",
-      "Claude [neutral]: fed hawkish"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "3 chip stocks to buy after recent SOX pullback: Citi",
-      "Should You Buy, Sell or Hold AMAT Stock After a 167% Rise in a Year?",
-      "Are Computer and Technology Stocks Lagging  Applied Materials (AMAT) This Year?"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open",
-    "price_trough": 492.1700134277344,
-    "trailing_stop_price": 499.552564
-  },
   "NZD/USD": {
     "id": "NZD/USD_20260609054939",
     "asset": "NZD/USD",
@@ -484,7 +391,9 @@
     ],
     "mode": "paper",
     "strategy_version": "16",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.5839757323265076,
+    "trailing_stop_price": 0.585144
   },
   "BTC-USD": {
     "id": "BTC-USD_20260609115213",
@@ -541,6 +450,101 @@
     "news_headlines": [
       "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
       "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
+    "status": "open",
+    "price_trough": 185.29299926757812,
+    "trailing_stop_price": 185.663585
+  },
+  "NKE": {
+    "id": "NKE_20260609141149",
+    "asset": "NKE",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 45.11909866333008,
+    "entry_time": "2026-06-09T14:11:49.821485+00:00",
+    "stop_loss_pct": 0.00954,
+    "take_profit_pct": 0.02322,
+    "size_usd": 5431.74,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (74.6)",
+      "5d momentum +4.01%",
+      "1d momentum +3.96%",
+      "BB overbought (pct_b=1.47)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst downgrade"
+    ],
+    "news_sentiment": 0.474,
+    "news_headlines": [
+      "Nike and Adidas take their rivalry to the World Cup. Who will win?",
+      "Can Nike\u2019s World Cup Football Bet Recenter Its Core Brand Story for Investors (NKE)?",
+      "Is NIKE's Footwear Business Showing Signs of Stabilization?"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
+    "status": "open"
+  },
+  "QCOM": {
+    "id": "QCOM_20260609141149",
+    "asset": "QCOM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 207.02999877929688,
+    "entry_time": "2026-06-09T14:11:49.823477+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6180.94,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (19.6)",
+      "5d momentum -5.23%",
+      "1d momentum -17.64%",
+      "BB oversold (pct_b=0.09)",
+      "Volume spike 3.8\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.805,
+    "news_headlines": [
+      "After Its Monumental Run, Is Marvell Stock's AI Future Already In The Price?",
+      "Stocks to Watch Tuesday: Marvell, Intel, GSK, Perrigo",
+      "Equities Rise Pre-Bell as Chip Stocks Extend Gains"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
+    "status": "open"
+  },
+  "RIVN": {
+    "id": "RIVN_20260609141149",
+    "asset": "RIVN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 16.114999771118164,
+    "entry_time": "2026-06-09T14:11:49.825263+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 2353.27,
+    "position_size_pct": 0.0241,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (34.5)",
+      "5d momentum -8.05%",
+      "1d momentum -12.01%",
+      "BB oversold (pct_b=0.11)",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.733,
+    "news_headlines": [
+      "Rivian's Momentum Score Surges As EV Maker Says AI Could Make CarPlay, Android Auto Obsolete",
+      "Trex, Bel Fuse, and Rivian Stocks Trade Up, What You Need To Know",
+      "AT&T Targets New Revenue Streams With Rivian And In Car Partnerships"
     ],
     "mode": "paper",
     "strategy_version": "16",
