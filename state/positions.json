@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.920710027217865,
-    "trailing_stop_price": 0.913344
+    "price_peak": 0.9211900234222412,
+    "trailing_stop_price": 0.913821
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0665500164031982,
-    "trailing_stop_price": 1.058018
+    "price_peak": 1.0674500465393066,
+    "trailing_stop_price": 1.05891
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -147,8 +147,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 160.34100341796875,
-    "trailing_stop_price": 159.058275
+    "price_peak": 160.3979949951172,
+    "trailing_stop_price": 159.114811
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -176,70 +176,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_trough": 112.58000183105469,
-    "trailing_stop_price": 113.480642
-  },
-  "SLV": {
-    "id": "SLV_20260605161646",
-    "asset": "SLV",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 62.06999969482422,
-    "entry_time": "2026-06-05T16:16:46.727659+00:00",
-    "stop_loss_pct": 0.01328,
-    "take_profit_pct": 0.03313,
-    "size_usd": 6153.42,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (18.5)",
-      "5d momentum -7.24%",
-      "1d momentum -8.28%",
-      "BB oversold (pct_b=-0.10)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: macro risk"
-    ],
-    "news_sentiment": 0.375,
-    "news_headlines": [
-      "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday After May Jobs Report",
-      "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday as Investors Weigh Economic Data",
-      "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Fresh Economic Signals"
-    ],
-    "mode": "paper",
-    "strategy_version": "13",
-    "status": "open"
-  },
-  "LRCX": {
-    "id": "LRCX_20260605161646",
-    "asset": "LRCX",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 316.04998779296875,
-    "entry_time": "2026-06-05T16:16:46.751513+00:00",
-    "stop_loss_pct": 0.05155,
-    "take_profit_pct": 0.1692,
-    "size_usd": 5258.37,
-    "position_size_pct": 0.0541,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (27.7)",
-      "5d momentum -7.00%",
-      "BB oversold (pct_b=-0.10)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "Company News for Jun 5, 2026",
-      "Memory Chip Prices Will Make or Break DRAM ETF Before Year-End 2026",
-      "Lam Research (LRCX) Stock Slides as Market Rises: Facts to Know Before You Trade"
-    ],
-    "mode": "paper",
-    "strategy_version": "13",
-    "status": "open",
-    "price_peak": 343.2651062011719,
-    "trailing_stop_price": 325.56979
+    "price_trough": 112.50700378417969,
+    "trailing_stop_price": 113.40706
   },
   "SNAP": {
     "id": "SNAP_20260605181600",
@@ -267,8 +205,8 @@
     "mode": "paper",
     "strategy_version": "14",
     "status": "open",
-    "price_trough": 5.599999904632568,
-    "trailing_stop_price": 5.824
+    "price_trough": 5.304999828338623,
+    "trailing_stop_price": 5.5172
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
@@ -299,133 +237,6 @@
     "price_peak": 0.8650199770927429,
     "trailing_stop_price": 0.8581
   },
-  "MSFT": {
-    "id": "MSFT_20260608153342",
-    "asset": "MSFT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 410.5450134277344,
-    "entry_time": "2026-06-08T15:33:42.800693+00:00",
-    "stop_loss_pct": 0.00734,
-    "take_profit_pct": 0.01811,
-    "size_usd": 5368.87,
-    "position_size_pct": 0.0549,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (7.3)",
-      "5d momentum -1.85%",
-      "1d momentum -6.97%",
-      "BB oversold (pct_b=0.02)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.44,
-    "news_headlines": [
-      "AI is 'not existential' to Apple as it is for rest of Silicon Valley",
-      "Australia, Canada, Japan trade bodies fret over being left out in made-in-Europe drive",
-      "Blackstone Digital Infrastructure Trust Offers Data Center Exposure With Limited Development Risk, BofA Says"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open",
-    "price_peak": 412.44000244140625,
-    "trailing_stop_price": 409.412693
-  },
-  "MU": {
-    "id": "MU_20260608181313",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 953.4299926757812,
-    "entry_time": "2026-06-08T18:13:13.901499+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03638,
-    "size_usd": 5335.6,
-    "position_size_pct": 0.0545,
-    "confidence": 0.851,
-    "signals": [
-      "RSI oversold (34.9)",
-      "MACD crossover",
-      "5d momentum +10.35%",
-      "1d momentum -10.28%",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge; price decline"
-    ],
-    "news_sentiment": 0.163,
-    "news_headlines": [
-      "Marvell stock surges on S&P 500 inclusion",
-      "Micron stock rebounds along with chip sector following broader market rout",
-      "Stocks to Watch: Marvell Technology, Apple, Broadcom, Strategy"
-    ],
-    "mode": "paper",
-    "strategy_version": "15",
-    "status": "open",
-    "price_trough": 949.280029296875,
-    "trailing_stop_price": 963.51923
-  },
-  "NZD/USD": {
-    "id": "NZD/USD_20260609054939",
-    "asset": "NZD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.5840780138969421,
-    "entry_time": "2026-06-09T05:49:39.357086+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00487,
-    "size_usd": 815.57,
-    "position_size_pct": 0.0084,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (66.2)",
-      "5d momentum +0.60%",
-      "1d momentum +0.76%",
-      "BB overbought (pct_b=1.15)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
-    ],
-    "news_sentiment": 0.264,
-    "news_headlines": [
-      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-    ],
-    "mode": "paper",
-    "strategy_version": "16",
-    "status": "open",
-    "price_trough": 0.5839757323265076,
-    "trailing_stop_price": 0.585144
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260609115213",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 62604.01953125,
-    "entry_time": "2026-06-09T11:52:13.316266+00:00",
-    "stop_loss_pct": 0.00684,
-    "take_profit_pct": 0.01692,
-    "size_usd": 5930.93,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (30.4)",
-      "5d momentum -1.04%",
-      "1d momentum -1.29%",
-      "BB oversold (pct_b=0.13)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: analyst upgrade; fed hawkish"
-    ],
-    "news_sentiment": 0.014,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives",
-      "Bitcoin and ethereum prices today, Monday, June 8, 2026: Moving up after bitcoin prices fell below $60,000",
-      "Japan\u2019s Biggest Crypto Banking Experiment Is Here, and the US Can\u2019t Do This Yet"
-    ],
-    "mode": "paper",
-    "strategy_version": "16",
-    "status": "open"
-  },
   "EUR/JPY": {
     "id": "EUR/JPY_20260609115213",
     "asset": "EUR/JPY",
@@ -454,8 +265,8 @@
     "mode": "paper",
     "strategy_version": "16",
     "status": "open",
-    "price_trough": 185.29299926757812,
-    "trailing_stop_price": 185.663585
+    "price_trough": 185.07000732421875,
+    "trailing_stop_price": 185.440147
   },
   "NKE": {
     "id": "NKE_20260609141149",
@@ -486,68 +297,213 @@
     ],
     "mode": "paper",
     "strategy_version": "16",
+    "status": "open",
+    "price_trough": 44.279998779296875,
+    "trailing_stop_price": 44.70243
+  },
+  "CRM": {
+    "id": "CRM_20260609164749",
+    "asset": "CRM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 172.72000122070312,
+    "entry_time": "2026-06-09T16:47:49.191163+00:00",
+    "stop_loss_pct": 0.01115,
+    "take_profit_pct": 0.02717,
+    "size_usd": 5417.51,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (7.9)",
+      "5d momentum -5.58%",
+      "1d momentum -10.20%",
+      "BB oversold (pct_b=-0.05)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.818,
+    "news_headlines": [
+      "There's a new 'wave' of AI-driven cybersecurity threats: SailPoint CEO",
+      "Microsoft Stock And The Peril Of Peak Profitability",
+      "How Much Upside Can ORCL Stock Deliver?"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260609164749",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 61318.0,
+    "entry_time": "2026-06-09T16:47:49.193139+00:00",
+    "stop_loss_pct": 0.00789,
+    "take_profit_pct": 0.0192,
+    "size_usd": 5392.72,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (25.1)",
+      "5d momentum -2.16%",
+      "1d momentum -3.43%",
+      "BB oversold (pct_b=-0.01)",
+      "Volume spike 5.4\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.588,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives",
+      "Bitcoin rebounds as analyst says token 'may offer some diversification' in AI-driven market",
+      "Financial Services Roundup: Market Talk"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
     "status": "open"
   },
   "QCOM": {
-    "id": "QCOM_20260609141149",
+    "id": "QCOM_20260609164749",
     "asset": "QCOM",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 207.02999877929688,
-    "entry_time": "2026-06-09T14:11:49.823477+00:00",
+    "entry_price": 193.97000122070312,
+    "entry_time": "2026-06-09T16:47:49.194798+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 5789.42,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (18.2)",
+      "5d momentum -10.74%",
+      "1d momentum -19.56%",
+      "BB oversold (pct_b=0.01)",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.571,
+    "news_headlines": [
+      "US Equity Indexes Sink as Big-Tech Craters in Midday Trading",
+      "What Lit a Fire Under Qualcomm Stock?",
+      "Qualcomm Drops 8% on ByteDance ASIC Deal, Marvell Falls 10% as Custom-Silicon Stocks Slide"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260609164749",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1628.989990234375,
+    "entry_time": "2026-06-09T16:47:49.196098+00:00",
+    "stop_loss_pct": 0.01027,
+    "take_profit_pct": 0.02542,
+    "size_usd": 5888.6,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (30.2)",
+      "5d momentum -2.51%",
+      "1d momentum -3.15%",
+      "BB oversold (pct_b=-0.07)",
+      "Volume spike 6.2\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives",
+      "Financial Services Roundup: Market Talk",
+      "BlackRock Sells $230 Million in Bitcoin and Buys Ethereum: What Is Really Going On?"
+    ],
+    "mode": "paper",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260609164749",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 246.35000610351562,
+    "entry_time": "2026-06-09T16:47:49.197772+00:00",
     "stop_loss_pct": 0.015,
     "take_profit_pct": 0.03742,
-    "size_usd": 6180.94,
+    "size_usd": 6136.54,
     "position_size_pct": 0.0634,
     "confidence": 0.99,
     "signals": [
-      "RSI oversold (19.6)",
-      "5d momentum -5.23%",
-      "1d momentum -17.64%",
-      "BB oversold (pct_b=0.09)",
-      "Volume spike 3.8\u00d7",
+      "RSI oversold (34.6)",
+      "5d momentum -15.95%",
+      "1d momentum -16.06%",
+      "BB oversold (pct_b=-0.00)",
       "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [strongly_supports]: price surge"
     ],
-    "news_sentiment": 0.805,
+    "news_sentiment": 0.455,
     "news_headlines": [
-      "After Its Monumental Run, Is Marvell Stock's AI Future Already In The Price?",
-      "Stocks to Watch Tuesday: Marvell, Intel, GSK, Perrigo",
-      "Equities Rise Pre-Bell as Chip Stocks Extend Gains"
+      "Micron, Marvell lead chip stocks lower in AI trade reversal",
+      "Marvell stock surges on S&P 500 inclusion",
+      "US Equity Indexes Sink as Big-Tech Craters in Midday Trading"
     ],
     "mode": "paper",
-    "strategy_version": "16",
+    "strategy_version": "17",
     "status": "open"
   },
-  "RIVN": {
-    "id": "RIVN_20260609141149",
-    "asset": "RIVN",
+  "ARM": {
+    "id": "ARM_20260609164749",
+    "asset": "ARM",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 16.114999771118164,
-    "entry_time": "2026-06-09T14:11:49.825263+00:00",
+    "entry_price": 299.4100036621094,
+    "entry_time": "2026-06-09T16:47:49.199524+00:00",
     "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 2353.27,
-    "position_size_pct": 0.0241,
-    "confidence": 0.99,
+    "take_profit_pct": 0.03596,
+    "size_usd": 3233.48,
+    "position_size_pct": 0.0334,
+    "confidence": 0.794,
     "signals": [
-      "RSI oversold (34.5)",
-      "5d momentum -8.05%",
-      "1d momentum -12.01%",
-      "BB oversold (pct_b=0.11)",
-      "Volume spike 1.7\u00d7",
+      "RSI oversold (23.6)",
+      "5d momentum -14.00%",
+      "1d momentum -21.38%",
+      "BB oversold (pct_b=-0.04)",
       "High-impact catalyst",
-      "Claude [strongly_supports]: product catalyst; price surge"
+      "Claude [contradicts]: price decline"
     ],
-    "news_sentiment": 0.733,
+    "news_sentiment": 0.371,
     "news_headlines": [
-      "Rivian's Momentum Score Surges As EV Maker Says AI Could Make CarPlay, Android Auto Obsolete",
-      "Trex, Bel Fuse, and Rivian Stocks Trade Up, What You Need To Know",
-      "AT&T Targets New Revenue Streams With Rivian And In Car Partnerships"
+      "US Equity Indexes Sink as Big-Tech Craters in Midday Trading",
+      "Stocks Rally as Buyers Return After AI-Led Selloff",
+      "After 11% Wipeout, XSD Investors Must Hate Broadcom"
     ],
     "mode": "paper",
-    "strategy_version": "16",
+    "strategy_version": "17",
+    "status": "open"
+  },
+  "USD/CHF": {
+    "id": "USD/CHF_20260609164749",
+    "asset": "USD/CHF",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.7984600067138672,
+    "entry_time": "2026-06-09T16:47:49.234767+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02636,
+    "size_usd": 5485.69,
+    "position_size_pct": 0.0566,
+    "confidence": 0.59,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +0.36%",
+      "BB overbought (pct_b=0.97)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "17",
     "status": "open"
   }
 }
