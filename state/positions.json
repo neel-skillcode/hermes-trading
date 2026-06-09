@@ -456,60 +456,89 @@
     "price_trough": 492.1700134277344,
     "trailing_stop_price": 499.552564
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260609013049",
-    "asset": "BTC-USD",
+  "SOL-USD": {
+    "id": "SOL-USD_20260609054939",
+    "asset": "SOL-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 62767.62890625,
-    "entry_time": "2026-06-09T01:30:49.642970+00:00",
-    "stop_loss_pct": 0.00812,
-    "take_profit_pct": 0.01955,
-    "size_usd": 5112.14,
-    "position_size_pct": 0.0523,
-    "confidence": 0.817,
+    "direction": "long",
+    "entry_price": 67.22000122070312,
+    "entry_time": "2026-06-09T05:49:39.353604+00:00",
+    "stop_loss_pct": 0.0096,
+    "take_profit_pct": 0.0219,
+    "size_usd": 3525.01,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
     "signals": [
-      "RSI oversold (40.0)",
-      "5d momentum -1.06%",
-      "1d momentum -0.85%",
-      "Volume spike 1.9\u00d7",
+      "5d momentum +2.75%",
+      "1d momentum +2.97%",
+      "Volume spike 2.4\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": -0.316,
+    "news_sentiment": 0.265,
     "news_headlines": [
-      "Bitcoin rebounds as analyst says token 'may offer some diversification' in AI-driven market",
-      "How Low Can Bitcoin Go?",
-      "Is Bitcoin Too Boring for Investors in an AI World?"
+      "Bitcoin, Ethereum, XRP, Dogecoin Slide Even As Michael Saylor's Strategy Inc Resumes Buying BTC: Analyst Says 'Buy' The ETH Dip",
+      "Top Cryptocurrencies Rise; Bitcoin Holds Above $63,000",
+      "Solana Crash Post-Mortem: 3 On-Chain Metrics Reveal the Damage"
     ],
     "mode": "paper",
     "strategy_version": "16",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260609013049",
-    "asset": "AVAX-USD",
+  "ETH-USD": {
+    "id": "ETH-USD_20260609054939",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1690.699951171875,
+    "entry_time": "2026-06-09T05:49:39.355766+00:00",
+    "stop_loss_pct": 0.00918,
+    "take_profit_pct": 0.02122,
+    "size_usd": 3900.01,
+    "position_size_pct": 0.0399,
+    "confidence": 0.624,
+    "signals": [
+      "5d momentum +1.65%",
+      "1d momentum +2.30%",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Monday, June 8, 2026: Moving up after bitcoin prices fell below $60,000",
+      "Humanity Protocol Token Crashes 88% Following Private Key Breach",
+      "Bitcoin, Ethereum, XRP, Dogecoin Slide Even As Michael Saylor's Strategy Inc Resumes Buying BTC: Analyst Says 'Buy' The ETH Dip"
+    ],
+    "mode": "paper",
+    "strategy_version": "16",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260609054939",
+    "asset": "NZD/USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 6.639999866485596,
-    "entry_time": "2026-06-09T01:30:49.645526+00:00",
-    "stop_loss_pct": 0.01108,
-    "take_profit_pct": 0.02529,
-    "size_usd": 3173.38,
-    "position_size_pct": 0.0325,
-    "confidence": 0.564,
+    "entry_price": 0.5840780138969421,
+    "entry_time": "2026-06-09T05:49:39.357086+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 815.57,
+    "position_size_pct": 0.0084,
+    "confidence": 0.874,
     "signals": [
-      "RSI oversold (44.1)",
-      "5d momentum -2.64%",
-      "1d momentum -2.50%",
+      "RSI overbought (66.2)",
+      "5d momentum +0.60%",
+      "1d momentum +0.76%",
+      "BB overbought (pct_b=1.15)",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
+      "Claude [neutral]: Scanned 6 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 6 articles. Overa"
     ],
-    "news_sentiment": 0.081,
+    "news_sentiment": 0.264,
     "news_headlines": [
-      "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
-      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
-      "Best Crypto To Buy With $100 Right Now"
+      "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
+      "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
+      "Dollar flirts with new 2026 highs as oil price jump hurts euro"
     ],
     "mode": "paper",
     "strategy_version": "16",
