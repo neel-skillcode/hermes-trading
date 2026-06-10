@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9215099811553955,
-    "trailing_stop_price": 0.914138
+    "price_peak": 0.9226499795913696,
+    "trailing_stop_price": 0.915269
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0681400299072266,
-    "trailing_stop_price": 1.059595
+    "price_peak": 1.0694400072097778,
+    "trailing_stop_price": 1.060884
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -301,74 +301,8 @@
     "mode": "paper",
     "strategy_version": "17",
     "status": "open",
-    "price_peak": 174.9149932861328,
-    "trailing_stop_price": 172.964691
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260609164749",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 61318.0,
-    "entry_time": "2026-06-09T16:47:49.193139+00:00",
-    "stop_loss_pct": 0.00789,
-    "take_profit_pct": 0.0192,
-    "size_usd": 5392.72,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (25.1)",
-      "5d momentum -2.16%",
-      "1d momentum -3.43%",
-      "BB oversold (pct_b=-0.01)",
-      "Volume spike 5.4\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.588,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives",
-      "Bitcoin rebounds as analyst says token 'may offer some diversification' in AI-driven market",
-      "Financial Services Roundup: Market Talk"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open",
-    "price_peak": 61737.80859375,
-    "trailing_stop_price": 61250.697284
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260609164749",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1628.989990234375,
-    "entry_time": "2026-06-09T16:47:49.196098+00:00",
-    "stop_loss_pct": 0.01027,
-    "take_profit_pct": 0.02542,
-    "size_usd": 5888.6,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (30.2)",
-      "5d momentum -2.51%",
-      "1d momentum -3.15%",
-      "BB oversold (pct_b=-0.07)",
-      "Volume spike 6.2\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, June 9, 2026: Values stabilize as investors may seek alternatives",
-      "Financial Services Roundup: Market Talk",
-      "BlackRock Sells $230 Million in Bitcoin and Buys Ethereum: What Is Really Going On?"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open",
-    "price_peak": 1649.3800048828125,
-    "trailing_stop_price": 1632.440872
+    "price_peak": 175.35,
+    "trailing_stop_price": 173.394847
   },
   "USD/CHF": {
     "id": "USD/CHF_20260609164749",
@@ -481,7 +415,9 @@
     ],
     "mode": "paper",
     "strategy_version": "17",
-    "status": "open"
+    "status": "open",
+    "price_peak": 7.02,
+    "trailing_stop_price": 6.9147
   },
   "UNH": {
     "id": "UNH_20260609190325",
@@ -538,6 +474,95 @@
     ],
     "mode": "paper",
     "strategy_version": "17",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260610044003",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08354000002145767,
+    "entry_time": "2026-06-10T04:40:03.658144+00:00",
+    "stop_loss_pct": 0.00946,
+    "take_profit_pct": 0.02306,
+    "size_usd": 5467.88,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (37.4)",
+      "5d momentum -1.40%",
+      "1d momentum -2.98%",
+      "BB oversold (pct_b=0.00)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.338,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP Slide, Dogecoin Flat As US Launches 'Proportional' Strikes Against Iran: Analyst Sees BTC's Strong Rebound To $74,000 Soon",
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $62,000 Level",
+      "Bitcoin, Ethereum, XRP, Dogecoin Slide Even As Michael Saylor's Strategy Inc Resumes Buying BTC: Analyst Says 'Buy' The ETH Dip"
+    ],
+    "mode": "paper",
+    "strategy_version": "18",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260610044003",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 584.6300048828125,
+    "entry_time": "2026-06-10T04:40:03.660289+00:00",
+    "stop_loss_pct": 0.00637,
+    "take_profit_pct": 0.01527,
+    "size_usd": 4967.39,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (43.2)",
+      "5d momentum -1.41%",
+      "1d momentum -2.91%",
+      "BB oversold (pct_b=0.04)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": -0.143,
+    "news_headlines": [
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $62,000 Level",
+      "CZ Says Bitcoin Won't Be \u2018Dead For Long\u2019 As Charles Schwab Exec Sees Lower Volatility This Cycle",
+      "What Will Ripple (XRP) Be Worth By 2027?"
+    ],
+    "mode": "paper",
+    "strategy_version": "18",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260610044003",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.1146999597549438,
+    "entry_time": "2026-06-10T04:40:03.662006+00:00",
+    "stop_loss_pct": 0.00917,
+    "take_profit_pct": 0.02209,
+    "size_usd": 831.75,
+    "position_size_pct": 0.0085,
+    "confidence": 0.82,
+    "signals": [
+      "RSI oversold (32.8)",
+      "5d momentum -1.95%",
+      "1d momentum -4.40%",
+      "BB oversold (pct_b=0.08)",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.172,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP Slide, Dogecoin Flat As US Launches 'Proportional' Strikes Against Iran: Analyst Sees BTC's Strong Rebound To $74,000 Soon",
+      "Will XRP Explode? The Rare RSI Signal That Preceded Every Major Rally Just Flashed Again",
+      "Financial Services Roundup: Market Talk"
+    ],
+    "mode": "paper",
+    "strategy_version": "18",
     "status": "open"
   }
 }
