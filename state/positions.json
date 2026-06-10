@@ -147,8 +147,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 160.3979949951172,
-    "trailing_stop_price": 159.114811
+    "price_peak": 160.4530029296875,
+    "trailing_stop_price": 159.169379
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260601001740",
@@ -326,8 +326,8 @@
     "mode": "paper",
     "strategy_version": "17",
     "status": "open",
-    "price_trough": 0.7979400157928467,
-    "trailing_stop_price": 0.804324
+    "price_trough": 0.797730028629303,
+    "trailing_stop_price": 0.804112
   },
   "LRCX": {
     "id": "LRCX_20260609190325",
@@ -446,7 +446,9 @@
     ],
     "mode": "paper",
     "strategy_version": "17",
-    "status": "open"
+    "status": "open",
+    "price_trough": 408.8900146484375,
+    "trailing_stop_price": 411.748156
   },
   "AMAT": {
     "id": "AMAT_20260609190325",
@@ -504,37 +506,9 @@
     ],
     "mode": "paper",
     "strategy_version": "18",
-    "status": "open"
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260610044003",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 584.6300048828125,
-    "entry_time": "2026-06-10T04:40:03.660289+00:00",
-    "stop_loss_pct": 0.00637,
-    "take_profit_pct": 0.01527,
-    "size_usd": 4967.39,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (43.2)",
-      "5d momentum -1.41%",
-      "1d momentum -2.91%",
-      "BB oversold (pct_b=0.04)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": -0.143,
-    "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $62,000 Level",
-      "CZ Says Bitcoin Won't Be \u2018Dead For Long\u2019 As Charles Schwab Exec Sees Lower Volatility This Cycle",
-      "What Will Ripple (XRP) Be Worth By 2027?"
-    ],
-    "mode": "paper",
-    "strategy_version": "18",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.0847100019454956,
+    "trailing_stop_price": 0.083909
   },
   "XRP-USD": {
     "id": "XRP-USD_20260610044003",
@@ -560,6 +534,39 @@
       "Bitcoin, Ethereum, XRP Slide, Dogecoin Flat As US Launches 'Proportional' Strikes Against Iran: Analyst Sees BTC's Strong Rebound To $74,000 Soon",
       "Will XRP Explode? The Rare RSI Signal That Preceded Every Major Rally Just Flashed Again",
       "Financial Services Roundup: Market Talk"
+    ],
+    "mode": "paper",
+    "strategy_version": "18",
+    "status": "open",
+    "price_peak": 1.1270999908447266,
+    "trailing_stop_price": 1.116764
+  },
+  "SMCI": {
+    "id": "SMCI_20260610152713",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 33.5,
+    "entry_time": "2026-06-10T15:27:13.602664+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5001.27,
+    "position_size_pct": 0.0511,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (20.2)",
+      "5d momentum -15.96%",
+      "1d momentum -29.53%",
+      "BB oversold (pct_b=-0.18)",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": -0.364,
+    "news_headlines": [
+      "Why Super Micro stock is plunging & Cracker Barrel stock is surging",
+      "Supermicro Computer stock sinks on $7 billion equity raise",
+      "Why Super Micro Computer Stock Got Crushed Today"
     ],
     "mode": "paper",
     "strategy_version": "18",
