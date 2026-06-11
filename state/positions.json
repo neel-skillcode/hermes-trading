@@ -384,8 +384,8 @@
     "mode": "paper",
     "strategy_version": "17",
     "status": "open",
-    "price_trough": 497.010009765625,
-    "trailing_stop_price": 526.83061
+    "price_trough": 497.01,
+    "trailing_stop_price": 526.8306
   },
   "AAPL": {
     "id": "AAPL_20260610181409",
@@ -447,7 +447,9 @@
     ],
     "mode": "paper",
     "strategy_version": "18",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.1200000047683716,
+    "trailing_stop_price": 1.108173
   },
   "SOL-USD": {
     "id": "SOL-USD_20260610204652",
@@ -477,37 +479,9 @@
     ],
     "mode": "paper",
     "strategy_version": "18",
-    "status": "open"
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260610204652",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.08275999873876572,
-    "entry_time": "2026-06-10T20:46:52.046106+00:00",
-    "stop_loss_pct": 0.01214,
-    "take_profit_pct": 0.03016,
-    "size_usd": 6022.96,
-    "position_size_pct": 0.0621,
-    "confidence": 0.97,
-    "signals": [
-      "RSI oversold (43.7)",
-      "5d momentum -2.73%",
-      "1d momentum -3.19%",
-      "BB oversold (pct_b=0.02)",
-      "Volume spike 1.7\u00d7",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.682,
-    "news_headlines": [
-      "Is Dogecoin the Smartest Crypto Buy Under $1?",
-      "DOGE Is Down 18%, But Whales Keep Buying\u2014What Are They Seeing?",
-      "Ripple News: Kalshi Launches XRP Perpetual Futures with Zero Trading Fees"
-    ],
-    "mode": "paper",
-    "strategy_version": "18",
-    "status": "open"
+    "status": "open",
+    "price_peak": 65.22000122070312,
+    "trailing_stop_price": 64.289964
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260610204652",
@@ -537,35 +511,67 @@
     ],
     "mode": "paper",
     "strategy_version": "18",
-    "status": "open"
+    "status": "open",
+    "price_peak": 6.610000133514404,
+    "trailing_stop_price": 6.513164
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260610204652",
-    "asset": "ETH-USD",
+  "BTC-USD": {
+    "id": "BTC-USD_20260611045240",
+    "asset": "BTC-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1626.6099853515625,
-    "entry_time": "2026-06-10T20:46:52.049859+00:00",
-    "stop_loss_pct": 0.00984,
-    "take_profit_pct": 0.02205,
-    "size_usd": 230.17,
-    "position_size_pct": 0.0024,
-    "confidence": 0.484,
+    "entry_price": 62729.41015625,
+    "entry_time": "2026-06-11T04:52:40.473484+00:00",
+    "stop_loss_pct": 0.00775,
+    "take_profit_pct": 0.01826,
+    "size_usd": 4435.3,
+    "position_size_pct": 0.0456,
+    "confidence": 0.713,
     "signals": [
-      "5d momentum -1.81%",
-      "1d momentum -1.97%",
-      "Volume spike 4.8\u00d7",
+      "5d momentum +2.03%",
+      "1d momentum +2.42%",
+      "BB overbought (pct_b=0.97)",
+      "Volume spike 3.1\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: price surge"
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": -0.053,
+    "news_sentiment": 0.023,
     "news_headlines": [
       "Bitcoin and ethereum prices today, June 10, 2026: BTC, ETH open lower and falling further",
-      "Tron\u2019s TRX is Just Down 25% From All-Time High as Bitcoin Bleeds",
-      "Botanix Will Shut Down Bitcoin Layer-2 Network in July, Citing Lack of DeFi Demand"
+      "Assessing Nasdaq (NDAQ) Valuation After SEC Approval For Bitcoin Index Options And New AI Initiatives",
+      "Jim Cramer Describes Bitcoin, Gold As 'Bad Money' Getting Dumped For SpaceX \u2014 But 'Good Money' Apple And Nvidia Not Spared Either"
     ],
     "mode": "paper",
-    "strategy_version": "18",
+    "strategy_version": "19",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260611045240",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.08528000116348267,
+    "entry_time": "2026-06-11T04:52:40.475103+00:00",
+    "stop_loss_pct": 0.00951,
+    "take_profit_pct": 0.02193,
+    "size_usd": 1888.95,
+    "position_size_pct": 0.0194,
+    "confidence": 0.61,
+    "signals": [
+      "5d momentum +2.76%",
+      "1d momentum +2.10%",
+      "BB overbought (pct_b=0.95)",
+      "Volume spike 3.2\u00d7",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.532,
+    "news_headlines": [
+      "Bitcoin, Ethereum Flat, XRP, Dogecoin Dip As US Hits 'Multiple Targets' In Iran: Analyst Points To Data Showing BTC Bottom Not In Yet",
+      "Is Dogecoin the Smartest Crypto Buy Under $1?",
+      "DOGE Is Down 18%, But Whales Keep Buying\u2014What Are They Seeing?"
+    ],
+    "mode": "paper",
+    "strategy_version": "19",
     "status": "open"
   }
 }
