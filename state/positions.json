@@ -71,30 +71,6 @@
     "price_peak": 7.83804988861084,
     "trailing_stop_price": 7.775345
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260524050433",
-    "asset": "CAD/JPY",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 115.16100311279297,
-    "entry_time": "2026-05-24T05:04:33.580946+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02568,
-    "size_usd": 1344.0,
-    "position_size_pct": 0.0134,
-    "confidence": 0.42,
-    "signals": [
-      "RSI oversold (35.2)",
-      "BB oversold (pct_b=0.15)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_peak": 115.59100341796875,
-    "trailing_stop_price": 114.666275
-  },
   "EUR/USD": {
     "id": "EUR/USD_20260524234359",
     "asset": "EUR/USD",
@@ -117,8 +93,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_trough": 1.151543140411377,
-    "trailing_stop_price": 1.160755
+    "price_trough": 1.1512778997421265,
+    "trailing_stop_price": 1.160488
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -176,8 +152,8 @@
     "mode": "paper",
     "strategy_version": "08",
     "status": "open",
-    "price_trough": 112.34400177001953,
-    "trailing_stop_price": 113.242754
+    "price_trough": 112.25700378417969,
+    "trailing_stop_price": 113.15506
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
@@ -236,8 +212,8 @@
     "mode": "paper",
     "strategy_version": "16",
     "status": "open",
-    "price_trough": 185.07000732421875,
-    "trailing_stop_price": 185.440147
+    "price_trough": 184.7519989013672,
+    "trailing_stop_price": 185.121503
   },
   "USD/CHF": {
     "id": "USD/CHF_20260609164749",
@@ -263,68 +239,6 @@
     "status": "open",
     "price_trough": 0.797730028629303,
     "trailing_stop_price": 0.804112
-  },
-  "LRCX": {
-    "id": "LRCX_20260609190325",
-    "asset": "LRCX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 326.6600036621094,
-    "entry_time": "2026-06-09T19:03:25.374253+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03508,
-    "size_usd": 4243.23,
-    "position_size_pct": 0.0434,
-    "confidence": 0.678,
-    "signals": [
-      "MACD crossover",
-      "5d momentum -4.16%",
-      "1d momentum -2.99%",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.719,
-    "news_headlines": [
-      "Lam Research (LRCX): A Strategic Investment in the Transformative Industry",
-      "Ultra Clean and Thor Industries have been highlighted as Zacks Bull and Bear of the Day",
-      "Semtech, Lam Research, and Photronics Shares Are Soaring, What You Need To Know"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open",
-    "price_trough": 321.79998779296875,
-    "trailing_stop_price": 326.626988
-  },
-  "ORCL": {
-    "id": "ORCL_20260609190325",
-    "asset": "ORCL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 205.46499633789062,
-    "entry_time": "2026-06-09T19:03:25.376120+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03423,
-    "size_usd": 3529.76,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (34.1)",
-      "5d momentum -3.28%",
-      "1d momentum -11.72%",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.897,
-    "news_headlines": [
-      "Mizuho Lifts PT on Arm Holdings (ARM) on Agentic AI Tailwinds",
-      "Oracle's Cloud Growth Story Faces a Key Moment",
-      "Palantir vs Oracle: Two AI Plays, One Winner"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open",
-    "price_trough": 201.25999450683594,
-    "trailing_stop_price": 204.278894
   },
   "UNH": {
     "id": "UNH_20260609190325",
@@ -354,38 +268,8 @@
     "mode": "paper",
     "strategy_version": "17",
     "status": "open",
-    "price_trough": 407.3599853515625,
-    "trailing_stop_price": 410.207432
-  },
-  "AMAT": {
-    "id": "AMAT_20260609190325",
-    "asset": "AMAT",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 498.1499938964844,
-    "entry_time": "2026-06-09T19:03:25.409356+00:00",
-    "stop_loss_pct": 0.06,
-    "take_profit_pct": 0.19002,
-    "size_usd": 3135.48,
-    "position_size_pct": 0.0321,
-    "confidence": 0.334,
-    "signals": [
-      "RSI overbought (62.9)",
-      "5d momentum -3.05%",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.75,
-    "news_headlines": [
-      "Stocks to Watch Tuesday: Marvell, Intel, GSK, Vail Resorts",
-      "Applied Materials, Inc. (AMAT) Eyes Growing Southeast Asia Workforce by 25%",
-      "Here's How Much a $1000 Investment in Applied Materials Made 10 Years Ago Would Be Worth Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open",
-    "price_trough": 497.01,
-    "trailing_stop_price": 526.8306
+    "price_trough": 406.4501037597656,
+    "trailing_stop_price": 409.29119
   },
   "AAPL": {
     "id": "AAPL_20260610181409",
@@ -480,8 +364,8 @@
     "mode": "paper",
     "strategy_version": "18",
     "status": "open",
-    "price_peak": 65.22000122070312,
-    "trailing_stop_price": 64.289964
+    "price_peak": 65.51000213623047,
+    "trailing_stop_price": 64.57583
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260610204652",
@@ -543,7 +427,9 @@
     ],
     "mode": "paper",
     "strategy_version": "19",
-    "status": "open"
+    "status": "open",
+    "price_trough": 62614.58984375,
+    "trailing_stop_price": 63099.852915
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260611045240",
@@ -569,6 +455,126 @@
       "Bitcoin, Ethereum Flat, XRP, Dogecoin Dip As US Hits 'Multiple Targets' In Iran: Analyst Points To Data Showing BTC Bottom Not In Yet",
       "Is Dogecoin the Smartest Crypto Buy Under $1?",
       "DOGE Is Down 18%, But Whales Keep Buying\u2014What Are They Seeing?"
+    ],
+    "mode": "paper",
+    "strategy_version": "19",
+    "status": "open",
+    "price_trough": 0.08473999798297882,
+    "trailing_stop_price": 0.085546
+  },
+  "ORCL": {
+    "id": "ORCL_20260611164415",
+    "asset": "ORCL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 177.14500427246094,
+    "entry_time": "2026-06-11T16:44:15.346164+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6156.82,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (22.3)",
+      "5d momentum -12.68%",
+      "1d momentum -16.61%",
+      "BB oversold (pct_b=-0.00)",
+      "News +0.73 (conf 0.61) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: earnings beat"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Stock market today: Dow, S&P 500, Nasdaq rise after US completes fresh round of Iran strikes",
+      "Oracle Q4 earnings beat on revenue but miss on cloud sales",
+      "5-star analyst resets Orcale stock price target after earnings"
+    ],
+    "mode": "paper",
+    "strategy_version": "19",
+    "status": "open"
+  },
+  "KLAC": {
+    "id": "KLAC_20260611164415",
+    "asset": "KLAC",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2320.5,
+    "entry_time": "2026-06-11T16:44:15.348307+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 1606.07,
+    "position_size_pct": 0.0165,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (70.4)",
+      "5d momentum +8.53%",
+      "1d momentum +12.63%",
+      "BB overbought (pct_b=0.93)",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.825,
+    "news_headlines": [
+      "Applied Materials and KLA Are Surging. Why This Analyst Says You Should Buy the Stocks.",
+      "JP Morgan Says KLA Corporation (KLAC) Could More Than Triple Its Earnings By 2030",
+      "Why KLA Corporation Stock Edged Past the Broader Market Today"
+    ],
+    "mode": "paper",
+    "strategy_version": "19",
+    "status": "open"
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20260611164415",
+    "asset": "AUD/USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 0.699594259262085,
+    "entry_time": "2026-06-11T16:44:15.367891+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02664,
+    "size_usd": 6156.82,
+    "position_size_pct": 0.0634,
+    "confidence": 0.66,
+    "signals": [
+      "RSI oversold (41.1)",
+      "MACD crossover",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: fed dovish"
+    ],
+    "news_sentiment": 0.415,
+    "news_headlines": [
+      "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
+      "Dollar drifts lower as oil falls on Hormuz deal optimism",
+      "The Dollar is Now Lower Than When the Iran War Began"
+    ],
+    "mode": "paper",
+    "strategy_version": "19",
+    "status": "open"
+  },
+  "RBLX": {
+    "id": "RBLX_20260611164415",
+    "asset": "RBLX",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 42.22999954223633,
+    "entry_time": "2026-06-11T16:44:15.369154+00:00",
+    "stop_loss_pct": 0.04293,
+    "take_profit_pct": 0.14384,
+    "size_usd": 6539.28,
+    "position_size_pct": 0.0673,
+    "confidence": 0.701,
+    "signals": [
+      "RSI oversold (37.5)",
+      "MACD crossover",
+      "5d momentum +1.61%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.5,
+    "news_headlines": [
+      "Roblox Shares Jump 5.37% After Russia Agencies Seek Ban Reversal",
+      "Roblox (RBLX) Is Down 10.0% After Weak Q1 2026 Outlook And New Safety Measures - What's Changed",
+      "Roblox Corporation (RBLX) Authorizes First $3B Share Repurchase Program"
     ],
     "mode": "paper",
     "strategy_version": "19",
