@@ -184,37 +184,6 @@
     "price_peak": 0.8650199770927429,
     "trailing_stop_price": 0.8581
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260609115213",
-    "asset": "EUR/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 185.33700561523438,
-    "entry_time": "2026-06-09T11:52:13.317947+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00481,
-    "size_usd": 1450.76,
-    "position_size_pct": 0.0149,
-    "confidence": 0.814,
-    "signals": [
-      "RSI overbought (82.0)",
-      "1d momentum +0.43%",
-      "BB overbought (pct_b=1.13)",
-      "News -0.54 (conf 0.65) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 2 articles. Overa"
-    ],
-    "news_sentiment": -0.538,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
-      "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
-    ],
-    "mode": "paper",
-    "strategy_version": "16",
-    "status": "open",
-    "price_trough": 184.7519989013672,
-    "trailing_stop_price": 185.121503
-  },
   "USD/CHF": {
     "id": "USD/CHF_20260609164749",
     "asset": "USD/CHF",
@@ -237,39 +206,8 @@
     "mode": "paper",
     "strategy_version": "17",
     "status": "open",
-    "price_trough": 0.7953900098800659,
-    "trailing_stop_price": 0.801753
-  },
-  "UNH": {
-    "id": "UNH_20260609190325",
-    "asset": "UNH",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 412.8900146484375,
-    "entry_time": "2026-06-09T19:03:25.379500+00:00",
-    "stop_loss_pct": 0.00699,
-    "take_profit_pct": 0.0162,
-    "size_usd": 1915.57,
-    "position_size_pct": 0.0196,
-    "confidence": 0.633,
-    "signals": [
-      "RSI overbought (77.3)",
-      "1d momentum +4.19%",
-      "BB overbought (pct_b=0.91)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.673,
-    "news_headlines": [
-      "Dow Jones ETFs: Better Than S&P 500 & Nasdaq Now?",
-      "Morgan Stanley Remains Bullish on UnitedHealth (UNH) Amid Sector Recovery",
-      "Beat the Market the Zacks Way: Extreme Networks, Bloom Energy, UnitedHealth in Focus"
-    ],
-    "mode": "paper",
-    "strategy_version": "17",
-    "status": "open",
-    "price_trough": 406.4501037597656,
-    "trailing_stop_price": 409.29119
+    "price_trough": 0.7940700054168701,
+    "trailing_stop_price": 0.800423
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260610204652",
@@ -302,39 +240,6 @@
     "status": "open",
     "price_peak": 6.650000095367432,
     "trailing_stop_price": 6.552578
-  },
-  "ORCL": {
-    "id": "ORCL_20260611164415",
-    "asset": "ORCL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 177.14500427246094,
-    "entry_time": "2026-06-11T16:44:15.346164+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6156.82,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (22.3)",
-      "5d momentum -12.68%",
-      "1d momentum -16.61%",
-      "BB oversold (pct_b=-0.00)",
-      "News +0.73 (conf 0.61) \u2192 long",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: earnings beat"
-    ],
-    "news_sentiment": 0.73,
-    "news_headlines": [
-      "Stock market today: Dow, S&P 500, Nasdaq rise after US completes fresh round of Iran strikes",
-      "Oracle Q4 earnings beat on revenue but miss on cloud sales",
-      "5-star analyst resets Orcale stock price target after earnings"
-    ],
-    "mode": "paper",
-    "strategy_version": "19",
-    "status": "open",
-    "price_peak": 183.08999633789062,
-    "trailing_stop_price": 180.343646
   },
   "AUD/USD": {
     "id": "AUD/USD_20260611164415",
@@ -394,8 +299,8 @@
     "mode": "paper",
     "strategy_version": "19",
     "status": "open",
-    "price_peak": 42.52000045776367,
-    "trailing_stop_price": 40.694617
+    "price_peak": 43.4900016784668,
+    "trailing_stop_price": 41.622976
   },
   "HOOD": {
     "id": "HOOD_20260611192544",
@@ -425,37 +330,9 @@
     ],
     "mode": "paper",
     "strategy_version": "19",
-    "status": "open"
-  },
-  "MU": {
-    "id": "MU_20260611192544",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 974.6400146484375,
-    "entry_time": "2026-06-11T19:25:44.137479+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 4956.52,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (67.0)",
-      "5d momentum +6.36%",
-      "1d momentum +2.29%",
-      "BB overbought (pct_b=1.09)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.83,
-    "news_headlines": [
-      "Why the SpaceX, OpenAI, and Anthropic IPOs won't derail the bull market",
-      "Micron Stock Roars Back as It Shrugs Off Memory-Chip Threat From Rival",
-      "Is Photronics, Inc. (PLAB) A Good Stock To Buy Now?"
-    ],
-    "mode": "paper",
-    "strategy_version": "19",
-    "status": "open"
+    "status": "open",
+    "price_trough": 92.2300033569336,
+    "trailing_stop_price": 93.613453
   },
   "HD": {
     "id": "HD_20260611192544",
@@ -516,7 +393,9 @@
     ],
     "mode": "paper",
     "strategy_version": "19",
-    "status": "open"
+    "status": "open",
+    "price_trough": 132.63999938964844,
+    "trailing_stop_price": 133.722342
   },
   "ETH-USD": {
     "id": "ETH-USD_20260611192544",
@@ -547,6 +426,98 @@
     ],
     "mode": "paper",
     "strategy_version": "19",
+    "status": "open",
+    "price_trough": 1677.780029296875,
+    "trailing_stop_price": 1693.517606
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260611213418",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1398999691009521,
+    "entry_time": "2026-06-11T21:34:18.338600+00:00",
+    "stop_loss_pct": 0.00982,
+    "take_profit_pct": 0.02355,
+    "size_usd": 4965.12,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (65.3)",
+      "5d momentum +2.98%",
+      "1d momentum +4.42%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": -0.054,
+    "news_headlines": [
+      "Ripple CEO Takes Aim at JPMorgan's Jamie Dimon Over Clarity Act Crypto Bill Criticism",
+      "Ripple CEO sends harsh message to JPMorgan\u2019s Dimon",
+      "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "20",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260611213418",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 66.91999816894531,
+    "entry_time": "2026-06-11T21:34:18.340546+00:00",
+    "stop_loss_pct": 0.01068,
+    "take_profit_pct": 0.0256,
+    "size_usd": 4965.12,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (68.9)",
+      "5d momentum +2.47%",
+      "1d momentum +7.04%",
+      "BB overbought (pct_b=0.93)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.125,
+    "news_headlines": [
+      "Top Cryptocurrencies Rise; Bitcoin Tops $63,000",
+      "Solana users can trade SpaceX stock starting June 12",
+      "Football Meme Coins 650x on Solana Before the FIFA World Cup Kick Off"
+    ],
+    "mode": "paper",
+    "strategy_version": "20",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260611213418",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 63450.03125,
+    "entry_time": "2026-06-11T21:34:18.342389+00:00",
+    "stop_loss_pct": 0.00658,
+    "take_profit_pct": 0.01578,
+    "size_usd": 4617.13,
+    "position_size_pct": 0.0473,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (63.3)",
+      "5d momentum +1.54%",
+      "1d momentum +3.52%",
+      "BB overbought (pct_b=0.85)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.647,
+    "news_headlines": [
+      "SpaceX ETFs are coming in hot. What should investors expect post-IPO?",
+      "Bitcoin and ethereum prices today, Thursday, June 11, 2026: Prices lifting off low opening figures",
+      "Strategy Just Made a Major Bitcoin Buy After Selling For the First Time Since 2022. What Does It Mean for Bitcoin Investors?"
+    ],
+    "mode": "paper",
+    "strategy_version": "20",
     "status": "open"
   }
 }
