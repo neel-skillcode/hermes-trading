@@ -209,38 +209,6 @@
     "price_trough": 0.7940700054168701,
     "trailing_stop_price": 0.800423
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260610204652",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.440000057220459,
-    "entry_time": "2026-06-10T20:46:52.047879+00:00",
-    "stop_loss_pct": 0.01465,
-    "take_profit_pct": 0.03614,
-    "size_usd": 5799.43,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (43.3)",
-      "5d momentum -2.13%",
-      "1d momentum -3.30%",
-      "BB oversold (pct_b=0.08)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "Does CME Group\u2019s 24/7 Crypto Derivatives Push Reveal a Deeper Innovation Strategy for CME?",
-      "XRP Leads Crypto Rebound, Outperforming Bitcoin Before The Weekend 'CME Gap' Gets Eliminated",
-      "Best Crypto To Buy With $100 Right Now"
-    ],
-    "mode": "paper",
-    "strategy_version": "18",
-    "status": "open",
-    "price_peak": 6.650000095367432,
-    "trailing_stop_price": 6.552578
-  },
   "AUD/USD": {
     "id": "AUD/USD_20260611164415",
     "asset": "AUD/USD",
@@ -331,8 +299,8 @@
     "mode": "paper",
     "strategy_version": "19",
     "status": "open",
-    "price_trough": 92.2300033569336,
-    "trailing_stop_price": 93.613453
+    "price_trough": 91.18000030517578,
+    "trailing_stop_price": 92.5477
   },
   "HD": {
     "id": "HD_20260611192544",
@@ -365,38 +333,6 @@
     "strategy_version": "19",
     "status": "open"
   },
-  "TGT": {
-    "id": "TGT_20260611192544",
-    "asset": "TGT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 132.64999389648438,
-    "entry_time": "2026-06-11T19:25:44.141222+00:00",
-    "stop_loss_pct": 0.00816,
-    "take_profit_pct": 0.01955,
-    "size_usd": 4956.52,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (87.7)",
-      "5d momentum +2.73%",
-      "1d momentum +8.14%",
-      "BB overbought (pct_b=1.06)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.93,
-    "news_headlines": [
-      "Vera Bradley Q1 Earnings Call Highlights",
-      "Target's $367 million grocery bet to save shoppers big money",
-      "This Starbucks competitor is the fastest-growing brand in America, says Yelp"
-    ],
-    "mode": "paper",
-    "strategy_version": "19",
-    "status": "open",
-    "price_trough": 132.63999938964844,
-    "trailing_stop_price": 133.722342
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260611192544",
     "asset": "ETH-USD",
@@ -427,8 +363,8 @@
     "mode": "paper",
     "strategy_version": "19",
     "status": "open",
-    "price_trough": 1677.780029296875,
-    "trailing_stop_price": 1693.517606
+    "price_trough": 1656.5699462890625,
+    "trailing_stop_price": 1672.108572
   },
   "XRP-USD": {
     "id": "XRP-USD_20260611213418",
@@ -458,7 +394,9 @@
     ],
     "mode": "paper",
     "strategy_version": "20",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.1298999786376953,
+    "trailing_stop_price": 1.140996
   },
   "SOL-USD": {
     "id": "SOL-USD_20260611213418",
@@ -488,7 +426,9 @@
     ],
     "mode": "paper",
     "strategy_version": "20",
-    "status": "open"
+    "status": "open",
+    "price_trough": 66.73999786376953,
+    "trailing_stop_price": 67.452781
   },
   "BTC-USD": {
     "id": "BTC-USD_20260611213418",
@@ -515,6 +455,70 @@
       "SpaceX ETFs are coming in hot. What should investors expect post-IPO?",
       "Bitcoin and ethereum prices today, Thursday, June 11, 2026: Prices lifting off low opening figures",
       "Strategy Just Made a Major Bitcoin Buy After Selling For the First Time Since 2022. What Does It Mean for Bitcoin Investors?"
+    ],
+    "mode": "paper",
+    "strategy_version": "20",
+    "status": "open",
+    "price_trough": 63168.55078125,
+    "trailing_stop_price": 63584.199845
+  },
+  "ARM": {
+    "id": "ARM_20260612135133",
+    "asset": "ARM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 367.2650146484375,
+    "entry_time": "2026-06-12T13:51:33.640786+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5439.51,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (70.5)",
+      "5d momentum +12.12%",
+      "1d momentum +4.69%",
+      "BB overbought (pct_b=1.23)",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.36,
+    "news_headlines": [
+      "FTC Probe Puts Arm Licensing Model And AGI CPU Plans In Focus",
+      "Stocks Settle Sharply Higher on Middle East Peace Hopes",
+      "Arm (ARM), NVIDIA (NVDA) Executive Highlight Shift Toward Agentic AI Computing"
+    ],
+    "mode": "paper",
+    "strategy_version": "20",
+    "status": "open"
+  },
+  "AMD": {
+    "id": "AMD_20260612135133",
+    "asset": "AMD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 506.94989013671875,
+    "entry_time": "2026-06-12T13:51:33.642768+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5310.24,
+    "position_size_pct": 0.0544,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (66.9)",
+      "5d momentum +9.10%",
+      "1d momentum +2.97%",
+      "BB overbought (pct_b=1.18)",
+      "Volume spike 1.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; analyst downgrade"
+    ],
+    "news_sentiment": 0.561,
+    "news_headlines": [
+      "CPU market to grow 5x by 2030, BofA says",
+      "AMD upgraded, Adobe downgraded: Wall Street's top analyst calls",
+      "AMD Stock Upgraded To Buy On GPU Upside"
     ],
     "mode": "paper",
     "strategy_version": "20",
