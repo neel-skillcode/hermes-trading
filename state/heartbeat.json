@@ -3,15 +3,15 @@
   "portfolio_balance": 100405.11,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 0.09,
-  "unrealized_pnl_usd": 477.89,
-  "equity_value": 100883.0,
+  "unrealized_pnl_usd": 486.45,
+  "equity_value": 100891.56,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40162.05,
   "swing_capital_used_usd": 40586.9,
   "total_trades": 238,
-  "last_tick": "2026-06-13T15:08:24.242426+00:00",
+  "last_tick": "2026-06-13T16:43:35.010041+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -450,9 +450,9 @@
       "status": "open",
       "price_peak": 0.08842000365257263,
       "trailing_stop_price": 0.087398,
-      "current_price": 0.08833,
-      "unrealized_pnl_pct": 0.0188,
-      "unrealized_pnl_usd": 54.45
+      "current_price": 0.08792,
+      "unrealized_pnl_pct": 0.014072,
+      "unrealized_pnl_usd": 40.76
     },
     {
       "id": "ETH-USD_20260613061550",
@@ -485,9 +485,9 @@
       "status": "open",
       "price_peak": 1678.5400390625,
       "trailing_stop_price": 1672.111231,
-      "current_price": 1678.089966,
-      "unrealized_pnl_pct": 0.008886,
-      "unrealized_pnl_usd": 53.46
+      "current_price": 1673.47998,
+      "unrealized_pnl_pct": 0.006114,
+      "unrealized_pnl_usd": 36.78
     },
     {
       "id": "AVAX-USD_20260613113126",
@@ -552,9 +552,11 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 64163.660156,
-      "unrealized_pnl_pct": -0.000846,
-      "unrealized_pnl_usd": -4.75
+      "price_trough": 64020.109375,
+      "trailing_stop_price": 64199.365681,
+      "current_price": 64018.308594,
+      "unrealized_pnl_pct": 0.001421,
+      "unrealized_pnl_usd": 7.99
     },
     {
       "id": "XRP-USD_20260613130948",
@@ -584,11 +586,11 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "price_trough": 1.152500033378601,
-      "trailing_stop_price": 1.157329,
-      "current_price": 1.1525,
-      "unrealized_pnl_pct": 0.000953,
-      "unrealized_pnl_usd": 0.44
+      "price_trough": 1.1483999490737915,
+      "trailing_stop_price": 1.153212,
+      "current_price": 1.1485,
+      "unrealized_pnl_pct": 0.004421,
+      "unrealized_pnl_usd": 2.03
     },
     {
       "id": "SOL-USD_20260613150824",
@@ -619,15 +621,17 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 68.32,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 68.05000305175781,
+      "trailing_stop_price": 68.424959,
+      "current_price": 68.019997,
+      "unrealized_pnl_pct": 0.004391,
+      "unrealized_pnl_usd": 24.6
     }
   ],
   "last_candidates": [
     {
       "asset": "RIVN",
-      "rank_score": 0.8532,
+      "rank_score": 0.8471,
       "price": 16.760000228881836,
       "rsi": 94.41960446387365,
       "momentum_5d": 0.06075949535177333,
@@ -637,12 +641,12 @@
       "bollinger_pct_b": 1.0357,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
-      "news_sentiment": 0.762,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.684,
+      "news_confidence": 0.38,
       "news_headlines": [
+        "Do Higher Oil Prices Mean Rivian Stock Will Finally Mount a Rebound?",
         "Comfort Systems, Quanta, and Rivian Shares Are Soaring, What You Need To Know",
-        "Uber Evolving Into 'Everything App' With Expanding Margins, Tigress Says",
-        "Rivian (RIVN) Stock Valuation After R2 SUV Deliveries And Growing Profitability Concerns"
+        "Uber Evolving Into 'Everything App' With Expanding Margins, Tigress Says"
       ],
       "high_impact_news": true
     },
@@ -669,7 +673,7 @@
     },
     {
       "asset": "TGT",
-      "rank_score": 0.6465,
+      "rank_score": 0.6515,
       "price": 135.22000122070312,
       "rsi": 89.45651371673233,
       "momentum_5d": -0.0023608682402260833,
@@ -679,12 +683,12 @@
       "bollinger_pct_b": 0.7829,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.744,
+      "news_confidence": 0.39,
       "news_headlines": [
+        "Big name takes on Coke and Pepsi with Target-exclusive soda",
         "Sector Update: Consumer Stocks Mixed Late Afternoon",
-        "How Is Dollar Tree's Stock Performance Compared to Other Consumer Defensive Stocks?",
-        "Target Shows Early Signs of Multi-Year Turnaround After Strong Start to 2026, UBS Says"
+        "How Is Dollar Tree's Stock Performance Compared to Other Consumer Defensive Stocks?"
       ],
       "high_impact_news": true
     },
@@ -752,27 +756,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MRVL",
-      "rank_score": 0.5643,
-      "price": 279.6000061035156,
-      "rsi": 73.17227207875344,
-      "momentum_5d": -0.027883975905097353,
-      "momentum_1d": 0.08806477322376759,
-      "macd_crossover": false,
-      "atr_pct": 0.027366063003766313,
-      "bollinger_pct_b": 0.6776,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.68,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Nvidia CEO Jensen Huang Says This Will Be the Next $1 Trillion Company",
-        "Investing.com\u2019s stocks of the week",
-        "Adobe CFO Heads to a Chip Firm. It\u2019s All You Need to Know About Software\u2019s Downfall."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "GS",
       "rank_score": 0.5613,
       "price": 1062.760009765625,
@@ -815,6 +798,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MRVL",
+      "rank_score": 0.5573,
+      "price": 279.6000061035156,
+      "rsi": 73.17227207875344,
+      "momentum_5d": -0.027883975905097353,
+      "momentum_1d": 0.08806477322376759,
+      "macd_crossover": false,
+      "atr_pct": 0.027366063003766313,
+      "bollinger_pct_b": 0.6776,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.68,
+      "news_sentiment": 0.697,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
+        "Nvidia CEO Jensen Huang Says This Will Be the Next $1 Trillion Company",
+        "Investing.com\u2019s stocks of the week"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARM",
       "rank_score": 0.5472,
       "price": 380.4700012207031,
@@ -832,27 +836,6 @@
         "Arm Holdings (ARM) Gets BofA Backing, 37% PT Upgrade, Climbs 11%",
         "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
         "Billionaire Brad Gerstner Dumped All of His Alphabet Then Bought 2 Stocks Nobody Expected"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TSLA",
-      "rank_score": 0.5415,
-      "price": 406.44500732421875,
-      "rsi": 75.31893543354926,
-      "momentum_5d": 0.01644923573162435,
-      "momentum_1d": 0.03502764215359647,
-      "macd_crossover": false,
-      "atr_pct": 0.016529931277622253,
-      "bollinger_pct_b": 0.9589,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.9,
-      "news_sentiment": 0.453,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Elon Musk becomes world's first trillionaire",
-        "Gary Black Predicts TSLA Selling Ahead Of SpaceX IPO\u2014Ross Gerber Says Investors Treating It Like 'Free Money'",
-        "ArcBest Expands Tesla Semi Fleet As EV Trials Meet Core Freight Goals"
       ],
       "high_impact_news": true
     },
@@ -878,44 +861,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMD",
-      "rank_score": 0.5327,
-      "price": 511.1199951171875,
-      "rsi": 80.7366611054082,
-      "momentum_5d": -0.0073688213252261995,
-      "momentum_1d": 0.1154221258818681,
+      "asset": "TSLA",
+      "rank_score": 0.5345,
+      "price": 406.44500732421875,
+      "rsi": 75.31893543354926,
+      "momentum_5d": 0.01644923573162435,
+      "momentum_1d": 0.03502764215359647,
       "macd_crossover": false,
-      "atr_pct": 0.023151569627288475,
-      "bollinger_pct_b": 0.7823,
+      "atr_pct": 0.016529931277622253,
+      "bollinger_pct_b": 0.9589,
       "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.964,
-      "news_confidence": 0.55,
+      "volume_spike_ratio": 0.9,
+      "news_sentiment": 0.295,
+      "news_confidence": 0.3,
       "news_headlines": [
-        "3 Semiconductor Stocks to Buy While They Are Down in June",
-        "The Billionaire Move Nobody Saw Coming: Why Starboard Value Abandoned CRM For These 2 Stocks",
-        "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.5303,
-      "price": 211.6699981689453,
-      "rsi": 88.10484942284491,
-      "momentum_5d": -0.00875711892845197,
-      "momentum_1d": 0.06238703238847142,
-      "macd_crossover": false,
-      "atr_pct": 0.019618741898830467,
-      "bollinger_pct_b": 0.7968,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
-        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-        "Stocks Rally on Hopes for a Near-term US-Iran Interim Peace Agreement"
+        "Elon Musk becomes world's first trillionaire",
+        "Cathie Wood Buys 3.3 Million SpaceX Shares On IPO Day",
+        "SpaceX's Nasdaq Debut Puts Bitcoin On 25% Of 'Mag8' Balance Sheets, Strategy\u2019s Michael Saylor Says"
       ],
       "high_impact_news": true
     },
@@ -962,6 +924,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "QCOM",
+      "rank_score": 0.5253,
+      "price": 211.6699981689453,
+      "rsi": 88.10484942284491,
+      "momentum_5d": -0.00875711892845197,
+      "momentum_1d": 0.06238703238847142,
+      "macd_crossover": false,
+      "atr_pct": 0.019618741898830467,
+      "bollinger_pct_b": 0.7968,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.348,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
+        "Why Qualcomm (QCOM) Stock Is Trading Up Today"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LRCX",
       "rank_score": 0.5202,
       "price": 366.69000244140625,
@@ -979,6 +962,27 @@
         "Lam Research and Applied Materials Shares Skyrocket, What You Need To Know",
         "Top Analyst Reports for Costco, Lam Research & KLA",
         "Q1 Earnings Outperformers: Lam Research (NASDAQ:LRCX) And The Rest Of The Semiconductor Manufacturing Stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.5197,
+      "price": 511.1199951171875,
+      "rsi": 80.7366611054082,
+      "momentum_5d": -0.0073688213252261995,
+      "momentum_1d": 0.1154221258818681,
+      "macd_crossover": false,
+      "atr_pct": 0.023151569627288475,
+      "bollinger_pct_b": 0.7823,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.87,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
+        "Should You Look for the \u201cNext Nvidia\u201d \u2014 or Just Buy the Real Thing?",
+        "Cathie Wood Buys 3.3 Million SpaceX Shares On IPO Day"
       ],
       "high_impact_news": true
     },
