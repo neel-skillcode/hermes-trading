@@ -457,36 +457,6 @@
     "strategy_version": "22",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260613113126",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 67.83999633789062,
-    "entry_time": "2026-06-13T11:31:26.165077+00:00",
-    "stop_loss_pct": 0.00554,
-    "take_profit_pct": 0.0135,
-    "size_usd": 5618.77,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (72.3)",
-      "5d momentum +1.07%",
-      "1d momentum +1.48%",
-      "BB overbought (pct_b=0.98)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-      "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena"
-    ],
-    "mode": "paper",
-    "strategy_version": "22",
-    "status": "open"
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260613130948",
     "asset": "BTC-USD",
@@ -541,6 +511,38 @@
       "Ripple CEO Accused Jamie Dimon of Lying About CLARITY Act And Called Out $20Bn Reason Why",
       "Here's What to Do If XRP Drops Below $1 During the Summer",
       "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?"
+    ],
+    "mode": "paper",
+    "strategy_version": "22",
+    "status": "open",
+    "price_trough": 1.152500033378601,
+    "trailing_stop_price": 1.157329
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260613150824",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 68.31999969482422,
+    "entry_time": "2026-06-13T15:08:24.239355+00:00",
+    "stop_loss_pct": 0.00551,
+    "take_profit_pct": 0.01343,
+    "size_usd": 5602.87,
+    "position_size_pct": 0.0558,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (68.1)",
+      "5d momentum +1.36%",
+      "1d momentum +1.64%",
+      "BB overbought (pct_b=0.99)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.696,
+    "news_headlines": [
+      "Now Trading at Its Lowest Level Since December 2023, Is Solana a Buy, Sell, or Hold?",
+      "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
     ],
     "mode": "paper",
     "strategy_version": "22",

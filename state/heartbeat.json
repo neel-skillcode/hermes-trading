@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100444.87,
+  "portfolio_balance": 100405.11,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 0.05,
-  "unrealized_pnl_usd": 512.24,
-  "equity_value": 100957.11,
+  "portfolio_drawdown_pct": 0.09,
+  "unrealized_pnl_usd": 477.89,
+  "equity_value": 100883.0,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40177.95,
+  "day_capital_used_usd": 40162.05,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 237,
-  "last_tick": "2026-06-13T13:09:48.124838+00:00",
+  "total_trades": 238,
+  "last_tick": "2026-06-13T15:08:24.242426+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 6,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -450,9 +450,9 @@
       "status": "open",
       "price_peak": 0.08842000365257263,
       "trailing_stop_price": 0.087398,
-      "current_price": 0.08845,
-      "unrealized_pnl_pct": 0.020185,
-      "unrealized_pnl_usd": 58.46
+      "current_price": 0.08833,
+      "unrealized_pnl_pct": 0.0188,
+      "unrealized_pnl_usd": 54.45
     },
     {
       "id": "ETH-USD_20260613061550",
@@ -485,9 +485,9 @@
       "status": "open",
       "price_peak": 1678.5400390625,
       "trailing_stop_price": 1672.111231,
-      "current_price": 1678.560059,
-      "unrealized_pnl_pct": 0.009168,
-      "unrealized_pnl_usd": 55.16
+      "current_price": 1678.089966,
+      "unrealized_pnl_pct": 0.008886,
+      "unrealized_pnl_usd": 53.46
     },
     {
       "id": "AVAX-USD_20260613113126",
@@ -519,42 +519,9 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 6.67,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
-    },
-    {
-      "id": "SOL-USD_20260613113126",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 67.83999633789062,
-      "entry_time": "2026-06-13T11:31:26.165077+00:00",
-      "stop_loss_pct": 0.00554,
-      "take_profit_pct": 0.0135,
-      "size_usd": 5618.77,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI overbought (72.3)",
-        "5d momentum +1.07%",
-        "1d momentum +1.48%",
-        "BB overbought (pct_b=0.98)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-      ],
-      "news_sentiment": 0.762,
-      "news_headlines": [
-        "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-        "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena"
-      ],
-      "mode": "paper",
-      "strategy_version": "22",
-      "status": "open",
-      "current_price": 67.849998,
-      "unrealized_pnl_pct": -0.000147,
-      "unrealized_pnl_usd": -0.83
+      "current_price": 6.7,
+      "unrealized_pnl_pct": -0.004498,
+      "unrealized_pnl_usd": -25.16
     },
     {
       "id": "BTC-USD_20260613130948",
@@ -585,9 +552,9 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 64109.429688,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 64163.660156,
+      "unrealized_pnl_pct": -0.000846,
+      "unrealized_pnl_usd": -4.75
     },
     {
       "id": "XRP-USD_20260613130948",
@@ -617,7 +584,42 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 1.1536,
+      "price_trough": 1.152500033378601,
+      "trailing_stop_price": 1.157329,
+      "current_price": 1.1525,
+      "unrealized_pnl_pct": 0.000953,
+      "unrealized_pnl_usd": 0.44
+    },
+    {
+      "id": "SOL-USD_20260613150824",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 68.31999969482422,
+      "entry_time": "2026-06-13T15:08:24.239355+00:00",
+      "stop_loss_pct": 0.00551,
+      "take_profit_pct": 0.01343,
+      "size_usd": 5602.87,
+      "position_size_pct": 0.0558,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (68.1)",
+        "5d momentum +1.36%",
+        "1d momentum +1.64%",
+        "BB overbought (pct_b=0.99)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": 0.696,
+      "news_headlines": [
+        "Now Trading at Its Lowest Level Since December 2023, Is Solana a Buy, Sell, or Hold?",
+        "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "22",
+      "status": "open",
+      "current_price": 68.32,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -646,7 +648,7 @@
     },
     {
       "asset": "KLAC",
-      "rank_score": 0.7306,
+      "rank_score": 0.7356,
       "price": 254.5399932861328,
       "rsi": 92.5492924736059,
       "momentum_5d": 0.018254440109189817,
@@ -656,8 +658,8 @@
       "bollinger_pct_b": 0.8368,
       "volume_spike": true,
       "volume_spike_ratio": 2.95,
-      "news_sentiment": 0.351,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.45,
+      "news_confidence": 0.4,
       "news_headlines": [
         "KLA Corporation, Amkor, and Teradyne Shares Skyrocket, What You Need To Know",
         "KLA (KLAC) Stock Dips While Market Gains: Key Facts",
@@ -793,7 +795,7 @@
     },
     {
       "asset": "C",
-      "rank_score": 0.5572,
+      "rank_score": 0.5592,
       "price": 139.7899932861328,
       "rsi": 81.55810971866084,
       "momentum_5d": -0.008792494532348353,
@@ -803,12 +805,12 @@
       "bollinger_pct_b": 0.7592,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.731,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.741,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "Citi Expects Lithium Market to Stabilise Before Recovery Driven by Restocking Demand",
         "The Index Says Euphoria. But Don\u2019t Panic.",
-        "Citigroup (C) Is Up 5.6% After Launching Blockchain Platform For Tokenized Private Equity Access",
-        "SpaceX Strikes Rare Deal to Pay $0 to Bankers for IPO Greenshoe"
+        "Citigroup (C) Is Up 5.6% After Launching Blockchain Platform For Tokenized Private Equity Access"
       ],
       "high_impact_news": true
     },
@@ -834,27 +836,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.546,
-      "price": 1678.56005859375,
-      "rsi": 67.29628408337842,
-      "momentum_5d": 0.003017638854058757,
-      "momentum_1d": 0.013892579662459627,
-      "macd_crossover": false,
-      "atr_pct": 0.0032710961680799283,
-      "bollinger_pct_b": 0.9286,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.89,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-        "Is XRP the Most Resilient Large-Cap Cryptocurrency in June?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "TSLA",
       "rank_score": 0.5415,
       "price": 406.44500732421875,
@@ -870,7 +851,7 @@
       "news_confidence": 0.35,
       "news_headlines": [
         "Elon Musk becomes world's first trillionaire",
-        "What SpaceX's IPO means for investors and the future of innovation",
+        "Gary Black Predicts TSLA Selling Ahead Of SpaceX IPO\u2014Ross Gerber Says Investors Treating It Like 'Free Money'",
         "ArcBest Expands Tesla Semi Fleet As EV Trials Meet Core Freight Goals"
       ],
       "high_impact_news": true
@@ -911,9 +892,30 @@
       "news_sentiment": 0.964,
       "news_confidence": 0.55,
       "news_headlines": [
+        "3 Semiconductor Stocks to Buy While They Are Down in June",
         "The Billionaire Move Nobody Saw Coming: Why Starboard Value Abandoned CRM For These 2 Stocks",
-        "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
-        "Why Qualcomm (QCOM) Stock Is Trading Up Today"
+        "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.5303,
+      "price": 211.6699981689453,
+      "rsi": 88.10484942284491,
+      "momentum_5d": -0.00875711892845197,
+      "momentum_1d": 0.06238703238847142,
+      "macd_crossover": false,
+      "atr_pct": 0.019618741898830467,
+      "bollinger_pct_b": 0.7968,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
+        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
+        "Stocks Rally on Hopes for a Near-term US-Iran Interim Peace Agreement"
       ],
       "high_impact_news": true
     },
@@ -956,27 +958,6 @@
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of SpaceX Debut",
         "Sticky Inflation\u2019s Worst Nightmare: Why Small Value Stocks Are Secretly Printing Money",
         "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid US Attacks on Iran"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.5253,
-      "price": 211.6699981689453,
-      "rsi": 88.10484942284491,
-      "momentum_5d": -0.00875711892845197,
-      "momentum_1d": 0.06238703238847142,
-      "macd_crossover": false,
-      "atr_pct": 0.019618741898830467,
-      "bollinger_pct_b": 0.7968,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.348,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
-        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-        "Arm Rockets 11%, Qualcomm Rises 5%: Who\u2019s Winning the Chip-Architecture Race?"
       ],
       "high_impact_news": true
     },
@@ -1040,6 +1021,27 @@
         "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
         "SpaceX Launches. The Future Remains Murky.",
         "Sector Update: Tech Stocks Rise Late Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HOOD",
+      "rank_score": 0.5132,
+      "price": 93.16230010986328,
+      "rsi": 73.16144760310218,
+      "momentum_5d": -0.023865279476929235,
+      "momentum_1d": 0.13834682647377647,
+      "macd_crossover": false,
+      "atr_pct": 0.024540886149166375,
+      "bollinger_pct_b": 0.7289,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.5,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Robinhood Insider Buys $35 Million in Stock. There\u2019s a Catch.",
+        "Robinhood Markets, Inc. (HOOD) Laps the Stock Market: Here's Why",
+        "Stocks making big moves this week: DraftKings, Intel, Brinker International, FuelCell Energy, and Robinhood"
       ],
       "high_impact_news": true
     }
