@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100334.7,
+  "portfolio_balance": 100326.4,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 0.16,
-  "unrealized_pnl_usd": 482.75,
-  "equity_value": 100817.45,
+  "unrealized_pnl_usd": 477.45,
+  "equity_value": 100803.86,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40133.88,
+  "day_capital_used_usd": 39655.8,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 243,
-  "last_tick": "2026-06-13T21:56:33.661117+00:00",
-  "last_reflection": "2026-06-13",
-  "trades_since_last_reflection": 0,
+  "total_trades": 244,
+  "last_tick": "2026-06-13T23:02:23.960449+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -450,44 +450,9 @@
       "status": "open",
       "price_peak": 0.08842000365257263,
       "trailing_stop_price": 0.087398,
-      "current_price": 0.0882,
-      "unrealized_pnl_pct": 0.017301,
-      "unrealized_pnl_usd": 50.11
-    },
-    {
-      "id": "AVAX-USD_20260613194156",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 6.71999979019165,
-      "entry_time": "2026-06-13T19:41:56.265961+00:00",
-      "stop_loss_pct": 0.00594,
-      "take_profit_pct": 0.01449,
-      "size_usd": 5576.27,
-      "position_size_pct": 0.0556,
-      "confidence": 0.877,
-      "signals": [
-        "RSI overbought (69.7)",
-        "5d momentum +0.45%",
-        "1d momentum +2.13%",
-        "Volume spike 5.8\u00d7",
-        "High-impact catalyst",
-        "Claude [supports]: analyst upgrade; price decline"
-      ],
-      "news_sentiment": 0.312,
-      "news_headlines": [
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-        "Study finds most AI crypto trading agents aren't really trading"
-      ],
-      "mode": "paper",
-      "strategy_version": "22",
-      "status": "open",
-      "price_peak": 6.760000228881836,
-      "trailing_stop_price": 6.719846,
-      "current_price": 6.76,
-      "unrealized_pnl_pct": 0.005952,
-      "unrealized_pnl_usd": 33.19
+      "current_price": 0.08786,
+      "unrealized_pnl_pct": 0.01338,
+      "unrealized_pnl_usd": 38.75
     },
     {
       "id": "SOL-USD_20260613215633",
@@ -519,9 +484,11 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 69.339996,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 68.83999633789062,
+      "trailing_stop_price": 69.315681,
+      "current_price": 68.839996,
+      "unrealized_pnl_pct": 0.007211,
+      "unrealized_pnl_usd": 43.99
     },
     {
       "id": "ETH-USD_20260613215633",
@@ -554,9 +521,11 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 1687.310059,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1680.1300048828125,
+      "trailing_stop_price": 1686.581704,
+      "current_price": 1680.109985,
+      "unrealized_pnl_pct": 0.004267,
+      "unrealized_pnl_usd": 23.84
     },
     {
       "id": "XRP-USD_20260613215633",
@@ -588,7 +557,40 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 1.1544,
+      "current_price": 1.1489,
+      "unrealized_pnl_pct": -0.004764,
+      "unrealized_pnl_usd": -28.58
+    },
+    {
+      "id": "BTC-USD_20260613230223",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 64429.33984375,
+      "entry_time": "2026-06-13T23:02:23.957308+00:00",
+      "stop_loss_pct": 0.00312,
+      "take_profit_pct": 0.00748,
+      "size_usd": 5098.19,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (74.7)",
+        "5d momentum +0.48%",
+        "1d momentum +1.40%",
+        "BB overbought (pct_b=0.87)",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.676,
+      "news_headlines": [
+        "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?",
+        "These Are the Only 2 Cryptocurrencies I'm Comfortable Buying Right Now",
+        "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?"
+      ],
+      "mode": "paper",
+      "strategy_version": "23",
+      "status": "open",
+      "current_price": 64429.339844,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -616,27 +618,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.7899,
-      "price": 69.33999633789062,
-      "rsi": 80.1800811052306,
-      "momentum_5d": 0.01895655001149174,
-      "momentum_1d": 0.042079882534385306,
-      "macd_crossover": false,
-      "atr_pct": 0.006798803465415851,
-      "bollinger_pct_b": 1.1069,
-      "volume_spike": true,
-      "volume_spike_ratio": 131.97,
-      "news_sentiment": 0.696,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Now Trading at Its Lowest Level Since December 2023, Is Solana a Buy, Sell, or Hold?",
-        "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "KLAC",
       "rank_score": 0.7356,
       "price": 254.5399932861328,
@@ -654,132 +635,6 @@
         "KLA Corporation, Amkor, and Teradyne Shares Skyrocket, What You Need To Know",
         "KLA (KLAC) Stock Dips While Market Gains: Key Facts",
         "Top Analyst Reports for Costco, Lam Research & KLA"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.7248,
-      "price": 1687.31005859375,
-      "rsi": 64.39115891193757,
-      "momentum_5d": 0.0068984386655229005,
-      "momentum_1d": 0.014557202431130388,
-      "macd_crossover": true,
-      "atr_pct": 0.003925106980254102,
-      "bollinger_pct_b": 1.0505,
-      "volume_spike": true,
-      "volume_spike_ratio": 14.54,
-      "news_sentiment": 0.353,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury",
-        "Why I'd Buy Ethereum Over Bitcoin Right Now",
-        "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.6977,
-      "price": 1.1543999910354614,
-      "rsi": 64.56513344925975,
-      "momentum_5d": 0.0068905361340359525,
-      "momentum_1d": 0.022226151412582055,
-      "macd_crossover": true,
-      "atr_pct": 0.005395508258018248,
-      "bollinger_pct_b": 0.8459,
-      "volume_spike": true,
-      "volume_spike_ratio": 9.4,
-      "news_sentiment": 0.407,
-      "news_confidence": 0.27,
-      "news_headlines": [
-        "If CLARITY Clears the Senate by August, Where Does XRP Trade by Q4?",
-        "Ripple CEO Slams JPMorgan for \u201cMisrepresenting\u201d the CLARITY Act",
-        "Ripple CEO Accused Jamie Dimon of Lying About CLARITY Act And Called Out $20Bn Reason Why"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.6703,
-      "price": 0.08820000290870667,
-      "rsi": 66.66666666666666,
-      "momentum_5d": 0.003869790381407639,
-      "momentum_1d": 0.017653243242081555,
-      "macd_crossover": true,
-      "atr_pct": 0.006243909747912618,
-      "bollinger_pct_b": 0.7751,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.63,
-      "news_sentiment": 0.489,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-        "Bitcoin, Ethereum, XRP, Dogecoin Jump After Trump Sparks Optimism On Iran Deal: Analyst Says SpaceX IPO Would Be 'Tricky' For The Markets",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TGT",
-      "rank_score": 0.6585,
-      "price": 135.22000122070312,
-      "rsi": 89.45651371673233,
-      "momentum_5d": -0.0023608682402260833,
-      "momentum_1d": 0.07360067087790678,
-      "macd_crossover": false,
-      "atr_pct": 0.008866452727013214,
-      "bollinger_pct_b": 0.7829,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Target (TGT) Q1 FY2026 Sales Rise 6.7% to $25.4B on Strong Digital and Traffic Growth",
-        "Big name takes on Coke and Pepsi with Target-exclusive soda",
-        "Sector Update: Consumer Stocks Mixed Late Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6315,
-      "price": 64491.98828125,
-      "rsi": 71.36232631958171,
-      "momentum_5d": 0.00792305671101786,
-      "momentum_1d": 0.01665277462702706,
-      "macd_crossover": false,
-      "atr_pct": 0.0033926988941204916,
-      "bollinger_pct_b": 1.0037,
-      "volume_spike": true,
-      "volume_spike_ratio": 7.42,
-      "news_sentiment": 0.833,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?",
-        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury",
-        "TeraWulf Inc. (WULF) Eyes Leveraged Loans to Accelerate AI Infrastructure Expansion"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6245,
-      "price": 6.760000228881836,
-      "rsi": 66.66671964853944,
-      "momentum_5d": 0.007451593211714986,
-      "momentum_1d": 0.030487848757137746,
-      "macd_crossover": false,
-      "atr_pct": 0.005705852186370849,
-      "bollinger_pct_b": 0.9425,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.59,
-      "news_sentiment": 0.312,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-        "Study finds most AI crypto trading agents aren't really trading"
       ],
       "high_impact_news": true
     },
@@ -890,7 +745,7 @@
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.5573,
+      "rank_score": 0.5603,
       "price": 279.6000061035156,
       "rsi": 73.17227207875344,
       "momentum_5d": -0.027883975905097353,
@@ -900,12 +755,12 @@
       "bollinger_pct_b": 0.6776,
       "volume_spike": false,
       "volume_spike_ratio": 0.68,
-      "news_sentiment": 0.697,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.713,
+      "news_confidence": 0.58,
       "news_headlines": [
+        "Adobe's CFO Jumps Ship To Marvell For 'Once-In-A-Generation' AI Expansion",
         "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
-        "Nvidia CEO Jensen Huang Says This Will Be the Next $1 Trillion Company",
-        "Investing.com\u2019s stocks of the week"
+        "Nvidia CEO Jensen Huang Says This Will Be the Next $1 Trillion Company"
       ],
       "high_impact_news": true
     },
@@ -929,6 +784,23 @@
         "Billionaire Brad Gerstner Dumped All of His Alphabet Then Bought 2 Stocks Nobody Expected"
       ],
       "high_impact_news": true
+    },
+    {
+      "asset": "TGT",
+      "rank_score": 0.5425,
+      "price": 135.22000122070312,
+      "rsi": 89.45651371673233,
+      "momentum_5d": -0.0023608682402260833,
+      "momentum_1d": 0.07360067087790678,
+      "macd_crossover": false,
+      "atr_pct": 0.008866452727013214,
+      "bollinger_pct_b": 0.7829,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.89,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "XLF",
@@ -973,27 +845,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5342,
-      "price": 610.3300170898438,
-      "rsi": 76.90616550684811,
-      "momentum_5d": 0.0029744256565100552,
-      "momentum_1d": 0.01106600249418566,
-      "macd_crossover": false,
-      "atr_pct": 0.003389255354999746,
-      "bollinger_pct_b": 0.8386,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.79,
-      "news_sentiment": 0.189,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Hyperliquid Emerges As 'Superior' Alternative After SpaceX IPO Lockup Chaos",
-        "SIREN Token Crashes 75% as Whale Triggers a Massive Sell-Off",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "JPM",
       "rank_score": 0.5314,
       "price": 320.7099914550781,
@@ -1011,6 +862,153 @@
         "JPMorgan Chase & Co. (JPM) CEO Marianne Lake Expects 2026 Loan Growth To Exceed The Industry Average",
         "CNBC anchor stunned by $107B US trade deficit drop: \u2018Buckle up, this is unreal!\u2019 Are Trump\u2019s tariffs a triumph?",
         "JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.5303,
+      "price": 211.6699981689453,
+      "rsi": 88.10484942284491,
+      "momentum_5d": -0.00875711892845197,
+      "momentum_1d": 0.06238703238847142,
+      "macd_crossover": false,
+      "atr_pct": 0.019618741898830467,
+      "bollinger_pct_b": 0.7968,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
+        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
+        "Stocks Rally on Hopes for a Near-term US-Iran Interim Peace Agreement"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "IWM",
+      "rank_score": 0.527,
+      "price": 292.95001220703125,
+      "rsi": 81.15035296816508,
+      "momentum_5d": -0.008260273944297855,
+      "momentum_1d": 0.03849840834530117,
+      "macd_crossover": false,
+      "atr_pct": 0.008017819353981897,
+      "bollinger_pct_b": 0.7462,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.94,
+      "news_sentiment": -0.35,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of SpaceX Debut",
+        "Sticky Inflation\u2019s Worst Nightmare: Why Small Value Stocks Are Secretly Printing Money",
+        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid US Attacks on Iran"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLK",
+      "rank_score": 0.5181,
+      "price": 184.80999755859375,
+      "rsi": 81.03057680210773,
+      "momentum_5d": -0.004953417272969334,
+      "momentum_1d": 0.0414177311318236,
+      "macd_crossover": false,
+      "atr_pct": 0.011407728078366108,
+      "bollinger_pct_b": 0.7809,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.55,
+      "news_sentiment": 0.88,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?",
+        "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
+        "SpaceX Launches. The Future Remains Murky."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.5165,
+      "price": 200.16000366210938,
+      "rsi": 71.27702410214725,
+      "momentum_5d": -0.010871698663800302,
+      "momentum_1d": 0.01955988281698128,
+      "macd_crossover": false,
+      "atr_pct": 0.009238819146260138,
+      "bollinger_pct_b": 0.6509,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.95,
+      "news_sentiment": 0.652,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "What Makes Denali Therapeutics (DNLI) One of the Best AI Driven Biotech Names",
+        "1 Cash-Producing Stock with Impressive Fundamentals and 2 We Find Risky",
+        "How Is Biogen\u2019s Stock Performance Compared to Other Biotech Stocks?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.5147,
+      "price": 511.1199951171875,
+      "rsi": 80.7366611054082,
+      "momentum_5d": -0.0073688213252261995,
+      "momentum_1d": 0.1154221258818681,
+      "macd_crossover": false,
+      "atr_pct": 0.023151569627288475,
+      "bollinger_pct_b": 0.7823,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.814,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Citi resets AMD stock price target on key move",
+        "Is Advanced Micro Devices, Inc. (AMD) A Good Stock To Buy Now?",
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HOOD",
+      "rank_score": 0.5132,
+      "price": 93.16230010986328,
+      "rsi": 73.16144760310218,
+      "momentum_5d": -0.023865279476929235,
+      "momentum_1d": 0.13834682647377647,
+      "macd_crossover": false,
+      "atr_pct": 0.024540886149166375,
+      "bollinger_pct_b": 0.7289,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.5,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Robinhood Insider Buys $35 Million in Stock. There\u2019s a Catch.",
+        "Robinhood Markets, Inc. (HOOD) Laps the Stock Market: Here's Why",
+        "Stocks making big moves this week: DraftKings, Intel, Brinker International, FuelCell Energy, and Robinhood"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LRCX",
+      "rank_score": 0.5098,
+      "price": 366.69000244140625,
+      "rsi": 84.48081382427803,
+      "momentum_5d": -0.011790387051365328,
+      "momentum_1d": 0.15532935983375762,
+      "macd_crossover": false,
+      "atr_pct": 0.02375349194980481,
+      "bollinger_pct_b": 0.7245,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.66,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Lam Research (LRCX) Stock Fair Value Edges Higher After Analyst Target Increases",
+        "Lam Research and Applied Materials Shares Skyrocket, What You Need To Know",
+        "Top Analyst Reports for Costco, Lam Research & KLA"
       ],
       "high_impact_news": true
     }

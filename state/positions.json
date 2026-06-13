@@ -394,38 +394,6 @@
     "price_peak": 0.08842000365257263,
     "trailing_stop_price": 0.087398
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260613194156",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.71999979019165,
-    "entry_time": "2026-06-13T19:41:56.265961+00:00",
-    "stop_loss_pct": 0.00594,
-    "take_profit_pct": 0.01449,
-    "size_usd": 5576.27,
-    "position_size_pct": 0.0556,
-    "confidence": 0.877,
-    "signals": [
-      "RSI overbought (69.7)",
-      "5d momentum +0.45%",
-      "1d momentum +2.13%",
-      "Volume spike 5.8\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.312,
-    "news_headlines": [
-      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-      "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-      "Study finds most AI crypto trading agents aren't really trading"
-    ],
-    "mode": "paper",
-    "strategy_version": "22",
-    "status": "open",
-    "price_peak": 6.760000228881836,
-    "trailing_stop_price": 6.719846
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260613215633",
     "asset": "SOL-USD",
@@ -455,7 +423,9 @@
     ],
     "mode": "paper",
     "strategy_version": "22",
-    "status": "open"
+    "status": "open",
+    "price_trough": 68.83999633789062,
+    "trailing_stop_price": 69.315681
   },
   "ETH-USD": {
     "id": "ETH-USD_20260613215633",
@@ -487,7 +457,9 @@
     ],
     "mode": "paper",
     "strategy_version": "22",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1680.1300048828125,
+    "trailing_stop_price": 1686.581704
   },
   "XRP-USD": {
     "id": "XRP-USD_20260613215633",
@@ -518,6 +490,36 @@
     ],
     "mode": "paper",
     "strategy_version": "22",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260613230223",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 64429.33984375,
+    "entry_time": "2026-06-13T23:02:23.957308+00:00",
+    "stop_loss_pct": 0.00312,
+    "take_profit_pct": 0.00748,
+    "size_usd": 5098.19,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (74.7)",
+      "5d momentum +0.48%",
+      "1d momentum +1.40%",
+      "BB overbought (pct_b=0.87)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.676,
+    "news_headlines": [
+      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?",
+      "These Are the Only 2 Cryptocurrencies I'm Comfortable Buying Right Now",
+      "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?"
+    ],
+    "mode": "paper",
+    "strategy_version": "23",
     "status": "open"
   }
 }
