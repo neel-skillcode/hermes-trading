@@ -391,8 +391,8 @@
     "mode": "paper",
     "strategy_version": "21",
     "status": "open",
-    "price_peak": 0.08782000094652176,
-    "trailing_stop_price": 0.086805
+    "price_peak": 0.08842000365257263,
+    "trailing_stop_price": 0.087398
   },
   "ETH-USD": {
     "id": "ETH-USD_20260613061550",
@@ -423,39 +423,8 @@
     "mode": "paper",
     "strategy_version": "21",
     "status": "open",
-    "price_peak": 1676.510009765625,
-    "trailing_stop_price": 1670.088976
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260613061550",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 63528.8515625,
-    "entry_time": "2026-06-13T06:15:50.690388+00:00",
-    "stop_loss_pct": 0.00289,
-    "take_profit_pct": 0.00671,
-    "size_usd": 1782.73,
-    "position_size_pct": 0.0178,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (34.6)",
-      "5d momentum -0.42%",
-      "1d momentum +1.00%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.611,
-    "news_headlines": [
-      "Strategy CEO explains what it'd take to become a forced seller of bitcoin",
-      "Strategy CEO reveals the company's approach to selling bitcoin",
-      "Bitcoin and ethereum prices today, Friday, June 12, 2026: Prices rebound this morning after Trump claims war has ended"
-    ],
-    "mode": "paper",
-    "strategy_version": "21",
-    "status": "open",
-    "price_peak": 63892.55859375,
-    "trailing_stop_price": 63707.909099
+    "price_peak": 1678.5400390625,
+    "trailing_stop_price": 1672.111231
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260613113126",
@@ -518,23 +487,53 @@
     "strategy_version": "22",
     "status": "open"
   },
+  "BTC-USD": {
+    "id": "BTC-USD_20260613130948",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 64109.4296875,
+    "entry_time": "2026-06-13T13:09:48.119334+00:00",
+    "stop_loss_pct": 0.0028,
+    "take_profit_pct": 0.00682,
+    "size_usd": 5618.48,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (70.9)",
+      "5d momentum +0.54%",
+      "1d momentum +1.51%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.526,
+    "news_headlines": [
+      "Strategy CEO explains what it'd take to become a forced seller of bitcoin",
+      "Strategy CEO reveals the company's approach to selling bitcoin",
+      "Bitcoin ETF Outflows Are Now at Record Levels. Time to Panic, or Time to Buy the Dip?"
+    ],
+    "mode": "paper",
+    "strategy_version": "22",
+    "status": "open"
+  },
   "XRP-USD": {
-    "id": "XRP-USD_20260613113126",
+    "id": "XRP-USD_20260613130948",
     "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.1480000019073486,
-    "entry_time": "2026-06-13T11:31:26.167092+00:00",
-    "stop_loss_pct": 0.00418,
-    "take_profit_pct": 0.00977,
-    "size_usd": 4297.13,
-    "position_size_pct": 0.0428,
+    "entry_price": 1.1535999774932861,
+    "entry_time": "2026-06-13T13:09:48.121808+00:00",
+    "stop_loss_pct": 0.00419,
+    "take_profit_pct": 0.00981,
+    "size_usd": 459.37,
+    "position_size_pct": 0.0046,
     "confidence": 0.68,
     "signals": [
-      "RSI overbought (78.0)",
-      "5d momentum +0.99%",
-      "1d momentum +0.68%",
-      "BB overbought (pct_b=1.09)",
+      "RSI overbought (79.7)",
+      "5d momentum +0.96%",
+      "1d momentum +2.19%",
+      "BB overbought (pct_b=1.04)",
       "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
     ],
     "news_sentiment": 0.2,

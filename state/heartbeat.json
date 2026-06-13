@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100449.91,
+  "portfolio_balance": 100444.87,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 0.04,
-  "unrealized_pnl_usd": 494.76,
-  "equity_value": 100944.67,
+  "portfolio_drawdown_pct": 0.05,
+  "unrealized_pnl_usd": 512.24,
+  "equity_value": 100957.11,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40179.96,
+  "day_capital_used_usd": 40177.95,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 235,
-  "last_tick": "2026-06-13T11:31:26.169038+00:00",
+  "total_trades": 237,
+  "last_tick": "2026-06-13T13:09:48.124838+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -448,11 +448,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "price_peak": 0.08782000094652176,
-      "trailing_stop_price": 0.086805,
-      "current_price": 0.08782,
-      "unrealized_pnl_pct": 0.012918,
-      "unrealized_pnl_usd": 37.42
+      "price_peak": 0.08842000365257263,
+      "trailing_stop_price": 0.087398,
+      "current_price": 0.08845,
+      "unrealized_pnl_pct": 0.020185,
+      "unrealized_pnl_usd": 58.46
     },
     {
       "id": "ETH-USD_20260613061550",
@@ -483,45 +483,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "price_peak": 1676.510009765625,
-      "trailing_stop_price": 1670.088976,
-      "current_price": 1676.5,
-      "unrealized_pnl_pct": 0.00793,
-      "unrealized_pnl_usd": 47.71
-    },
-    {
-      "id": "BTC-USD_20260613061550",
-      "asset": "BTC-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 63528.8515625,
-      "entry_time": "2026-06-13T06:15:50.690388+00:00",
-      "stop_loss_pct": 0.00289,
-      "take_profit_pct": 0.00671,
-      "size_usd": 1782.73,
-      "position_size_pct": 0.0178,
-      "confidence": 0.644,
-      "signals": [
-        "RSI oversold (34.6)",
-        "5d momentum -0.42%",
-        "1d momentum +1.00%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.611,
-      "news_headlines": [
-        "Strategy CEO explains what it'd take to become a forced seller of bitcoin",
-        "Strategy CEO reveals the company's approach to selling bitcoin",
-        "Bitcoin and ethereum prices today, Friday, June 12, 2026: Prices rebound this morning after Trump claims war has ended"
-      ],
-      "mode": "paper",
-      "strategy_version": "21",
-      "status": "open",
-      "price_peak": 63892.55859375,
-      "trailing_stop_price": 63707.909099,
-      "current_price": 63891.988281,
-      "unrealized_pnl_pct": 0.005716,
-      "unrealized_pnl_usd": 10.19
+      "price_peak": 1678.5400390625,
+      "trailing_stop_price": 1672.111231,
+      "current_price": 1678.560059,
+      "unrealized_pnl_pct": 0.009168,
+      "unrealized_pnl_usd": 55.16
     },
     {
       "id": "AVAX-USD_20260613113126",
@@ -586,27 +552,60 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 67.839996,
+      "current_price": 67.849998,
+      "unrealized_pnl_pct": -0.000147,
+      "unrealized_pnl_usd": -0.83
+    },
+    {
+      "id": "BTC-USD_20260613130948",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 64109.4296875,
+      "entry_time": "2026-06-13T13:09:48.119334+00:00",
+      "stop_loss_pct": 0.0028,
+      "take_profit_pct": 0.00682,
+      "size_usd": 5618.48,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (70.9)",
+        "5d momentum +0.54%",
+        "1d momentum +1.51%",
+        "BB overbought (pct_b=1.05)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.526,
+      "news_headlines": [
+        "Strategy CEO explains what it'd take to become a forced seller of bitcoin",
+        "Strategy CEO reveals the company's approach to selling bitcoin",
+        "Bitcoin ETF Outflows Are Now at Record Levels. Time to Panic, or Time to Buy the Dip?"
+      ],
+      "mode": "paper",
+      "strategy_version": "22",
+      "status": "open",
+      "current_price": 64109.429688,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "XRP-USD_20260613113126",
+      "id": "XRP-USD_20260613130948",
       "asset": "XRP-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 1.1480000019073486,
-      "entry_time": "2026-06-13T11:31:26.167092+00:00",
-      "stop_loss_pct": 0.00418,
-      "take_profit_pct": 0.00977,
-      "size_usd": 4297.13,
-      "position_size_pct": 0.0428,
+      "entry_price": 1.1535999774932861,
+      "entry_time": "2026-06-13T13:09:48.121808+00:00",
+      "stop_loss_pct": 0.00419,
+      "take_profit_pct": 0.00981,
+      "size_usd": 459.37,
+      "position_size_pct": 0.0046,
       "confidence": 0.68,
       "signals": [
-        "RSI overbought (78.0)",
-        "5d momentum +0.99%",
-        "1d momentum +0.68%",
-        "BB overbought (pct_b=1.09)",
+        "RSI overbought (79.7)",
+        "5d momentum +0.96%",
+        "1d momentum +2.19%",
+        "BB overbought (pct_b=1.04)",
         "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
       ],
       "news_sentiment": 0.2,
@@ -618,7 +617,7 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 1.148,
+      "current_price": 1.1536,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -835,8 +834,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.546,
+      "price": 1678.56005859375,
+      "rsi": 67.29628408337842,
+      "momentum_5d": 0.003017638854058757,
+      "momentum_1d": 0.013892579662459627,
+      "macd_crossover": false,
+      "atr_pct": 0.0032710961680799283,
+      "bollinger_pct_b": 0.9286,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.89,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.33,
+      "news_headlines": [
+        "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+        "Is XRP the Most Resilient Large-Cap Cryptocurrency in June?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "TSLA",
-      "rank_score": 0.5365,
+      "rank_score": 0.5415,
       "price": 406.44500732421875,
       "rsi": 75.31893543354926,
       "momentum_5d": 0.01644923573162435,
@@ -846,12 +866,12 @@
       "bollinger_pct_b": 0.9589,
       "volume_spike": false,
       "volume_spike_ratio": 0.9,
-      "news_sentiment": 0.339,
-      "news_confidence": 0.32,
+      "news_sentiment": 0.453,
+      "news_confidence": 0.35,
       "news_headlines": [
         "Elon Musk becomes world's first trillionaire",
         "What SpaceX's IPO means for investors and the future of innovation",
-        "Mag 7? MANGOS? SpaceX forces name rethink on Wall Street's tech-stock moniker"
+        "ArcBest Expands Tesla Semi Fleet As EV Trials Meet Core Freight Goals"
       ],
       "high_impact_news": true
     },
@@ -877,27 +897,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "JPM",
-      "rank_score": 0.5344,
-      "price": 320.7099914550781,
-      "rsi": 80.65010443575412,
-      "momentum_5d": -0.0013079233374273054,
-      "momentum_1d": 0.029153602743933013,
-      "macd_crossover": false,
-      "atr_pct": 0.006866343112569571,
-      "bollinger_pct_b": 0.8698,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.83,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "SpaceX IPO afterparty set to light up JPMorgan HQ",
-        "JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach",
-        "JPMorgan Chase Is Eyeing 7% Net Interest Income Growth. Why That Goal Just Got Easier to Believe."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AMD",
       "rank_score": 0.5327,
       "price": 511.1199951171875,
@@ -912,30 +911,30 @@
       "news_sentiment": 0.964,
       "news_confidence": 0.55,
       "news_headlines": [
+        "The Billionaire Move Nobody Saw Coming: Why Starboard Value Abandoned CRM For These 2 Stocks",
         "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
-        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-        "Why AMD (AMD) Stock Is Up Today"
+        "Why Qualcomm (QCOM) Stock Is Trading Up Today"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5325,
-      "price": 6.670000076293945,
-      "rsi": 76.19044375265382,
-      "momentum_5d": 0.0060331766459404326,
-      "momentum_1d": 0.0060331766459404326,
+      "asset": "JPM",
+      "rank_score": 0.5294,
+      "price": 320.7099914550781,
+      "rsi": 80.65010443575412,
+      "momentum_5d": -0.0013079233374273054,
+      "momentum_1d": 0.029153602743933013,
       "macd_crossover": false,
-      "atr_pct": 0.00588990905554298,
-      "bollinger_pct_b": 0.9741,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.92,
-      "news_sentiment": 0.312,
-      "news_confidence": 0.32,
+      "atr_pct": 0.006866343112569571,
+      "bollinger_pct_b": 0.8698,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.1,
+      "news_sentiment": 0.68,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-        "Study finds most AI crypto trading agents aren't really trading"
+        "SpaceX IPO afterparty set to light up JPMorgan HQ",
+        "CNBC anchor stunned by $107B US trade deficit drop: \u2018Buckle up, this is unreal!\u2019 Are Trump\u2019s tariffs a triumph?",
+        "JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach"
       ],
       "high_impact_news": true
     },
