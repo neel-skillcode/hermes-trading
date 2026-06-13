@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100363.18,
+  "portfolio_balance": 100334.7,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 0.13,
-  "unrealized_pnl_usd": 469.56,
-  "equity_value": 100832.74,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 0.16,
+  "unrealized_pnl_usd": 482.75,
+  "equity_value": 100817.45,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40145.27,
+  "day_capital_used_usd": 40133.88,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 239,
-  "last_tick": "2026-06-13T20:53:24.425162+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "total_trades": 243,
+  "last_tick": "2026-06-13T21:56:33.661117+00:00",
+  "last_reflection": "2026-06-13",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -450,146 +450,9 @@
       "status": "open",
       "price_peak": 0.08842000365257263,
       "trailing_stop_price": 0.087398,
-      "current_price": 0.0876,
-      "unrealized_pnl_pct": 0.010381,
-      "unrealized_pnl_usd": 30.07
-    },
-    {
-      "id": "ETH-USD_20260613061550",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1663.31005859375,
-      "entry_time": "2026-06-13T06:15:50.685558+00:00",
-      "stop_loss_pct": 0.00383,
-      "take_profit_pct": 0.00945,
-      "size_usd": 6015.83,
-      "position_size_pct": 0.06,
-      "confidence": 0.937,
-      "signals": [
-        "RSI oversold (36.7)",
-        "5d momentum -0.55%",
-        "1d momentum +0.49%",
-        "Volume spike 3.4\u00d7",
-        "High-impact catalyst",
-        "Claude [strongly_supports]: price surge"
-      ],
-      "news_sentiment": 0.333,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, June 12, 2026: Prices rebound this morning after Trump claims war has ended",
-        "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-      ],
-      "mode": "paper",
-      "strategy_version": "21",
-      "status": "open",
-      "price_peak": 1678.989990234375,
-      "trailing_stop_price": 1672.559459,
-      "current_price": 1674.560059,
-      "unrealized_pnl_pct": 0.006764,
-      "unrealized_pnl_usd": 40.69
-    },
-    {
-      "id": "BTC-USD_20260613130948",
-      "asset": "BTC-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 64109.4296875,
-      "entry_time": "2026-06-13T13:09:48.119334+00:00",
-      "stop_loss_pct": 0.0028,
-      "take_profit_pct": 0.00682,
-      "size_usd": 5618.48,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI overbought (70.9)",
-        "5d momentum +0.54%",
-        "1d momentum +1.51%",
-        "BB overbought (pct_b=1.05)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.526,
-      "news_headlines": [
-        "Strategy CEO explains what it'd take to become a forced seller of bitcoin",
-        "Strategy CEO reveals the company's approach to selling bitcoin",
-        "Bitcoin ETF Outflows Are Now at Record Levels. Time to Panic, or Time to Buy the Dip?"
-      ],
-      "mode": "paper",
-      "strategy_version": "22",
-      "status": "open",
-      "current_price": 64225.558594,
-      "unrealized_pnl_pct": -0.001811,
-      "unrealized_pnl_usd": -10.18
-    },
-    {
-      "id": "XRP-USD_20260613130948",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.1535999774932861,
-      "entry_time": "2026-06-13T13:09:48.121808+00:00",
-      "stop_loss_pct": 0.00419,
-      "take_profit_pct": 0.00981,
-      "size_usd": 459.37,
-      "position_size_pct": 0.0046,
-      "confidence": 0.68,
-      "signals": [
-        "RSI overbought (79.7)",
-        "5d momentum +0.96%",
-        "1d momentum +2.19%",
-        "BB overbought (pct_b=1.04)",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.2,
-      "news_headlines": [
-        "Ripple CEO Accused Jamie Dimon of Lying About CLARITY Act And Called Out $20Bn Reason Why",
-        "Here's What to Do If XRP Drops Below $1 During the Summer",
-        "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?"
-      ],
-      "mode": "paper",
-      "strategy_version": "22",
-      "status": "open",
-      "price_trough": 1.145900011062622,
-      "trailing_stop_price": 1.150701,
-      "current_price": 1.1459,
-      "unrealized_pnl_pct": 0.006675,
-      "unrealized_pnl_usd": 3.07
-    },
-    {
-      "id": "SOL-USD_20260613150824",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 68.31999969482422,
-      "entry_time": "2026-06-13T15:08:24.239355+00:00",
-      "stop_loss_pct": 0.00551,
-      "take_profit_pct": 0.01343,
-      "size_usd": 5602.87,
-      "position_size_pct": 0.0558,
-      "confidence": 0.874,
-      "signals": [
-        "RSI overbought (68.1)",
-        "5d momentum +1.36%",
-        "1d momentum +1.64%",
-        "BB overbought (pct_b=0.99)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-      ],
-      "news_sentiment": 0.696,
-      "news_headlines": [
-        "Now Trading at Its Lowest Level Since December 2023, Is Solana a Buy, Sell, or Hold?",
-        "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-      ],
-      "mode": "paper",
-      "strategy_version": "22",
-      "status": "open",
-      "price_trough": 68.13999938964844,
-      "trailing_stop_price": 68.515451,
-      "current_price": 68.139999,
-      "unrealized_pnl_pct": 0.002635,
-      "unrealized_pnl_usd": 14.76
+      "current_price": 0.0882,
+      "unrealized_pnl_pct": 0.017301,
+      "unrealized_pnl_usd": 50.11
     },
     {
       "id": "AVAX-USD_20260613194156",
@@ -620,9 +483,114 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "current_price": 6.71,
-      "unrealized_pnl_pct": -0.001488,
-      "unrealized_pnl_usd": -8.3
+      "price_peak": 6.760000228881836,
+      "trailing_stop_price": 6.719846,
+      "current_price": 6.76,
+      "unrealized_pnl_pct": 0.005952,
+      "unrealized_pnl_usd": 33.19
+    },
+    {
+      "id": "SOL-USD_20260613215633",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 69.33999633789062,
+      "entry_time": "2026-06-13T21:56:33.246851+00:00",
+      "stop_loss_pct": 0.00691,
+      "take_profit_pct": 0.0171,
+      "size_usd": 6100.35,
+      "position_size_pct": 0.0608,
+      "confidence": 0.95,
+      "signals": [
+        "RSI overbought (80.2)",
+        "5d momentum +1.90%",
+        "1d momentum +4.21%",
+        "BB overbought (pct_b=1.11)",
+        "Volume spike 132.0\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": 0.696,
+      "news_headlines": [
+        "Now Trading at Its Lowest Level Since December 2023, Is Solana a Buy, Sell, or Hold?",
+        "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "22",
+      "status": "open",
+      "current_price": 69.339996,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "ETH-USD_20260613215633",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1687.31005859375,
+      "entry_time": "2026-06-13T21:56:33.248065+00:00",
+      "stop_loss_pct": 0.00384,
+      "take_profit_pct": 0.00934,
+      "size_usd": 5586.64,
+      "position_size_pct": 0.0557,
+      "confidence": 0.87,
+      "signals": [
+        "RSI overbought (64.4)",
+        "MACD crossover",
+        "5d momentum +0.69%",
+        "1d momentum +1.46%",
+        "BB overbought (pct_b=1.05)",
+        "Volume spike 14.5\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: price surge"
+      ],
+      "news_sentiment": 0.353,
+      "news_headlines": [
+        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury",
+        "Why I'd Buy Ethereum Over Bitcoin Right Now",
+        "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage"
+      ],
+      "mode": "paper",
+      "strategy_version": "22",
+      "status": "open",
+      "current_price": 1687.310059,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "XRP-USD_20260613215633",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1.1543999910354614,
+      "entry_time": "2026-06-13T21:56:33.249148+00:00",
+      "stop_loss_pct": 0.00559,
+      "take_profit_pct": 0.01394,
+      "size_usd": 5998.17,
+      "position_size_pct": 0.0598,
+      "confidence": 0.99,
+      "signals": [
+        "RSI overbought (64.6)",
+        "MACD crossover",
+        "5d momentum +0.69%",
+        "1d momentum +2.22%",
+        "Volume spike 9.4\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.407,
+      "news_headlines": [
+        "If CLARITY Clears the Senate by August, Where Does XRP Trade by Q4?",
+        "Ripple CEO Slams JPMorgan for \u201cMisrepresenting\u201d the CLARITY Act",
+        "Ripple CEO Accused Jamie Dimon of Lying About CLARITY Act And Called Out $20Bn Reason Why"
+      ],
+      "mode": "paper",
+      "strategy_version": "22",
+      "status": "open",
+      "current_price": 1.1544,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -648,6 +616,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.7899,
+      "price": 69.33999633789062,
+      "rsi": 80.1800811052306,
+      "momentum_5d": 0.01895655001149174,
+      "momentum_1d": 0.042079882534385306,
+      "macd_crossover": false,
+      "atr_pct": 0.006798803465415851,
+      "bollinger_pct_b": 1.1069,
+      "volume_spike": true,
+      "volume_spike_ratio": 131.97,
+      "news_sentiment": 0.696,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Now Trading at Its Lowest Level Since December 2023, Is Solana a Buy, Sell, or Hold?",
+        "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "KLAC",
       "rank_score": 0.7356,
       "price": 254.5399932861328,
@@ -669,6 +658,69 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.7248,
+      "price": 1687.31005859375,
+      "rsi": 64.39115891193757,
+      "momentum_5d": 0.0068984386655229005,
+      "momentum_1d": 0.014557202431130388,
+      "macd_crossover": true,
+      "atr_pct": 0.003925106980254102,
+      "bollinger_pct_b": 1.0505,
+      "volume_spike": true,
+      "volume_spike_ratio": 14.54,
+      "news_sentiment": 0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury",
+        "Why I'd Buy Ethereum Over Bitcoin Right Now",
+        "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.6977,
+      "price": 1.1543999910354614,
+      "rsi": 64.56513344925975,
+      "momentum_5d": 0.0068905361340359525,
+      "momentum_1d": 0.022226151412582055,
+      "macd_crossover": true,
+      "atr_pct": 0.005395508258018248,
+      "bollinger_pct_b": 0.8459,
+      "volume_spike": true,
+      "volume_spike_ratio": 9.4,
+      "news_sentiment": 0.407,
+      "news_confidence": 0.27,
+      "news_headlines": [
+        "If CLARITY Clears the Senate by August, Where Does XRP Trade by Q4?",
+        "Ripple CEO Slams JPMorgan for \u201cMisrepresenting\u201d the CLARITY Act",
+        "Ripple CEO Accused Jamie Dimon of Lying About CLARITY Act And Called Out $20Bn Reason Why"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.6703,
+      "price": 0.08820000290870667,
+      "rsi": 66.66666666666666,
+      "momentum_5d": 0.003869790381407639,
+      "momentum_1d": 0.017653243242081555,
+      "macd_crossover": true,
+      "atr_pct": 0.006243909747912618,
+      "bollinger_pct_b": 0.7751,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.63,
+      "news_sentiment": 0.489,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+        "Bitcoin, Ethereum, XRP, Dogecoin Jump After Trump Sparks Optimism On Iran Deal: Analyst Says SpaceX IPO Would Be 'Tricky' For The Markets",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "TGT",
       "rank_score": 0.6585,
       "price": 135.22000122070312,
@@ -686,6 +738,48 @@
         "Target (TGT) Q1 FY2026 Sales Rise 6.7% to $25.4B on Strong Digital and Traffic Growth",
         "Big name takes on Coke and Pepsi with Target-exclusive soda",
         "Sector Update: Consumer Stocks Mixed Late Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.6315,
+      "price": 64491.98828125,
+      "rsi": 71.36232631958171,
+      "momentum_5d": 0.00792305671101786,
+      "momentum_1d": 0.01665277462702706,
+      "macd_crossover": false,
+      "atr_pct": 0.0033926988941204916,
+      "bollinger_pct_b": 1.0037,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.42,
+      "news_sentiment": 0.833,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?",
+        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury",
+        "TeraWulf Inc. (WULF) Eyes Leveraged Loans to Accelerate AI Infrastructure Expansion"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6245,
+      "price": 6.760000228881836,
+      "rsi": 66.66671964853944,
+      "momentum_5d": 0.007451593211714986,
+      "momentum_1d": 0.030487848757137746,
+      "macd_crossover": false,
+      "atr_pct": 0.005705852186370849,
+      "bollinger_pct_b": 0.9425,
+      "volume_spike": true,
+      "volume_spike_ratio": 8.59,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+        "Study finds most AI crypto trading agents aren't really trading"
       ],
       "high_impact_news": true
     },
@@ -789,8 +883,8 @@
       "news_confidence": 0.51,
       "news_headlines": [
         "Best CD rates today, Saturday, June 13, 2026: Best account provides 4% APY",
-        "Should Goldman\u2019s Neutral Stance Amid Slower Growth Shift How OPCH Investors View Its Home-Infusion Moat?",
-        "How Wall Street pulled off the biggest IPO in history for SpaceX"
+        "Goldman Sachs quietly resets oil price forecast for 2027",
+        "Should Goldman\u2019s Neutral Stance Amid Slower Growth Shift How OPCH Investors View Its Home-Infusion Moat?"
       ],
       "high_impact_news": true
     },
@@ -837,27 +931,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.5403,
-      "price": 64225.55859375,
-      "rsi": 67.4700489268129,
-      "momentum_5d": -0.0004882133942995205,
-      "momentum_1d": 0.012897612574961262,
-      "macd_crossover": false,
-      "atr_pct": 0.0030447545268510417,
-      "bollinger_pct_b": 0.8397,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.47,
-      "news_sentiment": 0.833,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?",
-        "BitMine Immersion (BMNR) Reports $9.6B Crypto and Cash Holdings, Led by Ethereum Treasury",
-        "TeraWulf Inc. (WULF) Eyes Leveraged Loans to Accelerate AI Infrastructure Expansion"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "XLF",
       "rank_score": 0.5353,
       "price": 53.34000015258789,
@@ -900,6 +973,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.5342,
+      "price": 610.3300170898438,
+      "rsi": 76.90616550684811,
+      "momentum_5d": 0.0029744256565100552,
+      "momentum_1d": 0.01106600249418566,
+      "macd_crossover": false,
+      "atr_pct": 0.003389255354999746,
+      "bollinger_pct_b": 0.8386,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.79,
+      "news_sentiment": 0.189,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Hyperliquid Emerges As 'Superior' Alternative After SpaceX IPO Lockup Chaos",
+        "SIREN Token Crashes 75% as Whale Triggers a Massive Sell-Off",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "JPM",
       "rank_score": 0.5314,
       "price": 320.7099914550781,
@@ -917,132 +1011,6 @@
         "JPMorgan Chase & Co. (JPM) CEO Marianne Lake Expects 2026 Loan Growth To Exceed The Industry Average",
         "CNBC anchor stunned by $107B US trade deficit drop: \u2018Buckle up, this is unreal!\u2019 Are Trump\u2019s tariffs a triumph?",
         "JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.5303,
-      "price": 211.6699981689453,
-      "rsi": 88.10484942284491,
-      "momentum_5d": -0.00875711892845197,
-      "momentum_1d": 0.06238703238847142,
-      "macd_crossover": false,
-      "atr_pct": 0.019618741898830467,
-      "bollinger_pct_b": 0.7968,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
-        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-        "Stocks Rally on Hopes for a Near-term US-Iran Interim Peace Agreement"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IWM",
-      "rank_score": 0.527,
-      "price": 292.95001220703125,
-      "rsi": 81.15035296816508,
-      "momentum_5d": -0.008260273944297855,
-      "momentum_1d": 0.03849840834530117,
-      "macd_crossover": false,
-      "atr_pct": 0.008017819353981897,
-      "bollinger_pct_b": 0.7462,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.94,
-      "news_sentiment": -0.35,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of SpaceX Debut",
-        "Sticky Inflation\u2019s Worst Nightmare: Why Small Value Stocks Are Secretly Printing Money",
-        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid US Attacks on Iran"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.5227,
-      "price": 511.1199951171875,
-      "rsi": 80.7366611054082,
-      "momentum_5d": -0.0073688213252261995,
-      "momentum_1d": 0.1154221258818681,
-      "macd_crossover": false,
-      "atr_pct": 0.023151569627288475,
-      "bollinger_pct_b": 0.7823,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.878,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Citi resets AMD stock price target on key move",
-        "Is Advanced Micro Devices, Inc. (AMD) A Good Stock To Buy Now?",
-        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LRCX",
-      "rank_score": 0.5202,
-      "price": 366.69000244140625,
-      "rsi": 84.48081382427803,
-      "momentum_5d": -0.011790387051365328,
-      "momentum_1d": 0.15532935983375762,
-      "macd_crossover": false,
-      "atr_pct": 0.02375349194980481,
-      "bollinger_pct_b": 0.7245,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.66,
-      "news_sentiment": 0.748,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Lam Research and Applied Materials Shares Skyrocket, What You Need To Know",
-        "Top Analyst Reports for Costco, Lam Research & KLA",
-        "Q1 Earnings Outperformers: Lam Research (NASDAQ:LRCX) And The Rest Of The Semiconductor Manufacturing Stocks"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLK",
-      "rank_score": 0.5181,
-      "price": 184.80999755859375,
-      "rsi": 81.03057680210773,
-      "momentum_5d": -0.004953417272969334,
-      "momentum_1d": 0.0414177311318236,
-      "macd_crossover": false,
-      "atr_pct": 0.011407728078366108,
-      "bollinger_pct_b": 0.7809,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.55,
-      "news_sentiment": 0.88,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?",
-        "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
-        "SpaceX Launches. The Future Remains Murky."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.5165,
-      "price": 200.16000366210938,
-      "rsi": 71.27702410214725,
-      "momentum_5d": -0.010871698663800302,
-      "momentum_1d": 0.01955988281698128,
-      "macd_crossover": false,
-      "atr_pct": 0.009238819146260138,
-      "bollinger_pct_b": 0.6509,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.95,
-      "news_sentiment": 0.652,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "What Makes Denali Therapeutics (DNLI) One of the Best AI Driven Biotech Names",
-        "1 Cash-Producing Stock with Impressive Fundamentals and 2 We Find Risky",
-        "How Is Biogen\u2019s Stock Performance Compared to Other Biotech Stocks?"
       ],
       "high_impact_news": true
     }
