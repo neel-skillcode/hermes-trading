@@ -391,8 +391,8 @@
     "mode": "paper",
     "strategy_version": "21",
     "status": "open",
-    "price_peak": 0.08719000220298767,
-    "trailing_stop_price": 0.086182
+    "price_peak": 0.08782000094652176,
+    "trailing_stop_price": 0.086805
   },
   "ETH-USD": {
     "id": "ETH-USD_20260613061550",
@@ -423,71 +423,8 @@
     "mode": "paper",
     "strategy_version": "21",
     "status": "open",
-    "price_peak": 1672.81005859375,
-    "trailing_stop_price": 1666.403196
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260613061550",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 600.2000122070312,
-    "entry_time": "2026-06-13T06:15:50.687636+00:00",
-    "stop_loss_pct": 0.004,
-    "take_profit_pct": 0.00997,
-    "size_usd": 6356.1,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (27.8)",
-      "5d momentum -0.90%",
-      "1d momentum +0.44%",
-      "BB oversold (pct_b=0.13)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: price surge"
-    ],
-    "news_sentiment": 0.459,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-      "Humanity Protocol Token Jumps 44% in Post-Exploit Relief Rally",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "21",
-    "status": "open",
-    "price_peak": 603.239990234375,
-    "trailing_stop_price": 600.82703
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260613061550",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 66.66000366210938,
-    "entry_time": "2026-06-13T06:15:50.688989+00:00",
-    "stop_loss_pct": 0.0055,
-    "take_profit_pct": 0.01278,
-    "size_usd": 4134.68,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (29.9)",
-      "5d momentum -1.10%",
-      "1d momentum +0.94%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-      "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena",
-      "Exodus Launches Ondo-Powered Markets for Tokenized Stocks and ETFs"
-    ],
-    "mode": "paper",
-    "strategy_version": "21",
-    "status": "open",
-    "price_peak": 67.31999969482422,
-    "trailing_stop_price": 66.94974
+    "price_peak": 1676.510009765625,
+    "trailing_stop_price": 1670.088976
   },
   "BTC-USD": {
     "id": "BTC-USD_20260613061550",
@@ -517,7 +454,97 @@
     "mode": "paper",
     "strategy_version": "21",
     "status": "open",
-    "price_peak": 63764.9296875,
-    "trailing_stop_price": 63580.649041
+    "price_peak": 63892.55859375,
+    "trailing_stop_price": 63707.909099
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260613113126",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.670000076293945,
+    "entry_time": "2026-06-13T11:31:26.163350+00:00",
+    "stop_loss_pct": 0.00576,
+    "take_profit_pct": 0.01402,
+    "size_usd": 5593.05,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (76.2)",
+      "5d momentum +0.60%",
+      "1d momentum +0.60%",
+      "BB overbought (pct_b=0.97)",
+      "Volume spike 1.9\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.312,
+    "news_headlines": [
+      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+      "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+      "Study finds most AI crypto trading agents aren't really trading"
+    ],
+    "mode": "paper",
+    "strategy_version": "22",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260613113126",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 67.83999633789062,
+    "entry_time": "2026-06-13T11:31:26.165077+00:00",
+    "stop_loss_pct": 0.00554,
+    "take_profit_pct": 0.0135,
+    "size_usd": 5618.77,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (72.3)",
+      "5d momentum +1.07%",
+      "1d momentum +1.48%",
+      "BB overbought (pct_b=0.98)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.762,
+    "news_headlines": [
+      "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+      "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena"
+    ],
+    "mode": "paper",
+    "strategy_version": "22",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260613113126",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1480000019073486,
+    "entry_time": "2026-06-13T11:31:26.167092+00:00",
+    "stop_loss_pct": 0.00418,
+    "take_profit_pct": 0.00977,
+    "size_usd": 4297.13,
+    "position_size_pct": 0.0428,
+    "confidence": 0.68,
+    "signals": [
+      "RSI overbought (78.0)",
+      "5d momentum +0.99%",
+      "1d momentum +0.68%",
+      "BB overbought (pct_b=1.09)",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "Ripple CEO Accused Jamie Dimon of Lying About CLARITY Act And Called Out $20Bn Reason Why",
+      "Here's What to Do If XRP Drops Below $1 During the Summer",
+      "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?"
+    ],
+    "mode": "paper",
+    "strategy_version": "22",
+    "status": "open"
   }
 }
