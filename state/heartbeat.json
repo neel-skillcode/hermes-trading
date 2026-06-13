@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100344.11,
+  "portfolio_balance": 100317.28,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 0.15,
-  "unrealized_pnl_usd": 403.37,
-  "equity_value": 100747.48,
-  "open_positions": 16,
-  "day_trades_open": 6,
+  "portfolio_drawdown_pct": 0.17,
+  "unrealized_pnl_usd": 415.23,
+  "equity_value": 100732.51,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 24348.58,
+  "day_capital_used_usd": 40126.91,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 231,
-  "last_tick": "2026-06-13T01:56:35.160322+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 232,
+  "last_tick": "2026-06-13T06:15:51.325427+00:00",
+  "last_reflection": "2026-06-13",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -349,9 +349,9 @@
       "status": "open",
       "price_trough": 1.1287000179290771,
       "trailing_stop_price": 1.139784,
-      "current_price": 1.139,
-      "unrealized_pnl_pct": 0.000789,
-      "unrealized_pnl_usd": 3.92
+      "current_price": 1.1316,
+      "unrealized_pnl_pct": 0.007281,
+      "unrealized_pnl_usd": 36.15
     },
     {
       "id": "INTC_20260612163524",
@@ -457,37 +457,6 @@
       "unrealized_pnl_usd": -60.68
     },
     {
-      "id": "SOL-USD_20260613015635",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 67.37999725341797,
-      "entry_time": "2026-06-13T01:56:35.156300+00:00",
-      "stop_loss_pct": 0.00718,
-      "take_profit_pct": 0.01577,
-      "size_usd": 2511.01,
-      "position_size_pct": 0.025,
-      "confidence": 0.391,
-      "signals": [
-        "5d momentum +0.91%",
-        "1d momentum +0.84%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-      ],
-      "news_sentiment": 0.762,
-      "news_headlines": [
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-        "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena",
-        "Exodus Launches Ondo-Powered Markets for Tokenized Stocks and ETFs"
-      ],
-      "mode": "paper",
-      "strategy_version": "21",
-      "status": "open",
-      "current_price": 67.379997,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
-    },
-    {
       "id": "DOGE-USD_20260613015635",
       "asset": "DOGE-USD",
       "trade_type": "day",
@@ -514,7 +483,137 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "current_price": 0.0867,
+      "current_price": 0.08609,
+      "unrealized_pnl_pct": -0.007036,
+      "unrealized_pnl_usd": -20.38
+    },
+    {
+      "id": "ETH-USD_20260613061550",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1663.31005859375,
+      "entry_time": "2026-06-13T06:15:50.685558+00:00",
+      "stop_loss_pct": 0.00383,
+      "take_profit_pct": 0.00945,
+      "size_usd": 6015.83,
+      "position_size_pct": 0.06,
+      "confidence": 0.937,
+      "signals": [
+        "RSI oversold (36.7)",
+        "5d momentum -0.55%",
+        "1d momentum +0.49%",
+        "Volume spike 3.4\u00d7",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: price surge"
+      ],
+      "news_sentiment": 0.333,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Friday, June 12, 2026: Prices rebound this morning after Trump claims war has ended",
+        "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "21",
+      "status": "open",
+      "current_price": 1663.310059,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "BNB-USD_20260613061550",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 600.2000122070312,
+      "entry_time": "2026-06-13T06:15:50.687636+00:00",
+      "stop_loss_pct": 0.004,
+      "take_profit_pct": 0.00997,
+      "size_usd": 6356.1,
+      "position_size_pct": 0.0634,
+      "confidence": 0.99,
+      "signals": [
+        "RSI oversold (27.8)",
+        "5d momentum -0.90%",
+        "1d momentum +0.44%",
+        "BB oversold (pct_b=0.13)",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: price surge"
+      ],
+      "news_sentiment": 0.459,
+      "news_headlines": [
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+        "Humanity Protocol Token Jumps 44% in Post-Exploit Relief Rally",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
+      ],
+      "mode": "paper",
+      "strategy_version": "21",
+      "status": "open",
+      "current_price": 600.200012,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SOL-USD_20260613061550",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 66.66000366210938,
+      "entry_time": "2026-06-13T06:15:50.688989+00:00",
+      "stop_loss_pct": 0.0055,
+      "take_profit_pct": 0.01278,
+      "size_usd": 4134.68,
+      "position_size_pct": 0.0412,
+      "confidence": 0.644,
+      "signals": [
+        "RSI oversold (29.9)",
+        "5d momentum -1.10%",
+        "1d momentum +0.94%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": 0.762,
+      "news_headlines": [
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+        "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena",
+        "Exodus Launches Ondo-Powered Markets for Tokenized Stocks and ETFs"
+      ],
+      "mode": "paper",
+      "strategy_version": "21",
+      "status": "open",
+      "current_price": 66.660004,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "BTC-USD_20260613061550",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 63528.8515625,
+      "entry_time": "2026-06-13T06:15:50.690388+00:00",
+      "stop_loss_pct": 0.00289,
+      "take_profit_pct": 0.00671,
+      "size_usd": 1782.73,
+      "position_size_pct": 0.0178,
+      "confidence": 0.644,
+      "signals": [
+        "RSI oversold (34.6)",
+        "5d momentum -0.42%",
+        "1d momentum +1.00%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.611,
+      "news_headlines": [
+        "Strategy CEO explains what it'd take to become a forced seller of bitcoin",
+        "Strategy CEO reveals the company's approach to selling bitcoin",
+        "Bitcoin and ethereum prices today, Friday, June 12, 2026: Prices rebound this morning after Trump claims war has ended"
+      ],
+      "mode": "paper",
+      "strategy_version": "21",
+      "status": "open",
+      "current_price": 63528.851562,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -543,7 +642,7 @@
     },
     {
       "asset": "KLAC",
-      "rank_score": 0.7306,
+      "rank_score": 0.7356,
       "price": 254.5399932861328,
       "rsi": 92.5492924736059,
       "momentum_5d": 0.018254440109189817,
@@ -553,8 +652,8 @@
       "bollinger_pct_b": 0.8368,
       "volume_spike": true,
       "volume_spike_ratio": 2.95,
-      "news_sentiment": 0.351,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.45,
+      "news_confidence": 0.4,
       "news_headlines": [
         "KLA Corporation, Amkor, and Teradyne Shares Skyrocket, What You Need To Know",
         "KLA (KLAC) Stock Dips While Market Gains: Key Facts",
@@ -668,27 +767,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "GS",
-      "rank_score": 0.5593,
-      "price": 1062.760009765625,
-      "rsi": 79.30774650643912,
-      "momentum_5d": -0.009081575976107226,
-      "momentum_1d": 0.04000470181183411,
-      "macd_crossover": false,
-      "atr_pct": 0.01119166692237046,
-      "bollinger_pct_b": 0.8094,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.762,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Indexes Climb as SpaceX Soars in Trading Debut",
-        "Jeff Bezos\u2019 New Venture Just Raised $12 Billion. He\u2019s Betting AI Will Create a Physical Labor Shortage.",
-        "Times Square\u2019s New Year\u2019s Eve Ball Joins SpaceX Takeover of NYC"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "C",
       "rank_score": 0.5542,
       "price": 139.7899932861328,
@@ -710,6 +788,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "GS",
+      "rank_score": 0.5513,
+      "price": 1062.760009765625,
+      "rsi": 79.30774650643912,
+      "momentum_5d": -0.009081575976107226,
+      "momentum_1d": 0.04000470181183411,
+      "macd_crossover": false,
+      "atr_pct": 0.01119166692237046,
+      "bollinger_pct_b": 0.8094,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.01,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Why Goldman Sachs (GS) Stock Is Trading Up Today",
+        "Indexes Climb as SpaceX Soars in Trading Debut",
+        "Jeff Bezos\u2019 New Venture Just Raised $12 Billion. He\u2019s Betting AI Will Create a Physical Labor Shortage."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARM",
       "rank_score": 0.5401,
       "price": 380.4700012207031,
@@ -727,6 +826,27 @@
         "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
         "Billionaire Brad Gerstner Dumped All of His Alphabet Then Bought 2 Stocks Nobody Expected",
         "Arm Rockets 11%, Qualcomm Rises 5%: Who\u2019s Winning the Chip-Architecture Race?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.5377,
+      "price": 511.1199951171875,
+      "rsi": 80.7366611054082,
+      "momentum_5d": -0.0073688213252261995,
+      "momentum_1d": 0.1154221258818681,
+      "macd_crossover": false,
+      "atr_pct": 0.023151569627288475,
+      "bollinger_pct_b": 0.7823,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 1.0,
+      "news_confidence": 0.58,
+      "news_headlines": [
+        "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
+        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
+        "Why AMD (AMD) Stock Is Up Today"
       ],
       "high_impact_news": true
     },
@@ -773,23 +893,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMD",
-      "rank_score": 0.5317,
-      "price": 511.1199951171875,
-      "rsi": 80.7366611054082,
-      "momentum_5d": -0.0073688213252261995,
-      "momentum_1d": 0.1154221258818681,
+      "asset": "QCOM",
+      "rank_score": 0.5303,
+      "price": 211.6699981689453,
+      "rsi": 88.10484942284491,
+      "momentum_5d": -0.00875711892845197,
+      "momentum_1d": 0.06238703238847142,
       "macd_crossover": false,
-      "atr_pct": 0.023151569627288475,
-      "bollinger_pct_b": 0.7823,
+      "atr_pct": 0.019618741898830467,
+      "bollinger_pct_b": 0.7968,
       "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.963,
-      "news_confidence": 0.54,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
+        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
         "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-        "Why AMD (AMD) Stock Is Up Today"
+        "Stocks Rally on Hopes for a Near-term US-Iran Interim Peace Agreement"
       ],
       "high_impact_news": true
     },
@@ -815,48 +935,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "QCOM",
-      "rank_score": 0.5253,
-      "price": 211.6699981689453,
-      "rsi": 88.10484942284491,
-      "momentum_5d": -0.00875711892845197,
-      "momentum_1d": 0.06238703238847142,
-      "macd_crossover": false,
-      "atr_pct": 0.019618741898830467,
-      "bollinger_pct_b": 0.7968,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.348,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
-        "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-        "Arm Rockets 11%, Qualcomm Rises 5%: Who\u2019s Winning the Chip-Architecture Race?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "INTC",
-      "rank_score": 0.5249,
-      "price": 124.54000091552734,
-      "rsi": 79.9248938162037,
-      "momentum_5d": 0.01200610190372651,
-      "momentum_1d": 0.1942846410950742,
-      "macd_crossover": false,
-      "atr_pct": 0.030232733637909927,
-      "bollinger_pct_b": 0.8039,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.53,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
-        "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
-        "Why CoreWeave Stock Surged Today"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "JPM",
       "rank_score": 0.5214,
       "price": 320.7099914550781,
@@ -872,8 +950,8 @@
       "news_confidence": 0.5,
       "news_headlines": [
         "SpaceX IPO afterparty set to light up JPMorgan HQ",
-        "As SpaceX Makes Musk Trillionaire, Some Dissent on NYC\u2019s Streets",
-        "Jeff Bezos\u2019 New Venture Just Raised $12 Billion. He\u2019s Betting AI Will Create a Physical Labor Shortage."
+        "JPMorgan Chase Is Eyeing 7% Net Interest Income Growth. Why That Goal Just Got Easier to Believe.",
+        "As SpaceX Makes Musk Trillionaire, Some Dissent on NYC\u2019s Streets"
       ],
       "high_impact_news": true
     },
@@ -895,6 +973,27 @@
         "Lam Research and Applied Materials Shares Skyrocket, What You Need To Know",
         "Top Analyst Reports for Costco, Lam Research & KLA",
         "Q1 Earnings Outperformers: Lam Research (NASDAQ:LRCX) And The Rest Of The Semiconductor Manufacturing Stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "INTC",
+      "rank_score": 0.5179,
+      "price": 124.54000091552734,
+      "rsi": 79.9248938162037,
+      "momentum_5d": 0.01200610190372651,
+      "momentum_1d": 0.1942846410950742,
+      "macd_crossover": false,
+      "atr_pct": 0.030232733637909927,
+      "bollinger_pct_b": 0.8039,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.53,
+      "news_sentiment": 0.535,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
+        "Meet the Medtech Stock Wall Street Thinks Will Soar 65% Over the Next 12 Months",
+        "Why SpaceX Stock Soared Today"
       ],
       "high_impact_news": true
     },

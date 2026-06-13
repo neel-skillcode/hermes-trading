@@ -396,34 +396,6 @@
     "strategy_version": "20",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260613015635",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 67.37999725341797,
-    "entry_time": "2026-06-13T01:56:35.156300+00:00",
-    "stop_loss_pct": 0.00718,
-    "take_profit_pct": 0.01577,
-    "size_usd": 2511.01,
-    "position_size_pct": 0.025,
-    "confidence": 0.391,
-    "signals": [
-      "5d momentum +0.91%",
-      "1d momentum +0.84%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
-      "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena",
-      "Exodus Launches Ondo-Powered Markets for Tokenized Stocks and ETFs"
-    ],
-    "mode": "paper",
-    "strategy_version": "21",
-    "status": "open"
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260613015635",
     "asset": "DOGE-USD",
@@ -447,6 +419,124 @@
       "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
       "Bitcoin, Ethereum, XRP, Dogecoin Jump After Trump Sparks Optimism On Iran Deal: Analyst Says SpaceX IPO Would Be 'Tricky' For The Markets",
       "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "21",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260613061550",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1663.31005859375,
+    "entry_time": "2026-06-13T06:15:50.685558+00:00",
+    "stop_loss_pct": 0.00383,
+    "take_profit_pct": 0.00945,
+    "size_usd": 6015.83,
+    "position_size_pct": 0.06,
+    "confidence": 0.937,
+    "signals": [
+      "RSI oversold (36.7)",
+      "5d momentum -0.55%",
+      "1d momentum +0.49%",
+      "Volume spike 3.4\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Friday, June 12, 2026: Prices rebound this morning after Trump claims war has ended",
+      "Market Wrap: Bitcoin Stalls As SpaceX IPO Takes Centre Stage",
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+    ],
+    "mode": "paper",
+    "strategy_version": "21",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260613061550",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 600.2000122070312,
+    "entry_time": "2026-06-13T06:15:50.687636+00:00",
+    "stop_loss_pct": 0.004,
+    "take_profit_pct": 0.00997,
+    "size_usd": 6356.1,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (27.8)",
+      "5d momentum -0.90%",
+      "1d momentum +0.44%",
+      "BB oversold (pct_b=0.13)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.459,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+      "Humanity Protocol Token Jumps 44% in Post-Exploit Relief Rally",
+      "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "21",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260613061550",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 66.66000366210938,
+    "entry_time": "2026-06-13T06:15:50.688989+00:00",
+    "stop_loss_pct": 0.0055,
+    "take_profit_pct": 0.01278,
+    "size_usd": 4134.68,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (29.9)",
+      "5d momentum -1.10%",
+      "1d momentum +0.94%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.762,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+      "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena",
+      "Exodus Launches Ondo-Powered Markets for Tokenized Stocks and ETFs"
+    ],
+    "mode": "paper",
+    "strategy_version": "21",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260613061550",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 63528.8515625,
+    "entry_time": "2026-06-13T06:15:50.690388+00:00",
+    "stop_loss_pct": 0.00289,
+    "take_profit_pct": 0.00671,
+    "size_usd": 1782.73,
+    "position_size_pct": 0.0178,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (34.6)",
+      "5d momentum -0.42%",
+      "1d momentum +1.00%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.611,
+    "news_headlines": [
+      "Strategy CEO explains what it'd take to become a forced seller of bitcoin",
+      "Strategy CEO reveals the company's approach to selling bitcoin",
+      "Bitcoin and ethereum prices today, Friday, June 12, 2026: Prices rebound this morning after Trump claims war has ended"
     ],
     "mode": "paper",
     "strategy_version": "21",
