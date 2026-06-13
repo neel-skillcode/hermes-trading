@@ -270,39 +270,6 @@
     "price_peak": 43.650001525878906,
     "trailing_stop_price": 41.776107
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260611192544",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1680.56005859375,
-    "entry_time": "2026-06-11T19:25:44.143147+00:00",
-    "stop_loss_pct": 0.00938,
-    "take_profit_pct": 0.02285,
-    "size_usd": 3392.36,
-    "position_size_pct": 0.0348,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (65.5)",
-      "5d momentum +2.41%",
-      "1d momentum +3.22%",
-      "BB overbought (pct_b=0.95)",
-      "Volume spike 3.8\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": -0.389,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, June 11, 2026: Prices lifting off low opening figures",
-      "Football Meme Coins 650x on Solana Before the FIFA World Cup Kick Off",
-      "Ethereum Whales Mask a 2022 Bear Market Warning"
-    ],
-    "mode": "paper",
-    "strategy_version": "19",
-    "status": "open",
-    "price_trough": 1656.5699462890625,
-    "trailing_stop_price": 1672.108572
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260611213418",
     "asset": "XRP-USD",
@@ -334,39 +301,6 @@
     "status": "open",
     "price_trough": 1.1287000179290771,
     "trailing_stop_price": 1.139784
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260612163524",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 67.6500015258789,
-    "entry_time": "2026-06-12T16:35:24.171067+00:00",
-    "stop_loss_pct": 0.01026,
-    "take_profit_pct": 0.02538,
-    "size_usd": 5930.03,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +1.20%",
-      "1d momentum +3.58%",
-      "BB overbought (pct_b=0.99)",
-      "Volume spike 1.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "Exodus Launches Ondo-Powered Markets for Tokenized Stocks and ETFs",
-      "Solana News: SpaceX Will Have the Biggest IPO in History, And Its Stock Will Be Trading on Solana the Same Day",
-      "Elon Musk's SpaceX IPO: The Bull and Bear Case for Bitcoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "20",
-    "status": "open",
-    "price_trough": 66.5,
-    "trailing_stop_price": 67.18229
   },
   "INTC": {
     "id": "INTC_20260612163524",
@@ -462,35 +396,60 @@
     "strategy_version": "20",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260612203535",
-    "asset": "AVAX-USD",
+  "SOL-USD": {
+    "id": "SOL-USD_20260613015635",
+    "asset": "SOL-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.590000152587891,
-    "entry_time": "2026-06-12T20:35:35.932941+00:00",
-    "stop_loss_pct": 0.00781,
-    "take_profit_pct": 0.01752,
-    "size_usd": 3108.16,
-    "position_size_pct": 0.031,
-    "confidence": 0.484,
+    "direction": "long",
+    "entry_price": 67.37999725341797,
+    "entry_time": "2026-06-13T01:56:35.156300+00:00",
+    "stop_loss_pct": 0.00718,
+    "take_profit_pct": 0.01577,
+    "size_usd": 2511.01,
+    "position_size_pct": 0.025,
+    "confidence": 0.391,
     "signals": [
-      "5d momentum +0.61%",
-      "1d momentum -0.45%",
-      "Volume spike 1.5\u00d7",
+      "5d momentum +0.91%",
+      "1d momentum +0.84%",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
     ],
-    "news_sentiment": 0.312,
+    "news_sentiment": 0.762,
     "news_headlines": [
-      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-      "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-      "Study finds most AI crypto trading agents aren't really trading"
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+      "Securitize brings tokenized CLO fund to Solana with $250 million backing from Ethena",
+      "Exodus Launches Ondo-Powered Markets for Tokenized Stocks and ETFs"
     ],
     "mode": "paper",
     "strategy_version": "21",
-    "status": "open",
-    "price_trough": 6.550000190734863,
-    "trailing_stop_price": 6.601156
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260613015635",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08669999986886978,
+    "entry_time": "2026-06-13T01:56:35.158455+00:00",
+    "stop_loss_pct": 0.01156,
+    "take_profit_pct": 0.02573,
+    "size_usd": 2896.33,
+    "position_size_pct": 0.0289,
+    "confidence": 0.451,
+    "signals": [
+      "5d momentum -0.80%",
+      "1d momentum +1.04%",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.489,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+      "Bitcoin, Ethereum, XRP, Dogecoin Jump After Trump Sparks Optimism On Iran Deal: Analyst Says SpaceX IPO Would Be 'Tricky' For The Markets",
+      "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "21",
+    "status": "open"
   }
 }
