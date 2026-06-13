@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100317.28,
+  "portfolio_balance": 100307.26,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 0.17,
-  "unrealized_pnl_usd": 415.23,
-  "equity_value": 100732.51,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 0.18,
+  "unrealized_pnl_usd": 529.94,
+  "equity_value": 100837.2,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40126.91,
+  "day_capital_used_usd": 35161.79,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 232,
-  "last_tick": "2026-06-13T06:15:51.325427+00:00",
-  "last_reflection": "2026-06-13",
-  "trades_since_last_reflection": 0,
+  "total_trades": 233,
+  "last_tick": "2026-06-13T09:37:42.082124+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -319,41 +319,6 @@
       "unrealized_pnl_usd": 168.01
     },
     {
-      "id": "XRP-USD_20260611213418",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.1398999691009521,
-      "entry_time": "2026-06-11T21:34:18.338600+00:00",
-      "stop_loss_pct": 0.00982,
-      "take_profit_pct": 0.02355,
-      "size_usd": 4965.12,
-      "position_size_pct": 0.0508,
-      "confidence": 0.794,
-      "signals": [
-        "RSI overbought (65.3)",
-        "5d momentum +2.98%",
-        "1d momentum +4.42%",
-        "BB overbought (pct_b=0.94)",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade"
-      ],
-      "news_sentiment": -0.054,
-      "news_headlines": [
-        "Ripple CEO Takes Aim at JPMorgan's Jamie Dimon Over Clarity Act Crypto Bill Criticism",
-        "Ripple CEO sends harsh message to JPMorgan\u2019s Dimon",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000"
-      ],
-      "mode": "paper",
-      "strategy_version": "20",
-      "status": "open",
-      "price_trough": 1.1287000179290771,
-      "trailing_stop_price": 1.139784,
-      "current_price": 1.1316,
-      "unrealized_pnl_pct": 0.007281,
-      "unrealized_pnl_usd": 36.15
-    },
-    {
       "id": "INTC_20260612163524",
       "asset": "INTC",
       "trade_type": "day",
@@ -483,9 +448,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "current_price": 0.08609,
-      "unrealized_pnl_pct": -0.007036,
-      "unrealized_pnl_usd": -20.38
+      "price_peak": 0.08719000220298767,
+      "trailing_stop_price": 0.086182,
+      "current_price": 0.08719,
+      "unrealized_pnl_pct": 0.005652,
+      "unrealized_pnl_usd": 16.37
     },
     {
       "id": "ETH-USD_20260613061550",
@@ -516,9 +483,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "current_price": 1663.310059,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 1672.81005859375,
+      "trailing_stop_price": 1666.403196,
+      "current_price": 1672.810059,
+      "unrealized_pnl_pct": 0.005712,
+      "unrealized_pnl_usd": 34.36
     },
     {
       "id": "BNB-USD_20260613061550",
@@ -549,9 +518,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "current_price": 600.200012,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 603.239990234375,
+      "trailing_stop_price": 600.82703,
+      "current_price": 603.23999,
+      "unrealized_pnl_pct": 0.005065,
+      "unrealized_pnl_usd": 32.19
     },
     {
       "id": "SOL-USD_20260613061550",
@@ -581,9 +552,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "current_price": 66.660004,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 67.31999969482422,
+      "trailing_stop_price": 66.94974,
+      "current_price": 67.32,
+      "unrealized_pnl_pct": 0.009901,
+      "unrealized_pnl_usd": 40.94
     },
     {
       "id": "BTC-USD_20260613061550",
@@ -613,9 +586,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "current_price": 63528.851562,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 63764.9296875,
+      "trailing_stop_price": 63580.649041,
+      "current_price": 63764.929688,
+      "unrealized_pnl_pct": 0.003716,
+      "unrealized_pnl_usd": 6.62
     }
   ],
   "last_candidates": [
@@ -810,7 +785,7 @@
     },
     {
       "asset": "ARM",
-      "rank_score": 0.5401,
+      "rank_score": 0.5472,
       "price": 380.4700012207031,
       "rsi": 82.88951629818267,
       "momentum_5d": 0.0003812239769099113,
@@ -820,12 +795,12 @@
       "bollinger_pct_b": 0.8448,
       "volume_spike": false,
       "volume_spike_ratio": 1.26,
-      "news_sentiment": 0.304,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.412,
+      "news_confidence": 0.51,
       "news_headlines": [
+        "Arm Holdings (ARM) Gets BofA Backing, 37% PT Upgrade, Climbs 11%",
         "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
-        "Billionaire Brad Gerstner Dumped All of His Alphabet Then Bought 2 Stocks Nobody Expected",
-        "Arm Rockets 11%, Qualcomm Rises 5%: Who\u2019s Winning the Chip-Architecture Race?"
+        "Billionaire Brad Gerstner Dumped All of His Alphabet Then Bought 2 Stocks Nobody Expected"
       ],
       "high_impact_news": true
     },
@@ -936,7 +911,7 @@
     },
     {
       "asset": "JPM",
-      "rank_score": 0.5214,
+      "rank_score": 0.5264,
       "price": 320.7099914550781,
       "rsi": 80.65010443575412,
       "momentum_5d": -0.0013079233374273054,
@@ -946,12 +921,12 @@
       "bollinger_pct_b": 0.8698,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.52,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.585,
+      "news_confidence": 0.53,
       "news_headlines": [
         "SpaceX IPO afterparty set to light up JPMorgan HQ",
-        "JPMorgan Chase Is Eyeing 7% Net Interest Income Growth. Why That Goal Just Got Easier to Believe.",
-        "As SpaceX Makes Musk Trillionaire, Some Dissent on NYC\u2019s Streets"
+        "JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach",
+        "JPMorgan Chase Is Eyeing 7% Net Interest Income Growth. Why That Goal Just Got Easier to Believe."
       ],
       "high_impact_news": true
     },
@@ -973,27 +948,6 @@
         "Lam Research and Applied Materials Shares Skyrocket, What You Need To Know",
         "Top Analyst Reports for Costco, Lam Research & KLA",
         "Q1 Earnings Outperformers: Lam Research (NASDAQ:LRCX) And The Rest Of The Semiconductor Manufacturing Stocks"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "INTC",
-      "rank_score": 0.5179,
-      "price": 124.54000091552734,
-      "rsi": 79.9248938162037,
-      "momentum_5d": 0.01200610190372651,
-      "momentum_1d": 0.1942846410950742,
-      "macd_crossover": false,
-      "atr_pct": 0.030232733637909927,
-      "bollinger_pct_b": 0.8039,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.53,
-      "news_sentiment": 0.535,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
-        "Meet the Medtech Stock Wall Street Thinks Will Soar 65% Over the Next 12 Months",
-        "Why SpaceX Stock Soared Today"
       ],
       "high_impact_news": true
     },
@@ -1036,6 +990,27 @@
         "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
         "SpaceX Launches. The Future Remains Murky.",
         "Sector Update: Tech Stocks Rise Late Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HOOD",
+      "rank_score": 0.5132,
+      "price": 93.16230010986328,
+      "rsi": 73.16144760310218,
+      "momentum_5d": -0.023865279476929235,
+      "momentum_1d": 0.13834682647377647,
+      "macd_crossover": false,
+      "atr_pct": 0.024540886149166375,
+      "bollinger_pct_b": 0.7289,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.5,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Robinhood Insider Buys $35 Million in Stock. There\u2019s a Catch.",
+        "Robinhood Markets, Inc. (HOOD) Laps the Stock Market: Here's Why",
+        "Stocks making big moves this week: DraftKings, Intel, Brinker International, FuelCell Energy, and Robinhood"
       ],
       "high_impact_news": true
     }
