@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100405.11,
+  "portfolio_balance": 100363.18,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 0.09,
-  "unrealized_pnl_usd": 500.11,
-  "equity_value": 100905.22,
+  "portfolio_drawdown_pct": 0.13,
+  "unrealized_pnl_usd": 485.9,
+  "equity_value": 100849.08,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40162.05,
+  "day_capital_used_usd": 40145.27,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 238,
-  "last_tick": "2026-06-13T17:58:29.587460+00:00",
+  "total_trades": 239,
+  "last_tick": "2026-06-13T19:41:56.269394+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 7,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -450,9 +450,9 @@
       "status": "open",
       "price_peak": 0.08842000365257263,
       "trailing_stop_price": 0.087398,
-      "current_price": 0.08753,
-      "unrealized_pnl_pct": 0.009573,
-      "unrealized_pnl_usd": 27.73
+      "current_price": 0.08779,
+      "unrealized_pnl_pct": 0.012572,
+      "unrealized_pnl_usd": 36.41
     },
     {
       "id": "ETH-USD_20260613061550",
@@ -483,45 +483,11 @@
       "mode": "paper",
       "strategy_version": "21",
       "status": "open",
-      "price_peak": 1678.5400390625,
-      "trailing_stop_price": 1672.111231,
-      "current_price": 1673.040039,
-      "unrealized_pnl_pct": 0.00585,
-      "unrealized_pnl_usd": 35.19
-    },
-    {
-      "id": "AVAX-USD_20260613113126",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 6.670000076293945,
-      "entry_time": "2026-06-13T11:31:26.163350+00:00",
-      "stop_loss_pct": 0.00576,
-      "take_profit_pct": 0.01402,
-      "size_usd": 5593.05,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (76.2)",
-        "5d momentum +0.60%",
-        "1d momentum +0.60%",
-        "BB overbought (pct_b=0.97)",
-        "Volume spike 1.9\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price decline"
-      ],
-      "news_sentiment": 0.312,
-      "news_headlines": [
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-        "Study finds most AI crypto trading agents aren't really trading"
-      ],
-      "mode": "paper",
-      "strategy_version": "22",
-      "status": "open",
-      "current_price": 6.69,
-      "unrealized_pnl_pct": -0.002998,
-      "unrealized_pnl_usd": -16.77
+      "price_peak": 1678.989990234375,
+      "trailing_stop_price": 1672.559459,
+      "current_price": 1678.880005,
+      "unrealized_pnl_pct": 0.009361,
+      "unrealized_pnl_usd": 56.31
     },
     {
       "id": "BTC-USD_20260613130948",
@@ -552,11 +518,9 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "price_trough": 63940.66015625,
-      "trailing_stop_price": 64119.694005,
-      "current_price": 63934.78125,
-      "unrealized_pnl_pct": 0.002724,
-      "unrealized_pnl_usd": 15.31
+      "current_price": 64255.589844,
+      "unrealized_pnl_pct": -0.00228,
+      "unrealized_pnl_usd": -12.81
     },
     {
       "id": "XRP-USD_20260613130948",
@@ -586,11 +550,11 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "price_trough": 1.1437000036239624,
-      "trailing_stop_price": 1.148492,
-      "current_price": 1.1437,
-      "unrealized_pnl_pct": 0.008582,
-      "unrealized_pnl_usd": 3.94
+      "price_trough": 1.1476000547409058,
+      "trailing_stop_price": 1.152408,
+      "current_price": 1.1475,
+      "unrealized_pnl_pct": 0.005288,
+      "unrealized_pnl_usd": 2.43
     },
     {
       "id": "SOL-USD_20260613150824",
@@ -621,11 +585,44 @@
       "mode": "paper",
       "strategy_version": "22",
       "status": "open",
-      "price_trough": 67.88999938964844,
-      "trailing_stop_price": 68.264073,
-      "current_price": 67.889999,
-      "unrealized_pnl_pct": 0.006294,
-      "unrealized_pnl_usd": 35.26
+      "price_trough": 68.2699966430664,
+      "trailing_stop_price": 68.646164,
+      "current_price": 68.269997,
+      "unrealized_pnl_pct": 0.000732,
+      "unrealized_pnl_usd": 4.1
+    },
+    {
+      "id": "AVAX-USD_20260613194156",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 6.71999979019165,
+      "entry_time": "2026-06-13T19:41:56.265961+00:00",
+      "stop_loss_pct": 0.00594,
+      "take_profit_pct": 0.01449,
+      "size_usd": 5576.27,
+      "position_size_pct": 0.0556,
+      "confidence": 0.877,
+      "signals": [
+        "RSI overbought (69.7)",
+        "5d momentum +0.45%",
+        "1d momentum +2.13%",
+        "Volume spike 5.8\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: analyst upgrade; price decline"
+      ],
+      "news_sentiment": 0.312,
+      "news_headlines": [
+        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+        "Study finds most AI crypto trading agents aren't really trading"
+      ],
+      "mode": "paper",
+      "strategy_version": "22",
+      "status": "open",
+      "current_price": 6.72,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -652,7 +649,7 @@
     },
     {
       "asset": "KLAC",
-      "rank_score": 0.7306,
+      "rank_score": 0.7356,
       "price": 254.5399932861328,
       "rsi": 92.5492924736059,
       "momentum_5d": 0.018254440109189817,
@@ -662,8 +659,8 @@
       "bollinger_pct_b": 0.8368,
       "volume_spike": true,
       "volume_spike_ratio": 2.95,
-      "news_sentiment": 0.351,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.45,
+      "news_confidence": 0.4,
       "news_headlines": [
         "KLA Corporation, Amkor, and Teradyne Shares Skyrocket, What You Need To Know",
         "KLA (KLAC) Stock Dips While Market Gains: Key Facts",
@@ -673,7 +670,7 @@
     },
     {
       "asset": "TGT",
-      "rank_score": 0.6515,
+      "rank_score": 0.6585,
       "price": 135.22000122070312,
       "rsi": 89.45651371673233,
       "momentum_5d": -0.0023608682402260833,
@@ -683,12 +680,12 @@
       "bollinger_pct_b": 0.7829,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
       "news_headlines": [
+        "Target (TGT) Q1 FY2026 Sales Rise 6.7% to $25.4B on Strong Digital and Traffic Growth",
         "Big name takes on Coke and Pepsi with Target-exclusive soda",
-        "Sector Update: Consumer Stocks Mixed Late Afternoon",
-        "How Is Dollar Tree's Stock Performance Compared to Other Consumer Defensive Stocks?"
+        "Sector Update: Consumer Stocks Mixed Late Afternoon"
       ],
       "high_impact_news": true
     },
@@ -736,7 +733,7 @@
     },
     {
       "asset": "MRNA",
-      "rank_score": 0.5796,
+      "rank_score": 0.5786,
       "price": 49.93000030517578,
       "rsi": 75.55265967156906,
       "momentum_5d": -0.023278533872714027,
@@ -746,12 +743,33 @@
       "bollinger_pct_b": 0.6848,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.091,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.074,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "Arbutus Biopharma Corporation (ABUS) Reports Q1 2026 Results",
         "Moderna (MRNA) Stock Looks Slightly Overvalued After Recent Rebound In Mixed Return Picture",
-        "Parabilis Soared 58% in the Biggest Biotech IPO on Record. Is It Too Late to Buy the Stock?",
-        "How to Play PBLS Stock After the Parabilis IPO"
+        "Parabilis Soared 58% in the Biggest Biotech IPO on Record. Is It Too Late to Buy the Stock?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5624,
+      "price": 64255.58984375,
+      "rsi": 71.91072943017596,
+      "momentum_5d": 0.001195084832459271,
+      "momentum_1d": 0.011039581940032645,
+      "macd_crossover": false,
+      "atr_pct": 0.0031341726739883675,
+      "bollinger_pct_b": 0.9088,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.79,
+      "news_sentiment": 0.778,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Prediction: Bitcoin Will Hit $100,000 By the End of 2026",
+        "Core Scientific Board Shift And Texas AI Build Reframe Growth Story",
+        "Bitcoin ETFs Post Biggest Inflow In 4 Weeks on SpaceX IPO Day"
       ],
       "high_impact_news": true
     },
@@ -862,7 +880,7 @@
     },
     {
       "asset": "TSLA",
-      "rank_score": 0.5345,
+      "rank_score": 0.5307,
       "price": 406.44500732421875,
       "rsi": 75.31893543354926,
       "momentum_5d": 0.01644923573162435,
@@ -872,12 +890,33 @@
       "bollinger_pct_b": 0.9589,
       "volume_spike": false,
       "volume_spike_ratio": 0.9,
-      "news_sentiment": 0.295,
-      "news_confidence": 0.3,
+      "news_sentiment": 0.217,
+      "news_confidence": 0.23,
       "news_headlines": [
         "Elon Musk becomes world's first trillionaire",
         "Tesla stock gains after SpaceX's historic debut",
-        "Cathie Wood Buys 3.3 Million SpaceX Shares On IPO Day"
+        "Former Tesla board member issues candid message on SpaceX stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.5303,
+      "price": 211.6699981689453,
+      "rsi": 88.10484942284491,
+      "momentum_5d": -0.00875711892845197,
+      "momentum_1d": 0.06238703238847142,
+      "macd_crossover": false,
+      "atr_pct": 0.019618741898830467,
+      "bollinger_pct_b": 0.7968,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
+        "Why Qualcomm (QCOM) Stock Is Trading Up Today"
       ],
       "high_impact_news": true
     },
@@ -903,50 +942,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "QCOM",
-      "rank_score": 0.5253,
-      "price": 211.6699981689453,
-      "rsi": 88.10484942284491,
-      "momentum_5d": -0.00875711892845197,
-      "momentum_1d": 0.06238703238847142,
-      "macd_crossover": false,
-      "atr_pct": 0.019618741898830467,
-      "bollinger_pct_b": 0.7968,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.348,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "SpaceX stock gains, space companies fall, chips mixed on IPO news",
-        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
-        "Why Qualcomm (QCOM) Stock Is Trading Up Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.5227,
-      "price": 511.1199951171875,
-      "rsi": 80.7366611054082,
-      "momentum_5d": -0.0073688213252261995,
-      "momentum_1d": 0.1154221258818681,
-      "macd_crossover": false,
-      "atr_pct": 0.023151569627288475,
-      "bollinger_pct_b": 0.7823,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.878,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Is Advanced Micro Devices, Inc. (AMD) A Good Stock To Buy Now?",
-        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
-        "Should You Look for the \u201cNext Nvidia\u201d \u2014 or Just Buy the Real Thing?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "JPM",
-      "rank_score": 0.5224,
+      "rank_score": 0.5244,
       "price": 320.7099914550781,
       "rsi": 80.65010443575412,
       "momentum_5d": -0.0013079233374273054,
@@ -956,12 +953,33 @@
       "bollinger_pct_b": 0.8698,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.617,
+      "news_confidence": 0.47,
       "news_headlines": [
         "SpaceX IPO afterparty set to light up JPMorgan HQ",
-        "CNBC anchor stunned by $107B US trade deficit drop: \u2018Buckle up, this is unreal!\u2019 Are Trump\u2019s tariffs a triumph?",
-        "JPMorgan Backs Bezos AI Startup Prometheus To Expand Industrial AI Reach"
+        "JPMorgan Chase & Co. (JPM) CEO Marianne Lake Expects 2026 Loan Growth To Exceed The Industry Average",
+        "CNBC anchor stunned by $107B US trade deficit drop: \u2018Buckle up, this is unreal!\u2019 Are Trump\u2019s tariffs a triumph?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.5217,
+      "price": 511.1199951171875,
+      "rsi": 80.7366611054082,
+      "momentum_5d": -0.0073688213252261995,
+      "momentum_1d": 0.1154221258818681,
+      "macd_crossover": false,
+      "atr_pct": 0.023151569627288475,
+      "bollinger_pct_b": 0.7823,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.875,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Is Advanced Micro Devices, Inc. (AMD) A Good Stock To Buy Now?",
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding",
+        "Should You Look for the \u201cNext Nvidia\u201d \u2014 or Just Buy the Real Thing?"
       ],
       "high_impact_news": true
     },
@@ -987,29 +1005,29 @@
       "high_impact_news": true
     },
     {
-      "asset": "BIIB",
-      "rank_score": 0.5165,
-      "price": 200.16000366210938,
-      "rsi": 71.27702410214725,
-      "momentum_5d": -0.010871698663800302,
-      "momentum_1d": 0.01955988281698128,
+      "asset": "AVAX-USD",
+      "rank_score": 0.5183,
+      "price": 6.71999979019165,
+      "rsi": 69.69694780358321,
+      "momentum_5d": 0.004484264979760793,
+      "momentum_1d": 0.02127657570043611,
       "macd_crossover": false,
-      "atr_pct": 0.009238819146260138,
-      "bollinger_pct_b": 0.6509,
+      "atr_pct": 0.006058685620025223,
+      "bollinger_pct_b": 0.8317,
       "volume_spike": true,
-      "volume_spike_ratio": 1.95,
-      "news_sentiment": 0.652,
-      "news_confidence": 0.46,
+      "volume_spike_ratio": 5.8,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
       "news_headlines": [
-        "What Makes Denali Therapeutics (DNLI) One of the Best AI Driven Biotech Names",
-        "1 Cash-Producing Stock with Impressive Fundamentals and 2 We Find Risky",
-        "How Is Biogen\u2019s Stock Performance Compared to Other Biotech Stocks?"
+        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+        "Study finds most AI crypto trading agents aren't really trading"
       ],
       "high_impact_news": true
     },
     {
       "asset": "XLK",
-      "rank_score": 0.5161,
+      "rank_score": 0.5181,
       "price": 184.80999755859375,
       "rsi": 81.03057680210773,
       "momentum_5d": -0.004953417272969334,
@@ -1019,33 +1037,12 @@
       "bollinger_pct_b": 0.7809,
       "volume_spike": false,
       "volume_spike_ratio": 0.55,
-      "news_sentiment": 0.875,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.88,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?",
         "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
-        "SpaceX Launches. The Future Remains Murky.",
-        "Sector Update: Tech Stocks Rise Late Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HOOD",
-      "rank_score": 0.5132,
-      "price": 93.16230010986328,
-      "rsi": 73.16144760310218,
-      "momentum_5d": -0.023865279476929235,
-      "momentum_1d": 0.13834682647377647,
-      "macd_crossover": false,
-      "atr_pct": 0.024540886149166375,
-      "bollinger_pct_b": 0.7289,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.5,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Robinhood Insider Buys $35 Million in Stock. There\u2019s a Catch.",
-        "Robinhood Markets, Inc. (HOOD) Laps the Stock Market: Here's Why",
-        "Stocks making big moves this week: DraftKings, Intel, Brinker International, FuelCell Energy, and Robinhood"
+        "SpaceX Launches. The Future Remains Murky."
       ],
       "high_impact_news": true
     }
