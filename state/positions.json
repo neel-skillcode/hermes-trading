@@ -364,39 +364,6 @@
     "strategy_version": "20",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260613215633",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 69.33999633789062,
-    "entry_time": "2026-06-13T21:56:33.246851+00:00",
-    "stop_loss_pct": 0.00691,
-    "take_profit_pct": 0.0171,
-    "size_usd": 6100.35,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (80.2)",
-      "5d momentum +1.90%",
-      "1d momentum +4.21%",
-      "BB overbought (pct_b=1.11)",
-      "Volume spike 132.0\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.696,
-    "news_headlines": [
-      "Now Trading at Its Lowest Level Since December 2023, Is Solana a Buy, Sell, or Hold?",
-      "Is Cardano Too Risky to Own -- or Too Cheap to Ignore?",
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-    ],
-    "mode": "paper",
-    "strategy_version": "22",
-    "status": "open",
-    "price_trough": 68.26000213623047,
-    "trailing_stop_price": 68.731679
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260613215633",
     "asset": "ETH-USD",
@@ -428,8 +395,8 @@
     "mode": "paper",
     "strategy_version": "22",
     "status": "open",
-    "price_trough": 1675.9000244140625,
-    "trailing_stop_price": 1682.335481
+    "price_trough": 1672.989990234375,
+    "trailing_stop_price": 1679.414272
   },
   "BTC-USD": {
     "id": "BTC-USD_20260613230223",
@@ -517,6 +484,66 @@
       "Hyperliquid Emerges As 'Superior' Alternative After SpaceX IPO Lockup Chaos",
       "SIREN Token Crashes 75% as Whale Triggers a Massive Sell-Off",
       "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+    ],
+    "mode": "paper",
+    "strategy_version": "23",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260614111855",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08715000003576279,
+    "entry_time": "2026-06-14T11:18:55.299233+00:00",
+    "stop_loss_pct": 0.00487,
+    "take_profit_pct": 0.01201,
+    "size_usd": 6002.32,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (30.4)",
+      "5d momentum -0.34%",
+      "1d momentum -0.84%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.409,
+    "news_headlines": [
+      "Robert Reich Calls Elon Musk's SpaceX IPO 'The Universe's Largest Ponzi Scheme'",
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level",
+      "Bitcoin, Ethereum, XRP, Dogecoin Jump After Trump Sparks Optimism On Iran Deal: Analyst Says SpaceX IPO Would Be 'Tricky' For The Markets"
+    ],
+    "mode": "paper",
+    "strategy_version": "23",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260614111855",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.1424000263214111,
+    "entry_time": "2026-06-14T11:18:55.301361+00:00",
+    "stop_loss_pct": 0.00447,
+    "take_profit_pct": 0.01103,
+    "size_usd": 4963.86,
+    "position_size_pct": 0.0494,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (31.6)",
+      "5d momentum -0.32%",
+      "1d momentum -0.48%",
+      "BB oversold (pct_b=0.08)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.407,
+    "news_headlines": [
+      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?",
+      "Clarity Act Stablecoin Yield Clause: The $20B Bank vs Crypto Exchange Battle",
+      "If CLARITY Clears the Senate by August, Where Does XRP Trade by Q4?"
     ],
     "mode": "paper",
     "strategy_version": "23",
