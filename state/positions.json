@@ -364,98 +364,6 @@
     "strategy_version": "20",
     "status": "open"
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260613230223",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 64429.33984375,
-    "entry_time": "2026-06-13T23:02:23.957308+00:00",
-    "stop_loss_pct": 0.00312,
-    "take_profit_pct": 0.00748,
-    "size_usd": 5098.19,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (74.7)",
-      "5d momentum +0.48%",
-      "1d momentum +1.40%",
-      "BB overbought (pct_b=0.87)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.676,
-    "news_headlines": [
-      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?",
-      "These Are the Only 2 Cryptocurrencies I'm Comfortable Buying Right Now",
-      "Fintech Stock Block Is Trying to Prove That the Ultimate Cryptocurrency Has a Real Use Case, But Will It Work?"
-    ],
-    "mode": "paper",
-    "strategy_version": "23",
-    "status": "open",
-    "price_trough": 64079.19140625,
-    "trailing_stop_price": 64279.118483
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260614130910",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1667.1199951171875,
-    "entry_time": "2026-06-14T13:09:10.590808+00:00",
-    "stop_loss_pct": 0.00338,
-    "take_profit_pct": 0.00833,
-    "size_usd": 65.99,
-    "position_size_pct": 0.0007,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (28.8)",
-      "5d momentum -0.44%",
-      "1d momentum -0.59%",
-      "BB oversold (pct_b=-0.00)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.5,
-    "news_headlines": [
-      "Tether USDT Briefly Overtakes Ethereum in Market Cap: A $187B Wake-Up Call",
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-      "4 AI Models Reveal SOL Price Predictions for 2026 \u2014 One Calls for a Massive Surge"
-    ],
-    "mode": "paper",
-    "strategy_version": "23",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260614151725",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.53000020980835,
-    "entry_time": "2026-06-14T15:17:25.172539+00:00",
-    "stop_loss_pct": 0.00551,
-    "take_profit_pct": 0.0136,
-    "size_usd": 5996.56,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (15.4)",
-      "5d momentum -1.80%",
-      "1d momentum -3.40%",
-      "BB oversold (pct_b=-0.03)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.312,
-    "news_headlines": [
-      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-      "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-      "Study finds most AI crypto trading agents aren't really trading"
-    ],
-    "mode": "paper",
-    "strategy_version": "23",
-    "status": "open"
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260614151725",
     "asset": "DOGE-USD",
@@ -484,7 +392,9 @@
     ],
     "mode": "paper",
     "strategy_version": "23",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.08629000186920166,
+    "trailing_stop_price": 0.085812
   },
   "SOL-USD": {
     "id": "SOL-USD_20260614151725",
@@ -544,6 +454,66 @@
     ],
     "mode": "paper",
     "strategy_version": "23",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260614180414",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.460000038146973,
+    "entry_time": "2026-06-14T18:04:14.184696+00:00",
+    "stop_loss_pct": 0.00569,
+    "take_profit_pct": 0.01403,
+    "size_usd": 5996.15,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (11.1)",
+      "5d momentum -1.67%",
+      "1d momentum -3.58%",
+      "BB oversold (pct_b=-0.01)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.312,
+    "news_headlines": [
+      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+      "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+      "Study finds most AI crypto trading agents aren't really trading"
+    ],
+    "mode": "paper",
+    "strategy_version": "24",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260614180414",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 63707.7890625,
+    "entry_time": "2026-06-14T18:04:14.186989+00:00",
+    "stop_loss_pct": 0.00359,
+    "take_profit_pct": 0.00897,
+    "size_usd": 5161.81,
+    "position_size_pct": 0.0515,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (29.6)",
+      "5d momentum -0.90%",
+      "1d momentum -0.65%",
+      "BB oversold (pct_b=-0.03)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; fed dovish"
+    ],
+    "news_sentiment": 0.217,
+    "news_headlines": [
+      "Is Bitcoin the Safest Crypto to Own Right Now?",
+      "Charles Hoskinson Tries to Close Cardano\u2019s $70 Million Bitcoin Mystery",
+      "Bitcoin is Falling, But $273 Billion in Stablecoins Isn\u2019t Leaving"
+    ],
+    "mode": "paper",
+    "strategy_version": "24",
     "status": "open"
   }
 }
