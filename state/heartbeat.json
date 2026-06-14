@@ -3,15 +3,15 @@
   "portfolio_balance": 100310.28,
   "portfolio_peak": 100492.05,
   "portfolio_drawdown_pct": 0.18,
-  "unrealized_pnl_usd": 414.48,
-  "equity_value": 100724.76,
+  "unrealized_pnl_usd": 405.31,
+  "equity_value": 100715.59,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40124.11,
   "swing_capital_used_usd": 40586.9,
   "total_trades": 257,
-  "last_tick": "2026-06-14T18:04:14.190305+00:00",
+  "last_tick": "2026-06-14T19:53:20.611940+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 3,
   "universe_scanned": 110,
@@ -450,11 +450,11 @@
       "mode": "paper",
       "strategy_version": "23",
       "status": "open",
-      "price_peak": 0.08629000186920166,
-      "trailing_stop_price": 0.085812,
-      "current_price": 0.08629,
-      "unrealized_pnl_pct": 0.002556,
-      "unrealized_pnl_usd": 15.33
+      "price_peak": 0.08639000356197357,
+      "trailing_stop_price": 0.085911,
+      "current_price": 0.0864,
+      "unrealized_pnl_pct": 0.003834,
+      "unrealized_pnl_usd": 22.99
     },
     {
       "id": "SOL-USD_20260614151725",
@@ -485,9 +485,11 @@
       "mode": "paper",
       "strategy_version": "23",
       "status": "open",
-      "current_price": 67.379997,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 67.52999877929688,
+      "trailing_stop_price": 67.126845,
+      "current_price": 67.529999,
+      "unrealized_pnl_pct": 0.002226,
+      "unrealized_pnl_usd": 12.49
     },
     {
       "id": "XRP-USD_20260614151725",
@@ -518,9 +520,9 @@
       "mode": "paper",
       "strategy_version": "23",
       "status": "open",
-      "current_price": 1.1331,
-      "unrealized_pnl_pct": -8.8e-05,
-      "unrealized_pnl_usd": -0.3
+      "current_price": 1.132,
+      "unrealized_pnl_pct": -0.001059,
+      "unrealized_pnl_usd": -3.58
     },
     {
       "id": "AVAX-USD_20260614180414",
@@ -551,9 +553,9 @@
       "mode": "paper",
       "strategy_version": "24",
       "status": "open",
-      "current_price": 6.46,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 6.43,
+      "unrealized_pnl_pct": -0.004644,
+      "unrealized_pnl_usd": -27.85
     },
     {
       "id": "BTC-USD_20260614180414",
@@ -584,9 +586,11 @@
       "mode": "paper",
       "strategy_version": "24",
       "status": "open",
-      "current_price": 63707.789062,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 63727.98828125,
+      "trailing_stop_price": 63499.204803,
+      "current_price": 63730.0,
+      "unrealized_pnl_pct": 0.000349,
+      "unrealized_pnl_usd": 1.8
     }
   ],
   "last_candidates": [
@@ -629,6 +633,27 @@
         "KLA (KLAC) Stock After Split And Strong AI Outlook Is The Valuation Still Attractive",
         "KLA Corporation, Amkor, and Teradyne Shares Skyrocket, What You Need To Know",
         "KLA (KLAC) Stock Dips While Market Gains: Key Facts"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.7263,
+      "price": 6.429999828338623,
+      "rsi": 16.666644590880495,
+      "momentum_5d": -0.0138037044250269,
+      "momentum_1d": -0.043154757575484495,
+      "macd_crossover": false,
+      "atr_pct": 0.007109529921924455,
+      "bollinger_pct_b": 0.0291,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.97,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+        "Study finds most AI crypto trading agents aren't really trading"
       ],
       "high_impact_news": true
     },
@@ -696,27 +721,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5943,
-      "price": 6.460000038146973,
-      "rsi": 11.111169979796259,
-      "momentum_5d": -0.01674279005179816,
-      "momentum_1d": -0.035820862380664384,
-      "macd_crossover": false,
-      "atr_pct": 0.005639100241820339,
-      "bollinger_pct_b": -0.0091,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.04,
-      "news_sentiment": 0.312,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-        "Study finds most AI crypto trading agents aren't really trading"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRNA",
       "rank_score": 0.5786,
       "price": 49.93000030517578,
@@ -734,6 +738,27 @@
         "Arbutus Biopharma Corporation (ABUS) Reports Q1 2026 Results",
         "Moderna (MRNA) Stock Looks Slightly Overvalued After Recent Rebound In Mixed Return Picture",
         "Parabilis Soared 58% in the Biggest Biotech IPO on Record. Is It Too Late to Buy the Stock?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.5658,
+      "price": 602.72998046875,
+      "rsi": 31.673570161861377,
+      "momentum_5d": -0.004558307833555839,
+      "momentum_1d": -0.009254397097729893,
+      "macd_crossover": false,
+      "atr_pct": 0.004075513176711662,
+      "bollinger_pct_b": -0.0551,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.37,
+      "news_sentiment": 0.189,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Hyperliquid Emerges As 'Superior' Alternative After SpaceX IPO Lockup Chaos",
+        "SIREN Token Crashes 75% as Whale Triggers a Massive Sell-Off",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
       ],
       "high_impact_news": true
     },
@@ -760,7 +785,7 @@
     },
     {
       "asset": "GS",
-      "rank_score": 0.5553,
+      "rank_score": 0.5563,
       "price": 1062.760009765625,
       "rsi": 79.30774650643912,
       "momentum_5d": -0.009081575976107226,
@@ -770,12 +795,12 @@
       "bollinger_pct_b": 0.8094,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.596,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.604,
+      "news_confidence": 0.48,
       "news_headlines": [
         "Best CD rates today, Sunday, June 14, 2026: Lock in up to 4% APY",
         "Goldman Sachs doubles down on Novo stock target after key event",
-        "Do Goldman Sachs Group's (NYSE:GS) Earnings Warrant Your Attention?"
+        "A $1.24 Trillion Reason to Buy Dell Stock Now"
       ],
       "high_impact_news": true
     },
@@ -822,29 +847,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "TSLA",
-      "rank_score": 0.5387,
-      "price": 406.44500732421875,
-      "rsi": 75.31893543354926,
-      "momentum_5d": 0.01644923573162435,
-      "momentum_1d": 0.03502764215359647,
-      "macd_crossover": false,
-      "atr_pct": 0.016529931277622253,
-      "bollinger_pct_b": 0.9589,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.9,
-      "news_sentiment": 0.448,
-      "news_confidence": 0.29,
-      "news_headlines": [
-        "Car owners caught in government fight that could cost them big",
-        "Elon Musk Is A Stone's Throw Away From Becoming The World's First Trillionaire As SpaceX IPO Sends His Net Worth Soaring",
-        "Elon Musk's $1 trillion fortune is so vast that Jeff Bezos is now closer in wealth to the average American"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "JPM",
-      "rank_score": 0.5374,
+      "rank_score": 0.5354,
       "price": 320.7099914550781,
       "rsi": 80.65010443575412,
       "momentum_5d": -0.0013079233374273054,
@@ -854,12 +858,12 @@
       "bollinger_pct_b": 0.8698,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.656,
-      "news_confidence": 0.64,
+      "news_sentiment": 0.645,
+      "news_confidence": 0.62,
       "news_headlines": [
+        "Lumentum (LITE): JPMorgan Pushback Helps Keep the AI Optical Networking Case Intact",
         "Top investment bank resets Adobe target as AI strategy backfires",
-        "Charlie Javice Has Been Seeking a Pardon From Trump After Defrauding JPMorgan",
-        "Why Cheesecake Factory (CAKE) Is Up 13.8% After Q1 Beat And JPMorgan Upgrade - And What's Next"
+        "Charlie Javice Has Been Seeking a Pardon From Trump After Defrauding JPMorgan"
       ],
       "high_impact_news": true
     },
@@ -885,6 +889,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "INTC",
+      "rank_score": 0.5329,
+      "price": 124.54000091552734,
+      "rsi": 79.9248938162037,
+      "momentum_5d": 0.01200610190372651,
+      "momentum_1d": 0.1942846410950742,
+      "macd_crossover": false,
+      "atr_pct": 0.030232733637909927,
+      "bollinger_pct_b": 0.8039,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.53,
+      "news_sentiment": 0.864,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Best Altcoins to Buy in 2026",
+        "Jim Cramer Says Intel (INTC) Is An Alternative To TSMC",
+        "3 AI Stocks Poised for Long-Term Gains Despite Strong Year-to-Date Performance"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "QCOM",
       "rank_score": 0.5303,
       "price": 211.6699981689453,
@@ -906,27 +931,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "INTC",
-      "rank_score": 0.5279,
-      "price": 124.54000091552734,
-      "rsi": 79.9248938162037,
-      "momentum_5d": 0.01200610190372651,
-      "momentum_1d": 0.1942846410950742,
-      "macd_crossover": false,
-      "atr_pct": 0.030232733637909927,
-      "bollinger_pct_b": 0.8039,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.53,
-      "news_sentiment": 0.805,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "3 Top Consumer Stocks Building Durable Growth",
-        "Meet the E-Commerce Stock That's Up 25% in 2026. Is It a Better Buy Than Amazon?",
-        "NASA Hires Firefly Aerospace to Build a Drone Aircraft Carrier -- to the Moon"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "IWM",
       "rank_score": 0.527,
       "price": 292.95001220703125,
@@ -944,6 +948,27 @@
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of SpaceX Debut",
         "Sticky Inflation\u2019s Worst Nightmare: Why Small Value Stocks Are Secretly Printing Money",
         "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid US Attacks on Iran"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TSLA",
+      "rank_score": 0.5257,
+      "price": 406.44500732421875,
+      "rsi": 75.31893543354926,
+      "momentum_5d": 0.01644923573162435,
+      "momentum_1d": 0.03502764215359647,
+      "macd_crossover": false,
+      "atr_pct": 0.016529931277622253,
+      "bollinger_pct_b": 0.9589,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.9,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.2,
+      "news_headlines": [
+        "Will Elon Musk Merge SpaceX And Tesla In 2026? Crypto Prediction Market Isn't Ruling Out The Possibility",
+        "Car owners caught in government fight that could cost them big",
+        "Elon Musk Is A Stone's Throw Away From Becoming The World's First Trillionaire As SpaceX IPO Sends His Net Worth Soaring"
       ],
       "high_impact_news": true
     },
@@ -986,27 +1011,6 @@
         "Xbox fans waiting on Project Helix get unexpected news from Wedbush",
         "AMD Meta AI Chip Pact Puts Data Center Growth And Valuation In Focus",
         "Citi resets AMD stock price target on key move"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MU",
-      "rank_score": 0.5167,
-      "price": 980.7100219726562,
-      "rsi": 74.95656221548421,
-      "momentum_5d": -0.020489854042319986,
-      "momentum_1d": 0.09061697417114428,
-      "macd_crossover": false,
-      "atr_pct": 0.024151120645459406,
-      "bollinger_pct_b": 0.6988,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.43,
-      "news_sentiment": 0.882,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Wolfe Research Raises PT on Micron Technology (MU) Stock",
-        "Better AI Growth Buy Right Now: Nvidia vs Micron",
-        "Samsung, SK Hynix, and Micron Are Fighting for AI Memory Dominance. Here's How You Can Buy All Three for About $65."
       ],
       "high_impact_news": true
     }
