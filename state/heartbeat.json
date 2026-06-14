@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100438.22,
+  "portfolio_balance": 100317.23,
   "portfolio_peak": 100492.05,
-  "portfolio_drawdown_pct": 0.05,
-  "unrealized_pnl_usd": 383.42,
-  "equity_value": 100821.64,
+  "portfolio_drawdown_pct": 0.17,
+  "unrealized_pnl_usd": 427.47,
+  "equity_value": 100744.7,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40175.29,
+  "day_capital_used_usd": 40126.89,
   "swing_capital_used_usd": 40586.9,
-  "total_trades": 250,
-  "last_tick": "2026-06-14T13:09:10.592716+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "total_trades": 254,
+  "last_tick": "2026-06-14T15:17:25.845237+00:00",
+  "last_reflection": "2026-06-14",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -450,142 +450,11 @@
       "mode": "paper",
       "strategy_version": "23",
       "status": "open",
-      "price_trough": 64326.30859375,
-      "trailing_stop_price": 64527.006677,
-      "current_price": 64328.941406,
-      "unrealized_pnl_pct": 0.001558,
-      "unrealized_pnl_usd": 7.94
-    },
-    {
-      "id": "BNB-USD_20260614085038",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 610.7999877929688,
-      "entry_time": "2026-06-14T08:50:38.728144+00:00",
-      "stop_loss_pct": 0.00242,
-      "take_profit_pct": 0.0056,
-      "size_usd": 4063.53,
-      "position_size_pct": 0.0405,
-      "confidence": 0.633,
-      "signals": [
-        "RSI overbought (67.6)",
-        "1d momentum +1.18%",
-        "BB overbought (pct_b=0.95)",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge; price decline"
-      ],
-      "news_sentiment": 0.189,
-      "news_headlines": [
-        "Hyperliquid Emerges As 'Superior' Alternative After SpaceX IPO Lockup Chaos",
-        "SIREN Token Crashes 75% as Whale Triggers a Massive Sell-Off",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-      ],
-      "mode": "paper",
-      "strategy_version": "23",
-      "status": "open",
-      "current_price": 611.400024,
-      "unrealized_pnl_pct": -0.000982,
-      "unrealized_pnl_usd": -3.99
-    },
-    {
-      "id": "XRP-USD_20260614111855",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1.1424000263214111,
-      "entry_time": "2026-06-14T11:18:55.301361+00:00",
-      "stop_loss_pct": 0.00447,
-      "take_profit_pct": 0.01103,
-      "size_usd": 4963.86,
-      "position_size_pct": 0.0494,
-      "confidence": 0.934,
-      "signals": [
-        "RSI oversold (31.6)",
-        "5d momentum -0.32%",
-        "1d momentum -0.48%",
-        "BB oversold (pct_b=0.08)",
-        "High-impact catalyst",
-        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.407,
-      "news_headlines": [
-        "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?",
-        "Clarity Act Stablecoin Yield Clause: The $20B Bank vs Crypto Exchange Battle",
-        "If CLARITY Clears the Senate by August, Where Does XRP Trade by Q4?"
-      ],
-      "mode": "paper",
-      "strategy_version": "23",
-      "status": "open",
-      "current_price": 1.1378,
-      "unrealized_pnl_pct": -0.004027,
-      "unrealized_pnl_usd": -19.99
-    },
-    {
-      "id": "DOGE-USD_20260614130910",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.08658000081777573,
-      "entry_time": "2026-06-14T13:09:10.587028+00:00",
-      "stop_loss_pct": 0.00501,
-      "take_profit_pct": 0.01235,
-      "size_usd": 6003.8,
-      "position_size_pct": 0.0598,
-      "confidence": 0.934,
-      "signals": [
-        "RSI oversold (26.6)",
-        "5d momentum -0.65%",
-        "1d momentum -1.69%",
-        "BB oversold (pct_b=-0.01)",
-        "High-impact catalyst",
-        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.317,
-      "news_headlines": [
-        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-        "Robert Reich Calls Elon Musk's SpaceX IPO 'The Universe's Largest Ponzi Scheme'",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-      ],
-      "mode": "paper",
-      "strategy_version": "23",
-      "status": "open",
-      "current_price": 0.08658,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
-    },
-    {
-      "id": "AVAX-USD_20260614130910",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 6.610000133514404,
-      "entry_time": "2026-06-14T13:09:10.589022+00:00",
-      "stop_loss_pct": 0.00479,
-      "take_profit_pct": 0.01183,
-      "size_usd": 6003.8,
-      "position_size_pct": 0.0598,
-      "confidence": 0.934,
-      "signals": [
-        "RSI oversold (23.8)",
-        "5d momentum -0.60%",
-        "1d momentum -0.90%",
-        "BB oversold (pct_b=0.04)",
-        "High-impact catalyst",
-        "Claude [supports]: analyst upgrade; price decline"
-      ],
-      "news_sentiment": 0.312,
-      "news_headlines": [
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-        "Study finds most AI crypto trading agents aren't really trading"
-      ],
-      "mode": "paper",
-      "strategy_version": "23",
-      "status": "open",
-      "current_price": 6.61,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 64079.19140625,
+      "trailing_stop_price": 64279.118483,
+      "current_price": 64072.53125,
+      "unrealized_pnl_pct": 0.005538,
+      "unrealized_pnl_usd": 28.23
     },
     {
       "id": "ETH-USD_20260614130910",
@@ -616,7 +485,139 @@
       "mode": "paper",
       "strategy_version": "23",
       "status": "open",
-      "current_price": 1667.119995,
+      "current_price": 1661.72998,
+      "unrealized_pnl_pct": -0.003233,
+      "unrealized_pnl_usd": -0.21
+    },
+    {
+      "id": "AVAX-USD_20260614151725",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 6.53000020980835,
+      "entry_time": "2026-06-14T15:17:25.172539+00:00",
+      "stop_loss_pct": 0.00551,
+      "take_profit_pct": 0.0136,
+      "size_usd": 5996.56,
+      "position_size_pct": 0.0598,
+      "confidence": 0.934,
+      "signals": [
+        "RSI oversold (15.4)",
+        "5d momentum -1.80%",
+        "1d momentum -3.40%",
+        "BB oversold (pct_b=-0.03)",
+        "High-impact catalyst",
+        "Claude [supports]: analyst upgrade; price decline"
+      ],
+      "news_sentiment": 0.312,
+      "news_headlines": [
+        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+        "Study finds most AI crypto trading agents aren't really trading"
+      ],
+      "mode": "paper",
+      "strategy_version": "23",
+      "status": "open",
+      "current_price": 6.53,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "DOGE-USD_20260614151725",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.0860700011253357,
+      "entry_time": "2026-06-14T15:17:25.174819+00:00",
+      "stop_loss_pct": 0.00554,
+      "take_profit_pct": 0.01367,
+      "size_usd": 5996.56,
+      "position_size_pct": 0.0598,
+      "confidence": 0.934,
+      "signals": [
+        "RSI oversold (21.5)",
+        "5d momentum -1.15%",
+        "1d momentum -2.53%",
+        "BB oversold (pct_b=0.00)",
+        "High-impact catalyst",
+        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.317,
+      "news_headlines": [
+        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
+        "Robert Reich Calls Elon Musk's SpaceX IPO 'The Universe's Largest Ponzi Scheme'",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "23",
+      "status": "open",
+      "current_price": 0.08607,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SOL-USD_20260614151725",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 67.37999725341797,
+      "entry_time": "2026-06-14T15:17:25.176332+00:00",
+      "stop_loss_pct": 0.00597,
+      "take_profit_pct": 0.01455,
+      "size_usd": 5611.34,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
+      "signals": [
+        "RSI oversold (22.5)",
+        "5d momentum -1.09%",
+        "1d momentum -1.74%",
+        "BB oversold (pct_b=0.05)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.5,
+      "news_headlines": [
+        "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
+        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
+        "4 AI Models Reveal SOL Price Predictions for 2026 \u2014 One Calls for a Massive Surge"
+      ],
+      "mode": "paper",
+      "strategy_version": "23",
+      "status": "open",
+      "current_price": 67.379997,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "XRP-USD_20260614151725",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1.1332000494003296,
+      "entry_time": "2026-06-14T15:17:25.177780+00:00",
+      "stop_loss_pct": 0.00495,
+      "take_profit_pct": 0.01207,
+      "size_usd": 3382.13,
+      "position_size_pct": 0.0337,
+      "confidence": 0.874,
+      "signals": [
+        "RSI oversold (23.0)",
+        "5d momentum -0.79%",
+        "1d momentum -1.96%",
+        "BB oversold (pct_b=0.03)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.25,
+      "news_headlines": [
+        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
+        "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?",
+        "Clarity Act Stablecoin Yield Clause: The $20B Bank vs Crypto Exchange Battle"
+      ],
+      "mode": "paper",
+      "strategy_version": "23",
+      "status": "open",
+      "current_price": 1.1332,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -700,9 +701,9 @@
       "news_sentiment": 0.923,
       "news_confidence": 0.52,
       "news_headlines": [
+        "American Express Targets Travelers And Sports Fans While Shares Trade Below Estimates",
         "Is American Express (AXP) One of the Best Value Dividend Stocks to Buy Now According to Warren Buffett?",
-        "\u2018Citibank and Amex Have Screwed an 85-Year-Old Widow\u2019: Dave Ramsey on $45,000 in Credit Card Debt With No Assets",
-        "American Express Company (AXP) and Delta Refresh SkyMiles Card Benefits"
+        "\u2018Citibank and Amex Have Screwed an 85-Year-Old Widow\u2019: Dave Ramsey on $45,000 in Credit Card Debt With No Assets"
       ],
       "high_impact_news": true
     },
@@ -724,6 +725,27 @@
         "Cantor Fitzgerald Raises its Price Target on Applied Materials (AMAT)",
         "Lam Research and Applied Materials Shares Skyrocket, What You Need To Know",
         "Applied Materials (AMAT) Stock Valuation Check After Powerful 1-Year Run"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5828,
+      "price": 6.53000020980835,
+      "rsi": 15.384615384615387,
+      "momentum_5d": -0.018045095314010173,
+      "momentum_1d": -0.034023670308592636,
+      "macd_crossover": false,
+      "atr_pct": 0.0054692625676552465,
+      "bollinger_pct_b": -0.0279,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.26,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
+        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
+        "Study finds most AI crypto trading agents aren't really trading"
       ],
       "high_impact_news": true
     },
@@ -792,7 +814,7 @@
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.5533,
+      "rank_score": 0.5483,
       "price": 279.6000061035156,
       "rsi": 73.17227207875344,
       "momentum_5d": -0.027883975905097353,
@@ -802,12 +824,12 @@
       "bollinger_pct_b": 0.6776,
       "volume_spike": false,
       "volume_spike_ratio": 0.68,
-      "news_sentiment": 0.648,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.587,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "Prediction: This Will Be the Next $1 Trillion Artificial Intelligence (AI) Chip Stock, According to Jensen Huang",
         "Why Marvell Technology Stock Surged This Week",
-        "Adobe's CFO Jumps Ship To Marvell For 'Once-In-A-Generation' AI Expansion",
-        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding"
+        "Adobe's CFO Jumps Ship To Marvell For 'Once-In-A-Generation' AI Expansion"
       ],
       "high_impact_news": true
     },
@@ -938,6 +960,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "INTC",
+      "rank_score": 0.5239,
+      "price": 124.54000091552734,
+      "rsi": 79.9248938162037,
+      "momentum_5d": 0.01200610190372651,
+      "momentum_1d": 0.1942846410950742,
+      "macd_crossover": false,
+      "atr_pct": 0.030232733637909927,
+      "bollinger_pct_b": 0.8039,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.53,
+      "news_sentiment": 0.744,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "2 Best Stocks to Buy in the Market Right Now",
+        "Prediction: This Will Be the Next $1 Trillion Artificial Intelligence (AI) Chip Stock, According to Jensen Huang",
+        "Goldman Sachs Predicts AI Infrastructure Spending Could Hit More Than $1 Trillion in 2027. 3 AI Stocks to Buy."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLK",
+      "rank_score": 0.5181,
+      "price": 184.80999755859375,
+      "rsi": 81.03057680210773,
+      "momentum_5d": -0.004953417272969334,
+      "momentum_1d": 0.0414177311318236,
+      "macd_crossover": false,
+      "atr_pct": 0.011407728078366108,
+      "bollinger_pct_b": 0.7809,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.55,
+      "news_sentiment": 0.88,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?",
+        "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
+        "SpaceX Launches. The Future Remains Murky."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMD",
       "rank_score": 0.5177,
       "price": 511.1199951171875,
@@ -952,9 +1016,9 @@
       "news_sentiment": 0.826,
       "news_confidence": 0.46,
       "news_headlines": [
+        "Xbox fans waiting on Project Helix get unexpected news from Wedbush",
         "AMD Meta AI Chip Pact Puts Data Center Growth And Valuation In Focus",
-        "Citi resets AMD stock price target on key move",
-        "Is Advanced Micro Devices, Inc. (AMD) A Good Stock To Buy Now?"
+        "Citi resets AMD stock price target on key move"
       ],
       "high_impact_news": true
     },
@@ -976,69 +1040,6 @@
         "Wolfe Research Raises PT on Micron Technology (MU) Stock",
         "Better AI Growth Buy Right Now: Nvidia vs Micron",
         "Samsung, SK Hynix, and Micron Are Fighting for AI Memory Dominance. Here's How You Can Buy All Three for About $65."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.5165,
-      "price": 200.16000366210938,
-      "rsi": 71.27702410214725,
-      "momentum_5d": -0.010871698663800302,
-      "momentum_1d": 0.01955988281698128,
-      "macd_crossover": false,
-      "atr_pct": 0.009238819146260138,
-      "bollinger_pct_b": 0.6509,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.95,
-      "news_sentiment": 0.652,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "What Makes Denali Therapeutics (DNLI) One of the Best AI Driven Biotech Names",
-        "1 Cash-Producing Stock with Impressive Fundamentals and 2 We Find Risky",
-        "How Is Biogen\u2019s Stock Performance Compared to Other Biotech Stocks?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLK",
-      "rank_score": 0.5161,
-      "price": 184.80999755859375,
-      "rsi": 81.03057680210773,
-      "momentum_5d": -0.004953417272969334,
-      "momentum_1d": 0.0414177311318236,
-      "macd_crossover": false,
-      "atr_pct": 0.011407728078366108,
-      "bollinger_pct_b": 0.7809,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.55,
-      "news_sentiment": 0.875,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
-        "SpaceX Launches. The Future Remains Murky.",
-        "Sector Update: Tech Stocks Rise Late Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.5128,
-      "price": 982.5599975585938,
-      "rsi": 48.13850334942146,
-      "momentum_5d": 0.008861011517986392,
-      "momentum_1d": 0.014360163933248656,
-      "macd_crossover": true,
-      "atr_pct": 0.00618352427215284,
-      "bollinger_pct_b": 0.797,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.24,
-      "news_sentiment": 0.471,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "JPMorgan Expects Kroger (KR) to Reiterate Guidance, Lowers Price Target",
-        "Costco Wholesale (COST) Stock Valuation After Strong May Sales And Growing Digital And Gas Volumes",
-        "Costco vs. Walmart vs. Amazon: Which Stock Is the Smartest Buy in 2026?"
       ],
       "high_impact_news": true
     }
