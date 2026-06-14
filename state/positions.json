@@ -71,31 +71,6 @@
     "price_peak": 7.83804988861084,
     "trailing_stop_price": 7.775345
   },
-  "EUR/USD": {
-    "id": "EUR/USD_20260524234359",
-    "asset": "EUR/USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1.1648223400115967,
-    "entry_time": "2026-05-24T23:43:59.159927+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 6432.0,
-    "position_size_pct": 0.0643,
-    "confidence": 0.67,
-    "signals": [
-      "RSI overbought (69.1)",
-      "MACD crossover",
-      "BB overbought (pct_b=1.41)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "03",
-    "status": "open",
-    "price_trough": 1.1512778997421265,
-    "trailing_stop_price": 1.160488
-  },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
     "asset": "USD/JPY",
@@ -125,35 +100,6 @@
     "status": "open",
     "price_peak": 160.55099487304688,
     "trailing_stop_price": 159.266587
-  },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260601001740",
-    "asset": "AUD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 114.49099731445312,
-    "entry_time": "2026-06-01T00:17:40.422350+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02616,
-    "size_usd": 5154.59,
-    "position_size_pct": 0.0518,
-    "confidence": 0.54,
-    "signals": [
-      "RSI overbought (75.8)",
-      "MACD crossover",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
-    ],
-    "news_sentiment": -0.778,
-    "news_headlines": [
-      "Further Strength for the Australian Dollar After Higher Inflation",
-      "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
-    ],
-    "mode": "paper",
-    "strategy_version": "08",
-    "status": "open",
-    "price_trough": 112.25700378417969,
-    "trailing_stop_price": 113.15506
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
@@ -206,8 +152,8 @@
     "mode": "paper",
     "strategy_version": "17",
     "status": "open",
-    "price_trough": 0.7940700054168701,
-    "trailing_stop_price": 0.800423
+    "price_trough": 0.7934499979019165,
+    "trailing_stop_price": 0.799798
   },
   "AUD/USD": {
     "id": "AUD/USD_20260611164415",
@@ -236,8 +182,8 @@
     "mode": "paper",
     "strategy_version": "19",
     "status": "open",
-    "price_peak": 0.7052186131477356,
-    "trailing_stop_price": 0.699577
+    "price_peak": 0.7085163593292236,
+    "trailing_stop_price": 0.702848
   },
   "RBLX": {
     "id": "RBLX_20260611164415",
@@ -364,25 +310,150 @@
     "strategy_version": "20",
     "status": "open"
   },
+  "ETH-USD": {
+    "id": "ETH-USD_20260614221623",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1720.0,
+    "entry_time": "2026-06-14T22:16:23.007206+00:00",
+    "stop_loss_pct": 0.00682,
+    "take_profit_pct": 0.0166,
+    "size_usd": 5637.29,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (75.9)",
+      "5d momentum +3.56%",
+      "1d momentum +2.33%",
+      "BB overbought (pct_b=1.20)",
+      "Volume spike 3.4\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.676,
+    "news_headlines": [
+      "BitMine's Preferred Stock Begins Trading This Week As Ethereum Heads For Its Worst First Half Since 2022",
+      "Coinbase's D'Agostino reveals the plan to put all of finance on one app",
+      "Tether USDT Briefly Overtakes Ethereum in Market Cap: A $187B Wake-Up Call"
+    ],
+    "mode": "paper",
+    "strategy_version": "24",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260614221623",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 70.12000274658203,
+    "entry_time": "2026-06-14T22:16:23.009217+00:00",
+    "stop_loss_pct": 0.00872,
+    "take_profit_pct": 0.02124,
+    "size_usd": 5637.29,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (70.6)",
+      "5d momentum +4.19%",
+      "1d momentum +1.82%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.314,
+    "news_headlines": [
+      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+      "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
+      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
+    ],
+    "mode": "paper",
+    "strategy_version": "24",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260614221623",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1699999570846558,
+    "entry_time": "2026-06-14T22:16:23.010516+00:00",
+    "stop_loss_pct": 0.0076,
+    "take_profit_pct": 0.01881,
+    "size_usd": 6155.66,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (68.1)",
+      "5d momentum +3.33%",
+      "1d momentum +1.77%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 3.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
+      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?"
+    ],
+    "mode": "paper",
+    "strategy_version": "24",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260614221623",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 65098.48828125,
+    "entry_time": "2026-06-14T22:16:23.012329+00:00",
+    "stop_loss_pct": 0.0054,
+    "take_profit_pct": 0.01316,
+    "size_usd": 5637.29,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (61.5)",
+      "5d momentum +2.20%",
+      "1d momentum +1.04%",
+      "BB overbought (pct_b=1.00)",
+      "Volume spike 2.8\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": -0.062,
+    "news_headlines": [
+      "New MicroStrategy Bitcoin Metrics: Innovation or Goalpost Moving by Michael Saylor?",
+      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+      "Is Bitcoin the Safest Crypto to Own Right Now?"
+    ],
+    "mode": "paper",
+    "strategy_version": "24",
+    "status": "open"
+  },
   "DOGE-USD": {
-    "id": "DOGE-USD_20260614151725",
+    "id": "DOGE-USD_20260614221623",
     "asset": "DOGE-USD",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.0860700011253357,
-    "entry_time": "2026-06-14T15:17:25.174819+00:00",
-    "stop_loss_pct": 0.00554,
-    "take_profit_pct": 0.01367,
-    "size_usd": 5996.56,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
+    "direction": "short",
+    "entry_price": 0.08833999931812286,
+    "entry_time": "2026-06-14T22:16:23.014082+00:00",
+    "stop_loss_pct": 0.00713,
+    "take_profit_pct": 0.01736,
+    "size_usd": 3454.13,
+    "position_size_pct": 0.0341,
+    "confidence": 0.87,
     "signals": [
-      "RSI oversold (21.5)",
-      "5d momentum -1.15%",
-      "1d momentum -2.53%",
-      "BB oversold (pct_b=0.00)",
+      "RSI overbought (63.1)",
+      "5d momentum +2.36%",
+      "1d momentum +0.60%",
+      "BB overbought (pct_b=0.96)",
+      "Volume spike 4.5\u00d7",
       "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
     ],
     "news_sentiment": 0.317,
     "news_headlines": [
@@ -391,126 +462,34 @@
       "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
     ],
     "mode": "paper",
-    "strategy_version": "23",
-    "status": "open",
-    "price_peak": 0.08629000186920166,
-    "trailing_stop_price": 0.085812
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260614151725",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 67.37999725341797,
-    "entry_time": "2026-06-14T15:17:25.176332+00:00",
-    "stop_loss_pct": 0.00597,
-    "take_profit_pct": 0.01455,
-    "size_usd": 5611.34,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (22.5)",
-      "5d momentum -1.09%",
-      "1d momentum -1.74%",
-      "BB oversold (pct_b=0.05)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.5,
-    "news_headlines": [
-      "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-      "4 AI Models Reveal SOL Price Predictions for 2026 \u2014 One Calls for a Massive Surge"
-    ],
-    "mode": "paper",
-    "strategy_version": "23",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260614151725",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.1332000494003296,
-    "entry_time": "2026-06-14T15:17:25.177780+00:00",
-    "stop_loss_pct": 0.00495,
-    "take_profit_pct": 0.01207,
-    "size_usd": 3382.13,
-    "position_size_pct": 0.0337,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (23.0)",
-      "5d momentum -0.79%",
-      "1d momentum -1.96%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.25,
-    "news_headlines": [
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?",
-      "Clarity Act Stablecoin Yield Clause: The $20B Bank vs Crypto Exchange Battle"
-    ],
-    "mode": "paper",
-    "strategy_version": "23",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260614180414",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.460000038146973,
-    "entry_time": "2026-06-14T18:04:14.184696+00:00",
-    "stop_loss_pct": 0.00569,
-    "take_profit_pct": 0.01403,
-    "size_usd": 5996.15,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (11.1)",
-      "5d momentum -1.67%",
-      "1d momentum -3.58%",
-      "BB oversold (pct_b=-0.01)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.312,
-    "news_headlines": [
-      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-      "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-      "Study finds most AI crypto trading agents aren't really trading"
-    ],
-    "mode": "paper",
     "strategy_version": "24",
     "status": "open"
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260614180414",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 63707.7890625,
-    "entry_time": "2026-06-14T18:04:14.186989+00:00",
-    "stop_loss_pct": 0.00359,
-    "take_profit_pct": 0.00897,
-    "size_usd": 5161.81,
-    "position_size_pct": 0.0515,
-    "confidence": 0.99,
+  "BNB-USD": {
+    "id": "BNB-USD_20260614221623",
+    "asset": "BNB-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 613.510009765625,
+    "entry_time": "2026-06-14T22:16:23.016407+00:00",
+    "stop_loss_pct": 0.01668,
+    "take_profit_pct": 0.05694,
+    "size_usd": 8047.72,
+    "position_size_pct": 0.0795,
+    "confidence": 0.828,
     "signals": [
-      "RSI oversold (29.6)",
-      "5d momentum -0.90%",
-      "1d momentum -0.65%",
-      "BB oversold (pct_b=-0.03)",
+      "MACD crossover",
+      "5d momentum +1.58%",
+      "1d momentum +0.77%",
+      "BB overbought (pct_b=0.86)",
       "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade; fed dovish"
+      "Claude [contradicts]: price surge; price decline"
     ],
-    "news_sentiment": 0.217,
+    "news_sentiment": 0.189,
     "news_headlines": [
-      "Is Bitcoin the Safest Crypto to Own Right Now?",
-      "Charles Hoskinson Tries to Close Cardano\u2019s $70 Million Bitcoin Mystery",
-      "Bitcoin is Falling, But $273 Billion in Stablecoins Isn\u2019t Leaving"
+      "Hyperliquid Emerges As 'Superior' Alternative After SpaceX IPO Lockup Chaos",
+      "SIREN Token Crashes 75% as Whale Triggers a Massive Sell-Off",
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
     ],
     "mode": "paper",
     "strategy_version": "24",
