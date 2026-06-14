@@ -403,37 +403,6 @@
     "strategy_version": "24",
     "status": "open"
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260614221623",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 65098.48828125,
-    "entry_time": "2026-06-14T22:16:23.012329+00:00",
-    "stop_loss_pct": 0.0054,
-    "take_profit_pct": 0.01316,
-    "size_usd": 5637.29,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (61.5)",
-      "5d momentum +2.20%",
-      "1d momentum +1.04%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 2.8\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": -0.062,
-    "news_headlines": [
-      "New MicroStrategy Bitcoin Metrics: Innovation or Goalpost Moving by Michael Saylor?",
-      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-      "Is Bitcoin the Safest Crypto to Own Right Now?"
-    ],
-    "mode": "paper",
-    "strategy_version": "24",
-    "status": "open"
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260614221623",
     "asset": "DOGE-USD",
@@ -493,6 +462,66 @@
     ],
     "mode": "paper",
     "strategy_version": "24",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260614233933",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 65577.6875,
+    "entry_time": "2026-06-14T23:39:33.876843+00:00",
+    "stop_loss_pct": 0.00557,
+    "take_profit_pct": 0.01355,
+    "size_usd": 5620.69,
+    "position_size_pct": 0.0555,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (67.2)",
+      "5d momentum +2.83%",
+      "1d momentum +1.86%",
+      "BB overbought (pct_b=1.09)",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.086,
+    "news_headlines": [
+      "Donald Trump: Deal With Iran is Complete \u2013 Bitcoin, Gold and Oil React",
+      "New MicroStrategy Bitcoin Metrics: Innovation or Goalpost Moving by Michael Saylor?",
+      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "EUR/USD": {
+    "id": "EUR/USD_20260614233933",
+    "asset": "EUR/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.1609008312225342,
+    "entry_time": "2026-06-14T23:39:33.878603+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02708,
+    "size_usd": 7480.92,
+    "position_size_pct": 0.0739,
+    "confidence": 0.77,
+    "signals": [
+      "RSI overbought (65.2)",
+      "MACD crossover",
+      "BB overbought (pct_b=1.38)",
+      "High-impact catalyst",
+      "Claude [neutral]: fed hawkish"
+    ],
+    "news_sentiment": -0.087,
+    "news_headlines": [
+      "Instant View: Markets cheer deal but see staying elevated",
+      "The WSJ Dollar Index Falls 0.31% to 96.27",
+      "Euro Falls After ECB Decision"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
     "status": "open"
   }
 }
