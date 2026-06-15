@@ -339,69 +339,9 @@
     ],
     "mode": "paper",
     "strategy_version": "24",
-    "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260614221623",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 70.12000274658203,
-    "entry_time": "2026-06-14T22:16:23.009217+00:00",
-    "stop_loss_pct": 0.00872,
-    "take_profit_pct": 0.02124,
-    "size_usd": 5637.29,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (70.6)",
-      "5d momentum +4.19%",
-      "1d momentum +1.82%",
-      "BB overbought (pct_b=1.12)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.314,
-    "news_headlines": [
-      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-      "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
-    ],
-    "mode": "paper",
-    "strategy_version": "24",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260614221623",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1699999570846558,
-    "entry_time": "2026-06-14T22:16:23.010516+00:00",
-    "stop_loss_pct": 0.0076,
-    "take_profit_pct": 0.01881,
-    "size_usd": 6155.66,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (68.1)",
-      "5d momentum +3.33%",
-      "1d momentum +1.77%",
-      "BB overbought (pct_b=1.12)",
-      "Volume spike 3.1\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?"
-    ],
-    "mode": "paper",
-    "strategy_version": "24",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1715.3299560546875,
+    "trailing_stop_price": 1727.028506
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260614221623",
@@ -462,7 +402,9 @@
     ],
     "mode": "paper",
     "strategy_version": "24",
-    "status": "open"
+    "status": "open",
+    "price_trough": 613.0999755859375,
+    "trailing_stop_price": 623.326483
   },
   "BTC-USD": {
     "id": "BTC-USD_20260614233933",
@@ -493,7 +435,9 @@
     ],
     "mode": "paper",
     "strategy_version": "25",
-    "status": "open"
+    "status": "open",
+    "price_trough": 65477.859375,
+    "trailing_stop_price": 65842.571052
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -519,6 +463,97 @@
       "Instant View: Markets cheer deal but see staying elevated",
       "The WSJ Dollar Index Falls 0.31% to 96.27",
       "Euro Falls After ECB Decision"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open",
+    "price_trough": 1.160092830657959,
+    "trailing_stop_price": 1.169374
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260615020407",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 71.08000183105469,
+    "entry_time": "2026-06-15T02:04:07.255422+00:00",
+    "stop_loss_pct": 0.00943,
+    "take_profit_pct": 0.0226,
+    "size_usd": 5135.49,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (82.3)",
+      "5d momentum +1.38%",
+      "1d momentum +3.30%",
+      "BB overbought (pct_b=0.91)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.314,
+    "news_headlines": [
+      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+      "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
+      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260615020407",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 113.34600067138672,
+    "entry_time": "2026-06-15T02:04:07.257159+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 5652.92,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (79.1)",
+      "5d momentum +0.42%",
+      "1d momentum +0.54%",
+      "BB overbought (pct_b=1.07)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+    ],
+    "news_sentiment": -0.778,
+    "news_headlines": [
+      "Further Strength for the Australian Dollar After Higher Inflation",
+      "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260615020407",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1828999519348145,
+    "entry_time": "2026-06-15T02:04:07.258731+00:00",
+    "stop_loss_pct": 0.00851,
+    "take_profit_pct": 0.02073,
+    "size_usd": 947.58,
+    "position_size_pct": 0.0094,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (81.4)",
+      "5d momentum +1.27%",
+      "1d momentum +2.74%",
+      "BB overbought (pct_b=0.91)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
+      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?"
     ],
     "mode": "paper",
     "strategy_version": "25",

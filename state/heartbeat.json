@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101202.94,
+  "portfolio_balance": 101060.55,
   "portfolio_peak": 101244.44,
-  "portfolio_drawdown_pct": 0.04,
-  "unrealized_pnl_usd": 191.56,
-  "equity_value": 101394.51,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "portfolio_drawdown_pct": 0.18,
+  "unrealized_pnl_usd": 351.98,
+  "equity_value": 101412.53,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40481.18,
+  "day_capital_used_usd": 40424.22,
   "swing_capital_used_usd": 44528.95,
-  "total_trades": 265,
-  "last_tick": "2026-06-14T23:39:33.880839+00:00",
+  "total_trades": 267,
+  "last_tick": "2026-06-15T02:04:07.261934+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9229000210762024,
       "trailing_stop_price": 0.915517,
-      "current_price": 0.92136,
-      "unrealized_pnl_pct": 0.011972,
-      "unrealized_pnl_usd": 16.09
+      "current_price": 0.92146,
+      "unrealized_pnl_pct": 0.012082,
+      "unrealized_pnl_usd": 16.24
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 1.0694799423217773,
       "trailing_stop_price": 1.060924,
-      "current_price": 1.06753,
-      "unrealized_pnl_pct": 0.012866,
-      "unrealized_pnl_usd": 17.29
+      "current_price": 1.0675,
+      "unrealized_pnl_pct": 0.012837,
+      "unrealized_pnl_usd": 17.25
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 7.83804988861084,
       "trailing_stop_price": 7.775345,
-      "current_price": 7.8346,
-      "unrealized_pnl_pct": 3.8e-05,
-      "unrealized_pnl_usd": 0.05
+      "current_price": 7.8349,
+      "unrealized_pnl_pct": 7.7e-05,
+      "unrealized_pnl_usd": 0.1
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -127,9 +127,9 @@
       "status": "open",
       "price_peak": 160.55099487304688,
       "trailing_stop_price": 159.266587,
-      "current_price": 159.947006,
-      "unrealized_pnl_pct": 0.004888,
-      "unrealized_pnl_usd": 18.99
+      "current_price": 160.199005,
+      "unrealized_pnl_pct": 0.006471,
+      "unrealized_pnl_usd": 25.14
     },
     {
       "id": "EUR/GBP_20260605201553",
@@ -159,9 +159,9 @@
       "status": "open",
       "price_peak": 0.8650199770927429,
       "trailing_stop_price": 0.8581,
-      "current_price": 0.86295,
-      "unrealized_pnl_pct": -0.001181,
-      "unrealized_pnl_usd": -3.43
+      "current_price": 0.86314,
+      "unrealized_pnl_pct": -0.000961,
+      "unrealized_pnl_usd": -2.79
     },
     {
       "id": "USD/CHF_20260609164749",
@@ -187,9 +187,9 @@
       "status": "open",
       "price_trough": 0.7934499979019165,
       "trailing_stop_price": 0.799798,
-      "current_price": 0.7939,
-      "unrealized_pnl_pct": 0.005711,
-      "unrealized_pnl_usd": 31.33
+      "current_price": 0.79451,
+      "unrealized_pnl_pct": 0.004947,
+      "unrealized_pnl_usd": 27.14
     },
     {
       "id": "AUD/USD_20260611164415",
@@ -220,9 +220,9 @@
       "status": "open",
       "price_peak": 0.7085163593292236,
       "trailing_stop_price": 0.702848,
-      "current_price": 0.707614,
-      "unrealized_pnl_pct": 0.011463,
-      "unrealized_pnl_usd": 70.58
+      "current_price": 0.707764,
+      "unrealized_pnl_pct": 0.011678,
+      "unrealized_pnl_usd": 71.9
     },
     {
       "id": "RBLX_20260611164415",
@@ -391,77 +391,11 @@
       "mode": "paper",
       "strategy_version": "24",
       "status": "open",
-      "current_price": 1720.650024,
-      "unrealized_pnl_pct": -0.000378,
-      "unrealized_pnl_usd": -2.13
-    },
-    {
-      "id": "SOL-USD_20260614221623",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 70.12000274658203,
-      "entry_time": "2026-06-14T22:16:23.009217+00:00",
-      "stop_loss_pct": 0.00872,
-      "take_profit_pct": 0.02124,
-      "size_usd": 5637.29,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (70.6)",
-        "5d momentum +4.19%",
-        "1d momentum +1.82%",
-        "BB overbought (pct_b=1.12)",
-        "Volume spike 2.1\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.314,
-      "news_headlines": [
-        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-        "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
-        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
-      ],
-      "mode": "paper",
-      "strategy_version": "24",
-      "status": "open",
-      "current_price": 70.660004,
-      "unrealized_pnl_pct": -0.007701,
-      "unrealized_pnl_usd": -43.41
-    },
-    {
-      "id": "XRP-USD_20260614221623",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.1699999570846558,
-      "entry_time": "2026-06-14T22:16:23.010516+00:00",
-      "stop_loss_pct": 0.0076,
-      "take_profit_pct": 0.01881,
-      "size_usd": 6155.66,
-      "position_size_pct": 0.0608,
-      "confidence": 0.95,
-      "signals": [
-        "RSI overbought (68.1)",
-        "5d momentum +3.33%",
-        "1d momentum +1.77%",
-        "BB overbought (pct_b=1.12)",
-        "Volume spike 3.1\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [
-        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-        "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?"
-      ],
-      "mode": "paper",
-      "strategy_version": "24",
-      "status": "open",
-      "current_price": 1.1786,
-      "unrealized_pnl_pct": -0.00735,
-      "unrealized_pnl_usd": -45.25
+      "price_trough": 1715.3299560546875,
+      "trailing_stop_price": 1727.028506,
+      "current_price": 1715.329956,
+      "unrealized_pnl_pct": 0.002715,
+      "unrealized_pnl_usd": 15.31
     },
     {
       "id": "DOGE-USD_20260614221623",
@@ -493,9 +427,9 @@
       "mode": "paper",
       "strategy_version": "24",
       "status": "open",
-      "current_price": 0.08861,
-      "unrealized_pnl_pct": -0.003056,
-      "unrealized_pnl_usd": -10.56
+      "current_price": 0.08853,
+      "unrealized_pnl_pct": -0.002151,
+      "unrealized_pnl_usd": -7.43
     },
     {
       "id": "BNB-USD_20260614221623",
@@ -526,9 +460,11 @@
       "mode": "paper",
       "strategy_version": "24",
       "status": "open",
-      "current_price": 615.650024,
-      "unrealized_pnl_pct": -0.003488,
-      "unrealized_pnl_usd": -28.07
+      "price_trough": 613.0999755859375,
+      "trailing_stop_price": 623.326483,
+      "current_price": 613.099976,
+      "unrealized_pnl_pct": 0.000668,
+      "unrealized_pnl_usd": 5.38
     },
     {
       "id": "BTC-USD_20260614233933",
@@ -560,9 +496,11 @@
       "mode": "paper",
       "strategy_version": "25",
       "status": "open",
-      "current_price": 65577.6875,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 65477.859375,
+      "trailing_stop_price": 65842.571052,
+      "current_price": 65479.078125,
+      "unrealized_pnl_pct": 0.001504,
+      "unrealized_pnl_usd": 8.45
     },
     {
       "id": "EUR/USD_20260614233933",
@@ -592,7 +530,107 @@
       "mode": "paper",
       "strategy_version": "25",
       "status": "open",
-      "current_price": 1.160901,
+      "price_trough": 1.160092830657959,
+      "trailing_stop_price": 1.169374,
+      "current_price": 1.160093,
+      "unrealized_pnl_pct": 0.000696,
+      "unrealized_pnl_usd": 5.21
+    },
+    {
+      "id": "SOL-USD_20260615020407",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 71.08000183105469,
+      "entry_time": "2026-06-15T02:04:07.255422+00:00",
+      "stop_loss_pct": 0.00943,
+      "take_profit_pct": 0.0226,
+      "size_usd": 5135.49,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (82.3)",
+        "5d momentum +1.38%",
+        "1d momentum +3.30%",
+        "BB overbought (pct_b=0.91)",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.314,
+      "news_headlines": [
+        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+        "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
+        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
+      ],
+      "mode": "paper",
+      "strategy_version": "25",
+      "status": "open",
+      "current_price": 71.080002,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AUD/JPY_20260615020407",
+      "asset": "AUD/JPY",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 113.34600067138672,
+      "entry_time": "2026-06-15T02:04:07.257159+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00487,
+      "size_usd": 5652.92,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (79.1)",
+        "5d momentum +0.42%",
+        "1d momentum +0.54%",
+        "BB overbought (pct_b=1.07)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+      ],
+      "news_sentiment": -0.778,
+      "news_headlines": [
+        "Further Strength for the Australian Dollar After Higher Inflation",
+        "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
+      ],
+      "mode": "paper",
+      "strategy_version": "25",
+      "status": "open",
+      "current_price": 113.346001,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "XRP-USD_20260615020407",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1.1828999519348145,
+      "entry_time": "2026-06-15T02:04:07.258731+00:00",
+      "stop_loss_pct": 0.00851,
+      "take_profit_pct": 0.02073,
+      "size_usd": 947.58,
+      "position_size_pct": 0.0094,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (81.4)",
+        "5d momentum +1.27%",
+        "1d momentum +2.74%",
+        "BB overbought (pct_b=0.91)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
+        "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?"
+      ],
+      "mode": "paper",
+      "strategy_version": "25",
+      "status": "open",
+      "current_price": 1.1829,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -620,27 +658,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.7747,
-      "price": 70.66000366210938,
-      "rsi": 72.46970628299259,
-      "momentum_5d": 0.04867923037092469,
-      "momentum_1d": 0.025544297492786125,
-      "macd_crossover": false,
-      "atr_pct": 0.009138298016086049,
-      "bollinger_pct_b": 1.1159,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.45,
-      "news_sentiment": 0.314,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-        "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
-        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "KLAC",
       "rank_score": 0.7426,
       "price": 254.5399932861328,
@@ -662,71 +679,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.7417,
-      "price": 1.1785999536514282,
-      "rsi": 70.39992243466153,
-      "momentum_5d": 0.04125806405748671,
-      "momentum_1d": 0.025047844937923145,
-      "macd_crossover": false,
-      "atr_pct": 0.008005865995442616,
-      "bollinger_pct_b": 1.1329,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.95,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.24,
-      "news_headlines": [
-        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-        "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6819,
-      "price": 1720.6500244140625,
-      "rsi": 74.78944077804793,
-      "momentum_5d": 0.03608679052950991,
-      "momentum_1d": 0.024495248262425405,
-      "macd_crossover": false,
-      "atr_pct": 0.006967880626687493,
-      "bollinger_pct_b": 1.0727,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.676,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "BitMine's Preferred Stock Begins Trading This Week As Ethereum Heads For Its Worst First Half Since 2022",
-        "Coinbase's D'Agostino reveals the plan to put all of finance on one app",
-        "Tether USDT Briefly Overtakes Ethereum in Market Cap: A $187B Wake-Up Call"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6574,
-      "price": 65577.6875,
-      "rsi": 67.23733112772798,
-      "momentum_5d": 0.02825490356769102,
-      "momentum_1d": 0.018559407139622442,
-      "macd_crossover": false,
-      "atr_pct": 0.005693535039751788,
-      "bollinger_pct_b": 1.0923,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.12,
-      "news_sentiment": 0.086,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Donald Trump: Deal With Iran is Complete \u2013 Bitcoin, Gold and Oil React",
-        "New MicroStrategy Bitcoin Metrics: Innovation or Goalpost Moving by Michael Saylor?",
-        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "TGT",
-      "rank_score": 0.6475,
+      "rank_score": 0.6425,
       "price": 135.22000122070312,
       "rsi": 89.45651371673233,
       "momentum_5d": -0.0023608682402260833,
@@ -736,116 +690,12 @@
       "bollinger_pct_b": 0.7829,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.476,
+      "news_confidence": 0.42,
       "news_headlines": [
+        "Walmart and McDonald's chase $7.5B World Cup boom",
         "Target Corporation (TGT) Shows Why Store-Based Fulfillment Still Matters in Digital Retail",
-        "Target Baby Wipes Recall Tests Up And Up Brand And Stock Momentum",
-        "A Chicago woman stopped to hear a stranger's story outside Target \u2014 then $5,000 vanished from her account"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AUD/USD",
-      "rank_score": 0.6469,
-      "price": 0.7076139450073242,
-      "rsi": 72.19126847596306,
-      "momentum_5d": 0.0036088960937186946,
-      "momentum_1d": 0.003113576465894259,
-      "macd_crossover": true,
-      "atr_pct": 0.0013701385603790903,
-      "bollinger_pct_b": 1.2921,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
-        "Dollar drifts lower as oil falls on Hormuz deal optimism",
-        "The Dollar is Now Lower Than When the Iran War Began"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "EUR/USD",
-      "rank_score": 0.6314,
-      "price": 1.1609008312225342,
-      "rsi": 65.24924986800252,
-      "momentum_5d": 0.002669986131145617,
-      "momentum_1d": 0.001973524257906624,
-      "macd_crossover": true,
-      "atr_pct": 0.0009408245704013505,
-      "bollinger_pct_b": 1.3826,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.087,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Instant View: Markets cheer deal but see staying elevated",
-        "The WSJ Dollar Index Falls 0.31% to 96.27",
-        "Euro Falls After ECB Decision"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NZD/USD",
-      "rank_score": 0.6273,
-      "price": 0.5855486392974854,
-      "rsi": 71.23786167751122,
-      "momentum_5d": 0.003571796334464954,
-      "momentum_1d": 0.002869197623055666,
-      "macd_crossover": true,
-      "atr_pct": 0.001358010684522949,
-      "bollinger_pct_b": 1.2514,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.264,
-      "news_confidence": 0.483,
-      "news_headlines": [
-        "\"Sell in May\" Could Be Bad News for the Kiwi Dollar",
-        "Most currencies steady as markets focus on US-Iran talks, NZ dollar gains",
-        "Dollar flirts with new 2026 highs as oil price jump hurts euro"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AUD/JPY",
-      "rank_score": 0.6248,
-      "price": 113.13800048828125,
-      "rsi": 73.90364051423765,
-      "momentum_5d": 0.002028216645106954,
-      "momentum_1d": 0.0026942309541347852,
-      "macd_crossover": true,
-      "atr_pct": 0.0013093932436576395,
-      "bollinger_pct_b": 1.1509,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.778,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Further Strength for the Australian Dollar After Higher Inflation",
-        "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GBP/USD",
-      "rank_score": 0.6208,
-      "price": 1.3447548151016235,
-      "rsi": 64.85017055890842,
-      "momentum_5d": 0.0022592238089564525,
-      "momentum_1d": 0.001694350861427478,
-      "macd_crossover": true,
-      "atr_pct": 0.0010571859728036503,
-      "bollinger_pct_b": 1.309,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.377,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Yen touches 160, dollar slips from two-month high amid Iran talks",
-        "Dollar climbs as US strikes on Iran dent ceasefire optimism",
-        "Dollar drifts lower as oil falls on Hormuz deal optimism"
+        "Target Baby Wipes Recall Tests Up And Up Brand And Stock Momentum"
       ],
       "high_impact_news": true
     },
@@ -892,47 +742,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5977,
-      "price": 0.08861000090837479,
-      "rsi": 63.47825241900739,
-      "momentum_5d": 0.026648148550991114,
-      "momentum_1d": 0.008651154814589094,
-      "macd_crossover": false,
-      "atr_pct": 0.007456442295730138,
-      "bollinger_pct_b": 1.0109,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.81,
-      "news_sentiment": 0.317,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-        "Robert Reich Calls Elon Musk's SpaceX IPO 'The Universe's Largest Ponzi Scheme'",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "EUR/JPY",
-      "rank_score": 0.5958,
-      "price": 185.6199951171875,
-      "rsi": 64.63509196364878,
-      "momentum_5d": 0.0010839706969111938,
-      "momentum_1d": 0.0013756082133466183,
-      "macd_crossover": true,
-      "atr_pct": 0.0007280671724009514,
-      "bollinger_pct_b": 1.1739,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.538,
-      "news_confidence": 0.65,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
-        "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRNA",
       "rank_score": 0.5786,
       "price": 49.93000030517578,
@@ -950,27 +759,6 @@
         "Arbutus Biopharma Corporation (ABUS) Reports Q1 2026 Results",
         "Moderna (MRNA) Stock Looks Slightly Overvalued After Recent Rebound In Mixed Return Picture",
         "Parabilis Soared 58% in the Biggest Biotech IPO on Record. Is It Too Late to Buy the Stock?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5722,
-      "price": 6.739999771118164,
-      "rsi": 55.55553032608087,
-      "momentum_5d": 0.05312494854442852,
-      "momentum_1d": 0.002976187730795046,
-      "macd_crossover": false,
-      "atr_pct": 0.010491736769547202,
-      "bollinger_pct_b": 0.8601,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.33,
-      "news_sentiment": 0.312,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels",
-        "AVAT Debut Brings Avalanche Treasury Strategy to Nasdaq",
-        "Study finds most AI crypto trading agents aren't really trading"
       ],
       "high_impact_news": true
     },
@@ -1013,6 +801,258 @@
         "Best CD rates today, Sunday, June 14, 2026: Lock in up to 4% APY",
         "SpaceX Paid Just 0.7% in IPO Fees, Yet Wall Street Banks Rushed In",
         "Goldman Sachs doubles down on Novo stock target after key event"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRVL",
+      "rank_score": 0.551,
+      "price": 279.6000061035156,
+      "rsi": 73.17227207875344,
+      "momentum_5d": -0.027883975905097353,
+      "momentum_1d": 0.08806477322376759,
+      "macd_crossover": false,
+      "atr_pct": 0.027366063003766313,
+      "bollinger_pct_b": 0.6776,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.68,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Tech Shakeup on the S&P 500",
+        "Adobe CFO Quits to Join a Chipmaker. You Shouldn\u2019t Quit ADBE Stock.",
+        "Prediction: This Will Be the Next $1 Trillion Artificial Intelligence (AI) Chip Stock, According to Jensen Huang"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARM",
+      "rank_score": 0.5472,
+      "price": 380.4700012207031,
+      "rsi": 82.88951629818267,
+      "momentum_5d": 0.0003812239769099113,
+      "momentum_1d": 0.20436199173877934,
+      "macd_crossover": false,
+      "atr_pct": 0.029782657721028366,
+      "bollinger_pct_b": 0.8448,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.26,
+      "news_sentiment": 0.412,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Arm Holdings (ARM) Gets BofA Backing, 37% PT Upgrade, Climbs 11%",
+        "Why Intel, AMD, Arm, and Other Artificial Intelligence (AI) Stocks Popped Today",
+        "Billionaire Brad Gerstner Dumped All of His Alphabet Then Bought 2 Stocks Nobody Expected"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLF",
+      "rank_score": 0.5353,
+      "price": 53.34000015258789,
+      "rsi": 77.54008588425324,
+      "momentum_5d": -0.003394915595022891,
+      "momentum_1d": 0.02115438938115657,
+      "macd_crossover": false,
+      "atr_pct": 0.004880948966884498,
+      "bollinger_pct_b": 0.8448,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.61,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Sector Update: Financial Stocks Advance Late Afternoon",
+        "Global Payments Stock: Is GPN Underperforming the Financial Sector?",
+        "Sector Update: Financial Stocks Higher Friday Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "JPM",
+      "rank_score": 0.5334,
+      "price": 320.7099914550781,
+      "rsi": 80.65010443575412,
+      "momentum_5d": -0.0013079233374273054,
+      "momentum_1d": 0.029153602743933013,
+      "macd_crossover": false,
+      "atr_pct": 0.006866343112569571,
+      "bollinger_pct_b": 0.8698,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.1,
+      "news_sentiment": 0.633,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "KTOS Stock Gains Overnight: Why JPMorgan Thinks Kratos Could Be Ready For A Comeback",
+        "Lumentum (LITE): JPMorgan Pushback Helps Keep the AI Optical Networking Case Intact",
+        "Top investment bank resets Adobe target as AI strategy backfires"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.5303,
+      "price": 211.6699981689453,
+      "rsi": 88.10484942284491,
+      "momentum_5d": -0.00875711892845197,
+      "momentum_1d": 0.06238703238847142,
+      "macd_crossover": false,
+      "atr_pct": 0.019618741898830467,
+      "bollinger_pct_b": 0.7968,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Jack Ma-Backed Ant Group Set for High-Stakes Overhaul of Billion-User App",
+        "Wells Fargo Sees Greater Upside in Qualcomm (QCOM) Ahead of Investor Day",
+        "Taiwan Semiconductor (TSM) is This Famous Billionaire\u2019s Biggest AI Stock Holding"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.53,
+      "price": 71.08000183105469,
+      "rsi": 82.2737155297746,
+      "momentum_5d": 0.013835418802719377,
+      "momentum_1d": 0.03298945433805548,
+      "macd_crossover": false,
+      "atr_pct": 0.010018885495695807,
+      "bollinger_pct_b": 0.913,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.05,
+      "news_sentiment": 0.314,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
+        "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
+        "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "IWM",
+      "rank_score": 0.527,
+      "price": 292.95001220703125,
+      "rsi": 81.15035296816508,
+      "momentum_5d": -0.008260273944297855,
+      "momentum_1d": 0.03849840834530117,
+      "macd_crossover": false,
+      "atr_pct": 0.008017819353981897,
+      "bollinger_pct_b": 0.7462,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.94,
+      "news_sentiment": -0.35,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of SpaceX Debut",
+        "Sticky Inflation\u2019s Worst Nightmare: Why Small Value Stocks Are Secretly Printing Money",
+        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid US Attacks on Iran"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "INTC",
+      "rank_score": 0.5269,
+      "price": 124.54000091552734,
+      "rsi": 79.9248938162037,
+      "momentum_5d": 0.01200610190372651,
+      "momentum_1d": 0.1942846410950742,
+      "macd_crossover": false,
+      "atr_pct": 0.030232733637909927,
+      "bollinger_pct_b": 0.8039,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.53,
+      "news_sentiment": 0.8,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Here's How to Snag a 20% Dividend Yield",
+        "The Invisible Layer Protecting the World's Biggest Companies",
+        "Best Altcoins to Buy in 2026"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TSLA",
+      "rank_score": 0.5257,
+      "price": 406.44500732421875,
+      "rsi": 75.31893543354926,
+      "momentum_5d": 0.01644923573162435,
+      "momentum_1d": 0.03502764215359647,
+      "macd_crossover": false,
+      "atr_pct": 0.016529931277622253,
+      "bollinger_pct_b": 0.9589,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.9,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.2,
+      "news_headlines": [
+        "Elon Musk Rejects Claims Government Support Built TSLA And SPCX \u2014 Says Trump\u2019s EV Credit Cuts Sent More Buyers To Tesla",
+        "Elon Musk Says SpaceX Could Put One Million Tons Of Payload In Orbit Within The Next Five Years",
+        "Longtime SpaceX Investor Cathie Wood Made This Move on IPO Day. Should You Follow?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.5199,
+      "price": 982.5599975585938,
+      "rsi": 48.13850334942146,
+      "momentum_5d": 0.008861011517986392,
+      "momentum_1d": 0.014360163933248656,
+      "macd_crossover": true,
+      "atr_pct": 0.00618352427215284,
+      "bollinger_pct_b": 0.797,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.24,
+      "news_sentiment": 0.618,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Costco Wholesale Corporation (COST) Shows How Digitally Enabled Sales Are Outrunning Its Core Business",
+        "Costco fixes its biggest customer pain points",
+        "JPMorgan Expects Kroger (KR) to Reiterate Guidance, Lowers Price Target"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLK",
+      "rank_score": 0.5181,
+      "price": 184.80999755859375,
+      "rsi": 81.03057680210773,
+      "momentum_5d": -0.004953417272969334,
+      "momentum_1d": 0.0414177311318236,
+      "macd_crossover": false,
+      "atr_pct": 0.011407728078366108,
+      "bollinger_pct_b": 0.7809,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.55,
+      "news_sentiment": 0.88,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?",
+        "The World Is Changing. Tech\u2019s Top Spot Isn\u2019t.",
+        "SpaceX Launches. The Future Remains Murky."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.5177,
+      "price": 511.1199951171875,
+      "rsi": 80.7366611054082,
+      "momentum_5d": -0.0073688213252261995,
+      "momentum_1d": 0.1154221258818681,
+      "macd_crossover": false,
+      "atr_pct": 0.023151569627288475,
+      "bollinger_pct_b": 0.7823,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.826,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Xbox fans waiting on Project Helix get unexpected news from Wedbush",
+        "AMD Meta AI Chip Pact Puts Data Center Growth And Valuation In Focus",
+        "Citi resets AMD stock price target on key move"
       ],
       "high_impact_news": true
     }
