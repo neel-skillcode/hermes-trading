@@ -152,8 +152,8 @@
     "mode": "paper",
     "strategy_version": "17",
     "status": "open",
-    "price_trough": 0.7934499979019165,
-    "trailing_stop_price": 0.799798
+    "price_trough": 0.7926099896430969,
+    "trailing_stop_price": 0.798951
   },
   "AUD/USD": {
     "id": "AUD/USD_20260611164415",
@@ -213,231 +213,8 @@
     "mode": "paper",
     "strategy_version": "19",
     "status": "open",
-    "price_peak": 43.650001525878906,
-    "trailing_stop_price": 41.776107
-  },
-  "INTC": {
-    "id": "INTC_20260612163524",
-    "asset": "INTC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 124.79000091552734,
-    "entry_time": "2026-06-12T16:35:24.172943+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 4956.26,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (86.2)",
-      "5d momentum +6.16%",
-      "1d momentum +14.05%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "Intel stock pops on upgrade from BofA, citing CPU growth opportunity",
-      "CPU market to grow 5x by 2030, BofA says",
-      "Goldman Sachs doubles down on stock market outlook for 2026"
-    ],
-    "mode": "paper",
-    "strategy_version": "20",
-    "status": "open",
-    "price_trough": 124.56999969482422,
-    "trailing_stop_price": 126.43855
-  },
-  "QCOM": {
-    "id": "QCOM_20260612163524",
-    "asset": "QCOM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 213.9499969482422,
-    "entry_time": "2026-06-12T16:35:24.174709+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 4956.26,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (88.4)",
-      "5d momentum +5.72%",
-      "1d momentum +3.51%",
-      "BB overbought (pct_b=0.95)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.714,
-    "news_headlines": [
-      "Buy, Hold, or Sell: Arm Holdings Shed 25% to Clear the Air as the Warsh Fed Digs In. Is It a Buy at $342?",
-      "What A Patient Investor Really Pays For Broadcom Stock",
-      "AMD and Qualcomm Shares Are Soaring, What You Need To Know"
-    ],
-    "mode": "paper",
-    "strategy_version": "20",
-    "status": "open",
-    "price_trough": 211.72000122070312,
-    "trailing_stop_price": 214.895801
-  },
-  "KLAC": {
-    "id": "KLAC_20260612163524",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 250.7949981689453,
-    "entry_time": "2026-06-12T16:35:24.176501+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 4063.6,
-    "position_size_pct": 0.0417,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (90.6)",
-      "5d momentum +4.17%",
-      "1d momentum +13.76%",
-      "BB overbought (pct_b=0.89)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.415,
-    "news_headlines": [
-      "US Stock Market Today S&P 500 Futures Climb On Hot Inflation And Fed Jitters",
-      "Is Jeff Bezos\u2019 New Startup An Even Bigger Idea than Amazon? He Tells CNBC it Will Drive \u2018Civilizational Wealth.\u2019",
-      "How Oracle, KLA, Intel, EchoStar, and More Stocks Explain Today\u2019s Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "20",
-    "status": "open"
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260614221623",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1720.0,
-    "entry_time": "2026-06-14T22:16:23.007206+00:00",
-    "stop_loss_pct": 0.00682,
-    "take_profit_pct": 0.0166,
-    "size_usd": 5637.29,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (75.9)",
-      "5d momentum +3.56%",
-      "1d momentum +2.33%",
-      "BB overbought (pct_b=1.20)",
-      "Volume spike 3.4\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.676,
-    "news_headlines": [
-      "BitMine's Preferred Stock Begins Trading This Week As Ethereum Heads For Its Worst First Half Since 2022",
-      "Coinbase's D'Agostino reveals the plan to put all of finance on one app",
-      "Tether USDT Briefly Overtakes Ethereum in Market Cap: A $187B Wake-Up Call"
-    ],
-    "mode": "paper",
-    "strategy_version": "24",
-    "status": "open",
-    "price_trough": 1715.3299560546875,
-    "trailing_stop_price": 1727.028506
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260614221623",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.08833999931812286,
-    "entry_time": "2026-06-14T22:16:23.014082+00:00",
-    "stop_loss_pct": 0.00713,
-    "take_profit_pct": 0.01736,
-    "size_usd": 3454.13,
-    "position_size_pct": 0.0341,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (63.1)",
-      "5d momentum +2.36%",
-      "1d momentum +0.60%",
-      "BB overbought (pct_b=0.96)",
-      "Volume spike 4.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.317,
-    "news_headlines": [
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-      "Robert Reich Calls Elon Musk's SpaceX IPO 'The Universe's Largest Ponzi Scheme'",
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-    ],
-    "mode": "paper",
-    "strategy_version": "24",
-    "status": "open"
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260614221623",
-    "asset": "BNB-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 613.510009765625,
-    "entry_time": "2026-06-14T22:16:23.016407+00:00",
-    "stop_loss_pct": 0.01668,
-    "take_profit_pct": 0.05694,
-    "size_usd": 8047.72,
-    "position_size_pct": 0.0795,
-    "confidence": 0.828,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +1.58%",
-      "1d momentum +0.77%",
-      "BB overbought (pct_b=0.86)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge; price decline"
-    ],
-    "news_sentiment": 0.189,
-    "news_headlines": [
-      "Hyperliquid Emerges As 'Superior' Alternative After SpaceX IPO Lockup Chaos",
-      "SIREN Token Crashes 75% as Whale Triggers a Massive Sell-Off",
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000 Level"
-    ],
-    "mode": "paper",
-    "strategy_version": "24",
-    "status": "open",
-    "price_trough": 613.0999755859375,
-    "trailing_stop_price": 623.326483
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260614233933",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 65577.6875,
-    "entry_time": "2026-06-14T23:39:33.876843+00:00",
-    "stop_loss_pct": 0.00557,
-    "take_profit_pct": 0.01355,
-    "size_usd": 5620.69,
-    "position_size_pct": 0.0555,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (67.2)",
-      "5d momentum +2.83%",
-      "1d momentum +1.86%",
-      "BB overbought (pct_b=1.09)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.086,
-    "news_headlines": [
-      "Donald Trump: Deal With Iran is Complete \u2013 Bitcoin, Gold and Oil React",
-      "New MicroStrategy Bitcoin Metrics: Innovation or Goalpost Moving by Michael Saylor?",
-      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?"
-    ],
-    "mode": "paper",
-    "strategy_version": "25",
-    "status": "open",
-    "price_trough": 65477.859375,
-    "trailing_stop_price": 65842.571052
+    "price_peak": 44.59000015258789,
+    "trailing_stop_price": 42.675751
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -470,36 +247,6 @@
     "price_trough": 1.160092830657959,
     "trailing_stop_price": 1.169374
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260615020407",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 71.08000183105469,
-    "entry_time": "2026-06-15T02:04:07.255422+00:00",
-    "stop_loss_pct": 0.00943,
-    "take_profit_pct": 0.0226,
-    "size_usd": 5135.49,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (82.3)",
-      "5d momentum +1.38%",
-      "1d momentum +3.30%",
-      "BB overbought (pct_b=0.91)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.314,
-    "news_headlines": [
-      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-      "Elon Musk's SpaceX Is Coming To Solana Via Tokenized Shares, Says Foundation President",
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP"
-    ],
-    "mode": "paper",
-    "strategy_version": "25",
-    "status": "open"
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260615020407",
     "asset": "AUD/JPY",
@@ -527,33 +274,247 @@
     ],
     "mode": "paper",
     "strategy_version": "25",
+    "status": "open",
+    "price_trough": 113.2509994506836,
+    "trailing_stop_price": 113.477501
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260615133445",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1816.199951171875,
+    "entry_time": "2026-06-15T13:34:45.792146+00:00",
+    "stop_loss_pct": 0.00833,
+    "take_profit_pct": 0.02028,
+    "size_usd": 5548.83,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (85.2)",
+      "5d momentum +5.64%",
+      "1d momentum +9.07%",
+      "BB overbought (pct_b=1.19)",
+      "Volume spike 3.9\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.574,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Monday, June 15, 2026: Prices rising after U.S., Iran agree to ceasefire deal",
+      "Bitcoin Jumps Above $65,000 As Fed Risk Looms",
+      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
     "status": "open"
   },
   "XRP-USD": {
-    "id": "XRP-USD_20260615020407",
+    "id": "XRP-USD_20260615133445",
     "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.1828999519348145,
-    "entry_time": "2026-06-15T02:04:07.258731+00:00",
-    "stop_loss_pct": 0.00851,
-    "take_profit_pct": 0.02073,
-    "size_usd": 947.58,
-    "position_size_pct": 0.0094,
-    "confidence": 0.874,
+    "entry_price": 1.2480000257492065,
+    "entry_time": "2026-06-15T13:34:45.793989+00:00",
+    "stop_loss_pct": 0.0095,
+    "take_profit_pct": 0.02313,
+    "size_usd": 5548.83,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI overbought (81.4)",
-      "5d momentum +1.27%",
-      "1d momentum +2.74%",
-      "BB overbought (pct_b=0.91)",
+      "RSI overbought (88.0)",
+      "5d momentum +5.74%",
+      "1d momentum +10.00%",
+      "BB overbought (pct_b=1.04)",
+      "Volume spike 2.2\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": 0.0,
+    "news_sentiment": 0.349,
     "news_headlines": [
-      "What Is the Best Crypto to Buy Right Now in 2026: Bitcoin, XRP, Solana, or Hyperliquid?",
-      "A $1.9 Trillion Manager Can Now Hold XRP: What T. Rowe Price\u2019s New Crypto ETF Means for XRP",
-      "Why Is Institutional Money Pouring Into XRP ETFs While Fleeing Bitcoin and Ethereum?"
+      "Bitcoin Jumps Above $65,000 As Fed Risk Looms",
+      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal",
+      "Ripple Targets $1 Billion Revenue Run Rate by 2026, Excluding XRP"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "XOM": {
+    "id": "XOM_20260615133445",
+    "asset": "XOM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 138.36000061035156,
+    "entry_time": "2026-06-15T13:34:45.795638+00:00",
+    "stop_loss_pct": 0.01411,
+    "take_profit_pct": 0.03521,
+    "size_usd": 6314.19,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (13.2)",
+      "5d momentum -6.70%",
+      "1d momentum -7.03%",
+      "BB oversold (pct_b=-0.37)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: ma catalyst"
+    ],
+    "news_sentiment": 0.487,
+    "news_headlines": [
+      "1 Unstoppable Vanguard ETF to Buy and Hold for the Next Decade",
+      "Wall St set for higher open on Iran deal optimism, lower oil prices",
+      "Update: US-Iran Peace Deal Announcement Lifts US Equity Futures Pre-Bell"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "IONQ": {
+    "id": "IONQ_20260615133445",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 62.310001373291016,
+    "entry_time": "2026-06-15T13:34:45.797255+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5064.11,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (72.9)",
+      "5d momentum +7.14%",
+      "1d momentum +9.76%",
+      "BB overbought (pct_b=1.38)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.725,
+    "news_headlines": [
+      "Why IonQ Stock Ended This Week in the Green Despite Early Sell-Offs",
+      "Is SkyWater Technology, Inc. (SKYT) A Good Stock To Buy Now?",
+      "The Quantum Race Is Heating Up, and Governments Worldwide Are Buying In"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "HOOD": {
+    "id": "HOOD_20260615133445",
+    "asset": "HOOD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 99.81999969482422,
+    "entry_time": "2026-06-15T13:34:45.798953+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5064.11,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (80.5)",
+      "5d momentum +7.14%",
+      "1d momentum +19.88%",
+      "BB overbought (pct_b=1.17)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.644,
+    "news_headlines": [
+      "Prediction Markets See Record Volumes From World Cup Betting",
+      "Bitcoin Just Surpassed a Key Level. It\u2019s Driving These Crypto Stocks Higher.",
+      "Stocks to Watch: SpaceX, Micron Technology, Remy Cointreau"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "VLO": {
+    "id": "VLO_20260615133445",
+    "asset": "VLO",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 244.3800048828125,
+    "entry_time": "2026-06-15T13:34:45.800660+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6314.19,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (24.9)",
+      "5d momentum -6.53%",
+      "1d momentum -3.25%",
+      "BB oversold (pct_b=-0.48)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.627,
+    "news_headlines": [
+      "Morgan Stanley Raises PT on Valero Energy (VLO) Stock",
+      "Valero Energy (VLO) Stock After 96% One\u2011Year Surge Is There Still Value",
+      "Stocks See Support from Hopes for a Near-term US-Iran Peace Agreement"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260615133445",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 74.06999969482422,
+    "entry_time": "2026-06-15T13:34:45.802420+00:00",
+    "stop_loss_pct": 0.00884,
+    "take_profit_pct": 0.02153,
+    "size_usd": 355.12,
+    "position_size_pct": 0.0036,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (82.8)",
+      "5d momentum +3.97%",
+      "1d momentum +9.39%",
+      "BB overbought (pct_b=1.00)",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.17,
+    "news_headlines": [
+      "Bitcoin Jumps Above $65,000 As Fed Risk Looms",
+      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal",
+      "Altcoin Season Is Warming, yet the Solana Network Is Flashing Early Risk-Off"
+    ],
+    "mode": "paper",
+    "strategy_version": "25",
+    "status": "open"
+  },
+  "SNAP": {
+    "id": "SNAP_20260615133445",
+    "asset": "SNAP",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 5.534999847412109,
+    "entry_time": "2026-06-15T13:34:45.832256+00:00",
+    "stop_loss_pct": 0.04874,
+    "take_profit_pct": 0.15998,
+    "size_usd": 5395.76,
+    "position_size_pct": 0.0541,
+    "confidence": 0.564,
+    "signals": [
+      "RSI overbought (79.2)",
+      "5d momentum +5.93%",
+      "BB overbought (pct_b=1.20)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.576,
+    "news_headlines": [
+      "UK Seeks One of World\u2019s Strictest Social Media Bans for Kids",
+      "Snap (SNAP) Stock Drops Despite Market Gains: Important Facts to Note",
+      "Tech Stocks' 'Big Tobacco Moment': What Battles Over Key Legal Shield Mean For Meta, Google"
     ],
     "mode": "paper",
     "strategy_version": "25",
