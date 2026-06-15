@@ -213,8 +213,8 @@
     "mode": "paper",
     "strategy_version": "19",
     "status": "open",
-    "price_peak": 44.59000015258789,
-    "trailing_stop_price": 42.675751
+    "price_peak": 45.43000030517578,
+    "trailing_stop_price": 43.47969
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -309,37 +309,6 @@
     "strategy_version": "25",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260615133445",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.2480000257492065,
-    "entry_time": "2026-06-15T13:34:45.793989+00:00",
-    "stop_loss_pct": 0.0095,
-    "take_profit_pct": 0.02313,
-    "size_usd": 5548.83,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (88.0)",
-      "5d momentum +5.74%",
-      "1d momentum +10.00%",
-      "BB overbought (pct_b=1.04)",
-      "Volume spike 2.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.349,
-    "news_headlines": [
-      "Bitcoin Jumps Above $65,000 As Fed Risk Looms",
-      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal",
-      "Ripple Targets $1 Billion Revenue Run Rate by 2026, Excluding XRP"
-    ],
-    "mode": "paper",
-    "strategy_version": "25",
-    "status": "open"
-  },
   "XOM": {
     "id": "XOM_20260615133445",
     "asset": "XOM",
@@ -368,7 +337,9 @@
     ],
     "mode": "paper",
     "strategy_version": "25",
-    "status": "open"
+    "status": "open",
+    "price_peak": 141.26010131835938,
+    "trailing_stop_price": 139.266921
   },
   "IONQ": {
     "id": "IONQ_20260615133445",
@@ -428,7 +399,9 @@
     ],
     "mode": "paper",
     "strategy_version": "25",
-    "status": "open"
+    "status": "open",
+    "price_trough": 99.54499816894531,
+    "trailing_stop_price": 101.038173
   },
   "VLO": {
     "id": "VLO_20260615133445",
@@ -458,38 +431,9 @@
     ],
     "mode": "paper",
     "strategy_version": "25",
-    "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260615133445",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 74.06999969482422,
-    "entry_time": "2026-06-15T13:34:45.802420+00:00",
-    "stop_loss_pct": 0.00884,
-    "take_profit_pct": 0.02153,
-    "size_usd": 355.12,
-    "position_size_pct": 0.0036,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (82.8)",
-      "5d momentum +3.97%",
-      "1d momentum +9.39%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 3.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.17,
-    "news_headlines": [
-      "Bitcoin Jumps Above $65,000 As Fed Risk Looms",
-      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal",
-      "Altcoin Season Is Warming, yet the Solana Network Is Flashing Early Risk-Off"
-    ],
-    "mode": "paper",
-    "strategy_version": "25",
-    "status": "open"
+    "status": "open",
+    "price_peak": 248.01499938964844,
+    "trailing_stop_price": 244.294774
   },
   "SNAP": {
     "id": "SNAP_20260615133445",
@@ -518,6 +462,66 @@
     ],
     "mode": "paper",
     "strategy_version": "25",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260615181317",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 307.5,
+    "entry_time": "2026-06-15T18:13:17.744431+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5056.84,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (78.0)",
+      "5d momentum +9.98%",
+      "1d momentum +19.32%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst"
+    ],
+    "news_sentiment": 0.676,
+    "news_headlines": [
+      "The Console Cycle That Could Test Advanced Micro Stock",
+      "Jensen Huang Says Marvell Technology Is the Next Trillion-Dollar Company. How Quickly Can It Get There?",
+      "Marvell Technology CEO Matt Murphy Believes This Is The 'Most Beautiful Thing' One Person Can Do For Another And It Can 'Change Their Life'"
+    ],
+    "mode": "paper",
+    "strategy_version": "26",
+    "status": "open"
+  },
+  "ON": {
+    "id": "ON_20260615181317",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 125.2699966430664,
+    "entry_time": "2026-06-15T18:13:17.745852+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 789.93,
+    "position_size_pct": 0.0079,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (84.2)",
+      "5d momentum +7.29%",
+      "1d momentum +13.64%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [neutral]: analyst upgrade"
+    ],
+    "news_sentiment": 0.321,
+    "news_headlines": [
+      "onsemi Trades at a Discount: Buy, Hold or Sell the Stock?",
+      "ON Semiconductor Shares Climb After Citi Highlights Potential Upside Ahead of Analyst Day (ON)",
+      "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?"
+    ],
+    "mode": "paper",
+    "strategy_version": "26",
     "status": "open"
   }
 }
