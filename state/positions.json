@@ -466,8 +466,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 186.28599548339844,
-    "trailing_stop_price": 187.776283
+    "price_trough": 186.22799682617188,
+    "trailing_stop_price": 187.717821
   },
   "XRP-USD": {
     "id": "XRP-USD_20260616202431",
@@ -496,7 +496,9 @@
     ],
     "mode": "paper",
     "strategy_version": "27",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.2168999910354614,
+    "trailing_stop_price": 1.227487
   },
   "BNB-USD": {
     "id": "BNB-USD_20260616202431",
@@ -522,6 +524,38 @@
       "Top Cryptocurrencies Lower; Bitcoin Falls Below $66,000 Level",
       "SpaceX Appetite Among Crypto Retail Investors Bigger Than Expected, Says Top Analyst\u2014Points To Billions In Derivatives Traded On Binance",
       "Top Cryptocurrencies Rise; Bitcoin Tops $66,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "27",
+    "status": "open",
+    "price_trough": 605.4000244140625,
+    "trailing_stop_price": 608.778157
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260616222737",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 65672.4765625,
+    "entry_time": "2026-06-16T22:27:37.680648+00:00",
+    "stop_loss_pct": 0.00547,
+    "take_profit_pct": 0.01318,
+    "size_usd": 4404.02,
+    "position_size_pct": 0.0435,
+    "confidence": 0.817,
+    "signals": [
+      "RSI oversold (25.2)",
+      "5d momentum -0.37%",
+      "1d momentum -0.73%",
+      "Volume spike 3.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.353,
+    "news_headlines": [
+      "BlackRock is launching a bitcoin ETF that pays you",
+      "How SpaceX mania made Musk more money in 1 day than 'Bill Gates' entire net worth'",
+      "Veteran investor reveals one way out of $40 trillion U.S. debt"
     ],
     "mode": "paper",
     "strategy_version": "27",
