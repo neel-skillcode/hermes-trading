@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99512.8,
+  "portfolio_balance": 99652.42,
   "portfolio_peak": 101244.44,
-  "portfolio_drawdown_pct": 1.71,
-  "unrealized_pnl_usd": 913.9,
-  "equity_value": 100426.7,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "portfolio_drawdown_pct": 1.57,
+  "unrealized_pnl_usd": 850.09,
+  "equity_value": 100502.51,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39805.12,
+  "day_capital_used_usd": 39860.97,
   "swing_capital_used_usd": 41876.99,
-  "total_trades": 278,
-  "last_tick": "2026-06-16T01:48:15.024211+00:00",
+  "total_trades": 279,
+  "last_tick": "2026-06-16T07:10:37.498642+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 2,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9229000210762024,
       "trailing_stop_price": 0.915517,
-      "current_price": 0.92097,
-      "unrealized_pnl_pct": 0.011544,
-      "unrealized_pnl_usd": 15.51
+      "current_price": 0.92122,
+      "unrealized_pnl_pct": 0.011818,
+      "unrealized_pnl_usd": 15.88
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 1.0694799423217773,
       "trailing_stop_price": 1.060924,
-      "current_price": 1.06556,
-      "unrealized_pnl_pct": 0.010997,
-      "unrealized_pnl_usd": 14.78
+      "current_price": 1.06603,
+      "unrealized_pnl_pct": 0.011442,
+      "unrealized_pnl_usd": 15.38
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 7.83804988861084,
       "trailing_stop_price": 7.775345,
-      "current_price": 7.83338,
-      "unrealized_pnl_pct": -0.000117,
-      "unrealized_pnl_usd": -0.16
+      "current_price": 7.83218,
+      "unrealized_pnl_pct": -0.000271,
+      "unrealized_pnl_usd": -0.36
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -127,9 +127,9 @@
       "status": "open",
       "price_peak": 160.55099487304688,
       "trailing_stop_price": 159.266587,
-      "current_price": 160.139999,
-      "unrealized_pnl_pct": 0.0061,
-      "unrealized_pnl_usd": 23.7
+      "current_price": 160.259995,
+      "unrealized_pnl_pct": 0.006854,
+      "unrealized_pnl_usd": 26.63
     },
     {
       "id": "EUR/GBP_20260605201553",
@@ -159,9 +159,9 @@
       "status": "open",
       "price_peak": 0.8650199770927429,
       "trailing_stop_price": 0.8581,
-      "current_price": 0.86419,
-      "unrealized_pnl_pct": 0.000255,
-      "unrealized_pnl_usd": 0.74
+      "current_price": 0.86408,
+      "unrealized_pnl_pct": 0.000127,
+      "unrealized_pnl_usd": 0.37
     },
     {
       "id": "USD/CHF_20260609164749",
@@ -187,9 +187,9 @@
       "status": "open",
       "price_trough": 0.7926099896430969,
       "trailing_stop_price": 0.798951,
-      "current_price": 0.79461,
-      "unrealized_pnl_pct": 0.004822,
-      "unrealized_pnl_usd": 26.45
+      "current_price": 0.79493,
+      "unrealized_pnl_pct": 0.004421,
+      "unrealized_pnl_usd": 24.25
     },
     {
       "id": "AUD/USD_20260611164415",
@@ -220,9 +220,9 @@
       "status": "open",
       "price_peak": 0.7085163593292236,
       "trailing_stop_price": 0.702848,
-      "current_price": 0.706664,
-      "unrealized_pnl_pct": 0.010105,
-      "unrealized_pnl_usd": 62.22
+      "current_price": 0.706165,
+      "unrealized_pnl_pct": 0.009392,
+      "unrealized_pnl_usd": 57.82
     },
     {
       "id": "RBLX_20260611164415",
@@ -320,47 +320,11 @@
       "mode": "paper",
       "strategy_version": "25",
       "status": "open",
-      "price_trough": 113.1449966430664,
-      "trailing_stop_price": 113.371287,
-      "current_price": 113.148003,
-      "unrealized_pnl_pct": 0.001747,
-      "unrealized_pnl_usd": 9.87
-    },
-    {
-      "id": "ETH-USD_20260615133445",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1816.199951171875,
-      "entry_time": "2026-06-15T13:34:45.792146+00:00",
-      "stop_loss_pct": 0.00833,
-      "take_profit_pct": 0.02028,
-      "size_usd": 5548.83,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (85.2)",
-        "5d momentum +5.64%",
-        "1d momentum +9.07%",
-        "BB overbought (pct_b=1.19)",
-        "Volume spike 3.9\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": 0.574,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Monday, June 15, 2026: Prices rising after U.S., Iran agree to ceasefire deal",
-        "Bitcoin Jumps Above $65,000 As Fed Risk Looms",
-        "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal"
-      ],
-      "mode": "paper",
-      "strategy_version": "25",
-      "status": "open",
-      "price_trough": 1795.6800537109375,
-      "trailing_stop_price": 1810.638069,
-      "current_price": 1795.98999,
-      "unrealized_pnl_pct": 0.011128,
-      "unrealized_pnl_usd": 61.75
+      "price_trough": 113.11699676513672,
+      "trailing_stop_price": 113.343231,
+      "current_price": 113.124001,
+      "unrealized_pnl_pct": 0.001959,
+      "unrealized_pnl_usd": 11.07
     },
     {
       "id": "XOM_20260615133445",
@@ -599,12 +563,76 @@
       "current_price": 125.889999,
       "unrealized_pnl_pct": -0.004949,
       "unrealized_pnl_usd": -3.91
+    },
+    {
+      "id": "XRP-USD_20260616071037",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1.236899971961975,
+      "entry_time": "2026-06-16T07:10:37.491858+00:00",
+      "stop_loss_pct": 0.00929,
+      "take_profit_pct": 0.02213,
+      "size_usd": 4872.6,
+      "position_size_pct": 0.0489,
+      "confidence": 0.764,
+      "signals": [
+        "RSI oversold (26.6)",
+        "5d momentum +1.66%",
+        "1d momentum +4.78%",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: price surge; macro risk"
+      ],
+      "news_sentiment": 0.75,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Extend Rally On Iran Deal Optimism: Analyst Says BTC 'At Least Close' To Forming A Bottom",
+        "Iran-US peace deal sends Bitcoin, XRP surging",
+        "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal"
+      ],
+      "mode": "paper",
+      "strategy_version": "26",
+      "status": "open",
+      "current_price": 1.2369,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SOL-USD_20260616071037",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 74.37000274658203,
+      "entry_time": "2026-06-16T07:10:37.494007+00:00",
+      "stop_loss_pct": 0.00827,
+      "take_profit_pct": 0.01945,
+      "size_usd": 732.08,
+      "position_size_pct": 0.0073,
+      "confidence": 0.704,
+      "signals": [
+        "RSI oversold (41.1)",
+        "5d momentum +1.89%",
+        "1d momentum +4.42%",
+        "High-impact catalyst",
+        "Claude [supports]: price surge; macro risk"
+      ],
+      "news_sentiment": 0.368,
+      "news_headlines": [
+        "Kevin Warsh Opens First Fed Meeting: What Crypto Traders Must Watch",
+        "Bitcoin, Ethereum, XRP, Dogecoin Extend Rally On Iran Deal Optimism: Analyst Says BTC 'At Least Close' To Forming A Bottom",
+        "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal"
+      ],
+      "mode": "paper",
+      "strategy_version": "26",
+      "status": "open",
+      "current_price": 74.370003,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "ON",
-      "rank_score": 0.724,
+      "rank_score": 0.736,
       "price": 125.88999938964844,
       "rsi": 80.48775949206916,
       "momentum_5d": 0.028093119862308273,
@@ -614,18 +642,18 @@
       "bollinger_pct_b": 0.9119,
       "volume_spike": true,
       "volume_spike_ratio": 2.0,
-      "news_sentiment": 0.321,
+      "news_sentiment": 0.547,
       "news_confidence": 0.53,
       "news_headlines": [
+        "Impinj and onsemi Shares Skyrocket, What You Need To Know",
         "onsemi Trades at a Discount: Buy, Hold or Sell the Stock?",
-        "ON Semiconductor Shares Climb After Citi Highlights Potential Upside Ahead of Analyst Day (ON)",
-        "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?"
+        "ON Semiconductor Shares Climb After Citi Highlights Potential Upside Ahead of Analyst Day (ON)"
       ],
       "high_impact_news": true
     },
     {
       "asset": "KLAC",
-      "rank_score": 0.6805,
+      "rank_score": 0.6855,
       "price": 256.3599853515625,
       "rsi": 82.81543278330075,
       "momentum_5d": 0.013721325359994048,
@@ -635,18 +663,39 @@
       "bollinger_pct_b": 0.7597,
       "volume_spike": true,
       "volume_spike_ratio": 2.61,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.625,
+      "news_confidence": 0.48,
       "news_headlines": [
+        "Barlcays Lifts KLA (KLAC) Price Target by $500. Here is Why",
         "Amkor Technology Stock Is An Amplifier, Not An Alternative",
-        "The Zacks Analyst Blog Highlights Costco, Lam Research, KLA, Blue Ridge and AXIL",
-        "Jim Cramer Calls KLA Corporation \u201cToo Risky\u201d"
+        "The Zacks Analyst Blog Highlights Costco, Lam Research, KLA, Blue Ridge and AXIL"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.6798,
+      "price": 547.260009765625,
+      "rsi": 81.61528630449935,
+      "momentum_5d": -0.004148866966700109,
+      "momentum_1d": 0.20725334255370687,
+      "macd_crossover": false,
+      "atr_pct": 0.02068519012667039,
+      "bollinger_pct_b": 0.7736,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.38,
+      "news_sentiment": 0.923,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "Chip stocks surge, oil slides closer to $80 on US-Iran deal, Fox to acquire Roku",
+        "Why Did AMD, WULF, AMAT Stocks Jump To 52-Week Highs?",
+        "Intel gets a $170 billion AI reason to matter again"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ARM",
-      "rank_score": 0.6728,
+      "rank_score": 0.6778,
       "price": 412.489990234375,
       "rsi": 85.17292376448935,
       "momentum_5d": 0.04668982736803174,
@@ -656,12 +705,12 @@
       "bollinger_pct_b": 0.8377,
       "volume_spike": false,
       "volume_spike_ratio": 0.69,
-      "news_sentiment": 0.591,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.66,
+      "news_confidence": 0.47,
       "news_headlines": [
+        "Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Optimism",
         "Stocks Rally as US-Iran Peace Deal Sinks Oil and Bond Yields",
-        "Chips Up 8.8% in One Week: 5 Semiconductor Names Breaking Into New Highs",
-        "Arm Holdings (ARM) Gets BofA Backing, 37% PT Upgrade, Climbs 11%"
+        "Chips Up 8.8% in One Week: 5 Semiconductor Names Breaking Into New Highs"
       ],
       "high_impact_news": true
     },
@@ -687,29 +736,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMD",
-      "rank_score": 0.6698,
-      "price": 547.260009765625,
-      "rsi": 81.61528630449935,
-      "momentum_5d": -0.004148866966700109,
-      "momentum_1d": 0.20725334255370687,
-      "macd_crossover": false,
-      "atr_pct": 0.02068519012667039,
-      "bollinger_pct_b": 0.7736,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.38,
-      "news_sentiment": 0.826,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Chip stocks surge, oil slides closer to $80 on US-Iran deal, Fox to acquire Roku",
-        "Intel gets a $170 billion AI reason to matter again",
-        "AMD\u2019s MEXT Deal And Ryzen AI Halo Sharpen AI Valuation Debate"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AXP",
-      "rank_score": 0.6502,
+      "rank_score": 0.6522,
       "price": 335.4599914550781,
       "rsi": 86.60114078873775,
       "momentum_5d": -0.007748824808660183,
@@ -719,39 +747,18 @@
       "bollinger_pct_b": 0.7609,
       "volume_spike": true,
       "volume_spike_ratio": 1.91,
-      "news_sentiment": 0.73,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.744,
+      "news_confidence": 0.39,
       "news_headlines": [
         "Amex Gold vs. Chase Sapphire Preferred: Two of the best travel cards for everyday rewards",
         "Amex Business Platinum vs. Amex Personal Platinum: Is one better than the other?",
-        "Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's SpaceX Rockets, Tesla Does This"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6161,
-      "price": 1795.989990234375,
-      "rsi": 70.02493880324832,
-      "momentum_5d": -0.017113065116146704,
-      "momentum_1d": 0.041316618005479235,
-      "macd_crossover": false,
-      "atr_pct": 0.01162908264697529,
-      "bollinger_pct_b": 0.5865,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.16,
-      "news_sentiment": 0.811,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Bitcoin tops $66K after Middle East peace pact sparks rally",
-        "Bitcoin and ethereum prices today, Monday, June 15, 2026: Prices rising after U.S., Iran agree to ceasefire deal",
-        "Standard Chartered Says UNI Could Hit $100 as Wall Street Moves Onchain"
+        "American Express Expands Dining Ecosystem With TheFork Acquisition From Tripadvisor"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SNAP",
-      "rank_score": 0.6065,
+      "rank_score": 0.6168,
       "price": 5.71999979019165,
       "rsi": 75.33332528007843,
       "momentum_5d": 0.010600696889943285,
@@ -761,18 +768,18 @@
       "bollinger_pct_b": 0.9106,
       "volume_spike": true,
       "volume_spike_ratio": 1.5,
-      "news_sentiment": 0.273,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.439,
+      "news_confidence": 0.44,
       "news_headlines": [
-        "U.K. Proposes Teen Social Media Ban. Why Meta Stock Isn\u2019t at Risk.",
-        "Meta, Snap and YouTube Face New Pressure",
-        "UK Seeks One of World\u2019s Strictest Social Media Bans for Kids"
+        "Bumble, Snap, and Lyft Stocks Trade Up, What You Need To Know",
+        "Why Snap (SNAP) Stock Is Trading Up Today",
+        "Snap\u2019s AR Push And Debt Upgrade Reframe Valuation And Risk Profile"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SLB",
-      "rank_score": 0.6019,
+      "rank_score": 0.6069,
       "price": 53.720001220703125,
       "rsi": 21.553890941770916,
       "momentum_5d": -0.007023979004356935,
@@ -782,18 +789,39 @@
       "bollinger_pct_b": 0.1251,
       "volume_spike": true,
       "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.278,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.39,
       "news_headlines": [
         "Why SLB (SLB) Stock Is Down Today",
         "SLB (SLB) Stock Dips While Market Gains: Key Facts",
-        "Is SLB (SLB) the Best Turnaround Stock to Buy in 2026?"
+        "Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Optimism"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LYFT",
+      "rank_score": 0.6052,
+      "price": 14.229999542236328,
+      "rsi": 68.42102445285909,
+      "momentum_5d": -0.01146237653909581,
+      "momentum_1d": 0.040584961152504415,
+      "macd_crossover": false,
+      "atr_pct": 0.01340126917099897,
+      "bollinger_pct_b": 0.8116,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.86,
+      "news_sentiment": 0.474,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Bumble, Snap, and Lyft Stocks Trade Up, What You Need To Know",
+        "Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Optimism",
+        "How Investors Are Reacting To Lyft (LYFT) Illinois Driver Unionization And Governance Overhaul"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MPC",
-      "rank_score": 0.6019,
+      "rank_score": 0.601,
       "price": 250.92999267578125,
       "rsi": 32.58213087409989,
       "momentum_5d": -0.003811214086281186,
@@ -803,18 +831,18 @@
       "bollinger_pct_b": 0.1315,
       "volume_spike": true,
       "volume_spike_ratio": 1.75,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.564,
+      "news_confidence": 0.55,
       "news_headlines": [
         "Stocks to Watch Recap: SpaceX, Micron Technology, Remy Cointreau",
-        "Oil Prices Slump, Exxon and Valero Stocks Drop on Deal Between the U.S. and Iran",
-        "Exxon, Chevron Lead Energy Stocks Sell-off as Crude Prices Sink 5%"
+        "Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Optimism",
+        "Oil Prices Slump, Exxon and Valero Stocks Drop on Deal Between the U.S. and Iran"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.5889,
+      "rank_score": 0.5939,
       "price": 308.8800048828125,
       "rsi": 76.03053895998261,
       "momentum_5d": 0.04630563361863328,
@@ -824,14 +852,77 @@
       "bollinger_pct_b": 0.911,
       "volume_spike": false,
       "volume_spike_ratio": 0.94,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.814,
+      "news_confidence": 0.43,
       "news_headlines": [
         "Intel gets a $170 billion AI reason to matter again",
         "Stocks to Watch Recap: SpaceX, Micron Technology, Remy Cointreau",
         "Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's SpaceX Rockets, Tesla Does This"
       ],
       "high_impact_news": false
+    },
+    {
+      "asset": "HAL",
+      "rank_score": 0.5742,
+      "price": 38.18000030517578,
+      "rsi": 18.15943876761588,
+      "momentum_5d": -0.003913423394552935,
+      "momentum_1d": -0.051546409337522,
+      "macd_crossover": false,
+      "atr_pct": 0.010813430588938954,
+      "bollinger_pct_b": 0.1362,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.71,
+      "news_sentiment": 0.958,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Patterson-UTI, ProFrac, and ProPetro Shares Are Falling, What You Need To Know",
+        "Select Water Solutions and Core Laboratories Shares Plummet, What You Need To Know",
+        "Valaris, Transocean, and Helmerich & Payne Stocks Trade Down, What You Need To Know"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "SPY",
+      "rank_score": 0.5736,
+      "price": 754.6599731445312,
+      "rsi": 78.34762294931981,
+      "momentum_5d": -0.0006356986712321658,
+      "momentum_1d": 0.03436168994402775,
+      "macd_crossover": false,
+      "atr_pct": 0.0047296522791916845,
+      "bollinger_pct_b": 0.7934,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.53,
+      "news_sentiment": 0.545,
+      "news_confidence": 0.63,
+      "news_headlines": [
+        "Dow Hits Record High, Nasdaq And S&P 500 Jump On US-Iran Deal And SpaceX Optimism \u2014 SPCX, NVDA, ROKU, CRM, AMZN In Focus",
+        "Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Optimism",
+        "The Case For Mutual Fund-To-ETF Conversion: Flow Picture"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PYPL",
+      "rank_score": 0.57,
+      "price": 42.48500061035156,
+      "rsi": 66.2796230989091,
+      "momentum_5d": -0.012963749430139539,
+      "momentum_1d": 0.03837222680418907,
+      "macd_crossover": false,
+      "atr_pct": 0.010297598075410572,
+      "bollinger_pct_b": 0.7028,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.887,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "PayPal Rival PAYO Stock Heads For Best Month In Nearly 4 Years: Nuvei Deal Sparks Analyst Downgrades",
+        "A Look Back at Social Networking Stocks\u2019 Q1 Earnings: Yelp (NYSE:YELP) Vs The Rest Of The Pack",
+        "Exclusive: Substack hires Dan Robbins as head of brand sponsorships"
+      ],
+      "high_impact_news": true
     },
     {
       "asset": "XLK",
@@ -855,69 +946,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "HAL",
-      "rank_score": 0.5692,
-      "price": 38.18000030517578,
-      "rsi": 18.15943876761588,
-      "momentum_5d": -0.003913423394552935,
-      "momentum_1d": -0.051546409337522,
-      "macd_crossover": false,
-      "atr_pct": 0.010813430588938954,
-      "bollinger_pct_b": 0.1362,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.71,
-      "news_sentiment": 0.911,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Patterson-UTI, ProFrac, and ProPetro Shares Are Falling, What You Need To Know",
-        "Select Water Solutions and Core Laboratories Shares Plummet, What You Need To Know",
-        "Valaris, Transocean, and Helmerich & Payne Stocks Trade Down, What You Need To Know"
-      ],
-      "high_impact_news": false
-    },
-    {
-      "asset": "SPY",
-      "rank_score": 0.5686,
-      "price": 754.6599731445312,
-      "rsi": 78.34762294931981,
-      "momentum_5d": -0.0006356986712321658,
-      "momentum_1d": 0.03436168994402775,
-      "macd_crossover": false,
-      "atr_pct": 0.0047296522791916845,
-      "bollinger_pct_b": 0.7934,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.53,
-      "news_sentiment": 0.489,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Dow Hits Record High, Nasdaq And S&P 500 Jump On US-Iran Deal And SpaceX Optimism \u2014 SPCX, NVDA, ROKU, CRM, AMZN In Focus",
-        "The Case For Mutual Fund-To-ETF Conversion: Flow Picture",
-        "EHang Rockets 18%, Archer Zooms 10%, Joby Rises 7% as Air Taxi Stocks Fly Higher With the Broader Market"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PYPL",
-      "rank_score": 0.563,
-      "price": 42.48500061035156,
-      "rsi": 66.2796230989091,
-      "momentum_5d": -0.012963749430139539,
-      "momentum_1d": 0.03837222680418907,
-      "macd_crossover": false,
-      "atr_pct": 0.010297598075410572,
-      "bollinger_pct_b": 0.7028,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.833,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "A Look Back at Social Networking Stocks\u2019 Q1 Earnings: Yelp (NYSE:YELP) Vs The Rest Of The Pack",
-        "Exclusive: Substack hires Dan Robbins as head of brand sponsorships",
-        "2 Value Stocks to Target This Week and 1 Facing Challenges"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MU",
       "rank_score": 0.5554,
       "price": 1087.6300048828125,
@@ -933,14 +961,14 @@
       "news_confidence": 0.57,
       "news_headlines": [
         "Chip stocks surge, oil slides closer to $80 on US-Iran deal, Fox to acquire Roku",
-        "Dow Jones Futures: Trump, Iran Deal Spark Stock Market Surge; Nvidia, Micron, Sandisk, SpaceX Are Big Winners",
-        "Why Micron Stock Rocketed to a Record High Today"
+        "Why WDC, MU, STX, SNDK Stocks Rallied Hard Today And Lifted DRAM To \u2018Solid Breakout\u2019",
+        "Dow Jones Futures: Trump, Iran Deal Spark Stock Market Surge; Nvidia, Micron, Sandisk, SpaceX Are Big Winners"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AMAT",
-      "rank_score": 0.5478,
+      "rank_score": 0.5528,
       "price": 585.5,
       "rsi": 77.5,
       "momentum_5d": -0.014359592741416774,
@@ -950,12 +978,12 @@
       "bollinger_pct_b": 0.7335,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.708,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.765,
+      "news_confidence": 0.51,
       "news_headlines": [
+        "Why Did AMD, WULF, AMAT Stocks Jump To 52-Week Highs?",
         "Amkor Technology Stock Is An Amplifier, Not An Alternative",
-        "Applied Materials Stock And The Tell Hiding In Its Margins",
-        "Teradyne Stock: Is TER Outperforming the Technology Sector?"
+        "Applied Materials Stock And The Tell Hiding In Its Margins"
       ],
       "high_impact_news": true
     },
@@ -974,9 +1002,30 @@
       "news_sentiment": 0.755,
       "news_confidence": 0.53,
       "news_headlines": [
+        "Stocks Settle Sharply Higher as US-Iran Peace Deal Spurs Optimism",
         "Amkor Technology Stock Is An Amplifier, Not An Alternative",
-        "Is Lam Research (LRCX) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
-        "Applied Materials Stock And The Tell Hiding In Its Margins"
+        "Is Lam Research (LRCX) a Solid Growth Stock? 3 Reasons to Think \"Yes\""
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XOM",
+      "rank_score": 0.5413,
+      "price": 140.97000122070312,
+      "rsi": 26.195623331824493,
+      "momentum_5d": -0.0016642513176178416,
+      "momentum_1d": -0.07509098559577858,
+      "macd_crossover": false,
+      "atr_pct": 0.012462132908985844,
+      "bollinger_pct_b": 0.1547,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.47,
+      "news_sentiment": 0.709,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Chip stocks surge, oil slides closer to $80 on US-Iran deal, Fox to acquire Roku",
+        "Exxon Mobil Mulling Acquisition of Australia\u2019s Woodside Energy, Bloomberg Reports",
+        "Exxon Mobil (XOM) Stock Falls Amid Market Uptick: What Investors Need to Know"
       ],
       "high_impact_news": true
     },
@@ -998,27 +1047,6 @@
         "Is Electronic Arts Stock Outperforming the Dow?",
         "Roblox Shares Jump 5.37% After Russia Agencies Seek Ban Reversal",
         "Roblox (RBLX) Is Down 10.0% After Weak Q1 2026 Outlook And New Safety Measures - What's Changed"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XOM",
-      "rank_score": 0.5393,
-      "price": 140.97000122070312,
-      "rsi": 26.195623331824493,
-      "momentum_5d": -0.0016642513176178416,
-      "momentum_1d": -0.07509098559577858,
-      "macd_crossover": false,
-      "atr_pct": 0.012462132908985844,
-      "bollinger_pct_b": 0.1547,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.47,
-      "news_sentiment": 0.698,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Chip stocks surge, oil slides closer to $80 on US-Iran deal, Fox to acquire Roku",
-        "Exxon Mobil (XOM) Stock Falls Amid Market Uptick: What Investors Need to Know",
-        "Oil Prices Slump, Exxon and Valero Stocks Drop on Deal Between the U.S. and Iran"
       ],
       "high_impact_news": true
     }

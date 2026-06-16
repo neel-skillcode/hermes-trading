@@ -213,8 +213,8 @@
     "mode": "paper",
     "strategy_version": "19",
     "status": "open",
-    "price_peak": 45.43000030517578,
-    "trailing_stop_price": 43.47969
+    "price_peak": 45.65999984741211,
+    "trailing_stop_price": 43.699816
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -244,8 +244,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.160092830657959,
-    "trailing_stop_price": 1.169374
+    "price_trough": 1.1592857837677002,
+    "trailing_stop_price": 1.16856
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260615020407",
@@ -275,39 +275,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 113.2509994506836,
-    "trailing_stop_price": 113.477501
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260615133445",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1816.199951171875,
-    "entry_time": "2026-06-15T13:34:45.792146+00:00",
-    "stop_loss_pct": 0.00833,
-    "take_profit_pct": 0.02028,
-    "size_usd": 5548.83,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (85.2)",
-      "5d momentum +5.64%",
-      "1d momentum +9.07%",
-      "BB overbought (pct_b=1.19)",
-      "Volume spike 3.9\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.574,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Monday, June 15, 2026: Prices rising after U.S., Iran agree to ceasefire deal",
-      "Bitcoin Jumps Above $65,000 As Fed Risk Looms",
-      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal"
-    ],
-    "mode": "paper",
-    "strategy_version": "25",
-    "status": "open"
+    "price_trough": 113.11699676513672,
+    "trailing_stop_price": 113.343231
   },
   "XOM": {
     "id": "XOM_20260615133445",
@@ -369,7 +338,9 @@
     ],
     "mode": "paper",
     "strategy_version": "25",
-    "status": "open"
+    "status": "open",
+    "price_trough": 61.18000030517578,
+    "trailing_stop_price": 62.0977
   },
   "HOOD": {
     "id": "HOOD_20260615133445",
@@ -400,8 +371,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 99.54499816894531,
-    "trailing_stop_price": 101.038173
+    "price_trough": 98.12000274658203,
+    "trailing_stop_price": 99.591803
   },
   "VLO": {
     "id": "VLO_20260615133445",
@@ -519,6 +490,64 @@
       "onsemi Trades at a Discount: Buy, Hold or Sell the Stock?",
       "ON Semiconductor Shares Climb After Citi Highlights Potential Upside Ahead of Analyst Day (ON)",
       "ON Semiconductor Stock: Is ON Outperforming the Technology Sector?"
+    ],
+    "mode": "paper",
+    "strategy_version": "26",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260616071037",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.236899971961975,
+    "entry_time": "2026-06-16T07:10:37.491858+00:00",
+    "stop_loss_pct": 0.00929,
+    "take_profit_pct": 0.02213,
+    "size_usd": 4872.6,
+    "position_size_pct": 0.0489,
+    "confidence": 0.764,
+    "signals": [
+      "RSI oversold (26.6)",
+      "5d momentum +1.66%",
+      "1d momentum +4.78%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.75,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP, Dogecoin Extend Rally On Iran Deal Optimism: Analyst Says BTC 'At Least Close' To Forming A Bottom",
+      "Iran-US peace deal sends Bitcoin, XRP surging",
+      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal"
+    ],
+    "mode": "paper",
+    "strategy_version": "26",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260616071037",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74.37000274658203,
+    "entry_time": "2026-06-16T07:10:37.494007+00:00",
+    "stop_loss_pct": 0.00827,
+    "take_profit_pct": 0.01945,
+    "size_usd": 732.08,
+    "position_size_pct": 0.0073,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (41.1)",
+      "5d momentum +1.89%",
+      "1d momentum +4.42%",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.368,
+    "news_headlines": [
+      "Kevin Warsh Opens First Fed Meeting: What Crypto Traders Must Watch",
+      "Bitcoin, Ethereum, XRP, Dogecoin Extend Rally On Iran Deal Optimism: Analyst Says BTC 'At Least Close' To Forming A Bottom",
+      "Bitcoin Climbs to Two-Week High After US-Iran Hormuz Deal"
     ],
     "mode": "paper",
     "strategy_version": "26",
