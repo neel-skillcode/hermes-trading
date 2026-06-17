@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 160.59100341796875,
-    "trailing_stop_price": 159.306275
+    "price_peak": 160.59300231933594,
+    "trailing_stop_price": 159.308258
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
@@ -286,37 +286,6 @@
     "price_trough": 184.71400451660156,
     "trailing_stop_price": 186.191717
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260616202431",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 607.97998046875,
-    "entry_time": "2026-06-16T20:24:31.972841+00:00",
-    "stop_loss_pct": 0.00558,
-    "take_profit_pct": 0.01272,
-    "size_usd": 3656.01,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (37.3)",
-      "5d momentum +0.34%",
-      "1d momentum -1.84%",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge; price decline"
-    ],
-    "news_sentiment": 0.55,
-    "news_headlines": [
-      "Top Cryptocurrencies Lower; Bitcoin Falls Below $66,000 Level",
-      "SpaceX Appetite Among Crypto Retail Investors Bigger Than Expected, Says Top Analyst\u2014Points To Billions In Derivatives Traded On Binance",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $66,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "27",
-    "status": "open",
-    "price_trough": 600.719970703125,
-    "trailing_stop_price": 604.071988
-  },
   "HOOD": {
     "id": "HOOD_20260617191139",
     "asset": "HOOD",
@@ -438,7 +407,9 @@
     ],
     "mode": "paper",
     "strategy_version": "28",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1742.3299560546875,
+    "trailing_stop_price": 1720.568255
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260617212144",
@@ -468,7 +439,9 @@
     ],
     "mode": "paper",
     "strategy_version": "28",
-    "status": "open"
+    "status": "open",
+    "price_peak": 213.5229949951172,
+    "trailing_stop_price": 213.095949
   },
   "BTC-USD": {
     "id": "BTC-USD_20260617212144",
@@ -498,7 +471,9 @@
     ],
     "mode": "paper",
     "strategy_version": "28",
-    "status": "open"
+    "status": "open",
+    "price_peak": 64328.0390625,
+    "trailing_stop_price": 63758.092636
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -519,6 +494,37 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "28",
+    "status": "open",
+    "price_peak": 1.6219799518585205,
+    "trailing_stop_price": 1.609004
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260617225512",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1850999593734741,
+    "entry_time": "2026-06-17T22:55:12.252895+00:00",
+    "stop_loss_pct": 0.01015,
+    "take_profit_pct": 0.02346,
+    "size_usd": 3675.21,
+    "position_size_pct": 0.0365,
+    "confidence": 0.624,
+    "signals": [
+      "5d momentum -2.61%",
+      "1d momentum -2.92%",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "XRP eyes bigger move as Binance open interest hits 2026 high",
+      "XRP Leverage Hits 2026 High as Price Defends Make-or-Break Support",
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $65,000 Level"
+    ],
     "mode": "paper",
     "strategy_version": "28",
     "status": "open"
