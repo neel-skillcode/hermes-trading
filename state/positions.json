@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 160.59300231933594,
-    "trailing_stop_price": 159.308258
+    "price_peak": 160.69000244140625,
+    "trailing_stop_price": 159.404482
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
@@ -127,8 +127,8 @@
     "mode": "paper",
     "strategy_version": "14",
     "status": "open",
-    "price_peak": 0.8654500246047974,
-    "trailing_stop_price": 0.858526
+    "price_peak": 0.8666999936103821,
+    "trailing_stop_price": 0.859766
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -158,8 +158,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.150483250617981,
-    "trailing_stop_price": 1.159687
+    "price_trough": 1.1481056213378906,
+    "trailing_stop_price": 1.15729
   },
   "XOM": {
     "id": "XOM_20260615133445",
@@ -283,8 +283,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 184.71400451660156,
-    "trailing_stop_price": 186.191717
+    "price_trough": 184.48800659179688,
+    "trailing_stop_price": 185.963911
   },
   "HOOD": {
     "id": "HOOD_20260617191139",
@@ -408,40 +408,8 @@
     "mode": "paper",
     "strategy_version": "28",
     "status": "open",
-    "price_peak": 1742.3299560546875,
-    "trailing_stop_price": 1720.568255
-  },
-  "GBP/JPY": {
-    "id": "GBP/JPY_20260617212144",
-    "asset": "GBP/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 213.49600219726562,
-    "entry_time": "2026-06-17T21:21:44.329488+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00487,
-    "size_usd": 5632.14,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (9.0)",
-      "5d momentum -0.52%",
-      "1d momentum -0.88%",
-      "BB oversold (pct_b=-0.02)",
-      "High-impact catalyst",
-      "Claude [neutral]: fed dovish; price decline"
-    ],
-    "news_sentiment": -0.28,
-    "news_headlines": [
-      "Pound Mostly Steady After Weaker GDP",
-      "Sterling Declines as the BoE Appears More Dovish",
-      "Mixed Performance by the Pound After Weaker Job Data"
-    ],
-    "mode": "paper",
-    "strategy_version": "28",
-    "status": "open",
-    "price_peak": 213.5229949951172,
-    "trailing_stop_price": 213.095949
+    "price_peak": 1749.8800048828125,
+    "trailing_stop_price": 1728.024004
   },
   "BTC-USD": {
     "id": "BTC-USD_20260617212144",
@@ -472,8 +440,8 @@
     "mode": "paper",
     "strategy_version": "28",
     "status": "open",
-    "price_peak": 64328.0390625,
-    "trailing_stop_price": 63758.092636
+    "price_peak": 64402.359375,
+    "trailing_stop_price": 63831.754471
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -524,6 +492,38 @@
       "XRP eyes bigger move as Binance open interest hits 2026 high",
       "XRP Leverage Hits 2026 High as Price Defends Make-or-Break Support",
       "Top Cryptocurrencies Fall; Bitcoin Drops Below $65,000 Level"
+    ],
+    "mode": "paper",
+    "strategy_version": "28",
+    "status": "open",
+    "price_trough": 1.1786999702453613,
+    "trailing_stop_price": 1.190664
+  },
+  "GBP/JPY": {
+    "id": "GBP/JPY_20260618092327",
+    "asset": "GBP/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 212.85299682617188,
+    "entry_time": "2026-06-18T09:23:27.949042+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 5625.34,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (35.0)",
+      "5d momentum -0.45%",
+      "1d momentum -0.96%",
+      "BB oversold (pct_b=0.04)",
+      "High-impact catalyst",
+      "Claude [neutral]: fed dovish; price decline"
+    ],
+    "news_sentiment": -0.28,
+    "news_headlines": [
+      "Pound Mostly Steady After Weaker GDP",
+      "Sterling Declines as the BoE Appears More Dovish",
+      "Mixed Performance by the Pound After Weaker Job Data"
     ],
     "mode": "paper",
     "strategy_version": "28",
