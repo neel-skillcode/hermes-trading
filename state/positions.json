@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9256799817085266,
-    "trailing_stop_price": 0.918275
+    "price_peak": 0.9259700179100037,
+    "trailing_stop_price": 0.918562
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -244,8 +244,8 @@
     "mode": "paper",
     "strategy_version": "28",
     "status": "open",
-    "price_peak": 1.6240999698638916,
-    "trailing_stop_price": 1.611107
+    "price_peak": 1.626270055770874,
+    "trailing_stop_price": 1.61326
   },
   "INTC": {
     "id": "INTC_20260618160401",
@@ -393,40 +393,8 @@
     "mode": "paper",
     "strategy_version": "29",
     "status": "open",
-    "price_peak": 1.8870500326156616,
-    "trailing_stop_price": 1.883276
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260619065314",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.019999980926514,
-    "entry_time": "2026-06-19T06:53:14.130189+00:00",
-    "stop_loss_pct": 0.01172,
-    "take_profit_pct": 0.02892,
-    "size_usd": 2642.4,
-    "position_size_pct": 0.026,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (21.2)",
-      "5d momentum -4.44%",
-      "1d momentum -9.34%",
-      "BB oversold (pct_b=0.09)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.429,
-    "news_headlines": [
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?",
-      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_peak": 6.119999885559082,
-    "trailing_stop_price": 6.048273
+    "price_peak": 1.8871699571609497,
+    "trailing_stop_price": 1.883396
   },
   "XRP-USD": {
     "id": "XRP-USD_20260619111150",
@@ -549,6 +517,37 @@
     ],
     "mode": "paper",
     "strategy_version": "29",
+    "status": "open",
+    "price_trough": 7.12,
+    "trailing_stop_price": 7.2268
+  },
+  "CRM": {
+    "id": "CRM_20260619182436",
+    "asset": "CRM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 151.80999755859375,
+    "entry_time": "2026-06-19T18:24:36.375487+00:00",
+    "stop_loss_pct": 0.01199,
+    "take_profit_pct": 0.02742,
+    "size_usd": 2642.4,
+    "position_size_pct": 0.026,
+    "confidence": 0.575,
+    "signals": [
+      "RSI oversold (15.0)",
+      "1d momentum -8.55%",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; ma catalyst"
+    ],
+    "news_sentiment": 0.302,
+    "news_headlines": [
+      "Stocks to Watch Recap: Intel, Accenture, Apple, SpaceX",
+      "Oracle vs. Salesforce: Which Tech Giant Is The Better Buy?",
+      "The Number That Puts Oracle Stock To The Test"
+    ],
+    "mode": "paper",
+    "strategy_version": "30",
     "status": "open"
   }
 }
