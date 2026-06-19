@@ -158,8 +158,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.1463946104049683,
-    "trailing_stop_price": 1.155566
+    "price_trough": 1.1461317539215088,
+    "trailing_stop_price": 1.155301
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -246,38 +246,6 @@
     "status": "open",
     "price_peak": 1.6219799518585205,
     "trailing_stop_price": 1.609004
-  },
-  "GBP/JPY": {
-    "id": "GBP/JPY_20260618092327",
-    "asset": "GBP/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 212.85299682617188,
-    "entry_time": "2026-06-18T09:23:27.949042+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00487,
-    "size_usd": 5625.34,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (35.0)",
-      "5d momentum -0.45%",
-      "1d momentum -0.96%",
-      "BB oversold (pct_b=0.04)",
-      "High-impact catalyst",
-      "Claude [neutral]: fed dovish; price decline"
-    ],
-    "news_sentiment": -0.28,
-    "news_headlines": [
-      "Pound Mostly Steady After Weaker GDP",
-      "Sterling Declines as the BoE Appears More Dovish",
-      "Mixed Performance by the Pound After Weaker Job Data"
-    ],
-    "mode": "paper",
-    "strategy_version": "28",
-    "status": "open",
-    "price_peak": 213.26300048828125,
-    "trailing_stop_price": 212.836474
   },
   "INTC": {
     "id": "INTC_20260618160401",
@@ -518,7 +486,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "29",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.8842300176620483,
+    "trailing_stop_price": 1.880462
   },
   "SOL-USD": {
     "id": "SOL-USD_20260618210857",
@@ -547,7 +517,9 @@
     ],
     "mode": "paper",
     "strategy_version": "29",
-    "status": "open"
+    "status": "open",
+    "price_trough": 69.76000213623047,
+    "trailing_stop_price": 70.500853
   },
   "BTC-USD": {
     "id": "BTC-USD_20260618210857",
@@ -573,6 +545,37 @@
       "Fed rates hold: Stocks and bitcoin drop after Kevin Warsh FOMC debut",
       "Coinbase CEO on bitcoin bottom, AI agents, and his war of words with JPMorgan CEO",
       "Microsoft warns new malware turns copy-paste against you"
+    ],
+    "mode": "paper",
+    "strategy_version": "29",
+    "status": "open",
+    "price_trough": 62859.91015625,
+    "trailing_stop_price": 63240.212613
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260619014953",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1471999883651733,
+    "entry_time": "2026-06-19T01:49:53.309551+00:00",
+    "stop_loss_pct": 0.00828,
+    "take_profit_pct": 0.01924,
+    "size_usd": 4189.11,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (40.0)",
+      "5d momentum -0.34%",
+      "1d momentum -3.41%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.238,
+    "news_headlines": [
+      "We Asked Claude What Would Have to Break for XRP to Fall to $1",
+      "Tech, Media & Telecom Roundup: Market Talk",
+      "Top Cryptocurrencies Drop; Bitcoin Falls Below $63,000"
     ],
     "mode": "paper",
     "strategy_version": "29",
