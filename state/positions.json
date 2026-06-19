@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.922950029373169,
-    "trailing_stop_price": 0.915566
+    "price_peak": 0.9243699908256531,
+    "trailing_stop_price": 0.916975
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.83804988861084,
-    "trailing_stop_price": 7.775345
+    "price_peak": 7.838469982147217,
+    "trailing_stop_price": 7.775762
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -342,39 +342,6 @@
     "price_peak": 48.244998931884766,
     "trailing_stop_price": 47.521324
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260618183536",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1682.27001953125,
-    "entry_time": "2026-06-18T18:35:36.122930+00:00",
-    "stop_loss_pct": 0.00974,
-    "take_profit_pct": 0.0241,
-    "size_usd": 348.99,
-    "position_size_pct": 0.0034,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (31.3)",
-      "5d momentum -2.99%",
-      "1d momentum -4.92%",
-      "BB oversold (pct_b=0.03)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.279,
-    "news_headlines": [
-      "Why Coinbase CEO Brian Armstrong believes bitcoin has bottomed",
-      "Ripple Drops 6%, Bitcoin Falls 5% in Crypto Pullback Defying Stock Rally",
-      "Ethereum Could be Nearing a Violent Move as Price Drops 6%"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_peak": 1709.0,
-    "trailing_stop_price": 1692.35434
-  },
   "MA": {
     "id": "MA_20260618183536",
     "asset": "MA",
@@ -432,8 +399,8 @@
     "mode": "paper",
     "strategy_version": "29",
     "status": "open",
-    "price_trough": 573.0,
-    "trailing_stop_price": 576.62709
+    "price_trough": 571.9000244140625,
+    "trailing_stop_price": 575.520152
   },
   "GBP/AUD": {
     "id": "GBP/AUD_20260618210857",
@@ -457,8 +424,8 @@
     "mode": "paper",
     "strategy_version": "29",
     "status": "open",
-    "price_peak": 1.8842300176620483,
-    "trailing_stop_price": 1.880462
+    "price_peak": 1.8870500326156616,
+    "trailing_stop_price": 1.883276
   },
   "SOL-USD": {
     "id": "SOL-USD_20260618210857",
@@ -488,8 +455,8 @@
     "mode": "paper",
     "strategy_version": "29",
     "status": "open",
-    "price_trough": 68.44000244140625,
-    "trailing_stop_price": 69.166835
+    "price_trough": 68.0999984741211,
+    "trailing_stop_price": 68.82322
   },
   "BTC-USD": {
     "id": "BTC-USD_20260618210857",
@@ -519,39 +486,8 @@
     "mode": "paper",
     "strategy_version": "29",
     "status": "open",
-    "price_trough": 62723.609375,
-    "trailing_stop_price": 63103.087212
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260619014953",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1471999883651733,
-    "entry_time": "2026-06-19T01:49:53.309551+00:00",
-    "stop_loss_pct": 0.00828,
-    "take_profit_pct": 0.01924,
-    "size_usd": 4189.11,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (40.0)",
-      "5d momentum -0.34%",
-      "1d momentum -3.41%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.238,
-    "news_headlines": [
-      "We Asked Claude What Would Have to Break for XRP to Fall to $1",
-      "Tech, Media & Telecom Roundup: Market Talk",
-      "Top Cryptocurrencies Drop; Bitcoin Falls Below $63,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_trough": 1.1275999546051025,
-    "trailing_stop_price": 1.136936
+    "price_trough": 62414.1015625,
+    "trailing_stop_price": 62791.706877
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260619065314",
@@ -578,6 +514,36 @@
       "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
       "Is Avalanche About to Have Its Biggest Year Yet?",
       "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels"
+    ],
+    "mode": "paper",
+    "strategy_version": "29",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260619111150",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.1229000091552734,
+    "entry_time": "2026-06-19T11:11:50.486495+00:00",
+    "stop_loss_pct": 0.00654,
+    "take_profit_pct": 0.01567,
+    "size_usd": 4574.11,
+    "position_size_pct": 0.045,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (30.0)",
+      "5d momentum -0.89%",
+      "1d momentum -3.47%",
+      "BB oversold (pct_b=0.13)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": -0.121,
+    "news_headlines": [
+      "Is XRP Overvalued at Today's Price?",
+      "DOT Is Repeating XRP\u2019s June Sentiment Crash \u2014 Except for One Crucial Catch",
+      "Bitcoin, Ethereum, XRP, Dogecoin Slide Further Amid Fed's Hawkish Shift: Analyst Paints This Upside Target For BTC If It Holds $64,000 As Support"
     ],
     "mode": "paper",
     "strategy_version": "29",
