@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 0.9243699908256531,
-    "trailing_stop_price": 0.916975
+    "price_peak": 0.9256799817085266,
+    "trailing_stop_price": 0.918275
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260524050433",
@@ -244,8 +244,8 @@
     "mode": "paper",
     "strategy_version": "28",
     "status": "open",
-    "price_peak": 1.6219799518585205,
-    "trailing_stop_price": 1.609004
+    "price_peak": 1.6240999698638916,
+    "trailing_stop_price": 1.611107
   },
   "INTC": {
     "id": "INTC_20260618160401",
@@ -371,37 +371,6 @@
     "strategy_version": "29",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260618210857",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 579.1199951171875,
-    "entry_time": "2026-06-18T21:08:57.559461+00:00",
-    "stop_loss_pct": 0.00633,
-    "take_profit_pct": 0.01488,
-    "size_usd": 4579.46,
-    "position_size_pct": 0.0451,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (34.8)",
-      "5d momentum +0.40%",
-      "1d momentum -3.31%",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Top Cryptocurrencies Drop; Bitcoin Falls Below $63,000",
-      "BNB Chain\u2019s LAB Token Keeps Exploding in a Parabolic Rally: What\u2019s Next?",
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $65,000 Level"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_trough": 571.9000244140625,
-    "trailing_stop_price": 575.520152
-  },
   "GBP/AUD": {
     "id": "GBP/AUD_20260618210857",
     "asset": "GBP/AUD",
@@ -426,68 +395,6 @@
     "status": "open",
     "price_peak": 1.8870500326156616,
     "trailing_stop_price": 1.883276
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260618210857",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 69.79000091552734,
-    "entry_time": "2026-06-18T21:08:57.562862+00:00",
-    "stop_loss_pct": 0.01062,
-    "take_profit_pct": 0.02499,
-    "size_usd": 4579.46,
-    "position_size_pct": 0.0451,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (36.5)",
-      "5d momentum +1.20%",
-      "1d momentum -2.47%",
-      "High-impact catalyst",
-      "Claude [supports]: fed hawkish"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Fed rates hold: Stocks and bitcoin drop after Kevin Warsh FOMC debut",
-      "Why Coinbase CEO Brian Armstrong believes bitcoin has bottomed",
-      "Top Cryptocurrencies Drop; Bitcoin Falls Below $63,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_trough": 68.0999984741211,
-    "trailing_stop_price": 68.82322
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260618210857",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 63036.96875,
-    "entry_time": "2026-06-18T21:08:57.564547+00:00",
-    "stop_loss_pct": 0.00605,
-    "take_profit_pct": 0.01381,
-    "size_usd": 3202.4,
-    "position_size_pct": 0.0315,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (31.9)",
-      "5d momentum +0.69%",
-      "1d momentum -1.81%",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": -0.2,
-    "news_headlines": [
-      "Fed rates hold: Stocks and bitcoin drop after Kevin Warsh FOMC debut",
-      "Coinbase CEO on bitcoin bottom, AI agents, and his war of words with JPMorgan CEO",
-      "Microsoft warns new malware turns copy-paste against you"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_trough": 62414.1015625,
-    "trailing_stop_price": 62791.706877
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260619065314",
@@ -517,7 +424,9 @@
     ],
     "mode": "paper",
     "strategy_version": "29",
-    "status": "open"
+    "status": "open",
+    "price_peak": 6.119999885559082,
+    "trailing_stop_price": 6.048273
   },
   "XRP-USD": {
     "id": "XRP-USD_20260619111150",
@@ -544,6 +453,99 @@
       "Is XRP Overvalued at Today's Price?",
       "DOT Is Repeating XRP\u2019s June Sentiment Crash \u2014 Except for One Crucial Catch",
       "Bitcoin, Ethereum, XRP, Dogecoin Slide Further Amid Fed's Hawkish Shift: Analyst Paints This Upside Target For BTC If It Holds $64,000 As Support"
+    ],
+    "mode": "paper",
+    "strategy_version": "29",
+    "status": "open",
+    "price_peak": 1.1341999769210815,
+    "trailing_stop_price": 1.126782
+  },
+  "MRNA": {
+    "id": "MRNA_20260619142215",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 64.12999725341797,
+    "entry_time": "2026-06-19T14:22:15.174151+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03658,
+    "size_usd": 5711.7,
+    "position_size_pct": 0.0561,
+    "confidence": 0.877,
+    "signals": [
+      "RSI overbought (94.5)",
+      "5d momentum +2.17%",
+      "1d momentum +24.99%",
+      "Volume spike 2.6\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.478,
+    "news_headlines": [
+      "MRNA Up as Influenza Vaccine Wins Unanimous FDA Advisory Panel Backing",
+      "MRNA Stock Clocks Best Week In Over 4 Years On FDA Advisory Committee Endorsement For Flu Vaccine",
+      "\ud83d\udd0e Under the Radar: Moderna Stock Rises on Flu-Shot Recommendation"
+    ],
+    "mode": "paper",
+    "strategy_version": "29",
+    "status": "open"
+  },
+  "XOM": {
+    "id": "XOM_20260619142215",
+    "asset": "XOM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 137.77000427246094,
+    "entry_time": "2026-06-19T14:22:15.176148+00:00",
+    "stop_loss_pct": 0.00883,
+    "take_profit_pct": 0.02203,
+    "size_usd": 6447.64,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (27.3)",
+      "MACD crossover",
+      "5d momentum +0.58%",
+      "1d momentum -2.68%",
+      "Volume spike 2.0\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: ma catalyst; macro risk; price decline"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "Expert Warns: California Taxes Harming \u201cBig Wealth Driver in the State\u201d as Billionaires Flee",
+      "Darren Woods\u2019 Game Plan at Exxon Mobil: Produce More Oil for Less Money",
+      "Exxon Mobil (XOM) Stock Could Be 18.9% Undervalued Despite Recent Pullback"
+    ],
+    "mode": "paper",
+    "strategy_version": "29",
+    "status": "open"
+  },
+  "SOUN": {
+    "id": "SOUN_20260619142215",
+    "asset": "SOUN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.130000114440918,
+    "entry_time": "2026-06-19T14:22:15.177925+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03621,
+    "size_usd": 235.18,
+    "position_size_pct": 0.0023,
+    "confidence": 0.828,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +2.74%",
+      "1d momentum -6.18%",
+      "BB overbought (pct_b=0.98)",
+      "High-impact catalyst",
+      "Claude [contradicts]: ma catalyst"
+    ],
+    "news_sentiment": 0.6,
+    "news_headlines": [
+      "SoundHound AI (SOUN) Buys LivePerson For $100 Million And Launches OASYS",
+      "SoundHound AI, Inc. (SOUN) Outpaces Stock Market Gains: What You Should Know",
+      "SoundHound AI (SOUN) Stock Could Be 50.3% Undervalued Despite Its Recent Share Price Slide"
     ],
     "mode": "paper",
     "strategy_version": "29",
