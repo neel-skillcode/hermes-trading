@@ -3,18 +3,18 @@
   "portfolio_balance": 101864.71,
   "portfolio_peak": 101864.71,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 401.28,
-  "equity_value": 102265.99,
+  "unrealized_pnl_usd": 406.42,
+  "equity_value": 102271.13,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40745.88,
   "swing_capital_used_usd": 41874.4,
   "total_trades": 320,
-  "last_tick": "2026-06-20T11:32:43.555547+00:00",
+  "last_tick": "2026-06-20T13:08:41.021807+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
-  "universe_scanned": 110,
+  "universe_scanned": 109,
   "market_open": false,
   "open_position_list": [
     {
@@ -621,17 +621,17 @@
       "mode": "paper",
       "strategy_version": "30",
       "status": "open",
-      "price_trough": 71.52999877929688,
-      "trailing_stop_price": 72.143726,
-      "current_price": 71.529999,
-      "unrealized_pnl_pct": 0.003066,
-      "unrealized_pnl_usd": 14.15
+      "price_trough": 71.45999908447266,
+      "trailing_stop_price": 72.073126,
+      "current_price": 71.449997,
+      "unrealized_pnl_pct": 0.004181,
+      "unrealized_pnl_usd": 19.3
     }
   ],
   "last_candidates": [
     {
       "asset": "MRNA",
-      "rank_score": 0.7544,
+      "rank_score": 0.7604,
       "price": 64.12999725341797,
       "rsi": 94.48847425739694,
       "momentum_5d": 0.021747755549164468,
@@ -641,12 +641,12 @@
       "bollinger_pct_b": 0.8378,
       "volume_spike": true,
       "volume_spike_ratio": 2.6,
-      "news_sentiment": 0.478,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.56,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "Moderna Has Some Key Approvals Ahead. Is the Stock a Buy?",
         "MRNA Up as Influenza Vaccine Wins Unanimous FDA Advisory Panel Backing",
-        "MRNA Stock Clocks Best Week In Over 4 Years On FDA Advisory Committee Endorsement For Flu Vaccine",
-        "\ud83d\udd0e Under the Radar: Moderna Stock Rises on Flu-Shot Recommendation"
+        "MRNA Stock Clocks Best Week In Over 4 Years On FDA Advisory Committee Endorsement For Flu Vaccine"
       ],
       "high_impact_news": true
     },
@@ -882,29 +882,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "INTC",
-      "rank_score": 0.5998,
-      "price": 133.8000030517578,
-      "rsi": 86.7236834079473,
-      "momentum_5d": 0.012830758707374174,
-      "momentum_1d": 0.05044163337984544,
-      "macd_crossover": false,
-      "atr_pct": 0.026442331464063832,
-      "bollinger_pct_b": 0.8593,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.94,
-      "news_sentiment": 0.529,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Cramer's Intel bet rests on one unproven number",
-        "Ray Dalio Says US Is 'On The Brink' As Debt And Political Risks Mount",
-        "Better Buy: AMD vs. Intel After Intel's Monster Run"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "JPM",
-      "rank_score": 0.5958,
+      "rank_score": 0.5988,
       "price": 325.239990234375,
       "rsi": 35.15742243262039,
       "momentum_5d": -0.016778071184677792,
@@ -914,12 +893,12 @@
       "bollinger_pct_b": 0.0081,
       "volume_spike": true,
       "volume_spike_ratio": 2.23,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
+      "news_sentiment": 0.676,
+      "news_confidence": 0.37,
       "news_headlines": [
+        "JPMorgan Posted Record Profits, but CEO Jamie Dimon Says the Next Crisis Will Be Worse Than Anyone Expects",
         "One Investor\u2019s Race to Get $80 Million Out of Private Credit",
-        "AirTrunk Pursues A$4.3 Billion Loan for 400MW Australia Data Center",
-        "JPMorgan and Anthropic lead massive new AI operational shift"
+        "AirTrunk Pursues A$4.3 Billion Loan for 400MW Australia Data Center"
       ],
       "high_impact_news": true
     },
@@ -941,6 +920,27 @@
         "UnitedHealth Group Incorporated (UNH) is Attracting Investor Attention: Here is What You Should Know",
         "UnitedHealth (UNH) Joins Optura As Former Humana And CVS Chiefs Sign On",
         "2 Mega-Cap Stocks to Research Further and 1 We Avoid"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "INTC",
+      "rank_score": 0.5949,
+      "price": 133.8000030517578,
+      "rsi": 86.7236834079473,
+      "momentum_5d": 0.012830758707374174,
+      "momentum_1d": 0.05044163337984544,
+      "macd_crossover": false,
+      "atr_pct": 0.026442331464063832,
+      "bollinger_pct_b": 0.8593,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.94,
+      "news_sentiment": 0.44,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "After Nvidia And Tesla, Trump Confirms Apple Has Agreed To Build Chips With Intel Amid US Manufacturing Push: 'When Was The Last Time...'",
+        "Cramer's Intel bet rests on one unproven number",
+        "Ray Dalio Says US Is 'On The Brink' As Debt And Political Risks Mount"
       ],
       "high_impact_news": true
     },
@@ -987,27 +987,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.5767,
-      "price": 410.7900085449219,
-      "rsi": 85.40885531714981,
-      "momentum_5d": 0.004867956974991262,
-      "momentum_1d": 0.045160796901344696,
-      "macd_crossover": false,
-      "atr_pct": 0.016572230138997918,
-      "bollinger_pct_b": 0.8261,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.42,
-      "news_sentiment": 0.822,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "From FAANG to MANGOS \u2014 Wall Street is searching for the next 'Magnificent 7': Chart of the Day",
-        "This Artificial Intelligence (AI) Stock Is Up 4,800% in the Past Year. Wall Street Says This Will Happen Next.",
-        "Broadcom Builds Custom Chips for Google, Meta, Anthropic, and OpenAI. At 25 Times Forward Earnings, It's the Cheapest Mega-Cap AI Stock Nobody Talks About."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ABBV",
       "rank_score": 0.5739,
       "price": 216.5,
@@ -1046,6 +1025,27 @@
         "QUALCOMM (QCOM) Stock Could Be 34.2% Overvalued Despite Its Recent Rally",
         "3 Semiconductor Stocks We Find Risky",
         "Strength Seen in Qualcomm (QCOM): Can Its 6.2% Jump Turn into More Strength?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.5717,
+      "price": 410.7900085449219,
+      "rsi": 85.40885531714981,
+      "momentum_5d": 0.004867956974991262,
+      "momentum_1d": 0.045160796901344696,
+      "macd_crossover": false,
+      "atr_pct": 0.016572230138997918,
+      "bollinger_pct_b": 0.8261,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.42,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "From FAANG to MANGOS \u2014 Wall Street is searching for the next 'Magnificent 7': Chart of the Day",
+        "This Artificial Intelligence (AI) Stock Is Up 4,800% in the Past Year. Wall Street Says This Will Happen Next.",
+        "Broadcom Builds Custom Chips for Google, Meta, Anthropic, and OpenAI. At 25 Times Forward Earnings, It's the Cheapest Mega-Cap AI Stock Nobody Talks About."
       ],
       "high_impact_news": true
     }
