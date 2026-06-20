@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101762.06,
-  "portfolio_peak": 101762.06,
+  "portfolio_balance": 101864.71,
+  "portfolio_peak": 101864.71,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 457.6,
-  "equity_value": 102219.66,
+  "unrealized_pnl_usd": 387.12,
+  "equity_value": 102251.84,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40704.82,
+  "day_capital_used_usd": 40745.88,
   "swing_capital_used_usd": 41874.4,
-  "total_trades": 319,
-  "last_tick": "2026-06-20T01:52:48.119580+00:00",
+  "total_trades": 320,
+  "last_tick": "2026-06-20T06:08:45.522674+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -457,41 +457,6 @@
       "unrealized_pnl_usd": 14.89
     },
     {
-      "id": "XRP-USD_20260619111150",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1.1229000091552734,
-      "entry_time": "2026-06-19T11:11:50.486495+00:00",
-      "stop_loss_pct": 0.00654,
-      "take_profit_pct": 0.01567,
-      "size_usd": 4574.11,
-      "position_size_pct": 0.045,
-      "confidence": 0.794,
-      "signals": [
-        "RSI oversold (30.0)",
-        "5d momentum -0.89%",
-        "1d momentum -3.47%",
-        "BB oversold (pct_b=0.13)",
-        "High-impact catalyst",
-        "Claude [contradicts]: fed hawkish"
-      ],
-      "news_sentiment": -0.121,
-      "news_headlines": [
-        "Is XRP Overvalued at Today's Price?",
-        "DOT Is Repeating XRP\u2019s June Sentiment Crash \u2014 Except for One Crucial Catch",
-        "Bitcoin, Ethereum, XRP, Dogecoin Slide Further Amid Fed's Hawkish Shift: Analyst Paints This Upside Target For BTC If It Holds $64,000 As Support"
-      ],
-      "mode": "paper",
-      "strategy_version": "29",
-      "status": "open",
-      "price_peak": 1.1401000022888184,
-      "trailing_stop_price": 1.132644,
-      "current_price": 1.1402,
-      "unrealized_pnl_pct": 0.015407,
-      "unrealized_pnl_usd": 70.47
-    },
-    {
       "id": "MRNA_20260619142215",
       "asset": "MRNA",
       "trade_type": "day",
@@ -626,6 +591,39 @@
       "current_price": 151.809998,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SOL-USD_20260620060845",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 71.75,
+      "entry_time": "2026-06-20T06:08:45.515358+00:00",
+      "stop_loss_pct": 0.00858,
+      "take_profit_pct": 0.02117,
+      "size_usd": 4615.17,
+      "position_size_pct": 0.0453,
+      "confidence": 0.934,
+      "signals": [
+        "RSI overbought (81.5)",
+        "5d momentum +2.87%",
+        "1d momentum +4.45%",
+        "BB overbought (pct_b=1.11)",
+        "High-impact catalyst",
+        "Claude [supports]: fed hawkish"
+      ],
+      "news_sentiment": -0.389,
+      "news_headlines": [
+        "Moody's Credit Ratings Are Coming for Tokenized Assets. What This Means For Solana Might Surprise You.",
+        "The Morgan Stanley 0.14% Fee Sets New Floor in Crypto ETF Fee War",
+        "The 5 Largest Publicly Traded Solana Treasury Firms"
+      ],
+      "mode": "paper",
+      "strategy_version": "30",
+      "status": "open",
+      "current_price": 71.75,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -652,7 +650,7 @@
     },
     {
       "asset": "XOM",
-      "rank_score": 0.7085,
+      "rank_score": 0.7035,
       "price": 137.77000427246094,
       "rsi": 27.32258331321853,
       "momentum_5d": 0.005841501643354022,
@@ -662,12 +660,12 @@
       "bollinger_pct_b": 0.2447,
       "volume_spike": true,
       "volume_spike_ratio": 2.03,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.576,
+      "news_confidence": 0.33,
       "news_headlines": [
+        "Iran says ready for diplomacy if U.S. ensures Israel complies with ceasefire",
         "Expert Warns: California Taxes Harming \u201cBig Wealth Driver in the State\u201d as Billionaires Flee",
-        "Darren Woods\u2019 Game Plan at Exxon Mobil: Produce More Oil for Less Money",
-        "Exxon Mobil (XOM) Stock Could Be 18.9% Undervalued Despite Recent Pullback"
+        "Darren Woods\u2019 Game Plan at Exxon Mobil: Produce More Oil for Less Money"
       ],
       "high_impact_news": true
     },
@@ -756,27 +754,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "CVX",
-      "rank_score": 0.661,
-      "price": 173.5800018310547,
-      "rsi": 17.36973230850782,
-      "momentum_5d": -0.0006333157280521707,
-      "momentum_1d": -0.040358264344847274,
-      "macd_crossover": false,
-      "atr_pct": 0.007591048433362062,
-      "bollinger_pct_b": 0.1839,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.1,
-      "news_sentiment": 0.702,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Expert Warns: California Taxes Harming \u201cBig Wealth Driver in the State\u201d as Billionaires Flee",
-        "The SLB Paradox: Short-Term Friction, Long-Cycle Fuel",
-        "Stocks Supported as Geopolitical Risks Recede"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "BMY",
       "rank_score": 0.6606,
       "price": 54.0,
@@ -819,6 +796,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "CVX",
+      "rank_score": 0.652,
+      "price": 173.5800018310547,
+      "rsi": 17.36973230850782,
+      "momentum_5d": -0.0006333157280521707,
+      "momentum_1d": -0.040358264344847274,
+      "macd_crossover": false,
+      "atr_pct": 0.007591048433362062,
+      "bollinger_pct_b": 0.1839,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.1,
+      "news_sentiment": 0.6,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Iran says ready for diplomacy if U.S. ensures Israel complies with ceasefire",
+        "Expert Warns: California Taxes Harming \u201cBig Wealth Driver in the State\u201d as Billionaires Flee",
+        "The SLB Paradox: Short-Term Friction, Long-Cycle Fuel"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRVL",
       "rank_score": 0.6498,
       "price": 310.8500061035156,
@@ -836,6 +834,27 @@
         "After Being Called the Next Trillion-Dollar AI Stock and Joining the S&P 500, Marvell's CFO Just Filed to Dump $65 Million of Stock. Here's Why.",
         "3 Stocks to Buy Now Before Wall Street Catches On",
         "ALAB Rides on Strong Aries and Taurus Demand: A Sign for More Upside?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6411,
+      "price": 71.75,
+      "rsi": 81.50401240550494,
+      "momentum_5d": 0.02867383512544803,
+      "momentum_1d": 0.04454793201097904,
+      "macd_crossover": false,
+      "atr_pct": 0.008511692804741943,
+      "bollinger_pct_b": 1.1104,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.01,
+      "news_sentiment": -0.389,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Moody's Credit Ratings Are Coming for Tokenized Assets. What This Means For Solana Might Surprise You.",
+        "The Morgan Stanley 0.14% Fee Sets New Floor in Crypto ETF Fee War",
+        "The 5 Largest Publicly Traded Solana Treasury Firms"
       ],
       "high_impact_news": true
     },
@@ -967,7 +986,7 @@
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.5837,
+      "rank_score": 0.5857,
       "price": 410.7900085449219,
       "rsi": 85.40885531714981,
       "momentum_5d": 0.004867956974991262,
@@ -977,8 +996,8 @@
       "bollinger_pct_b": 0.8261,
       "volume_spike": false,
       "volume_spike_ratio": 1.42,
-      "news_sentiment": 0.88,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.885,
+      "news_confidence": 0.52,
       "news_headlines": [
         "Broadcom Builds Custom Chips for Google, Meta, Anthropic, and OpenAI. At 25 Times Forward Earnings, It's the Cheapest Mega-Cap AI Stock Nobody Talks About.",
         "Analyst Warns Intel Valuation \u2018Doesn\u2019t Make Sense.\u2019 Suggests NVIDIA, AMD, Micron, and Broadcom as Alternatives.",
@@ -1025,27 +1044,6 @@
         "Stocks Stall as Iran Nuclear Talks Hit Early Snag: Markets Wrap",
         "The Retirement Portfolio That Forks Over a $10,000 Check Every Month",
         "How One Partnership Profit Line Reframes The Regeneron Pharmaceuticals Stock Story"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.5731,
-      "price": 226.07000732421875,
-      "rsi": 68.3933832794923,
-      "momentum_5d": 0.018149946676014543,
-      "momentum_1d": 0.019480939940953505,
-      "macd_crossover": false,
-      "atr_pct": 0.02234942609429202,
-      "bollinger_pct_b": 0.8559,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.57,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "QUALCOMM (QCOM) Stock Could Be 34.2% Overvalued Despite Its Recent Rally",
-        "3 Semiconductor Stocks We Find Risky",
-        "Strength Seen in Qualcomm (QCOM): Can Its 6.2% Jump Turn into More Strength?"
       ],
       "high_impact_news": true
     }
