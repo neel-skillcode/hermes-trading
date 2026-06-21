@@ -3,15 +3,15 @@
   "portfolio_balance": 101862.95,
   "portfolio_peak": 101864.71,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 372.24,
-  "equity_value": 102235.19,
+  "unrealized_pnl_usd": 368.06,
+  "equity_value": 102231.01,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40745.18,
   "swing_capital_used_usd": 41874.4,
   "total_trades": 323,
-  "last_tick": "2026-06-21T21:20:17.592885+00:00",
+  "last_tick": "2026-06-21T22:38:29.789014+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -594,9 +594,9 @@
       "mode": "paper",
       "strategy_version": "30",
       "status": "open",
-      "current_price": 1.1293,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 1.1277,
+      "unrealized_pnl_pct": -0.001417,
+      "unrealized_pnl_usd": -9.14
     },
     {
       "id": "ETH-USD_20260621212017",
@@ -628,9 +628,11 @@
       "mode": "paper",
       "strategy_version": "30",
       "status": "open",
-      "current_price": 1706.109985,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 1709.9000244140625,
+      "trailing_stop_price": 1700.529772,
+      "current_price": 1709.969971,
+      "unrealized_pnl_pct": 0.002262,
+      "unrealized_pnl_usd": 4.96
     }
   ],
   "last_candidates": [
@@ -656,27 +658,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.7177,
-      "price": 1.1292999982833862,
-      "rsi": 31.73922395362277,
-      "momentum_5d": -0.012504362459622491,
-      "momentum_1d": -0.01474432403794812,
-      "macd_crossover": false,
-      "atr_pct": 0.006173228887913545,
-      "bollinger_pct_b": -0.3668,
-      "volume_spike": true,
-      "volume_spike_ratio": 15.65,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "The Great XRP Retirement: Testing the Math Behind the Hoax",
-        "Can XRP Hit $500?",
-        "Is XRP (Ripple) a Strong Buy at $1.15?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "XOM",
       "rank_score": 0.7015,
       "price": 137.77000427246094,
@@ -694,27 +675,6 @@
         "While Oil Prices Have Fallen From Their Peak, Here's Why They Could Rise Again in the Future.",
         "This Year\u2019s Family Reunion: Matching T-Shirts, BBQ\u2014and Financial Advice",
         "ExxonMobil (XOM) to Develop South Africa\u2019s First LNG Import Terminal at Port of Richards Bay"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.7008,
-      "price": 1706.1099853515625,
-      "rsi": 29.96120702054303,
-      "momentum_5d": -0.011632529869991743,
-      "momentum_1d": -0.015578930493856126,
-      "macd_crossover": false,
-      "atr_pct": 0.005804773418344615,
-      "bollinger_pct_b": -0.3295,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.63,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Is Ethereum a Buy After Falling 63% From Its All-Time High?",
-        "Ethereum\u2019s Most Notorious MEV Bot Loses $7.5 Million in On-Chain Honeypot Trap",
-        "Jaredfromsubway.eth Bot Drained for $7.5M in Counter-MEV Exploit"
       ],
       "high_impact_news": true
     },
@@ -782,48 +742,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6654,
-      "price": 6.130000114440918,
-      "rsi": 28.571467496815416,
-      "momentum_5d": -0.022328527418098654,
-      "momentum_1d": -0.008090568816592762,
-      "macd_crossover": false,
-      "atr_pct": 0.009205329499137415,
-      "bollinger_pct_b": -0.2067,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.98,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-        "Is Avalanche About to Have Its Biggest Year Yet?",
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.6643,
-      "price": 0.0824199989438057,
-      "rsi": 33.55709899692978,
-      "momentum_5d": -0.012697670649353617,
-      "momentum_1d": -0.011869120251795852,
-      "macd_crossover": false,
-      "atr_pct": 0.005139181829540234,
-      "bollinger_pct_b": -0.3314,
-      "volume_spike": true,
-      "volume_spike_ratio": 9.74,
-      "news_sentiment": -0.097,
-      "news_confidence": 0.31,
-      "news_headlines": [
-        "If You'd Invested $10,000 in Dogecoin 10 Years Ago, Here's How Much You'd Have Today",
-        "Elon Musk has blunt proposal for U.S. Treasury",
-        "Is Shiba Inu Still Worth Buying -- or Has the Meme Coin Moment Passed?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HAL",
       "rank_score": 0.6619,
       "price": 34.92499923706055,
@@ -841,27 +759,6 @@
         "S&P 500 Posts Weekly Gain Amid US-Iran Memorandum of Understanding",
         "Halliburton, Patterson-UTI, and Talos Energy Shares Plummet, What You Need To Know",
         "The SLB Paradox: Short-Term Friction, Long-Cycle Fuel"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.661,
-      "price": 63501.8515625,
-      "rsi": 31.587045121343834,
-      "momentum_5d": -0.008799211354966602,
-      "momentum_1d": -0.006806075926166348,
-      "macd_crossover": false,
-      "atr_pct": 0.004175892368436459,
-      "bollinger_pct_b": -0.3197,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.26,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland",
-        "Why HIVE Digital Technologies (TSX:HIVE) Is Up 26.8% After Major AI GPU Cloud Deal And Data Center Buy",
-        "Former CFTC Commissioner Carolyn Pham Warns Crypto Has 2.5 Years To Become 'Too Big To Fail'"
       ],
       "high_impact_news": true
     },
@@ -929,6 +826,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.6512,
+      "price": 1709.969970703125,
+      "rsi": 33.840259179666646,
+      "momentum_5d": -0.009006055586203637,
+      "momentum_1d": -0.017873858173965956,
+      "macd_crossover": false,
+      "atr_pct": 0.005986741238353987,
+      "bollinger_pct_b": -0.1848,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.48,
+      "news_sentiment": 0.415,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Is Ethereum a Buy After Falling 63% From Its All-Time High?",
+        "Ethereum\u2019s Most Notorious MEV Bot Loses $7.5 Million in On-Chain Honeypot Trap",
+        "Jaredfromsubway.eth Bot Drained for $7.5M in Counter-MEV Exploit"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRVL",
       "rank_score": 0.6328,
       "price": 310.8500061035156,
@@ -946,6 +864,27 @@
         "The Next $1 Trillion AI Winner May Already Be Hiding Inside Nvidia's Supply Chain",
         "Marvell (MRVL) Unveils 102.4 Tbps Switch As Photonic Shipments Pass 5 Million",
         "Why Does Donald Trump Like Marvell Technology (MRVL)?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.6232,
+      "price": 63544.41015625,
+      "rsi": 36.48492803647197,
+      "momentum_5d": -0.0081306201430096,
+      "momentum_1d": -0.01016524516915069,
+      "macd_crossover": false,
+      "atr_pct": 0.004215674247718151,
+      "bollinger_pct_b": -0.1952,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.5,
+      "news_sentiment": 0.6,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland",
+        "Why HIVE Digital Technologies (TSX:HIVE) Is Up 26.8% After Major AI GPU Cloud Deal And Data Center Buy",
+        "Former CFTC Commissioner Carolyn Pham Warns Crypto Has 2.5 Years To Become 'Too Big To Fail'"
       ],
       "high_impact_news": true
     },
@@ -992,6 +931,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.592,
+      "price": 1.1276999711990356,
+      "rsi": 32.51683919596657,
+      "momentum_5d": -0.011916229071525368,
+      "momentum_1d": -0.020583636852506092,
+      "macd_crossover": false,
+      "atr_pct": 0.006365674138826159,
+      "bollinger_pct_b": -0.2765,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.75,
+      "news_sentiment": 0.75,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "The Great XRP Retirement: Testing the Math Behind the Hoax",
+        "Can XRP Hit $500?",
+        "Is XRP (Ripple) a Strong Buy at $1.15?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARM",
       "rank_score": 0.5902,
       "price": 439.75,
@@ -1034,8 +994,50 @@
       "high_impact_news": true
     },
     {
+      "asset": "IONQ",
+      "rank_score": 0.5792,
+      "price": 56.529998779296875,
+      "rsi": 53.002797091025336,
+      "momentum_5d": 0.032511393229166664,
+      "momentum_1d": -0.09941057245436113,
+      "macd_crossover": true,
+      "atr_pct": 0.025621788630426193,
+      "bollinger_pct_b": 0.6068,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.89,
+      "news_sentiment": 0.644,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Did IonQ\u2019s New Clavis XG Multiplex Quantum Security Push Just Shift IonQ's (IONQ) Investment Narrative?",
+        "3 Services Stocks for Long-Term Investors",
+        "Better Quantum Computing Stock to Buy: IonQ vs. Rigetti"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "JPM",
+      "rank_score": 0.5768,
+      "price": 325.239990234375,
+      "rsi": 35.15742243262039,
+      "momentum_5d": -0.016778071184677792,
+      "momentum_1d": 0.012388658244932483,
+      "macd_crossover": false,
+      "atr_pct": 0.00881760292263579,
+      "bollinger_pct_b": 0.0081,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.23,
+      "news_sentiment": 0.07,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Jim Cramer Says Banks Like JPMorgan (JPM) \u201cAre Still Inexpensive\u201d",
+        "JP Morgan's David Kelly Says It's 'A Great Economy For Stocks' Amid AI-Led Bull Market Despite Inflation Risks",
+        "JPMorgan Warns Crowded Semiconductor Trade Faces Rising Risk of Sharp Selloffs"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "INTC",
-      "rank_score": 0.5828,
+      "rank_score": 0.5758,
       "price": 133.8000030517578,
       "rsi": 86.7236834079473,
       "momentum_5d": 0.012830758707374174,
@@ -1045,8 +1047,8 @@
       "bollinger_pct_b": 0.8593,
       "volume_spike": false,
       "volume_spike_ratio": 0.94,
-      "news_sentiment": 0.238,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.073,
+      "news_confidence": 0.41,
       "news_headlines": [
         "Trump says Intel will make chips for Apple in a major win for U.S. manufacturing",
         "Intel Is Stealing the Foundry Spotlight. Is TSMC Still the Most Important Company in Chips?",
