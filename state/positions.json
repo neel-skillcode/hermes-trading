@@ -371,31 +371,6 @@
     "strategy_version": "29",
     "status": "open"
   },
-  "GBP/AUD": {
-    "id": "GBP/AUD_20260618210857",
-    "asset": "GBP/AUD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.8800100088119507,
-    "entry_time": "2026-06-18T21:08:57.561184+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 4033.05,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (12.7)",
-      "1d momentum -0.66%",
-      "BB oversold (pct_b=0.10)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_peak": 1.8871699571609497,
-    "trailing_stop_price": 1.883396
-  },
   "MRNA": {
     "id": "MRNA_20260619142215",
     "asset": "MRNA",
@@ -521,31 +496,62 @@
     "trailing_stop_price": 153.599841
   },
   "XRP-USD": {
-    "id": "XRP-USD_20260620221509",
+    "id": "XRP-USD_20260621212017",
     "asset": "XRP-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1511000394821167,
-    "entry_time": "2026-06-20T22:15:09.171135+00:00",
-    "stop_loss_pct": 0.00609,
-    "take_profit_pct": 0.01519,
-    "size_usd": 4578.12,
-    "position_size_pct": 0.045,
+    "direction": "long",
+    "entry_price": 1.1292999982833862,
+    "entry_time": "2026-06-21T21:20:17.583407+00:00",
+    "stop_loss_pct": 0.00639,
+    "take_profit_pct": 0.01594,
+    "size_usd": 6454.04,
+    "position_size_pct": 0.0634,
     "confidence": 0.99,
     "signals": [
-      "MACD crossover",
-      "5d momentum +0.77%",
-      "1d momentum +1.59%",
-      "BB overbought (pct_b=0.91)",
-      "Volume spike 3.1\u00d7",
+      "RSI oversold (31.7)",
+      "5d momentum -1.25%",
+      "1d momentum -1.47%",
+      "BB oversold (pct_b=-0.37)",
+      "Volume spike 15.7\u00d7",
       "High-impact catalyst",
-      "Claude [supports]: fed hawkish"
+      "Claude [supports]: analyst upgrade; fed hawkish"
     ],
-    "news_sentiment": 0.744,
+    "news_sentiment": 0.75,
     "news_headlines": [
-      "Will XRP (Ripple) Hit $20 Before the End of This Cycle?",
-      "XRP ETFs vs. HYPE ETFs: Which Is the Better Buy Right Now?",
-      "Should You Trade Your XRP for Hyperliquid?"
+      "The Great XRP Retirement: Testing the Math Behind the Hoax",
+      "Can XRP Hit $500?",
+      "Is XRP (Ripple) a Strong Buy at $1.15?"
+    ],
+    "mode": "paper",
+    "strategy_version": "30",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260621212017",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1706.1099853515625,
+    "entry_time": "2026-06-21T21:20:17.585701+00:00",
+    "stop_loss_pct": 0.00548,
+    "take_profit_pct": 0.01315,
+    "size_usd": 2193.48,
+    "position_size_pct": 0.0215,
+    "confidence": 0.8,
+    "signals": [
+      "RSI oversold (30.0)",
+      "5d momentum -1.16%",
+      "1d momentum -1.56%",
+      "BB oversold (pct_b=-0.33)",
+      "Volume spike 3.6\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: price surge; fed hawkish; macro risk"
+    ],
+    "news_sentiment": 0.415,
+    "news_headlines": [
+      "Is Ethereum a Buy After Falling 63% From Its All-Time High?",
+      "Ethereum\u2019s Most Notorious MEV Bot Loses $7.5 Million in On-Chain Honeypot Trap",
+      "Jaredfromsubway.eth Bot Drained for $7.5M in Counter-MEV Exploit"
     ],
     "mode": "paper",
     "strategy_version": "30",
