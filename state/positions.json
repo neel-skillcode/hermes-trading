@@ -305,8 +305,8 @@
     "mode": "paper",
     "strategy_version": "29",
     "status": "open",
-    "price_trough": 6.925000190734863,
-    "trailing_stop_price": 7.028875
+    "price_trough": 6.880000114440918,
+    "trailing_stop_price": 6.9832
   },
   "CRM": {
     "id": "CRM_20260619182436",
@@ -339,39 +339,6 @@
     "price_trough": 149.10000610351562,
     "trailing_stop_price": 150.887715
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260621212017",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.1292999982833862,
-    "entry_time": "2026-06-21T21:20:17.583407+00:00",
-    "stop_loss_pct": 0.00639,
-    "take_profit_pct": 0.01594,
-    "size_usd": 6454.04,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (31.7)",
-      "5d momentum -1.25%",
-      "1d momentum -1.47%",
-      "BB oversold (pct_b=-0.37)",
-      "Volume spike 15.7\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; fed hawkish"
-    ],
-    "news_sentiment": 0.75,
-    "news_headlines": [
-      "The Great XRP Retirement: Testing the Math Behind the Hoax",
-      "Can XRP Hit $500?",
-      "Is XRP (Ripple) a Strong Buy at $1.15?"
-    ],
-    "mode": "paper",
-    "strategy_version": "30",
-    "status": "open",
-    "price_peak": 1.1411999464035034,
-    "trailing_stop_price": 1.133908
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260622093409",
     "asset": "ETH-USD",
@@ -401,8 +368,8 @@
     "mode": "paper",
     "strategy_version": "30",
     "status": "open",
-    "price_trough": 1732.8499755859375,
-    "trailing_stop_price": 1745.257181
+    "price_trough": 1732.0,
+    "trailing_stop_price": 1744.40112
   },
   "GOOGL": {
     "id": "GOOGL_20260622150739",
@@ -434,8 +401,8 @@
     "mode": "paper",
     "strategy_version": "30",
     "status": "open",
-    "price_peak": 347.7099914550781,
-    "trailing_stop_price": 342.981136
+    "price_peak": 349.67999267578125,
+    "trailing_stop_price": 344.924345
   },
   "ABBV": {
     "id": "ABBV_20260622150739",
@@ -466,8 +433,8 @@
     "mode": "paper",
     "strategy_version": "30",
     "status": "open",
-    "price_trough": 230.4499969482422,
-    "trailing_stop_price": 232.858199
+    "price_trough": 230.00999450683594,
+    "trailing_stop_price": 232.413599
   },
   "AMD": {
     "id": "AMD_20260622150739",
@@ -557,7 +524,9 @@
     ],
     "mode": "paper",
     "strategy_version": "31",
-    "status": "open"
+    "status": "open",
+    "price_trough": 35.459999084472656,
+    "trailing_stop_price": 35.991899
   },
   "IONQ": {
     "id": "IONQ_20260622185310",
@@ -584,6 +553,38 @@
       "2 Reasons to Watch IONQ and 1 to Stay Cautious",
       "Why Rigetti Says Cooling Challenges Won't Derail Quantum Advantage",
       "Did IonQ\u2019s New Clavis XG Multiplex Quantum Security Push Just Shift IonQ's (IONQ) Investment Narrative?"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open",
+    "price_trough": 58.31999969482422,
+    "trailing_stop_price": 59.1948
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260622212744",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 72.61000061035156,
+    "entry_time": "2026-06-22T21:27:44.061119+00:00",
+    "stop_loss_pct": 0.00906,
+    "take_profit_pct": 0.02207,
+    "size_usd": 5632.42,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (35.5)",
+      "5d momentum -0.36%",
+      "1d momentum -0.62%",
+      "BB oversold (pct_b=0.13)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.7,
+    "news_headlines": [
+      "Are bitcoin dividend ETFs setting the stage for $4T crypto race on Wall Street?",
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $64,000",
+      "Micron shares come to Solana just in time for earnings"
     ],
     "mode": "paper",
     "strategy_version": "31",
