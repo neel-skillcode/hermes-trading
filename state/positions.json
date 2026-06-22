@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.838469982147217,
-    "trailing_stop_price": 7.775762
+    "price_peak": 7.839379787445068,
+    "trailing_stop_price": 7.776665
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 161.5780029296875,
-    "trailing_stop_price": 160.285379
+    "price_peak": 161.7449951171875,
+    "trailing_stop_price": 160.451035
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260605201553",
@@ -527,5 +527,35 @@
     "status": "open",
     "price_peak": 1.1339000463485718,
     "trailing_stop_price": 1.126654
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260622093409",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1745.6700439453125,
+    "entry_time": "2026-06-22T09:34:09.576355+00:00",
+    "stop_loss_pct": 0.00716,
+    "take_profit_pct": 0.01687,
+    "size_usd": 2208.2,
+    "position_size_pct": 0.0217,
+    "confidence": 0.713,
+    "signals": [
+      "5d momentum +0.72%",
+      "1d momentum +0.87%",
+      "BB overbought (pct_b=0.88)",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.548,
+    "news_headlines": [
+      "Better Crypto for the Next Bull Run: Bitcoin vs. Ethereum",
+      "Taiko Exploit Adds to June Tally of Over 20 Crypto Hacks",
+      "Lummis Says CLARITY Act Will End Crypto Developer Prosecution for Writing Code"
+    ],
+    "mode": "paper",
+    "strategy_version": "30",
+    "status": "open"
   }
 }
