@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.070989966392517,
-    "trailing_stop_price": 1.062422
+    "price_peak": 1.0712599754333496,
+    "trailing_stop_price": 1.06269
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -158,8 +158,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.1439030170440674,
-    "trailing_stop_price": 1.153054
+    "price_trough": 1.1428571939468384,
+    "trailing_stop_price": 1.152
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -188,8 +188,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 184.45899963378906,
-    "trailing_stop_price": 185.934672
+    "price_trough": 184.4029998779297,
+    "trailing_stop_price": 185.878224
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -215,39 +215,6 @@
     "status": "open",
     "price_peak": 1.626270055770874,
     "trailing_stop_price": 1.61326
-  },
-  "LRCX": {
-    "id": "LRCX_20260618160401",
-    "asset": "LRCX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 396.7300109863281,
-    "entry_time": "2026-06-18T16:04:01.183306+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5592.63,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (61.4)",
-      "MACD crossover",
-      "5d momentum +4.31%",
-      "1d momentum +8.19%",
-      "BB overbought (pct_b=0.88)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.84,
-    "news_headlines": [
-      "TXN vs. LRCX: Which Semiconductor Stock Is the Better Buy Right Now?",
-      "Renaissance Investment Management Expects Positive Upward Revision for Lam Research (LRCX)",
-      "Lam Research Corporation (LRCX)\u2019s WFE Opportunity May Be Bigger Than Expected"
-    ],
-    "mode": "paper",
-    "strategy_version": "28",
-    "status": "open",
-    "price_trough": 389.04,
-    "trailing_stop_price": 394.8756
   },
   "MA": {
     "id": "MA_20260618183536",
@@ -433,7 +400,9 @@
     ],
     "mode": "paper",
     "strategy_version": "30",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1732.8499755859375,
+    "trailing_stop_price": 1745.257181
   },
   "GOOGL": {
     "id": "GOOGL_20260622150739",
@@ -464,37 +433,9 @@
     ],
     "mode": "paper",
     "strategy_version": "30",
-    "status": "open"
-  },
-  "SMCI": {
-    "id": "SMCI_20260622150739",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 34.84000015258789,
-    "entry_time": "2026-06-22T15:07:39.596985+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5125.03,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (82.4)",
-      "5d momentum +14.06%",
-      "1d momentum +12.24%",
-      "BB overbought (pct_b=1.21)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge; fed hawkish"
-    ],
-    "news_sentiment": 0.552,
-    "news_headlines": [
-      "Super Micro Jumps 11%, Dell Rises 5% as New NVIDIA Vera Rubin Systems Fuel the AI Server Trade",
-      "Super Micro Computer (SMCI) A Data Center Stock Cheaper Than the S&P",
-      "Dow Jones opens higher but Nasdaq flat as hawkish Fed still looms"
-    ],
-    "mode": "paper",
-    "strategy_version": "30",
-    "status": "open"
+    "status": "open",
+    "price_peak": 347.7099914550781,
+    "trailing_stop_price": 342.981136
   },
   "ABBV": {
     "id": "ABBV_20260622150739",
@@ -524,37 +465,9 @@
     ],
     "mode": "paper",
     "strategy_version": "30",
-    "status": "open"
-  },
-  "PLTR": {
-    "id": "PLTR_20260622150739",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 122.44999694824219,
-    "entry_time": "2026-06-22T15:07:39.600643+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 379.76,
-    "position_size_pct": 0.0038,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (17.4)",
-      "5d momentum -4.85%",
-      "1d momentum -8.80%",
-      "BB oversold (pct_b=-0.05)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.931,
-    "news_headlines": [
-      "French Domestic Intelligence Agency Replaces Palantir (PLTR) for Local Rival, Reuters Reports",
-      "3 AI Tech Stocks That Just Crushed Earnings: Are They Still Buys for the Long Term?",
-      "3 Small-Cap Stocks Getting a Russell 2000 Rebalance Boost"
-    ],
-    "mode": "paper",
-    "strategy_version": "30",
-    "status": "open"
+    "status": "open",
+    "price_trough": 230.4499969482422,
+    "trailing_stop_price": 232.858199
   },
   "AMD": {
     "id": "AMD_20260622150739",
@@ -583,6 +496,97 @@
     ],
     "mode": "paper",
     "strategy_version": "30",
+    "status": "open",
+    "price_trough": 545.5770263671875,
+    "trailing_stop_price": 573.243237
+  },
+  "SLB": {
+    "id": "SLB_20260622185310",
+    "asset": "SLB",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 47.45500183105469,
+    "entry_time": "2026-06-22T18:53:10.729842+00:00",
+    "stop_loss_pct": 0.01053,
+    "take_profit_pct": 0.02469,
+    "size_usd": 4446.75,
+    "position_size_pct": 0.0442,
+    "confidence": 0.69,
+    "signals": [
+      "RSI oversold (6.6)",
+      "MACD crossover",
+      "1d momentum -11.41%",
+      "High-impact catalyst",
+      "Claude [contradicts]: macro risk"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Jim Cramer on SLB: \u201cIt Is By Far the Best There Is\u201d",
+      "SLB- Among the 12 Best American Oil Stocks to Buy Now",
+      "SLB (SLB) Stock After Recent Pullback Could The Valuation Gap Be An Opportunity"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open"
+  },
+  "SMCI": {
+    "id": "SMCI_20260622185310",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 35.974998474121094,
+    "entry_time": "2026-06-22T18:53:10.732002+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5116.99,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (86.1)",
+      "5d momentum +4.73%",
+      "1d momentum +21.50%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.5,
+    "news_headlines": [
+      "Dell, Super Micro Bet Big on Nvidia's Next AI Platform",
+      "Super Micro Stock Soars on Forecast of Explosive AI Server Growth",
+      "Nvidia's Vera Rubin Platform Gains Momentum"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open"
+  },
+  "IONQ": {
+    "id": "IONQ_20260622185310",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 60.43000030517578,
+    "entry_time": "2026-06-22T18:53:10.733876+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 1470.35,
+    "position_size_pct": 0.0146,
+    "confidence": 0.934,
+    "signals": [
+      "RSI overbought (71.6)",
+      "5d momentum +5.38%",
+      "1d momentum +3.64%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.571,
+    "news_headlines": [
+      "2 Reasons to Watch IONQ and 1 to Stay Cautious",
+      "Why Rigetti Says Cooling Challenges Won't Derail Quantum Advantage",
+      "Did IonQ\u2019s New Clavis XG Multiplex Quantum Security Push Just Shift IonQ's (IONQ) Investment Narrative?"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
     "status": "open"
   }
 }
