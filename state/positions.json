@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.840740203857422,
-    "trailing_stop_price": 7.778014
+    "price_peak": 7.841000080108643,
+    "trailing_stop_price": 7.778272
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -158,8 +158,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.1384334564208984,
-    "trailing_stop_price": 1.147541
+    "price_trough": 1.1383039951324463,
+    "trailing_stop_price": 1.14741
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -188,8 +188,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 183.875,
-    "trailing_stop_price": 185.346
+    "price_trough": 183.8520050048828,
+    "trailing_stop_price": 185.322821
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -306,37 +306,8 @@
     "mode": "paper",
     "strategy_version": "30",
     "status": "open",
-    "price_trough": 520.5800170898438,
-    "trailing_stop_price": 546.97863
-  },
-  "SLB": {
-    "id": "SLB_20260622185310",
-    "asset": "SLB",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 47.45500183105469,
-    "entry_time": "2026-06-22T18:53:10.729842+00:00",
-    "stop_loss_pct": 0.01053,
-    "take_profit_pct": 0.02469,
-    "size_usd": 4446.75,
-    "position_size_pct": 0.0442,
-    "confidence": 0.69,
-    "signals": [
-      "RSI oversold (6.6)",
-      "MACD crossover",
-      "1d momentum -11.41%",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.73,
-    "news_headlines": [
-      "Jim Cramer on SLB: \u201cIt Is By Far the Best There Is\u201d",
-      "SLB- Among the 12 Best American Oil Stocks to Buy Now",
-      "SLB (SLB) Stock After Recent Pullback Could The Valuation Gap Be An Opportunity"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open"
+    "price_trough": 519.5399780273438,
+    "trailing_stop_price": 545.88585
   },
   "SOL-USD": {
     "id": "SOL-USD_20260623112756",
@@ -547,6 +518,36 @@
       "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares",
       "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Amid Continued US-Iran Talks",
       "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday as Interim US-Iran Deal Lifts Risk Sentiment"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260623182157",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 278.9150085449219,
+    "entry_time": "2026-06-23T18:21:57.240794+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03543,
+    "size_usd": 4422.76,
+    "position_size_pct": 0.044,
+    "confidence": 0.724,
+    "signals": [
+      "RSI oversold (18.3)",
+      "5d momentum -9.40%",
+      "1d momentum -4.71%",
+      "BB oversold (pct_b=0.10)",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: fed hawkish; price decline"
+    ],
+    "news_sentiment": 0.184,
+    "news_headlines": [
+      "How Marvell Technology (MRVL) Is Using Teralynx T100 to Target AI Data-Center Bandwidth Bottlenecks",
+      "Is The AI-Fueled Growth Story For AMD Stock Worth The Elevated Price?",
+      "S&P, Nasdaq drop on tech selloff as concerns about hawkish Fed, AI spending mount"
     ],
     "mode": "paper",
     "strategy_version": "32",
