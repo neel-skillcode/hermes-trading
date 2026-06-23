@@ -374,36 +374,6 @@
     "price_peak": 586.739990234375,
     "trailing_stop_price": 577.93889
   },
-  "ARM": {
-    "id": "ARM_20260623162859",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 372.1348876953125,
-    "entry_time": "2026-06-23T16:28:59.007885+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6014.19,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (14.4)",
-      "5d momentum -9.01%",
-      "1d momentum -6.07%",
-      "BB oversold (pct_b=-0.00)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; macro risk"
-    ],
-    "news_sentiment": 0.83,
-    "news_headlines": [
-      "Stanley Druckenmiller Backs These 3 Chip and Tech Stocks: Should You Follow?",
-      "The Billionaire Who Called the 2008 Bubble Just Dumped Google to Buy These 5 AI Hardware Stocks",
-      "Why Bernstein Just Raised Its Price Target on Arm Stock by Nearly 70%"
-    ],
-    "mode": "paper",
-    "strategy_version": "32",
-    "status": "open"
-  },
   "QCOM": {
     "id": "QCOM_20260623162859",
     "asset": "QCOM",
@@ -432,7 +402,9 @@
     ],
     "mode": "paper",
     "strategy_version": "32",
-    "status": "open"
+    "status": "open",
+    "price_peak": 204.1300048828125,
+    "trailing_stop_price": 201.068055
   },
   "SNAP": {
     "id": "SNAP_20260623162859",
@@ -548,6 +520,68 @@
       "How Marvell Technology (MRVL) Is Using Teralynx T100 to Target AI Data-Center Bandwidth Bottlenecks",
       "Is The AI-Fueled Growth Story For AMD Stock Worth The Elevated Price?",
       "S&P, Nasdaq drop on tech selloff as concerns about hawkish Fed, AI spending mount"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open",
+    "price_peak": 279.0400085449219,
+    "trailing_stop_price": 274.854408
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260623202836",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.420000076293945,
+    "entry_time": "2026-06-23T20:28:36.753334+00:00",
+    "stop_loss_pct": 0.0124,
+    "take_profit_pct": 0.03019,
+    "size_usd": 5593.57,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (73.6)",
+      "5d momentum +0.94%",
+      "1d momentum +2.39%",
+      "BB overbought (pct_b=1.04)",
+      "Volume spike 2.6\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.429,
+    "news_headlines": [
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?",
+      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260623202836",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 62407.87109375,
+    "entry_time": "2026-06-23T20:28:36.755425+00:00",
+    "stop_loss_pct": 0.00564,
+    "take_profit_pct": 0.01361,
+    "size_usd": 383.49,
+    "position_size_pct": 0.0038,
+    "confidence": 0.83,
+    "signals": [
+      "RSI oversold (38.4)",
+      "MACD crossover",
+      "1d momentum -3.03%",
+      "High-impact catalyst",
+      "Claude [supports]: fed dovish; macro risk; price decline"
+    ],
+    "news_sentiment": -0.442,
+    "news_headlines": [
+      "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout",
+      "The company that owns 5% of ethereum could be coming to the Russell 1000",
+      "Top wealth manager sends surprising message on Fed rate cuts"
     ],
     "mode": "paper",
     "strategy_version": "32",
