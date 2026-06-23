@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.839839935302734,
-    "trailing_stop_price": 7.777121
+    "price_peak": 7.840219974517822,
+    "trailing_stop_price": 7.777498
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -158,8 +158,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.1402509212493896,
-    "trailing_stop_price": 1.149373
+    "price_trough": 1.1393414735794067,
+    "trailing_stop_price": 1.148456
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -188,8 +188,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 184.05999755859375,
-    "trailing_stop_price": 185.532478
+    "price_trough": 183.96499633789062,
+    "trailing_stop_price": 185.436716
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -245,100 +245,6 @@
     "strategy_version": "29",
     "status": "open"
   },
-  "XOM": {
-    "id": "XOM_20260619142215",
-    "asset": "XOM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 137.77000427246094,
-    "entry_time": "2026-06-19T14:22:15.176148+00:00",
-    "stop_loss_pct": 0.00883,
-    "take_profit_pct": 0.02203,
-    "size_usd": 6447.64,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (27.3)",
-      "MACD crossover",
-      "5d momentum +0.58%",
-      "1d momentum -2.68%",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: ma catalyst; macro risk; price decline"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "Expert Warns: California Taxes Harming \u201cBig Wealth Driver in the State\u201d as Billionaires Flee",
-      "Darren Woods\u2019 Game Plan at Exxon Mobil: Produce More Oil for Less Money",
-      "Exxon Mobil (XOM) Stock Could Be 18.9% Undervalued Despite Recent Pullback"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open"
-  },
-  "SOUN": {
-    "id": "SOUN_20260619142215",
-    "asset": "SOUN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.130000114440918,
-    "entry_time": "2026-06-19T14:22:15.177925+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03621,
-    "size_usd": 235.18,
-    "position_size_pct": 0.0023,
-    "confidence": 0.828,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +2.74%",
-      "1d momentum -6.18%",
-      "BB overbought (pct_b=0.98)",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.6,
-    "news_headlines": [
-      "SoundHound AI (SOUN) Buys LivePerson For $100 Million And Launches OASYS",
-      "SoundHound AI, Inc. (SOUN) Outpaces Stock Market Gains: What You Should Know",
-      "SoundHound AI (SOUN) Stock Could Be 50.3% Undervalued Despite Its Recent Share Price Slide"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_trough": 6.880000114440918,
-    "trailing_stop_price": 6.9832
-  },
-  "CRM": {
-    "id": "CRM_20260619182436",
-    "asset": "CRM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 151.80999755859375,
-    "entry_time": "2026-06-19T18:24:36.375487+00:00",
-    "stop_loss_pct": 0.01199,
-    "take_profit_pct": 0.02742,
-    "size_usd": 2642.4,
-    "position_size_pct": 0.026,
-    "confidence": 0.575,
-    "signals": [
-      "RSI oversold (15.0)",
-      "1d momentum -8.55%",
-      "Volume spike 3.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; ma catalyst"
-    ],
-    "news_sentiment": 0.302,
-    "news_headlines": [
-      "Stocks to Watch Recap: Intel, Accenture, Apple, SpaceX",
-      "Oracle vs. Salesforce: Which Tech Giant Is The Better Buy?",
-      "The Number That Puts Oracle Stock To The Test"
-    ],
-    "mode": "paper",
-    "strategy_version": "30",
-    "status": "open",
-    "price_trough": 149.10000610351562,
-    "trailing_stop_price": 150.887715
-  },
   "GOOGL": {
     "id": "GOOGL_20260622150739",
     "asset": "GOOGL",
@@ -372,38 +278,6 @@
     "price_peak": 349.67999267578125,
     "trailing_stop_price": 344.924345
   },
-  "ABBV": {
-    "id": "ABBV_20260622150739",
-    "asset": "ABBV",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 230.5,
-    "entry_time": "2026-06-22T15:07:39.598765+00:00",
-    "stop_loss_pct": 0.01045,
-    "take_profit_pct": 0.02505,
-    "size_usd": 5125.03,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (67.3)",
-      "5d momentum +6.47%",
-      "1d momentum +3.84%",
-      "BB overbought (pct_b=1.19)",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.918,
-    "news_headlines": [
-      "Merck Stock\u2019s New Drugs Were Already Answering The Big Question",
-      "AbbVie to Buy Immunology Drugmaker Apogee for $10.9 Billion",
-      "Why AbbVie Is Spending $11 Billion to Buy Apogee Therapeutics"
-    ],
-    "mode": "paper",
-    "strategy_version": "30",
-    "status": "open",
-    "price_trough": 230.00999450683594,
-    "trailing_stop_price": 232.413599
-  },
   "AMD": {
     "id": "AMD_20260622150739",
     "asset": "AMD",
@@ -432,8 +306,8 @@
     "mode": "paper",
     "strategy_version": "30",
     "status": "open",
-    "price_trough": 545.5770263671875,
-    "trailing_stop_price": 573.243237
+    "price_trough": 520.5800170898438,
+    "trailing_stop_price": 546.97863
   },
   "SLB": {
     "id": "SLB_20260622185310",
@@ -463,70 +337,6 @@
     "mode": "paper",
     "strategy_version": "31",
     "status": "open"
-  },
-  "SMCI": {
-    "id": "SMCI_20260622185310",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 35.974998474121094,
-    "entry_time": "2026-06-22T18:53:10.732002+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5116.99,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (86.1)",
-      "5d momentum +4.73%",
-      "1d momentum +21.50%",
-      "BB overbought (pct_b=0.92)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.5,
-    "news_headlines": [
-      "Dell, Super Micro Bet Big on Nvidia's Next AI Platform",
-      "Super Micro Stock Soars on Forecast of Explosive AI Server Growth",
-      "Nvidia's Vera Rubin Platform Gains Momentum"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open",
-    "price_trough": 35.459999084472656,
-    "trailing_stop_price": 35.991899
-  },
-  "IONQ": {
-    "id": "IONQ_20260622185310",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 60.43000030517578,
-    "entry_time": "2026-06-22T18:53:10.733876+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 1470.35,
-    "position_size_pct": 0.0146,
-    "confidence": 0.934,
-    "signals": [
-      "RSI overbought (71.6)",
-      "5d momentum +5.38%",
-      "1d momentum +3.64%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.571,
-    "news_headlines": [
-      "2 Reasons to Watch IONQ and 1 to Stay Cautious",
-      "Why Rigetti Says Cooling Challenges Won't Derail Quantum Advantage",
-      "Did IonQ\u2019s New Clavis XG Multiplex Quantum Security Push Just Shift IonQ's (IONQ) Investment Narrative?"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open",
-    "price_trough": 58.31999969482422,
-    "trailing_stop_price": 59.1948
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260623080544",
@@ -583,6 +393,132 @@
       "Are bitcoin dividend ETFs setting the stage for $4T crypto race on Wall Street?",
       "Prediction: Solana Will Be the Top Crypto for Decentralized Finance (DeFi) by 2030",
       "Baillie Gifford launches UK's first native tokenised fund on Solana"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open",
+    "price_peak": 69.05999755859375,
+    "trailing_stop_price": 68.374922
+  },
+  "QCOM": {
+    "id": "QCOM_20260623135909",
+    "asset": "QCOM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 207.1199951171875,
+    "entry_time": "2026-06-23T13:59:09.109538+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6382.4,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (31.4)",
+      "5d momentum -9.16%",
+      "1d momentum -5.38%",
+      "BB oversold (pct_b=-0.13)",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: fed dovish; price decline"
+    ],
+    "news_sentiment": 0.652,
+    "news_headlines": [
+      "Tech stocks live: Google and other tech stocks extend losses as AI worries creep back in",
+      "\ud83d\udcc9 These Tech Stocks Are Falling the Most This Morning",
+      "Qualcomm's AI Pivot: Smarter Than It Looks"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open"
+  },
+  "ARM": {
+    "id": "ARM_20260623135909",
+    "asset": "ARM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 383.2900085449219,
+    "entry_time": "2026-06-23T13:59:09.111464+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6382.4,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (18.0)",
+      "5d momentum -5.95%",
+      "1d momentum -6.30%",
+      "BB oversold (pct_b=-0.13)",
+      "Volume spike 1.8\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.542,
+    "news_headlines": [
+      "Stanley Druckenmiller Backs These 3 Chip and Tech Stocks: Should You Follow?",
+      "Nasdaq tipped for steep fall amidst 'rotation not liquidation' in tech",
+      "The Billionaire Who Called the 2008 Bubble Just Dumped Google to Buy These 5 AI Hardware Stocks"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open"
+  },
+  "IONQ": {
+    "id": "IONQ_20260623135909",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 60.70050048828125,
+    "entry_time": "2026-06-23T13:59:09.112801+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6124.52,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (73.6)",
+      "5d momentum +3.58%",
+      "1d momentum +4.98%",
+      "BB overbought (pct_b=0.94)",
+      "Volume spike 2.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.349,
+    "news_headlines": [
+      "Quantum Computing Stocks Waver Amid Trump Executive Orders, 2028 Target",
+      "Trump\u2019s 2 New Quantum Computing Orders Reignite the Next AI-Style Investing Boom",
+      "Quantum Computing Stocks Rally After Trump Signs New Industry Support Measures"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260623135909",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 583.1900024414062,
+    "entry_time": "2026-06-23T13:59:09.114160+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 2227.09,
+    "position_size_pct": 0.0221,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (28.3)",
+      "5d momentum -6.87%",
+      "1d momentum +0.57%",
+      "BB oversold (pct_b=-0.11)",
+      "Volume spike 1.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.818,
+    "news_headlines": [
+      "BofA lists top 5 themes driving next $1tn in incremental semi sales",
+      "A Growing Supply Gap Has Analysts Eyeing Applied Materials (AMAT)",
+      "Applied Materials (AMAT) and EssilorLuxottica Sign Long-Term Deal, Reuters Reports"
     ],
     "mode": "paper",
     "strategy_version": "31",
