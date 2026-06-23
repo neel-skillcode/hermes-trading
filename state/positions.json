@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.840219974517822,
-    "trailing_stop_price": 7.777498
+    "price_peak": 7.840740203857422,
+    "trailing_stop_price": 7.778014
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -158,8 +158,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.1393414735794067,
-    "trailing_stop_price": 1.148456
+    "price_trough": 1.1384334564208984,
+    "trailing_stop_price": 1.147541
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -188,8 +188,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 183.96499633789062,
-    "trailing_stop_price": 185.436716
+    "price_trough": 183.875,
+    "trailing_stop_price": 185.346
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -338,36 +338,6 @@
     "strategy_version": "31",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260623080544",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07970999926328659,
-    "entry_time": "2026-06-23T08:05:44.181496+00:00",
-    "stop_loss_pct": 0.00765,
-    "take_profit_pct": 0.01833,
-    "size_usd": 5110.99,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (16.5)",
-      "5d momentum -2.93%",
-      "1d momentum -4.54%",
-      "BB oversold (pct_b=-0.01)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed hawkish"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?",
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $64,000",
-      "Following SpaceX's $2 Trillion IPO, Will Dogecoin Be the Next Elon Musk-Linked Investment to Go Parabolic?"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open"
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260623112756",
     "asset": "SOL-USD",
@@ -400,99 +370,6 @@
     "price_peak": 69.05999755859375,
     "trailing_stop_price": 68.374922
   },
-  "QCOM": {
-    "id": "QCOM_20260623135909",
-    "asset": "QCOM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 207.1199951171875,
-    "entry_time": "2026-06-23T13:59:09.109538+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6382.4,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (31.4)",
-      "5d momentum -9.16%",
-      "1d momentum -5.38%",
-      "BB oversold (pct_b=-0.13)",
-      "Volume spike 2.3\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: fed dovish; price decline"
-    ],
-    "news_sentiment": 0.652,
-    "news_headlines": [
-      "Tech stocks live: Google and other tech stocks extend losses as AI worries creep back in",
-      "\ud83d\udcc9 These Tech Stocks Are Falling the Most This Morning",
-      "Qualcomm's AI Pivot: Smarter Than It Looks"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open"
-  },
-  "ARM": {
-    "id": "ARM_20260623135909",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 383.2900085449219,
-    "entry_time": "2026-06-23T13:59:09.111464+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6382.4,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (18.0)",
-      "5d momentum -5.95%",
-      "1d momentum -6.30%",
-      "BB oversold (pct_b=-0.13)",
-      "Volume spike 1.8\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; macro risk"
-    ],
-    "news_sentiment": 0.542,
-    "news_headlines": [
-      "Stanley Druckenmiller Backs These 3 Chip and Tech Stocks: Should You Follow?",
-      "Nasdaq tipped for steep fall amidst 'rotation not liquidation' in tech",
-      "The Billionaire Who Called the 2008 Bubble Just Dumped Google to Buy These 5 AI Hardware Stocks"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open"
-  },
-  "IONQ": {
-    "id": "IONQ_20260623135909",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 60.70050048828125,
-    "entry_time": "2026-06-23T13:59:09.112801+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 6124.52,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (73.6)",
-      "5d momentum +3.58%",
-      "1d momentum +4.98%",
-      "BB overbought (pct_b=0.94)",
-      "Volume spike 2.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.349,
-    "news_headlines": [
-      "Quantum Computing Stocks Waver Amid Trump Executive Orders, 2028 Target",
-      "Trump\u2019s 2 New Quantum Computing Orders Reignite the Next AI-Style Investing Boom",
-      "Quantum Computing Stocks Rally After Trump Signs New Industry Support Measures"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open"
-  },
   "AMAT": {
     "id": "AMAT_20260623135909",
     "asset": "AMAT",
@@ -522,6 +399,157 @@
     ],
     "mode": "paper",
     "strategy_version": "31",
+    "status": "open",
+    "price_peak": 586.739990234375,
+    "trailing_stop_price": 577.93889
+  },
+  "ARM": {
+    "id": "ARM_20260623162859",
+    "asset": "ARM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 372.1348876953125,
+    "entry_time": "2026-06-23T16:28:59.007885+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 6014.19,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (14.4)",
+      "5d momentum -9.01%",
+      "1d momentum -6.07%",
+      "BB oversold (pct_b=-0.00)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.83,
+    "news_headlines": [
+      "Stanley Druckenmiller Backs These 3 Chip and Tech Stocks: Should You Follow?",
+      "The Billionaire Who Called the 2008 Bubble Just Dumped Google to Buy These 5 AI Hardware Stocks",
+      "Why Bernstein Just Raised Its Price Target on Arm Stock by Nearly 70%"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open"
+  },
+  "QCOM": {
+    "id": "QCOM_20260623162859",
+    "asset": "QCOM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 203.29010009765625,
+    "entry_time": "2026-06-23T16:28:59.009820+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6374.78,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (32.4)",
+      "5d momentum -10.21%",
+      "1d momentum -4.92%",
+      "BB oversold (pct_b=0.02)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: fed dovish; ma catalyst; price decline"
+    ],
+    "news_sentiment": 0.542,
+    "news_headlines": [
+      "Tech stocks live: Google and other tech stocks extend losses as AI worries creep back in",
+      "Update: US Equity Indexes Mixed Amid Mega-Cap Chip Rout",
+      "Is The AI-Fueled Growth Story For AMD Stock Worth The Elevated Price?"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open"
+  },
+  "SNAP": {
+    "id": "SNAP_20260623162859",
+    "asset": "SNAP",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 4.494999885559082,
+    "entry_time": "2026-06-23T16:28:59.011608+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 6014.19,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (33.6)",
+      "5d momentum -5.47%",
+      "1d momentum -12.80%",
+      "BB oversold (pct_b=0.01)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.304,
+    "news_headlines": [
+      "Will Snap's Augmented Reality Glasses Help or Hurt the Company?",
+      "PINS Benefits From Strong User Growth: More Upside Ahead?",
+      "Snap CEO says Specs are a bet on a shift back to in-person connection"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open"
+  },
+  "KLAC": {
+    "id": "KLAC_20260623162859",
+    "asset": "KLAC",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 245.00999450683594,
+    "entry_time": "2026-06-23T16:28:59.012927+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03483,
+    "size_usd": 4146.83,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (35.9)",
+      "5d momentum -8.28%",
+      "1d momentum +3.24%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.917,
+    "news_headlines": [
+      "Penguin Solutions and KLA Corporation Stocks Trade Up, What You Need To Know",
+      "ONTO vs. KLAC: Which Semiconductor Equipment Stock is the Better Bet?",
+      "Is KLA the Biggest Process Control Winner From AI Spending?"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open"
+  },
+  "SLV": {
+    "id": "SLV_20260623162859",
+    "asset": "SLV",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 56.150001525878906,
+    "entry_time": "2026-06-23T16:28:59.014310+00:00",
+    "stop_loss_pct": 0.01187,
+    "take_profit_pct": 0.02894,
+    "size_usd": 1402.27,
+    "position_size_pct": 0.0139,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (16.9)",
+      "5d momentum -5.01%",
+      "1d momentum -11.44%",
+      "BB oversold (pct_b=0.01)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares",
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Amid Continued US-Iran Talks",
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday as Interim US-Iran Deal Lifts Risk Sentiment"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
     "status": "open"
   }
 }
