@@ -158,8 +158,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.1427265405654907,
-    "trailing_stop_price": 1.151868
+    "price_trough": 1.1418131589889526,
+    "trailing_stop_price": 1.150948
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -188,8 +188,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 184.4029998779297,
-    "trailing_stop_price": 185.878224
+    "price_trough": 184.16400146484375,
+    "trailing_stop_price": 185.637313
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -338,38 +338,6 @@
     "status": "open",
     "price_trough": 149.10000610351562,
     "trailing_stop_price": 150.887715
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260622093409",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1745.6700439453125,
-    "entry_time": "2026-06-22T09:34:09.576355+00:00",
-    "stop_loss_pct": 0.00716,
-    "take_profit_pct": 0.01687,
-    "size_usd": 2208.2,
-    "position_size_pct": 0.0217,
-    "confidence": 0.713,
-    "signals": [
-      "5d momentum +0.72%",
-      "1d momentum +0.87%",
-      "BB overbought (pct_b=0.88)",
-      "Volume spike 2.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.548,
-    "news_headlines": [
-      "Better Crypto for the Next Bull Run: Bitcoin vs. Ethereum",
-      "Taiko Exploit Adds to June Tally of Over 20 Crypto Hacks",
-      "Lummis Says CLARITY Act Will End Crypto Developer Prosecution for Writing Code"
-    ],
-    "mode": "paper",
-    "strategy_version": "30",
-    "status": "open",
-    "price_trough": 1722.8399658203125,
-    "trailing_stop_price": 1735.1755
   },
   "GOOGL": {
     "id": "GOOGL_20260622150739",
@@ -560,23 +528,53 @@
     "price_trough": 58.31999969482422,
     "trailing_stop_price": 59.1948
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260623001743",
-    "asset": "SOL-USD",
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260623080544",
+    "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 71.6500015258789,
-    "entry_time": "2026-06-23T00:17:43.153964+00:00",
-    "stop_loss_pct": 0.00911,
-    "take_profit_pct": 0.02184,
-    "size_usd": 5113.2,
+    "entry_price": 0.07970999926328659,
+    "entry_time": "2026-06-23T08:05:44.181496+00:00",
+    "stop_loss_pct": 0.00765,
+    "take_profit_pct": 0.01833,
+    "size_usd": 5110.99,
     "position_size_pct": 0.0508,
     "confidence": 0.794,
     "signals": [
-      "RSI oversold (30.8)",
-      "5d momentum -2.12%",
-      "1d momentum -1.82%",
-      "BB oversold (pct_b=-0.11)",
+      "RSI oversold (16.5)",
+      "5d momentum -2.93%",
+      "1d momentum -4.54%",
+      "BB oversold (pct_b=-0.01)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?",
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $64,000",
+      "Following SpaceX's $2 Trillion IPO, Will Dogecoin Be the Next Elon Musk-Linked Investment to Go Parabolic?"
+    ],
+    "mode": "paper",
+    "strategy_version": "31",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260623080544",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 69.83000183105469,
+    "entry_time": "2026-06-23T08:05:44.183791+00:00",
+    "stop_loss_pct": 0.00822,
+    "take_profit_pct": 0.01971,
+    "size_usd": 3504.05,
+    "position_size_pct": 0.0348,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (13.5)",
+      "5d momentum -2.89%",
+      "1d momentum -5.41%",
+      "BB oversold (pct_b=0.04)",
       "High-impact catalyst",
       "Claude [contradicts]: macro risk"
     ],
