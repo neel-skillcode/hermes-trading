@@ -129,8 +129,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.134429931640625,
-    "trailing_stop_price": 1.143505
+    "price_trough": 1.1340440511703491,
+    "trailing_stop_price": 1.143116
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -159,8 +159,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 183.3769989013672,
-    "trailing_stop_price": 184.844015
+    "price_trough": 183.3179931640625,
+    "trailing_stop_price": 184.784537
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -466,38 +466,6 @@
     "price_peak": 279.0400085449219,
     "trailing_stop_price": 274.854408
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260624001025",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.519999980926514,
-    "entry_time": "2026-06-24T00:10:25.385745+00:00",
-    "stop_loss_pct": 0.01072,
-    "take_profit_pct": 0.0257,
-    "size_usd": 5100.4,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (82.0)",
-      "5d momentum +3.49%",
-      "1d momentum +4.65%",
-      "BB overbought (pct_b=1.04)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.429,
-    "news_headlines": [
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?",
-      "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels"
-    ],
-    "mode": "paper",
-    "strategy_version": "32",
-    "status": "open",
-    "price_trough": 6.380000114440918,
-    "trailing_stop_price": 6.448394
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260624001025",
     "asset": "ETH-USD",
@@ -526,8 +494,8 @@
     "mode": "paper",
     "strategy_version": "32",
     "status": "open",
-    "price_trough": 1658.4000244140625,
-    "trailing_stop_price": 1667.620729
+    "price_trough": 1649.3199462890625,
+    "trailing_stop_price": 1658.490165
   },
   "XRP-USD": {
     "id": "XRP-USD_20260624111215",
@@ -586,6 +554,39 @@
     ],
     "mode": "paper",
     "strategy_version": "32",
+    "status": "open",
+    "price_trough": 61751.9609375,
+    "trailing_stop_price": 62483.104155
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260624132842",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.0775500014424324,
+    "entry_time": "2026-06-24T13:28:42.979247+00:00",
+    "stop_loss_pct": 0.00776,
+    "take_profit_pct": 0.0189,
+    "size_usd": 5159.85,
+    "position_size_pct": 0.0513,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (35.7)",
+      "5d momentum -1.92%",
+      "1d momentum -2.48%",
+      "BB oversold (pct_b=-0.28)",
+      "Volume spike 7.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": -0.125,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Important Level' For BTC",
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
+      "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?"
+    ],
+    "mode": "paper",
+    "strategy_version": "33",
     "status": "open"
   }
 }

@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100355.33,
+  "portfolio_balance": 100503.96,
   "portfolio_peak": 101899.75,
-  "portfolio_drawdown_pct": 1.52,
-  "unrealized_pnl_usd": 691.18,
-  "equity_value": 101046.51,
+  "portfolio_drawdown_pct": 1.37,
+  "unrealized_pnl_usd": 639.89,
+  "equity_value": 101143.85,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40142.13,
+  "day_capital_used_usd": 40201.58,
   "swing_capital_used_usd": 44440.15,
-  "total_trades": 352,
-  "last_tick": "2026-06-24T11:12:16.041437+00:00",
-  "last_reflection": "2026-06-24",
-  "trades_since_last_reflection": 0,
+  "total_trades": 353,
+  "last_tick": "2026-06-24T13:28:42.981305+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9260200262069702,
       "trailing_stop_price": 0.918612,
-      "current_price": 0.92163,
-      "unrealized_pnl_pct": 0.012269,
-      "unrealized_pnl_usd": 16.49
+      "current_price": 0.92137,
+      "unrealized_pnl_pct": 0.011983,
+      "unrealized_pnl_usd": 16.11
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 1.0713000297546387,
       "trailing_stop_price": 1.06273,
-      "current_price": 1.06903,
-      "unrealized_pnl_pct": 0.014289,
-      "unrealized_pnl_usd": 19.2
+      "current_price": 1.06976,
+      "unrealized_pnl_pct": 0.014981,
+      "unrealized_pnl_usd": 20.14
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 7.841000080108643,
       "trailing_stop_price": 7.778272,
-      "current_price": 7.8403,
-      "unrealized_pnl_pct": 0.000766,
-      "unrealized_pnl_usd": 1.03
+      "current_price": 7.8394,
+      "unrealized_pnl_pct": 0.000651,
+      "unrealized_pnl_usd": 0.87
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -127,9 +127,9 @@
       "status": "open",
       "price_peak": 161.7449951171875,
       "trailing_stop_price": 160.451035,
-      "current_price": 161.684006,
-      "unrealized_pnl_pct": 0.015801,
-      "unrealized_pnl_usd": 61.39
+      "current_price": 161.720001,
+      "unrealized_pnl_pct": 0.016027,
+      "unrealized_pnl_usd": 62.27
     },
     {
       "id": "EUR/USD_20260614233933",
@@ -159,11 +159,11 @@
       "mode": "paper",
       "strategy_version": "25",
       "status": "open",
-      "price_trough": 1.134429931640625,
-      "trailing_stop_price": 1.143505,
-      "current_price": 1.13443,
-      "unrealized_pnl_pct": 0.022802,
-      "unrealized_pnl_usd": 170.58
+      "price_trough": 1.1340440511703491,
+      "trailing_stop_price": 1.143116,
+      "current_price": 1.134044,
+      "unrealized_pnl_pct": 0.023134,
+      "unrealized_pnl_usd": 173.07
     },
     {
       "id": "EUR/JPY_20260616172805",
@@ -192,11 +192,11 @@
       "mode": "paper",
       "strategy_version": "26",
       "status": "open",
-      "price_trough": 183.3769989013672,
-      "trailing_stop_price": 184.844015,
-      "current_price": 183.378006,
-      "unrealized_pnl_pct": 0.015658,
-      "unrealized_pnl_usd": 88.95
+      "price_trough": 183.3179931640625,
+      "trailing_stop_price": 184.784537,
+      "current_price": 183.322006,
+      "unrealized_pnl_pct": 0.015959,
+      "unrealized_pnl_usd": 90.66
     },
     {
       "id": "EUR/CAD_20260617212144",
@@ -222,9 +222,9 @@
       "status": "open",
       "price_peak": 1.626270055770874,
       "trailing_stop_price": 1.61326,
-      "current_price": 1.61335,
-      "unrealized_pnl_pct": -0.004842,
-      "unrealized_pnl_usd": -26.21
+      "current_price": 1.6138,
+      "unrealized_pnl_pct": -0.004564,
+      "unrealized_pnl_usd": -24.71
     },
     {
       "id": "MA_20260618183536",
@@ -533,41 +533,6 @@
       "unrealized_pnl_usd": 4.2
     },
     {
-      "id": "AVAX-USD_20260624001025",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 6.519999980926514,
-      "entry_time": "2026-06-24T00:10:25.385745+00:00",
-      "stop_loss_pct": 0.01072,
-      "take_profit_pct": 0.0257,
-      "size_usd": 5100.4,
-      "position_size_pct": 0.0508,
-      "confidence": 0.794,
-      "signals": [
-        "RSI overbought (82.0)",
-        "5d momentum +3.49%",
-        "1d momentum +4.65%",
-        "BB overbought (pct_b=1.04)",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price decline"
-      ],
-      "news_sentiment": 0.429,
-      "news_headlines": [
-        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-        "Is Avalanche About to Have Its Biggest Year Yet?",
-        "AVAX Price Prediction: Treasury Stock Tumbles 38% on Nasdaq Debut as Crypto Proxy Trade Unravels"
-      ],
-      "mode": "paper",
-      "strategy_version": "32",
-      "status": "open",
-      "price_trough": 6.380000114440918,
-      "trailing_stop_price": 6.448394,
-      "current_price": 6.39,
-      "unrealized_pnl_pct": 0.019939,
-      "unrealized_pnl_usd": 101.7
-    },
-    {
       "id": "ETH-USD_20260624001025",
       "asset": "ETH-USD",
       "trade_type": "day",
@@ -595,11 +560,11 @@
       "mode": "paper",
       "strategy_version": "32",
       "status": "open",
-      "price_trough": 1658.4000244140625,
-      "trailing_stop_price": 1667.620729,
-      "current_price": 1658.209961,
-      "unrealized_pnl_pct": 0.006394,
-      "unrealized_pnl_usd": 5.38
+      "price_trough": 1649.3199462890625,
+      "trailing_stop_price": 1658.490165,
+      "current_price": 1648.800049,
+      "unrealized_pnl_pct": 0.012032,
+      "unrealized_pnl_usd": 10.12
     },
     {
       "id": "XRP-USD_20260624111215",
@@ -630,9 +595,9 @@
       "mode": "paper",
       "strategy_version": "32",
       "status": "open",
-      "current_price": 1.084,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 1.0792,
+      "unrealized_pnl_pct": -0.004428,
+      "unrealized_pnl_usd": -15.41
     },
     {
       "id": "BTC-USD_20260624111215",
@@ -662,7 +627,43 @@
       "mode": "paper",
       "strategy_version": "32",
       "status": "open",
-      "current_price": 62284.199219,
+      "price_trough": 61751.9609375,
+      "trailing_stop_price": 62483.104155,
+      "current_price": 61742.761719,
+      "unrealized_pnl_pct": 0.008693,
+      "unrealized_pnl_usd": 54.1
+    },
+    {
+      "id": "DOGE-USD_20260624132842",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.0775500014424324,
+      "entry_time": "2026-06-24T13:28:42.979247+00:00",
+      "stop_loss_pct": 0.00776,
+      "take_profit_pct": 0.0189,
+      "size_usd": 5159.85,
+      "position_size_pct": 0.0513,
+      "confidence": 0.87,
+      "signals": [
+        "RSI oversold (35.7)",
+        "5d momentum -1.92%",
+        "1d momentum -2.48%",
+        "BB oversold (pct_b=-0.28)",
+        "Volume spike 7.7\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed hawkish"
+      ],
+      "news_sentiment": -0.125,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Important Level' For BTC",
+        "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
+        "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?"
+      ],
+      "mode": "paper",
+      "strategy_version": "33",
+      "status": "open",
+      "current_price": 0.07755,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -683,15 +684,57 @@
       "news_sentiment": 0.882,
       "news_confidence": 0.51,
       "news_headlines": [
+        "Lyft Joins Uber (UBER) in Suing New York City",
         "Microsoft CEO Satya Nadella warns of AI concentration risks",
-        "1 Cash-Heavy Stock to Target This Week and 2 Facing Headwinds",
-        "Lyft Inc. (LYFT) Prepares for Baidu\u2019s AV London Road Testing"
+        "1 Cash-Heavy Stock to Target This Week and 2 Facing Headwinds"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.7116,
+      "price": 0.0775500014424324,
+      "rsi": 35.73083159601575,
+      "momentum_5d": -0.019223477460180338,
+      "momentum_1d": -0.02477364833148037,
+      "macd_crossover": false,
+      "atr_pct": 0.007939579271753625,
+      "bollinger_pct_b": -0.2772,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.67,
+      "news_sentiment": -0.125,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Important Level' For BTC",
+        "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
+        "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.6882,
+      "price": 1.079200029373169,
+      "rsi": 26.72960749142014,
+      "momentum_5d": -0.019533016272224757,
+      "momentum_1d": -0.020245124161638917,
+      "macd_crossover": false,
+      "atr_pct": 0.007346707799740644,
+      "bollinger_pct_b": -0.1663,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.61,
+      "news_sentiment": -0.043,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Legal Expert Urges Ripple to Unlock XRP Tokens Faster",
+        "Binance XRP Outflows Signal Accumulation While MoneyGram\u2019s Stellar Move Is Old News",
+        "Ripple secures preliminary CASP licence approval in Luxembourg"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.6734,
+      "rank_score": 0.6714,
       "price": 165.23500061035156,
       "rsi": 12.73338234250734,
       "momentum_5d": -0.023866450638322653,
@@ -701,12 +744,12 @@
       "bollinger_pct_b": 0.1216,
       "volume_spike": true,
       "volume_spike_ratio": 1.64,
-      "news_sentiment": -0.056,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.38,
       "news_headlines": [
         "Big Tech's $2.7 trillion AI bill comes due: Chart of the Day",
-        "How a $45 Million Donation Brought Larry Ellison Deeper Into Trump\u2019s Circle",
-        "Stocks to Watch: Intel, Micron, SpaceX, Oracle"
+        "How to protect your portfolio if you're worried about an AI bubble",
+        "How Does Microsoft Turn Cloud Dominance Into $223B For Shareholders?"
       ],
       "high_impact_news": true
     },
@@ -725,9 +768,9 @@
       "news_sentiment": 0.172,
       "news_confidence": 0.29,
       "news_headlines": [
-        "Zacks Investment Ideas feature highlights: IBB, Novartis, Pfizer and Eli Lilly's",
-        "Nike (NKE) Names David Denton CFO As Turnaround Pressure Builds",
-        "NKE Stock Gains 2% After-Hours As Nike Names New CFO, Reaffirms Outlook \u2014 Retail Calls Leadership Transition \u2018Promising\u2019"
+        "Nike names Pfizer CFO David Denton to replace Matthew Friend",
+        "Nike\u2019s New Finance Chief Isn\u2019t a Retail Insider\u2014He\u2019s Coming From Pfizer",
+        "Zacks Investment Ideas feature highlights: IBB, Novartis, Pfizer and Eli Lilly's"
       ],
       "high_impact_news": true
     },
@@ -764,18 +807,39 @@
       "bollinger_pct_b": 0.0474,
       "volume_spike": true,
       "volume_spike_ratio": 2.14,
-      "news_sentiment": -0.111,
-      "news_confidence": 0.45,
+      "news_sentiment": -0.098,
+      "news_confidence": 0.51,
       "news_headlines": [
+        "Stock Market Today: Dow Falls After Tech Sell-Off; FedEx Dives On Earnings (Live Coverage)",
         "Dow, S&P 500, Nasdaq Futures Rise After Chip Stock Selloff: Why CBRS, PLTR, BLZE, MU, FDX Are Trending",
-        "Mark Zandi Says Top 20% Of Americans Now Account For Nearly 60% Of Spending As Bottom 80% Fall Behind Inflation",
-        "Why ARKK Investors Paid Premium Fees for a 37.88% Loss Over Five Years"
+        "Mark Zandi Says Top 20% Of Americans Now Account For Nearly 60% Of Spending As Bottom 80% Fall Behind Inflation"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5877,
+      "price": 1648.800048828125,
+      "rsi": 39.88288795266848,
+      "momentum_5d": -0.013309070826844014,
+      "momentum_1d": -0.0071955147805961165,
+      "macd_crossover": false,
+      "atr_pct": 0.007537521104183354,
+      "bollinger_pct_b": -0.1402,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.21,
+      "news_sentiment": -0.348,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Wednesday, June 24, 2026: Opened at lowest levels in about two weeks",
+        "Bitcoin and ethereum prices today, Tuesday, June 23, 2026: Values slipping as possible rate hikes weigh on prices",
+        "Analyst issues bold call on Cathie Wood's favorite crypto stock"
       ],
       "high_impact_news": true
     },
     {
       "asset": "QCOM",
-      "rank_score": 0.5876,
+      "rank_score": 0.5813,
       "price": 204.2100067138672,
       "rsi": 26.071004434645346,
       "momentum_5d": 0.026438853210907148,
@@ -785,12 +849,12 @@
       "bollinger_pct_b": 0.1878,
       "volume_spike": false,
       "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.548,
-      "news_confidence": 0.59,
+      "news_sentiment": 0.481,
+      "news_confidence": 0.54,
       "news_headlines": [
         "Tech stocks live: Stocks fall on AI trade concerns",
-        "Why Is QCOM Stock Rising Premarket?",
-        "Nasdaq, S&P 500 Futures Rebound As Micron Rally Lifts Chip Stocks: Why SPCX, QCOM, TSM, BABA, PLTR, CBRS, WEN, IBRX Are In Focus"
+        "Qualcomm acquires AI software startup Modular for $3.9 billion",
+        "Qualcomm Strikes Deal for AI Infrastructure Software Firm Modular"
       ],
       "high_impact_news": true
     },
@@ -837,50 +901,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "ARM",
-      "rank_score": 0.5672,
-      "price": 366.510009765625,
-      "rsi": 3.5615131041731587,
-      "momentum_5d": -0.012318022116220772,
-      "momentum_1d": -0.14306757235205966,
-      "macd_crossover": false,
-      "atr_pct": 0.02820247393200315,
-      "bollinger_pct_b": 0.1497,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.76,
-      "news_sentiment": 0.164,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "Arm Holdings (ARM) Is Down 7.6% After AI Valuation Jitters And Insider-Selling Concerns - Has The Bull Case Changed?",
-        "Update: US Equity Indexes Decline Amid Hard Sell-Off in Chipmakers",
-        "US Equity Markets End Lower as Tech Stocks Fall"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.565,
-      "price": 279.17999267578125,
-      "rsi": 20.40565489447691,
-      "momentum_5d": -0.007271805079032088,
-      "momentum_1d": -0.06126429587972667,
-      "macd_crossover": false,
-      "atr_pct": 0.028432657647844948,
-      "bollinger_pct_b": 0.164,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.67,
-      "news_sentiment": 0.708,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Wall Street ends lower as AI spending concerns mount",
-        "Why tech stocks are getting hammered",
-        "Update: Nasdaq Posts Sharpest Drop in 2 Weeks as Chip Stocks Slide"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "NVDA",
-      "rank_score": 0.5615,
+      "rank_score": 0.5625,
       "price": 200.02099609375,
       "rsi": 19.17387494229233,
       "momentum_5d": -0.0037058416465036424,
@@ -890,18 +912,39 @@
       "bollinger_pct_b": 0.0639,
       "volume_spike": false,
       "volume_spike_ratio": 1.02,
-      "news_sentiment": 0.4,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.548,
+      "news_confidence": 0.31,
       "news_headlines": [
         "Big Tech's $2.7 trillion AI bill comes due: Chart of the Day",
-        "The Fed's Latest Inflation Reading Has Good and Bad News for the Stock Market. Here's What It Means for Investors.",
-        "Costco Just Posted 12% Sales Growth and 92% Membership Renewals, and the Stock Fell Anyway. Is This the Buy-the-Dip Moment?"
+        "Prediction: $1,000 Invested in SpaceX Stock Will Be Worth This Much By September",
+        "3 Impressive Artificial Intelligence (AI) Stocks You Should Buy Right Now"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARM",
+      "rank_score": 0.5612,
+      "price": 366.510009765625,
+      "rsi": 3.5615131041731587,
+      "momentum_5d": -0.012318022116220772,
+      "momentum_1d": -0.14306757235205966,
+      "macd_crossover": false,
+      "atr_pct": 0.02820247393200315,
+      "bollinger_pct_b": 0.1497,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.76,
+      "news_sentiment": -0.057,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Update: US Equity Futures Edge Higher Pre-Bell as Tech Stocks Rebound, Oil Prices Fall",
+        "Masayoshi Son Says ARM\u2019s Valuation Could Soar Over 10X From $391B, Defends INTC Investment \u2014 \u2018US Has No Choice But To Strengthen Intel\u2019",
+        "Arm Holdings (ARM) Is Down 7.6% After AI Valuation Jitters And Insider-Selling Concerns - Has The Bull Case Changed?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.5562,
+      "rank_score": 0.5582,
       "price": 380.3599853515625,
       "rsi": 16.465519850678504,
       "momentum_5d": 0.0022528832498902346,
@@ -911,39 +954,18 @@
       "bollinger_pct_b": 0.1574,
       "volume_spike": false,
       "volume_spike_ratio": 1.22,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.684,
+      "news_confidence": 0.38,
       "news_headlines": [
         "Big Tech's $2.7 trillion AI bill comes due: Chart of the Day",
-        "Broadcom (AVGO) Launches $35 Billion AI Platform With Apollo Blackstone And Anthropic",
-        "AMEN Properties Just Announced a 25% Dividend Increase. What This Means for the High-Yield Royalty Stock."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.5515,
-      "price": 1.0839999914169312,
-      "rsi": 28.82100161634986,
-      "momentum_5d": -0.01535113246653851,
-      "momentum_1d": -0.021837180671141227,
-      "macd_crossover": false,
-      "atr_pct": 0.005897474323068206,
-      "bollinger_pct_b": -0.133,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.098,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Legal Expert Urges Ripple to Unlock XRP Tokens Faster",
-        "Ripple secures preliminary CASP licence approval in Luxembourg",
-        "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3?"
+        "Stanley Druckenmiller Backs These 3 AI Infrastructure Stocks: Should You Follow?",
+        "Latest News In AI Chips - Menlo Ventures Secures $3 Billion For AI Investment Expansion"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ABBV",
-      "rank_score": 0.5491,
+      "rank_score": 0.5551,
       "price": 234.74000549316406,
       "rsi": 85.94602039165497,
       "momentum_5d": 0.0047941546074202574,
@@ -953,12 +975,33 @@
       "bollinger_pct_b": 0.751,
       "volume_spike": false,
       "volume_spike_ratio": 1.46,
-      "news_sentiment": 0.644,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.49,
       "news_headlines": [
+        "After Apogee, 3 More Biotech Buyout Targets Wall Street Can\u2019t Stop Watching",
         "2 Value Stocks Worth Your Attention and 1 Facing Headwinds",
-        "AbbVie (ABBV) Stock Draws Fresh Price Target Split After Apogee Deal",
-        "Thinking Thin Pays Off: Lilly To Dominate Pharma World By 2032"
+        "AbbVie (ABBV) Stock Draws Fresh Price Target Split After Apogee Deal"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRVL",
+      "rank_score": 0.555,
+      "price": 279.17999267578125,
+      "rsi": 20.40565489447691,
+      "momentum_5d": -0.007271805079032088,
+      "momentum_1d": -0.06126429587972667,
+      "macd_crossover": false,
+      "atr_pct": 0.028432657647844948,
+      "bollinger_pct_b": 0.164,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.67,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "AI companies stabilize after rout and oil continues slide as Trump threatens major drillers",
+        "Wall Street ends lower as AI spending concerns mount",
+        "Why tech stocks are getting hammered"
       ],
       "high_impact_news": true
     },
@@ -984,29 +1027,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "XLK",
-      "rank_score": 0.5468,
-      "price": 184.22000122070312,
-      "rsi": 26.83712759445109,
-      "momentum_5d": -0.0027067994624068938,
-      "momentum_1d": -0.02487823943359943,
-      "macd_crossover": false,
-      "atr_pct": 0.01020708545771409,
-      "bollinger_pct_b": 0.075,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.6,
-      "news_sentiment": -0.429,
-      "news_confidence": 0.28,
-      "news_headlines": [
-        "You\u2019re Probably Paying Twice for NVIDIA, Apple, and Microsoft Without Realizing It",
-        "Sector Update: Tech Stocks Fall Late Afternoon",
-        "Exchange-Traded Funds Decline, US Equities Mixed After Midday"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AMZN",
-      "rank_score": 0.5461,
+      "rank_score": 0.5451,
       "price": 234.10000610351562,
       "rsi": 28.43841035715684,
       "momentum_5d": 0.0015401754166643547,
@@ -1016,12 +1038,12 @@
       "bollinger_pct_b": 0.3344,
       "volume_spike": false,
       "volume_spike_ratio": 0.91,
-      "news_sentiment": 0.394,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.28,
       "news_headlines": [
-        "Big Tech's $2.7 trillion AI bill comes due: Chart of the Day",
-        "Amazon Prime Day shoppers may face added costs with buy now, pay later",
-        "Google-Parent Alphabet To Join Dow Jones Industrial Average, Replacing Verizon"
+        "Jeff Bezos-backed Slate reveals $24,950 starting price for EV pickup, making it the cheapest truck in America",
+        "Do you really save money on Prime Day?",
+        "Amazon Prime Day helps consumers stretch their dollars on groceries: VP"
       ],
       "high_impact_news": true
     },
@@ -1043,27 +1065,6 @@
         "Amazon Prime Day shoppers may face added costs with buy now, pay later",
         "Mastercard vs. PayPal: Which Financial Stock Is a Better Buy in 2026?",
         "Paypal (PYPL) Suffers a Larger Drop Than the General Market: Key Insights"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "UBER",
-      "rank_score": 0.5428,
-      "price": 69.67500305175781,
-      "rsi": 30.39126408986907,
-      "momentum_5d": -0.007266431923861933,
-      "momentum_1d": -0.0366400830736403,
-      "macd_crossover": false,
-      "atr_pct": 0.00893233939274637,
-      "bollinger_pct_b": 0.0707,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.06,
-      "news_sentiment": 0.514,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Prime Day is underway: Here are all the ways you can save",
-        "Why Uber drivers in Victoria will come to regret joining a union",
-        "Race for robotaxi market arrives in London"
       ],
       "high_impact_news": true
     },
