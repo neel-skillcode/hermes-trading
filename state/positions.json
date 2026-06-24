@@ -129,8 +129,8 @@
     "mode": "paper",
     "strategy_version": "25",
     "status": "open",
-    "price_trough": 1.135589361190796,
-    "trailing_stop_price": 1.144674
+    "price_trough": 1.134429931640625,
+    "trailing_stop_price": 1.143505
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260616172805",
@@ -159,8 +159,8 @@
     "mode": "paper",
     "strategy_version": "26",
     "status": "open",
-    "price_trough": 183.5760040283203,
-    "trailing_stop_price": 185.044612
+    "price_trough": 183.3769989013672,
+    "trailing_stop_price": 184.844015
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20260617212144",
@@ -279,38 +279,6 @@
     "status": "open",
     "price_trough": 519.5399780273438,
     "trailing_stop_price": 545.88585
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260623112756",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 68.97000122070312,
-    "entry_time": "2026-06-23T11:27:56.430720+00:00",
-    "stop_loss_pct": 0.00992,
-    "take_profit_pct": 0.02378,
-    "size_usd": 3486.78,
-    "position_size_pct": 0.0347,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (14.4)",
-      "5d momentum -1.81%",
-      "1d momentum -6.92%",
-      "BB oversold (pct_b=0.11)",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.588,
-    "news_headlines": [
-      "Are bitcoin dividend ETFs setting the stage for $4T crypto race on Wall Street?",
-      "Prediction: Solana Will Be the Top Crypto for Decentralized Finance (DeFi) by 2030",
-      "Baillie Gifford launches UK's first native tokenised fund on Solana"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open",
-    "price_peak": 69.7699966430664,
-    "trailing_stop_price": 69.077878
   },
   "AMAT": {
     "id": "AMAT_20260623135909",
@@ -554,6 +522,67 @@
       "This company owns 5% of all ethereum\u2014and it hits your 401(k) soon",
       "Longtime crypto critic co-authors Atlas whitepaper on digital reserve asset",
       "Wall Street giant delivers blunt verdict on Bitcoin's sell-off"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open",
+    "price_trough": 1658.4000244140625,
+    "trailing_stop_price": 1667.620729
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260624111215",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.0839999914169312,
+    "entry_time": "2026-06-24T11:12:15.445329+00:00",
+    "stop_loss_pct": 0.00595,
+    "take_profit_pct": 0.01467,
+    "size_usd": 3480.93,
+    "position_size_pct": 0.0347,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (28.8)",
+      "5d momentum -1.54%",
+      "1d momentum -2.18%",
+      "BB oversold (pct_b=-0.13)",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.098,
+    "news_headlines": [
+      "Legal Expert Urges Ripple to Unlock XRP Tokens Faster",
+      "Ripple secures preliminary CASP licence approval in Luxembourg",
+      "Ripple Wins Luxembourg CASP Approval Under MiCA Framework \u2014 Will XRP Price Reclaim $3?"
+    ],
+    "mode": "paper",
+    "strategy_version": "32",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260624111215",
+    "asset": "BTC-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 62284.19921875,
+    "entry_time": "2026-06-24T11:12:15.448186+00:00",
+    "stop_loss_pct": 0.01184,
+    "take_profit_pct": 0.03934,
+    "size_usd": 6223.64,
+    "position_size_pct": 0.062,
+    "confidence": 0.646,
+    "signals": [
+      "RSI oversold (43.9)",
+      "5d momentum -0.65%",
+      "Volume spike 2.4\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; fed hawkish"
+    ],
+    "news_sentiment": -0.292,
+    "news_headlines": [
+      "Could Adam Back's bitcoin treasury group go public via SPAC this week?",
+      "This company owns 5% of all ethereum\u2014and it hits your 401(k) soon",
+      "Bitcoin and ethereum prices today, Tuesday, June 23, 2026: Values slipping as possible rate hikes weigh on prices"
     ],
     "mode": "paper",
     "strategy_version": "32",
