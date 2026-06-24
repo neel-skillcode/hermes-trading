@@ -1,20 +1,20 @@
 {
   "status": "running",
-  "portfolio_balance": 99556.91,
+  "portfolio_balance": 99578.8,
   "portfolio_peak": 101899.75,
-  "portfolio_drawdown_pct": 2.3,
-  "unrealized_pnl_usd": 817.92,
-  "equity_value": 100374.83,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "portfolio_drawdown_pct": 2.28,
+  "unrealized_pnl_usd": 958.09,
+  "equity_value": 100536.9,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39822.76,
+  "day_capital_used_usd": 39831.52,
   "swing_capital_used_usd": 44151.69,
-  "total_trades": 365,
-  "last_tick": "2026-06-24T17:32:40.625324+00:00",
-  "last_reflection": "2026-06-24",
-  "trades_since_last_reflection": 0,
-  "universe_scanned": 109,
+  "total_trades": 366,
+  "last_tick": "2026-06-24T19:15:12.014041+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 1,
+  "universe_scanned": 110,
   "market_open": true,
   "open_position_list": [
     {
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9260200262069702,
       "trailing_stop_price": 0.918612,
-      "current_price": 0.92229,
-      "unrealized_pnl_pct": 0.012993,
-      "unrealized_pnl_usd": 17.46
+      "current_price": 0.9226,
+      "unrealized_pnl_pct": 0.013334,
+      "unrealized_pnl_usd": 17.92
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 1.0713000297546387,
       "trailing_stop_price": 1.06273,
-      "current_price": 1.06896,
-      "unrealized_pnl_pct": 0.014222,
-      "unrealized_pnl_usd": 19.11
+      "current_price": 1.06932,
+      "unrealized_pnl_pct": 0.014564,
+      "unrealized_pnl_usd": 19.57
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 7.841000080108643,
       "trailing_stop_price": 7.778272,
-      "current_price": 7.8403,
-      "unrealized_pnl_pct": 0.000766,
-      "unrealized_pnl_usd": 1.03
+      "current_price": 7.84025,
+      "unrealized_pnl_pct": 0.000759,
+      "unrealized_pnl_usd": 1.02
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -125,11 +125,11 @@
       "mode": "paper",
       "strategy_version": "05",
       "status": "open",
-      "price_peak": 161.7779998779297,
-      "trailing_stop_price": 160.483776,
-      "current_price": 161.748993,
-      "unrealized_pnl_pct": 0.016209,
-      "unrealized_pnl_usd": 62.97
+      "price_peak": 161.77999877929688,
+      "trailing_stop_price": 160.485759,
+      "current_price": 161.779999,
+      "unrealized_pnl_pct": 0.016404,
+      "unrealized_pnl_usd": 63.73
     },
     {
       "id": "EUR/USD_20260614233933",
@@ -161,9 +161,9 @@
       "status": "open",
       "price_trough": 1.1340440511703491,
       "trailing_stop_price": 1.143116,
-      "current_price": 1.135847,
-      "unrealized_pnl_pct": 0.021581,
-      "unrealized_pnl_usd": 161.45
+      "current_price": 1.135718,
+      "unrealized_pnl_pct": 0.021692,
+      "unrealized_pnl_usd": 162.28
     },
     {
       "id": "EUR/JPY_20260616172805",
@@ -194,9 +194,9 @@
       "status": "open",
       "price_trough": 183.3179931640625,
       "trailing_stop_price": 184.784537,
-      "current_price": 183.675995,
-      "unrealized_pnl_pct": 0.014058,
-      "unrealized_pnl_usd": 79.87
+      "current_price": 183.688004,
+      "unrealized_pnl_pct": 0.013994,
+      "unrealized_pnl_usd": 79.5
     },
     {
       "id": "EUR/CAD_20260617212144",
@@ -222,9 +222,9 @@
       "status": "open",
       "price_peak": 1.626270055770874,
       "trailing_stop_price": 1.61326,
-      "current_price": 1.61566,
-      "unrealized_pnl_pct": -0.003417,
-      "unrealized_pnl_usd": -18.5
+      "current_price": 1.61649,
+      "unrealized_pnl_pct": -0.002905,
+      "unrealized_pnl_usd": -15.73
     },
     {
       "id": "MA_20260618183536",
@@ -254,47 +254,11 @@
       "mode": "paper",
       "strategy_version": "29",
       "status": "open",
-      "price_peak": 496.5899963378906,
-      "trailing_stop_price": 488.351568,
-      "current_price": 493.209991,
-      "unrealized_pnl_pct": 0.006839,
-      "unrealized_pnl_usd": 42.84
-    },
-    {
-      "id": "GOOGL_20260622150739",
-      "asset": "GOOGL",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 343.0849914550781,
-      "entry_time": "2026-06-22T15:07:39.594325+00:00",
-      "stop_loss_pct": 0.0136,
-      "take_profit_pct": 0.03365,
-      "size_usd": 6131.97,
-      "position_size_pct": 0.0608,
-      "confidence": 0.95,
-      "signals": [
-        "RSI oversold (23.9)",
-        "5d momentum -6.73%",
-        "1d momentum -7.23%",
-        "BB oversold (pct_b=-0.27)",
-        "Volume spike 1.9\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-      ],
-      "news_sentiment": 0.394,
-      "news_headlines": [
-        "Upscale AI raises $190 million Series A-1 at $2 billion valuation",
-        "Google Investing in \u2018Backrooms\u2019 Studio A24",
-        "Why Wait For Adobe Stock To Bottom When You Can Get Paid Today?"
-      ],
-      "mode": "paper",
-      "strategy_version": "30",
-      "status": "open",
-      "price_peak": 350.510009765625,
-      "trailing_stop_price": 345.743074,
-      "current_price": 349.019989,
-      "unrealized_pnl_pct": 0.017299,
-      "unrealized_pnl_usd": 106.08
+      "price_peak": 497.0400085449219,
+      "trailing_stop_price": 488.794115,
+      "current_price": 496.904999,
+      "unrealized_pnl_pct": 0.014382,
+      "unrealized_pnl_usd": 90.08
     },
     {
       "id": "AMD_20260622150739",
@@ -324,11 +288,11 @@
       "mode": "paper",
       "strategy_version": "30",
       "status": "open",
-      "price_trough": 507.9599914550781,
-      "trailing_stop_price": 533.718643,
-      "current_price": 508.179993,
-      "unrealized_pnl_pct": 0.070008,
-      "unrealized_pnl_usd": 382.29
+      "price_trough": 504.9100036621094,
+      "trailing_stop_price": 530.51399,
+      "current_price": 505.24881,
+      "unrealized_pnl_pct": 0.075373,
+      "unrealized_pnl_usd": 411.59
     },
     {
       "id": "SNAP_20260623162859",
@@ -359,11 +323,11 @@
       "mode": "paper",
       "strategy_version": "32",
       "status": "open",
-      "price_peak": 4.50629997253418,
-      "trailing_stop_price": 4.438705,
-      "current_price": 4.475,
-      "unrealized_pnl_pct": -0.004449,
-      "unrealized_pnl_usd": -26.76
+      "price_peak": 4.550000190734863,
+      "trailing_stop_price": 4.48175,
+      "current_price": 4.55,
+      "unrealized_pnl_pct": 0.012236,
+      "unrealized_pnl_usd": 73.59
     },
     {
       "id": "XRP-USD_20260624154259",
@@ -395,9 +359,9 @@
       "mode": "paper",
       "strategy_version": "33",
       "status": "open",
-      "current_price": 1.0534,
-      "unrealized_pnl_pct": -0.006789,
-      "unrealized_pnl_usd": -41.17
+      "current_price": 1.0562,
+      "unrealized_pnl_pct": -0.004149,
+      "unrealized_pnl_usd": -25.16
     },
     {
       "id": "UBER_20260624154259",
@@ -430,9 +394,9 @@
       "status": "open",
       "price_trough": 73.62999725341797,
       "trailing_stop_price": 74.539328,
-      "current_price": 73.599998,
-      "unrealized_pnl_pct": 0.013816,
-      "unrealized_pnl_usd": 31.25
+      "current_price": 74.129997,
+      "unrealized_pnl_pct": 0.006714,
+      "unrealized_pnl_usd": 15.19
     },
     {
       "id": "SOL-USD_20260624173239",
@@ -464,9 +428,11 @@
       "mode": "paper",
       "strategy_version": "33",
       "status": "open",
-      "current_price": 65.43,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 65.6500015258789,
+      "trailing_stop_price": 64.788674,
+      "current_price": 65.669998,
+      "unrealized_pnl_pct": 0.003668,
+      "unrealized_pnl_usd": 20.33
     },
     {
       "id": "DOGE-USD_20260624173239",
@@ -498,9 +464,11 @@
       "mode": "paper",
       "strategy_version": "33",
       "status": "open",
-      "current_price": 0.0734,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 0.0736600011587143,
+      "trailing_stop_price": 0.072741,
+      "current_price": 0.07366,
+      "unrealized_pnl_pct": 0.003542,
+      "unrealized_pnl_usd": 19.64
     },
     {
       "id": "ETH-USD_20260624173239",
@@ -532,9 +500,9 @@
       "mode": "paper",
       "strategy_version": "33",
       "status": "open",
-      "current_price": 1571.920044,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 1568.199951,
+      "unrealized_pnl_pct": -0.002367,
+      "unrealized_pnl_usd": -14.33
     },
     {
       "id": "BTC-USD_20260624173239",
@@ -566,9 +534,11 @@
       "mode": "paper",
       "strategy_version": "33",
       "status": "open",
-      "current_price": 59558.128906,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 59578.01171875,
+      "trailing_stop_price": 59057.299896,
+      "current_price": 59578.011719,
+      "unrealized_pnl_pct": 0.000334,
+      "unrealized_pnl_usd": 0.74
     },
     {
       "id": "UNG_20260624173240",
@@ -598,171 +568,93 @@
       "mode": "paper",
       "strategy_version": "33",
       "status": "open",
-      "current_price": 11.675,
+      "price_peak": 11.739999771118164,
+      "trailing_stop_price": 11.471741,
+      "current_price": 11.75,
+      "unrealized_pnl_pct": 0.006424,
+      "unrealized_pnl_usd": 38.13
+    },
+    {
+      "id": "SLV_20260624191511",
+      "asset": "SLV",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 51.16999816894531,
+      "entry_time": "2026-06-24T19:15:11.971665+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03655,
+      "size_usd": 5570.04,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
+      "signals": [
+        "RSI oversold (2.3)",
+        "5d momentum -4.44%",
+        "1d momentum -14.39%",
+        "BB oversold (pct_b=0.05)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions",
+        "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares",
+        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Amid Continued US-Iran Talks"
+      ],
+      "mode": "paper",
+      "strategy_version": "34",
+      "status": "open",
+      "current_price": 51.169998,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SMCI_20260624191511",
+      "asset": "SMCI",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 31.594999313354492,
+      "entry_time": "2026-06-24T19:15:11.974205+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03742,
+      "size_usd": 570.69,
+      "position_size_pct": 0.0057,
+      "confidence": 0.99,
+      "signals": [
+        "RSI oversold (13.9)",
+        "5d momentum -5.63%",
+        "1d momentum +3.94%",
+        "BB oversold (pct_b=0.04)",
+        "News +0.63 (conf 0.62) \u2192 long",
+        "High-impact catalyst",
+        "Claude [supports]: price surge; price decline"
+      ],
+      "news_sentiment": 0.634,
+      "news_headlines": [
+        "Which AI Server Stock Has Dominated in 2026: Super Micro, Dell, or Hewlett Packard Enterprise?",
+        "Super Micro's AI Growth Story Gets a Major Boost From New Deal",
+        "Can SMCI Overcome Rising Inventory and Cash Flow Pressures?"
+      ],
+      "mode": "paper",
+      "strategy_version": "34",
+      "status": "open",
+      "current_price": 31.594999,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.9165,
-      "price": 65.43000030517578,
-      "rsi": 18.6046126513164,
-      "momentum_5d": -0.05666090355525822,
-      "momentum_1d": -0.04745963051917645,
-      "macd_crossover": false,
-      "atr_pct": 0.013416713576146115,
-      "bollinger_pct_b": -0.2559,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.65,
-      "news_sentiment": -0.388,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Solana Forms Bearish Chart Pattern",
-        "Arthur Hayes Is Backing Another Token With A Bold Price Target \u2013 It\u2019s The Same Maelstrom Researcher Behind The WLD Call",
-        "South Korea\u2019s KG Group Picks Solana to Roll Out a Digital Asset Payments Push"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.9103,
-      "price": 0.07339999824762344,
-      "rsi": 11.643821635248372,
-      "momentum_5d": -0.06508728785395002,
-      "momentum_1d": -0.06484900589468244,
-      "macd_crossover": false,
-      "atr_pct": 0.012767617125181662,
-      "bollinger_pct_b": -0.1376,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.32,
-      "news_sentiment": -0.125,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Important Level' For BTC",
-        "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
-        "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.9042,
-      "price": 1571.9200439453125,
-      "rsi": 17.832884234073916,
-      "momentum_5d": -0.058375286159994835,
-      "momentum_1d": -0.04992382963691143,
-      "macd_crossover": false,
-      "atr_pct": 0.01193854354611195,
-      "bollinger_pct_b": -0.2276,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.25,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "SpaceX rockets downward on day 1 of short trading",
-        "Bitcoin and ethereum prices today, Wednesday, June 24, 2026: Opened at lowest levels in about two weeks",
-        "Veteran trader says one trend could send Bitcoin to $1 million"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.8369,
-      "price": 59558.12890625,
-      "rsi": 16.697117533050616,
-      "momentum_5d": -0.04739304986989725,
-      "momentum_1d": -0.04357204134822078,
-      "macd_crossover": false,
-      "atr_pct": 0.008936806719448298,
-      "bollinger_pct_b": -0.0947,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.34,
-      "news_sentiment": -0.062,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "SpaceX rockets downward on day 1 of short trading",
-        "Could Adam Back's bitcoin treasury group go public via SPAC this week?",
-        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.7878,
-      "price": 1.0534000396728516,
-      "rsi": 19.852157590777267,
-      "momentum_5d": -0.032601645107946865,
-      "momentum_1d": -0.03939450467596947,
-      "macd_crossover": false,
-      "atr_pct": 0.009642229878724623,
-      "bollinger_pct_b": -0.0247,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.99,
-      "news_sentiment": 0.463,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "What Will XRP Be Worth in 3 Years?",
-        "XRP News: Why Ripple\u2019s 9-Year Clock Divides the Community",
-        "Nebraska-Chartered Telcoin Launches America's First Regulated Onchain Bank Account With Fed Access"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.7837,
-      "price": 6.050000190734863,
-      "rsi": 17.85708811803795,
-      "momentum_5d": -0.0576323802433147,
-      "momentum_1d": -0.03662420563525831,
-      "macd_crossover": false,
-      "atr_pct": 0.013105072274886987,
-      "bollinger_pct_b": -0.2167,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.35,
-      "news_sentiment": 0.444,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-        "Is Avalanche About to Have Its Biggest Year Yet?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.7545,
-      "price": 552.3099975585938,
-      "rsi": 20.36188045269941,
-      "momentum_5d": -0.04131153494665635,
-      "momentum_1d": -0.03693175650219347,
-      "macd_crossover": false,
-      "atr_pct": 0.009015385029732176,
-      "bollinger_pct_b": -0.1593,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.77,
-      "news_sentiment": -0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "This AI Meme Coin Just Crashed 95% in a Week. What Lessons Can Crypto Investors Learn?",
-        "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
-        "Binance Founder CZ Says Bitcoin's $60K 'Winter' Is Normal \u2013 And Predicts Stablecoins Could Grow \u2018Thousands Of Times\u2019 From Here"
-      ],
-      "high_impact_news": false
-    },
-    {
       "asset": "SLV",
-      "rank_score": 0.7109,
-      "price": 52.16999816894531,
-      "rsi": 2.5307967440981827,
-      "momentum_5d": -0.06371146758767095,
-      "momentum_1d": -0.12576457752938403,
+      "rank_score": 0.709,
+      "price": 51.16999816894531,
+      "rsi": 2.269954013035502,
+      "momentum_5d": -0.044355216756313896,
+      "momentum_1d": -0.14388492927811722,
       "macd_crossover": false,
-      "atr_pct": 0.014991518437798109,
-      "bollinger_pct_b": 0.0742,
+      "atr_pct": 0.018404346763502052,
+      "bollinger_pct_b": 0.054,
       "volume_spike": false,
-      "volume_spike_ratio": 0.1,
+      "volume_spike_ratio": 1.23,
       "news_sentiment": 0.0,
       "news_confidence": 0.24,
       "news_headlines": [
@@ -773,143 +665,290 @@
       "high_impact_news": true
     },
     {
-      "asset": "IONQ",
-      "rank_score": 0.6987,
-      "price": 52.82500076293945,
-      "rsi": 20.511554102236303,
-      "momentum_5d": -0.08686253835303985,
-      "momentum_1d": -0.03515980341663099,
+      "asset": "SMCI",
+      "rank_score": 0.7071,
+      "price": 31.594999313354492,
+      "rsi": 13.891390310953469,
+      "momentum_5d": -0.05630227761812943,
+      "momentum_1d": 0.03937754352099762,
       "macd_crossover": false,
-      "atr_pct": 0.03776432117180731,
-      "bollinger_pct_b": 0.0227,
+      "atr_pct": 0.02731423944772379,
+      "bollinger_pct_b": 0.0404,
       "volume_spike": false,
-      "volume_spike_ratio": 0.03,
+      "volume_spike_ratio": 0.39,
+      "news_sentiment": 0.634,
+      "news_confidence": 0.62,
+      "news_headlines": [
+        "Which AI Server Stock Has Dominated in 2026: Super Micro, Dell, or Hewlett Packard Enterprise?",
+        "Super Micro's AI Growth Story Gets a Major Boost From New Deal",
+        "Can SMCI Overcome Rising Inventory and Cash Flow Pressures?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.6982,
+      "price": 193.1999969482422,
+      "rsi": 18.928599004134924,
+      "momentum_5d": -0.01519011030071747,
+      "momentum_1d": -0.12967093985163194,
+      "macd_crossover": false,
+      "atr_pct": 0.0297944446791883,
+      "bollinger_pct_b": 0.1963,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.15,
+      "news_sentiment": 0.698,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "QUALCOMM Inc. (QCOM) Is One Of Billionaire David Tepper\u2019s Oldest AI Stocks",
+        "Qualcomm bets on AI chips to break smartphone reliance, but faces crowded race",
+        "Nvidia's Upbeat Forecast Lifts SMH's Earnings Outlook"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6851,
+      "price": 1568.199951171875,
+      "rsi": 18.15061192217844,
+      "momentum_5d": -0.046565267342134405,
+      "momentum_1d": -0.05561416093506055,
+      "macd_crossover": false,
+      "atr_pct": 0.013332401761440392,
+      "bollinger_pct_b": 0.0175,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.28,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "SpaceX rockets downward on day 1 of short trading",
+        "Bitcoin and ethereum prices today, Wednesday, June 24, 2026: Opened at lowest levels in about two weeks",
+        "Veteran trader says one trend could send Bitcoin to $1 million"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6714,
+      "price": 65.66999816894531,
+      "rsi": 23.611179345203183,
+      "momentum_5d": -0.04493897427698008,
+      "momentum_1d": -0.04507777556266094,
+      "macd_crossover": false,
+      "atr_pct": 0.014977473294628873,
+      "bollinger_pct_b": 0.0327,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.97,
+      "news_sentiment": -0.388,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Solana Forms Bearish Chart Pattern",
+        "Arthur Hayes Is Backing Another Token With A Bold Price Target \u2013 It\u2019s The Same Maelstrom Researcher Behind The WLD Call",
+        "South Korea\u2019s KG Group Picks Solana to Roll Out a Digital Asset Payments Push"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.6639,
+      "price": 552.3499755859375,
+      "rsi": 21.717015273658433,
+      "momentum_5d": -0.030301452238362968,
+      "momentum_1d": -0.040225932952324066,
+      "macd_crossover": false,
+      "atr_pct": 0.009638060063035383,
+      "bollinger_pct_b": 0.0598,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.48,
+      "news_sentiment": -0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "This AI Meme Coin Just Crashed 95% in a Week. What Lessons Can Crypto Investors Learn?",
+        "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
+        "Binance Founder CZ Says Bitcoin's $60K 'Winter' Is Normal \u2013 And Predicts Stablecoins Could Grow \u2018Thousands Of Times\u2019 From Here"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "INTC",
+      "rank_score": 0.6467,
+      "price": 128.35000610351562,
+      "rsi": 18.507149248410343,
+      "momentum_5d": -0.036198585889974044,
+      "momentum_1d": -0.03568745140631918,
+      "macd_crossover": false,
+      "atr_pct": 0.026767790368143977,
+      "bollinger_pct_b": -0.0,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.48,
+      "news_sentiment": 0.765,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Why tech stock turmoil makes a lot of sense, in one chart",
+        "Why Nancy Pelosi Is Betting Big on Intel and Uber Right Now",
+        "Nvidia's Upbeat Forecast Lifts SMH's Earnings Outlook"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.646,
+      "price": 0.0736600011587143,
+      "rsi": 18.298439548797745,
+      "momentum_5d": -0.03900847888696007,
+      "momentum_1d": -0.05985959055184601,
+      "macd_crossover": false,
+      "atr_pct": 0.013992864077292527,
+      "bollinger_pct_b": 0.0737,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.12,
+      "news_sentiment": -0.125,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Important Level' For BTC",
+        "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
+        "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RIVN",
+      "rank_score": 0.636,
+      "price": 14.404999732971191,
+      "rsi": 24.924894479966227,
+      "momentum_5d": -0.038384501123909676,
+      "momentum_1d": -0.11949338597150455,
+      "macd_crossover": false,
+      "atr_pct": 0.017849953768996916,
+      "bollinger_pct_b": -0.0601,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.76,
+      "news_sentiment": 0.36,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Buy, Hold, or Sell: Rivian Slipped to $14 on Macro Pressures, but Does Its $5 Billion Volkswagen Venture Provide an Ironclad Moat?",
+        "Lucid vs. Rivian: Which Is Winning the Only Race That Matters?",
+        "SPCX Stock Sees Record Retail Frenzy \u2014 SpaceX Logs Over $400M Inflows In First Week Post-IPO, Says Vanda Research"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GLD",
+      "rank_score": 0.63,
+      "price": 364.7699890136719,
+      "rsi": 5.859657650392464,
+      "momentum_5d": -0.011972191550435796,
+      "momentum_1d": -0.05924073296339276,
+      "macd_crossover": false,
+      "atr_pct": 0.008108727243091182,
+      "bollinger_pct_b": 0.0583,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.78,
+      "news_sentiment": -0.412,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Update: Gold Falls to a Seven-Month Low as the Dollar Climbs on Inflation Worries",
+        "Gold Falls to a Seven-Month Low as the Dollar Climbs on Inflation Worries",
+        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.6299,
+      "price": 156.41000366210938,
+      "rsi": 11.694662498202163,
+      "momentum_5d": -0.027240436637304008,
+      "momentum_1d": -0.15428912667042666,
+      "macd_crossover": false,
+      "atr_pct": 0.017869619617478207,
+      "bollinger_pct_b": 0.1255,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.9,
+      "news_sentiment": 0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Big Tech's $2.7 trillion AI bill comes due: Chart of the Day",
+        "Retail Investors Sold NVIDIA, Microsoft, and Oracle to Fund SpaceX Buys. What\u2019s the Next \u2018Mega-Cap Tech Stock?\u2019",
+        "Oracle's Headcount Fell by 21,000 as AI Reshapes Its Business. Here's What It Means for the Stock."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MU",
+      "rank_score": 0.6271,
+      "price": 997.4801025390625,
+      "rsi": 17.063499878691474,
+      "momentum_5d": -0.049104269988127995,
+      "momentum_1d": -0.1126885210192202,
+      "macd_crossover": false,
+      "atr_pct": 0.036298696427393536,
+      "bollinger_pct_b": 0.134,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.7,
+      "news_sentiment": 0.31,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Big Tech ETF flows have been 'absolutely bananas' this year. Here's why.",
+        "Why tech stock turmoil makes a lot of sense, in one chart",
+        "US dollar strengthens to 13-month high on Fed rate hike expectations"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.6079,
+      "price": 59578.01171875,
+      "rsi": 17.752122018195195,
+      "momentum_5d": -0.023599088972429554,
+      "momentum_1d": -0.04405065814090941,
+      "macd_crossover": false,
+      "atr_pct": 0.00941986917156946,
+      "bollinger_pct_b": 0.0814,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.32,
+      "news_sentiment": 0.217,
+      "news_confidence": 0.23,
+      "news_headlines": [
+        "SpaceX rockets downward on day 1 of short trading",
+        "Could Adam Back's bitcoin treasury group go public via SPAC this week?",
+        "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6027,
+      "price": 6.079999923706055,
+      "rsi": 25.352071055591935,
+      "momentum_5d": -0.03797472174628627,
+      "momentum_1d": -0.0410094988366377,
+      "macd_crossover": false,
+      "atr_pct": 0.01445018837532839,
+      "bollinger_pct_b": 0.0433,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.09,
       "news_sentiment": 0.444,
       "news_confidence": 0.36,
       "news_headlines": [
-        "Forget Betting on One Quantum Stock. This Fund Owns the Entire Field for Just 0.40%",
-        "Should Investors Choose IonQ Over a More Established Quantum Computing Stock?",
-        "Stock Market Today, June 23: D-Wave Quantum Jumps After Trump Signs Executive Orders Boosting Quantum Adoption"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COIN",
-      "rank_score": 0.6886,
-      "price": 149.1300048828125,
-      "rsi": 11.355248065279568,
-      "momentum_5d": -0.05709407290220116,
-      "momentum_1d": -0.09387529940667992,
-      "macd_crossover": false,
-      "atr_pct": 0.02086123466988068,
-      "bollinger_pct_b": 0.0146,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.09,
-      "news_sentiment": 0.118,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "SpaceX rockets downward on day 1 of short trading",
-        "Cboe Launches S&P 500 Prediction Market",
-        "Kentucky\u2019s Prediction Market Crackdown Faces Federal Lawsuit and Preemption Fight"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "JPM",
-      "rank_score": 0.6832,
-      "price": 155.89500427246094,
-      "rsi": 5.437854692539403,
-      "momentum_5d": -0.056525532141436005,
-      "momentum_1d": -0.15416957117098024,
-      "macd_crossover": false,
-      "atr_pct": 0.017165778919166867,
-      "bollinger_pct_b": 0.0884,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.05,
-      "news_sentiment": 0.073,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "JPMorgan flags a hot-weather threat investors can't ignore",
-        "Another Strategist Raised Their S&P 500 Price Target",
-        "Are Finance Stocks Lagging  JPMorgan Chase & Co. (JPM) This Year?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HOOD",
-      "rank_score": 0.6744,
-      "price": 97.13999938964844,
-      "rsi": 19.372821836447528,
-      "momentum_5d": -0.05881212817235084,
-      "momentum_1d": -0.09515163381181538,
-      "macd_crossover": false,
-      "atr_pct": 0.022912879018994362,
-      "bollinger_pct_b": -0.0162,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.06,
-      "news_sentiment": -0.024,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Short sellers are coming after SpaceX as it sheds post-IPO gains",
-        "Cboe Launches S&P 500 Prediction Market",
-        "What Baiju Bhatt Learned From the 70 \u2018No's\u2019 He Got While Building Robinhood"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ARM",
-      "rank_score": 0.6705,
-      "price": 347.239990234375,
-      "rsi": 2.7385114441768224,
-      "momentum_5d": -0.05257706206597945,
-      "momentum_1d": -0.2170462452437993,
-      "macd_crossover": false,
-      "atr_pct": 0.02885673205227166,
-      "bollinger_pct_b": 0.1599,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.04,
-      "news_sentiment": -0.261,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "AMD and Arm Emerge as Key Winners in the Next AI Wave",
-        "Masayoshi Son Says Arm Holdings Could Be Worth $4 Trillion. Should You Believe Him?",
-        "Arm Stock Isn\u2019t Immune to the Tech Selloff. Wall Street Still Sees Big Upside."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.6573,
-      "price": 265.4200134277344,
-      "rsi": 13.152107310631777,
-      "momentum_5d": -0.04928712518459976,
-      "momentum_1d": -0.18200166904979187,
-      "macd_crossover": false,
-      "atr_pct": 0.02864590010466487,
-      "bollinger_pct_b": 0.1375,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.04,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Beyond the Quarter: What Could Power The Next Leg Of Broadcom Stock's Climb",
-        "Can Marvell Technology Sustain Its Strong AI Networking Expansion?",
-        "Marvell's AI Rally Runs Into a Price Check"
+        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+        "Is Avalanche About to Have Its Biggest Year Yet?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.6538,
-      "price": 112.6449966430664,
-      "rsi": 9.639867342174668,
-      "momentum_5d": -0.034623139221463706,
-      "momentum_1d": -0.10920884890293707,
+      "rank_score": 0.6003,
+      "price": 113.30000305175781,
+      "rsi": 20.652161197870967,
+      "momentum_5d": -0.028552607650713616,
+      "momentum_1d": -0.11739497264662559,
       "macd_crossover": false,
-      "atr_pct": 0.014060736083743133,
-      "bollinger_pct_b": 0.09,
+      "atr_pct": 0.014701355146276103,
+      "bollinger_pct_b": 0.1088,
       "volume_spike": false,
-      "volume_spike_ratio": 0.03,
+      "volume_spike_ratio": 0.4,
       "news_sentiment": 0.713,
       "news_confidence": 0.58,
       "news_headlines": [
@@ -920,80 +959,38 @@
       "high_impact_news": true
     },
     {
-      "asset": "SMCI",
-      "rank_score": 0.6456,
-      "price": 31.875,
-      "rsi": 12.371147534966397,
-      "momentum_5d": -0.04336733817703722,
-      "momentum_1d": 0.051286290264746535,
+      "asset": "SBUX",
+      "rank_score": 0.5958,
+      "price": 104.44999694824219,
+      "rsi": 89.2105435753016,
+      "momentum_5d": 0.015709647293022693,
+      "momentum_1d": 0.03313549480397474,
       "macd_crossover": false,
-      "atr_pct": 0.02752270952326243,
-      "bollinger_pct_b": 0.1392,
+      "atr_pct": 0.0072029771700418506,
+      "bollinger_pct_b": 1.0155,
       "volume_spike": false,
-      "volume_spike_ratio": 0.03,
-      "news_sentiment": 0.595,
-      "news_confidence": 0.56,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.34,
       "news_headlines": [
-        "Can SMCI Overcome Rising Inventory and Cash Flow Pressures?",
-        "SMCI Stock Edges Higher After Tech Selloff \u2013 What Is Supermicro\u2019s Latest Pact With Turkish IT Firm About?",
-        "Super Micro Computer Is Trading at Its Best Valuation in 18 Months. Should You Buy the Dip?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PFE",
-      "rank_score": 0.6374,
-      "price": 23.9950008392334,
-      "rsi": 12.297768587389285,
-      "momentum_5d": -0.0293284180525615,
-      "momentum_1d": -0.04192450524503737,
-      "macd_crossover": false,
-      "atr_pct": 0.009029651449012018,
-      "bollinger_pct_b": -0.0427,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.03,
-      "news_sentiment": 0.273,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "Can a Former Pfizer Executive Catalyze Nike\u2019s Sluggish Turnaround?",
-        "Nike names former Pfizer CFO David Denton as finance chief",
-        "LLY or PFE: Which Drugmaker Offers the Stronger Growth Story?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GLD",
-      "rank_score": 0.6279,
-      "price": 365.80999755859375,
-      "rsi": 6.140279795565164,
-      "momentum_5d": -0.030453195351492466,
-      "momentum_1d": -0.05903388113624988,
-      "macd_crossover": false,
-      "atr_pct": 0.0073368540609591686,
-      "bollinger_pct_b": 0.0388,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.04,
-      "news_sentiment": 0.029,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Gold Falls to a Seven-Month Low as the Dollar Climbs on Inflation Worries",
-        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions",
-        "Gold ETFs Just Saw Their Biggest Weekly Inflow Since April After $7.6 Billion Exodus"
+        "The highest paid CEOs of 2025: Elon Musk makes the top spot",
+        "Can Starbucks Turn Delivery Momentum Into Durable U.S. Comp Growth?",
+        "Here is What to Know Beyond Why Starbucks Corporation (SBUX) is a Trending Stock"
       ],
       "high_impact_news": true
     },
     {
       "asset": "KLAC",
-      "rank_score": 0.6207,
-      "price": 235.31500244140625,
-      "rsi": 17.06093776766113,
-      "momentum_5d": -0.037723853349143306,
-      "momentum_1d": -0.07983026483871467,
+      "rank_score": 0.5931,
+      "price": 235.96499633789062,
+      "rsi": 21.32539209801118,
+      "momentum_5d": -0.019956837850668697,
+      "momentum_1d": -0.09153382147674348,
       "macd_crossover": false,
-      "atr_pct": 0.023462850279016744,
-      "bollinger_pct_b": 0.1621,
+      "atr_pct": 0.02476040193621741,
+      "bollinger_pct_b": 0.1993,
       "volume_spike": false,
-      "volume_spike_ratio": 0.03,
+      "volume_spike_ratio": 0.59,
       "news_sentiment": 0.915,
       "news_confidence": 0.47,
       "news_headlines": [
@@ -1004,23 +1001,65 @@
       "high_impact_news": true
     },
     {
-      "asset": "QCOM",
-      "rank_score": 0.6179,
-      "price": 195.0301055908203,
-      "rsi": 15.875849437247822,
-      "momentum_5d": -0.044953238437083404,
-      "momentum_1d": -0.12164424658627192,
+      "asset": "HOOD",
+      "rank_score": 0.5905,
+      "price": 96.55000305175781,
+      "rsi": 21.398751043234114,
+      "momentum_5d": -0.029989455975555277,
+      "momentum_1d": -0.09359738927439742,
       "macd_crossover": false,
-      "atr_pct": 0.02668504487587751,
-      "bollinger_pct_b": 0.203,
+      "atr_pct": 0.024244140210893907,
+      "bollinger_pct_b": 0.0009,
       "volume_spike": false,
-      "volume_spike_ratio": 0.04,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.54,
+      "volume_spike_ratio": 0.45,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Tech stocks live: Semiconductor stocks steady after sell-off, with Micron earnings on deck",
-        "Qualcomm Strikes $3.9 Billion Deal for AI Software Company Modular",
-        "Is Qualcomm Stock A Bet On AI's Future Or A Hostage To The Smartphone's Present?"
+        "Short sellers are coming after SpaceX as it sheds post-IPO gains",
+        "What Baiju Bhatt Learned From the 70 \u2018Nos\u2019 He Got While Building Robinhood",
+        "Cboe Launches S&P 500 Prediction Market"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLK",
+      "rank_score": 0.5795,
+      "price": 181.14999389648438,
+      "rsi": 21.319357921348995,
+      "momentum_5d": -0.016264412862078765,
+      "momentum_1d": -0.052116617037610426,
+      "macd_crossover": false,
+      "atr_pct": 0.011717313622257471,
+      "bollinger_pct_b": 0.1114,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.09,
+      "news_sentiment": -0.326,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "JPMorgan raises S&P 500 target to 7,800 but warns of 'flash crash'",
+        "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+        "Stock Market News for Jun 24, 2026"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARM",
+      "rank_score": 0.5795,
+      "price": 345.7372131347656,
+      "rsi": 8.18233927481674,
+      "momentum_5d": -0.025749311349727015,
+      "momentum_1d": -0.22237220770910912,
+      "macd_crossover": false,
+      "atr_pct": 0.03035147651590398,
+      "bollinger_pct_b": 0.1549,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.56,
+      "news_sentiment": 0.07,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "AMD Gets a Big Agentic AI Boost",
+        "UBS flags these 2 stocks as key beneficiaries of standalone CPU",
+        "AMD and Arm Emerge as Key Winners in the Next AI Wave"
       ],
       "high_impact_news": true
     }
