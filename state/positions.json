@@ -279,41 +279,8 @@
     "mode": "paper",
     "strategy_version": "30",
     "status": "open",
-    "price_trough": 517.7838745117188,
-    "trailing_stop_price": 544.040695
-  },
-  "AMAT": {
-    "id": "AMAT_20260623135909",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 583.1900024414062,
-    "entry_time": "2026-06-23T13:59:09.114160+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 2227.09,
-    "position_size_pct": 0.0221,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (28.3)",
-      "5d momentum -6.87%",
-      "1d momentum +0.57%",
-      "BB oversold (pct_b=-0.11)",
-      "Volume spike 1.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.818,
-    "news_headlines": [
-      "BofA lists top 5 themes driving next $1tn in incremental semi sales",
-      "A Growing Supply Gap Has Analysts Eyeing Applied Materials (AMAT)",
-      "Applied Materials (AMAT) and EssilorLuxottica Sign Long-Term Deal, Reuters Reports"
-    ],
-    "mode": "paper",
-    "strategy_version": "31",
-    "status": "open",
-    "price_peak": 586.739990234375,
-    "trailing_stop_price": 577.93889
+    "price_trough": 507.9599914550781,
+    "trailing_stop_price": 533.718643
   },
   "SNAP": {
     "id": "SNAP_20260623162859",
@@ -347,68 +314,6 @@
     "price_peak": 4.50629997253418,
     "trailing_stop_price": 4.438705
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260624111215",
-    "asset": "BTC-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 62284.19921875,
-    "entry_time": "2026-06-24T11:12:15.448186+00:00",
-    "stop_loss_pct": 0.01184,
-    "take_profit_pct": 0.03934,
-    "size_usd": 6223.64,
-    "position_size_pct": 0.062,
-    "confidence": 0.646,
-    "signals": [
-      "RSI oversold (43.9)",
-      "5d momentum -0.65%",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; fed hawkish"
-    ],
-    "news_sentiment": -0.292,
-    "news_headlines": [
-      "Could Adam Back's bitcoin treasury group go public via SPAC this week?",
-      "This company owns 5% of all ethereum\u2014and it hits your 401(k) soon",
-      "Bitcoin and ethereum prices today, Tuesday, June 23, 2026: Values slipping as possible rate hikes weigh on prices"
-    ],
-    "mode": "paper",
-    "strategy_version": "32",
-    "status": "open",
-    "price_trough": 60523.98046875,
-    "trailing_stop_price": 61240.584398
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260624154259",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07492999732494354,
-    "entry_time": "2026-06-24T15:42:59.708229+00:00",
-    "stop_loss_pct": 0.00982,
-    "take_profit_pct": 0.02392,
-    "size_usd": 5553.46,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (13.6)",
-      "5d momentum -4.54%",
-      "1d momentum -4.81%",
-      "BB oversold (pct_b=-0.32)",
-      "Volume spike 4.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed hawkish"
-    ],
-    "news_sentiment": -0.125,
-    "news_headlines": [
-      "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Important Level' For BTC",
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
-      "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260624154259",
     "asset": "XRP-USD",
@@ -440,67 +345,6 @@
     "strategy_version": "33",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260624154259",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1627.199951171875,
-    "entry_time": "2026-06-24T15:42:59.711220+00:00",
-    "stop_loss_pct": 0.00858,
-    "take_profit_pct": 0.02123,
-    "size_usd": 6064.12,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (28.4)",
-      "5d momentum -2.06%",
-      "1d momentum -1.83%",
-      "BB oversold (pct_b=-0.27)",
-      "Volume spike 2.3\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.087,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Wednesday, June 24, 2026: Opened at lowest levels in about two weeks",
-      "Kraken's Ink Moves to Optimism's Fully Managed Stack",
-      "Standard Chartered Predicts 50x Aave Price Surge, But It Hinges on a Massive Bet"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
-    "status": "open"
-  },
-  "SLV": {
-    "id": "SLV_20260624154259",
-    "asset": "SLV",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 53.20000076293945,
-    "entry_time": "2026-06-24T15:42:59.712531+00:00",
-    "stop_loss_pct": 0.01349,
-    "take_profit_pct": 0.03287,
-    "size_usd": 5578.99,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (3.2)",
-      "5d momentum -4.63%",
-      "1d momentum -12.24%",
-      "BB oversold (pct_b=0.05)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions",
-      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares",
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Amid Continued US-Iran Talks"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
-    "status": "open"
-  },
   "UBER": {
     "id": "UBER_20260624154259",
     "asset": "UBER",
@@ -526,6 +370,161 @@
       "Prime Day is underway: Here are all the ways you can save",
       "Is Uber\u2019s (UBER) Europe Expansion A Buying Opportunity As Stock Trades Near 52-Week Lows?",
       "AI Coding Boom Faces $8 Trillion Reality Check"
+    ],
+    "mode": "paper",
+    "strategy_version": "33",
+    "status": "open",
+    "price_trough": 73.62999725341797,
+    "trailing_stop_price": 74.539328
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260624173239",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 65.43000030517578,
+    "entry_time": "2026-06-24T17:32:39.988447+00:00",
+    "stop_loss_pct": 0.01312,
+    "take_profit_pct": 0.03194,
+    "size_usd": 5543.33,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (18.6)",
+      "5d momentum -5.67%",
+      "1d momentum -4.75%",
+      "BB oversold (pct_b=-0.26)",
+      "Volume spike 4.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": -0.388,
+    "news_headlines": [
+      "Solana Forms Bearish Chart Pattern",
+      "Arthur Hayes Is Backing Another Token With A Bold Price Target \u2013 It\u2019s The Same Maelstrom Researcher Behind The WLD Call",
+      "South Korea\u2019s KG Group Picks Solana to Roll Out a Digital Asset Payments Push"
+    ],
+    "mode": "paper",
+    "strategy_version": "33",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260624173239",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.07339999824762344,
+    "entry_time": "2026-06-24T17:32:39.990163+00:00",
+    "stop_loss_pct": 0.01248,
+    "take_profit_pct": 0.03039,
+    "size_usd": 5543.33,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (11.6)",
+      "5d momentum -6.51%",
+      "1d momentum -6.48%",
+      "BB oversold (pct_b=-0.14)",
+      "Volume spike 3.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": -0.125,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP, Dogecoin Drop Further Amid Global Chip Sell-Off: Analyst Flags 'The Most Important Level' For BTC",
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $63,000 Level",
+      "Down More Than 40% in the Past Year, Is XRP Overdue for a Rally?"
+    ],
+    "mode": "paper",
+    "strategy_version": "33",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260624173239",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1571.9200439453125,
+    "entry_time": "2026-06-24T17:32:39.991331+00:00",
+    "stop_loss_pct": 0.01213,
+    "take_profit_pct": 0.03002,
+    "size_usd": 6053.06,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (17.8)",
+      "5d momentum -5.84%",
+      "1d momentum -4.99%",
+      "BB oversold (pct_b=-0.23)",
+      "Volume spike 3.2\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "SpaceX rockets downward on day 1 of short trading",
+      "Bitcoin and ethereum prices today, Wednesday, June 24, 2026: Opened at lowest levels in about two weeks",
+      "Veteran trader says one trend could send Bitcoin to $1 million"
+    ],
+    "mode": "paper",
+    "strategy_version": "33",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260624173239",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 59558.12890625,
+    "entry_time": "2026-06-24T17:32:39.992860+00:00",
+    "stop_loss_pct": 0.00874,
+    "take_profit_pct": 0.02127,
+    "size_usd": 2211.15,
+    "position_size_pct": 0.0222,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (16.7)",
+      "5d momentum -4.74%",
+      "1d momentum -4.36%",
+      "BB oversold (pct_b=-0.09)",
+      "Volume spike 3.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": -0.062,
+    "news_headlines": [
+      "SpaceX rockets downward on day 1 of short trading",
+      "Could Adam Back's bitcoin treasury group go public via SPAC this week?",
+      "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout"
+    ],
+    "mode": "paper",
+    "strategy_version": "33",
+    "status": "open"
+  },
+  "UNG": {
+    "id": "UNG_20260624173240",
+    "asset": "UNG",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 11.675000190734863,
+    "entry_time": "2026-06-24T17:32:40.022601+00:00",
+    "stop_loss_pct": 0.02285,
+    "take_profit_pct": 0.07565,
+    "size_usd": 5935.18,
+    "position_size_pct": 0.0596,
+    "confidence": 0.621,
+    "signals": [
+      "RSI oversold (42.0)",
+      "MACD crossover",
+      "5d momentum +1.61%",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 3 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.412,
+    "news_headlines": [
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions",
+      "Sector Update: Energy Stocks Slightly Higher Pre-Bell Tuesday",
+      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares"
     ],
     "mode": "paper",
     "strategy_version": "33",
