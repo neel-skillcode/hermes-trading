@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 161.77999877929688,
-    "trailing_stop_price": 160.485759
+    "price_peak": 161.80299377441406,
+    "trailing_stop_price": 160.50857
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -310,7 +310,9 @@
     ],
     "mode": "paper",
     "strategy_version": "33",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.0728000402450562,
+    "trailing_stop_price": 1.063799
   },
   "UBER": {
     "id": "UBER_20260624154259",
@@ -344,39 +346,6 @@
     "price_trough": 73.62999725341797,
     "trailing_stop_price": 74.539328
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260624173239",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 65.43000030517578,
-    "entry_time": "2026-06-24T17:32:39.988447+00:00",
-    "stop_loss_pct": 0.01312,
-    "take_profit_pct": 0.03194,
-    "size_usd": 5543.33,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (18.6)",
-      "5d momentum -5.67%",
-      "1d momentum -4.75%",
-      "BB oversold (pct_b=-0.26)",
-      "Volume spike 4.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": -0.388,
-    "news_headlines": [
-      "Solana Forms Bearish Chart Pattern",
-      "Arthur Hayes Is Backing Another Token With A Bold Price Target \u2013 It\u2019s The Same Maelstrom Researcher Behind The WLD Call",
-      "South Korea\u2019s KG Group Picks Solana to Roll Out a Digital Asset Payments Push"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
-    "status": "open",
-    "price_peak": 65.6500015258789,
-    "trailing_stop_price": 64.788674
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260624173239",
     "asset": "DOGE-USD",
@@ -407,8 +376,8 @@
     "mode": "paper",
     "strategy_version": "33",
     "status": "open",
-    "price_peak": 0.0736600011587143,
-    "trailing_stop_price": 0.072741
+    "price_peak": 0.07547000050544739,
+    "trailing_stop_price": 0.074528
   },
   "ETH-USD": {
     "id": "ETH-USD_20260624173239",
@@ -439,40 +408,9 @@
     ],
     "mode": "paper",
     "strategy_version": "33",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260624173239",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 59558.12890625,
-    "entry_time": "2026-06-24T17:32:39.992860+00:00",
-    "stop_loss_pct": 0.00874,
-    "take_profit_pct": 0.02127,
-    "size_usd": 2211.15,
-    "position_size_pct": 0.0222,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (16.7)",
-      "5d momentum -4.74%",
-      "1d momentum -4.36%",
-      "BB oversold (pct_b=-0.09)",
-      "Volume spike 3.3\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": -0.062,
-    "news_headlines": [
-      "SpaceX rockets downward on day 1 of short trading",
-      "Could Adam Back's bitcoin treasury group go public via SPAC this week?",
-      "Bitcoin 'vulnerable to further weakness' as token tumbles amid tech rout"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
     "status": "open",
-    "price_peak": 59578.01171875,
-    "trailing_stop_price": 59057.299896
+    "price_peak": 1610.1199951171875,
+    "trailing_stop_price": 1590.58924
   },
   "UNG": {
     "id": "UNG_20260624173240",
@@ -533,7 +471,9 @@
     ],
     "mode": "paper",
     "strategy_version": "34",
-    "status": "open"
+    "status": "open",
+    "price_peak": 51.779998779296875,
+    "trailing_stop_price": 51.003299
   },
   "SMCI": {
     "id": "SMCI_20260624191511",
@@ -561,6 +501,68 @@
       "Which AI Server Stock Has Dominated in 2026: Super Micro, Dell, or Hewlett Packard Enterprise?",
       "Super Micro's AI Growth Story Gets a Major Boost From New Deal",
       "Can SMCI Overcome Rising Inventory and Cash Flow Pressures?"
+    ],
+    "mode": "paper",
+    "strategy_version": "34",
+    "status": "open",
+    "price_peak": 32.45000076293945,
+    "trailing_stop_price": 31.963251
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260624205913",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 60875.87890625,
+    "entry_time": "2026-06-24T20:59:13.648098+00:00",
+    "stop_loss_pct": 0.00993,
+    "take_profit_pct": 0.02352,
+    "size_usd": 4707.84,
+    "position_size_pct": 0.0472,
+    "confidence": 0.737,
+    "signals": [
+      "RSI oversold (35.3)",
+      "5d momentum +1.12%",
+      "1d momentum -2.42%",
+      "Volume spike 3.9\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish"
+    ],
+    "news_sentiment": -0.282,
+    "news_headlines": [
+      "The CBOE moves into prediction market space",
+      "Short sellers are coming after SpaceX as it sheds post-IPO gains",
+      "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive"
+    ],
+    "mode": "paper",
+    "strategy_version": "34",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260624205913",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 67.58000183105469,
+    "entry_time": "2026-06-24T20:59:13.650188+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03658,
+    "size_usd": 3139.15,
+    "position_size_pct": 0.0315,
+    "confidence": 0.877,
+    "signals": [
+      "RSI oversold (38.7)",
+      "5d momentum +0.54%",
+      "1d momentum -1.96%",
+      "Volume spike 3.1\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.66,
+    "news_headlines": [
+      "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive",
+      "Top Cryptocurrencies Lower; Bitcoin Falls Below $60,000 Level",
+      "Solana Forms Bearish Chart Pattern"
     ],
     "mode": "paper",
     "strategy_version": "34",
