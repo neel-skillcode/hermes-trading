@@ -311,8 +311,8 @@
     "mode": "paper",
     "strategy_version": "33",
     "status": "open",
-    "price_peak": 1.0736000537872314,
-    "trailing_stop_price": 1.064593
+    "price_peak": 1.0824999809265137,
+    "trailing_stop_price": 1.073418
   },
   "UBER": {
     "id": "UBER_20260624154259",
@@ -345,39 +345,6 @@
     "status": "open",
     "price_trough": 73.62999725341797,
     "trailing_stop_price": 74.539328
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260624173239",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1571.9200439453125,
-    "entry_time": "2026-06-24T17:32:39.991331+00:00",
-    "stop_loss_pct": 0.01213,
-    "take_profit_pct": 0.03002,
-    "size_usd": 6053.06,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (17.8)",
-      "5d momentum -5.84%",
-      "1d momentum -4.99%",
-      "BB oversold (pct_b=-0.23)",
-      "Volume spike 3.2\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.2,
-    "news_headlines": [
-      "SpaceX rockets downward on day 1 of short trading",
-      "Bitcoin and ethereum prices today, Wednesday, June 24, 2026: Opened at lowest levels in about two weeks",
-      "Veteran trader says one trend could send Bitcoin to $1 million"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
-    "status": "open",
-    "price_peak": 1615.510009765625,
-    "trailing_stop_price": 1595.913873
   },
   "UNG": {
     "id": "UNG_20260624173240",
@@ -475,85 +442,24 @@
     "price_peak": 32.45000076293945,
     "trailing_stop_price": 31.963251
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260624205913",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 60875.87890625,
-    "entry_time": "2026-06-24T20:59:13.648098+00:00",
-    "stop_loss_pct": 0.00993,
-    "take_profit_pct": 0.02352,
-    "size_usd": 4707.84,
-    "position_size_pct": 0.0472,
-    "confidence": 0.737,
-    "signals": [
-      "RSI oversold (35.3)",
-      "5d momentum +1.12%",
-      "1d momentum -2.42%",
-      "Volume spike 3.9\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish"
-    ],
-    "news_sentiment": -0.282,
-    "news_headlines": [
-      "The CBOE moves into prediction market space",
-      "Short sellers are coming after SpaceX as it sheds post-IPO gains",
-      "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive"
-    ],
-    "mode": "paper",
-    "strategy_version": "34",
-    "status": "open",
-    "price_trough": 60847.7109375,
-    "trailing_stop_price": 61451.928707
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260624205913",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 67.58000183105469,
-    "entry_time": "2026-06-24T20:59:13.650188+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03658,
-    "size_usd": 3139.15,
-    "position_size_pct": 0.0315,
-    "confidence": 0.877,
-    "signals": [
-      "RSI oversold (38.7)",
-      "5d momentum +0.54%",
-      "1d momentum -1.96%",
-      "Volume spike 3.1\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": -0.66,
-    "news_headlines": [
-      "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive",
-      "Top Cryptocurrencies Lower; Bitcoin Falls Below $60,000 Level",
-      "Solana Forms Bearish Chart Pattern"
-    ],
-    "mode": "paper",
-    "strategy_version": "34",
-    "status": "open"
-  },
   "AVAX-USD": {
-    "id": "AVAX-USD_20260624222237",
+    "id": "AVAX-USD_20260625055000",
     "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 6.420000076293945,
-    "entry_time": "2026-06-24T22:22:37.741414+00:00",
+    "entry_price": 6.559999942779541,
+    "entry_time": "2026-06-25T05:50:00.269015+00:00",
     "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03578,
-    "size_usd": 4934.16,
-    "position_size_pct": 0.0493,
-    "confidence": 0.771,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5570.44,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "MACD crossover",
-      "5d momentum +6.82%",
-      "1d momentum -0.77%",
-      "Volume spike 1.7\u00d7",
+      "RSI overbought (69.4)",
+      "5d momentum +2.50%",
+      "1d momentum +2.02%",
+      "BB overbought (pct_b=0.91)",
+      "Volume spike 15.5\u00d7",
       "High-impact catalyst",
       "Claude [contradicts]: analyst upgrade; price decline"
     ],
@@ -567,30 +473,90 @@
     "strategy_version": "34",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260624222237",
-    "asset": "DOGE-USD",
+  "BTC-USD": {
+    "id": "BTC-USD_20260625055000",
+    "asset": "BTC-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 0.07587999850511551,
-    "entry_time": "2026-06-24T22:22:37.743470+00:00",
-    "stop_loss_pct": 0.01385,
-    "take_profit_pct": 0.03216,
-    "size_usd": 683.18,
-    "position_size_pct": 0.0068,
-    "confidence": 0.644,
+    "entry_price": 61459.66015625,
+    "entry_time": "2026-06-25T05:50:00.270795+00:00",
+    "stop_loss_pct": 0.00885,
+    "take_profit_pct": 0.02157,
+    "size_usd": 5615.26,
+    "position_size_pct": 0.0561,
+    "confidence": 0.877,
     "signals": [
-      "RSI oversold (34.2)",
-      "5d momentum +4.02%",
-      "1d momentum -3.79%",
+      "RSI overbought (64.3)",
+      "5d momentum +1.31%",
+      "1d momentum -2.14%",
+      "Volume spike 2.5\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+      "Claude [supports]: price decline"
     ],
-    "news_sentiment": -0.257,
+    "news_sentiment": -0.023,
+    "news_headlines": [
+      "The CBOE moves into prediction market space",
+      "Short sellers are coming after SpaceX as it sheds post-IPO gains",
+      "Bitcoin and ethereum prices today, Wednesday, June 24, 2026: Opened at lowest levels in about two weeks"
+    ],
+    "mode": "paper",
+    "strategy_version": "34",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260625055000",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1643.280029296875,
+    "entry_time": "2026-06-25T05:50:00.271873+00:00",
+    "stop_loss_pct": 0.01047,
+    "take_profit_pct": 0.02389,
+    "size_usd": 3611.18,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "5d momentum +1.66%",
+      "1d momentum -1.73%",
+      "Volume spike 4.5\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.132,
+    "news_headlines": [
+      "Inside Machi Big Brother's high-stakes ETH trade",
+      "Ripple and SBI Launch RLUSD in Japan After JFSA Approval",
+      "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground' For Beleaguered BTC Amid 'Extreme Fear'"
+    ],
+    "mode": "paper",
+    "strategy_version": "34",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260625055000",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 569.6900024414062,
+    "entry_time": "2026-06-25T05:50:00.273016+00:00",
+    "stop_loss_pct": 0.0083,
+    "take_profit_pct": 0.01999,
+    "size_usd": 4740.0,
+    "position_size_pct": 0.0474,
+    "confidence": 0.817,
+    "signals": [
+      "RSI overbought (62.1)",
+      "5d momentum +1.17%",
+      "1d momentum -1.62%",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.312,
     "news_headlines": [
       "$600M Wiped Out in Hours: Crypto\u2019s Leverage Bloodbath Just Hit BTC and ETH Hardest",
-      "'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive",
-      "Top Cryptocurrencies Lower; Bitcoin Falls Below $60,000 Level"
+      "Top Cryptocurrencies Lower; Bitcoin Falls Below $60,000 Level",
+      "This AI Meme Coin Just Crashed 95% in a Week. What Lessons Can Crypto Investors Learn?"
     ],
     "mode": "paper",
     "strategy_version": "34",
