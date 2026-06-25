@@ -187,69 +187,6 @@
     "price_peak": 1.626270055770874,
     "trailing_stop_price": 1.61326
   },
-  "MA": {
-    "id": "MA_20260618183536",
-    "asset": "MA",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 489.8599853515625,
-    "entry_time": "2026-06-18T18:35:36.149364+00:00",
-    "stop_loss_pct": 0.01659,
-    "take_profit_pct": 0.05511,
-    "size_usd": 6263.69,
-    "position_size_pct": 0.0618,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (24.0)",
-      "5d momentum -0.72%",
-      "BB oversold (pct_b=0.15)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.487,
-    "news_headlines": [
-      "Mastercard vs. American Express: Which Stock Has More Upside Now?",
-      "What Makes Credit Card Networks Such Durable Money Machines",
-      "Mastercard vs. Remitly Global: Which Financial Stock Is a Better Buy in 2026?"
-    ],
-    "mode": "paper",
-    "strategy_version": "29",
-    "status": "open",
-    "price_peak": 497.8999938964844,
-    "trailing_stop_price": 489.639833
-  },
-  "UBER": {
-    "id": "UBER_20260624154259",
-    "asset": "UBER",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 74.631103515625,
-    "entry_time": "2026-06-24T15:42:59.714291+00:00",
-    "stop_loss_pct": 0.01235,
-    "take_profit_pct": 0.03046,
-    "size_usd": 2261.61,
-    "position_size_pct": 0.0227,
-    "confidence": 0.934,
-    "signals": [
-      "RSI overbought (63.0)",
-      "5d momentum +6.76%",
-      "1d momentum +5.16%",
-      "BB overbought (pct_b=1.05)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.171,
-    "news_headlines": [
-      "Prime Day is underway: Here are all the ways you can save",
-      "Is Uber\u2019s (UBER) Europe Expansion A Buying Opportunity As Stock Trades Near 52-Week Lows?",
-      "AI Coding Boom Faces $8 Trillion Reality Check"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
-    "status": "open",
-    "price_trough": 72.69000244140625,
-    "trailing_stop_price": 73.587724
-  },
   "UNG": {
     "id": "UNG_20260624173240",
     "asset": "UNG",
@@ -280,38 +217,6 @@
     "status": "open",
     "price_peak": 11.940099716186523,
     "trailing_stop_price": 11.667268
-  },
-  "QCOM": {
-    "id": "QCOM_20260625133229",
-    "asset": "QCOM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 216.360107421875,
-    "entry_time": "2026-06-25T13:32:29.616057+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03638,
-    "size_usd": 5465.73,
-    "position_size_pct": 0.0545,
-    "confidence": 0.851,
-    "signals": [
-      "RSI overbought (60.6)",
-      "MACD crossover",
-      "5d momentum +9.62%",
-      "1d momentum -5.56%",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.887,
-    "news_headlines": [
-      "Qualcomm jumps as it looks beyond smartphones to cash in on the AI boom",
-      "Qualcomm debuts line of AI data center chips and systems, increasing competition with Nvidia",
-      "Qualcomm Signs Meta as Its First Data Center Customer"
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open",
-    "price_trough": 209.55999755859375,
-    "trailing_stop_price": 212.703398
   },
   "LRCX": {
     "id": "LRCX_20260625133229",
@@ -344,38 +249,6 @@
     "status": "open",
     "price_trough": 387.0199890136719,
     "trailing_stop_price": 410.241188
-  },
-  "AAPL": {
-    "id": "AAPL_20260625160540",
-    "asset": "AAPL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 277.9700012207031,
-    "entry_time": "2026-06-25T16:05:40.376779+00:00",
-    "stop_loss_pct": 0.01238,
-    "take_profit_pct": 0.03054,
-    "size_usd": 6042.07,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (17.6)",
-      "5d momentum -6.09%",
-      "1d momentum -6.69%",
-      "BB oversold (pct_b=-0.09)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.381,
-    "news_headlines": [
-      "Tech stocks live: AI memory trade roars back after Micron earnings crush estimates",
-      "Apple\u2019s Target Climbs as Earnings Accelerate: The Case For Double-Digit Upside",
-      "Top Midday Stories: Micron Shares Soar After Estimate-Topping Earnings Results; Bio-Techne to be Acquired by Merck for $11.3 Billion"
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open",
-    "price_peak": 279.6300048828125,
-    "trailing_stop_price": 276.168185
   },
   "MSFT": {
     "id": "MSFT_20260625160540",
@@ -438,8 +311,8 @@
     "mode": "paper",
     "strategy_version": "35",
     "status": "open",
-    "price_peak": 59.2400016784668,
-    "trailing_stop_price": 58.351402
+    "price_peak": 59.75,
+    "trailing_stop_price": 58.85375
   },
   "ABBV": {
     "id": "ABBV_20260625160540",
@@ -471,36 +344,6 @@
     "strategy_version": "35",
     "status": "open"
   },
-  "AMAT": {
-    "id": "AMAT_20260625182256",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 652.8400268554688,
-    "entry_time": "2026-06-25T18:22:56.047454+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5132.74,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (80.3)",
-      "5d momentum +10.85%",
-      "1d momentum +4.09%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.797,
-    "news_headlines": [
-      "Sandisk, Western Digital, and others soar as Micron results  'justify elevated valuations'",
-      "Micron Sparks Fresh AI Stock Rally",
-      "Micron Q3 earnings beat sends stock surging 18% premarket"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open"
-  },
   "MU": {
     "id": "MU_20260625182256",
     "asset": "MU",
@@ -526,6 +369,146 @@
       "Stock market today: Dow and S&P 500 rise, Nasdaq slips as PCE comes in hot, Big Tech falters",
       "Employers, governments join forces to address AI job loss concerns",
       "AI trade: Making sense of Micron's massive Q3 earnings boost"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open",
+    "price_trough": 1213.56005859375,
+    "trailing_stop_price": 1231.763459
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260625202722",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.159999847412109,
+    "entry_time": "2026-06-25T20:27:22.312041+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03423,
+    "size_usd": 3652.03,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (32.5)",
+      "5d momentum +0.82%",
+      "1d momentum -2.69%",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260625202722",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.07389000058174133,
+    "entry_time": "2026-06-25T20:27:22.314050+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03483,
+    "size_usd": 4170.05,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (35.7)",
+      "5d momentum +0.79%",
+      "1d momentum -2.07%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.273,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
+      "Better Buy for This Crypto Bear Market: XRP or Dogecoin?",
+      "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground' For Beleaguered BTC Amid 'Extreme Fear'"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20260625202722",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 17.482200622558594,
+    "entry_time": "2026-06-25T20:27:22.315029+00:00",
+    "stop_loss_pct": 0.00203,
+    "take_profit_pct": 0.00468,
+    "size_usd": 4014.64,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (23.6)",
+      "1d momentum -0.64%",
+      "BB oversold (pct_b=0.02)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260625202722",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.038100004196167,
+    "entry_time": "2026-06-25T20:27:22.317383+00:00",
+    "stop_loss_pct": 0.01204,
+    "take_profit_pct": 0.02746,
+    "size_usd": 3626.13,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (32.4)",
+      "5d momentum +0.45%",
+      "1d momentum -3.26%",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.172,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
+      "Project Pangea Targets $150B Trade Corridor: Can Chainlink Challenge XRP and XLM in Cross-Border Payments?",
+      "XRP's 'Hard Money' Case Strengthens if Ripple Speeds Up Escrow Releases, Says Lawyer Bill Morgan"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260625202722",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 556.0800170898438,
+    "entry_time": "2026-06-25T20:27:22.320797+00:00",
+    "stop_loss_pct": 0.01049,
+    "take_profit_pct": 0.02468,
+    "size_usd": 3506.96,
+    "position_size_pct": 0.0347,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (36.9)",
+      "5d momentum +0.51%",
+      "1d momentum -1.09%",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.172,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
+      "ZachXBT Calls Out MemeCore After M Token Crashes 75%, Demands Answers From Binance and Bybit",
+      "$600M Wiped Out in Hours: Crypto\u2019s Leverage Bloodbath Just Hit BTC and ETH Hardest"
     ],
     "mode": "paper",
     "strategy_version": "36",
