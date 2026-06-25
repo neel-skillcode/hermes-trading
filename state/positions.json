@@ -218,69 +218,6 @@
     "price_peak": 497.0400085449219,
     "trailing_stop_price": 488.794115
   },
-  "AMD": {
-    "id": "AMD_20260622150739",
-    "asset": "AMD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 546.4349975585938,
-    "entry_time": "2026-06-22T15:07:39.622919+00:00",
-    "stop_loss_pct": 0.05071,
-    "take_profit_pct": 0.16643,
-    "size_usd": 5460.68,
-    "position_size_pct": 0.0541,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (70.5)",
-      "5d momentum +2.36%",
-      "BB overbought (pct_b=1.00)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.625,
-    "news_headlines": [
-      "Upscale AI raises $190 million Series A-1 at $2 billion valuation",
-      "Nvidia Stock Rises But It Still Lags Intel",
-      "Stocks to Watch: SpaceX, AbbVie, Intel, EasyJet"
-    ],
-    "mode": "paper",
-    "strategy_version": "30",
-    "status": "open",
-    "price_trough": 504.9100036621094,
-    "trailing_stop_price": 530.51399
-  },
-  "SNAP": {
-    "id": "SNAP_20260623162859",
-    "asset": "SNAP",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 4.494999885559082,
-    "entry_time": "2026-06-23T16:28:59.011608+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6014.19,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (33.6)",
-      "5d momentum -5.47%",
-      "1d momentum -12.80%",
-      "BB oversold (pct_b=0.01)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.304,
-    "news_headlines": [
-      "Will Snap's Augmented Reality Glasses Help or Hurt the Company?",
-      "PINS Benefits From Strong User Growth: More Upside Ahead?",
-      "Snap CEO says Specs are a bet on a shift back to in-person connection"
-    ],
-    "mode": "paper",
-    "strategy_version": "32",
-    "status": "open",
-    "price_peak": 4.550000190734863,
-    "trailing_stop_price": 4.48175
-  },
   "UBER": {
     "id": "UBER_20260624154259",
     "asset": "UBER",
@@ -341,8 +278,8 @@
     "mode": "paper",
     "strategy_version": "33",
     "status": "open",
-    "price_peak": 11.739999771118164,
-    "trailing_stop_price": 11.471741
+    "price_peak": 11.940099716186523,
+    "trailing_stop_price": 11.667268
   },
   "SLV": {
     "id": "SLV_20260624191511",
@@ -373,74 +310,8 @@
     "mode": "paper",
     "strategy_version": "34",
     "status": "open",
-    "price_peak": 51.779998779296875,
-    "trailing_stop_price": 51.003299
-  },
-  "SMCI": {
-    "id": "SMCI_20260624191511",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 31.594999313354492,
-    "entry_time": "2026-06-24T19:15:11.974205+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 570.69,
-    "position_size_pct": 0.0057,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (13.9)",
-      "5d momentum -5.63%",
-      "1d momentum +3.94%",
-      "BB oversold (pct_b=0.04)",
-      "News +0.63 (conf 0.62) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; price decline"
-    ],
-    "news_sentiment": 0.634,
-    "news_headlines": [
-      "Which AI Server Stock Has Dominated in 2026: Super Micro, Dell, or Hewlett Packard Enterprise?",
-      "Super Micro's AI Growth Story Gets a Major Boost From New Deal",
-      "Can SMCI Overcome Rising Inventory and Cash Flow Pressures?"
-    ],
-    "mode": "paper",
-    "strategy_version": "34",
-    "status": "open",
-    "price_peak": 32.45000076293945,
-    "trailing_stop_price": 31.963251
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260625055000",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.559999942779541,
-    "entry_time": "2026-06-25T05:50:00.269015+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5570.44,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (69.4)",
-      "5d momentum +2.50%",
-      "1d momentum +2.02%",
-      "BB overbought (pct_b=0.91)",
-      "Volume spike 15.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "34",
-    "status": "open",
-    "price_trough": 6.409999847412109,
-    "trailing_stop_price": 6.50615
+    "price_peak": 52.505001068115234,
+    "trailing_stop_price": 51.717426
   },
   "BTC-USD": {
     "id": "BTC-USD_20260625055000",
@@ -471,8 +342,8 @@
     "mode": "paper",
     "strategy_version": "34",
     "status": "open",
-    "price_trough": 61177.91015625,
-    "trailing_stop_price": 61719.334661
+    "price_trough": 60850.53125,
+    "trailing_stop_price": 61389.058452
   },
   "ETH-USD": {
     "id": "ETH-USD_20260625055000",
@@ -502,8 +373,8 @@
     "mode": "paper",
     "strategy_version": "34",
     "status": "open",
-    "price_trough": 1628.1099853515625,
-    "trailing_stop_price": 1645.156297
+    "price_trough": 1621.800048828125,
+    "trailing_stop_price": 1638.780295
   },
   "BNB-USD": {
     "id": "BNB-USD_20260625055000",
@@ -558,7 +429,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "34",
-    "status": "open"
+    "status": "open",
+    "price_trough": 9.885160446166992,
+    "trailing_stop_price": 9.904931
   },
   "XRP-USD": {
     "id": "XRP-USD_20260625112326",
@@ -587,6 +460,130 @@
     ],
     "mode": "paper",
     "strategy_version": "34",
+    "status": "open",
+    "price_trough": 1.0688999891281128,
+    "trailing_stop_price": 1.074437
+  },
+  "MU": {
+    "id": "MU_20260625133229",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1237.0699462890625,
+    "entry_time": "2026-06-25T13:32:29.614057+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03551,
+    "size_usd": 4720.69,
+    "position_size_pct": 0.047,
+    "confidence": 0.735,
+    "signals": [
+      "RSI overbought (67.9)",
+      "MACD crossover",
+      "5d momentum +18.49%",
+      "1d momentum +8.04%",
+      "BB overbought (pct_b=0.98)",
+      "News +0.52 (conf 0.62) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.516,
+    "news_headlines": [
+      "Micron's stock soars after blowout earnings expose AI's memory bottleneck",
+      "Micron Q3 earnings far surpass Wall Street's estimates on the top & bottom lines",
+      "Micron Q3 earnings: How much higher can this chip stock run?"
+    ],
+    "mode": "paper",
+    "strategy_version": "35",
+    "status": "open"
+  },
+  "QCOM": {
+    "id": "QCOM_20260625133229",
+    "asset": "QCOM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 216.360107421875,
+    "entry_time": "2026-06-25T13:32:29.616057+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03638,
+    "size_usd": 5465.73,
+    "position_size_pct": 0.0545,
+    "confidence": 0.851,
+    "signals": [
+      "RSI overbought (60.6)",
+      "MACD crossover",
+      "5d momentum +9.62%",
+      "1d momentum -5.56%",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.887,
+    "news_headlines": [
+      "Qualcomm jumps as it looks beyond smartphones to cash in on the AI boom",
+      "Qualcomm debuts line of AI data center chips and systems, increasing competition with Nvidia",
+      "Qualcomm Signs Meta as Its First Data Center Customer"
+    ],
+    "mode": "paper",
+    "strategy_version": "35",
+    "status": "open"
+  },
+  "AAPL": {
+    "id": "AAPL_20260625133229",
+    "asset": "AAPL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 286.2300109863281,
+    "entry_time": "2026-06-25T13:32:29.617412+00:00",
+    "stop_loss_pct": 0.00912,
+    "take_profit_pct": 0.02223,
+    "size_usd": 2073.17,
+    "position_size_pct": 0.0207,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (21.4)",
+      "5d momentum -3.97%",
+      "1d momentum -3.66%",
+      "BB oversold (pct_b=-0.34)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.459,
+    "news_headlines": [
+      "Alphabet makes the Dow look more like the Nasdaq",
+      "Big Tech's AI cash cushion is plummeting: Chart of the Day",
+      "Apple raises Mac and iPad prices due to chip shortage"
+    ],
+    "mode": "paper",
+    "strategy_version": "35",
+    "status": "open"
+  },
+  "LRCX": {
+    "id": "LRCX_20260625133229",
+    "asset": "LRCX",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 391.20001220703125,
+    "entry_time": "2026-06-25T13:32:29.625447+00:00",
+    "stop_loss_pct": 0.06,
+    "take_profit_pct": 0.20553,
+    "size_usd": 8198.59,
+    "position_size_pct": 0.0817,
+    "confidence": 0.851,
+    "signals": [
+      "RSI overbought (65.5)",
+      "MACD crossover",
+      "5d momentum +5.52%",
+      "1d momentum -0.49%",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat"
+    ],
+    "news_sentiment": 0.636,
+    "news_headlines": [
+      "Micron Q3 earnings beat sends stock surging 18% premarket",
+      "Top After-Hours Gainers Today Beyond Micron: QCOM, AMAT, LRCX Surge",
+      "Everyone Is Watching Applied Materials Stock's AI Boom. The Real Story Is In The Supply Chain."
+    ],
+    "mode": "paper",
+    "strategy_version": "35",
     "status": "open"
   }
 }
