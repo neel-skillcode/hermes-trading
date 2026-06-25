@@ -247,8 +247,8 @@
     "mode": "paper",
     "strategy_version": "33",
     "status": "open",
-    "price_trough": 72.72000122070312,
-    "trailing_stop_price": 73.618093
+    "price_trough": 72.69000244140625,
+    "trailing_stop_price": 73.587724
   },
   "UNG": {
     "id": "UNG_20260624173240",
@@ -280,40 +280,6 @@
     "status": "open",
     "price_peak": 11.940099716186523,
     "trailing_stop_price": 11.667268
-  },
-  "MU": {
-    "id": "MU_20260625133229",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1237.0699462890625,
-    "entry_time": "2026-06-25T13:32:29.614057+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03551,
-    "size_usd": 4720.69,
-    "position_size_pct": 0.047,
-    "confidence": 0.735,
-    "signals": [
-      "RSI overbought (67.9)",
-      "MACD crossover",
-      "5d momentum +18.49%",
-      "1d momentum +8.04%",
-      "BB overbought (pct_b=0.98)",
-      "News +0.52 (conf 0.62) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.516,
-    "news_headlines": [
-      "Micron's stock soars after blowout earnings expose AI's memory bottleneck",
-      "Micron Q3 earnings far surpass Wall Street's estimates on the top & bottom lines",
-      "Micron Q3 earnings: How much higher can this chip stock run?"
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open",
-    "price_trough": 1201.9100341796875,
-    "trailing_stop_price": 1219.938685
   },
   "QCOM": {
     "id": "QCOM_20260625133229",
@@ -407,7 +373,9 @@
     ],
     "mode": "paper",
     "strategy_version": "35",
-    "status": "open"
+    "status": "open",
+    "price_peak": 279.6300048828125,
+    "trailing_stop_price": 276.168185
   },
   "MSFT": {
     "id": "MSFT_20260625160540",
@@ -437,37 +405,9 @@
     ],
     "mode": "paper",
     "strategy_version": "35",
-    "status": "open"
-  },
-  "AMAT": {
-    "id": "AMAT_20260625160540",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 636.875,
-    "entry_time": "2026-06-25T16:05:40.380489+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5136.41,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (74.6)",
-      "5d momentum +10.06%",
-      "1d momentum +3.26%",
-      "BB overbought (pct_b=0.95)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.797,
-    "news_headlines": [
-      "Sandisk, Western Digital, and others soar as Micron results  'justify elevated valuations'",
-      "Micron Sparks Fresh AI Stock Rally",
-      "Micron Q3 earnings beat sends stock surging 18% premarket"
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open"
+    "status": "open",
+    "price_peak": 354.69500732421875,
+    "trailing_stop_price": 351.218996
   },
   "MRNA": {
     "id": "MRNA_20260625160540",
@@ -497,7 +437,9 @@
     ],
     "mode": "paper",
     "strategy_version": "35",
-    "status": "open"
+    "status": "open",
+    "price_peak": 59.2400016784668,
+    "trailing_stop_price": 58.351402
   },
   "ABBV": {
     "id": "ABBV_20260625160540",
@@ -527,6 +469,66 @@
     ],
     "mode": "paper",
     "strategy_version": "35",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260625182256",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 652.8400268554688,
+    "entry_time": "2026-06-25T18:22:56.047454+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5132.74,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (80.3)",
+      "5d momentum +10.85%",
+      "1d momentum +4.09%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.797,
+    "news_headlines": [
+      "Sandisk, Western Digital, and others soar as Micron results  'justify elevated valuations'",
+      "Micron Sparks Fresh AI Stock Rally",
+      "Micron Q3 earnings beat sends stock surging 18% premarket"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260625182256",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1223.460205078125,
+    "entry_time": "2026-06-25T18:22:56.049732+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 4695.47,
+    "position_size_pct": 0.0465,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (77.6)",
+      "5d momentum +16.69%",
+      "1d momentum +3.68%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.621,
+    "news_headlines": [
+      "Stock market today: Dow and S&P 500 rise, Nasdaq slips as PCE comes in hot, Big Tech falters",
+      "Employers, governments join forces to address AI job loss concerns",
+      "AI trade: Making sense of Micron's massive Q3 earnings boost"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
     "status": "open"
   }
 }
