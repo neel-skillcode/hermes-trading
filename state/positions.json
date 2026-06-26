@@ -162,31 +162,6 @@
     "price_trough": 183.3179931640625,
     "trailing_stop_price": 184.784537
   },
-  "EUR/CAD": {
-    "id": "EUR/CAD_20260617212144",
-    "asset": "EUR/CAD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 1.6211999654769897,
-    "entry_time": "2026-06-17T21:21:44.337396+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 5413.04,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (36.5)",
-      "5d momentum -0.30%",
-      "BB oversold (pct_b=-0.05)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "28",
-    "status": "open",
-    "price_peak": 1.626270055770874,
-    "trailing_stop_price": 1.61326
-  },
   "UNG": {
     "id": "UNG_20260624173240",
     "asset": "UNG",
@@ -403,7 +378,9 @@
     ],
     "mode": "paper",
     "strategy_version": "36",
-    "status": "open"
+    "status": "open",
+    "price_trough": 6.130000114440918,
+    "trailing_stop_price": 6.22195
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260625202722",
@@ -455,7 +432,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "36",
-    "status": "open"
+    "status": "open",
+    "price_peak": 17.523000717163086,
+    "trailing_stop_price": 17.487429
   },
   "XRP-USD": {
     "id": "XRP-USD_20260625202722",
@@ -483,7 +462,9 @@
     ],
     "mode": "paper",
     "strategy_version": "36",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.0312999486923218,
+    "trailing_stop_price": 1.043717
   },
   "BNB-USD": {
     "id": "BNB-USD_20260625202722",
@@ -510,6 +491,29 @@
       "ZachXBT Calls Out MemeCore After M Token Crashes 75%, Demands Answers From Binance and Bybit",
       "$600M Wiped Out in Hours: Crypto\u2019s Leverage Bloodbath Just Hit BTC and ETH Hardest"
     ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20260626015153",
+    "asset": "USD/NOK",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 9.881529808044434,
+    "entry_time": "2026-06-26T01:51:53.943937+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02644,
+    "size_usd": 5923.23,
+    "position_size_pct": 0.0586,
+    "confidence": 0.61,
+    "signals": [
+      "RSI oversold (44.1)",
+      "MACD crossover",
+      "5d momentum +0.30%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "36",
     "status": "open"
