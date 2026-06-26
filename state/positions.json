@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.841750144958496,
-    "trailing_stop_price": 7.779016
+    "price_peak": 7.841770172119141,
+    "trailing_stop_price": 7.779036
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -222,67 +222,8 @@
     "mode": "paper",
     "strategy_version": "35",
     "status": "open",
-    "price_trough": 382.6947937011719,
-    "trailing_stop_price": 405.656481
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260625202722",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.07389000058174133,
-    "entry_time": "2026-06-25T20:27:22.314050+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03483,
-    "size_usd": 4170.05,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (35.7)",
-      "5d momentum +0.79%",
-      "1d momentum -2.07%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.273,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
-      "Better Buy for This Crypto Bear Market: XRP or Dogecoin?",
-      "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground' For Beleaguered BTC Amid 'Extreme Fear'"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260625202722",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.038100004196167,
-    "entry_time": "2026-06-25T20:27:22.317383+00:00",
-    "stop_loss_pct": 0.01204,
-    "take_profit_pct": 0.02746,
-    "size_usd": 3626.13,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (32.4)",
-      "5d momentum +0.45%",
-      "1d momentum -3.26%",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.172,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
-      "Project Pangea Targets $150B Trade Corridor: Can Chainlink Challenge XRP and XLM in Cross-Border Payments?",
-      "XRP's 'Hard Money' Case Strengthens if Ripple Speeds Up Escrow Releases, Says Lawyer Bill Morgan"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open",
-    "price_trough": 1.0312999486923218,
-    "trailing_stop_price": 1.043717
+    "price_trough": 379.6600036621094,
+    "trailing_stop_price": 402.439604
   },
   "USD/NOK": {
     "id": "USD/NOK_20260626015153",
@@ -306,8 +247,8 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open",
-    "price_peak": 9.901280403137207,
-    "trailing_stop_price": 9.82207
+    "price_peak": 9.929329872131348,
+    "trailing_stop_price": 9.849895
   },
   "BTC-USD": {
     "id": "BTC-USD_20260626092854",
@@ -371,36 +312,6 @@
     "price_trough": 561.280029296875,
     "trailing_stop_price": 574.442046
   },
-  "ON": {
-    "id": "ON_20260626143644",
-    "asset": "ON",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 94.23999786376953,
-    "entry_time": "2026-06-26T14:36:44.186212+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6104.14,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (23.5)",
-      "5d momentum -21.91%",
-      "1d momentum -27.40%",
-      "BB oversold (pct_b=-0.22)",
-      "High-impact catalyst",
-      "Claude [supports]: ma catalyst; analyst downgrade; price decline"
-    ],
-    "news_sentiment": 0.713,
-    "news_headlines": [
-      "ON Semiconductor Tumbles 20%: Is It Dragging Down Semiconductor Names Like AMD and Intel?",
-      "Onsemi Acquisition Seen Diluting Its Data Center Focus",
-      "Onsemi shares slide on $7B Synaptics deal"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open"
-  },
   "LLY": {
     "id": "LLY_20260626143644",
     "asset": "LLY",
@@ -459,7 +370,9 @@
     ],
     "mode": "paper",
     "strategy_version": "36",
-    "status": "open"
+    "status": "open",
+    "price_trough": 66.37000274658203,
+    "trailing_stop_price": 67.365553
   },
   "ARM": {
     "id": "ARM_20260626143644",
@@ -520,7 +433,9 @@
     ],
     "mode": "paper",
     "strategy_version": "36",
-    "status": "open"
+    "status": "open",
+    "price_trough": 632.3099975585938,
+    "trailing_stop_price": 637.31157
   },
   "GS": {
     "id": "GS_20260626143644",
@@ -550,6 +465,98 @@
     ],
     "mode": "paper",
     "strategy_version": "36",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260626163400",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.409999847412109,
+    "entry_time": "2026-06-26T16:34:00.965107+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5671.44,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (71.0)",
+      "5d momentum +4.57%",
+      "1d momentum +5.08%",
+      "BB overbought (pct_b=1.07)",
+      "Volume spike 6.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "37",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260626163400",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 72.72000122070312,
+    "entry_time": "2026-06-26T16:34:00.967053+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6453.71,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (78.1)",
+      "5d momentum +6.16%",
+      "1d momentum +10.37%",
+      "BB overbought (pct_b=1.07)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.022,
+    "news_headlines": [
+      "This Trend Shows Why Solana Could Be a Smart Crypto Bear Market Buy",
+      "AI Agents Expand Into Tokenized Stocks as Agentic Finance Race Accelerates",
+      "Crypto Market Flashes Recovery Signs Ahead of $10.8B Bitcoin, ETH, XRP, SOL Options Expiry"
+    ],
+    "mode": "paper",
+    "strategy_version": "37",
+    "status": "open"
+  },
+  "ON": {
+    "id": "ON_20260626163400",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 91.58999633789062,
+    "entry_time": "2026-06-26T16:34:00.968858+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 1671.53,
+    "position_size_pct": 0.0164,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (23.2)",
+      "5d momentum -22.97%",
+      "1d momentum -23.43%",
+      "BB oversold (pct_b=-0.02)",
+      "High-impact catalyst",
+      "Claude [supports]: ma catalyst; analyst downgrade; price decline"
+    ],
+    "news_sentiment": 0.643,
+    "news_headlines": [
+      "Top Midday Stories: OpenAI Weighs Pushing Back IPO to 2027; ON Semiconductor Acquires Synaptics for $7 Billion",
+      "ON Semiconductor Faces Questions Over $7 Billion Synaptics Deal",
+      "Stocks to Watch: ON Semiconductor, Apple, Micron"
+    ],
+    "mode": "paper",
+    "strategy_version": "37",
     "status": "open"
   }
 }

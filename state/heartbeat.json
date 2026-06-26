@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 102116.94,
+  "portfolio_balance": 101857.83,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.05,
-  "unrealized_pnl_usd": 758.56,
-  "equity_value": 102875.49,
+  "portfolio_drawdown_pct": 0.3,
+  "unrealized_pnl_usd": 765.87,
+  "equity_value": 102623.71,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40846.77,
+  "day_capital_used_usd": 40743.13,
   "swing_capital_used_usd": 47967.65,
-  "total_trades": 401,
-  "last_tick": "2026-06-26T14:36:44.878576+00:00",
-  "last_reflection": "2026-06-26",
-  "trades_since_last_reflection": 0,
+  "total_trades": 404,
+  "last_tick": "2026-06-26T16:34:01.001887+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": true,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9260200262069702,
       "trailing_stop_price": 0.918612,
-      "current_price": 0.92232,
-      "unrealized_pnl_pct": 0.013026,
-      "unrealized_pnl_usd": 17.51
+      "current_price": 0.92199,
+      "unrealized_pnl_pct": 0.012664,
+      "unrealized_pnl_usd": 17.02
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 1.0713000297546387,
       "trailing_stop_price": 1.06273,
-      "current_price": 1.06833,
-      "unrealized_pnl_pct": 0.013625,
-      "unrealized_pnl_usd": 18.31
+      "current_price": 1.06919,
+      "unrealized_pnl_pct": 0.014441,
+      "unrealized_pnl_usd": 19.41
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -92,11 +92,11 @@
       "mode": "paper",
       "strategy_version": "03",
       "status": "open",
-      "price_peak": 7.841750144958496,
-      "trailing_stop_price": 7.779016,
-      "current_price": 7.84173,
-      "unrealized_pnl_pct": 0.000948,
-      "unrealized_pnl_usd": 1.27
+      "price_peak": 7.841770172119141,
+      "trailing_stop_price": 7.779036,
+      "current_price": 7.84177,
+      "unrealized_pnl_pct": 0.000954,
+      "unrealized_pnl_usd": 1.28
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -127,9 +127,9 @@
       "status": "open",
       "price_peak": 161.88400268554688,
       "trailing_stop_price": 160.588931,
-      "current_price": 161.610992,
-      "unrealized_pnl_pct": 0.015342,
-      "unrealized_pnl_usd": 59.6
+      "current_price": 161.727005,
+      "unrealized_pnl_pct": 0.016071,
+      "unrealized_pnl_usd": 62.44
     },
     {
       "id": "EUR/USD_20260614233933",
@@ -161,9 +161,9 @@
       "status": "open",
       "price_trough": 1.1340440511703491,
       "trailing_stop_price": 1.143116,
-      "current_price": 1.142074,
-      "unrealized_pnl_pct": 0.016217,
-      "unrealized_pnl_usd": 121.32
+      "current_price": 1.139731,
+      "unrealized_pnl_pct": 0.018236,
+      "unrealized_pnl_usd": 136.42
     },
     {
       "id": "EUR/JPY_20260616172805",
@@ -194,9 +194,9 @@
       "status": "open",
       "price_trough": 183.3179931640625,
       "trailing_stop_price": 184.784537,
-      "current_price": 184.501007,
-      "unrealized_pnl_pct": 0.00963,
-      "unrealized_pnl_usd": 54.71
+      "current_price": 184.227997,
+      "unrealized_pnl_pct": 0.011095,
+      "unrealized_pnl_usd": 63.03
     },
     {
       "id": "UNG_20260624173240",
@@ -261,76 +261,11 @@
       "mode": "paper",
       "strategy_version": "35",
       "status": "open",
-      "price_trough": 382.6947937011719,
-      "trailing_stop_price": 405.656481,
-      "current_price": 381.704987,
-      "unrealized_pnl_pct": 0.024272,
-      "unrealized_pnl_usd": 198.99
-    },
-    {
-      "id": "DOGE-USD_20260625202722",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.07389000058174133,
-      "entry_time": "2026-06-25T20:27:22.314050+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03483,
-      "size_usd": 4170.05,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
-      "signals": [
-        "RSI oversold (35.7)",
-        "5d momentum +0.79%",
-        "1d momentum -2.07%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": -0.273,
-      "news_headlines": [
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
-        "Better Buy for This Crypto Bear Market: XRP or Dogecoin?",
-        "Bitcoin Hits 20-Month Low, Ethereum, Dogecoin, XRP Also Decline: Analyst Identifies 'Genuine Battleground' For Beleaguered BTC Amid 'Extreme Fear'"
-      ],
-      "mode": "paper",
-      "strategy_version": "36",
-      "status": "open",
-      "current_price": 0.07419,
-      "unrealized_pnl_pct": -0.00406,
-      "unrealized_pnl_usd": -16.93
-    },
-    {
-      "id": "XRP-USD_20260625202722",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.038100004196167,
-      "entry_time": "2026-06-25T20:27:22.317383+00:00",
-      "stop_loss_pct": 0.01204,
-      "take_profit_pct": 0.02746,
-      "size_usd": 3626.13,
-      "position_size_pct": 0.0358,
-      "confidence": 0.56,
-      "signals": [
-        "RSI oversold (32.4)",
-        "5d momentum +0.45%",
-        "1d momentum -3.26%",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.172,
-      "news_headlines": [
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
-        "Project Pangea Targets $150B Trade Corridor: Can Chainlink Challenge XRP and XLM in Cross-Border Payments?",
-        "XRP's 'Hard Money' Case Strengthens if Ripple Speeds Up Escrow Releases, Says Lawyer Bill Morgan"
-      ],
-      "mode": "paper",
-      "strategy_version": "36",
-      "status": "open",
-      "price_trough": 1.0312999486923218,
-      "trailing_stop_price": 1.043717,
-      "current_price": 1.0382,
-      "unrealized_pnl_pct": -9.6e-05,
-      "unrealized_pnl_usd": -0.35
+      "price_trough": 379.6600036621094,
+      "trailing_stop_price": 402.439604,
+      "current_price": 379.545013,
+      "unrealized_pnl_pct": 0.029793,
+      "unrealized_pnl_usd": 244.26
     },
     {
       "id": "USD/NOK_20260626015153",
@@ -354,11 +289,11 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "price_peak": 9.901280403137207,
-      "trailing_stop_price": 9.82207,
-      "current_price": 9.90098,
-      "unrealized_pnl_pct": 0.001968,
-      "unrealized_pnl_usd": 11.66
+      "price_peak": 9.929329872131348,
+      "trailing_stop_price": 9.849895,
+      "current_price": 9.93001,
+      "unrealized_pnl_pct": 0.004906,
+      "unrealized_pnl_usd": 29.06
     },
     {
       "id": "BTC-USD_20260626092854",
@@ -390,9 +325,9 @@
       "status": "open",
       "price_trough": 59720.328125,
       "trailing_stop_price": 60226.756508,
-      "current_price": 59705.921875,
-      "unrealized_pnl_pct": 0.005692,
-      "unrealized_pnl_usd": 19.75
+      "current_price": 60046.019531,
+      "unrealized_pnl_pct": 2.8e-05,
+      "unrealized_pnl_usd": 0.1
     },
     {
       "id": "BNB-USD_20260626092854",
@@ -424,42 +359,9 @@
       "status": "open",
       "price_trough": 561.280029296875,
       "trailing_stop_price": 574.442046,
-      "current_price": 561.150024,
-      "unrealized_pnl_pct": 0.009409,
-      "unrealized_pnl_usd": 64.28
-    },
-    {
-      "id": "ON_20260626143644",
-      "asset": "ON",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 94.23999786376953,
-      "entry_time": "2026-06-26T14:36:44.186212+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03701,
-      "size_usd": 6104.14,
-      "position_size_pct": 0.0598,
-      "confidence": 0.934,
-      "signals": [
-        "RSI oversold (23.5)",
-        "5d momentum -21.91%",
-        "1d momentum -27.40%",
-        "BB oversold (pct_b=-0.22)",
-        "High-impact catalyst",
-        "Claude [supports]: ma catalyst; analyst downgrade; price decline"
-      ],
-      "news_sentiment": 0.713,
-      "news_headlines": [
-        "ON Semiconductor Tumbles 20%: Is It Dragging Down Semiconductor Names Like AMD and Intel?",
-        "Onsemi Acquisition Seen Diluting Its Data Center Focus",
-        "Onsemi shares slide on $7B Synaptics deal"
-      ],
-      "mode": "paper",
-      "strategy_version": "36",
-      "status": "open",
-      "current_price": 94.239998,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 565.799988,
+      "unrealized_pnl_pct": 0.0012,
+      "unrealized_pnl_usd": 8.2
     },
     {
       "id": "LLY_20260626143644",
@@ -490,9 +392,9 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "current_price": 1191.72998,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 1199.319946,
+      "unrealized_pnl_pct": -0.006369,
+      "unrealized_pnl_usd": -36.38
     },
     {
       "id": "MRNA_20260626143644",
@@ -523,9 +425,11 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "current_price": 66.495003,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 66.37000274658203,
+      "trailing_stop_price": 67.365553,
+      "current_price": 66.32,
+      "unrealized_pnl_pct": 0.002632,
+      "unrealized_pnl_usd": 13.66
     },
     {
       "id": "ARM_20260626143644",
@@ -556,9 +460,9 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "current_price": 334.380005,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 333.0849,
+      "unrealized_pnl_pct": -0.003873,
+      "unrealized_pnl_usd": -23.64
     },
     {
       "id": "REGN_20260626143644",
@@ -590,9 +494,11 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "current_price": 634.965027,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 632.3099975585938,
+      "trailing_stop_price": 637.31157,
+      "current_price": 632.085022,
+      "unrealized_pnl_pct": 0.004536,
+      "unrealized_pnl_usd": 25.79
     },
     {
       "id": "GS_20260626143644",
@@ -623,381 +529,146 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "current_price": 1032.660034,
+      "current_price": 1028.449951,
+      "unrealized_pnl_pct": -0.004077,
+      "unrealized_pnl_usd": -3.2
+    },
+    {
+      "id": "AVAX-USD_20260626163400",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 6.409999847412109,
+      "entry_time": "2026-06-26T16:34:00.965107+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03653,
+      "size_usd": 5671.44,
+      "position_size_pct": 0.0557,
+      "confidence": 0.87,
+      "signals": [
+        "RSI overbought (71.0)",
+        "5d momentum +4.57%",
+        "1d momentum +5.08%",
+        "BB overbought (pct_b=1.07)",
+        "Volume spike 6.2\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: analyst upgrade; price decline"
+      ],
+      "news_sentiment": 0.444,
+      "news_headlines": [
+        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+        "Is Avalanche About to Have Its Biggest Year Yet?"
+      ],
+      "mode": "paper",
+      "strategy_version": "37",
+      "status": "open",
+      "current_price": 6.41,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SOL-USD_20260626163400",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 72.72000122070312,
+      "entry_time": "2026-06-26T16:34:00.967053+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03742,
+      "size_usd": 6453.71,
+      "position_size_pct": 0.0634,
+      "confidence": 0.99,
+      "signals": [
+        "RSI overbought (78.1)",
+        "5d momentum +6.16%",
+        "1d momentum +10.37%",
+        "BB overbought (pct_b=1.07)",
+        "Volume spike 1.6\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: price decline"
+      ],
+      "news_sentiment": 0.022,
+      "news_headlines": [
+        "This Trend Shows Why Solana Could Be a Smart Crypto Bear Market Buy",
+        "AI Agents Expand Into Tokenized Stocks as Agentic Finance Race Accelerates",
+        "Crypto Market Flashes Recovery Signs Ahead of $10.8B Bitcoin, ETH, XRP, SOL Options Expiry"
+      ],
+      "mode": "paper",
+      "strategy_version": "37",
+      "status": "open",
+      "current_price": 72.720001,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "ON_20260626163400",
+      "asset": "ON",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 91.58999633789062,
+      "entry_time": "2026-06-26T16:34:00.968858+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03701,
+      "size_usd": 1671.53,
+      "position_size_pct": 0.0164,
+      "confidence": 0.934,
+      "signals": [
+        "RSI oversold (23.2)",
+        "5d momentum -22.97%",
+        "1d momentum -23.43%",
+        "BB oversold (pct_b=-0.02)",
+        "High-impact catalyst",
+        "Claude [supports]: ma catalyst; analyst downgrade; price decline"
+      ],
+      "news_sentiment": 0.643,
+      "news_headlines": [
+        "Top Midday Stories: OpenAI Weighs Pushing Back IPO to 2027; ON Semiconductor Acquires Synaptics for $7 Billion",
+        "ON Semiconductor Faces Questions Over $7 Billion Synaptics Deal",
+        "Stocks to Watch: ON Semiconductor, Apple, Micron"
+      ],
+      "mode": "paper",
+      "strategy_version": "37",
+      "status": "open",
+      "current_price": 91.589996,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
-      "asset": "ON",
-      "rank_score": 0.792,
-      "price": 94.23999786376953,
-      "rsi": 23.463936034631743,
-      "momentum_5d": -0.21909183273570376,
-      "momentum_1d": -0.27395997189467486,
+      "asset": "AVAX-USD",
+      "rank_score": 0.8024,
+      "price": 6.409999847412109,
+      "rsi": 71.00000381469727,
+      "momentum_5d": 0.04567695395495577,
+      "momentum_1d": 0.05081966354525931,
       "macd_crossover": false,
-      "atr_pct": 0.04464892530929217,
-      "bollinger_pct_b": -0.2179,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.34,
-      "news_sentiment": 0.713,
-      "news_confidence": 0.58,
+      "atr_pct": 0.0168263743516311,
+      "bollinger_pct_b": 1.0687,
+      "volume_spike": true,
+      "volume_spike_ratio": 6.25,
+      "news_sentiment": 0.444,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "ON Semiconductor Tumbles 20%: Is It Dragging Down Semiconductor Names Like AMD and Intel?",
-        "Onsemi Acquisition Seen Diluting Its Data Center Focus",
-        "Onsemi shares slide on $7B Synaptics deal"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LLY",
-      "rank_score": 0.7419,
-      "price": 1191.72998046875,
-      "rsi": 81.73662674744145,
-      "momentum_5d": 0.060569325390639216,
-      "momentum_1d": 0.08103967323378584,
-      "macd_crossover": false,
-      "atr_pct": 0.012654480126331013,
-      "bollinger_pct_b": 1.1832,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.21,
-      "news_sentiment": 0.304,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Is Charles River (CRL) Quietly Redefining Its Moat Through Lilly\u2019s AI-Driven TuneLab Collaboration?",
-        "Fidelity (FHLC) vs. iShares (IXJ): Which Healthcare ETF Delivers Better Value?",
-        "Lilly-backed Absci banks $100m to progress endometriosis, hair loss therapy"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRNA",
-      "rank_score": 0.7128,
-      "price": 66.49500274658203,
-      "rsi": 63.021679226822286,
-      "momentum_5d": 0.11634356215305323,
-      "momentum_1d": 0.1113989756234285,
-      "macd_crossover": false,
-      "atr_pct": 0.028403534856766652,
-      "bollinger_pct_b": 1.1349,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.31,
-      "news_sentiment": 0.684,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "This Stock Has Already Doubled This Year and Is Still Racing Towards a Major Catalyst",
-        "How Unanimous FDA Panel Support For mRNA Flu Shot At Moderna (MRNA) Has Changed Its Investment Story",
-        "Moderna (MRNA) Rises As Market Takes a Dip: Key Facts"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ARM",
-      "rank_score": 0.6895,
-      "price": 334.3800048828125,
-      "rsi": 34.17327707844048,
-      "momentum_5d": -0.06286256783513443,
-      "momentum_1d": -0.17987833836533057,
-      "macd_crossover": false,
-      "atr_pct": 0.030233218409249654,
-      "bollinger_pct_b": -0.0172,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.1,
-      "news_sentiment": 0.926,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "Arm (ARM) Wants To Be The Next Full Stack AI Infrastructure Provider",
-        "Forget the Cellphones: BlackBerry Shares Jump 23% as an AI Play",
-        "Is Arm Holdings a Buy Near $347? The Case for Double-Digit Upside"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "REGN",
-      "rank_score": 0.6826,
-      "price": 634.9650268554688,
-      "rsi": 64.82689684238545,
-      "momentum_5d": 0.0115257301894615,
-      "momentum_1d": 0.04129333260065319,
-      "macd_crossover": true,
-      "atr_pct": 0.008096035051846145,
-      "bollinger_pct_b": 1.0119,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.14,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Is Kymera Therapeutics The Next Big Rival To Regeneron And Sanofi?",
-        "Is AbbVie a Buy After Its Purchase of Apogee?",
-        "Will Priority-Reviewed Quarterly siRNA gMG Therapy Change Regeneron Pharmaceuticals' (REGN) Narrative?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GS",
-      "rank_score": 0.6766,
-      "price": 1032.6600341796875,
-      "rsi": 24.27665017949083,
-      "momentum_5d": -0.04217929588968943,
-      "momentum_1d": -0.0619174028769615,
-      "macd_crossover": false,
-      "atr_pct": 0.013207290788837374,
-      "bollinger_pct_b": -0.15,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.21,
-      "news_sentiment": 0.458,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Oil Slides Toward Third Weekly Drop as Hormuz Risk Returns",
-        "Dollar Jumps 2.1% as Wall Street Banks Turn Bullish on Fed Outlook",
-        "Should Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF (GSLC) Be on Your Investing Radar?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.669,
-      "price": 367.3599853515625,
-      "rsi": 29.246674875481148,
-      "momentum_5d": -0.03394957276432672,
-      "momentum_1d": -0.06910275243603937,
-      "macd_crossover": false,
-      "atr_pct": 0.016076770738061828,
-      "bollinger_pct_b": -0.2032,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.1,
-      "news_sentiment": 0.814,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Semiconductor stocks retreat over worries about memory costs",
-        "Broadcom Stock Is Down More Than 22% From Its Peak and Worth a Closer Look",
-        "This Week In AI Chips - Onsemi Expands Into Physical AI With Synaptics Acquisition"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LCID",
-      "rank_score": 0.6507,
-      "price": 5.385000228881836,
-      "rsi": 66.40624417923704,
-      "momentum_5d": 0.048685489553413,
-      "momentum_1d": 0.044616878702714385,
-      "macd_crossover": false,
-      "atr_pct": 0.01723172025635534,
-      "bollinger_pct_b": 1.1707,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.42,
-      "news_sentiment": 0.045,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Trading Near an All-Time Low of $5: 1 Crucial Balance Sheet Metric That Explains Why Lucid Is a Dangerous Capital-Destruction Trap",
-        "General Motors vs. Lucid: Which Consumer Auto Stock Is a Better Buy in 2026?",
-        "Tesla and Waymo duel in the robotaxi race \u2014 but the company spending the most builds no cars at all"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.644,
-      "price": 57.5,
-      "rsi": 75.41841972534172,
-      "momentum_5d": 0.03018904263637654,
-      "momentum_1d": 0.05659687494830321,
-      "macd_crossover": false,
-      "atr_pct": 0.008879169914292993,
-      "bollinger_pct_b": 1.1723,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.11,
-      "news_sentiment": 0.318,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "3 Top-Ranked Dividend Stocks: A Smarter Way to Boost Your Retirement Income",
-        "3 Under-the-Radar Biotech Takeover Targets for the Next Pharma Buying Spree",
-        "Revisiting Stock Picks Intel, Progressive, Bristol Myers Squibb"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "UNH",
-      "rank_score": 0.6433,
-      "price": 426.0849914550781,
-      "rsi": 80.69933385487045,
-      "momentum_5d": 0.0278997460868523,
-      "momentum_1d": 0.04369924077763555,
-      "macd_crossover": false,
-      "atr_pct": 0.008929742340283115,
-      "bollinger_pct_b": 1.0408,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.15,
-      "news_sentiment": 0.741,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "UnitedHealth Group (UNH) Gains As Market Dips: What You Should Know",
-        "Dow Soars Over 750 Points, Hits Record High As Investors Look Beyond Tech Stocks \u2014 PCE Inflation Comes In Hottest Since October 2023",
-        "Can Cigna's Expansion Beyond Health Insurance Fuel Long-Term Growth?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "RXRX",
-      "rank_score": 0.6423,
-      "price": 3.500200033187866,
-      "rsi": 71.47021968018863,
-      "momentum_5d": 0.049535230330217235,
-      "momentum_1d": 0.09552428992863934,
-      "macd_crossover": false,
-      "atr_pct": 0.02440471718356056,
-      "bollinger_pct_b": 1.0537,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.15,
-      "news_sentiment": 0.273,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "2 Beaten-Down Artificial Intelligence (AI) Stocks for Contrarian Investors to Consider Buying",
-        "Recursion Pharmaceuticals (RXRX) Ascends While Market Falls: Some Facts to Note",
-        "1 of the Most Interesting AI Stocks in the Market Isn\u2019t a Tech Company"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.6319,
-      "price": 210.83999633789062,
-      "rsi": 71.63939824234762,
-      "momentum_5d": 0.03312423778020211,
-      "momentum_1d": 0.06334475305587496,
-      "macd_crossover": false,
-      "atr_pct": 0.013718084593293838,
-      "bollinger_pct_b": 1.0615,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.07,
-      "news_sentiment": 0.698,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Can Biogen's New Drugs Revive Growth Amid Legacy Sales Slump?",
-        "Therapeutics Stocks Q1 Recap: Benchmarking Biogen (NASDAQ:BIIB)",
-        "Biogen (BIIB) Stock Could Be 10.3% Undervalued on Its Pipeline Narrative"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MS",
-      "rank_score": 0.6213,
-      "price": 214.27000427246094,
-      "rsi": 31.630593626194113,
-      "momentum_5d": -0.035645159916832425,
-      "momentum_1d": -0.05655725473889812,
-      "macd_crossover": false,
-      "atr_pct": 0.012757237156251884,
-      "bollinger_pct_b": -0.1002,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.14,
-      "news_sentiment": 0.404,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Morgan Stanley BDC holds at 5% redemption cap after requests rise to 11.6%",
-        "Morgan Stanley flags Fed hike risk if unemployment drops below 4%",
-        "SoftBank\u2019s Shares Tumble After Report of OpenAI\u2019s IPO Delay"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "VRTX",
-      "rank_score": 0.6174,
-      "price": 497.8599853515625,
-      "rsi": 75.49705978960709,
-      "momentum_5d": 0.030190155957476327,
-      "momentum_1d": 0.07336739703006445,
-      "macd_crossover": false,
-      "atr_pct": 0.00912415646305373,
-      "bollinger_pct_b": 1.0693,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.33,
-      "news_sentiment": 0.471,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Why the Market Dipped But Vertex Pharmaceuticals (VRTX) Gained Today",
-        "The Biotech Sector Looks Ready for a Multi-Year Breakout\u2014Here's What to Watch.",
-        "Vertex Pharmaceuticals (VRTX) Stock After Strong Multi\u2011Year Run Is The Price Still Reasonable"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLV",
-      "rank_score": 0.6111,
-      "price": 159.90499877929688,
-      "rsi": 80.09918727304168,
-      "momentum_5d": 0.027139043565569867,
-      "momentum_1d": 0.06745657891640802,
-      "macd_crossover": false,
-      "atr_pct": 0.006657513860553614,
-      "bollinger_pct_b": 1.0497,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.12,
-      "news_sentiment": 0.231,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Correction: Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks",
-        "Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks",
-        "Sector Update: Healthcare Stocks Gain Late Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NKE",
-      "rank_score": 0.6083,
-      "price": 40.910099029541016,
-      "rsi": 23.47643131406319,
-      "momentum_5d": -0.003529442809832302,
-      "momentum_1d": -0.053554644911462834,
-      "macd_crossover": true,
-      "atr_pct": 0.00953309681121946,
-      "bollinger_pct_b": 0.2145,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.1,
-      "news_sentiment": 0.192,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Robinhood initiation, Nike downgrade among today's top calls on Wall Street",
-        "NKE Stock Heads For Its Worst Week In Nearly Three Months \u2013 Wall Street Sees Encouraging Signs But Not Enough To \u2018Remain Optimistic\u2019",
-        "The Gulf\u2019s plan to restore its fortunes"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ABBV",
-      "rank_score": 0.5898,
-      "price": 248.24000549316406,
-      "rsi": 80.05755551117258,
-      "momentum_5d": 0.022005397915502264,
-      "momentum_1d": 0.08252841222890972,
-      "macd_crossover": false,
-      "atr_pct": 0.0101770451699152,
-      "bollinger_pct_b": 0.9593,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.15,
-      "news_sentiment": 0.448,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "The Homebody Portfolio: How Much Does Retirement Cost When You Never Leave Chicago?",
-        "Will AbbVie's (ABBV) Pediatric Expansions Reveal a Deeper Shift in Its Growth Mix?",
-        "AbbVie vs. Pfizer: Which Pharma Giant Stock Is a Better Buy in 2026?"
+        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+        "Is Avalanche About to Have Its Biggest Year Yet?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SOL-USD",
-      "rank_score": 0.588,
-      "price": 71.08000183105469,
-      "rsi": 65.41219226067909,
-      "momentum_5d": 0.03178984556262494,
-      "momentum_1d": 0.07290568801591982,
+      "rank_score": 0.7835,
+      "price": 72.72000122070312,
+      "rsi": 78.079856461129,
+      "momentum_5d": 0.061605857236541973,
+      "momentum_1d": 0.10365763991990119,
       "macd_crossover": false,
-      "atr_pct": 0.017806890761750467,
-      "bollinger_pct_b": 0.9689,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.44,
+      "atr_pct": 0.0184661200272922,
+      "bollinger_pct_b": 1.0689,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
       "news_sentiment": 0.022,
       "news_confidence": 0.45,
       "news_headlines": [
@@ -1008,44 +679,380 @@
       "high_impact_news": true
     },
     {
-      "asset": "SMCI",
-      "rank_score": 0.5752,
-      "price": 31.170000076293945,
-      "rsi": 26.756148830310764,
-      "momentum_5d": -0.023649152037884813,
-      "momentum_1d": -0.1256662344413325,
+      "asset": "ON",
+      "rank_score": 0.7312,
+      "price": 91.58999633789062,
+      "rsi": 23.229055758081188,
+      "momentum_5d": -0.22972122889556934,
+      "momentum_1d": -0.23426138391003373,
       "macd_crossover": false,
-      "atr_pct": 0.023541187536638048,
-      "bollinger_pct_b": 0.0988,
+      "atr_pct": 0.04699749106875406,
+      "bollinger_pct_b": -0.0173,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.08,
+      "news_sentiment": 0.643,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Top Midday Stories: OpenAI Weighs Pushing Back IPO to 2027; ON Semiconductor Acquires Synaptics for $7 Billion",
+        "ON Semiconductor Faces Questions Over $7 Billion Synaptics Deal",
+        "Stocks to Watch: ON Semiconductor, Apple, Micron"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.6993,
+      "price": 1199.3199462890625,
+      "rsi": 85.40840738517232,
+      "momentum_5d": 0.058646936233218,
+      "momentum_1d": 0.08320086631117214,
+      "macd_crossover": false,
+      "atr_pct": 0.013422131098377678,
+      "bollinger_pct_b": 1.0124,
       "volume_spike": false,
       "volume_spike_ratio": 0.07,
-      "news_sentiment": 0.846,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "AbbVie Stock's Growth Story Has One Question Mark",
+        "Why Moderna Stock Is Soaring and Leading the S&P 500 Today",
+        "Nike Stock Languishes, But Looming Earnings Report Fuels Turnaround Optimism"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.6752,
+      "price": 213.74000549316406,
+      "rsi": 75.47591830318315,
+      "momentum_5d": 0.05592336442356234,
+      "momentum_1d": 0.06499911653443068,
+      "macd_crossover": false,
+      "atr_pct": 0.013541157644760922,
+      "bollinger_pct_b": 0.9713,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.1,
+      "news_sentiment": 0.698,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Can Biogen's New Drugs Revive Growth Amid Legacy Sales Slump?",
+        "Therapeutics Stocks Q1 Recap: Benchmarking Biogen (NASDAQ:BIIB)",
+        "Biogen (BIIB) Stock Could Be 10.3% Undervalued on Its Pipeline Narrative"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LCID",
+      "rank_score": 0.6696,
+      "price": 5.460100173950195,
+      "rsi": 69.59419520475376,
+      "momentum_5d": 0.07060789726496486,
+      "momentum_1d": 0.059185247667174895,
+      "macd_crossover": false,
+      "atr_pct": 0.019352084758183622,
+      "bollinger_pct_b": 1.0082,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.03,
+      "news_sentiment": 0.045,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Trading Near an All-Time Low of $5: 1 Crucial Balance Sheet Metric That Explains Why Lucid Is a Dangerous Capital-Destruction Trap",
+        "General Motors vs. Lucid: Which Consumer Auto Stock Is a Better Buy in 2026?",
+        "Tesla and Waymo duel in the robotaxi race \u2014 but the company spending the most builds no cars at all"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRNA",
+      "rank_score": 0.655,
+      "price": 66.31999969482422,
+      "rsi": 65.22972470338716,
+      "momentum_5d": 0.12045955792433288,
+      "momentum_1d": 0.04630435356963533,
+      "macd_crossover": false,
+      "atr_pct": 0.031237505416082948,
+      "bollinger_pct_b": 0.9119,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.07,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "3 Mid-Cap Stocks Walking a Fine Line",
+        "Moderna Is Up 14% Today: Is It Outperforming Other Vaccine Stocks Like Merck and Pfizer?",
+        "Why Moderna Stock Is Soaring and Leading the S&P 500 Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RXRX",
+      "rank_score": 0.6337,
+      "price": 3.5292999744415283,
+      "rsi": 73.67507073166776,
+      "momentum_5d": 0.05826084979672582,
+      "momentum_1d": 0.08761174080394894,
+      "macd_crossover": false,
+      "atr_pct": 0.025711277048999642,
+      "bollinger_pct_b": 0.9216,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.04,
+      "news_sentiment": 0.273,
+      "news_confidence": 0.33,
+      "news_headlines": [
+        "2 Beaten-Down Artificial Intelligence (AI) Stocks for Contrarian Investors to Consider Buying",
+        "Recursion Pharmaceuticals (RXRX) Ascends While Market Falls: Some Facts to Note",
+        "1 of the Most Interesting AI Stocks in the Market Isn\u2019t a Tech Company"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PYPL",
+      "rank_score": 0.6206,
+      "price": 44.27000045776367,
+      "rsi": 73.74999735090356,
+      "momentum_5d": 0.040300790513196225,
+      "momentum_1d": 0.05454980801568042,
+      "macd_crossover": false,
+      "atr_pct": 0.009194073967753505,
+      "bollinger_pct_b": 1.0094,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.3,
+      "news_sentiment": 0.381,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "PayPal's Total Payment Volume: What's Fueling Double-Digit Growth?",
+        "PayPal Holdings, Inc. (PYPL) is Attracting Investor Attention: Here is What You Should Know",
+        "2 Growth Stocks with Explosive Upside and 1 Facing Challenges"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GS",
+      "rank_score": 0.6128,
+      "price": 1028.449951171875,
+      "rsi": 26.023028079858747,
+      "momentum_5d": -0.038858795535226795,
+      "momentum_1d": -0.06274073062966339,
+      "macd_crossover": false,
+      "atr_pct": 0.013530120863544642,
+      "bollinger_pct_b": 0.0115,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.03,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Once JPMorgan\u2019s Top Trader, He\u2019s Now a Favorite to Succeed Jamie Dimon as CEO",
+        "PENN Stock Just Received A \u2018Buy\u2019 Rating From Goldman Sachs \u2013 Analyst Says Regional Gaming Sector Is Seeing A \u2018Resurgence\u2019",
+        "Oil Slides Toward Third Weekly Drop as Hormuz Risk Returns"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARM",
+      "rank_score": 0.6038,
+      "price": 333.08489990234375,
+      "rsi": 37.11430081618924,
+      "momentum_5d": -0.04258434680671127,
+      "momentum_1d": -0.11822815865763857,
+      "macd_crossover": false,
+      "atr_pct": 0.029871842350277053,
+      "bollinger_pct_b": 0.0581,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.02,
+      "news_sentiment": 0.882,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech",
+        "Arm (ARM) Wants To Be The Next Full Stack AI Infrastructure Provider",
+        "Forget the Cellphones: BlackBerry Shares Jump 23% as an AI Play"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RIVN",
+      "rank_score": 0.601,
+      "price": 15.484999656677246,
+      "rsi": 78.35019730317163,
+      "momentum_5d": 0.050899220731242666,
+      "momentum_1d": 0.02719733682252668,
+      "macd_crossover": false,
+      "atr_pct": 0.015787157272982508,
+      "bollinger_pct_b": 0.9784,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.06,
+      "news_sentiment": 0.115,
       "news_confidence": 0.52,
       "news_headlines": [
-        "Stock Price Prediction: Super Micro Computer Set for 10% Climb After Repricing",
-        "Super Micro Computer, Inc. (SMCI) is Attracting Investor Attention: Here is What You Should Know",
-        "Nvidia CEO sends serious wake up call to all Americans"
+        "Rivian R1T Is What Tesla Should Have Made Instead Of The Cybertruck, Pickup Skeptic James May Says He's 'Converted'",
+        "Rivian (RIVN) Faces US Safety Probe Over 100,000 Vehicles",
+        "Buy, Hold, or Sell: Rivian Slipped to $14 on Macro Pressures, but Does Its $5 Billion Volkswagen Venture Provide an Ironclad Moat?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MS",
+      "rank_score": 0.5929,
+      "price": 213.2949981689453,
+      "rsi": 34.38463524811446,
+      "momentum_5d": -0.03699944521637422,
+      "momentum_1d": -0.060577223624675006,
+      "macd_crossover": false,
+      "atr_pct": 0.013147082079831021,
+      "bollinger_pct_b": 0.0122,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.03,
+      "news_sentiment": 0.509,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Morgan Stanley resets Micron stock price target on strong AI demand",
+        "Morgan Stanley sees serious reset in U.S. housing market",
+        "Morgan Stanley BDC holds at 5% redemption cap after requests rise to 11.6%"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "UNH",
+      "rank_score": 0.5909,
+      "price": 424.8699951171875,
+      "rsi": 82.84229847867343,
+      "momentum_5d": 0.023351617051298054,
+      "momentum_1d": 0.045216377584636,
+      "macd_crossover": false,
+      "atr_pct": 0.008424269339545296,
+      "bollinger_pct_b": 0.8712,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.03,
+      "news_sentiment": 0.741,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "UnitedHealth Group (UNH) Gains As Market Dips: What You Should Know",
+        "Dow Soars Over 750 Points, Hits Record High As Investors Look Beyond Tech Stocks \u2014 PCE Inflation Comes In Hottest Since October 2023",
+        "Can Cigna's Expansion Beyond Health Insurance Fuel Long-Term Growth?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "UBER",
-      "rank_score": 0.5714,
-      "price": 74.09010314941406,
-      "rsi": 40.62750371804064,
-      "momentum_5d": 0.020314058101494746,
-      "momentum_1d": 0.03687777273576596,
-      "macd_crossover": true,
-      "atr_pct": 0.011699084965266539,
-      "bollinger_pct_b": 0.7178,
+      "rank_score": 0.5823,
+      "price": 76.13999938964844,
+      "rsi": 68.40440798884936,
+      "momentum_5d": 0.04717370854579289,
+      "momentum_1d": 0.08153405879770498,
+      "macd_crossover": false,
+      "atr_pct": 0.011449882143617963,
+      "bollinger_pct_b": 0.9114,
       "volume_spike": false,
-      "volume_spike_ratio": 0.13,
+      "volume_spike_ratio": 0.2,
       "news_sentiment": -0.111,
       "news_confidence": 0.36,
       "news_headlines": [
+        "Can SERV's AI Data Flywheel Create a Lasting Competitive Edge?",
         "Nancy Pelosi Discloses New Stock Trades: Here\u2019s The 2 Picks On Her List",
-        "Robotaxis drive miles just to get cleaned and charged; this new startup wants to fix that",
-        "Enterprise customers cut OpenAI and Anthropic AI spending"
+        "Robotaxis drive miles just to get cleaned and charged; this new startup wants to fix that"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "UNG",
+      "rank_score": 0.5802,
+      "price": 12.085000038146973,
+      "rsi": 70.61119329147033,
+      "momentum_5d": 0.03246476863885376,
+      "momentum_1d": 0.04722704316252288,
+      "macd_crossover": false,
+      "atr_pct": 0.010683846655573705,
+      "bollinger_pct_b": 0.958,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.06,
+      "news_sentiment": -0.487,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Correction: Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks",
+        "Sector Update: Energy Stocks Decline Premarket Friday",
+        "Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NVDA",
+      "rank_score": 0.5784,
+      "price": 194.25999450683594,
+      "rsi": 37.94779984373354,
+      "momentum_5d": -0.0006174008280785576,
+      "momentum_1d": -0.0433369602952868,
+      "macd_crossover": true,
+      "atr_pct": 0.012549345013358314,
+      "bollinger_pct_b": 0.2405,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.02,
+      "news_sentiment": 0.731,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "What turning AI compute into a financial asset would look like",
+        "Sandisk, Western Digital, and others soar as Micron results  'justify elevated valuations'",
+        "Micron earnings beat fuels hopes for Tech rally rebound"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOUN",
+      "rank_score": 0.5712,
+      "price": 6.485000133514404,
+      "rsi": 60.40526474396236,
+      "momentum_5d": 0.058360840924914996,
+      "momentum_1d": -0.04702420321770143,
+      "macd_crossover": false,
+      "atr_pct": 0.022472727136745918,
+      "bollinger_pct_b": 0.8646,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.12,
+      "news_sentiment": 0.036,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "3 Unprofitable Stocks We Approach with Caution",
+        "SoundHound AI vs. C3.ai: Which AI Stock Is the Better Buy Now?",
+        "SoundHound AI Stock Is Down 70% From Its 52-Week High. Time to Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLV",
+      "rank_score": 0.5621,
+      "price": 159.51499938964844,
+      "rsi": 81.7252878484036,
+      "momentum_5d": 0.022990429135432065,
+      "momentum_1d": 0.05123891930289037,
+      "macd_crossover": false,
+      "atr_pct": 0.006687674852320358,
+      "bollinger_pct_b": 0.8944,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.04,
+      "news_sentiment": 0.231,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Correction: Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks",
+        "Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks",
+        "Sector Update: Healthcare Stocks Gain Late Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.553,
+      "price": 247.51499938964844,
+      "rsi": 80.33557443567555,
+      "momentum_5d": 0.019293322584798506,
+      "momentum_1d": 0.06029385195784956,
+      "macd_crossover": false,
+      "atr_pct": 0.0102674815032631,
+      "bollinger_pct_b": 0.8315,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.04,
+      "news_sentiment": 0.508,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "AbbVie Stock's Growth Story Has One Question Mark",
+        "The Homebody Portfolio: How Much Does Retirement Cost When You Never Leave Chicago?",
+        "Will AbbVie's (ABBV) Pediatric Expansions Reveal a Deeper Shift in Its Growth Mix?"
       ],
       "high_impact_news": true
     }
