@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.841000080108643,
-    "trailing_stop_price": 7.778272
+    "price_peak": 7.841750144958496,
+    "trailing_stop_price": 7.779016
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -466,35 +466,6 @@
     "price_trough": 1.0312999486923218,
     "trailing_stop_price": 1.043717
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260625202722",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 556.0800170898438,
-    "entry_time": "2026-06-25T20:27:22.320797+00:00",
-    "stop_loss_pct": 0.01049,
-    "take_profit_pct": 0.02468,
-    "size_usd": 3506.96,
-    "position_size_pct": 0.0347,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (36.9)",
-      "5d momentum +0.51%",
-      "1d momentum -1.09%",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": -0.172,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
-      "ZachXBT Calls Out MemeCore After M Token Crashes 75%, Demands Answers From Binance and Bybit",
-      "$600M Wiped Out in Hours: Crypto\u2019s Leverage Bloodbath Just Hit BTC and ETH Hardest"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open"
-  },
   "USD/NOK": {
     "id": "USD/NOK_20260626015153",
     "asset": "USD/NOK",
@@ -514,6 +485,66 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open",
+    "price_peak": 9.898980140686035,
+    "trailing_stop_price": 9.819788
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260626092854",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 60047.73046875,
+    "entry_time": "2026-06-26T09:28:54.971988+00:00",
+    "stop_loss_pct": 0.00848,
+    "take_profit_pct": 0.0196,
+    "size_usd": 3469.74,
+    "position_size_pct": 0.0343,
+    "confidence": 0.624,
+    "signals": [
+      "5d momentum +0.36%",
+      "1d momentum -2.57%",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.19,
+    "news_headlines": [
+      "As bitcoin slides, Scott Melker revisits the many times BTC was called \u201cdead\u201d",
+      "Is bitcoin's price volatility an investing opportunity? Here's how to buy bitcoin.",
+      "Bitcoin and ethereum prices today, Thursday, June 25, 2026: Bitcoin tumbles further below $60,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260626092854",
+    "asset": "BNB-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 566.47998046875,
+    "entry_time": "2026-06-26T09:28:54.976272+00:00",
+    "stop_loss_pct": 0.02345,
+    "take_profit_pct": 0.0786,
+    "size_usd": 6831.55,
+    "position_size_pct": 0.0676,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (65.6)",
+      "5d momentum +1.26%",
+      "BB overbought (pct_b=0.88)",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.172,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
+      "ZachXBT Calls Out MemeCore After M Token Crashes 75%, Demands Answers From Binance and Bybit",
+      "$600M Wiped Out in Hours: Crypto\u2019s Leverage Bloodbath Just Hit BTC and ETH Hardest"
+    ],
     "mode": "paper",
     "strategy_version": "36",
     "status": "open"
