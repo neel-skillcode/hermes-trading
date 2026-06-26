@@ -190,8 +190,8 @@
     "mode": "paper",
     "strategy_version": "33",
     "status": "open",
-    "price_peak": 11.940099716186523,
-    "trailing_stop_price": 11.667268
+    "price_peak": 12.085000038146973,
+    "trailing_stop_price": 11.808858
   },
   "LRCX": {
     "id": "LRCX_20260625133229",
@@ -222,165 +222,8 @@
     "mode": "paper",
     "strategy_version": "35",
     "status": "open",
-    "price_trough": 387.0199890136719,
-    "trailing_stop_price": 410.241188
-  },
-  "MSFT": {
-    "id": "MSFT_20260625160540",
-    "asset": "MSFT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 354.44000244140625,
-    "entry_time": "2026-06-25T16:05:40.378563+00:00",
-    "stop_loss_pct": 0.0098,
-    "take_profit_pct": 0.02388,
-    "size_usd": 5653.93,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (8.6)",
-      "5d momentum -4.36%",
-      "1d momentum -6.49%",
-      "BB oversold (pct_b=-0.13)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.292,
-    "news_headlines": [
-      "Qualcomm's 'next phase' is AI rack infrastructure: CFO",
-      "Stifel cuts Microsoft target, says Street FY27 gross margin estimates are too high",
-      "Nvidia Stock Slips Below $200, and the Competition Fears Are Growing"
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open",
-    "price_peak": 354.69500732421875,
-    "trailing_stop_price": 351.218996
-  },
-  "MRNA": {
-    "id": "MRNA_20260625160540",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 58.58000183105469,
-    "entry_time": "2026-06-25T16:05:40.382374+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6042.07,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (30.9)",
-      "5d momentum -5.67%",
-      "1d momentum -8.65%",
-      "BB oversold (pct_b=-0.04)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "How Unanimous FDA Panel Support For mRNA Flu Shot At Moderna (MRNA) Has Changed Its Investment Story",
-      "Moderna (MRNA) Rises As Market Takes a Dip: Key Facts",
-      "Should You Buy Moderna Before Aug. 5?"
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open",
-    "price_peak": 59.75,
-    "trailing_stop_price": 58.85375
-  },
-  "ABBV": {
-    "id": "ABBV_20260625160540",
-    "asset": "ABBV",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 242.8300018310547,
-    "entry_time": "2026-06-25T16:05:40.384220+00:00",
-    "stop_loss_pct": 0.00892,
-    "take_profit_pct": 0.02138,
-    "size_usd": 5108.9,
-    "position_size_pct": 0.0505,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (75.5)",
-      "5d momentum +3.84%",
-      "1d momentum +12.16%",
-      "BB overbought (pct_b=1.07)",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.559,
-    "news_headlines": [
-      "Is AbbVie a Buy After Its Purchase of Apogee?",
-      "3 Under-the-Radar Biotech Takeover Targets for the Next Pharma Buying Spree",
-      "Canaccord Says AbbVie\u2019s (ABBV) Apogee Deal Strengthens Long-Term Growth Outlook"
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open"
-  },
-  "MU": {
-    "id": "MU_20260625182256",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1223.460205078125,
-    "entry_time": "2026-06-25T18:22:56.049732+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 4695.47,
-    "position_size_pct": 0.0465,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (77.6)",
-      "5d momentum +16.69%",
-      "1d momentum +3.68%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.621,
-    "news_headlines": [
-      "Stock market today: Dow and S&P 500 rise, Nasdaq slips as PCE comes in hot, Big Tech falters",
-      "Employers, governments join forces to address AI job loss concerns",
-      "AI trade: Making sense of Micron's massive Q3 earnings boost"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open",
-    "price_trough": 1213.56005859375,
-    "trailing_stop_price": 1231.763459
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260625202722",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.159999847412109,
-    "entry_time": "2026-06-25T20:27:22.312041+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03423,
-    "size_usd": 3652.03,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (32.5)",
-      "5d momentum +0.82%",
-      "1d momentum -2.69%",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open",
-    "price_trough": 6.130000114440918,
-    "trailing_stop_price": 6.22195
+    "price_trough": 382.6947937011719,
+    "trailing_stop_price": 405.656481
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260625202722",
@@ -410,31 +253,6 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open"
-  },
-  "USD/MXN": {
-    "id": "USD/MXN_20260625202722",
-    "asset": "USD/MXN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 17.482200622558594,
-    "entry_time": "2026-06-25T20:27:22.315029+00:00",
-    "stop_loss_pct": 0.00203,
-    "take_profit_pct": 0.00468,
-    "size_usd": 4014.64,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (23.6)",
-      "1d momentum -0.64%",
-      "BB oversold (pct_b=0.02)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open",
-    "price_peak": 17.523000717163086,
-    "trailing_stop_price": 17.487429
   },
   "XRP-USD": {
     "id": "XRP-USD_20260625202722",
@@ -488,8 +306,8 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open",
-    "price_peak": 9.898980140686035,
-    "trailing_stop_price": 9.819788
+    "price_peak": 9.901280403137207,
+    "trailing_stop_price": 9.82207
   },
   "BTC-USD": {
     "id": "BTC-USD_20260626092854",
@@ -518,7 +336,9 @@
     ],
     "mode": "paper",
     "strategy_version": "36",
-    "status": "open"
+    "status": "open",
+    "price_trough": 59720.328125,
+    "trailing_stop_price": 60226.756508
   },
   "BNB-USD": {
     "id": "BNB-USD_20260626092854",
@@ -544,6 +364,189 @@
       "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
       "ZachXBT Calls Out MemeCore After M Token Crashes 75%, Demands Answers From Binance and Bybit",
       "$600M Wiped Out in Hours: Crypto\u2019s Leverage Bloodbath Just Hit BTC and ETH Hardest"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open",
+    "price_trough": 561.280029296875,
+    "trailing_stop_price": 574.442046
+  },
+  "ON": {
+    "id": "ON_20260626143644",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 94.23999786376953,
+    "entry_time": "2026-06-26T14:36:44.186212+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 6104.14,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (23.5)",
+      "5d momentum -21.91%",
+      "1d momentum -27.40%",
+      "BB oversold (pct_b=-0.22)",
+      "High-impact catalyst",
+      "Claude [supports]: ma catalyst; analyst downgrade; price decline"
+    ],
+    "news_sentiment": 0.713,
+    "news_headlines": [
+      "ON Semiconductor Tumbles 20%: Is It Dragging Down Semiconductor Names Like AMD and Intel?",
+      "Onsemi Acquisition Seen Diluting Its Data Center Focus",
+      "Onsemi shares slide on $7B Synaptics deal"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "LLY": {
+    "id": "LLY_20260626143644",
+    "asset": "LLY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1191.72998046875,
+    "entry_time": "2026-06-26T14:36:44.187724+00:00",
+    "stop_loss_pct": 0.0124,
+    "take_profit_pct": 0.03021,
+    "size_usd": 5712.01,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (81.7)",
+      "5d momentum +6.06%",
+      "1d momentum +8.10%",
+      "BB overbought (pct_b=1.18)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.304,
+    "news_headlines": [
+      "Is Charles River (CRL) Quietly Redefining Its Moat Through Lilly\u2019s AI-Driven TuneLab Collaboration?",
+      "Fidelity (FHLC) vs. iShares (IXJ): Which Healthcare ETF Delivers Better Value?",
+      "Lilly-backed Absci banks $100m to progress endometriosis, hair loss therapy"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260626143644",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 66.49500274658203,
+    "entry_time": "2026-06-26T14:36:44.189479+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5189.17,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (63.0)",
+      "5d momentum +11.63%",
+      "1d momentum +11.14%",
+      "BB overbought (pct_b=1.13)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.684,
+    "news_headlines": [
+      "This Stock Has Already Doubled This Year and Is Still Racing Towards a Major Catalyst",
+      "How Unanimous FDA Panel Support For mRNA Flu Shot At Moderna (MRNA) Has Changed Its Investment Story",
+      "Moderna (MRNA) Rises As Market Takes a Dip: Key Facts"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "ARM": {
+    "id": "ARM_20260626143644",
+    "asset": "ARM",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 334.3800048828125,
+    "entry_time": "2026-06-26T14:36:44.191160+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 6104.14,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (34.2)",
+      "5d momentum -6.29%",
+      "1d momentum -17.99%",
+      "BB oversold (pct_b=-0.02)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.926,
+    "news_headlines": [
+      "Arm (ARM) Wants To Be The Next Full Stack AI Infrastructure Provider",
+      "Forget the Cellphones: BlackBerry Shares Jump 23% as an AI Play",
+      "Is Arm Holdings a Buy Near $347? The Case for Double-Digit Upside"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "REGN": {
+    "id": "REGN_20260626143644",
+    "asset": "REGN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 634.9650268554688,
+    "entry_time": "2026-06-26T14:36:44.192857+00:00",
+    "stop_loss_pct": 0.00791,
+    "take_profit_pct": 0.01927,
+    "size_usd": 5685.87,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (64.8)",
+      "MACD crossover",
+      "5d momentum +1.15%",
+      "1d momentum +4.13%",
+      "BB overbought (pct_b=1.01)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; ma catalyst; price surge"
+    ],
+    "news_sentiment": 0.75,
+    "news_headlines": [
+      "Is Kymera Therapeutics The Next Big Rival To Regeneron And Sanofi?",
+      "Is AbbVie a Buy After Its Purchase of Apogee?",
+      "Will Priority-Reviewed Quarterly siRNA gMG Therapy Change Regeneron Pharmaceuticals' (REGN) Narrative?"
+    ],
+    "mode": "paper",
+    "strategy_version": "36",
+    "status": "open"
+  },
+  "GS": {
+    "id": "GS_20260626143644",
+    "asset": "GS",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1032.6600341796875,
+    "entry_time": "2026-06-26T14:36:44.194570+00:00",
+    "stop_loss_pct": 0.01332,
+    "take_profit_pct": 0.03285,
+    "size_usd": 785.52,
+    "position_size_pct": 0.0077,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (24.3)",
+      "5d momentum -4.22%",
+      "1d momentum -6.19%",
+      "BB oversold (pct_b=-0.15)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; price decline"
+    ],
+    "news_sentiment": 0.458,
+    "news_headlines": [
+      "Oil Slides Toward Third Weekly Drop as Hormuz Risk Returns",
+      "Dollar Jumps 2.1% as Wall Street Banks Turn Bullish on Fed Outlook",
+      "Should Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF (GSLC) Be on Your Investing Radar?"
     ],
     "mode": "paper",
     "strategy_version": "36",
