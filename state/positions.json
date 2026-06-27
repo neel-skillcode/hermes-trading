@@ -472,39 +472,6 @@
     "price_trough": 0.07528000324964523,
     "trailing_stop_price": 0.076048
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260626224923",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.53000020980835,
-    "entry_time": "2026-06-26T22:49:23.519279+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5659.12,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (67.8)",
-      "5d momentum +1.08%",
-      "1d momentum +5.32%",
-      "BB overbought (pct_b=1.01)",
-      "Volume spike 5.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "37",
-    "status": "open",
-    "price_trough": 6.5,
-    "trailing_stop_price": 6.5975
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260626224923",
     "asset": "ETH-USD",
@@ -533,8 +500,8 @@
     "mode": "paper",
     "strategy_version": "37",
     "status": "open",
-    "price_peak": 1581.5799560546875,
-    "trailing_stop_price": 1565.859051
+    "price_peak": 1591.300048828125,
+    "trailing_stop_price": 1575.482526
   },
   "BTC-USD": {
     "id": "BTC-USD_20260627102604",
@@ -561,6 +528,37 @@
       "Scott Melker debunks MSTR investigation claims",
       "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First.",
       "Bitcoin holds above $60,000 as Strategy\u2019s funding model faces growing scrutiny"
+    ],
+    "mode": "paper",
+    "strategy_version": "37",
+    "status": "open",
+    "price_peak": 60511.96875,
+    "trailing_stop_price": 60263.869678
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260627145246",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.0664000511169434,
+    "entry_time": "2026-06-27T14:52:46.220394+00:00",
+    "stop_loss_pct": 0.00511,
+    "take_profit_pct": 0.01196,
+    "size_usd": 4419.99,
+    "position_size_pct": 0.0435,
+    "confidence": 0.68,
+    "signals": [
+      "RSI overbought (77.9)",
+      "5d momentum +0.91%",
+      "1d momentum +2.97%",
+      "BB overbought (pct_b=0.94)",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.312,
+    "news_headlines": [
+      "Ripple CEO Criticizes Saylor\u2019s Bitcoin Strategy While Remaining Bullish on BTC",
+      "1 Brand New Big Green Flag for XRP (Ripple) in 2026 and Beyond",
+      "Weekly Wrap: Bitcoin Nears Two-Year Low"
     ],
     "mode": "paper",
     "strategy_version": "37",

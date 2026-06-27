@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101631.49,
+  "portfolio_balance": 101562.16,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.52,
-  "unrealized_pnl_usd": 783.89,
-  "equity_value": 102415.38,
+  "portfolio_drawdown_pct": 0.59,
+  "unrealized_pnl_usd": 736.4,
+  "equity_value": 102298.56,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40652.6,
+  "day_capital_used_usd": 39413.47,
   "swing_capital_used_usd": 47967.65,
-  "total_trades": 409,
-  "last_tick": "2026-06-27T13:04:31.538194+00:00",
+  "total_trades": 410,
+  "last_tick": "2026-06-27T14:52:46.222581+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -325,9 +325,9 @@
       "status": "open",
       "price_trough": 561.280029296875,
       "trailing_stop_price": 574.442046,
-      "current_price": 563.679993,
-      "unrealized_pnl_pct": 0.004943,
-      "unrealized_pnl_usd": 33.77
+      "current_price": 563.77002,
+      "unrealized_pnl_pct": 0.004784,
+      "unrealized_pnl_usd": 32.68
     },
     {
       "id": "MRNA_20260626143644",
@@ -465,9 +465,9 @@
       "status": "open",
       "price_trough": 71.63999938964844,
       "trailing_stop_price": 72.714599,
-      "current_price": 72.169998,
-      "unrealized_pnl_pct": 0.007563,
-      "unrealized_pnl_usd": 48.81
+      "current_price": 72.650002,
+      "unrealized_pnl_pct": 0.000963,
+      "unrealized_pnl_usd": 6.21
     },
     {
       "id": "ON_20260626181353",
@@ -534,45 +534,9 @@
       "status": "open",
       "price_trough": 0.07528000324964523,
       "trailing_stop_price": 0.076048,
-      "current_price": 0.07547,
-      "unrealized_pnl_pct": 0.001455,
-      "unrealized_pnl_usd": 5.89
-    },
-    {
-      "id": "AVAX-USD_20260626224923",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 6.53000020980835,
-      "entry_time": "2026-06-26T22:49:23.519279+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03653,
-      "size_usd": 5659.12,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (67.8)",
-        "5d momentum +1.08%",
-        "1d momentum +5.32%",
-        "BB overbought (pct_b=1.01)",
-        "Volume spike 5.6\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price decline"
-      ],
-      "news_sentiment": 0.444,
-      "news_headlines": [
-        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-        "Is Avalanche About to Have Its Biggest Year Yet?"
-      ],
-      "mode": "paper",
-      "strategy_version": "37",
-      "status": "open",
-      "price_trough": 6.5,
-      "trailing_stop_price": 6.5975,
-      "current_price": 6.53,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 0.07588,
+      "unrealized_pnl_pct": -0.003969,
+      "unrealized_pnl_usd": -16.05
     },
     {
       "id": "ETH-USD_20260626224923",
@@ -602,11 +566,11 @@
       "mode": "paper",
       "strategy_version": "37",
       "status": "open",
-      "price_peak": 1584.43994140625,
-      "trailing_stop_price": 1568.690608,
-      "current_price": 1585.349976,
-      "unrealized_pnl_pct": 0.007211,
-      "unrealized_pnl_usd": 17.22
+      "price_peak": 1591.300048828125,
+      "trailing_stop_price": 1575.482526,
+      "current_price": 1591.420044,
+      "unrealized_pnl_pct": 0.011067,
+      "unrealized_pnl_usd": 26.43
     },
     {
       "id": "BTC-USD_20260627102604",
@@ -637,9 +601,43 @@
       "mode": "paper",
       "strategy_version": "37",
       "status": "open",
-      "current_price": 60356.640625,
-      "unrealized_pnl_pct": -0.000386,
-      "unrealized_pnl_usd": -1.34
+      "price_peak": 60511.96875,
+      "trailing_stop_price": 60263.869678,
+      "current_price": 60511.96875,
+      "unrealized_pnl_pct": 0.002187,
+      "unrealized_pnl_usd": 7.58
+    },
+    {
+      "id": "XRP-USD_20260627145246",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1.0664000511169434,
+      "entry_time": "2026-06-27T14:52:46.220394+00:00",
+      "stop_loss_pct": 0.00511,
+      "take_profit_pct": 0.01196,
+      "size_usd": 4419.99,
+      "position_size_pct": 0.0435,
+      "confidence": 0.68,
+      "signals": [
+        "RSI overbought (77.9)",
+        "5d momentum +0.91%",
+        "1d momentum +2.97%",
+        "BB overbought (pct_b=0.94)",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.312,
+      "news_headlines": [
+        "Ripple CEO Criticizes Saylor\u2019s Bitcoin Strategy While Remaining Bullish on BTC",
+        "1 Brand New Big Green Flag for XRP (Ripple) in 2026 and Beyond",
+        "Weekly Wrap: Bitcoin Nears Two-Year Low"
+      ],
+      "mode": "paper",
+      "strategy_version": "37",
+      "status": "open",
+      "current_price": 1.0664,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -666,7 +664,7 @@
     },
     {
       "asset": "QCOM",
-      "rank_score": 0.8024,
+      "rank_score": 0.8074,
       "price": 188.60000610351562,
       "rsi": 41.24379324082712,
       "momentum_5d": -0.0747644746279959,
@@ -676,12 +674,12 @@
       "bollinger_pct_b": 0.0363,
       "volume_spike": true,
       "volume_spike_ratio": 2.54,
-      "news_sentiment": 0.38,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.464,
+      "news_confidence": 0.46,
       "news_headlines": [
-        "Semiconductor stocks retreat over worries about memory costs",
         "Qualcomm\u2019s big AI gamble: Breaking Nvidia\u2019s chips stronghold",
-        "Qualcomm Just Nearly Doubled Its Most Important Growth Target, Confirming Its Place as a Key AI Stock"
+        "Qualcomm Just Nearly Doubled Its Most Important Growth Target, Confirming Its Place as a Key AI Stock",
+        "What If The Real Power Behind Marvell Stock Isn't Just Growth?"
       ],
       "high_impact_news": true
     },
@@ -771,7 +769,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.6871,
+      "rank_score": 0.6931,
       "price": 336.1000061035156,
       "rsi": 33.884483628541844,
       "momentum_5d": -0.02125797298403355,
@@ -781,12 +779,12 @@
       "bollinger_pct_b": -0.0069,
       "volume_spike": true,
       "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.306,
+      "news_confidence": 0.49,
       "news_headlines": [
         "As oil fades as an inflation concern, will AI take its place? The Fed is watching closely.",
-        "How did the hyperscalers do in 1Q26?",
-        "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh"
+        "Alphabet Is Joining the Dow Jones Industrial Average. 3 Surprising Reasons Why SpaceX Could Be Next.",
+        "Stock Market Week Ahead: Rotating, For Now, Away From The AI Boom"
       ],
       "high_impact_news": true
     },
@@ -834,7 +832,7 @@
     },
     {
       "asset": "WMT",
-      "rank_score": 0.6646,
+      "rank_score": 0.6716,
       "price": 115.30000305175781,
       "rsi": 28.234804135407856,
       "momentum_5d": -0.01705029793662933,
@@ -844,8 +842,8 @@
       "bollinger_pct_b": 0.1363,
       "volume_spike": true,
       "volume_spike_ratio": 3.63,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.522,
+      "news_confidence": 0.46,
       "news_headlines": [
         "Kroger's New CEO Has A Plan, The Market Has A Question",
         "Amazon\u2019s $8.3 billion Prime Day sends Wall Street a warning",
@@ -939,20 +937,20 @@
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.652,
+      "rank_score": 0.6469,
       "price": 363.94000244140625,
       "rsi": 27.868265922826595,
       "momentum_5d": -0.015286949861453347,
       "momentum_1d": -0.05350899554817906,
       "macd_crossover": false,
-      "atr_pct": 0.016822659400432937,
+      "atr_pct": 0.016935436128673258,
       "bollinger_pct_b": -0.0084,
       "volume_spike": true,
       "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.636,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.444,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "Semiconductor stocks retreat over worries about memory costs",
+        "Forget the AI Chipmakers. For 0.47% This Fund Owns the Companies Building the Data Centers",
         "2 Artificial Intelligence (AI) Stocks to Buy as Demand for Custom Chips Soars",
         "What Analog Devices Stock Was Saying By Intentionally Selling Less"
       ],
@@ -1050,7 +1048,7 @@
       "momentum_5d": -0.00262243390531664,
       "momentum_1d": 0.03883587625012987,
       "macd_crossover": false,
-      "atr_pct": 0.007745540045438943,
+      "atr_pct": 0.007745607780767627,
       "bollinger_pct_b": 0.8706,
       "volume_spike": true,
       "volume_spike_ratio": 2.81,
