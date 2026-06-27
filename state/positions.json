@@ -278,8 +278,8 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open",
-    "price_trough": 561.280029296875,
-    "trailing_stop_price": 574.442046
+    "price_trough": 558.4099731445312,
+    "trailing_stop_price": 571.504687
   },
   "MRNA": {
     "id": "MRNA_20260626143644",
@@ -406,8 +406,8 @@
     "mode": "paper",
     "strategy_version": "37",
     "status": "open",
-    "price_trough": 71.63999938964844,
-    "trailing_stop_price": 72.714599
+    "price_trough": 71.0,
+    "trailing_stop_price": 72.065
   },
   "ON": {
     "id": "ON_20260626181353",
@@ -441,56 +441,24 @@
     "price_peak": 90.6500015258789,
     "trailing_stop_price": 89.290252
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260626224923",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1574.0,
-    "entry_time": "2026-06-26T22:49:23.521502+00:00",
-    "stop_loss_pct": 0.00994,
-    "take_profit_pct": 0.02269,
-    "size_usd": 2388.53,
-    "position_size_pct": 0.0235,
-    "confidence": 0.564,
-    "signals": [
-      "5d momentum -0.36%",
-      "1d momentum +0.40%",
-      "Volume spike 3.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.023,
-    "news_headlines": [
-      "Saylor's Strategy shuts down rumors of being under investigation",
-      "Bitcoin and ethereum prices today, Friday, June 26, 2026: June hasn't been kind to crypto prices",
-      "Crypto Market Today, June 26: Risk-Off Sentiment Weighs on Bitcoin with $1.3 Billion in ETF Outflows This Week"
-    ],
-    "mode": "paper",
-    "strategy_version": "37",
-    "status": "open",
-    "price_peak": 1601.8299560546875,
-    "trailing_stop_price": 1585.907766
-  },
   "DOGE-USD": {
-    "id": "DOGE-USD_20260627155735",
+    "id": "DOGE-USD_20260627194909",
     "asset": "DOGE-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.07608000189065933,
-    "entry_time": "2026-06-27T15:57:35.651063+00:00",
-    "stop_loss_pct": 0.00524,
-    "take_profit_pct": 0.01296,
-    "size_usd": 6171.46,
+    "direction": "long",
+    "entry_price": 0.07453999668359756,
+    "entry_time": "2026-06-27T19:49:09.427607+00:00",
+    "stop_loss_pct": 0.00593,
+    "take_profit_pct": 0.01467,
+    "size_usd": 6179.28,
     "position_size_pct": 0.0608,
     "confidence": 0.95,
     "signals": [
-      "RSI overbought (65.6)",
-      "MACD crossover",
-      "5d momentum +1.12%",
-      "1d momentum +1.58%",
-      "BB overbought (pct_b=1.12)",
-      "Volume spike 6.3\u00d7",
+      "RSI oversold (32.7)",
+      "5d momentum -1.69%",
+      "1d momentum -1.18%",
+      "BB oversold (pct_b=-0.20)",
+      "Volume spike 11.8\u00d7",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
     ],
@@ -501,9 +469,37 @@
       "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors"
     ],
     "mode": "paper",
-    "strategy_version": "37",
-    "status": "open",
-    "price_trough": 0.07532999664545059,
-    "trailing_stop_price": 0.075725
+    "strategy_version": "38",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260627194909",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.420000076293945,
+    "entry_time": "2026-06-27T19:49:09.429589+00:00",
+    "stop_loss_pct": 0.00982,
+    "take_profit_pct": 0.02395,
+    "size_usd": 5704.45,
+    "position_size_pct": 0.0561,
+    "confidence": 0.877,
+    "signals": [
+      "RSI oversold (35.4)",
+      "5d momentum -2.87%",
+      "BB oversold (pct_b=-0.20)",
+      "Volume spike 2.6\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "38",
+    "status": "open"
   }
 }

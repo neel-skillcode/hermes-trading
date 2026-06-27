@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101508.01,
+  "portfolio_balance": 101632.86,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.64,
-  "unrealized_pnl_usd": 877.9,
-  "equity_value": 102385.91,
+  "portfolio_drawdown_pct": 0.52,
+  "unrealized_pnl_usd": 931.47,
+  "equity_value": 102564.34,
   "open_positions": 17,
   "day_trades_open": 7,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 33653.53,
+  "day_capital_used_usd": 36977.27,
   "swing_capital_used_usd": 47967.65,
-  "total_trades": 413,
-  "last_tick": "2026-06-27T18:18:56.251864+00:00",
+  "total_trades": 415,
+  "last_tick": "2026-06-27T19:49:09.432226+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -323,11 +323,11 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "price_trough": 561.280029296875,
-      "trailing_stop_price": 574.442046,
-      "current_price": 562.419983,
-      "unrealized_pnl_pct": 0.007167,
-      "unrealized_pnl_usd": 48.96
+      "price_trough": 558.4099731445312,
+      "trailing_stop_price": 571.504687,
+      "current_price": 558.099976,
+      "unrealized_pnl_pct": 0.014793,
+      "unrealized_pnl_usd": 101.06
     },
     {
       "id": "MRNA_20260626143644",
@@ -463,11 +463,11 @@
       "mode": "paper",
       "strategy_version": "37",
       "status": "open",
-      "price_trough": 71.63999938964844,
-      "trailing_stop_price": 72.714599,
-      "current_price": 72.0,
-      "unrealized_pnl_pct": 0.009901,
-      "unrealized_pnl_usd": 63.9
+      "price_trough": 71.0,
+      "trailing_stop_price": 72.065,
+      "current_price": 71.019997,
+      "unrealized_pnl_pct": 0.023377,
+      "unrealized_pnl_usd": 150.87
     },
     {
       "id": "ON_20260626181353",
@@ -505,58 +505,23 @@
       "unrealized_pnl_usd": 5.81
     },
     {
-      "id": "ETH-USD_20260626224923",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1574.0,
-      "entry_time": "2026-06-26T22:49:23.521502+00:00",
-      "stop_loss_pct": 0.00994,
-      "take_profit_pct": 0.02269,
-      "size_usd": 2388.53,
-      "position_size_pct": 0.0235,
-      "confidence": 0.564,
-      "signals": [
-        "5d momentum -0.36%",
-        "1d momentum +0.40%",
-        "Volume spike 3.9\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": -0.023,
-      "news_headlines": [
-        "Saylor's Strategy shuts down rumors of being under investigation",
-        "Bitcoin and ethereum prices today, Friday, June 26, 2026: June hasn't been kind to crypto prices",
-        "Crypto Market Today, June 26: Risk-Off Sentiment Weighs on Bitcoin with $1.3 Billion in ETF Outflows This Week"
-      ],
-      "mode": "paper",
-      "strategy_version": "37",
-      "status": "open",
-      "price_peak": 1601.8299560546875,
-      "trailing_stop_price": 1585.907766,
-      "current_price": 1590.25,
-      "unrealized_pnl_pct": 0.010324,
-      "unrealized_pnl_usd": 24.66
-    },
-    {
-      "id": "DOGE-USD_20260627155735",
+      "id": "DOGE-USD_20260627194909",
       "asset": "DOGE-USD",
       "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.07608000189065933,
-      "entry_time": "2026-06-27T15:57:35.651063+00:00",
-      "stop_loss_pct": 0.00524,
-      "take_profit_pct": 0.01296,
-      "size_usd": 6171.46,
+      "direction": "long",
+      "entry_price": 0.07453999668359756,
+      "entry_time": "2026-06-27T19:49:09.427607+00:00",
+      "stop_loss_pct": 0.00593,
+      "take_profit_pct": 0.01467,
+      "size_usd": 6179.28,
       "position_size_pct": 0.0608,
       "confidence": 0.95,
       "signals": [
-        "RSI overbought (65.6)",
-        "MACD crossover",
-        "5d momentum +1.12%",
-        "1d momentum +1.58%",
-        "BB overbought (pct_b=1.12)",
-        "Volume spike 6.3\u00d7",
+        "RSI oversold (32.7)",
+        "5d momentum -1.69%",
+        "1d momentum -1.18%",
+        "BB oversold (pct_b=-0.20)",
+        "Volume spike 11.8\u00d7",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
       ],
@@ -567,13 +532,44 @@
         "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors"
       ],
       "mode": "paper",
-      "strategy_version": "37",
+      "strategy_version": "38",
       "status": "open",
-      "price_trough": 0.07532999664545059,
-      "trailing_stop_price": 0.075725,
-      "current_price": 0.07533,
-      "unrealized_pnl_pct": 0.009858,
-      "unrealized_pnl_usd": 60.84
+      "current_price": 0.07454,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AVAX-USD_20260627194909",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 6.420000076293945,
+      "entry_time": "2026-06-27T19:49:09.429589+00:00",
+      "stop_loss_pct": 0.00982,
+      "take_profit_pct": 0.02395,
+      "size_usd": 5704.45,
+      "position_size_pct": 0.0561,
+      "confidence": 0.877,
+      "signals": [
+        "RSI oversold (35.4)",
+        "5d momentum -2.87%",
+        "BB oversold (pct_b=-0.20)",
+        "Volume spike 2.6\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: analyst upgrade; price decline"
+      ],
+      "news_sentiment": 0.444,
+      "news_headlines": [
+        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+        "Is Avalanche About to Have Its Biggest Year Yet?"
+      ],
+      "mode": "paper",
+      "strategy_version": "38",
+      "status": "open",
+      "current_price": 6.42,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -610,12 +606,12 @@
       "bollinger_pct_b": 0.0363,
       "volume_spike": true,
       "volume_spike_ratio": 2.54,
-      "news_sentiment": 0.38,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Qualcomm Wants to Bring AI Data Center Power to Your Smartphone",
-        "Qualcomm\u2019s big AI gamble: Breaking Nvidia\u2019s chips stronghold",
-        "Qualcomm Just Nearly Doubled Its Most Important Growth Target, Confirming Its Place as a Key AI Stock"
+        "BofA Lifts PT on QUALCOMM (QCOM) \u2013 Here\u2019s Why",
+        "Is QUALCOMM (QCOM) One of the Safe Stocks for Beginners to Buy in 2026?",
+        "Qualcomm Wants to Bring AI Data Center Power to Your Smartphone"
       ],
       "high_impact_news": true
     },
@@ -683,29 +679,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "ABBV",
-      "rank_score": 0.6996,
-      "price": 251.63999938964844,
-      "rsi": 80.44820945876437,
-      "momentum_5d": 0.00928507959387171,
-      "momentum_1d": 0.07311458508482375,
-      "macd_crossover": false,
-      "atr_pct": 0.011778918416855499,
-      "bollinger_pct_b": 0.9181,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.75,
-      "news_sentiment": 0.346,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "2 Biotech Stocks Worth Buying Before Their Potential Buyouts",
-        "Lilly, J&J and AbbVie Hit New Highs",
-        "AbbVie Stock's Growth Story Has One Question Mark"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "GOOGL",
-      "rank_score": 0.6931,
+      "rank_score": 0.7071,
       "price": 336.1000061035156,
       "rsi": 33.884483628541844,
       "momentum_5d": -0.02125797298403355,
@@ -715,12 +690,54 @@
       "bollinger_pct_b": -0.0069,
       "volume_spike": true,
       "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.306,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.527,
+      "news_confidence": 0.55,
       "news_headlines": [
         "As oil fades as an inflation concern, will AI take its place? The Fed is watching closely.",
-        "Alphabet Is Joining the Dow Jones Industrial Average. 3 Surprising Reasons Why SpaceX Could Be Next.",
-        "Stock Market Week Ahead: Rotating, For Now, Away From The AI Boom"
+        "Jack Henry and Alphabet (GOOGL) Expand Google Cloud AI Security Partnership",
+        "Is Meta Platforms (META) One of the Top Trending US Stocks to Buy Now?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.7046,
+      "price": 251.63999938964844,
+      "rsi": 80.44820945876437,
+      "momentum_5d": 0.00928507959387171,
+      "momentum_1d": 0.07311458508482375,
+      "macd_crossover": false,
+      "atr_pct": 0.011778918416855499,
+      "bollinger_pct_b": 0.9181,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.75,
+      "news_sentiment": 0.469,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "AbbVie (ABBV) to Acquire Apogee Therapeutics",
+        "2 Biotech Stocks Worth Buying Before Their Potential Buyouts",
+        "Lilly, J&J and AbbVie Hit New Highs"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.6927,
+      "price": 1206.4599609375,
+      "rsi": 83.39754219176064,
+      "momentum_5d": 0.014019340743584635,
+      "momentum_1d": 0.09169053017018797,
+      "macd_crossover": false,
+      "atr_pct": 0.014316624951361052,
+      "bollinger_pct_b": 0.8658,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.86,
+      "news_sentiment": 0.736,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Eli Lilly (LLY) and BioArctic AB Enter into Research and Collaboration Agreement",
+        "Here\u2019s What the Street Thinks About Eli Lilly and Company (LLY)",
+        "Dow Jones Futures: Market At Tipping Point. Eli Lilly Soars, Tesla, Jobs On Tap."
       ],
       "high_impact_news": true
     },
@@ -746,27 +763,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "LLY",
-      "rank_score": 0.6817,
-      "price": 1206.4599609375,
-      "rsi": 83.39754219176064,
-      "momentum_5d": 0.014019340743584635,
-      "momentum_1d": 0.09169053017018797,
-      "macd_crossover": false,
-      "atr_pct": 0.014316624951361052,
-      "bollinger_pct_b": 0.8658,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.609,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Dow Jones Futures: Market At Tipping Point. Eli Lilly Soars, Tesla, Jobs On Tap.",
-        "Eli Lilly (LLY) Wins EMA Backing For Jaypirca In Chronic Lymphocytic Leukemia",
-        "Eli Lilly Leads 5 Stocks Near Buy Points As The Market Rally Rotates"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "WMT",
       "rank_score": 0.6716,
       "price": 115.30000305175781,
@@ -784,6 +780,27 @@
         "Walmart's deals event offers up to 56% off shelving, organizers, and toolboxes for the garage",
         "Kroger's New CEO Has A Plan, The Market Has A Question",
         "Amazon\u2019s $8.3 billion Prime Day sends Wall Street a warning"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.6618,
+      "price": 558.0999755859375,
+      "rsi": 25.9882486986439,
+      "momentum_5d": -0.009916845839482163,
+      "momentum_1d": -0.012037614682665822,
+      "macd_crossover": false,
+      "atr_pct": 0.003770432998575008,
+      "bollinger_pct_b": -0.2564,
+      "volume_spike": true,
+      "volume_spike_ratio": 273.04,
+      "news_sentiment": -0.172,
+      "news_confidence": 0.29,
+      "news_headlines": [
+        "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
+        "ZachXBT Calls Out MemeCore After M Token Crashes 75%, Demands Answers From Binance and Bybit"
       ],
       "high_impact_news": true
     },
@@ -810,7 +827,7 @@
     },
     {
       "asset": "ARM",
-      "rank_score": 0.6547,
+      "rank_score": 0.6598,
       "price": 334.5849914550781,
       "rsi": 29.647998562078172,
       "momentum_5d": 0.0008075886864191644,
@@ -820,12 +837,33 @@
       "bollinger_pct_b": 0.2261,
       "volume_spike": false,
       "volume_spike_ratio": 1.35,
-      "news_sentiment": 0.882,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.926,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "TD Cowen Raises its Price Target on Arm Holdings (ARM)",
         "Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech",
-        "Arm (ARM) Wants To Be The Next Full Stack AI Infrastructure Provider",
-        "Forget the Cellphones: BlackBerry Shares Jump 23% as an AI Play"
+        "Arm (ARM) Wants To Be The Next Full Stack AI Infrastructure Provider"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.6536,
+      "price": 0.07453999668359756,
+      "rsi": 32.6983391124588,
+      "momentum_5d": -0.016882119667607012,
+      "momentum_1d": -0.011799041153815724,
+      "macd_crossover": false,
+      "atr_pct": 0.005835800522568765,
+      "bollinger_pct_b": -0.2046,
+      "volume_spike": true,
+      "volume_spike_ratio": 11.79,
+      "news_sentiment": -0.349,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First.",
+        "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000",
+        "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors"
       ],
       "high_impact_news": true
     },
@@ -852,7 +890,7 @@
     },
     {
       "asset": "RIVN",
-      "rank_score": 0.6522,
+      "rank_score": 0.6502,
       "price": 15.640000343322754,
       "rsi": 84.67433757020785,
       "momentum_5d": 0.015709759360756217,
@@ -862,33 +900,33 @@
       "bollinger_pct_b": 0.8996,
       "volume_spike": true,
       "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.07,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.024,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "Prediction: Buying Rivian Stock Today Could Set You Up for Life",
         "More Layoffs, Acquisitions, and SpaceX Becomes AI Company",
-        "Is the Rivian R2 America\u2019s Next Great SUV?",
-        "A $24,950 Electric Pickup Truck? Bezos-Backed Company Ready To Take On Tesla"
+        "Is the Rivian R2 America\u2019s Next Great SUV?"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.6469,
-      "price": 363.94000244140625,
-      "rsi": 27.868265922826595,
-      "momentum_5d": -0.015286949861453347,
-      "momentum_1d": -0.05350899554817906,
+      "asset": "AVAX-USD",
+      "rank_score": 0.6394,
+      "price": 6.420000076293945,
+      "rsi": 35.41668115390614,
+      "momentum_5d": -0.028744334853657526,
+      "momentum_1d": 0.0031249969732016778,
       "macd_crossover": false,
-      "atr_pct": 0.016822659400432937,
-      "bollinger_pct_b": -0.0084,
+      "atr_pct": 0.010013352076902734,
+      "bollinger_pct_b": -0.1976,
       "volume_spike": true,
-      "volume_spike_ratio": 1.54,
+      "volume_spike_ratio": 2.64,
       "news_sentiment": 0.444,
       "news_confidence": 0.36,
       "news_headlines": [
-        "Is Broadcom (AVGO) One of the Best Future Stocks to Buy and Hold for 10 Years?",
-        "Forget the AI Chipmakers. For 0.47% This Fund Owns the Companies Building the Data Centers",
-        "2 Artificial Intelligence (AI) Stocks to Buy as Demand for Custom Chips Soars"
+        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+        "Is Avalanche About to Have Its Biggest Year Yet?"
       ],
       "high_impact_news": true
     },
@@ -952,48 +990,6 @@
         "Valero Energy (VLO) Advances While Market Declines: Some Information for Investors",
         "Cenovus vs. Valero Energy: Which Energy Stock Is the Better Buy?",
         "Do Elevated Cash Returns and Insider Sales Reveal a Tension in Valero\u2019s Strategy (VLO)?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SBUX",
-      "rank_score": 0.6198,
-      "price": 104.58999633789062,
-      "rsi": 62.50004498490307,
-      "momentum_5d": -0.00262243390531664,
-      "momentum_1d": 0.03883587625012987,
-      "macd_crossover": false,
-      "atr_pct": 0.007745540045438943,
-      "bollinger_pct_b": 0.8706,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.81,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Kroger quietly makes a major loyalty program change",
-        "Can Starbucks Turn Delivery Momentum Into Durable U.S. Comp Growth?",
-        "Here is What to Know Beyond Why Starbucks Corporation (SBUX) is a Trending Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MS",
-      "rank_score": 0.6148,
-      "price": 212.0500030517578,
-      "rsi": 32.02337784984364,
-      "momentum_5d": -0.010430037436851038,
-      "momentum_1d": -0.06821924246807858,
-      "macd_crossover": false,
-      "atr_pct": 0.013483656175423102,
-      "bollinger_pct_b": 0.108,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.92,
-      "news_sentiment": 0.055,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "Morgan Stanley Cuts Price Target on Cognizant Technology Solutions (CTSH). Here is Why",
-        "Sector Update: Financial Stocks Edge Higher Late Afternoon",
-        "JPMorgan Sues Advisor Who Jumped to Morgan Stanley"
       ],
       "high_impact_news": true
     }
