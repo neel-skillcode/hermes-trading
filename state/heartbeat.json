@@ -3,15 +3,15 @@
   "portfolio_balance": 101631.49,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.52,
-  "unrealized_pnl_usd": 741.71,
-  "equity_value": 102373.2,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "unrealized_pnl_usd": 836.94,
+  "equity_value": 102468.43,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 37184.85,
+  "day_capital_used_usd": 40652.6,
   "swing_capital_used_usd": 47967.65,
   "total_trades": 409,
-  "last_tick": "2026-06-27T08:16:14.096977+00:00",
+  "last_tick": "2026-06-27T10:26:04.796722+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -325,9 +325,9 @@
       "status": "open",
       "price_trough": 561.280029296875,
       "trailing_stop_price": 574.442046,
-      "current_price": 564.320007,
-      "unrealized_pnl_pct": 0.003813,
-      "unrealized_pnl_usd": 26.05
+      "current_price": 563.830017,
+      "unrealized_pnl_pct": 0.004678,
+      "unrealized_pnl_usd": 31.96
     },
     {
       "id": "MRNA_20260626143644",
@@ -465,9 +465,9 @@
       "status": "open",
       "price_trough": 71.63999938964844,
       "trailing_stop_price": 72.714599,
-      "current_price": 72.139999,
-      "unrealized_pnl_pct": 0.007976,
-      "unrealized_pnl_usd": 51.47
+      "current_price": 71.910004,
+      "unrealized_pnl_pct": 0.011139,
+      "unrealized_pnl_usd": 71.89
     },
     {
       "id": "ON_20260626181353",
@@ -532,11 +532,11 @@
       "mode": "paper",
       "strategy_version": "37",
       "status": "open",
-      "price_trough": 0.07546000182628632,
-      "trailing_stop_price": 0.07623,
-      "current_price": 0.07559,
-      "unrealized_pnl_pct": -0.000132,
-      "unrealized_pnl_usd": -0.53
+      "price_trough": 0.07528000324964523,
+      "trailing_stop_price": 0.076048,
+      "current_price": 0.07528,
+      "unrealized_pnl_pct": 0.003969,
+      "unrealized_pnl_usd": 16.05
     },
     {
       "id": "AVAX-USD_20260626224923",
@@ -568,11 +568,11 @@
       "mode": "paper",
       "strategy_version": "37",
       "status": "open",
-      "price_trough": 6.519999980926514,
-      "trailing_stop_price": 6.6178,
-      "current_price": 6.56,
-      "unrealized_pnl_pct": -0.004594,
-      "unrealized_pnl_usd": -26.0
+      "price_trough": 6.5,
+      "trailing_stop_price": 6.5975,
+      "current_price": 6.5,
+      "unrealized_pnl_pct": 0.004594,
+      "unrealized_pnl_usd": 26.0
     },
     {
       "id": "ETH-USD_20260626224923",
@@ -602,11 +602,44 @@
       "mode": "paper",
       "strategy_version": "37",
       "status": "open",
-      "price_peak": 1581.280029296875,
-      "trailing_stop_price": 1565.562106,
-      "current_price": 1581.369995,
-      "unrealized_pnl_pct": 0.004682,
-      "unrealized_pnl_usd": 11.18
+      "price_peak": 1581.5799560546875,
+      "trailing_stop_price": 1565.859051,
+      "current_price": 1581.579956,
+      "unrealized_pnl_pct": 0.004816,
+      "unrealized_pnl_usd": 11.5
+    },
+    {
+      "id": "BTC-USD_20260627102604",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 60379.921875,
+      "entry_time": "2026-06-27T10:26:04.792796+00:00",
+      "stop_loss_pct": 0.0041,
+      "take_profit_pct": 0.00987,
+      "size_usd": 3467.75,
+      "position_size_pct": 0.0341,
+      "confidence": 0.817,
+      "signals": [
+        "RSI overbought (76.2)",
+        "5d momentum +0.39%",
+        "1d momentum +1.95%",
+        "Volume spike 3.6\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": -0.167,
+      "news_headlines": [
+        "Scott Melker debunks MSTR investigation claims",
+        "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First.",
+        "Bitcoin holds above $60,000 as Strategy\u2019s funding model faces growing scrutiny"
+      ],
+      "mode": "paper",
+      "strategy_version": "37",
+      "status": "open",
+      "current_price": 60379.921875,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -633,7 +666,7 @@
     },
     {
       "asset": "QCOM",
-      "rank_score": 0.7974,
+      "rank_score": 0.8024,
       "price": 188.60000610351562,
       "rsi": 41.24379324082712,
       "momentum_5d": -0.0747644746279959,
@@ -643,11 +676,11 @@
       "bollinger_pct_b": 0.0363,
       "volume_spike": true,
       "volume_spike_ratio": 2.54,
-      "news_sentiment": 0.283,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.38,
+      "news_confidence": 0.43,
       "news_headlines": [
         "Semiconductor stocks retreat over worries about memory costs",
-        "How Qualcomm is evolving to grab a piece of the AI data center explosion",
+        "Qualcomm\u2019s big AI gamble: Breaking Nvidia\u2019s chips stronghold",
         "Qualcomm Just Nearly Doubled Its Most Important Growth Target, Confirming Its Place as a Key AI Stock"
       ],
       "high_impact_news": true
@@ -738,7 +771,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.6971,
+      "rank_score": 0.6951,
       "price": 336.1000061035156,
       "rsi": 33.884483628541844,
       "momentum_5d": -0.02125797298403355,
@@ -748,12 +781,12 @@
       "bollinger_pct_b": -0.0069,
       "volume_spike": true,
       "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.442,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.415,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "The AI boom now has a price tag \u2014 and Micron just sent the bill: Chart of the Day",
         "How did the hyperscalers do in 1Q26?",
-        "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh"
+        "FTC gives Musk the OK to acquire SpaceX alumni startup Mesh",
+        "Alphabet (GOOGL) Loses More Gemini Talent To Anthropic And OpenAI"
       ],
       "high_impact_news": true
     },
@@ -775,27 +808,6 @@
         "UnitedHealth Group (UNH) Is Up 6.7% After New AI Cost-Cutting Push And Dividend Focus - Has The Bull Case Changed?",
         "UnitedHealth Group (UNH) Gains As Market Dips: What You Should Know",
         "UnitedHealth is Near its 52-Week High. Wall Street Is Starting to Notice This Blue Chip Stock -- and So Should You."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GS",
-      "rank_score": 0.6803,
-      "price": 1018.239990234375,
-      "rsi": 23.045545573543066,
-      "momentum_5d": -0.010841299703718022,
-      "momentum_1d": -0.07524995867604134,
-      "macd_crossover": false,
-      "atr_pct": 0.014271954213219622,
-      "bollinger_pct_b": 0.0739,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.13,
-      "news_sentiment": -0.081,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Why Braze Stock Jumped Today",
-        "Braze (BRZE) Shares Skyrocket, What You Need To Know",
-        "Chip Stocks Drag Nasdaq Lower. Tech-Heavy Index Falls for Fifth Day in a Row."
       ],
       "high_impact_news": true
     },
@@ -1027,6 +1039,27 @@
         "Morgan Stanley Cuts Price Target on Cognizant Technology Solutions (CTSH). Here is Why",
         "Sector Update: Financial Stocks Edge Higher Late Afternoon",
         "JPMorgan Sues Advisor Who Jumped to Morgan Stanley"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SBUX",
+      "rank_score": 0.6198,
+      "price": 104.58999633789062,
+      "rsi": 62.50004498490307,
+      "momentum_5d": -0.00262243390531664,
+      "momentum_1d": 0.03883587625012987,
+      "macd_crossover": false,
+      "atr_pct": 0.007745540045438943,
+      "bollinger_pct_b": 0.8706,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.81,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Kroger quietly makes a major loyalty program change",
+        "Can Starbucks Turn Delivery Momentum Into Durable U.S. Comp Growth?",
+        "Here is What to Know Beyond Why Starbucks Corporation (SBUX) is a Trending Stock"
       ],
       "high_impact_news": true
     }

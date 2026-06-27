@@ -469,8 +469,8 @@
     "mode": "paper",
     "strategy_version": "37",
     "status": "open",
-    "price_trough": 0.07546000182628632,
-    "trailing_stop_price": 0.07623
+    "price_trough": 0.07528000324964523,
+    "trailing_stop_price": 0.076048
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260626224923",
@@ -502,8 +502,8 @@
     "mode": "paper",
     "strategy_version": "37",
     "status": "open",
-    "price_trough": 6.519999980926514,
-    "trailing_stop_price": 6.6178
+    "price_trough": 6.5,
+    "trailing_stop_price": 6.5975
   },
   "ETH-USD": {
     "id": "ETH-USD_20260626224923",
@@ -533,7 +533,37 @@
     "mode": "paper",
     "strategy_version": "37",
     "status": "open",
-    "price_peak": 1576.9000244140625,
-    "trailing_stop_price": 1561.225638
+    "price_peak": 1581.5799560546875,
+    "trailing_stop_price": 1565.859051
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260627102604",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 60379.921875,
+    "entry_time": "2026-06-27T10:26:04.792796+00:00",
+    "stop_loss_pct": 0.0041,
+    "take_profit_pct": 0.00987,
+    "size_usd": 3467.75,
+    "position_size_pct": 0.0341,
+    "confidence": 0.817,
+    "signals": [
+      "RSI overbought (76.2)",
+      "5d momentum +0.39%",
+      "1d momentum +1.95%",
+      "Volume spike 3.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.167,
+    "news_headlines": [
+      "Scott Melker debunks MSTR investigation claims",
+      "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First.",
+      "Bitcoin holds above $60,000 as Strategy\u2019s funding model faces growing scrutiny"
+    ],
+    "mode": "paper",
+    "strategy_version": "37",
+    "status": "open"
   }
 }
