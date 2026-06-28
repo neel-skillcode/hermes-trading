@@ -441,38 +441,6 @@
     "price_peak": 0.07315000146627426,
     "trailing_stop_price": 0.072642
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260628204039",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.429999828338623,
-    "entry_time": "2026-06-28T20:40:39.326743+00:00",
-    "stop_loss_pct": 0.00802,
-    "take_profit_pct": 0.01899,
-    "size_usd": 3645.44,
-    "position_size_pct": 0.0359,
-    "confidence": 0.737,
-    "signals": [
-      "RSI overbought (66.7)",
-      "5d momentum +1.90%",
-      "BB overbought (pct_b=1.12)",
-      "Volume spike 79.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "39",
-    "status": "open",
-    "price_trough": 6.360000133514404,
-    "trailing_stop_price": 6.411007
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260628224502",
     "asset": "BTC-USD",
@@ -502,7 +470,9 @@
     ],
     "mode": "paper",
     "strategy_version": "39",
-    "status": "open"
+    "status": "open",
+    "price_peak": 59636.33984375,
+    "trailing_stop_price": 59310.725428
   },
   "ETH-USD": {
     "id": "ETH-USD_20260628224502",
@@ -532,32 +502,36 @@
     ],
     "mode": "paper",
     "strategy_version": "39",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1572.8299560546875,
+    "trailing_stop_price": 1561.678592
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260628224502",
-    "asset": "SOL-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260628234913",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 70.4800033569336,
-    "entry_time": "2026-06-28T22:45:02.308451+00:00",
-    "stop_loss_pct": 0.0092,
-    "take_profit_pct": 0.02167,
-    "size_usd": 579.37,
-    "position_size_pct": 0.0057,
-    "confidence": 0.71,
+    "entry_price": 6.449999809265137,
+    "entry_time": "2026-06-28T23:49:13.469807+00:00",
+    "stop_loss_pct": 0.01061,
+    "take_profit_pct": 0.02583,
+    "size_usd": 4217.03,
+    "position_size_pct": 0.0416,
+    "confidence": 0.87,
     "signals": [
-      "RSI oversold (31.8)",
-      "5d momentum -1.36%",
-      "1d momentum -0.69%",
-      "Volume spike 3.1\u00d7",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+      "RSI overbought (65.1)",
+      "5d momentum +1.74%",
+      "1d momentum +0.47%",
+      "BB overbought (pct_b=1.26)",
+      "Volume spike 4.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
     ],
-    "news_sentiment": 0.227,
+    "news_sentiment": 0.444,
     "news_headlines": [
-      "Where Will Solana Be in 3 Years?",
-      "Solana (NasdaqCM:HSDT) Stock Fair Value Moves Lower As Analysts Trim Growth Outlook",
-      "Cathie Wood-backed crypto stock drops over 90%"
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
     ],
     "mode": "paper",
     "strategy_version": "39",
