@@ -3,15 +3,15 @@
   "portfolio_balance": 101544.65,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.61,
-  "unrealized_pnl_usd": 844.44,
-  "equity_value": 102389.09,
-  "open_positions": 16,
-  "day_trades_open": 6,
+  "unrealized_pnl_usd": 846.07,
+  "equity_value": 102390.72,
+  "open_positions": 17,
+  "day_trades_open": 7,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 26917.92,
+  "day_capital_used_usd": 32117.01,
   "swing_capital_used_usd": 47967.65,
   "total_trades": 421,
-  "last_tick": "2026-06-28T14:29:25.313979+00:00",
+  "last_tick": "2026-06-28T15:52:13.192152+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -323,11 +323,11 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "price_trough": 554.719970703125,
-      "trailing_stop_price": 567.728154,
-      "current_price": 554.719971,
-      "unrealized_pnl_pct": 0.02076,
-      "unrealized_pnl_usd": 141.82
+      "price_trough": 553.8400268554688,
+      "trailing_stop_price": 566.827575,
+      "current_price": 553.840027,
+      "unrealized_pnl_pct": 0.022313,
+      "unrealized_pnl_usd": 152.43
     },
     {
       "id": "MRNA_20260626143644",
@@ -498,9 +498,9 @@
       "status": "open",
       "price_trough": 6.309999942779541,
       "trailing_stop_price": 6.354233,
-      "current_price": 6.31,
-      "unrealized_pnl_pct": 0.006299,
-      "unrealized_pnl_usd": 23.08
+      "current_price": 6.32,
+      "unrealized_pnl_pct": 0.004724,
+      "unrealized_pnl_usd": 17.31
     },
     {
       "id": "SOL-USD_20260628125010",
@@ -530,9 +530,41 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "price_trough": 71.73999786376953,
-      "trailing_stop_price": 72.235004,
-      "current_price": 71.769997,
+      "current_price": 71.82,
+      "unrealized_pnl_pct": -0.000697,
+      "unrealized_pnl_usd": -3.21
+    },
+    {
+      "id": "BTC-USD_20260628155213",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 59868.8984375,
+      "entry_time": "2026-06-28T15:52:13.188181+00:00",
+      "stop_loss_pct": 0.0039,
+      "take_profit_pct": 0.00936,
+      "size_usd": 5199.09,
+      "position_size_pct": 0.0512,
+      "confidence": 0.8,
+      "signals": [
+        "RSI oversold (41.4)",
+        "5d momentum -0.35%",
+        "1d momentum -1.44%",
+        "BB oversold (pct_b=0.07)",
+        "Volume spike 3.4\u00d7",
+        "High-impact catalyst",
+        "Claude [strongly_contradicts]: price decline"
+      ],
+      "news_sentiment": -0.435,
+      "news_headlines": [
+        "Bitcoin has crashed 99% before in 2011. But, it's still here.",
+        "Strategy's mNAV Cracks Below 1 For The First Time, Exposing The Cost Of Saylor's No-Sell Vow\u2014 Here's What Analysts Say Comes Next",
+        "Bitcoin Has Had a Terrible 2026. What Can Make the Second Half of the Year Better?"
+      ],
+      "mode": "paper",
+      "strategy_version": "38",
+      "status": "open",
+      "current_price": 59868.898438,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -645,7 +677,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.7091,
+      "rank_score": 0.7021,
       "price": 336.1000061035156,
       "rsi": 33.884483628541844,
       "momentum_5d": -0.02125797298403355,
@@ -655,12 +687,12 @@
       "bollinger_pct_b": -0.0069,
       "volume_spike": true,
       "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
       "news_headlines": [
+        "Is Oracle\u2019s Debt Simply Too Much to Justify the Risk?",
         "AI Demand Is Outstripping Supply \u2014 Even Google Can\u2019t Keep Up",
-        "Better Quantum Computing Stock: Alphabet vs. IonQ",
-        "Ex-Google engineer says Larry Page, Sergey Brin and Sundar Pichai share the same trait\u2014it\u2019s the lesson he swears by as a $7.2 billion AI CEO"
+        "Better Quantum Computing Stock: Alphabet vs. IonQ"
       ],
       "high_impact_news": true
     },
@@ -770,6 +802,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVGO",
+      "rank_score": 0.653,
+      "price": 363.94000244140625,
+      "rsi": 27.868265922826595,
+      "momentum_5d": -0.015286949861453347,
+      "momentum_1d": -0.05350899554817906,
+      "macd_crossover": false,
+      "atr_pct": 0.016935436128673258,
+      "bollinger_pct_b": -0.0084,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.54,
+      "news_sentiment": 0.55,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "This Tiny AI Stock Is Up By 680% in a Year. Is It A Buy?",
+        "Will Amazon, Taiwan Semiconductor, SpaceX, or Broadcom Be the Next $3 Trillion Company?",
+        "Broadcom (AVGO) And OpenAI Launch Jalape\u00f1o AI Chip In Nine Months"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "OXY",
       "rank_score": 0.6524,
       "price": 49.97999954223633,
@@ -829,27 +882,6 @@
         "Arm Holdings (ARM) Is A Part Of A Second \u201c1776,\u201d Says Newsletter",
         "3 Artificial Intelligence (AI) Stocks I'd Buy Now and Never Sell",
         "TD Cowen Raises its Price Target on Arm Holdings (ARM)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.6479,
-      "price": 363.94000244140625,
-      "rsi": 27.868265922826595,
-      "momentum_5d": -0.015286949861453347,
-      "momentum_1d": -0.05350899554817906,
-      "macd_crossover": false,
-      "atr_pct": 0.016822659400432937,
-      "bollinger_pct_b": -0.0084,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.459,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Will Amazon, Taiwan Semiconductor, SpaceX, or Broadcom Be the Next $3 Trillion Company?",
-        "Broadcom (AVGO) And OpenAI Launch Jalape\u00f1o AI Chip In Nine Months",
-        "The Market Is Panicking, But You Should Keep Buying Shares of This Artificial Intelligence (AI) Powerhouse"
       ],
       "high_impact_news": true
     },
@@ -945,7 +977,7 @@
       "momentum_5d": -0.00262243390531664,
       "momentum_1d": 0.03883587625012987,
       "macd_crossover": false,
-      "atr_pct": 0.007745540045438943,
+      "atr_pct": 0.007745607780767627,
       "bollinger_pct_b": 0.8706,
       "volume_spike": true,
       "volume_spike_ratio": 2.81,
