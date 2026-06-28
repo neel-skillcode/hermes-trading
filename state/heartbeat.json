@@ -3,15 +3,15 @@
   "portfolio_balance": 101544.65,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.61,
-  "unrealized_pnl_usd": 828.08,
-  "equity_value": 102372.73,
-  "open_positions": 15,
-  "day_trades_open": 5,
+  "unrealized_pnl_usd": 834.31,
+  "equity_value": 102378.96,
+  "open_positions": 16,
+  "day_trades_open": 6,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 22303.73,
+  "day_capital_used_usd": 26917.92,
   "swing_capital_used_usd": 47967.65,
   "total_trades": 421,
-  "last_tick": "2026-06-28T11:22:52.868507+00:00",
+  "last_tick": "2026-06-28T12:50:10.886428+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -325,9 +325,9 @@
       "status": "open",
       "price_trough": 555.1199951171875,
       "trailing_stop_price": 568.137559,
-      "current_price": 555.119995,
-      "unrealized_pnl_pct": 0.020054,
-      "unrealized_pnl_usd": 137.0
+      "current_price": 555.559998,
+      "unrealized_pnl_pct": 0.019277,
+      "unrealized_pnl_usd": 131.69
     },
     {
       "id": "MRNA_20260626143644",
@@ -496,11 +496,43 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "price_trough": 6.320000171661377,
-      "trailing_stop_price": 6.364303,
-      "current_price": 6.33,
-      "unrealized_pnl_pct": 0.00315,
-      "unrealized_pnl_usd": 11.54
+      "price_trough": 6.309999942779541,
+      "trailing_stop_price": 6.354233,
+      "current_price": 6.31,
+      "unrealized_pnl_pct": 0.006299,
+      "unrealized_pnl_usd": 23.08
+    },
+    {
+      "id": "SOL-USD_20260628125010",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 71.7699966430664,
+      "entry_time": "2026-06-28T12:50:10.883896+00:00",
+      "stop_loss_pct": 0.0069,
+      "take_profit_pct": 0.01626,
+      "size_usd": 4614.19,
+      "position_size_pct": 0.0454,
+      "confidence": 0.71,
+      "signals": [
+        "RSI overbought (60.1)",
+        "5d momentum +1.13%",
+        "1d momentum -0.40%",
+        "Volume spike 2.8\u00d7",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.227,
+      "news_headlines": [
+        "Where Will Solana Be in 3 Years?",
+        "Solana (NasdaqCM:HSDT) Stock Fair Value Moves Lower As Analysts Trim Growth Outlook",
+        "Cathie Wood-backed crypto stock drops over 90%"
+      ],
+      "mode": "paper",
+      "strategy_version": "38",
+      "status": "open",
+      "current_price": 71.769997,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -590,7 +622,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.7271,
+      "rank_score": 0.7221,
       "price": 336.1000061035156,
       "rsi": 33.884483628541844,
       "momentum_5d": -0.02125797298403355,
@@ -600,12 +632,12 @@
       "bollinger_pct_b": -0.0069,
       "volume_spike": true,
       "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.925,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.88,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "Better Quantum Computing Stock: Alphabet vs. IonQ",
         "I Let Wayve\u2019s AI Car Drive Me Through London\u2019s Busiest Streets",
-        "This Artificial Intelligence (AI) Stock Has Dropped 13% in 1 Month. Here's Why It's a Buy",
-        "Google limits Meta\u2019s use of its Gemini AI models, FT reports"
+        "This Artificial Intelligence (AI) Stock Has Dropped 13% in 1 Month. Here's Why It's a Buy"
       ],
       "high_impact_news": true
     },
@@ -695,7 +727,7 @@
     },
     {
       "asset": "WMT",
-      "rank_score": 0.6716,
+      "rank_score": 0.6726,
       "price": 115.30000305175781,
       "rsi": 28.234804135407856,
       "momentum_5d": -0.01705029793662933,
@@ -705,12 +737,12 @@
       "bollinger_pct_b": 0.1363,
       "volume_spike": true,
       "volume_spike_ratio": 3.63,
-      "news_sentiment": 0.522,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.532,
+      "news_confidence": 0.47,
       "news_headlines": [
+        "You Can Buy 1 Share of Costco for Less Than $1,000 Right Now. Here's Why the Price Could Go Up by the End of 2030.",
         "Walmart's deals event offers up to 56% off shelving, organizers, and toolboxes for the garage",
-        "Kroger's New CEO Has A Plan, The Market Has A Question",
-        "Amazon\u2019s $8.3 billion Prime Day sends Wall Street a warning"
+        "Kroger's New CEO Has A Plan, The Market Has A Question"
       ],
       "high_impact_news": true
     },
