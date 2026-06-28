@@ -3,16 +3,16 @@
   "portfolio_balance": 101518.08,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.63,
-  "unrealized_pnl_usd": 920.63,
-  "equity_value": 102438.71,
+  "unrealized_pnl_usd": 903.5,
+  "equity_value": 102421.58,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40607.23,
   "swing_capital_used_usd": 47967.65,
   "total_trades": 422,
-  "last_tick": "2026-06-28T16:53:08.223157+00:00",
-  "last_reflection": "2026-06-28",
+  "last_tick": "2026-06-28T17:58:22.028721+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -325,9 +325,9 @@
       "status": "open",
       "price_trough": 551.3599853515625,
       "trailing_stop_price": 564.289377,
-      "current_price": 551.280029,
-      "unrealized_pnl_pct": 0.026832,
-      "unrealized_pnl_usd": 183.31
+      "current_price": 551.599976,
+      "unrealized_pnl_pct": 0.026267,
+      "unrealized_pnl_usd": 179.45
     },
     {
       "id": "MRNA_20260626143644",
@@ -498,9 +498,9 @@
       "status": "open",
       "price_trough": 6.300000190734863,
       "trailing_stop_price": 6.344163,
-      "current_price": 6.3,
-      "unrealized_pnl_pct": 0.007874,
-      "unrealized_pnl_usd": 28.85
+      "current_price": 6.32,
+      "unrealized_pnl_pct": 0.004724,
+      "unrealized_pnl_usd": 17.31
     },
     {
       "id": "SOL-USD_20260628125010",
@@ -532,9 +532,9 @@
       "status": "open",
       "price_trough": 71.31999969482422,
       "trailing_stop_price": 71.812108,
-      "current_price": 71.32,
-      "unrealized_pnl_pct": 0.00627,
-      "unrealized_pnl_usd": 28.93
+      "current_price": 71.529999,
+      "unrealized_pnl_pct": 0.003344,
+      "unrealized_pnl_usd": 15.43
     },
     {
       "id": "BTC-USD_20260628165307",
@@ -566,9 +566,9 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "current_price": 59554.121094,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 59522.449219,
+      "unrealized_pnl_pct": -0.000532,
+      "unrealized_pnl_usd": -2.76
     },
     {
       "id": "DOGE-USD_20260628165307",
@@ -600,9 +600,11 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "current_price": 0.07296,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 0.07308000326156616,
+      "trailing_stop_price": 0.072572,
+      "current_price": 0.07308,
+      "unrealized_pnl_pct": 0.001645,
+      "unrealized_pnl_usd": 10.15
     },
     {
       "id": "ETH-USD_20260628165307",
@@ -632,9 +634,11 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "current_price": 1567.709961,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 1570.6700439453125,
+      "trailing_stop_price": 1563.350722,
+      "current_price": 1570.670044,
+      "unrealized_pnl_pct": 0.001888,
+      "unrealized_pnl_usd": 4.38
     }
   ],
   "last_candidates": [
@@ -723,6 +727,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ABBV",
+      "rank_score": 0.7146,
+      "price": 251.63999938964844,
+      "rsi": 80.44820945876437,
+      "momentum_5d": 0.00928507959387171,
+      "momentum_1d": 0.07311458508482375,
+      "macd_crossover": false,
+      "atr_pct": 0.011778918416855499,
+      "bollinger_pct_b": 0.9181,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.75,
+      "news_sentiment": 0.733,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "RBC Capital Maintains a Sector Perform Rating on Regeneron (REGN) \u2013 Here\u2019s Why",
+        "AbbVie (ABBV) Wins Health Canada Approval for Boey",
+        "AbbVie (ABBV) to Acquire Apogee Therapeutics"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BIIB",
       "rank_score": 0.7139,
       "price": 216.1199951171875,
@@ -744,27 +769,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ABBV",
-      "rank_score": 0.7006,
-      "price": 251.63999938964844,
-      "rsi": 80.44820945876437,
-      "momentum_5d": 0.00928507959387171,
-      "momentum_1d": 0.07311458508482375,
-      "macd_crossover": false,
-      "atr_pct": 0.011778918416855499,
-      "bollinger_pct_b": 0.9181,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.75,
-      "news_sentiment": 0.422,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "AbbVie (ABBV) Wins Health Canada Approval for Boey",
-        "AbbVie (ABBV) to Acquire Apogee Therapeutics",
-        "2 Biotech Stocks Worth Buying Before Their Potential Buyouts"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "GOOGL",
       "rank_score": 0.6971,
       "price": 336.1000061035156,
@@ -779,9 +783,9 @@
       "news_sentiment": 0.487,
       "news_confidence": 0.39,
       "news_headlines": [
+        "This Artificial Intelligence (AI) Cloud Stock Has Crushed Amazon, Microsoft, and Google in 2026. It Can Continue Skyrocketing After 184% Gains",
         "Nancy Pelosi Has Added These 9 Stocks To Her Portfolio Since 2025, Including Three Magnificent Seven Names",
-        "Is Oracle\u2019s Debt Simply Too Much to Justify the Risk?",
-        "AI Demand Is Outstripping Supply \u2014 Even Google Can\u2019t Keep Up"
+        "Is Oracle\u2019s Debt Simply Too Much to Justify the Risk?"
       ],
       "high_impact_news": true
     },
@@ -828,50 +832,29 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.6738,
-      "price": 59554.12109375,
-      "rsi": 35.6877766581495,
-      "momentum_5d": -0.011582155251151026,
-      "momentum_1d": -0.019045661201426343,
+      "asset": "GS",
+      "rank_score": 0.6803,
+      "price": 1018.239990234375,
+      "rsi": 23.045545573543066,
+      "momentum_5d": -0.010841299703718022,
+      "momentum_1d": -0.07524995867604134,
       "macd_crossover": false,
-      "atr_pct": 0.004314109357217795,
-      "bollinger_pct_b": -0.2347,
+      "atr_pct": 0.014271954213219622,
+      "bollinger_pct_b": 0.0739,
       "volume_spike": true,
-      "volume_spike_ratio": 9.85,
-      "news_sentiment": -0.435,
-      "news_confidence": 0.46,
+      "volume_spike_ratio": 3.13,
+      "news_sentiment": -0.081,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Bitcoin has crashed 99% before in 2011. But, it's still here.",
-        "Strategy's mNAV Cracks Below 1 For The First Time, Exposing The Cost Of Saylor's No-Sell Vow\u2014 Here's What Analysts Say Comes Next",
-        "Bitcoin Has Had a Terrible 2026. What Can Make the Second Half of the Year Better?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.6738,
-      "price": 0.07295999675989151,
-      "rsi": 34.72211299261977,
-      "momentum_5d": -0.01057772312716254,
-      "momentum_1d": -0.04151339974059998,
-      "macd_crossover": false,
-      "atr_pct": 0.006843280971965861,
-      "bollinger_pct_b": 0.0124,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.6,
-      "news_sentiment": -0.349,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First.",
-        "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000",
-        "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors"
+        "Best CD rates today, Sunday, June 28, 2026: Lock in up to 4.10% APY",
+        "Jefferies Reports Earnings Before the Big Banks. Here's Why Wall Street Should Be Watching Closely.",
+        "Tech Equity Sales Renew AI Debt-Binge Worries"
       ],
       "high_impact_news": true
     },
     {
       "asset": "WMT",
-      "rank_score": 0.6726,
+      "rank_score": 0.6716,
       "price": 115.30000305175781,
       "rsi": 28.234804135407856,
       "momentum_5d": -0.01705029793662933,
@@ -881,12 +864,12 @@
       "bollinger_pct_b": 0.1363,
       "volume_spike": true,
       "volume_spike_ratio": 3.63,
-      "news_sentiment": 0.532,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.522,
+      "news_confidence": 0.46,
       "news_headlines": [
+        "Constellation Energy (CEG) and Walmart Announce Long-Term Nuclear Power Purchase Agreement",
         "You Can Buy 1 Share of Costco for Less Than $1,000 Right Now. Here's Why the Price Could Go Up by the End of 2030.",
-        "Walmart's deals event offers up to 56% off shelving, organizers, and toolboxes for the garage",
-        "Kroger's New CEO Has A Plan, The Market Has A Question"
+        "Walmart's deals event offers up to 56% off shelving, organizers, and toolboxes for the garage"
       ],
       "high_impact_news": true
     },
@@ -926,9 +909,9 @@
       "news_sentiment": 0.647,
       "news_confidence": 0.34,
       "news_headlines": [
+        "The Billionaire Who Sold Nvidia Too Early Just Bought 196,000 Shares of Broadcom -- Here's the Thesis Behind the Rotation",
         "Cerebras Stock's Volatility Comes as AI Stock Momentum Is Slowing. Should Investors Be Worried?",
-        "The Best High-Yield Income Investments for 2026, Ranked",
-        "Nancy Pelosi Has Added These 9 Stocks To Her Portfolio Since 2025, Including Three Magnificent Seven Names"
+        "The Best High-Yield Income Investments for 2026, Ranked"
       ],
       "high_impact_news": true
     },
@@ -996,6 +979,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MS",
+      "rank_score": 0.6388,
+      "price": 212.0500030517578,
+      "rsi": 32.02337784984364,
+      "momentum_5d": -0.010430037436851038,
+      "momentum_1d": -0.06821924246807858,
+      "macd_crossover": false,
+      "atr_pct": 0.013483656175423102,
+      "bollinger_pct_b": 0.108,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.92,
+      "news_sentiment": 0.659,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Jefferies Reports Earnings Before the Big Banks. Here's Why Wall Street Should Be Watching Closely.",
+        "Morgan Stanley (MS) Opens Private Markets Wider As Redemptions Test North Haven Fund",
+        "Figma Inc. (FIG) is One of the AI Names Under $30, Carrying High Short Interest"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BMY",
       "rank_score": 0.638,
       "price": 57.5099983215332,
@@ -1038,23 +1042,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MS",
-      "rank_score": 0.6287,
-      "price": 212.0500030517578,
-      "rsi": 32.02337784984364,
-      "momentum_5d": -0.010430037436851038,
-      "momentum_1d": -0.06821924246807858,
+      "asset": "VLO",
+      "rank_score": 0.6234,
+      "price": 259.3599853515625,
+      "rsi": 88.09742808298104,
+      "momentum_5d": 0.008594172691163882,
+      "momentum_1d": 0.058137100508860784,
       "macd_crossover": false,
-      "atr_pct": 0.013483656175423102,
-      "bollinger_pct_b": 0.108,
+      "atr_pct": 0.013571844432958852,
+      "bollinger_pct_b": 0.7879,
       "volume_spike": true,
-      "volume_spike_ratio": 1.92,
-      "news_sentiment": 0.395,
-      "news_confidence": 0.43,
+      "volume_spike_ratio": 1.61,
+      "news_sentiment": 0.533,
+      "news_confidence": 0.3,
       "news_headlines": [
-        "Morgan Stanley (MS) Opens Private Markets Wider As Redemptions Test North Haven Fund",
-        "Figma Inc. (FIG) is One of the AI Names Under $30, Carrying High Short Interest",
-        "Does Dividend Hike And US$20 Billion Buyback Change The Bull Case For Morgan Stanley (MS)?"
+        "Valero Energy (VLO) Advances While Market Declines: Some Information for Investors",
+        "Cenovus vs. Valero Energy: Which Energy Stock Is the Better Buy?",
+        "Do Elevated Cash Returns and Insider Sales Reveal a Tension in Valero\u2019s Strategy (VLO)?"
       ],
       "high_impact_news": true
     }
