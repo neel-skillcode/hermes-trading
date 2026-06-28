@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101565.44,
+  "portfolio_balance": 101544.65,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.59,
-  "unrealized_pnl_usd": 810.39,
-  "equity_value": 102375.83,
-  "open_positions": 16,
-  "day_trades_open": 6,
+  "portfolio_drawdown_pct": 0.61,
+  "unrealized_pnl_usd": 828.08,
+  "equity_value": 102372.73,
+  "open_positions": 15,
+  "day_trades_open": 5,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 27981.48,
+  "day_capital_used_usd": 22303.73,
   "swing_capital_used_usd": 47967.65,
-  "total_trades": 420,
-  "last_tick": "2026-06-28T09:31:29.617735+00:00",
+  "total_trades": 421,
+  "last_tick": "2026-06-28T11:22:52.868507+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -323,11 +323,11 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "price_trough": 555.239990234375,
-      "trailing_stop_price": 568.260368,
-      "current_price": 555.950012,
-      "unrealized_pnl_pct": 0.018588,
-      "unrealized_pnl_usd": 126.99
+      "price_trough": 555.1199951171875,
+      "trailing_stop_price": 568.137559,
+      "current_price": 555.119995,
+      "unrealized_pnl_pct": 0.020054,
+      "unrealized_pnl_usd": 137.0
     },
     {
       "id": "MRNA_20260626143644",
@@ -496,44 +496,11 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "current_price": 6.37,
-      "unrealized_pnl_pct": -0.00315,
-      "unrealized_pnl_usd": -11.54
-    },
-    {
-      "id": "DOGE-USD_20260628060953",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.0737299993634224,
-      "entry_time": "2026-06-28T06:09:53.989382+00:00",
-      "stop_loss_pct": 0.00603,
-      "take_profit_pct": 0.01468,
-      "size_usd": 5677.75,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI oversold (13.9)",
-        "5d momentum -0.86%",
-        "1d momentum -2.46%",
-        "BB oversold (pct_b=0.13)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": -0.349,
-      "news_headlines": [
-        "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First.",
-        "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000",
-        "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors"
-      ],
-      "mode": "paper",
-      "strategy_version": "38",
-      "status": "open",
-      "price_peak": 0.07393000274896622,
-      "trailing_stop_price": 0.073484,
-      "current_price": 0.07393,
-      "unrealized_pnl_pct": 0.002713,
-      "unrealized_pnl_usd": 15.4
+      "price_trough": 6.320000171661377,
+      "trailing_stop_price": 6.364303,
+      "current_price": 6.33,
+      "unrealized_pnl_pct": 0.00315,
+      "unrealized_pnl_usd": 11.54
     }
   ],
   "last_candidates": [
@@ -559,27 +526,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "QCOM",
-      "rank_score": 0.8131,
-      "price": 188.60000610351562,
-      "rsi": 41.24379324082712,
-      "momentum_5d": -0.0747644746279959,
-      "momentum_1d": -0.07107320476057988,
-      "macd_crossover": false,
-      "atr_pct": 0.035533947221604835,
-      "bollinger_pct_b": 0.0363,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.54,
-      "news_sentiment": 0.628,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Qualcomm Showed Up Late to the Data Center Game, but Came Ready to Play",
-        "Qualcomm (QCOM) Unveils AI Data Center Push With Meta Microsoft And Modular",
-        "DZ Bank Backs Qualcomm (QCOM) with Buy Rating; Company Eyes $15 Billion in Sales by 2029"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "IONQ",
       "rank_score": 0.8105,
       "price": 49.13999938964844,
@@ -597,6 +543,27 @@
         "Northland Securities Raises Price Target on IonQ Inc. (IONQ)",
         "IonQ (IONQ) Launches Clavis XG Multiplex For Quantum Security On Metro Fiber",
         "Why Uncle Sam\u2019s Multi-Billion Dollar Quantum Influx Makes One of These Tech Giants an Unconditional Buy"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.8071,
+      "price": 188.60000610351562,
+      "rsi": 41.24379324082712,
+      "momentum_5d": -0.0747644746279959,
+      "momentum_1d": -0.07107320476057988,
+      "macd_crossover": false,
+      "atr_pct": 0.035533947221604835,
+      "bollinger_pct_b": 0.0363,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.54,
+      "news_sentiment": 0.538,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "5 big analyst AI moves: Micron price targets hiked, cautious on SpaceX valuation",
+        "Qualcomm Showed Up Late to the Data Center Game, but Came Ready to Play",
+        "Qualcomm (QCOM) Unveils AI Data Center Push With Meta Microsoft And Modular"
       ],
       "high_impact_news": true
     },
@@ -623,7 +590,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.7191,
+      "rank_score": 0.7271,
       "price": 336.1000061035156,
       "rsi": 33.884483628541844,
       "momentum_5d": -0.02125797298403355,
@@ -633,10 +600,10 @@
       "bollinger_pct_b": -0.0069,
       "volume_spike": true,
       "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.719,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.925,
+      "news_confidence": 0.53,
       "news_headlines": [
-        "As oil fades as an inflation concern, will AI take its place? The Fed is watching closely.",
+        "I Let Wayve\u2019s AI Car Drive Me Through London\u2019s Busiest Streets",
         "This Artificial Intelligence (AI) Stock Has Dropped 13% in 1 Month. Here's Why It's a Buy",
         "Google limits Meta\u2019s use of its Gemini AI models, FT reports"
       ],
@@ -769,27 +736,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.653,
-      "price": 363.94000244140625,
-      "rsi": 27.868265922826595,
-      "momentum_5d": -0.015286949861453347,
-      "momentum_1d": -0.05350899554817906,
-      "macd_crossover": false,
-      "atr_pct": 0.016822659400432937,
-      "bollinger_pct_b": -0.0084,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.55,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Broadcom (AVGO) And OpenAI Launch Jalape\u00f1o AI Chip In Nine Months",
-        "The Market Is Panicking, But You Should Keep Buying Shares of This Artificial Intelligence (AI) Powerhouse",
-        "Is Broadcom (AVGO) One of the Best Trending AI Stocks to Watch in 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "OXY",
       "rank_score": 0.6524,
       "price": 49.97999954223633,
@@ -849,6 +795,27 @@
         "Arm Holdings (ARM) Is A Part Of A Second \u201c1776,\u201d Says Newsletter",
         "3 Artificial Intelligence (AI) Stocks I'd Buy Now and Never Sell",
         "TD Cowen Raises its Price Target on Arm Holdings (ARM)"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.6479,
+      "price": 363.94000244140625,
+      "rsi": 27.868265922826595,
+      "momentum_5d": -0.015286949861453347,
+      "momentum_1d": -0.05350899554817906,
+      "macd_crossover": false,
+      "atr_pct": 0.016822659400432937,
+      "bollinger_pct_b": -0.0084,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.54,
+      "news_sentiment": 0.459,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Will Amazon, Taiwan Semiconductor, SpaceX, or Broadcom Be the Next $3 Trillion Company?",
+        "Broadcom (AVGO) And OpenAI Launch Jalape\u00f1o AI Chip In Nine Months",
+        "The Market Is Panicking, But You Should Keep Buying Shares of This Artificial Intelligence (AI) Powerhouse"
       ],
       "high_impact_news": true
     },
