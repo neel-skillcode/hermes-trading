@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101518.08,
+  "portfolio_balance": 101471.92,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.63,
-  "unrealized_pnl_usd": 945.78,
-  "equity_value": 102463.86,
+  "portfolio_drawdown_pct": 0.68,
+  "unrealized_pnl_usd": 984.14,
+  "equity_value": 102456.07,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40607.23,
+  "day_capital_used_usd": 40588.77,
   "swing_capital_used_usd": 47967.65,
-  "total_trades": 422,
-  "last_tick": "2026-06-28T19:24:12.454057+00:00",
+  "total_trades": 423,
+  "last_tick": "2026-06-28T20:40:39.329488+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -323,11 +323,11 @@
       "mode": "paper",
       "strategy_version": "36",
       "status": "open",
-      "price_trough": 549.780029296875,
-      "trailing_stop_price": 562.672371,
-      "current_price": 549.859985,
-      "unrealized_pnl_pct": 0.029339,
-      "unrealized_pnl_usd": 200.43
+      "price_trough": 549.280029296875,
+      "trailing_stop_price": 562.160646,
+      "current_price": 549.280029,
+      "unrealized_pnl_pct": 0.030363,
+      "unrealized_pnl_usd": 207.43
     },
     {
       "id": "MRNA_20260626143644",
@@ -469,40 +469,6 @@
       "unrealized_pnl_usd": 5.81
     },
     {
-      "id": "AVAX-USD_20260628060953",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 6.349999904632568,
-      "entry_time": "2026-06-28T06:09:53.988061+00:00",
-      "stop_loss_pct": 0.00701,
-      "take_profit_pct": 0.01599,
-      "size_usd": 3663.9,
-      "position_size_pct": 0.0361,
-      "confidence": 0.564,
-      "signals": [
-        "RSI oversold (17.5)",
-        "5d momentum -0.63%",
-        "1d momentum -3.50%",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price decline"
-      ],
-      "news_sentiment": 0.444,
-      "news_headlines": [
-        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-        "Is Avalanche About to Have Its Biggest Year Yet?"
-      ],
-      "mode": "paper",
-      "strategy_version": "38",
-      "status": "open",
-      "price_trough": 6.300000190734863,
-      "trailing_stop_price": 6.344163,
-      "current_price": 6.32,
-      "unrealized_pnl_pct": 0.004724,
-      "unrealized_pnl_usd": 17.31
-    },
-    {
       "id": "SOL-USD_20260628125010",
       "asset": "SOL-USD",
       "trade_type": "day",
@@ -530,11 +496,11 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "price_trough": 70.87000274658203,
-      "trailing_stop_price": 71.359006,
-      "current_price": 70.870003,
-      "unrealized_pnl_pct": 0.01254,
-      "unrealized_pnl_usd": 57.86
+      "price_trough": 70.63999938964844,
+      "trailing_stop_price": 71.127415,
+      "current_price": 70.620003,
+      "unrealized_pnl_pct": 0.016023,
+      "unrealized_pnl_usd": 73.93
     },
     {
       "id": "BTC-USD_20260628165307",
@@ -566,9 +532,11 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "current_price": 59400.730469,
-      "unrealized_pnl_pct": -0.002576,
-      "unrealized_pnl_usd": -13.39
+      "price_peak": 59595.03125,
+      "trailing_stop_price": 59352.479473,
+      "current_price": 59581.328125,
+      "unrealized_pnl_pct": 0.000457,
+      "unrealized_pnl_usd": 2.37
     },
     {
       "id": "DOGE-USD_20260628165307",
@@ -600,11 +568,11 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "price_peak": 0.07301999628543854,
-      "trailing_stop_price": 0.072513,
-      "current_price": 0.07302,
-      "unrealized_pnl_pct": 0.000822,
-      "unrealized_pnl_usd": 5.08
+      "price_peak": 0.07315000146627426,
+      "trailing_stop_price": 0.072642,
+      "current_price": 0.07315,
+      "unrealized_pnl_pct": 0.002604,
+      "unrealized_pnl_usd": 16.07
     },
     {
       "id": "ETH-USD_20260628165307",
@@ -634,9 +602,44 @@
       "mode": "paper",
       "strategy_version": "38",
       "status": "open",
-      "current_price": 1567.0,
-      "unrealized_pnl_pct": -0.000453,
-      "unrealized_pnl_usd": -1.05
+      "price_peak": 1570.9599609375,
+      "trailing_stop_price": 1563.639288,
+      "current_price": 1570.949951,
+      "unrealized_pnl_pct": 0.002067,
+      "unrealized_pnl_usd": 4.79
+    },
+    {
+      "id": "AVAX-USD_20260628204039",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 6.429999828338623,
+      "entry_time": "2026-06-28T20:40:39.326743+00:00",
+      "stop_loss_pct": 0.00802,
+      "take_profit_pct": 0.01899,
+      "size_usd": 3645.44,
+      "position_size_pct": 0.0359,
+      "confidence": 0.737,
+      "signals": [
+        "RSI overbought (66.7)",
+        "5d momentum +1.90%",
+        "BB overbought (pct_b=1.12)",
+        "Volume spike 79.0\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: analyst upgrade; price decline"
+      ],
+      "news_sentiment": 0.444,
+      "news_headlines": [
+        "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+        "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+        "Is Avalanche About to Have Its Biggest Year Yet?"
+      ],
+      "mode": "paper",
+      "strategy_version": "39",
+      "status": "open",
+      "current_price": 6.43,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -768,7 +771,7 @@
     },
     {
       "asset": "LLY",
-      "rank_score": 0.6927,
+      "rank_score": 0.6886,
       "price": 1206.4599609375,
       "rsi": 83.39754219176064,
       "momentum_5d": 0.014019340743584635,
@@ -778,12 +781,33 @@
       "bollinger_pct_b": 0.8658,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.736,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.636,
+      "news_confidence": 0.55,
       "news_headlines": [
-        "Dow Jones Futures: Market At Tipping Point As U.S.-Iran Attacks Escalate. Tesla, Jobs On Tap.",
-        "Eli Lilly (LLY) and BioArctic AB Enter into Research and Collaboration Agreement",
-        "Here\u2019s What the Street Thinks About Eli Lilly and Company (LLY)"
+        "Dow Jones Futures: Market At Tipping Point With Iran News, AI Fears In Focus. Tesla, Jobs On Tap.",
+        "Is Eli Lilly and Company (LLY) Among the Best AI-Powered Healthcare Stocks to Buy According to Hedge Funds?",
+        "Eli Lilly (LLY) and BioArctic AB Enter into Research and Collaboration Agreement"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.6841,
+      "price": 336.1000061035156,
+      "rsi": 33.884483628541844,
+      "momentum_5d": -0.02125797298403355,
+      "momentum_1d": -0.03366778280461994,
+      "macd_crossover": false,
+      "atr_pct": 0.012428243578963275,
+      "bollinger_pct_b": -0.0069,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.24,
+      "news_sentiment": 0.167,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Intel Corporation (INTC)\u2019s Stock Has Surged but Needs an Engineering Revival",
+        "SpaceX, Tesla, and Alphabet All Fall in a Broad Tech Rout. Should You Rebalance Your Portfolio?",
+        "This Artificial Intelligence (AI) Cloud Stock Has Crushed Amazon, Microsoft, and Google in 2026. It Can Continue Skyrocketing After 184% Gains"
       ],
       "high_impact_news": true
     },
@@ -805,27 +829,6 @@
         "Best CD rates today, Sunday, June 28, 2026: Lock in up to 4.10% APY",
         "Goldman Sachs Says These 2 Software Stocks Could Surge at Least 60% From Current Levels",
         "Jefferies Reports Earnings Before the Big Banks. Here's Why Wall Street Should Be Watching Closely."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.6831,
-      "price": 336.1000061035156,
-      "rsi": 33.884483628541844,
-      "momentum_5d": -0.02125797298403355,
-      "momentum_1d": -0.03366778280461994,
-      "macd_crossover": false,
-      "atr_pct": 0.012428243578963275,
-      "bollinger_pct_b": -0.0069,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.143,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Intel Corporation (INTC)\u2019s Stock Has Surged but Needs an Engineering Revival",
-        "SpaceX, Tesla, and Alphabet All Fall in a Broad Tech Rout. Should You Rebalance Your Portfolio?",
-        "This Artificial Intelligence (AI) Cloud Stock Has Crushed Amazon, Microsoft, and Google in 2026. It Can Continue Skyrocketing After 184% Gains"
       ],
       "high_impact_news": true
     },
@@ -900,7 +903,7 @@
       "momentum_5d": -0.015286949861453347,
       "momentum_1d": -0.05350899554817906,
       "macd_crossover": false,
-      "atr_pct": 0.016822659400432937,
+      "atr_pct": 0.016935436128673258,
       "bollinger_pct_b": -0.0084,
       "volume_spike": true,
       "volume_spike_ratio": 1.54,

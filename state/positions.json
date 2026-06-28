@@ -278,8 +278,8 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open",
-    "price_trough": 551.3599853515625,
-    "trailing_stop_price": 564.289377
+    "price_trough": 549.280029296875,
+    "trailing_stop_price": 562.160646
   },
   "MRNA": {
     "id": "MRNA_20260626143644",
@@ -408,37 +408,6 @@
     "price_peak": 90.6500015258789,
     "trailing_stop_price": 89.290252
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260628060953",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.349999904632568,
-    "entry_time": "2026-06-28T06:09:53.988061+00:00",
-    "stop_loss_pct": 0.00701,
-    "take_profit_pct": 0.01599,
-    "size_usd": 3663.9,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (17.5)",
-      "5d momentum -0.63%",
-      "1d momentum -3.50%",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "38",
-    "status": "open",
-    "price_trough": 6.300000190734863,
-    "trailing_stop_price": 6.344163
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260628125010",
     "asset": "SOL-USD",
@@ -467,8 +436,8 @@
     "mode": "paper",
     "strategy_version": "38",
     "status": "open",
-    "price_trough": 71.31999969482422,
-    "trailing_stop_price": 71.812108
+    "price_trough": 70.63999938964844,
+    "trailing_stop_price": 71.127415
   },
   "BTC-USD": {
     "id": "BTC-USD_20260628165307",
@@ -499,7 +468,9 @@
     ],
     "mode": "paper",
     "strategy_version": "38",
-    "status": "open"
+    "status": "open",
+    "price_peak": 59595.03125,
+    "trailing_stop_price": 59352.479473
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260628165307",
@@ -530,7 +501,9 @@
     ],
     "mode": "paper",
     "strategy_version": "38",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.07315000146627426,
+    "trailing_stop_price": 0.072642
   },
   "ETH-USD": {
     "id": "ETH-USD_20260628165307",
@@ -559,6 +532,38 @@
     ],
     "mode": "paper",
     "strategy_version": "38",
+    "status": "open",
+    "price_peak": 1570.9599609375,
+    "trailing_stop_price": 1563.639288
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260628204039",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.429999828338623,
+    "entry_time": "2026-06-28T20:40:39.326743+00:00",
+    "stop_loss_pct": 0.00802,
+    "take_profit_pct": 0.01899,
+    "size_usd": 3645.44,
+    "position_size_pct": 0.0359,
+    "confidence": 0.737,
+    "signals": [
+      "RSI overbought (66.7)",
+      "5d momentum +1.90%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 79.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "39",
     "status": "open"
   }
 }
