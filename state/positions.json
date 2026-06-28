@@ -278,8 +278,8 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open",
-    "price_trough": 558.4099731445312,
-    "trailing_stop_price": 571.504687
+    "price_trough": 555.239990234375,
+    "trailing_stop_price": 568.260368
   },
   "MRNA": {
     "id": "MRNA_20260626143644",
@@ -406,8 +406,8 @@
     "mode": "paper",
     "strategy_version": "37",
     "status": "open",
-    "price_trough": 71.0,
-    "trailing_stop_price": 72.065
+    "price_trough": 70.43000030517578,
+    "trailing_stop_price": 71.48645
   },
   "ON": {
     "id": "ON_20260626181353",
@@ -441,24 +441,82 @@
     "price_peak": 90.6500015258789,
     "trailing_stop_price": 89.290252
   },
+  "BTC-USD": {
+    "id": "BTC-USD_20260628060953",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 59905.69140625,
+    "entry_time": "2026-06-28T06:09:53.986179+00:00",
+    "stop_loss_pct": 0.00419,
+    "take_profit_pct": 0.01009,
+    "size_usd": 5307.46,
+    "position_size_pct": 0.0523,
+    "confidence": 0.817,
+    "signals": [
+      "RSI oversold (26.8)",
+      "5d momentum -0.37%",
+      "1d momentum -0.61%",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.057,
+    "news_headlines": [
+      "Crypto's brutal week in review: Bitcoin prices, illicit Iranian transactions, & more",
+      "Bitcoin Just Dropped Below $60,000. History Says This Is What Happens Next.",
+      "Is the U.S. dollar debasement trade dead?"
+    ],
+    "mode": "paper",
+    "strategy_version": "38",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260628060953",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.349999904632568,
+    "entry_time": "2026-06-28T06:09:53.988061+00:00",
+    "stop_loss_pct": 0.00701,
+    "take_profit_pct": 0.01599,
+    "size_usd": 3663.9,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (17.5)",
+      "5d momentum -0.63%",
+      "1d momentum -3.50%",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "38",
+    "status": "open"
+  },
   "DOGE-USD": {
-    "id": "DOGE-USD_20260627194909",
+    "id": "DOGE-USD_20260628060953",
     "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 0.07453999668359756,
-    "entry_time": "2026-06-27T19:49:09.427607+00:00",
-    "stop_loss_pct": 0.00593,
-    "take_profit_pct": 0.01467,
-    "size_usd": 6179.28,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
+    "entry_price": 0.0737299993634224,
+    "entry_time": "2026-06-28T06:09:53.989382+00:00",
+    "stop_loss_pct": 0.00603,
+    "take_profit_pct": 0.01468,
+    "size_usd": 5677.75,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
     "signals": [
-      "RSI oversold (32.7)",
-      "5d momentum -1.69%",
-      "1d momentum -1.18%",
-      "BB oversold (pct_b=-0.20)",
-      "Volume spike 11.8\u00d7",
+      "RSI oversold (13.9)",
+      "5d momentum -0.86%",
+      "1d momentum -2.46%",
+      "BB oversold (pct_b=0.13)",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
     ],
@@ -472,31 +530,29 @@
     "strategy_version": "38",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260627194909",
-    "asset": "AVAX-USD",
+  "ETH-USD": {
+    "id": "ETH-USD_20260628060953",
+    "asset": "ETH-USD",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.420000076293945,
-    "entry_time": "2026-06-27T19:49:09.429589+00:00",
-    "stop_loss_pct": 0.00982,
-    "take_profit_pct": 0.02395,
-    "size_usd": 5704.45,
-    "position_size_pct": 0.0561,
-    "confidence": 0.877,
+    "direction": "short",
+    "entry_price": 1567.3599853515625,
+    "entry_time": "2026-06-28T06:09:53.991869+00:00",
+    "stop_loss_pct": 0.00511,
+    "take_profit_pct": 0.01181,
+    "size_usd": 859.09,
+    "position_size_pct": 0.0085,
+    "confidence": 0.62,
     "signals": [
-      "RSI oversold (35.4)",
-      "5d momentum -2.87%",
-      "BB oversold (pct_b=-0.20)",
-      "Volume spike 2.6\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
+      "RSI oversold (21.7)",
+      "5d momentum -0.36%",
+      "1d momentum -0.81%",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.444,
+    "news_sentiment": -0.422,
     "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
+      "Crypto's brutal week in review: Bitcoin prices, illicit Iranian transactions, & more",
+      "Where Will Solana Be in 3 Years?",
+      "Is UBS Group (UBS) One of the Most Profitable Value Stocks to Invest In Now?"
     ],
     "mode": "paper",
     "strategy_version": "38",
