@@ -157,37 +157,6 @@
     "price_peak": 9.937820434570312,
     "trailing_stop_price": 9.858318
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260626092854",
-    "asset": "BNB-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 566.47998046875,
-    "entry_time": "2026-06-26T09:28:54.976272+00:00",
-    "stop_loss_pct": 0.02345,
-    "take_profit_pct": 0.0786,
-    "size_usd": 6831.55,
-    "position_size_pct": 0.0676,
-    "confidence": 0.704,
-    "signals": [
-      "RSI overbought (65.6)",
-      "5d momentum +1.26%",
-      "BB overbought (pct_b=0.88)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": -0.172,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level",
-      "ZachXBT Calls Out MemeCore After M Token Crashes 75%, Demands Answers From Binance and Bybit",
-      "$600M Wiped Out in Hours: Crypto\u2019s Leverage Bloodbath Just Hit BTC and ETH Hardest"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open",
-    "price_trough": 547.5,
-    "trailing_stop_price": 560.338875
-  },
   "REGN": {
     "id": "REGN_20260626143644",
     "asset": "REGN",
@@ -369,7 +338,9 @@
     ],
     "mode": "paper",
     "strategy_version": "40",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1620.1700439453125,
+    "trailing_stop_price": 1638.13773
   },
   "KLAC": {
     "id": "KLAC_20260629175956",
@@ -396,36 +367,6 @@
       "Can KLAC Keep Outgrowing the Wafer Equipment Market Through 2027?",
       "2 Nasdaq 100 Stocks Worth Your Attention and 1 We Brush Off",
       "Can KLA Corporation (KLAC) Capture Its Share of a $250 Billion Global Chip Equipment Market?"
-    ],
-    "mode": "paper",
-    "strategy_version": "40",
-    "status": "open"
-  },
-  "LCID": {
-    "id": "LCID_20260629175956",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.369999885559082,
-    "entry_time": "2026-06-29T17:59:56.493602+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5102.85,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (92.0)",
-      "5d momentum +7.24%",
-      "1d momentum +23.09%",
-      "BB overbought (pct_b=0.92)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.231,
-    "news_headlines": [
-      "Why Lucid (LCID) Stock Is Up Today",
-      "Trading Near an All-Time Low of $5: 1 Crucial Balance Sheet Metric That Explains Why Lucid Is a Dangerous Capital-Destruction Trap",
-      "General Motors vs. Lucid: Which Consumer Auto Stock Is a Better Buy in 2026?"
     ],
     "mode": "paper",
     "strategy_version": "40",
@@ -520,6 +461,36 @@
     ],
     "mode": "paper",
     "strategy_version": "40",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260629200809",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.0699000358581543,
+    "entry_time": "2026-06-29T20:08:09.804411+00:00",
+    "stop_loss_pct": 0.0098,
+    "take_profit_pct": 0.02389,
+    "size_usd": 5085.87,
+    "position_size_pct": 0.0507,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (70.1)",
+      "5d momentum +2.13%",
+      "1d momentum +2.36%",
+      "BB overbought (pct_b=1.02)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.353,
+    "news_headlines": [
+      "Ripple CEO Brad Garlinghouse has a blunt message for Michael Saylor",
+      "XRP Ledger's 'Missing Layer' Draws Closer as Developers Test Lending, Credit Features: Ripple",
+      "Brad Garlinghouse Takes Aim at $16Tn Payment Flows: Is XRP Ripple Really Going to 100X?"
+    ],
+    "mode": "paper",
+    "strategy_version": "41",
     "status": "open"
   }
 }
