@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 161.88400268554688,
-    "trailing_stop_price": 160.588931
+    "price_peak": 161.94400024414062,
+    "trailing_stop_price": 160.648448
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -131,99 +131,6 @@
     "status": "open",
     "price_trough": 1.1340440511703491,
     "trailing_stop_price": 1.143116
-  },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260616172805",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 186.2949981689453,
-    "entry_time": "2026-06-16T17:28:05.439412+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02634,
-    "size_usd": 5681.12,
-    "position_size_pct": 0.0561,
-    "confidence": 0.584,
-    "signals": [
-      "RSI overbought (75.9)",
-      "BB overbought (pct_b=0.91)",
-      "News -0.54 (conf 0.65) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 2 articles. Overa"
-    ],
-    "news_sentiment": -0.538,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting",
-      "The EUR/USD Paradox: A Strong Euro in a Weak Economy"
-    ],
-    "mode": "paper",
-    "strategy_version": "26",
-    "status": "open",
-    "price_trough": 183.3179931640625,
-    "trailing_stop_price": 184.784537
-  },
-  "UNG": {
-    "id": "UNG_20260624173240",
-    "asset": "UNG",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 11.675000190734863,
-    "entry_time": "2026-06-24T17:32:40.022601+00:00",
-    "stop_loss_pct": 0.02285,
-    "take_profit_pct": 0.07565,
-    "size_usd": 5935.18,
-    "position_size_pct": 0.0596,
-    "confidence": 0.621,
-    "signals": [
-      "RSI oversold (42.0)",
-      "MACD crossover",
-      "5d momentum +1.61%",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 3 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.412,
-    "news_headlines": [
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions",
-      "Sector Update: Energy Stocks Slightly Higher Pre-Bell Tuesday",
-      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares"
-    ],
-    "mode": "paper",
-    "strategy_version": "33",
-    "status": "open",
-    "price_peak": 12.085000038146973,
-    "trailing_stop_price": 11.808858
-  },
-  "LRCX": {
-    "id": "LRCX_20260625133229",
-    "asset": "LRCX",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 391.20001220703125,
-    "entry_time": "2026-06-25T13:32:29.625447+00:00",
-    "stop_loss_pct": 0.06,
-    "take_profit_pct": 0.20553,
-    "size_usd": 8198.59,
-    "position_size_pct": 0.0817,
-    "confidence": 0.851,
-    "signals": [
-      "RSI overbought (65.5)",
-      "MACD crossover",
-      "5d momentum +5.52%",
-      "1d momentum -0.49%",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat"
-    ],
-    "news_sentiment": 0.636,
-    "news_headlines": [
-      "Micron Q3 earnings beat sends stock surging 18% premarket",
-      "Top After-Hours Gainers Today Beyond Micron: QCOM, AMAT, LRCX Surge",
-      "Everyone Is Watching Applied Materials Stock's AI Boom. The Real Story Is In The Supply Chain."
-    ],
-    "mode": "paper",
-    "strategy_version": "35",
-    "status": "open",
-    "price_trough": 379.0899963378906,
-    "trailing_stop_price": 401.835396
   },
   "USD/NOK": {
     "id": "USD/NOK_20260626015153",
@@ -281,68 +188,6 @@
     "price_trough": 547.5,
     "trailing_stop_price": 560.338875
   },
-  "MRNA": {
-    "id": "MRNA_20260626143644",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 66.49500274658203,
-    "entry_time": "2026-06-26T14:36:44.189479+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5189.17,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (63.0)",
-      "5d momentum +11.63%",
-      "1d momentum +11.14%",
-      "BB overbought (pct_b=1.13)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.684,
-    "news_headlines": [
-      "This Stock Has Already Doubled This Year and Is Still Racing Towards a Major Catalyst",
-      "How Unanimous FDA Panel Support For mRNA Flu Shot At Moderna (MRNA) Has Changed Its Investment Story",
-      "Moderna (MRNA) Rises As Market Takes a Dip: Key Facts"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open",
-    "price_trough": 66.27999877929688,
-    "trailing_stop_price": 67.274199
-  },
-  "ARM": {
-    "id": "ARM_20260626143644",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 334.3800048828125,
-    "entry_time": "2026-06-26T14:36:44.191160+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6104.14,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (34.2)",
-      "5d momentum -6.29%",
-      "1d momentum -17.99%",
-      "BB oversold (pct_b=-0.02)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.926,
-    "news_headlines": [
-      "Arm (ARM) Wants To Be The Next Full Stack AI Infrastructure Provider",
-      "Forget the Cellphones: BlackBerry Shares Jump 23% as an AI Play",
-      "Is Arm Holdings a Buy Near $347? The Case for Double-Digit Upside"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open"
-  },
   "REGN": {
     "id": "REGN_20260626143644",
     "asset": "REGN",
@@ -376,38 +221,6 @@
     "price_trough": 632.3099975585938,
     "trailing_stop_price": 637.31157
   },
-  "ON": {
-    "id": "ON_20260626181353",
-    "asset": "ON",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 90.0250015258789,
-    "entry_time": "2026-06-26T18:13:53.448344+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 1660.65,
-    "position_size_pct": 0.0163,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (20.3)",
-      "5d momentum -24.22%",
-      "1d momentum -23.54%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [supports]: ma catalyst; price decline"
-    ],
-    "news_sentiment": 0.37,
-    "news_headlines": [
-      "Sector Update: Tech Stocks Fall Friday Afternoon",
-      "Moderna, Nvidia, Sandisk, Palantir, ON Semi, and More Stocks That Explain Today\u2019s Market",
-      "Top Midday Stories: OpenAI Weighs Pushing Back IPO to 2027; ON Semiconductor Acquires Synaptics for $7 Billion"
-    ],
-    "mode": "paper",
-    "strategy_version": "37",
-    "status": "open",
-    "price_peak": 90.6500015258789,
-    "trailing_stop_price": 89.290252
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260629065521",
     "asset": "AVAX-USD",
@@ -437,8 +250,8 @@
     "mode": "paper",
     "strategy_version": "39",
     "status": "open",
-    "price_peak": 6.559999942779541,
-    "trailing_stop_price": 6.4616
+    "price_peak": 6.630000114440918,
+    "trailing_stop_price": 6.53055
   },
   "SOL-USD": {
     "id": "SOL-USD_20260629065521",
@@ -466,7 +279,9 @@
     ],
     "mode": "paper",
     "strategy_version": "39",
-    "status": "open"
+    "status": "open",
+    "price_peak": 74.19000244140625,
+    "trailing_stop_price": 73.301948
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260629115537",
@@ -524,7 +339,9 @@
     ],
     "mode": "paper",
     "strategy_version": "39",
-    "status": "open"
+    "status": "open",
+    "price_trough": 59686.6015625,
+    "trailing_stop_price": 60121.120022
   },
   "ETH-USD": {
     "id": "ETH-USD_20260629115537",
@@ -552,6 +369,181 @@
     ],
     "mode": "paper",
     "strategy_version": "39",
+    "status": "open"
+  },
+  "LCID": {
+    "id": "LCID_20260629153722",
+    "asset": "LCID",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.260000228881836,
+    "entry_time": "2026-06-29T15:37:22.004043+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5123.32,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (88.5)",
+      "5d momentum +12.89%",
+      "1d momentum +21.08%",
+      "BB overbought (pct_b=0.99)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.231,
+    "news_headlines": [
+      "Why Lucid (LCID) Stock Is Up Today",
+      "Trading Near an All-Time Low of $5: 1 Crucial Balance Sheet Metric That Explains Why Lucid Is a Dangerous Capital-Destruction Trap",
+      "General Motors vs. Lucid: Which Consumer Auto Stock Is a Better Buy in 2026?"
+    ],
+    "mode": "paper",
+    "strategy_version": "40",
+    "status": "open"
+  },
+  "KLAC": {
+    "id": "KLAC_20260629153722",
+    "asset": "KLAC",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 270.44500732421875,
+    "entry_time": "2026-06-29T15:37:22.005872+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5123.32,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (61.5)",
+      "5d momentum +10.10%",
+      "1d momentum +10.59%",
+      "BB overbought (pct_b=1.01)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.385,
+    "news_headlines": [
+      "2 Nasdaq 100 Stocks Worth Your Attention and 1 We Brush Off",
+      "Can KLA Corporation (KLAC) Capture Its Share of a $250 Billion Global Chip Equipment Market?",
+      "Here's Why KLA (KLAC) Fell More Than Broader Market"
+    ],
+    "mode": "paper",
+    "strategy_version": "40",
+    "status": "open"
+  },
+  "RIVN": {
+    "id": "RIVN_20260629153722",
+    "asset": "RIVN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 16.405000686645508,
+    "entry_time": "2026-06-29T15:37:22.007548+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 4610.94,
+    "position_size_pct": 0.0457,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (93.9)",
+      "5d momentum +5.46%",
+      "1d momentum +10.14%",
+      "BB overbought (pct_b=0.95)",
+      "High-impact catalyst",
+      "Claude [contradicts]: ma catalyst"
+    ],
+    "news_sentiment": 0.024,
+    "news_headlines": [
+      "Warner Discovery boss is again among highest-paid CEOs in America",
+      "Rivian R1T Is What Tesla Should Have Made Instead Of The Cybertruck, Pickup Skeptic James May Says He's 'Converted'",
+      "Prediction: Buying Rivian Stock Today Could Set You Up for Life"
+    ],
+    "mode": "paper",
+    "strategy_version": "40",
+    "status": "open"
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260629153722",
+    "asset": "EUR/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 184.94000244140625,
+    "entry_time": "2026-06-29T15:37:22.024433+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02674,
+    "size_usd": 6620.31,
+    "position_size_pct": 0.0657,
+    "confidence": 0.684,
+    "signals": [
+      "RSI overbought (77.2)",
+      "BB overbought (pct_b=0.98)",
+      "News -1.00 (conf 0.70) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
+    ],
+    "news_sentiment": -1.0,
+    "news_headlines": [
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+    ],
+    "mode": "paper",
+    "strategy_version": "40",
+    "status": "open"
+  },
+  "UNG": {
+    "id": "UNG_20260629153722",
+    "asset": "UNG",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 11.449999809265137,
+    "entry_time": "2026-06-29T15:37:22.035325+00:00",
+    "stop_loss_pct": 0.03343,
+    "take_profit_pct": 0.1097,
+    "size_usd": 5458.85,
+    "position_size_pct": 0.0541,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (38.3)",
+      "5d momentum -2.80%",
+      "BB oversold (pct_b=0.03)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 3 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.353,
+    "news_headlines": [
+      "Sector Update: Energy Stocks Edge Higher Pre-Bell Monday",
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid Hopes for Renewed US-Iran Diplomacy",
+      "Correction: Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks"
+    ],
+    "mode": "paper",
+    "strategy_version": "40",
+    "status": "open"
+  },
+  "BAC": {
+    "id": "BAC_20260629153722",
+    "asset": "BAC",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 58.1349983215332,
+    "entry_time": "2026-06-29T15:37:22.042723+00:00",
+    "stop_loss_pct": 0.01749,
+    "take_profit_pct": 0.05699,
+    "size_usd": 5003.94,
+    "position_size_pct": 0.0496,
+    "confidence": 0.517,
+    "signals": [
+      "RSI oversold (44.4)",
+      "5d momentum +0.53%",
+      "News +0.22 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [supports]: product catalyst"
+    ],
+    "news_sentiment": 0.224,
+    "news_headlines": [
+      "Alkermes Faces Risk on Orexin-Related Value From Upcoming Updates, BofA Says",
+      "Bank of America Warns S&P 500 Could Crash Soon",
+      "SpaceX Pushes US Share Sales to Record $251 Billion at Midyear"
+    ],
+    "mode": "paper",
+    "strategy_version": "40",
     "status": "open"
   }
 }
