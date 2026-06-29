@@ -408,71 +408,6 @@
     "price_peak": 90.6500015258789,
     "trailing_stop_price": 89.290252
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260628165307",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07295999675989151,
-    "entry_time": "2026-06-28T16:53:07.600588+00:00",
-    "stop_loss_pct": 0.00695,
-    "take_profit_pct": 0.01721,
-    "size_usd": 6172.3,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (34.7)",
-      "5d momentum -1.06%",
-      "1d momentum -4.15%",
-      "BB oversold (pct_b=0.01)",
-      "Volume spike 3.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.349,
-    "news_headlines": [
-      "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First.",
-      "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000",
-      "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Barometer Hits 3-Year High: Analyst Weighs If July Will Bring Relief To BTC Investors"
-    ],
-    "mode": "paper",
-    "strategy_version": "38",
-    "status": "open",
-    "price_peak": 0.07315000146627426,
-    "trailing_stop_price": 0.072642
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260628224502",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1559.6400146484375,
-    "entry_time": "2026-06-28T22:45:02.307008+00:00",
-    "stop_loss_pct": 0.00709,
-    "take_profit_pct": 0.0174,
-    "size_usd": 5911.32,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (31.3)",
-      "5d momentum -0.65%",
-      "1d momentum -1.08%",
-      "BB oversold (pct_b=0.01)",
-      "Volume spike 3.6\u00d7",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.422,
-    "news_headlines": [
-      "XRP vs Ethereum: Which Is the Better Dip to Buy Right Now?",
-      "Where Will Solana Be in 3 Years?",
-      "Is UBS Group (UBS) One of the Most Profitable Value Stocks to Invest In Now?"
-    ],
-    "mode": "paper",
-    "strategy_version": "39",
-    "status": "open",
-    "price_peak": 1580.300048828125,
-    "trailing_stop_price": 1569.095721
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260629065521",
     "asset": "AVAX-USD",
@@ -501,7 +436,9 @@
     ],
     "mode": "paper",
     "strategy_version": "39",
-    "status": "open"
+    "status": "open",
+    "price_peak": 6.559999942779541,
+    "trailing_stop_price": 6.4616
   },
   "SOL-USD": {
     "id": "SOL-USD_20260629065521",
@@ -526,6 +463,92 @@
       "Bitcoin, Ethereum, Dogecoin Slide, XRP Flat As US-Iran Tensions Escalate Over The Weekend: Analyst Notes 'Pretty Interesting Signal' About The BTC Market",
       "Where Will Solana Be in 3 Years?",
       "Solana (NasdaqCM:HSDT) Stock Fair Value Moves Lower As Analysts Trim Growth Outlook"
+    ],
+    "mode": "paper",
+    "strategy_version": "39",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260629115537",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.07260999828577042,
+    "entry_time": "2026-06-29T11:55:37.652822+00:00",
+    "stop_loss_pct": 0.00928,
+    "take_profit_pct": 0.02118,
+    "size_usd": 3664.71,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "5d momentum -0.63%",
+      "1d momentum -1.53%",
+      "Volume spike 1.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.25,
+    "news_headlines": [
+      "Do Meme Coins Such as Dogecoin Have a Legitimate Case as a Long-Term Investment?",
+      "Bitcoin, Ethereum, Dogecoin Slide, XRP Flat As US-Iran Tensions Escalate Over The Weekend: Analyst Notes 'Pretty Interesting Signal' About The BTC Market",
+      "Thinking of Buying the Bottom With Dogecoin? Do This 1 Thing First."
+    ],
+    "mode": "paper",
+    "strategy_version": "39",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260629115537",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 59721.73828125,
+    "entry_time": "2026-06-29T11:55:37.654897+00:00",
+    "stop_loss_pct": 0.00728,
+    "take_profit_pct": 0.01684,
+    "size_usd": 4054.57,
+    "position_size_pct": 0.0399,
+    "confidence": 0.624,
+    "signals": [
+      "5d momentum -0.44%",
+      "1d momentum -0.88%",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.172,
+    "news_headlines": [
+      "Bitcoin has crashed 99% before in 2011. But, it's still here.",
+      "Bitcoin Is Having Its Toughest June Since 2022 \u2013 But Saylor Sees Another Buying Opportunity",
+      "South Korea\u2019s New Rules Put Crypto Treasury Firms at Risk of Major Delisting"
+    ],
+    "mode": "paper",
+    "strategy_version": "39",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260629115537",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1568.5699462890625,
+    "entry_time": "2026-06-29T11:55:37.656324+00:00",
+    "stop_loss_pct": 0.00802,
+    "take_profit_pct": 0.01801,
+    "size_usd": 3183.87,
+    "position_size_pct": 0.0314,
+    "confidence": 0.49,
+    "signals": [
+      "5d momentum -0.75%",
+      "1d momentum -0.76%",
+      "Volume spike 8.6\u00d7",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.538,
+    "news_headlines": [
+      "Why Is The Crypto Market Up Today?",
+      "Bitcoin, Ethereum, Dogecoin Slide, XRP Flat As US-Iran Tensions Escalate Over The Weekend: Analyst Notes 'Pretty Interesting Signal' About The BTC Market",
+      "XRP vs Ethereum: Which Is the Better Dip to Buy Right Now?"
     ],
     "mode": "paper",
     "strategy_version": "39",
