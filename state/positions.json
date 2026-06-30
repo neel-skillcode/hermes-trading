@@ -283,38 +283,6 @@
     "price_peak": 58768.76953125,
     "trailing_stop_price": 58430.261419
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260630132848",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1557.6700439453125,
-    "entry_time": "2026-06-30T13:28:48.057893+00:00",
-    "stop_loss_pct": 0.00664,
-    "take_profit_pct": 0.01603,
-    "size_usd": 2491.73,
-    "position_size_pct": 0.0248,
-    "confidence": 0.83,
-    "signals": [
-      "RSI oversold (19.2)",
-      "5d momentum -1.48%",
-      "1d momentum -0.74%",
-      "BB oversold (pct_b=0.05)",
-      "Volume spike 2.4\u00d7",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.152,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
-      "Tom Lee Says Bitcoin\u2019s Yearly Returns Happen in 10 Days \u2014 Here's When They Could Occur",
-      "If History Is Any Guide, This Is What Happens Next for the Crypto Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "41",
-    "status": "open",
-    "price_peak": 1577.93994140625,
-    "trailing_stop_price": 1567.46242
-  },
   "AMD": {
     "id": "AMD_20260630160723",
     "asset": "AMD",
@@ -497,8 +465,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 6.53000020980835,
-    "trailing_stop_price": 6.592558
+    "price_trough": 6.510000228881836,
+    "trailing_stop_price": 6.572366
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260630201757",
@@ -584,6 +552,35 @@
       "California, UK, Australia, EU set to unveil new crypto regulations this week",
       "Elon Musk\u2019s X money app beats crypto yields with new 6% payout",
       "Top Cryptocurrencies Fall; Bitcoin Drops Below $59,000 Level"
+    ],
+    "mode": "paper",
+    "strategy_version": "42",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260630230013",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1565.0799560546875,
+    "entry_time": "2026-06-30T23:00:13.648867+00:00",
+    "stop_loss_pct": 0.00641,
+    "take_profit_pct": 0.01491,
+    "size_usd": 2496.51,
+    "position_size_pct": 0.0249,
+    "confidence": 0.655,
+    "signals": [
+      "RSI oversold (40.7)",
+      "1d momentum -2.82%",
+      "Volume spike 9.0\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: fed dovish; price decline"
+    ],
+    "news_sentiment": 0.231,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
+      "Crypto Market Today, June 30: Bitcoin Slides on Strategy Pivot",
+      "Trump Discloses Over $1.2 Billion in Crypto Earnings, $50M in Bitcoin Holdings"
     ],
     "mode": "paper",
     "strategy_version": "42",
