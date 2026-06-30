@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 161.94400024414062,
-    "trailing_stop_price": 160.648448
+    "price_peak": 162.24400329589844,
+    "trailing_stop_price": 160.946051
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -154,8 +154,8 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open",
-    "price_peak": 9.937820434570312,
-    "trailing_stop_price": 9.858318
+    "price_peak": 9.946430206298828,
+    "trailing_stop_price": 9.866859
   },
   "REGN": {
     "id": "REGN_20260626143644",
@@ -190,38 +190,6 @@
     "price_trough": 627.1099853515625,
     "trailing_stop_price": 632.070425
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260629065521",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.53000020980835,
-    "entry_time": "2026-06-29T06:55:21.632113+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03658,
-    "size_usd": 5698.11,
-    "position_size_pct": 0.0561,
-    "confidence": 0.877,
-    "signals": [
-      "RSI overbought (68.3)",
-      "5d momentum +0.46%",
-      "1d momentum +3.32%",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "39",
-    "status": "open",
-    "price_peak": 6.75,
-    "trailing_stop_price": 6.64875
-  },
   "EUR/JPY": {
     "id": "EUR/JPY_20260629153722",
     "asset": "EUR/JPY",
@@ -247,7 +215,9 @@
     ],
     "mode": "paper",
     "strategy_version": "40",
-    "status": "open"
+    "status": "open",
+    "price_trough": 184.8280029296875,
+    "trailing_stop_price": 186.306627
   },
   "UNG": {
     "id": "UNG_20260629153722",
@@ -339,8 +309,8 @@
     "mode": "paper",
     "strategy_version": "40",
     "status": "open",
-    "price_trough": 1620.1700439453125,
-    "trailing_stop_price": 1638.13773
+    "price_trough": 1586.97998046875,
+    "trailing_stop_price": 1604.579588
   },
   "KLAC": {
     "id": "KLAC_20260629175956",
@@ -461,7 +431,9 @@
     ],
     "mode": "paper",
     "strategy_version": "40",
-    "status": "open"
+    "status": "open",
+    "price_trough": 59459.01171875,
+    "trailing_stop_price": 60010.196757
   },
   "XRP-USD": {
     "id": "XRP-USD_20260629200809",
@@ -488,6 +460,37 @@
       "Ripple CEO Brad Garlinghouse has a blunt message for Michael Saylor",
       "XRP Ledger's 'Missing Layer' Draws Closer as Developers Test Lending, Credit Features: Ripple",
       "Brad Garlinghouse Takes Aim at $16Tn Payment Flows: Is XRP Ripple Really Going to 100X?"
+    ],
+    "mode": "paper",
+    "strategy_version": "41",
+    "status": "open",
+    "price_trough": 1.0465999841690063,
+    "trailing_stop_price": 1.056857
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260630055301",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.07220999896526337,
+    "entry_time": "2026-06-30T05:53:01.651870+00:00",
+    "stop_loss_pct": 0.00671,
+    "take_profit_pct": 0.01559,
+    "size_usd": 4139.25,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (43.0)",
+      "5d momentum -0.32%",
+      "1d momentum -1.04%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "Bitcoin, Ethereum Gain, XRP, Dogecoin Flat As Trump Announces Next Round Of US-Iran Talks: Analyst Flags Signal Marking 'Generational Buying Opportunities'",
+      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
+      "Do Meme Coins Such as Dogecoin Have a Legitimate Case as a Long-Term Investment?"
     ],
     "mode": "paper",
     "strategy_version": "41",
