@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 162.38800048828125,
-    "trailing_stop_price": 161.088896
+    "price_peak": 162.39300537109375,
+    "trailing_stop_price": 161.093861
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -399,8 +399,8 @@
     "mode": "paper",
     "strategy_version": "40",
     "status": "open",
-    "price_trough": 59162.37890625,
-    "trailing_stop_price": 59710.814159
+    "price_trough": 59081.5390625,
+    "trailing_stop_price": 59629.22493
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260630055301",
@@ -429,7 +429,9 @@
     ],
     "mode": "paper",
     "strategy_version": "41",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.0719899982213974,
+    "trailing_stop_price": 0.072473
   },
   "ETH-USD": {
     "id": "ETH-USD_20260630085353",
@@ -487,7 +489,9 @@
     ],
     "mode": "paper",
     "strategy_version": "41",
-    "status": "open"
+    "status": "open",
+    "price_trough": 546.9000244140625,
+    "trailing_stop_price": 549.043873
   },
   "SOL-USD": {
     "id": "SOL-USD_20260630085353",
@@ -513,6 +517,37 @@
       "Bitcoin, Ethereum Gain, XRP, Dogecoin Flat As Trump Announces Next Round Of US-Iran Talks: Analyst Flags Signal Marking 'Generational Buying Opportunities'",
       "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
       "Bitcoin Holds Below $60,000 as Cryptos Slide"
+    ],
+    "mode": "paper",
+    "strategy_version": "41",
+    "status": "open",
+    "price_peak": 73.37000274658203,
+    "trailing_stop_price": 72.78451
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260630113902",
+    "asset": "AVAX-USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 6.559999942779541,
+    "entry_time": "2026-06-30T11:39:02.616933+00:00",
+    "stop_loss_pct": 0.02017,
+    "take_profit_pct": 0.06759,
+    "size_usd": 6807.92,
+    "position_size_pct": 0.0676,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (27.6)",
+      "5d momentum -0.46%",
+      "BB oversold (pct_b=0.06)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
     ],
     "mode": "paper",
     "strategy_version": "41",
