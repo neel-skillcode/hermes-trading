@@ -369,99 +369,6 @@
     "strategy_version": "40",
     "status": "open"
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260629175956",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 60327.37890625,
-    "entry_time": "2026-06-29T17:59:56.498191+00:00",
-    "stop_loss_pct": 0.00927,
-    "take_profit_pct": 0.02295,
-    "size_usd": 2266.48,
-    "position_size_pct": 0.0226,
-    "confidence": 0.95,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +0.78%",
-      "1d momentum +1.40%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 3.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.347,
-    "news_headlines": [
-      "Bitcoin ETFs see worst month of outflows as investors pile into AI trade",
-      "Bitcoin and ethereum prices today, Monday, June 29, 2026: Prices continue to move lower",
-      "Sector Update: Financial Stocks Advance Monday Afternoon"
-    ],
-    "mode": "paper",
-    "strategy_version": "40",
-    "status": "open",
-    "price_trough": 59081.5390625,
-    "trailing_stop_price": 59629.22493
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260630055301",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.07220999896526337,
-    "entry_time": "2026-06-30T05:53:01.651870+00:00",
-    "stop_loss_pct": 0.00671,
-    "take_profit_pct": 0.01559,
-    "size_usd": 4139.25,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (43.0)",
-      "5d momentum -0.32%",
-      "1d momentum -1.04%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.2,
-    "news_headlines": [
-      "Bitcoin, Ethereum Gain, XRP, Dogecoin Flat As Trump Announces Next Round Of US-Iran Talks: Analyst Flags Signal Marking 'Generational Buying Opportunities'",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
-      "Do Meme Coins Such as Dogecoin Have a Legitimate Case as a Long-Term Investment?"
-    ],
-    "mode": "paper",
-    "strategy_version": "41",
-    "status": "open",
-    "price_trough": 0.0719899982213974,
-    "trailing_stop_price": 0.072473
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260630085353",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1578.800048828125,
-    "entry_time": "2026-06-30T08:53:53.611903+00:00",
-    "stop_loss_pct": 0.00541,
-    "take_profit_pct": 0.01253,
-    "size_usd": 4061.55,
-    "position_size_pct": 0.0403,
-    "confidence": 0.63,
-    "signals": [
-      "RSI oversold (21.0)",
-      "5d momentum -0.35%",
-      "1d momentum +0.53%",
-      "Volume spike 2.9\u00d7",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.278,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Monday, June 29, 2026: Prices continue to move lower",
-      "Why Is The Crypto Market Down Today?",
-      "Tom Lee Ties Ethereum Selloff to Quarter-End Window Dressing"
-    ],
-    "mode": "paper",
-    "strategy_version": "41",
-    "status": "open"
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260630085353",
     "asset": "BNB-USD",
@@ -490,64 +397,96 @@
     "mode": "paper",
     "strategy_version": "41",
     "status": "open",
-    "price_trough": 546.9000244140625,
-    "trailing_stop_price": 549.043873
+    "price_trough": 545.0999755859375,
+    "trailing_stop_price": 547.236767
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260630085353",
-    "asset": "SOL-USD",
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260630132848",
+    "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 73.33000183105469,
-    "entry_time": "2026-06-30T08:53:53.615869+00:00",
-    "stop_loss_pct": 0.00798,
-    "take_profit_pct": 0.019,
-    "size_usd": 4292.79,
-    "position_size_pct": 0.0426,
-    "confidence": 0.76,
+    "entry_price": 0.07006999850273132,
+    "entry_time": "2026-06-30T13:28:48.053666+00:00",
+    "stop_loss_pct": 0.00903,
+    "take_profit_pct": 0.02235,
+    "size_usd": 6120.35,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
     "signals": [
-      "RSI oversold (22.6)",
-      "5d momentum -1.00%",
-      "1d momentum +0.96%",
-      "BB oversold (pct_b=0.12)",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      "RSI oversold (17.1)",
+      "5d momentum -3.02%",
+      "1d momentum -3.48%",
+      "BB oversold (pct_b=-0.04)",
+      "Volume spike 2.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.474,
+    "news_sentiment": 0.081,
     "news_headlines": [
+      "Dogecoin Just Plunged Below a Very Important Level, and It Spells Bad News for Investors",
       "Bitcoin, Ethereum Gain, XRP, Dogecoin Flat As Trump Announces Next Round Of US-Iran Talks: Analyst Flags Signal Marking 'Generational Buying Opportunities'",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
-      "Bitcoin Holds Below $60,000 as Cryptos Slide"
+      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000"
     ],
     "mode": "paper",
     "strategy_version": "41",
-    "status": "open",
-    "price_peak": 73.37000274658203,
-    "trailing_stop_price": 72.78451
+    "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260630113902",
-    "asset": "AVAX-USD",
-    "trade_type": "swing",
+  "BTC-USD": {
+    "id": "BTC-USD_20260630132848",
+    "asset": "BTC-USD",
+    "trade_type": "day",
     "direction": "long",
-    "entry_price": 6.559999942779541,
-    "entry_time": "2026-06-30T11:39:02.616933+00:00",
-    "stop_loss_pct": 0.02017,
-    "take_profit_pct": 0.06759,
-    "size_usd": 6807.92,
-    "position_size_pct": 0.0676,
-    "confidence": 0.704,
+    "entry_price": 58375.0,
+    "entry_time": "2026-06-30T13:28:48.055852+00:00",
+    "stop_loss_pct": 0.00576,
+    "take_profit_pct": 0.01425,
+    "size_usd": 6120.35,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
     "signals": [
-      "RSI oversold (27.6)",
-      "5d momentum -0.46%",
-      "BB oversold (pct_b=0.06)",
+      "RSI oversold (16.0)",
+      "5d momentum -1.41%",
+      "1d momentum -1.82%",
+      "BB oversold (pct_b=-0.02)",
+      "Volume spike 3.6\u00d7",
       "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; price decline"
+      "Claude [neutral]: price surge"
     ],
-    "news_sentiment": 0.444,
+    "news_sentiment": 0.231,
     "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
+      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
+      "'Buy' isn't Strategy's only verb anymore: What to know about its new bitcoin playbook",
+      "Saylor's Strategy changes playbook and can now sell its bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "41",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260630132848",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1557.6700439453125,
+    "entry_time": "2026-06-30T13:28:48.057893+00:00",
+    "stop_loss_pct": 0.00664,
+    "take_profit_pct": 0.01603,
+    "size_usd": 2491.73,
+    "position_size_pct": 0.0248,
+    "confidence": 0.83,
+    "signals": [
+      "RSI oversold (19.2)",
+      "5d momentum -1.48%",
+      "1d momentum -0.74%",
+      "BB oversold (pct_b=0.05)",
+      "Volume spike 2.4\u00d7",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": 0.152,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
+      "Tom Lee Says Bitcoin\u2019s Yearly Returns Happen in 10 Days \u2014 Here's When They Could Occur",
+      "If History Is Any Guide, This Is What Happens Next for the Crypto Market"
     ],
     "mode": "paper",
     "strategy_version": "41",
