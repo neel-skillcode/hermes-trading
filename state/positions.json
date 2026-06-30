@@ -250,37 +250,6 @@
     "price_peak": 11.929900169372559,
     "trailing_stop_price": 11.531084
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260630085353",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 549.760009765625,
-    "entry_time": "2026-06-30T08:53:53.613845+00:00",
-    "stop_loss_pct": 0.00392,
-    "take_profit_pct": 0.00923,
-    "size_usd": 4538.62,
-    "position_size_pct": 0.0451,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (18.2)",
-      "5d momentum -0.58%",
-      "1d momentum -0.45%",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
-      "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000",
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level"
-    ],
-    "mode": "paper",
-    "strategy_version": "41",
-    "status": "open",
-    "price_trough": 545.0999755859375,
-    "trailing_stop_price": 547.236767
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260630132848",
     "asset": "BTC-USD",
@@ -527,7 +496,9 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
-    "status": "open"
+    "status": "open",
+    "price_trough": 6.53000020980835,
+    "trailing_stop_price": 6.592558
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260630201757",
@@ -553,6 +524,66 @@
       "Pound Mostly Steady After Weaker GDP",
       "Sterling Declines as the BoE Appears More Dovish",
       "Mixed Performance by the Pound After Weaker Job Data"
+    ],
+    "mode": "paper",
+    "strategy_version": "42",
+    "status": "open",
+    "price_trough": 215.49099731445312,
+    "trailing_stop_price": 215.921979
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260630214941",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 543.489990234375,
+    "entry_time": "2026-06-30T21:49:41.554115+00:00",
+    "stop_loss_pct": 0.00499,
+    "take_profit_pct": 0.01174,
+    "size_usd": 4511.69,
+    "position_size_pct": 0.0451,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (31.9)",
+      "5d momentum -0.45%",
+      "1d momentum -3.02%",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.143,
+    "news_headlines": [
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $59,000 Level",
+      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
+      "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "42",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260630214941",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.038599967956543,
+    "entry_time": "2026-06-30T21:49:41.556429+00:00",
+    "stop_loss_pct": 0.00671,
+    "take_profit_pct": 0.01562,
+    "size_usd": 47.64,
+    "position_size_pct": 0.0005,
+    "confidence": 0.655,
+    "signals": [
+      "RSI oversold (43.0)",
+      "1d momentum -2.32%",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "California, UK, Australia, EU set to unveil new crypto regulations this week",
+      "Elon Musk\u2019s X money app beats crypto yields with new 6% payout",
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $59,000 Level"
     ],
     "mode": "paper",
     "strategy_version": "42",
