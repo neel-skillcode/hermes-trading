@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100428.13,
+  "portfolio_balance": 100732.77,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 1.7,
-  "unrealized_pnl_usd": 502.92,
-  "equity_value": 100931.04,
-  "open_positions": 17,
-  "day_trades_open": 8,
+  "portfolio_drawdown_pct": 1.4,
+  "unrealized_pnl_usd": 243.75,
+  "equity_value": 100976.53,
+  "open_positions": 18,
+  "day_trades_open": 9,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 38591.45,
+  "day_capital_used_usd": 40293.11,
   "swing_capital_used_usd": 38404.31,
-  "total_trades": 448,
-  "last_tick": "2026-06-30T05:53:01.656719+00:00",
+  "total_trades": 450,
+  "last_tick": "2026-06-30T08:53:53.620251+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 0.9260200262069702,
       "trailing_stop_price": 0.918612,
-      "current_price": 0.92213,
-      "unrealized_pnl_pct": 0.012818,
-      "unrealized_pnl_usd": 17.23
+      "current_price": 0.92198,
+      "unrealized_pnl_pct": 0.012653,
+      "unrealized_pnl_usd": 17.01
     },
     {
       "id": "GBP/CHF_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 1.0713000297546387,
       "trailing_stop_price": 1.06273,
-      "current_price": 1.0711,
-      "unrealized_pnl_pct": 0.016253,
-      "unrealized_pnl_usd": 21.84
+      "current_price": 1.07094,
+      "unrealized_pnl_pct": 0.016101,
+      "unrealized_pnl_usd": 21.64
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -94,9 +94,9 @@
       "status": "open",
       "price_peak": 7.843070030212402,
       "trailing_stop_price": 7.780325,
-      "current_price": 7.84254,
-      "unrealized_pnl_pct": 0.001052,
-      "unrealized_pnl_usd": 1.41
+      "current_price": 7.84155,
+      "unrealized_pnl_pct": 0.000925,
+      "unrealized_pnl_usd": 1.24
     },
     {
       "id": "USD/JPY_20260528164943",
@@ -125,11 +125,11 @@
       "mode": "paper",
       "strategy_version": "05",
       "status": "open",
-      "price_peak": 162.24400329589844,
-      "trailing_stop_price": 160.946051,
-      "current_price": 162.244003,
-      "unrealized_pnl_pct": 0.019319,
-      "unrealized_pnl_usd": 75.06
+      "price_peak": 162.38800048828125,
+      "trailing_stop_price": 161.088896,
+      "current_price": 162.389999,
+      "unrealized_pnl_pct": 0.020236,
+      "unrealized_pnl_usd": 78.62
     },
     {
       "id": "EUR/USD_20260614233933",
@@ -161,9 +161,9 @@
       "status": "open",
       "price_trough": 1.1340440511703491,
       "trailing_stop_price": 1.143116,
-      "current_price": 1.139471,
-      "unrealized_pnl_pct": 0.018459,
-      "unrealized_pnl_usd": 138.09
+      "current_price": 1.139212,
+      "unrealized_pnl_pct": 0.018683,
+      "unrealized_pnl_usd": 139.77
     },
     {
       "id": "USD/NOK_20260626015153",
@@ -189,9 +189,9 @@
       "status": "open",
       "price_peak": 9.946430206298828,
       "trailing_stop_price": 9.866859,
-      "current_price": 9.94635,
-      "unrealized_pnl_pct": 0.00656,
-      "unrealized_pnl_usd": 38.85
+      "current_price": 9.9232,
+      "unrealized_pnl_pct": 0.004217,
+      "unrealized_pnl_usd": 24.98
     },
     {
       "id": "REGN_20260626143644",
@@ -257,9 +257,9 @@
       "status": "open",
       "price_trough": 184.8280029296875,
       "trailing_stop_price": 186.306627,
-      "current_price": 184.822998,
-      "unrealized_pnl_pct": 0.000633,
-      "unrealized_pnl_usd": 4.19
+      "current_price": 184.929993,
+      "unrealized_pnl_pct": 5.4e-05,
+      "unrealized_pnl_usd": 0.36
     },
     {
       "id": "UNG_20260629153722",
@@ -326,42 +326,6 @@
       "current_price": 57.869999,
       "unrealized_pnl_pct": -0.004558,
       "unrealized_pnl_usd": -22.81
-    },
-    {
-      "id": "ETH-USD_20260629175956",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1625.719970703125,
-      "entry_time": "2026-06-29T17:59:56.489412+00:00",
-      "stop_loss_pct": 0.01109,
-      "take_profit_pct": 0.02746,
-      "size_usd": 6105.43,
-      "position_size_pct": 0.0608,
-      "confidence": 0.95,
-      "signals": [
-        "RSI overbought (72.4)",
-        "5d momentum +3.31%",
-        "1d momentum +3.56%",
-        "BB overbought (pct_b=1.46)",
-        "Volume spike 4.5\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: price decline"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Monday, June 29, 2026: Prices continue to move lower",
-        "BlackRock Fuels 10% Surge for Ethena as USDe Joins $25 Trillion Aladdin Platform",
-        "Tom Lee's BitMine Adds $43 Million in Ethereum as Strategy Halts Bitcoin Buys"
-      ],
-      "mode": "paper",
-      "strategy_version": "40",
-      "status": "open",
-      "price_trough": 1586.97998046875,
-      "trailing_stop_price": 1604.579588,
-      "current_price": 1586.97998,
-      "unrealized_pnl_pct": 0.023829,
-      "unrealized_pnl_usd": 145.49
     },
     {
       "id": "KLAC_20260629175956",
@@ -492,46 +456,11 @@
       "mode": "paper",
       "strategy_version": "40",
       "status": "open",
-      "price_trough": 59459.01171875,
-      "trailing_stop_price": 60010.196757,
-      "current_price": 59459.011719,
-      "unrealized_pnl_pct": 0.014394,
-      "unrealized_pnl_usd": 32.62
-    },
-    {
-      "id": "XRP-USD_20260629200809",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.0699000358581543,
-      "entry_time": "2026-06-29T20:08:09.804411+00:00",
-      "stop_loss_pct": 0.0098,
-      "take_profit_pct": 0.02389,
-      "size_usd": 5085.87,
-      "position_size_pct": 0.0507,
-      "confidence": 0.874,
-      "signals": [
-        "RSI overbought (70.1)",
-        "5d momentum +2.13%",
-        "1d momentum +2.36%",
-        "BB overbought (pct_b=1.02)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.353,
-      "news_headlines": [
-        "Ripple CEO Brad Garlinghouse has a blunt message for Michael Saylor",
-        "XRP Ledger's 'Missing Layer' Draws Closer as Developers Test Lending, Credit Features: Ripple",
-        "Brad Garlinghouse Takes Aim at $16Tn Payment Flows: Is XRP Ripple Really Going to 100X?"
-      ],
-      "mode": "paper",
-      "strategy_version": "41",
-      "status": "open",
-      "price_trough": 1.0465999841690063,
-      "trailing_stop_price": 1.056857,
-      "current_price": 1.0466,
-      "unrealized_pnl_pct": 0.021778,
-      "unrealized_pnl_usd": 110.76
+      "price_trough": 59162.37890625,
+      "trailing_stop_price": 59710.814159,
+      "current_price": 59173.558594,
+      "unrealized_pnl_pct": 0.019126,
+      "unrealized_pnl_usd": 43.35
     },
     {
       "id": "DOGE-USD_20260630055301",
@@ -561,7 +490,103 @@
       "mode": "paper",
       "strategy_version": "41",
       "status": "open",
-      "current_price": 0.07221,
+      "current_price": 0.07222,
+      "unrealized_pnl_pct": -0.000138,
+      "unrealized_pnl_usd": -0.57
+    },
+    {
+      "id": "ETH-USD_20260630085353",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1578.800048828125,
+      "entry_time": "2026-06-30T08:53:53.611903+00:00",
+      "stop_loss_pct": 0.00541,
+      "take_profit_pct": 0.01253,
+      "size_usd": 4061.55,
+      "position_size_pct": 0.0403,
+      "confidence": 0.63,
+      "signals": [
+        "RSI oversold (21.0)",
+        "5d momentum -0.35%",
+        "1d momentum +0.53%",
+        "Volume spike 2.9\u00d7",
+        "Claude [contradicts]: price decline"
+      ],
+      "news_sentiment": 0.278,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Monday, June 29, 2026: Prices continue to move lower",
+        "Why Is The Crypto Market Down Today?",
+        "Tom Lee Ties Ethereum Selloff to Quarter-End Window Dressing"
+      ],
+      "mode": "paper",
+      "strategy_version": "41",
+      "status": "open",
+      "current_price": 1578.800049,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "BNB-USD_20260630085353",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 549.760009765625,
+      "entry_time": "2026-06-30T08:53:53.613845+00:00",
+      "stop_loss_pct": 0.00392,
+      "take_profit_pct": 0.00923,
+      "size_usd": 4538.62,
+      "position_size_pct": 0.0451,
+      "confidence": 0.704,
+      "signals": [
+        "RSI oversold (18.2)",
+        "5d momentum -0.58%",
+        "1d momentum -0.45%",
+        "High-impact catalyst",
+        "Claude [supports]: price decline"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
+        "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $59,000 Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "41",
+      "status": "open",
+      "current_price": 549.76001,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SOL-USD_20260630085353",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 73.33000183105469,
+      "entry_time": "2026-06-30T08:53:53.615869+00:00",
+      "stop_loss_pct": 0.00798,
+      "take_profit_pct": 0.019,
+      "size_usd": 4292.79,
+      "position_size_pct": 0.0426,
+      "confidence": 0.76,
+      "signals": [
+        "RSI oversold (22.6)",
+        "5d momentum -1.00%",
+        "1d momentum +0.96%",
+        "BB oversold (pct_b=0.12)",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.474,
+      "news_headlines": [
+        "Bitcoin, Ethereum Gain, XRP, Dogecoin Flat As Trump Announces Next Round Of US-Iran Talks: Analyst Flags Signal Marking 'Generational Buying Opportunities'",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
+        "Bitcoin Holds Below $60,000 as Cryptos Slide"
+      ],
+      "mode": "paper",
+      "strategy_version": "41",
+      "status": "open",
+      "current_price": 73.330002,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -674,7 +699,7 @@
     },
     {
       "asset": "GS",
-      "rank_score": 0.6714,
+      "rank_score": 0.6784,
       "price": 1020.2000122070312,
       "rsi": 20.605600051401353,
       "momentum_5d": -0.002327450999468722,
@@ -684,12 +709,12 @@
       "bollinger_pct_b": 0.2854,
       "volume_spike": false,
       "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.717,
-      "news_confidence": 0.66,
+      "news_sentiment": 0.811,
+      "news_confidence": 0.67,
       "news_headlines": [
         "'Gold is not done': Goldman Sachs predicts a rise to $4,900",
         "Best CD rates today, Monday, June 29, 2026: Lock in up to 4.10% APY",
-        "Goldman Sachs (GS) Leaves Russell Growth Indexes For Value And Defensive Benchmarks"
+        "SpaceX IPO Left Korea Broker With No Shares on Misunderstanding"
       ],
       "high_impact_news": true
     },
@@ -799,6 +824,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "TSLA",
+      "rank_score": 0.6026,
+      "price": 411.7900085449219,
+      "rsi": 84.12182248308147,
+      "momentum_5d": 0.03540240627708443,
+      "momentum_1d": 0.09657266568009108,
+      "macd_crossover": false,
+      "atr_pct": 0.014811595754136014,
+      "bollinger_pct_b": 0.9312,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.04,
+      "news_sentiment": 0.032,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "'Magnificent 7' stocks are having a dreadful year",
+        "Tesla Stock Surges 8% After FSD v14 Lite Update Launches",
+        "TSLA Stock Trims Losses Overnight: Tesla Cybercab Starts Austin Tests Without \u2018Steering Wheel Or Pedals\u2019"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "VLO",
       "rank_score": 0.5782,
       "price": 266.20001220703125,
@@ -816,27 +862,6 @@
         "Energy ETFs to Buy as Oil Price Slides to Pre-Iran War Level",
         "Why HF Sinclair Is a Cash Flow Story, Not Merely a Valuation Play",
         "Will Refining Flexibility Drive HF Sinclair's Summer Performance?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LLY",
-      "rank_score": 0.5754,
-      "price": 1229.050048828125,
-      "rsi": 84.13795350749224,
-      "momentum_5d": 0.018023846020068512,
-      "momentum_1d": 0.11385510492778302,
-      "macd_crossover": false,
-      "atr_pct": 0.015670973588226993,
-      "bollinger_pct_b": 0.7771,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.7,
-      "news_sentiment": 0.473,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "MU Stock Caps Best First Half Ever With 4x Surge, Cracks S&P 500\u2019s Top 10: Retail Bulls Want More",
-        "NVIDIA (NVDA) Among The Most Promising Robotics Stocks; Here\u2019s Why",
-        "Eli Lilly (LLY) Outpaces Stock Market Gains: What You Should Know"
       ],
       "high_impact_news": true
     },
@@ -904,6 +929,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "LLY",
+      "rank_score": 0.5654,
+      "price": 1229.050048828125,
+      "rsi": 84.13795350749224,
+      "momentum_5d": 0.018023846020068512,
+      "momentum_1d": 0.11385510492778302,
+      "macd_crossover": false,
+      "atr_pct": 0.015670973588226993,
+      "bollinger_pct_b": 0.7771,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.7,
+      "news_sentiment": 0.24,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "5 Reasons Eli Lilly Is a Better Stock to Buy Right Now Than SpaceX",
+        "Eli Lilly Is Dominating the GLP-1 Market: Here's What a $5,000 Investment Could Look Like in 5 Years",
+        "MU Stock Caps Best First Half Ever With 4x Surge, Cracks S&P 500\u2019s Top 10: Retail Bulls Want More"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MA",
       "rank_score": 0.5581,
       "price": 509.6400146484375,
@@ -925,6 +971,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5566,
+      "price": 59173.55859375,
+      "rsi": 26.771618703762698,
+      "momentum_5d": -0.0057394139989062655,
+      "momentum_1d": -0.009487930684436267,
+      "macd_crossover": false,
+      "atr_pct": 0.005101900369370644,
+      "bollinger_pct_b": 0.0798,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.34,
+      "news_sentiment": 0.459,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Bitcoin ETFs see worst month of outflows as investors pile into AI trade",
+        "Bitcoin and ethereum prices today, Monday, June 29, 2026: Prices continue to move lower",
+        "Better Crypto Blue Chip: Bitcoin vs. Ripple (XRP)"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "IONQ",
       "rank_score": 0.5476,
       "price": 53.900001525878906,
@@ -942,48 +1009,6 @@
         "Quantum Computing: The Next AI Investment Opportunity?",
         "IONQ vs. QUBT: Which Quantum Stock is Poised for More Upside in July?",
         "Quantum Cold War: Does the U.S. or China Have the Upper Hand?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MS",
-      "rank_score": 0.5415,
-      "price": 211.75999450683594,
-      "rsi": 20.427399446425454,
-      "momentum_5d": -0.004980794948324315,
-      "momentum_1d": -0.03920145022193785,
-      "macd_crossover": false,
-      "atr_pct": 0.01152585619640909,
-      "bollinger_pct_b": 0.256,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.808,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "What's Behind Tesla's Rally Today?",
-        "Quantinuum Stock Fizzled in Its Debut, but Wall Street Calls It a Buy",
-        "Liftoff Mobile May Gain Share in In-app Ad Market, But Valuation Seems Fair, Morgan Stanley Says"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRNA",
-      "rank_score": 0.5391,
-      "price": 69.66999816894531,
-      "rsi": 75.85938538425455,
-      "momentum_5d": 0.019610658597723353,
-      "momentum_1d": 0.14306804424698283,
-      "macd_crossover": false,
-      "atr_pct": 0.030446606267070082,
-      "bollinger_pct_b": 0.7696,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.05,
-      "news_sentiment": 0.156,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Stocks Rally to Start a Big Holiday Week: Stock Market Today",
-        "MRNA Stock Jumps to 52-Week High on Expansion Plans Beyond Vaccines",
-        "MRNA Stock Spikes as Moderna Shares mRNA Pipeline Update"
       ],
       "high_impact_news": true
     }
