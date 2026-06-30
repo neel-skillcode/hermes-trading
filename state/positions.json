@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0714999437332153,
-    "trailing_stop_price": 1.062928
+    "price_peak": 1.0717300176620483,
+    "trailing_stop_price": 1.063156
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -187,8 +187,8 @@
     "mode": "paper",
     "strategy_version": "36",
     "status": "open",
-    "price_trough": 626.5900268554688,
-    "trailing_stop_price": 631.546354
+    "price_trough": 623.5399780273438,
+    "trailing_stop_price": 628.472179
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260629153722",
@@ -281,39 +281,6 @@
     "price_trough": 545.0999755859375,
     "trailing_stop_price": 547.236767
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260630132848",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07006999850273132,
-    "entry_time": "2026-06-30T13:28:48.053666+00:00",
-    "stop_loss_pct": 0.00903,
-    "take_profit_pct": 0.02235,
-    "size_usd": 6120.35,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (17.1)",
-      "5d momentum -3.02%",
-      "1d momentum -3.48%",
-      "BB oversold (pct_b=-0.04)",
-      "Volume spike 2.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "Dogecoin Just Plunged Below a Very Important Level, and It Spells Bad News for Investors",
-      "Bitcoin, Ethereum Gain, XRP, Dogecoin Flat As Trump Announces Next Round Of US-Iran Talks: Analyst Flags Signal Marking 'Generational Buying Opportunities'",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "41",
-    "status": "open",
-    "price_peak": 0.07139000296592712,
-    "trailing_stop_price": 0.070745
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260630132848",
     "asset": "BTC-USD",
@@ -344,8 +311,8 @@
     "mode": "paper",
     "strategy_version": "41",
     "status": "open",
-    "price_peak": 58508.0,
-    "trailing_stop_price": 58170.99392
+    "price_peak": 58768.76953125,
+    "trailing_stop_price": 58430.261419
   },
   "ETH-USD": {
     "id": "ETH-USD_20260630132848",
@@ -376,8 +343,8 @@
     "mode": "paper",
     "strategy_version": "41",
     "status": "open",
-    "price_peak": 1570.9599609375,
-    "trailing_stop_price": 1560.528787
+    "price_peak": 1577.93994140625,
+    "trailing_stop_price": 1567.46242
   },
   "AMD": {
     "id": "AMD_20260630160723",
@@ -468,7 +435,9 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
-    "status": "open"
+    "status": "open",
+    "price_trough": 354.57000732421875,
+    "trailing_stop_price": 375.844208
   },
   "KLAC": {
     "id": "KLAC_20260630180958",
@@ -498,7 +467,9 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
-    "status": "open"
+    "status": "open",
+    "price_trough": 301.7099914550781,
+    "trailing_stop_price": 306.235641
   },
   "UBER": {
     "id": "UBER_20260630180958",
@@ -524,6 +495,64 @@
       "Autonomous driving firm Autobrains eyes robotaxi growth in Europe, CEO says",
       "Is Serve Robotics Building a Diversified Robotics Business Model?",
       "Uber Ends Waymo Robotaxi Offering In Phoenix"
+    ],
+    "mode": "paper",
+    "strategy_version": "42",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260630201757",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.570000171661377,
+    "entry_time": "2026-06-30T20:17:57.938642+00:00",
+    "stop_loss_pct": 0.00958,
+    "take_profit_pct": 0.02202,
+    "size_usd": 3830.4,
+    "position_size_pct": 0.0383,
+    "confidence": 0.598,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +1.23%",
+      "1d momentum -1.35%",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "42",
+    "status": "open"
+  },
+  "GBP/JPY": {
+    "id": "GBP/JPY_20260630201757",
+    "asset": "GBP/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 215.6179962158203,
+    "entry_time": "2026-06-30T20:17:57.940671+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00471,
+    "size_usd": 2358.08,
+    "position_size_pct": 0.0236,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (73.6)",
+      "1d momentum +0.45%",
+      "BB overbought (pct_b=0.85)",
+      "High-impact catalyst",
+      "Claude [neutral]: fed dovish; price decline"
+    ],
+    "news_sentiment": -0.28,
+    "news_headlines": [
+      "Pound Mostly Steady After Weaker GDP",
+      "Sterling Declines as the BoE Appears More Dovish",
+      "Mixed Performance by the Pound After Weaker Job Data"
     ],
     "mode": "paper",
     "strategy_version": "42",
