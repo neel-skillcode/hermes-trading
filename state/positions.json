@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 162.64500427246094,
-    "trailing_stop_price": 161.343844
+    "price_peak": 162.69200134277344,
+    "trailing_stop_price": 161.390465
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -499,35 +499,6 @@
     "price_trough": 215.49099731445312,
     "trailing_stop_price": 215.921979
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260630214941",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 543.489990234375,
-    "entry_time": "2026-06-30T21:49:41.554115+00:00",
-    "stop_loss_pct": 0.00499,
-    "take_profit_pct": 0.01174,
-    "size_usd": 4511.69,
-    "position_size_pct": 0.0451,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (31.9)",
-      "5d momentum -0.45%",
-      "1d momentum -3.02%",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": -0.143,
-    "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $59,000 Level",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
-      "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260630214941",
     "asset": "XRP-USD",
@@ -555,7 +526,9 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.037600040435791,
+    "trailing_stop_price": 1.044562
   },
   "ETH-USD": {
     "id": "ETH-USD_20260630230013",
@@ -581,6 +554,35 @@
       "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
       "Crypto Market Today, June 30: Bitcoin Slides on Strategy Pivot",
       "Trump Discloses Over $1.2 Billion in Crypto Earnings, $50M in Bitcoin Holdings"
+    ],
+    "mode": "paper",
+    "strategy_version": "42",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260701001642",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 546.5599975585938,
+    "entry_time": "2026-07-01T00:16:42.876256+00:00",
+    "stop_loss_pct": 0.00512,
+    "take_profit_pct": 0.01235,
+    "size_usd": 4501.5,
+    "position_size_pct": 0.045,
+    "confidence": 0.83,
+    "signals": [
+      "RSI oversold (44.5)",
+      "MACD crossover",
+      "1d momentum -2.19%",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.143,
+    "news_headlines": [
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $59,000 Level",
+      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
+      "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000"
     ],
     "mode": "paper",
     "strategy_version": "42",
