@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.073580026626587,
-    "trailing_stop_price": 1.064991
+    "price_peak": 1.0736199617385864,
+    "trailing_stop_price": 1.065031
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.843369960784912,
-    "trailing_stop_price": 7.780623
+    "price_peak": 7.843550205230713,
+    "trailing_stop_price": 7.780802
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -217,70 +217,6 @@
     "price_peak": 11.929900169372559,
     "trailing_stop_price": 11.531084
   },
-  "AMD": {
-    "id": "AMD_20260630160723",
-    "asset": "AMD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 575.8513793945312,
-    "entry_time": "2026-06-30T16:07:23.813954+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5600.3,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (78.3)",
-      "5d momentum +7.20%",
-      "1d momentum +10.81%",
-      "BB overbought (pct_b=1.15)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.4,
-    "news_headlines": [
-      "Why Intel Stock Just Popped",
-      "Micron Stock Redefined Its Future, But the Market Isn't Convinced Yet",
-      "Nasdaq heads for best quarter since 2020"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 562.0399780273438,
-    "trailing_stop_price": 570.470578
-  },
-  "MRVL": {
-    "id": "MRVL_20260630160723",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 297.360107421875,
-    "entry_time": "2026-06-30T16:07:23.815718+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 4403.03,
-    "position_size_pct": 0.044,
-    "confidence": 0.934,
-    "signals": [
-      "RSI overbought (75.4)",
-      "5d momentum +8.52%",
-      "1d momentum +7.47%",
-      "BB overbought (pct_b=1.01)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.818,
-    "news_headlines": [
-      "Marvell Stock's Price Tag Is A Matter Of Time",
-      "Despite Recent Stock Surge, Marvell Technology\u2019s (MRVL) Best Days May Still Be Ahead",
-      "Marvell's CXL Outlook Brightens"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 287.69989013671875,
-    "trailing_stop_price": 292.015388
-  },
   "ARM": {
     "id": "ARM_20260630160723",
     "asset": "ARM",
@@ -340,8 +276,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_peak": 72.55000305175781,
-    "trailing_stop_price": 69.560217
+    "price_peak": 72.88500213623047,
+    "trailing_stop_price": 69.881411
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260630201757",
@@ -374,161 +310,212 @@
     "price_trough": 215.47000122070312,
     "trailing_stop_price": 215.900941
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260701045622",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 75.51000213623047,
-    "entry_time": "2026-07-01T04:56:22.616489+00:00",
-    "stop_loss_pct": 0.01108,
-    "take_profit_pct": 0.02698,
-    "size_usd": 5571.25,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (83.9)",
-      "5d momentum +2.66%",
-      "1d momentum +2.16%",
-      "BB overbought (pct_b=1.11)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; price decline"
-    ],
-    "news_sentiment": 0.442,
-    "news_headlines": [
-      "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Extreme Fear' Persists: Analyst Notes Half of BTC Circulating Network Now Sitting 'Underwater'",
-      "Trump's annual filing reveals over $1 billion in income outside real estate",
-      "Crypto Market Today, June 30: Bitcoin Slides on Strategy Pivot"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260701045622",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.690000057220459,
-    "entry_time": "2026-07-01T04:56:22.618490+00:00",
-    "stop_loss_pct": 0.01023,
-    "take_profit_pct": 0.02491,
-    "size_usd": 5571.25,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (77.8)",
-      "5d momentum +2.45%",
-      "1d momentum +1.06%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 4.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 6.639999866485596,
-    "trailing_stop_price": 6.707927
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260701045622",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1597.8499755859375,
-    "entry_time": "2026-07-01T04:56:22.620027+00:00",
-    "stop_loss_pct": 0.00788,
-    "take_profit_pct": 0.01951,
-    "size_usd": 5828.55,
-    "position_size_pct": 0.0583,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (78.4)",
-      "5d momentum +1.81%",
-      "1d momentum +0.80%",
-      "BB overbought (pct_b=1.06)",
-      "Volume spike 5.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: fed dovish; price decline"
-    ],
-    "news_sentiment": 0.244,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
-      "Bitmine (BMNR) Stock Looks Undervalued As Ethereum Treasury Grows Toward 5%",
-      "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Extreme Fear' Persists: Analyst Notes Half of BTC Circulating Network Now Sitting 'Underwater'"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 1595.5400390625,
-    "trailing_stop_price": 1608.112895
-  },
   "META": {
-    "id": "META_20260701135614",
+    "id": "META_20260701162456",
     "asset": "META",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 604.3355102539062,
-    "entry_time": "2026-07-01T13:56:14.800421+00:00",
-    "stop_loss_pct": 0.01186,
-    "take_profit_pct": 0.02887,
-    "size_usd": 5592.43,
+    "entry_price": 617.6950073242188,
+    "entry_time": "2026-07-01T16:24:56.083730+00:00",
+    "stop_loss_pct": 0.01439,
+    "take_profit_pct": 0.03504,
+    "size_usd": 5596.42,
     "position_size_pct": 0.0557,
     "confidence": 0.87,
     "signals": [
-      "RSI overbought (79.6)",
-      "5d momentum +8.69%",
-      "1d momentum +10.20%",
-      "BB overbought (pct_b=1.46)",
-      "Volume spike 6.9\u00d7",
+      "RSI overbought (79.2)",
+      "5d momentum +10.17%",
+      "1d momentum +13.78%",
+      "BB overbought (pct_b=1.06)",
+      "Volume spike 1.6\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: price surge"
+      "Claude [contradicts]: analyst upgrade; price surge; price decline"
     ],
-    "news_sentiment": 0.316,
+    "news_sentiment": 0.333,
     "news_headlines": [
-      "Meta stock pops on news it will reportedly start a cloud computing business",
-      "Big Tech's first half was a story of hardware versus software",
-      "What to know about Anthropic's new Claude 'Sonnet 5' AI model"
+      "Meta to reportedly rent out excess AI compute, joining the ranks of Amazon & Microsoft",
+      "Scared of an AI stock bubble? Then don't look at this chart.",
+      "Stock Market Today: Dow Rises, Nasdaq Slips As Second Half Underway; AppLovin Stretches Gains (Live Coverage)"
     ],
     "mode": "paper",
     "strategy_version": "43",
     "status": "open"
   },
-  "CRM": {
-    "id": "CRM_20260701135614",
-    "asset": "CRM",
+  "PLTR": {
+    "id": "PLTR_20260701162456",
+    "asset": "PLTR",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 163.0,
-    "entry_time": "2026-07-01T13:56:14.802789+00:00",
-    "stop_loss_pct": 0.01107,
-    "take_profit_pct": 0.02695,
-    "size_usd": 5250.61,
-    "position_size_pct": 0.0523,
-    "confidence": 0.87,
+    "entry_price": 126.51000213623047,
+    "entry_time": "2026-07-01T16:24:56.085943+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5107.54,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
     "signals": [
-      "RSI overbought (60.5)",
-      "MACD crossover",
-      "5d momentum +4.82%",
-      "1d momentum +7.63%",
-      "BB overbought (pct_b=1.25)",
-      "Volume spike 1.9\u00d7",
+      "RSI overbought (80.5)",
+      "5d momentum +7.59%",
+      "1d momentum +17.89%",
+      "BB overbought (pct_b=1.06)",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
+      "Claude [contradicts]: product catalyst"
     ],
-    "news_sentiment": 0.864,
+    "news_sentiment": 0.83,
     "news_headlines": [
-      "SpaceX initiated, Salesforce upgraded: Wall Street's top analyst calls",
-      "Salesforce Will Face AI Disruption but Stock Still Gets an Upgrade to Buy",
-      "Here Are Wednesday\u2019s Best Wall Street Analyst Research Calls: Abbott Laboratories, Circle Internet, Dow, Kratos Defense, Lockheed Martin, Salesforce, ServiceNow,SpaceX, and More"
+      "Palantir stock has crashed this year, but there may be upside ahead",
+      "Data Analytics Q1 Earnings: Palantir Technologies (NASDAQ:PLTR) is the Best in the Biz",
+      "Why Palantir Stock Is Skyrocketing Today"
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
+    "status": "open"
+  },
+  "SOUN": {
+    "id": "SOUN_20260701162456",
+    "asset": "SOUN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.920000076293945,
+    "entry_time": "2026-07-01T16:24:56.087445+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5107.54,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (77.7)",
+      "5d momentum +7.29%",
+      "1d momentum +11.61%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.298,
+    "news_headlines": [
+      "How Is SoundHound Expanding Across Telecom and Energy Markets?",
+      "SoundHound AI (SOUN) Stock Looks Strong On Returns But Overvalued On Sales",
+      "SoundHound AI, Inc. (SOUN) Beats Stock Market Upswing: What Investors Need to Know"
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
+    "status": "open"
+  },
+  "WMT": {
+    "id": "WMT_20260701162456",
+    "asset": "WMT",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 108.01499938964844,
+    "entry_time": "2026-07-01T16:24:56.089063+00:00",
+    "stop_loss_pct": 0.00963,
+    "take_profit_pct": 0.02402,
+    "size_usd": 6368.34,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (11.5)",
+      "5d momentum -5.06%",
+      "1d momentum -6.70%",
+      "BB oversold (pct_b=-0.03)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: ma catalyst; price surge"
+    ],
+    "news_sentiment": 0.278,
+    "news_headlines": [
+      "Best student credit cards for July 2026: Start building credit with rewards on spending",
+      "Parents deliver Macy's and Kohl's disappointing retail news",
+      "AMD Stock Falls From Record High. It Won\u2019t Join the $1 Trillion Club Just Yet."
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
+    "status": "open"
+  },
+  "HOOD": {
+    "id": "HOOD_20260701162456",
+    "asset": "HOOD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 108.37000274658203,
+    "entry_time": "2026-07-01T16:24:56.090612+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5107.54,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (70.2)",
+      "5d momentum +8.37%",
+      "1d momentum +15.92%",
+      "BB overbought (pct_b=1.09)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.708,
+    "news_headlines": [
+      "3 Finance Stocks That Stole the Spotlight With Strong Q2 Gains",
+      "Robinhood Markets (HOOD) Fell on Weak Core Earnings",
+      "Cathie Wood Doubles Down on AI, Loads Up on Tesla, Palantir, and SpaceX"
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
+    "status": "open"
+  },
+  "V": {
+    "id": "V_20260701162456",
+    "asset": "V",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 352.8399963378906,
+    "entry_time": "2026-07-01T16:24:56.092265+00:00",
+    "stop_loss_pct": 0.00594,
+    "take_profit_pct": 0.01425,
+    "size_usd": 5107.54,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (86.3)",
+      "5d momentum +2.94%",
+      "1d momentum +6.67%",
+      "BB overbought (pct_b=1.14)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; ma catalyst; price surge"
+    ],
+    "news_sentiment": 0.581,
+    "news_headlines": [
+      "AMD stock jumps, Circle plummets on stablecoin competition",
+      "Bernstein Sees 203% Upside for Circle as OUSD Rival Enters Stablecoin Market",
+      "Citizens Reiterates Market Outperform Rating on Salesforce (CRM) Following Fin Acquisition and Agentforce Expansion"
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
+    "status": "open"
+  },
+  "SNAP": {
+    "id": "SNAP_20260701162456",
+    "asset": "SNAP",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 4.739999771118164,
+    "entry_time": "2026-07-01T16:24:56.093497+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5451.18,
+    "position_size_pct": 0.0542,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (75.6)",
+      "5d momentum +6.52%",
+      "1d momentum +9.09%",
+      "BB overbought (pct_b=1.09)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.136,
+    "news_headlines": [
+      "How Snap is emphasizing online joy",
+      "House Passes Online Safety Bill as Senate Eyes Stricter Push",
+      "What Could Push META Stock Higher From Here?"
     ],
     "mode": "paper",
     "strategy_version": "43",
