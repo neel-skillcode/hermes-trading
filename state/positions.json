@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.843070030212402,
-    "trailing_stop_price": 7.780325
+    "price_peak": 7.843369960784912,
+    "trailing_stop_price": 7.780623
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -98,8 +98,8 @@
     "mode": "paper",
     "strategy_version": "05",
     "status": "open",
-    "price_peak": 162.69200134277344,
-    "trailing_stop_price": 161.390465
+    "price_peak": 162.71200561523438,
+    "trailing_stop_price": 161.41031
   },
   "EUR/USD": {
     "id": "EUR/USD_20260614233933",
@@ -249,39 +249,6 @@
     "status": "open",
     "price_peak": 11.929900169372559,
     "trailing_stop_price": 11.531084
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260630132848",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 58375.0,
-    "entry_time": "2026-06-30T13:28:48.055852+00:00",
-    "stop_loss_pct": 0.00576,
-    "take_profit_pct": 0.01425,
-    "size_usd": 6120.35,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (16.0)",
-      "5d momentum -1.41%",
-      "1d momentum -1.82%",
-      "BB oversold (pct_b=-0.02)",
-      "Volume spike 3.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge"
-    ],
-    "news_sentiment": 0.231,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
-      "'Buy' isn't Strategy's only verb anymore: What to know about its new bitcoin playbook",
-      "Saylor's Strategy changes playbook and can now sell its bitcoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "41",
-    "status": "open",
-    "price_peak": 58768.76953125,
-    "trailing_stop_price": 58430.261419
   },
   "AMD": {
     "id": "AMD_20260630160723",
@@ -437,37 +404,6 @@
     "strategy_version": "42",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260630201757",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.570000171661377,
-    "entry_time": "2026-06-30T20:17:57.938642+00:00",
-    "stop_loss_pct": 0.00958,
-    "take_profit_pct": 0.02202,
-    "size_usd": 3830.4,
-    "position_size_pct": 0.0383,
-    "confidence": 0.598,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +1.23%",
-      "1d momentum -1.35%",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
-      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
-      "Is Avalanche About to Have Its Biggest Year Yet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 6.510000228881836,
-    "trailing_stop_price": 6.572366
-  },
   "GBP/JPY": {
     "id": "GBP/JPY_20260630201757",
     "asset": "GBP/JPY",
@@ -496,93 +432,97 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 215.49099731445312,
-    "trailing_stop_price": 215.921979
+    "price_trough": 215.47000122070312,
+    "trailing_stop_price": 215.900941
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260630214941",
-    "asset": "XRP-USD",
+  "SOL-USD": {
+    "id": "SOL-USD_20260701045622",
+    "asset": "SOL-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.038599967956543,
-    "entry_time": "2026-06-30T21:49:41.556429+00:00",
-    "stop_loss_pct": 0.00671,
-    "take_profit_pct": 0.01562,
-    "size_usd": 47.64,
-    "position_size_pct": 0.0005,
-    "confidence": 0.655,
+    "entry_price": 75.51000213623047,
+    "entry_time": "2026-07-01T04:56:22.616489+00:00",
+    "stop_loss_pct": 0.01108,
+    "take_profit_pct": 0.02698,
+    "size_usd": 5571.25,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI oversold (43.0)",
-      "1d momentum -2.32%",
+      "RSI overbought (83.9)",
+      "5d momentum +2.66%",
+      "1d momentum +2.16%",
+      "BB overbought (pct_b=1.11)",
       "Volume spike 2.1\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      "Claude [contradicts]: fed dovish; price decline"
     ],
-    "news_sentiment": 0.444,
+    "news_sentiment": 0.442,
     "news_headlines": [
-      "California, UK, Australia, EU set to unveil new crypto regulations this week",
-      "Elon Musk\u2019s X money app beats crypto yields with new 6% payout",
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $59,000 Level"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 1.037600040435791,
-    "trailing_stop_price": 1.044562
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260630230013",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1565.0799560546875,
-    "entry_time": "2026-06-30T23:00:13.648867+00:00",
-    "stop_loss_pct": 0.00641,
-    "take_profit_pct": 0.01491,
-    "size_usd": 2496.51,
-    "position_size_pct": 0.0249,
-    "confidence": 0.655,
-    "signals": [
-      "RSI oversold (40.7)",
-      "1d momentum -2.82%",
-      "Volume spike 9.0\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: fed dovish; price decline"
-    ],
-    "news_sentiment": 0.231,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
-      "Crypto Market Today, June 30: Bitcoin Slides on Strategy Pivot",
-      "Trump Discloses Over $1.2 Billion in Crypto Earnings, $50M in Bitcoin Holdings"
+      "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Extreme Fear' Persists: Analyst Notes Half of BTC Circulating Network Now Sitting 'Underwater'",
+      "Trump's annual filing reveals over $1 billion in income outside real estate",
+      "Crypto Market Today, June 30: Bitcoin Slides on Strategy Pivot"
     ],
     "mode": "paper",
     "strategy_version": "42",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260701001642",
-    "asset": "BNB-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260701045622",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 546.5599975585938,
-    "entry_time": "2026-07-01T00:16:42.876256+00:00",
-    "stop_loss_pct": 0.00512,
-    "take_profit_pct": 0.01235,
-    "size_usd": 4501.5,
-    "position_size_pct": 0.045,
-    "confidence": 0.83,
+    "entry_price": 6.690000057220459,
+    "entry_time": "2026-07-01T04:56:22.618490+00:00",
+    "stop_loss_pct": 0.01023,
+    "take_profit_pct": 0.02491,
+    "size_usd": 5571.25,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI oversold (44.5)",
-      "MACD crossover",
-      "1d momentum -2.19%",
+      "RSI overbought (77.8)",
+      "5d momentum +2.45%",
+      "1d momentum +1.06%",
+      "BB overbought (pct_b=1.00)",
+      "Volume spike 4.1\u00d7",
       "High-impact catalyst",
-      "Claude [supports]: price decline"
+      "Claude [contradicts]: analyst upgrade; price decline"
     ],
-    "news_sentiment": -0.143,
+    "news_sentiment": 0.444,
     "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $59,000 Level",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $60,000",
-      "Top Cryptocurrencies Rise; Bitcoin Holds Above $59,000"
+      "MXNB Lands on Ripple XRPL Permissioned DEX to Power USD/MXN Settlement Rail",
+      "FIFA World Cup Push Lifts Avalanche Adoption: Will AVAX Price Rally?",
+      "Is Avalanche About to Have Its Biggest Year Yet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "42",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260701045622",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1597.8499755859375,
+    "entry_time": "2026-07-01T04:56:22.620027+00:00",
+    "stop_loss_pct": 0.00788,
+    "take_profit_pct": 0.01951,
+    "size_usd": 5828.55,
+    "position_size_pct": 0.0583,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (78.4)",
+      "5d momentum +1.81%",
+      "1d momentum +0.80%",
+      "BB overbought (pct_b=1.06)",
+      "Volume spike 5.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: fed dovish; price decline"
+    ],
+    "news_sentiment": 0.244,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, June 30: Prices sliding, down about 40% from last year",
+      "Bitmine (BMNR) Stock Looks Undervalued As Ethereum Treasury Grows Toward 5%",
+      "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Extreme Fear' Persists: Analyst Notes Half of BTC Circulating Network Now Sitting 'Underwater'"
     ],
     "mode": "paper",
     "strategy_version": "42",
