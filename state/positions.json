@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0736199617385864,
-    "trailing_stop_price": 1.065031
+    "price_peak": 1.0747400522232056,
+    "trailing_stop_price": 1.066142
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -68,8 +68,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.843550205230713,
-    "trailing_stop_price": 7.780802
+    "price_peak": 7.843599796295166,
+    "trailing_stop_price": 7.780851
   },
   "USD/JPY": {
     "id": "USD/JPY_20260528164943",
@@ -185,37 +185,6 @@
     "status": "open",
     "price_trough": 184.8280029296875,
     "trailing_stop_price": 186.306627
-  },
-  "UNG": {
-    "id": "UNG_20260629153722",
-    "asset": "UNG",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 11.449999809265137,
-    "entry_time": "2026-06-29T15:37:22.035325+00:00",
-    "stop_loss_pct": 0.03343,
-    "take_profit_pct": 0.1097,
-    "size_usd": 5458.85,
-    "position_size_pct": 0.0541,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (38.3)",
-      "5d momentum -2.80%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 3 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.353,
-    "news_headlines": [
-      "Sector Update: Energy Stocks Edge Higher Pre-Bell Monday",
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid Hopes for Renewed US-Iran Diplomacy",
-      "Correction: Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks"
-    ],
-    "mode": "paper",
-    "strategy_version": "40",
-    "status": "open",
-    "price_peak": 11.929900169372559,
-    "trailing_stop_price": 11.531084
   },
   "ARM": {
     "id": "ARM_20260630160723",
@@ -339,7 +308,9 @@
     ],
     "mode": "paper",
     "strategy_version": "43",
-    "status": "open"
+    "status": "open",
+    "price_trough": 612.9099731445312,
+    "trailing_stop_price": 621.729748
   },
   "PLTR": {
     "id": "PLTR_20260701162456",
@@ -369,7 +340,9 @@
     ],
     "mode": "paper",
     "strategy_version": "43",
-    "status": "open"
+    "status": "open",
+    "price_trough": 125.7300033569336,
+    "trailing_stop_price": 127.615953
   },
   "SOUN": {
     "id": "SOUN_20260701162456",
@@ -399,7 +372,9 @@
     ],
     "mode": "paper",
     "strategy_version": "43",
-    "status": "open"
+    "status": "open",
+    "price_trough": 6.679999828338623,
+    "trailing_stop_price": 6.7802
   },
   "WMT": {
     "id": "WMT_20260701162456",
@@ -429,7 +404,9 @@
     ],
     "mode": "paper",
     "strategy_version": "43",
-    "status": "open"
+    "status": "open",
+    "price_peak": 108.81999969482422,
+    "trailing_stop_price": 107.772063
   },
   "HOOD": {
     "id": "HOOD_20260701162456",
@@ -489,7 +466,9 @@
     ],
     "mode": "paper",
     "strategy_version": "43",
-    "status": "open"
+    "status": "open",
+    "price_trough": 351.0799865722656,
+    "trailing_stop_price": 353.165402
   },
   "SNAP": {
     "id": "SNAP_20260701162456",
@@ -516,6 +495,36 @@
       "How Snap is emphasizing online joy",
       "House Passes Online Safety Bill as Senate Eyes Stricter Push",
       "What Could Push META Stock Higher From Here?"
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260701202032",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 59825.25,
+    "entry_time": "2026-07-01T20:20:32.356350+00:00",
+    "stop_loss_pct": 0.00682,
+    "take_profit_pct": 0.01615,
+    "size_usd": 13.35,
+    "position_size_pct": 0.0001,
+    "confidence": 0.737,
+    "signals": [
+      "RSI overbought (68.6)",
+      "5d momentum -0.44%",
+      "1d momentum +2.04%",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.273,
+    "news_headlines": [
+      "Bitcoin sees its worst first half since 2022 crash",
+      "Analyst who had high hopes for MicroStrategy sends brutal crash warning",
+      "Top Cryptocurrencies Rise; Bitcoin Holds Above $60,000"
     ],
     "mode": "paper",
     "strategy_version": "43",
