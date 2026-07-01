@@ -44,8 +44,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0717300176620483,
-    "trailing_stop_price": 1.063156
+    "price_peak": 1.073580026626587,
+    "trailing_stop_price": 1.064991
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -157,39 +157,6 @@
     "price_peak": 9.946430206298828,
     "trailing_stop_price": 9.866859
   },
-  "REGN": {
-    "id": "REGN_20260626143644",
-    "asset": "REGN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 634.9650268554688,
-    "entry_time": "2026-06-26T14:36:44.192857+00:00",
-    "stop_loss_pct": 0.00791,
-    "take_profit_pct": 0.01927,
-    "size_usd": 5685.87,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (64.8)",
-      "MACD crossover",
-      "5d momentum +1.15%",
-      "1d momentum +4.13%",
-      "BB overbought (pct_b=1.01)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.75,
-    "news_headlines": [
-      "Is Kymera Therapeutics The Next Big Rival To Regeneron And Sanofi?",
-      "Is AbbVie a Buy After Its Purchase of Apogee?",
-      "Will Priority-Reviewed Quarterly siRNA gMG Therapy Change Regeneron Pharmaceuticals' (REGN) Narrative?"
-    ],
-    "mode": "paper",
-    "strategy_version": "36",
-    "status": "open",
-    "price_trough": 623.5399780273438,
-    "trailing_stop_price": 628.472179
-  },
   "EUR/JPY": {
     "id": "EUR/JPY_20260629153722",
     "asset": "EUR/JPY",
@@ -278,7 +245,9 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
-    "status": "open"
+    "status": "open",
+    "price_trough": 562.0399780273438,
+    "trailing_stop_price": 570.470578
   },
   "MRVL": {
     "id": "MRVL_20260630160723",
@@ -309,8 +278,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 293.7099914550781,
-    "trailing_stop_price": 298.115641
+    "price_trough": 287.69989013671875,
+    "trailing_stop_price": 292.015388
   },
   "ARM": {
     "id": "ARM_20260630160723",
@@ -340,40 +309,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 354.57000732421875,
-    "trailing_stop_price": 375.844208
-  },
-  "KLAC": {
-    "id": "KLAC_20260630180958",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 302.1600036621094,
-    "entry_time": "2026-06-30T18:09:58.207308+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5005.02,
-    "position_size_pct": 0.0501,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (96.3)",
-      "5d momentum +8.57%",
-      "1d momentum +19.96%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.644,
-    "news_headlines": [
-      "Lam Research Stock, Chip Gear Peers Hit Record Highs",
-      "After a Monumental Run, Is Lam Research Stock Buying The AI Boom Or A Cyclical Peak?",
-      "Applied Materials (AMAT) Remains Favored as ASML Emerges as Top Catch-Up Trade"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 301.7099914550781,
-    "trailing_stop_price": 306.235641
+    "price_trough": 336.5199890136719,
+    "trailing_stop_price": 356.711188
   },
   "UBER": {
     "id": "UBER_20260630180958",
@@ -402,7 +339,9 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
-    "status": "open"
+    "status": "open",
+    "price_peak": 72.55000305175781,
+    "trailing_stop_price": 69.560217
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260630201757",
@@ -495,7 +434,9 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
-    "status": "open"
+    "status": "open",
+    "price_trough": 6.639999866485596,
+    "trailing_stop_price": 6.707927
   },
   "ETH-USD": {
     "id": "ETH-USD_20260701045622",
@@ -526,6 +467,71 @@
     ],
     "mode": "paper",
     "strategy_version": "42",
+    "status": "open",
+    "price_trough": 1595.5400390625,
+    "trailing_stop_price": 1608.112895
+  },
+  "META": {
+    "id": "META_20260701135614",
+    "asset": "META",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 604.3355102539062,
+    "entry_time": "2026-07-01T13:56:14.800421+00:00",
+    "stop_loss_pct": 0.01186,
+    "take_profit_pct": 0.02887,
+    "size_usd": 5592.43,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (79.6)",
+      "5d momentum +8.69%",
+      "1d momentum +10.20%",
+      "BB overbought (pct_b=1.46)",
+      "Volume spike 6.9\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.316,
+    "news_headlines": [
+      "Meta stock pops on news it will reportedly start a cloud computing business",
+      "Big Tech's first half was a story of hardware versus software",
+      "What to know about Anthropic's new Claude 'Sonnet 5' AI model"
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
+    "status": "open"
+  },
+  "CRM": {
+    "id": "CRM_20260701135614",
+    "asset": "CRM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 163.0,
+    "entry_time": "2026-07-01T13:56:14.802789+00:00",
+    "stop_loss_pct": 0.01107,
+    "take_profit_pct": 0.02695,
+    "size_usd": 5250.61,
+    "position_size_pct": 0.0523,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (60.5)",
+      "MACD crossover",
+      "5d momentum +4.82%",
+      "1d momentum +7.63%",
+      "BB overbought (pct_b=1.25)",
+      "Volume spike 1.9\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.864,
+    "news_headlines": [
+      "SpaceX initiated, Salesforce upgraded: Wall Street's top analyst calls",
+      "Salesforce Will Face AI Disruption but Stock Still Gets an Upgrade to Buy",
+      "Here Are Wednesday\u2019s Best Wall Street Analyst Research Calls: Abbott Laboratories, Circle Internet, Dow, Kratos Defense, Lockheed Martin, Salesforce, ServiceNow,SpaceX, and More"
+    ],
+    "mode": "paper",
+    "strategy_version": "43",
     "status": "open"
   }
 }
