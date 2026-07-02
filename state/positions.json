@@ -246,8 +246,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 215.22000122070312,
-    "trailing_stop_price": 215.650441
+    "price_trough": 215.2100067138672,
+    "trailing_stop_price": 215.640427
   },
   "META": {
     "id": "META_20260701162456",
@@ -470,38 +470,6 @@
     "strategy_version": "43",
     "status": "open"
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260701202032",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 59825.25,
-    "entry_time": "2026-07-01T20:20:32.356350+00:00",
-    "stop_loss_pct": 0.00682,
-    "take_profit_pct": 0.01615,
-    "size_usd": 13.35,
-    "position_size_pct": 0.0001,
-    "confidence": 0.737,
-    "signals": [
-      "RSI overbought (68.6)",
-      "5d momentum -0.44%",
-      "1d momentum +2.04%",
-      "Volume spike 1.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.273,
-    "news_headlines": [
-      "Bitcoin sees its worst first half since 2022 crash",
-      "Analyst who had high hopes for MicroStrategy sends brutal crash warning",
-      "Top Cryptocurrencies Rise; Bitcoin Holds Above $60,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "43",
-    "status": "open",
-    "price_peak": 60096.12109375,
-    "trailing_stop_price": 59686.265548
-  },
   "USD/JPY": {
     "id": "USD/JPY_20260702075252",
     "asset": "USD/JPY",
@@ -528,6 +496,39 @@
       "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
       "How the US Dollar Got Its Mojo Back",
       "Why a Plunging Dollar Is Missing Out on the Relief Rally"
+    ],
+    "mode": "paper",
+    "strategy_version": "44",
+    "status": "open",
+    "price_peak": 161.45399475097656,
+    "trailing_stop_price": 161.131087
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260702102613",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 80.12000274658203,
+    "entry_time": "2026-07-02T10:26:13.519718+00:00",
+    "stop_loss_pct": 0.01063,
+    "take_profit_pct": 0.02589,
+    "size_usd": 13.47,
+    "position_size_pct": 0.0001,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (70.5)",
+      "MACD crossover",
+      "5d momentum +2.69%",
+      "1d momentum +6.98%",
+      "BB overbought (pct_b=1.20)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge; fed hawkish"
+    ],
+    "news_sentiment": 0.216,
+    "news_headlines": [
+      "Circle stock plummeted because of this new stablecoin. Here's why.",
+      "Trump made $1B on crypto, his buyers got crushed",
+      "Crypto News Today (July 2): BTC Can\u2019t Reclaim $60K, Solana Sets Fresh Network Records, June Crypto Losses Top $76M"
     ],
     "mode": "paper",
     "strategy_version": "44",
