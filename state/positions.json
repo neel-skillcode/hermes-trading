@@ -104,8 +104,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 336.5199890136719,
-    "trailing_stop_price": 356.711188
+    "price_trough": 316.4849853515625,
+    "trailing_stop_price": 335.474084
   },
   "UBER": {
     "id": "UBER_20260630180958",
@@ -135,8 +135,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_peak": 73.11499786376953,
-    "trailing_stop_price": 70.101929
+    "price_peak": 73.65499877929688,
+    "trailing_stop_price": 70.619676
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260630201757",
@@ -231,37 +231,9 @@
     ],
     "mode": "paper",
     "strategy_version": "44",
-    "status": "open"
-  },
-  "HOOD": {
-    "id": "HOOD_20260702144002",
-    "asset": "HOOD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 116.25,
-    "entry_time": "2026-07-02T14:40:02.873443+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5104.11,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (80.4)",
-      "5d momentum +7.06%",
-      "1d momentum +20.25%",
-      "BB overbought (pct_b=1.08)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "Robinhood and 4 More Stocks That Were Just Added to This Firm\u2019s \u2018Top Picks\u2019 List",
-      "Robinhood Jumps 6% on Bullish Analyst Initiations as Coinbase, Strategy Ride a Crypto-Stock Bounce",
-      "Robinhood, Strategy, Micron, Tesla, Palantir, Bending Spoons, and More Stocks That Explain Today\u2019s Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "44",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1691.1600341796875,
+    "trailing_stop_price": 1708.44369
   },
   "ABBV": {
     "id": "ABBV_20260702144002",
@@ -322,7 +294,9 @@
     ],
     "mode": "paper",
     "strategy_version": "44",
-    "status": "open"
+    "status": "open",
+    "price_trough": 18.774999618530273,
+    "trailing_stop_price": 19.056625
   },
   "VRTX": {
     "id": "VRTX_20260702144002",
@@ -413,7 +387,9 @@
     ],
     "mode": "paper",
     "strategy_version": "44",
-    "status": "open"
+    "status": "open",
+    "price_trough": 76.95999908447266,
+    "trailing_stop_price": 78.114399
   },
   "AAPL": {
     "id": "AAPL_20260702144002",
@@ -501,7 +477,9 @@
     ],
     "mode": "paper",
     "strategy_version": "44",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.6927126049995422,
+    "trailing_stop_price": 0.698254
   },
   "GS": {
     "id": "GS_20260702144002",
@@ -530,7 +508,9 @@
     ],
     "mode": "paper",
     "strategy_version": "44",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1019.3480834960938,
+    "trailing_stop_price": 1041.804322
   },
   "USD/MXN": {
     "id": "USD/MXN_20260702144002",
@@ -553,6 +533,67 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "44",
+    "status": "open",
+    "price_peak": 17.483259201049805,
+    "trailing_stop_price": 17.343393
+  },
+  "AMAT": {
+    "id": "AMAT_20260702162704",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 592.8400268554688,
+    "entry_time": "2026-07-02T16:27:04.177132+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5177.7,
+    "position_size_pct": 0.0515,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (11.0)",
+      "5d momentum -7.43%",
+      "1d momentum -4.97%",
+      "BB oversold (pct_b=0.03)",
+      "High-impact catalyst",
+      "Claude [neutral]: fed dovish; price decline"
+    ],
+    "news_sentiment": 0.143,
+    "news_headlines": [
+      "Follow Stock Market Leaders To Stay In Step With Broader Market Health",
+      "Applied Materials Is Silently Powering the AI Boom. Here's Why.",
+      "Best Momentum Stocks to Buy for July 2nd"
+    ],
+    "mode": "paper",
+    "strategy_version": "45",
+    "status": "open"
+  },
+  "XLK": {
+    "id": "XLK_20260702162704",
+    "asset": "XLK",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 180.69000244140625,
+    "entry_time": "2026-07-02T16:27:04.199275+00:00",
+    "stop_loss_pct": 0.02451,
+    "take_profit_pct": 0.08043,
+    "size_usd": 3074.3,
+    "position_size_pct": 0.0306,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (13.3)",
+      "5d momentum -2.96%",
+      "BB oversold (pct_b=-0.07)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.111,
+    "news_headlines": [
+      "Apple-Heavy ETFs in Focus as the Company Eyes Major iPhone Expansion",
+      "Stock Market News for July 2, 2026",
+      "Sector Update: Tech Stocks Advance Premarket Thursday"
+    ],
+    "mode": "paper",
+    "strategy_version": "45",
     "status": "open"
   }
 }
