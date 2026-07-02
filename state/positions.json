@@ -104,8 +104,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 316.4849853515625,
-    "trailing_stop_price": 335.474084
+    "price_trough": 314.3800048828125,
+    "trailing_stop_price": 333.242805
   },
   "UBER": {
     "id": "UBER_20260630180958",
@@ -199,8 +199,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_trough": 1.0891000032424927,
-    "trailing_stop_price": 1.097943
+    "price_trough": 1.0889999866485596,
+    "trailing_stop_price": 1.097843
   },
   "ETH-USD": {
     "id": "ETH-USD_20260702144002",
@@ -295,8 +295,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_trough": 18.774999618530273,
-    "trailing_stop_price": 19.056625
+    "price_trough": 18.71500015258789,
+    "trailing_stop_price": 18.995725
   },
   "VRTX": {
     "id": "VRTX_20260702144002",
@@ -357,39 +357,9 @@
     ],
     "mode": "paper",
     "strategy_version": "44",
-    "status": "open"
-  },
-  "MRNA": {
-    "id": "MRNA_20260702144002",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 78.16500091552734,
-    "entry_time": "2026-07-02T14:40:02.881512+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5104.11,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (68.8)",
-      "5d momentum +6.05%",
-      "1d momentum +17.73%",
-      "BB overbought (pct_b=1.08)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.574,
-    "news_headlines": [
-      "Why Did PANW, AAL, MRNA Surge To 52-Week Highs?",
-      "Sandisk Leads Seven S&P 500 Stocks That Have Skyrocketed In 2026",
-      "Short Squeeze Alert\u2014Moderna Stock Surges on New Strategy"
-    ],
-    "mode": "paper",
-    "strategy_version": "44",
     "status": "open",
-    "price_trough": 76.95999908447266,
-    "trailing_stop_price": 78.114399
+    "price_trough": 162.8699951171875,
+    "trailing_stop_price": 163.697375
   },
   "AAPL": {
     "id": "AAPL_20260702144002",
@@ -478,8 +448,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_trough": 0.6927126049995422,
-    "trailing_stop_price": 0.698254
+    "price_trough": 0.6923769116401672,
+    "trailing_stop_price": 0.697916
   },
   "GS": {
     "id": "GS_20260702144002",
@@ -509,8 +479,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_trough": 1019.3480834960938,
-    "trailing_stop_price": 1041.804322
+    "price_trough": 1016.4450073242188,
+    "trailing_stop_price": 1038.837291
   },
   "USD/MXN": {
     "id": "USD/MXN_20260702144002",
@@ -565,7 +535,9 @@
     ],
     "mode": "paper",
     "strategy_version": "45",
-    "status": "open"
+    "status": "open",
+    "price_peak": 593.0050048828125,
+    "trailing_stop_price": 584.10993
   },
   "XLK": {
     "id": "XLK_20260702162704",
@@ -591,6 +563,36 @@
       "Apple-Heavy ETFs in Focus as the Company Eyes Major iPhone Expansion",
       "Stock Market News for July 2, 2026",
       "Sector Update: Tech Stocks Advance Premarket Thursday"
+    ],
+    "mode": "paper",
+    "strategy_version": "45",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260702181326",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 78.75,
+    "entry_time": "2026-07-02T18:13:26.859568+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5087.79,
+    "position_size_pct": 0.0506,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (74.6)",
+      "5d momentum +8.64%",
+      "1d momentum +15.25%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.574,
+    "news_headlines": [
+      "Tesla, Rivian, Strategy, Moderna, Sandisk, Blue Owl, and More Stocks That Explain Today\u2019s Market",
+      "Why Did PANW, AAL, MRNA Surge To 52-Week Highs?",
+      "Sandisk Leads Seven S&P 500 Stocks That Have Skyrocketed In 2026"
     ],
     "mode": "paper",
     "strategy_version": "45",
