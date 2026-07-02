@@ -135,8 +135,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_peak": 74.19499969482422,
-    "trailing_stop_price": 71.137424
+    "price_peak": 74.43000030517578,
+    "trailing_stop_price": 71.36274
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260630201757",
@@ -199,8 +199,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_trough": 1.0866999626159668,
-    "trailing_stop_price": 1.095524
+    "price_trough": 1.0810999870300293,
+    "trailing_stop_price": 1.089879
   },
   "ETH-USD": {
     "id": "ETH-USD_20260702144002",
@@ -470,37 +470,9 @@
     ],
     "mode": "paper",
     "strategy_version": "45",
-    "status": "open"
-  },
-  "LYFT": {
-    "id": "LYFT_20260702195300",
-    "asset": "LYFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 15.145000457763672,
-    "entry_time": "2026-07-02T19:53:00.480679+00:00",
-    "stop_loss_pct": 0.01269,
-    "take_profit_pct": 0.03167,
-    "size_usd": 6374.99,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (71.3)",
-      "MACD crossover",
-      "5d momentum +2.09%",
-      "1d momentum +3.84%",
-      "BB overbought (pct_b=0.99)",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.497,
-    "news_headlines": [
-      "Why United Airlines is teaming up with Lyft on loyalty",
-      "Lyft (LYFT) Ascends While Market Falls: Some Facts to Note",
-      "Uber Stock And The Growth Rate That Matters Most"
-    ],
-    "mode": "paper",
-    "strategy_version": "45",
-    "status": "open"
+    "status": "open",
+    "price_peak": 245.2899932861328,
+    "trailing_stop_price": 241.610643
   },
   "VRTX": {
     "id": "VRTX_20260702195300",
@@ -557,6 +529,68 @@
       "Are You Prepared for IBM\u2019s $260 Price Swing?",
       "Oracle Stock Crashed Again, Thanks in Part to OpenAI \u2014 Why It\u2019s a Golden Opportunity to Buy",
       "Robinhood and 4 More Stocks That Were Just Added to This Firm\u2019s \u2018Top Picks\u2019 List"
+    ],
+    "mode": "paper",
+    "strategy_version": "45",
+    "status": "open",
+    "price_peak": 140.27000427246094,
+    "trailing_stop_price": 138.165954
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20260702204928",
+    "asset": "USD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 161.09800720214844,
+    "entry_time": "2026-07-02T20:49:28.053978+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00458,
+    "size_usd": 3705.59,
+    "position_size_pct": 0.0369,
+    "confidence": 0.576,
+    "signals": [
+      "RSI oversold (35.5)",
+      "MACD crossover",
+      "1d momentum -0.91%",
+      "News +0.60 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 3 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 3 articles. Overa"
+    ],
+    "news_sentiment": 0.6,
+    "news_headlines": [
+      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
+      "How the US Dollar Got Its Mojo Back",
+      "Why a Plunging Dollar Is Missing Out on the Relief Rally"
+    ],
+    "mode": "paper",
+    "strategy_version": "45",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260702204928",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 61320.5,
+    "entry_time": "2026-07-02T20:49:28.056182+00:00",
+    "stop_loss_pct": 0.00672,
+    "take_profit_pct": 0.01619,
+    "size_usd": 2631.52,
+    "position_size_pct": 0.0262,
+    "confidence": 0.817,
+    "signals": [
+      "RSI overbought (69.8)",
+      "5d momentum -0.36%",
+      "1d momentum +2.08%",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.353,
+    "news_headlines": [
+      "Bitcoin ETFs saw record outflows in June, but there's actually more to the story",
+      "2 reasons Citi slashed its bitcoin & ethereum price targets",
+      "JPMorgan warns of risks from Strategy's Bitcoin sales policy"
     ],
     "mode": "paper",
     "strategy_version": "45",
