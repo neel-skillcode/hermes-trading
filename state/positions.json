@@ -138,37 +138,6 @@
     "price_peak": 74.43000030517578,
     "trailing_stop_price": 71.36274
   },
-  "GBP/JPY": {
-    "id": "GBP/JPY_20260630201757",
-    "asset": "GBP/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 215.6179962158203,
-    "entry_time": "2026-06-30T20:17:57.940671+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00471,
-    "size_usd": 2358.08,
-    "position_size_pct": 0.0236,
-    "confidence": 0.713,
-    "signals": [
-      "RSI overbought (73.6)",
-      "1d momentum +0.45%",
-      "BB overbought (pct_b=0.85)",
-      "High-impact catalyst",
-      "Claude [neutral]: fed dovish; price decline"
-    ],
-    "news_sentiment": -0.28,
-    "news_headlines": [
-      "Pound Mostly Steady After Weaker GDP",
-      "Sterling Declines as the BoE Appears More Dovish",
-      "Mixed Performance by the Pound After Weaker Job Data"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 214.947998046875,
-    "trailing_stop_price": 215.377894
-  },
   "KLAC": {
     "id": "KLAC_20260702144002",
     "asset": "KLAC",
@@ -499,8 +468,8 @@
     "mode": "paper",
     "strategy_version": "45",
     "status": "open",
-    "price_peak": 61798.51953125,
-    "trailing_stop_price": 61383.23348
+    "price_peak": 61896.6015625,
+    "trailing_stop_price": 61480.6564
   },
   "ETH-USD": {
     "id": "ETH-USD_20260703073312",
@@ -530,8 +499,8 @@
     "mode": "paper",
     "strategy_version": "46",
     "status": "open",
-    "price_peak": 1729.0,
-    "trailing_stop_price": 1719.1447
+    "price_peak": 1730.300048828125,
+    "trailing_stop_price": 1720.437339
   },
   "LYFT": {
     "id": "LYFT_20260703143559",
@@ -562,7 +531,9 @@
     ],
     "mode": "paper",
     "strategy_version": "46",
-    "status": "open"
+    "status": "open",
+    "price_trough": 15.369999885559082,
+    "trailing_stop_price": 15.578724
   },
   "ABBV": {
     "id": "ABBV_20260703143559",
@@ -590,6 +561,36 @@
       "Top Research Reports for Applied Materials, Mastercard & AbbVie",
       "Sector Update: Healthcare Stocks Gain Late Afternoon",
       "Sector Update: Healthcare Stocks Gain Thursday Afternoon"
+    ],
+    "mode": "paper",
+    "strategy_version": "46",
+    "status": "open"
+  },
+  "XLF": {
+    "id": "XLF_20260703161007",
+    "asset": "XLF",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 55.61000061035156,
+    "entry_time": "2026-07-03T16:10:07.707420+00:00",
+    "stop_loss_pct": 0.00497,
+    "take_profit_pct": 0.01197,
+    "size_usd": 2359.07,
+    "position_size_pct": 0.0235,
+    "confidence": 0.817,
+    "signals": [
+      "RSI overbought (86.5)",
+      "5d momentum +0.42%",
+      "1d momentum +3.47%",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.226,
+    "news_headlines": [
+      "Sector Update: Financial Stocks Advance Late Afternoon",
+      "Sector Update: Financial Stocks Rise in Afternoon Trading",
+      "Exchange-Traded Funds Fall, US Equities Mixed After Midday"
     ],
     "mode": "paper",
     "strategy_version": "46",
