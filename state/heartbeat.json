@@ -3,15 +3,15 @@
   "portfolio_balance": 100432.17,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.7,
-  "unrealized_pnl_usd": 905.26,
-  "equity_value": 101337.43,
+  "unrealized_pnl_usd": 925.02,
+  "equity_value": 101357.19,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40172.87,
   "swing_capital_used_usd": 50313.46,
   "total_trades": 512,
-  "last_tick": "2026-07-03T22:30:14.050885+00:00",
+  "last_tick": "2026-07-03T23:37:31.484950+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -637,9 +637,11 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "current_price": 6.97,
-      "unrealized_pnl_pct": -0.004323,
-      "unrealized_pnl_usd": -14.82
+      "price_trough": 6.929999828338623,
+      "trailing_stop_price": 6.976015,
+      "current_price": 6.93,
+      "unrealized_pnl_pct": 0.001441,
+      "unrealized_pnl_usd": 4.94
     }
   ],
   "last_candidates": [
@@ -729,7 +731,7 @@
     },
     {
       "asset": "ABBV",
-      "rank_score": 0.6903,
+      "rank_score": 0.6774,
       "price": 261.04998779296875,
       "rsi": 79.7958938942852,
       "momentum_5d": 0.008090213856988155,
@@ -739,33 +741,12 @@
       "bollinger_pct_b": 0.9335,
       "volume_spike": true,
       "volume_spike_ratio": 2.08,
-      "news_sentiment": 0.887,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "AbbVie (ABBV) Faces Congressional Probe Over China Clinical Trials",
         "Q1 Earnings Highlights: AbbVie (NYSE:ABBV) Vs The Rest Of The Therapeutics Stocks",
-        "Social Security Pays $2,081 a Month. Here\u2019s How Much You Need Invested to Match It.",
-        "WST Stock Up Nearly 33% YTD: Will the Uptrend Continue in the Rest of 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.664,
-      "price": 1758.4000244140625,
-      "rsi": 70.68064718662175,
-      "momentum_5d": 0.01245999132105639,
-      "momentum_1d": 0.03751435558934353,
-      "macd_crossover": false,
-      "atr_pct": 0.008096644007606544,
-      "bollinger_pct_b": 0.8707,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.25,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
-        "Is Solana the Best Ethereum Alternative Right Now?",
-        "Trump's Crypto Ventures Bring $1.2 Billion Windfall, Here's How His Namesake Memecoin, World Liberty Financial Fueled the Rise"
+        "Social Security Pays $2,081 a Month. Here\u2019s How Much You Need Invested to Match It."
       ],
       "high_impact_news": true
     },
@@ -787,6 +768,27 @@
         "Sector Update: Financial Stocks Advance Late Afternoon",
         "Sector Update: Financial Stocks Rise in Afternoon Trading",
         "Exchange-Traded Funds Fall, US Equities Mixed After Midday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6442,
+      "price": 1758.27001953125,
+      "rsi": 67.601102128745,
+      "momentum_5d": 0.012140345369071236,
+      "momentum_1d": 0.0352264903023081,
+      "macd_crossover": false,
+      "atr_pct": 0.007848626819709902,
+      "bollinger_pct_b": 0.8433,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.65,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
+        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
+        "Is Solana the Best Ethereum Alternative Right Now?"
       ],
       "high_impact_news": true
     },
@@ -813,7 +815,7 @@
     },
     {
       "asset": "V",
-      "rank_score": 0.6373,
+      "rank_score": 0.6303,
       "price": 361.5799865722656,
       "rsi": 85.16031713495903,
       "momentum_5d": 0.008267909648597884,
@@ -823,12 +825,12 @@
       "bollinger_pct_b": 0.8825,
       "volume_spike": true,
       "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.067,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
         "Salesforce (CRM) Lands Formula 1 Partnership To Bring Agentforce 360 To Racing Bulls",
-        "Can V's New Threat Intelligence Platform Strengthen Fraud Prevention?",
-        "Open USD Stablecoin Hype Backfires as Samsung Denies Partnership Claims"
+        "Can V's New Threat Intelligence Platform Strengthen Fraud Prevention?"
       ],
       "high_impact_news": true
     },
@@ -850,27 +852,6 @@
         "Moderna Is Up More Than 70% in a Month After a 9-0 FDA Vote. Wall Street's Average Price Target Says It Should Fall 44%. What Gives?",
         "Jim Cramer turns bullish on health care stock after years of doubt",
         "Moderna vs. Recursion: Which Cutting-Edge Pharma Stock Is a Better Buy in 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6073,
-      "price": 62568.671875,
-      "rsi": 77.70158150305986,
-      "momentum_5d": 0.00695241613308566,
-      "momentum_1d": 0.01906447453690773,
-      "macd_crossover": false,
-      "atr_pct": 0.005159250915913283,
-      "bollinger_pct_b": 0.9056,
-      "volume_spike": true,
-      "volume_spike_ratio": 47.07,
-      "news_sentiment": 0.548,
-      "news_confidence": 0.31,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
-        "XRP Trading Volume Tops Bitcoin on Upbit",
-        "Is Solana the Best Ethereum Alternative Right Now?"
       ],
       "high_impact_news": true
     },
@@ -980,6 +961,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5917,
+      "price": 62615.4296875,
+      "rsi": 75.11703653632208,
+      "momentum_5d": 0.0074890023171640535,
+      "momentum_1d": 0.018401500592887685,
+      "macd_crossover": false,
+      "atr_pct": 0.005081445562369855,
+      "bollinger_pct_b": 0.9,
+      "volume_spike": true,
+      "volume_spike_ratio": 8.99,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.28,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
+        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
+        "Investor Cathie Wood Bought The Dip In Crypto Stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AAPL",
       "rank_score": 0.5896,
       "price": 308.2200012207031,
@@ -991,12 +993,12 @@
       "bollinger_pct_b": 0.8584,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.48,
       "news_headlines": [
         "Here's how much more expensive your devices have gotten thanks to AI",
-        "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?",
-        "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals"
+        "Western Digital (WDC) Stock Falls As Apple CXMT Talk Adds Memory Pressure",
+        "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?"
       ],
       "high_impact_news": true
     },
@@ -1044,7 +1046,7 @@
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.577,
+      "rank_score": 0.5819,
       "price": 360.3399963378906,
       "rsi": 21.479681817945334,
       "momentum_5d": -0.012212384834932196,
@@ -1054,12 +1056,12 @@
       "bollinger_pct_b": 0.1517,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.723,
+      "news_confidence": 0.53,
       "news_headlines": [
+        "Broadcom (AVGO) Backs DriveNets Tomahawk 6 Push For Open Ethernet AI Data Centers",
         "Jim Cramer Explains Why You Need to Own NVIDIA Now",
-        "AMD's Valuation is Stretched at 54.08X P/E: Buy, Sell or Hold the Stock?",
-        "JPMorgan names 2 Strong Buy picks for the rest of 2026"
+        "AMD's Valuation is Stretched at 54.08X P/E: Buy, Sell or Hold the Stock?"
       ],
       "high_impact_news": true
     }
