@@ -3,15 +3,15 @@
   "portfolio_balance": 100432.17,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.7,
-  "unrealized_pnl_usd": 931.31,
-  "equity_value": 101363.48,
+  "unrealized_pnl_usd": 900.32,
+  "equity_value": 101332.49,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40172.87,
   "swing_capital_used_usd": 50313.46,
   "total_trades": 512,
-  "last_tick": "2026-07-03T20:09:14.713957+00:00",
+  "last_tick": "2026-07-03T21:22:09.371636+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 1.0761100053787231,
       "trailing_stop_price": 1.067501,
-      "current_price": 1.07322,
-      "unrealized_pnl_pct": 0.018264,
-      "unrealized_pnl_usd": 24.55
+      "current_price": 1.07206,
+      "unrealized_pnl_pct": 0.017164,
+      "unrealized_pnl_usd": 23.07
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8424,
-      "unrealized_pnl_pct": 0.001034,
-      "unrealized_pnl_usd": 1.39
+      "current_price": 7.843,
+      "unrealized_pnl_pct": 0.00111,
+      "unrealized_pnl_usd": 1.49
     },
     {
       "id": "EUR/JPY_20260629153722",
@@ -99,9 +99,9 @@
       "status": "open",
       "price_trough": 184.09100341796875,
       "trailing_stop_price": 185.563731,
-      "current_price": 184.524002,
-      "unrealized_pnl_pct": 0.002249,
-      "unrealized_pnl_usd": 14.89
+      "current_price": 184.556,
+      "unrealized_pnl_pct": 0.002076,
+      "unrealized_pnl_usd": 13.75
     },
     {
       "id": "ARM_20260630160723",
@@ -233,9 +233,9 @@
       "status": "open",
       "price_trough": 0.6916107535362244,
       "trailing_stop_price": 0.697144,
-      "current_price": 0.693866,
-      "unrealized_pnl_pct": -0.000902,
-      "unrealized_pnl_usd": -4.91
+      "current_price": 0.6943,
+      "unrealized_pnl_pct": -0.001528,
+      "unrealized_pnl_usd": -8.31
     },
     {
       "id": "GS_20260702144002",
@@ -295,9 +295,9 @@
       "status": "open",
       "price_peak": 17.483259201049805,
       "trailing_stop_price": 17.343393,
-      "current_price": 17.47216,
-      "unrealized_pnl_pct": -0.00018,
-      "unrealized_pnl_usd": -0.97
+      "current_price": 17.455,
+      "unrealized_pnl_pct": -0.001162,
+      "unrealized_pnl_usd": -6.27
     },
     {
       "id": "XLK_20260702162704",
@@ -637,9 +637,9 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "current_price": 6.94,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 6.98,
+      "unrealized_pnl_pct": -0.005764,
+      "unrealized_pnl_usd": -19.76
     }
   ],
   "last_candidates": [
@@ -728,29 +728,50 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6973,
-      "price": 6.940000057220459,
-      "rsi": 66.66672553555975,
-      "momentum_5d": 0.017595290694816745,
-      "momentum_1d": 0.028148156625253183,
+      "asset": "ETH-USD",
+      "rank_score": 0.7476,
+      "price": 1764.56005859375,
+      "rsi": 75.77459534517419,
+      "momentum_5d": 0.018816774217739154,
+      "momentum_1d": 0.03889317550412128,
       "macd_crossover": true,
-      "atr_pct": 0.006792907454673601,
-      "bollinger_pct_b": 1.1954,
+      "atr_pct": 0.00813842245953262,
+      "bollinger_pct_b": 0.9865,
       "volume_spike": false,
-      "volume_spike_ratio": 0.07,
-      "news_sentiment": 0.533,
-      "news_confidence": 0.3,
+      "volume_spike_ratio": 0.75,
+      "news_sentiment": 0.415,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "A New Era for Tokenization: Securitize Lists on the NYSE",
-        "Securitize brings its own stock onchain on Solana at NYSE debut",
-        "Securitize Begins Trading on NYSE as Tokenized Shares Land on Solana, Avalanche"
+        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
+        "Is Solana the Best Ethereum Alternative Right Now?",
+        "Trump's Crypto Ventures Bring $1.2 Billion Windfall, Here's How His Namesake Memecoin, World Liberty Financial Fueled the Rise"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.6949,
+      "price": 572.8599853515625,
+      "rsi": 82.77942249979722,
+      "momentum_5d": 0.011583962034256642,
+      "momentum_1d": 0.028547764205034545,
+      "macd_crossover": false,
+      "atr_pct": 0.004966304042519467,
+      "bollinger_pct_b": 1.0299,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.28,
+      "news_sentiment": 0.143,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Top Cryptocurrencies Rise; Bitcoin Holds Above $60,000",
+        "BNB Chain Pushes Self-Custody as MiCA Reshapes Europe's Crypto Market",
+        "1,700 Binance UK Customers Sue the Exchange for \u00a3150M"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ABBV",
-      "rank_score": 0.6954,
+      "rank_score": 0.6903,
       "price": 261.04998779296875,
       "rsi": 79.7958938942852,
       "momentum_5d": 0.008090213856988155,
@@ -760,12 +781,12 @@
       "bollinger_pct_b": 0.9335,
       "volume_spike": true,
       "volume_spike_ratio": 2.08,
-      "news_sentiment": 0.929,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.887,
+      "news_confidence": 0.53,
       "news_headlines": [
-        "WST Stock Up Nearly 33% YTD: Will the Uptrend Continue in the Rest of 2026?",
-        "Top Research Reports for Applied Materials, Mastercard & AbbVie",
-        "Sector Update: Healthcare Stocks Gain Late Afternoon"
+        "Q1 Earnings Highlights: AbbVie (NYSE:ABBV) Vs The Rest Of The Therapeutics Stocks",
+        "Social Security Pays $2,081 a Month. Here\u2019s How Much You Need Invested to Match It.",
+        "WST Stock Up Nearly 33% YTD: Will the Uptrend Continue in the Rest of 2026?"
       ],
       "high_impact_news": true
     },
@@ -813,7 +834,7 @@
     },
     {
       "asset": "V",
-      "rank_score": 0.6383,
+      "rank_score": 0.6373,
       "price": 361.5799865722656,
       "rsi": 85.16031713495903,
       "momentum_5d": 0.008267909648597884,
@@ -823,33 +844,33 @@
       "bollinger_pct_b": 0.8825,
       "volume_spike": true,
       "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.204,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "Salesforce (CRM) Lands Formula 1 Partnership To Bring Agentforce 360 To Racing Bulls",
         "Can V's New Threat Intelligence Platform Strengthen Fraud Prevention?",
-        "Open USD Stablecoin Hype Backfires as Samsung Denies Partnership Claims",
-        "What Makes Visa (V) a Lucrative Investment?"
+        "Open USD Stablecoin Hype Backfires as Samsung Denies Partnership Claims"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.6193,
-      "price": 1.1332999467849731,
-      "rsi": 81.42590670793895,
-      "momentum_5d": 0.01268874316378756,
-      "momentum_1d": 0.04721853081992899,
+      "asset": "AVAX-USD",
+      "rank_score": 0.6222,
+      "price": 6.980000019073486,
+      "rsi": 73.33333333333333,
+      "momentum_5d": 0.023460387593088994,
+      "momentum_1d": 0.02949849602892418,
       "macd_crossover": false,
-      "atr_pct": 0.008149407139962225,
-      "bollinger_pct_b": 0.9939,
+      "atr_pct": 0.007674979986453569,
+      "bollinger_pct_b": 1.1412,
       "volume_spike": false,
-      "volume_spike_ratio": 0.54,
-      "news_sentiment": 0.532,
-      "news_confidence": 0.47,
+      "volume_spike_ratio": 0.91,
+      "news_sentiment": 0.533,
+      "news_confidence": 0.3,
       "news_headlines": [
-        "XRP Just Flashed Its First Buy Signal Since Mid-June. Will the XRP Price Rally?",
-        "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP?",
-        "Ripple Wants to Move a $3 Trillion Business Onto the XRP Ledger. What Would That Do to the XRP Price?"
+        "A New Era for Tokenization: Securitize Lists on the NYSE",
+        "Securitize brings its own stock onchain on Solana at NYSE debut",
+        "Securitize Begins Trading on NYSE as Tokenized Shares Land on Solana, Avalanche"
       ],
       "high_impact_news": true
     },
@@ -973,9 +994,30 @@
       "news_sentiment": 0.689,
       "news_confidence": 0.45,
       "news_headlines": [
+        "Bloom Energy Skyrocketed Over 248% in the First Half of 2026. Here's What to Expect in the Second Half.",
         "Is Oracle (ORCL) One of the Cheap Stocks That Are About to Explode?",
-        "Snowflake Gains 6% in a Month: Should You Buy, Sell, or Hold the Stock?",
-        "Guidewire Growth Trends Show How AI and Services Are Evolving"
+        "Snowflake Gains 6% in a Month: Should You Buy, Sell, or Hold the Stock?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.593,
+      "price": 0.07778999954462051,
+      "rsi": 77.75360418131699,
+      "momentum_5d": 0.018193752941467887,
+      "momentum_1d": 0.0513582531868123,
+      "macd_crossover": false,
+      "atr_pct": 0.008824121103289064,
+      "bollinger_pct_b": 0.9439,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.78,
+      "news_sentiment": -0.238,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Spike as Weak Jobs Data Dims Rate-Hike Odds: Analyst Says 'Markets Are Just Waking Up'",
+        "Bitcoin Spikes as Kevin Warsh Flags Inflation Concerns; Ethereum, XRP, Dogecoin Also Gain: Popular Analyst Says 'Market Bottom Is Here'",
+        "Top Cryptocurrencies Rise; Bitcoin Holds Above $60,000"
       ],
       "high_impact_news": true
     },
@@ -1018,48 +1060,6 @@
         "Halliburton Seen Posting Positive Q2 Results on Fracking Gains, UBS Says",
         "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day",
         "Halliburton (HAL) Suffers a Larger Drop Than the General Market: Key Insights"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AAPL",
-      "rank_score": 0.5826,
-      "price": 308.2200012207031,
-      "rsi": 87.43168746297746,
-      "momentum_5d": 0.009184200505223955,
-      "momentum_1d": 0.09499783000816281,
-      "macd_crossover": false,
-      "atr_pct": 0.009452777140759214,
-      "bollinger_pct_b": 0.8584,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.459,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Here's how much more expensive your devices have gotten thanks to AI",
-        "Inside Securitize's SPAC IPO and tokenization strategy",
-        "The browser wars aren\u2019t about search anymore \u2014 here are the best alternatives to Chrome and Safari"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MU",
-      "rank_score": 0.5812,
-      "price": 976.2100219726562,
-      "rsi": 15.20704430511229,
-      "momentum_5d": -0.02198072594131808,
-      "momentum_1d": -0.12748772150175178,
-      "macd_crossover": false,
-      "atr_pct": 0.03247571277400794,
-      "bollinger_pct_b": 0.2076,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.81,
-      "news_sentiment": 0.893,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Micron & 2 Profitable Stocks to Buy in July for Explosive Upside",
-        "Better Artificial Intelligence (AI) Stock: Alphabet vs. Micron Technology (the Winner May Surprise You)",
-        "Top Invesco Analyst: The AI Trade That \u201cLifted All Boats\u201d Is Over. Now Profitability Decides Winners As \u201cCapacity Will Catch Up\u201d"
       ],
       "high_impact_news": true
     }
