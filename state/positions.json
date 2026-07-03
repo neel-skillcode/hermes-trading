@@ -292,8 +292,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_trough": 0.6920893788337708,
-    "trailing_stop_price": 0.697626
+    "price_trough": 0.6916107535362244,
+    "trailing_stop_price": 0.697144
   },
   "GS": {
     "id": "GS_20260702144002",
@@ -536,36 +536,6 @@
     "price_peak": 140.27000427246094,
     "trailing_stop_price": 138.165954
   },
-  "USD/JPY": {
-    "id": "USD/JPY_20260702204928",
-    "asset": "USD/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 161.09800720214844,
-    "entry_time": "2026-07-02T20:49:28.053978+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00458,
-    "size_usd": 3705.59,
-    "position_size_pct": 0.0369,
-    "confidence": 0.576,
-    "signals": [
-      "RSI oversold (35.5)",
-      "MACD crossover",
-      "1d momentum -0.91%",
-      "News +0.60 (conf 0.67) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 3 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 3 articles. Overa"
-    ],
-    "news_sentiment": 0.6,
-    "news_headlines": [
-      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
-      "How the US Dollar Got Its Mojo Back",
-      "Why a Plunging Dollar Is Missing Out on the Relief Rally"
-    ],
-    "mode": "paper",
-    "strategy_version": "45",
-    "status": "open"
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260702204928",
     "asset": "BTC-USD",
@@ -594,6 +564,37 @@
     ],
     "mode": "paper",
     "strategy_version": "45",
+    "status": "open",
+    "price_peak": 61373.21875,
+    "trailing_stop_price": 60960.79072
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20260703000915",
+    "asset": "USD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 161.43699645996094,
+    "entry_time": "2026-07-03T00:09:15.170972+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00439,
+    "size_usd": 2502.36,
+    "position_size_pct": 0.0249,
+    "confidence": 0.389,
+    "signals": [
+      "RSI overbought (60.1)",
+      "1d momentum -0.67%",
+      "News +0.60 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 3 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 3 articles. Overa"
+    ],
+    "news_sentiment": 0.6,
+    "news_headlines": [
+      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
+      "How the US Dollar Got Its Mojo Back",
+      "Why a Plunging Dollar Is Missing Out on the Relief Rally"
+    ],
+    "mode": "paper",
+    "strategy_version": "46",
     "status": "open"
   }
 }
