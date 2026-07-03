@@ -439,38 +439,6 @@
     "price_peak": 140.27000427246094,
     "trailing_stop_price": 138.165954
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260702204928",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 61320.5,
-    "entry_time": "2026-07-02T20:49:28.056182+00:00",
-    "stop_loss_pct": 0.00672,
-    "take_profit_pct": 0.01619,
-    "size_usd": 2631.52,
-    "position_size_pct": 0.0262,
-    "confidence": 0.817,
-    "signals": [
-      "RSI overbought (69.8)",
-      "5d momentum -0.36%",
-      "1d momentum +2.08%",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.353,
-    "news_headlines": [
-      "Bitcoin ETFs saw record outflows in June, but there's actually more to the story",
-      "2 reasons Citi slashed its bitcoin & ethereum price targets",
-      "JPMorgan warns of risks from Strategy's Bitcoin sales policy"
-    ],
-    "mode": "paper",
-    "strategy_version": "45",
-    "status": "open",
-    "price_peak": 62182.30078125,
-    "trailing_stop_price": 61764.43572
-  },
   "LYFT": {
     "id": "LYFT_20260703143559",
     "asset": "LYFT",
@@ -567,32 +535,32 @@
     "price_peak": 55.619998931884766,
     "trailing_stop_price": 55.343568
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260703174624",
-    "asset": "XRP-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260703200914",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.1210999488830566,
-    "entry_time": "2026-07-03T17:46:24.281787+00:00",
-    "stop_loss_pct": 0.00725,
-    "take_profit_pct": 0.01765,
-    "size_usd": 782.93,
-    "position_size_pct": 0.0078,
+    "entry_price": 6.940000057220459,
+    "entry_time": "2026-07-03T20:09:14.706552+00:00",
+    "stop_loss_pct": 0.00664,
+    "take_profit_pct": 0.01617,
+    "size_usd": 3428.89,
+    "position_size_pct": 0.0341,
     "confidence": 0.87,
     "signals": [
-      "RSI overbought (80.6)",
-      "5d momentum +1.31%",
-      "1d momentum +3.10%",
-      "BB overbought (pct_b=0.95)",
-      "Volume spike 3.5\u00d7",
+      "RSI overbought (66.7)",
+      "MACD crossover",
+      "5d momentum +1.76%",
+      "1d momentum +2.81%",
+      "BB overbought (pct_b=1.20)",
       "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 1 bearish across 10 articles. Ove"
+      "Claude [contradicts]: price surge; price decline"
     ],
-    "news_sentiment": 0.273,
+    "news_sentiment": 0.533,
     "news_headlines": [
-      "Ripple Is Bringing Agentic AI Payments to the XRP Blockchain. Is This a Game Changer for XRP?",
-      "Ripple Wants to Move a $3 Trillion Business Onto the XRP Ledger. What Would That Do to the XRP Price?",
-      "XRP Holder Losses Hit Deepest Level in 12 Years: Buy Signal or Trap?"
+      "A New Era for Tokenization: Securitize Lists on the NYSE",
+      "Securitize brings its own stock onchain on Solana at NYSE debut",
+      "Securitize Begins Trading on NYSE as Tokenized Shares Land on Solana, Avalanche"
     ],
     "mode": "paper",
     "strategy_version": "46",
