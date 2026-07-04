@@ -3,15 +3,15 @@
   "portfolio_balance": 100491.46,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.64,
-  "unrealized_pnl_usd": 922.84,
-  "equity_value": 101414.3,
+  "unrealized_pnl_usd": 940.49,
+  "equity_value": 101431.95,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40196.58,
   "swing_capital_used_usd": 50313.46,
   "total_trades": 513,
-  "last_tick": "2026-07-04T12:18:58.801533+00:00",
+  "last_tick": "2026-07-04T14:03:48.880528+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -635,11 +635,11 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "price_peak": 0.07678999751806259,
-      "trailing_stop_price": 0.076284,
-      "current_price": 0.07679,
-      "unrealized_pnl_pct": 0.000912,
-      "unrealized_pnl_usd": 2.84
+      "price_peak": 0.07722999900579453,
+      "trailing_stop_price": 0.076721,
+      "current_price": 0.07723,
+      "unrealized_pnl_pct": 0.006648,
+      "unrealized_pnl_usd": 20.69
     },
     {
       "id": "SOL-USD_20260704094804",
@@ -670,9 +670,9 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "current_price": 81.68,
-      "unrealized_pnl_pct": -0.000245,
-      "unrealized_pnl_usd": -0.08
+      "current_price": 81.629997,
+      "unrealized_pnl_pct": -0.000857,
+      "unrealized_pnl_usd": -0.29
     }
   ],
   "last_candidates": [
@@ -761,6 +761,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.7105,
+      "price": 1.1562999486923218,
+      "rsi": 62.00000733597673,
+      "momentum_5d": 0.017780031642242455,
+      "momentum_1d": 0.040680399571614734,
+      "macd_crossover": true,
+      "atr_pct": 0.00827146021732025,
+      "bollinger_pct_b": 1.1251,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.07,
+      "news_sentiment": 0.532,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "XRP Is Testing a Trendline That Could Spark a 30% Rally. Can the XRP Price Break Out?",
+        "Billionaire backs startup founded by New York Senator's son",
+        "XRP Trading Volume Tops Bitcoin on Upbit"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ABBV",
       "rank_score": 0.6774,
       "price": 261.04998779296875,
@@ -804,7 +825,7 @@
     },
     {
       "asset": "V",
-      "rank_score": 0.6412,
+      "rank_score": 0.6433,
       "price": 361.5799865722656,
       "rsi": 85.16031713495903,
       "momentum_5d": 0.008267909648597884,
@@ -814,12 +835,12 @@
       "bollinger_pct_b": 0.8825,
       "volume_spike": true,
       "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.318,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.4,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Piper Sandler Initiates Visa Inc. (V) With Overweight Rating on Payments Strength",
-        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
-        "Salesforce (CRM) Lands Formula 1 Partnership To Bring Agentforce 360 To Racing Bulls"
+        "Rezolve AI (RZLV) is One of the Best New Tech Stocks to Buy According to Analysts",
+        "Visa Is Having a Rare Down Year. Is the Cash Flow Machine Finally a Bargain?",
+        "Piper Sandler Initiates Visa Inc. (V) With Overweight Rating on Payments Strength"
       ],
       "high_impact_news": true
     },
@@ -866,27 +887,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.6074,
-      "price": 140.33140563964844,
-      "rsi": 19.25155594323165,
-      "momentum_5d": -0.011750664509518045,
-      "momentum_1d": -0.05817848563994337,
-      "macd_crossover": false,
-      "atr_pct": 0.016801640975602695,
-      "bollinger_pct_b": 0.1044,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "Cisco Is Up 46% and Oracle Is Down 25% in 2026. The Better Dividend Buy Might Surprise You.",
-        "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story",
-        "Bloom Energy Skyrocketed Over 248% in the First Half of 2026. Here's What to Expect in the Second Half."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "KLAC",
       "rank_score": 0.6064,
       "price": 235.36500549316406,
@@ -904,6 +904,27 @@
         "Vltava Fund Exited KLA Corporation (KLAC) Amid Price-Quality Imbalance",
         "US Stock Market Today: S&P 500 Futures Slip On Cooling Jobs And Rate Jitters",
         "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.6054,
+      "price": 140.33140563964844,
+      "rsi": 19.25155594323165,
+      "momentum_5d": -0.011750664509518045,
+      "momentum_1d": -0.05817848563994337,
+      "macd_crossover": false,
+      "atr_pct": 0.016801640975602695,
+      "bollinger_pct_b": 0.1044,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.811,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "$750 Billion AI Spending Wave: Should You Buy These 3 AI Infrastructure Stocks?",
+        "Cisco Is Up 46% and Oracle Is Down 25% in 2026. The Better Dividend Buy Might Surprise You.",
+        "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story"
       ],
       "high_impact_news": true
     },
@@ -972,7 +993,7 @@
     },
     {
       "asset": "AAPL",
-      "rank_score": 0.5896,
+      "rank_score": 0.5946,
       "price": 308.2200012207031,
       "rsi": 87.43168746297746,
       "momentum_5d": 0.009184200505223955,
@@ -982,12 +1003,12 @@
       "bollinger_pct_b": 0.8584,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.644,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "Stock Market Volatility: History Says This 1 Investing Move Is More Important Than Ever Before",
+        "Why Vanguard\u2019s $143 Billion Tech ETF Outpaced QQQ While Charging Half the Fee",
         "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
-        "Why FNGU\u2019s 0.95% Fee Is Only Half the Hidden Cost"
+        "Stock Market Volatility: History Says This 1 Investing Move Is More Important Than Ever Before"
       ],
       "high_impact_news": true
     },
@@ -1072,27 +1093,6 @@
         "Why IonQ Stock Plummeted 26.1% in June",
         "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
         "IQM Begins Trading: What to Know About the Newly Listed Quantum Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MA",
-      "rank_score": 0.5657,
-      "price": 539.2899780273438,
-      "rsi": 79.7901414912451,
-      "momentum_5d": 0.007171473961658592,
-      "momentum_1d": 0.05480468170589726,
-      "macd_crossover": false,
-      "atr_pct": 0.0081950892584811,
-      "bollinger_pct_b": 0.8513,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.28,
-      "news_sentiment": 0.536,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "UBS Highlights Mastercard (MA)\u2019s Long-Term Growth Following Agent Pay Launch",
-        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
-        "Fiserv, service station operators including BP warn US stores on illegal vapes"
       ],
       "high_impact_news": true
     }
