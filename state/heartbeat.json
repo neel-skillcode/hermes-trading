@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100491.46,
+  "portfolio_balance": 100547.05,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 1.64,
-  "unrealized_pnl_usd": 940.49,
-  "equity_value": 101431.95,
+  "portfolio_drawdown_pct": 1.58,
+  "unrealized_pnl_usd": 921.5,
+  "equity_value": 101468.54,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40196.58,
+  "day_capital_used_usd": 40218.82,
   "swing_capital_used_usd": 50313.46,
-  "total_trades": 513,
-  "last_tick": "2026-07-04T14:03:48.880528+00:00",
+  "total_trades": 514,
+  "last_tick": "2026-07-04T15:17:15.735142+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -608,40 +608,6 @@
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "DOGE-USD_20260704094804",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.07671999931335449,
-      "entry_time": "2026-07-04T09:48:04.493767+00:00",
-      "stop_loss_pct": 0.00659,
-      "take_profit_pct": 0.01477,
-      "size_usd": 3112.82,
-      "position_size_pct": 0.031,
-      "confidence": 0.484,
-      "signals": [
-        "5d momentum -1.30%",
-        "1d momentum +2.40%",
-        "Volume spike 3.2\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge; fed hawkish"
-      ],
-      "news_sentiment": -0.238,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Spike as Weak Jobs Data Dims Rate-Hike Odds: Analyst Says 'Markets Are Just Waking Up'",
-        "Bitcoin Spikes as Kevin Warsh Flags Inflation Concerns; Ethereum, XRP, Dogecoin Also Gain: Popular Analyst Says 'Market Bottom Is Here'",
-        "Top Cryptocurrencies Rise; Bitcoin Holds Above $60,000"
-      ],
-      "mode": "paper",
-      "strategy_version": "46",
-      "status": "open",
-      "price_peak": 0.07722999900579453,
-      "trailing_stop_price": 0.076721,
-      "current_price": 0.07723,
-      "unrealized_pnl_pct": 0.006648,
-      "unrealized_pnl_usd": 20.69
-    },
-    {
       "id": "SOL-USD_20260704094804",
       "asset": "SOL-USD",
       "trade_type": "day",
@@ -670,12 +636,70 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "current_price": 81.629997,
-      "unrealized_pnl_pct": -0.000857,
-      "unrealized_pnl_usd": -0.29
+      "price_peak": 82.02999877929688,
+      "trailing_stop_price": 81.374579,
+      "current_price": 82.040001,
+      "unrealized_pnl_pct": 0.004162,
+      "unrealized_pnl_usd": 1.41
+    },
+    {
+      "id": "ETH-USD_20260704151715",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1786.199951171875,
+      "entry_time": "2026-07-04T15:17:15.732764+00:00",
+      "stop_loss_pct": 0.00513,
+      "take_profit_pct": 0.01249,
+      "size_usd": 3135.06,
+      "position_size_pct": 0.0312,
+      "confidence": 0.87,
+      "signals": [
+        "RSI overbought (81.2)",
+        "MACD crossover",
+        "5d momentum +1.62%",
+        "1d momentum +3.28%",
+        "BB overbought (pct_b=1.32)",
+        "Volume spike 4.7\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.689,
+      "news_headlines": [
+        "Congress Is Moving Forward With the Clarity Act. That Makes Ethereum the Best Crypto to Buy This Summer",
+        "German local banks expand crypto trading to millions of retail customers",
+        "Weekly Wrap: Crypto Recovers To Start Third Quarter"
+      ],
+      "mode": "paper",
+      "strategy_version": "47",
+      "status": "open",
+      "current_price": 1786.199951,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.965,
+      "price": 1786.199951171875,
+      "rsi": 81.1624531613148,
+      "momentum_5d": 0.016214371503508768,
+      "momentum_1d": 0.03281987908725645,
+      "macd_crossover": true,
+      "atr_pct": 0.005245770559471862,
+      "bollinger_pct_b": 1.3166,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.65,
+      "news_sentiment": 0.689,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Congress Is Moving Forward With the Clarity Act. That Makes Ethereum the Best Crypto to Buy This Summer",
+        "German local banks expand crypto trading to millions of retail customers",
+        "Weekly Wrap: Crypto Recovers To Start Third Quarter"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "LYFT",
       "rank_score": 0.9569,
@@ -762,16 +786,16 @@
     },
     {
       "asset": "XRP-USD",
-      "rank_score": 0.7105,
-      "price": 1.1562999486923218,
-      "rsi": 62.00000733597673,
-      "momentum_5d": 0.017780031642242455,
-      "momentum_1d": 0.040680399571614734,
-      "macd_crossover": true,
-      "atr_pct": 0.00827146021732025,
-      "bollinger_pct_b": 1.1251,
+      "rank_score": 0.6833,
+      "price": 1.1713999509811401,
+      "rsi": 76.45462787013767,
+      "momentum_5d": 0.026913271504464733,
+      "momentum_1d": 0.0467339625899489,
+      "macd_crossover": false,
+      "atr_pct": 0.009122183130150431,
+      "bollinger_pct_b": 1.1489,
       "volume_spike": false,
-      "volume_spike_ratio": 0.07,
+      "volume_spike_ratio": 1.06,
       "news_sentiment": 0.532,
       "news_confidence": 0.47,
       "news_headlines": [
@@ -825,7 +849,7 @@
     },
     {
       "asset": "V",
-      "rank_score": 0.6433,
+      "rank_score": 0.6502,
       "price": 361.5799865722656,
       "rsi": 85.16031713495903,
       "momentum_5d": 0.008267909648597884,
@@ -835,18 +859,39 @@
       "bollinger_pct_b": 0.8825,
       "volume_spike": true,
       "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.4,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.511,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "Stock Market Week Ahead: Oil Hints At A Paradigm Shift",
         "Rezolve AI (RZLV) is One of the Best New Tech Stocks to Buy According to Analysts",
-        "Visa Is Having a Rare Down Year. Is the Cash Flow Machine Finally a Bargain?",
-        "Piper Sandler Initiates Visa Inc. (V) With Overweight Rating on Payments Strength"
+        "Visa Is Having a Rare Down Year. Is the Cash Flow Machine Finally a Bargain?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6418,
+      "price": 6.960000038146973,
+      "rsi": 62.857185675243386,
+      "momentum_5d": 0.01754384252662341,
+      "momentum_1d": 0.02052783914395287,
+      "macd_crossover": true,
+      "atr_pct": 0.005952375243123821,
+      "bollinger_pct_b": 0.7972,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.5,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+        "A New Era for Tokenization: Securitize Lists on the NYSE",
+        "Securitize brings its own stock onchain on Solana at NYSE debut"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.6386,
+      "rank_score": 0.6396,
       "price": 245.52000427246094,
       "rsi": 12.859887750258522,
       "momentum_5d": -0.030446596316234326,
@@ -856,18 +901,18 @@
       "bollinger_pct_b": 0.1677,
       "volume_spike": false,
       "volume_spike_ratio": 1.17,
-      "news_sentiment": 0.583,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.644,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "Cantor Fitzgerald Raises PT on Marvell Technology (MRVL) Stock",
         "Jim Cramer\u2019s Thoughts on Marvell (MRVL) and Why It May Still Have A Lot More Upside",
-        "How are Active Electrical Cables Driving Credo's Growth?",
-        "Micron Trades at a Discount Despite 243% YTD Rally: Buy More MU Shares?"
+        "How are Active Electrical Cables Driving Credo's Growth?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MRNA",
-      "rank_score": 0.6152,
+      "rank_score": 0.6173,
       "price": 79.80000305175781,
       "rsi": 77.42911730140212,
       "momentum_5d": 0.026564641733999864,
@@ -877,12 +922,12 @@
       "bollinger_pct_b": 0.9198,
       "volume_spike": false,
       "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.404,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Moderna Is Up More Than 70% in a Month After a 9-0 FDA Vote. Wall Street's Average Price Target Says It Should Fall 44%. What Gives?",
-        "Jim Cramer turns bullish on health care stock after years of doubt",
-        "Moderna vs. Recursion: Which Cutting-Edge Pharma Stock Is a Better Buy in 2026?"
+        "Jim Cramer Says \u201cFor the First Time in Ages, I Like Having a Position in Moderna\u201d",
+        "Stock Market Week Ahead: Oil Hints At A Paradigm Shift",
+        "Moderna Is Up More Than 70% in a Month After a 9-0 FDA Vote. Wall Street's Average Price Target Says It Should Fall 44%. What Gives?"
       ],
       "high_impact_news": true
     },
@@ -950,8 +995,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "AAPL",
+      "rank_score": 0.6026,
+      "price": 308.2200012207031,
+      "rsi": 87.43168746297746,
+      "momentum_5d": 0.009184200505223955,
+      "momentum_1d": 0.09499783000816281,
+      "macd_crossover": false,
+      "atr_pct": 0.009452777140759214,
+      "bollinger_pct_b": 0.8584,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.34,
+      "news_sentiment": 0.725,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Tennessee deputy spent seized drug money on Apple gear for his family \u2014 now he owes $339K in pension clawbacks",
+        "Evercore ISI Maintains Outperform Rating on Apple (AAPL) Stock",
+        "Microsoft (MSFT): One of the Best AI and Technology Stocks to Buy Now"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LRCX",
-      "rank_score": 0.5994,
+      "rank_score": 0.5984,
       "price": 351.5400085449219,
       "rsi": 12.355122276616044,
       "momentum_5d": -0.02679805282949112,
@@ -961,12 +1027,12 @@
       "bollinger_pct_b": 0.1912,
       "volume_spike": false,
       "volume_spike_ratio": 1.19,
-      "news_sentiment": -0.07,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.05,
+      "news_confidence": 0.4,
       "news_headlines": [
+        "Jim Cramer Says He Kept Waiting for Breaks in Stocks Like Lam Research Which Never Came",
         "Vltava Fund: Lam Research (LRCX) Is Overvalued",
-        "Seagate, Kulicke and Soffa, and Lam Research Shares Plummet, What You Need To Know",
-        "3 Reasons Why Growth Investors Shouldn't Overlook Lam Research (LRCX)"
+        "Seagate, Kulicke and Soffa, and Lam Research Shares Plummet, What You Need To Know"
       ],
       "high_impact_news": true
     },
@@ -992,27 +1058,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AAPL",
-      "rank_score": 0.5946,
-      "price": 308.2200012207031,
-      "rsi": 87.43168746297746,
-      "momentum_5d": 0.009184200505223955,
-      "momentum_1d": 0.09499783000816281,
-      "macd_crossover": false,
-      "atr_pct": 0.009452777140759214,
-      "bollinger_pct_b": 0.8584,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.644,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Why Vanguard\u2019s $143 Billion Tech ETF Outpaced QQQ While Charging Half the Fee",
-        "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
-        "Stock Market Volatility: History Says This 1 Investing Move Is More Important Than Ever Before"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARM",
       "rank_score": 0.5871,
       "price": 315.5,
@@ -1034,27 +1079,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.587,
-      "price": 360.3399963378906,
-      "rsi": 21.479681817945334,
-      "momentum_5d": -0.012212384834932196,
-      "momentum_1d": -0.039823086929619486,
-      "macd_crossover": false,
-      "atr_pct": 0.01318593910056661,
-      "bollinger_pct_b": 0.1517,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.774,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Broadcom (AVGO) Backs DriveNets Tomahawk 6 Push For Open Ethernet AI Data Centers",
-        "Jim Cramer Explains Why You Need to Own NVIDIA Now",
-        "Five July 4th Fireworks: Unusual Options Activity Flags Cheap Lottery-Ticket Calls in CHWY, AVGO, PYPL, STLA and WMT"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HAL",
       "rank_score": 0.5858,
       "price": 32.94499969482422,
@@ -1072,27 +1096,6 @@
         "Halliburton Seen Posting Positive Q2 Results on Fracking Gains, UBS Says",
         "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day",
         "Halliburton (HAL) Suffers a Larger Drop Than the General Market: Key Insights"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.5738,
-      "price": 49.16999816894531,
-      "rsi": 24.946818652888396,
-      "momentum_5d": -0.023629913164886728,
-      "momentum_1d": -0.07755863722553519,
-      "macd_crossover": false,
-      "atr_pct": 0.030462230184332154,
-      "bollinger_pct_b": 0.128,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Why IonQ Stock Plummeted 26.1% in June",
-        "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
-        "IQM Begins Trading: What to Know About the Newly Listed Quantum Stock"
       ],
       "high_impact_news": true
     }
