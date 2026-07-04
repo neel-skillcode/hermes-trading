@@ -535,32 +535,60 @@
     "price_peak": 55.619998931884766,
     "trailing_stop_price": 55.343568
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260703200914",
-    "asset": "AVAX-USD",
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260704094804",
+    "asset": "DOGE-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.940000057220459,
-    "entry_time": "2026-07-03T20:09:14.706552+00:00",
-    "stop_loss_pct": 0.00664,
-    "take_profit_pct": 0.01617,
-    "size_usd": 3428.89,
-    "position_size_pct": 0.0341,
-    "confidence": 0.87,
+    "direction": "long",
+    "entry_price": 0.07671999931335449,
+    "entry_time": "2026-07-04T09:48:04.493767+00:00",
+    "stop_loss_pct": 0.00659,
+    "take_profit_pct": 0.01477,
+    "size_usd": 3112.82,
+    "position_size_pct": 0.031,
+    "confidence": 0.484,
     "signals": [
-      "RSI overbought (66.7)",
-      "MACD crossover",
-      "5d momentum +1.76%",
-      "1d momentum +2.81%",
-      "BB overbought (pct_b=1.20)",
+      "5d momentum -1.30%",
+      "1d momentum +2.40%",
+      "Volume spike 3.2\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: price surge; price decline"
+      "Claude [contradicts]: price surge; fed hawkish"
     ],
-    "news_sentiment": 0.533,
+    "news_sentiment": -0.238,
     "news_headlines": [
-      "A New Era for Tokenization: Securitize Lists on the NYSE",
-      "Securitize brings its own stock onchain on Solana at NYSE debut",
-      "Securitize Begins Trading on NYSE as Tokenized Shares Land on Solana, Avalanche"
+      "Bitcoin, Ethereum, XRP, Dogecoin Spike as Weak Jobs Data Dims Rate-Hike Odds: Analyst Says 'Markets Are Just Waking Up'",
+      "Bitcoin Spikes as Kevin Warsh Flags Inflation Concerns; Ethereum, XRP, Dogecoin Also Gain: Popular Analyst Says 'Market Bottom Is Here'",
+      "Top Cryptocurrencies Rise; Bitcoin Holds Above $60,000"
+    ],
+    "mode": "paper",
+    "strategy_version": "46",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260704094804",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 81.69999694824219,
+    "entry_time": "2026-07-04T09:48:04.514833+00:00",
+    "stop_loss_pct": 0.00799,
+    "take_profit_pct": 0.01949,
+    "size_usd": 339.78,
+    "position_size_pct": 0.0034,
+    "confidence": 0.877,
+    "signals": [
+      "RSI oversold (42.3)",
+      "5d momentum -2.05%",
+      "1d momentum +0.94%",
+      "Volume spike 2.6\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.362,
+    "news_headlines": [
+      "Better Crypto Buy: Solana vs. Hyperliquid",
+      "Donald Trump breaks silence on $1B crypto earnings",
+      "Is Solana the Best Ethereum Alternative Right Now?"
     ],
     "mode": "paper",
     "strategy_version": "46",
