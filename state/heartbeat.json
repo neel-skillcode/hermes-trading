@@ -3,15 +3,15 @@
   "portfolio_balance": 100547.05,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.58,
-  "unrealized_pnl_usd": 921.87,
-  "equity_value": 101468.92,
+  "unrealized_pnl_usd": 909.61,
+  "equity_value": 101456.66,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40218.82,
   "swing_capital_used_usd": 50313.46,
   "total_trades": 514,
-  "last_tick": "2026-07-04T17:31:26.753448+00:00",
+  "last_tick": "2026-07-04T18:35:09.446788+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -636,11 +636,11 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "price_peak": 82.33999633789062,
-      "trailing_stop_price": 81.6821,
-      "current_price": 82.309998,
-      "unrealized_pnl_pct": 0.007466,
-      "unrealized_pnl_usd": 2.54
+      "price_peak": 82.0999984741211,
+      "trailing_stop_price": 81.444019,
+      "current_price": 82.089996,
+      "unrealized_pnl_pct": 0.004774,
+      "unrealized_pnl_usd": 1.62
     },
     {
       "id": "ETH-USD_20260704151715",
@@ -673,9 +673,9 @@
       "mode": "paper",
       "strategy_version": "47",
       "status": "open",
-      "current_price": 1786.630005,
-      "unrealized_pnl_pct": -0.000241,
-      "unrealized_pnl_usd": -0.75
+      "current_price": 1793.089966,
+      "unrealized_pnl_pct": -0.003857,
+      "unrealized_pnl_usd": -12.09
     }
   ],
   "last_candidates": [
@@ -765,16 +765,16 @@
     },
     {
       "asset": "ETH-USD",
-      "rank_score": 0.694,
-      "price": 1786.6300048828125,
-      "rsi": 75.761114734744,
-      "momentum_5d": 0.013512486029302802,
-      "momentum_1d": 0.028714384737542082,
+      "rank_score": 0.6975,
+      "price": 1793.0899658203125,
+      "rsi": 72.15089459075568,
+      "momentum_5d": 0.017234829073442603,
+      "momentum_1d": 0.032184293153689564,
       "macd_crossover": false,
-      "atr_pct": 0.0056079201416547025,
-      "bollinger_pct_b": 1.0219,
+      "atr_pct": 0.006170908282918275,
+      "bollinger_pct_b": 0.99,
       "volume_spike": true,
-      "volume_spike_ratio": 3.25,
+      "volume_spike_ratio": 4.69,
       "news_sentiment": 0.458,
       "news_confidence": 0.48,
       "news_headlines": [
@@ -823,6 +823,27 @@
         "Sector Update: Financial Stocks Advance Late Afternoon",
         "Sector Update: Financial Stocks Rise in Afternoon Trading",
         "Exchange-Traded Funds Fall, US Equities Mixed After Midday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6562,
+      "price": 7.039999961853027,
+      "rsi": 63.04346473996828,
+      "momentum_5d": 0.024745280804340315,
+      "momentum_1d": 0.024745280804340315,
+      "macd_crossover": false,
+      "atr_pct": 0.007406646401732405,
+      "bollinger_pct_b": 0.9722,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.94,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+        "A New Era for Tokenization: Securitize Lists on the NYSE",
+        "Securitize brings its own stock onchain on Solana at NYSE debut"
       ],
       "high_impact_news": true
     },
@@ -890,27 +911,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.6095,
-      "price": 1.1710000038146973,
-      "rsi": 73.41600261406572,
-      "momentum_5d": 0.020924193178089644,
-      "momentum_1d": 0.04320718352560456,
-      "macd_crossover": false,
-      "atr_pct": 0.00942418728409041,
-      "bollinger_pct_b": 0.9463,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.46,
-      "news_sentiment": 0.762,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "XRP Is Down 22% in 30 Days. Here's What Could Happen Next.",
-        "XRP Is Testing a Trendline That Could Spark a 30% Rally. Can the XRP Price Break Out?",
-        "Billionaire backs startup founded by New York Senator's son"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "KLAC",
       "rank_score": 0.6064,
       "price": 235.36500549316406,
@@ -928,48 +928,6 @@
         "Vltava Fund Exited KLA Corporation (KLAC) Amid Price-Quality Imbalance",
         "US Stock Market Today: S&P 500 Futures Slip On Cooling Jobs And Rate Jitters",
         "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6057,
-      "price": 62958.30859375,
-      "rsi": 66.15077879227192,
-      "momentum_5d": 0.005648727293964433,
-      "momentum_1d": 0.01322305643280802,
-      "macd_crossover": true,
-      "atr_pct": 0.002987312970692969,
-      "bollinger_pct_b": 1.1009,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.45,
-      "news_sentiment": 0.045,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Bitcoin to $53K? Exchange Deposits Jump as Analysts Warn of Increased Volatility",
-        "Nvidia vs. Strategy: Which Stock Has a Better Chance of Surging 10x by 2036?",
-        "Michael Saylor 'Ran Out of People Willing to Overpay for MSTR', Peter Schiff Says"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6048,
-      "price": 7.019999980926514,
-      "rsi": 62.857185675243386,
-      "momentum_5d": 0.020348817464659646,
-      "momentum_1d": 0.023323592463276067,
-      "macd_crossover": false,
-      "atr_pct": 0.006308495457563245,
-      "bollinger_pct_b": 1.0573,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.62,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
-        "A New Era for Tokenization: Securitize Lists on the NYSE",
-        "Securitize brings its own stock onchain on Solana at NYSE debut"
       ],
       "high_impact_news": true
     },
@@ -1016,6 +974,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AAPL",
+      "rank_score": 0.5986,
+      "price": 308.2200012207031,
+      "rsi": 87.43168746297746,
+      "momentum_5d": 0.009184200505223955,
+      "momentum_1d": 0.09499783000816281,
+      "macd_crossover": false,
+      "atr_pct": 0.009452777140759214,
+      "bollinger_pct_b": 0.8584,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.34,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
+        "DGRO vs. VIG: Which Dividend-Growth ETF Compounds Your Income Faster?",
+        "Apple's 2027 hardware refresh sends Wall Street a warning"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LRCX",
       "rank_score": 0.5984,
       "price": 351.5400085449219,
@@ -1058,27 +1037,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AAPL",
-      "rank_score": 0.5936,
-      "price": 308.2200012207031,
-      "rsi": 87.43168746297746,
-      "momentum_5d": 0.009184200505223955,
-      "momentum_1d": 0.09499783000816281,
-      "macd_crossover": false,
-      "atr_pct": 0.009452777140759214,
-      "bollinger_pct_b": 0.8584,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.583,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Apple's 2027 hardware refresh sends Wall Street a warning",
-        "1 Unstoppable Stock to Buy Before It Joins Google, Apple, Microsoft, and Nvidia in the $3 Trillion Club",
-        "Tennessee deputy spent seized drug money on Apple gear for his family \u2014 now he owes $339K in pension clawbacks"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARM",
       "rank_score": 0.5871,
       "price": 315.5,
@@ -1096,6 +1054,48 @@
         "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
         "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
         "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.587,
+      "price": 1.1750999689102173,
+      "rsi": 69.12565324804127,
+      "momentum_5d": 0.019875009234012538,
+      "momentum_1d": 0.04360561291517201,
+      "macd_crossover": false,
+      "atr_pct": 0.009670927600234492,
+      "bollinger_pct_b": 0.9212,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.11,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "XRP Is Down 22% in 30 Days. Here's What Could Happen Next.",
+        "XRP Is Testing a Trendline That Could Spark a 30% Rally. Can the XRP Price Break Out?",
+        "Billionaire backs startup founded by New York Senator's son"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.587,
+      "price": 360.3399963378906,
+      "rsi": 21.479681817945334,
+      "momentum_5d": -0.012212384834932196,
+      "momentum_1d": -0.039823086929619486,
+      "macd_crossover": false,
+      "atr_pct": 0.01318593910056661,
+      "bollinger_pct_b": 0.1517,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.34,
+      "news_sentiment": 0.774,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "DGRO vs. VIG: Which Dividend-Growth ETF Compounds Your Income Faster?",
+        "Missed the First Wave of Artificial Intelligence (AI) Stocks? These 2 Aggressive Plays Are Your Second-Chance Buys",
+        "Broadcom (AVGO) Backs DriveNets Tomahawk 6 Push For Open Ethernet AI Data Centers"
       ],
       "high_impact_news": true
     }
