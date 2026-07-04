@@ -3,15 +3,15 @@
   "portfolio_balance": 100432.17,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.7,
-  "unrealized_pnl_usd": 944.79,
-  "equity_value": 101376.96,
+  "unrealized_pnl_usd": 920.08,
+  "equity_value": 101352.25,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40172.87,
   "swing_capital_used_usd": 50313.46,
   "total_trades": 512,
-  "last_tick": "2026-07-04T01:13:51.537332+00:00",
+  "last_tick": "2026-07-04T04:52:44.237484+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -637,17 +637,15 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "price_trough": 6.889999866485596,
-      "trailing_stop_price": 6.935749,
-      "current_price": 6.89,
-      "unrealized_pnl_pct": 0.007205,
-      "unrealized_pnl_usd": 24.7
+      "current_price": 6.94,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "LYFT",
-      "rank_score": 0.8739,
+      "rank_score": 0.9569,
       "price": 15.380000114440918,
       "rsi": 75.73770635328609,
       "momentum_5d": 0.036737450279239824,
@@ -657,14 +655,35 @@
       "bollinger_pct_b": 1.2554,
       "volume_spike": true,
       "volume_spike_ratio": 1.79,
-      "news_sentiment": 0.497,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.526,
+      "news_confidence": 0.52,
       "news_headlines": [
+        "DoorDash vs. Lyft: Which Stock Is a Better Buy in 2026?",
         "Why United Airlines is teaming up with Lyft on loyalty",
-        "Lyft (LYFT) Ascends While Market Falls: Some Facts to Note",
-        "Uber Stock And The Growth Rate That Matters Most"
+        "Lyft (LYFT) Ascends While Market Falls: Some Facts to Note"
       ],
-      "high_impact_news": false
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.9076,
+      "price": 83.7300033569336,
+      "rsi": 73.10200217793533,
+      "momentum_5d": 0.017499118062769825,
+      "momentum_1d": 0.04128839128990939,
+      "macd_crossover": true,
+      "atr_pct": 0.008129865356180998,
+      "bollinger_pct_b": 1.1876,
+      "volume_spike": true,
+      "volume_spike_ratio": 8.27,
+      "news_sentiment": 0.273,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Donald Trump breaks silence on $1B crypto earnings",
+        "Is Solana the Best Ethereum Alternative Right Now?",
+        "A New Era for Tokenization: Securitize Lists on the NYSE"
+      ],
+      "high_impact_news": true
     },
     {
       "asset": "REGN",
@@ -772,6 +791,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "V",
+      "rank_score": 0.6412,
+      "price": 361.5799865722656,
+      "rsi": 85.16031713495903,
+      "momentum_5d": 0.008267909648597884,
+      "momentum_1d": 0.05796295226437008,
+      "macd_crossover": false,
+      "atr_pct": 0.007383909557926267,
+      "bollinger_pct_b": 0.8825,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.64,
+      "news_sentiment": 0.318,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Piper Sandler Initiates Visa Inc. (V) With Overweight Rating on Payments Strength",
+        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
+        "Salesforce (CRM) Lands Formula 1 Partnership To Bring Agentforce 360 To Racing Bulls"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRVL",
       "rank_score": 0.6386,
       "price": 245.52000427246094,
@@ -789,27 +829,6 @@
         "Jim Cramer\u2019s Thoughts on Marvell (MRVL) and Why It May Still Have A Lot More Upside",
         "How are Active Electrical Cables Driving Credo's Growth?",
         "Micron Trades at a Discount Despite 243% YTD Rally: Buy More MU Shares?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "V",
-      "rank_score": 0.6303,
-      "price": 361.5799865722656,
-      "rsi": 85.16031713495903,
-      "momentum_5d": 0.008267909648597884,
-      "momentum_1d": 0.05796295226437008,
-      "macd_crossover": false,
-      "atr_pct": 0.007383909557926267,
-      "bollinger_pct_b": 0.8825,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.067,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
-        "Salesforce (CRM) Lands Formula 1 Partnership To Bring Agentforce 360 To Racing Bulls",
-        "Can V's New Threat Intelligence Platform Strengthen Fraud Prevention?"
       ],
       "high_impact_news": true
     },
@@ -873,6 +892,27 @@
         "What Keeps Costco Wholesale Stock Grinding Higher",
         "Home Depot (HD) Stock Moves 2.01%: What You Should Know",
         "World Cup Brand Ads Getting Higher 'Attention'"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6029,
+      "price": 1759.5999755859375,
+      "rsi": 66.06901426260177,
+      "momentum_5d": 0.0014170941233805593,
+      "momentum_1d": 0.03427395399056667,
+      "macd_crossover": false,
+      "atr_pct": 0.006498634756337705,
+      "bollinger_pct_b": 0.8215,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.42,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
+        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
+        "Is Solana the Best Ethereum Alternative Right Now?"
       ],
       "high_impact_news": true
     },
@@ -951,12 +991,12 @@
       "bollinger_pct_b": 0.8584,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
       "news_headlines": [
         "Here's how much more expensive your devices have gotten thanks to AI",
-        "Western Digital (WDC) Stock Falls As Apple CXMT Talk Adds Memory Pressure",
-        "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?"
+        "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
+        "Why FNGU\u2019s 0.95% Fee Is Only Half the Hidden Cost"
       ],
       "high_impact_news": true
     },
@@ -1020,48 +1060,6 @@
         "Halliburton Seen Posting Positive Q2 Results on Fracking Gains, UBS Says",
         "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day",
         "Halliburton (HAL) Suffers a Larger Drop Than the General Market: Key Insights"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.5738,
-      "price": 49.16999816894531,
-      "rsi": 24.946818652888396,
-      "momentum_5d": -0.023629913164886728,
-      "momentum_1d": -0.07755863722553519,
-      "macd_crossover": false,
-      "atr_pct": 0.030462230184332154,
-      "bollinger_pct_b": 0.128,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Why IonQ Stock Plummeted 26.1% in June",
-        "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
-        "IQM Begins Trading: What to Know About the Newly Listed Quantum Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MU",
-      "rank_score": 0.5702,
-      "price": 976.2100219726562,
-      "rsi": 15.20704430511229,
-      "momentum_5d": -0.02198072594131808,
-      "momentum_1d": -0.12748772150175178,
-      "macd_crossover": false,
-      "atr_pct": 0.03247571277400794,
-      "bollinger_pct_b": 0.2076,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.81,
-      "news_sentiment": 0.83,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Micron vs. Intel: Which AI Stock Is the Better Buy?",
-        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
-        "Can Micron Stock Really Hit $2,000?"
       ],
       "high_impact_news": true
     }
