@@ -3,15 +3,15 @@
   "portfolio_balance": 100432.17,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.7,
-  "unrealized_pnl_usd": 920.08,
-  "equity_value": 101352.25,
+  "unrealized_pnl_usd": 964.55,
+  "equity_value": 101396.72,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40172.87,
   "swing_capital_used_usd": 50313.46,
   "total_trades": 512,
-  "last_tick": "2026-07-04T04:52:44.237484+00:00",
+  "last_tick": "2026-07-04T07:35:25.066770+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -637,9 +637,11 @@
       "mode": "paper",
       "strategy_version": "46",
       "status": "open",
-      "current_price": 6.94,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 6.849999904632568,
+      "trailing_stop_price": 6.895484,
+      "current_price": 6.85,
+      "unrealized_pnl_pct": 0.012968,
+      "unrealized_pnl_usd": 44.47
     }
   ],
   "last_candidates": [
@@ -661,27 +663,6 @@
         "DoorDash vs. Lyft: Which Stock Is a Better Buy in 2026?",
         "Why United Airlines is teaming up with Lyft on loyalty",
         "Lyft (LYFT) Ascends While Market Falls: Some Facts to Note"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.9076,
-      "price": 83.7300033569336,
-      "rsi": 73.10200217793533,
-      "momentum_5d": 0.017499118062769825,
-      "momentum_1d": 0.04128839128990939,
-      "macd_crossover": true,
-      "atr_pct": 0.008129865356180998,
-      "bollinger_pct_b": 1.1876,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.27,
-      "news_sentiment": 0.273,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Donald Trump breaks silence on $1B crypto earnings",
-        "Is Solana the Best Ethereum Alternative Right Now?",
-        "A New Era for Tokenization: Securitize Lists on the NYSE"
       ],
       "high_impact_news": true
     },
@@ -854,6 +835,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ORCL",
+      "rank_score": 0.6074,
+      "price": 140.33140563964844,
+      "rsi": 19.25155594323165,
+      "momentum_5d": -0.011750664509518045,
+      "momentum_1d": -0.05817848563994337,
+      "macd_crossover": false,
+      "atr_pct": 0.016801640975602695,
+      "bollinger_pct_b": 0.1044,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Cisco Is Up 46% and Oracle Is Down 25% in 2026. The Better Dividend Buy Might Surprise You.",
+        "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story",
+        "Bloom Energy Skyrocketed Over 248% in the First Half of 2026. Here's What to Expect in the Second Half."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "KLAC",
       "rank_score": 0.6064,
       "price": 235.36500549316406,
@@ -892,48 +894,6 @@
         "What Keeps Costco Wholesale Stock Grinding Higher",
         "Home Depot (HD) Stock Moves 2.01%: What You Should Know",
         "World Cup Brand Ads Getting Higher 'Attention'"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6029,
-      "price": 1759.5999755859375,
-      "rsi": 66.06901426260177,
-      "momentum_5d": 0.0014170941233805593,
-      "momentum_1d": 0.03427395399056667,
-      "macd_crossover": false,
-      "atr_pct": 0.006498634756337705,
-      "bollinger_pct_b": 0.8215,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.42,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 3, 2026: 'Green' July off to a solid start",
-        "Weekly Wrap: Crypto Recovers To Start Third Quarter",
-        "Is Solana the Best Ethereum Alternative Right Now?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.6014,
-      "price": 140.33140563964844,
-      "rsi": 19.25155594323165,
-      "momentum_5d": -0.011750664509518045,
-      "momentum_1d": -0.05817848563994337,
-      "macd_crossover": false,
-      "atr_pct": 0.016801640975602695,
-      "bollinger_pct_b": 0.1044,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.765,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Why Oracle Corporation\u2019s (ORCL) Cloud Outlook Keeps AI Infrastructure at the Center of Its Estimate Story",
-        "Bloom Energy Skyrocketed Over 248% in the First Half of 2026. Here's What to Expect in the Second Half.",
-        "Is Oracle (ORCL) One of the Cheap Stocks That Are About to Explode?"
       ],
       "high_impact_news": true
     },
@@ -1060,6 +1020,48 @@
         "Halliburton Seen Posting Positive Q2 Results on Fracking Gains, UBS Says",
         "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day",
         "Halliburton (HAL) Suffers a Larger Drop Than the General Market: Key Insights"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "IONQ",
+      "rank_score": 0.5738,
+      "price": 49.16999816894531,
+      "rsi": 24.946818652888396,
+      "momentum_5d": -0.023629913164886728,
+      "momentum_1d": -0.07755863722553519,
+      "macd_crossover": false,
+      "atr_pct": 0.030462230184332154,
+      "bollinger_pct_b": 0.128,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.82,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Why IonQ Stock Plummeted 26.1% in June",
+        "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
+        "IQM Begins Trading: What to Know About the Newly Listed Quantum Stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MU",
+      "rank_score": 0.5662,
+      "price": 976.2100219726562,
+      "rsi": 15.20704430511229,
+      "momentum_5d": -0.02198072594131808,
+      "momentum_1d": -0.12748772150175178,
+      "macd_crossover": false,
+      "atr_pct": 0.03247571277400794,
+      "bollinger_pct_b": 0.2076,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.81,
+      "news_sentiment": 0.778,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Micron Earned $24.67 Per Share Last Quarter. Its Dividend Is Still 15 Cents. Something Has to Give.",
+        "Jim Cramer gets Micron CEO to reveal what's next for AI chips",
+        "Small Stocks Are Having Their Biggest Run in Decades"
       ],
       "high_impact_news": true
     }
