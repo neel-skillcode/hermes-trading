@@ -3,15 +3,15 @@
   "portfolio_balance": 100513.9,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.62,
-  "unrealized_pnl_usd": 919.73,
-  "equity_value": 101433.63,
+  "unrealized_pnl_usd": 932.3,
+  "equity_value": 101446.2,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40205.56,
   "swing_capital_used_usd": 50313.46,
   "total_trades": 518,
-  "last_tick": "2026-07-05T15:20:05.437659+00:00",
+  "last_tick": "2026-07-05T16:30:59.928779+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -636,9 +636,11 @@
       "mode": "paper",
       "strategy_version": "47",
       "status": "open",
-      "current_price": 586.679993,
-      "unrealized_pnl_pct": -0.000102,
-      "unrealized_pnl_usd": -0.35
+      "price_trough": 585.0599975585938,
+      "trailing_stop_price": 588.710772,
+      "current_price": 584.549988,
+      "unrealized_pnl_pct": 0.003529,
+      "unrealized_pnl_usd": 12.21
     }
   ],
   "last_candidates": [
@@ -895,27 +897,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.6004,
-      "price": 140.33140563964844,
-      "rsi": 19.25155594323165,
-      "momentum_5d": -0.011750664509518045,
-      "momentum_1d": -0.05817848563994337,
-      "macd_crossover": false,
-      "atr_pct": 0.016801640975602695,
-      "bollinger_pct_b": 0.1044,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.76,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "It Quietly Exited Bitcoin Mining Last Year \u2014 Now This AI Supplier To Meta Is Chasing A $30 Billion Valuation",
-        "$750 Billion AI Spending Wave: Should You Buy These 3 AI Infrastructure Stocks?",
-        "Cisco Is Up 46% and Oracle Is Down 25% in 2026. The Better Dividend Buy Might Surprise You."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "XLK",
       "rank_score": 0.5951,
       "price": 180.52000427246094,
@@ -933,6 +914,27 @@
         "4 Top-Ranked Tech Stocks Under $20 That Promise Gains in 2H26",
         "Sector Update: Tech Stocks Fall Late Afternoon",
         "Sector Update: Tech Stocks Fall Thursday Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.5924,
+      "price": 140.33140563964844,
+      "rsi": 19.25155594323165,
+      "momentum_5d": -0.011750664509518045,
+      "momentum_1d": -0.05817848563994337,
+      "macd_crossover": false,
+      "atr_pct": 0.016801640975602695,
+      "bollinger_pct_b": 0.1044,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.682,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Oracle Stock's Worst Month Since 1990: What's Breaking Larry Ellison's Empire?",
+        "It Quietly Exited Bitcoin Mining Last Year \u2014 Now This AI Supplier To Meta Is Chasing A $30 Billion Valuation",
+        "$750 Billion AI Spending Wave: Should You Buy These 3 AI Infrastructure Stocks?"
       ],
       "high_impact_news": true
     },
@@ -1001,7 +1003,7 @@
     },
     {
       "asset": "AAPL",
-      "rank_score": 0.5856,
+      "rank_score": 0.5806,
       "price": 308.2200012207031,
       "rsi": 87.43168746297746,
       "momentum_5d": 0.009184200505223955,
@@ -1011,12 +1013,12 @@
       "bollinger_pct_b": 0.8584,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.32,
+      "news_sentiment": 0.517,
+      "news_confidence": 0.29,
       "news_headlines": [
         "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spending",
-        "Here's Why Intel Stock Soared Last Month",
-        "3 No-Brainer Stocks to Buy in July and Hold Forever"
+        "Expect Fireworks As Dow Jones Futures Open; Apple, SpaceX, Sandisk, Robinhood In Focus",
+        "Here's Why Intel Stock Soared Last Month"
       ],
       "high_impact_news": true
     },
