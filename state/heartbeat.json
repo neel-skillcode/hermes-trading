@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100556.85,
+  "portfolio_balance": 100513.9,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 1.57,
-  "unrealized_pnl_usd": 908.8,
-  "equity_value": 101465.65,
+  "portfolio_drawdown_pct": 1.62,
+  "unrealized_pnl_usd": 920.08,
+  "equity_value": 101433.98,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40222.74,
+  "day_capital_used_usd": 40205.56,
   "swing_capital_used_usd": 50313.46,
-  "total_trades": 517,
-  "last_tick": "2026-07-05T12:01:45.013194+00:00",
+  "total_trades": 518,
+  "last_tick": "2026-07-05T14:00:57.641852+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -608,36 +608,37 @@
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "SOL-USD_20260705103746",
-      "asset": "SOL-USD",
+      "id": "BNB-USD_20260705140057",
+      "asset": "BNB-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 80.18000030517578,
-      "entry_time": "2026-07-05T10:37:46.811674+00:00",
-      "stop_loss_pct": 0.00507,
-      "take_profit_pct": 0.0116,
-      "size_usd": 3478.76,
-      "position_size_pct": 0.0346,
-      "confidence": 0.575,
+      "entry_price": 586.6199951171875,
+      "entry_time": "2026-07-05T14:00:57.636553+00:00",
+      "stop_loss_pct": 0.00624,
+      "take_profit_pct": 0.01538,
+      "size_usd": 3461.58,
+      "position_size_pct": 0.0344,
+      "confidence": 0.934,
       "signals": [
-        "RSI oversold (24.5)",
-        "1d momentum -1.72%",
-        "Volume spike 1.9\u00d7",
+        "RSI overbought (74.5)",
+        "5d momentum +2.16%",
+        "1d momentum +2.16%",
+        "BB overbought (pct_b=1.09)",
         "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price surge"
+        "Claude [supports]: price decline"
       ],
-      "news_sentiment": 0.532,
+      "news_sentiment": 0.143,
       "news_headlines": [
-        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
-        "A Huge New Stablecoin Initiative Could Disrupt the Crypto Market. Here's What You Need to Know.",
-        "Better Crypto Buy: Solana vs. Hyperliquid"
+        "Top Cryptocurrencies Rise; Bitcoin Holds Above $60,000",
+        "BNB Chain Pushes Self-Custody as MiCA Reshapes Europe's Crypto Market",
+        "1,700 Binance UK Customers Sue the Exchange for \u00a3150M"
       ],
       "mode": "paper",
       "strategy_version": "47",
       "status": "open",
-      "current_price": 80.440002,
-      "unrealized_pnl_pct": -0.003243,
-      "unrealized_pnl_usd": -11.28
+      "current_price": 586.619995,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -706,7 +707,7 @@
     },
     {
       "asset": "MCD",
-      "rank_score": 0.7488,
+      "rank_score": 0.7607,
       "price": 280.31500244140625,
       "rsi": 86.40142334300182,
       "momentum_5d": 0.020979439162583095,
@@ -716,12 +717,12 @@
       "bollinger_pct_b": 1.0325,
       "volume_spike": true,
       "volume_spike_ratio": 1.9,
-      "news_sentiment": 0.375,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.652,
+      "news_confidence": 0.46,
       "news_headlines": [
+        "3 Dividend Stocks That Recently Hit 52-Week Lows to Buy in July",
         "Wendy's Eyes China Expansion: Can It Unlock the Next Growth Cycle?",
-        "The Real Risk Squeezing McDonald's Stock",
-        "2 Profitable Stocks on Our Watchlist and 1 We Turn Down"
+        "The Real Risk Squeezing McDonald's Stock"
       ],
       "high_impact_news": true
     },
@@ -747,6 +748,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "V",
+      "rank_score": 0.6602,
+      "price": 361.5799865722656,
+      "rsi": 85.16031713495903,
+      "momentum_5d": 0.008267909648597884,
+      "momentum_1d": 0.05796295226437008,
+      "macd_crossover": false,
+      "atr_pct": 0.007383909557926267,
+      "bollinger_pct_b": 0.8825,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.64,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "3 No-Brainer Stocks to Buy in July and Hold Forever",
+        "Coinbase (COIN) Joins Visa And Mastercard To Launch Open Standard Stablecoin Network",
+        "Stock Market Week Ahead: Oil Hints At A Paradigm Shift"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "XLF",
       "rank_score": 0.6602,
       "price": 55.61000061035156,
@@ -764,27 +786,6 @@
         "Sector Update: Financial Stocks Advance Late Afternoon",
         "Sector Update: Financial Stocks Rise in Afternoon Trading",
         "Exchange-Traded Funds Fall, US Equities Mixed After Midday"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "V",
-      "rank_score": 0.6552,
-      "price": 361.5799865722656,
-      "rsi": 85.16031713495903,
-      "momentum_5d": 0.008267909648597884,
-      "momentum_1d": 0.05796295226437008,
-      "macd_crossover": false,
-      "atr_pct": 0.007383909557926267,
-      "bollinger_pct_b": 0.8825,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.583,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Coinbase (COIN) Joins Visa And Mastercard To Launch Open Standard Stablecoin Network",
-        "Stock Market Week Ahead: Oil Hints At A Paradigm Shift",
-        "Rezolve AI (RZLV) is One of the Best New Tech Stocks to Buy According to Analysts"
       ],
       "high_impact_news": true
     },
@@ -852,6 +853,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "LRCX",
+      "rank_score": 0.6074,
+      "price": 351.5400085449219,
+      "rsi": 12.355122276616044,
+      "momentum_5d": -0.02679805282949112,
+      "momentum_1d": -0.14317049431886436,
+      "macd_crossover": false,
+      "atr_pct": 0.03229667185677219,
+      "bollinger_pct_b": 0.1912,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.19,
+      "news_sentiment": -0.256,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Lam Research (LRCX) Stock Falls As AI Demand Fears Clash With Company Guidance",
+        "Jim Cramer Says He Kept Waiting for Breaks in Stocks Like Lam Research Which Never Came",
+        "Vltava Fund: Lam Research (LRCX) Is Overvalued"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HD",
       "rank_score": 0.6043,
       "price": 357.8299865722656,
@@ -894,27 +916,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "LRCX",
-      "rank_score": 0.5984,
-      "price": 351.5400085449219,
-      "rsi": 12.355122276616044,
-      "momentum_5d": -0.02679805282949112,
-      "momentum_1d": -0.14317049431886436,
-      "macd_crossover": false,
-      "atr_pct": 0.03229667185677219,
-      "bollinger_pct_b": 0.1912,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.19,
-      "news_sentiment": 0.05,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Jim Cramer Says He Kept Waiting for Breaks in Stocks Like Lam Research Which Never Came",
-        "Vltava Fund: Lam Research (LRCX) Is Overvalued",
-        "Seagate, Kulicke and Soffa, and Lam Research Shares Plummet, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "XLK",
       "rank_score": 0.5951,
       "price": 180.52000427246094,
@@ -932,6 +933,27 @@
         "4 Top-Ranked Tech Stocks Under $20 That Promise Gains in 2H26",
         "Sector Update: Tech Stocks Fall Late Afternoon",
         "Sector Update: Tech Stocks Fall Thursday Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.5886,
+      "price": 360.3399963378906,
+      "rsi": 21.479681817945334,
+      "momentum_5d": -0.012212384834932196,
+      "momentum_1d": -0.039823086929619486,
+      "macd_crossover": false,
+      "atr_pct": 0.01318593910056661,
+      "bollinger_pct_b": 0.1517,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.34,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spending",
+        "Why Broadcom Inc.\u2019s (AVGO) Custom AI Silicon Growth Still Supports Its Estimate Story",
+        "Broadcom Inc. (AVGO) Barely Made The Cut As One Of Jim Cramer\u2019s Best Performing Stocks"
       ],
       "high_impact_news": true
     },
@@ -978,27 +1000,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.582,
-      "price": 360.3399963378906,
-      "rsi": 21.479681817945334,
-      "momentum_5d": -0.012212384834932196,
-      "momentum_1d": -0.039823086929619486,
-      "macd_crossover": false,
-      "atr_pct": 0.01318593910056661,
-      "bollinger_pct_b": 0.1517,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.673,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "Broadcom Inc. (AVGO) Barely Made The Cut As One Of Jim Cramer\u2019s Best Performing Stocks",
-        "DGRO vs. VIG: Which Dividend-Growth ETF Compounds Your Income Faster?",
-        "Missed the First Wave of Artificial Intelligence (AI) Stocks? These 2 Aggressive Plays Are Your Second-Chance Buys"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AAPL",
       "rank_score": 0.5786,
       "price": 308.2200012207031,
@@ -1013,9 +1014,9 @@
       "news_sentiment": 0.351,
       "news_confidence": 0.37,
       "news_headlines": [
-        "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in July?",
-        "Nvidia Supplier Hon Hai Reports Surging Sales on Solid AI Demand",
-        "Apple Is Reportedly Planning 5 New iPhones -- Including a $2,500 Foldable. Here's What It Means for the Stock."
+        "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spending",
+        "3 No-Brainer Stocks to Buy in July and Hold Forever",
+        "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in July?"
       ],
       "high_impact_news": true
     },
