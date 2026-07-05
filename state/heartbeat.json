@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100547.05,
+  "portfolio_balance": 100582.34,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 1.58,
-  "unrealized_pnl_usd": 932.44,
-  "equity_value": 101479.49,
-  "open_positions": 20,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 1.55,
+  "unrealized_pnl_usd": 920.08,
+  "equity_value": 101502.42,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40218.82,
+  "day_capital_used_usd": 40232.94,
   "swing_capital_used_usd": 50313.46,
-  "total_trades": 514,
-  "last_tick": "2026-07-04T23:41:00.271524+00:00",
+  "total_trades": 516,
+  "last_tick": "2026-07-05T01:24:22.493468+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -608,76 +608,38 @@
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "SOL-USD_20260704094804",
+      "id": "SOL-USD_20260705012422",
       "asset": "SOL-USD",
       "trade_type": "day",
       "direction": "long",
-      "entry_price": 81.69999694824219,
-      "entry_time": "2026-07-04T09:48:04.514833+00:00",
-      "stop_loss_pct": 0.00799,
-      "take_profit_pct": 0.01949,
-      "size_usd": 339.78,
-      "position_size_pct": 0.0034,
-      "confidence": 0.877,
+      "entry_price": 80.7699966430664,
+      "entry_time": "2026-07-05T01:24:22.489140+00:00",
+      "stop_loss_pct": 0.00684,
+      "take_profit_pct": 0.01706,
+      "size_usd": 3488.96,
+      "position_size_pct": 0.0347,
+      "confidence": 0.99,
       "signals": [
-        "RSI oversold (42.3)",
-        "5d momentum -2.05%",
-        "1d momentum +0.94%",
-        "Volume spike 2.6\u00d7",
+        "RSI oversold (34.4)",
+        "5d momentum -1.39%",
+        "1d momentum -1.34%",
+        "BB oversold (pct_b=-0.13)",
+        "Volume spike 1.7\u00d7",
         "High-impact catalyst",
-        "Claude [supports]: price surge"
+        "Claude [strongly_supports]: analyst upgrade; price surge"
       ],
-      "news_sentiment": 0.362,
+      "news_sentiment": 0.532,
       "news_headlines": [
-        "Better Crypto Buy: Solana vs. Hyperliquid",
-        "Donald Trump breaks silence on $1B crypto earnings",
-        "Is Solana the Best Ethereum Alternative Right Now?"
-      ],
-      "mode": "paper",
-      "strategy_version": "46",
-      "status": "open",
-      "price_peak": 82.02999877929688,
-      "trailing_stop_price": 81.374579,
-      "current_price": 81.669998,
-      "unrealized_pnl_pct": -0.000367,
-      "unrealized_pnl_usd": -0.12
-    },
-    {
-      "id": "ETH-USD_20260704151715",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1786.199951171875,
-      "entry_time": "2026-07-04T15:17:15.732764+00:00",
-      "stop_loss_pct": 0.00513,
-      "take_profit_pct": 0.01249,
-      "size_usd": 3135.06,
-      "position_size_pct": 0.0312,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (81.2)",
-        "MACD crossover",
-        "5d momentum +1.62%",
-        "1d momentum +3.28%",
-        "BB overbought (pct_b=1.32)",
-        "Volume spike 4.7\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.689,
-      "news_headlines": [
-        "Congress Is Moving Forward With the Clarity Act. That Makes Ethereum the Best Crypto to Buy This Summer",
-        "German local banks expand crypto trading to millions of retail customers",
-        "Weekly Wrap: Crypto Recovers To Start Third Quarter"
+        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+        "A Huge New Stablecoin Initiative Could Disrupt the Crypto Market. Here's What You Need to Know.",
+        "Better Crypto Buy: Solana vs. Hyperliquid"
       ],
       "mode": "paper",
       "strategy_version": "47",
       "status": "open",
-      "price_trough": 1779.0899658203125,
-      "trailing_stop_price": 1788.216697,
-      "current_price": 1779.089966,
-      "unrealized_pnl_pct": 0.003981,
-      "unrealized_pnl_usd": 12.48
+      "current_price": 80.769997,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -976,6 +938,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.5885,
+      "price": 80.7699966430664,
+      "rsi": 34.3948100543049,
+      "momentum_5d": -0.013917799634653451,
+      "momentum_1d": -0.013436009119488503,
+      "macd_crossover": false,
+      "atr_pct": 0.0066060676352283215,
+      "bollinger_pct_b": -0.1256,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.73,
+      "news_sentiment": 0.532,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+        "A Huge New Stablecoin Initiative Could Disrupt the Crypto Market. Here's What You Need to Know.",
+        "Better Crypto Buy: Solana vs. Hyperliquid"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARM",
       "rank_score": 0.5871,
       "price": 315.5,
@@ -1077,27 +1060,6 @@
         "Why IonQ Stock Plummeted 26.1% in June",
         "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
         "IQM Begins Trading: What to Know About the Newly Listed Quantum Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MU",
-      "rank_score": 0.5682,
-      "price": 976.2100219726562,
-      "rsi": 15.20704430511229,
-      "momentum_5d": -0.02198072594131808,
-      "momentum_1d": -0.12748772150175178,
-      "macd_crossover": false,
-      "atr_pct": 0.03247571277400794,
-      "bollinger_pct_b": 0.2076,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.81,
-      "news_sentiment": 0.822,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Micron Stock Has Soared Nearly 700% in a Year. Is a Stock Split Imminent?",
-        "The Artificial Intelligence (AI) Memory Supercycle Is Getting Stronger. Here's How You Can Profit From This Boom With Less Than $100",
-        "Why Did General Motors (GM) Just Partner With Micron?"
       ],
       "high_impact_news": true
     }
