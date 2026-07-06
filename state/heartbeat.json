@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100483.63,
+  "portfolio_balance": 100566.27,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 1.64,
-  "unrealized_pnl_usd": 939.95,
-  "equity_value": 101423.58,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 1.56,
+  "unrealized_pnl_usd": 911.95,
+  "equity_value": 101478.21,
+  "open_positions": 20,
+  "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40193.45,
+  "day_capital_used_usd": 40226.51,
   "swing_capital_used_usd": 50313.46,
-  "total_trades": 519,
-  "last_tick": "2026-07-06T01:11:32.647494+00:00",
+  "total_trades": 520,
+  "last_tick": "2026-07-06T05:36:13.379269+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 7,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 1.0761100053787231,
       "trailing_stop_price": 1.067501,
-      "current_price": 1.07297,
-      "unrealized_pnl_pct": 0.018027,
-      "unrealized_pnl_usd": 24.23
+      "current_price": 1.07331,
+      "unrealized_pnl_pct": 0.01835,
+      "unrealized_pnl_usd": 24.66
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8426,
-      "unrealized_pnl_pct": 0.001059,
-      "unrealized_pnl_usd": 1.42
+      "current_price": 7.8422,
+      "unrealized_pnl_pct": 0.001008,
+      "unrealized_pnl_usd": 1.36
     },
     {
       "id": "EUR/JPY_20260629153722",
@@ -99,9 +99,9 @@
       "status": "open",
       "price_trough": 184.09100341796875,
       "trailing_stop_price": 185.563731,
-      "current_price": 184.770004,
-      "unrealized_pnl_pct": 0.000919,
-      "unrealized_pnl_usd": 6.09
+      "current_price": 185.136002,
+      "unrealized_pnl_pct": -0.00106,
+      "unrealized_pnl_usd": -7.02
     },
     {
       "id": "ARM_20260630160723",
@@ -233,9 +233,9 @@
       "status": "open",
       "price_trough": 0.6916107535362244,
       "trailing_stop_price": 0.697144,
-      "current_price": 0.693914,
-      "unrealized_pnl_pct": -0.000971,
-      "unrealized_pnl_usd": -5.28
+      "current_price": 0.693577,
+      "unrealized_pnl_pct": -0.000486,
+      "unrealized_pnl_usd": -2.64
     },
     {
       "id": "GS_20260702144002",
@@ -295,9 +295,9 @@
       "status": "open",
       "price_peak": 17.483259201049805,
       "trailing_stop_price": 17.343393,
-      "current_price": 17.4694,
-      "unrealized_pnl_pct": -0.000338,
-      "unrealized_pnl_usd": -1.82
+      "current_price": 17.472799,
+      "unrealized_pnl_pct": -0.000143,
+      "unrealized_pnl_usd": -0.77
     },
     {
       "id": "XLK_20260702162704",
@@ -608,40 +608,68 @@
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "XRP-USD_20260705231749",
-      "asset": "XRP-USD",
+      "id": "USD/JPY_20260706053613",
+      "asset": "USD/JPY",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 1.1646000146865845,
-      "entry_time": "2026-07-05T23:17:49.452259+00:00",
-      "stop_loss_pct": 0.00658,
-      "take_profit_pct": 0.01629,
-      "size_usd": 3449.47,
-      "position_size_pct": 0.0343,
-      "confidence": 0.95,
+      "entry_price": 161.93800354003906,
+      "entry_time": "2026-07-06T05:36:13.375876+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00454,
+      "size_usd": 3462.7,
+      "position_size_pct": 0.0344,
+      "confidence": 0.538,
       "signals": [
-        "RSI overbought (92.3)",
-        "5d momentum +2.63%",
-        "1d momentum +0.72%",
-        "BB overbought (pct_b=1.29)",
-        "Volume spike 2.2\u00d7",
+        "RSI overbought (89.4)",
+        "1d momentum +0.48%",
+        "BB overbought (pct_b=0.96)",
+        "News +0.60 (conf 0.67) \u2192 long",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+        "Claude [neutral]: Scanned 3 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 3 articles. Overa"
       ],
-      "news_sentiment": 0.4,
+      "news_sentiment": 0.6,
       "news_headlines": [
-        "Which Crypto Can Make You a Millionaire by 2030 With $10,000? We Compared XRP, BTC, ETH, SOL, and HYPE",
-        "Is Ripple\u2019s RLUSD Replacing XRP?",
-        "Bitcoin trades above $62K as U.S. crypto bill gains fresh traction"
+        "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
+        "How the US Dollar Got Its Mojo Back",
+        "Why a Plunging Dollar Is Missing Out on the Relief Rally"
       ],
       "mode": "paper",
       "strategy_version": "47",
       "status": "open",
-      "price_trough": 1.1583000421524048,
-      "trailing_stop_price": 1.165922,
-      "current_price": 1.1582,
-      "unrealized_pnl_pct": 0.005495,
-      "unrealized_pnl_usd": 18.96
+      "current_price": 161.938004,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AUD/JPY_20260706053613",
+      "asset": "AUD/JPY",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 112.27899932861328,
+      "entry_time": "2026-07-06T05:36:13.377321+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00471,
+      "size_usd": 19.83,
+      "position_size_pct": 0.0002,
+      "confidence": 0.713,
+      "signals": [
+        "RSI overbought (80.4)",
+        "1d momentum +0.43%",
+        "BB overbought (pct_b=1.05)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+      ],
+      "news_sentiment": -0.778,
+      "news_headlines": [
+        "Further Strength for the Australian Dollar After Higher Inflation",
+        "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
+      ],
+      "mode": "paper",
+      "strategy_version": "47",
+      "status": "open",
+      "current_price": 112.278999,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -710,7 +738,7 @@
     },
     {
       "asset": "MCD",
-      "rank_score": 0.7607,
+      "rank_score": 0.7557,
       "price": 280.31500244140625,
       "rsi": 86.40142334300182,
       "momentum_5d": 0.020979439162583095,
@@ -720,12 +748,12 @@
       "bollinger_pct_b": 1.0325,
       "volume_spike": true,
       "volume_spike_ratio": 1.9,
-      "news_sentiment": 0.652,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.581,
+      "news_confidence": 0.43,
       "news_headlines": [
-        "3 Dividend Stocks That Recently Hit 52-Week Lows to Buy in July",
-        "Wendy's Eyes China Expansion: Can It Unlock the Next Growth Cycle?",
-        "The Real Risk Squeezing McDonald's Stock"
+        "7-Eleven enters chicken sandwich war",
+        "McDonald's Popped 4% While the Nasdaq Fell. Is the Dividend Juggernaut Back?",
+        "3 Dividend Stocks That Recently Hit 52-Week Lows to Buy in July"
       ],
       "high_impact_news": true
     },
@@ -920,7 +948,7 @@
     },
     {
       "asset": "AAPL",
-      "rank_score": 0.5906,
+      "rank_score": 0.5896,
       "price": 308.2200012207031,
       "rsi": 87.43168746297746,
       "momentum_5d": 0.009184200505223955,
@@ -930,12 +958,12 @@
       "bollinger_pct_b": 0.8584,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.61,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.6,
+      "news_confidence": 0.4,
       "news_headlines": [
         "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spending",
-        "Dow Jones Futures Rise, Techs Jump; Apple, SpaceX, Sandisk, Robinhood In Focus",
-        "Big Tech\u2019s $3 Trillion Struggle to Secure Enough Electricity"
+        "Dow Jones Futures Rise, Techs Lead; Apple, SpaceX, Sandisk, Robinhood In Focus",
+        "Chip Stock Bulls Count on Samsung to Soothe AI Trade Jitters"
       ],
       "high_impact_news": true
     },
@@ -951,12 +979,12 @@
       "bollinger_pct_b": 0.1044,
       "volume_spike": false,
       "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.61,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.676,
+      "news_confidence": 0.37,
       "news_headlines": [
         "Oracle (ORCL) Announces Third Cohort of Oracle Defense Ecosystem",
-        "Oracle Stock's Worst Month Since 1990: What's Breaking Larry Ellison's Empire?",
-        "It Quietly Exited Bitcoin Mining Last Year \u2014 Now This AI Supplier To Meta Is Chasing A $30 Billion Valuation"
+        "The Microsoft Stock Outlook Remains Upbeat Despite Layoffs",
+        "Oracle Stock's Worst Month Since 1990: What's Breaking Larry Ellison's Empire?"
       ],
       "high_impact_news": true
     },

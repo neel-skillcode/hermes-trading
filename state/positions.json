@@ -535,32 +535,59 @@
     "price_peak": 55.619998931884766,
     "trailing_stop_price": 55.343568
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260705231749",
-    "asset": "XRP-USD",
+  "USD/JPY": {
+    "id": "USD/JPY_20260706053613",
+    "asset": "USD/JPY",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.1646000146865845,
-    "entry_time": "2026-07-05T23:17:49.452259+00:00",
-    "stop_loss_pct": 0.00658,
-    "take_profit_pct": 0.01629,
-    "size_usd": 3449.47,
-    "position_size_pct": 0.0343,
-    "confidence": 0.95,
+    "entry_price": 161.93800354003906,
+    "entry_time": "2026-07-06T05:36:13.375876+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00454,
+    "size_usd": 3462.7,
+    "position_size_pct": 0.0344,
+    "confidence": 0.538,
     "signals": [
-      "RSI overbought (92.3)",
-      "5d momentum +2.63%",
-      "1d momentum +0.72%",
-      "BB overbought (pct_b=1.29)",
-      "Volume spike 2.2\u00d7",
+      "RSI overbought (89.4)",
+      "1d momentum +0.48%",
+      "BB overbought (pct_b=0.96)",
+      "News +0.60 (conf 0.67) \u2192 long",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [neutral]: Scanned 3 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 3 articles. Overa"
     ],
-    "news_sentiment": 0.4,
+    "news_sentiment": 0.6,
     "news_headlines": [
-      "Which Crypto Can Make You a Millionaire by 2030 With $10,000? We Compared XRP, BTC, ETH, SOL, and HYPE",
-      "Is Ripple\u2019s RLUSD Replacing XRP?",
-      "Bitcoin trades above $62K as U.S. crypto bill gains fresh traction"
+      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
+      "How the US Dollar Got Its Mojo Back",
+      "Why a Plunging Dollar Is Missing Out on the Relief Rally"
+    ],
+    "mode": "paper",
+    "strategy_version": "47",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260706053613",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 112.27899932861328,
+    "entry_time": "2026-07-06T05:36:13.377321+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00471,
+    "size_usd": 19.83,
+    "position_size_pct": 0.0002,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (80.4)",
+      "1d momentum +0.43%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+    ],
+    "news_sentiment": -0.778,
+    "news_headlines": [
+      "Further Strength for the Australian Dollar After Higher Inflation",
+      "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
     ],
     "mode": "paper",
     "strategy_version": "47",
