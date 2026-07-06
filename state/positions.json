@@ -535,36 +535,6 @@
     "price_peak": 55.619998931884766,
     "trailing_stop_price": 55.343568
   },
-  "USD/JPY": {
-    "id": "USD/JPY_20260706053613",
-    "asset": "USD/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 161.93800354003906,
-    "entry_time": "2026-07-06T05:36:13.375876+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00454,
-    "size_usd": 3462.7,
-    "position_size_pct": 0.0344,
-    "confidence": 0.538,
-    "signals": [
-      "RSI overbought (89.4)",
-      "1d momentum +0.48%",
-      "BB overbought (pct_b=0.96)",
-      "News +0.60 (conf 0.67) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 3 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 3 articles. Overa"
-    ],
-    "news_sentiment": 0.6,
-    "news_headlines": [
-      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
-      "How the US Dollar Got Its Mojo Back",
-      "Why a Plunging Dollar Is Missing Out on the Relief Rally"
-    ],
-    "mode": "paper",
-    "strategy_version": "47",
-    "status": "open"
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260706053613",
     "asset": "AUD/JPY",
@@ -588,6 +558,36 @@
     "news_headlines": [
       "Further Strength for the Australian Dollar After Higher Inflation",
       "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
+    ],
+    "mode": "paper",
+    "strategy_version": "47",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260706093904",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1756.050048828125,
+    "entry_time": "2026-07-06T09:39:04.750642+00:00",
+    "stop_loss_pct": 0.00769,
+    "take_profit_pct": 0.01899,
+    "size_usd": 3459.88,
+    "position_size_pct": 0.0344,
+    "confidence": 0.937,
+    "signals": [
+      "RSI oversold (32.8)",
+      "5d momentum -1.14%",
+      "BB oversold (pct_b=-0.11)",
+      "Volume spike 8.8\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.415,
+    "news_headlines": [
+      "Lighter Jumps 20% to Seven Month High After Tokenomics Overhaul",
+      "Bitcoin, Ethereum, XRP, Dogecoin Rally as 'Extreme Fear' Persists: Analyst Expects a 'Quick' Move Upward for BTC After 'Shallow' Correction",
+      "Bitcoin Options Turn Call-Heavy Before July 8 FOMC Minutes: Will BTC Break $63,000?"
     ],
     "mode": "paper",
     "strategy_version": "47",
