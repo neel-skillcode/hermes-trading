@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0761100053787231,
-    "trailing_stop_price": 1.067501
+    "price_peak": 1.077929973602295,
+    "trailing_stop_price": 1.069307
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -198,37 +198,6 @@
     "price_trough": 0.6916107535362244,
     "trailing_stop_price": 0.697144
   },
-  "GS": {
-    "id": "GS_20260702144002",
-    "asset": "GS",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1030.6700439453125,
-    "entry_time": "2026-07-02T14:40:02.923499+00:00",
-    "stop_loss_pct": 0.02203,
-    "take_profit_pct": 0.07319,
-    "size_usd": 6209.79,
-    "position_size_pct": 0.0618,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (64.4)",
-      "5d momentum +0.57%",
-      "BB overbought (pct_b=0.93)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": -0.292,
-    "news_headlines": [
-      "Best CD rates today, Thursday, July 2, 2026: Lock in up to 4.10% APY",
-      "Semiconductors Overtake Mag 7 In H1: Goldman Believes Investors' Appetite For Big-Tech Is Shrinking Going Into Second Half Of 2026",
-      "Goldman\u2019s Garrett sees investors dialing back tech exposure into H2"
-    ],
-    "mode": "paper",
-    "strategy_version": "44",
-    "status": "open",
-    "price_trough": 1016.4450073242188,
-    "trailing_stop_price": 1038.837291
-  },
   "USD/MXN": {
     "id": "USD/MXN_20260702144002",
     "asset": "USD/MXN",
@@ -281,7 +250,9 @@
     ],
     "mode": "paper",
     "strategy_version": "45",
-    "status": "open"
+    "status": "open",
+    "price_peak": 184.63999938964844,
+    "trailing_stop_price": 180.114473
   },
   "REGN": {
     "id": "REGN_20260702195300",
@@ -312,70 +283,9 @@
     ],
     "mode": "paper",
     "strategy_version": "45",
-    "status": "open"
-  },
-  "MCD": {
-    "id": "MCD_20260702195300",
-    "asset": "MCD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 280.2200012207031,
-    "entry_time": "2026-07-02T19:53:00.476829+00:00",
-    "stop_loss_pct": 0.00646,
-    "take_profit_pct": 0.01462,
-    "size_usd": 3380.68,
-    "position_size_pct": 0.0336,
-    "confidence": 0.525,
-    "signals": [
-      "RSI overbought (86.3)",
-      "5d momentum +2.06%",
-      "1d momentum +4.95%",
-      "BB overbought (pct_b=1.03)",
-      "News +0.33 (conf 0.61) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.325,
-    "news_headlines": [
-      "Trump Financial Disclosure Shows 21,000 Trades in 2025",
-      "McDonald\u2019s unexpectedly adds 10 new chicken menu items",
-      "McDonald\u2019s (MCD) Leaves Russell Growth Indices And Its Investor Profile Shifts"
-    ],
-    "mode": "paper",
-    "strategy_version": "45",
-    "status": "open"
-  },
-  "MRVL": {
-    "id": "MRVL_20260702195300",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 241.1898956298828,
-    "entry_time": "2026-07-02T19:53:00.478763+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6374.99,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (7.1)",
-      "5d momentum -4.75%",
-      "1d momentum -12.14%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: fed dovish; price surge; price decline"
-    ],
-    "news_sentiment": 0.277,
-    "news_headlines": [
-      "Should You Buy, Sell, or Hold Astera Labs Stock at 40.16X PS?",
-      "Follow Stock Market Leaders To Stay In Step With Broader Market Health",
-      "The Wide Divide Priced Into Advanced Micro Devices Stock"
-    ],
-    "mode": "paper",
-    "strategy_version": "45",
     "status": "open",
-    "price_peak": 245.2899932861328,
-    "trailing_stop_price": 241.610643
+    "price_trough": 645.9650268554688,
+    "trailing_stop_price": 650.984175
   },
   "VRTX": {
     "id": "VRTX_20260702195300",
@@ -405,7 +315,9 @@
     ],
     "mode": "paper",
     "strategy_version": "45",
-    "status": "open"
+    "status": "open",
+    "price_trough": 526.3099975585938,
+    "trailing_stop_price": 530.657318
   },
   "ORCL": {
     "id": "ORCL_20260702195300",
@@ -436,72 +348,8 @@
     "mode": "paper",
     "strategy_version": "45",
     "status": "open",
-    "price_peak": 140.27000427246094,
-    "trailing_stop_price": 138.165954
-  },
-  "LYFT": {
-    "id": "LYFT_20260703143559",
-    "asset": "LYFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 15.380000114440918,
-    "entry_time": "2026-07-03T14:35:59.846491+00:00",
-    "stop_loss_pct": 0.01358,
-    "take_profit_pct": 0.03388,
-    "size_usd": 6360.24,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (75.7)",
-      "MACD crossover",
-      "5d momentum +3.67%",
-      "1d momentum +5.45%",
-      "BB overbought (pct_b=1.26)",
-      "Volume spike 1.8\u00d7",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.497,
-    "news_headlines": [
-      "Why United Airlines is teaming up with Lyft on loyalty",
-      "Lyft (LYFT) Ascends While Market Falls: Some Facts to Note",
-      "Uber Stock And The Growth Rate That Matters Most"
-    ],
-    "mode": "paper",
-    "strategy_version": "46",
-    "status": "open",
-    "price_trough": 15.369999885559082,
-    "trailing_stop_price": 15.578724
-  },
-  "ABBV": {
-    "id": "ABBV_20260703143559",
-    "asset": "ABBV",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 261.04998779296875,
-    "entry_time": "2026-07-03T14:35:59.848758+00:00",
-    "stop_loss_pct": 0.00856,
-    "take_profit_pct": 0.02084,
-    "size_usd": 2117.63,
-    "position_size_pct": 0.0211,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (79.8)",
-      "5d momentum +0.81%",
-      "1d momentum +3.11%",
-      "BB overbought (pct_b=0.93)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.923,
-    "news_headlines": [
-      "Top Research Reports for Applied Materials, Mastercard & AbbVie",
-      "Sector Update: Healthcare Stocks Gain Late Afternoon",
-      "Sector Update: Healthcare Stocks Gain Thursday Afternoon"
-    ],
-    "mode": "paper",
-    "strategy_version": "46",
-    "status": "open"
+    "price_peak": 143.33009338378906,
+    "trailing_stop_price": 141.180142
   },
   "XLF": {
     "id": "XLF_20260703161007",
@@ -532,38 +380,156 @@
     "mode": "paper",
     "strategy_version": "46",
     "status": "open",
-    "price_peak": 55.619998931884766,
-    "trailing_stop_price": 55.343568
+    "price_peak": 55.915000915527344,
+    "trailing_stop_price": 55.637103
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260706132747",
-    "asset": "DOGE-USD",
+  "IONQ": {
+    "id": "IONQ_20260706163705",
+    "asset": "IONQ",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07450000196695328,
-    "entry_time": "2026-07-06T13:27:47.428904+00:00",
-    "stop_loss_pct": 0.00876,
-    "take_profit_pct": 0.02167,
-    "size_usd": 3461.94,
-    "position_size_pct": 0.0344,
-    "confidence": 0.95,
+    "direction": "short",
+    "entry_price": 50.955501556396484,
+    "entry_time": "2026-07-06T16:37:05.474465+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03638,
+    "size_usd": 5493.61,
+    "position_size_pct": 0.0545,
+    "confidence": 0.851,
     "signals": [
-      "RSI oversold (18.9)",
-      "5d momentum -3.18%",
-      "1d momentum -2.68%",
-      "BB oversold (pct_b=-0.18)",
-      "Volume spike 2.9\u00d7",
+      "RSI oversold (34.6)",
+      "MACD crossover",
+      "5d momentum +4.93%",
+      "1d momentum -6.50%",
       "High-impact catalyst",
-      "Claude [neutral]: price surge; fed hawkish"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": 0.045,
+    "news_sentiment": 0.845,
     "news_headlines": [
-      "Something Is 'Brewing' With Dogecoin, Says Top Analyst as Activity Explodes: 'Things Are About to Go Wild'",
-      "Bitcoin, Ethereum, XRP, Dogecoin Rally as 'Extreme Fear' Persists: Analyst Expects a 'Quick' Move Upward for BTC After 'Shallow' Correction",
-      "DOGE Ends, Bitcoin Begins? Musk and Saylor\u2019s July 4 Posts Fuel Speculation"
+      "3 Quantum Computing Stocks to Buy in July",
+      "1 of Wall Street\u2019s Favorite Stocks to Keep an Eye On and 2 We Question",
+      "Why IonQ Stock Plummeted 26.1% in June"
     ],
     "mode": "paper",
-    "strategy_version": "47",
+    "strategy_version": "48",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260706163705",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 83.81999969482422,
+    "entry_time": "2026-07-06T16:37:05.476079+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5642.09,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (77.3)",
+      "5d momentum +5.95%",
+      "1d momentum +15.51%",
+      "BB overbought (pct_b=0.91)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.393,
+    "news_headlines": [
+      "US Stock Market Today: S&P 500 Futures Rise As Inflation Jitters Temporarily Ease",
+      "Jim Cramer Says \u201cFor the First Time in Ages, I Like Having a Position in Moderna\u201d",
+      "Stock Market Week Ahead: Oil Hints At A Paradigm Shift"
+    ],
+    "mode": "paper",
+    "strategy_version": "48",
+    "status": "open"
+  },
+  "MS": {
+    "id": "MS_20260706163705",
+    "asset": "MS",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 220.99000549316406,
+    "entry_time": "2026-07-06T16:37:05.477475+00:00",
+    "stop_loss_pct": 0.0084,
+    "take_profit_pct": 0.02048,
+    "size_usd": 5642.09,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (82.4)",
+      "5d momentum +3.86%",
+      "1d momentum +4.93%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.818,
+    "news_headlines": [
+      "Is hyperscaler spending expected to slow down any time soon?",
+      "Morgan Stanley turns cautious on freight stocks despite stronger cycle outlook",
+      "Morgan Stanley Warns Chip Stocks Momentum Is Fading, Favors Three Hyperscalers \u2014 JPMorgan Says AI \u2018Unlikely\u2019 To Be Only Trade In Town"
+    ],
+    "mode": "paper",
+    "strategy_version": "48",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260706163705",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1791.7900390625,
+    "entry_time": "2026-07-06T16:37:05.479239+00:00",
+    "stop_loss_pct": 0.00925,
+    "take_profit_pct": 0.02272,
+    "size_usd": 5058.51,
+    "position_size_pct": 0.0502,
+    "confidence": 0.911,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +1.94%",
+      "1d momentum +1.15%",
+      "Volume spike 6.0\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.28,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
+      "How a Fake HyperSwap Airdrop Drained $12,300 in 84 Seconds",
+      "Tom Lee\u2019s BitMine Adds $73 Million in Ethereum While Strategy Dumps Bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "48",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260706163705",
+    "asset": "AVAX-USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 6.949999809265137,
+    "entry_time": "2026-07-06T16:37:05.484023+00:00",
+    "stop_loss_pct": 0.02794,
+    "take_profit_pct": 0.09417,
+    "size_usd": 6329.75,
+    "position_size_pct": 0.0628,
+    "confidence": 0.741,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +1.91%",
+      "Volume spike 3.5\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; price surge; price decline"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+      "A New Era for Tokenization: Securitize Lists on the NYSE",
+      "Securitize brings its own stock onchain on Solana at NYSE debut"
+    ],
+    "mode": "paper",
+    "strategy_version": "48",
     "status": "open"
   }
 }
