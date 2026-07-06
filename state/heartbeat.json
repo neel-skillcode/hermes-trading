@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100559.24,
+  "portfolio_balance": 100514.81,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 1.57,
-  "unrealized_pnl_usd": 909.0,
-  "equity_value": 101468.24,
-  "open_positions": 20,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 1.61,
+  "unrealized_pnl_usd": 906.81,
+  "equity_value": 101421.62,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40223.69,
+  "day_capital_used_usd": 40205.92,
   "swing_capital_used_usd": 50313.46,
-  "total_trades": 521,
-  "last_tick": "2026-07-06T09:39:04.752815+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "total_trades": 523,
+  "last_tick": "2026-07-06T13:27:48.186590+00:00",
+  "last_reflection": "2026-07-06",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 1.0761100053787231,
       "trailing_stop_price": 1.067501,
-      "current_price": 1.07438,
-      "unrealized_pnl_pct": 0.019365,
-      "unrealized_pnl_usd": 26.03
+      "current_price": 1.0759,
+      "unrealized_pnl_pct": 0.020807,
+      "unrealized_pnl_usd": 27.96
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.84244,
-      "unrealized_pnl_pct": 0.001039,
-      "unrealized_pnl_usd": 1.4
+      "current_price": 7.8419,
+      "unrealized_pnl_pct": 0.00097,
+      "unrealized_pnl_usd": 1.3
     },
     {
       "id": "EUR/JPY_20260629153722",
@@ -99,9 +99,9 @@
       "status": "open",
       "price_trough": 184.09100341796875,
       "trailing_stop_price": 185.563731,
-      "current_price": 185.289001,
-      "unrealized_pnl_pct": -0.001887,
-      "unrealized_pnl_usd": -12.49
+      "current_price": 185.397003,
+      "unrealized_pnl_pct": -0.002471,
+      "unrealized_pnl_usd": -16.36
     },
     {
       "id": "ARM_20260630160723",
@@ -233,9 +233,9 @@
       "status": "open",
       "price_trough": 0.6916107535362244,
       "trailing_stop_price": 0.697144,
-      "current_price": 0.693433,
-      "unrealized_pnl_pct": -0.000277,
-      "unrealized_pnl_usd": -1.51
+      "current_price": 0.693385,
+      "unrealized_pnl_pct": -0.000208,
+      "unrealized_pnl_usd": -1.13
     },
     {
       "id": "GS_20260702144002",
@@ -295,9 +295,9 @@
       "status": "open",
       "price_peak": 17.483259201049805,
       "trailing_stop_price": 17.343393,
-      "current_price": 17.4729,
-      "unrealized_pnl_pct": -0.000137,
-      "unrealized_pnl_usd": -0.74
+      "current_price": 17.471001,
+      "unrealized_pnl_pct": -0.000246,
+      "unrealized_pnl_usd": -1.33
     },
     {
       "id": "XLK_20260702162704",
@@ -608,66 +608,36 @@
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "AUD/JPY_20260706053613",
-      "asset": "AUD/JPY",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 112.27899932861328,
-      "entry_time": "2026-07-06T05:36:13.377321+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00471,
-      "size_usd": 19.83,
-      "position_size_pct": 0.0002,
-      "confidence": 0.713,
-      "signals": [
-        "RSI overbought (80.4)",
-        "1d momentum +0.43%",
-        "BB overbought (pct_b=1.05)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
-      ],
-      "news_sentiment": -0.778,
-      "news_headlines": [
-        "Further Strength for the Australian Dollar After Higher Inflation",
-        "Some Gains for the Aussie Dollar After the RBA Unexpectedly Holds"
-      ],
-      "mode": "paper",
-      "strategy_version": "47",
-      "status": "open",
-      "current_price": 112.483002,
-      "unrealized_pnl_pct": -0.001817,
-      "unrealized_pnl_usd": -0.04
-    },
-    {
-      "id": "ETH-USD_20260706093904",
-      "asset": "ETH-USD",
+      "id": "DOGE-USD_20260706132747",
+      "asset": "DOGE-USD",
       "trade_type": "day",
       "direction": "long",
-      "entry_price": 1756.050048828125,
-      "entry_time": "2026-07-06T09:39:04.750642+00:00",
-      "stop_loss_pct": 0.00769,
-      "take_profit_pct": 0.01899,
-      "size_usd": 3459.88,
+      "entry_price": 0.07450000196695328,
+      "entry_time": "2026-07-06T13:27:47.428904+00:00",
+      "stop_loss_pct": 0.00876,
+      "take_profit_pct": 0.02167,
+      "size_usd": 3461.94,
       "position_size_pct": 0.0344,
-      "confidence": 0.937,
+      "confidence": 0.95,
       "signals": [
-        "RSI oversold (32.8)",
-        "5d momentum -1.14%",
-        "BB oversold (pct_b=-0.11)",
-        "Volume spike 8.8\u00d7",
+        "RSI oversold (18.9)",
+        "5d momentum -3.18%",
+        "1d momentum -2.68%",
+        "BB oversold (pct_b=-0.18)",
+        "Volume spike 2.9\u00d7",
         "High-impact catalyst",
-        "Claude [strongly_supports]: price surge"
+        "Claude [neutral]: price surge; fed hawkish"
       ],
-      "news_sentiment": 0.415,
+      "news_sentiment": 0.045,
       "news_headlines": [
-        "Lighter Jumps 20% to Seven Month High After Tokenomics Overhaul",
+        "Something Is 'Brewing' With Dogecoin, Says Top Analyst as Activity Explodes: 'Things Are About to Go Wild'",
         "Bitcoin, Ethereum, XRP, Dogecoin Rally as 'Extreme Fear' Persists: Analyst Expects a 'Quick' Move Upward for BTC After 'Shallow' Correction",
-        "Bitcoin Options Turn Call-Heavy Before July 8 FOMC Minutes: Will BTC Break $63,000?"
+        "DOGE Ends, Bitcoin Begins? Musk and Saylor\u2019s July 4 Posts Fuel Speculation"
       ],
       "mode": "paper",
       "strategy_version": "47",
       "status": "open",
-      "current_price": 1756.050049,
+      "current_price": 0.0745,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -717,7 +687,7 @@
     },
     {
       "asset": "VRTX",
-      "rank_score": 0.7915,
+      "rank_score": 0.7845,
       "price": 527.9349975585938,
       "rsi": 88.85172528502737,
       "momentum_5d": 0.016588981962708287,
@@ -727,12 +697,33 @@
       "bollinger_pct_b": 0.974,
       "volume_spike": true,
       "volume_spike_ratio": 2.22,
-      "news_sentiment": 0.805,
-      "news_confidence": 0.63,
+      "news_sentiment": 0.705,
+      "news_confidence": 0.62,
       "news_headlines": [
+        "CRISPR Therapeutics vs. Viking Therapeutics: Which Healthcare Stock Is a Better Buy in 2026?",
         "While SpaceX Gets the Headlines, Smart Investors Are Loading Up on This Stock Instead",
-        "Vertex Pharmaceuticals (VRTX) Wins FDA Approval To Treat Two Year Olds With CASGEVY",
-        "Wall Street Bulls Look Optimistic About Vertex (VRTX): Should You Buy?"
+        "Vertex Pharmaceuticals (VRTX) Wins FDA Approval To Treat Two Year Olds With CASGEVY"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.7736,
+      "price": 0.07450000196695328,
+      "rsi": 18.867961661844873,
+      "momentum_5d": -0.031838814940355654,
+      "momentum_1d": -0.026779849308478078,
+      "macd_crossover": false,
+      "atr_pct": 0.00861937144903588,
+      "bollinger_pct_b": -0.1838,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.88,
+      "news_sentiment": 0.045,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Something Is 'Brewing' With Dogecoin, Says Top Analyst as Activity Explodes: 'Things Are About to Go Wild'",
+        "Bitcoin, Ethereum, XRP, Dogecoin Rally as 'Extreme Fear' Persists: Analyst Expects a 'Quick' Move Upward for BTC After 'Shallow' Correction",
+        "DOGE Ends, Bitcoin Begins? Musk and Saylor\u2019s July 4 Posts Fuel Speculation"
       ],
       "high_impact_news": true
     },
@@ -758,8 +749,71 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.743,
+      "price": 1.1104999780654907,
+      "rsi": 19.163151510471465,
+      "momentum_5d": -0.02707201864235301,
+      "momentum_1d": -0.021241022661426613,
+      "macd_crossover": false,
+      "atr_pct": 0.008516099572568709,
+      "bollinger_pct_b": -0.1352,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.76,
+      "news_sentiment": 0.476,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Is XRP a Millionaire-Maker?",
+        "Ripple Just Got Its Full EU MiCA License. Is This Big for XRP?",
+        "Ripple\u2019s MiCA Win Raises a Hard Question for XRP"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.7032,
+      "price": 6.730000019073486,
+      "rsi": 29.787177918529622,
+      "momentum_5d": -0.01895045363130604,
+      "momentum_1d": -0.024637691875987234,
+      "macd_crossover": false,
+      "atr_pct": 0.008809169192886358,
+      "bollinger_pct_b": -0.1165,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.22,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+        "A New Era for Tokenization: Securitize Lists on the NYSE",
+        "Securitize brings its own stock onchain on Solana at NYSE debut"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6992,
+      "price": 1732.0799560546875,
+      "rsi": 23.22792136050292,
+      "momentum_5d": -0.018045182298542052,
+      "momentum_1d": -0.018512562088291544,
+      "macd_crossover": false,
+      "atr_pct": 0.007494709783929915,
+      "bollinger_pct_b": -0.1525,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.83,
+      "news_sentiment": 0.548,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
+        "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
+        "Lighter Jumps 20% to Seven Month High After Tokenomics Overhaul"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ABBV",
-      "rank_score": 0.6724,
+      "rank_score": 0.6774,
       "price": 261.04998779296875,
       "rsi": 79.7958938942852,
       "momentum_5d": 0.008090213856988155,
@@ -769,18 +823,18 @@
       "bollinger_pct_b": 0.9335,
       "volume_spike": true,
       "volume_spike_ratio": 2.08,
-      "news_sentiment": 0.569,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "The Zacks Analyst Blog Highlights Applied Materials, Mastercard, AbbVie, INNOVATE and BranchOut",
         "Six Dividend Aristocrats Keeping SCHD\u2019s Income Stream Bulletproof This Year",
-        "AbbVie (ABBV) Faces Congressional Probe Over China Clinical Trials",
-        "Q1 Earnings Highlights: AbbVie (NYSE:ABBV) Vs The Rest Of The Therapeutics Stocks"
+        "AbbVie (ABBV) Faces Congressional Probe Over China Clinical Trials"
       ],
       "high_impact_news": true
     },
     {
       "asset": "V",
-      "rank_score": 0.6602,
+      "rank_score": 0.6673,
       "price": 361.5799865722656,
       "rsi": 85.16031713495903,
       "momentum_5d": 0.008267909648597884,
@@ -790,12 +844,12 @@
       "bollinger_pct_b": 0.8825,
       "volume_spike": true,
       "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.87,
+      "news_confidence": 0.46,
       "news_headlines": [
-        "3 No-Brainer Stocks to Buy in July and Hold Forever",
-        "Coinbase (COIN) Joins Visa And Mastercard To Launch Open Standard Stablecoin Network",
-        "Stock Market Week Ahead: Oil Hints At A Paradigm Shift"
+        "Why A Low-Yield Dividend Portfolio Could Pay More Than A High-Yield Portfolio In Retirement",
+        "4 of Bank of America\u2019s Top US Q3 Picks Pay Dividends With Double-Digit Upside Potential",
+        "3 No-Brainer Stocks to Buy in July and Hold Forever"
       ],
       "high_impact_news": true
     },
@@ -814,15 +868,15 @@
       "news_sentiment": 0.226,
       "news_confidence": 0.31,
       "news_headlines": [
+        "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
         "Sector Update: Financial Stocks Advance Late Afternoon",
-        "Sector Update: Financial Stocks Rise in Afternoon Trading",
-        "Exchange-Traded Funds Fall, US Equities Mixed After Midday"
+        "Sector Update: Financial Stocks Rise in Afternoon Trading"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.6446,
+      "rank_score": 0.6576,
       "price": 245.52000427246094,
       "rsi": 12.859887750258522,
       "momentum_5d": -0.030446596316234326,
@@ -832,33 +886,54 @@
       "bollinger_pct_b": 0.1677,
       "volume_spike": false,
       "volume_spike_ratio": 1.17,
-      "news_sentiment": 0.708,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.922,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "UBS Raises Price Target for Marvell Technology (MRVL)",
-        "Cantor Fitzgerald Raises PT on Marvell Technology (MRVL) Stock",
-        "Jim Cramer\u2019s Thoughts on Marvell (MRVL) and Why It May Still Have A Lot More Upside"
+        "Jensen Huang Just Named Marvell the Next $1 Trillion Stock. Is the Stock a Buy Following a 129% Surge?",
+        "Dow futures near 53,000 as chip stocks attempt rebound",
+        "Stifel Raises its Price Target on Power Integrations (POWI)"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "KLAC",
-      "rank_score": 0.6194,
-      "price": 235.36500549316406,
-      "rsi": 9.996995164109492,
-      "momentum_5d": -0.02633099055505369,
-      "momentum_1d": -0.14877032371369237,
+      "asset": "BTC-USD",
+      "rank_score": 0.6529,
+      "price": 61414.6015625,
+      "rsi": 12.945213615778556,
+      "momentum_5d": -0.022579994398628067,
+      "momentum_1d": -0.021106665251241583,
       "macd_crossover": false,
-      "atr_pct": 0.03571097242176455,
-      "bollinger_pct_b": 0.1981,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.422,
-      "news_confidence": 0.45,
+      "atr_pct": 0.005899865527194838,
+      "bollinger_pct_b": -0.1459,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.4,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.32,
       "news_headlines": [
-        "US Stock Market Today: S&P 500 Futures Rise As Inflation Jitters Temporarily Ease",
-        "KLA Corporation (KLAC) Is One Of Jim Cramer\u2019s Top Performing 2026 Stocks",
-        "Vltava Fund Exited KLA Corporation (KLAC) Amid Price-Quality Imbalance"
+        "Bitcoin and ethereum prices today, Monday, July 6, 2026: Prices falling after last week's rebound",
+        "Strategy Sells $225M More BTC as Bitcoin Holds Steady",
+        "Strategy Knee-Caps Bitcoin Rally With $216 Million Sale"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6431,
+      "price": 79.33000183105469,
+      "rsi": 30.411455852467142,
+      "momentum_5d": -0.013185689347451873,
+      "momentum_1d": -0.02266842896880323,
+      "macd_crossover": false,
+      "atr_pct": 0.008463728413070313,
+      "bollinger_pct_b": -0.0024,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.79,
+      "news_sentiment": 0.588,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "3 Token Unlocks to Watch in the Second Week of July 2026",
+        "Which Crypto Can Make You a Millionaire by 2030 With $10,000? We Compared XRP, BTC, ETH, SOL, and HYPE",
+        "Where Will Solana Be in 20 Years?"
       ],
       "high_impact_news": true
     },
@@ -898,9 +973,30 @@
       "news_sentiment": -0.256,
       "news_confidence": 0.43,
       "news_headlines": [
+        "Jeff Bezos Is Pouring Money Into a Startup That Could Drive \u2018Civilizational Wealth\u2019",
         "Lam Research (LRCX) Stock Falls As AI Demand Fears Clash With Company Guidance",
-        "Jim Cramer Says He Kept Waiting for Breaks in Stocks Like Lam Research Which Never Came",
-        "Vltava Fund: Lam Research (LRCX) Is Overvalued"
+        "Jim Cramer Says He Kept Waiting for Breaks in Stocks Like Lam Research Which Never Came"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "KLAC",
+      "rank_score": 0.6054,
+      "price": 235.36500549316406,
+      "rsi": 9.996995164109492,
+      "momentum_5d": -0.02633099055505369,
+      "momentum_1d": -0.14877032371369237,
+      "macd_crossover": false,
+      "atr_pct": 0.03571097242176455,
+      "bollinger_pct_b": 0.1981,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.143,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Jeff Bezos Is Pouring Money Into a Startup That Could Drive \u2018Civilizational Wealth\u2019",
+        "Cantor Fitzgerald Raises its Price Target on KLA (KLAC)",
+        "US Stock Market Today: S&P 500 Futures Rise As Inflation Jitters Temporarily Ease"
       ],
       "high_impact_news": true
     },
@@ -926,134 +1022,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "XLK",
-      "rank_score": 0.5951,
-      "price": 180.52000427246094,
-      "rsi": 13.114897623184177,
-      "momentum_5d": -0.006548909787230969,
-      "momentum_1d": -0.024602115416849115,
-      "macd_crossover": false,
-      "atr_pct": 0.010786526896754654,
-      "bollinger_pct_b": 0.1655,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": -0.364,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "4 Top-Ranked Tech Stocks Under $20 That Promise Gains in 2H26",
-        "Sector Update: Tech Stocks Fall Late Afternoon",
-        "Sector Update: Tech Stocks Fall Thursday Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.5924,
-      "price": 140.33140563964844,
-      "rsi": 19.25155594323165,
-      "momentum_5d": -0.011750664509518045,
-      "momentum_1d": -0.05817848563994337,
-      "macd_crossover": false,
-      "atr_pct": 0.016801640975602695,
-      "bollinger_pct_b": 0.1044,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AI infrastructure firm Crusoe eyes $3bn funding round",
-        "Oracle (ORCL) Announces Third Cohort of Oracle Defense Ecosystem",
-        "The Microsoft Stock Outlook Remains Upbeat Despite Layoffs"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ARM",
-      "rank_score": 0.5871,
-      "price": 315.5,
-      "rsi": 16.457470444921825,
-      "momentum_5d": -0.03051345266038304,
-      "momentum_1d": -0.0823687008345424,
-      "macd_crossover": false,
-      "atr_pct": 0.029751577932207948,
-      "bollinger_pct_b": 0.1459,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.13,
-      "news_sentiment": 0.467,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
-        "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
-        "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HAL",
-      "rank_score": 0.5858,
-      "price": 32.94499969482422,
-      "rsi": 27.93794987608584,
-      "momentum_5d": -0.007082598197411846,
-      "momentum_1d": -0.039784366768618,
-      "macd_crossover": false,
-      "atr_pct": 0.009752484594240367,
-      "bollinger_pct_b": 0.2433,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.81,
-      "news_sentiment": 0.487,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Halliburton Seen Posting Positive Q2 Results on Fracking Gains, UBS Says",
-        "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day",
-        "Halliburton (HAL) Suffers a Larger Drop Than the General Market: Key Insights"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.5787,
-      "price": 49.16999816894531,
-      "rsi": 24.946818652888396,
-      "momentum_5d": -0.023629913164886728,
-      "momentum_1d": -0.07755863722553519,
-      "macd_crossover": false,
-      "atr_pct": 0.030462230184332154,
-      "bollinger_pct_b": 0.128,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.853,
-      "news_confidence": 0.59,
-      "news_headlines": [
-        "1 of Wall Street\u2019s Favorite Stocks to Keep an Eye On and 2 We Question",
-        "Why IonQ Stock Plummeted 26.1% in June",
-        "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.5766,
-      "price": 360.3399963378906,
-      "rsi": 21.479681817945334,
-      "momentum_5d": -0.012212384834932196,
-      "momentum_1d": -0.039823086929619486,
-      "macd_crossover": false,
-      "atr_pct": 0.01318593910056661,
-      "bollinger_pct_b": 0.1517,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.702,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spending",
-        "Broadcom (AVGO) is One of BlackRock\u2019s 30 Most Important AI Stocks, Here is Why",
-        "Top Analyst strongly resets AMD stock price target"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AAPL",
-      "rank_score": 0.5756,
+      "rank_score": 0.5964,
       "price": 308.2200012207031,
       "rsi": 87.43168746297746,
       "momentum_5d": 0.009184200505223955,
@@ -1063,33 +1033,33 @@
       "bollinger_pct_b": 0.8584,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.25,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.592,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spending",
-        "Dow Jones Futures Rise, Nasdaq Set To Reclaim Key Level; Apple, SpaceX, Sandisk, Robinhood In Focus",
-        "Apple Could Have Purchased Any of 487 S&P 500 Companies -- but CEO Tim Cook Chose to Invest $853 Billion Into This Game-Changing Opportunity"
+        "Western Digital, Sandisk, AMD, ASML, TeraWulf, Strategy, and More Stocks That Explain Today\u2019s Market",
+        "Broadcom stock pops 4% as Apple silicon deal gets extended through 2031",
+        "Apple and Intel Could Be Going Into Business Together. Which Is the Better Buy?"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5685,
-      "price": 1756.050048828125,
-      "rsi": 32.80140399593394,
-      "momentum_5d": -0.011400101020860464,
-      "momentum_1d": -0.0002333740127820573,
+      "asset": "ORCL",
+      "rank_score": 0.5954,
+      "price": 140.33140563964844,
+      "rsi": 19.25155594323165,
+      "momentum_5d": -0.011750664509518045,
+      "momentum_1d": -0.05817848563994337,
       "macd_crossover": false,
-      "atr_pct": 0.007620184936615118,
-      "bollinger_pct_b": -0.1087,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.79,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
+      "atr_pct": 0.016801640975602695,
+      "bollinger_pct_b": 0.1044,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.767,
+      "news_confidence": 0.43,
       "news_headlines": [
-        "Lighter Jumps 20% to Seven Month High After Tokenomics Overhaul",
-        "Bitcoin, Ethereum, XRP, Dogecoin Rally as 'Extreme Fear' Persists: Analyst Expects a 'Quick' Move Upward for BTC After 'Shallow' Correction",
-        "Bitcoin Options Turn Call-Heavy Before July 8 FOMC Minutes: Will BTC Break $63,000?"
+        "Dow futures near 53,000 as chip stocks attempt rebound",
+        "Oracle Stock Set to Snap Longest Losing Streak Since 2021. Analysts Are Screaming \u2018Buy\u2019",
+        "AI infrastructure firm Crusoe eyes $3bn funding round"
       ],
       "high_impact_news": true
     }
