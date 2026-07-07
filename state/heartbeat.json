@@ -3,15 +3,15 @@
   "portfolio_balance": 101018.44,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.12,
-  "unrealized_pnl_usd": 514.08,
-  "equity_value": 101532.51,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "unrealized_pnl_usd": 545.68,
+  "equity_value": 101564.12,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40362.29,
+  "day_capital_used_usd": 40407.38,
   "swing_capital_used_usd": 50433.42,
   "total_trades": 532,
-  "last_tick": "2026-07-07T04:27:13.594241+00:00",
+  "last_tick": "2026-07-07T07:58:27.303256+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -38,11 +38,11 @@
       "mode": "paper",
       "strategy_version": "03",
       "status": "open",
-      "price_peak": 1.0786000490188599,
-      "trailing_stop_price": 1.069971,
-      "current_price": 1.07866,
-      "unrealized_pnl_pct": 0.023426,
-      "unrealized_pnl_usd": 31.48
+      "price_peak": 1.0792499780654907,
+      "trailing_stop_price": 1.070616,
+      "current_price": 1.07932,
+      "unrealized_pnl_pct": 0.024052,
+      "unrealized_pnl_usd": 32.33
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8429,
-      "unrealized_pnl_pct": 0.001098,
-      "unrealized_pnl_usd": 1.48
+      "current_price": 7.84187,
+      "unrealized_pnl_pct": 0.000966,
+      "unrealized_pnl_usd": 1.3
     },
     {
       "id": "EUR/JPY_20260629153722",
@@ -99,9 +99,9 @@
       "status": "open",
       "price_trough": 184.09100341796875,
       "trailing_stop_price": 185.563731,
-      "current_price": 185.054001,
-      "unrealized_pnl_pct": -0.000616,
-      "unrealized_pnl_usd": -4.08
+      "current_price": 185.069,
+      "unrealized_pnl_pct": -0.000698,
+      "unrealized_pnl_usd": -4.62
     },
     {
       "id": "ARM_20260630160723",
@@ -233,9 +233,9 @@
       "status": "open",
       "price_trough": 0.6916107535362244,
       "trailing_stop_price": 0.697144,
-      "current_price": 0.69483,
-      "unrealized_pnl_pct": -0.002293,
-      "unrealized_pnl_usd": -12.47
+      "current_price": 0.694107,
+      "unrealized_pnl_pct": -0.001249,
+      "unrealized_pnl_usd": -6.79
     },
     {
       "id": "USD/MXN_20260702144002",
@@ -261,9 +261,9 @@
       "status": "open",
       "price_peak": 17.483259201049805,
       "trailing_stop_price": 17.343393,
-      "current_price": 17.389,
-      "unrealized_pnl_pct": -0.004938,
-      "unrealized_pnl_usd": -26.67
+      "current_price": 17.410999,
+      "unrealized_pnl_pct": -0.00368,
+      "unrealized_pnl_usd": -19.87
     },
     {
       "id": "XLK_20260702162704",
@@ -565,9 +565,9 @@
       "status": "open",
       "price_peak": 9.795980453491211,
       "trailing_stop_price": 9.776388,
-      "current_price": 9.79595,
-      "unrealized_pnl_pct": 0.001504,
-      "unrealized_pnl_usd": 7.39
+      "current_price": 9.78705,
+      "unrealized_pnl_pct": 0.000594,
+      "unrealized_pnl_usd": 2.92
     },
     {
       "id": "DOGE-USD_20260707042713",
@@ -598,30 +598,64 @@
       "mode": "paper",
       "strategy_version": "48",
       "status": "open",
-      "current_price": 0.07463,
+      "price_peak": 0.07494000345468521,
+      "trailing_stop_price": 0.074224,
+      "current_price": 0.07494,
+      "unrealized_pnl_pct": 0.004154,
+      "unrealized_pnl_usd": 23.47
+    },
+    {
+      "id": "XRP-USD_20260707075827",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1.1265000104904175,
+      "entry_time": "2026-07-07T07:58:27.299807+00:00",
+      "stop_loss_pct": 0.00675,
+      "take_profit_pct": 0.01566,
+      "size_usd": 45.09,
+      "position_size_pct": 0.0004,
+      "confidence": 0.644,
+      "signals": [
+        "RSI oversold (35.1)",
+        "5d momentum -0.33%",
+        "1d momentum -1.60%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.333,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This",
+        "XRP Binance Scarcity Index Hits 2-Year High: What Does It Mean for Price?",
+        "XRP Price Forecast: Recovery Odds Rise as XRP Recaptures Key Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "48",
+      "status": "open",
+      "current_price": 1.1265,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
-      "asset": "MS",
-      "rank_score": 0.6798,
-      "price": 222.11000061035156,
-      "rsi": 82.44319106557441,
-      "momentum_5d": 0.002437122662286379,
-      "momentum_1d": 0.06120400082089805,
+      "asset": "BAC",
+      "rank_score": 0.6728,
+      "price": 59.900001525878906,
+      "rsi": 82.30277081445645,
+      "momentum_5d": 0.007569398774843737,
+      "momentum_1d": 0.04738595845855277,
       "macd_crossover": false,
-      "atr_pct": 0.008852074207313532,
-      "bollinger_pct_b": 0.8869,
+      "atr_pct": 0.006436325735362711,
+      "bollinger_pct_b": 0.9176,
       "volume_spike": true,
-      "volume_spike_ratio": 2.03,
-      "news_sentiment": 0.778,
-      "news_confidence": 0.45,
+      "volume_spike_ratio": 1.72,
+      "news_sentiment": 0.559,
+      "news_confidence": 0.68,
       "news_headlines": [
-        "Is hyperscaler spending expected to slow down any time soon?",
-        "Morgan Stanley resets view on 93-year-old heavy equipment stock",
-        "JPMorgan Says Buy the AI Chip Dip But Morgan Stanley Pushes a Different Bet"
+        "Bank of America (BAC) Rallies With Big Banks, Is It Still Trading At A Discount?",
+        "JPMorgan, Bank of America and Other Banks Explore a Deal to Shake Up Payments World",
+        "Intel-Backed AI Chip and Software Maker Syntiant Files for IPO"
       ],
       "high_impact_news": true
     },
@@ -647,23 +681,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "BAC",
-      "rank_score": 0.6637,
-      "price": 59.900001525878906,
-      "rsi": 82.30277081445645,
-      "momentum_5d": 0.007569398774843737,
-      "momentum_1d": 0.04738595845855277,
+      "asset": "MS",
+      "rank_score": 0.6667,
+      "price": 222.11000061035156,
+      "rsi": 82.44319106557441,
+      "momentum_5d": 0.002437122662286379,
+      "momentum_1d": 0.06120400082089805,
       "macd_crossover": false,
-      "atr_pct": 0.006436325735362711,
-      "bollinger_pct_b": 0.9176,
+      "atr_pct": 0.008852074207313532,
+      "bollinger_pct_b": 0.8869,
       "volume_spike": true,
-      "volume_spike_ratio": 1.72,
-      "news_sentiment": 0.475,
-      "news_confidence": 0.61,
+      "volume_spike_ratio": 2.03,
+      "news_sentiment": 0.478,
+      "news_confidence": 0.46,
       "news_headlines": [
-        "JPMorgan, Bank of America and Other Banks Explore a Deal to Shake Up Payments World",
-        "Intel-Backed AI Chip and Software Maker Syntiant Files for IPO",
-        "Bank of America Stock Hits Record High and Berkshire Hathaway Is a Big Winner"
+        "Is hyperscaler spending expected to slow down any time soon?",
+        "Why Morgan Stanley Cut Its Outlook on Hertz Global Holdings, Inc. (HTZ)",
+        "Vistry Group (LSE:VTY) Stock Fair Value Moves Lower After Analyst Target Cuts"
       ],
       "high_impact_news": true
     },
@@ -815,27 +849,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "JPM",
-      "rank_score": 0.5858,
-      "price": 337.8699951171875,
-      "rsi": 69.71905456000457,
-      "momentum_5d": 0.005460715208476464,
-      "momentum_1d": 0.027600727866414886,
-      "macd_crossover": false,
-      "atr_pct": 0.006722753820074791,
-      "bollinger_pct_b": 0.9592,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.52,
-      "news_sentiment": 0.778,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "JPMorgan sends blunt verdict on oil, economy",
-        "JPMorgan Says Buy the AI Chip Dip But Morgan Stanley Pushes a Different Bet",
-        "Global bank valuations rise in Q2 2026 as capital returns, reveals GlobalData"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AAPL",
       "rank_score": 0.584,
       "price": 312.80999755859375,
@@ -851,14 +864,35 @@
       "news_confidence": 0.67,
       "news_headlines": [
         "Apple's $2,500 foldable iPhone could sell out instantly",
-        "Dan Niles Sees Apple Winning China Memory Exemption, Calls AI Chip Selloff a 'Speed Bump' as Nvidia's Vera Rubin Fuels Long-Term Demand",
-        "Why Intel (INTC) Stock Is Up Today"
+        "SpaceX Is in the Nasdaq-100, Now Brace for Volatility",
+        "Broadcom (AVGO) Extends Apple Deal Following A Fresh Look At Its Fair Value"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "JPM",
+      "rank_score": 0.5808,
+      "price": 337.8699951171875,
+      "rsi": 69.71905456000457,
+      "momentum_5d": 0.005460715208476464,
+      "momentum_1d": 0.027600727866414886,
+      "macd_crossover": false,
+      "atr_pct": 0.006722753820074791,
+      "bollinger_pct_b": 0.9592,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.52,
+      "news_sentiment": 0.649,
+      "news_confidence": 0.57,
+      "news_headlines": [
+        "J.P. Morgan's stock price is flashing valuation warning",
+        "JPMorgan sends blunt verdict on oil, economy",
+        "JPMorgan Says Buy the AI Chip Dip But Morgan Stanley Pushes a Different Bet"
       ],
       "high_impact_news": true
     },
     {
       "asset": "RIVN",
-      "rank_score": 0.5681,
+      "rank_score": 0.5702,
       "price": 20.114999771118164,
       "rsi": 76.42511555175837,
       "momentum_5d": 0.01182600479545166,
@@ -868,12 +902,12 @@
       "bollinger_pct_b": 0.8476,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.615,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "S&P 500, Nasdaq, Dow Futures Mixed After Record Session: Why MU, SNDK, RIVN, SPCX Stocks Are Trending Overnight",
         "RIVN Stock Slumps Overnight: Rivian Director, Foundation File Stock Sale Notices Amid $1.5B Offering Plan",
-        "RIVN Stock Drops After-Hours On Potential $1.5B Offering Despite Upbeat Q2 Guidance",
-        "Rivian Stock Gets Rocked After the Bell: Here's Why"
+        "RIVN Stock Drops After-Hours On Potential $1.5B Offering Despite Upbeat Q2 Guidance"
       ],
       "high_impact_news": true
     },
@@ -941,27 +975,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5373,
-      "price": 0.0746299996972084,
-      "rsi": 41.72793312004207,
-      "momentum_5d": -0.025845180414727272,
-      "momentum_1d": -0.03128247661007101,
-      "macd_crossover": false,
-      "atr_pct": 0.00975288577184976,
-      "bollinger_pct_b": 0.0009,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.49,
-      "news_sentiment": -0.07,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This",
-        "This is what $1,000 invested in Dogecoin after Musk's endorsement is worth today",
-        "Top Cryptocurrencies Mixed; Bitcoin Tops $63,000"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "KLAC",
       "rank_score": 0.5349,
       "price": 233.30999755859375,
@@ -1021,6 +1034,27 @@
         "How Trump Accounts can turn $2K into $40K: Robinhood CEO & BNY CEO discuss",
         "Why Robinhood (HOOD) Stock Is Up Today",
         "Robinhood CEO Predicts That AI Agents Will Catch Up to Human Traders \u2018Soon\u2019"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "REGN",
+      "rank_score": 0.5226,
+      "price": 649.969970703125,
+      "rsi": 74.97516790363939,
+      "momentum_5d": 0.011327340139202587,
+      "momentum_1d": 0.03179662854254415,
+      "macd_crossover": false,
+      "atr_pct": 0.009763976744074983,
+      "bollinger_pct_b": 0.7621,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.93,
+      "news_sentiment": 0.719,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Can Alnylam's Drug Pipeline Fuel Its Long-Term Revenue Growth?",
+        "Regeneron (REGN) Secures FDA Priority Review And EMA Acceptance For Cemdisiran",
+        "Regeneron (REGN) Stock Looks Undervalued Even After A 20% Gain"
       ],
       "high_impact_news": true
     }
