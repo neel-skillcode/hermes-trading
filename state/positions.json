@@ -445,35 +445,6 @@
     "strategy_version": "48",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260706163705",
-    "asset": "AVAX-USD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 6.949999809265137,
-    "entry_time": "2026-07-06T16:37:05.484023+00:00",
-    "stop_loss_pct": 0.02794,
-    "take_profit_pct": 0.09417,
-    "size_usd": 6329.75,
-    "position_size_pct": 0.0628,
-    "confidence": 0.741,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +1.91%",
-      "Volume spike 3.5\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade; price surge; price decline"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
-      "A New Era for Tokenization: Securitize Lists on the NYSE",
-      "Securitize brings its own stock onchain on Solana at NYSE debut"
-    ],
-    "mode": "paper",
-    "strategy_version": "48",
-    "status": "open"
-  },
   "USD/NOK": {
     "id": "USD/NOK_20260706202711",
     "asset": "USD/NOK",
@@ -497,40 +468,8 @@
     "mode": "paper",
     "strategy_version": "48",
     "status": "open",
-    "price_peak": 9.795980453491211,
-    "trailing_stop_price": 9.776388
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260707042713",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.0746299996972084,
-    "entry_time": "2026-07-07T04:27:13.589647+00:00",
-    "stop_loss_pct": 0.00955,
-    "take_profit_pct": 0.02328,
-    "size_usd": 5650.57,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (41.7)",
-      "5d momentum -2.58%",
-      "1d momentum -3.13%",
-      "BB oversold (pct_b=0.00)",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge; fed hawkish"
-    ],
-    "news_sentiment": -0.07,
-    "news_headlines": [
-      "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This",
-      "This is what $1,000 invested in Dogecoin after Musk's endorsement is worth today",
-      "Top Cryptocurrencies Mixed; Bitcoin Tops $63,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "48",
-    "status": "open",
-    "price_peak": 0.07494000345468521,
-    "trailing_stop_price": 0.074224
+    "price_peak": 9.807250022888184,
+    "trailing_stop_price": 9.787636
   },
   "XRP-USD": {
     "id": "XRP-USD_20260707075827",
@@ -556,6 +495,66 @@
       "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This",
       "XRP Binance Scarcity Index Hits 2-Year High: What Does It Mean for Price?",
       "XRP Price Forecast: Recovery Odds Rise as XRP Recaptures Key Level"
+    ],
+    "mode": "paper",
+    "strategy_version": "48",
+    "status": "open",
+    "price_trough": 1.121000051498413,
+    "trailing_stop_price": 1.128567
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260707132633",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 63061.0703125,
+    "entry_time": "2026-07-07T13:26:33.709339+00:00",
+    "stop_loss_pct": 0.00501,
+    "take_profit_pct": 0.01181,
+    "size_usd": 4612.85,
+    "position_size_pct": 0.0458,
+    "confidence": 0.715,
+    "signals": [
+      "RSI oversold (31.1)",
+      "1d momentum +2.19%",
+      "Volume spike 5.8\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.571,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, July 7, 2026: Another strong opening for BTC and ETH prices",
+      "Tom Lee's Bitmine takes one step closer to holding 5% of ethereum",
+      "Stock Market Today: Tech Futures Sell Off As Samsung Falls On Earnings; Micron, Sandisk Dive (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "48",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260707132633",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1769.77001953125,
+    "entry_time": "2026-07-07T13:26:33.711449+00:00",
+    "stop_loss_pct": 0.0067,
+    "take_profit_pct": 0.0158,
+    "size_usd": 952.44,
+    "position_size_pct": 0.0094,
+    "confidence": 0.715,
+    "signals": [
+      "RSI oversold (33.6)",
+      "1d momentum +1.51%",
+      "Volume spike 3.5\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, July 7, 2026: Another strong opening for BTC and ETH prices",
+      "A Dangerous Threat Faces Bitcoin, XRP, ETH and SOL, Alphractal CEO Warns",
+      "SEC Drops MetaMask Case Against ConsenSys With No Fine or Wrongdoing"
     ],
     "mode": "paper",
     "strategy_version": "48",
