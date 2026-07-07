@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 1.0792499780654907,
-    "trailing_stop_price": 1.070616
+    "price_peak": 1.0798200368881226,
+    "trailing_stop_price": 1.071181
   },
   "USD/HKD": {
     "id": "USD/HKD_20260524050433",
@@ -104,8 +104,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_trough": 302.6000061035156,
-    "trailing_stop_price": 320.756006
+    "price_trough": 300.42999267578125,
+    "trailing_stop_price": 318.455792
   },
   "UBER": {
     "id": "UBER_20260630180958",
@@ -191,8 +191,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_peak": 17.500690460205078,
-    "trailing_stop_price": 17.360685
+    "price_peak": 17.506999969482422,
+    "trailing_stop_price": 17.366944
   },
   "VRTX": {
     "id": "VRTX_20260702195300",
@@ -223,8 +223,8 @@
     "mode": "paper",
     "strategy_version": "45",
     "status": "open",
-    "price_trough": 524.1300048828125,
-    "trailing_stop_price": 528.459319
+    "price_trough": 522.25,
+    "trailing_stop_price": 526.563785
   },
   "XLF": {
     "id": "XLF_20260703161007",
@@ -346,38 +346,6 @@
     "price_peak": 111.04000091552734,
     "trailing_stop_price": 109.374401
   },
-  "IONQ": {
-    "id": "IONQ_20260707160040",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 45.220001220703125,
-    "entry_time": "2026-07-07T16:00:40.741484+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 5994.36,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (30.2)",
-      "5d momentum -8.68%",
-      "1d momentum -15.11%",
-      "BB oversold (pct_b=0.02)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.566,
-    "news_headlines": [
-      "IonQ, Inc. (IONQ) Is a Trending Stock: Facts to Know Before Betting on It",
-      "1 Stock Under $50 with Competitive Advantages and 2 We Question",
-      "Can IONQ's Security and Space Launches Accelerate Quantum Advantage Push?"
-    ],
-    "mode": "paper",
-    "strategy_version": "49",
-    "status": "open",
-    "price_peak": 46.580101013183594,
-    "trailing_stop_price": 45.881399
-  },
   "AMAT": {
     "id": "AMAT_20260707160040",
     "asset": "AMAT",
@@ -407,8 +375,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 551.9500122070312,
-    "trailing_stop_price": 543.670762
+    "price_peak": 554.5,
+    "trailing_stop_price": 546.1825
   },
   "LRCX": {
     "id": "LRCX_20260707160040",
@@ -439,67 +407,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 325.80499267578125,
-    "trailing_stop_price": 320.917918
-  },
-  "USO": {
-    "id": "USO_20260707160040",
-    "asset": "USO",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 106.70999908447266,
-    "entry_time": "2026-07-07T16:00:40.763215+00:00",
-    "stop_loss_pct": 0.018,
-    "take_profit_pct": 0.0598,
-    "size_usd": 6199.74,
-    "position_size_pct": 0.0618,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (79.3)",
-      "5d momentum +2.44%",
-      "BB overbought (pct_b=1.04)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.032,
-    "news_headlines": [
-      "Sector Update: Energy Stocks Edge Higher Pre-Bell Tuesday",
-      "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
-      "Oil Rises Following Iranian Attacks on Ships in the Strait of Hormuz"
-    ],
-    "mode": "paper",
-    "strategy_version": "49",
-    "status": "open"
-  },
-  "RIVN": {
-    "id": "RIVN_20260707180911",
-    "asset": "RIVN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 17.084999084472656,
-    "entry_time": "2026-07-07T18:09:11.677665+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 959.52,
-    "position_size_pct": 0.0096,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (33.9)",
-      "5d momentum -15.06%",
-      "1d momentum -3.34%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.66,
-    "news_headlines": [
-      "Rivian stock down on 75 million share sale, preannounces Q2 revenue",
-      "Sector Update: Consumer Stocks Mixed in Afternoon Trading",
-      "Why Rivian Stock Is Plunging Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "49",
-    "status": "open"
+    "price_peak": 326.1300048828125,
+    "trailing_stop_price": 321.238055
   },
   "VLO": {
     "id": "VLO_20260707180911",
@@ -528,7 +437,9 @@
     ],
     "mode": "paper",
     "strategy_version": "49",
-    "status": "open"
+    "status": "open",
+    "price_peak": 266.17999267578125,
+    "trailing_stop_price": 256.696
   },
   "V": {
     "id": "V_20260707180911",
@@ -554,6 +465,60 @@
       "Bitcoin's best week since March as massive spot ETF inflows return",
       "Visa vs Coinbase: Two Different Economic Playbooks But One Winner",
       "3 Reasons We Love Visa (V)"
+    ],
+    "mode": "paper",
+    "strategy_version": "49",
+    "status": "open",
+    "price_peak": 352.05999755859375,
+    "trailing_stop_price": 341.357374
+  },
+  "USD/SEK": {
+    "id": "USD/SEK_20260707201154",
+    "asset": "USD/SEK",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 9.690500259399414,
+    "entry_time": "2026-07-07T20:11:54.230931+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 3974.15,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI overbought (81.9)",
+      "1d momentum +0.77%",
+      "BB overbought (pct_b=1.00)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "49",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260707201154",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.07458999752998352,
+    "entry_time": "2026-07-07T20:11:54.232642+00:00",
+    "stop_loss_pct": 0.00762,
+    "take_profit_pct": 0.0177,
+    "size_usd": 2922.53,
+    "position_size_pct": 0.0292,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (40.5)",
+      "5d momentum -0.73%",
+      "1d momentum -2.92%",
+      "High-impact catalyst",
+      "Claude [neutral]: price surge; fed hawkish"
+    ],
+    "news_sentiment": -0.2,
+    "news_headlines": [
+      "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
+      "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This",
+      "This is what $1,000 invested in Dogecoin after Musk's endorsement is worth today"
     ],
     "mode": "paper",
     "strategy_version": "49",
