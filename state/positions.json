@@ -438,8 +438,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 266.17999267578125,
-    "trailing_stop_price": 256.696
+    "price_peak": 266.2200012207031,
+    "trailing_stop_price": 256.734583
   },
   "V": {
     "id": "V_20260707180911",
@@ -469,8 +469,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 352.05999755859375,
-    "trailing_stop_price": 341.357374
+    "price_peak": 352.20001220703125,
+    "trailing_stop_price": 341.493132
   },
   "USD/SEK": {
     "id": "USD/SEK_20260707201154",
@@ -493,7 +493,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "49",
-    "status": "open"
+    "status": "open",
+    "price_trough": 9.680959701538086,
+    "trailing_stop_price": 9.700322
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260707201154",
@@ -522,6 +524,36 @@
     ],
     "mode": "paper",
     "strategy_version": "49",
+    "status": "open",
+    "price_trough": 0.07395000010728836,
+    "trailing_stop_price": 0.074513
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20260707214054",
+    "asset": "USD/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 162.11900329589844,
+    "entry_time": "2026-07-07T21:40:54.378073+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02552,
+    "size_usd": 3644.04,
+    "position_size_pct": 0.0364,
+    "confidence": 0.379,
+    "signals": [
+      "RSI overbought (62.8)",
+      "BB overbought (pct_b=1.06)",
+      "News +0.47 (conf 0.75) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+    ],
+    "news_sentiment": 0.467,
+    "news_headlines": [
+      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
+      "How the US Dollar Got Its Mojo Back"
+    ],
+    "mode": "paper",
+    "strategy_version": "50",
     "status": "open"
   }
 }
