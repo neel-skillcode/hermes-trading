@@ -135,8 +135,8 @@
     "mode": "paper",
     "strategy_version": "42",
     "status": "open",
-    "price_peak": 74.43000030517578,
-    "trailing_stop_price": 71.36274
+    "price_peak": 74.61509704589844,
+    "trailing_stop_price": 71.540209
   },
   "AUD/USD": {
     "id": "AUD/USD_20260702144002",
@@ -314,37 +314,6 @@
     "price_peak": 9.807250022888184,
     "trailing_stop_price": 9.787636
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260707132633",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1769.77001953125,
-    "entry_time": "2026-07-07T13:26:33.711449+00:00",
-    "stop_loss_pct": 0.0067,
-    "take_profit_pct": 0.0158,
-    "size_usd": 952.44,
-    "position_size_pct": 0.0094,
-    "confidence": 0.715,
-    "signals": [
-      "RSI oversold (33.6)",
-      "1d momentum +1.51%",
-      "Volume spike 3.5\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, July 7, 2026: Another strong opening for BTC and ETH prices",
-      "A Dangerous Threat Faces Bitcoin, XRP, ETH and SOL, Alphractal CEO Warns",
-      "SEC Drops MetaMask Case Against ConsenSys With No Fine or Wrongdoing"
-    ],
-    "mode": "paper",
-    "strategy_version": "48",
-    "status": "open",
-    "price_peak": 1796.8399658203125,
-    "trailing_stop_price": 1784.801138
-  },
   "INTC": {
     "id": "INTC_20260707160040",
     "asset": "INTC",
@@ -373,7 +342,9 @@
     ],
     "mode": "paper",
     "strategy_version": "49",
-    "status": "open"
+    "status": "open",
+    "price_peak": 111.04000091552734,
+    "trailing_stop_price": 109.374401
   },
   "IONQ": {
     "id": "IONQ_20260707160040",
@@ -403,7 +374,9 @@
     ],
     "mode": "paper",
     "strategy_version": "49",
-    "status": "open"
+    "status": "open",
+    "price_peak": 46.580101013183594,
+    "trailing_stop_price": 45.881399
   },
   "AMAT": {
     "id": "AMAT_20260707160040",
@@ -433,7 +406,9 @@
     ],
     "mode": "paper",
     "strategy_version": "49",
-    "status": "open"
+    "status": "open",
+    "price_peak": 551.9500122070312,
+    "trailing_stop_price": 543.670762
   },
   "LRCX": {
     "id": "LRCX_20260707160040",
@@ -463,7 +438,9 @@
     ],
     "mode": "paper",
     "strategy_version": "49",
-    "status": "open"
+    "status": "open",
+    "price_peak": 325.80499267578125,
+    "trailing_stop_price": 320.917918
   },
   "USO": {
     "id": "USO_20260707160040",
@@ -489,6 +466,94 @@
       "Sector Update: Energy Stocks Edge Higher Pre-Bell Tuesday",
       "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
       "Oil Rises Following Iranian Attacks on Ships in the Strait of Hormuz"
+    ],
+    "mode": "paper",
+    "strategy_version": "49",
+    "status": "open"
+  },
+  "RIVN": {
+    "id": "RIVN_20260707180911",
+    "asset": "RIVN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 17.084999084472656,
+    "entry_time": "2026-07-07T18:09:11.677665+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 959.52,
+    "position_size_pct": 0.0096,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (33.9)",
+      "5d momentum -15.06%",
+      "1d momentum -3.34%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.66,
+    "news_headlines": [
+      "Rivian stock down on 75 million share sale, preannounces Q2 revenue",
+      "Sector Update: Consumer Stocks Mixed in Afternoon Trading",
+      "Why Rivian Stock Is Plunging Today"
+    ],
+    "mode": "paper",
+    "strategy_version": "49",
+    "status": "open"
+  },
+  "VLO": {
+    "id": "VLO_20260707180911",
+    "asset": "VLO",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 263.375,
+    "entry_time": "2026-07-07T18:09:11.696367+00:00",
+    "stop_loss_pct": 0.03563,
+    "take_profit_pct": 0.12049,
+    "size_usd": 7356.26,
+    "position_size_pct": 0.0733,
+    "confidence": 0.764,
+    "signals": [
+      "RSI oversold (35.7)",
+      "5d momentum -2.58%",
+      "BB oversold (pct_b=0.06)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: earnings beat; analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.885,
+    "news_headlines": [
+      "Phillips 66 Stock Up Almost 40% in a Year: Is it too Late to Get In?",
+      "Marathon Petroleum Rallies 52% in 6 Months: How to Play the Stock?",
+      "Can Delek's Big Spring Upgrade Deliver Better Refining Margins?"
+    ],
+    "mode": "paper",
+    "strategy_version": "49",
+    "status": "open"
+  },
+  "V": {
+    "id": "V_20260707180911",
+    "asset": "V",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 350.2200012207031,
+    "entry_time": "2026-07-07T18:09:11.702480+00:00",
+    "stop_loss_pct": 0.0304,
+    "take_profit_pct": 0.1019,
+    "size_usd": 2352.02,
+    "position_size_pct": 0.0235,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (31.4)",
+      "5d momentum -1.99%",
+      "BB oversold (pct_b=0.11)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.387,
+    "news_headlines": [
+      "Bitcoin's best week since March as massive spot ETF inflows return",
+      "Visa vs Coinbase: Two Different Economic Playbooks But One Winner",
+      "3 Reasons We Love Visa (V)"
     ],
     "mode": "paper",
     "strategy_version": "49",
