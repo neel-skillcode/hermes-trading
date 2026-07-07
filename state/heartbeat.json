@@ -3,15 +3,15 @@
   "portfolio_balance": 101018.44,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.12,
-  "unrealized_pnl_usd": 545.68,
-  "equity_value": 101564.12,
+  "unrealized_pnl_usd": 492.13,
+  "equity_value": 101510.57,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40407.38,
   "swing_capital_used_usd": 50433.42,
   "total_trades": 532,
-  "last_tick": "2026-07-07T07:58:27.303256+00:00",
+  "last_tick": "2026-07-07T11:10:49.878795+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -38,11 +38,11 @@
       "mode": "paper",
       "strategy_version": "03",
       "status": "open",
-      "price_peak": 1.0792499780654907,
-      "trailing_stop_price": 1.070616,
-      "current_price": 1.07932,
-      "unrealized_pnl_pct": 0.024052,
-      "unrealized_pnl_usd": 32.33
+      "price_peak": 1.0793999433517456,
+      "trailing_stop_price": 1.070765,
+      "current_price": 1.07941,
+      "unrealized_pnl_pct": 0.024137,
+      "unrealized_pnl_usd": 32.44
     },
     {
       "id": "USD/HKD_20260524050433",
@@ -67,9 +67,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.84187,
-      "unrealized_pnl_pct": 0.000966,
-      "unrealized_pnl_usd": 1.3
+      "current_price": 7.8416,
+      "unrealized_pnl_pct": 0.000932,
+      "unrealized_pnl_usd": 1.25
     },
     {
       "id": "EUR/JPY_20260629153722",
@@ -99,9 +99,9 @@
       "status": "open",
       "price_trough": 184.09100341796875,
       "trailing_stop_price": 185.563731,
-      "current_price": 185.069,
-      "unrealized_pnl_pct": -0.000698,
-      "unrealized_pnl_usd": -4.62
+      "current_price": 185.110001,
+      "unrealized_pnl_pct": -0.000919,
+      "unrealized_pnl_usd": -6.09
     },
     {
       "id": "ARM_20260630160723",
@@ -233,9 +233,9 @@
       "status": "open",
       "price_trough": 0.6916107535362244,
       "trailing_stop_price": 0.697144,
-      "current_price": 0.694107,
-      "unrealized_pnl_pct": -0.001249,
-      "unrealized_pnl_usd": -6.79
+      "current_price": 0.694927,
+      "unrealized_pnl_pct": -0.002432,
+      "unrealized_pnl_usd": -13.23
     },
     {
       "id": "USD/MXN_20260702144002",
@@ -261,9 +261,9 @@
       "status": "open",
       "price_peak": 17.483259201049805,
       "trailing_stop_price": 17.343393,
-      "current_price": 17.410999,
-      "unrealized_pnl_pct": -0.00368,
-      "unrealized_pnl_usd": -19.87
+      "current_price": 17.403999,
+      "unrealized_pnl_pct": -0.00408,
+      "unrealized_pnl_usd": -22.03
     },
     {
       "id": "XLK_20260702162704",
@@ -536,9 +536,9 @@
       "mode": "paper",
       "strategy_version": "48",
       "status": "open",
-      "current_price": 6.77,
-      "unrealized_pnl_pct": -0.025899,
-      "unrealized_pnl_usd": -163.94
+      "current_price": 6.76,
+      "unrealized_pnl_pct": -0.027338,
+      "unrealized_pnl_usd": -173.04
     },
     {
       "id": "USD/NOK_20260706202711",
@@ -565,9 +565,9 @@
       "status": "open",
       "price_peak": 9.795980453491211,
       "trailing_stop_price": 9.776388,
-      "current_price": 9.78705,
-      "unrealized_pnl_pct": 0.000594,
-      "unrealized_pnl_usd": 2.92
+      "current_price": 9.79185,
+      "unrealized_pnl_pct": 0.001085,
+      "unrealized_pnl_usd": 5.33
     },
     {
       "id": "DOGE-USD_20260707042713",
@@ -600,9 +600,9 @@
       "status": "open",
       "price_peak": 0.07494000345468521,
       "trailing_stop_price": 0.074224,
-      "current_price": 0.07494,
-      "unrealized_pnl_pct": 0.004154,
-      "unrealized_pnl_usd": 23.47
+      "current_price": 0.07445,
+      "unrealized_pnl_pct": -0.002412,
+      "unrealized_pnl_usd": -13.63
     },
     {
       "id": "XRP-USD_20260707075827",
@@ -632,30 +632,32 @@
       "mode": "paper",
       "strategy_version": "48",
       "status": "open",
-      "current_price": 1.1265,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1.1203999519348145,
+      "trailing_stop_price": 1.127963,
+      "current_price": 1.1203,
+      "unrealized_pnl_pct": 0.005504,
+      "unrealized_pnl_usd": 0.25
     }
   ],
   "last_candidates": [
     {
-      "asset": "BAC",
-      "rank_score": 0.6728,
-      "price": 59.900001525878906,
-      "rsi": 82.30277081445645,
-      "momentum_5d": 0.007569398774843737,
-      "momentum_1d": 0.04738595845855277,
+      "asset": "MS",
+      "rank_score": 0.6702,
+      "price": 222.11000061035156,
+      "rsi": 82.44319106557441,
+      "momentum_5d": 0.002437122662286379,
+      "momentum_1d": 0.06120400082089805,
       "macd_crossover": false,
-      "atr_pct": 0.006436325735362711,
-      "bollinger_pct_b": 0.9176,
+      "atr_pct": 0.008852074207313532,
+      "bollinger_pct_b": 0.8869,
       "volume_spike": true,
-      "volume_spike_ratio": 1.72,
-      "news_sentiment": 0.559,
-      "news_confidence": 0.68,
+      "volume_spike_ratio": 2.03,
+      "news_sentiment": 0.49,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "Bank of America (BAC) Rallies With Big Banks, Is It Still Trading At A Discount?",
-        "JPMorgan, Bank of America and Other Banks Explore a Deal to Shake Up Payments World",
-        "Intel-Backed AI Chip and Software Maker Syntiant Files for IPO"
+        "Is hyperscaler spending expected to slow down any time soon?",
+        "DAL Stock Slips Premarket: Delta Airlines' Rally Faces Wall Street Reality Check Ahead Of Earnings",
+        "SpaceX Shares Win Early Bullish Calls From Wall Street Brokers"
       ],
       "high_impact_news": true
     },
@@ -681,23 +683,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MS",
-      "rank_score": 0.6667,
-      "price": 222.11000061035156,
-      "rsi": 82.44319106557441,
-      "momentum_5d": 0.002437122662286379,
-      "momentum_1d": 0.06120400082089805,
+      "asset": "BAC",
+      "rank_score": 0.6653,
+      "price": 59.900001525878906,
+      "rsi": 82.30277081445645,
+      "momentum_5d": 0.007569398774843737,
+      "momentum_1d": 0.04738595845855277,
       "macd_crossover": false,
-      "atr_pct": 0.008852074207313532,
-      "bollinger_pct_b": 0.8869,
+      "atr_pct": 0.006436325735362711,
+      "bollinger_pct_b": 0.9176,
       "volume_spike": true,
-      "volume_spike_ratio": 2.03,
-      "news_sentiment": 0.478,
-      "news_confidence": 0.46,
+      "volume_spike_ratio": 1.72,
+      "news_sentiment": 0.43,
+      "news_confidence": 0.71,
       "news_headlines": [
-        "Is hyperscaler spending expected to slow down any time soon?",
-        "Why Morgan Stanley Cut Its Outlook on Hertz Global Holdings, Inc. (HTZ)",
-        "Vistry Group (LSE:VTY) Stock Fair Value Moves Lower After Analyst Target Cuts"
+        "Fiserv discusses potential sale of debit payments network with major US banks (FISV)",
+        "Bank Of America Corp (BAC) Proved To Be One Of Jim Cramer\u2019s Weakest Stocks",
+        "SpaceX Shares Win Early Bullish Calls From Wall Street Brokers"
       ],
       "high_impact_news": true
     },
@@ -723,29 +725,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "VRTX",
-      "rank_score": 0.6273,
-      "price": 529.469970703125,
-      "rsi": 75.02382972279868,
-      "momentum_5d": 0.009822175974531744,
-      "momentum_1d": 0.06836291009824014,
-      "macd_crossover": false,
-      "atr_pct": 0.011809296946445362,
-      "bollinger_pct_b": 0.7808,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.81,
-      "news_sentiment": 0.76,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "CRNX Stock Soars Nearly 100% After-Hours On Vertex's $10B Acquisition",
-        "Vertex Pharma Makes A $10 Billion Deal; Crinetics Stock Doubles",
-        "Vertex Pharmaceuticals to Acquire Crinetics Pharmaceuticals for $10 Billion"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRNA",
-      "rank_score": 0.6235,
+      "rank_score": 0.6295,
       "price": 81.76000213623047,
       "rsi": 74.64248222957394,
       "momentum_5d": -0.020896894492336206,
@@ -755,12 +736,33 @@
       "bollinger_pct_b": 0.7334,
       "volume_spike": true,
       "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.393,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.519,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "Moderna Stock Is Soaring. Is It Too Late to Buy?",
         "Moderna (MRNA) Outpaces Stock Market Gains: What You Should Know",
-        "US Stock Market Today: S&P 500 Futures Rise As Inflation Jitters Temporarily Ease",
-        "Jim Cramer Says \u201cFor the First Time in Ages, I Like Having a Position in Moderna\u201d"
+        "US Stock Market Today: S&P 500 Futures Rise As Inflation Jitters Temporarily Ease"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "VRTX",
+      "rank_score": 0.6213,
+      "price": 529.469970703125,
+      "rsi": 75.02382972279868,
+      "momentum_5d": 0.009822175974531744,
+      "momentum_1d": 0.06836291009824014,
+      "macd_crossover": false,
+      "atr_pct": 0.011809296946445362,
+      "bollinger_pct_b": 0.7808,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.81,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Vertex signs agreement to acquire Crinetics for $10bn",
+        "Samsung, Micron, Rivian, SpaceX, Crinetics, and More Stocks That Explain Today\u2019s Market",
+        "Crinetics (CRNX) Stock Could Be Overvalued After Its 113% Run"
       ],
       "high_impact_news": true
     },
@@ -787,7 +789,7 @@
     },
     {
       "asset": "C",
-      "rank_score": 0.6138,
+      "rank_score": 0.6183,
       "price": 143.86000061035156,
       "rsi": 73.2957733576099,
       "momentum_5d": 0.0041882320712150695,
@@ -797,33 +799,12 @@
       "bollinger_pct_b": 0.9143,
       "volume_spike": true,
       "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.492,
-      "news_confidence": 0.59,
+      "news_sentiment": 0.508,
+      "news_confidence": 0.66,
       "news_headlines": [
-        "Citigroup (C) Joins London Precious Metals Clearing Limited As Bullion Reach Expands",
-        "Intel-Backed AI Chip and Software Maker Syntiant Files for IPO",
-        "Citigroup (C) Outperforms Broader Market: What You Need to Know"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GS",
-      "rank_score": 0.612,
-      "price": 1055.030029296875,
-      "rsi": 71.04892983230361,
-      "momentum_5d": 0.0023372157037978916,
-      "momentum_1d": 0.04186089235586273,
-      "macd_crossover": false,
-      "atr_pct": 0.009283740885607225,
-      "bollinger_pct_b": 0.8965,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.63,
-      "news_sentiment": 0.736,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Best CD rates today, Monday, July 6, 2026: Lock in up to 4.2% APY",
-        "College graduates could be AI's first workforce test: Chart of the Day",
-        "Amid Strong, Positive Catalysts and the Endorsement of Goldman Sachs, Amazon Stock Looks Very Attractive"
+        "Citi says SpaceX stock has path to $900+ valuation. Here\u2019s how",
+        "SpaceX Shares Win Early Bullish Calls From Wall Street Brokers",
+        "Citigroup (C) Joins London Precious Metals Clearing Limited As Bullion Reach Expands"
       ],
       "high_impact_news": true
     },
@@ -849,29 +830,29 @@
       "high_impact_news": true
     },
     {
-      "asset": "AAPL",
-      "rank_score": 0.584,
-      "price": 312.80999755859375,
-      "rsi": 88.79600923693242,
-      "momentum_5d": -0.002455478814476026,
-      "momentum_1d": 0.08452659398087496,
+      "asset": "GS",
+      "rank_score": 0.5955,
+      "price": 1055.030029296875,
+      "rsi": 71.04892983230361,
+      "momentum_5d": 0.0023372157037978916,
+      "momentum_1d": 0.04186089235586273,
       "macd_crossover": false,
-      "atr_pct": 0.00870442331578833,
-      "bollinger_pct_b": 0.7518,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.75,
-      "news_sentiment": 0.91,
-      "news_confidence": 0.67,
+      "atr_pct": 0.009283740885607225,
+      "bollinger_pct_b": 0.8965,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.63,
+      "news_sentiment": 0.409,
+      "news_confidence": 0.55,
       "news_headlines": [
-        "Apple's $2,500 foldable iPhone could sell out instantly",
-        "SpaceX Is in the Nasdaq-100, Now Brace for Volatility",
-        "Broadcom (AVGO) Extends Apple Deal Following A Fresh Look At Its Fair Value"
+        "Best CD rates today, Tuesday, July 7, 2026: Lock in up to 4.10% APY today",
+        "Best CD rates today, Monday, July 6, 2026: Lock in up to 4.2% APY",
+        "A Once-Great Copper Miner Faces a Reckoning Just as AI Power Demand Soars"
       ],
       "high_impact_news": true
     },
     {
       "asset": "JPM",
-      "rank_score": 0.5808,
+      "rank_score": 0.5663,
       "price": 337.8699951171875,
       "rsi": 69.71905456000457,
       "momentum_5d": 0.005460715208476464,
@@ -881,33 +862,33 @@
       "bollinger_pct_b": 0.9592,
       "volume_spike": true,
       "volume_spike_ratio": 1.52,
-      "news_sentiment": 0.649,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.409,
+      "news_confidence": 0.55,
       "news_headlines": [
-        "J.P. Morgan's stock price is flashing valuation warning",
-        "JPMorgan sends blunt verdict on oil, economy",
-        "JPMorgan Says Buy the AI Chip Dip But Morgan Stanley Pushes a Different Bet"
+        "Fiserv discusses potential sale of debit payments network with major US banks (FISV)",
+        "JPMorgan Chase & Co. (JPM)\u2019s Shares Are Flat Since Cramer Commented On Them",
+        "SpaceX Shares Win Early Bullish Calls From Wall Street Brokers"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "RIVN",
-      "rank_score": 0.5702,
-      "price": 20.114999771118164,
-      "rsi": 76.42511555175837,
-      "momentum_5d": 0.01182600479545166,
-      "momentum_1d": 0.16372577082375614,
+      "asset": "AAPL",
+      "rank_score": 0.554,
+      "price": 312.80999755859375,
+      "rsi": 88.79600923693242,
+      "momentum_5d": -0.002455478814476026,
+      "momentum_1d": 0.08452659398087496,
       "macd_crossover": false,
-      "atr_pct": 0.029524884807614754,
-      "bollinger_pct_b": 0.8476,
+      "atr_pct": 0.00870442331578833,
+      "bollinger_pct_b": 0.7518,
       "volume_spike": false,
-      "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.63,
-      "news_confidence": 0.54,
+      "volume_spike_ratio": 0.75,
+      "news_sentiment": 0.477,
+      "news_confidence": 0.65,
       "news_headlines": [
-        "S&P 500, Nasdaq, Dow Futures Mixed After Record Session: Why MU, SNDK, RIVN, SPCX Stocks Are Trending Overnight",
-        "RIVN Stock Slumps Overnight: Rivian Director, Foundation File Stock Sale Notices Amid $1.5B Offering Plan",
-        "RIVN Stock Drops After-Hours On Potential $1.5B Offering Despite Upbeat Q2 Guidance"
+        "Apple's $2,500 foldable iPhone could sell out instantly",
+        "US futures edge lower as investors assess Samsung results and Fed outlook: Dow Jones, S&P, Nasdaq, Wall Street",
+        "SpaceX Has Joined the Nasdaq-100, Now Brace for Volatility"
       ],
       "high_impact_news": true
     },
@@ -933,6 +914,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "RIVN",
+      "rank_score": 0.5532,
+      "price": 20.114999771118164,
+      "rsi": 76.42511555175837,
+      "momentum_5d": 0.01182600479545166,
+      "momentum_1d": 0.16372577082375614,
+      "macd_crossover": false,
+      "atr_pct": 0.029524884807614754,
+      "bollinger_pct_b": 0.8476,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.21,
+      "news_sentiment": 0.415,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Samsung, Micron, Rivian, SpaceX, Crinetics, and More Stocks That Explain Today\u2019s Market",
+        "Why Rivian Stock Is Reversing Sharply After a Run of Gains",
+        "Stocks to Watch: Samsung, SpaceX, Fiserv, Rivian"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.547,
       "price": 15.404999732971191,
@@ -950,27 +952,6 @@
         "DoorDash vs. Lyft: Which Stock Is a Better Buy in 2026?",
         "Why United Airlines is teaming up with Lyft on loyalty",
         "Lyft (LYFT) Ascends While Market Falls: Some Facts to Note"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMAT",
-      "rank_score": 0.5375,
-      "price": 593.280029296875,
-      "rsi": 25.73676828757489,
-      "momentum_5d": -0.009945866488598229,
-      "momentum_1d": -0.1904592402977619,
-      "macd_crossover": false,
-      "atr_pct": 0.02557171956773821,
-      "bollinger_pct_b": 0.2969,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.73,
-      "news_sentiment": 0.93,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "MTUM Owns the Winners, but July Could Turn Into a Momentum Bloodbath",
-        "AMD Feels Goldman\u2019s Love, and the Stock Jumps",
-        "The Second-Biggest Stock Sale in History Hits the Nasdaq Friday, and Chip Stocks Are Ripping"
       ],
       "high_impact_news": true
     },
@@ -996,23 +977,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MRVL",
-      "rank_score": 0.5274,
-      "price": 249.2899932861328,
-      "rsi": 31.90477803531344,
-      "momentum_5d": -0.027806020467318095,
-      "momentum_1d": -0.1523919428028069,
+      "asset": "AMAT",
+      "rank_score": 0.5325,
+      "price": 593.280029296875,
+      "rsi": 25.73676828757489,
+      "momentum_5d": -0.009945866488598229,
+      "momentum_1d": -0.1904592402977619,
       "macd_crossover": false,
-      "atr_pct": 0.029175654879152774,
-      "bollinger_pct_b": 0.3263,
+      "atr_pct": 0.02557171956773821,
+      "bollinger_pct_b": 0.2969,
       "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.532,
-      "news_confidence": 0.47,
+      "volume_spike_ratio": 0.73,
+      "news_sentiment": 0.889,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "Marvell Technology and NXP Semiconductors Shares Are Soaring, What You Need To Know",
-        "Marvell Technology (MRVL) Exceeds Market Returns: Some Facts to Consider",
-        "Marvell Is Quietly Chasing Broadcom\u2019s AI Jackpot, and Wall Street Is Finally Waking Up"
+        "\ud83d\udcc9Global AI Stocks Tumble",
+        "MTUM Owns the Winners, but July Could Turn Into a Momentum Bloodbath",
+        "AMD Feels Goldman\u2019s Love, and the Stock Jumps"
       ],
       "high_impact_news": true
     },
@@ -1032,8 +1013,8 @@
       "news_confidence": 0.38,
       "news_headlines": [
         "How Trump Accounts can turn $2K into $40K: Robinhood CEO & BNY CEO discuss",
-        "Why Robinhood (HOOD) Stock Is Up Today",
-        "Robinhood CEO Predicts That AI Agents Will Catch Up to Human Traders \u2018Soon\u2019"
+        "3 Internet Stocks on Our Watchlist",
+        "Zacks Investment Ideas feature highlights: Robinhood"
       ],
       "high_impact_news": true
     },
@@ -1055,6 +1036,27 @@
         "Can Alnylam's Drug Pipeline Fuel Its Long-Term Revenue Growth?",
         "Regeneron (REGN) Secures FDA Priority Review And EMA Acceptance For Cemdisiran",
         "Regeneron (REGN) Stock Looks Undervalued Even After A 20% Gain"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRVL",
+      "rank_score": 0.5225,
+      "price": 249.2899932861328,
+      "rsi": 31.90477803531344,
+      "momentum_5d": -0.027806020467318095,
+      "momentum_1d": -0.1523919428028069,
+      "macd_crossover": false,
+      "atr_pct": 0.029175654879152774,
+      "bollinger_pct_b": 0.3263,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.1,
+      "news_sentiment": 0.455,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Samsung, Micron, Rivian, SpaceX, Crinetics, and More Stocks That Explain Today\u2019s Market",
+        "Marvell Technology and NXP Semiconductors Shares Are Soaring, What You Need To Know",
+        "Marvell Technology (MRVL) Exceeds Market Returns: Some Facts to Consider"
       ],
       "high_impact_news": true
     }
