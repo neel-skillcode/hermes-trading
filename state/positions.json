@@ -497,37 +497,6 @@
     "price_trough": 9.680959701538086,
     "trailing_stop_price": 9.700322
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260707201154",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.07458999752998352,
-    "entry_time": "2026-07-07T20:11:54.232642+00:00",
-    "stop_loss_pct": 0.00762,
-    "take_profit_pct": 0.0177,
-    "size_usd": 2922.53,
-    "position_size_pct": 0.0292,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (40.5)",
-      "5d momentum -0.73%",
-      "1d momentum -2.92%",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge; fed hawkish"
-    ],
-    "news_sentiment": -0.2,
-    "news_headlines": [
-      "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
-      "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This",
-      "This is what $1,000 invested in Dogecoin after Musk's endorsement is worth today"
-    ],
-    "mode": "paper",
-    "strategy_version": "49",
-    "status": "open",
-    "price_trough": 0.07395000010728836,
-    "trailing_stop_price": 0.074513
-  },
   "USD/JPY": {
     "id": "USD/JPY_20260707214054",
     "asset": "USD/JPY",
@@ -551,6 +520,36 @@
     "news_headlines": [
       "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
       "How the US Dollar Got Its Mojo Back"
+    ],
+    "mode": "paper",
+    "strategy_version": "50",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260708042917",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.400000095367432,
+    "entry_time": "2026-07-08T04:29:17.408841+00:00",
+    "stop_loss_pct": 0.01178,
+    "take_profit_pct": 0.0294,
+    "size_usd": 2954.82,
+    "position_size_pct": 0.0295,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (22.4)",
+      "5d momentum -4.19%",
+      "1d momentum -5.33%",
+      "BB oversold (pct_b=-0.02)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.628,
+    "news_headlines": [
+      "Is the Saylor playbook cracking? Bitcoin's biggest buyer just became a seller",
+      "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+      "A New Era for Tokenization: Securitize Lists on the NYSE"
     ],
     "mode": "paper",
     "strategy_version": "50",
