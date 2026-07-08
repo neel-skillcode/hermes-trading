@@ -202,38 +202,6 @@
     "price_trough": 216.85499572753906,
     "trailing_stop_price": 218.676578
   },
-  "AMAT": {
-    "id": "AMAT_20260707160040",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 543.0250244140625,
-    "entry_time": "2026-07-07T16:00:40.743095+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 5994.36,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (31.5)",
-      "5d momentum -8.90%",
-      "1d momentum -24.98%",
-      "BB oversold (pct_b=0.07)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; price decline"
-    ],
-    "news_sentiment": 0.764,
-    "news_headlines": [
-      "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market",
-      "Texas Instruments Stock: Powering AI Beyond The GPU",
-      "Intel and Applied Materials Dive 10%, AMD Craters 8% as Samsung Earnings Trigger Chip Selloff"
-    ],
-    "mode": "paper",
-    "strategy_version": "49",
-    "status": "open",
-    "price_peak": 555.9099731445312,
-    "trailing_stop_price": 547.571324
-  },
   "LRCX": {
     "id": "LRCX_20260707160040",
     "asset": "LRCX",
@@ -263,8 +231,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 326.1300048828125,
-    "trailing_stop_price": 321.238055
+    "price_peak": 334.17999267578125,
+    "trailing_stop_price": 329.167293
   },
   "VLO": {
     "id": "VLO_20260707180911",
@@ -384,7 +352,9 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
-    "status": "open"
+    "status": "open",
+    "price_peak": 6.420000076293945,
+    "trailing_stop_price": 6.344372
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260708093225",
@@ -415,7 +385,9 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.07248000055551529,
+    "trailing_stop_price": 0.071752
   },
   "OXY": {
     "id": "OXY_20260708152529",
@@ -446,7 +418,9 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
-    "status": "open"
+    "status": "open",
+    "price_trough": 53.700199127197266,
+    "trailing_stop_price": 54.302715
   },
   "USO": {
     "id": "USO_20260708152529",
@@ -477,7 +451,9 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
-    "status": "open"
+    "status": "open",
+    "price_trough": 112.69000244140625,
+    "trailing_stop_price": 113.958892
   },
   "SLV": {
     "id": "SLV_20260708152529",
@@ -508,7 +484,9 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
-    "status": "open"
+    "status": "open",
+    "price_peak": 52.434600830078125,
+    "trailing_stop_price": 51.800142
   },
   "HAL": {
     "id": "HAL_20260708152529",
@@ -539,7 +517,9 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
-    "status": "open"
+    "status": "open",
+    "price_trough": 34.65999984741211,
+    "trailing_stop_price": 34.992389
   },
   "AMZN": {
     "id": "AMZN_20260708152529",
@@ -565,6 +545,68 @@
       "AI spending is becoming more capital market 'sensitive': Portfolio mgr.",
       "DeepSeek looks to reduce reliance on Nvidia with own AI chip",
       "Apollo Sounds the Alarm: AI Profits Are a No-Show Outside Tech, and AI-Heavy ETFs Could Pay the Price"
+    ],
+    "mode": "paper",
+    "strategy_version": "50",
+    "status": "open",
+    "price_peak": 242.14999389648438,
+    "trailing_stop_price": 236.633817
+  },
+  "AVGO": {
+    "id": "AVGO_20260708165642",
+    "asset": "AVGO",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 394.3699951171875,
+    "entry_time": "2026-07-08T16:56:42.491573+00:00",
+    "stop_loss_pct": 0.01402,
+    "take_profit_pct": 0.03361,
+    "size_usd": 5099.02,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (67.5)",
+      "5d momentum +7.11%",
+      "1d momentum +6.83%",
+      "BB overbought (pct_b=1.03)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.786,
+    "news_headlines": [
+      "Tech stocks live: Tech stocks buffeted by AI bubble concerns, dip-buying",
+      "Broadcom Stock Jumps After Apple Extends Multibillion-Dollar Chip Deal",
+      "Apple Expands Broadcom Deal Beyond $30 Billion, Shares Rise 5%"
+    ],
+    "mode": "paper",
+    "strategy_version": "50",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260708165642",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74.76000213623047,
+    "entry_time": "2026-07-08T16:56:42.493426+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 1027.78,
+    "position_size_pct": 0.0102,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (22.9)",
+      "5d momentum -5.40%",
+      "1d momentum -4.77%",
+      "BB oversold (pct_b=0.08)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.289,
+    "news_headlines": [
+      "Biopharma Sector Seen Shifting to Fundamentals From Macro in H2, Morgan Stanley Says",
+      "ABUS Stock Rallies Ahead Of Big Payout From Moderna Settlement This Week",
+      "Moderna, TG Therapeutics, Agios Pharmaceuticals Q2 Results May Face Increased Scrutiny, BofA Says"
     ],
     "mode": "paper",
     "strategy_version": "50",
