@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100230.04,
+  "portfolio_balance": 100172.81,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 1.89,
-  "unrealized_pnl_usd": 1587.03,
-  "equity_value": 101817.08,
+  "portfolio_drawdown_pct": 1.95,
+  "unrealized_pnl_usd": 1610.94,
+  "equity_value": 101783.74,
   "open_positions": 18,
   "day_trades_open": 9,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 40092.02,
+  "day_capital_used_usd": 40069.12,
   "swing_capital_used_usd": 46249.35,
-  "total_trades": 548,
-  "last_tick": "2026-07-08T07:05:04.952642+00:00",
+  "total_trades": 550,
+  "last_tick": "2026-07-08T09:32:25.465048+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8385,
-      "unrealized_pnl_pct": 0.000536,
-      "unrealized_pnl_usd": 0.72
+      "current_price": 7.8403,
+      "unrealized_pnl_pct": 0.000766,
+      "unrealized_pnl_usd": 1.03
     },
     {
       "id": "EUR/JPY_20260629153722",
@@ -72,9 +72,9 @@
       "status": "open",
       "price_trough": 184.09100341796875,
       "trailing_stop_price": 185.563731,
-      "current_price": 185.266006,
-      "unrealized_pnl_pct": -0.001763,
-      "unrealized_pnl_usd": -11.67
+      "current_price": 185.330002,
+      "unrealized_pnl_pct": -0.002109,
+      "unrealized_pnl_usd": -13.96
     },
     {
       "id": "ARM_20260630160723",
@@ -174,9 +174,9 @@
       "status": "open",
       "price_trough": 0.6916107535362244,
       "trailing_stop_price": 0.697144,
-      "current_price": 0.69377,
-      "unrealized_pnl_pct": -0.000763,
-      "unrealized_pnl_usd": -4.15
+      "current_price": 0.691706,
+      "unrealized_pnl_pct": 0.002213,
+      "unrealized_pnl_usd": 12.04
     },
     {
       "id": "USD/MXN_20260702144002",
@@ -200,11 +200,11 @@
       "mode": "paper",
       "strategy_version": "44",
       "status": "open",
-      "price_peak": 17.507099151611328,
-      "trailing_stop_price": 17.367042,
-      "current_price": 17.502001,
-      "unrealized_pnl_pct": 0.001528,
-      "unrealized_pnl_usd": 8.25
+      "price_peak": 17.593000411987305,
+      "trailing_stop_price": 17.452256,
+      "current_price": 17.591299,
+      "unrealized_pnl_pct": 0.006638,
+      "unrealized_pnl_usd": 35.84
     },
     {
       "id": "VRTX_20260702195300",
@@ -483,34 +483,6 @@
       "unrealized_pnl_usd": 12.83
     },
     {
-      "id": "USD/SEK_20260707201154",
-      "asset": "USD/SEK",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 9.690500259399414,
-      "entry_time": "2026-07-07T20:11:54.230931+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00462,
-      "size_usd": 3974.15,
-      "position_size_pct": 0.0397,
-      "confidence": 0.62,
-      "signals": [
-        "RSI overbought (81.9)",
-        "1d momentum +0.77%",
-        "BB overbought (pct_b=1.00)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "49",
-      "status": "open",
-      "price_trough": 9.680959701538086,
-      "trailing_stop_price": 9.700322,
-      "current_price": 9.68555,
-      "unrealized_pnl_pct": 0.000511,
-      "unrealized_pnl_usd": 2.03
-    },
-    {
       "id": "USD/JPY_20260707214054",
       "asset": "USD/JPY",
       "trade_type": "swing",
@@ -537,9 +509,9 @@
       "mode": "paper",
       "strategy_version": "50",
       "status": "open",
-      "current_price": 162.201996,
-      "unrealized_pnl_pct": -0.000512,
-      "unrealized_pnl_usd": -1.87
+      "current_price": 162.496994,
+      "unrealized_pnl_pct": -0.002332,
+      "unrealized_pnl_usd": -8.5
     },
     {
       "id": "AVAX-USD_20260708042917",
@@ -570,40 +542,75 @@
       "mode": "paper",
       "strategy_version": "50",
       "status": "open",
-      "current_price": 6.38,
-      "unrealized_pnl_pct": -0.003125,
-      "unrealized_pnl_usd": -9.23
+      "current_price": 6.36,
+      "unrealized_pnl_pct": -0.00625,
+      "unrealized_pnl_usd": -18.47
     },
     {
-      "id": "SOL-USD_20260708070504",
-      "asset": "SOL-USD",
+      "id": "XRP-USD_20260708093225",
+      "asset": "XRP-USD",
       "trade_type": "day",
       "direction": "long",
-      "entry_price": 78.01000213623047,
-      "entry_time": "2026-07-08T07:05:04.941521+00:00",
-      "stop_loss_pct": 0.00949,
-      "take_profit_pct": 0.02341,
-      "size_usd": 4914.79,
-      "position_size_pct": 0.049,
-      "confidence": 0.934,
+      "entry_price": 1.079300045967102,
+      "entry_time": "2026-07-08T09:32:25.457512+00:00",
+      "stop_loss_pct": 0.00846,
+      "take_profit_pct": 0.02094,
+      "size_usd": 6090.51,
+      "position_size_pct": 0.0608,
+      "confidence": 0.95,
       "signals": [
-        "RSI oversold (1.7)",
-        "5d momentum -1.27%",
-        "1d momentum -4.20%",
-        "BB oversold (pct_b=0.09)",
+        "RSI oversold (13.5)",
+        "5d momentum -1.35%",
+        "1d momentum -4.14%",
+        "BB oversold (pct_b=0.07)",
+        "Volume spike 2.7\u00d7",
         "High-impact catalyst",
-        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
       ],
-      "news_sentiment": 0.231,
+      "news_sentiment": -0.073,
       "news_headlines": [
         "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
-        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
-        "$BONK Falls 8% After Governance Attack Drains $20M From BonkDAO"
+        "What if You Invested $1,000 in Bitcoin and XRP 5 Years Ago?",
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level"
       ],
       "mode": "paper",
       "strategy_version": "50",
       "status": "open",
-      "current_price": 78.010002,
+      "current_price": 1.0793,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "DOGE-USD_20260708093225",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.07135000079870224,
+      "entry_time": "2026-07-08T09:32:25.458828+00:00",
+      "stop_loss_pct": 0.01005,
+      "take_profit_pct": 0.02487,
+      "size_usd": 2775.53,
+      "position_size_pct": 0.0277,
+      "confidence": 0.95,
+      "signals": [
+        "RSI oversold (19.4)",
+        "5d momentum -1.65%",
+        "1d momentum -4.71%",
+        "BB oversold (pct_b=0.07)",
+        "Volume spike 1.9\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.053,
+      "news_headlines": [
+        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
+        "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This"
+      ],
+      "mode": "paper",
+      "strategy_version": "50",
+      "status": "open",
+      "current_price": 0.07135,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -652,6 +659,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "RIVN",
+      "rank_score": 0.7276,
+      "price": 16.489900588989258,
+      "rsi": 30.98516090829007,
+      "momentum_5d": -0.04156346049914776,
+      "momentum_1d": -0.060136761625341505,
+      "macd_crossover": false,
+      "atr_pct": 0.03479400469270409,
+      "bollinger_pct_b": 0.0762,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.15,
+      "news_sentiment": -0.073,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Rivian stock down on 75 million share sale, preannounces Q2 revenue",
+        "US Stock Market Today: S&P 500 Futures Dip As Oil And Rate Jitters Build",
+        "New Share Sale Drags Rivian Automotive (RIVN) Down by 18%"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.717,
+      "price": 1.079300045967102,
+      "rsi": 13.494644834890138,
+      "momentum_5d": -0.013527056510062785,
+      "momentum_1d": -0.041389095764899256,
+      "macd_crossover": false,
+      "atr_pct": 0.008325502520442228,
+      "bollinger_pct_b": 0.0689,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.66,
+      "news_sentiment": -0.073,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
+        "What if You Invested $1,000 in Bitcoin and XRP 5 Years Ago?",
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BIIB",
       "rank_score": 0.7013,
       "price": 205.6999969482422,
@@ -673,25 +722,46 @@
       "high_impact_news": true
     },
     {
-      "asset": "RIVN",
-      "rank_score": 0.6536,
-      "price": 16.489900588989258,
-      "rsi": 30.98516090829007,
-      "momentum_5d": -0.04156346049914776,
-      "momentum_1d": -0.060136761625341505,
+      "asset": "DOGE-USD",
+      "rank_score": 0.6768,
+      "price": 0.07135000079870224,
+      "rsi": 19.444406118321012,
+      "momentum_5d": -0.016540289207820982,
+      "momentum_1d": -0.047142038539841356,
       "macd_crossover": false,
-      "atr_pct": 0.03479400469270409,
-      "bollinger_pct_b": 0.0762,
+      "atr_pct": 0.009890878718735849,
+      "bollinger_pct_b": 0.065,
       "volume_spike": true,
-      "volume_spike_ratio": 2.15,
-      "news_sentiment": 0.231,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 1.9,
+      "news_sentiment": 0.053,
+      "news_confidence": 0.38,
       "news_headlines": [
-        "Rivian stock down on 75 million share sale, preannounces Q2 revenue",
-        "New Share Sale Drags Rivian Automotive (RIVN) Down by 18%",
-        "RIVN Stock Sees Worst Day In Over 2 Years After $1.2B Offering \u2014 Now R2 Buyers Say Deliveries Have Stalled"
+        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
+        "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This"
       ],
-      "high_impact_news": false
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.6608,
+      "price": 61984.0,
+      "rsi": 21.592465345030803,
+      "momentum_5d": -0.012178208163349412,
+      "momentum_1d": -0.019052674123840218,
+      "macd_crossover": false,
+      "atr_pct": 0.007241266035244119,
+      "bollinger_pct_b": 0.0074,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.87,
+      "news_sentiment": 0.66,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Could Trump Accounts someday include bitcoin, crypto?",
+        "Bitcoin's best week since March as massive spot ETF inflows return",
+        "Bitcoin and ethereum prices today, Tuesday, July 7, 2026: Another strong opening for BTC and ETH prices"
+      ],
+      "high_impact_news": true
     },
     {
       "asset": "XOM",
@@ -732,6 +802,69 @@
         "USO, UCO, XLE Rise On Renewed Iran Tensions: Analyst Says US Attack On Iran 'Destroys The MOU'",
         "Sector Update: Energy Stocks Higher Late Afternoon",
         "Sector Update: Energy"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6303,
+      "price": 77.26000213623047,
+      "rsi": 4.524984508206771,
+      "momentum_5d": -0.01667299941048677,
+      "momentum_1d": -0.04887358188646752,
+      "macd_crossover": false,
+      "atr_pct": 0.009439375791910096,
+      "bollinger_pct_b": 0.0956,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.94,
+      "news_sentiment": 0.231,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
+        "$BONK Falls 8% After Governance Attack Drains $20M From BonkDAO"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6153,
+      "price": 1737.02001953125,
+      "rsi": 24.983248087951324,
+      "momentum_5d": -0.010245003116096866,
+      "momentum_1d": -0.022080333129956116,
+      "macd_crossover": false,
+      "atr_pct": 0.008609145744952426,
+      "bollinger_pct_b": 0.1095,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.51,
+      "news_sentiment": 0.459,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Tuesday, July 7, 2026: Another strong opening for BTC and ETH prices",
+        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
+        "Crypto Market Slips 1.24% as US Strikes on Iran Lift Oil"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.6151,
+      "price": 562.0499877929688,
+      "rsi": 17.28041189579652,
+      "momentum_5d": -0.012179677517075427,
+      "momentum_1d": -0.02692172515622824,
+      "macd_crossover": false,
+      "atr_pct": 0.006386053611932128,
+      "bollinger_pct_b": 0.0791,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.81,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
+        "Crypto News Today (July 7): BTC Heading Toward $70K? $20M BONK Hack, and Ripple Gains Full MiCA Compliance",
+        "Michael Saylor's Strategy's Situation Feels 'Eerily Similar' to FTX Collapse, Says Crypto Analyst: 'Rumors Create Doubt, Doubt Creates Selling\u2026'"
       ],
       "high_impact_news": true
     },
@@ -778,23 +911,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.5891,
-      "price": 78.01000213623047,
-      "rsi": 1.670184045171112,
-      "momentum_5d": -0.012656625401373639,
-      "momentum_1d": -0.0419992405271787,
+      "asset": "AVAX-USD",
+      "rank_score": 0.57,
+      "price": 6.360000133514404,
+      "rsi": 15.517256971477764,
+      "momentum_5d": -0.0062499939464033556,
+      "momentum_1d": -0.061946911990702944,
       "macd_crossover": false,
-      "atr_pct": 0.009412725251870117,
-      "bollinger_pct_b": 0.0949,
+      "atr_pct": 0.011118590223473928,
+      "bollinger_pct_b": 0.1646,
       "volume_spike": false,
-      "volume_spike_ratio": 0.14,
-      "news_sentiment": 0.231,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 0.97,
+      "news_sentiment": 0.628,
+      "news_confidence": 0.43,
       "news_headlines": [
-        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
-        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
-        "$BONK Falls 8% After Governance Attack Drains $20M From BonkDAO"
+        "Is the Saylor playbook cracking? Bitcoin's biggest buyer just became a seller",
+        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
+        "A New Era for Tokenization: Securitize Lists on the NYSE"
       ],
       "high_impact_news": true
     },
@@ -883,48 +1016,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5485,
-      "price": 0.07195000350475311,
-      "rsi": 16.141678583214173,
-      "momentum_5d": -0.012489692307188879,
-      "momentum_1d": -0.0396422209652102,
-      "macd_crossover": false,
-      "atr_pct": 0.009202816465780837,
-      "bollinger_pct_b": 0.0582,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.053,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
-        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
-        "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5477,
-      "price": 6.380000114440918,
-      "rsi": 11.111169979796259,
-      "momentum_5d": -0.0031249969732016778,
-      "momentum_1d": -0.0562130327773337,
-      "macd_crossover": false,
-      "atr_pct": 0.010635913482137986,
-      "bollinger_pct_b": 0.1208,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.628,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Is the Saylor playbook cracking? Bitcoin's biggest buyer just became a seller",
-        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
-        "A New Era for Tokenization: Securitize Lists on the NYSE"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AMAT",
       "rank_score": 0.5464,
       "price": 554.2999877929688,
@@ -940,92 +1031,8 @@
       "news_confidence": 0.49,
       "news_headlines": [
         "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market",
-        "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know",
-        "\ud83d\udcc9 Which Tech Stocks Fell the Most Today?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HAL",
-      "rank_score": 0.5291,
-      "price": 33.78499984741211,
-      "rsi": 65.05374065298209,
-      "momentum_5d": 0.006254626349985258,
-      "momentum_1d": 0.010014920084660048,
-      "macd_crossover": false,
-      "atr_pct": 0.00957926225420793,
-      "bollinger_pct_b": 0.876,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.26,
-      "news_sentiment": 0.561,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Liberty Energy Stock Surges 96% in a Year: Is There More Upside Ahead?",
-        "1 Energy Stock to Keep an Eye On and 2 We Turn Down",
-        "Halliburton Stock Offers an Unusual Contrarian Opportunity for Daredevils"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "KLAC",
-      "rank_score": 0.5264,
-      "price": 216.52000427246094,
-      "rsi": 32.24012456672568,
-      "momentum_5d": 0.012769591992429346,
-      "momentum_1d": -0.19750933534091894,
-      "macd_crossover": false,
-      "atr_pct": 0.027878211984145414,
-      "bollinger_pct_b": 0.1934,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.48,
-      "news_sentiment": 0.528,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "\ud83d\udcc9 Which Tech Stocks Fell the Most Today?",
-        "FormFactor, Penguin Solutions, Western Digital, Applied Materials, and KLA Corporation Shares Plummet, What You Need To Know",
-        "AMAT Stock Rises 284% From Its 52-Week Low: Should You Buy Now?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LRCX",
-      "rank_score": 0.5179,
-      "price": 326.1199951171875,
-      "rsi": 34.38596241292397,
-      "momentum_5d": 0.01861566525145403,
-      "momentum_1d": -0.1533992569041062,
-      "macd_crossover": false,
-      "atr_pct": 0.02606705381122158,
-      "bollinger_pct_b": 0.2268,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.36,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market",
-        "Lam Research (LRCX) Dips More Than Broader Market: What You Should Know",
-        "Intel, Micron, SpaceX, GE Vernova, Caterpillar, and More Stocks That Explain Today\u2019s Market"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.5165,
-      "price": 1.0892000198364258,
-      "rsi": 13.675081307108556,
-      "momentum_5d": -0.009548017160414493,
-      "momentum_1d": -0.03259615358145608,
-      "macd_crossover": false,
-      "atr_pct": 0.008059651049067995,
-      "bollinger_pct_b": 0.106,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.03,
-      "news_sentiment": -0.073,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
-        "What if You Invested $1,000 in Bitcoin and XRP 5 Years Ago?",
-        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level"
+        "1 High-Flying Stock to Target This Week and 2 We Ignore",
+        "Applied Materials (AMAT) Dips More Than Broader Market: What You Should Know"
       ],
       "high_impact_news": true
     }

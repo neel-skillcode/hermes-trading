@@ -167,8 +167,8 @@
     "mode": "paper",
     "strategy_version": "44",
     "status": "open",
-    "price_peak": 17.507099151611328,
-    "trailing_stop_price": 17.367042
+    "price_peak": 17.593000411987305,
+    "trailing_stop_price": 17.452256
   },
   "VRTX": {
     "id": "VRTX_20260702195300",
@@ -422,31 +422,6 @@
     "price_peak": 352.20001220703125,
     "trailing_stop_price": 341.493132
   },
-  "USD/SEK": {
-    "id": "USD/SEK_20260707201154",
-    "asset": "USD/SEK",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.690500259399414,
-    "entry_time": "2026-07-07T20:11:54.230931+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 3974.15,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI overbought (81.9)",
-      "1d momentum +0.77%",
-      "BB overbought (pct_b=1.00)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "49",
-    "status": "open",
-    "price_trough": 9.680959701538086,
-    "trailing_stop_price": 9.700322
-  },
   "USD/JPY": {
     "id": "USD/JPY_20260707214054",
     "asset": "USD/JPY",
@@ -505,31 +480,63 @@
     "strategy_version": "50",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260708070504",
-    "asset": "SOL-USD",
+  "XRP-USD": {
+    "id": "XRP-USD_20260708093225",
+    "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 78.01000213623047,
-    "entry_time": "2026-07-08T07:05:04.941521+00:00",
-    "stop_loss_pct": 0.00949,
-    "take_profit_pct": 0.02341,
-    "size_usd": 4914.79,
-    "position_size_pct": 0.049,
-    "confidence": 0.934,
+    "entry_price": 1.079300045967102,
+    "entry_time": "2026-07-08T09:32:25.457512+00:00",
+    "stop_loss_pct": 0.00846,
+    "take_profit_pct": 0.02094,
+    "size_usd": 6090.51,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
     "signals": [
-      "RSI oversold (1.7)",
-      "5d momentum -1.27%",
-      "1d momentum -4.20%",
-      "BB oversold (pct_b=0.09)",
+      "RSI oversold (13.5)",
+      "5d momentum -1.35%",
+      "1d momentum -4.14%",
+      "BB oversold (pct_b=0.07)",
+      "Volume spike 2.7\u00d7",
       "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.231,
+    "news_sentiment": -0.073,
+    "news_headlines": [
+      "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
+      "What if You Invested $1,000 in Bitcoin and XRP 5 Years Ago?",
+      "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level"
+    ],
+    "mode": "paper",
+    "strategy_version": "50",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260708093225",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.07135000079870224,
+    "entry_time": "2026-07-08T09:32:25.458828+00:00",
+    "stop_loss_pct": 0.01005,
+    "take_profit_pct": 0.02487,
+    "size_usd": 2775.53,
+    "position_size_pct": 0.0277,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (19.4)",
+      "5d momentum -1.65%",
+      "1d momentum -4.71%",
+      "BB oversold (pct_b=0.07)",
+      "Volume spike 1.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.053,
     "news_headlines": [
       "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
       "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
-      "$BONK Falls 8% After Governance Attack Drains $20M From BonkDAO"
+      "Bitcoin, Ethereum, XRP Flat, Dogecoin Falls Amid Strategic Bitcoin Reserve Push: Analyst Says 'a Lot of' Upside to Come If BTC Does This"
     ],
     "mode": "paper",
     "strategy_version": "50",
