@@ -23,35 +23,6 @@
     "price_peak": 7.844130039215088,
     "trailing_stop_price": 7.781377
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260629153722",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 184.94000244140625,
-    "entry_time": "2026-06-29T15:37:22.024433+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02674,
-    "size_usd": 6620.31,
-    "position_size_pct": 0.0657,
-    "confidence": 0.684,
-    "signals": [
-      "RSI overbought (77.2)",
-      "BB overbought (pct_b=0.98)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-    ],
-    "mode": "paper",
-    "strategy_version": "40",
-    "status": "open",
-    "price_trough": 184.09100341796875,
-    "trailing_stop_price": 185.563731
-  },
   "ARM": {
     "id": "ARM_20260630160723",
     "asset": "ARM",
@@ -231,8 +202,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 334.17999267578125,
-    "trailing_stop_price": 329.167293
+    "price_peak": 335.2799987792969,
+    "trailing_stop_price": 330.250799
   },
   "VLO": {
     "id": "VLO_20260707180911",
@@ -353,8 +324,8 @@
     "mode": "paper",
     "strategy_version": "50",
     "status": "open",
-    "price_peak": 6.420000076293945,
-    "trailing_stop_price": 6.344372
+    "price_peak": 6.449999809265137,
+    "trailing_stop_price": 6.374019
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260708093225",
@@ -386,8 +357,8 @@
     "mode": "paper",
     "strategy_version": "50",
     "status": "open",
-    "price_peak": 0.07248000055551529,
-    "trailing_stop_price": 0.071752
+    "price_peak": 0.07270000129938126,
+    "trailing_stop_price": 0.071969
   },
   "OXY": {
     "id": "OXY_20260708152529",
@@ -452,8 +423,8 @@
     "mode": "paper",
     "strategy_version": "50",
     "status": "open",
-    "price_trough": 112.69000244140625,
-    "trailing_stop_price": 113.958892
+    "price_trough": 111.62000274658203,
+    "trailing_stop_price": 112.876844
   },
   "SLV": {
     "id": "SLV_20260708152529",
@@ -485,8 +456,8 @@
     "mode": "paper",
     "strategy_version": "50",
     "status": "open",
-    "price_peak": 52.434600830078125,
-    "trailing_stop_price": 51.800142
+    "price_peak": 52.814998626708984,
+    "trailing_stop_price": 52.175937
   },
   "HAL": {
     "id": "HAL_20260708152529",
@@ -580,7 +551,9 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
-    "status": "open"
+    "status": "open",
+    "price_trough": 389.8800048828125,
+    "trailing_stop_price": 395.346123
   },
   "MRNA": {
     "id": "MRNA_20260708165642",
@@ -610,6 +583,37 @@
     ],
     "mode": "paper",
     "strategy_version": "50",
+    "status": "open",
+    "price_peak": 74.7699966430664,
+    "trailing_stop_price": 73.648447
+  },
+  "BAC": {
+    "id": "BAC_20260708181556",
+    "asset": "BAC",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 58.53499984741211,
+    "entry_time": "2026-07-08T18:15:56.598842+00:00",
+    "stop_loss_pct": 0.01766,
+    "take_profit_pct": 0.0592,
+    "size_usd": 6773.03,
+    "position_size_pct": 0.0675,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (30.0)",
+      "5d momentum -2.20%",
+      "BB oversold (pct_b=0.10)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.547,
+    "news_headlines": [
+      "Warner Music Group set for market share normalization as AI focus continues, says BofA",
+      "BofA extends first $520 million loan to OpenAI ahead of IPO, source says",
+      "Nvidia backed by Bank of America as analysts see AI leadership supporting further growth"
+    ],
+    "mode": "paper",
+    "strategy_version": "51",
     "status": "open"
   }
 }
