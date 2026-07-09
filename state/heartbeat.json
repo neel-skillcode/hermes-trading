@@ -3,16 +3,16 @@
   "portfolio_balance": 100963.16,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 1.18,
-  "unrealized_pnl_usd": 1774.7,
-  "equity_value": 102737.86,
+  "unrealized_pnl_usd": 1834.94,
+  "equity_value": 102798.1,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40385.26,
   "swing_capital_used_usd": 50158.6,
   "total_trades": 566,
-  "last_tick": "2026-07-09T08:44:16.463236+00:00",
-  "last_reflection": "2026-07-09",
+  "last_tick": "2026-07-09T11:38:07.684077+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83824,
-      "unrealized_pnl_pct": 0.000503,
-      "unrealized_pnl_usd": 0.68
+      "current_price": 7.83576,
+      "unrealized_pnl_pct": 0.000186,
+      "unrealized_pnl_usd": 0.25
     },
     {
       "id": "ARM_20260630160723",
@@ -142,9 +142,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.694059,
-      "unrealized_pnl_pct": -0.00118,
-      "unrealized_pnl_usd": -6.42
+      "current_price": 0.693337,
+      "unrealized_pnl_pct": -0.000139,
+      "unrealized_pnl_usd": -0.75
     },
     {
       "id": "USD/MXN_20260702144002",
@@ -170,9 +170,9 @@
       "status": "open",
       "price_peak": 17.63960075378418,
       "trailing_stop_price": 17.498484,
-      "current_price": 17.533001,
-      "unrealized_pnl_pct": 0.003302,
-      "unrealized_pnl_usd": 17.83
+      "current_price": 17.556999,
+      "unrealized_pnl_pct": 0.004675,
+      "unrealized_pnl_usd": 25.24
     },
     {
       "id": "VLO_20260707180911",
@@ -269,9 +269,9 @@
       "mode": "paper",
       "strategy_version": "50",
       "status": "open",
-      "current_price": 162.354004,
-      "unrealized_pnl_pct": -0.00145,
-      "unrealized_pnl_usd": -5.28
+      "current_price": 162.472,
+      "unrealized_pnl_pct": -0.002177,
+      "unrealized_pnl_usd": -7.93
     },
     {
       "id": "DOGE-USD_20260708093225",
@@ -305,9 +305,9 @@
       "status": "open",
       "price_peak": 0.07283999770879745,
       "trailing_stop_price": 0.072108,
-      "current_price": 0.07284,
-      "unrealized_pnl_pct": 0.020883,
-      "unrealized_pnl_usd": 57.96
+      "current_price": 0.07221,
+      "unrealized_pnl_pct": 0.012053,
+      "unrealized_pnl_usd": 33.45
     },
     {
       "id": "AMZN_20260708152529",
@@ -607,9 +607,11 @@
       "mode": "paper",
       "strategy_version": "51",
       "status": "open",
-      "current_price": 6.75,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 6.690000057220459,
+      "trailing_stop_price": 6.75128,
+      "current_price": 6.69,
+      "unrealized_pnl_pct": 0.008889,
+      "unrealized_pnl_usd": 45.6
     },
     {
       "id": "ETH-USD_20260709084415",
@@ -641,9 +643,11 @@
       "mode": "paper",
       "strategy_version": "51",
       "status": "open",
-      "current_price": 1755.790039,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1741.0899658203125,
+      "trailing_stop_price": 1751.81508,
+      "current_price": 1741.089966,
+      "unrealized_pnl_pct": 0.008372,
+      "unrealized_pnl_usd": 29.14
     }
   ],
   "last_candidates": [
@@ -669,27 +673,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6907,
-      "price": 6.75,
-      "rsi": 73.01590064819665,
-      "momentum_5d": 0.04489163469667916,
-      "momentum_1d": 0.0629921419487922,
-      "macd_crossover": false,
-      "atr_pct": 0.009735440451001364,
-      "bollinger_pct_b": 1.0444,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.86,
-      "news_sentiment": 0.628,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Is the Saylor playbook cracking? Bitcoin's biggest buyer just became a seller",
-        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
-        "A New Era for Tokenization: Securitize Lists on the NYSE"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SMCI",
       "rank_score": 0.6848,
       "price": 28.174999237060547,
@@ -707,27 +690,6 @@
         "Why Super Micro Computer Fell Over 36% in June",
         "Super Micro Computer (SMCI) Launches Kubernetes Edge AI Appliances With Red Hat And Everpure",
         "Supermicro Shares Gain Following Launch of Kubernetes Edge AI Appliance (SMCI)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "INTC",
-      "rank_score": 0.6829,
-      "price": 110.33999633789062,
-      "rsi": 30.359734843000084,
-      "momentum_5d": 0.052862529816881436,
-      "momentum_1d": -0.07919557162774464,
-      "macd_crossover": true,
-      "atr_pct": 0.027314849332145945,
-      "bollinger_pct_b": 0.3898,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.525,
-      "news_confidence": 0.59,
-      "news_headlines": [
-        "AI memory stocks trim losses as investors buy the dip",
-        "Nvidia's valuation just hit a multiyear low \u2014 even as revenue sets records",
-        "Is This The Big Tech Resurgence Investors Have Been Waiting For? AI Chip Stocks Step Back, Mag 7 Steps Up In July"
       ],
       "high_impact_news": true
     },
@@ -753,8 +715,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "INTC",
+      "rank_score": 0.6769,
+      "price": 110.33999633789062,
+      "rsi": 30.359734843000084,
+      "momentum_5d": 0.052862529816881436,
+      "momentum_1d": -0.07919557162774464,
+      "macd_crossover": true,
+      "atr_pct": 0.027314849332145945,
+      "bollinger_pct_b": 0.3898,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.82,
+      "news_sentiment": 0.61,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "AI memory stocks trim losses as investors buy the dip",
+        "Nvidia's valuation just hit a multiyear low \u2014 even as revenue sets records",
+        "Ultra Clean Holdings (UCTT) Appoints Michael Keogh As CFO For Its Next AI Push"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AXP",
-      "rank_score": 0.6629,
+      "rank_score": 0.6729,
       "price": 336.3500061035156,
       "rsi": 11.76569779713762,
       "momentum_5d": -0.0061166811715784525,
@@ -764,18 +747,18 @@
       "bollinger_pct_b": 0.1386,
       "volume_spike": true,
       "volume_spike_ratio": 1.84,
-      "news_sentiment": 0.355,
+      "news_sentiment": 0.555,
       "news_confidence": 0.5,
       "news_headlines": [
         "3 Market-Beating Stocks for Long-Term Investors",
-        "Zacks Investment Ideas feature highlights: Delta Air Lines, American Express, United Airlines and American Airlines",
-        "American Express (AXP) Sees a More Significant Dip Than Broader Market: Some Facts to Know"
+        "The Zacks Analyst Blog Highlights Amazon.com, Walmart, American Express, Vitamin Cottage and Ampco-Pittsburgh",
+        "Zacks Investment Ideas feature highlights: Delta Air Lines, American Express, United Airlines and American Airlines"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MPC",
-      "rank_score": 0.6586,
+      "rank_score": 0.6536,
       "price": 280.6099853515625,
       "rsi": 67.13654492493839,
       "momentum_5d": 0.003612228991414803,
@@ -785,18 +768,18 @@
       "bollinger_pct_b": 0.9221,
       "volume_spike": true,
       "volume_spike_ratio": 2.2,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.556,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "Stock Market News for July 9, 2026",
         "Marathon Petroleum (MPC) Joins Russell Growth Indexes, Is The Upside Already Priced In?",
-        "Marathon Petroleum (MPC) Joins Russell Growth Indices: What Does This Mean for Its Investment Narrative?",
-        "CVX Handed Shareholders $115 Bil In Five Years"
+        "Marathon Petroleum (MPC) Joins Russell Growth Indices: What Does This Mean for Its Investment Narrative?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "BIIB",
-      "rank_score": 0.6515,
+      "rank_score": 0.6535,
       "price": 200.2899932861328,
       "rsi": 29.71031356252361,
       "momentum_5d": -9.986657033973526e-05,
@@ -806,12 +789,12 @@
       "bollinger_pct_b": 0.1272,
       "volume_spike": true,
       "volume_spike_ratio": 2.68,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.826,
+      "news_confidence": 0.46,
       "news_headlines": [
+        "Will New Board Appointment And mRNA Flu Progress Change Moderna's (MRNA) Pipeline Diversification Narrative?",
         "Biopharma Sector Seen Shifting to Fundamentals From Macro in H2, Morgan Stanley Says",
-        "IONS Completes Enrollment in Pivotal Cohort of Angelman Syndrome Study",
-        "Why Biogen (BIIB) is Poised to Beat Earnings Estimates Again"
+        "IONS Completes Enrollment in Pivotal Cohort of Angelman Syndrome Study"
       ],
       "high_impact_news": true
     },
@@ -837,50 +820,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.616,
-      "price": 62973.51953125,
-      "rsi": 68.34451920404881,
-      "momentum_5d": 0.017044744813023042,
-      "momentum_1d": 0.01635828329156619,
-      "macd_crossover": false,
-      "atr_pct": 0.005407078923222645,
-      "bollinger_pct_b": 1.014,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.02,
-      "news_sentiment": 0.209,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Nvidia's $1 trillion rout: Do you buy or sell the stock here?",
-        "Trump declares Iran ceasefire over; bitcoin and crypto markets drop",
-        "Bitcoin Still Faces No Spam Issues, Argues Michael Saylor, Highlighting Low Transaction Fees \u2014 Critics Say 'Nobody is Using the Chain'"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NVDA",
-      "rank_score": 0.6038,
-      "price": 204.14999389648438,
-      "rsi": 69.64509067621053,
-      "momentum_5d": 0.03845565745675046,
-      "momentum_1d": 0.05749800916475817,
-      "macd_crossover": false,
-      "atr_pct": 0.013762087042358305,
-      "bollinger_pct_b": 0.9918,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.02,
-      "news_sentiment": 0.447,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "China warned that Anthropic's Claude Code puts your data at risk. Is that true?",
-        "Nvidia's valuation just hit a multiyear low \u2014 even as revenue sets records",
-        "Some Good and Bad News for Tesla Investors"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VLO",
-      "rank_score": 0.5996,
+      "rank_score": 0.5965,
       "price": 282.79998779296875,
       "rsi": 65.81606999390272,
       "momentum_5d": 0.003708835307436257,
@@ -890,39 +831,39 @@
       "bollinger_pct_b": 0.9065,
       "volume_spike": true,
       "volume_spike_ratio": 1.87,
-      "news_sentiment": 0.286,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "Dow Jones Futures, Oil Prices Rise Amid Iran News; Nvidia, Valero, Dell, SpaceX In Focus",
-        "Micron, Broadcom, Palantir, Delta, SpaceX, and More Stocks That Explain Today\u2019s Market",
-        "CVX Handed Shareholders $115 Bil In Five Years"
+        "Dow Jones Futures Fall, Techs Rise Amid Iran News; Nvidia, Valero, Dell, SpaceX In Focus",
+        "Iran war windfall puts Big Oil on collision course with Trump",
+        "Micron, Broadcom, Palantir, Delta, SpaceX, and More Stocks That Explain Today\u2019s Market"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5921,
-      "price": 1755.7900390625,
-      "rsi": 64.86198525938863,
-      "momentum_5d": 0.015471012466839157,
-      "momentum_1d": 0.012794142799333011,
+      "asset": "NVDA",
+      "rank_score": 0.5908,
+      "price": 204.14999389648438,
+      "rsi": 69.64509067621053,
+      "momentum_5d": 0.03845565745675046,
+      "momentum_1d": 0.05749800916475817,
       "macd_crossover": false,
-      "atr_pct": 0.006066871145316957,
-      "bollinger_pct_b": 1.0023,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.21,
-      "news_sentiment": 0.486,
-      "news_confidence": 0.35,
+      "atr_pct": 0.013762087042358305,
+      "bollinger_pct_b": 0.9918,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.02,
+      "news_sentiment": -0.154,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "Bitcoin and ethereum prices today, Wednesday, July 8, 2026: Crypto prices down following U.S.-Iran strikes",
-        "Crypto User Loses $999,999 in USDT to One Phishing Signature: How to Stay Safe",
-        "Bitcoin & XRP Bounce as Trump Says Iran Wants to \u201cMake Deal So Badly\u201d After Strikes"
+        "China warned that Anthropic's Claude Code puts your data at risk. Is that true?",
+        "Nvidia's valuation just hit a multiyear low \u2014 even as revenue sets records",
+        "Why ServiceNow Stock Plunged 36% in the First Half of the Year"
       ],
       "high_impact_news": true
     },
     {
       "asset": "TGT",
-      "rank_score": 0.5747,
+      "rank_score": 0.572,
       "price": 132.42999267578125,
       "rsi": 83.42633063891329,
       "momentum_5d": 0.0007126919705177745,
@@ -932,12 +873,12 @@
       "bollinger_pct_b": 0.8061,
       "volume_spike": true,
       "volume_spike_ratio": 1.87,
-      "news_sentiment": 0.875,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.787,
+      "news_confidence": 0.5,
       "news_headlines": [
         "Gotta collect 'em all: Trading card market could be worth up to $20 billion",
-        "Target (TGT) Is Making More Money From Ads Memberships And Marketplace Fees",
-        "Target (TGT) Expands Back To School Range, Is It Still 17% Below Fair Value?"
+        "Is Target\u2019s Expanded Classroom-Focused Assortment Quietly Reframing Its Back\u2011to\u2011School Strategy For TGT?",
+        "Target (TGT) Stock May Be Fully Priced Despite Strong Store Traffic"
       ],
       "high_impact_news": true
     },
@@ -963,23 +904,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5679,
-      "price": 572.5800170898438,
-      "rsi": 68.89994547437296,
-      "momentum_5d": 0.008773857854319528,
-      "momentum_1d": 0.020514391458058903,
+      "asset": "MRNA",
+      "rank_score": 0.5614,
+      "price": 73.77999877929688,
+      "rsi": 19.14534230969143,
+      "momentum_5d": -0.004184067673319793,
+      "momentum_1d": -0.05760636203206373,
       "macd_crossover": false,
-      "atr_pct": 0.004686806859535984,
-      "bollinger_pct_b": 0.8829,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.31,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.32,
+      "atr_pct": 0.024174172612638826,
+      "bollinger_pct_b": 0.1344,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.684,
+      "news_confidence": 0.38,
       "news_headlines": [
-        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level",
-        "Crypto News Today (July 7): BTC Heading Toward $70K? $20M BONK Hack, and Ripple Gains Full MiCA Compliance",
-        "Michael Saylor's Strategy's Situation Feels 'Eerily Similar' to FTX Collapse, Says Crypto Analyst: 'Rumors Create Doubt, Doubt Creates Selling\u2026'"
+        "RBC Capital Raises its Price Target on Moderna (MRNA)",
+        "Will New Board Appointment And mRNA Flu Progress Change Moderna's (MRNA) Pipeline Diversification Narrative?",
+        "Update: Dow Logs Worst Day in 4 Weeks Amid Renewed US-Iran Tensions"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "OXY",
+      "rank_score": 0.5606,
+      "price": 53.564998626708984,
+      "rsi": 80.56626375892304,
+      "momentum_5d": -0.016614697516293877,
+      "momentum_1d": 0.10477463034769645,
+      "macd_crossover": false,
+      "atr_pct": 0.013889530258865605,
+      "bollinger_pct_b": 0.7871,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.25,
+      "news_sentiment": 0.347,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "2 of Wall Street\u2019s Favorite Stocks to Target This Week and 1 We Find Risky",
+        "Why Occidental Petroleum Stock Crushed It on Wednesday",
+        "Micron, Broadcom, Palantir, Delta, SpaceX, and More Stocks That Explain Today\u2019s Market"
       ],
       "high_impact_news": true
     },
@@ -995,33 +957,12 @@
       "bollinger_pct_b": 0.3258,
       "volume_spike": false,
       "volume_spike_ratio": 1.17,
-      "news_sentiment": -0.073,
-      "news_confidence": 0.41,
+      "news_sentiment": -0.081,
+      "news_confidence": 0.37,
       "news_headlines": [
+        "Rivian Raises $1.32 Billion Through Share Sale to Support DOE Financing (RIVN)",
         "Tesla\u2019s Model Y just got a sharper Rivian threat",
-        "Stocks to Watch Wednesday Recap: Broadcom, Alibaba, Chevron, Levi Strauss",
-        "Stocks making big moves yesterday: Carlisle, Rivian, Blink Charging, Genpact, and Eli Lilly"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5566,
-      "price": 0.07283999770879745,
-      "rsi": 60.26788981060783,
-      "momentum_5d": 0.008864230196109187,
-      "momentum_1d": 0.0224592542454138,
-      "macd_crossover": false,
-      "atr_pct": 0.0064034694094023585,
-      "bollinger_pct_b": 0.8744,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.84,
-      "news_sentiment": 0.273,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags Major 'Wall' BTC Bulls Must Break",
-        "Bitcoin Flat, Ethereum, XRP, Dogecoin Dip as US Strikes Iran: Analyst Spots Dollar-Cost Averaging 'Opportunity' in BTC",
-        "Top Cryptocurrencies Lower; Bitcoin Holds Above $63,000 Level"
+        "Stocks to Watch Wednesday Recap: Broadcom, Alibaba, Chevron, Levi Strauss"
       ],
       "high_impact_news": true
     },
@@ -1047,23 +988,86 @@
       "high_impact_news": true
     },
     {
-      "asset": "OXY",
-      "rank_score": 0.5556,
-      "price": 53.564998626708984,
-      "rsi": 80.56626375892304,
-      "momentum_5d": -0.016614697516293877,
-      "momentum_1d": 0.10477463034769645,
+      "asset": "XLF",
+      "rank_score": 0.55,
+      "price": 54.970001220703125,
+      "rsi": 22.55805453435721,
+      "momentum_5d": -0.002540362694573093,
+      "momentum_1d": -0.005427885554113589,
       "macd_crossover": false,
-      "atr_pct": 0.013889530258865605,
-      "bollinger_pct_b": 0.7871,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.261,
-      "news_confidence": 0.46,
+      "atr_pct": 0.004379000529709451,
+      "bollinger_pct_b": 0.0943,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.14,
+      "news_sentiment": -0.762,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Why Occidental Petroleum Stock Crushed It on Wednesday",
-        "Micron, Broadcom, Palantir, Delta, SpaceX, and More Stocks That Explain Today\u2019s Market",
-        "Sector Update: Energy Stocks Gain Late Afternoon"
+        "Sector Update: Financial Stocks Fall Late Afternoon",
+        "Sector Update: Financial Stocks Decline in Afternoon Trading",
+        "Exchange-Traded Funds Lower as US Equities Fall After Midday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "JPM",
+      "rank_score": 0.5405,
+      "price": 330.5199890136719,
+      "rsi": 28.45839974383881,
+      "momentum_5d": -0.006865893578511986,
+      "momentum_1d": -0.008043286600164238,
+      "macd_crossover": false,
+      "atr_pct": 0.006137269776209477,
+      "bollinger_pct_b": 0.0054,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.75,
+      "news_sentiment": 0.579,
+      "news_confidence": 0.57,
+      "news_headlines": [
+        "JPMorgan to pursue smaller deals in latest growth push",
+        "SambaNova\u00a0to power on-prem\u00a0AI inference\u00a0for\u00a0JPMorgan",
+        "Jamie Dimon Said the Clarity Act's Stablecoin Rules Will \"Blow Up\" the System. JPMorgan Chase's June 29 Position Paper Explains Why."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HD",
+      "rank_score": 0.5355,
+      "price": 336.19000244140625,
+      "rsi": 17.35798952937212,
+      "momentum_5d": 0.005548360278578163,
+      "momentum_1d": -0.05135588322116257,
+      "macd_crossover": false,
+      "atr_pct": 0.009168137456068566,
+      "bollinger_pct_b": 0.208,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.46,
+      "news_sentiment": 0.222,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "The Pro-Focused Pivot That Puts Home Depot Stock's Core Engine At Risk",
+        "Home Depot (HD) Falls More Steeply Than Broader Market: What Investors Need to Know",
+        "Today's Market: Dow Plunges 800 Points, Nasdaq and S&P 500 Fall 1% After Trump's Iran Warning"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.5345,
+      "price": 252.61000061035156,
+      "rsi": 44.127339588147066,
+      "momentum_5d": -0.009022804200366077,
+      "momentum_1d": -0.024464679892187608,
+      "macd_crossover": false,
+      "atr_pct": 0.008412094875535727,
+      "bollinger_pct_b": 0.12,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.63,
+      "news_sentiment": 0.825,
+      "news_confidence": 0.57,
+      "news_headlines": [
+        "SLS Stock Snaps 2-Day Slide: Sellas\u2019 SLS009 AML Trial Spotlights Big Pharma Drug Combo From ABBV, RHHBY And BMY",
+        "Biopharma Companies' Second-Half Performance to be Largely Driven by Fundamentals, Morgan Stanley Says",
+        "The Wide Divide Ahead For Eli Lilly Stock"
       ],
       "high_impact_news": true
     }
