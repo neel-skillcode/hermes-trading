@@ -292,38 +292,8 @@
     "mode": "paper",
     "strategy_version": "51",
     "status": "open",
-    "price_peak": 58.875,
-    "trailing_stop_price": 57.835268
-  },
-  "VRTX": {
-    "id": "VRTX_20260708195748",
-    "asset": "VRTX",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 499.4549865722656,
-    "entry_time": "2026-07-08T19:57:48.323389+00:00",
-    "stop_loss_pct": 0.01339,
-    "take_profit_pct": 0.03341,
-    "size_usd": 6390.57,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (21.2)",
-      "5d momentum -2.32%",
-      "1d momentum -3.70%",
-      "BB oversold (pct_b=-0.02)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.789,
-    "news_headlines": [
-      "Biopharma Sector Seen Shifting to Fundamentals From Macro in H2, Morgan Stanley Says",
-      "Is Crinetics Pharmaceuticals, Inc. (CRNX) Stock a Buying Opportunity After a 44% Pullback?",
-      "Vertex (VRTX) Stock May Be 36% Undervalued Following Its $10b Deal"
-    ],
-    "mode": "paper",
-    "strategy_version": "51",
-    "status": "open"
+    "price_peak": 59.314998626708984,
+    "trailing_stop_price": 58.267496
   },
   "NVDA": {
     "id": "NVDA_20260708195748",
@@ -356,38 +326,6 @@
     "status": "open",
     "price_trough": 200.1999969482422,
     "trailing_stop_price": 202.896691
-  },
-  "AXP": {
-    "id": "AXP_20260708195748",
-    "asset": "AXP",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 335.67498779296875,
-    "entry_time": "2026-07-08T19:57:48.329915+00:00",
-    "stop_loss_pct": 0.01041,
-    "take_profit_pct": 0.02569,
-    "size_usd": 6029.08,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (9.4)",
-      "5d momentum -0.81%",
-      "1d momentum -3.99%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "American Express (AXP) Reports Solid Spending Growth, Is It Still Below Fair Value?",
-      "Can Visa's Multi-Rail Payments Strategy Drive Long-Term Growth?",
-      "Nasdaq Nearly Flat in Afternoon Trading, Gets Boost From Chip Bounce"
-    ],
-    "mode": "paper",
-    "strategy_version": "51",
-    "status": "open",
-    "price_peak": 339.8949890136719,
-    "trailing_stop_price": 336.356682
   },
   "BIIB": {
     "id": "BIIB_20260708195748",
@@ -449,7 +387,9 @@
     ],
     "mode": "paper",
     "strategy_version": "51",
-    "status": "open"
+    "status": "open",
+    "price_trough": 6.710000038146973,
+    "trailing_stop_price": 6.771464
   },
   "ETH-USD": {
     "id": "ETH-USD_20260709084415",
@@ -481,8 +421,8 @@
     "mode": "paper",
     "strategy_version": "51",
     "status": "open",
-    "price_trough": 1742.0999755859375,
-    "trailing_stop_price": 1752.831311
+    "price_trough": 1737.5,
+    "trailing_stop_price": 1748.203
   },
   "AMD": {
     "id": "AMD_20260709140922",
@@ -514,7 +454,9 @@
     ],
     "mode": "paper",
     "strategy_version": "52",
-    "status": "open"
+    "status": "open",
+    "price_trough": 549.6900024414062,
+    "trailing_stop_price": 557.935352
   },
   "ON": {
     "id": "ON_20260709140922",
@@ -545,7 +487,9 @@
     ],
     "mode": "paper",
     "strategy_version": "52",
-    "status": "open"
+    "status": "open",
+    "price_trough": 100.69000244140625,
+    "trailing_stop_price": 102.200352
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260709140922",
@@ -569,6 +513,98 @@
     "news_sentiment": -1.0,
     "news_headlines": [
       "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+    ],
+    "mode": "paper",
+    "strategy_version": "52",
+    "status": "open",
+    "price_trough": 185.65499877929688,
+    "trailing_stop_price": 187.140239
+  },
+  "UNG": {
+    "id": "UNG_20260709163905",
+    "asset": "UNG",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 10.869999885559082,
+    "entry_time": "2026-07-09T16:39:05.934488+00:00",
+    "stop_loss_pct": 0.01097,
+    "take_profit_pct": 0.0263,
+    "size_usd": 5142.45,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (8.2)",
+      "5d momentum -6.37%",
+      "1d momentum -6.78%",
+      "BB oversold (pct_b=-0.04)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.467,
+    "news_headlines": [
+      "Sector Update: Energy Stocks Decline Pre-Bell Thursday",
+      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Chip Stocks Rebound Despite US-Iran Tensions",
+      "Sector Update: Energy Stocks Advance Pre-Bell Wednesday"
+    ],
+    "mode": "paper",
+    "strategy_version": "52",
+    "status": "open"
+  },
+  "VRTX": {
+    "id": "VRTX_20260709163905",
+    "asset": "VRTX",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 487.625,
+    "entry_time": "2026-07-09T16:39:05.936395+00:00",
+    "stop_loss_pct": 0.01173,
+    "take_profit_pct": 0.02927,
+    "size_usd": 6411.88,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (8.4)",
+      "5d momentum -2.51%",
+      "1d momentum -5.83%",
+      "BB oversold (pct_b=0.09)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: ma catalyst; price surge"
+    ],
+    "news_sentiment": 0.634,
+    "news_headlines": [
+      "Jim Cramer Says Biotech is The Hottest Group in The Market Right Now",
+      "1 Momentum  Stock to Research Further and 2 Facing Headwinds",
+      "Why Did PENG, ANET, BCRX Shares Surge To 52-Week Highs?"
+    ],
+    "mode": "paper",
+    "strategy_version": "52",
+    "status": "open"
+  },
+  "COST": {
+    "id": "COST_20260709163905",
+    "asset": "COST",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 913.6099853515625,
+    "entry_time": "2026-07-09T16:39:05.938148+00:00",
+    "stop_loss_pct": 0.00849,
+    "take_profit_pct": 0.02094,
+    "size_usd": 890.91,
+    "position_size_pct": 0.0088,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (26.9)",
+      "5d momentum -4.22%",
+      "1d momentum -3.12%",
+      "BB oversold (pct_b=0.03)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.826,
+    "news_headlines": [
+      "Gotta collect 'em all: Trading card market could be worth up to $20 billion",
+      "Are we Paying too Much for Costco Wholesale Corporation (COST)?",
+      "Costco's Comparable Sales Stay Strong Despite Slower June Growth"
     ],
     "mode": "paper",
     "strategy_version": "52",
