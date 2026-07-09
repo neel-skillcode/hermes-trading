@@ -23,37 +23,6 @@
     "price_peak": 7.844130039215088,
     "trailing_stop_price": 7.781377
   },
-  "ARM": {
-    "id": "ARM_20260630160723",
-    "asset": "ARM",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 358.0199890136719,
-    "entry_time": "2026-06-30T16:07:23.835746+00:00",
-    "stop_loss_pct": 0.06,
-    "take_profit_pct": 0.20112,
-    "size_usd": 6766.5,
-    "position_size_pct": 0.0676,
-    "confidence": 0.704,
-    "signals": [
-      "RSI overbought (64.1)",
-      "5d momentum +4.33%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.5,
-    "news_headlines": [
-      "Chip Stocks\u2019 Best Quarter Ever Is Ending With Some Wild Swings",
-      "Arm Holdings Expands Its AI Data Center Push With AGI CPU",
-      "ByteDance targets CPU mass production in H2 2027 to power AI push - SCMP"
-    ],
-    "mode": "paper",
-    "strategy_version": "42",
-    "status": "open",
-    "price_trough": 294.70001220703125,
-    "trailing_stop_price": 312.382013
-  },
   "UBER": {
     "id": "UBER_20260630180958",
     "asset": "UBER",
@@ -322,37 +291,9 @@
     ],
     "mode": "paper",
     "strategy_version": "51",
-    "status": "open"
-  },
-  "INTC": {
-    "id": "INTC_20260708195748",
-    "asset": "INTC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 109.80000305175781,
-    "entry_time": "2026-07-08T19:57:48.321478+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03638,
-    "size_usd": 5493.31,
-    "position_size_pct": 0.0545,
-    "confidence": 0.851,
-    "signals": [
-      "RSI oversold (29.1)",
-      "MACD crossover",
-      "5d momentum +4.77%",
-      "1d momentum -8.37%",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.379,
-    "news_headlines": [
-      "AI memory stocks trim losses as investors buy the dip",
-      "Should You Buy Intel Stock Before July 23?",
-      "Nvidia Stock Is Cheaper Than It's Been Since the AI Boom Began"
-    ],
-    "mode": "paper",
-    "strategy_version": "51",
-    "status": "open"
+    "status": "open",
+    "price_peak": 58.875,
+    "trailing_stop_price": 57.835268
   },
   "VRTX": {
     "id": "VRTX_20260708195748",
@@ -379,35 +320,6 @@
       "Biopharma Sector Seen Shifting to Fundamentals From Macro in H2, Morgan Stanley Says",
       "Is Crinetics Pharmaceuticals, Inc. (CRNX) Stock a Buying Opportunity After a 44% Pullback?",
       "Vertex (VRTX) Stock May Be 36% Undervalued Following Its $10b Deal"
-    ],
-    "mode": "paper",
-    "strategy_version": "51",
-    "status": "open"
-  },
-  "SMCI": {
-    "id": "SMCI_20260708195748",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 28.093000411987305,
-    "entry_time": "2026-07-08T19:57:48.326846+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03406,
-    "size_usd": 3492.22,
-    "position_size_pct": 0.0346,
-    "confidence": 0.541,
-    "signals": [
-      "5d momentum +6.09%",
-      "1d momentum +4.14%",
-      "BB overbought (pct_b=1.01)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.458,
-    "news_headlines": [
-      "Why Super Micro Computer Fell Over 36% in June",
-      "Super Micro Computer (SMCI) Launches Kubernetes Edge AI Appliances With Red Hat And Everpure",
-      "Supermicro Shares Gain Following Launch of Kubernetes Edge AI Appliance (SMCI)"
     ],
     "mode": "paper",
     "strategy_version": "51",
@@ -442,8 +354,8 @@
     "mode": "paper",
     "strategy_version": "51",
     "status": "open",
-    "price_trough": 204.1199951171875,
-    "trailing_stop_price": 206.869491
+    "price_trough": 200.1999969482422,
+    "trailing_stop_price": 202.896691
   },
   "AXP": {
     "id": "AXP_20260708195748",
@@ -474,8 +386,8 @@
     "mode": "paper",
     "strategy_version": "51",
     "status": "open",
-    "price_peak": 336.3900146484375,
-    "trailing_stop_price": 332.888195
+    "price_peak": 339.8949890136719,
+    "trailing_stop_price": 336.356682
   },
   "BIIB": {
     "id": "BIIB_20260708195748",
@@ -506,8 +418,8 @@
     "mode": "paper",
     "strategy_version": "51",
     "status": "open",
-    "price_trough": 200.36000061035156,
-    "trailing_stop_price": 202.73627
+    "price_trough": 197.7899932861328,
+    "trailing_stop_price": 200.135783
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260709084415",
@@ -568,6 +480,98 @@
     ],
     "mode": "paper",
     "strategy_version": "51",
+    "status": "open",
+    "price_trough": 1742.0999755859375,
+    "trailing_stop_price": 1752.831311
+  },
+  "AMD": {
+    "id": "AMD_20260709140922",
+    "asset": "AMD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 554.60498046875,
+    "entry_time": "2026-07-09T14:09:22.118779+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5631.12,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (70.3)",
+      "MACD crossover",
+      "5d momentum +8.63%",
+      "1d momentum +7.70%",
+      "BB overbought (pct_b=0.85)",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.673,
+    "news_headlines": [
+      "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
+      "The Question Micron Stock Answered Before Its Historic Surge",
+      "The Line In The Sand For AVGO Stock"
+    ],
+    "mode": "paper",
+    "strategy_version": "52",
+    "status": "open"
+  },
+  "ON": {
+    "id": "ON_20260709140922",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 101.16999816894531,
+    "entry_time": "2026-07-09T14:09:22.120292+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 3422.58,
+    "position_size_pct": 0.0338,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (78.1)",
+      "5d momentum +10.67%",
+      "1d momentum +11.80%",
+      "BB overbought (pct_b=1.20)",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.66,
+    "news_headlines": [
+      "ON Semiconductor Corp. (ON) Increases Despite Market Slip: Here's What You Need to Know",
+      "Texas Instruments Stock Is Running On A Bold Promise",
+      "onsemi's Divestitures Strengthen Fab Right Strategy: Here's How"
+    ],
+    "mode": "paper",
+    "strategy_version": "52",
+    "status": "open"
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260709140922",
+    "asset": "EUR/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 185.7519989013672,
+    "entry_time": "2026-07-09T14:09:22.143382+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02674,
+    "size_usd": 6640.83,
+    "position_size_pct": 0.0657,
+    "confidence": 0.684,
+    "signals": [
+      "RSI overbought (60.1)",
+      "BB overbought (pct_b=1.10)",
+      "News -1.00 (conf 0.70) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
+    ],
+    "news_sentiment": -1.0,
+    "news_headlines": [
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+    ],
+    "mode": "paper",
+    "strategy_version": "52",
     "status": "open"
   }
 }
