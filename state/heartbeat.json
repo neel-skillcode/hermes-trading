@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101317.01,
+  "portfolio_balance": 101294.21,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.83,
-  "unrealized_pnl_usd": 1403.8,
-  "equity_value": 102720.81,
+  "portfolio_drawdown_pct": 0.85,
+  "unrealized_pnl_usd": 1375.24,
+  "equity_value": 102669.45,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40526.8,
+  "day_capital_used_usd": 40517.68,
   "swing_capital_used_usd": 50032.93,
-  "total_trades": 575,
-  "last_tick": "2026-07-10T00:08:48.696155+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 576,
+  "last_tick": "2026-07-10T04:11:06.932079+00:00",
+  "last_reflection": "2026-07-10",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8353,
-      "unrealized_pnl_pct": 0.000128,
-      "unrealized_pnl_usd": 0.17
+      "current_price": 7.8375,
+      "unrealized_pnl_pct": 0.000408,
+      "unrealized_pnl_usd": 0.55
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.694348,
-      "unrealized_pnl_pct": -0.001597,
-      "unrealized_pnl_usd": -8.69
+      "current_price": 0.696088,
+      "unrealized_pnl_pct": -0.004107,
+      "unrealized_pnl_usd": -22.34
     },
     {
       "id": "USD/MXN_20260702144002",
@@ -136,9 +136,9 @@
       "status": "open",
       "price_peak": 17.63960075378418,
       "trailing_stop_price": 17.498484,
-      "current_price": 17.5404,
-      "unrealized_pnl_pct": 0.003725,
-      "unrealized_pnl_usd": 20.12
+      "current_price": 17.499001,
+      "unrealized_pnl_pct": 0.001356,
+      "unrealized_pnl_usd": 7.32
     },
     {
       "id": "VLO_20260707180911",
@@ -235,9 +235,11 @@
       "mode": "paper",
       "strategy_version": "50",
       "status": "open",
-      "current_price": 162.354004,
-      "unrealized_pnl_pct": -0.00145,
-      "unrealized_pnl_usd": -5.28
+      "price_trough": 161.53700256347656,
+      "trailing_stop_price": 162.829299,
+      "current_price": 161.544998,
+      "unrealized_pnl_pct": 0.003541,
+      "unrealized_pnl_usd": 12.9
     },
     {
       "id": "AMZN_20260708152529",
@@ -306,41 +308,6 @@
       "current_price": 59.235001,
       "unrealized_pnl_pct": 0.011959,
       "unrealized_pnl_usd": 81.0
-    },
-    {
-      "id": "AVAX-USD_20260709084415",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 6.75,
-      "entry_time": "2026-07-09T08:44:15.821191+00:00",
-      "stop_loss_pct": 0.00916,
-      "take_profit_pct": 0.02196,
-      "size_usd": 5130.54,
-      "position_size_pct": 0.0508,
-      "confidence": 0.794,
-      "signals": [
-        "RSI overbought (73.0)",
-        "5d momentum +4.49%",
-        "1d momentum +6.30%",
-        "BB overbought (pct_b=1.04)",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price surge"
-      ],
-      "news_sentiment": 0.628,
-      "news_headlines": [
-        "Is the Saylor playbook cracking? Bitcoin's biggest buyer just became a seller",
-        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade",
-        "A New Era for Tokenization: Securitize Lists on the NYSE"
-      ],
-      "mode": "paper",
-      "strategy_version": "51",
-      "status": "open",
-      "price_trough": 6.690000057220459,
-      "trailing_stop_price": 6.75128,
-      "current_price": 6.69,
-      "unrealized_pnl_pct": 0.008889,
-      "unrealized_pnl_usd": 45.6
     },
     {
       "id": "AMD_20260709140922",
@@ -441,11 +408,11 @@
       "mode": "paper",
       "strategy_version": "52",
       "status": "open",
-      "price_trough": 185.61500549316406,
-      "trailing_stop_price": 187.099926,
-      "current_price": 185.615005,
-      "unrealized_pnl_pct": 0.000738,
-      "unrealized_pnl_usd": 4.9
+      "price_trough": 184.91799926757812,
+      "trailing_stop_price": 186.397343,
+      "current_price": 184.917999,
+      "unrealized_pnl_pct": 0.00449,
+      "unrealized_pnl_usd": 29.82
     },
     {
       "id": "UNG_20260709163905",
@@ -650,6 +617,39 @@
       "current_price": 18.135,
       "unrealized_pnl_pct": 0.001377,
       "unrealized_pnl_usd": 4.92
+    },
+    {
+      "id": "ETH-USD_20260710041106",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1777.06005859375,
+      "entry_time": "2026-07-10T04:11:06.275104+00:00",
+      "stop_loss_pct": 0.00564,
+      "take_profit_pct": 0.01351,
+      "size_usd": 5121.42,
+      "position_size_pct": 0.0506,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (78.8)",
+        "5d momentum +1.91%",
+        "1d momentum +2.07%",
+        "BB overbought (pct_b=1.07)",
+        "High-impact catalyst",
+        "Claude [contradicts]: price surge; macro risk"
+      ],
+      "news_sentiment": -0.008,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Thursday, July 9: Prices continue sliding on geopolitical tensions",
+        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "52",
+      "status": "open",
+      "current_price": 1777.060059,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -670,7 +670,7 @@
       "news_headlines": [
         "AI could cause a huge electricity shortfall in the US, Bank of America says: A closer look",
         "Apollo's Sl\u00f8k: The market faces big risks if hyperscalers' AI profits get delayed",
-        "Russell Investments changes hands as asset manager M&A accelerates"
+        "Tencent in talks to become AI startup Manus' largest shareholder, sources say"
       ],
       "high_impact_news": true
     },
@@ -717,27 +717,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "COST",
-      "rank_score": 0.5963,
-      "price": 912.8200073242188,
-      "rsi": 28.562093241492505,
-      "momentum_5d": 0.0028178943566879613,
-      "momentum_1d": -0.03456371515154019,
-      "macd_crossover": false,
-      "atr_pct": 0.008752687626240572,
-      "bollinger_pct_b": 0.1709,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.87,
-      "news_sentiment": 0.491,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Why Did Costco Stock Fall Today? Because It Had \u2018Little Room for Error\u2019",
-        "Costco shares fall after June sales update, Bank of America remains bullish",
-        "Costco Stock Slides on June Sales Report"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LCID",
       "rank_score": 0.5853,
       "price": 5.835000038146973,
@@ -755,6 +734,27 @@
         "Waymo Widens Lead Over Tesla, Expands Robotaxis To Four New Cities",
         "2 Great Developments for Ford but Not for Rivian and Lucid",
         "Why Lucid Stock Dropped Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.5833,
+      "price": 912.8200073242188,
+      "rsi": 28.562093241492505,
+      "momentum_5d": 0.0028178943566879613,
+      "momentum_1d": -0.03456371515154019,
+      "macd_crossover": false,
+      "atr_pct": 0.008752687626240572,
+      "bollinger_pct_b": 0.1709,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.87,
+      "news_sentiment": 0.274,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Costco's June Sales Rose 10.6%, but the Stock Fell 4%. Here's What Spooked Investors.",
+        "Why Costco Stock Fell Today",
+        "Why Did Costco Stock Fall Today? Because It Had \u2018Little Room for Error\u2019"
       ],
       "high_impact_news": true
     },
@@ -801,6 +801,25 @@
       "high_impact_news": true
     },
     {
+      "asset": "EUR/JPY",
+      "rank_score": 0.5443,
+      "price": 184.91799926757812,
+      "rsi": 11.447262181356791,
+      "momentum_5d": -0.0038302126476587417,
+      "momentum_1d": -0.0036746056762364592,
+      "macd_crossover": false,
+      "atr_pct": 0.0008536451470586952,
+      "bollinger_pct_b": -0.0514,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -1.0,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SBUX",
       "rank_score": 0.5315,
       "price": 106.44999694824219,
@@ -815,30 +834,51 @@
       "news_sentiment": -0.026,
       "news_confidence": 0.39,
       "news_headlines": [
+        "Starbucks taps childhood nostalgia with 5 new drinks",
         "S&P 500, Nasdaq, Dow End Higher Led By Chipmaker Stocks As Investors Look Past US-Iran Hostility \u2014 ORCL, SBUX, WULF, PANW, FATE In Focus",
-        "Starbucks (SBUX) Stock Is Up, What You Need To Know",
-        "Jim Cramer: \u201cAnthropic Is the Winner Now\u201d as Enterprises Move to Slash Tech Budgets in Half"
+        "Starbucks (SBUX) Stock Is Up, What You Need To Know"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "MPC",
-      "rank_score": 0.513,
-      "price": 283.29998779296875,
-      "rsi": 79.90846888328602,
-      "momentum_5d": 0.005251509581601004,
-      "momentum_1d": 0.0508159546709835,
+      "asset": "ETH-USD",
+      "rank_score": 0.5157,
+      "price": 1777.06005859375,
+      "rsi": 78.77025121181356,
+      "momentum_5d": 0.019061665383186006,
+      "momentum_1d": 0.02072400517511156,
       "macd_crossover": false,
-      "atr_pct": 0.011944675387965367,
-      "bollinger_pct_b": 0.754,
+      "atr_pct": 0.005989432261421005,
+      "bollinger_pct_b": 1.0659,
       "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.257,
+      "volume_spike_ratio": 0.39,
+      "news_sentiment": -0.008,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Thursday, July 9: Prices continue sliding on geopolitical tensions",
+        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5141,
+      "price": 63891.328125,
+      "rsi": 72.96917343848592,
+      "momentum_5d": 0.011334788940289116,
+      "momentum_1d": 0.023866480666720293,
+      "macd_crossover": false,
+      "atr_pct": 0.005387002693433657,
+      "bollinger_pct_b": 0.9585,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.57,
+      "news_sentiment": -0.371,
       "news_confidence": 0.35,
       "news_headlines": [
-        "Veteran Energy Analyst: \u201cCrude Oil Is Not the Problem.\u201d Here\u2019s What\u2019s Keeping Gas Prices High.",
-        "Can Valero Energy Benefit From Renewed Middle East Tensions?",
-        "What Do Renewed Middle East Tensions Mean for Phillips 66's Business?"
+        "SEC pivots on crypto: Eased rules let startups win big on token launches",
+        "TeraWulf (WULF) Lands $3.5 Billion Loan To Build Out Its AI Data Centers",
+        "Arbitrum Jumps 19% as Robinhood Chain Trading Volume Hits $568M"
       ],
       "high_impact_news": true
     },
@@ -864,8 +904,50 @@
       "high_impact_news": true
     },
     {
+      "asset": "MPC",
+      "rank_score": 0.508,
+      "price": 283.29998779296875,
+      "rsi": 79.90846888328602,
+      "momentum_5d": 0.005251509581601004,
+      "momentum_1d": 0.0508159546709835,
+      "macd_crossover": false,
+      "atr_pct": 0.011944675387965367,
+      "bollinger_pct_b": 0.754,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.43,
+      "news_sentiment": 0.105,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "The Real Risk Inside ExxonMobil Stock",
+        "Veteran Energy Analyst: \u201cCrude Oil Is Not the Problem.\u201d Here\u2019s What\u2019s Keeping Gas Prices High.",
+        "Can Valero Energy Benefit From Renewed Middle East Tensions?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.4938,
+      "price": 6.78000020980835,
+      "rsi": 58.0645359765458,
+      "momentum_5d": 0.014970117371185258,
+      "momentum_1d": 0.03828483797358673,
+      "macd_crossover": false,
+      "atr_pct": 0.006637174165429755,
+      "bollinger_pct_b": 0.9112,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.19,
+      "news_sentiment": 0.628,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?",
+        "Is the Saylor playbook cracking? Bitcoin's biggest buyer just became a seller",
+        "Solana (SOL) Price Eyes More Upside After Securitize NYSE Listing and Governance Upgrade"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AVGO",
-      "rank_score": 0.4969,
+      "rank_score": 0.4809,
       "price": 401.1099853515625,
       "rsi": 77.4836913915001,
       "momentum_5d": 0.0036782370364442365,
@@ -875,12 +957,12 @@
       "bollinger_pct_b": 0.7579,
       "volume_spike": false,
       "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.915,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.628,
+      "news_confidence": 0.43,
       "news_headlines": [
         "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
-        "Broadcom Stock Investors Just Got Incredible News from Apple CEO Tim Cook",
-        "These Dividend Paying Stocks Offer Strong Exposure to AI Trends"
+        "Jim Cramer says one AI giant holds key to market\u2019s next move",
+        "Broadcom Is Less Than 5% From the $2 Trillion Club -- and Apple Just Committed $30 Billion for More Chips"
       ],
       "high_impact_news": true
     },
@@ -906,8 +988,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "VLO",
+      "rank_score": 0.4764,
+      "price": 281.20001220703125,
+      "rsi": 73.9379106467714,
+      "momentum_5d": -0.0008349542651090396,
+      "momentum_1d": 0.03890345534012491,
+      "macd_crossover": false,
+      "atr_pct": 0.013211828602845366,
+      "bollinger_pct_b": 0.6874,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.11,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Why Valero (VLO) Is Up 5.0% After Russell Reclassification And Refining Margin Tailwinds",
+        "The Real Risk Inside ExxonMobil Stock",
+        "Valero Energy (VLO) Could Gain From Cheaper Crude As Refining Margins Hold"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SMCI",
-      "rank_score": 0.4736,
+      "rank_score": 0.4746,
       "price": 28.225000381469727,
       "rsi": 71.64728022716287,
       "momentum_5d": -0.01928423530001208,
@@ -917,33 +1020,12 @@
       "bollinger_pct_b": 0.6908,
       "volume_spike": false,
       "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.347,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.36,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "SMCI Stock Likely to Reverse from Oversold Levels as DCBBS Gains Growth Traction",
         "Super Micro Stock Just Collapsed 29% in a Month: Is It Time to Switch to Dell or Hewlett Packard Enterprise?",
-        "Is Super Micro Stock's AI Growth Story Worth the Cash-Burning Risk?",
-        "Why Super Micro Computer Fell Over 36% in June"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ARM",
-      "rank_score": 0.4736,
-      "price": 327.8699951171875,
-      "rsi": 66.69208150871343,
-      "momentum_5d": -0.015701023387861553,
-      "momentum_1d": 0.010478607833368589,
-      "macd_crossover": false,
-      "atr_pct": 0.026765247034831546,
-      "bollinger_pct_b": 0.7549,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.62,
-      "news_sentiment": 0.569,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "CPU Competition Gearing Up to Cool AMD\u2019s Massive Run",
-        "European Equities Traded in the US as American Depositary Receipts Rise Thursday",
-        "Markets News, July 9, 2026: Stocks End Higher, Powered by Chip Shares; Oil Pulls Back as Investors Downplay Fighting Between US, Iran"
+        "Is Super Micro Stock's AI Growth Story Worth the Cash-Burning Risk?"
       ],
       "high_impact_news": true
     },
@@ -969,107 +1051,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "VLO",
-      "rank_score": 0.4704,
-      "price": 281.20001220703125,
-      "rsi": 73.9379106467714,
-      "momentum_5d": -0.0008349542651090396,
-      "momentum_1d": 0.03890345534012491,
+      "asset": "DOGE-USD",
+      "rank_score": 0.4689,
+      "price": 0.07400000095367432,
+      "rsi": 74.81754206593502,
+      "momentum_5d": 0.016064835090301592,
+      "momentum_1d": 0.01942416322098274,
       "macd_crossover": false,
-      "atr_pct": 0.013211828602845366,
-      "bollinger_pct_b": 0.6874,
+      "atr_pct": 0.006032834276766685,
+      "bollinger_pct_b": 0.9629,
       "volume_spike": false,
-      "volume_spike_ratio": 1.11,
-      "news_sentiment": 0.389,
-      "news_confidence": 0.36,
+      "volume_spike_ratio": 0.03,
+      "news_sentiment": 0.171,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "Valero Energy (VLO) Joins Major Indexes On A Fair Value Debate",
-        "Veteran Energy Analyst: \u201cCrude Oil Is Not the Problem.\u201d Here\u2019s What\u2019s Keeping Gas Prices High.",
-        "The S&P 500 Is Up 5% This Year. This \u2018Cash Cow\u2019 Fund Is Up 9%"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.4521,
-      "price": 191.0500030517578,
-      "rsi": 68.10170800040375,
-      "momentum_5d": -0.02040709507486062,
-      "momentum_1d": 0.02343645334660571,
-      "macd_crossover": false,
-      "atr_pct": 0.01568047494921277,
-      "bollinger_pct_b": 0.7607,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.69,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "How Investors Are Reacting To QUALCOMM (QCOM) Index Removal And New On-Device AI Deepfake Partnership",
-        "Six Months In, AZA Law Firm\u2019s Dallas Office Tracks Toward Its Year-One Plan",
-        "CPU Competition Gearing Up to Cool AMD\u2019s Massive Run"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ABBV",
-      "rank_score": 0.4518,
-      "price": 249.80999755859375,
-      "rsi": 33.639755734899424,
-      "momentum_5d": -0.006522169057675553,
-      "momentum_1d": -0.024918626819766372,
-      "macd_crossover": false,
-      "atr_pct": 0.008201868614640822,
-      "bollinger_pct_b": 0.1725,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.385,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "AbbVie (ABBV) Stock Drops Despite Market Gains: Important Facts to Note",
-        "Make Your AMGN Shares Pay You 8.7% While You Hold Them",
-        "ABBV Leads Its Peer Group. You Pay For That"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.4498,
-      "price": 243.3300018310547,
-      "rsi": 64.83257532587153,
-      "momentum_5d": -0.013200335763275135,
-      "momentum_1d": -0.02896539705348027,
-      "macd_crossover": false,
-      "atr_pct": 0.02343105736121609,
-      "bollinger_pct_b": 0.7374,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.56,
-      "news_sentiment": 0.862,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
-        "Update: US Equities Rise, Oil Prices Fall as Traders Look Past Middle East Tensions",
-        "MACOM and Marvell Technology Stocks Trade Up, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "KLAC",
-      "rank_score": 0.4358,
-      "price": 229.52999877929688,
-      "rsi": 63.66596324490393,
-      "momentum_5d": -0.03020954080507715,
-      "momentum_1d": -0.015061768829208089,
-      "macd_crossover": false,
-      "atr_pct": 0.02364389601994337,
-      "bollinger_pct_b": 0.6773,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.68,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Top Stock Reports for Apple, KLA Corp. & Western Digital",
-        "Why Meta\u2019s In-House AI Chip Plans Sent Chip-Equipment Stocks Soaring",
-        "Applied Materials and KLA Corporation Shares Are Soaring, What You Need To Know"
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level",
+        "Dogecoin (DOGE) May Dip Another 10% Amid Renewed US\u2013Iran Tensions",
+        "Bitcoin, Ethereum, XRP, Dogecoin Slide as Trump Warns Iran Strikes Could Get 'Much Worse': Analyst Flags Major 'Wall' BTC Bulls Must Break"
       ],
       "high_impact_news": true
     }
