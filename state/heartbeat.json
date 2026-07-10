@@ -3,15 +3,15 @@
   "portfolio_balance": 101236.69,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.91,
-  "unrealized_pnl_usd": 1379.64,
-  "equity_value": 102616.32,
+  "unrealized_pnl_usd": 1396.56,
+  "equity_value": 102633.25,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40494.67,
   "swing_capital_used_usd": 50032.93,
   "total_trades": 577,
-  "last_tick": "2026-07-10T10:40:46.740087+00:00",
+  "last_tick": "2026-07-10T12:57:31.420468+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83875,
-      "unrealized_pnl_pct": 0.000568,
-      "unrealized_pnl_usd": 0.76
+      "current_price": 7.83972,
+      "unrealized_pnl_pct": 0.000692,
+      "unrealized_pnl_usd": 0.93
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.695362,
-      "unrealized_pnl_pct": -0.00306,
-      "unrealized_pnl_usd": -16.64
+      "current_price": 0.695024,
+      "unrealized_pnl_pct": -0.002572,
+      "unrealized_pnl_usd": -13.99
     },
     {
       "id": "USD/MXN_20260702144002",
@@ -136,9 +136,9 @@
       "status": "open",
       "price_peak": 17.63960075378418,
       "trailing_stop_price": 17.498484,
-      "current_price": 17.502001,
-      "unrealized_pnl_pct": 0.001528,
-      "unrealized_pnl_usd": 8.25
+      "current_price": 17.5151,
+      "unrealized_pnl_pct": 0.002278,
+      "unrealized_pnl_usd": 12.3
     },
     {
       "id": "VLO_20260707180911",
@@ -237,9 +237,9 @@
       "status": "open",
       "price_trough": 161.53700256347656,
       "trailing_stop_price": 162.829299,
-      "current_price": 161.714005,
-      "unrealized_pnl_pct": 0.002498,
-      "unrealized_pnl_usd": 9.1
+      "current_price": 161.817001,
+      "unrealized_pnl_pct": 0.001863,
+      "unrealized_pnl_usd": 6.79
     },
     {
       "id": "AMZN_20260708152529",
@@ -410,9 +410,9 @@
       "status": "open",
       "price_trough": 184.8800048828125,
       "trailing_stop_price": 186.359045,
-      "current_price": 184.880005,
-      "unrealized_pnl_pct": 0.004694,
-      "unrealized_pnl_usd": 31.17
+      "current_price": 184.891998,
+      "unrealized_pnl_pct": 0.00463,
+      "unrealized_pnl_usd": 30.75
     },
     {
       "id": "UNG_20260709163905",
@@ -648,15 +648,17 @@
       "mode": "paper",
       "strategy_version": "53",
       "status": "open",
-      "current_price": 1797.02002,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1792.8399658203125,
+      "trailing_stop_price": 1804.2245,
+      "current_price": 1792.51001,
+      "unrealized_pnl_pct": 0.00251,
+      "unrealized_pnl_usd": 12.8
     }
   ],
   "last_candidates": [
     {
       "asset": "META",
-      "rank_score": 0.7831,
+      "rank_score": 0.8091,
       "price": 631.47998046875,
       "rsi": 60.52353442254977,
       "momentum_5d": 0.044943031531901406,
@@ -666,39 +668,18 @@
       "bollinger_pct_b": 1.1079,
       "volume_spike": true,
       "volume_spike_ratio": 2.26,
-      "news_sentiment": 0.576,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.882,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "AI could cause a huge electricity shortfall in the US, Bank of America says: A closer look",
-        "Apollo's Sl\u00f8k: The market faces big risks if hyperscalers' AI profits get delayed",
-        "META Stock Eyes Best Weekly Finish In Over 2 Months On Muse Spark Boost: AI Chief Promises \u2018More To Come\u2019"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6858,
-      "price": 1797.02001953125,
-      "rsi": 81.07841276449844,
-      "momentum_5d": 0.010799785030123453,
-      "momentum_1d": 0.02997618512215917,
-      "macd_crossover": false,
-      "atr_pct": 0.006496078984929749,
-      "bollinger_pct_b": 0.9951,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.41,
-      "news_sentiment": 0.171,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Thursday, July 9: Prices continue sliding on geopolitical tensions",
-        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise"
+        "Why Microsoft is not this portfolio manager's stock pick",
+        "Earnings season will prove 'durability of growth' for chip stocks",
+        "Apollo's Sl\u00f8k: The market faces big risks if hyperscalers' AI profits get delayed"
       ],
       "high_impact_news": true
     },
     {
       "asset": "VRTX",
-      "rank_score": 0.6731,
+      "rank_score": 0.6611,
       "price": 496.5,
       "rsi": 24.567995219005667,
       "momentum_5d": 0.024408331946514178,
@@ -708,18 +689,39 @@
       "bollinger_pct_b": 0.3344,
       "volume_spike": true,
       "volume_spike_ratio": 2.9,
-      "news_sentiment": 0.804,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.583,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "Vertex Pharmaceuticals Just Made a $10 Billion Move. Is the Stock a Buy?",
-        "Vertex (VRTX) is One of the Best QQQ Stocks to Invest in",
-        "Why Crinetics Stock Soared 99% This Week"
+        "Beyond The Breakout Drug: Is BridgeBio Pharma Stock A Buy On Its Next Act?",
+        "The Long Climb Back For Ionis Stock",
+        "Vertex Pharmaceuticals Just Made a $10 Billion Move. Is the Stock a Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.627,
+      "price": 1792.510009765625,
+      "rsi": 75.8678386365835,
+      "momentum_5d": 0.011260590893157575,
+      "momentum_1d": 0.03000647566267521,
+      "macd_crossover": false,
+      "atr_pct": 0.006973466620106876,
+      "bollinger_pct_b": 0.8366,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.27,
+      "news_sentiment": 0.171,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
+        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise"
       ],
       "high_impact_news": true
     },
     {
       "asset": "BIIB",
-      "rank_score": 0.6149,
+      "rank_score": 0.6048,
       "price": 198.86000061035156,
       "rsi": 31.681865510257794,
       "momentum_5d": 0.002066030075154439,
@@ -729,96 +731,54 @@
       "bollinger_pct_b": 0.2403,
       "volume_spike": true,
       "volume_spike_ratio": 2.89,
-      "news_sentiment": 0.667,
+      "news_sentiment": 0.458,
       "news_confidence": 0.48,
       "news_headlines": [
-        "Biogen's Q2 2026 Earnings: What to Expect",
-        "Will New Board Appointment And mRNA Flu Progress Change Moderna's (MRNA) Pipeline Diversification Narrative?",
-        "Biopharma Sector Seen Shifting to Fundamentals From Macro in H2, Morgan Stanley Says"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.6104,
-      "price": 1.1152000427246094,
-      "rsi": 73.43362065102104,
-      "momentum_5d": 0.0056813887834470545,
-      "momentum_1d": 0.021900514807600382,
-      "macd_crossover": false,
-      "atr_pct": 0.005521110598558152,
-      "bollinger_pct_b": 0.9223,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.02,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "SWIFT's Blockchain Ledger Goes Live With HSBC, Citi and 15 Other Banks: Threat to XRP, XLM Cross-Border Plays?",
-        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-        "Is XRP Priced Too High for What It Actually Delivers?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.6045,
-      "price": 79.43000030517578,
-      "rsi": 76.92293436293437,
-      "momentum_5d": 0.003918068096972378,
-      "momentum_1d": 0.02318695240812417,
-      "macd_crossover": false,
-      "atr_pct": 0.005935150517219048,
-      "bollinger_pct_b": 0.9041,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.16,
-      "news_sentiment": 0.353,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Robinhood Could Be a Major Threat to Solana. Here's Why.",
-        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5989,
-      "price": 0.07440999895334244,
-      "rsi": 70.16944358152563,
-      "momentum_5d": 0.004183485773614569,
-      "momentum_1d": 0.028330533530958366,
-      "macd_crossover": false,
-      "atr_pct": 0.006268367636801306,
-      "bollinger_pct_b": 0.8916,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.22,
-      "news_sentiment": 0.128,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level",
-        "Dogecoin (DOGE) May Dip Another 10% Amid Renewed US\u2013Iran Tensions"
+        "The Long Climb Back For Ionis Stock",
+        "1 Healthcare Stock with Solid Fundamentals and 2 We Brush Off",
+        "Biogen's Q2 2026 Earnings: What to Expect"
       ],
       "high_impact_news": true
     },
     {
       "asset": "BTC-USD",
-      "rank_score": 0.598,
-      "price": 64380.421875,
-      "rsi": 76.947969162467,
-      "momentum_5d": 0.004747336165449905,
-      "momentum_1d": 0.026432330144582118,
+      "rank_score": 0.6024,
+      "price": 64266.01171875,
+      "rsi": 76.04605578221697,
+      "momentum_5d": 0.004972973646556577,
+      "momentum_1d": 0.027400555474893565,
       "macd_crossover": false,
-      "atr_pct": 0.005179712845960373,
-      "bollinger_pct_b": 0.9018,
+      "atr_pct": 0.005190622962890198,
+      "bollinger_pct_b": 0.7903,
       "volume_spike": true,
-      "volume_spike_ratio": 1.82,
-      "news_sentiment": 0.61,
+      "volume_spike_ratio": 4.86,
+      "news_sentiment": 0.512,
       "news_confidence": 0.41,
       "news_headlines": [
+        "Bitcoin prices are down 50%, but crypto's 2025 IPOs are doing even worse",
         "SEC pivots on crypto: Eased rules let startups win big on token launches",
-        "Strategy Just Sold $216 Million of Bitcoin to Pay Its Dividends. Is Its Business Breaking?",
-        "Can Bitcoin Price Hit $500K or $2M? 3 AI Models Show \u2018Mega Growth\u2019 Amid Immediate $1.4B Warning"
+        "Michael Saylor said \u2018never sell your Bitcoin.\u2019 Now his company, Strategy, can sell up to $1.25 billion if it needs cash"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RIVN",
+      "rank_score": 0.5861,
+      "price": 18.135000228881836,
+      "rsi": 79.74757675338758,
+      "momentum_5d": 0.020253199329257097,
+      "momentum_1d": -0.08060837119585487,
+      "macd_crossover": false,
+      "atr_pct": 0.02327388632034012,
+      "bollinger_pct_b": 0.8711,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.19,
+      "news_sentiment": 0.274,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Rivian Automotive vs. Tesla: What Their Revenue Trends Tell Investors",
+        "Jim Cramer Shows Dislike for the Discounted Capital Raise From Rivian",
+        "3 Industrials Stocks with Warning Signs"
       ],
       "high_impact_news": true
     },
@@ -840,27 +800,6 @@
         "Waymo Widens Lead Over Tesla, Expands Robotaxis To Four New Cities",
         "2 Great Developments for Ford but Not for Rivian and Lucid",
         "Why Lucid Stock Dropped Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "RIVN",
-      "rank_score": 0.5778,
-      "price": 18.135000228881836,
-      "rsi": 79.74757675338758,
-      "momentum_5d": 0.020253199329257097,
-      "momentum_1d": -0.08060837119585487,
-      "macd_crossover": false,
-      "atr_pct": 0.02327388632034012,
-      "bollinger_pct_b": 0.8711,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.19,
-      "news_sentiment": 0.125,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "3 Industrials Stocks with Warning Signs",
-        "Is Rivian Stock a Buy on the Dip?",
-        "What This Insider Sale Means as Rivian Raises Guidance to 70,000 Vehicles"
       ],
       "high_impact_news": true
     },
@@ -921,30 +860,9 @@
       "news_sentiment": -0.182,
       "news_confidence": 0.44,
       "news_headlines": [
+        "Why Microsoft is not this portfolio manager's stock pick",
         "Starbucks (SBUX) Is Replacing Microsoft And IBM Software To Cut $400 Million Spend",
-        "Starbucks taps childhood nostalgia with 5 new drinks",
-        "S&P 500, Nasdaq, Dow End Higher Led By Chipmaker Stocks As Investors Look Past US-Iran Hostility \u2014 ORCL, SBUX, WULF, PANW, FATE In Focus"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.5114,
-      "price": 576.2999877929688,
-      "rsi": 70.3453673808825,
-      "momentum_5d": -0.001074663966500276,
-      "momentum_1d": 0.012011318716664774,
-      "macd_crossover": false,
-      "atr_pct": 0.004149622118677516,
-      "bollinger_pct_b": 0.8022,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.54,
-      "news_sentiment": 0.517,
-      "news_confidence": 0.29,
-      "news_headlines": [
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level",
-        "BNB Chain\u2019s H2 2026 Roadmap Targets AI Agents as BNB Crypto Price Lags Behind",
-        "Morning Minute: Paradigm Raises $1.2B Fund as Crypto\u2019s Top VC Pushes Into AI"
+        "Starbucks taps childhood nostalgia with 5 new drinks"
       ],
       "high_impact_news": true
     },
@@ -991,8 +909,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5076,
+      "price": 0.07400000095367432,
+      "rsi": 66.33337803672632,
+      "momentum_5d": 0.0036620316368247653,
+      "momentum_1d": 0.024505118651249887,
+      "macd_crossover": false,
+      "atr_pct": 0.0064864926441195415,
+      "bollinger_pct_b": 0.6658,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.54,
+      "news_sentiment": 0.128,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AVGO",
-      "rank_score": 0.4869,
+      "rank_score": 0.4839,
       "price": 401.1099853515625,
       "rsi": 77.4836913915001,
       "momentum_5d": 0.0036782370364442365,
@@ -1002,12 +941,33 @@
       "bollinger_pct_b": 0.7579,
       "volume_spike": false,
       "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.805,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.75,
+      "news_confidence": 0.4,
       "news_headlines": [
         "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
-        "3 Hypergrowth Tech Stocks to Buy With $3,000 Right Now",
-        "Take Five: Chips, banks and volatility"
+        "US Equity Futures Mixed Ahead of South Korean Chipmaker SK Hynix's Trading Debut",
+        "Latest News In AI Chips - SK Hynix's Nasdaq Debut Shakes AI Investments Market"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "CRM",
+      "rank_score": 0.4827,
+      "price": 162.47500610351562,
+      "rsi": 23.003054104289575,
+      "momentum_5d": -0.005965071048825418,
+      "momentum_1d": -0.028695190363833764,
+      "macd_crossover": false,
+      "atr_pct": 0.012372555424221086,
+      "bollinger_pct_b": 0.2072,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.39,
+      "news_sentiment": 0.185,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Trending: Salesforce stock dips on Keybanc downgrade, AstraZeneca drug trial falls short",
+        "Memory chip stocks fall into a bear market amid latest tech sell-off",
+        "Is CRM Stock A Steal Or A Trap At 40% Off?"
       ],
       "high_impact_news": true
     },
@@ -1033,27 +993,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "CRM",
-      "rank_score": 0.4746,
-      "price": 162.47500610351562,
-      "rsi": 23.003054104289575,
-      "momentum_5d": -0.005965071048825418,
-      "momentum_1d": -0.028695190363833764,
-      "macd_crossover": false,
-      "atr_pct": 0.012372555424221086,
-      "bollinger_pct_b": 0.2072,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.39,
-      "news_sentiment": -0.034,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "Trending: Salesforce stock dips on Keybanc downgrade, AstraZeneca drug trial falls short",
-        "Memory chip stocks fall into a bear market amid latest tech sell-off",
-        "Can DocuSign\u2019s (DOCU) Iris AI Push It From E-Signature Tool To Core Workflow Platform?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SOFI",
       "rank_score": 0.4722,
       "price": 18.610000610351562,
@@ -1073,6 +1012,65 @@
         "The Standoff Over PYPL Stock"
       ],
       "high_impact_news": true
+    },
+    {
+      "asset": "SMCI",
+      "rank_score": 0.4666,
+      "price": 28.225000381469727,
+      "rsi": 71.64728022716287,
+      "momentum_5d": -0.01928423530001208,
+      "momentum_1d": 0.042859775522723804,
+      "macd_crossover": false,
+      "atr_pct": 0.0189548360991666,
+      "bollinger_pct_b": 0.6908,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.227,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "2 Mid-Cap Stocks with Impressive Fundamentals and 1 We Find Risky",
+        "SMCI Stock Likely to Reverse from Oversold Levels as DCBBS Gains Growth Traction",
+        "Super Micro Stock Just Collapsed 29% in a Month: Is It Time to Switch to Dell or Hewlett Packard Enterprise?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.4641,
+      "price": 191.0500030517578,
+      "rsi": 68.10170800040375,
+      "momentum_5d": -0.02040709507486062,
+      "momentum_1d": 0.02343645334660571,
+      "macd_crossover": false,
+      "atr_pct": 0.01568047494921277,
+      "bollinger_pct_b": 0.7607,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.867,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Bank of America Just Picked Its Favorite AI Chip Stock",
+        "The Real Price of NVIDIA Stock Is Three Years Away",
+        "Taiwanese chipmaker Nanya plans $6 billion in spending in 2027, riding AI boom"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "EUR/CAD",
+      "rank_score": 0.4619,
+      "price": 1.6161999702453613,
+      "rsi": 19.79359021707907,
+      "momentum_5d": -0.0022779351725288996,
+      "momentum_1d": -0.0019637311893750628,
+      "macd_crossover": false,
+      "atr_pct": 0.0008118758223864795,
+      "bollinger_pct_b": -0.4206,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     }
   ]
 }
