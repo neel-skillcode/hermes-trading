@@ -236,42 +236,8 @@
     "mode": "paper",
     "strategy_version": "51",
     "status": "open",
-    "price_peak": 59.68000030517578,
-    "trailing_stop_price": 58.626051
-  },
-  "AMD": {
-    "id": "AMD_20260709140922",
-    "asset": "AMD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 554.60498046875,
-    "entry_time": "2026-07-09T14:09:22.118779+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5631.12,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (70.3)",
-      "MACD crossover",
-      "5d momentum +8.63%",
-      "1d momentum +7.70%",
-      "BB overbought (pct_b=0.85)",
-      "Volume spike 2.3\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.673,
-    "news_headlines": [
-      "Micron, Sandisk, Marvell stocks jump, leading chip sector gains",
-      "The Question Micron Stock Answered Before Its Historic Surge",
-      "The Line In The Sand For AVGO Stock"
-    ],
-    "mode": "paper",
-    "strategy_version": "52",
-    "status": "open",
-    "price_trough": 545.9500122070312,
-    "trailing_stop_price": 554.139262
+    "price_peak": 59.7400016784668,
+    "trailing_stop_price": 58.684993
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260709140922",
@@ -299,8 +265,8 @@
     "mode": "paper",
     "strategy_version": "52",
     "status": "open",
-    "price_trough": 184.6269989013672,
-    "trailing_stop_price": 186.104015
+    "price_trough": 184.55599975585938,
+    "trailing_stop_price": 186.032448
   },
   "COST": {
     "id": "COST_20260709163905",
@@ -330,7 +296,9 @@
     ],
     "mode": "paper",
     "strategy_version": "52",
-    "status": "open"
+    "status": "open",
+    "price_peak": 914.719970703125,
+    "trailing_stop_price": 906.953998
   },
   "ETH-USD": {
     "id": "ETH-USD_20260710104046",
@@ -393,7 +361,9 @@
     ],
     "mode": "paper",
     "strategy_version": "53",
-    "status": "open"
+    "status": "open",
+    "price_trough": 664.3250122070312,
+    "trailing_stop_price": 674.289887
   },
   "MRNA": {
     "id": "MRNA_20260710153156",
@@ -453,7 +423,9 @@
     ],
     "mode": "paper",
     "strategy_version": "53",
-    "status": "open"
+    "status": "open",
+    "price_peak": 43.279701232910156,
+    "trailing_stop_price": 42.630506
   },
   "UNG": {
     "id": "UNG_20260710153156",
@@ -483,7 +455,9 @@
     ],
     "mode": "paper",
     "strategy_version": "53",
-    "status": "open"
+    "status": "open",
+    "price_peak": 10.57800006866455,
+    "trailing_stop_price": 10.445246
   },
   "NKE": {
     "id": "NKE_20260710153156",
@@ -543,7 +517,9 @@
     ],
     "mode": "paper",
     "strategy_version": "53",
-    "status": "open"
+    "status": "open",
+    "price_trough": 15.669899940490723,
+    "trailing_stop_price": 15.850731
   },
   "SNAP": {
     "id": "SNAP_20260710153156",
@@ -568,6 +544,38 @@
       "Reddit Keeps Stealing Social Media Budgets in Q2",
       "Facebook Faces a $1 Trillion Backlash. Investors Ignore the Threat at Their Peril.",
       "Snap (SNAP) Beats Stock Market Upswing: What Investors Need to Know"
+    ],
+    "mode": "paper",
+    "strategy_version": "53",
+    "status": "open",
+    "price_trough": 4.698999881744385,
+    "trailing_stop_price": 4.873333
+  },
+  "LCID": {
+    "id": "LCID_20260710172155",
+    "asset": "LCID",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 5.664999961853027,
+    "entry_time": "2026-07-10T17:21:55.946844+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5632.36,
+    "position_size_pct": 0.0553,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (26.0)",
+      "5d momentum -2.66%",
+      "1d momentum -6.44%",
+      "BB oversold (pct_b=-0.10)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.349,
+    "news_headlines": [
+      "Why Is Tesla Bringing the Long-Wheelbase Model Y to the US?",
+      "Waymo Widens Lead Over Tesla, Expands Robotaxis To Four New Cities",
+      "2 Great Developments for Ford but Not for Rivian and Lucid"
     ],
     "mode": "paper",
     "strategy_version": "53",
