@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101758.04,
+  "portfolio_balance": 101761.05,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.4,
-  "unrealized_pnl_usd": 1091.23,
-  "equity_value": 102849.27,
+  "portfolio_drawdown_pct": 0.39,
+  "unrealized_pnl_usd": 1077.67,
+  "equity_value": 102838.71,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40703.21,
+  "day_capital_used_usd": 39798.98,
   "swing_capital_used_usd": 49325.94,
-  "total_trades": 586,
-  "last_tick": "2026-07-11T01:02:24.488280+00:00",
+  "total_trades": 587,
+  "last_tick": "2026-07-11T04:21:06.196580+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -349,42 +349,6 @@
       "unrealized_pnl_usd": 2.5
     },
     {
-      "id": "ETH-USD_20260710104046",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1797.02001953125,
-      "entry_time": "2026-07-10T10:40:46.731646+00:00",
-      "stop_loss_pct": 0.00635,
-      "take_profit_pct": 0.01546,
-      "size_usd": 5098.41,
-      "position_size_pct": 0.0504,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (81.1)",
-        "5d momentum +1.08%",
-        "1d momentum +3.00%",
-        "BB overbought (pct_b=1.00)",
-        "Volume spike 3.4\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge; macro risk"
-      ],
-      "news_sentiment": 0.171,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Thursday, July 9: Prices continue sliding on geopolitical tensions",
-        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-        "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise"
-      ],
-      "mode": "paper",
-      "strategy_version": "53",
-      "status": "open",
-      "price_trough": 1784.4000244140625,
-      "trailing_stop_price": 1795.730965,
-      "current_price": 1792.23999,
-      "unrealized_pnl_pct": 0.00266,
-      "unrealized_pnl_usd": 13.56
-    },
-    {
       "id": "META_20260710153156",
       "asset": "META",
       "trade_type": "day",
@@ -657,6 +621,38 @@
       "current_price": 5.555,
       "unrealized_pnl_pct": -0.003587,
       "unrealized_pnl_usd": -20.08
+    },
+    {
+      "id": "DOGE-USD_20260711042106",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.07428999990224838,
+      "entry_time": "2026-07-11T04:21:06.194435+00:00",
+      "stop_loss_pct": 0.00394,
+      "take_profit_pct": 0.00914,
+      "size_usd": 4194.18,
+      "position_size_pct": 0.0412,
+      "confidence": 0.644,
+      "signals": [
+        "RSI overbought (62.6)",
+        "5d momentum +0.32%",
+        "1d momentum +0.45%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.128,
+      "news_headlines": [
+        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
+      ],
+      "mode": "paper",
+      "strategy_version": "54",
+      "status": "open",
+      "current_price": 0.07429,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -719,7 +715,7 @@
       "news_headlines": [
         "What Meta's Muse AI image tool means for Instagram privacy",
         "Why Microsoft is not this portfolio manager's stock pick",
-        "Arista Networks (ANET) Could Be 2% Undervalued Following Its AI Switching Push"
+        "Mark Zuckerberg Is Turning Meta Into a Bigger Chipmaker. Its Newest In-House AI Chip Enters Production in September."
       ],
       "high_impact_news": true
     },
@@ -767,7 +763,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5026,
+      "rank_score": 0.5136,
       "price": 210.9499969482422,
       "rsi": 69.49789246265541,
       "momentum_5d": 0.01141098691301181,
@@ -777,8 +773,8 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.548,
-      "news_confidence": 0.31,
+      "news_sentiment": 0.7,
+      "news_confidence": 0.4,
       "news_headlines": [
         "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
         "Chip stocks regain some ground after whipsaw of a trading week",
@@ -887,7 +883,7 @@
       "news_headlines": [
         "What Meta's Muse AI image tool means for Instagram privacy",
         "Why Microsoft is not this portfolio manager's stock pick",
-        "Why tech investors are reevaluating AI investments"
+        "Has Meta ever had a stock split? What sets this \u2018Mag 7\u2019 stock apart"
       ],
       "high_impact_news": true
     },
@@ -913,27 +909,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.4815,
-      "price": 1792.239990234375,
-      "rsi": 55.00321066542512,
-      "momentum_5d": 0.003078231880441955,
-      "momentum_1d": 0.026389308627336086,
-      "macd_crossover": false,
-      "atr_pct": 0.006903166660196172,
-      "bollinger_pct_b": 0.6436,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.43,
-      "news_sentiment": 0.317,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
-        "Weekly Wrap: Bitcoin Has A Winning Week",
-        "The Worst Performing ETFs of 2026 So Far"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "C",
       "rank_score": 0.4753,
       "price": 140.60000610351562,
@@ -951,6 +926,27 @@
         "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets",
         "Q2 Earnings Season Arrives: Can Results Match Upbeat Expectations?",
         "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.4741,
+      "price": 557.989990234375,
+      "rsi": 77.41669448750707,
+      "momentum_5d": 0.010421297156949885,
+      "momentum_1d": 0.07046383720336606,
+      "macd_crossover": false,
+      "atr_pct": 0.018137525205971564,
+      "bollinger_pct_b": 0.7385,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.61,
+      "news_sentiment": 0.243,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Chip stocks regain some ground after whipsaw of a trading week",
+        "Nasdaq's hottest winners just fell behind: Chart of the Day",
+        "Advanced Micro Devices vs. Texas Instruments: Which Technology Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     },
@@ -976,6 +972,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "COST",
+      "rank_score": 0.4678,
+      "price": 916.1699829101562,
+      "rsi": 21.288965775861328,
+      "momentum_5d": 0.006448418319129456,
+      "momentum_1d": -0.03438572145473638,
+      "macd_crossover": false,
+      "atr_pct": 0.007203524558375943,
+      "bollinger_pct_b": 0.3787,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.389,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Costco makes big investment to keep members coming back",
+        "The Real Risk Inside Home Depot Stock",
+        "How the Mysterious Freedom Fuel Network Could Turn a Profit"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LLY",
       "rank_score": 0.4648,
       "price": 1188.25,
@@ -993,27 +1010,6 @@
         "Is Pfizer on Track to Launch Its Next Lipitor -- This Time in the Weight-Loss Market?",
         "Moderna Drops 11%, ImmunityBio and Sarepta Therapeutics Tumble 8% in Biotech Rout",
         "These Are 5 Of The Best Stocks To Buy Or Watch Now"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.4648,
-      "price": 916.1699829101562,
-      "rsi": 21.288965775861328,
-      "momentum_5d": 0.006448418319129456,
-      "momentum_1d": -0.03438572145473638,
-      "macd_crossover": false,
-      "atr_pct": 0.007203524558375943,
-      "bollinger_pct_b": 0.3787,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "The Real Risk Inside Home Depot Stock",
-        "How the Mysterious Freedom Fuel Network Could Turn a Profit",
-        "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story."
       ],
       "high_impact_news": true
     },
@@ -1061,7 +1057,7 @@
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.4591,
+      "rank_score": 0.4581,
       "price": 126.77999877929688,
       "rsi": 32.189715231298365,
       "momentum_5d": 0.005076883902071992,
@@ -1071,12 +1067,12 @@
       "bollinger_pct_b": 0.3133,
       "volume_spike": false,
       "volume_spike_ratio": 0.59,
-      "news_sentiment": 0.817,
-      "news_confidence": 0.62,
+      "news_sentiment": 0.814,
+      "news_confidence": 0.61,
       "news_headlines": [
-        "Rackspace Technology (RXT) Rebounds 22% After Brutal Week",
-        "Palantir's 104% U.S. Revenue Growth is the Key Number to Watch",
-        "Defense AI Heats Up: BigBear.ai Lands First European Validation for AI-Powered Airport Screening"
+        "Rackspace Technology Cuts 2026 Outlook as $250M Stock Sale Fuels AI Push",
+        "Palantir CEO: \u201cSomething Has Gone Completely Wrong\u201d With OpenAI and Anthropic",
+        "Rackspace Technology (RXT) Rebounds 22% After Brutal Week"
       ],
       "high_impact_news": true
     }

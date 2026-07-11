@@ -265,8 +265,8 @@
     "mode": "paper",
     "strategy_version": "52",
     "status": "open",
-    "price_trough": 184.55599975585938,
-    "trailing_stop_price": 186.032448
+    "price_trough": 184.5540008544922,
+    "trailing_stop_price": 186.030433
   },
   "COST": {
     "id": "COST_20260709163905",
@@ -297,41 +297,8 @@
     "mode": "paper",
     "strategy_version": "52",
     "status": "open",
-    "price_peak": 915.0,
-    "trailing_stop_price": 907.23165
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260710104046",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1797.02001953125,
-    "entry_time": "2026-07-10T10:40:46.731646+00:00",
-    "stop_loss_pct": 0.00635,
-    "take_profit_pct": 0.01546,
-    "size_usd": 5098.41,
-    "position_size_pct": 0.0504,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (81.1)",
-      "5d momentum +1.08%",
-      "1d momentum +3.00%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 3.4\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge; macro risk"
-    ],
-    "news_sentiment": 0.171,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, July 9: Prices continue sliding on geopolitical tensions",
-      "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-      "Crypto Market Today, July 9: Bitcoin Holds Firm as Risk Appetite Returns Despite Geopolitical Noise"
-    ],
-    "mode": "paper",
-    "strategy_version": "53",
-    "status": "open",
-    "price_trough": 1784.4000244140625,
-    "trailing_stop_price": 1795.730965
+    "price_peak": 916.25,
+    "trailing_stop_price": 908.471037
   },
   "META": {
     "id": "META_20260710153156",
@@ -456,8 +423,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_peak": 10.595000267028809,
-    "trailing_stop_price": 10.462033
+    "price_peak": 10.600000381469727,
+    "trailing_stop_price": 10.46697
   },
   "NKE": {
     "id": "NKE_20260710153156",
@@ -487,7 +454,9 @@
     ],
     "mode": "paper",
     "strategy_version": "53",
-    "status": "open"
+    "status": "open",
+    "price_trough": 44.369998931884766,
+    "trailing_stop_price": 44.807487
   },
   "LYFT": {
     "id": "LYFT_20260710153156",
@@ -548,8 +517,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_trough": 4.690299987792969,
-    "trailing_stop_price": 4.86431
+    "price_trough": 4.679999828338623,
+    "trailing_stop_price": 4.853628
   },
   "LCID": {
     "id": "LCID_20260710185346",
@@ -579,6 +548,35 @@
     ],
     "mode": "paper",
     "strategy_version": "53",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260711042106",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.07428999990224838,
+    "entry_time": "2026-07-11T04:21:06.194435+00:00",
+    "stop_loss_pct": 0.00394,
+    "take_profit_pct": 0.00914,
+    "size_usd": 4194.18,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (62.6)",
+      "5d momentum +0.32%",
+      "1d momentum +0.45%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.128,
+    "news_headlines": [
+      "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+      "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
+      "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
+    ],
+    "mode": "paper",
+    "strategy_version": "54",
     "status": "open"
   }
 }
