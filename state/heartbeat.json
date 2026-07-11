@@ -3,15 +3,15 @@
   "portfolio_balance": 101751.45,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.4,
-  "unrealized_pnl_usd": 1081.69,
-  "equity_value": 102833.14,
+  "unrealized_pnl_usd": 1067.39,
+  "equity_value": 102818.84,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40700.58,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 588,
-  "last_tick": "2026-07-11T12:43:03.891304+00:00",
+  "last_tick": "2026-07-11T14:11:22.118358+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -650,11 +650,11 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "price_peak": 1800.0,
-      "trailing_stop_price": 1793.808,
-      "current_price": 1797.26001,
-      "unrealized_pnl_pct": -0.001494,
-      "unrealized_pnl_usd": -1.35
+      "price_peak": 1803.0699462890625,
+      "trailing_stop_price": 1796.867386,
+      "current_price": 1803.02002,
+      "unrealized_pnl_pct": 0.001706,
+      "unrealized_pnl_usd": 1.54
     },
     {
       "id": "SOL-USD_20260711082231",
@@ -684,11 +684,9 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "price_trough": 77.9000015258789,
-      "trailing_stop_price": 78.186674,
-      "current_price": 77.900002,
-      "unrealized_pnl_pct": 0.001282,
-      "unrealized_pnl_usd": 5.37
+      "current_price": 78.220001,
+      "unrealized_pnl_pct": -0.002821,
+      "unrealized_pnl_usd": -11.82
     }
   ],
   "last_candidates": [
@@ -736,7 +734,7 @@
     },
     {
       "asset": "META",
-      "rank_score": 0.5574,
+      "rank_score": 0.5524,
       "price": 669.3099975585938,
       "rsi": 78.41694255948235,
       "momentum_5d": -0.008010832843112024,
@@ -746,12 +744,12 @@
       "bollinger_pct_b": 0.8362,
       "volume_spike": false,
       "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.657,
+      "news_confidence": 0.35,
       "news_headlines": [
         "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
         "Meta stock turns positive on the year on data center plans, new AI model pricing",
-        "CoreWeave Stock Sank 11% After Mark Zuckerberg's Meta Unveiled a Cloud Business Plan"
+        "Jim Cramer Remains Upbeat About Meta Platforms (META)"
       ],
       "high_impact_news": true
     },
@@ -798,8 +796,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5149,
+      "price": 0.07495000213384628,
+      "rsi": 72.00017029972753,
+      "momentum_5d": 0.011470977827837098,
+      "momentum_1d": 0.015445039681077615,
+      "macd_crossover": false,
+      "atr_pct": 0.003955027663430536,
+      "bollinger_pct_b": 1.2623,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.82,
+      "news_sentiment": 0.128,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "GOOGL",
-      "rank_score": 0.517,
+      "rank_score": 0.5149,
       "price": 356.9100036621094,
       "rsi": 39.039475228802445,
       "momentum_5d": 0.007490952570882655,
@@ -809,18 +828,18 @@
       "bollinger_pct_b": 0.4798,
       "volume_spike": false,
       "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.83,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.822,
+      "news_confidence": 0.45,
       "news_headlines": [
         "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
         "What to expect this earnings season amid lingering Hindenburg Omens",
-        "SK Hynix ETFs Are Coming. Exactly Who Should Own Them."
+        "5 Under the Radar AI Chip Stocks Powering the Data Center Boom"
       ],
       "high_impact_news": true
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.4986,
+      "rank_score": 0.5096,
       "price": 210.9499969482422,
       "rsi": 69.49789246265541,
       "momentum_5d": 0.01141098691301181,
@@ -830,8 +849,8 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.394,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.522,
+      "news_confidence": 0.46,
       "news_headlines": [
         "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
         "Chip stocks regain some ground after whipsaw of a trading week",
@@ -851,12 +870,12 @@
       "bollinger_pct_b": 0.7995,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.134,
-      "news_confidence": 0.67,
+      "news_sentiment": 0.143,
+      "news_confidence": 0.63,
       "news_headlines": [
+        "The S&P 500 Isn\u2019t What You Think It Is Anymore \u2014 Here\u2019s the Uncomfortable Truth",
         "S&P 500, Nasdaq End Week Higher Following Strong SK Hynix Debut \u2014 META, SKHVY, CRCL, BA, DAL In Focus",
-        "He Claimed Social Security at 62 Against His Advisor\u2019s Advice. At 78, His $900,000 Portfolio Says It Was the Right Call.",
-        "Fundstrat\u2019s Tom Lee: July will be stronger for stocks as valuations become more reasonable"
+        "He Claimed Social Security at 62 Against His Advisor\u2019s Advice. At 78, His $900,000 Portfolio Says It Was the Right Call."
       ],
       "high_impact_news": true
     },
@@ -896,9 +915,9 @@
       "news_sentiment": 0.667,
       "news_confidence": 0.54,
       "news_headlines": [
+        "Jim Cramer Has Had Enough With Nike Inc. (NKE)",
         "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today",
-        "NIKE Stock Outlook 2026 as Recovery Stays Uneven Across Markets",
-        "Is NKE Stock a Buy or Value Trap After Its 2026 Reset Effort?"
+        "NIKE Stock Outlook 2026 as Recovery Stays Uneven Across Markets"
       ],
       "high_impact_news": true
     },
@@ -920,6 +939,27 @@
         "McDonald\u2019s (MCD) Stock Trades At A Premium On Cash Flow While Earnings Discount Value",
         "PepsiCo\u2019s $200 Billion Stability Play Is Attracting Dividend Investors",
         "How To Invest In Stocks Using History \u2014 And Unique Analysis From Bill O'Neil"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.4889,
+      "price": 581.5700073242188,
+      "rsi": 77.35163634025591,
+      "momentum_5d": 0.007885320507016366,
+      "momentum_1d": 0.017264290548262666,
+      "macd_crossover": false,
+      "atr_pct": 0.0029992833036835086,
+      "bollinger_pct_b": 1.0645,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.09,
+      "news_sentiment": 0.625,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level",
+        "BNB Chain\u2019s H2 2026 Roadmap Targets AI Agents as BNB Crypto Price Lags Behind"
       ],
       "high_impact_news": true
     },
@@ -946,7 +986,7 @@
     },
     {
       "asset": "AMD",
-      "rank_score": 0.4841,
+      "rank_score": 0.4791,
       "price": 557.989990234375,
       "rsi": 77.41669448750707,
       "momentum_5d": 0.010421297156949885,
@@ -956,18 +996,18 @@
       "bollinger_pct_b": 0.7385,
       "volume_spike": false,
       "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.463,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.318,
+      "news_confidence": 0.44,
       "news_headlines": [
         "Chip stocks regain some ground after whipsaw of a trading week",
-        "Nasdaq's hottest winners just fell behind: Chart of the Day",
-        "Shares of Intel and AMD Have Plummeted in the Last Few Days. Is It Time to Panic?"
+        "Shares of Intel and AMD Have Plummeted in the Last Few Days. Is It Time to Panic?",
+        "SK Hynix ETFs Are Coming. Exactly Who Should Own Them."
       ],
       "high_impact_news": true
     },
     {
       "asset": "C",
-      "rank_score": 0.4753,
+      "rank_score": 0.4723,
       "price": 140.60000610351562,
       "rsi": 76.40714008693418,
       "momentum_5d": -0.0016686235605399618,
@@ -977,12 +1017,12 @@
       "bollinger_pct_b": 0.7313,
       "volume_spike": true,
       "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.643,
-      "news_confidence": 0.63,
+      "news_sentiment": 0.67,
+      "news_confidence": 0.56,
       "news_headlines": [
+        "\u2018The first time ever in my career\u2019: Senior Citi executive on why the ultrawealthy want to diversify away from America",
         "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets",
-        "Q2 Earnings Season Arrives: Can Results Match Upbeat Expectations?",
-        "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today"
+        "Q2 Earnings Season Arrives: Can Results Match Upbeat Expectations?"
       ],
       "high_impact_news": true
     },
@@ -1008,6 +1048,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "COST",
+      "rank_score": 0.4668,
+      "price": 916.1699829101562,
+      "rsi": 21.288965775861328,
+      "momentum_5d": 0.006448418319129456,
+      "momentum_1d": -0.03438572145473638,
+      "macd_crossover": false,
+      "atr_pct": 0.007203524558375943,
+      "bollinger_pct_b": 0.3787,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.289,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
+        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees.",
+        "Costco makes big investment to keep members coming back"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MA",
       "rank_score": 0.4638,
       "price": 526.5,
@@ -1029,86 +1090,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "TGT",
-      "rank_score": 0.4624,
-      "price": 135.1300048828125,
-      "rsi": 63.459929348834805,
-      "momentum_5d": -0.0036129645481229058,
-      "momentum_1d": 0.061591671858718645,
+      "asset": "CVX",
+      "rank_score": 0.4629,
+      "price": 176.38499450683594,
+      "rsi": 53.31351789865496,
+      "momentum_5d": 0.012426778044790528,
+      "momentum_1d": 0.029113977128776627,
       "macd_crossover": false,
-      "atr_pct": 0.009135125072671653,
-      "bollinger_pct_b": 0.7572,
+      "atr_pct": 0.005633262165319119,
+      "bollinger_pct_b": 0.8087,
       "volume_spike": false,
-      "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.282,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 1.43,
+      "news_sentiment": 0.684,
+      "news_confidence": 0.57,
       "news_headlines": [
-        "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story.",
-        "Target Corporation (TGT) Is a Trending Stock: Facts to Know Before Betting on It",
-        "Collect 15% On DASH Stock Now, And Still Keep 21% Of Upside"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.4608,
-      "price": 916.1699829101562,
-      "rsi": 21.288965775861328,
-      "momentum_5d": 0.006448418319129456,
-      "momentum_1d": -0.03438572145473638,
-      "macd_crossover": false,
-      "atr_pct": 0.007203524558375943,
-      "bollinger_pct_b": 0.3787,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.171,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees.",
-        "Costco makes big investment to keep members coming back",
-        "The Real Risk Inside Home Depot Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LLY",
-      "rank_score": 0.4588,
-      "price": 1188.25,
-      "rsi": 32.42773067083769,
-      "momentum_5d": 0.000850720809552256,
-      "momentum_1d": -0.034774955368670056,
-      "macd_crossover": false,
-      "atr_pct": 0.009785826350744643,
-      "bollinger_pct_b": 0.1969,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.769,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Should You Buy Eli Lilly Stock? Here's My Honest Take.",
-        "Eli Lilly (LLY) To Share New Kisunla And Alzheimer\u2019s Blood Test Data At AAIC",
-        "Is Pfizer on Track to Launch Its Next Lipitor -- This Time in the Weight-Loss Market?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "KLAC",
-      "rank_score": 0.4524,
-      "price": 231.21499633789062,
-      "rsi": 64.08304325806793,
-      "momentum_5d": 0.010312209278408048,
-      "momentum_1d": 0.05795009430008309,
-      "macd_crossover": false,
-      "atr_pct": 0.0210071963376907,
-      "bollinger_pct_b": 0.6142,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.589,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "These 5 Chip Stocks Are Riding the AI Fab Spending Wave",
-        "Analysts Think AI Demand Has No Ceiling And Raised AMD\u2019s Price Target Again",
-        "Bloomberg\u2019s Daybreak Desk Says SK Hynix\u2019s Record $26.5 Billion Nasdaq Debut Proves the AI Chip Boom Isn\u2019t Cooling"
+        "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
+        "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative",
+        "Oil Is Spiking and the Iran Ceasefire Is Cracking: What It Means for Your Stocks"
       ],
       "high_impact_news": true
     }
