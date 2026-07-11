@@ -3,15 +3,15 @@
   "portfolio_balance": 101730.65,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.42,
-  "unrealized_pnl_usd": 1067.33,
-  "equity_value": 102797.98,
+  "unrealized_pnl_usd": 1062.13,
+  "equity_value": 102792.78,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40692.26,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 590,
-  "last_tick": "2026-07-11T20:25:31.330788+00:00",
+  "last_tick": "2026-07-11T21:13:33.088037+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -652,9 +652,9 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 1824.23999,
-      "unrealized_pnl_pct": -0.002032,
-      "unrealized_pnl_usd": -10.34
+      "current_price": 1826.099976,
+      "unrealized_pnl_pct": -0.003054,
+      "unrealized_pnl_usd": -15.54
     }
   ],
   "last_candidates": [
@@ -701,6 +701,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.561,
+      "price": 1826.0999755859375,
+      "rsi": 81.47404999439524,
+      "momentum_5d": 0.0022447548577620683,
+      "momentum_1d": 0.018415252158584118,
+      "macd_crossover": false,
+      "atr_pct": 0.004183372307525057,
+      "bollinger_pct_b": 0.8938,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.737,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Ripple's stablecoin is fading away on popular chain, XRP crashes",
+        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
+        "Bitcoin and Ethereum ETFs Flip Positive After 8 Weeks: Will Price React?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "META",
       "rank_score": 0.5474,
       "price": 669.3099975585938,
@@ -716,8 +737,8 @@
       "news_confidence": 0.32,
       "news_headlines": [
         "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
-        "What Meta's Muse AI image tool means for Instagram privacy",
-        "Constellation Energy Is Helping Solve the AI Power Crunch. Here's Why You Shouldn't Hesitate to Buy It Right Now."
+        "Constellation Energy Is Helping Solve the AI Power Crunch. Here's Why You Shouldn't Hesitate to Buy It Right Now.",
+        "Meta's Most Important AI Customer Might Be Meta"
       ],
       "high_impact_news": true
     },
@@ -764,29 +785,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.5106,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.532,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
-        "Dow Jones Futures: Market Ready To Go? Nvidia, Micron, Sandisk Near Buy Points With Big Earnings Due",
-        "Artificial Intelligence (AI) Stocks Have Crushed the Broader Market in 2026. Here Are 2 Top Stocks to Buy Before They Soar Higher This Earnings Season and Beyond"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "GOOGL",
-      "rank_score": 0.507,
+      "rank_score": 0.5149,
       "price": 356.9100036621094,
       "rsi": 39.039475228802445,
       "momentum_5d": 0.007490952570882655,
@@ -796,12 +796,75 @@
       "bollinger_pct_b": 0.4798,
       "volume_spike": false,
       "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.822,
+      "news_confidence": 0.45,
       "news_headlines": [
         "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
-        "What Meta's Muse AI image tool means for Instagram privacy",
-        "Berkshire Hathaway (BRK.A) Is Making An $8.5 Billion Bet On Homes And AI"
+        "Berkshire Hathaway (BRK.A) Is Making An $8.5 Billion Bet On Homes And AI",
+        "Meta's Most Important AI Customer Might Be Meta"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NVDA",
+      "rank_score": 0.5126,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
+      "macd_crossover": false,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.692,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
+        "2 Beaten-Down Stocks That Still Aren't Worth Buying",
+        "5 Top AI Stocks Investors Own on Robinhood"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5109,
+      "price": 64333.30078125,
+      "rsi": 62.51008326684622,
+      "momentum_5d": 0.0031276084214034664,
+      "momentum_1d": 0.005673280058757664,
+      "macd_crossover": false,
+      "atr_pct": 0.0024447571469990424,
+      "bollinger_pct_b": 0.9711,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.03,
+      "news_sentiment": 0.282,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Oil Is Below $76. So Why Is Bitcoin Still Below $65,000?",
+        "Bitcoin dropped 2% then rebounded after Trump said he's 'a big crypto guy' \u2014 here are experts takes on buying the dip",
+        "Eric Trump Said 'Just Hold On' While Bitcoin Erased $600M From His Fortune"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SPY",
+      "rank_score": 0.5013,
+      "price": 754.9000244140625,
+      "rsi": 93.21042202962825,
+      "momentum_5d": 0.0021905402111682707,
+      "momentum_1d": 0.008092512874933929,
+      "macd_crossover": false,
+      "atr_pct": 0.002390971865430808,
+      "bollinger_pct_b": 0.7995,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.58,
+      "news_sentiment": 0.231,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "This Covered Call ETF Just Proved Double Digit Income Doesn\u2019t Mean NAV Bleed",
+        "The 2 Best (and 1 Worst) Single-Country ETFs to Buy from the World Cup\u2019s Round of 16",
+        "The Retirement Budget Most People Build Is Backward"
       ],
       "high_impact_news": true
     },
@@ -823,27 +886,6 @@
         "Sector Update: Energy Stocks Advance Pre-Bell Friday",
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
         "Sector Update: Energy Stocks Decline Pre-Bell Thursday"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.4962,
-      "price": 1.1146999597549438,
-      "rsi": 71.73880650197924,
-      "momentum_5d": 0.002067515920290526,
-      "momentum_1d": 0.010332624502830911,
-      "macd_crossover": false,
-      "atr_pct": 0.0035820002628657436,
-      "bollinger_pct_b": 0.8662,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "XRP Ledger Activity Hits a Rare Low as XRP Price Slides 3%",
-        "XRP Demand Cools Across 3 Metrics, but Funding Hints at Rebound",
-        "XRP Price Outlook: Where This Crypto Could Stand in 3 Years"
       ],
       "high_impact_news": true
     },
@@ -886,27 +928,6 @@
         "Wendy\u2019s Vs. McDonald\u2019s: Buy Wendy\u2019s to Ride the \u2018Project Fresh\u2019 Short-Squeeze Momentum and Avoid McDonald\u2019s",
         "McDonald\u2019s (MCD) Stock Trades At A Premium On Cash Flow While Earnings Discount Value",
         "PepsiCo\u2019s $200 Billion Stability Play Is Attracting Dividend Investors"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SPY",
-      "rank_score": 0.4893,
-      "price": 754.9000244140625,
-      "rsi": 93.21042202962825,
-      "momentum_5d": 0.0021905402111682707,
-      "momentum_1d": 0.008092512874933929,
-      "macd_crossover": false,
-      "atr_pct": 0.002390971865430808,
-      "bollinger_pct_b": 0.7995,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "This Covered Call ETF Just Proved Double Digit Income Doesn\u2019t Mean NAV Bleed",
-        "The Retirement Budget Most People Build Is Backward",
-        "The S&P 500 Isn\u2019t What You Think It Is Anymore \u2014 Here\u2019s the Uncomfortable Truth"
       ],
       "high_impact_news": true
     },
@@ -954,7 +975,7 @@
     },
     {
       "asset": "VRTX",
-      "rank_score": 0.472,
+      "rank_score": 0.4726,
       "price": 485.3500061035156,
       "rsi": 33.89786706178285,
       "momentum_5d": -0.0010805122644391562,
@@ -964,33 +985,12 @@
       "bollinger_pct_b": 0.2799,
       "volume_spike": false,
       "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.652,
+      "news_confidence": 0.46,
       "news_headlines": [
+        "Vertex Pharmaceuticals Bets $10 Billion on Crinetics to Build Endocrinology Powerhouse",
         "Is This Biotech Stock a Buy Near Its 52-Week High?",
-        "Why This Pharmaceutical Stock Jumped Close to 100% This Week",
-        "If You Invested $1000 in Vertex Pharmaceuticals a Decade Ago, This is How Much It'd Be Worth Now"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.4679,
-      "price": 1824.239990234375,
-      "rsi": 80.97173450002879,
-      "momentum_5d": 0.0059111399861446505,
-      "momentum_1d": 0.019783668351978766,
-      "macd_crossover": false,
-      "atr_pct": 0.0040944575266780026,
-      "bollinger_pct_b": 0.9039,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.81,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
-        "Bitcoin and Ethereum ETFs Flip Positive After 8 Weeks: Will Price React?",
-        "Barclays, Morgan Stanley boost Robinhood price target by up to 50%"
+        "Why This Pharmaceutical Stock Jumped Close to 100% This Week"
       ],
       "high_impact_news": true
     },
@@ -1012,27 +1012,6 @@
         "How Mastercard\u2019s New AP4M Machine Payments Platform Will Impact Mastercard (MA) Investors",
         "Can AmEx's AI Investments Unlock the Next Phase of Growth?",
         "Mastercard Stock Falls Below 200-Day SMA: Buy the Dip or Wait?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.4632,
-      "price": 6.75,
-      "rsi": 66.66666666666666,
-      "momentum_5d": 0.0,
-      "momentum_1d": 0.0014837135343369458,
-      "macd_crossover": false,
-      "atr_pct": 0.004232820379670966,
-      "bollinger_pct_b": 0.8083,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.05,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
-        "NEC Taps Avalanche for Biometric-Verified Stablecoin Payments Framework",
-        "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?"
       ],
       "high_impact_news": true
     },
@@ -1075,6 +1054,27 @@
         "Chevron May Have Unlocked a Powerful New Growth Engine",
         "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
         "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.4608,
+      "price": 916.1699829101562,
+      "rsi": 21.288965775861328,
+      "momentum_5d": 0.006448418319129456,
+      "momentum_1d": -0.03438572145473638,
+      "macd_crossover": false,
+      "atr_pct": 0.007203524558375943,
+      "bollinger_pct_b": 0.3787,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.171,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Dollar Tree makes key move to keep popular items in stock",
+        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
+        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
       ],
       "high_impact_news": true
     }
