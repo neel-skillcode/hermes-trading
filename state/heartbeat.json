@@ -3,15 +3,15 @@
   "portfolio_balance": 101730.65,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.42,
-  "unrealized_pnl_usd": 1069.67,
-  "equity_value": 102800.32,
+  "unrealized_pnl_usd": 1082.86,
+  "equity_value": 102813.51,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40692.26,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 590,
-  "last_tick": "2026-07-11T18:10:02.606883+00:00",
+  "last_tick": "2026-07-11T19:30:17.793922+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -652,9 +652,11 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 1823.400024,
-      "unrealized_pnl_pct": -0.001571,
-      "unrealized_pnl_usd": -7.99
+      "price_trough": 1818.9599609375,
+      "trailing_stop_price": 1825.635544,
+      "current_price": 1818.680054,
+      "unrealized_pnl_pct": 0.001022,
+      "unrealized_pnl_usd": 5.2
     }
   ],
   "last_candidates": [
@@ -701,8 +703,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.5683,
+      "price": 1818.6800537109375,
+      "rsi": 72.39018584541495,
+      "momentum_5d": 0.0049899312988978565,
+      "momentum_1d": 0.01539272774137513,
+      "macd_crossover": false,
+      "atr_pct": 0.004308853426560716,
+      "bollinger_pct_b": 0.8538,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.64,
+      "news_sentiment": 0.737,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
+        "Bitcoin and Ethereum ETFs Flip Positive After 8 Weeks: Will Price React?",
+        "Barclays, Morgan Stanley boost Robinhood price target by up to 50%"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "META",
-      "rank_score": 0.5474,
+      "rank_score": 0.5524,
       "price": 669.3099975585938,
       "rsi": 78.41694255948235,
       "momentum_5d": -0.008010832843112024,
@@ -712,33 +735,12 @@
       "bollinger_pct_b": 0.8362,
       "volume_spike": false,
       "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.562,
-      "news_confidence": 0.32,
+      "news_sentiment": 0.657,
+      "news_confidence": 0.35,
       "news_headlines": [
         "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
-        "Meta's Most Important AI Customer Might Be Meta",
-        "Jim Cramer Remains Upbeat About Meta Platforms (META)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.5359,
-      "price": 1823.4000244140625,
-      "rsi": 84.19414119951823,
-      "momentum_5d": 0.012128431069761567,
-      "momentum_1d": 0.022325922773575983,
-      "macd_crossover": false,
-      "atr_pct": 0.004105352766586097,
-      "bollinger_pct_b": 1.0202,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.23,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
-        "Bitcoin and Ethereum ETFs Flip Positive After 8 Weeks: Will Price React?",
-        "Barclays, Morgan Stanley boost Robinhood price target by up to 50%"
+        "Constellation Energy Is Helping Solve the AI Power Crunch. Here's Why You Shouldn't Hesitate to Buy It Right Now.",
+        "Meta's Most Important AI Customer Might Be Meta"
       ],
       "high_impact_news": true
     },
@@ -764,27 +766,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.5226,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.86,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
-        "Picking the Winners of the Honeywell Breakup",
-        "This Nuclear Stock Is Down 30% This Year -- Here's 1 Reason It Could Be a Screaming Buy Right Now"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "IONQ",
       "rank_score": 0.5207,
       "price": 42.8849983215332,
@@ -806,6 +787,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5174,
+      "price": 0.0751200020313263,
+      "rsi": 68.94761402449306,
+      "momentum_5d": -0.0001330850401506261,
+      "momentum_1d": 0.013628399509554558,
+      "macd_crossover": false,
+      "atr_pct": 0.004982511879357047,
+      "bollinger_pct_b": 0.8598,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.12,
+      "news_sentiment": 0.128,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Legendary Hedge Fund Manager Says SpaceX Is \u2018The Equivalent Of Dogecoin\u2019 And Bitcoin Is The One That's Actually Cheap",
+        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "GOOGL",
       "rank_score": 0.5079,
       "price": 356.9100036621094,
@@ -823,6 +825,48 @@
         "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
         "Meta's Most Important AI Customer Might Be Meta",
         "5 Under the Radar AI Chip Stocks Powering the Data Center Boom"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NVDA",
+      "rank_score": 0.5066,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
+      "macd_crossover": false,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.488,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
+        "SK Hynix's Nasdaq Debut Just Became the Largest U.S. Listing by a Foreign Company",
+        "Coca-Cola Is Crushing the S&P 500 and Nasdaq-100. But There's an Even Better Reason to Buy the Stock in July."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.5005,
+      "price": 1.1145000457763672,
+      "rsi": 72.16480275285731,
+      "momentum_5d": 0.0013477182775040082,
+      "momentum_1d": 0.009053861441792304,
+      "macd_crossover": false,
+      "atr_pct": 0.0036659586385421076,
+      "bollinger_pct_b": 0.9014,
+      "volume_spike": true,
+      "volume_spike_ratio": 1449.8,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "XRP Ledger Activity Hits a Rare Low as XRP Price Slides 3%",
+        "XRP Demand Cools Across 3 Metrics, but Funding Hints at Rebound",
+        "XRP Price Outlook: Where This Crypto Could Stand in 3 Years"
       ],
       "high_impact_news": true
     },
@@ -911,6 +955,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMD",
+      "rank_score": 0.4891,
+      "price": 557.989990234375,
+      "rsi": 77.41669448750707,
+      "momentum_5d": 0.010421297156949885,
+      "momentum_1d": 0.07046383720336606,
+      "macd_crossover": false,
+      "atr_pct": 0.018137525205971564,
+      "bollinger_pct_b": 0.7385,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.61,
+      "news_sentiment": 0.48,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Coca-Cola Is Crushing the S&P 500 and Nasdaq-100. But There's an Even Better Reason to Buy the Stock in July.",
+        "5-star analyst sends AMD stock investors a warning",
+        "Cathie Wood-led ARK Invest Buys Coinbase, Trails Only SpaceX Among Friday's Top Buys"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SOFI",
       "rank_score": 0.4852,
       "price": 18.795000076293945,
@@ -928,27 +993,6 @@
         "Are AI Agents SoFi Stock's Next Big Catalyst?",
         "Is Dave's ARPU Growth Story Still Gaining Momentum in 2026?",
         "The Standoff Over PYPL Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.4841,
-      "price": 557.989990234375,
-      "rsi": 77.41669448750707,
-      "momentum_5d": 0.010421297156949885,
-      "momentum_1d": 0.07046383720336606,
-      "macd_crossover": false,
-      "atr_pct": 0.018137525205971564,
-      "bollinger_pct_b": 0.7385,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.404,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "5-star analyst sends AMD stock investors a warning",
-        "Cathie Wood-led ARK Invest Buys Coinbase, Trails Only SpaceX Among Friday's Top Buys",
-        "Shares of Intel and AMD Have Plummeted in the Last Few Days. Is It Time to Panic?"
       ],
       "high_impact_news": true
     },
@@ -1033,48 +1077,6 @@
         "Chevron May Have Unlocked a Powerful New Growth Engine",
         "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
         "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.4608,
-      "price": 916.1699829101562,
-      "rsi": 21.288965775861328,
-      "momentum_5d": 0.006448418319129456,
-      "momentum_1d": -0.03438572145473638,
-      "macd_crossover": false,
-      "atr_pct": 0.007203524558375943,
-      "bollinger_pct_b": 0.3787,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.171,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Dollar Tree makes key move to keep popular items in stock",
-        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
-        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "C",
-      "rank_score": 0.4583,
-      "price": 140.60000610351562,
-      "rsi": 76.40714008693418,
-      "momentum_5d": -0.0016686235605399618,
-      "momentum_1d": -0.010416636461610581,
-      "macd_crossover": false,
-      "atr_pct": 0.005745378790197303,
-      "bollinger_pct_b": 0.7313,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.42,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
-        "\u2018The first time ever in my career\u2019: Senior Citi executive on why the ultrawealthy want to diversify away from America",
-        "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets"
       ],
       "high_impact_news": true
     }
