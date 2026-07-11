@@ -3,15 +3,15 @@
   "portfolio_balance": 101730.65,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.42,
-  "unrealized_pnl_usd": 1105.33,
-  "equity_value": 102835.98,
+  "unrealized_pnl_usd": 1080.43,
+  "equity_value": 102811.08,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40692.26,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 590,
-  "last_tick": "2026-07-11T16:11:47.334012+00:00",
+  "last_tick": "2026-07-11T17:15:48.511909+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -652,11 +652,11 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "price_trough": 1811.1800537109375,
-      "trailing_stop_price": 1817.827085,
-      "current_price": 1810.640015,
-      "unrealized_pnl_pct": 0.005438,
-      "unrealized_pnl_usd": 27.67
+      "price_trough": 1819.56005859375,
+      "trailing_stop_price": 1826.237844,
+      "current_price": 1819.550049,
+      "unrealized_pnl_pct": 0.000544,
+      "unrealized_pnl_usd": 2.77
     }
   ],
   "last_candidates": [
@@ -724,6 +724,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.5511,
+      "price": 1819.550048828125,
+      "rsi": 78.78096479791395,
+      "momentum_5d": 0.011614209606855906,
+      "momentum_1d": 0.01836308515680905,
+      "macd_crossover": false,
+      "atr_pct": 0.003927965382649259,
+      "bollinger_pct_b": 1.0511,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.737,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks",
+        "Bitcoin and Ethereum ETFs Flip Positive After 8 Weeks: Will Price React?",
+        "Barclays, Morgan Stanley boost Robinhood price target by up to 50%"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5359,
       "price": 283.739990234375,
@@ -766,29 +787,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "GOOGL",
-      "rank_score": 0.5159,
-      "price": 356.9100036621094,
-      "rsi": 39.039475228802445,
-      "momentum_5d": 0.007490952570882655,
-      "momentum_1d": -0.03516979155864614,
-      "macd_crossover": true,
-      "atr_pct": 0.007655558972904075,
-      "bollinger_pct_b": 0.4798,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.826,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
-        "5 Under the Radar AI Chip Stocks Powering the Data Center Boom",
-        "Crypto Industry Steps Up Quantum Security Efforts as Encryption Risks Accelerate"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "NVDA",
-      "rank_score": 0.5006,
+      "rank_score": 0.5176,
       "price": 210.9499969482422,
       "rsi": 69.49789246265541,
       "momentum_5d": 0.01141098691301181,
@@ -798,12 +798,33 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.366,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.8,
+      "news_confidence": 0.4,
       "news_headlines": [
         "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
-        "Super Micro Computer (SMCI) Introduces DCBBS Blueprint for HPC",
-        "Nvidia CEO Jensen Huang Said AI's \"Most Profound Impact Will Be in Life Sciences.\" Does This Bet on a Biotech Stock Prove He Means It?"
+        "If You Invest $5,000 in SCHD Today, Here's the Passive Income It Could Deliver in 20 Years",
+        "Skip ARKK\u2019s Moonshots: This Fund Owns the AI Software Winners for 0.45%"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.5149,
+      "price": 356.9100036621094,
+      "rsi": 39.039475228802445,
+      "momentum_5d": 0.007490952570882655,
+      "momentum_1d": -0.03516979155864614,
+      "macd_crossover": true,
+      "atr_pct": 0.007655558972904075,
+      "bollinger_pct_b": 0.4798,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.83,
+      "news_sentiment": 0.822,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
+        "Skip ARKK\u2019s Moonshots: This Fund Owns the AI Software Winners for 0.45%",
+        "5 Under the Radar AI Chip Stocks Powering the Data Center Boom"
       ],
       "high_impact_news": true
     },
@@ -871,6 +892,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMD",
+      "rank_score": 0.4911,
+      "price": 557.989990234375,
+      "rsi": 77.41669448750707,
+      "momentum_5d": 0.010421297156949885,
+      "momentum_1d": 0.07046383720336606,
+      "macd_crossover": false,
+      "atr_pct": 0.018137525205971564,
+      "bollinger_pct_b": 0.7385,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.61,
+      "news_sentiment": 0.565,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Skip ARKK\u2019s Moonshots: This Fund Owns the AI Software Winners for 0.45%",
+        "Cathie Wood-led ARK Invest Buys Coinbase, Trails Only SpaceX Among Friday's Top Buys",
+        "Shares of Intel and AMD Have Plummeted in the Last Few Days. Is It Time to Panic?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SPY",
       "rank_score": 0.4893,
       "price": 754.9000244140625,
@@ -909,27 +951,6 @@
         "Are AI Agents SoFi Stock's Next Big Catalyst?",
         "Is Dave's ARPU Growth Story Still Gaining Momentum in 2026?",
         "The Standoff Over PYPL Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.4791,
-      "price": 557.989990234375,
-      "rsi": 77.41669448750707,
-      "momentum_5d": 0.010421297156949885,
-      "momentum_1d": 0.07046383720336606,
-      "macd_crossover": false,
-      "atr_pct": 0.018137525205971564,
-      "bollinger_pct_b": 0.7385,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.318,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Shares of Intel and AMD Have Plummeted in the Last Few Days. Is It Time to Panic?",
-        "SK Hynix ETFs Are Coming. Exactly Who Should Own Them.",
-        "Rackspace Technology (RXT) Is Down 6.6% After Revenue Cut And Dilutive AI Pivot Announcement \u2013 Has The Bull Case Changed?"
       ],
       "high_impact_news": true
     },
@@ -976,27 +997,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "CVX",
-      "rank_score": 0.4629,
-      "price": 176.38499450683594,
-      "rsi": 53.31351789865496,
-      "momentum_5d": 0.012426778044790528,
-      "momentum_1d": 0.029113977128776627,
-      "macd_crossover": false,
-      "atr_pct": 0.005633262165319119,
-      "bollinger_pct_b": 0.8087,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.684,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
-        "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative",
-        "Oil Is Spiking and the Iran Ceasefire Is Cracking: What It Means for Your Stocks"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "TGT",
       "rank_score": 0.4624,
       "price": 135.1300048828125,
@@ -1014,6 +1014,27 @@
         "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story.",
         "Target Corporation (TGT) Is a Trending Stock: Facts to Know Before Betting on It",
         "Collect 15% On DASH Stock Now, And Still Keep 21% Of Upside"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "CVX",
+      "rank_score": 0.4609,
+      "price": 176.38499450683594,
+      "rsi": 53.31351789865496,
+      "momentum_5d": 0.012426778044790528,
+      "momentum_1d": 0.029113977128776627,
+      "macd_crossover": false,
+      "atr_pct": 0.005633262165319119,
+      "bollinger_pct_b": 0.8087,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.43,
+      "news_sentiment": 0.673,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Chevron May Have Unlocked a Powerful New Growth Engine",
+        "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
+        "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative"
       ],
       "high_impact_news": true
     },
@@ -1056,27 +1077,6 @@
         "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
         "\u2018The first time ever in my career\u2019: Senior Citi executive on why the ultrawealthy want to diversify away from America",
         "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "KLAC",
-      "rank_score": 0.4524,
-      "price": 231.21499633789062,
-      "rsi": 64.08304325806793,
-      "momentum_5d": 0.010312209278408048,
-      "momentum_1d": 0.05795009430008309,
-      "macd_crossover": false,
-      "atr_pct": 0.0210071963376907,
-      "bollinger_pct_b": 0.6142,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.589,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "These 5 Chip Stocks Are Riding the AI Fab Spending Wave",
-        "Analysts Think AI Demand Has No Ceiling And Raised AMD\u2019s Price Target Again",
-        "Bloomberg\u2019s Daybreak Desk Says SK Hynix\u2019s Record $26.5 Billion Nasdaq Debut Proves the AI Chip Boom Isn\u2019t Cooling"
       ],
       "high_impact_news": true
     }
