@@ -3,15 +3,15 @@
   "portfolio_balance": 101751.45,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.4,
-  "unrealized_pnl_usd": 1077.69,
-  "equity_value": 102829.14,
+  "unrealized_pnl_usd": 1085.56,
+  "equity_value": 102837.01,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40700.58,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 588,
-  "last_tick": "2026-07-11T08:22:31.139568+00:00",
+  "last_tick": "2026-07-11T09:54:14.813005+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -652,9 +652,9 @@
       "status": "open",
       "price_peak": 1800.0,
       "trailing_stop_price": 1793.808,
-      "current_price": 1799.98999,
-      "unrealized_pnl_pct": 2.2e-05,
-      "unrealized_pnl_usd": 0.02
+      "current_price": 1796.420044,
+      "unrealized_pnl_pct": -0.001961,
+      "unrealized_pnl_usd": -1.78
     },
     {
       "id": "SOL-USD_20260711082231",
@@ -684,9 +684,11 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 78.0,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 77.83999633789062,
+      "trailing_stop_price": 78.126448,
+      "current_price": 77.82,
+      "unrealized_pnl_pct": 0.002308,
+      "unrealized_pnl_usd": 9.67
     }
   ],
   "last_candidates": [
@@ -754,6 +756,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5373,
+      "price": 6.679999828338623,
+      "rsi": 31.250167636724512,
+      "momentum_5d": -0.005952375461590092,
+      "momentum_1d": -0.010370395801685474,
+      "macd_crossover": false,
+      "atr_pct": 0.003635592794721139,
+      "bollinger_pct_b": -0.0131,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.97,
+      "news_sentiment": 0.538,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+        "NEC Taps Avalanche for Biometric-Verified Stablecoin Payments Framework",
+        "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5359,
       "price": 283.739990234375,
@@ -797,7 +820,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.5109,
+      "rank_score": 0.5099,
       "price": 356.9100036621094,
       "rsi": 39.039475228802445,
       "momentum_5d": 0.007490952570882655,
@@ -807,8 +830,8 @@
       "bollinger_pct_b": 0.4798,
       "volume_spike": false,
       "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.767,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.42,
       "news_headlines": [
         "What Meta's Muse AI image tool means for Instagram privacy",
         "Why Microsoft is not this portfolio manager's stock pick",
@@ -818,7 +841,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5056,
+      "rank_score": 0.4986,
       "price": 210.9499969482422,
       "rsi": 69.49789246265541,
       "momentum_5d": 0.01141098691301181,
@@ -828,8 +851,8 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.32,
+      "news_sentiment": 0.351,
+      "news_confidence": 0.37,
       "news_headlines": [
         "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
         "Chip stocks regain some ground after whipsaw of a trading week",
@@ -1083,30 +1106,9 @@
       "news_sentiment": 0.769,
       "news_confidence": 0.52,
       "news_headlines": [
+        "Should You Buy Eli Lilly Stock? Here's My Honest Take.",
         "Eli Lilly (LLY) To Share New Kisunla And Alzheimer\u2019s Blood Test Data At AAIC",
-        "Is Pfizer on Track to Launch Its Next Lipitor -- This Time in the Weight-Loss Market?",
-        "Moderna Drops 11%, ImmunityBio and Sarepta Therapeutics Tumble 8% in Biotech Rout"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "KLAC",
-      "rank_score": 0.4524,
-      "price": 231.21499633789062,
-      "rsi": 64.08304325806793,
-      "momentum_5d": 0.010312209278408048,
-      "momentum_1d": 0.05795009430008309,
-      "macd_crossover": false,
-      "atr_pct": 0.0210071963376907,
-      "bollinger_pct_b": 0.6142,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.589,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Analysts Think AI Demand Has No Ceiling And Raised AMD\u2019s Price Target Again",
-        "Bloomberg\u2019s Daybreak Desk Says SK Hynix\u2019s Record $26.5 Billion Nasdaq Debut Proves the AI Chip Boom Isn\u2019t Cooling",
-        "ASML Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
+        "Is Pfizer on Track to Launch Its Next Lipitor -- This Time in the Weight-Loss Market?"
       ],
       "high_impact_news": true
     }
