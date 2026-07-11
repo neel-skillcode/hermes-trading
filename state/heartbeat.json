@@ -3,15 +3,15 @@
   "portfolio_balance": 101761.05,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.39,
-  "unrealized_pnl_usd": 1077.67,
-  "equity_value": 102838.71,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "unrealized_pnl_usd": 1087.26,
+  "equity_value": 102848.31,
+  "open_positions": 20,
+  "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39798.98,
+  "day_capital_used_usd": 40704.42,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 587,
-  "last_tick": "2026-07-11T04:21:06.196580+00:00",
+  "last_tick": "2026-07-11T06:32:50.748394+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -650,7 +650,41 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 0.07429,
+      "price_peak": 0.0744599997997284,
+      "trailing_stop_price": 0.074167,
+      "current_price": 0.07446,
+      "unrealized_pnl_pct": 0.002288,
+      "unrealized_pnl_usd": 9.6
+    },
+    {
+      "id": "ETH-USD_20260711063250",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1799.949951171875,
+      "entry_time": "2026-07-11T06:32:50.746172+00:00",
+      "stop_loss_pct": 0.00344,
+      "take_profit_pct": 0.00785,
+      "size_usd": 905.44,
+      "position_size_pct": 0.0089,
+      "confidence": 0.564,
+      "signals": [
+        "5d momentum +0.66%",
+        "1d momentum +1.69%",
+        "Volume spike 3.3\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.349,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
+        "Weekly Wrap: Bitcoin Has A Winning Week",
+        "The Worst Performing ETFs of 2026 So Far"
+      ],
+      "mode": "paper",
+      "strategy_version": "54",
+      "status": "open",
+      "current_price": 1799.949951,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -678,6 +712,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5966,
+      "price": 0.0744599997997284,
+      "rsi": 58.235343100947105,
+      "momentum_5d": 0.006080261709572521,
+      "momentum_1d": 0.007986957500526493,
+      "macd_crossover": true,
+      "atr_pct": 0.00440313561920726,
+      "bollinger_pct_b": 0.9563,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.72,
+      "news_sentiment": 0.128,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRNA",
       "rank_score": 0.5828,
       "price": 68.26499938964844,
@@ -700,7 +755,7 @@
     },
     {
       "asset": "META",
-      "rank_score": 0.5584,
+      "rank_score": 0.5574,
       "price": 669.3099975585938,
       "rsi": 78.41694255948235,
       "momentum_5d": -0.008010832843112024,
@@ -710,12 +765,12 @@
       "bollinger_pct_b": 0.8362,
       "volume_spike": false,
       "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.737,
+      "news_confidence": 0.38,
       "news_headlines": [
         "What Meta's Muse AI image tool means for Instagram privacy",
         "Why Microsoft is not this portfolio manager's stock pick",
-        "Mark Zuckerberg Is Turning Meta Into a Bigger Chipmaker. Its Newest In-House AI Chip Enters Production in September."
+        "The 2 Magnificent Seven Stocks With the Most Upside Potential, According to Wall Street"
       ],
       "high_impact_news": true
     },
@@ -763,7 +818,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5136,
+      "rank_score": 0.5197,
       "price": 210.9499969482422,
       "rsi": 69.49789246265541,
       "momentum_5d": 0.01141098691301181,
@@ -773,12 +828,54 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.7,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
       "news_headlines": [
         "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
         "Chip stocks regain some ground after whipsaw of a trading week",
         "Why you should care about SK Hynix's IPO"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.5109,
+      "price": 356.9100036621094,
+      "rsi": 39.039475228802445,
+      "momentum_5d": 0.007490952570882655,
+      "momentum_1d": -0.03516979155864614,
+      "macd_crossover": true,
+      "atr_pct": 0.007655558972904075,
+      "bollinger_pct_b": 0.4798,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.83,
+      "news_sentiment": 0.767,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "What Meta's Muse AI image tool means for Instagram privacy",
+        "Why Microsoft is not this portfolio manager's stock pick",
+        "SK Hynix ETFs Are Coming. Exactly Who Should Own Them."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5061,
+      "price": 1799.949951171875,
+      "rsi": 54.06624007881654,
+      "momentum_5d": 0.006615862518730016,
+      "momentum_1d": 0.01691512547446807,
+      "macd_crossover": false,
+      "atr_pct": 0.00414097749842491,
+      "bollinger_pct_b": 0.8381,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.32,
+      "news_sentiment": 0.349,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
+        "Weekly Wrap: Bitcoin Has A Winning Week",
+        "The Worst Performing ETFs of 2026 So Far"
       ],
       "high_impact_news": true
     },
@@ -867,27 +964,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "GOOGL",
-      "rank_score": 0.4939,
-      "price": 356.9100036621094,
-      "rsi": 39.039475228802445,
-      "momentum_5d": 0.007490952570882655,
-      "momentum_1d": -0.03516979155864614,
-      "macd_crossover": true,
-      "atr_pct": 0.007655558972904075,
-      "bollinger_pct_b": 0.4798,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.381,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "What Meta's Muse AI image tool means for Instagram privacy",
-        "Why Microsoft is not this portfolio manager's stock pick",
-        "Has Meta ever had a stock split? What sets this \u2018Mag 7\u2019 stock apart"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SOFI",
       "rank_score": 0.4852,
       "price": 18.795000076293945,
@@ -909,6 +985,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMD",
+      "rank_score": 0.4791,
+      "price": 557.989990234375,
+      "rsi": 77.41669448750707,
+      "momentum_5d": 0.010421297156949885,
+      "momentum_1d": 0.07046383720336606,
+      "macd_crossover": false,
+      "atr_pct": 0.018137525205971564,
+      "bollinger_pct_b": 0.7385,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.61,
+      "news_sentiment": 0.318,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Chip stocks regain some ground after whipsaw of a trading week",
+        "Nasdaq's hottest winners just fell behind: Chart of the Day",
+        "SK Hynix ETFs Are Coming. Exactly Who Should Own Them."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "C",
       "rank_score": 0.4753,
       "price": 140.60000610351562,
@@ -926,27 +1023,6 @@
         "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets",
         "Q2 Earnings Season Arrives: Can Results Match Upbeat Expectations?",
         "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.4741,
-      "price": 557.989990234375,
-      "rsi": 77.41669448750707,
-      "momentum_5d": 0.010421297156949885,
-      "momentum_1d": 0.07046383720336606,
-      "macd_crossover": false,
-      "atr_pct": 0.018137525205971564,
-      "bollinger_pct_b": 0.7385,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.243,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Chip stocks regain some ground after whipsaw of a trading week",
-        "Nasdaq's hottest winners just fell behind: Chart of the Day",
-        "Advanced Micro Devices vs. Texas Instruments: Which Technology Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     },
@@ -993,27 +1069,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "LLY",
-      "rank_score": 0.4648,
-      "price": 1188.25,
-      "rsi": 32.42773067083769,
-      "momentum_5d": 0.000850720809552256,
-      "momentum_1d": -0.034774955368670056,
-      "macd_crossover": false,
-      "atr_pct": 0.009785826350744643,
-      "bollinger_pct_b": 0.1969,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.821,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Is Pfizer on Track to Launch Its Next Lipitor -- This Time in the Weight-Loss Market?",
-        "Moderna Drops 11%, ImmunityBio and Sarepta Therapeutics Tumble 8% in Biotech Rout",
-        "These Are 5 Of The Best Stocks To Buy Or Watch Now"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MA",
       "rank_score": 0.4638,
       "price": 526.5,
@@ -1052,27 +1107,6 @@
         "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story.",
         "Target Corporation (TGT) Is a Trending Stock: Facts to Know Before Betting on It",
         "Collect 15% On DASH Stock Now, And Still Keep 21% Of Upside"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PLTR",
-      "rank_score": 0.4581,
-      "price": 126.77999877929688,
-      "rsi": 32.189715231298365,
-      "momentum_5d": 0.005076883902071992,
-      "momentum_1d": -0.07947000790831232,
-      "macd_crossover": false,
-      "atr_pct": 0.01506985969087171,
-      "bollinger_pct_b": 0.3133,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.59,
-      "news_sentiment": 0.814,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Rackspace Technology Cuts 2026 Outlook as $250M Stock Sale Fuels AI Push",
-        "Palantir CEO: \u201cSomething Has Gone Completely Wrong\u201d With OpenAI and Anthropic",
-        "Rackspace Technology (RXT) Rebounds 22% After Brutal Week"
       ],
       "high_impact_news": true
     }
