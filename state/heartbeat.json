@@ -3,15 +3,15 @@
   "portfolio_balance": 101730.65,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.42,
-  "unrealized_pnl_usd": 1077.67,
-  "equity_value": 102808.32,
+  "unrealized_pnl_usd": 1105.33,
+  "equity_value": 102835.98,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40692.26,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 590,
-  "last_tick": "2026-07-11T15:14:49.241851+00:00",
+  "last_tick": "2026-07-11T16:11:47.334012+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -652,33 +652,14 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 1820.540039,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1811.1800537109375,
+      "trailing_stop_price": 1817.827085,
+      "current_price": 1810.640015,
+      "unrealized_pnl_pct": 0.005438,
+      "unrealized_pnl_usd": 27.67
     }
   ],
   "last_candidates": [
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.74,
-      "price": 1820.5400390625,
-      "rsi": 85.64219974179419,
-      "momentum_5d": 0.013263174715503761,
-      "momentum_1d": 0.01723198789296008,
-      "macd_crossover": true,
-      "atr_pct": 0.003611553269207382,
-      "bollinger_pct_b": 1.3251,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.6,
-      "news_sentiment": 0.476,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Barclays, Morgan Stanley boost Robinhood price target by up to 50%",
-        "Hedera-Based Bonzo Lend Loses $9 Million in Oracle Exploit",
-        "Weekly Wrap: Bitcoin Has A Winning Week"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "LCID",
       "rank_score": 0.6477,
@@ -722,69 +703,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.5781,
-      "price": 64413.44140625,
-      "rsi": 77.56398726331398,
-      "momentum_5d": 0.0042932886251025315,
-      "momentum_1d": 0.007237950990712676,
-      "macd_crossover": true,
-      "atr_pct": 0.0020216386561883767,
-      "bollinger_pct_b": 1.1027,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.179,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Circle wins approval to become federally regulated bank",
-        "New Hampshire killed its landmark $100 million bitcoin bond",
-        "Legendary Hedge Fund Manager Says SpaceX Is \u2018The Equivalent Of Dogecoin\u2019 And Bitcoin Is The One That's Actually Cheap"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5755,
-      "price": 6.78000020980835,
-      "rsi": 70.58821879461568,
-      "momentum_5d": 0.010432216283669074,
-      "momentum_1d": 0.0074294488251348875,
-      "macd_crossover": false,
-      "atr_pct": 0.0037926738222848464,
-      "bollinger_pct_b": 1.132,
-      "volume_spike": true,
-      "volume_spike_ratio": 12.85,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
-        "NEC Taps Avalanche for Biometric-Verified Stablecoin Payments Framework",
-        "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.569,
-      "price": 0.07540000230073929,
-      "rsi": 84.23664304249048,
-      "momentum_5d": 0.013032460528587838,
-      "momentum_1d": 0.018918936878681996,
-      "macd_crossover": false,
-      "atr_pct": 0.004367193397854117,
-      "bollinger_pct_b": 1.2609,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.128,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Legendary Hedge Fund Manager Says SpaceX Is \u2018The Equivalent Of Dogecoin\u2019 And Bitcoin Is The One That's Actually Cheap",
-        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
-        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "META",
       "rank_score": 0.5524,
       "price": 669.3099975585938,
@@ -823,27 +741,6 @@
         "Oil Is Spiking and the Iran Ceasefire Is Cracking: What It Means for Your Stocks",
         "The Real Risk Inside ExxonMobil Stock",
         "Veteran Energy Analyst: \u201cCrude Oil Is Not the Problem.\u201d Here\u2019s What\u2019s Keeping Gas Prices High."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.5234,
-      "price": 1.1162999868392944,
-      "rsi": 77.34342258440047,
-      "momentum_5d": 0.00758187850982258,
-      "momentum_1d": 0.012149749086555734,
-      "macd_crossover": false,
-      "atr_pct": 0.0032441247650379706,
-      "bollinger_pct_b": 1.2566,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Circle wins approval to become federally regulated bank",
-        "Circle stock rebounds on OCC trust bank approval, while Coinbase is kept waiting",
-        "XRP Ledger Activity Hits a Rare Low as XRP Price Slides 3%"
       ],
       "high_impact_news": true
     },
@@ -891,7 +788,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5036,
+      "rank_score": 0.5006,
       "price": 210.9499969482422,
       "rsi": 69.49789246265541,
       "momentum_5d": 0.01141098691301181,
@@ -901,12 +798,12 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.391,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.366,
+      "news_confidence": 0.41,
       "news_headlines": [
         "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
-        "Prediction: Carvana's New-Car Business Will Work. Early Numbers Are Stunning.",
-        "Rivian Just Did What Investors Despised Lucid for. How Bad Is It?"
+        "Super Micro Computer (SMCI) Introduces DCBBS Blueprint for HPC",
+        "Nvidia CEO Jensen Huang Said AI's \"Most Profound Impact Will Be in Life Sciences.\" Does This Bet on a Biotech Stock Prove He Means It?"
       ],
       "high_impact_news": true
     },
@@ -967,15 +864,15 @@
       "news_sentiment": 0.268,
       "news_confidence": 0.41,
       "news_headlines": [
+        "Wendy\u2019s Vs. McDonald\u2019s: Buy Wendy\u2019s to Ride the \u2018Project Fresh\u2019 Short-Squeeze Momentum and Avoid McDonald\u2019s",
         "McDonald\u2019s (MCD) Stock Trades At A Premium On Cash Flow While Earnings Discount Value",
-        "PepsiCo\u2019s $200 Billion Stability Play Is Attracting Dividend Investors",
-        "How To Invest In Stocks Using History \u2014 And Unique Analysis From Bill O'Neil"
+        "PepsiCo\u2019s $200 Billion Stability Play Is Attracting Dividend Investors"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SPY",
-      "rank_score": 0.4934,
+      "rank_score": 0.4893,
       "price": 754.9000244140625,
       "rsi": 93.21042202962825,
       "momentum_5d": 0.0021905402111682707,
@@ -985,12 +882,12 @@
       "bollinger_pct_b": 0.7995,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.067,
-      "news_confidence": 0.6,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "This Covered Call ETF Just Proved Double Digit Income Doesn\u2019t Mean NAV Bleed",
         "The Retirement Budget Most People Build Is Backward",
-        "The S&P 500 Isn\u2019t What You Think It Is Anymore \u2014 Here\u2019s the Uncomfortable Truth",
-        "S&P 500, Nasdaq End Week Higher Following Strong SK Hynix Debut \u2014 META, SKHVY, CRCL, BA, DAL In Focus"
+        "The S&P 500 Isn\u2019t What You Think It Is Anymore \u2014 Here\u2019s the Uncomfortable Truth"
       ],
       "high_impact_news": true
     },
@@ -1058,23 +955,128 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.467,
-      "price": 581.3900146484375,
-      "rsi": 84.80310763995654,
-      "momentum_5d": 0.005325892865152631,
-      "momentum_1d": 0.014217473576346758,
+      "asset": "MA",
+      "rank_score": 0.4638,
+      "price": 526.5,
+      "rsi": 65.56632872789916,
+      "momentum_5d": 0.010091339621236357,
+      "momentum_1d": -0.011016859376483272,
       "macd_crossover": false,
-      "atr_pct": 0.00291543934624283,
-      "bollinger_pct_b": 0.9729,
+      "atr_pct": 0.005900156189055929,
+      "bollinger_pct_b": 1.1671,
       "volume_spike": false,
-      "volume_spike_ratio": 0.39,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.32,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.6,
+      "news_confidence": 0.35,
       "news_headlines": [
-        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level",
-        "BNB Chain\u2019s H2 2026 Roadmap Targets AI Agents as BNB Crypto Price Lags Behind"
+        "How Mastercard\u2019s New AP4M Machine Payments Platform Will Impact Mastercard (MA) Investors",
+        "Can AmEx's AI Investments Unlock the Next Phase of Growth?",
+        "Mastercard Stock Falls Below 200-Day SMA: Buy the Dip or Wait?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "CVX",
+      "rank_score": 0.4629,
+      "price": 176.38499450683594,
+      "rsi": 53.31351789865496,
+      "momentum_5d": 0.012426778044790528,
+      "momentum_1d": 0.029113977128776627,
+      "macd_crossover": false,
+      "atr_pct": 0.005633262165319119,
+      "bollinger_pct_b": 0.8087,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.43,
+      "news_sentiment": 0.684,
+      "news_confidence": 0.57,
+      "news_headlines": [
+        "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
+        "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative",
+        "Oil Is Spiking and the Iran Ceasefire Is Cracking: What It Means for Your Stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TGT",
+      "rank_score": 0.4624,
+      "price": 135.1300048828125,
+      "rsi": 63.459929348834805,
+      "momentum_5d": -0.0036129645481229058,
+      "momentum_1d": 0.061591671858718645,
+      "macd_crossover": false,
+      "atr_pct": 0.009135125072671653,
+      "bollinger_pct_b": 0.7572,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.15,
+      "news_sentiment": 0.282,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story.",
+        "Target Corporation (TGT) Is a Trending Stock: Facts to Know Before Betting on It",
+        "Collect 15% On DASH Stock Now, And Still Keep 21% Of Upside"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.4608,
+      "price": 916.1699829101562,
+      "rsi": 21.288965775861328,
+      "momentum_5d": 0.006448418319129456,
+      "momentum_1d": -0.03438572145473638,
+      "macd_crossover": false,
+      "atr_pct": 0.007203524558375943,
+      "bollinger_pct_b": 0.3787,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.171,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Dollar Tree makes key move to keep popular items in stock",
+        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
+        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "C",
+      "rank_score": 0.4583,
+      "price": 140.60000610351562,
+      "rsi": 76.40714008693418,
+      "momentum_5d": -0.0016686235605399618,
+      "momentum_1d": -0.010416636461610581,
+      "macd_crossover": false,
+      "atr_pct": 0.005745378790197303,
+      "bollinger_pct_b": 0.7313,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.65,
+      "news_sentiment": 0.42,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
+        "\u2018The first time ever in my career\u2019: Senior Citi executive on why the ultrawealthy want to diversify away from America",
+        "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "KLAC",
+      "rank_score": 0.4524,
+      "price": 231.21499633789062,
+      "rsi": 64.08304325806793,
+      "momentum_5d": 0.010312209278408048,
+      "momentum_1d": 0.05795009430008309,
+      "macd_crossover": false,
+      "atr_pct": 0.0210071963376907,
+      "bollinger_pct_b": 0.6142,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.589,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "These 5 Chip Stocks Are Riding the AI Fab Spending Wave",
+        "Analysts Think AI Demand Has No Ceiling And Raised AMD\u2019s Price Target Again",
+        "Bloomberg\u2019s Daybreak Desk Says SK Hynix\u2019s Record $26.5 Billion Nasdaq Debut Proves the AI Chip Boom Isn\u2019t Cooling"
       ],
       "high_impact_news": true
     }
