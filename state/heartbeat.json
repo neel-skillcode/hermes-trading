@@ -3,15 +3,15 @@
   "portfolio_balance": 101730.65,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.42,
-  "unrealized_pnl_usd": 1076.83,
-  "equity_value": 102807.48,
+  "unrealized_pnl_usd": 1099.21,
+  "equity_value": 102829.86,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40692.26,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 590,
-  "last_tick": "2026-07-11T22:08:48.148277+00:00",
+  "last_tick": "2026-07-11T23:08:33.400614+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -652,9 +652,11 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 1820.839966,
-      "unrealized_pnl_pct": -0.000165,
-      "unrealized_pnl_usd": -0.84
+      "price_trough": 1812.8299560546875,
+      "trailing_stop_price": 1819.483042,
+      "current_price": 1812.829956,
+      "unrealized_pnl_pct": 0.004235,
+      "unrealized_pnl_usd": 21.55
     }
   ],
   "last_candidates": [
@@ -765,7 +767,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.5149,
+      "rank_score": 0.507,
       "price": 356.9100036621094,
       "rsi": 39.039475228802445,
       "momentum_5d": 0.007490952570882655,
@@ -775,18 +777,18 @@
       "bollinger_pct_b": 0.4798,
       "volume_spike": false,
       "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.822,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.744,
+      "news_confidence": 0.39,
       "news_headlines": [
         "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
-        "Berkshire Hathaway (BRK.A) Is Making An $8.5 Billion Bet On Homes And AI",
-        "Meta's Most Important AI Customer Might Be Meta"
+        "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks \u2013 Some Might Surprise You (CORRECTED)",
+        "Berkshire Hathaway (BRK.A) Is Making An $8.5 Billion Bet On Homes And AI"
       ],
       "high_impact_news": true
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5126,
+      "rank_score": 0.5056,
       "price": 210.9499969482422,
       "rsi": 69.49789246265541,
       "momentum_5d": 0.01141098691301181,
@@ -796,12 +798,12 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.692,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
-        "This Unstoppable Tech ETF Is Down More Than 20%. Is It Time to Buy the Dip?",
-        "Elon Musk's SpaceX Just Joined the Nasdaq-100. Now What?"
+        "The Vanguard ETF Warren Buffett Endorsed in 2014 Would Have Turned $5,000 Into $20,465 Today",
+        "CrowdStrike Just Completed a Stock Split. Is the Stock a Buy Now?",
+        "This Unstoppable Tech ETF Is Down More Than 20%. Is It Time to Buy the Dip?"
       ],
       "high_impact_news": true
     },
@@ -953,6 +955,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOUN",
+      "rank_score": 0.4726,
+      "price": 6.639999866485596,
+      "rsi": 41.20335855850213,
+      "momentum_5d": 0.012967206769327418,
+      "momentum_1d": -0.02567867780858658,
+      "macd_crossover": true,
+      "atr_pct": 0.018986644486488687,
+      "bollinger_pct_b": 0.5181,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.38,
+      "news_sentiment": 0.473,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "What SoundHound AI (SOUN)'s S-4 Business Combination and Platform Expansion Means For Shareholders",
+        "SoundHound AI (SOUN) On Earnings Focus And A Voice AI Story That Looks Fully Valued",
+        "SoundHound AI (SOUN) Files Effective S 4 As Enterprise Expansion Takes Shape"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MA",
       "rank_score": 0.4638,
       "price": 526.5,
@@ -1054,27 +1077,6 @@
         "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
         "\u2018The first time ever in my career\u2019: Senior Citi executive on why the ultrawealthy want to diversify away from America",
         "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOUN",
-      "rank_score": 0.4566,
-      "price": 6.639999866485596,
-      "rsi": 41.20335855850213,
-      "momentum_5d": 0.012967206769327418,
-      "momentum_1d": -0.02567867780858658,
-      "macd_crossover": true,
-      "atr_pct": 0.018986644486488687,
-      "bollinger_pct_b": 0.5181,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.38,
-      "news_sentiment": 0.189,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "SoundHound AI (SOUN) On Earnings Focus And A Voice AI Story That Looks Fully Valued",
-        "SoundHound AI (SOUN) Files Effective S 4 As Enterprise Expansion Takes Shape",
-        "BigBear.ai vs. SoundHound AI: Which Artificial Intelligence Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     }
