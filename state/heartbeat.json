@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101761.05,
+  "portfolio_balance": 101751.45,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.39,
-  "unrealized_pnl_usd": 1087.26,
-  "equity_value": 102848.31,
+  "portfolio_drawdown_pct": 0.4,
+  "unrealized_pnl_usd": 1077.69,
+  "equity_value": 102829.14,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40704.42,
+  "day_capital_used_usd": 40700.58,
   "swing_capital_used_usd": 49325.94,
-  "total_trades": 587,
-  "last_tick": "2026-07-11T06:32:50.748394+00:00",
+  "total_trades": 588,
+  "last_tick": "2026-07-11T08:22:31.139568+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -623,40 +623,6 @@
       "unrealized_pnl_usd": -20.08
     },
     {
-      "id": "DOGE-USD_20260711042106",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.07428999990224838,
-      "entry_time": "2026-07-11T04:21:06.194435+00:00",
-      "stop_loss_pct": 0.00394,
-      "take_profit_pct": 0.00914,
-      "size_usd": 4194.18,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
-      "signals": [
-        "RSI overbought (62.6)",
-        "5d momentum +0.32%",
-        "1d momentum +0.45%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.128,
-      "news_headlines": [
-        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
-        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
-      ],
-      "mode": "paper",
-      "strategy_version": "54",
-      "status": "open",
-      "price_peak": 0.0744599997997284,
-      "trailing_stop_price": 0.074167,
-      "current_price": 0.07446,
-      "unrealized_pnl_pct": 0.002288,
-      "unrealized_pnl_usd": 9.6
-    },
-    {
       "id": "ETH-USD_20260711063250",
       "asset": "ETH-USD",
       "trade_type": "day",
@@ -684,7 +650,41 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 1799.949951,
+      "price_peak": 1800.0,
+      "trailing_stop_price": 1793.808,
+      "current_price": 1799.98999,
+      "unrealized_pnl_pct": 2.2e-05,
+      "unrealized_pnl_usd": 0.02
+    },
+    {
+      "id": "SOL-USD_20260711082231",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 78.0,
+      "entry_time": "2026-07-11T08:22:31.137533+00:00",
+      "stop_loss_pct": 0.00368,
+      "take_profit_pct": 0.00864,
+      "size_usd": 4190.34,
+      "position_size_pct": 0.0412,
+      "confidence": 0.704,
+      "signals": [
+        "RSI overbought (61.7)",
+        "5d momentum +0.33%",
+        "1d momentum -1.47%",
+        "High-impact catalyst",
+        "Claude [supports]: macro risk"
+      ],
+      "news_sentiment": 0.312,
+      "news_headlines": [
+        "The Worst Performing ETFs of 2026 So Far",
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+        "GlobalStake chairman says BlackRock\u2019s Bitcoin income ETF is at level 2 while crypto natives are at level 10"
+      ],
+      "mode": "paper",
+      "strategy_version": "54",
+      "status": "open",
+      "current_price": 78.0,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -708,27 +708,6 @@
         "Lucid Group (LCID) Stock Falls Amid Market Uptick: What Investors Need to Know",
         "Why Is Tesla Bringing the Long-Wheelbase Model Y to the US?",
         "Waymo Widens Lead Over Tesla, Expands Robotaxis To Four New Cities"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5966,
-      "price": 0.0744599997997284,
-      "rsi": 58.235343100947105,
-      "momentum_5d": 0.006080261709572521,
-      "momentum_1d": 0.007986957500526493,
-      "macd_crossover": true,
-      "atr_pct": 0.00440313561920726,
-      "bollinger_pct_b": 0.9563,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.72,
-      "news_sentiment": 0.128,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
-        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
       ],
       "high_impact_news": true
     },
@@ -817,27 +796,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.5197,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
-        "Chip stocks regain some ground after whipsaw of a trading week",
-        "Why you should care about SK Hynix's IPO"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "GOOGL",
       "rank_score": 0.5109,
       "price": 356.9100036621094,
@@ -859,23 +817,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5061,
-      "price": 1799.949951171875,
-      "rsi": 54.06624007881654,
-      "momentum_5d": 0.006615862518730016,
-      "momentum_1d": 0.01691512547446807,
+      "asset": "NVDA",
+      "rank_score": 0.5056,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
       "macd_crossover": false,
-      "atr_pct": 0.00414097749842491,
-      "bollinger_pct_b": 0.8381,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.32,
-      "news_sentiment": 0.349,
-      "news_confidence": 0.43,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.625,
+      "news_confidence": 0.32,
       "news_headlines": [
-        "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
-        "Weekly Wrap: Bitcoin Has A Winning Week",
-        "The Worst Performing ETFs of 2026 So Far"
+        "Stock market today: Dow, S&P 500, Nasdaq rise to cap choppy week as SK Hynix pops in US debut",
+        "Chip stocks regain some ground after whipsaw of a trading week",
+        "Why you should care about SK Hynix's IPO"
       ],
       "high_impact_news": true
     },
@@ -986,7 +944,7 @@
     },
     {
       "asset": "AMD",
-      "rank_score": 0.4791,
+      "rank_score": 0.4841,
       "price": 557.989990234375,
       "rsi": 77.41669448750707,
       "momentum_5d": 0.010421297156949885,
@@ -996,12 +954,12 @@
       "bollinger_pct_b": 0.7385,
       "volume_spike": false,
       "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.318,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.463,
+      "news_confidence": 0.41,
       "news_headlines": [
         "Chip stocks regain some ground after whipsaw of a trading week",
         "Nasdaq's hottest winners just fell behind: Chart of the Day",
-        "SK Hynix ETFs Are Coming. Exactly Who Should Own Them."
+        "Shares of Intel and AMD Have Plummeted in the Last Few Days. Is It Time to Panic?"
       ],
       "high_impact_news": true
     },
@@ -1107,6 +1065,48 @@
         "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story.",
         "Target Corporation (TGT) Is a Trending Stock: Facts to Know Before Betting on It",
         "Collect 15% On DASH Stock Now, And Still Keep 21% Of Upside"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.4588,
+      "price": 1188.25,
+      "rsi": 32.42773067083769,
+      "momentum_5d": 0.000850720809552256,
+      "momentum_1d": -0.034774955368670056,
+      "macd_crossover": false,
+      "atr_pct": 0.009785826350744643,
+      "bollinger_pct_b": 0.1969,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.769,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "Eli Lilly (LLY) To Share New Kisunla And Alzheimer\u2019s Blood Test Data At AAIC",
+        "Is Pfizer on Track to Launch Its Next Lipitor -- This Time in the Weight-Loss Market?",
+        "Moderna Drops 11%, ImmunityBio and Sarepta Therapeutics Tumble 8% in Biotech Rout"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "KLAC",
+      "rank_score": 0.4524,
+      "price": 231.21499633789062,
+      "rsi": 64.08304325806793,
+      "momentum_5d": 0.010312209278408048,
+      "momentum_1d": 0.05795009430008309,
+      "macd_crossover": false,
+      "atr_pct": 0.0210071963376907,
+      "bollinger_pct_b": 0.6142,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.589,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Analysts Think AI Demand Has No Ceiling And Raised AMD\u2019s Price Target Again",
+        "Bloomberg\u2019s Daybreak Desk Says SK Hynix\u2019s Record $26.5 Billion Nasdaq Debut Proves the AI Chip Boom Isn\u2019t Cooling",
+        "ASML Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
       ],
       "high_impact_news": true
     }

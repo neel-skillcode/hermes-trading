@@ -550,37 +550,6 @@
     "strategy_version": "53",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260711042106",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07428999990224838,
-    "entry_time": "2026-07-11T04:21:06.194435+00:00",
-    "stop_loss_pct": 0.00394,
-    "take_profit_pct": 0.00914,
-    "size_usd": 4194.18,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (62.6)",
-      "5d momentum +0.32%",
-      "1d momentum +0.45%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.128,
-    "news_headlines": [
-      "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
-      "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes",
-      "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level"
-    ],
-    "mode": "paper",
-    "strategy_version": "54",
-    "status": "open",
-    "price_peak": 0.0744599997997284,
-    "trailing_stop_price": 0.074167
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260711063250",
     "asset": "ETH-USD",
@@ -605,6 +574,37 @@
       "Bitcoin and ethereum prices today, Friday, July 10, 2026: Up nearly 3% since last Friday",
       "Weekly Wrap: Bitcoin Has A Winning Week",
       "The Worst Performing ETFs of 2026 So Far"
+    ],
+    "mode": "paper",
+    "strategy_version": "54",
+    "status": "open",
+    "price_peak": 1800.0,
+    "trailing_stop_price": 1793.808
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260711082231",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 78.0,
+    "entry_time": "2026-07-11T08:22:31.137533+00:00",
+    "stop_loss_pct": 0.00368,
+    "take_profit_pct": 0.00864,
+    "size_usd": 4190.34,
+    "position_size_pct": 0.0412,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (61.7)",
+      "5d momentum +0.33%",
+      "1d momentum -1.47%",
+      "High-impact catalyst",
+      "Claude [supports]: macro risk"
+    ],
+    "news_sentiment": 0.312,
+    "news_headlines": [
+      "The Worst Performing ETFs of 2026 So Far",
+      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+      "GlobalStake chairman says BlackRock\u2019s Bitcoin income ETF is at level 2 while crypto natives are at level 10"
     ],
     "mode": "paper",
     "strategy_version": "54",
