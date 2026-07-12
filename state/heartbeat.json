@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101730.65,
+  "portfolio_balance": 101831.28,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.42,
-  "unrealized_pnl_usd": 1099.21,
-  "equity_value": 102829.86,
+  "portfolio_drawdown_pct": 0.33,
+  "unrealized_pnl_usd": 1077.67,
+  "equity_value": 102908.95,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40692.26,
+  "day_capital_used_usd": 40732.51,
   "swing_capital_used_usd": 49325.94,
-  "total_trades": 590,
-  "last_tick": "2026-07-11T23:08:33.400614+00:00",
+  "total_trades": 591,
+  "last_tick": "2026-07-12T00:07:53.042769+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -623,43 +623,62 @@
       "unrealized_pnl_usd": -20.08
     },
     {
-      "id": "ETH-USD_20260711151449",
-      "asset": "ETH-USD",
+      "id": "AVAX-USD_20260712000753",
+      "asset": "AVAX-USD",
       "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1820.5400390625,
-      "entry_time": "2026-07-11T15:14:49.234532+00:00",
-      "stop_loss_pct": 0.00367,
-      "take_profit_pct": 0.00908,
-      "size_usd": 5087.46,
-      "position_size_pct": 0.05,
-      "confidence": 0.95,
+      "direction": "long",
+      "entry_price": 6.46999979019165,
+      "entry_time": "2026-07-12T00:07:53.035998+00:00",
+      "stop_loss_pct": 0.0072,
+      "take_profit_pct": 0.01796,
+      "size_usd": 5127.71,
+      "position_size_pct": 0.0504,
+      "confidence": 0.99,
       "signals": [
-        "RSI overbought (85.6)",
-        "MACD crossover",
-        "5d momentum +1.33%",
-        "1d momentum +1.72%",
-        "BB overbought (pct_b=1.33)",
+        "RSI oversold (18.4)",
+        "5d momentum -4.15%",
+        "1d momentum -3.86%",
+        "BB oversold (pct_b=-0.35)",
+        "Volume spike 2.4\u00d7",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+        "Claude [strongly_supports]: analyst upgrade; price surge"
       ],
-      "news_sentiment": 0.476,
+      "news_sentiment": 0.538,
       "news_headlines": [
-        "Barclays, Morgan Stanley boost Robinhood price target by up to 50%",
-        "Hedera-Based Bonzo Lend Loses $9 Million in Oracle Exploit",
-        "Weekly Wrap: Bitcoin Has A Winning Week"
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+        "NEC Taps Avalanche for Biometric-Verified Stablecoin Payments Framework",
+        "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?"
       ],
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "price_trough": 1812.8299560546875,
-      "trailing_stop_price": 1819.483042,
-      "current_price": 1812.829956,
-      "unrealized_pnl_pct": 0.004235,
-      "unrealized_pnl_usd": 21.55
+      "current_price": 6.47,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.9063,
+      "price": 6.46999979019165,
+      "rsi": 18.42106914253519,
+      "momentum_5d": -0.04148151256419994,
+      "momentum_1d": -0.03863302052674139,
+      "macd_crossover": false,
+      "atr_pct": 0.006955210817989903,
+      "bollinger_pct_b": -0.3459,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.36,
+      "news_sentiment": 0.538,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+        "NEC Taps Avalanche for Biometric-Verified Stablecoin Payments Framework",
+        "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "LCID",
       "rank_score": 0.6477,
@@ -682,6 +701,69 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.6451,
+      "price": 1.0944000482559204,
+      "rsi": 29.970356849760876,
+      "momentum_5d": -0.018299182387650482,
+      "momentum_1d": -0.009144415166486099,
+      "macd_crossover": false,
+      "atr_pct": 0.004529557555195721,
+      "bollinger_pct_b": -0.1454,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.95,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Ethereum Rallied 8% This Month While XRP Fell. Which Is the Better Buy?",
+        "Ripple's stablecoin is fading away on popular chain, XRP crashes",
+        "XRP Ledger Activity Hits a Rare Low as XRP Price Slides 3%"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6037,
+      "price": 76.45999908447266,
+      "rsi": 24.496536045100527,
+      "momentum_5d": -0.020747985509622632,
+      "momentum_1d": -0.016718145782458848,
+      "macd_crossover": false,
+      "atr_pct": 0.005689224545633571,
+      "bollinger_pct_b": -0.2802,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.17,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "The Worst Performing ETFs of 2026 So Far",
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+        "GlobalStake chairman says BlackRock\u2019s Bitcoin income ETF is at level 2 while crypto natives are at level 10"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5888,
+      "price": 0.07282000035047531,
+      "rsi": 29.72288220523157,
+      "momentum_5d": -0.03293493011246617,
+      "momentum_1d": -0.01833377175048771,
+      "macd_crossover": false,
+      "atr_pct": 0.006483688901208918,
+      "bollinger_pct_b": -0.1688,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.27,
+      "news_sentiment": 0.128,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Legendary Hedge Fund Manager Says SpaceX Is \u2018The Equivalent Of Dogecoin\u2019 And Bitcoin Is The One That's Actually Cheap",
+        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze",
+        "Bitcoin, XRP, DOGE Rise as US-Iran Technical Talks to Continue Despite Strikes"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRNA",
       "rank_score": 0.5828,
       "price": 68.26499938964844,
@@ -699,6 +781,27 @@
         "Stock Market Today: Dow Ends Higher; SK Hynix Jumps In U.S. Trading Debut; Moderna Tumbles",
         "Update: US Equity Indexes Rise as Diplomatic Engagements Between Washington, Iran Send Crude Oil Lower",
         "Update: US Equities Rise, Oil Prices Ease as Trump Confirms Iran Talks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5714,
+      "price": 63783.71875,
+      "rsi": 35.33716945755479,
+      "momentum_5d": -0.0071953057866636005,
+      "momentum_1d": -0.004572218849324415,
+      "macd_crossover": false,
+      "atr_pct": 0.0030413054285782877,
+      "bollinger_pct_b": -0.1433,
+      "volume_spike": true,
+      "volume_spike_ratio": 6.41,
+      "news_sentiment": 0.282,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Oil Is Below $76. So Why Is Bitcoin Still Below $65,000?",
+        "Bitcoin dropped 2% then rebounded after Trump said he's 'a big crypto guy' \u2014 here are experts takes on buying the dip",
+        "Eric Trump Said 'Just Hold On' While Bitcoin Erased $600M From His Fortune"
       ],
       "high_impact_news": true
     },
@@ -787,27 +890,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.5056,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "The Vanguard ETF Warren Buffett Endorsed in 2014 Would Have Turned $5,000 Into $20,465 Today",
-        "CrowdStrike Just Completed a Stock Split. Is the Stock a Buy Now?",
-        "This Unstoppable Tech ETF Is Down More Than 20%. Is It Time to Buy the Dip?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "UNG",
       "rank_score": 0.4982,
       "price": 10.600000381469727,
@@ -825,6 +907,27 @@
         "Sector Update: Energy Stocks Advance Pre-Bell Friday",
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
         "Sector Update: Energy Stocks Decline Pre-Bell Thursday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NVDA",
+      "rank_score": 0.4976,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
+      "macd_crossover": false,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Warren Buffett Swears By This 1 Low-Cost Investment. History Proves He's Been Right Every Time.",
+        "The Vanguard ETF Warren Buffett Endorsed in 2014 Would Have Turned $5,000 Into $20,465 Today",
+        "CrowdStrike Just Completed a Stock Split. Is the Stock a Buy Now?"
       ],
       "high_impact_news": true
     },
@@ -972,111 +1075,6 @@
         "What SoundHound AI (SOUN)'s S-4 Business Combination and Platform Expansion Means For Shareholders",
         "SoundHound AI (SOUN) On Earnings Focus And A Voice AI Story That Looks Fully Valued",
         "SoundHound AI (SOUN) Files Effective S 4 As Enterprise Expansion Takes Shape"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MA",
-      "rank_score": 0.4638,
-      "price": 526.5,
-      "rsi": 65.56632872789916,
-      "momentum_5d": 0.010091339621236357,
-      "momentum_1d": -0.011016859376483272,
-      "macd_crossover": false,
-      "atr_pct": 0.005900156189055929,
-      "bollinger_pct_b": 1.1671,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "How Mastercard\u2019s New AP4M Machine Payments Platform Will Impact Mastercard (MA) Investors",
-        "Can AmEx's AI Investments Unlock the Next Phase of Growth?",
-        "Mastercard Stock Falls Below 200-Day SMA: Buy the Dip or Wait?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TGT",
-      "rank_score": 0.4624,
-      "price": 135.1300048828125,
-      "rsi": 63.459929348834805,
-      "momentum_5d": -0.0036129645481229058,
-      "momentum_1d": 0.061591671858718645,
-      "macd_crossover": false,
-      "atr_pct": 0.009135125072671653,
-      "bollinger_pct_b": 0.7572,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.282,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story.",
-        "Target Corporation (TGT) Is a Trending Stock: Facts to Know Before Betting on It",
-        "Collect 15% On DASH Stock Now, And Still Keep 21% Of Upside"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "CVX",
-      "rank_score": 0.4609,
-      "price": 176.38499450683594,
-      "rsi": 53.31351789865496,
-      "momentum_5d": 0.012426778044790528,
-      "momentum_1d": 0.029113977128776627,
-      "macd_crossover": false,
-      "atr_pct": 0.005633262165319119,
-      "bollinger_pct_b": 0.8087,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.673,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "Chevron May Have Unlocked a Powerful New Growth Engine",
-        "How Investors Are Reacting To Texas Pacific Land (TPL) Chevron Power Deal And Earnings Beat",
-        "Texas Pacific Land (TPL) Could Be 11% Undervalued On Its Royalty Growth Narrative"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.4608,
-      "price": 916.1699829101562,
-      "rsi": 21.288965775861328,
-      "momentum_5d": 0.006448418319129456,
-      "momentum_1d": -0.03438572145473638,
-      "macd_crossover": false,
-      "atr_pct": 0.007203524558375943,
-      "bollinger_pct_b": 0.3787,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.171,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Dollar Tree makes key move to keep popular items in stock",
-        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
-        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "C",
-      "rank_score": 0.4583,
-      "price": 140.60000610351562,
-      "rsi": 76.40714008693418,
-      "momentum_5d": -0.0016686235605399618,
-      "momentum_1d": -0.010416636461610581,
-      "macd_crossover": false,
-      "atr_pct": 0.005745378790197303,
-      "bollinger_pct_b": 0.7313,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.42,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
-        "\u2018The first time ever in my career\u2019: Senior Citi executive on why the ultrawealthy want to diversify away from America",
-        "Seplat Energy (LSE:SEPL) Stock Fair Value Rises After Analysts Lift Targets"
       ],
       "high_impact_news": true
     }
