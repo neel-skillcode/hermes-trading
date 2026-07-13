@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101752.03,
+  "portfolio_balance": 101976.03,
   "portfolio_peak": 102163.99,
-  "portfolio_drawdown_pct": 0.4,
-  "unrealized_pnl_usd": 1096.27,
-  "equity_value": 102848.3,
+  "portfolio_drawdown_pct": 0.18,
+  "unrealized_pnl_usd": 1056.56,
+  "equity_value": 103032.59,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40700.81,
+  "day_capital_used_usd": 40786.81,
   "swing_capital_used_usd": 49325.94,
-  "total_trades": 592,
-  "last_tick": "2026-07-13T06:44:06.223608+00:00",
+  "total_trades": 593,
+  "last_tick": "2026-07-13T10:00:50.420669+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 7,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83875,
-      "unrealized_pnl_pct": 0.000568,
-      "unrealized_pnl_usd": 0.76
+      "current_price": 7.83828,
+      "unrealized_pnl_pct": 0.000508,
+      "unrealized_pnl_usd": 0.68
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.693337,
-      "unrealized_pnl_pct": -0.000139,
-      "unrealized_pnl_usd": -0.75
+      "current_price": 0.694348,
+      "unrealized_pnl_pct": -0.001597,
+      "unrealized_pnl_usd": -8.69
     },
     {
       "id": "VLO_20260707180911",
@@ -209,9 +209,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.237,
-      "unrealized_pnl_pct": -0.000728,
-      "unrealized_pnl_usd": -2.65
+      "current_price": 161.996002,
+      "unrealized_pnl_pct": 0.000759,
+      "unrealized_pnl_usd": 2.76
     },
     {
       "id": "AMZN_20260708152529",
@@ -309,9 +309,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 185.046997,
-      "unrealized_pnl_pct": 0.003795,
-      "unrealized_pnl_usd": 25.2
+      "current_price": 185.190002,
+      "unrealized_pnl_pct": 0.003026,
+      "unrealized_pnl_usd": 20.09
     },
     {
       "id": "COST_20260709163905",
@@ -623,24 +623,24 @@
       "unrealized_pnl_usd": -20.08
     },
     {
-      "id": "AVAX-USD_20260712062340",
+      "id": "AVAX-USD_20260713100050",
       "asset": "AVAX-USD",
       "trade_type": "day",
-      "direction": "long",
-      "entry_price": 6.369999885559082,
-      "entry_time": "2026-07-12T06:23:40.727353+00:00",
-      "stop_loss_pct": 0.01022,
-      "take_profit_pct": 0.02549,
-      "size_usd": 5096.01,
-      "position_size_pct": 0.0501,
-      "confidence": 0.99,
+      "direction": "short",
+      "entry_price": 6.650000095367432,
+      "entry_time": "2026-07-13T10:00:50.416075+00:00",
+      "stop_loss_pct": 0.0092,
+      "take_profit_pct": 0.02205,
+      "size_usd": 5182.01,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
       "signals": [
-        "RSI oversold (21.9)",
-        "5d momentum -2.15%",
-        "1d momentum -4.93%",
-        "BB oversold (pct_b=0.02)",
+        "RSI overbought (74.4)",
+        "5d momentum +2.47%",
+        "1d momentum +3.91%",
+        "BB overbought (pct_b=1.18)",
         "High-impact catalyst",
-        "Claude [strongly_supports]: analyst upgrade; price surge"
+        "Claude [contradicts]: analyst upgrade; price surge"
       ],
       "news_sentiment": 0.538,
       "news_headlines": [
@@ -651,11 +651,9 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "price_peak": 6.41,
-      "trailing_stop_price": 6.34449,
-      "current_price": 6.41,
-      "unrealized_pnl_pct": 0.006279,
-      "unrealized_pnl_usd": 32.0
+      "current_price": 6.65,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -681,8 +679,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6363,
+      "price": 6.650000095367432,
+      "rsi": 74.35899003409997,
+      "momentum_5d": 0.024653363619718753,
+      "momentum_1d": 0.0390624994179234,
+      "macd_crossover": false,
+      "atr_pct": 0.009774444554630874,
+      "bollinger_pct_b": 1.1807,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.0,
+      "news_sentiment": 0.538,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+        "NEC Taps Avalanche for Biometric-Verified Stablecoin Payments Framework",
+        "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRNA",
-      "rank_score": 0.5828,
+      "rank_score": 0.5803,
       "price": 68.26499938964844,
       "rsi": 33.775787507081205,
       "momentum_5d": -0.004738255803968487,
@@ -692,18 +711,18 @@
       "bollinger_pct_b": 0.1469,
       "volume_spike": true,
       "volume_spike_ratio": 1.57,
-      "news_sentiment": 0.758,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.678,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "US Stock Market Today: S&P 500 Futures Rise As Inflation Cools And Earnings Loom",
         "Stock Market Today: Dow Ends Higher; SK Hynix Jumps In U.S. Trading Debut; Moderna Tumbles",
-        "Update: US Equity Indexes Rise as Diplomatic Engagements Between Washington, Iran Send Crude Oil Lower",
-        "Update: US Equities Rise, Oil Prices Ease as Trump Confirms Iran Talks"
+        "Update: US Equity Indexes Rise as Diplomatic Engagements Between Washington, Iran Send Crude Oil Lower"
       ],
       "high_impact_news": true
     },
     {
       "asset": "META",
-      "rank_score": 0.5464,
+      "rank_score": 0.5549,
       "price": 669.3099975585938,
       "rsi": 78.41694255948235,
       "momentum_5d": -0.008010832843112024,
@@ -713,12 +732,12 @@
       "bollinger_pct_b": 0.8362,
       "volume_spike": false,
       "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.548,
-      "news_confidence": 0.31,
+      "news_sentiment": 0.607,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Jim Cramer Says Comparing the Mag 7 Is a Mistake: Here Are 5 Reasons Each Stock Is Different",
-        "Why Meta Platforms Stock Surged This Week",
-        "OpenAI Applications Chief Fidji Simo Steps Down From Full-Time Role Over Chronic Illness Recovery, Says 'I Failed to Make This Decision Many Times Before'"
+        "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+        "Meta\u2019s Potential AI Cloud Push Could Boost Earnings, Wolfe Research Says",
+        "EU to Present Plan to Restrict Children\u2019s Access to Social Media"
       ],
       "high_impact_news": true
     },
@@ -765,29 +784,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.5146,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.644,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
-        "TSMC posts record revenue in second quarter on AI demand",
-        "Avoid This Hidden Risk of Index Funds"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AMD",
-      "rank_score": 0.5081,
+      "rank_score": 0.5121,
       "price": 557.989990234375,
       "rsi": 77.41669448750707,
       "momentum_5d": 0.010421297156949885,
@@ -797,33 +795,54 @@
       "bollinger_pct_b": 0.7385,
       "volume_spike": false,
       "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.843,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.887,
+      "news_confidence": 0.53,
       "news_headlines": [
-        "INTC, AMD, NVDA, AVGO: Chip Stocks Slide As Fresh US-Iran Strikes Test Peace Deal",
-        "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
-        "Why Meta Platforms Stock Surged This Week"
+        "Advanced Micro Devices (AMD): Turing Inc. is being backed by AMD Ventures, Reports Bloomberg",
+        "Taiwan Semiconductor Reports Earnings July 16. Here's What to Watch.",
+        "TSM Stock Dips Premarket As 36% Q2 Sales Surge Fails To Offset Iran-Driven Market Jitters"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "GOOGL",
-      "rank_score": 0.5009,
-      "price": 356.9100036621094,
-      "rsi": 39.039475228802445,
-      "momentum_5d": 0.007490952570882655,
-      "momentum_1d": -0.03516979155864614,
-      "macd_crossover": true,
-      "atr_pct": 0.007655558972904075,
-      "bollinger_pct_b": 0.4798,
+      "asset": "MCD",
+      "rank_score": 0.5072,
+      "price": 274.5950012207031,
+      "rsi": 35.42912581995107,
+      "momentum_5d": -0.007750918151927568,
+      "momentum_1d": -0.02750029938268803,
+      "macd_crossover": false,
+      "atr_pct": 0.007179961712776986,
+      "bollinger_pct_b": 0.0316,
       "volume_spike": false,
-      "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.657,
-      "news_confidence": 0.35,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.535,
+      "news_confidence": 0.43,
       "news_headlines": [
-        "Jim Cramer Says Comparing the Mag 7 Is a Mistake: Here Are 5 Reasons Each Stock Is Different",
-        "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
-        "Here\u2019s How Nancy Pelosi Beat the Stock Market and Warren Buffett"
+        "The Dividend Growth Roadmap That Turns $60,000 a Year Into More Than $125,000",
+        "Amazon, Microsoft and Nvidia haven\u2019t been this cheap for a decade. Is it time to buy?",
+        "Wendy\u2019s Vs. McDonald\u2019s: Buy Wendy\u2019s to Ride the \u2018Project Fresh\u2019 Short-Squeeze Momentum and Avoid McDonald\u2019s"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NVDA",
+      "rank_score": 0.4986,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
+      "macd_crossover": false,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.317,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
+        "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+        "Wall Street's Newest Blockbuster Stock Split Was Just Announced -- and This Non-Tech Titan Has Skyrocketed 457,000% Since Its IPO"
       ],
       "high_impact_news": true
     },
@@ -849,29 +868,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "MCD",
-      "rank_score": 0.4952,
-      "price": 274.5950012207031,
-      "rsi": 35.42912581995107,
-      "momentum_5d": -0.007750918151927568,
-      "momentum_1d": -0.02750029938268803,
-      "macd_crossover": false,
-      "atr_pct": 0.007179961712776986,
-      "bollinger_pct_b": 0.0316,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.268,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Wendy\u2019s Vs. McDonald\u2019s: Buy Wendy\u2019s to Ride the \u2018Project Fresh\u2019 Short-Squeeze Momentum and Avoid McDonald\u2019s",
-        "McDonald\u2019s (MCD) Stock Trades At A Premium On Cash Flow While Earnings Discount Value",
-        "PepsiCo\u2019s $200 Billion Stability Play Is Attracting Dividend Investors"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SPY",
-      "rank_score": 0.4893,
+      "rank_score": 0.4943,
       "price": 754.9000244140625,
       "rsi": 93.21042202962825,
       "momentum_5d": 0.0021905402111682707,
@@ -881,33 +879,12 @@
       "bollinger_pct_b": 0.7995,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.106,
+      "news_confidence": 0.47,
       "news_headlines": [
+        "Nasdaq, S&P 500 Futures Slip As Iran Tensions Rattle Markets Again: Why MU, TSLA, BATL, SKHYV, MSFT, TSM, SLS Are In Focus",
         "Avoid This Hidden Risk of Index Funds",
-        "Nasdaq, S&P 500, Dow Futures Fall After Trump Directs Strikes \u2018To Hold Iranian Forces Accountable\u2019: NVDA, SLS, MRK, SKHYV, QS Stocks In Focus",
-        "Stop Settling for VYM. This Fund Yields More, Costs 0.06%, and Beat the S&P"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NKE",
-      "rank_score": 0.488,
-      "price": 44.380001068115234,
-      "rsi": 69.49474377254546,
-      "momentum_5d": -0.0040372019439933364,
-      "momentum_1d": 0.030296001905090332,
-      "macd_crossover": false,
-      "atr_pct": 0.009640460309411897,
-      "bollinger_pct_b": 0.8223,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.49,
-      "news_sentiment": 0.583,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Is The Oil Crisis Over? Or Is It Just Beginning?",
-        "If You'd Invested $10,000 in Nike a Decade Ago, Here's How Much You'd Have Today (And It's Not Pretty)",
-        "Alma Mater Secures Star-Studded Athlete Investor Group Ahead of New Funding Round"
+        "Nasdaq, S&P 500, Dow Futures Fall After Trump Directs Strikes \u2018To Hold Iranian Forces Accountable\u2019: NVDA, SLS, MRK, SKHYV, QS Stocks In Focus"
       ],
       "high_impact_news": true
     },
@@ -933,6 +910,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "GOOGL",
+      "rank_score": 0.4849,
+      "price": 356.9100036621094,
+      "rsi": 39.039475228802445,
+      "momentum_5d": 0.007490952570882655,
+      "momentum_1d": -0.03516979155864614,
+      "macd_crossover": true,
+      "atr_pct": 0.007655558972904075,
+      "bollinger_pct_b": 0.4798,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.83,
+      "news_sentiment": 0.28,
+      "news_confidence": 0.25,
+      "news_headlines": [
+        "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
+        "Alphabet Inc (GOOGL) Stock: Looking Beyond the $4.7 Billion EU Fine",
+        "EU to Present Plan to Restrict Children\u2019s Access to Social Media"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "VRTX",
       "rank_score": 0.4806,
       "price": 485.3500061035156,
@@ -950,6 +948,27 @@
         "Vertex (VRTX) Wins FDA Expansion For CASGEVY And Advances ALYFTREK In Canada",
         "Vertex Pharmaceuticals Bets $10 Billion on Crinetics to Build Endocrinology Powerhouse",
         "Is This Biotech Stock a Buy Near Its 52-Week High?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NKE",
+      "rank_score": 0.48,
+      "price": 44.380001068115234,
+      "rsi": 69.49474377254546,
+      "momentum_5d": -0.0040372019439933364,
+      "momentum_1d": 0.030296001905090332,
+      "macd_crossover": false,
+      "atr_pct": 0.009640460309411897,
+      "bollinger_pct_b": 0.8223,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.49,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "NKE, LULU, UAA, VFC Stocks In Focus: Apparel Giants Lose Billions As Once-Strong Brands Fight For A Comeback",
+        "Nike Stock Is Down 44% From Its High, and the CEO Has Been Buying Shares. Here's What That Means for Investors.",
+        "Is The Oil Crisis Over? Or Is It Just Beginning?"
       ],
       "high_impact_news": true
     },
@@ -996,21 +1015,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "EUR/JPY",
-      "rank_score": 0.47,
-      "price": 185.0469970703125,
-      "rsi": 74.77194744330069,
-      "momentum_5d": 0.0023779866379798438,
-      "momentum_1d": 0.0011415445953625617,
+      "asset": "C",
+      "rank_score": 0.4698,
+      "price": 140.60000610351562,
+      "rsi": 76.40714008693418,
+      "momentum_5d": -0.0016686235605399618,
+      "momentum_1d": -0.010416636461610581,
       "macd_crossover": false,
-      "atr_pct": 0.0007469194498147501,
-      "bollinger_pct_b": 0.9829,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -1.0,
-      "news_confidence": 0.7,
+      "atr_pct": 0.005745378790197303,
+      "bollinger_pct_b": 0.7313,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.65,
+      "news_sentiment": 0.636,
+      "news_confidence": 0.55,
       "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+        "5 of America's Biggest Banks Report Q2 Earnings Tuesday. Here's What Wall Street Is Watching.",
+        "JPMorgan, Wells Fargo, Citigroup and Bank of America  are part of Zacks Earnings Preview",
+        "Citigroup (C) Reports Q2: Everything You Need To Know Ahead Of Earnings"
       ],
       "high_impact_news": true
     },
@@ -1053,27 +1074,6 @@
         "Dollar Tree makes key move to keep popular items in stock",
         "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
         "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "C",
-      "rank_score": 0.4603,
-      "price": 140.60000610351562,
-      "rsi": 76.40714008693418,
-      "momentum_5d": -0.0016686235605399618,
-      "momentum_1d": -0.010416636461610581,
-      "macd_crossover": false,
-      "atr_pct": 0.005745378790197303,
-      "bollinger_pct_b": 0.7313,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.44,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "Citigroup (C) Reports Q2: Everything You Need To Know Ahead Of Earnings",
-        "Should Citi\u2019s Endorsement of Cheesecake Factory\u2019s New Loyalty App Reframe the CAKE Digital Investment Story?",
-        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades"
       ],
       "high_impact_news": true
     }
