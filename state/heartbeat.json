@@ -3,15 +3,15 @@
   "portfolio_balance": 101752.03,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.4,
-  "unrealized_pnl_usd": 1152.31,
-  "equity_value": 102904.34,
+  "unrealized_pnl_usd": 1096.27,
+  "equity_value": 102848.3,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40700.81,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 592,
-  "last_tick": "2026-07-13T03:53:10.447197+00:00",
+  "last_tick": "2026-07-13T06:44:06.223608+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8379,
-      "unrealized_pnl_pct": 0.00046,
-      "unrealized_pnl_usd": 0.62
+      "current_price": 7.83875,
+      "unrealized_pnl_pct": 0.000568,
+      "unrealized_pnl_usd": 0.76
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.693241,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 0.693337,
+      "unrealized_pnl_pct": -0.000139,
+      "unrealized_pnl_usd": -0.75
     },
     {
       "id": "VLO_20260707180911",
@@ -209,9 +209,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.080002,
-      "unrealized_pnl_pct": 0.000241,
-      "unrealized_pnl_usd": 0.88
+      "current_price": 162.237,
+      "unrealized_pnl_pct": -0.000728,
+      "unrealized_pnl_usd": -2.65
     },
     {
       "id": "AMZN_20260708152529",
@@ -309,9 +309,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 184.714005,
-      "unrealized_pnl_pct": 0.005588,
-      "unrealized_pnl_usd": 37.11
+      "current_price": 185.046997,
+      "unrealized_pnl_pct": 0.003795,
+      "unrealized_pnl_usd": 25.2
     },
     {
       "id": "COST_20260709163905",
@@ -651,77 +651,14 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "price_peak": 6.460000038146973,
-      "trailing_stop_price": 6.393979,
-      "current_price": 6.46,
-      "unrealized_pnl_pct": 0.014129,
-      "unrealized_pnl_usd": 72.0
+      "price_peak": 6.41,
+      "trailing_stop_price": 6.34449,
+      "current_price": 6.41,
+      "unrealized_pnl_pct": 0.006279,
+      "unrealized_pnl_usd": 32.0
     }
   ],
   "last_candidates": [
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.7485,
-      "price": 62739.05078125,
-      "rsi": 25.015918735054072,
-      "momentum_5d": -0.017338702449024267,
-      "momentum_1d": -0.022441928491904645,
-      "macd_crossover": false,
-      "atr_pct": 0.004879960067733433,
-      "bollinger_pct_b": -0.3157,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.19,
-      "news_sentiment": -0.429,
-      "news_confidence": 0.28,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Consolidate as US-Iran Tensions Escalate: Analyst Says People Will Be 'Surprised' by Upcoming Bull Cycle",
-        "Why Strategy Stock Collapsed In The First Half of 2026",
-        "Top Value Investor Bill Miller IV Says Bitcoin Is Undervalued. So How Much Higher Can Bitcoin Go This Year?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.708,
-      "price": 1.0710999965667725,
-      "rsi": 24.71483837630683,
-      "momentum_5d": -0.013538454984881456,
-      "momentum_1d": -0.025475386497430183,
-      "macd_crossover": false,
-      "atr_pct": 0.006935450435967629,
-      "bollinger_pct_b": -0.1657,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.52,
-      "news_sentiment": 0.385,
-      "news_confidence": 0.26,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Consolidate as US-Iran Tensions Escalate: Analyst Says People Will Be 'Surprised' by Upcoming Bull Cycle",
-        "Ripple Almost Shut Down in 2020, Now XRP Makes History on a Jersey Patch",
-        "How High Will XRP Go in the Next Bull Cycle?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6646,
-      "price": 1777.81005859375,
-      "rsi": 37.53707320601852,
-      "momentum_5d": -0.014523173945846825,
-      "momentum_1d": -0.01801238638548102,
-      "macd_crossover": false,
-      "atr_pct": 0.008029947794309067,
-      "bollinger_pct_b": -0.2281,
-      "volume_spike": true,
-      "volume_spike_ratio": 10.87,
-      "news_sentiment": 0.517,
-      "news_confidence": 0.29,
-      "news_headlines": [
-        "Tom Lee Says ETH/BTC Breakout Signals Crypto\u2019s Big Comeback",
-        "Bitcoin, Ethereum, XRP, Dogecoin Consolidate as US-Iran Tensions Escalate: Analyst Says People Will Be 'Surprised' by Upcoming Bull Cycle",
-        "iShares Ethereum Trust ETF vs Hashdex Nasdaq Crypto Index ETF: Is Diversification a Winning Crypto Strategy?"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "LCID",
       "rank_score": 0.6477,
@@ -740,69 +677,6 @@
         "Rivian Just Did What Investors Despised Lucid for. How Bad Is It?",
         "Lucid Group (LCID) Stock Falls Amid Market Uptick: What Investors Need to Know",
         "Why Is Tesla Bringing the Long-Wheelbase Model Y to the US?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.6372,
-      "price": 568.0,
-      "rsi": 21.498652437862418,
-      "momentum_5d": -0.010142566048468818,
-      "momentum_1d": -0.012225499432561904,
-      "macd_crossover": false,
-      "atr_pct": 0.005110658150563538,
-      "bollinger_pct_b": -0.0624,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.73,
-      "news_sentiment": 0.625,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $63,000 Level",
-        "BNB Chain\u2019s H2 2026 Roadmap Targets AI Agents as BNB Crypto Price Lags Behind"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.634,
-      "price": 0.07195000350475311,
-      "rsi": 35.903082977487344,
-      "momentum_5d": -0.010180204825872794,
-      "momentum_1d": -0.018952757588539395,
-      "macd_crossover": false,
-      "atr_pct": 0.008011500269783046,
-      "bollinger_pct_b": -0.1623,
-      "volume_spike": true,
-      "volume_spike_ratio": 13.83,
-      "news_sentiment": 0.128,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Consolidate as US-Iran Tensions Escalate: Analyst Says People Will Be 'Surprised' by Upcoming Bull Cycle",
-        "Legendary Hedge Fund Manager Says SpaceX Is \u2018The Equivalent Of Dogecoin\u2019 And Bitcoin Is The One That's Actually Cheap",
-        "Bitcoin Price Tops $64,000 \u2013 Analysts Eye $65K Breakout, $67K Short Squeeze"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.6256,
-      "price": 75.73999786376953,
-      "rsi": 35.758777390931954,
-      "momentum_5d": -0.012773766180143606,
-      "momentum_1d": -0.016363664106889206,
-      "macd_crossover": false,
-      "atr_pct": 0.008044429618703953,
-      "bollinger_pct_b": -0.1447,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.7,
-      "news_sentiment": 0.172,
-      "news_confidence": 0.29,
-      "news_headlines": [
-        "Bitcoin, Ethereum, XRP, Dogecoin Consolidate as US-Iran Tensions Escalate: Analyst Says People Will Be 'Surprised' by Upcoming Bull Cycle",
-        "Is the \"Solana Summer\" Finally Here?",
-        "The Worst Performing ETFs of 2026 So Far"
       ],
       "high_impact_news": true
     },
@@ -842,9 +716,9 @@
       "news_sentiment": 0.548,
       "news_confidence": 0.31,
       "news_headlines": [
+        "Jim Cramer Says Comparing the Mag 7 Is a Mistake: Here Are 5 Reasons Each Stock Is Different",
         "Why Meta Platforms Stock Surged This Week",
-        "OpenAI Applications Chief Fidji Simo Steps Down From Full-Time Role Over Chronic Illness Recovery, Says 'I Failed to Make This Decision Many Times Before'",
-        "Meta (META) Faces $2 Billion AI Deal Reversal And EU App Design Probe"
+        "OpenAI Applications Chief Fidji Simo Steps Down From Full-Time Role Over Chronic Illness Recovery, Says 'I Failed to Make This Decision Many Times Before'"
       ],
       "high_impact_news": true
     },
@@ -891,8 +765,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "NVDA",
+      "rank_score": 0.5146,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
+      "macd_crossover": false,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.644,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
+        "TSMC posts record revenue in second quarter on AI demand",
+        "Avoid This Hidden Risk of Index Funds"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMD",
-      "rank_score": 0.5011,
+      "rank_score": 0.5081,
       "price": 557.989990234375,
       "rsi": 77.41669448750707,
       "momentum_5d": 0.010421297156949885,
@@ -902,12 +797,33 @@
       "bollinger_pct_b": 0.7385,
       "volume_spike": false,
       "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.783,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.843,
+      "news_confidence": 0.51,
       "news_headlines": [
+        "INTC, AMD, NVDA, AVGO: Chip Stocks Slide As Fresh US-Iran Strikes Test Peace Deal",
         "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
-        "Why Meta Platforms Stock Surged This Week",
-        "Nvidia Stock Is Losing to the Market in 2026. Time to Walk Away or Double Down?"
+        "Why Meta Platforms Stock Surged This Week"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.5009,
+      "price": 356.9100036621094,
+      "rsi": 39.039475228802445,
+      "momentum_5d": 0.007490952570882655,
+      "momentum_1d": -0.03516979155864614,
+      "macd_crossover": true,
+      "atr_pct": 0.007655558972904075,
+      "bollinger_pct_b": 0.4798,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.83,
+      "news_sentiment": 0.657,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Jim Cramer Says Comparing the Mag 7 Is a Mistake: Here Are 5 Reasons Each Stock Is Different",
+        "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
+        "Here\u2019s How Nancy Pelosi Beat the Stock Market and Warren Buffett"
       ],
       "high_impact_news": true
     },
@@ -929,69 +845,6 @@
         "Sector Update: Energy Stocks Advance Pre-Bell Friday",
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
         "Sector Update: Energy Stocks Decline Pre-Bell Thursday"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NVDA",
-      "rank_score": 0.4971,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.274,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
-        "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
-        "What You\u2019ve Done to Create Financial Freedom, Vol. 4"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NKE",
-      "rank_score": 0.497,
-      "price": 44.380001068115234,
-      "rsi": 69.49474377254546,
-      "momentum_5d": -0.0040372019439933364,
-      "momentum_1d": 0.030296001905090332,
-      "macd_crossover": false,
-      "atr_pct": 0.009640460309411897,
-      "bollinger_pct_b": 0.8223,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.49,
-      "news_sentiment": 0.673,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "If You'd Invested $10,000 in Nike a Decade Ago, Here's How Much You'd Have Today (And It's Not Pretty)",
-        "Alma Mater Secures Star-Studded Athlete Investor Group Ahead of New Funding Round",
-        "Jim Cramer Has Had Enough With Nike Inc. (NKE)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.496,
-      "price": 356.9100036621094,
-      "rsi": 39.039475228802445,
-      "momentum_5d": 0.007490952570882655,
-      "momentum_1d": -0.03516979155864614,
-      "macd_crossover": true,
-      "atr_pct": 0.007655558972904075,
-      "bollinger_pct_b": 0.4798,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.474,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Did Nvidia's 2028 Rack Delay Under Jensen Huang Open a Door for AMD and Google?",
-        "Here\u2019s How Nancy Pelosi Beat the Stock Market and Warren Buffett",
-        "I've Tried Every Budgeting App and Nothing Sticks. Could a Spreadsheet Actually Be the Answer?"
       ],
       "high_impact_news": true
     },
@@ -1031,9 +884,30 @@
       "news_sentiment": 0.0,
       "news_confidence": 0.5,
       "news_headlines": [
+        "Avoid This Hidden Risk of Index Funds",
         "Nasdaq, S&P 500, Dow Futures Fall After Trump Directs Strikes \u2018To Hold Iranian Forces Accountable\u2019: NVDA, SLS, MRK, SKHYV, QS Stocks In Focus",
-        "Stop Settling for VYM. This Fund Yields More, Costs 0.06%, and Beat the S&P",
-        "The Maximum Social Security Check Is $5,108 a Month. Here\u2019s How Much Invested It Takes to Match It."
+        "Stop Settling for VYM. This Fund Yields More, Costs 0.06%, and Beat the S&P"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NKE",
+      "rank_score": 0.488,
+      "price": 44.380001068115234,
+      "rsi": 69.49474377254546,
+      "momentum_5d": -0.0040372019439933364,
+      "momentum_1d": 0.030296001905090332,
+      "macd_crossover": false,
+      "atr_pct": 0.009640460309411897,
+      "bollinger_pct_b": 0.8223,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.49,
+      "news_sentiment": 0.583,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Is The Oil Crisis Over? Or Is It Just Beginning?",
+        "If You'd Invested $10,000 in Nike a Decade Ago, Here's How Much You'd Have Today (And It's Not Pretty)",
+        "Alma Mater Secures Star-Studded Athlete Investor Group Ahead of New Funding Round"
       ],
       "high_impact_news": true
     },
@@ -1076,6 +950,130 @@
         "Vertex (VRTX) Wins FDA Expansion For CASGEVY And Advances ALYFTREK In Canada",
         "Vertex Pharmaceuticals Bets $10 Billion on Crinetics to Build Endocrinology Powerhouse",
         "Is This Biotech Stock a Buy Near Its 52-Week High?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOUN",
+      "rank_score": 0.4776,
+      "price": 6.639999866485596,
+      "rsi": 41.20335855850213,
+      "momentum_5d": 0.012967206769327418,
+      "momentum_1d": -0.02567867780858658,
+      "macd_crossover": true,
+      "atr_pct": 0.018986644486488687,
+      "bollinger_pct_b": 0.5181,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.38,
+      "news_sentiment": 0.596,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "3 Reasons SoundHound AI Stock Could Keep Climbing",
+        "What SoundHound AI (SOUN)'s S-4 Business Combination and Platform Expansion Means For Shareholders",
+        "SoundHound AI (SOUN) On Earnings Focus And A Voice AI Story That Looks Fully Valued"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MA",
+      "rank_score": 0.4708,
+      "price": 526.5,
+      "rsi": 65.56632872789916,
+      "momentum_5d": 0.010091339621236357,
+      "momentum_1d": -0.011016859376483272,
+      "macd_crossover": false,
+      "atr_pct": 0.005900156189055929,
+      "bollinger_pct_b": 1.1671,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.7,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "MarketBeat Week in Review \u2013 07/06 - 07/10",
+        "How Mastercard\u2019s New AP4M Machine Payments Platform Will Impact Mastercard (MA) Investors",
+        "Can AmEx's AI Investments Unlock the Next Phase of Growth?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "EUR/JPY",
+      "rank_score": 0.47,
+      "price": 185.0469970703125,
+      "rsi": 74.77194744330069,
+      "momentum_5d": 0.0023779866379798438,
+      "momentum_1d": 0.0011415445953625617,
+      "macd_crossover": false,
+      "atr_pct": 0.0007469194498147501,
+      "bollinger_pct_b": 0.9829,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -1.0,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TGT",
+      "rank_score": 0.4624,
+      "price": 135.1300048828125,
+      "rsi": 63.459929348834805,
+      "momentum_5d": -0.0036129645481229058,
+      "momentum_1d": 0.061591671858718645,
+      "macd_crossover": false,
+      "atr_pct": 0.009135125072671653,
+      "bollinger_pct_b": 0.7572,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.15,
+      "news_sentiment": 0.282,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Own Walmart For Value? Dollar Tree's Numbers Tell A Sharper Story.",
+        "Target Corporation (TGT) Is a Trending Stock: Facts to Know Before Betting on It",
+        "Collect 15% On DASH Stock Now, And Still Keep 21% Of Upside"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.4608,
+      "price": 916.1699829101562,
+      "rsi": 21.288965775861328,
+      "momentum_5d": 0.006448418319129456,
+      "momentum_1d": -0.03438572145473638,
+      "macd_crossover": false,
+      "atr_pct": 0.007203524558375943,
+      "bollinger_pct_b": 0.3787,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.171,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Dollar Tree makes key move to keep popular items in stock",
+        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
+        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "C",
+      "rank_score": 0.4603,
+      "price": 140.60000610351562,
+      "rsi": 76.40714008693418,
+      "momentum_5d": -0.0016686235605399618,
+      "momentum_1d": -0.010416636461610581,
+      "macd_crossover": false,
+      "atr_pct": 0.005745378790197303,
+      "bollinger_pct_b": 0.7313,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.65,
+      "news_sentiment": 0.44,
+      "news_confidence": 0.58,
+      "news_headlines": [
+        "Citigroup (C) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+        "Should Citi\u2019s Endorsement of Cheesecake Factory\u2019s New Loyalty App Reframe the CAKE Digital Investment Story?",
+        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades"
       ],
       "high_impact_news": true
     }
