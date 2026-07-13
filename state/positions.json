@@ -298,8 +298,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_trough": 660.510009765625,
-    "trailing_stop_price": 670.41766
+    "price_trough": 656.72998046875,
+    "trailing_stop_price": 666.58093
   },
   "NKE": {
     "id": "NKE_20260710153156",
@@ -330,8 +330,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_trough": 44.20000076293945,
-    "trailing_stop_price": 44.635813
+    "price_trough": 43.7599983215332,
+    "trailing_stop_price": 44.191472
   },
   "SNAP": {
     "id": "SNAP_20260710153156",
@@ -360,8 +360,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_trough": 4.679999828338623,
-    "trailing_stop_price": 4.853628
+    "price_trough": 4.664999961853027,
+    "trailing_stop_price": 4.838071
   },
   "LCID": {
     "id": "LCID_20260710185346",
@@ -392,38 +392,6 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260713100050",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.650000095367432,
-    "entry_time": "2026-07-13T10:00:50.416075+00:00",
-    "stop_loss_pct": 0.0092,
-    "take_profit_pct": 0.02205,
-    "size_usd": 5182.01,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (74.4)",
-      "5d momentum +2.47%",
-      "1d momentum +3.91%",
-      "BB overbought (pct_b=1.18)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.538,
-    "news_headlines": [
-      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
-      "NEC Taps Avalanche for Biometric-Verified Stablecoin Payments Framework",
-      "Bitwise Drops 2 Altcoins From Flagship Crypto ETF: Will Hyperliquid Keep Its Seat?"
-    ],
-    "mode": "paper",
-    "strategy_version": "54",
-    "status": "open",
-    "price_trough": 6.539999961853027,
-    "trailing_stop_price": 6.600168
   },
   "IONQ": {
     "id": "IONQ_20260713173309",
@@ -484,8 +452,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_trough": 47.755001068115234,
-    "trailing_stop_price": 48.225388
+    "price_trough": 47.650001525878906,
+    "trailing_stop_price": 48.119354
   },
   "CRM": {
     "id": "CRM_20260713173309",
@@ -577,7 +545,9 @@
     ],
     "mode": "paper",
     "strategy_version": "55",
-    "status": "open"
+    "status": "open",
+    "price_trough": 117.79000091552734,
+    "trailing_stop_price": 119.293001
   },
   "QCOM": {
     "id": "QCOM_20260713190019",
@@ -603,6 +573,36 @@
       "Congress Is Trading on Laws They\u2019re About to Pass \u2014 And It\u2019s Perfectly Legal",
       "What Investors Keep Asking About NVDA",
       "Nvidia, Broadcom, AMD Lead AI Chip Stock Selloff After SK Hynix Slump"
+    ],
+    "mode": "paper",
+    "strategy_version": "55",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260713202001",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74.87999725341797,
+    "entry_time": "2026-07-13T20:20:01.906060+00:00",
+    "stop_loss_pct": 0.00736,
+    "take_profit_pct": 0.01794,
+    "size_usd": 5247.46,
+    "position_size_pct": 0.0513,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (35.9)",
+      "5d momentum -1.16%",
+      "1d momentum -3.28%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.647,
+    "news_headlines": [
+      "How tokenized stocks could become a $3 trillion market",
+      "Top Cryptocurrencies Lower; Bitcoin Holds Above $62,000 Level",
+      "Jupiter Partners with Collector Crypt on New Pok\u00e9mon Card Gacha"
     ],
     "mode": "paper",
     "strategy_version": "55",
