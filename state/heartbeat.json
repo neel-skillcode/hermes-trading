@@ -3,15 +3,15 @@
   "portfolio_balance": 102303.01,
   "portfolio_peak": 102303.01,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 737.03,
-  "equity_value": 103040.04,
+  "unrealized_pnl_usd": 738.77,
+  "equity_value": 103041.78,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40921.2,
   "swing_capital_used_usd": 47499.91,
   "total_trades": 602,
-  "last_tick": "2026-07-13T21:16:49.773552+00:00",
+  "last_tick": "2026-07-13T22:13:41.319026+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8372,
-      "unrealized_pnl_pct": 0.00037,
-      "unrealized_pnl_usd": 0.5
+      "current_price": 7.83758,
+      "unrealized_pnl_pct": 0.000419,
+      "unrealized_pnl_usd": 0.56
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.692042,
-      "unrealized_pnl_pct": 0.00173,
-      "unrealized_pnl_usd": 9.41
+      "current_price": 0.692185,
+      "unrealized_pnl_pct": 0.001523,
+      "unrealized_pnl_usd": 8.28
     },
     {
       "id": "V_20260707180911",
@@ -175,9 +175,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.378006,
-      "unrealized_pnl_pct": -0.001598,
-      "unrealized_pnl_usd": -5.82
+      "current_price": 162.445999,
+      "unrealized_pnl_pct": -0.002017,
+      "unrealized_pnl_usd": -7.35
     },
     {
       "id": "AMZN_20260708152529",
@@ -275,9 +275,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 184.886002,
-      "unrealized_pnl_pct": 0.004662,
-      "unrealized_pnl_usd": 30.96
+      "current_price": 184.901993,
+      "unrealized_pnl_pct": 0.004576,
+      "unrealized_pnl_usd": 30.39
     },
     {
       "id": "COST_20260709163905",
@@ -682,33 +682,12 @@
       "mode": "paper",
       "strategy_version": "55",
       "status": "open",
-      "current_price": 74.480003,
-      "unrealized_pnl_pct": -0.005342,
-      "unrealized_pnl_usd": -28.03
+      "current_price": 74.550003,
+      "unrealized_pnl_pct": -0.004407,
+      "unrealized_pnl_usd": -23.13
     }
   ],
   "last_candidates": [
-    {
-      "asset": "WFC",
-      "rank_score": 0.8039,
-      "price": 87.69999694824219,
-      "rsi": 61.826259765178854,
-      "momentum_5d": 0.015751687144266432,
-      "momentum_1d": 0.02321780288211486,
-      "macd_crossover": true,
-      "atr_pct": 0.0072361249097093,
-      "bollinger_pct_b": 1.1113,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.05,
-      "news_sentiment": 0.49,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Update: Nasdaq Snaps 3-Day Winning Streak as Oil Jumps Amid US-Iran Tensions",
-        "Bank Stocks 'An Island of Stability' as Financial Institutions Set to Release Earnings",
-        "S&P 500 Heads Into Second-Quarter Earnings Season With Elevated Growth Targets, Oppenheimer Says"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "BIIB",
       "rank_score": 0.8028,
@@ -727,6 +706,27 @@
         "BIIB Stock Jumps 5% \u2014 Analysts Raise Price Targets After FDA Clears Alzheimer\u2019s Treatment For At-Home Use",
         "Biogen Stock Is Upgraded to Buy Ahead of Key Alzheimer\u2019s Drug Study Details",
         "Stock Market Today, July 13: SK Hynix Tumbles 15% in South Korea, Leading Semiconductor Drop at Midday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "WFC",
+      "rank_score": 0.7959,
+      "price": 87.69999694824219,
+      "rsi": 61.826259765178854,
+      "momentum_5d": 0.015751687144266432,
+      "momentum_1d": 0.02321780288211486,
+      "macd_crossover": true,
+      "atr_pct": 0.0072361249097093,
+      "bollinger_pct_b": 1.1113,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.05,
+      "news_sentiment": 0.378,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Globe Life (GL) Could Be 4% Above Fair Value As Financing Gets Reset",
+        "Update: Nasdaq Snaps 3-Day Winning Streak as Oil Jumps Amid US-Iran Tensions",
+        "Bank Stocks 'An Island of Stability' as Financial Institutions Set to Release Earnings"
       ],
       "high_impact_news": true
     },
@@ -787,9 +787,9 @@
       "news_sentiment": 0.474,
       "news_confidence": 0.38,
       "news_headlines": [
+        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now",
         "US Equity Markets End Lower After Trump Proposes Blockade of Iranian Ships, Toll on Strait of Hormuz",
-        "Renewed Middle East Tensions Threaten Supply: 3 Energy Stocks to Watch",
-        "Oil Jumps As Trump Makes U.S. 'Guardian' Of Hormuz; What Happens Now"
+        "Renewed Middle East Tensions Threaten Supply: 3 Energy Stocks to Watch"
       ],
       "high_impact_news": true
     },
@@ -879,7 +879,7 @@
     },
     {
       "asset": "C",
-      "rank_score": 0.6737,
+      "rank_score": 0.6697,
       "price": 140.7100067138672,
       "rsi": 56.985274180730215,
       "momentum_5d": 0.020155254010783927,
@@ -889,12 +889,12 @@
       "bollinger_pct_b": 0.7311,
       "volume_spike": true,
       "volume_spike_ratio": 2.14,
-      "news_sentiment": 0.607,
-      "news_confidence": 0.61,
+      "news_sentiment": 0.579,
+      "news_confidence": 0.57,
       "news_headlines": [
+        "Does Citi\u2019s Tokenized USD Clearing Breakthrough Deepen the Digital Transformation Narrative for Citigroup (C)?",
         "Update: Nasdaq Snaps 3-Day Winning Streak as Oil Jumps Amid US-Iran Tensions",
-        "Bank Stocks 'An Island of Stability' as Financial Institutions Set to Release Earnings",
-        "S&P 500 Heads Into Second-Quarter Earnings Season With Elevated Growth Targets, Oppenheimer Says"
+        "Bank Stocks 'An Island of Stability' as Financial Institutions Set to Release Earnings"
       ],
       "high_impact_news": true
     },
@@ -921,7 +921,7 @@
     },
     {
       "asset": "CVX",
-      "rank_score": 0.657,
+      "rank_score": 0.654,
       "price": 182.2100067138672,
       "rsi": 85.60204195759502,
       "momentum_5d": 0.01329106491103198,
@@ -931,12 +931,12 @@
       "bollinger_pct_b": 0.9179,
       "volume_spike": true,
       "volume_spike_ratio": 1.66,
-      "news_sentiment": 0.091,
-      "news_confidence": 0.44,
+      "news_sentiment": -0.024,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "Soaring Energy Profits Won\u2019t Last. Where to Find Bargains Now.",
-        "Update: US Equity Indexes Slump as Trump's Plan to Reinstate Iran Blockade, Impose 20% Toll on Hormuz Cargo Sends Crude Oil Higher",
-        "Update: US Equity Indexes Fall, Crude Oil Surges as Trump Plans to Reinstate Iran Blockade, Proposes 20% Toll on Hormuz Cargo"
+        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now",
+        "Update: US Equity Indexes Slump, Crude Oil Soars as Trump Plans to Reinstate Iran Blockade, Impose 20% Toll on Hormuz Cargo",
+        "Soaring Energy Profits Won\u2019t Last. Where to Find Bargains Now."
       ],
       "high_impact_news": true
     },
@@ -1039,7 +1039,7 @@
       "news_sentiment": 0.226,
       "news_confidence": 0.31,
       "news_headlines": [
-        "Oil Jumps As Trump Makes U.S. 'Guardian' Of Hormuz; What Happens Now",
+        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now",
         "Oil Is Spiking and the Iran Ceasefire Is Cracking: What It Means for Your Stocks",
         "The Real Risk Inside ExxonMobil Stock"
       ],
