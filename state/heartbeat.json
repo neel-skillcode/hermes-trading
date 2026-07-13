@@ -3,15 +3,15 @@
   "portfolio_balance": 101976.03,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.18,
-  "unrealized_pnl_usd": 1056.56,
-  "equity_value": 103032.59,
+  "unrealized_pnl_usd": 1108.89,
+  "equity_value": 103084.92,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40786.81,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 593,
-  "last_tick": "2026-07-13T10:00:50.420669+00:00",
+  "last_tick": "2026-07-13T12:37:25.763840+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83828,
-      "unrealized_pnl_pct": 0.000508,
-      "unrealized_pnl_usd": 0.68
+      "current_price": 7.83792,
+      "unrealized_pnl_pct": 0.000462,
+      "unrealized_pnl_usd": 0.62
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.694348,
-      "unrealized_pnl_pct": -0.001597,
-      "unrealized_pnl_usd": -8.69
+      "current_price": 0.694493,
+      "unrealized_pnl_pct": -0.001806,
+      "unrealized_pnl_usd": -9.82
     },
     {
       "id": "VLO_20260707180911",
@@ -209,9 +209,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 161.996002,
-      "unrealized_pnl_pct": 0.000759,
-      "unrealized_pnl_usd": 2.76
+      "current_price": 162.179993,
+      "unrealized_pnl_pct": -0.000376,
+      "unrealized_pnl_usd": -1.37
     },
     {
       "id": "AMZN_20260708152529",
@@ -309,9 +309,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 185.190002,
-      "unrealized_pnl_pct": 0.003026,
-      "unrealized_pnl_usd": 20.09
+      "current_price": 185.320999,
+      "unrealized_pnl_pct": 0.00232,
+      "unrealized_pnl_usd": 15.41
     },
     {
       "id": "COST_20260709163905",
@@ -651,9 +651,11 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "current_price": 6.65,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 6.570000171661377,
+      "trailing_stop_price": 6.630444,
+      "current_price": 6.57,
+      "unrealized_pnl_pct": 0.01203,
+      "unrealized_pnl_usd": 62.34
     }
   ],
   "last_candidates": [
@@ -679,17 +681,38 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6363,
-      "price": 6.650000095367432,
-      "rsi": 74.35899003409997,
-      "momentum_5d": 0.024653363619718753,
-      "momentum_1d": 0.0390624994179234,
+      "asset": "MRNA",
+      "rank_score": 0.5873,
+      "price": 68.26499938964844,
+      "rsi": 33.775787507081205,
+      "momentum_5d": -0.004738255803968487,
+      "momentum_1d": -0.1436893718632905,
       "macd_crossover": false,
-      "atr_pct": 0.009774444554630874,
-      "bollinger_pct_b": 1.1807,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
+      "atr_pct": 0.025460149782679884,
+      "bollinger_pct_b": 0.1469,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.57,
+      "news_sentiment": 0.744,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Moderna, Takeda and Capricor on the verge of notching big drug approvals",
+        "US Stock Market Today: S&P 500 Futures Rise As Inflation Cools And Earnings Loom",
+        "Stock Market Today: Dow Ends Higher; SK Hynix Jumps In U.S. Trading Debut; Moderna Tumbles"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5799,
+      "price": 6.570000171661377,
+      "rsi": 71.79486238980792,
+      "momentum_5d": 0.010769257178673377,
+      "momentum_1d": 0.021772993321980703,
+      "macd_crossover": false,
+      "atr_pct": 0.010545778631460388,
+      "bollinger_pct_b": 0.7841,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.48,
       "news_sentiment": 0.538,
       "news_confidence": 0.39,
       "news_headlines": [
@@ -700,44 +723,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "MRNA",
-      "rank_score": 0.5803,
-      "price": 68.26499938964844,
-      "rsi": 33.775787507081205,
-      "momentum_5d": -0.004738255803968487,
-      "momentum_1d": -0.1436893718632905,
+      "asset": "BTC-USD",
+      "rank_score": 0.5776,
+      "price": 62573.1796875,
+      "rsi": 28.57858469839742,
+      "momentum_5d": -0.005758120935435831,
+      "momentum_1d": -0.022021458251943155,
       "macd_crossover": false,
-      "atr_pct": 0.025460149782679884,
-      "bollinger_pct_b": 0.1469,
+      "atr_pct": 0.005786091281798995,
+      "bollinger_pct_b": 0.1649,
       "volume_spike": true,
-      "volume_spike_ratio": 1.57,
-      "news_sentiment": 0.678,
-      "news_confidence": 0.5,
+      "volume_spike_ratio": 3.06,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "US Stock Market Today: S&P 500 Futures Rise As Inflation Cools And Earnings Loom",
-        "Stock Market Today: Dow Ends Higher; SK Hynix Jumps In U.S. Trading Debut; Moderna Tumbles",
-        "Update: US Equity Indexes Rise as Diplomatic Engagements Between Washington, Iran Send Crude Oil Lower"
+        "Stock Market Today: Nasdaq Slides On New U.S.-Iran Strikes; SK Hynix Plunges (Live Coverage)",
+        "ICP Traders Pile $243 Million Into Multi/DEX Where Nobody Can Lose a Cent",
+        "Morning Minute: BTC and ETH ETFs Flip Green After Lengthy Outflow Stretch"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "META",
-      "rank_score": 0.5549,
-      "price": 669.3099975585938,
-      "rsi": 78.41694255948235,
-      "momentum_5d": -0.008010832843112024,
-      "momentum_1d": 0.10162697796791251,
+      "asset": "ETH-USD",
+      "rank_score": 0.5543,
+      "price": 1767.699951171875,
+      "rsi": 33.83774937350985,
+      "momentum_5d": -0.010235293506524752,
+      "momentum_1d": -0.02120168952737709,
       "macd_crossover": false,
-      "atr_pct": 0.019046889518325026,
-      "bollinger_pct_b": 0.8362,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.607,
-      "news_confidence": 0.42,
+      "atr_pct": 0.008250437672083888,
+      "bollinger_pct_b": 0.1021,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.71,
+      "news_sentiment": 0.805,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
-        "Meta\u2019s Potential AI Cloud Push Could Boost Earnings, Wolfe Research Says",
-        "EU to Present Plan to Restrict Children\u2019s Access to Social Media"
+        "ICP Traders Pile $243 Million Into Multi/DEX Where Nobody Can Lose a Cent",
+        "Robinhood Chain\u2019s Gas Subsidy Is Closing the Gap With Base: Future of Ethereum On Horizon?",
+        "Here's What to Buy to Prepare for the Next Crypto Bull Market (Hint: It's Not Just Bitcoin)"
       ],
       "high_impact_news": true
     },
@@ -763,6 +786,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "NVDA",
+      "rank_score": 0.5246,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
+      "macd_crossover": false,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.709,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Prediction: XRP Will Lose 50% of Its Value -- Here's Why",
+        "Should You Buy Verizon Communications Stock Before July 24?",
+        "SpaceX Gets All the Attention, but These 3 Under-the-Radar Defense Stocks Have Stronger Fundamentals"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "IONQ",
       "rank_score": 0.5207,
       "price": 42.8849983215332,
@@ -780,27 +824,6 @@
         "IonQ, Inc. (IONQ) Stock Slides as Market Rises: Facts to Know Before You Trade",
         "Quantum Is the Future for Washington. Inside a White House Summit.",
         "3 Hypergrowth Tech Stocks to Buy With $3,000 Right Now"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.5121,
-      "price": 557.989990234375,
-      "rsi": 77.41669448750707,
-      "momentum_5d": 0.010421297156949885,
-      "momentum_1d": 0.07046383720336606,
-      "macd_crossover": false,
-      "atr_pct": 0.018137525205971564,
-      "bollinger_pct_b": 0.7385,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.887,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Advanced Micro Devices (AMD): Turing Inc. is being backed by AMD Ventures, Reports Bloomberg",
-        "Taiwan Semiconductor Reports Earnings July 16. Here's What to Watch.",
-        "TSM Stock Dips Premarket As 36% Q2 Sales Surge Fails To Offset Iran-Driven Market Jitters"
       ],
       "high_impact_news": true
     },
@@ -826,27 +849,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.4986,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.317,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
-        "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
-        "Wall Street's Newest Blockbuster Stock Split Was Just Announced -- and This Non-Tech Titan Has Skyrocketed 457,000% Since Its IPO"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "UNG",
       "rank_score": 0.4982,
       "price": 10.600000381469727,
@@ -868,8 +870,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMD",
+      "rank_score": 0.4944,
+      "price": 557.989990234375,
+      "rsi": 77.41669448750707,
+      "momentum_5d": 0.010421297156949885,
+      "momentum_1d": 0.07046383720336606,
+      "macd_crossover": false,
+      "atr_pct": 0.018137525205971564,
+      "bollinger_pct_b": 0.7385,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.61,
+      "news_sentiment": 0.587,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "SK Hynix stock drops, chip sector declines as AI trade angst returns",
+        "Why TSMC\u2019s Record Revenue Isn\u2019t Reviving the AI Trade",
+        "Kospi falls 9%, SK Hynix stock dives as Iran closes Hormuz Strait"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SPY",
-      "rank_score": 0.4943,
+      "rank_score": 0.4893,
       "price": 754.9000244140625,
       "rsi": 93.21042202962825,
       "momentum_5d": 0.0021905402111682707,
@@ -879,12 +902,12 @@
       "bollinger_pct_b": 0.7995,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.106,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Nasdaq, S&P 500 Futures Slip As Iran Tensions Rattle Markets Again: Why MU, TSLA, BATL, SKHYV, MSFT, TSM, SLS Are In Focus",
-        "Avoid This Hidden Risk of Index Funds",
-        "Nasdaq, S&P 500, Dow Futures Fall After Trump Directs Strikes \u2018To Hold Iranian Forces Accountable\u2019: NVDA, SLS, MRK, SKHYV, QS Stocks In Focus"
+        "Stock Market Today: Nasdaq Slides On New U.S.-Iran Strikes; SK Hynix Plunges (Live Coverage)",
+        "ORCL Eyes 52-Week Low After Sharp Slide: Retail Traders Say Stock Is 'Ridiculously Undervalued'",
+        "The Zacks Analyst Blog Highlights MOAT, SPY and LOHA"
       ],
       "high_impact_news": true
     },
@@ -906,27 +929,6 @@
         "Are AI Agents SoFi Stock's Next Big Catalyst?",
         "Is Dave's ARPU Growth Story Still Gaining Momentum in 2026?",
         "The Standoff Over PYPL Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.4849,
-      "price": 356.9100036621094,
-      "rsi": 39.039475228802445,
-      "momentum_5d": 0.007490952570882655,
-      "momentum_1d": -0.03516979155864614,
-      "macd_crossover": true,
-      "atr_pct": 0.007655558972904075,
-      "bollinger_pct_b": 0.4798,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.28,
-      "news_confidence": 0.25,
-      "news_headlines": [
-        "Ranking the \"Magnificent 7\" Stocks by Free-Cash-Flow Yield",
-        "Alphabet Inc (GOOGL) Stock: Looking Beyond the $4.7 Billion EU Fine",
-        "EU to Present Plan to Restrict Children\u2019s Access to Social Media"
       ],
       "high_impact_news": true
     },
@@ -994,8 +996,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "COST",
+      "rank_score": 0.4688,
+      "price": 916.1699829101562,
+      "rsi": 21.288965775861328,
+      "momentum_5d": 0.006448418319129456,
+      "momentum_1d": -0.03438572145473638,
+      "macd_crossover": false,
+      "atr_pct": 0.007203524558375943,
+      "bollinger_pct_b": 0.3787,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.319,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Here Are Monday\u2019s Best Wall Street Analyst Research Calls: Atmos Energy, Best Buy, Biogen, Capital One, Costco, Disney, Papa John\u2019s International, Shopify, and More",
+        "Dollar Tree makes key move to keep popular items in stock",
+        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MA",
-      "rank_score": 0.4708,
+      "rank_score": 0.4684,
       "price": 526.5,
       "rsi": 65.56632872789916,
       "momentum_5d": 0.010091339621236357,
@@ -1005,33 +1028,12 @@
       "bollinger_pct_b": 1.1671,
       "volume_spike": false,
       "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.7,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.57,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "MarketBeat Week in Review \u2013 07/06 - 07/10",
-        "How Mastercard\u2019s New AP4M Machine Payments Platform Will Impact Mastercard (MA) Investors",
-        "Can AmEx's AI Investments Unlock the Next Phase of Growth?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "C",
-      "rank_score": 0.4698,
-      "price": 140.60000610351562,
-      "rsi": 76.40714008693418,
-      "momentum_5d": -0.0016686235605399618,
-      "momentum_1d": -0.010416636461610581,
-      "macd_crossover": false,
-      "atr_pct": 0.005745378790197303,
-      "bollinger_pct_b": 0.7313,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.636,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "5 of America's Biggest Banks Report Q2 Earnings Tuesday. Here's What Wall Street Is Watching.",
-        "JPMorgan, Wells Fargo, Citigroup and Bank of America  are part of Zacks Earnings Preview",
-        "Citigroup (C) Reports Q2: Everything You Need To Know Ahead Of Earnings"
+        "US-based fintech firm Payoneer opens tech hub in India, boosts hiring",
+        "Mastercard Considers Majority Sale of Vocalink as UK Banks Eye Payments Infrastructure (MA)",
+        "Mastercard in early talks to sell majority stake in Vocalink\u2013 report"
       ],
       "high_impact_news": true
     },
@@ -1057,23 +1059,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "COST",
+      "asset": "C",
       "rank_score": 0.4608,
-      "price": 916.1699829101562,
-      "rsi": 21.288965775861328,
-      "momentum_5d": 0.006448418319129456,
-      "momentum_1d": -0.03438572145473638,
+      "price": 140.60000610351562,
+      "rsi": 76.40714008693418,
+      "momentum_5d": -0.0016686235605399618,
+      "momentum_1d": -0.010416636461610581,
       "macd_crossover": false,
-      "atr_pct": 0.007203524558375943,
-      "bollinger_pct_b": 0.3787,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.171,
-      "news_confidence": 0.41,
+      "atr_pct": 0.005745378790197303,
+      "bollinger_pct_b": 0.7313,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.65,
+      "news_sentiment": 0.448,
+      "news_confidence": 0.58,
       "news_headlines": [
-        "Dollar Tree makes key move to keep popular items in stock",
-        "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
-        "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
+        "US Equity Futures Drop Pre-Bell as Iran Says Strait of Hormuz Closed Once Again, Oil Prices Jump",
+        "Equity Futures Down Amid Middle East Tensions; Key Earnings on Deck",
+        "Strait of Hormuz Squeezes Wall Street Pre-Bell; Asia, Europe Off"
       ],
       "high_impact_news": true
     }
