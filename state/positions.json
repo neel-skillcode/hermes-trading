@@ -113,8 +113,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 290.4800109863281,
-    "trailing_stop_price": 280.130208
+    "price_peak": 293.6700134277344,
+    "trailing_stop_price": 283.206551
   },
   "V": {
     "id": "V_20260707180911",
@@ -144,8 +144,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 354.2749938964844,
-    "trailing_stop_price": 343.505034
+    "price_peak": 358.135009765625,
+    "trailing_stop_price": 347.247705
   },
   "USD/JPY": {
     "id": "USD/JPY_20260707214054",
@@ -297,8 +297,8 @@
     "mode": "paper",
     "strategy_version": "52",
     "status": "open",
-    "price_peak": 920.6950073242188,
-    "trailing_stop_price": 912.878307
+    "price_peak": 922.3300170898438,
+    "trailing_stop_price": 914.499435
   },
   "META": {
     "id": "META_20260710153156",
@@ -329,40 +329,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_trough": 661.4400024414062,
-    "trailing_stop_price": 671.361602
-  },
-  "MRNA": {
-    "id": "MRNA_20260710153156",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 68.45999908447266,
-    "entry_time": "2026-07-10T15:31:56.757277+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5696.56,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (31.7)",
-      "5d momentum -9.34%",
-      "1d momentum -16.27%",
-      "BB oversold (pct_b=-0.04)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.698,
-    "news_headlines": [
-      "Why Moderna (MRNA) Stock Is Trading Up Today",
-      "Moderna (MRNA) Stock May Sit Above Fair Value Following Pipeline Expansion",
-      "Moderna secures up to 24 million RSV vaccine dose contract with Europe"
-    ],
-    "mode": "paper",
-    "strategy_version": "53",
-    "status": "open",
-    "price_peak": 68.88999938964844,
-    "trailing_stop_price": 67.856649
+    "price_trough": 660.510009765625,
+    "trailing_stop_price": 670.41766
   },
   "NKE": {
     "id": "NKE_20260710153156",
@@ -485,38 +453,8 @@
     "mode": "paper",
     "strategy_version": "54",
     "status": "open",
-    "price_trough": 6.610000133514404,
-    "trailing_stop_price": 6.670812
-  },
-  "IONQ": {
-    "id": "IONQ_20260713153245",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 40.18000030517578,
-    "entry_time": "2026-07-13T15:32:45.264785+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6070.93,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (14.5)",
-      "5d momentum -7.38%",
-      "1d momentum -11.45%",
-      "BB oversold (pct_b=-0.02)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.684,
-    "news_headlines": [
-      "IonQ, Inc. (IONQ) Stock Slides as Market Rises: Facts to Know Before You Trade",
-      "Quantum Is the Future for Washington. Inside a White House Summit.",
-      "3 Hypergrowth Tech Stocks to Buy With $3,000 Right Now"
-    ],
-    "mode": "paper",
-    "strategy_version": "54",
-    "status": "open"
+    "price_trough": 6.539999961853027,
+    "trailing_stop_price": 6.600168
   },
   "MPC": {
     "id": "MPC_20260713153245",
@@ -548,34 +486,94 @@
     "strategy_version": "54",
     "status": "open"
   },
-  "CVX": {
-    "id": "CVX_20260713153245",
-    "asset": "CVX",
+  "IONQ": {
+    "id": "IONQ_20260713173309",
+    "asset": "IONQ",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 179.9600067138672,
-    "entry_time": "2026-07-13T15:32:45.268088+00:00",
-    "stop_loss_pct": 0.00598,
-    "take_profit_pct": 0.01432,
-    "size_usd": 1154.85,
-    "position_size_pct": 0.0114,
-    "confidence": 0.794,
+    "direction": "long",
+    "entry_price": 39.03499984741211,
+    "entry_time": "2026-07-13T17:33:09.330921+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5666.98,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
     "signals": [
-      "RSI overbought (83.6)",
-      "5d momentum +2.96%",
-      "1d momentum +3.48%",
-      "BB overbought (pct_b=1.07)",
+      "RSI oversold (6.4)",
+      "5d momentum -8.98%",
+      "1d momentum -11.68%",
+      "BB oversold (pct_b=0.04)",
       "High-impact catalyst",
-      "Claude [contradicts]: earnings beat"
+      "Claude [neutral]: price decline"
     ],
-    "news_sentiment": 0.517,
+    "news_sentiment": 0.476,
     "news_headlines": [
-      "Oil Prices Jump As U.S.-Iran Escalation Tests Market Calm",
-      "Chevron Extends WA Gas Supply Deal With Alinta Energy Through 2032",
-      "Nasdaq falls, Dow slips as oil prices rebound on fresh US-Iran fighting"
+      "Can Rigetti's Infrastructure Edge Power the Next Quantum Revolution?",
+      "IonQ Tumbles 8%, D-Wave, Rigetti, Quantum Computing Drop 6% as Risk-Off Ripple Effects Hit Speculative Quantum Stocks",
+      "IonQ, Inc. (IONQ) Stock Slides as Market Rises: Facts to Know Before You Trade"
     ],
     "mode": "paper",
-    "strategy_version": "54",
+    "strategy_version": "55",
+    "status": "open"
+  },
+  "PYPL": {
+    "id": "PYPL_20260713173309",
+    "asset": "PYPL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 48.30500030517578,
+    "entry_time": "2026-07-13T17:33:09.332684+00:00",
+    "stop_loss_pct": 0.00985,
+    "take_profit_pct": 0.024,
+    "size_usd": 5666.98,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (92.9)",
+      "5d momentum +4.28%",
+      "1d momentum +10.24%",
+      "BB overbought (pct_b=1.03)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Digital Payment Today - Argentina's Social Commerce Surge: Unlocking New Market Opportunities",
+      "The Real Risk Inside MercadoLibre Stock",
+      "Wall Street Mounts Pushback on Trillion-Dollar Stablecoin Boom"
+    ],
+    "mode": "paper",
+    "strategy_version": "55",
+    "status": "open"
+  },
+  "CRM": {
+    "id": "CRM_20260713173309",
+    "asset": "CRM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 172.04989624023438,
+    "entry_time": "2026-07-13T17:33:09.334490+00:00",
+    "stop_loss_pct": 0.00883,
+    "take_profit_pct": 0.02116,
+    "size_usd": 1488.64,
+    "position_size_pct": 0.0147,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (84.5)",
+      "5d momentum +5.34%",
+      "1d momentum +3.74%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [contradicts]: ma catalyst"
+    ],
+    "news_sentiment": 0.429,
+    "news_headlines": [
+      "Forget Palantir as It Bounces Back and Get in Salesforce Before Wall Street Wakes Up to Real Value",
+      "MSFT Stock Has Bounced From This Price Before. Now What?",
+      "Workers just sent AI companies an ultimatum"
+    ],
+    "mode": "paper",
+    "strategy_version": "55",
     "status": "open"
   }
 }
