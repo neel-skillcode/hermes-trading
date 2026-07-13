@@ -3,15 +3,15 @@
   "portfolio_balance": 101752.03,
   "portfolio_peak": 102163.99,
   "portfolio_drawdown_pct": 0.4,
-  "unrealized_pnl_usd": 1093.83,
-  "equity_value": 102845.86,
+  "unrealized_pnl_usd": 1134.02,
+  "equity_value": 102886.05,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40700.81,
   "swing_capital_used_usd": 49325.94,
   "total_trades": 592,
-  "last_tick": "2026-07-12T23:05:26.922944+00:00",
+  "last_tick": "2026-07-13T00:06:33.734414+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83909,
-      "unrealized_pnl_pct": 0.000611,
-      "unrealized_pnl_usd": 0.82
+      "current_price": 7.83914,
+      "unrealized_pnl_pct": 0.000618,
+      "unrealized_pnl_usd": 0.83
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.693963,
-      "unrealized_pnl_pct": -0.001041,
-      "unrealized_pnl_usd": -5.66
+      "current_price": 0.694396,
+      "unrealized_pnl_pct": -0.001667,
+      "unrealized_pnl_usd": -9.06
     },
     {
       "id": "VLO_20260707180911",
@@ -209,9 +209,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.061996,
-      "unrealized_pnl_pct": 0.000352,
-      "unrealized_pnl_usd": 1.28
+      "current_price": 161.908997,
+      "unrealized_pnl_pct": 0.001295,
+      "unrealized_pnl_usd": 4.72
     },
     {
       "id": "AMZN_20260708152529",
@@ -309,9 +309,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 184.641998,
-      "unrealized_pnl_pct": 0.005976,
-      "unrealized_pnl_usd": 39.68
+      "current_price": 184.638,
+      "unrealized_pnl_pct": 0.005997,
+      "unrealized_pnl_usd": 39.83
     },
     {
       "id": "COST_20260709163905",
@@ -651,11 +651,11 @@
       "mode": "paper",
       "strategy_version": "54",
       "status": "open",
-      "price_peak": 6.389999866485596,
-      "trailing_stop_price": 6.324694,
-      "current_price": 6.39,
-      "unrealized_pnl_pct": 0.00314,
-      "unrealized_pnl_usd": 16.0
+      "price_peak": 6.440000057220459,
+      "trailing_stop_price": 6.374183,
+      "current_price": 6.44,
+      "unrealized_pnl_pct": 0.010989,
+      "unrealized_pnl_usd": 56.0
     }
   ],
   "last_candidates": [
@@ -807,27 +807,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.4971,
-      "price": 210.9499969482422,
-      "rsi": 69.49789246265541,
-      "momentum_5d": 0.01141098691301181,
-      "momentum_1d": 0.06842582222336258,
-      "macd_crossover": false,
-      "atr_pct": 0.010800802734353547,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.303,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
-        "Top Value Investor Bill Miller IV Says Bitcoin Is Undervalued. So How Much Higher Can Bitcoin Go This Year?",
-        "Is the \"Solana Summer\" Finally Here?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SPY",
       "rank_score": 0.4963,
       "price": 754.9000244140625,
@@ -845,6 +824,27 @@
         "Stop Settling for VYM. This Fund Yields More, Costs 0.06%, and Beat the S&P",
         "The Maximum Social Security Check Is $5,108 a Month. Here\u2019s How Much Invested It Takes to Match It.",
         "This Covered Call ETF Just Proved Double Digit Income Doesn\u2019t Mean NAV Bleed"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.4959,
+      "price": 356.9100036621094,
+      "rsi": 39.039475228802445,
+      "momentum_5d": 0.007490952570882655,
+      "momentum_1d": -0.03516979155864614,
+      "macd_crossover": true,
+      "atr_pct": 0.007655558972904075,
+      "bollinger_pct_b": 0.4798,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.83,
+      "news_sentiment": 0.409,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Here\u2019s How Nancy Pelosi Beat the Stock Market and Warren Buffett",
+        "Is the AI Bubble About to Burst?",
+        "Big Tech Is Pouring Billions Into AI, and the Stock Market Wants to See the Payoff\u2014Now"
       ],
       "high_impact_news": true
     },
@@ -870,23 +870,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "GOOGL",
-      "rank_score": 0.4889,
-      "price": 356.9100036621094,
-      "rsi": 39.039475228802445,
-      "momentum_5d": 0.007490952570882655,
-      "momentum_1d": -0.03516979155864614,
-      "macd_crossover": true,
-      "atr_pct": 0.007655558972904075,
-      "bollinger_pct_b": 0.4798,
+      "asset": "NVDA",
+      "rank_score": 0.4861,
+      "price": 210.9499969482422,
+      "rsi": 69.49789246265541,
+      "momentum_5d": 0.01141098691301181,
+      "momentum_1d": 0.06842582222336258,
+      "macd_crossover": false,
+      "atr_pct": 0.010800802734353547,
+      "bollinger_pct_b": 0.8879,
       "volume_spike": false,
-      "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.282,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": -0.01,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "Is the AI Bubble About to Burst?",
-        "Big Tech Is Pouring Billions Into AI, and the Stock Market Wants to See the Payoff\u2014Now",
-        "Google's In-House AI Chip Strategy Could Be a Bigger Threat to Nvidia Than Investors Think. Here's Why."
+        "Coinbase, Lyft, and Axon prove there's more going on in markets than the 'Magnificent 7'",
+        "Dow Jones Futures Fall, Oil Prices Rise Amid New U.S.-Iran Attacks; Nvidia, Micron, Sandisk Near Buy Points",
+        "Stellantis Trails Its Rival on Key Metrics but Offers Compelling Upside for Patient Investors"
       ],
       "high_impact_news": true
     },
@@ -933,25 +933,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "EUR/JPY",
-      "rank_score": 0.4806,
-      "price": 184.64199829101562,
-      "rsi": 43.78199946106171,
-      "momentum_5d": 0.00044430393100672625,
-      "momentum_1d": -0.0052045354137444525,
-      "macd_crossover": true,
-      "atr_pct": 0.0008692473773000533,
-      "bollinger_pct_b": 0.3213,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VRTX",
       "rank_score": 0.4806,
       "price": 485.3500061035156,
@@ -990,27 +971,6 @@
         "3 Reasons SoundHound AI Stock Could Keep Climbing",
         "What SoundHound AI (SOUN)'s S-4 Business Combination and Platform Expansion Means For Shareholders",
         "SoundHound AI (SOUN) On Earnings Focus And A Voice AI Story That Looks Fully Valued"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NZD/USD",
-      "rank_score": 0.473,
-      "price": 0.5749439597129822,
-      "rsi": 30.560536550150218,
-      "momentum_5d": -0.002932193932683269,
-      "momentum_1d": -0.001782332155184493,
-      "macd_crossover": false,
-      "atr_pct": 0.0010620435533085482,
-      "bollinger_pct_b": -0.2299,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.352,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience",
-        "Currencies Forecast \u2013 RBNZ Rate Hike Sparks Kiwi Rally Amid Global Consolidation",
-        "\"Sell in May\" Could Be Bad News for the Kiwi Dollar"
       ],
       "high_impact_news": true
     },
@@ -1074,6 +1034,48 @@
         "Dollar Tree makes key move to keep popular items in stock",
         "Costco Could Be Poised for Major Gains Before 2030. Here Is Why Now May Be the Time to Buy.",
         "Costco Has Held Its Hot Dog at $1.50 for Decades. Social Security Tax Thresholds Frozen Since 1984 Haven\u2019t Been So Kind to Retirees."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "C",
+      "rank_score": 0.4583,
+      "price": 140.60000610351562,
+      "rsi": 76.40714008693418,
+      "momentum_5d": -0.0016686235605399618,
+      "momentum_1d": -0.010416636461610581,
+      "macd_crossover": false,
+      "atr_pct": 0.005745378790197303,
+      "bollinger_pct_b": 0.7313,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.65,
+      "news_sentiment": 0.42,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Should Citi\u2019s Endorsement of Cheesecake Factory\u2019s New Loyalty App Reframe the CAKE Digital Investment Story?",
+        "Fuel Prices Are Slamming Consumers Even as Crude Crisis Fades",
+        "\u2018The first time ever in my career\u2019: Senior Citi executive on why the ultrawealthy want to diversify away from America"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PYPL",
+      "rank_score": 0.4581,
+      "price": 46.323001861572266,
+      "rsi": 88.85575067857026,
+      "momentum_5d": 0.005709953982627475,
+      "momentum_1d": 0.014853793340104431,
+      "macd_crossover": false,
+      "atr_pct": 0.007682380540591947,
+      "bollinger_pct_b": 0.8638,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.4,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Is PayPal Stock a Bargain or a Value Trap?",
+        "Synchrony (SYF) Announces Executive Leadership Changes to Accelerate Digital and AI Growth",
+        "Phia accused of \u2018cookie stuffing,\u2019 taking affiliate credit on purchases it didn\u2019t earn"
       ],
       "high_impact_news": true
     }
