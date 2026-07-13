@@ -3,15 +3,15 @@
   "portfolio_balance": 102303.01,
   "portfolio_peak": 102303.01,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 738.77,
-  "equity_value": 103041.78,
+  "unrealized_pnl_usd": 736.66,
+  "equity_value": 103039.67,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40921.2,
   "swing_capital_used_usd": 47499.91,
   "total_trades": 602,
-  "last_tick": "2026-07-13T22:13:41.319026+00:00",
+  "last_tick": "2026-07-13T23:14:22.929211+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83758,
-      "unrealized_pnl_pct": 0.000419,
-      "unrealized_pnl_usd": 0.56
+      "current_price": 7.8377,
+      "unrealized_pnl_pct": 0.000434,
+      "unrealized_pnl_usd": 0.58
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.692185,
-      "unrealized_pnl_pct": 0.001523,
-      "unrealized_pnl_usd": 8.28
+      "current_price": 0.691898,
+      "unrealized_pnl_pct": 0.001937,
+      "unrealized_pnl_usd": 10.54
     },
     {
       "id": "V_20260707180911",
@@ -175,9 +175,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.445999,
-      "unrealized_pnl_pct": -0.002017,
-      "unrealized_pnl_usd": -7.35
+      "current_price": 162.421005,
+      "unrealized_pnl_pct": -0.001863,
+      "unrealized_pnl_usd": -6.79
     },
     {
       "id": "AMZN_20260708152529",
@@ -275,9 +275,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 184.901993,
-      "unrealized_pnl_pct": 0.004576,
-      "unrealized_pnl_usd": 30.39
+      "current_price": 184.863998,
+      "unrealized_pnl_pct": 0.004781,
+      "unrealized_pnl_usd": 31.75
     },
     {
       "id": "COST_20260709163905",
@@ -682,12 +682,33 @@
       "mode": "paper",
       "strategy_version": "55",
       "status": "open",
-      "current_price": 74.550003,
-      "unrealized_pnl_pct": -0.004407,
-      "unrealized_pnl_usd": -23.13
+      "current_price": 74.459999,
+      "unrealized_pnl_pct": -0.005609,
+      "unrealized_pnl_usd": -29.43
     }
   ],
   "last_candidates": [
+    {
+      "asset": "WFC",
+      "rank_score": 0.8059,
+      "price": 87.69999694824219,
+      "rsi": 61.826259765178854,
+      "momentum_5d": 0.015751687144266432,
+      "momentum_1d": 0.02321780288211486,
+      "macd_crossover": true,
+      "atr_pct": 0.0072361249097093,
+      "bollinger_pct_b": 1.1113,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.05,
+      "news_sentiment": 0.509,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Bank Earnings Should Wow Wall Street. What's Driving Those Bottom Lines.",
+        "Globe Life (GL) Could Be 4% Above Fair Value As Financing Gets Reset",
+        "Big Banks Poised for Higher Profits as Earnings Season Kicks Off"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "BIIB",
       "rank_score": 0.8028,
@@ -710,29 +731,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "WFC",
-      "rank_score": 0.7959,
-      "price": 87.69999694824219,
-      "rsi": 61.826259765178854,
-      "momentum_5d": 0.015751687144266432,
-      "momentum_1d": 0.02321780288211486,
-      "macd_crossover": true,
-      "atr_pct": 0.0072361249097093,
-      "bollinger_pct_b": 1.1113,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.05,
-      "news_sentiment": 0.378,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Globe Life (GL) Could Be 4% Above Fair Value As Financing Gets Reset",
-        "Update: Nasdaq Snaps 3-Day Winning Streak as Oil Jumps Amid US-Iran Tensions",
-        "Bank Stocks 'An Island of Stability' as Financial Institutions Set to Release Earnings"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ORCL",
-      "rank_score": 0.7302,
+      "rank_score": 0.7352,
       "price": 131.67999267578125,
       "rsi": 9.416348386093603,
       "momentum_5d": -0.03562932043211613,
@@ -742,12 +742,12 @@
       "bollinger_pct_b": 0.0595,
       "volume_spike": true,
       "volume_spike_ratio": 1.66,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.26,
+      "news_sentiment": 0.172,
+      "news_confidence": 0.29,
       "news_headlines": [
         "TKO stock in focus after UFC 329",
-        "Oracle Is Now Down 28% in a Month. Will the 52-Week Low of $132 Hold or Fold?",
-        "Paramount accused of \u2018blackmail\u2019 with threat to leave Hollywood"
+        "Oracle vs. IBM: Which Cloud Computing Stock Is the Better Buy?",
+        "Here's Why Oracle Stock Slumped Today"
       ],
       "high_impact_news": true
     },
@@ -808,9 +808,9 @@
       "news_sentiment": 0.667,
       "news_confidence": 0.52,
       "news_headlines": [
+        "MasterCard (MA) Increases Despite Market Slip: Here's What You Need to Know",
         "Sector Update: Financial Stocks Rise Late Afternoon",
-        "ADI Chain Secures $50M for Sovereign Blockchain Expansion",
-        "US-based fintech firm Payoneer opens tech hub in India, boosts hiring"
+        "ADI Chain Secures $50M for Sovereign Blockchain Expansion"
       ],
       "high_impact_news": true
     },
@@ -850,9 +850,9 @@
       "news_sentiment": 0.053,
       "news_confidence": 0.38,
       "news_headlines": [
+        "Why ExxonMobil (XOM) Stock Is Up Today",
         "Soaring Energy Profits Won\u2019t Last. Where to Find Bargains Now.",
-        "ExxonMobil (XOM) Faces Fresh Oil Risk After Strait Of Hormuz Closure",
-        "BATL, TPET, WTI, XOM, USO Stocks Climb Amid Escalating US-Iran Conflict: Oil Nears $80 A Barrel"
+        "ExxonMobil (XOM) Faces Fresh Oil Risk After Strait Of Hormuz Closure"
       ],
       "high_impact_news": true
     },
@@ -892,9 +892,9 @@
       "news_sentiment": 0.579,
       "news_confidence": 0.57,
       "news_headlines": [
+        "Bank Earnings Should Wow Wall Street. What's Driving Those Bottom Lines.",
         "Does Citi\u2019s Tokenized USD Clearing Breakthrough Deepen the Digital Transformation Narrative for Citigroup (C)?",
-        "Update: Nasdaq Snaps 3-Day Winning Streak as Oil Jumps Amid US-Iran Tensions",
-        "Bank Stocks 'An Island of Stability' as Financial Institutions Set to Release Earnings"
+        "Big Banks Poised for Higher Profits as Earnings Season Kicks Off"
       ],
       "high_impact_news": true
     },
@@ -997,9 +997,9 @@
       "news_sentiment": 0.333,
       "news_confidence": 0.39,
       "news_headlines": [
+        "Corrections & Amplifications",
         "Digital Payment Today - Argentina's Social Commerce Surge: Unlocking New Market Opportunities",
-        "The Real Risk Inside MercadoLibre Stock",
-        "Wall Street Mounts Pushback on Trillion-Dollar Stablecoin Boom"
+        "The Real Risk Inside MercadoLibre Stock"
       ],
       "high_impact_news": true
     },
@@ -1089,7 +1089,7 @@
     },
     {
       "asset": "MRNA",
-      "rank_score": 0.6022,
+      "rank_score": 0.5972,
       "price": 67.0,
       "rsi": 14.933423631672326,
       "momentum_5d": -0.028140446369364497,
@@ -1099,12 +1099,12 @@
       "bollinger_pct_b": 0.2637,
       "volume_spike": false,
       "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.598,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.472,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "Moderna (MRNA) Registers a Bigger Fall Than the Market: Important Facts to Note",
         "What It Means To Hold Moderna Stock In A Crash",
-        "Moderna, Takeda and Capricor on the verge of notching big drug approvals",
-        "US Stock Market Today: S&P 500 Futures Rise As Inflation Cools And Earnings Loom"
+        "Moderna, Takeda and Capricor on the verge of notching big drug approvals"
       ],
       "high_impact_news": true
     }
