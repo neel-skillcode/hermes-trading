@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 102303.01,
+  "portfolio_balance": 102270.77,
   "portfolio_peak": 102303.01,
-  "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 782.47,
-  "equity_value": 103085.48,
+  "portfolio_drawdown_pct": 0.03,
+  "unrealized_pnl_usd": 845.12,
+  "equity_value": 103115.89,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40921.2,
-  "swing_capital_used_usd": 47499.91,
-  "total_trades": 602,
-  "last_tick": "2026-07-14T11:10:00.123632+00:00",
+  "swing_capital_used_usd": 48973.4,
+  "total_trades": 603,
+  "last_tick": "2026-07-14T12:39:06.641864+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 7,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8369,
-      "unrealized_pnl_pct": 0.000332,
-      "unrealized_pnl_usd": 0.45
+      "current_price": 7.837,
+      "unrealized_pnl_pct": 0.000345,
+      "unrealized_pnl_usd": 0.46
     },
     {
       "id": "UBER_20260630180958",
@@ -77,40 +77,6 @@
       "current_price": 74.275002,
       "unrealized_pnl_pct": 0.025473,
       "unrealized_pnl_usd": 186.67
-    },
-    {
-      "id": "AUD/USD_20260702144002",
-      "asset": "AUD/USD",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 0.6932408809661865,
-      "entry_time": "2026-07-02T14:40:02.915987+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02626,
-      "size_usd": 5438.38,
-      "position_size_pct": 0.0541,
-      "confidence": 0.564,
-      "signals": [
-        "RSI overbought (68.4)",
-        "5d momentum +0.35%",
-        "BB overbought (pct_b=1.04)",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.273,
-      "news_headlines": [
-        "The WSJ Dollar Index Falls 0.09% to 97.64",
-        "Treasury Yields, Dollar Rise on Reports Tehran Is Exiting Talks",
-        "Dollar drifts lower as oil falls on Hormuz deal optimism"
-      ],
-      "mode": "paper",
-      "strategy_version": "44",
-      "status": "open",
-      "price_trough": 0.6915150880813599,
-      "trailing_stop_price": 0.697047,
-      "current_price": 0.694203,
-      "unrealized_pnl_pct": -0.001388,
-      "unrealized_pnl_usd": -7.55
     },
     {
       "id": "V_20260707180911",
@@ -175,9 +141,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.233994,
-      "unrealized_pnl_pct": -0.000709,
-      "unrealized_pnl_usd": -2.58
+      "current_price": 161.847,
+      "unrealized_pnl_pct": 0.001678,
+      "unrealized_pnl_usd": 6.11
     },
     {
       "id": "AMZN_20260708152529",
@@ -275,9 +241,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 184.837006,
-      "unrealized_pnl_pct": 0.004926,
-      "unrealized_pnl_usd": 32.71
+      "current_price": 185.147003,
+      "unrealized_pnl_pct": 0.003257,
+      "unrealized_pnl_usd": 21.63
     },
     {
       "id": "COST_20260709163905",
@@ -682,17 +648,49 @@
       "mode": "paper",
       "strategy_version": "55",
       "status": "open",
-      "price_peak": 75.29000091552734,
-      "trailing_stop_price": 74.735867,
-      "current_price": 75.300003,
-      "unrealized_pnl_pct": 0.005609,
-      "unrealized_pnl_usd": 29.43
+      "price_peak": 76.13999938964844,
+      "trailing_stop_price": 75.579609,
+      "current_price": 76.120003,
+      "unrealized_pnl_pct": 0.01656,
+      "unrealized_pnl_usd": 86.9
+    },
+    {
+      "id": "EUR/USD_20260714123906",
+      "asset": "EUR/USD",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 1.1442956924438477,
+      "entry_time": "2026-07-14T12:39:06.639545+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02682,
+      "size_usd": 6911.87,
+      "position_size_pct": 0.0676,
+      "confidence": 0.704,
+      "signals": [
+        "RSI overbought (80.9)",
+        "5d momentum +0.39%",
+        "BB overbought (pct_b=1.42)",
+        "High-impact catalyst",
+        "Claude [supports]: fed hawkish"
+      ],
+      "news_sentiment": 0.076,
+      "news_headlines": [
+        "US Dollar Price Forecast: DXY Eyes $103 Ahead of US CPI and Fed Signals; EUR/USD and GBP/USD Consolidate",
+        "Forex Forecasts \u2013 Greenback Momentum Tests Key Support and Moving Averages",
+        "US Dollar Price Forecast: Risk Sentiment Shifts After FOMC Minutes \u2014 GBP/USD and EUR/USD Outlook?"
+      ],
+      "mode": "paper",
+      "strategy_version": "55",
+      "status": "open",
+      "current_price": 1.144296,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "WFC",
-      "rank_score": 0.8529,
+      "rank_score": 0.8449,
       "price": 87.69999694824219,
       "rsi": 61.826259765178854,
       "momentum_5d": 0.015751687144266432,
@@ -702,12 +700,33 @@
       "bollinger_pct_b": 1.1113,
       "volume_spike": true,
       "volume_spike_ratio": 3.05,
-      "news_sentiment": 0.974,
-      "news_confidence": 0.76,
+      "news_sentiment": 0.805,
+      "news_confidence": 0.82,
       "news_headlines": [
-        "How Bank Stocks Are Moving Premarket",
-        "Wells Fargo CEO: Consumers and Businesses Remain Strong",
-        "Wells Fargo Earnings Powered by Investment Bank and Wealth Units"
+        "A 'Healthy' U.S. Economy Spurs Bank of America, Wells Fargo Earnings Beat",
+        "Stock Market Today: Dow Falls Ahead Of CPI Inflation Report; IBM Plunges 23% On Earnings (Live Coverage)",
+        "US Equity Futures Mixed Pre-Bell as Middle East Tensions Intensify, Major US Banks Post Earnings"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.8298,
+      "price": 1826.199951171875,
+      "rsi": 87.43220650531761,
+      "momentum_5d": 0.026727939054476346,
+      "momentum_1d": 0.03141926417502309,
+      "macd_crossover": false,
+      "atr_pct": 0.006975059875416354,
+      "bollinger_pct_b": 1.2251,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.62,
+      "news_sentiment": 0.55,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Tuesday, July 14, 2026:",
+        "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning",
+        "US Government Moves $288M in Seized Crypto to Coinbase Prime"
       ],
       "high_impact_news": true
     },
@@ -734,7 +753,7 @@
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.7352,
+      "rank_score": 0.7382,
       "price": 131.67999267578125,
       "rsi": 9.416348386093603,
       "momentum_5d": -0.03562932043211613,
@@ -744,12 +763,12 @@
       "bollinger_pct_b": 0.0595,
       "volume_spike": true,
       "volume_spike_ratio": 1.66,
-      "news_sentiment": 0.143,
-      "news_confidence": 0.35,
+      "news_sentiment": 0.182,
+      "news_confidence": 0.44,
       "news_headlines": [
         "TKO stock in focus after UFC 329",
-        "ORCL Stock At 14-Month Low Amid High Debt, Execution Risks: Retail Calls $300B OpenAI Deal A 'Liability'",
-        "Oracle vs. IBM: Which Cloud Computing Stock Is the Better Buy?"
+        "Prediction: Oracle Stock Could Hit This Price by 2027",
+        "Why these two earnings reports could be \"tone-setting\" for the chip sector"
       ],
       "high_impact_news": true
     },
@@ -775,6 +794,48 @@
       "high_impact_news": false
     },
     {
+      "asset": "V",
+      "rank_score": 0.7102,
+      "price": 357.760009765625,
+      "rsi": 79.83329343484513,
+      "momentum_5d": 0.009651784904555701,
+      "momentum_1d": 0.03059282902877904,
+      "macd_crossover": false,
+      "atr_pct": 0.006390872900783266,
+      "bollinger_pct_b": 0.8972,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.35,
+      "news_sentiment": 0.969,
+      "news_confidence": 0.65,
+      "news_headlines": [
+        "JPMorgan Chase Q2 2026 earnings: record profit on trading surge",
+        "JPMorgan Just Made $21 Billion and Still Told You to Duck",
+        "JPMorgan Tops Second-Quarter Forecasts as Investment Banking and Trading Revenue Surge (JPM)"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.7093,
+      "price": 1.0848000049591064,
+      "rsi": 82.77512234631135,
+      "momentum_5d": 0.016110896349779438,
+      "momentum_1d": 0.011091385487644745,
+      "macd_crossover": false,
+      "atr_pct": 0.005326874677373064,
+      "bollinger_pct_b": 1.2906,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.43,
+      "news_sentiment": 0.116,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Ripple Crowned: UK Treasury Just Changed Everything for XRP",
+        "XRP and Ethereum Share a Bearish Signal, But There\u2019s a Catch",
+        "Bitcoin, Ethereum, XRP, Dogecoin Dip as Trump Reinstates Strait of Hormuz Blockade: Analyst Says Whales 'Actively Accumulating' BTC"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "VLO",
       "rank_score": 0.7064,
       "price": 295.7900085449219,
@@ -796,29 +857,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "C",
-      "rank_score": 0.6987,
-      "price": 140.7100067138672,
-      "rsi": 56.985274180730215,
-      "momentum_5d": 0.020155254010783927,
-      "momentum_1d": 0.016654080090314657,
-      "macd_crossover": true,
-      "atr_pct": 0.00792090012180602,
-      "bollinger_pct_b": 0.7311,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.14,
-      "news_sentiment": 0.969,
-      "news_confidence": 0.64,
-      "news_headlines": [
-        "Here\u2019s the Schedule of Today\u2019s Bank Results",
-        "Citi sends powerful sign to SpaceX investors",
-        "Senior Analyst: Banks Are Set for 25% Earnings Growth as the Capital Markets Boom Accelerates"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ON",
-      "rank_score": 0.6907,
+      "rank_score": 0.6977,
       "price": 90.33000183105469,
       "rsi": 12.673313547293503,
       "momentum_5d": -0.018632151360824738,
@@ -828,12 +868,33 @@
       "bollinger_pct_b": 0.1483,
       "volume_spike": true,
       "volume_spike_ratio": 1.91,
-      "news_sentiment": 0.696,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.765,
+      "news_confidence": 0.51,
       "news_headlines": [
         "These overlooked chip stocks are getting an AI boost",
-        "Here's What to Expect From ON Semiconductor\u2019s Next Earnings Report",
-        "5 Power Chip Stocks Built for the Electrification Surge"
+        "Price Prediction: ON Semiconductor\u2019s Rally May Be Far From Over",
+        "Here's What to Expect From ON Semiconductor\u2019s Next Earnings Report"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "C",
+      "rank_score": 0.6926,
+      "price": 140.7100067138672,
+      "rsi": 56.985274180730215,
+      "momentum_5d": 0.020155254010783927,
+      "momentum_1d": 0.016654080090314657,
+      "macd_crossover": true,
+      "atr_pct": 0.00792090012180602,
+      "bollinger_pct_b": 0.7311,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.14,
+      "news_sentiment": 0.848,
+      "news_confidence": 0.66,
+      "news_headlines": [
+        "Equity Futures Mixed Ahead of Key Inflation Data, Big Bank Earnings",
+        "Wall Street Prepares For Five Top Banks To Report Earnings On The Same Day",
+        "U.S. equities positioning weakened despite last week\u2019s index rise"
       ],
       "high_impact_news": true
     },
@@ -852,30 +913,9 @@
       "news_sentiment": 0.171,
       "news_confidence": 0.41,
       "news_headlines": [
+        "Chevron Entered The AI Power Business. The Oil Patch Won't Be The Same.",
         "OPEC Cuts 2026 Demand Growth Forecast Again, But Raises Its 2027 Outlook. Here's What That Means for Oil Stocks.",
-        "Company News for July 14, 2026",
-        "Why ExxonMobil (XOM) Stock Is Up Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "V",
-      "rank_score": 0.6862,
-      "price": 357.760009765625,
-      "rsi": 79.83329343484513,
-      "momentum_5d": 0.009651784904555701,
-      "momentum_1d": 0.03059282902877904,
-      "macd_crossover": false,
-      "atr_pct": 0.006390872900783266,
-      "bollinger_pct_b": 0.8972,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.35,
-      "news_sentiment": 0.765,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "How Bank Stocks Are Moving Premarket",
-        "JPMorgan Results Had a Big One-Time Gain",
-        "Visa (V): Among the Most Promising Fintech Stocks to Invest In"
+        "Company News for July 14, 2026"
       ],
       "high_impact_news": true
     },
@@ -894,9 +934,9 @@
       "news_sentiment": 0.55,
       "news_confidence": 0.43,
       "news_headlines": [
-        "Which Stock Is a Better Buy? Visa or Mastercard?",
-        "ACE Money Transfer and Visa collaborate on AFTs for cross-border transfers",
-        "MasterCard (MA) Increases Despite Market Slip: Here's What You Need to Know"
+        "Barclays Initiates Mastercard (MA) Coverage at Overweight",
+        "Kraken rolls out Mastercard crypto debit card in UK and Europe",
+        "Which Stock Is a Better Buy? Visa or Mastercard?"
       ],
       "high_impact_news": true
     },
@@ -936,9 +976,93 @@
       "news_sentiment": 0.35,
       "news_confidence": 0.4,
       "news_headlines": [
+        "Chevron Entered The AI Power Business. The Oil Patch Won't Be The Same.",
         "Perryman says data centers can be beneficial with protections",
-        "Chevron (CVX) Launches AI Data Center Power Venture And Extends Australia Gas Supply",
-        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now"
+        "Chevron (CVX) Launches AI Data Center Power Venture And Extends Australia Gas Supply"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.6659,
+      "price": 63505.80078125,
+      "rsi": 86.59513927406795,
+      "momentum_5d": 0.016619357788624646,
+      "momentum_1d": 0.015093960043317376,
+      "macd_crossover": false,
+      "atr_pct": 0.004850183513273161,
+      "bollinger_pct_b": 1.2114,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.7,
+      "news_sentiment": 0.143,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Tuesday, July 14, 2026:",
+        "Bitcoin and ethereum prices today, Monday, July 13, 2026: Strong price openings backtracking this morning",
+        "Stock Market Today: Dow Falls Ahead Of CPI Inflation Report; IBM Plunges 23% On Earnings (Live Coverage)"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.6519,
+      "price": 575.1599731445312,
+      "rsi": 81.89989283145177,
+      "momentum_5d": 0.009902994486345323,
+      "momentum_1d": 0.012855260066351255,
+      "macd_crossover": false,
+      "atr_pct": 0.003931844769689116,
+      "bollinger_pct_b": 1.0895,
+      "volume_spike": true,
+      "volume_spike_ratio": 10.26,
+      "news_sentiment": 0.517,
+      "news_confidence": 0.29,
+      "news_headlines": [
+        "Robinhood Chain Passes Ethereum in DEX Volume 2 Weeks After Launch",
+        "Ondo launches true 24/7 minting and redemption for tokenized stocks",
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $62,000 Level"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.6453,
+      "price": 0.0730300024151802,
+      "rsi": 76.26129751145227,
+      "momentum_5d": 0.01332038053681395,
+      "momentum_1d": 0.01360173072701227,
+      "macd_crossover": false,
+      "atr_pct": 0.005457661965299601,
+      "bollinger_pct_b": 1.1279,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.28,
+      "news_sentiment": 0.097,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "Bitcoin, Ethereum, XRP, Dogecoin Dip as Trump Reinstates Strait of Hormuz Blockade: Analyst Says Whales 'Actively Accumulating' BTC",
+        "Top Cryptocurrencies Lower; Bitcoin Holds Above $62,000 Level",
+        "Mark Yusko compares SpaceX's $2 trillion valuation to Dogecoin, warns lockup expiry could trigger deeper selloff"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6426,
+      "price": 76.12000274658203,
+      "rsi": 73.42463520013044,
+      "momentum_5d": 0.016695605104102458,
+      "momentum_1d": 0.004354160536592353,
+      "macd_crossover": false,
+      "atr_pct": 0.006502890225138579,
+      "bollinger_pct_b": 1.2114,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.12,
+      "news_sentiment": 0.35,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "How tokenized stocks could become a $3 trillion market",
+        "Robinhood Chain Passes Ethereum in DEX Volume 2 Weeks After Launch",
+        "Ondo launches true 24/7 minting and redemption for tokenized stocks"
       ],
       "high_impact_news": true
     },
@@ -964,27 +1088,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "CRM",
-      "rank_score": 0.6362,
-      "price": 171.1999969482422,
-      "rsi": 75.8671917905512,
-      "momentum_5d": -0.0026506762651270065,
-      "momentum_1d": 0.03160862259134527,
-      "macd_crossover": false,
-      "atr_pct": 0.01084742164339835,
-      "bollinger_pct_b": 0.8628,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.73,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.71,
-      "news_headlines": [
-        "Elastic, Veeva Systems, and SentinelOne Shares Are Soaring, What You Need To Know",
-        "Paylocity, Rapid7, and Braze Shares Skyrocket, What You Need To Know",
-        "Workiva, Wix, and Asure Software Stocks Trade Up, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
       "rank_score": 0.6355,
       "price": 183.4499969482422,
@@ -1002,111 +1105,6 @@
         "Congress Is Trading on Laws They\u2019re About to Pass \u2014 And It\u2019s Perfectly Legal",
         "What Investors Keep Asking About NVDA",
         "Nvidia, Broadcom, AMD Lead AI Chip Stock Selloff After SK Hynix Slump"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "OXY",
-      "rank_score": 0.6261,
-      "price": 54.81999969482422,
-      "rsi": 81.08106841524155,
-      "momentum_5d": 0.019527603275460655,
-      "momentum_1d": 0.02448143177690686,
-      "macd_crossover": false,
-      "atr_pct": 0.009140566018210543,
-      "bollinger_pct_b": 0.9327,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.6,
-      "news_sentiment": 0.51,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Sector Update: Energy Stocks Higher Early Monday",
-        "Street Calls of the Week",
-        "OXY Beats the Industry in the Past 9 Months: Buy or Stay Patient?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PYPL",
-      "rank_score": 0.6204,
-      "price": 47.66999816894531,
-      "rsi": 78.81770621927569,
-      "momentum_5d": 0.014147369124966655,
-      "momentum_1d": 0.07875084069663159,
-      "macd_crossover": false,
-      "atr_pct": 0.011615564422715984,
-      "bollinger_pct_b": 0.8341,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.71,
-      "news_sentiment": 0.095,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "3 Cash-Producing Stocks with Warning Signs",
-        "Corrections & Amplifications",
-        "Digital Payment Today - Argentina's Social Commerce Surge: Unlocking New Market Opportunities"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MPC",
-      "rank_score": 0.6154,
-      "price": 296.8800048828125,
-      "rsi": 74.22405083136633,
-      "momentum_5d": 0.011671358359090065,
-      "momentum_1d": 0.08153007243283242,
-      "macd_crossover": false,
-      "atr_pct": 0.011454973121634992,
-      "bollinger_pct_b": 0.8804,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.7,
-      "news_sentiment": 0.226,
-      "news_confidence": 0.31,
-      "news_headlines": [
-        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now",
-        "Oil Is Spiking and the Iran Ceasefire Is Cracking: What It Means for Your Stocks",
-        "The Real Risk Inside ExxonMobil Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLE",
-      "rank_score": 0.6058,
-      "price": 56.75,
-      "rsi": 79.90739126313683,
-      "momentum_5d": 0.008440665681770947,
-      "momentum_1d": 0.02985210909044339,
-      "macd_crossover": false,
-      "atr_pct": 0.00655747180168099,
-      "bollinger_pct_b": 0.8807,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.75,
-      "news_sentiment": 0.389,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Stock Market News for July 14, 2026",
-        "Sector Update: Energy Stocks Gain Late Afternoon",
-        "Sector Update: Energy Stocks Gain Monday Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.5997,
-      "price": 217.3927001953125,
-      "rsi": 14.723355225065077,
-      "momentum_5d": -0.03005980699024494,
-      "momentum_1d": -0.07437324520840176,
-      "macd_crossover": false,
-      "atr_pct": 0.023144147876408203,
-      "bollinger_pct_b": 0.1439,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.527,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "Stocks to Watch: JPMorgan, BP, Lufthansa",
-        "Zacks Investment Ideas feature highlights: NVIDIA's, Microsoft, Micron, SanDisk and Marvell",
-        "Marvell Technology, Vishay Intertechnology, and Allegro MicroSystems Stocks Trade Down, What You Need To Know"
       ],
       "high_impact_news": true
     }
