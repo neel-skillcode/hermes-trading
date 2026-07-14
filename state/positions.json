@@ -267,8 +267,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_trough": 656.72998046875,
-    "trailing_stop_price": 666.58093
+    "price_trough": 655.8720092773438,
+    "trailing_stop_price": 665.710089
   },
   "SNAP": {
     "id": "SNAP_20260710153156",
@@ -297,38 +297,8 @@
     "mode": "paper",
     "strategy_version": "53",
     "status": "open",
-    "price_trough": 4.65500020980835,
-    "trailing_stop_price": 4.827701
-  },
-  "LCID": {
-    "id": "LCID_20260710185346",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 5.574999809265137,
-    "entry_time": "2026-07-10T18:53:46.272198+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5598.04,
-    "position_size_pct": 0.055,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (31.2)",
-      "5d momentum -5.91%",
-      "1d momentum -8.23%",
-      "BB oversold (pct_b=-0.09)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.349,
-    "news_headlines": [
-      "Why Is Tesla Bringing the Long-Wheelbase Model Y to the US?",
-      "Waymo Widens Lead Over Tesla, Expands Robotaxis To Four New Cities",
-      "2 Great Developments for Ford but Not for Rivian and Lucid"
-    ],
-    "mode": "paper",
-    "strategy_version": "53",
-    "status": "open"
+    "price_trough": 4.644999980926514,
+    "trailing_stop_price": 4.817329
   },
   "IONQ": {
     "id": "IONQ_20260713173309",
@@ -359,8 +329,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_peak": 39.04999923706055,
-    "trailing_stop_price": 38.464249
+    "price_peak": 39.076698303222656,
+    "trailing_stop_price": 38.490548
   },
   "MRNA": {
     "id": "MRNA_20260713190019",
@@ -450,7 +420,9 @@
     ],
     "mode": "paper",
     "strategy_version": "55",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.1431183815002441,
+    "trailing_stop_price": 1.152263
   },
   "GS": {
     "id": "GS_20260714142815",
@@ -483,7 +455,9 @@
     ],
     "mode": "paper",
     "strategy_version": "55",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1123.717529296875,
+    "trailing_stop_price": 1135.752544
   },
   "MS": {
     "id": "MS_20260714142815",
@@ -516,7 +490,9 @@
     ],
     "mode": "paper",
     "strategy_version": "55",
-    "status": "open"
+    "status": "open",
+    "price_trough": 228.03390502929688,
+    "trailing_stop_price": 230.033762
   },
   "JPM": {
     "id": "JPM_20260714142815",
@@ -549,7 +525,9 @@
     ],
     "mode": "paper",
     "strategy_version": "55",
-    "status": "open"
+    "status": "open",
+    "price_trough": 340.9800109863281,
+    "trailing_stop_price": 343.922668
   },
   "ARM": {
     "id": "ARM_20260714142815",
@@ -580,6 +558,37 @@
     ],
     "mode": "paper",
     "strategy_version": "55",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260714155744",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.0747700035572052,
+    "entry_time": "2026-07-14T15:57:44.125235+00:00",
+    "stop_loss_pct": 0.00678,
+    "take_profit_pct": 0.01693,
+    "size_usd": 5563.9,
+    "position_size_pct": 0.0542,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (89.7)",
+      "5d momentum +3.56%",
+      "1d momentum +3.82%",
+      "BB overbought (pct_b=1.14)",
+      "Volume spike 6.7\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.097,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP, Dogecoin Dip as Trump Reinstates Strait of Hormuz Blockade: Analyst Says Whales 'Actively Accumulating' BTC",
+      "Top Cryptocurrencies Lower; Bitcoin Holds Above $62,000 Level",
+      "Mark Yusko compares SpaceX's $2 trillion valuation to Dogecoin, warns lockup expiry could trigger deeper selloff"
+    ],
+    "mode": "paper",
+    "strategy_version": "56",
     "status": "open"
   }
 }
