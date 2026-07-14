@@ -3,15 +3,15 @@
   "portfolio_balance": 102619.48,
   "portfolio_peak": 102803.49,
   "portfolio_drawdown_pct": 0.18,
-  "unrealized_pnl_usd": 617.98,
-  "equity_value": 103237.46,
-  "open_positions": 17,
+  "unrealized_pnl_usd": 644.33,
+  "equity_value": 103263.81,
+  "open_positions": 18,
   "day_trades_open": 8,
-  "swing_trades_open": 9,
+  "swing_trades_open": 10,
   "day_capital_used_usd": 41121.4,
-  "swing_capital_used_usd": 45285.14,
+  "swing_capital_used_usd": 51309.74,
   "total_trades": 620,
-  "last_tick": "2026-07-14T22:39:13.111702+00:00",
+  "last_tick": "2026-07-14T23:32:05.920027+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83737,
-      "unrealized_pnl_pct": 0.000392,
-      "unrealized_pnl_usd": 0.53
+      "current_price": 7.8375,
+      "unrealized_pnl_pct": 0.000408,
+      "unrealized_pnl_usd": 0.55
     },
     {
       "id": "V_20260707180911",
@@ -107,9 +107,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.212006,
-      "unrealized_pnl_pct": -0.000574,
-      "unrealized_pnl_usd": -2.09
+      "current_price": 162.184006,
+      "unrealized_pnl_pct": -0.000401,
+      "unrealized_pnl_usd": -1.46
     },
     {
       "id": "AMZN_20260708152529",
@@ -207,9 +207,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 185.261002,
-      "unrealized_pnl_pct": 0.002643,
-      "unrealized_pnl_usd": 17.55
+      "current_price": 185.261993,
+      "unrealized_pnl_pct": 0.002638,
+      "unrealized_pnl_usd": 17.52
     },
     {
       "id": "SNAP_20260710153156",
@@ -274,9 +274,9 @@
       "status": "open",
       "price_trough": 1.1423349380493164,
       "trailing_stop_price": 1.151474,
-      "current_price": 1.142335,
-      "unrealized_pnl_pct": 0.001714,
-      "unrealized_pnl_usd": 11.84
+      "current_price": 1.142596,
+      "unrealized_pnl_pct": 0.001485,
+      "unrealized_pnl_usd": 10.27
     },
     {
       "id": "DOGE-USD_20260714155744",
@@ -310,9 +310,9 @@
       "status": "open",
       "price_trough": 0.07406999915838242,
       "trailing_stop_price": 0.074572,
-      "current_price": 0.07445,
-      "unrealized_pnl_pct": 0.00428,
-      "unrealized_pnl_usd": 23.81
+      "current_price": 0.07419,
+      "unrealized_pnl_pct": 0.007757,
+      "unrealized_pnl_usd": 43.16
     },
     {
       "id": "XLK_20260714181743",
@@ -379,11 +379,11 @@
       "mode": "paper",
       "strategy_version": "56",
       "status": "open",
-      "price_trough": 1.1104999780654907,
-      "trailing_stop_price": 1.11844,
-      "current_price": 1.1122,
-      "unrealized_pnl_pct": 0.004832,
-      "unrealized_pnl_usd": 30.2
+      "price_trough": 1.1096999645233154,
+      "trailing_stop_price": 1.117634,
+      "current_price": 1.1097,
+      "unrealized_pnl_pct": 0.007069,
+      "unrealized_pnl_usd": 44.18
     },
     {
       "id": "BTC-USD_20260714194728",
@@ -414,11 +414,11 @@
       "mode": "paper",
       "strategy_version": "56",
       "status": "open",
-      "price_peak": 64938.23046875,
-      "trailing_stop_price": 64563.536879,
-      "current_price": 64947.160156,
-      "unrealized_pnl_pct": 0.006183,
-      "unrealized_pnl_usd": 33.23
+      "price_peak": 64874.98828125,
+      "trailing_stop_price": 64500.659599,
+      "current_price": 64874.988281,
+      "unrealized_pnl_pct": 0.005065,
+      "unrealized_pnl_usd": 27.22
     },
     {
       "id": "C_20260714194728",
@@ -586,12 +586,38 @@
       "current_price": 127.974998,
       "unrealized_pnl_pct": 0.003583,
       "unrealized_pnl_usd": 7.67
+    },
+    {
+      "id": "USD/SEK_20260714233205",
+      "asset": "USD/SEK",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 9.65999984741211,
+      "entry_time": "2026-07-14T23:32:05.917355+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02668,
+      "size_usd": 6024.6,
+      "position_size_pct": 0.0587,
+      "confidence": 0.67,
+      "signals": [
+        "RSI oversold (41.0)",
+        "MACD crossover",
+        "1d momentum -0.54%"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "57",
+      "status": "open",
+      "current_price": 9.66,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "C",
-      "rank_score": 0.7296,
+      "rank_score": 0.7326,
       "price": 133.3000030517578,
       "rsi": 31.602825643056832,
       "momentum_5d": -0.035455817689485844,
@@ -601,12 +627,12 @@
       "bollinger_pct_b": 0.09,
       "volume_spike": true,
       "volume_spike_ratio": 2.05,
-      "news_sentiment": 0.643,
+      "news_sentiment": 0.696,
       "news_confidence": 0.56,
       "news_headlines": [
-        "Aberdeen Group (LSE:ABDN) Stock Gets Fair Value Bump After Mixed Analyst Target Changes",
-        "Bank Stocks Diverge Post-Earnings. Citi Drops, While Goldman Hits Fresh Record.",
-        "Banks Unveil Blockchain Network as Stablecoin Payments Reach $33 Trillion"
+        "Why Citigroup (C) Stock Is Trading Lower Today",
+        "Citigroup Inc (C) Q2 2026 Earnings Call Highlights: Record Revenue and Strategic Investments ...",
+        "Aberdeen Group (LSE:ABDN) Stock Gets Fair Value Bump After Mixed Analyst Target Changes"
       ],
       "high_impact_news": true
     },
@@ -627,34 +653,13 @@
       "news_headlines": [
         "SpaceX and other mega AI deals are lifting big bank profits. CEOs say more are coming.",
         "Best CD rates today, Tuesday, July 14, 2026: Lock in up to 4.10% APY today",
-        "Dow Jones Futures: Goldman, CrowdStrike Jump, But AI Stocks Need To Do This"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6819,
-      "price": 64947.16015625,
-      "rsi": 88.37844906160666,
-      "momentum_5d": 0.005586330995297721,
-      "momentum_1d": 0.050230025794522584,
-      "macd_crossover": false,
-      "atr_pct": 0.006492958548695204,
-      "bollinger_pct_b": 0.8457,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.21,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Inside bitcoin ETF flows: What investors are doing now",
-        "Why bitcoin ETFs are losing money",
-        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data"
+        "Piper Sandler and PJT Shares Skyrocket, What You Need To Know"
       ],
       "high_impact_news": true
     },
     {
       "asset": "VLO",
-      "rank_score": 0.6743,
+      "rank_score": 0.6683,
       "price": 300.989990234375,
       "rsi": 86.41258207159692,
       "momentum_5d": 0.021014523735013085,
@@ -664,12 +669,12 @@
       "bollinger_pct_b": 0.8199,
       "volume_spike": true,
       "volume_spike_ratio": 1.77,
-      "news_sentiment": 0.444,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
       "news_headlines": [
+        "Valero Energy (VLO) Exceeds Market Returns: Some Facts to Consider",
         "Jim Cramer Makes Big Claims For Valero Energy Corporation (VLO)",
-        "Here's Why Phillips 66's Refining Strength Supports Long-Term Growth",
-        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now"
+        "Here's Why Phillips 66's Refining Strength Supports Long-Term Growth"
       ],
       "high_impact_news": true
     },
@@ -696,7 +701,7 @@
     },
     {
       "asset": "MPC",
-      "rank_score": 0.6527,
+      "rank_score": 0.6477,
       "price": 303.3500061035156,
       "rsi": 86.15412487664136,
       "momentum_5d": 0.016758839945406934,
@@ -706,39 +711,18 @@
       "bollinger_pct_b": 0.8082,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
-      "news_sentiment": 0.353,
-      "news_confidence": 0.34,
+      "news_sentiment": 0.226,
+      "news_confidence": 0.31,
       "news_headlines": [
+        "Marathon Petroleum (MPC) Outpaces Stock Market Gains: What You Should Know",
         "Here's Why Phillips 66's Refining Strength Supports Long-Term Growth",
-        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now",
-        "Oil Is Spiking and the Iran Ceasefire Is Cracking: What It Means for Your Stocks"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6282,
-      "price": 6.679999828338623,
-      "rsi": 72.49997317791625,
-      "momentum_5d": 0.003003000207918189,
-      "momentum_1d": 0.045383406559055685,
-      "macd_crossover": false,
-      "atr_pct": 0.009302816842162154,
-      "bollinger_pct_b": 0.8115,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.01,
-      "news_sentiment": 0.444,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "How tokenized stocks could become a $3 trillion market",
-        "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
-        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+        "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now"
       ],
       "high_impact_news": true
     },
     {
       "asset": "WFC",
-      "rank_score": 0.621,
+      "rank_score": 0.613,
       "price": 85.36000061035156,
       "rsi": 36.869799637876255,
       "momentum_5d": -0.014773762561334997,
@@ -748,33 +732,12 @@
       "bollinger_pct_b": 0.1571,
       "volume_spike": true,
       "volume_spike_ratio": 2.56,
-      "news_sentiment": 0.939,
-      "news_confidence": 0.66,
+      "news_sentiment": 0.806,
+      "news_confidence": 0.67,
       "news_headlines": [
         "Bank Stocks Diverge Post-Earnings. Citi Drops, While Goldman Hits Fresh Record.",
         "Banks Unveil Blockchain Network as Stablecoin Payments Reach $33 Trillion",
         "Why High Credit Card Delinquencies Aren\u2019t Showing Up at the Big Banks"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6093,
-      "price": 1887.780029296875,
-      "rsi": 90.09651616502069,
-      "momentum_5d": 0.009248989034242183,
-      "momentum_1d": 0.07513742947595034,
-      "macd_crossover": false,
-      "atr_pct": 0.008808529563256427,
-      "bollinger_pct_b": 0.8031,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.5,
-      "news_sentiment": 0.026,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Crypto buyers may be emerging from their winter hibernation",
-        "Bitcoin and ethereum prices today, Tuesday, July 14, 2026:",
-        "Artemis Warns Robinhood Chain\u2019s Biggest Success May Also Be Its Greatest Risk"
       ],
       "high_impact_news": true
     },
@@ -814,30 +777,9 @@
       "news_sentiment": 0.469,
       "news_confidence": 0.49,
       "news_headlines": [
+        "Eli Lilly (LLY) Stock Dips While Market Gains: Key Facts",
         "Eli Lilly Wins Full FDA Approval for Selpercatinib in Solid Tumors",
-        "Biogen\u2019s Alzheimer\u2019s Drug Leaves Questions Unanswered, and That\u2019s a Problem",
-        "What Lilly's Peer-Beating Numbers Cost You"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.5732,
-      "price": 77.81999969482422,
-      "rsi": 87.4658029752451,
-      "momentum_5d": 0.008815145327406262,
-      "momentum_1d": 0.045827118195013096,
-      "macd_crossover": false,
-      "atr_pct": 0.007902846325514589,
-      "bollinger_pct_b": 0.8707,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.106,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $64,000",
-        "SBI Holdings teams up with Solana on a new onchain market in Japan"
+        "Biogen\u2019s Alzheimer\u2019s Drug Leaves Questions Unanswered, and That\u2019s a Problem"
       ],
       "high_impact_news": true
     },
@@ -905,23 +847,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5525,
-      "price": 1.1122000217437744,
-      "rsi": 86.51323658009592,
-      "momentum_5d": 0.007610040709138637,
-      "momentum_1d": 0.051825264027046326,
+      "asset": "BTC-USD",
+      "rank_score": 0.5546,
+      "price": 64874.98828125,
+      "rsi": 90.46694727091932,
+      "momentum_5d": 0.005300345335984838,
+      "momentum_1d": 0.04191840249187177,
       "macd_crossover": false,
-      "atr_pct": 0.007758112360885623,
-      "bollinger_pct_b": 0.8105,
+      "atr_pct": 0.006563546292960984,
+      "bollinger_pct_b": 0.7999,
       "volume_spike": false,
-      "volume_spike_ratio": 1.35,
-      "news_sentiment": 0.156,
-      "news_confidence": 0.45,
+      "volume_spike_ratio": 1.17,
+      "news_sentiment": 0.15,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Top Cryptocurrencies Rise; Bitcoin Tops $64,000",
-        "2 New Deals Make Ripple Productive Capital, but XRP Stays in Free Fall",
-        "Ripple XRP Gains Attention After SWIFT Blockchain Expansion"
+        "Inside bitcoin ETF flows: What investors are doing now",
+        "Why bitcoin ETFs are losing money",
+        "Bitcoin Mining Declined In June"
       ],
       "high_impact_news": true
     },
@@ -940,30 +882,30 @@
       "news_sentiment": 0.189,
       "news_confidence": 0.37,
       "news_headlines": [
+        "Qualcomm (QCOM) Stock Falls Amid Market Uptick: What Investors Need to Know",
         "The Real Risk Inside Broadcom Stock",
-        "NVIDIA Stock Amplifies Your Market Ride",
-        "QCOM: A Cash Gusher At A Marked-Down Price"
+        "NVIDIA Stock Amplifies Your Market Ride"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "BAC",
-      "rank_score": 0.5496,
-      "price": 60.630001068115234,
-      "rsi": 63.76403320499811,
-      "momentum_5d": -0.006554116322829279,
-      "momentum_1d": 0.020793006159327884,
+      "asset": "SOL-USD",
+      "rank_score": 0.55,
+      "price": 77.63999938964844,
+      "rsi": 88.85619869472902,
+      "momentum_5d": 0.005048535788329288,
+      "momentum_1d": 0.03644367366277324,
       "macd_crossover": false,
-      "atr_pct": 0.009106646919991768,
-      "bollinger_pct_b": 0.8188,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.875,
-      "news_confidence": 0.68,
+      "atr_pct": 0.007875172615263198,
+      "bollinger_pct_b": 0.8038,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.39,
+      "news_sentiment": 0.227,
+      "news_confidence": 0.44,
       "news_headlines": [
-        "Bank of America CEO Brian Moynihan on the US economy: 'More durable than expected'",
-        "Bank Stocks Diverge Post-Earnings. Citi Drops, While Goldman Hits Fresh Record.",
-        "Banks Unveil Blockchain Network as Stablecoin Payments Reach $33 Trillion"
+        "Crypto Market Today, July 14: Ethereum Soars 6% on Cooler Inflation Data",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $64,000",
+        "SBI Holdings teams up with Solana on a new onchain market in Japan"
       ],
       "high_impact_news": true
     },
@@ -1006,6 +948,90 @@
         "Arm Holdings plc (ARM) CEO says US would have Difficulty Banning AI CPU chip Exports to China",
         "Intel, ARM face near-term pain while AMD rides server boom: BofA",
         "Arm And Marvell Tumble As Chip Stocks Sell Off"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.5416,
+      "price": 60.630001068115234,
+      "rsi": 63.76403320499811,
+      "momentum_5d": -0.006554116322829279,
+      "momentum_1d": 0.020793006159327884,
+      "macd_crossover": false,
+      "atr_pct": 0.009106646919991768,
+      "bollinger_pct_b": 0.8188,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.746,
+      "news_confidence": 0.69,
+      "news_headlines": [
+        "Bank of America CEO Brian Moynihan on the US economy: 'More durable than expected'",
+        "Bank Stocks Diverge Post-Earnings. Citi Drops, While Goldman Hits Fresh Record.",
+        "Banks Unveil Blockchain Network as Stablecoin Payments Reach $33 Trillion"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MCD",
+      "rank_score": 0.5387,
+      "price": 268.8599853515625,
+      "rsi": 19.34749348374281,
+      "momentum_5d": -0.005768907620399807,
+      "momentum_1d": -0.027859696714432097,
+      "macd_crossover": false,
+      "atr_pct": 0.0049886064588782085,
+      "bollinger_pct_b": 0.1362,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.48,
+      "news_sentiment": 0.765,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "McDonald's (MCD) Stock Slides as Market Rises: Facts to Know Before You Trade",
+        "Can Starbucks' 39% Channel Development Growth Add a New Revenue Lever?",
+        "Can Wendy's Margin Pressure Ease as Turnaround Efforts Progress?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5367,
+      "price": 1883.8599853515625,
+      "rsi": 89.76958372835954,
+      "momentum_5d": 0.005583410270730368,
+      "momentum_1d": 0.061586774469524104,
+      "macd_crossover": false,
+      "atr_pct": 0.008917862984626023,
+      "bollinger_pct_b": 0.7586,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.026,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Crypto buyers may be emerging from their winter hibernation",
+        "Bitcoin and ethereum prices today, Tuesday, July 14, 2026:",
+        "Artemis Warns Robinhood Chain\u2019s Biggest Success May Also Be Its Greatest Risk"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BMY",
+      "rank_score": 0.5325,
+      "price": 56.97999954223633,
+      "rsi": 44.20219611377691,
+      "momentum_5d": -0.017586214789028824,
+      "momentum_1d": -0.010076473544418988,
+      "macd_crossover": false,
+      "atr_pct": 0.009310038169448365,
+      "bollinger_pct_b": 0.1018,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.39,
+      "news_sentiment": 0.439,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Can BMY's CELMoD Program Advancements Strengthen Its Oncology Portfolio?",
+        "Donald Trump's Drug-Pricing Deals Are Reshaping Big Pharma -- Here's What That Means for Pfizer, AbbVie, and Bristol Myers Squibb",
+        "Own Regeneron For Biotech Growth? Incyte Is Making Its Case."
       ],
       "high_impact_news": true
     }

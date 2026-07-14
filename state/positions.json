@@ -331,8 +331,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_trough": 1.1104999780654907,
-    "trailing_stop_price": 1.11844
+    "price_trough": 1.1096999645233154,
+    "trailing_stop_price": 1.117634
   },
   "BTC-USD": {
     "id": "BTC-USD_20260714194728",
@@ -362,7 +362,9 @@
     ],
     "mode": "paper",
     "strategy_version": "56",
-    "status": "open"
+    "status": "open",
+    "price_peak": 64874.98828125,
+    "trailing_stop_price": 64500.659599
   },
   "C": {
     "id": "C_20260714194728",
@@ -515,5 +517,28 @@
     "status": "open",
     "price_trough": 127.94000244140625,
     "trailing_stop_price": 129.612178
+  },
+  "USD/SEK": {
+    "id": "USD/SEK_20260714233205",
+    "asset": "USD/SEK",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 9.65999984741211,
+    "entry_time": "2026-07-14T23:32:05.917355+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 6024.6,
+    "position_size_pct": 0.0587,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (41.0)",
+      "MACD crossover",
+      "1d momentum -0.54%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "57",
+    "status": "open"
   }
 }
