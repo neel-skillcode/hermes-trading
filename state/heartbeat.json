@@ -3,15 +3,15 @@
   "portfolio_balance": 102303.01,
   "portfolio_peak": 102303.01,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 846.55,
-  "equity_value": 103149.56,
+  "unrealized_pnl_usd": 784.13,
+  "equity_value": 103087.14,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40921.2,
   "swing_capital_used_usd": 47499.91,
   "total_trades": 602,
-  "last_tick": "2026-07-14T03:30:09.224892+00:00",
+  "last_tick": "2026-07-14T05:54:12.615153+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83787,
-      "unrealized_pnl_pct": 0.000456,
-      "unrealized_pnl_usd": 0.61
+      "current_price": 7.8383,
+      "unrealized_pnl_pct": 0.000511,
+      "unrealized_pnl_usd": 0.69
     },
     {
       "id": "UBER_20260630180958",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 0.6915150880813599,
       "trailing_stop_price": 0.697047,
-      "current_price": 0.692857,
-      "unrealized_pnl_pct": 0.000554,
-      "unrealized_pnl_usd": 3.01
+      "current_price": 0.693722,
+      "unrealized_pnl_pct": -0.000694,
+      "unrealized_pnl_usd": -3.77
     },
     {
       "id": "V_20260707180911",
@@ -175,9 +175,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.322006,
-      "unrealized_pnl_pct": -0.001252,
-      "unrealized_pnl_usd": -4.56
+      "current_price": 162.259995,
+      "unrealized_pnl_pct": -0.00087,
+      "unrealized_pnl_usd": -3.17
     },
     {
       "id": "AMZN_20260708152529",
@@ -275,9 +275,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 184.936005,
-      "unrealized_pnl_pct": 0.004393,
-      "unrealized_pnl_usd": 29.17
+      "current_price": 184.867004,
+      "unrealized_pnl_pct": 0.004764,
+      "unrealized_pnl_usd": 31.64
     },
     {
       "id": "COST_20260709163905",
@@ -682,11 +682,11 @@
       "mode": "paper",
       "strategy_version": "55",
       "status": "open",
-      "price_peak": 76.14,
-      "trailing_stop_price": 75.57961,
-      "current_price": 76.139999,
-      "unrealized_pnl_pct": 0.016827,
-      "unrealized_pnl_usd": 88.3
+      "price_peak": 75.29000091552734,
+      "trailing_stop_price": 74.735867,
+      "current_price": 75.290001,
+      "unrealized_pnl_pct": 0.005475,
+      "unrealized_pnl_usd": 28.73
     }
   ],
   "last_candidates": [
@@ -719,7 +719,7 @@
       "momentum_5d": 0.035786844942088177,
       "momentum_1d": 0.03717394384232695,
       "macd_crossover": false,
-      "atr_pct": 0.012406891399148065,
+      "atr_pct": 0.012475205465225358,
       "bollinger_pct_b": 1.0414,
       "volume_spike": true,
       "volume_spike_ratio": 4.33,
@@ -796,27 +796,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MA",
-      "rank_score": 0.6971,
-      "price": 537.7899780273438,
-      "rsi": 81.1941052149379,
-      "momentum_5d": 0.0060234780459205136,
-      "momentum_1d": 0.03840500613179963,
-      "macd_crossover": false,
-      "atr_pct": 0.006510783891911511,
-      "bollinger_pct_b": 0.8708,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.21,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "MasterCard (MA) Increases Despite Market Slip: Here's What You Need to Know",
-        "Sector Update: Financial Stocks Rise Late Afternoon",
-        "ADI Chain Secures $50M for Sovereign Blockchain Expansion"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ON",
       "rank_score": 0.6907,
       "price": 90.33000183105469,
@@ -834,6 +813,27 @@
         "These overlooked chip stocks are getting an AI boost",
         "Here's What to Expect From ON Semiconductor\u2019s Next Earnings Report",
         "5 Power Chip Stocks Built for the Electrification Surge"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MA",
+      "rank_score": 0.6881,
+      "price": 537.7899780273438,
+      "rsi": 81.1941052149379,
+      "momentum_5d": 0.0060234780459205136,
+      "momentum_1d": 0.03840500613179963,
+      "macd_crossover": false,
+      "atr_pct": 0.006510783891911511,
+      "bollinger_pct_b": 0.8708,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.21,
+      "news_sentiment": 0.57,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "ACE Money Transfer and Visa collaborate on AFTs for cross-border transfers",
+        "MasterCard (MA) Increases Despite Market Slip: Here's What You Need to Know",
+        "Sector Update: Financial Stocks Rise Late Afternoon"
       ],
       "high_impact_news": true
     },
@@ -901,27 +901,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "V",
-      "rank_score": 0.6682,
-      "price": 357.760009765625,
-      "rsi": 79.83329343484513,
-      "momentum_5d": 0.009651784904555701,
-      "momentum_1d": 0.03059282902877904,
-      "macd_crossover": false,
-      "atr_pct": 0.006390872900783266,
-      "bollinger_pct_b": 0.8972,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.35,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Why Visa (V) Stock Is Up Today",
-        "Crypto Bear Market? These Reports Say the Industry Has Never Been Stronger",
-        "Visa\u2019s $700 Billion Payments Empire Faces New Disruption Risks"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "CVX",
       "rank_score": 0.667,
       "price": 182.2100067138672,
@@ -939,6 +918,27 @@
         "Perryman says data centers can be beneficial with protections",
         "Chevron (CVX) Launches AI Data Center Power Venture And Extends Australia Gas Supply",
         "Oil Surges As Trump Asserts Control Over Strait Of Hormuz; What Happens Now"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "V",
+      "rank_score": 0.6612,
+      "price": 357.760009765625,
+      "rsi": 79.83329343484513,
+      "momentum_5d": 0.009651784904555701,
+      "momentum_1d": 0.03059282902877904,
+      "macd_crossover": false,
+      "atr_pct": 0.006390872900783266,
+      "bollinger_pct_b": 0.8972,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.35,
+      "news_sentiment": 0.412,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "ACE Money Transfer and Visa collaborate on AFTs for cross-border transfers",
+        "Why Visa (V) Stock Is Up Today",
+        "Crypto Bear Market? These Reports Say the Industry Has Never Been Stronger"
       ],
       "high_impact_news": true
     },
@@ -1070,7 +1070,7 @@
     },
     {
       "asset": "IONQ",
-      "rank_score": 0.6143,
+      "rank_score": 0.6083,
       "price": 38.904998779296875,
       "rsi": 8.516659049904604,
       "momentum_5d": -0.02931644206780948,
@@ -1080,12 +1080,12 @@
       "bollinger_pct_b": 0.1372,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.463,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "Why Investors Are Dumping This Quantum Stock for 9 Straight Days",
         "Why IonQ Stock Is on a Losing Streak Even as Quantum Sector Booms",
-        "IonQ's Roadmap Execution Underpins Commercial Growth",
-        "Can Rigetti's Infrastructure Edge Power the Next Quantum Revolution?"
+        "IonQ's Roadmap Execution Underpins Commercial Growth"
       ],
       "high_impact_news": true
     },
