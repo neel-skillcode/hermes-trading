@@ -112,8 +112,8 @@
     "mode": "paper",
     "strategy_version": "50",
     "status": "open",
-    "price_peak": 252.39999389648438,
-    "trailing_stop_price": 246.650322
+    "price_peak": 255.6300048828125,
+    "trailing_stop_price": 249.806753
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260709140922",
@@ -204,40 +204,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_trough": 183.6199951171875,
-    "trailing_stop_price": 187.951591
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260714194728",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 64548.078125,
-    "entry_time": "2026-07-14T19:47:28.223102+00:00",
-    "stop_loss_pct": 0.00577,
-    "take_profit_pct": 0.0139,
-    "size_usd": 5375.39,
-    "position_size_pct": 0.0523,
-    "confidence": 0.817,
-    "signals": [
-      "RSI overbought (82.2)",
-      "5d momentum +0.47%",
-      "1d momentum +3.75%",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.407,
-    "news_headlines": [
-      "Inside bitcoin ETF flows: What investors are doing now",
-      "Why bitcoin ETFs are losing money",
-      "Sector Update: Financial"
-    ],
-    "mode": "paper",
-    "strategy_version": "56",
-    "status": "open",
-    "price_peak": 65443.91015625,
-    "trailing_stop_price": 65066.298795
+    "price_trough": 178.5800018310547,
+    "trailing_stop_price": 182.792704
   },
   "C": {
     "id": "C_20260714194728",
@@ -269,8 +237,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_peak": 133.44000244140625,
-    "trailing_stop_price": 131.438402
+    "price_peak": 133.61000061035156,
+    "trailing_stop_price": 131.605851
   },
   "GS": {
     "id": "GS_20260714194728",
@@ -300,7 +268,9 @@
     ],
     "mode": "paper",
     "strategy_version": "56",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1120.8900146484375,
+    "trailing_stop_price": 1134.744215
   },
   "USD/SEK": {
     "id": "USD/SEK_20260714233205",
@@ -324,8 +294,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 9.657730102539062,
-    "trailing_stop_price": 9.734992
+    "price_trough": 9.637999534606934,
+    "trailing_stop_price": 9.715104
   },
   "PYPL": {
     "id": "PYPL_20260715133804",
@@ -388,7 +358,9 @@
     ],
     "mode": "paper",
     "strategy_version": "57",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1908.949951171875,
+    "trailing_stop_price": 1922.828017
   },
   "SNAP": {
     "id": "SNAP_20260715133804",
@@ -419,70 +391,9 @@
     ],
     "mode": "paper",
     "strategy_version": "57",
-    "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260715133804",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 78.77999877929688,
-    "entry_time": "2026-07-15T13:38:04.562153+00:00",
-    "stop_loss_pct": 0.00717,
-    "take_profit_pct": 0.01746,
-    "size_usd": 5715.92,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (61.4)",
-      "MACD crossover",
-      "5d momentum +1.64%",
-      "1d momentum +2.50%",
-      "BB overbought (pct_b=1.20)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; fed dovish; price surge"
-    ],
-    "news_sentiment": 0.245,
-    "news_headlines": [
-      "Crypto capital is starting to rotate, take Hyperliquid as an example",
-      "Morgan Stanley 'Missed' The Perfect Ethereum ETF Ticker, Analyst Jokes, As Latest SEC Filing Signals Launch Nears",
-      "These Are the Only 2 Cryptocurrencies I Want to Buy in July"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260715133804",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1272000074386597,
-    "entry_time": "2026-07-15T13:38:04.563838+00:00",
-    "stop_loss_pct": 0.0059,
-    "take_profit_pct": 0.01473,
-    "size_usd": 1085.89,
-    "position_size_pct": 0.0106,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (66.0)",
-      "MACD crossover",
-      "5d momentum +1.81%",
-      "1d momentum +2.65%",
-      "BB overbought (pct_b=1.24)",
-      "High-impact catalyst",
-      "Claude [supports]: fed hawkish"
-    ],
-    "news_sentiment": 0.289,
-    "news_headlines": [
-      "Ripple Joins x402 Foundation to Advance RLUSD AI Payments: Will XRP Price Benefit?",
-      "XRP Price to $110? Lummis Says CLARITY Act Targets July 20 as Bulls Predict 'Millionaire' Rally",
-      "Ripple Joins x402 Foundation to Advance XRP and RLUSD AI Payments"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open"
+    "status": "open",
+    "price_trough": 4.784999847412109,
+    "trailing_stop_price": 4.854574
   },
   "TSLA": {
     "id": "TSLA_20260715133804",
@@ -512,7 +423,9 @@
     ],
     "mode": "paper",
     "strategy_version": "57",
-    "status": "open"
+    "status": "open",
+    "price_trough": 391.33990478515625,
+    "trailing_stop_price": 402.023484
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -536,6 +449,98 @@
     "news_sentiment": -1.0,
     "news_headlines": [
       "Further Strength for the Australian Dollar After Higher Inflation"
+    ],
+    "mode": "paper",
+    "strategy_version": "57",
+    "status": "open",
+    "price_trough": 113.36900329589844,
+    "trailing_stop_price": 114.275955
+  },
+  "AMD": {
+    "id": "AMD_20260715164409",
+    "asset": "AMD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 511.82000732421875,
+    "entry_time": "2026-07-15T16:44:09.699080+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5750.59,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (35.7)",
+      "5d momentum -6.72%",
+      "1d momentum -6.51%",
+      "BB oversold (pct_b=-0.04)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.647,
+    "news_headlines": [
+      "Micron Drops 8% on China Competition Fears, Dragging Intel, AMD, and Marvell",
+      "Prediction: AMD Stock Will Soar After Aug. 4. The Reason Is Hiding in Plain Sight",
+      "Micron Stock Offers More Than Market Momentum"
+    ],
+    "mode": "paper",
+    "strategy_version": "57",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260715164409",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 202.3800048828125,
+    "entry_time": "2026-07-15T16:44:09.701046+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5224.22,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (32.0)",
+      "5d momentum -8.62%",
+      "1d momentum -14.37%",
+      "BB oversold (pct_b=0.00)",
+      "High-impact catalyst",
+      "Claude [contradicts]: macro risk"
+    ],
+    "news_sentiment": 0.156,
+    "news_headlines": [
+      "Micron Drops 8% on China Competition Fears, Dragging Intel, AMD, and Marvell",
+      "Intel, Marvell, PayPal, IBM, and More Stocks That Explain Today\u2019s Market",
+      "How Marvell Turned AI Demand Into A 200% Rally"
+    ],
+    "mode": "paper",
+    "strategy_version": "57",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260715164409",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 882.0650024414062,
+    "entry_time": "2026-07-15T16:44:09.702747+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 1262.35,
+    "position_size_pct": 0.0123,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (36.9)",
+      "5d momentum -9.81%",
+      "1d momentum -9.83%",
+      "BB oversold (pct_b=0.01)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; price decline"
+    ],
+    "news_sentiment": 0.462,
+    "news_headlines": [
+      "Stock market today: Dow, S&P 500, Nasdaq slip as  semiconductor stocks drop",
+      "SOXS Jumps 11% as Micron Slides on Fears of Fiercer Chinese Memory Chip Competition",
+      "Micron vs SanDisk: Which Memory Play Wins the AI Boom?"
     ],
     "mode": "paper",
     "strategy_version": "57",
