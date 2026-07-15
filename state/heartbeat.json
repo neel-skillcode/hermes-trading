@@ -3,15 +3,15 @@
   "portfolio_balance": 102961.65,
   "portfolio_peak": 103050.29,
   "portfolio_drawdown_pct": 0.09,
-  "unrealized_pnl_usd": 983.44,
-  "equity_value": 103945.09,
+  "unrealized_pnl_usd": 967.28,
+  "equity_value": 103928.93,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41184.66,
   "swing_capital_used_usd": 51328.32,
   "total_trades": 634,
-  "last_tick": "2026-07-15T22:16:50.405199+00:00",
+  "last_tick": "2026-07-15T23:15:18.901278+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83833,
-      "unrealized_pnl_pct": 0.000514,
-      "unrealized_pnl_usd": 0.69
+      "current_price": 7.838,
+      "unrealized_pnl_pct": 0.000472,
+      "unrealized_pnl_usd": 0.63
     },
     {
       "id": "V_20260707180911",
@@ -107,9 +107,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.113998,
-      "unrealized_pnl_pct": 3.1e-05,
-      "unrealized_pnl_usd": 0.11
+      "current_price": 162.084,
+      "unrealized_pnl_pct": 0.000216,
+      "unrealized_pnl_usd": 0.79
     },
     {
       "id": "AMZN_20260708152529",
@@ -173,9 +173,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 185.871994,
-      "unrealized_pnl_pct": -0.000646,
-      "unrealized_pnl_usd": -4.29
+      "current_price": 185.906006,
+      "unrealized_pnl_pct": -0.000829,
+      "unrealized_pnl_usd": -5.51
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -207,9 +207,9 @@
       "status": "open",
       "price_trough": 1.1423349380493164,
       "trailing_stop_price": 1.151474,
-      "current_price": 1.14692,
-      "unrealized_pnl_pct": -0.002294,
-      "unrealized_pnl_usd": -15.85
+      "current_price": 1.147184,
+      "unrealized_pnl_pct": -0.002524,
+      "unrealized_pnl_usd": -17.44
     },
     {
       "id": "XLK_20260714181743",
@@ -306,9 +306,9 @@
       "status": "open",
       "price_trough": 9.582019805908203,
       "trailing_stop_price": 9.658676,
-      "current_price": 9.59491,
-      "unrealized_pnl_pct": 0.006738,
-      "unrealized_pnl_usd": 40.59
+      "current_price": 9.58905,
+      "unrealized_pnl_pct": 0.007345,
+      "unrealized_pnl_usd": 44.25
     },
     {
       "id": "SNAP_20260715133804",
@@ -409,9 +409,9 @@
       "status": "open",
       "price_trough": 113.36900329589844,
       "trailing_stop_price": 114.275955,
-      "current_price": 113.579002,
-      "unrealized_pnl_pct": -0.000961,
-      "unrealized_pnl_usd": -2.98
+      "current_price": 113.572998,
+      "unrealized_pnl_pct": -0.000908,
+      "unrealized_pnl_usd": -2.81
     },
     {
       "id": "MRVL_20260715164409",
@@ -545,11 +545,11 @@
       "mode": "paper",
       "strategy_version": "58",
       "status": "open",
-      "price_trough": 1919.4100341796875,
-      "trailing_stop_price": 1934.765314,
-      "current_price": 1919.400024,
-      "unrealized_pnl_pct": 0.003479,
-      "unrealized_pnl_usd": 18.49
+      "price_trough": 1924.219970703125,
+      "trailing_stop_price": 1939.61373,
+      "current_price": 1924.22998,
+      "unrealized_pnl_pct": 0.000971,
+      "unrealized_pnl_usd": 5.16
     },
     {
       "id": "GOOGL_20260715175632",
@@ -615,11 +615,11 @@
       "mode": "paper",
       "strategy_version": "58",
       "status": "open",
-      "price_trough": 6.679999828338623,
-      "trailing_stop_price": 6.732638,
-      "current_price": 6.68,
-      "unrealized_pnl_pct": 0.005952,
-      "unrealized_pnl_usd": 5.95
+      "price_trough": 6.699999809265137,
+      "trailing_stop_price": 6.752796,
+      "current_price": 6.71,
+      "unrealized_pnl_pct": 0.001488,
+      "unrealized_pnl_usd": 1.49
     },
     {
       "id": "PYPL_20260715190553",
@@ -714,7 +714,7 @@
     },
     {
       "asset": "PYPL",
-      "rank_score": 0.6337,
+      "rank_score": 0.6396,
       "price": 55.52000045776367,
       "rsi": 86.25332833942949,
       "momentum_5d": 0.006811188387422216,
@@ -724,12 +724,33 @@
       "bollinger_pct_b": 0.8513,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.448,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.474,
+      "news_confidence": 0.58,
       "news_headlines": [
         "Stripe, Advent make $53 billion offer to take over PayPal.",
         "Stripe eyes PayPal with reported $53 billion offer",
-        "Stripe and Advent Reportedly Bid $60.50 a Share for PayPal. Here's the Real Prize: Venmo."
+        "S&P 500, Dow Edge Higher As Bank Earnings Offset Middle East Oil Concerns \u2014 AAPL, SKHY, ASML, PYPL In Focus"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "UNH",
+      "rank_score": 0.635,
+      "price": 418.5799865722656,
+      "rsi": 22.02013367412843,
+      "momentum_5d": -0.010838350226667976,
+      "momentum_1d": -0.013736757002752628,
+      "macd_crossover": false,
+      "atr_pct": 0.008991586204932721,
+      "bollinger_pct_b": 0.0766,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.97,
+      "news_sentiment": 0.942,
+      "news_confidence": 0.78,
+      "news_headlines": [
+        "UnitedHealth\u2019s Stock Run Is Strong. Earnings Will Gauge Medicare Advantage Recovery.",
+        "Elevance Beat Earnings Estimates, but the Stock Falls on Medicaid Spending Worries",
+        "ELV Beats Q2 Earnings Estimates on Higher CarelonRx Product Revenues"
       ],
       "high_impact_news": true
     },
@@ -755,27 +776,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "UNH",
-      "rank_score": 0.621,
-      "price": 418.5799865722656,
-      "rsi": 22.02013367412843,
-      "momentum_5d": -0.010838350226667976,
-      "momentum_1d": -0.013736757002752628,
-      "macd_crossover": false,
-      "atr_pct": 0.008991586204932721,
-      "bollinger_pct_b": 0.0766,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.97,
-      "news_sentiment": 0.804,
-      "news_confidence": 0.74,
-      "news_headlines": [
-        "Elevance Beat Earnings Estimates, but the Stock Falls on Medicaid Spending Worries",
-        "ELV Beats Q2 Earnings Estimates on Higher CarelonRx Product Revenues",
-        "Will UnitedHealth (UNH) Beat Estimates Again in Its Next Earnings Report?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LCID",
       "rank_score": 0.6054,
       "price": 5.934999942779541,
@@ -797,8 +797,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "AAPL",
+      "rank_score": 0.6032,
+      "price": 327.57000732421875,
+      "rsi": 71.28768764617104,
+      "momentum_5d": 0.005988613218698254,
+      "momentum_1d": 0.04169056867450002,
+      "macd_crossover": false,
+      "atr_pct": 0.008547687309868207,
+      "bollinger_pct_b": 0.8655,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.6,
+      "news_sentiment": 0.516,
+      "news_confidence": 0.62,
+      "news_headlines": [
+        "What rising memory chip prices could mean for Apple's iPhones",
+        "Does the PayPal takeover deal make any sense?",
+        "The US won't adopt Chinese memory \u2014 but it will win the AI race: Strategist"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WMT",
-      "rank_score": 0.5956,
+      "rank_score": 0.5886,
       "price": 112.52999877929688,
       "rsi": 28.67851999731147,
       "momentum_5d": -0.014019087992864882,
@@ -808,12 +829,12 @@
       "bollinger_pct_b": -0.1087,
       "volume_spike": true,
       "volume_spike_ratio": 1.83,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.39,
       "news_headlines": [
+        "Walmart (WMT) Stock Sinks As Market Gains: Here's Why",
         "AMZN Stock Is Cheaper Than WMT And GOOGL \u2014 Why Jefferies Calls Amazon A Top Pick Among Hyperscalers",
-        "If you want to become a millionaire, here are the 3 \u2018magic numbers\u2019 you need to focus on \u2014 ignore all the rest",
-        "Mohamed El-Erian Says Kevin Warsh Is 'Serious' About Reforming the Fed, Restoring Political Independence"
+        "If you want to become a millionaire, here are the 3 \u2018magic numbers\u2019 you need to focus on \u2014 ignore all the rest"
       ],
       "high_impact_news": true
     },
@@ -835,27 +856,6 @@
         "SpaceX Shares Fall Below IPO Price for the First Time",
         "This Analyst Just Downgraded ARM Stock. Here's Why.",
         "Arm Holdings plc (ARM) CEO says US would have Difficulty Banning AI CPU chip Exports to China"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AAPL",
-      "rank_score": 0.5792,
-      "price": 327.57000732421875,
-      "rsi": 71.28768764617104,
-      "momentum_5d": 0.005988613218698254,
-      "momentum_1d": 0.04169056867450002,
-      "macd_crossover": false,
-      "atr_pct": 0.008547687309868207,
-      "bollinger_pct_b": 0.8655,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.6,
-      "news_sentiment": 0.148,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "What rising memory chip prices could mean for Apple's iPhones",
-        "Does the PayPal takeover deal make any sense?",
-        "The US won't adopt Chinese memory \u2014 but it will win the AI race: Strategist"
       ],
       "high_impact_news": true
     },
@@ -987,7 +987,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.5228,
+      "rank_score": 0.5248,
       "price": 370.9200134277344,
       "rsi": 78.45865258194678,
       "momentum_5d": -0.00014823822326700097,
@@ -997,8 +997,8 @@
       "bollinger_pct_b": 0.836,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.255,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.283,
+      "news_confidence": 0.53,
       "news_headlines": [
         "What rising memory chip prices could mean for Apple's iPhones",
         "Experts weigh the risks and rewards of Paramount-WBD deal",
@@ -1042,15 +1042,15 @@
       "news_sentiment": 0.536,
       "news_confidence": 0.56,
       "news_headlines": [
+        "ON Semiconductor Corp. (ON) Stock Sinks As Market Gains: What You Should Know",
         "Can ON Semiconductor Corp. (ON) Keep the Earnings Surprise Streak Alive?",
-        "Rising Power Demand Fuels ON Semiconductor\u2019s (ON) Upside",
-        "Microchip Technology and onsemi Stocks Trade Up, What You Need To Know"
+        "Rising Power Demand Fuels ON Semiconductor\u2019s (ON) Upside"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.5191,
+      "rank_score": 0.5171,
       "price": 394.1700134277344,
       "rsi": 63.78472026312558,
       "momentum_5d": 0.010044877457359064,
@@ -1060,12 +1060,12 @@
       "bollinger_pct_b": 0.747,
       "volume_spike": false,
       "volume_spike_ratio": 0.84,
-      "news_sentiment": 0.583,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.65,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Bank of America Says Long Semiconductors is the \u201cMost Crowded Trade Ever\u201d",
-        "Apple Looks to Buy AI Chip Startups",
-        "Why I Won\u2019t Stop Buying Meta Before September"
+        "My 3 Favorite AI Stocks to Buy on the Continued Chip Sell-Off",
+        "Broadcom (AVGO) Faces EU Antitrust Review Over VMware Licensing Changes",
+        "Bank of America Says Long Semiconductors is the \u201cMost Crowded Trade Ever\u201d"
       ],
       "high_impact_news": true
     },
@@ -1084,9 +1084,9 @@
       "news_sentiment": 0.765,
       "news_confidence": 0.51,
       "news_headlines": [
+        "SoFi Technologies, Inc. (SOFI) Stock Sinks As Market Gains: Here's Why",
         "2 Reasons We\u2019re Fans of SoFi (SOFI)",
-        "Should You Buy SoFi Stock Before July 29?",
-        "Here's the 1 Thing to Look for When SoFi Reports Earnings on July 29"
+        "Should You Buy SoFi Stock Before July 29?"
       ],
       "high_impact_news": true
     },
