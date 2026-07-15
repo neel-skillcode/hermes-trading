@@ -237,40 +237,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_peak": 133.61000061035156,
-    "trailing_stop_price": 131.605851
-  },
-  "GS": {
-    "id": "GS_20260714194728",
-    "asset": "GS",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1139.35498046875,
-    "entry_time": "2026-07-14T19:47:28.227277+00:00",
-    "stop_loss_pct": 0.01236,
-    "take_profit_pct": 0.02962,
-    "size_usd": 5224.06,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (80.8)",
-      "5d momentum +1.38%",
-      "1d momentum +7.14%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.551,
-    "news_headlines": [
-      "Best CD rates today, Tuesday, July 14, 2026: Lock in up to 4.10% APY today",
-      "Bank earnings, CPI: What investors need to watch uesday",
-      "Sector Update: Financial"
-    ],
-    "mode": "paper",
-    "strategy_version": "56",
-    "status": "open",
-    "price_trough": 1120.8900146484375,
-    "trailing_stop_price": 1134.744215
+    "price_peak": 134.2899932861328,
+    "trailing_stop_price": 132.275643
   },
   "USD/SEK": {
     "id": "USD/SEK_20260714233205",
@@ -294,8 +262,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 9.637999534606934,
-    "trailing_stop_price": 9.715104
+    "price_trough": 9.592499732971191,
+    "trailing_stop_price": 9.66924
   },
   "PYPL": {
     "id": "PYPL_20260715133804",
@@ -329,39 +297,6 @@
     "strategy_version": "57",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260715133804",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1938.9000244140625,
-    "entry_time": "2026-07-15T13:38:04.558587+00:00",
-    "stop_loss_pct": 0.00727,
-    "take_profit_pct": 0.0177,
-    "size_usd": 5715.92,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (68.5)",
-      "5d momentum +3.24%",
-      "1d momentum +3.70%",
-      "BB overbought (pct_b=1.30)",
-      "Volume spike 3.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish"
-    ],
-    "news_sentiment": 0.362,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Wednesday, July 15, 2026: Prices surge after softer inflation report",
-      "Crypto buyers may be emerging from their winter hibernation",
-      "Ethereum Foundation Spinoff Targets Banks With Blockchain Privacy"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open",
-    "price_trough": 1908.949951171875,
-    "trailing_stop_price": 1922.828017
-  },
   "SNAP": {
     "id": "SNAP_20260715133804",
     "asset": "SNAP",
@@ -392,8 +327,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 4.784999847412109,
-    "trailing_stop_price": 4.854574
+    "price_trough": 4.779900074005127,
+    "trailing_stop_price": 4.8494
   },
   "TSLA": {
     "id": "TSLA_20260715133804",
@@ -456,36 +391,6 @@
     "price_trough": 113.36900329589844,
     "trailing_stop_price": 114.275955
   },
-  "AMD": {
-    "id": "AMD_20260715164409",
-    "asset": "AMD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 511.82000732421875,
-    "entry_time": "2026-07-15T16:44:09.699080+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5750.59,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (35.7)",
-      "5d momentum -6.72%",
-      "1d momentum -6.51%",
-      "BB oversold (pct_b=-0.04)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.647,
-    "news_headlines": [
-      "Micron Drops 8% on China Competition Fears, Dragging Intel, AMD, and Marvell",
-      "Prediction: AMD Stock Will Soar After Aug. 4. The Reason Is Hiding in Plain Sight",
-      "Micron Stock Offers More Than Market Momentum"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open"
-  },
   "MRVL": {
     "id": "MRVL_20260715164409",
     "asset": "MRVL",
@@ -514,7 +419,9 @@
     ],
     "mode": "paper",
     "strategy_version": "57",
-    "status": "open"
+    "status": "open",
+    "price_peak": 208.03500366210938,
+    "trailing_stop_price": 204.914479
   },
   "MU": {
     "id": "MU_20260715164409",
@@ -544,6 +451,128 @@
     ],
     "mode": "paper",
     "strategy_version": "57",
+    "status": "open",
+    "price_peak": 912.989990234375,
+    "trailing_stop_price": 899.29514
+  },
+  "AAPL": {
+    "id": "AAPL_20260715175632",
+    "asset": "AAPL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 327.45001220703125,
+    "entry_time": "2026-07-15T17:56:32.915996+00:00",
+    "stop_loss_pct": 0.00775,
+    "take_profit_pct": 0.01858,
+    "size_usd": 5236.6,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (72.2)",
+      "5d momentum +3.98%",
+      "1d momentum +4.50%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [contradicts]: ma catalyst"
+    ],
+    "news_sentiment": 0.592,
+    "news_headlines": [
+      "Does the PayPal takeover deal make any sense?",
+      "It's a 'perfect market' for Goldman Sachs: What that suggests for Morgan Stanley earnings",
+      "Apple Goes Shopping For AI Chip Startups Amid Struggles With Performance Of In-House Server Chips: Report"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260715175632",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1926.0999755859375,
+    "entry_time": "2026-07-15T17:56:32.917983+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.01922,
+    "size_usd": 5315.75,
+    "position_size_pct": 0.0516,
+    "confidence": 0.806,
+    "signals": [
+      "RSI overbought (73.2)",
+      "1d momentum +2.97%",
+      "BB overbought (pct_b=0.87)",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; fed hawkish"
+    ],
+    "news_sentiment": 0.286,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Wednesday, July 15, 2026: Prices surge after softer inflation report",
+      "US PPI Lands Soft, Fed Rate Hike Odds Lower as Bitcoin Price Reclaims $65,000",
+      "Tom Lee Says Ethereum Has Broken Out Against Bitcoin \u2014 Bulls Predict $5,000 Surge in 10 Days"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "GOOGL": {
+    "id": "GOOGL_20260715175632",
+    "asset": "GOOGL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 371.7749938964844,
+    "entry_time": "2026-07-15T17:56:32.919743+00:00",
+    "stop_loss_pct": 0.00861,
+    "take_profit_pct": 0.02064,
+    "size_usd": 5236.6,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (74.4)",
+      "5d momentum +3.40%",
+      "1d momentum +4.95%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.692,
+    "news_headlines": [
+      "Experts weigh the risks and rewards of Paramount-WBD deal",
+      "Chinese AI model developer DeepSeek preps for IPO: What to know",
+      "Morgan Stanley: Broadcom bears are wrong about Google TPU"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260715175632",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.71999979019165,
+    "entry_time": "2026-07-15T17:56:32.921542+00:00",
+    "stop_loss_pct": 0.00788,
+    "take_profit_pct": 0.01908,
+    "size_usd": 999.13,
+    "position_size_pct": 0.0097,
+    "confidence": 0.84,
+    "signals": [
+      "MACD crossover",
+      "1d momentum +0.90%",
+      "BB overbought (pct_b=0.87)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "How tokenized stocks could become a $3 trillion market",
+      "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
+      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
     "status": "open"
   }
 }
