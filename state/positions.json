@@ -262,40 +262,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 9.592499732971191,
-    "trailing_stop_price": 9.66924
-  },
-  "PYPL": {
-    "id": "PYPL_20260715133804",
-    "asset": "PYPL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 54.810001373291016,
-    "entry_time": "2026-07-15T13:38:04.556432+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5715.92,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (85.4)",
-      "MACD crossover",
-      "5d momentum +16.51%",
-      "1d momentum +21.48%",
-      "BB overbought (pct_b=1.50)",
-      "Volume spike 18.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.53,
-    "news_headlines": [
-      "PayPal stock soars on report of buyout proposal from Stripe, Advent",
-      "Wall St set to open higher as investors weigh earnings; PayPal jumps",
-      "PayPal Shares Surge Premarket on Reports of $53 Billion Takeover"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open"
+    "price_trough": 9.582019805908203,
+    "trailing_stop_price": 9.658676
   },
   "SNAP": {
     "id": "SNAP_20260715133804",
@@ -543,7 +511,9 @@
     ],
     "mode": "paper",
     "strategy_version": "58",
-    "status": "open"
+    "status": "open",
+    "price_trough": 370.3900146484375,
+    "trailing_stop_price": 373.579073
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260715175632",
@@ -570,6 +540,68 @@
       "How tokenized stocks could become a $3 trillion market",
       "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
       "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open",
+    "price_trough": 6.699999809265137,
+    "trailing_stop_price": 6.752796
+  },
+  "PYPL": {
+    "id": "PYPL_20260715190553",
+    "asset": "PYPL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 55.6349983215332,
+    "entry_time": "2026-07-15T19:05:53.526606+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5232.1,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (87.5)",
+      "5d momentum +0.65%",
+      "1d momentum +20.77%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; ma catalyst; price surge"
+    ],
+    "news_sentiment": 0.309,
+    "news_headlines": [
+      "PayPal stock soars on report of buyout proposal from Stripe, Advent",
+      "Does the PayPal takeover deal make any sense?",
+      "PayPal co-founder and Affirm CEO details his 'very high bar' for M&A"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "MCD": {
+    "id": "MCD_20260715190553",
+    "asset": "MCD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 266.0050048828125,
+    "entry_time": "2026-07-15T19:05:53.528507+00:00",
+    "stop_loss_pct": 0.00554,
+    "take_profit_pct": 0.01351,
+    "size_usd": 448.36,
+    "position_size_pct": 0.0044,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (12.4)",
+      "5d momentum -1.07%",
+      "1d momentum -3.64%",
+      "BB oversold (pct_b=0.02)",
+      "High-impact catalyst",
+      "Claude [neutral]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.463,
+    "news_headlines": [
+      "McDonald's builds its new menu around a flavor it never sold",
+      "Restaurant Sector Remains Mixed as Stronger Operators Outperform, Morgan Stanley Says",
+      "MCD at $268, Starbucks at $106: Buy, Sell or Hold?"
     ],
     "mode": "paper",
     "strategy_version": "58",
