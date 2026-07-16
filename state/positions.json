@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 358.625,
-    "trailing_stop_price": 347.7228
+    "price_peak": 359.95001220703125,
+    "trailing_stop_price": 349.007532
   },
   "USD/JPY": {
     "id": "USD/JPY_20260707214054",
@@ -295,8 +295,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 4.760000228881836,
-    "trailing_stop_price": 4.829211
+    "price_trough": 4.689899921417236,
+    "trailing_stop_price": 4.758091
   },
   "TSLA": {
     "id": "TSLA_20260715133804",
@@ -358,70 +358,6 @@
     "status": "open",
     "price_trough": 113.36900329589844,
     "trailing_stop_price": 114.275955
-  },
-  "MRVL": {
-    "id": "MRVL_20260715164409",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 202.3800048828125,
-    "entry_time": "2026-07-15T16:44:09.701046+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5224.22,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (32.0)",
-      "5d momentum -8.62%",
-      "1d momentum -14.37%",
-      "BB oversold (pct_b=0.00)",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.156,
-    "news_headlines": [
-      "Micron Drops 8% on China Competition Fears, Dragging Intel, AMD, and Marvell",
-      "Intel, Marvell, PayPal, IBM, and More Stocks That Explain Today\u2019s Market",
-      "How Marvell Turned AI Demand Into A 200% Rally"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open",
-    "price_peak": 208.03500366210938,
-    "trailing_stop_price": 204.914479
-  },
-  "MU": {
-    "id": "MU_20260715164409",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 882.0650024414062,
-    "entry_time": "2026-07-15T16:44:09.702747+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 1262.35,
-    "position_size_pct": 0.0123,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (36.9)",
-      "5d momentum -9.81%",
-      "1d momentum -9.83%",
-      "BB oversold (pct_b=0.01)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; price decline"
-    ],
-    "news_sentiment": 0.462,
-    "news_headlines": [
-      "Stock market today: Dow, S&P 500, Nasdaq slip as  semiconductor stocks drop",
-      "SOXS Jumps 11% as Micron Slides on Fears of Fiercer Chinese Memory Chip Competition",
-      "Micron vs SanDisk: Which Memory Play Wins the AI Boom?"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open",
-    "price_peak": 912.989990234375,
-    "trailing_stop_price": 899.29514
   },
   "AAPL": {
     "id": "AAPL_20260715175632",
@@ -545,7 +481,9 @@
     ],
     "mode": "paper",
     "strategy_version": "58",
-    "status": "open"
+    "status": "open",
+    "price_peak": 268.5889892578125,
+    "trailing_stop_price": 267.101006
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260716082756",
@@ -573,6 +511,72 @@
       "How tokenized stocks could become a $3 trillion market",
       "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
       "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open",
+    "price_peak": 6.639999866485596,
+    "trailing_stop_price": 6.59518
+  },
+  "UNH": {
+    "id": "UNH_20260716141341",
+    "asset": "UNH",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 446.5199890136719,
+    "entry_time": "2026-07-16T14:13:41.605652+00:00",
+    "stop_loss_pct": 0.01425,
+    "take_profit_pct": 0.03465,
+    "size_usd": 5692.76,
+    "position_size_pct": 0.0553,
+    "confidence": 0.864,
+    "signals": [
+      "RSI overbought (70.3)",
+      "MACD crossover",
+      "5d momentum +6.03%",
+      "1d momentum +5.16%",
+      "BB overbought (pct_b=1.37)",
+      "Volume spike 7.7\u00d7",
+      "News +0.59 (conf 0.69) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat"
+    ],
+    "news_sentiment": 0.594,
+    "news_headlines": [
+      "Stock market today: Dow rises, S&P 500 and Nasdaq fall as chip stocks slide after TSMC earnings",
+      "Earnings live: United Airlines stock falls on fuel costs, GE Aerospace posts strong quarter",
+      "UnitedHealth Group Q2 Earnings Call Highlights"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "PFE": {
+    "id": "PFE_20260716141341",
+    "asset": "PFE",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 25.2450008392334,
+    "entry_time": "2026-07-16T14:13:41.607779+00:00",
+    "stop_loss_pct": 0.00603,
+    "take_profit_pct": 0.01468,
+    "size_usd": 734.69,
+    "position_size_pct": 0.0071,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (91.5)",
+      "5d momentum +2.04%",
+      "1d momentum +4.04%",
+      "BB overbought (pct_b=1.21)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.571,
+    "news_headlines": [
+      "The Real Engine Behind Johnson & Johnson Stock's Next Climb",
+      "What Could Push LLY Stock Higher From Here?",
+      "Why Is The Market Punishing JNJ Stock?"
     ],
     "mode": "paper",
     "strategy_version": "58",
