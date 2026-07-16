@@ -237,8 +237,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_peak": 134.2899932861328,
-    "trailing_stop_price": 132.275643
+    "price_peak": 134.88999938964844,
+    "trailing_stop_price": 132.866649
   },
   "USD/SEK": {
     "id": "USD/SEK_20260714233205",
@@ -295,8 +295,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 4.779900074005127,
-    "trailing_stop_price": 4.8494
+    "price_trough": 4.760000228881836,
+    "trailing_stop_price": 4.829211
   },
   "TSLA": {
     "id": "TSLA_20260715133804",
@@ -453,36 +453,6 @@
     "strategy_version": "58",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260715175632",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1926.0999755859375,
-    "entry_time": "2026-07-15T17:56:32.917983+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.01922,
-    "size_usd": 5315.75,
-    "position_size_pct": 0.0516,
-    "confidence": 0.806,
-    "signals": [
-      "RSI overbought (73.2)",
-      "1d momentum +2.97%",
-      "BB overbought (pct_b=0.87)",
-      "Volume spike 2.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; fed hawkish"
-    ],
-    "news_sentiment": 0.286,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Wednesday, July 15, 2026: Prices surge after softer inflation report",
-      "US PPI Lands Soft, Fed Rate Hike Odds Lower as Bitcoin Price Reclaims $65,000",
-      "Tom Lee Says Ethereum Has Broken Out Against Bitcoin \u2014 Bulls Predict $5,000 Surge in 10 Days"
-    ],
-    "mode": "paper",
-    "strategy_version": "58",
-    "status": "open"
-  },
   "GOOGL": {
     "id": "GOOGL_20260715175632",
     "asset": "GOOGL",
@@ -515,38 +485,6 @@
     "price_trough": 370.3900146484375,
     "trailing_stop_price": 373.579073
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260715175632",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.71999979019165,
-    "entry_time": "2026-07-15T17:56:32.921542+00:00",
-    "stop_loss_pct": 0.00788,
-    "take_profit_pct": 0.01908,
-    "size_usd": 999.13,
-    "position_size_pct": 0.0097,
-    "confidence": 0.84,
-    "signals": [
-      "MACD crossover",
-      "1d momentum +0.90%",
-      "BB overbought (pct_b=0.87)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "How tokenized stocks could become a $3 trillion market",
-      "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
-      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
-    ],
-    "mode": "paper",
-    "strategy_version": "58",
-    "status": "open",
-    "price_trough": 6.699999809265137,
-    "trailing_stop_price": 6.752796
-  },
   "PYPL": {
     "id": "PYPL_20260715190553",
     "asset": "PYPL",
@@ -575,7 +513,9 @@
     ],
     "mode": "paper",
     "strategy_version": "58",
-    "status": "open"
+    "status": "open",
+    "price_trough": 55.52000045776367,
+    "trailing_stop_price": 56.3528
   },
   "MCD": {
     "id": "MCD_20260715190553",
@@ -602,6 +542,37 @@
       "McDonald's builds its new menu around a flavor it never sold",
       "Restaurant Sector Remains Mixed as Stronger Operators Outperform, Morgan Stanley Says",
       "MCD at $268, Starbucks at $106: Buy, Sell or Hold?"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260716082756",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.570000171661377,
+    "entry_time": "2026-07-16T08:27:56.911909+00:00",
+    "stop_loss_pct": 0.00675,
+    "take_profit_pct": 0.01685,
+    "size_usd": 6369.59,
+    "position_size_pct": 0.0618,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (24.0)",
+      "5d momentum -2.09%",
+      "1d momentum -1.20%",
+      "BB oversold (pct_b=-0.36)",
+      "Volume spike 5.4\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "How tokenized stocks could become a $3 trillion market",
+      "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
+      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
     ],
     "mode": "paper",
     "strategy_version": "58",
