@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 362.0299987792969,
-    "trailing_stop_price": 351.024287
+    "price_peak": 362.6400146484375,
+    "trailing_stop_price": 351.615758
   },
   "USD/JPY": {
     "id": "USD/JPY_20260707214054",
@@ -293,38 +293,6 @@
     "price_trough": 113.36900329589844,
     "trailing_stop_price": 114.275955
   },
-  "GOOGL": {
-    "id": "GOOGL_20260715175632",
-    "asset": "GOOGL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 371.7749938964844,
-    "entry_time": "2026-07-15T17:56:32.919743+00:00",
-    "stop_loss_pct": 0.00861,
-    "take_profit_pct": 0.02064,
-    "size_usd": 5236.6,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (74.4)",
-      "5d momentum +3.40%",
-      "1d momentum +4.95%",
-      "BB overbought (pct_b=0.96)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.692,
-    "news_headlines": [
-      "Experts weigh the risks and rewards of Paramount-WBD deal",
-      "Chinese AI model developer DeepSeek preps for IPO: What to know",
-      "Morgan Stanley: Broadcom bears are wrong about Google TPU"
-    ],
-    "mode": "paper",
-    "strategy_version": "58",
-    "status": "open",
-    "price_trough": 370.3900146484375,
-    "trailing_stop_price": 373.579073
-  },
   "PFE": {
     "id": "PFE_20260716141341",
     "asset": "PFE",
@@ -449,7 +417,9 @@
     ],
     "mode": "paper",
     "strategy_version": "59",
-    "status": "open"
+    "status": "open",
+    "price_peak": 35.154998779296875,
+    "trailing_stop_price": 34.627674
   },
   "HOOD": {
     "id": "HOOD_20260716180338",
@@ -510,7 +480,9 @@
     ],
     "mode": "paper",
     "strategy_version": "59",
-    "status": "open"
+    "status": "open",
+    "price_peak": 87.08000183105469,
+    "trailing_stop_price": 85.773802
   },
   "INTC": {
     "id": "INTC_20260716180338",
@@ -540,7 +512,9 @@
     ],
     "mode": "paper",
     "strategy_version": "59",
-    "status": "open"
+    "status": "open",
+    "price_peak": 96.11000061035156,
+    "trailing_stop_price": 94.668351
   },
   "AMD": {
     "id": "AMD_20260716180338",
@@ -567,6 +541,38 @@
       "Why Did Micron Technology Stock Fall 8%?",
       "Forget AMD: Choose This Blue-Chip Haven to Lock in Fortress Gains Amid Tech Volatility",
       "Price Prediction: Nvidia, AMD & Broadcom-Our Bold Price Predictions for 2029"
+    ],
+    "mode": "paper",
+    "strategy_version": "59",
+    "status": "open",
+    "price_peak": 496.010009765625,
+    "trailing_stop_price": 488.56986
+  },
+  "BIIB": {
+    "id": "BIIB_20260716192601",
+    "asset": "BIIB",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 208.30999755859375,
+    "entry_time": "2026-07-16T19:26:01.596328+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5339.25,
+    "position_size_pct": 0.0519,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (90.6)",
+      "5d momentum +3.94%",
+      "1d momentum +2.83%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.104,
+    "news_headlines": [
+      "Slate Medicines Appoints Mark W. Hahn to Board of Directors",
+      "3 Reasons to Avoid BIIB and 1 Stock to Buy Instead",
+      "Biogen Shares Decline After Detailed Diranersen Alzheimer's Study Data"
     ],
     "mode": "paper",
     "strategy_version": "59",
