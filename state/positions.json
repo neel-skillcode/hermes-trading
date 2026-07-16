@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 361.6499938964844,
-    "trailing_stop_price": 350.655834
+    "price_peak": 361.92401123046875,
+    "trailing_stop_price": 350.921521
   },
   "USD/JPY": {
     "id": "USD/JPY_20260707214054",
@@ -112,8 +112,8 @@
     "mode": "paper",
     "strategy_version": "50",
     "status": "open",
-    "price_peak": 255.7449951171875,
-    "trailing_stop_price": 249.919124
+    "price_peak": 256.45208740234375,
+    "trailing_stop_price": 250.610109
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260709140922",
@@ -232,39 +232,6 @@
     "price_trough": 9.582019805908203,
     "trailing_stop_price": 9.658676
   },
-  "SNAP": {
-    "id": "SNAP_20260715133804",
-    "asset": "SNAP",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 4.855000019073486,
-    "entry_time": "2026-07-15T13:38:04.560449+00:00",
-    "stop_loss_pct": 0.01454,
-    "take_profit_pct": 0.03541,
-    "size_usd": 5715.92,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (65.0)",
-      "MACD crossover",
-      "5d momentum +4.07%",
-      "1d momentum +3.96%",
-      "BB overbought (pct_b=1.25)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.509,
-    "news_headlines": [
-      "Want A 34% Discount on Meta Stock? Why Not Get Paid While You Wait for It?",
-      "Here\u2019s Why Wells Fargo Rates Snap (SNAP) Neutral With A $5 Price Target",
-      "What Could Power The Next Rally In META Stock"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open",
-    "price_trough": 4.689899921417236,
-    "trailing_stop_price": 4.758091
-  },
   "TSLA": {
     "id": "TSLA_20260715133804",
     "asset": "TSLA",
@@ -294,8 +261,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 391.33990478515625,
-    "trailing_stop_price": 402.023484
+    "price_trough": 388.8490905761719,
+    "trailing_stop_price": 399.464671
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -423,8 +390,8 @@
     "mode": "paper",
     "strategy_version": "58",
     "status": "open",
-    "price_trough": 435.7950134277344,
-    "trailing_stop_price": 442.005092
+    "price_trough": 432.3500061035156,
+    "trailing_stop_price": 438.510994
   },
   "PFE": {
     "id": "PFE_20260716141341",
@@ -456,8 +423,8 @@
     "mode": "paper",
     "strategy_version": "58",
     "status": "open",
-    "price_trough": 25.19499969482422,
-    "trailing_stop_price": 25.346926
+    "price_trough": 25.094999313354492,
+    "trailing_stop_price": 25.246322
   },
   "SMCI": {
     "id": "SMCI_20260716154832",
@@ -548,6 +515,36 @@
     ],
     "mode": "paper",
     "strategy_version": "58",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260716165632",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 63.65039825439453,
+    "entry_time": "2026-07-16T16:56:32.922450+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 5737.11,
+    "position_size_pct": 0.0558,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (25.1)",
+      "5d momentum -6.29%",
+      "1d momentum -7.15%",
+      "BB oversold (pct_b=-0.15)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; price decline"
+    ],
+    "news_sentiment": 0.472,
+    "news_headlines": [
+      "Moderna set for uneventful Q2 report ahead of key data readouts, says Jefferies",
+      "Moderna (MRNA) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "What It Means To Hold Moderna Stock In A Crash"
+    ],
+    "mode": "paper",
+    "strategy_version": "59",
     "status": "open"
   }
 }
