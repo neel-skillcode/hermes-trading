@@ -3,15 +3,15 @@
   "portfolio_balance": 102988.09,
   "portfolio_peak": 103098.43,
   "portfolio_drawdown_pct": 0.11,
-  "unrealized_pnl_usd": 887.18,
-  "equity_value": 103875.27,
+  "unrealized_pnl_usd": 926.08,
+  "equity_value": 103914.17,
   "open_positions": 19,
   "day_trades_open": 10,
   "swing_trades_open": 9,
   "day_capital_used_usd": 41195.24,
   "swing_capital_used_usd": 47571.79,
   "total_trades": 650,
-  "last_tick": "2026-07-16T22:32:23.515814+00:00",
+  "last_tick": "2026-07-16T23:29:46.220256+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -107,9 +107,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.348999,
-      "unrealized_pnl_pct": -0.001419,
-      "unrealized_pnl_usd": -5.17
+      "current_price": 162.343994,
+      "unrealized_pnl_pct": -0.001388,
+      "unrealized_pnl_usd": -5.06
     },
     {
       "id": "EUR/JPY_20260709140922",
@@ -139,9 +139,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 185.785004,
-      "unrealized_pnl_pct": -0.000178,
-      "unrealized_pnl_usd": -1.18
+      "current_price": 185.800995,
+      "unrealized_pnl_pct": -0.000264,
+      "unrealized_pnl_usd": -1.75
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -173,9 +173,9 @@
       "status": "open",
       "price_trough": 1.1423349380493164,
       "trailing_stop_price": 1.151474,
-      "current_price": 1.144689,
-      "unrealized_pnl_pct": -0.000343,
-      "unrealized_pnl_usd": -2.37
+      "current_price": 1.14482,
+      "unrealized_pnl_pct": -0.000458,
+      "unrealized_pnl_usd": -3.17
     },
     {
       "id": "XLK_20260714181743",
@@ -236,9 +236,9 @@
       "status": "open",
       "price_trough": 9.582019805908203,
       "trailing_stop_price": 9.658676,
-      "current_price": 9.64205,
-      "unrealized_pnl_pct": 0.001858,
-      "unrealized_pnl_usd": 11.19
+      "current_price": 9.64085,
+      "unrealized_pnl_pct": 0.001982,
+      "unrealized_pnl_usd": 11.94
     },
     {
       "id": "TSLA_20260715133804",
@@ -303,9 +303,9 @@
       "status": "open",
       "price_trough": 113.36900329589844,
       "trailing_stop_price": 114.275955,
-      "current_price": 113.583,
-      "unrealized_pnl_pct": -0.000996,
-      "unrealized_pnl_usd": -3.08
+      "current_price": 113.607002,
+      "unrealized_pnl_pct": -0.001207,
+      "unrealized_pnl_usd": -3.74
     },
     {
       "id": "PFE_20260716141341",
@@ -614,9 +614,11 @@
       "mode": "paper",
       "strategy_version": "59",
       "status": "open",
-      "current_price": 1873.75,
-      "unrealized_pnl_pct": -0.001716,
-      "unrealized_pnl_usd": -7.28
+      "price_trough": 1859.0799560546875,
+      "trailing_stop_price": 1871.535792,
+      "current_price": 1859.079956,
+      "unrealized_pnl_pct": 0.006127,
+      "unrealized_pnl_usd": 26.01
     },
     {
       "id": "SOL-USD_20260716202605",
@@ -646,11 +648,11 @@
       "mode": "paper",
       "strategy_version": "59",
       "status": "open",
-      "price_trough": 75.56999969482422,
-      "trailing_stop_price": 76.037778,
-      "current_price": 75.57,
-      "unrealized_pnl_pct": 0.002113,
-      "unrealized_pnl_usd": 2.08
+      "price_trough": 75.05000305175781,
+      "trailing_stop_price": 75.514563,
+      "current_price": 75.050003,
+      "unrealized_pnl_pct": 0.008979,
+      "unrealized_pnl_usd": 8.85
     }
   ],
   "last_candidates": [
@@ -774,9 +776,30 @@
       "news_sentiment": 0.241,
       "news_confidence": 0.29,
       "news_headlines": [
+        "Lattice Semiconductor, AMD, and Qualcomm Shares Are Falling, What You Need To Know",
         "How Long-Term Auto Supply Deals And US Fab Build-Out At Micron (MU) Has Changed Its Investment Story",
-        "AI Has Upended Chip Stocks. This Chart Shows How Much.",
-        "Micron Signs Long-Term Auto Chip Deals"
+        "AI Has Upended Chip Stocks. This Chart Shows How Much."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.6628,
+      "price": 0.07218000292778015,
+      "rsi": 36.5079815604548,
+      "momentum_5d": -0.016219152876018463,
+      "momentum_1d": -0.02512155746511616,
+      "macd_crossover": false,
+      "atr_pct": 0.006897449249022913,
+      "bollinger_pct_b": -0.1118,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.52,
+      "news_sentiment": 0.227,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
+        "XRP Google Search Interest Rises as Analyst Flags Fresh Buy Signal\u2014Here's What the Technicals Are Showing",
+        "Bitcoin, XRP, Dogecoin Steady; Ethereum Gains Amid Soft Inflation Reading: Analyst Says Indicators 'Flashing Bottom Signals Everywhere'"
       ],
       "high_impact_news": true
     },
@@ -803,7 +826,7 @@
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.6482,
+      "rank_score": 0.6422,
       "price": 374.4599914550781,
       "rsi": 28.487634196538053,
       "momentum_5d": -0.018299105866329105,
@@ -813,12 +836,12 @@
       "bollinger_pct_b": 0.031,
       "volume_spike": true,
       "volume_spike_ratio": 1.82,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
+      "news_sentiment": 0.533,
+      "news_confidence": 0.3,
       "news_headlines": [
+        "NXP Semiconductors and Broadcom Shares Plummet, What You Need To Know",
         "1 Critical Reason to Buy Broadcom Stock on the Dip",
-        "Most Stocks Gained, but Chip Selloff Drags Market",
-        "AI Has Upended Chip Stocks. This Chart Shows How Much."
+        "Most Stocks Gained, but Chip Selloff Drags Market"
       ],
       "high_impact_news": true
     },
@@ -882,6 +905,27 @@
         "Merck Snags A First-Of-Its-Kind Approval, And Shares Jump",
         "Merck Stock Rises After U.S. Approval for Powerful Cholesterol-Cutting Pill",
         "Collect 9.8% On VRTX Stock Now, And Still Keep 15% Of Upside"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6248,
+      "price": 75.05000305175781,
+      "rsi": 36.857111716621255,
+      "momentum_5d": -0.008455534007201003,
+      "momentum_1d": -0.02835311849534586,
+      "macd_crossover": false,
+      "atr_pct": 0.0067669030764720755,
+      "bollinger_pct_b": 0.0328,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.2,
+      "news_sentiment": -0.4,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Crypto Market Today, July 16: Bitcoin Pulls Back as Risk Aversion Weighs on Markets",
+        "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000"
       ],
       "high_impact_news": true
     },
@@ -970,27 +1014,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.5998,
-      "price": 124.23999786376953,
-      "rsi": 39.355929756450536,
-      "momentum_5d": -0.02150116823412657,
-      "momentum_1d": -0.07318168567441627,
-      "macd_crossover": false,
-      "atr_pct": 0.017509354601268113,
-      "bollinger_pct_b": 0.0602,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.52,
-      "news_sentiment": -0.2,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Arm (ARM) CEO Flags China Export Hurdles As AGI CPU Demand Builds",
-        "Oracle Just Cratered 33% in a Month. Is It Time to Switch to Cloudflare or CoreWeave?",
-        "Oracle Stock Slides To 52-Week Low Amid AI Spending Fears"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "TGT",
       "rank_score": 0.5998,
       "price": 140.19000244140625,
@@ -1005,9 +1028,30 @@
       "news_sentiment": 0.782,
       "news_confidence": 0.55,
       "news_headlines": [
+        "Target (TGT) Advances While Market Declines: Some Information for Investors",
         "GameStop Survived The Trap Screen. The Growth Didn't",
-        "Costco makes a silent gas change that members will love",
-        "Is Costco Stock Still a Buy After Its June Sales Update?"
+        "Costco makes a silent gas change that members will love"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.5978,
+      "price": 124.23999786376953,
+      "rsi": 39.355929756450536,
+      "momentum_5d": -0.02150116823412657,
+      "momentum_1d": -0.07318168567441627,
+      "macd_crossover": false,
+      "atr_pct": 0.017509354601268113,
+      "bollinger_pct_b": 0.0602,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.52,
+      "news_sentiment": -0.163,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Oracle (ORCL) Suffers a Larger Drop Than the General Market: Key Insights",
+        "Arm (ARM) CEO Flags China Export Hurdles As AGI CPU Demand Builds",
+        "Oracle Just Cratered 33% in a Month. Is It Time to Switch to Cloudflare or CoreWeave?"
       ],
       "high_impact_news": true
     },
@@ -1026,51 +1070,9 @@
       "news_sentiment": 0.692,
       "news_confidence": 0.39,
       "news_headlines": [
+        "Why the Market Dipped But Bristol Myers Squibb (BMY) Gained Today",
         "Why Is The Market Punishing JNJ Stock?",
-        "Bristol Myers Squibb (BMY) Wins FDA Review For Mezigdomide In Multiple Myeloma",
-        "Will Bristol Myers (BMY) Beat Estimates Again in Its Next Earnings Report?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GS",
-      "rank_score": 0.5794,
-      "price": 1095.5550537109375,
-      "rsi": 28.800608752842308,
-      "momentum_5d": -0.017025091372287447,
-      "momentum_1d": 0.05207798245690129,
-      "macd_crossover": false,
-      "atr_pct": 0.014580552958288273,
-      "bollinger_pct_b": 0.1099,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.96,
-      "news_sentiment": 0.68,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "Best CD rates today, Thursday, July 16, 2026: Lock in up to 4.10% APY",
-        "5 Hot Large Cap Bank Stocks: Should You Buy?",
-        "Earnings Calendar and Analysis for This Week (July 13-17)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.5791,
-      "price": 188.35000610351562,
-      "rsi": 13.64070397953266,
-      "momentum_5d": -0.01673141758142668,
-      "momentum_1d": -0.1331860098339103,
-      "macd_crossover": false,
-      "atr_pct": 0.0341573788987799,
-      "bollinger_pct_b": 0.1816,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.27,
-      "news_sentiment": 0.273,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "Chip Stocks Pummeled. SK Hynix Dives. SOX Socked Again.",
-        "Why Marvell Technology (MRVL) Stock Is Down Today",
-        "Stocks to Watch Recap: TSMC, UnitedHealth, SpaceX, Netflix"
+        "Bristol Myers Squibb (BMY) Wins FDA Review For Mezigdomide In Multiple Myeloma"
       ],
       "high_impact_news": true
     }
