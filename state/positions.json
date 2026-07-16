@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "49",
     "status": "open",
-    "price_peak": 359.95001220703125,
-    "trailing_stop_price": 349.007532
+    "price_peak": 361.6499938964844,
+    "trailing_stop_price": 350.655834
   },
   "USD/JPY": {
     "id": "USD/JPY_20260707214054",
@@ -112,8 +112,8 @@
     "mode": "paper",
     "strategy_version": "50",
     "status": "open",
-    "price_peak": 255.6300048828125,
-    "trailing_stop_price": 249.806753
+    "price_peak": 255.7449951171875,
+    "trailing_stop_price": 249.919124
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260709140922",
@@ -204,41 +204,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_trough": 178.5800018310547,
-    "trailing_stop_price": 182.792704
-  },
-  "C": {
-    "id": "C_20260714194728",
-    "asset": "C",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 133.41000366210938,
-    "entry_time": "2026-07-14T19:47:28.224795+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6513.63,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (31.8)",
-      "5d momentum -3.47%",
-      "1d momentum -4.21%",
-      "BB oversold (pct_b=0.10)",
-      "News +0.53 (conf 0.77) \u2192 long",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: earnings beat; analyst upgrade"
-    ],
-    "news_sentiment": 0.532,
-    "news_headlines": [
-      "Citigroup Is Up 14% This Year: Is It Outperforming Other Bank Stocks Like Wells Fargo and Bank of America?",
-      "Citigroup (C) Posts Decade High Revenue And Unveils $30 Billion Capital Return Plan",
-      "Citigroup Stock Up as Q2 Earnings Beat on Higher NII & Fee Income"
-    ],
-    "mode": "paper",
-    "strategy_version": "56",
-    "status": "open",
-    "price_peak": 134.88999938964844,
-    "trailing_stop_price": 132.866649
+    "price_trough": 177.6199951171875,
+    "trailing_stop_price": 181.810051
   },
   "USD/SEK": {
     "id": "USD/SEK_20260714233205",
@@ -359,36 +326,6 @@
     "price_trough": 113.36900329589844,
     "trailing_stop_price": 114.275955
   },
-  "AAPL": {
-    "id": "AAPL_20260715175632",
-    "asset": "AAPL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 327.45001220703125,
-    "entry_time": "2026-07-15T17:56:32.915996+00:00",
-    "stop_loss_pct": 0.00775,
-    "take_profit_pct": 0.01858,
-    "size_usd": 5236.6,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (72.2)",
-      "5d momentum +3.98%",
-      "1d momentum +4.50%",
-      "BB overbought (pct_b=0.96)",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.592,
-    "news_headlines": [
-      "Does the PayPal takeover deal make any sense?",
-      "It's a 'perfect market' for Goldman Sachs: What that suggests for Morgan Stanley earnings",
-      "Apple Goes Shopping For AI Chip Startups Amid Struggles With Performance Of In-House Server Chips: Report"
-    ],
-    "mode": "paper",
-    "strategy_version": "58",
-    "status": "open"
-  },
   "GOOGL": {
     "id": "GOOGL_20260715175632",
     "asset": "GOOGL",
@@ -420,70 +357,6 @@
     "status": "open",
     "price_trough": 370.3900146484375,
     "trailing_stop_price": 373.579073
-  },
-  "PYPL": {
-    "id": "PYPL_20260715190553",
-    "asset": "PYPL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 55.6349983215332,
-    "entry_time": "2026-07-15T19:05:53.526606+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5232.1,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (87.5)",
-      "5d momentum +0.65%",
-      "1d momentum +20.77%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.309,
-    "news_headlines": [
-      "PayPal stock soars on report of buyout proposal from Stripe, Advent",
-      "Does the PayPal takeover deal make any sense?",
-      "PayPal co-founder and Affirm CEO details his 'very high bar' for M&A"
-    ],
-    "mode": "paper",
-    "strategy_version": "58",
-    "status": "open",
-    "price_trough": 55.52000045776367,
-    "trailing_stop_price": 56.3528
-  },
-  "MCD": {
-    "id": "MCD_20260715190553",
-    "asset": "MCD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 266.0050048828125,
-    "entry_time": "2026-07-15T19:05:53.528507+00:00",
-    "stop_loss_pct": 0.00554,
-    "take_profit_pct": 0.01351,
-    "size_usd": 448.36,
-    "position_size_pct": 0.0044,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (12.4)",
-      "5d momentum -1.07%",
-      "1d momentum -3.64%",
-      "BB oversold (pct_b=0.02)",
-      "High-impact catalyst",
-      "Claude [neutral]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.463,
-    "news_headlines": [
-      "McDonald's builds its new menu around a flavor it never sold",
-      "Restaurant Sector Remains Mixed as Stronger Operators Outperform, Morgan Stanley Says",
-      "MCD at $268, Starbucks at $106: Buy, Sell or Hold?"
-    ],
-    "mode": "paper",
-    "strategy_version": "58",
-    "status": "open",
-    "price_peak": 268.5889892578125,
-    "trailing_stop_price": 267.101006
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260716082756",
@@ -549,7 +422,9 @@
     ],
     "mode": "paper",
     "strategy_version": "58",
-    "status": "open"
+    "status": "open",
+    "price_trough": 435.7950134277344,
+    "trailing_stop_price": 442.005092
   },
   "PFE": {
     "id": "PFE_20260716141341",
@@ -577,6 +452,99 @@
       "The Real Engine Behind Johnson & Johnson Stock's Next Climb",
       "What Could Push LLY Stock Higher From Here?",
       "Why Is The Market Punishing JNJ Stock?"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open",
+    "price_trough": 25.19499969482422,
+    "trailing_stop_price": 25.346926
+  },
+  "SMCI": {
+    "id": "SMCI_20260716154832",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 25.174999237060547,
+    "entry_time": "2026-07-16T15:48:32.208929+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5219.81,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (19.4)",
+      "5d momentum -6.93%",
+      "1d momentum -11.14%",
+      "BB oversold (pct_b=-0.10)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": 0.397,
+    "news_headlines": [
+      "Can Super Micro Computer's RDHx Expansion Fuel AI Data Center Demand?",
+      "Is Super Micro Computer (SMCI) Fairly Valued On AI Cooling Expansion And Legal Risk?",
+      "US probes Samsung for alleged infringement of Netlist's memory-chip patents"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260716154832",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 189.9409942626953,
+    "entry_time": "2026-07-16T15:48:32.210735+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5745.73,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (16.6)",
+      "5d momentum -8.62%",
+      "1d momentum -19.41%",
+      "BB oversold (pct_b=-0.00)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.217,
+    "news_headlines": [
+      "Stocks to Watch: TSMC, UnitedHealth, SpaceX, Netflix",
+      "Which Stocks Are Hurting the Most?",
+      "Marvell Technology, Inc. (MRVL) is Attracting Investor Attention: Here is What You Should Know"
+    ],
+    "mode": "paper",
+    "strategy_version": "58",
+    "status": "open"
+  },
+  "IONQ": {
+    "id": "IONQ_20260716154832",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 35.55870056152344,
+    "entry_time": "2026-07-16T15:48:32.212377+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6372.79,
+    "position_size_pct": 0.062,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (21.6)",
+      "5d momentum -5.95%",
+      "1d momentum -17.08%",
+      "BB oversold (pct_b=-0.03)",
+      "News +0.67 (conf 0.60) \u2192 long",
+      "High-impact catalyst",
+      "Claude [supports]: analyst downgrade; price decline"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "IonQ: This Quantum Computing Pioneer Is a No-Brainer Buy (NYSE: IONQ)",
+      "Quantum Stocks Witness Correction: Why QUBT is the Best Buy Now",
+      "IonQ (IONQ) Among The Best Quantum Computing Stocks to Buy and Hold Forever"
     ],
     "mode": "paper",
     "strategy_version": "58",
