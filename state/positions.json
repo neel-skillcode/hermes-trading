@@ -234,8 +234,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 113.36900329589844,
-    "trailing_stop_price": 114.275955
+    "price_trough": 113.24400329589844,
+    "trailing_stop_price": 114.149955
   },
   "PFE": {
     "id": "PFE_20260716141341",
@@ -521,6 +521,31 @@
     ],
     "mode": "paper",
     "strategy_version": "59",
+    "status": "open",
+    "price_peak": 63259.19140625,
+    "trailing_stop_price": 62932.773979
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20260717114933",
+    "asset": "USD/NOK",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 9.648810386657715,
+    "entry_time": "2026-07-17T11:49:33.830508+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5542.1,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (44.1)",
+      "5d momentum -0.34%",
+      "BB oversold (pct_b=-0.03)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "60",
     "status": "open"
   }
 }
