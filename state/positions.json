@@ -173,8 +173,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_trough": 175.77999877929688,
-    "trailing_stop_price": 179.926649
+    "price_trough": 175.5,
+    "trailing_stop_price": 179.640045
   },
   "TSLA": {
     "id": "TSLA_20260715133804",
@@ -205,8 +205,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 381.7699890136719,
-    "trailing_stop_price": 392.19231
+    "price_trough": 381.0249938964844,
+    "trailing_stop_price": 391.426976
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -236,39 +236,6 @@
     "status": "open",
     "price_trough": 113.21099853515625,
     "trailing_stop_price": 114.116687
-  },
-  "ON": {
-    "id": "ON_20260716180338",
-    "asset": "ON",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 86.66999816894531,
-    "entry_time": "2026-07-16T18:03:38.652225+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6507.48,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (20.9)",
-      "5d momentum -6.35%",
-      "1d momentum -5.84%",
-      "BB oversold (pct_b=0.01)",
-      "News +0.62 (conf 0.64) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.625,
-    "news_headlines": [
-      "Is ON Semiconductor (ON) Fully Priced After Its 151% Run?",
-      "Microchip Jumps 35% YTD: Is There More Room for the Stock to Rise?",
-      "Will Earnings Optimism and EV AI Momentum Change ON Semiconductor's (ON) Narrative?"
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open",
-    "price_peak": 88.37000274658203,
-    "trailing_stop_price": 87.044453
   },
   "BIIB": {
     "id": "BIIB_20260716192601",
@@ -348,39 +315,6 @@
     "strategy_version": "60",
     "status": "open"
   },
-  "HOOD": {
-    "id": "HOOD_20260717142203",
-    "asset": "HOOD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 100.97049713134766,
-    "entry_time": "2026-07-17T14:22:03.002066+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6498.17,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (16.8)",
-      "5d momentum -7.91%",
-      "1d momentum -7.81%",
-      "BB oversold (pct_b=-0.17)",
-      "Volume spike 3.1\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "Robinhood Markets, Inc. (HOOD) Is a Trending Stock: Facts to Know Before Betting on It",
-      "Why Most Investors Didn\u2019t Beat the Market During a Great Quarter",
-      "The Smartest Dividend Stocks to Buy With $1,000 in July and Never Sell"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_peak": 102.75499725341797,
-    "trailing_stop_price": 101.213672
-  },
   "META": {
     "id": "META_20260717142203",
     "asset": "META",
@@ -443,40 +377,9 @@
     ],
     "mode": "paper",
     "strategy_version": "60",
-    "status": "open"
-  },
-  "AMAT": {
-    "id": "AMAT_20260717142203",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 536.1199951171875,
-    "entry_time": "2026-07-17T14:22:03.008064+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 4412.14,
-    "position_size_pct": 0.043,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (23.9)",
-      "5d momentum -5.23%",
-      "1d momentum -6.44%",
-      "BB oversold (pct_b=-0.14)",
-      "Volume spike 3.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.442,
-    "news_headlines": [
-      "Here is What to Know Beyond Why Applied Materials, Inc. (AMAT) is a Trending Stock",
-      "Update: US Equity Futures Drop as AI Concerns Weigh on Tech Stocks, Middle East Conflict Continues",
-      "Chip stocks fall globally, pulling U.S. stock futures lower"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
     "status": "open",
-    "price_peak": 537.1199951171875,
-    "trailing_stop_price": 529.063195
+    "price_peak": 345.0,
+    "trailing_stop_price": 339.825
   },
   "MPC": {
     "id": "MPC_20260717175832",
@@ -503,6 +406,125 @@
       "How Current Refining Margins Are Driving an Edge for MPC (Revised)",
       "Forget Oil Prices \u2014 This 1 Refining Number Explains Why These Energy Stocks Are On Fire",
       "How Current Refining Margins Are Driving an Edge for MPC"
+    ],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "C": {
+    "id": "C_20260717191512",
+    "asset": "C",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 129.4550018310547,
+    "entry_time": "2026-07-17T19:15:12.560482+00:00",
+    "stop_loss_pct": 0.01029,
+    "take_profit_pct": 0.02538,
+    "size_usd": 6132.73,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (8.8)",
+      "5d momentum -1.05%",
+      "1d momentum -3.34%",
+      "BB oversold (pct_b=0.08)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.778,
+    "news_headlines": [
+      "Financial Services Roundup: Market Talk",
+      "Citigroup (C) Upgraded to Strong Buy: Here's What You Should Know",
+      "Dollar Hedging Costs Sink to Their Lowest Level This Year"
+    ],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "GS": {
+    "id": "GS_20260717191512",
+    "asset": "GS",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1067.239990234375,
+    "entry_time": "2026-07-17T19:15:12.561778+00:00",
+    "stop_loss_pct": 0.01421,
+    "take_profit_pct": 0.03463,
+    "size_usd": 5738.76,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (10.3)",
+      "5d momentum -1.00%",
+      "1d momentum -4.64%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.414,
+    "news_headlines": [
+      "Blue Owl-Backed Latigo Files for IPO, Adding to Biotech Pipeline",
+      "Stock Market Losses Led By Nasdaq, AI Stocks; Goldman, GE, Taiwan Semi, IBM In Focus: Weekly Review",
+      "Goldman Sachs CEO Says AI Boom Is Still in the \u2018Early Innings'"
+    ],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260717191512",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 527.3099975585938,
+    "entry_time": "2026-07-17T19:15:12.563123+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03543,
+    "size_usd": 4753.85,
+    "position_size_pct": 0.0463,
+    "confidence": 0.724,
+    "signals": [
+      "RSI oversold (20.1)",
+      "5d momentum -1.62%",
+      "1d momentum -11.04%",
+      "BB oversold (pct_b=0.03)",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: price decline"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "Semiconductor stocks trim losses as investors buy the dip",
+      "Chip Stocks Enter Bear Market But Roar Back. Astera Labs Continues Slump.",
+      "AMD Falls 5%, Intel Drops 4%, NVIDIA Slides 3% Before Recovering as Rotation Hits Semiconductor Stocks"
+    ],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "SOFI": {
+    "id": "SOFI_20260717191512",
+    "asset": "SOFI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 17.315000534057617,
+    "entry_time": "2026-07-17T19:15:12.564507+00:00",
+    "stop_loss_pct": 0.01412,
+    "take_profit_pct": 0.03221,
+    "size_usd": 767.32,
+    "position_size_pct": 0.0075,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (33.4)",
+      "5d momentum +2.52%",
+      "1d momentum -6.86%",
+      "High-impact catalyst",
+      "Claude [contradicts]: ma catalyst"
+    ],
+    "news_sentiment": 0.833,
+    "news_headlines": [
+      "Should SoFi\u2019s New Social 50 Income ETF Strategy Require Action From SoFi Technologies (SOFI) Investors?",
+      "SoFi Technologies: The Customer Growth Story Isn't Over (NASDAQ: SOFI)",
+      "Here\u2019s Why SoFi Is a Prime Takeover Target for These Major Financial Players"
     ],
     "mode": "paper",
     "strategy_version": "60",
