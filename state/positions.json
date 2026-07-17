@@ -173,8 +173,8 @@
     "mode": "paper",
     "strategy_version": "56",
     "status": "open",
-    "price_trough": 176.74000549316406,
-    "trailing_stop_price": 180.909302
+    "price_trough": 175.77999877929688,
+    "trailing_stop_price": 179.926649
   },
   "TSLA": {
     "id": "TSLA_20260715133804",
@@ -205,8 +205,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 388.75,
-    "trailing_stop_price": 399.362875
+    "price_trough": 381.7699890136719,
+    "trailing_stop_price": 392.19231
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -236,134 +236,6 @@
     "status": "open",
     "price_trough": 113.21099853515625,
     "trailing_stop_price": 114.116687
-  },
-  "PFE": {
-    "id": "PFE_20260716141341",
-    "asset": "PFE",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 25.2450008392334,
-    "entry_time": "2026-07-16T14:13:41.607779+00:00",
-    "stop_loss_pct": 0.00603,
-    "take_profit_pct": 0.01468,
-    "size_usd": 734.69,
-    "position_size_pct": 0.0071,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (91.5)",
-      "5d momentum +2.04%",
-      "1d momentum +4.04%",
-      "BB overbought (pct_b=1.21)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.571,
-    "news_headlines": [
-      "The Real Engine Behind Johnson & Johnson Stock's Next Climb",
-      "What Could Push LLY Stock Higher From Here?",
-      "Why Is The Market Punishing JNJ Stock?"
-    ],
-    "mode": "paper",
-    "strategy_version": "58",
-    "status": "open",
-    "price_trough": 25.094999313354492,
-    "trailing_stop_price": 25.246322
-  },
-  "MRNA": {
-    "id": "MRNA_20260716165632",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 63.65039825439453,
-    "entry_time": "2026-07-16T16:56:32.922450+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 5737.11,
-    "position_size_pct": 0.0558,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (25.1)",
-      "5d momentum -6.29%",
-      "1d momentum -7.15%",
-      "BB oversold (pct_b=-0.15)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; price decline"
-    ],
-    "news_sentiment": 0.472,
-    "news_headlines": [
-      "Moderna set for uneventful Q2 report ahead of key data readouts, says Jefferies",
-      "Moderna (MRNA) Registers a Bigger Fall Than the Market: Important Facts to Note",
-      "What It Means To Hold Moderna Stock In A Crash"
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open",
-    "price_peak": 63.95500183105469,
-    "trailing_stop_price": 62.995677
-  },
-  "IONQ": {
-    "id": "IONQ_20260716180338",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 34.73099899291992,
-    "entry_time": "2026-07-16T18:03:38.649064+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6507.48,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (19.2)",
-      "5d momentum -7.43%",
-      "1d momentum -13.35%",
-      "BB oversold (pct_b=0.00)",
-      "News +0.67 (conf 0.61) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: analyst downgrade; price decline"
-    ],
-    "news_sentiment": 0.672,
-    "news_headlines": [
-      "IonQ: This Quantum Computing Pioneer Is a No-Brainer Buy (NYSE: IONQ)",
-      "Quantum Stocks Witness Correction: Why QUBT is the Best Buy Now",
-      "2 Quantum Stocks That Could Challenge IonQ\u2019s Leadership"
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open",
-    "price_peak": 35.154998779296875,
-    "trailing_stop_price": 34.627674
-  },
-  "HOOD": {
-    "id": "HOOD_20260716180338",
-    "asset": "HOOD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 106.80000305175781,
-    "entry_time": "2026-07-16T18:03:38.650615+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5744.99,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (30.9)",
-      "5d momentum -7.58%",
-      "1d momentum -3.78%",
-      "BB oversold (pct_b=-0.05)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.73,
-    "news_headlines": [
-      "SpaceX IPO & why oil could hit $150: Robinhood Exec",
-      "The Smartest Dividend Stocks to Buy With $1,000 in July and Never Sell",
-      "MoonPay Acquires Crypto Deposit Firm Glide"
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open"
   },
   "ON": {
     "id": "ON_20260716180338",
@@ -397,70 +269,6 @@
     "status": "open",
     "price_peak": 88.12000274658203,
     "trailing_stop_price": 86.798203
-  },
-  "INTC": {
-    "id": "INTC_20260716180338",
-    "asset": "INTC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 95.61000061035156,
-    "entry_time": "2026-07-16T18:03:38.653902+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5219.13,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (16.6)",
-      "5d momentum -7.17%",
-      "1d momentum -9.02%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.375,
-    "news_headlines": [
-      "Big Tech earnings will put focus on AI spending",
-      "Why Did Micron Technology Stock Fall 8%?",
-      "Marvell Drops 8% as AI Capex Slowdown Fears Weigh on Chips; Broadcom, AMD, and Intel Slide"
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open",
-    "price_peak": 96.9800033569336,
-    "trailing_stop_price": 95.525303
-  },
-  "AMD": {
-    "id": "AMD_20260716180338",
-    "asset": "AMD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 493.0050048828125,
-    "entry_time": "2026-07-16T18:03:38.655564+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 175.3,
-    "position_size_pct": 0.0017,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (18.4)",
-      "5d momentum -6.77%",
-      "1d momentum -10.28%",
-      "BB oversold (pct_b=0.05)",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.579,
-    "news_headlines": [
-      "Why Did Micron Technology Stock Fall 8%?",
-      "Forget AMD: Choose This Blue-Chip Haven to Lock in Fortress Gains Amid Tech Volatility",
-      "Price Prediction: Nvidia, AMD & Broadcom-Our Bold Price Predictions for 2029"
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open",
-    "price_peak": 500.94000244140625,
-    "trailing_stop_price": 493.425902
   },
   "BIIB": {
     "id": "BIIB_20260716192601",
@@ -567,6 +375,130 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "HOOD": {
+    "id": "HOOD_20260717142203",
+    "asset": "HOOD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 100.97049713134766,
+    "entry_time": "2026-07-17T14:22:03.002066+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6498.17,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (16.8)",
+      "5d momentum -7.91%",
+      "1d momentum -7.81%",
+      "BB oversold (pct_b=-0.17)",
+      "Volume spike 3.1\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "Robinhood Markets, Inc. (HOOD) Is a Trending Stock: Facts to Know Before Betting on It",
+      "Why Most Investors Didn\u2019t Beat the Market During a Great Quarter",
+      "The Smartest Dividend Stocks to Buy With $1,000 in July and Never Sell"
+    ],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "META": {
+    "id": "META_20260717142203",
+    "asset": "META",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 632.5,
+    "entry_time": "2026-07-17T14:22:03.004434+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6498.17,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (26.1)",
+      "5d momentum -5.60%",
+      "1d momentum -4.60%",
+      "BB oversold (pct_b=-0.31)",
+      "Volume spike 2.4\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.358,
+    "news_headlines": [
+      "Big Tech earnings will put focus on AI spending",
+      "Meta's data center plans could help solve its AI spending problems",
+      "Netflix Sinks 11% on Soft Q3 Guidance as Analysts Warn It\u2019s \u201cLosing Narrative Control\u201d"
+    ],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "GOOGL": {
+    "id": "GOOGL_20260717142203",
+    "asset": "GOOGL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 344.95001220703125,
+    "entry_time": "2026-07-17T14:22:03.006295+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6498.17,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (23.8)",
+      "5d momentum -7.18%",
+      "1d momentum -3.02%",
+      "BB oversold (pct_b=-0.10)",
+      "Volume spike 2.4\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.458,
+    "news_headlines": [
+      "Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison",
+      "Big Tech earnings will put focus on AI spending",
+      "Meta's data center plans could help solve its AI spending problems"
+    ],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260717142203",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 536.1199951171875,
+    "entry_time": "2026-07-17T14:22:03.008064+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 4412.14,
+    "position_size_pct": 0.043,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (23.9)",
+      "5d momentum -5.23%",
+      "1d momentum -6.44%",
+      "BB oversold (pct_b=-0.14)",
+      "Volume spike 3.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": 0.442,
+    "news_headlines": [
+      "Here is What to Know Beyond Why Applied Materials, Inc. (AMAT) is a Trending Stock",
+      "Update: US Equity Futures Drop as AI Concerns Weigh on Tech Stocks, Middle East Conflict Continues",
+      "Chip stocks fall globally, pulling U.S. stock futures lower"
+    ],
     "mode": "paper",
     "strategy_version": "60",
     "status": "open"
