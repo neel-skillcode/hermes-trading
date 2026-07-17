@@ -3,15 +3,15 @@
   "portfolio_balance": 103089.66,
   "portfolio_peak": 103098.43,
   "portfolio_drawdown_pct": 0.01,
-  "unrealized_pnl_usd": 871.8,
-  "equity_value": 103961.46,
+  "unrealized_pnl_usd": 914.47,
+  "equity_value": 104004.13,
   "open_positions": 17,
   "day_trades_open": 9,
   "swing_trades_open": 8,
   "day_capital_used_usd": 41235.87,
   "swing_capital_used_usd": 41547.19,
   "total_trades": 653,
-  "last_tick": "2026-07-17T08:37:57.632255+00:00",
+  "last_tick": "2026-07-17T10:24:20.965854+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -40,8 +40,8 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.84,
-      "unrealized_pnl_pct": 0.000728,
+      "current_price": 7.84001,
+      "unrealized_pnl_pct": 0.000729,
       "unrealized_pnl_usd": 0.98
     },
     {
@@ -107,9 +107,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.378998,
-      "unrealized_pnl_pct": -0.001604,
-      "unrealized_pnl_usd": -5.84
+      "current_price": 162.389008,
+      "unrealized_pnl_pct": -0.001665,
+      "unrealized_pnl_usd": -6.07
     },
     {
       "id": "EUR/JPY_20260709140922",
@@ -139,9 +139,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 185.798996,
-      "unrealized_pnl_pct": -0.000253,
-      "unrealized_pnl_usd": -1.68
+      "current_price": 185.673004,
+      "unrealized_pnl_pct": 0.000425,
+      "unrealized_pnl_usd": 2.82
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -173,9 +173,9 @@
       "status": "open",
       "price_trough": 1.1423349380493164,
       "trailing_stop_price": 1.151474,
-      "current_price": 1.144558,
-      "unrealized_pnl_pct": -0.000229,
-      "unrealized_pnl_usd": -1.58
+      "current_price": 1.143772,
+      "unrealized_pnl_pct": 0.000458,
+      "unrealized_pnl_usd": 3.16
     },
     {
       "id": "XLK_20260714181743",
@@ -273,11 +273,11 @@
       "mode": "paper",
       "strategy_version": "57",
       "status": "open",
-      "price_trough": 113.25900268554688,
-      "trailing_stop_price": 114.165075,
-      "current_price": 113.258003,
-      "unrealized_pnl_pct": 0.001868,
-      "unrealized_pnl_usd": 5.79
+      "price_trough": 113.197998046875,
+      "trailing_stop_price": 114.103582,
+      "current_price": 113.190002,
+      "unrealized_pnl_pct": 0.002468,
+      "unrealized_pnl_usd": 7.64
     },
     {
       "id": "PFE_20260716141341",
@@ -588,9 +588,11 @@
       "mode": "paper",
       "strategy_version": "59",
       "status": "open",
-      "current_price": 62639.949219,
-      "unrealized_pnl_pct": -0.003405,
-      "unrealized_pnl_usd": -17.95
+      "price_peak": 63019.109375,
+      "trailing_stop_price": 62693.930771,
+      "current_price": 63019.109375,
+      "unrealized_pnl_pct": 0.002627,
+      "unrealized_pnl_usd": 13.85
     }
   ],
   "last_candidates": [
@@ -693,9 +695,9 @@
       "news_sentiment": 0.73,
       "news_confidence": 0.47,
       "news_headlines": [
-        "SpaceX IPO & why oil could hit $150: Robinhood Exec",
         "The Smartest Dividend Stocks to Buy With $1,000 in July and Never Sell",
-        "MoonPay Acquires Crypto Deposit Firm Glide"
+        "MoonPay Acquires Crypto Deposit Firm Glide",
+        "SpaceX IPO & why oil could hit $150: Robinhood Exec"
       ],
       "high_impact_news": true
     },
@@ -717,27 +719,6 @@
         "Lattice Semiconductor, AMD, and Qualcomm Shares Are Falling, What You Need To Know",
         "AI Has Upended Chip Stocks. This Chart Shows How Much.",
         "How Long-Term Auto Supply Deals And US Fab Build-Out At Micron (MU) Has Changed Its Investment Story"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.6565,
-      "price": 562.3900146484375,
-      "rsi": 24.264756249365206,
-      "momentum_5d": -0.016749054225540586,
-      "momentum_1d": -0.024339836712263203,
-      "macd_crossover": false,
-      "atr_pct": 0.004760301129068113,
-      "bollinger_pct_b": -0.111,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.74,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $64,000",
-        "Top Cryptocurrencies Rise; Bitcoin Tops $64,000"
       ],
       "high_impact_news": true
     },
@@ -973,6 +954,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.5917,
+      "price": 564.4600219726562,
+      "rsi": 28.643783245962922,
+      "momentum_5d": -0.004778040127573671,
+      "momentum_1d": -0.021953429561730926,
+      "macd_crossover": false,
+      "atr_pct": 0.00474790293513313,
+      "bollinger_pct_b": 0.097,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.74,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $64,000",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $64,000"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BMY",
       "rank_score": 0.5889,
       "price": 60.5099983215332,
@@ -994,23 +996,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MRVL",
-      "rank_score": 0.5871,
-      "price": 188.35000610351562,
-      "rsi": 13.64070397953266,
-      "momentum_5d": -0.01673141758142668,
-      "momentum_1d": -0.1331860098339103,
+      "asset": "GS",
+      "rank_score": 0.5884,
+      "price": 1095.5550537109375,
+      "rsi": 28.800608752842308,
+      "momentum_5d": -0.017025091372287447,
+      "momentum_1d": 0.05207798245690129,
       "macd_crossover": false,
-      "atr_pct": 0.0341573788987799,
-      "bollinger_pct_b": 0.1816,
+      "atr_pct": 0.014580552958288273,
+      "bollinger_pct_b": 0.1099,
       "volume_spike": false,
-      "volume_spike_ratio": 1.27,
-      "news_sentiment": 0.436,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 0.96,
+      "news_sentiment": 0.754,
+      "news_confidence": 0.57,
       "news_headlines": [
-        "Nasdaq, Dow, S&P 500 Futures Slip As Chip Selloff Overshadows Strong Earnings Season: NFLX, SNDK, SPCX, MRVL Stocks In Focus",
-        "Marvell Technology (MRVL) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "Chip Stocks Pummeled. SK Hynix Dives. SOX Socked Again."
+        "Best Income Stocks to Buy for July 17th",
+        "Intercontinental Exchange (ICE) Stock Fair Value Edges Lower As Analysts Trim Targets",
+        "BlackRock vs. Goldman Sachs: Which Is the Better Investment After Record Q2 Results?"
       ],
       "high_impact_news": true
     }
