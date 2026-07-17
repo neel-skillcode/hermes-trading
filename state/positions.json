@@ -234,8 +234,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 113.24400329589844,
-    "trailing_stop_price": 114.149955
+    "price_trough": 113.21099853515625,
+    "trailing_stop_price": 114.116687
   },
   "PFE": {
     "id": "PFE_20260716141341",
@@ -541,6 +541,29 @@
       "RSI oversold (44.1)",
       "5d momentum -0.34%",
       "BB oversold (pct_b=-0.03)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "60",
+    "status": "open"
+  },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260717125246",
+    "asset": "CAD/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 115.80799865722656,
+    "entry_time": "2026-07-17T12:52:46.725379+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 4455.54,
+    "position_size_pct": 0.0432,
+    "confidence": 0.67,
+    "signals": [
+      "RSI overbought (64.3)",
+      "MACD crossover",
+      "BB overbought (pct_b=1.06)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
