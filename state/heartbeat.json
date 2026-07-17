@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 102987.49,
+  "portfolio_balance": 103089.66,
   "portfolio_peak": 103098.43,
-  "portfolio_drawdown_pct": 0.11,
-  "unrealized_pnl_usd": 953.5,
-  "equity_value": 103940.99,
-  "open_positions": 18,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 0.01,
+  "unrealized_pnl_usd": 878.97,
+  "equity_value": 103968.63,
+  "open_positions": 17,
+  "day_trades_open": 9,
   "swing_trades_open": 8,
-  "day_capital_used_usd": 41195.24,
+  "day_capital_used_usd": 41235.87,
   "swing_capital_used_usd": 41547.19,
-  "total_trades": 651,
-  "last_tick": "2026-07-17T04:18:56.479760+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 653,
+  "last_tick": "2026-07-17T06:31:26.154886+00:00",
+  "last_reflection": "2026-07-17",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8401,
-      "unrealized_pnl_pct": 0.00074,
-      "unrealized_pnl_usd": 0.99
+      "current_price": 7.8403,
+      "unrealized_pnl_pct": 0.000766,
+      "unrealized_pnl_usd": 1.03
     },
     {
       "id": "V_20260707180911",
@@ -107,9 +107,9 @@
       "status": "open",
       "price_trough": 161.48800659179688,
       "trailing_stop_price": 162.779911,
-      "current_price": 162.421005,
-      "unrealized_pnl_pct": -0.001863,
-      "unrealized_pnl_usd": -6.79
+      "current_price": 162.332001,
+      "unrealized_pnl_pct": -0.001314,
+      "unrealized_pnl_usd": -4.79
     },
     {
       "id": "EUR/JPY_20260709140922",
@@ -139,9 +139,9 @@
       "status": "open",
       "price_trough": 184.5540008544922,
       "trailing_stop_price": 186.030433,
-      "current_price": 185.770004,
-      "unrealized_pnl_pct": -9.7e-05,
-      "unrealized_pnl_usd": -0.64
+      "current_price": 185.867996,
+      "unrealized_pnl_pct": -0.000624,
+      "unrealized_pnl_usd": -4.15
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -173,9 +173,9 @@
       "status": "open",
       "price_trough": 1.1423349380493164,
       "trailing_stop_price": 1.151474,
-      "current_price": 1.144165,
-      "unrealized_pnl_pct": 0.000114,
-      "unrealized_pnl_usd": 0.79
+      "current_price": 1.145213,
+      "unrealized_pnl_pct": -0.000802,
+      "unrealized_pnl_usd": -5.54
     },
     {
       "id": "XLK_20260714181743",
@@ -275,9 +275,9 @@
       "status": "open",
       "price_trough": 113.36900329589844,
       "trailing_stop_price": 114.275955,
-      "current_price": 113.371002,
-      "unrealized_pnl_pct": 0.000872,
-      "unrealized_pnl_usd": 2.7
+      "current_price": 113.458,
+      "unrealized_pnl_pct": 0.000106,
+      "unrealized_pnl_usd": 0.33
     },
     {
       "id": "PFE_20260716141341",
@@ -559,72 +559,38 @@
       "unrealized_pnl_usd": -20.76
     },
     {
-      "id": "ETH-USD_20260716202605",
-      "asset": "ETH-USD",
+      "id": "BTC-USD_20260717063125",
+      "asset": "BTC-USD",
       "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1870.5400390625,
-      "entry_time": "2026-07-16T20:26:05.562818+00:00",
-      "stop_loss_pct": 0.0067,
-      "take_profit_pct": 0.01556,
-      "size_usd": 4244.76,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
+      "direction": "long",
+      "entry_price": 62853.98828125,
+      "entry_time": "2026-07-17T06:31:25.445095+00:00",
+      "stop_loss_pct": 0.00516,
+      "take_profit_pct": 0.01287,
+      "size_usd": 5270.44,
+      "position_size_pct": 0.0511,
+      "confidence": 0.99,
       "signals": [
-        "RSI oversold (22.6)",
-        "5d momentum -0.52%",
-        "1d momentum -2.70%",
+        "RSI oversold (18.1)",
+        "5d momentum -1.00%",
+        "1d momentum -2.88%",
+        "BB oversold (pct_b=-0.02)",
+        "Volume spike 2.8\u00d7",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+        "Claude [supports]: product catalyst"
       ],
-      "news_sentiment": 0.2,
+      "news_sentiment": 0.426,
       "news_headlines": [
+        "DTCC is helping Wall Street put real stocks onchain",
         "Bitcoin and ethereum prices today, Thursday, July 16, 2026: Prices rise, ethereum becomes 'increasingly compelling'",
-        "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
-        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000"
+        "Where Crypto Money Went in Q2 as the Market\u00a0Fell 12.6%"
       ],
       "mode": "paper",
       "strategy_version": "59",
       "status": "open",
-      "price_trough": 1847.22998046875,
-      "trailing_stop_price": 1859.606421,
-      "current_price": 1847.050049,
-      "unrealized_pnl_pct": 0.012558,
-      "unrealized_pnl_usd": 53.31
-    },
-    {
-      "id": "SOL-USD_20260716202605",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 75.7300033569336,
-      "entry_time": "2026-07-16T20:26:05.564913+00:00",
-      "stop_loss_pct": 0.00619,
-      "take_profit_pct": 0.01413,
-      "size_usd": 985.05,
-      "position_size_pct": 0.0096,
-      "confidence": 0.564,
-      "signals": [
-        "RSI oversold (29.7)",
-        "5d momentum -1.08%",
-        "1d momentum -2.07%",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": -0.304,
-      "news_headlines": [
-        "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
-        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
-        "Morgan Stanley\u2019s E*Trade Rolls Out Crypto Trading. Wall Street\u2019s Push Into Digital Assets Continues."
-      ],
-      "mode": "paper",
-      "strategy_version": "59",
-      "status": "open",
-      "price_trough": 74.87999725341797,
-      "trailing_stop_price": 75.343504,
-      "current_price": 74.879997,
-      "unrealized_pnl_pct": 0.011224,
-      "unrealized_pnl_usd": 11.06
+      "current_price": 62853.988281,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -692,6 +658,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.6999,
+      "price": 62853.98828125,
+      "rsi": 18.098613503462303,
+      "momentum_5d": -0.010001917162815606,
+      "momentum_1d": -0.028817242228680026,
+      "macd_crossover": false,
+      "atr_pct": 0.004984491986267742,
+      "bollinger_pct_b": -0.02,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.78,
+      "news_sentiment": 0.426,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "DTCC is helping Wall Street put real stocks onchain",
+        "Bitcoin and ethereum prices today, Thursday, July 16, 2026: Prices rise, ethereum becomes 'increasingly compelling'",
+        "Where Crypto Money Went in Q2 as the Market\u00a0Fell 12.6%"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "RXRX",
       "rank_score": 0.69,
       "price": 3.0199999809265137,
@@ -751,6 +738,27 @@
         "Lattice Semiconductor, AMD, and Qualcomm Shares Are Falling, What You Need To Know",
         "AI Has Upended Chip Stocks. This Chart Shows How Much.",
         "How Long-Term Auto Supply Deals And US Fab Build-Out At Micron (MU) Has Changed Its Investment Story"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6498,
+      "price": 1832.050048828125,
+      "rsi": 27.954630520166575,
+      "momentum_5d": -0.009568834259697257,
+      "momentum_1d": -0.04638342655801259,
+      "macd_crossover": false,
+      "atr_pct": 0.0073083509899256865,
+      "bollinger_pct_b": 0.02,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.94,
+      "news_sentiment": 0.032,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Thursday, July 16, 2026: Prices rise, ethereum becomes 'increasingly compelling'",
+        "Where Crypto Money Went in Q2 as the Market\u00a0Fell 12.6%",
+        "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Fear' Sentiment Prevails: Analyst Says BTC's 'Clear Breakthrough' Above This Level a Trigger for 'Strong Run"
       ],
       "high_impact_news": true
     },
@@ -881,23 +889,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "LCID",
-      "rank_score": 0.6171,
-      "price": 6.46999979019165,
-      "rsi": 81.9277088657399,
-      "momentum_5d": -0.039346746558188046,
-      "momentum_1d": 0.17743401727721203,
+      "asset": "DOGE-USD",
+      "rank_score": 0.6139,
+      "price": 0.07180999964475632,
+      "rsi": 30.348286368792117,
+      "momentum_5d": -0.004022176896420807,
+      "momentum_1d": -0.030511671922576727,
       "macd_crossover": false,
-      "atr_pct": 0.06731729058233106,
-      "bollinger_pct_b": 0.7318,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.51,
-      "news_sentiment": 0.609,
-      "news_confidence": 0.46,
+      "atr_pct": 0.007261222022989681,
+      "bollinger_pct_b": 0.1054,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.62,
+      "news_sentiment": 0.252,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Lucid Group (LCID) Rockets 29% After CEO Shuts Down Bankruptcy Claims",
-        "Stock Market Today, July 16: Lucid Group Surges on CEO's Denial of Bankruptcy and Take-Private Rumors",
-        "Lucid Erases 57% Stock Plunge as EV Industry Challenges Deepen"
+        "Bitcoin, Ethereum, XRP, Dogecoin Slide as 'Fear' Sentiment Prevails: Analyst Says BTC's 'Clear Breakthrough' Above This Level a Trigger for 'Strong Run",
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
+        "XRP Google Search Interest Rises as Analyst Flags Fresh Buy Signal\u2014Here's What the Technicals Are Showing"
       ],
       "high_impact_news": true
     },
@@ -919,6 +927,27 @@
         "Should SoFi\u2019s New Social 50 Income ETF Strategy Require Action From SoFi Technologies (SOFI) Investors?",
         "SoFi Technologies: The Customer Growth Story Isn't Over (NASDAQ: SOFI)",
         "Here\u2019s Why SoFi Is a Prime Takeover Target for These Major Financial Players"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LCID",
+      "rank_score": 0.61,
+      "price": 6.46999979019165,
+      "rsi": 81.9277088657399,
+      "momentum_5d": -0.039346746558188046,
+      "momentum_1d": 0.17743401727721203,
+      "macd_crossover": false,
+      "atr_pct": 0.06731729058233106,
+      "bollinger_pct_b": 0.7318,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.51,
+      "news_sentiment": 0.512,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Lucid Just Soared 29% After Calling Bankruptcy Rumors \"Completely False.\" Here's What Its Balance Sheet Actually Shows.",
+        "Lucid Group (LCID) Rockets 29% After CEO Shuts Down Bankruptcy Claims",
+        "Stock Market Today, July 16: Lucid Group Surges on CEO's Denial of Bankruptcy and Take-Private Rumors"
       ],
       "high_impact_news": true
     },
@@ -965,86 +994,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "TGT",
-      "rank_score": 0.5948,
-      "price": 140.19000244140625,
-      "rsi": 74.57485904997998,
-      "momentum_5d": -0.0069419546663608495,
-      "momentum_1d": 0.036678302673769154,
+      "asset": "BNB-USD",
+      "rank_score": 0.5994,
+      "price": 568.5499877929688,
+      "rsi": 30.361386954066262,
+      "momentum_5d": -0.004395352110734144,
+      "momentum_1d": -0.023965291134264138,
       "macd_crossover": false,
-      "atr_pct": 0.011335061376302228,
-      "bollinger_pct_b": 0.6964,
+      "atr_pct": 0.004223784423305138,
+      "bollinger_pct_b": 0.0762,
       "volume_spike": true,
-      "volume_spike_ratio": 1.84,
-      "news_sentiment": 0.731,
-      "news_confidence": 0.52,
+      "volume_spike_ratio": 2.77,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.35,
       "news_headlines": [
-        "Target customers lose a big perk in August",
-        "Target (TGT) Advances While Market Declines: Some Information for Investors",
-        "GameStop Survived The Trap Screen. The Growth Didn't"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.5889,
-      "price": 60.5099983215332,
-      "rsi": 91.52939740349265,
-      "momentum_5d": 0.010943092211281013,
-      "momentum_1d": 0.027072857187811564,
-      "macd_crossover": false,
-      "atr_pct": 0.008800434877481679,
-      "bollinger_pct_b": 0.9344,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.27,
-      "news_sentiment": 0.692,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Why the Market Dipped But Bristol Myers Squibb (BMY) Gained Today",
-        "Why Is The Market Punishing JNJ Stock?",
-        "Bristol Myers Squibb (BMY) Wins FDA Review For Mezigdomide In Multiple Myeloma"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.5871,
-      "price": 188.35000610351562,
-      "rsi": 13.64070397953266,
-      "momentum_5d": -0.01673141758142668,
-      "momentum_1d": -0.1331860098339103,
-      "macd_crossover": false,
-      "atr_pct": 0.0341573788987799,
-      "bollinger_pct_b": 0.1816,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.27,
-      "news_sentiment": 0.436,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Nasdaq, Dow, S&P 500 Futures Slip As Chip Selloff Overshadows Strong Earnings Season: NFLX, SNDK, SPCX, MRVL Stocks In Focus",
-        "Marvell Technology (MRVL) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "Chip Stocks Pummeled. SK Hynix Dives. SOX Socked Again."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AAPL",
-      "rank_score": 0.5855,
-      "price": 333.2699890136719,
-      "rsi": 86.05101529355618,
-      "momentum_5d": 0.00798470825959998,
-      "momentum_1d": 0.05308556175361658,
-      "macd_crossover": false,
-      "atr_pct": 0.010686313327077,
-      "bollinger_pct_b": 0.7941,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.4,
-      "news_sentiment": 0.849,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "$3.2 trillion rotation from chips to the 'Magnificent 7' has left the S&P 500 going nowhere: Chart of the Day",
-        "Why Did AAPL, ATAI, UNH Stocks Jump To 52-Week Highs Today?",
-        "AAPL Stock Hits Fresh Record As July Rally Nears Best Month In Nearly 4 Years \u2014 HSBC Sees Another 10% Upside"
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $64,000",
+        "Top Cryptocurrencies Rise; Bitcoin Tops $64,000"
       ],
       "high_impact_news": true
     }

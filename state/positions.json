@@ -492,66 +492,35 @@
     "strategy_version": "59",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260716202605",
-    "asset": "ETH-USD",
+  "BTC-USD": {
+    "id": "BTC-USD_20260717063125",
+    "asset": "BTC-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1870.5400390625,
-    "entry_time": "2026-07-16T20:26:05.562818+00:00",
-    "stop_loss_pct": 0.0067,
-    "take_profit_pct": 0.01556,
-    "size_usd": 4244.76,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
+    "direction": "long",
+    "entry_price": 62853.98828125,
+    "entry_time": "2026-07-17T06:31:25.445095+00:00",
+    "stop_loss_pct": 0.00516,
+    "take_profit_pct": 0.01287,
+    "size_usd": 5270.44,
+    "position_size_pct": 0.0511,
+    "confidence": 0.99,
     "signals": [
-      "RSI oversold (22.6)",
-      "5d momentum -0.52%",
-      "1d momentum -2.70%",
+      "RSI oversold (18.1)",
+      "5d momentum -1.00%",
+      "1d momentum -2.88%",
+      "BB oversold (pct_b=-0.02)",
+      "Volume spike 2.8\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      "Claude [supports]: product catalyst"
     ],
-    "news_sentiment": 0.2,
+    "news_sentiment": 0.426,
     "news_headlines": [
+      "DTCC is helping Wall Street put real stocks onchain",
       "Bitcoin and ethereum prices today, Thursday, July 16, 2026: Prices rise, ethereum becomes 'increasingly compelling'",
-      "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
-      "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000"
+      "Where Crypto Money Went in Q2 as the Market\u00a0Fell 12.6%"
     ],
     "mode": "paper",
     "strategy_version": "59",
-    "status": "open",
-    "price_trough": 1847.22998046875,
-    "trailing_stop_price": 1859.606421
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260716202605",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 75.7300033569336,
-    "entry_time": "2026-07-16T20:26:05.564913+00:00",
-    "stop_loss_pct": 0.00619,
-    "take_profit_pct": 0.01413,
-    "size_usd": 985.05,
-    "position_size_pct": 0.0096,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (29.7)",
-      "5d momentum -1.08%",
-      "1d momentum -2.07%",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": -0.304,
-    "news_headlines": [
-      "Morgan Stanley Launches Bitcoin, Ethereum, and Solana Trading on E*Trade",
-      "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
-      "Morgan Stanley\u2019s E*Trade Rolls Out Crypto Trading. Wall Street\u2019s Push Into Digital Assets Continues."
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open",
-    "price_trough": 74.87999725341797,
-    "trailing_stop_price": 75.343504
+    "status": "open"
   }
 }
