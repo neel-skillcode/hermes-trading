@@ -205,8 +205,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 374.1400146484375,
-    "trailing_stop_price": 384.354037
+    "price_trough": 369.6700134277344,
+    "trailing_stop_price": 379.762005
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -236,38 +236,6 @@
     "status": "open",
     "price_trough": 113.21099853515625,
     "trailing_stop_price": 114.116687
-  },
-  "BIIB": {
-    "id": "BIIB_20260716192601",
-    "asset": "BIIB",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 208.30999755859375,
-    "entry_time": "2026-07-16T19:26:01.596328+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5339.25,
-    "position_size_pct": 0.0519,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (90.6)",
-      "5d momentum +3.94%",
-      "1d momentum +2.83%",
-      "BB overbought (pct_b=0.96)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.104,
-    "news_headlines": [
-      "Slate Medicines Appoints Mark W. Hahn to Board of Directors",
-      "3 Reasons to Avoid BIIB and 1 Stock to Buy Instead",
-      "Biogen Shares Decline After Detailed Diranersen Alzheimer's Study Data"
-    ],
-    "mode": "paper",
-    "strategy_version": "59",
-    "status": "open",
-    "price_trough": 202.8350067138672,
-    "trailing_stop_price": 205.877532
   },
   "USD/NOK": {
     "id": "USD/NOK_20260717114933",
@@ -316,231 +284,8 @@
     "mode": "paper",
     "strategy_version": "60",
     "status": "open",
-    "price_trough": 115.55899810791016,
-    "trailing_stop_price": 116.48347
-  },
-  "META": {
-    "id": "META_20260717142203",
-    "asset": "META",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 632.5,
-    "entry_time": "2026-07-17T14:22:03.004434+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6498.17,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (26.1)",
-      "5d momentum -5.60%",
-      "1d momentum -4.60%",
-      "BB oversold (pct_b=-0.31)",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.358,
-    "news_headlines": [
-      "Big Tech earnings will put focus on AI spending",
-      "Meta's data center plans could help solve its AI spending problems",
-      "Netflix Sinks 11% on Soft Q3 Guidance as Analysts Warn It\u2019s \u201cLosing Narrative Control\u201d"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_peak": 649.4099731445312,
-    "trailing_stop_price": 639.668824
-  },
-  "MPC": {
-    "id": "MPC_20260717175832",
-    "asset": "MPC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 311.510009765625,
-    "entry_time": "2026-07-17T17:58:32.937641+00:00",
-    "stop_loss_pct": 0.0108,
-    "take_profit_pct": 0.02694,
-    "size_usd": 5309.8,
-    "position_size_pct": 0.0517,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (73.5)",
-      "MACD crossover",
-      "5d momentum +1.85%",
-      "1d momentum +4.41%",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.689,
-    "news_headlines": [
-      "How Current Refining Margins Are Driving an Edge for MPC (Revised)",
-      "Forget Oil Prices \u2014 This 1 Refining Number Explains Why These Energy Stocks Are On Fire",
-      "How Current Refining Margins Are Driving an Edge for MPC"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_peak": 318.364990234375,
-    "trailing_stop_price": 314.926648
-  },
-  "C": {
-    "id": "C_20260717191512",
-    "asset": "C",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 129.4550018310547,
-    "entry_time": "2026-07-17T19:15:12.560482+00:00",
-    "stop_loss_pct": 0.01029,
-    "take_profit_pct": 0.02538,
-    "size_usd": 6132.73,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (8.8)",
-      "5d momentum -1.05%",
-      "1d momentum -3.34%",
-      "BB oversold (pct_b=0.08)",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.778,
-    "news_headlines": [
-      "Financial Services Roundup: Market Talk",
-      "Citigroup (C) Upgraded to Strong Buy: Here's What You Should Know",
-      "Dollar Hedging Costs Sink to Their Lowest Level This Year"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_peak": 129.58999633789062,
-    "trailing_stop_price": 128.256515
-  },
-  "GS": {
-    "id": "GS_20260717191512",
-    "asset": "GS",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1067.239990234375,
-    "entry_time": "2026-07-17T19:15:12.561778+00:00",
-    "stop_loss_pct": 0.01421,
-    "take_profit_pct": 0.03463,
-    "size_usd": 5738.76,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (10.3)",
-      "5d momentum -1.00%",
-      "1d momentum -4.64%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.414,
-    "news_headlines": [
-      "Blue Owl-Backed Latigo Files for IPO, Adding to Biotech Pipeline",
-      "Stock Market Losses Led By Nasdaq, AI Stocks; Goldman, GE, Taiwan Semi, IBM In Focus: Weekly Review",
-      "Goldman Sachs CEO Says AI Boom Is Still in the \u2018Early Innings'"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open"
-  },
-  "AMAT": {
-    "id": "AMAT_20260717191512",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 527.3099975585938,
-    "entry_time": "2026-07-17T19:15:12.563123+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03543,
-    "size_usd": 4753.85,
-    "position_size_pct": 0.0463,
-    "confidence": 0.724,
-    "signals": [
-      "RSI oversold (20.1)",
-      "5d momentum -1.62%",
-      "1d momentum -11.04%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: price decline"
-    ],
-    "news_sentiment": 0.2,
-    "news_headlines": [
-      "Semiconductor stocks trim losses as investors buy the dip",
-      "Chip Stocks Enter Bear Market But Roar Back. Astera Labs Continues Slump.",
-      "AMD Falls 5%, Intel Drops 4%, NVIDIA Slides 3% Before Recovering as Rotation Hits Semiconductor Stocks"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_peak": 537.5499877929688,
-    "trailing_stop_price": 529.486738
-  },
-  "LRCX": {
-    "id": "LRCX_20260720143330",
-    "asset": "LRCX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 313.1000061035156,
-    "entry_time": "2026-07-20T14:33:30.287389+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6516.01,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (34.6)",
-      "MACD crossover",
-      "5d momentum -1.31%",
-      "1d momentum -8.92%",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": -0.111,
-    "news_headlines": [
-      "AMD, Micron, SK Hynix lead chip stock recovery",
-      "Oppenheimer Names Nvidia Among Its 'Best of the Best' Momentum Stocks",
-      "CuspAI raises $450 million Series B for AI materials discovery"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open",
-    "price_trough": 309.42010498046875,
-    "trailing_stop_price": 314.061407
-  },
-  "ORCL": {
-    "id": "ORCL_20260720143330",
-    "asset": "ORCL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 122.13999938964844,
-    "entry_time": "2026-07-20T14:33:30.289114+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 80.53,
-    "position_size_pct": 0.0008,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (32.9)",
-      "5d momentum -4.52%",
-      "1d momentum -5.13%",
-      "BB oversold (pct_b=0.11)",
-      "High-impact catalyst",
-      "Claude [neutral]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.15,
-    "news_headlines": [
-      "Burry covers half of his Oracle short bet",
-      "AMD Stock Rises on Vote of Confidence From a Big AI Chip Customer",
-      "Netflix upgraded, Microsoft initiated: Wall Street's top analyst calls"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open",
-    "price_peak": 123.58000183105469,
-    "trailing_stop_price": 121.726302
+    "price_trough": 115.53500366210938,
+    "trailing_stop_price": 116.459284
   },
   "ETH-USD": {
     "id": "ETH-USD_20260720181853",
@@ -568,6 +313,250 @@
       "MicroStrategy holds 843K bitcoin as cash reserves reach $3.2B",
       "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
       "Ethereum News: BlackRock\u2019s ETHA Drives ETH ETF Reversal With Back-to-Back Inflow Weeks"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open",
+    "price_trough": 1896.52001953125,
+    "trailing_stop_price": 1913.607665
+  },
+  "MRNA": {
+    "id": "MRNA_20260720200021",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 59.52000045776367,
+    "entry_time": "2026-07-20T20:00:21.374063+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6279.01,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (17.7)",
+      "5d momentum -2.97%",
+      "1d momentum -11.28%",
+      "BB oversold (pct_b=0.00)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.298,
+    "news_headlines": [
+      "Moderna (MRNA): Buy, Sell, or Hold Post Q1 Earnings?",
+      "MRNA Advances Cancer Pipeline With New Immunotherapy Study",
+      "Neglected Quant Safety Trade Makes a Comeback as AI Risks Rise"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "LRCX": {
+    "id": "LRCX_20260720200021",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 306.92999267578125,
+    "entry_time": "2026-07-20T20:00:21.375456+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6279.01,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (31.7)",
+      "MACD crossover",
+      "5d momentum -1.08%",
+      "1d momentum -6.73%",
+      "BB oversold (pct_b=0.14)",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.176,
+    "news_headlines": [
+      "AMD, Micron, SK Hynix climb as semiconductor complex attempt recovery",
+      "Lam Research (LRCX) Joins AI Materials Foundry To Help Shape Future Chip Materials",
+      "3 Stocks to Buy From the Prospering Semiconductor Industry"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260720200021",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1158000230789185,
+    "entry_time": "2026-07-20T20:00:21.377241+00:00",
+    "stop_loss_pct": 0.00733,
+    "take_profit_pct": 0.01786,
+    "size_usd": 5750.25,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (70.7)",
+      "5d momentum +2.14%",
+      "1d momentum +2.01%",
+      "BB overbought (pct_b=0.93)",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; analyst downgrade"
+    ],
+    "news_sentiment": 0.647,
+    "news_headlines": [
+      "Why Is XRP (Ripple) Underperforming the Crypto Market?",
+      "Validators Are About to Vote on the XRP Ledger\u2019s Biggest Upgrade in Years",
+      "HYPE ETFs Post First Outflow Since May, Ending a 9-Week Streak"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "MS": {
+    "id": "MS_20260720200021",
+    "asset": "MS",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 210.68499755859375,
+    "entry_time": "2026-07-20T20:00:21.378998+00:00",
+    "stop_loss_pct": 0.01187,
+    "take_profit_pct": 0.02961,
+    "size_usd": 6543.39,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (19.5)",
+      "5d momentum -1.03%",
+      "1d momentum -7.92%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.636,
+    "news_headlines": [
+      "Morgan Stanley's E*TRADE embraces crypto trading",
+      "Why Micron Stock Bounced Back Today",
+      "Why Sandisk Stock Rebounded Today"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "LYFT": {
+    "id": "LYFT_20260720200021",
+    "asset": "LYFT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 15.399999618530273,
+    "entry_time": "2026-07-20T20:00:21.380608+00:00",
+    "stop_loss_pct": 0.01388,
+    "take_profit_pct": 0.03287,
+    "size_usd": 4871.19,
+    "position_size_pct": 0.0472,
+    "confidence": 0.737,
+    "signals": [
+      "RSI oversold (35.4)",
+      "5d momentum -0.68%",
+      "1d momentum -5.03%",
+      "Volume spike 2.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.391,
+    "news_headlines": [
+      "Lyft (LYFT) Declines More Than Market: Some Information for Investors",
+      "Alphabet's Waymo, Baidu Ahead of Competitors in Robotaxi Space, Wedbush Says",
+      "Lyft (LYFT) Wins an Upgrade From Rothschild Redburn as Its Price Target Triples"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "KLAC": {
+    "id": "KLAC_20260720200021",
+    "asset": "KLAC",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 207.71499633789062,
+    "entry_time": "2026-07-20T20:00:21.382303+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5247.93,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (29.1)",
+      "5d momentum -1.53%",
+      "1d momentum -6.08%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst downgrade"
+    ],
+    "news_sentiment": 0.174,
+    "news_headlines": [
+      "ARM, QCOM, KLAC Stocks Rise Despite Price Target Cuts By UBS Amid Chip Stocks\u2019 Pullback",
+      "Micron, Nvidia, Netflix, SK Hynix, Alphabet, Intuitive Surgical, and More Stocks That Explain Today\u2019s Market",
+      "Micron Technology: Record DRAM Pricing Meets A Stock In Retreat"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "C": {
+    "id": "C_20260720200021",
+    "asset": "C",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 128.72000122070312,
+    "entry_time": "2026-07-20T20:00:21.384054+00:00",
+    "stop_loss_pct": 0.00748,
+    "take_profit_pct": 0.01706,
+    "size_usd": 3727.75,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (21.7)",
+      "5d momentum -1.13%",
+      "1d momentum -3.54%",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat"
+    ],
+    "news_sentiment": 0.898,
+    "news_headlines": [
+      "Zacks Market Edge Highlights: Goldman Sachs, Wells Fargo, JPMorgan Chase , Citigroup  and Bank of America",
+      "Citigroup and J&J Snack have been highlighted as Zacks Bull and Bear of the Day",
+      "Citi lifts Novo Nordisk target on strong GLP-1 pill launch"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "SLB": {
+    "id": "SLB_20260720200021",
+    "asset": "SLB",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 46.40999984741211,
+    "entry_time": "2026-07-20T20:00:21.385742+00:00",
+    "stop_loss_pct": 0.00724,
+    "take_profit_pct": 0.01807,
+    "size_usd": 1843.95,
+    "position_size_pct": 0.0179,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (32.1)",
+      "5d momentum -0.85%",
+      "1d momentum -1.83%",
+      "BB oversold (pct_b=-0.13)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: fed dovish; ma catalyst"
+    ],
+    "news_sentiment": 0.569,
+    "news_headlines": [
+      "SLB Boosts Production Optimization With VIEC Technology Acquisition",
+      "Oil-Service Companies Set to Reveal War\u2019s Impact on Earnings",
+      "AI\u2019s Power Crunch Fuels a Pivot for These 2 Oilfield Stocks"
     ],
     "mode": "paper",
     "strategy_version": "61",
