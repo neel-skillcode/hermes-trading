@@ -205,8 +205,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 374.7049865722656,
-    "trailing_stop_price": 384.934433
+    "price_trough": 374.1400146484375,
+    "trailing_stop_price": 384.354037
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -266,8 +266,8 @@
     "mode": "paper",
     "strategy_version": "59",
     "status": "open",
-    "price_trough": 203.5399932861328,
-    "trailing_stop_price": 206.593093
+    "price_trough": 202.8350067138672,
+    "trailing_stop_price": 205.877532
   },
   "USD/NOK": {
     "id": "USD/NOK_20260717114933",
@@ -316,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "60",
     "status": "open",
-    "price_trough": 115.7699966430664,
-    "trailing_stop_price": 116.696157
+    "price_trough": 115.55899810791016,
+    "trailing_stop_price": 116.48347
   },
   "META": {
     "id": "META_20260717142203",
@@ -349,8 +349,8 @@
     "mode": "paper",
     "strategy_version": "60",
     "status": "open",
-    "price_peak": 648.8900146484375,
-    "trailing_stop_price": 639.156664
+    "price_peak": 649.4099731445312,
+    "trailing_stop_price": 639.668824
   },
   "MPC": {
     "id": "MPC_20260717175832",
@@ -381,8 +381,8 @@
     "mode": "paper",
     "strategy_version": "60",
     "status": "open",
-    "price_peak": 316.3999938964844,
-    "trailing_stop_price": 312.982874
+    "price_peak": 318.364990234375,
+    "trailing_stop_price": 314.926648
   },
   "C": {
     "id": "C_20260717191512",
@@ -412,7 +412,9 @@
     ],
     "mode": "paper",
     "strategy_version": "60",
-    "status": "open"
+    "status": "open",
+    "price_peak": 129.58999633789062,
+    "trailing_stop_price": 128.256515
   },
   "GS": {
     "id": "GS_20260717191512",
@@ -476,37 +478,6 @@
     "price_peak": 537.5499877929688,
     "trailing_stop_price": 529.486738
   },
-  "SOFI": {
-    "id": "SOFI_20260717191512",
-    "asset": "SOFI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 17.315000534057617,
-    "entry_time": "2026-07-17T19:15:12.564507+00:00",
-    "stop_loss_pct": 0.01412,
-    "take_profit_pct": 0.03221,
-    "size_usd": 767.32,
-    "position_size_pct": 0.0075,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (33.4)",
-      "5d momentum +2.52%",
-      "1d momentum -6.86%",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.833,
-    "news_headlines": [
-      "Should SoFi\u2019s New Social 50 Income ETF Strategy Require Action From SoFi Technologies (SOFI) Investors?",
-      "SoFi Technologies: The Customer Growth Story Isn't Over (NASDAQ: SOFI)",
-      "Here\u2019s Why SoFi Is a Prime Takeover Target for These Major Financial Players"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_trough": 17.084999084472656,
-    "trailing_stop_price": 17.326239
-  },
   "LRCX": {
     "id": "LRCX_20260720143330",
     "asset": "LRCX",
@@ -535,7 +506,9 @@
     ],
     "mode": "paper",
     "strategy_version": "61",
-    "status": "open"
+    "status": "open",
+    "price_trough": 309.42010498046875,
+    "trailing_stop_price": 314.061407
   },
   "ORCL": {
     "id": "ORCL_20260720143330",
@@ -562,6 +535,39 @@
       "Burry covers half of his Oracle short bet",
       "AMD Stock Rises on Vote of Confidence From a Big AI Chip Customer",
       "Netflix upgraded, Microsoft initiated: Wall Street's top analyst calls"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open",
+    "price_peak": 123.58000183105469,
+    "trailing_stop_price": 121.726302
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260720181853",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1913.1500244140625,
+    "entry_time": "2026-07-20T18:18:53.102792+00:00",
+    "stop_loss_pct": 0.00901,
+    "take_profit_pct": 0.02193,
+    "size_usd": 766.79,
+    "position_size_pct": 0.0075,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (64.5)",
+      "5d momentum +2.82%",
+      "1d momentum +2.90%",
+      "BB overbought (pct_b=1.05)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; price surge; analyst downgrade"
+    ],
+    "news_sentiment": 0.226,
+    "news_headlines": [
+      "MicroStrategy holds 843K bitcoin as cash reserves reach $3.2B",
+      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
+      "Ethereum News: BlackRock\u2019s ETHA Drives ETH ETF Reversal With Back-to-Back Inflow Weeks"
     ],
     "mode": "paper",
     "strategy_version": "61",
