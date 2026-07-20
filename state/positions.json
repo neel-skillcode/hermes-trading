@@ -141,8 +141,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_trough": 1.1423349380493164,
-    "trailing_stop_price": 1.151474
+    "price_trough": 1.1415525674819946,
+    "trailing_stop_price": 1.150685
   },
   "XLK": {
     "id": "XLK_20260714181743",
@@ -205,8 +205,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 381.0249938964844,
-    "trailing_stop_price": 391.426976
+    "price_trough": 374.7049865722656,
+    "trailing_stop_price": 384.934433
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -266,8 +266,8 @@
     "mode": "paper",
     "strategy_version": "59",
     "status": "open",
-    "price_trough": 204.05999755859375,
-    "trailing_stop_price": 207.120898
+    "price_trough": 203.5399932861328,
+    "trailing_stop_price": 206.593093
   },
   "USD/NOK": {
     "id": "USD/NOK_20260717114933",
@@ -290,7 +290,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "60",
-    "status": "open"
+    "status": "open",
+    "price_peak": 9.673959732055664,
+    "trailing_stop_price": 9.596568
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260717125246",
@@ -313,7 +315,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "60",
-    "status": "open"
+    "status": "open",
+    "price_trough": 115.7699966430664,
+    "trailing_stop_price": 116.696157
   },
   "META": {
     "id": "META_20260717142203",
@@ -348,39 +352,6 @@
     "price_peak": 648.8900146484375,
     "trailing_stop_price": 639.156664
   },
-  "GOOGL": {
-    "id": "GOOGL_20260717142203",
-    "asset": "GOOGL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 344.95001220703125,
-    "entry_time": "2026-07-17T14:22:03.006295+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6498.17,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (23.8)",
-      "5d momentum -7.18%",
-      "1d momentum -3.02%",
-      "BB oversold (pct_b=-0.10)",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.458,
-    "news_headlines": [
-      "Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison",
-      "Big Tech earnings will put focus on AI spending",
-      "Meta's data center plans could help solve its AI spending problems"
-    ],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_peak": 345.0,
-    "trailing_stop_price": 339.825
-  },
   "MPC": {
     "id": "MPC_20260717175832",
     "asset": "MPC",
@@ -409,7 +380,9 @@
     ],
     "mode": "paper",
     "strategy_version": "60",
-    "status": "open"
+    "status": "open",
+    "price_peak": 316.3999938964844,
+    "trailing_stop_price": 312.982874
   },
   "C": {
     "id": "C_20260717191512",
@@ -499,7 +472,9 @@
     ],
     "mode": "paper",
     "strategy_version": "60",
-    "status": "open"
+    "status": "open",
+    "price_peak": 537.5499877929688,
+    "trailing_stop_price": 529.486738
   },
   "SOFI": {
     "id": "SOFI_20260717191512",
@@ -528,6 +503,68 @@
     ],
     "mode": "paper",
     "strategy_version": "60",
+    "status": "open",
+    "price_trough": 17.084999084472656,
+    "trailing_stop_price": 17.326239
+  },
+  "LRCX": {
+    "id": "LRCX_20260720143330",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 313.1000061035156,
+    "entry_time": "2026-07-20T14:33:30.287389+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6516.01,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (34.6)",
+      "MACD crossover",
+      "5d momentum -1.31%",
+      "1d momentum -8.92%",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.111,
+    "news_headlines": [
+      "AMD, Micron, SK Hynix lead chip stock recovery",
+      "Oppenheimer Names Nvidia Among Its 'Best of the Best' Momentum Stocks",
+      "CuspAI raises $450 million Series B for AI materials discovery"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
+    "status": "open"
+  },
+  "ORCL": {
+    "id": "ORCL_20260720143330",
+    "asset": "ORCL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 122.13999938964844,
+    "entry_time": "2026-07-20T14:33:30.289114+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 80.53,
+    "position_size_pct": 0.0008,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (32.9)",
+      "5d momentum -4.52%",
+      "1d momentum -5.13%",
+      "BB oversold (pct_b=0.11)",
+      "High-impact catalyst",
+      "Claude [neutral]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.15,
+    "news_headlines": [
+      "Burry covers half of his Oracle short bet",
+      "AMD Stock Rises on Vote of Confidence From a Big AI Chip Customer",
+      "Netflix upgraded, Microsoft initiated: Wall Street's top analyst calls"
+    ],
+    "mode": "paper",
+    "strategy_version": "61",
     "status": "open"
   }
 }
