@@ -226,8 +226,8 @@
     "mode": "paper",
     "strategy_version": "61",
     "status": "open",
-    "price_peak": 215.59500122070312,
-    "trailing_stop_price": 213.035889
+    "price_peak": 216.67999267578125,
+    "trailing_stop_price": 214.108001
   },
   "LYFT": {
     "id": "LYFT_20260720200021",
@@ -258,8 +258,8 @@
     "mode": "paper",
     "strategy_version": "61",
     "status": "open",
-    "price_trough": 15.359999656677246,
-    "trailing_stop_price": 15.573196
+    "price_trough": 15.234999656677246,
+    "trailing_stop_price": 15.446461
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
@@ -289,36 +289,6 @@
     "status": "open",
     "price_trough": 114.14700317382812,
     "trailing_stop_price": 115.060179
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260721124632",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1939.8800048828125,
-    "entry_time": "2026-07-21T12:46:32.011632+00:00",
-    "stop_loss_pct": 0.00592,
-    "take_profit_pct": 0.01426,
-    "size_usd": 723.41,
-    "position_size_pct": 0.007,
-    "confidence": 0.817,
-    "signals": [
-      "RSI overbought (77.5)",
-      "5d momentum +0.36%",
-      "1d momentum +3.66%",
-      "Volume spike 1.7\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.429,
-    "news_headlines": [
-      "Morgan Stanley's E*TRADE embraces crypto trading",
-      "XRP And Ethereum Are Beating Bitcoin \u2014 And Analyst Michael Van de Poppe Is Betting Big On Altcoins",
-      "Brian Armstrong Warns Traders Against Treating His X Account as \u201cAlpha\u201d"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open"
   },
   "HAL": {
     "id": "HAL_20260721144944",
@@ -381,39 +351,9 @@
     ],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260721144944",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1485999822616577,
-    "entry_time": "2026-07-21T14:49:44.800415+00:00",
-    "stop_loss_pct": 0.00528,
-    "take_profit_pct": 0.01204,
-    "size_usd": 3773.12,
-    "position_size_pct": 0.0362,
-    "confidence": 0.566,
-    "signals": [
-      "RSI overbought (82.5)",
-      "5d momentum +1.28%",
-      "1d momentum +5.14%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 2.8\u00d7",
-      "News +0.31 (conf 0.61) \u2192 long",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: analyst upgrade; price surge; analyst downgrade"
-    ],
-    "news_sentiment": 0.311,
-    "news_headlines": [
-      "Crypto XRP Forms Bullish \u2018Triangle Breakout\u2019",
-      "What\u2019s the Hype About XRP and Should I Hold It Long-Term?",
-      "Why Did Ripple\u2019s Co-Creator Sell XRP at 10 Cents? David Schwartz Answers"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_trough": 178.6699981689453,
+    "trailing_stop_price": 181.350048
   },
   "BTC-USD": {
     "id": "BTC-USD_20260721144944",
@@ -445,8 +385,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 66614.7578125,
-    "trailing_stop_price": 66918.521108
+    "price_trough": 66446.7890625,
+    "trailing_stop_price": 66749.786421
   },
   "MRVL": {
     "id": "MRVL_20260721144944",
@@ -556,6 +496,36 @@
       "Why GM's memory chip guidance could help stabilize stocks like Micron and Sandisk",
       "Chinese Open LLMs are no threat to memory demand, BofA says",
       "Intel Stock's AI-Fueled Rally Meets Its Turnaround Reality"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
+    "status": "open"
+  },
+  "ARM": {
+    "id": "ARM_20260721174401",
+    "asset": "ARM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 291.9800109863281,
+    "entry_time": "2026-07-21T17:44:01.856016+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 4482.27,
+    "position_size_pct": 0.0431,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (77.9)",
+      "5d momentum +8.25%",
+      "1d momentum +13.59%",
+      "BB overbought (pct_b=0.93)",
+      "High-impact catalyst",
+      "Claude [neutral]: analyst downgrade; price decline"
+    ],
+    "news_sentiment": 0.787,
+    "news_headlines": [
+      "Should You Be Bullish on Arm Holdings plc (ARM)?",
+      "Arm receives higher price target from Jefferies on stronger AI-driven demand outlook",
+      "ARM, QCOM, KLAC Stocks Rise Despite Price Target Cuts By UBS Amid Chip Stocks\u2019 Pullback"
     ],
     "mode": "paper",
     "strategy_version": "63",
