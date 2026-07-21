@@ -54,36 +54,6 @@
     "price_peak": 365.1400146484375,
     "trailing_stop_price": 354.039758
   },
-  "USD/JPY": {
-    "id": "USD/JPY_20260707214054",
-    "asset": "USD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 162.11900329589844,
-    "entry_time": "2026-07-07T21:40:54.378073+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02552,
-    "size_usd": 3644.04,
-    "position_size_pct": 0.0364,
-    "confidence": 0.379,
-    "signals": [
-      "RSI overbought (62.8)",
-      "BB overbought (pct_b=1.06)",
-      "News +0.47 (conf 0.75) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
-    ],
-    "news_sentiment": 0.467,
-    "news_headlines": [
-      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market",
-      "How the US Dollar Got Its Mojo Back"
-    ],
-    "mode": "paper",
-    "strategy_version": "50",
-    "status": "open",
-    "price_trough": 161.48800659179688,
-    "trailing_stop_price": 162.779911
-  },
   "EUR/JPY": {
     "id": "EUR/JPY_20260709140922",
     "asset": "EUR/JPY",
@@ -141,72 +111,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_trough": 1.1415525674819946,
-    "trailing_stop_price": 1.150685
-  },
-  "XLK": {
-    "id": "XLK_20260714181743",
-    "asset": "XLK",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 184.33999633789062,
-    "entry_time": "2026-07-14T18:17:43.172646+00:00",
-    "stop_loss_pct": 0.02359,
-    "take_profit_pct": 0.08175,
-    "size_usd": 9170.0,
-    "position_size_pct": 0.0894,
-    "confidence": 0.931,
-    "signals": [
-      "RSI oversold (42.5)",
-      "MACD crossover",
-      "5d momentum +1.70%",
-      "1d momentum -0.79%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.227,
-    "news_headlines": [
-      "Sector Update: Tech Stocks Rise Tuesday Afternoon",
-      "Exchange-Traded Funds Higher, US Equities Mixed After Midday Tuesday",
-      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Ahead of Warsh Testimony"
-    ],
-    "mode": "paper",
-    "strategy_version": "56",
-    "status": "open",
-    "price_trough": 175.5,
-    "trailing_stop_price": 179.640045
-  },
-  "TSLA": {
-    "id": "TSLA_20260715133804",
-    "asset": "TSLA",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 405.4280090332031,
-    "entry_time": "2026-07-15T13:38:04.580483+00:00",
-    "stop_loss_pct": 0.0273,
-    "take_profit_pct": 0.09353,
-    "size_usd": 8386.64,
-    "position_size_pct": 0.0817,
-    "confidence": 0.851,
-    "signals": [
-      "RSI overbought (63.2)",
-      "MACD crossover",
-      "5d momentum +2.25%",
-      "1d momentum -0.48%",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.442,
-    "news_headlines": [
-      "Why Meta stock suddenly broke out after a long slide",
-      "This Week In Electric Vehicles - Global Market Shifts Shape Future Growth and Strategies",
-      "If a Stock Market Crash Is Coming, 100 Years of History Says This Is the Best Move Investors Can Make"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open",
-    "price_trough": 369.57000732421875,
-    "trailing_stop_price": 379.659269
+    "price_trough": 1.1410315036773682,
+    "trailing_stop_price": 1.15016
   },
   "USD/NOK": {
     "id": "USD/NOK_20260717114933",
@@ -287,38 +193,9 @@
     ],
     "mode": "paper",
     "strategy_version": "61",
-    "status": "open"
-  },
-  "LRCX": {
-    "id": "LRCX_20260720200021",
-    "asset": "LRCX",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 306.92999267578125,
-    "entry_time": "2026-07-20T20:00:21.375456+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 6279.01,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (31.7)",
-      "MACD crossover",
-      "5d momentum -1.08%",
-      "1d momentum -6.73%",
-      "BB oversold (pct_b=0.14)",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.176,
-    "news_headlines": [
-      "AMD, Micron, SK Hynix climb as semiconductor complex attempt recovery",
-      "Lam Research (LRCX) Joins AI Materials Foundry To Help Shape Future Chip Materials",
-      "3 Stocks to Buy From the Prospering Semiconductor Industry"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open"
+    "status": "open",
+    "price_peak": 59.82500076293945,
+    "trailing_stop_price": 58.927626
   },
   "MS": {
     "id": "MS_20260720200021",
@@ -349,8 +226,8 @@
     "mode": "paper",
     "strategy_version": "61",
     "status": "open",
-    "price_peak": 210.94000244140625,
-    "trailing_stop_price": 208.436145
+    "price_peak": 215.06500244140625,
+    "trailing_stop_price": 212.512181
   },
   "LYFT": {
     "id": "LYFT_20260720200021",
@@ -382,95 +259,6 @@
     "strategy_version": "61",
     "status": "open"
   },
-  "KLAC": {
-    "id": "KLAC_20260720200021",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 207.71499633789062,
-    "entry_time": "2026-07-20T20:00:21.382303+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5247.93,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (29.1)",
-      "5d momentum -1.53%",
-      "1d momentum -6.08%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst downgrade"
-    ],
-    "news_sentiment": 0.174,
-    "news_headlines": [
-      "ARM, QCOM, KLAC Stocks Rise Despite Price Target Cuts By UBS Amid Chip Stocks\u2019 Pullback",
-      "Micron, Nvidia, Netflix, SK Hynix, Alphabet, Intuitive Surgical, and More Stocks That Explain Today\u2019s Market",
-      "Micron Technology: Record DRAM Pricing Meets A Stock In Retreat"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open"
-  },
-  "C": {
-    "id": "C_20260720200021",
-    "asset": "C",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 128.72000122070312,
-    "entry_time": "2026-07-20T20:00:21.384054+00:00",
-    "stop_loss_pct": 0.00748,
-    "take_profit_pct": 0.01706,
-    "size_usd": 3727.75,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (21.7)",
-      "5d momentum -1.13%",
-      "1d momentum -3.54%",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat"
-    ],
-    "news_sentiment": 0.898,
-    "news_headlines": [
-      "Zacks Market Edge Highlights: Goldman Sachs, Wells Fargo, JPMorgan Chase , Citigroup  and Bank of America",
-      "Citigroup and J&J Snack have been highlighted as Zacks Bull and Bear of the Day",
-      "Citi lifts Novo Nordisk target on strong GLP-1 pill launch"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open"
-  },
-  "SLB": {
-    "id": "SLB_20260720200021",
-    "asset": "SLB",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 46.40999984741211,
-    "entry_time": "2026-07-20T20:00:21.385742+00:00",
-    "stop_loss_pct": 0.00724,
-    "take_profit_pct": 0.01807,
-    "size_usd": 1843.95,
-    "position_size_pct": 0.0179,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (32.1)",
-      "5d momentum -0.85%",
-      "1d momentum -1.83%",
-      "BB oversold (pct_b=-0.13)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: fed dovish; ma catalyst"
-    ],
-    "news_sentiment": 0.569,
-    "news_headlines": [
-      "SLB Boosts Production Optimization With VIEC Technology Acquisition",
-      "Oil-Service Companies Set to Reveal War\u2019s Impact on Earnings",
-      "AI\u2019s Power Crunch Fuels a Pivot for These 2 Oilfield Stocks"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open"
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
     "asset": "AUD/JPY",
@@ -497,39 +285,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 114.15499877929688,
-    "trailing_stop_price": 115.068239
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260721124632",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 66480.046875,
-    "entry_time": "2026-07-21T12:46:32.010346+00:00",
-    "stop_loss_pct": 0.00437,
-    "take_profit_pct": 0.01063,
-    "size_usd": 5743.24,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (79.3)",
-      "5d momentum +0.51%",
-      "1d momentum +2.93%",
-      "BB overbought (pct_b=0.97)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.708,
-    "news_headlines": [
-      "Morgan Stanley's E*TRADE embraces crypto trading",
-      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
-      "Strategy stock rises after the company raises $263 million without selling bitcoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open"
+    "price_trough": 114.14700317382812,
+    "trailing_stop_price": 115.060179
   },
   "ETH-USD": {
     "id": "ETH-USD_20260721124632",
@@ -557,6 +314,243 @@
       "XRP And Ethereum Are Beating Bitcoin \u2014 And Analyst Michael Van de Poppe Is Betting Big On Altcoins",
       "Brian Armstrong Warns Traders Against Treating His X Account as \u201cAlpha\u201d"
     ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "HAL": {
+    "id": "HAL_20260721144944",
+    "asset": "HAL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 32.92499923706055,
+    "entry_time": "2026-07-21T14:49:44.797147+00:00",
+    "stop_loss_pct": 0.01412,
+    "take_profit_pct": 0.03524,
+    "size_usd": 6599.63,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (24.7)",
+      "5d momentum -8.02%",
+      "1d momentum -6.33%",
+      "BB oversold (pct_b=-0.19)",
+      "News +0.88 (conf 0.68) \u2192 long",
+      "High-impact catalyst",
+      "Claude [supports]: earnings beat; price decline"
+    ],
+    "news_sentiment": 0.875,
+    "news_headlines": [
+      "Halliburton tops second-quarter forecasts but shares fall after results (HAL)",
+      "Halliburton Q2 2025 earnings: CEO warns of softer oilfield market",
+      "Sector Update: Energy Stocks Edge Higher Premarket Tuesday"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "COIN": {
+    "id": "COIN_20260721144944",
+    "asset": "COIN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 178.75999450683594,
+    "entry_time": "2026-07-21T14:49:44.798698+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5826.34,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (79.6)",
+      "5d momentum +9.89%",
+      "1d momentum +7.82%",
+      "BB overbought (pct_b=1.17)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.135,
+    "news_headlines": [
+      "Morgan Stanley's E*TRADE embraces crypto trading",
+      "Trump Oversees Ethics Provisions As Clarity Act Nears Vote",
+      "This Top Investment Firm Says the Crypto Market Is Nearing a Bottom. Here's What It Could Mean for Coinbase."
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260721144944",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1485999822616577,
+    "entry_time": "2026-07-21T14:49:44.800415+00:00",
+    "stop_loss_pct": 0.00528,
+    "take_profit_pct": 0.01204,
+    "size_usd": 3773.12,
+    "position_size_pct": 0.0362,
+    "confidence": 0.566,
+    "signals": [
+      "RSI overbought (82.5)",
+      "5d momentum +1.28%",
+      "1d momentum +5.14%",
+      "BB overbought (pct_b=1.00)",
+      "Volume spike 2.8\u00d7",
+      "News +0.31 (conf 0.61) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: analyst upgrade; price surge; analyst downgrade"
+    ],
+    "news_sentiment": 0.311,
+    "news_headlines": [
+      "Crypto XRP Forms Bullish \u2018Triangle Breakout\u2019",
+      "What\u2019s the Hype About XRP and Should I Hold It Long-Term?",
+      "Why Did Ripple\u2019s Co-Creator Sell XRP at 10 Cents? David Schwartz Answers"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260721144944",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 66829.453125,
+    "entry_time": "2026-07-21T14:49:44.802068+00:00",
+    "stop_loss_pct": 0.00456,
+    "take_profit_pct": 0.0111,
+    "size_usd": 5799.68,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (78.6)",
+      "5d momentum +0.87%",
+      "1d momentum +3.86%",
+      "BB overbought (pct_b=0.98)",
+      "Volume spike 5.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; fed dovish"
+    ],
+    "news_sentiment": 0.226,
+    "news_headlines": [
+      "Morgan Stanley's E*TRADE embraces crypto trading",
+      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
+      "Stock Market Today: Nasdaq Higher As Chip Names Rally; Schwab Wavers (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260721144944",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 937.8499755859375,
+    "entry_time": "2026-07-21T14:49:44.803734+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 1248.59,
+    "position_size_pct": 0.012,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (67.1)",
+      "5d momentum +5.48%",
+      "1d momentum +3.88%",
+      "BB overbought (pct_b=1.14)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.686,
+    "news_headlines": [
+      "Why GM's memory chip guidance could help stabilize stocks like Micron and Sandisk",
+      "SanDisk Rises 8%, Western Digital Jumps 9%, Micron Adds 7% as Memory Rebound Accelerates",
+      "Stock Market Today: Nasdaq Higher As Chip Names Rally; Schwab Wavers (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260721144944",
+    "asset": "MRVL",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 206.36000061035156,
+    "entry_time": "2026-07-21T14:49:44.811851+00:00",
+    "stop_loss_pct": 0.06,
+    "take_profit_pct": 0.19353,
+    "size_usd": 4509.75,
+    "position_size_pct": 0.0433,
+    "confidence": 0.451,
+    "signals": [
+      "RSI overbought (74.4)",
+      "5d momentum +4.33%",
+      "BB overbought (pct_b=1.01)",
+      "News +0.88 (conf 0.68) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.882,
+    "news_headlines": [
+      "AMD, Micron, SK Hynix climb as semiconductor complex attempt recovery",
+      "Here\u2019s What Boosted Marvell Technology (MRVL) in Q2",
+      "Stock Market Today: Nasdaq Higher As Chip Names Rally; Schwab Wavers (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "AMD": {
+    "id": "AMD_20260721144944",
+    "asset": "AMD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 529.260009765625,
+    "entry_time": "2026-07-21T14:49:44.815601+00:00",
+    "stop_loss_pct": 0.056,
+    "take_profit_pct": 0.18051,
+    "size_usd": 4469.75,
+    "position_size_pct": 0.0429,
+    "confidence": 0.447,
+    "signals": [
+      "RSI overbought (70.7)",
+      "5d momentum +3.44%",
+      "BB overbought (pct_b=1.01)",
+      "News +0.97 (conf 0.60) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.967,
+    "news_headlines": [
+      "Tech stocks live: Tech-heavy Nasdaq climbs ahead of Big Tech earnings kickoff",
+      "AMD stock rises on price target bumps, Microsoft deal",
+      "SanDisk Rises 8%, Western Digital Jumps 9%, Micron Adds 7% as Memory Rebound Accelerates"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "USD/CAD": {
+    "id": "USD/CAD_20260721144944",
+    "asset": "USD/CAD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.4094500541687012,
+    "entry_time": "2026-07-21T14:49:44.819313+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 6699.63,
+    "position_size_pct": 0.0643,
+    "confidence": 0.67,
+    "signals": [
+      "RSI overbought (64.0)",
+      "MACD crossover",
+      "BB overbought (pct_b=1.14)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "62",
     "status": "open"
