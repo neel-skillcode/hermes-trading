@@ -530,7 +530,9 @@
     ],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.1303999423980713,
+    "trailing_stop_price": 1.136368
   },
   "BTC-USD": {
     "id": "BTC-USD_20260721061806",
@@ -560,7 +562,34 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_peak": 66146.6484375,
-    "trailing_stop_price": 65893.306774
+    "price_peak": 66166.296875,
+    "trailing_stop_price": 65912.879958
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260721111717",
+    "asset": "AUD/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 114.18399810791016,
+    "entry_time": "2026-07-21T11:17:17.310401+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02674,
+    "size_usd": 3139.66,
+    "position_size_pct": 0.0304,
+    "confidence": 0.684,
+    "signals": [
+      "RSI overbought (86.9)",
+      "BB overbought (pct_b=0.86)",
+      "News -1.00 (conf 0.70) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
+    ],
+    "news_sentiment": -1.0,
+    "news_headlines": [
+      "Further Strength for the Australian Dollar After Higher Inflation"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
   }
 }
