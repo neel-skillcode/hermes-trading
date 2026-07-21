@@ -54,35 +54,6 @@
     "price_peak": 365.1400146484375,
     "trailing_stop_price": 354.039758
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260709140922",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 185.7519989013672,
-    "entry_time": "2026-07-09T14:09:22.143382+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02674,
-    "size_usd": 6640.83,
-    "position_size_pct": 0.0657,
-    "confidence": 0.684,
-    "signals": [
-      "RSI overbought (60.1)",
-      "BB overbought (pct_b=1.10)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-    ],
-    "mode": "paper",
-    "strategy_version": "52",
-    "status": "open",
-    "price_trough": 184.5540008544922,
-    "trailing_stop_price": 186.030433
-  },
   "EUR/USD": {
     "id": "EUR/USD_20260714123906",
     "asset": "EUR/USD",
@@ -111,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_trough": 1.1410315036773682,
-    "trailing_stop_price": 1.15016
+    "price_trough": 1.1405109167099,
+    "trailing_stop_price": 1.149635
   },
   "USD/NOK": {
     "id": "USD/NOK_20260717114933",
@@ -352,8 +323,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 178.6699981689453,
-    "trailing_stop_price": 181.350048
+    "price_trough": 176.10000610351562,
+    "trailing_stop_price": 178.741506
   },
   "BTC-USD": {
     "id": "BTC-USD_20260721144944",
@@ -385,8 +356,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 66446.7890625,
-    "trailing_stop_price": 66749.786421
+    "price_trough": 66243.6875,
+    "trailing_stop_price": 66545.758715
   },
   "MRVL": {
     "id": "MRVL_20260721144944",
@@ -526,6 +497,35 @@
       "Should You Be Bullish on Arm Holdings plc (ARM)?",
       "Arm receives higher price target from Jefferies on stronger AI-driven demand outlook",
       "ARM, QCOM, KLAC Stocks Rise Despite Price Target Cuts By UBS Amid Chip Stocks\u2019 Pullback"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
+    "status": "open",
+    "price_trough": 289.8500061035156,
+    "trailing_stop_price": 294.197756
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260721185742",
+    "asset": "EUR/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 186.07200622558594,
+    "entry_time": "2026-07-21T18:57:42.731108+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02674,
+    "size_usd": 6833.87,
+    "position_size_pct": 0.0657,
+    "confidence": 0.684,
+    "signals": [
+      "RSI overbought (89.0)",
+      "BB overbought (pct_b=0.94)",
+      "News -1.00 (conf 0.70) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
+    ],
+    "news_sentiment": -1.0,
+    "news_headlines": [
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
     ],
     "mode": "paper",
     "strategy_version": "63",
