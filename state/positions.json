@@ -471,100 +471,6 @@
     "strategy_version": "61",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260721034800",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1924.2099609375,
-    "entry_time": "2026-07-21T03:48:00.788536+00:00",
-    "stop_loss_pct": 0.00771,
-    "take_profit_pct": 0.01909,
-    "size_usd": 764.97,
-    "position_size_pct": 0.0074,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (76.4)",
-      "5d momentum +1.56%",
-      "1d momentum +2.46%",
-      "BB overbought (pct_b=0.91)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: fed dovish; analyst downgrade; price decline"
-    ],
-    "news_sentiment": 0.409,
-    "news_headlines": [
-      "Morgan Stanley's E*TRADE embraces crypto trading",
-      "Ethereum Could Lead the Next Bull Market: Is Hayes Preparing with More Buys?",
-      "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Faster Selloffs' If\u2026"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260721061806",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1304999589920044,
-    "entry_time": "2026-07-21T06:18:06.168589+00:00",
-    "stop_loss_pct": 0.00528,
-    "take_profit_pct": 0.01247,
-    "size_usd": 4781.62,
-    "position_size_pct": 0.0463,
-    "confidence": 0.724,
-    "signals": [
-      "RSI overbought (72.8)",
-      "5d momentum +1.54%",
-      "1d momentum +4.23%",
-      "BB overbought (pct_b=0.92)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: analyst upgrade; price surge; analyst downgrade"
-    ],
-    "news_sentiment": 0.674,
-    "news_headlines": [
-      "XRP Set for 'Further Upside' if It 'Decisively' Breaches This Level, Says Popular Analyst as Ripple-Linked Crypto Spikes 5% in a Week",
-      "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Faster Selloffs' If\u2026",
-      "Why Is XRP (Ripple) Underperforming the Crypto Market?"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_trough": 1.1303999423980713,
-    "trailing_stop_price": 1.136368
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260721061806",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 65638.921875,
-    "entry_time": "2026-07-21T06:18:06.170262+00:00",
-    "stop_loss_pct": 0.00383,
-    "take_profit_pct": 0.00873,
-    "size_usd": 938.95,
-    "position_size_pct": 0.0091,
-    "confidence": 0.564,
-    "signals": [
-      "5d momentum +0.68%",
-      "1d momentum +2.79%",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.355,
-    "news_headlines": [
-      "Morgan Stanley's E*TRADE embraces crypto trading",
-      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
-      "Strategy stock rises after the company raises $263 million without selling bitcoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_peak": 66166.296875,
-    "trailing_stop_price": 65912.879958
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
     "asset": "AUD/JPY",
@@ -587,6 +493,69 @@
     "news_sentiment": -1.0,
     "news_headlines": [
       "Further Strength for the Australian Dollar After Higher Inflation"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open",
+    "price_trough": 114.15499877929688,
+    "trailing_stop_price": 115.068239
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260721124632",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 66480.046875,
+    "entry_time": "2026-07-21T12:46:32.010346+00:00",
+    "stop_loss_pct": 0.00437,
+    "take_profit_pct": 0.01063,
+    "size_usd": 5743.24,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (79.3)",
+      "5d momentum +0.51%",
+      "1d momentum +2.93%",
+      "BB overbought (pct_b=0.97)",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.708,
+    "news_headlines": [
+      "Morgan Stanley's E*TRADE embraces crypto trading",
+      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
+      "Strategy stock rises after the company raises $263 million without selling bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260721124632",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1939.8800048828125,
+    "entry_time": "2026-07-21T12:46:32.011632+00:00",
+    "stop_loss_pct": 0.00592,
+    "take_profit_pct": 0.01426,
+    "size_usd": 723.41,
+    "position_size_pct": 0.007,
+    "confidence": 0.817,
+    "signals": [
+      "RSI overbought (77.5)",
+      "5d momentum +0.36%",
+      "1d momentum +3.66%",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.429,
+    "news_headlines": [
+      "Morgan Stanley's E*TRADE embraces crypto trading",
+      "XRP And Ethereum Are Beating Bitcoin \u2014 And Analyst Michael Van de Poppe Is Betting Big On Altcoins",
+      "Brian Armstrong Warns Traders Against Treating His X Account as \u201cAlpha\u201d"
     ],
     "mode": "paper",
     "strategy_version": "62",
