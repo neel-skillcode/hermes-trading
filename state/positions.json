@@ -205,8 +205,8 @@
     "mode": "paper",
     "strategy_version": "57",
     "status": "open",
-    "price_trough": 369.6700134277344,
-    "trailing_stop_price": 379.762005
+    "price_trough": 369.57000732421875,
+    "trailing_stop_price": 379.659269
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260715133804",
@@ -284,41 +284,8 @@
     "mode": "paper",
     "strategy_version": "60",
     "status": "open",
-    "price_trough": 115.53500366210938,
-    "trailing_stop_price": 116.459284
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260720181853",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1913.1500244140625,
-    "entry_time": "2026-07-20T18:18:53.102792+00:00",
-    "stop_loss_pct": 0.00901,
-    "take_profit_pct": 0.02193,
-    "size_usd": 766.79,
-    "position_size_pct": 0.0075,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (64.5)",
-      "5d momentum +2.82%",
-      "1d momentum +2.90%",
-      "BB overbought (pct_b=1.05)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; price surge; analyst downgrade"
-    ],
-    "news_sentiment": 0.226,
-    "news_headlines": [
-      "MicroStrategy holds 843K bitcoin as cash reserves reach $3.2B",
-      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
-      "Ethereum News: BlackRock\u2019s ETHA Drives ETH ETF Reversal With Back-to-Back Inflow Weeks"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open",
-    "price_trough": 1896.52001953125,
-    "trailing_stop_price": 1913.607665
+    "price_trough": 115.39600372314453,
+    "trailing_stop_price": 116.319172
   },
   "MRNA": {
     "id": "MRNA_20260720200021",
@@ -441,7 +408,9 @@
     ],
     "mode": "paper",
     "strategy_version": "61",
-    "status": "open"
+    "status": "open",
+    "price_peak": 210.94000244140625,
+    "trailing_stop_price": 208.436145
   },
   "LYFT": {
     "id": "LYFT_20260720200021",
@@ -560,6 +529,37 @@
     ],
     "mode": "paper",
     "strategy_version": "61",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260721034800",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1924.2099609375,
+    "entry_time": "2026-07-21T03:48:00.788536+00:00",
+    "stop_loss_pct": 0.00771,
+    "take_profit_pct": 0.01909,
+    "size_usd": 764.97,
+    "position_size_pct": 0.0074,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (76.4)",
+      "5d momentum +1.56%",
+      "1d momentum +2.46%",
+      "BB overbought (pct_b=0.91)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: fed dovish; analyst downgrade; price decline"
+    ],
+    "news_sentiment": 0.409,
+    "news_headlines": [
+      "Morgan Stanley's E*TRADE embraces crypto trading",
+      "Ethereum Could Lead the Next Bull Market: Is Hayes Preparing with More Buys?",
+      "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Faster Selloffs' If\u2026"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
     "status": "open"
   }
 }
