@@ -226,8 +226,8 @@
     "mode": "paper",
     "strategy_version": "61",
     "status": "open",
-    "price_peak": 215.06500244140625,
-    "trailing_stop_price": 212.512181
+    "price_peak": 215.59500122070312,
+    "trailing_stop_price": 213.035889
   },
   "LYFT": {
     "id": "LYFT_20260720200021",
@@ -257,7 +257,9 @@
     ],
     "mode": "paper",
     "strategy_version": "61",
-    "status": "open"
+    "status": "open",
+    "price_trough": 15.359999656677246,
+    "trailing_stop_price": 15.573196
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
@@ -347,7 +349,9 @@
     ],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_peak": 33.22999954223633,
+    "trailing_stop_price": 32.760792
   },
   "COIN": {
     "id": "COIN_20260721144944",
@@ -440,37 +444,9 @@
     ],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
-  },
-  "MU": {
-    "id": "MU_20260721144944",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 937.8499755859375,
-    "entry_time": "2026-07-21T14:49:44.803734+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 1248.59,
-    "position_size_pct": 0.012,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (67.1)",
-      "5d momentum +5.48%",
-      "1d momentum +3.88%",
-      "BB overbought (pct_b=1.14)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.686,
-    "news_headlines": [
-      "Why GM's memory chip guidance could help stabilize stocks like Micron and Sandisk",
-      "SanDisk Rises 8%, Western Digital Jumps 9%, Micron Adds 7% as Memory Rebound Accelerates",
-      "Stock Market Today: Nasdaq Higher As Chip Names Rally; Schwab Wavers (Live Coverage)"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_trough": 66614.7578125,
+    "trailing_stop_price": 66918.521108
   },
   "MRVL": {
     "id": "MRVL_20260721144944",
@@ -553,6 +529,36 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "62",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260721161036",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 969.0499877929688,
+    "entry_time": "2026-07-21T16:10:36.033699+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 1232.42,
+    "position_size_pct": 0.0118,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (67.5)",
+      "5d momentum +10.40%",
+      "1d momentum +7.31%",
+      "BB overbought (pct_b=1.16)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.731,
+    "news_headlines": [
+      "Why GM's memory chip guidance could help stabilize stocks like Micron and Sandisk",
+      "Chinese Open LLMs are no threat to memory demand, BofA says",
+      "Intel Stock's AI-Fueled Rally Meets Its Turnaround Reality"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
     "status": "open"
   }
 }
