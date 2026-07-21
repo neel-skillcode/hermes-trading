@@ -208,35 +208,6 @@
     "price_trough": 369.57000732421875,
     "trailing_stop_price": 379.659269
   },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260715133804",
-    "asset": "AUD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 113.47000122070312,
-    "entry_time": "2026-07-15T13:38:04.585545+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02674,
-    "size_usd": 3097.79,
-    "position_size_pct": 0.0302,
-    "confidence": 0.684,
-    "signals": [
-      "RSI overbought (77.3)",
-      "BB overbought (pct_b=0.89)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Further Strength for the Australian Dollar After Higher Inflation"
-    ],
-    "mode": "paper",
-    "strategy_version": "57",
-    "status": "open",
-    "price_trough": 113.21099853515625,
-    "trailing_stop_price": 114.116687
-  },
   "USD/NOK": {
     "id": "USD/NOK_20260717114933",
     "asset": "USD/NOK",
@@ -588,6 +559,8 @@
     ],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_peak": 66146.6484375,
+    "trailing_stop_price": 65893.306774
   }
 }
