@@ -349,37 +349,6 @@
     "strategy_version": "61",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260720200021",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1158000230789185,
-    "entry_time": "2026-07-20T20:00:21.377241+00:00",
-    "stop_loss_pct": 0.00733,
-    "take_profit_pct": 0.01786,
-    "size_usd": 5750.25,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (70.7)",
-      "5d momentum +2.14%",
-      "1d momentum +2.01%",
-      "BB overbought (pct_b=0.93)",
-      "Volume spike 1.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; analyst downgrade"
-    ],
-    "news_sentiment": 0.647,
-    "news_headlines": [
-      "Why Is XRP (Ripple) Underperforming the Crypto Market?",
-      "Validators Are About to Vote on the XRP Ledger\u2019s Biggest Upgrade in Years",
-      "HYPE ETFs Post First Outflow Since May, Ending a 9-Week Streak"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open"
-  },
   "MS": {
     "id": "MS_20260720200021",
     "asset": "MS",
@@ -557,6 +526,65 @@
       "Morgan Stanley's E*TRADE embraces crypto trading",
       "Ethereum Could Lead the Next Bull Market: Is Hayes Preparing with More Buys?",
       "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Faster Selloffs' If\u2026"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260721061806",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1304999589920044,
+    "entry_time": "2026-07-21T06:18:06.168589+00:00",
+    "stop_loss_pct": 0.00528,
+    "take_profit_pct": 0.01247,
+    "size_usd": 4781.62,
+    "position_size_pct": 0.0463,
+    "confidence": 0.724,
+    "signals": [
+      "RSI overbought (72.8)",
+      "5d momentum +1.54%",
+      "1d momentum +4.23%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: analyst upgrade; price surge; analyst downgrade"
+    ],
+    "news_sentiment": 0.674,
+    "news_headlines": [
+      "XRP Set for 'Further Upside' if It 'Decisively' Breaches This Level, Says Popular Analyst as Ripple-Linked Crypto Spikes 5% in a Week",
+      "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Faster Selloffs' If\u2026",
+      "Why Is XRP (Ripple) Underperforming the Crypto Market?"
+    ],
+    "mode": "paper",
+    "strategy_version": "62",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260721061806",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 65638.921875,
+    "entry_time": "2026-07-21T06:18:06.170262+00:00",
+    "stop_loss_pct": 0.00383,
+    "take_profit_pct": 0.00873,
+    "size_usd": 938.95,
+    "position_size_pct": 0.0091,
+    "confidence": 0.564,
+    "signals": [
+      "5d momentum +0.68%",
+      "1d momentum +2.79%",
+      "Volume spike 2.0\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.355,
+    "news_headlines": [
+      "Morgan Stanley's E*TRADE embraces crypto trading",
+      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
+      "Strategy stock rises after the company raises $263 million without selling bitcoin"
     ],
     "mode": "paper",
     "strategy_version": "62",
