@@ -54,31 +54,6 @@
     "price_trough": 1.1405109167099,
     "trailing_stop_price": 1.149635
   },
-  "USD/NOK": {
-    "id": "USD/NOK_20260717114933",
-    "asset": "USD/NOK",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 9.648810386657715,
-    "entry_time": "2026-07-17T11:49:33.830508+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 5542.1,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (44.1)",
-      "5d momentum -0.34%",
-      "BB oversold (pct_b=-0.03)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "60",
-    "status": "open",
-    "price_peak": 9.673959732055664,
-    "trailing_stop_price": 9.596568
-  },
   "CAD/JPY": {
     "id": "CAD/JPY_20260717125246",
     "asset": "CAD/JPY",
@@ -280,8 +255,8 @@
     "mode": "paper",
     "strategy_version": "63",
     "status": "open",
-    "price_trough": 967.760009765625,
-    "trailing_stop_price": 982.27641
+    "price_trough": 959.47998046875,
+    "trailing_stop_price": 973.87218
   },
   "ARM": {
     "id": "ARM_20260721174401",
@@ -312,8 +287,8 @@
     "mode": "paper",
     "strategy_version": "63",
     "status": "open",
-    "price_trough": 285.4200134277344,
-    "trailing_stop_price": 289.701314
+    "price_trough": 283.3999938964844,
+    "trailing_stop_price": 287.650994
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260721185742",
@@ -343,39 +318,6 @@
     "status": "open",
     "price_trough": 186.04600524902344,
     "trailing_stop_price": 187.534373
-  },
-  "SMCI": {
-    "id": "SMCI_20260722150630",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 31.864999771118164,
-    "entry_time": "2026-07-22T15:06:30.536248+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5827.57,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (90.2)",
-      "5d momentum +26.27%",
-      "1d momentum +27.54%",
-      "BB overbought (pct_b=1.25)",
-      "Volume spike 2.3\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge; price decline"
-    ],
-    "news_sentiment": 0.741,
-    "news_headlines": [
-      "Why Did Super Micro Computer Stock Soar Today?",
-      "Stocks to Watch: Super Micro Computer, AT&T, Tesla, Alphabet",
-      "Wall St mixed as caution builds ahead of Big Tech earnings"
-    ],
-    "mode": "paper",
-    "strategy_version": "63",
-    "status": "open",
-    "price_trough": 30.860000610351562,
-    "trailing_stop_price": 31.322901
   },
   "CVX": {
     "id": "CVX_20260722150630",
@@ -531,7 +473,9 @@
     ],
     "mode": "paper",
     "strategy_version": "64",
-    "status": "open"
+    "status": "open",
+    "price_peak": 124.56999969482422,
+    "trailing_stop_price": 122.7737
   },
   "NVDA": {
     "id": "NVDA_20260722175310",
@@ -562,7 +506,7 @@
     "mode": "paper",
     "strategy_version": "64",
     "status": "open",
-    "price_trough": 213.72999572753906,
-    "trailing_stop_price": 215.87157
+    "price_trough": 212.05999755859375,
+    "trailing_stop_price": 214.184839
   }
 }
