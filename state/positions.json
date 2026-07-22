@@ -168,38 +168,6 @@
     "price_peak": 59.82500076293945,
     "trailing_stop_price": 58.927626
   },
-  "MS": {
-    "id": "MS_20260720200021",
-    "asset": "MS",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 210.68499755859375,
-    "entry_time": "2026-07-20T20:00:21.378998+00:00",
-    "stop_loss_pct": 0.01187,
-    "take_profit_pct": 0.02961,
-    "size_usd": 6543.39,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (19.5)",
-      "5d momentum -1.03%",
-      "1d momentum -7.92%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.636,
-    "news_headlines": [
-      "Morgan Stanley's E*TRADE embraces crypto trading",
-      "Why Micron Stock Bounced Back Today",
-      "Why Sandisk Stock Rebounded Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open",
-    "price_peak": 216.67999267578125,
-    "trailing_stop_price": 214.108001
-  },
   "LYFT": {
     "id": "LYFT_20260720200021",
     "asset": "LYFT",
@@ -229,8 +197,8 @@
     "mode": "paper",
     "strategy_version": "61",
     "status": "open",
-    "price_trough": 15.1899995803833,
-    "trailing_stop_price": 15.400837
+    "price_trough": 14.944999694824219,
+    "trailing_stop_price": 15.152436
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
@@ -293,38 +261,6 @@
     "status": "open",
     "price_peak": 33.22999954223633,
     "trailing_stop_price": 32.760792
-  },
-  "COIN": {
-    "id": "COIN_20260721144944",
-    "asset": "COIN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 178.75999450683594,
-    "entry_time": "2026-07-21T14:49:44.798698+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5826.34,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (79.6)",
-      "5d momentum +9.89%",
-      "1d momentum +7.82%",
-      "BB overbought (pct_b=1.17)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.135,
-    "news_headlines": [
-      "Morgan Stanley's E*TRADE embraces crypto trading",
-      "Trump Oversees Ethics Provisions As Clarity Act Nears Vote",
-      "This Top Investment Firm Says the Crypto Market Is Nearing a Bottom. Here's What It Could Mean for Coinbase."
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_trough": 175.85000610351562,
-    "trailing_stop_price": 178.487756
   },
   "MRVL": {
     "id": "MRVL_20260721144944",
@@ -407,7 +343,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.408270001411438,
+    "trailing_stop_price": 1.419536
   },
   "MU": {
     "id": "MU_20260721161036",
@@ -468,8 +406,8 @@
     "mode": "paper",
     "strategy_version": "63",
     "status": "open",
-    "price_trough": 289.7300109863281,
-    "trailing_stop_price": 294.075961
+    "price_trough": 286.2778015136719,
+    "trailing_stop_price": 290.571969
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260721185742",
@@ -525,6 +463,101 @@
       "How tokenized stocks could become a $3 trillion market",
       "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
       "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
+    "status": "open",
+    "price_peak": 6.590000152587891,
+    "trailing_stop_price": 6.548747
+  },
+  "SMCI": {
+    "id": "SMCI_20260722150630",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 31.864999771118164,
+    "entry_time": "2026-07-22T15:06:30.536248+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5827.57,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (90.2)",
+      "5d momentum +26.27%",
+      "1d momentum +27.54%",
+      "BB overbought (pct_b=1.25)",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge; price decline"
+    ],
+    "news_sentiment": 0.741,
+    "news_headlines": [
+      "Why Did Super Micro Computer Stock Soar Today?",
+      "Stocks to Watch: Super Micro Computer, AT&T, Tesla, Alphabet",
+      "Wall St mixed as caution builds ahead of Big Tech earnings"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
+    "status": "open"
+  },
+  "CVX": {
+    "id": "CVX_20260722150630",
+    "asset": "CVX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 193.0050048828125,
+    "entry_time": "2026-07-22T15:06:30.538175+00:00",
+    "stop_loss_pct": 0.00519,
+    "take_profit_pct": 0.01231,
+    "size_usd": 4956.78,
+    "position_size_pct": 0.0474,
+    "confidence": 0.74,
+    "signals": [
+      "RSI overbought (76.9)",
+      "MACD crossover",
+      "5d momentum +1.75%",
+      "1d momentum +4.99%",
+      "BB overbought (pct_b=0.98)",
+      "News +0.57 (conf 0.61) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.574,
+    "news_headlines": [
+      "3 Dividend Stocks Built for Long-Term Buy-and-Hold Investors",
+      "Update: US Equity Futures Drop Pre-Bell as Oil Prices Jump Amid Lack of Progress in US-Iran Talks",
+      "ExxonMobil and Oil Stocks Rise After Rubio Says Iran \u2018Not Serious\u2019 About Talks"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20260722150630",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 127.05500030517578,
+    "entry_time": "2026-07-22T15:06:30.539955+00:00",
+    "stop_loss_pct": 0.01491,
+    "take_profit_pct": 0.03721,
+    "size_usd": 1797.63,
+    "position_size_pct": 0.0172,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (24.1)",
+      "5d momentum -4.36%",
+      "1d momentum -5.19%",
+      "BB oversold (pct_b=-0.16)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: ma catalyst"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "ServiceNow Stock at a Crossroads: Why AI Concerns Dominate This Earnings Report",
+      "3 AI Stocks Flying Under the Radar to Buy Before July Ends",
+      "FTSE 100 Live: London blue chips surge to 4-month high as inflation softens"
     ],
     "mode": "paper",
     "strategy_version": "63",
