@@ -229,8 +229,8 @@
     "mode": "paper",
     "strategy_version": "61",
     "status": "open",
-    "price_trough": 15.234999656677246,
-    "trailing_stop_price": 15.446461
+    "price_trough": 15.1899995803833,
+    "trailing_stop_price": 15.400837
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
@@ -323,41 +323,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 176.10000610351562,
-    "trailing_stop_price": 178.741506
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260721144944",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 66829.453125,
-    "entry_time": "2026-07-21T14:49:44.802068+00:00",
-    "stop_loss_pct": 0.00456,
-    "take_profit_pct": 0.0111,
-    "size_usd": 5799.68,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (78.6)",
-      "5d momentum +0.87%",
-      "1d momentum +3.86%",
-      "BB overbought (pct_b=0.98)",
-      "Volume spike 5.3\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; fed dovish"
-    ],
-    "news_sentiment": 0.226,
-    "news_headlines": [
-      "Morgan Stanley's E*TRADE embraces crypto trading",
-      "Bitcoin and ethereum prices today, Monday, July 20, 2026: Crypto prices mixed as second half 2026 outlooks conflict",
-      "Stock Market Today: Nasdaq Higher As Chip Names Rally; Schwab Wavers (Live Coverage)"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_trough": 66243.6875,
-    "trailing_stop_price": 66545.758715
+    "price_trough": 175.85000610351562,
+    "trailing_stop_price": 178.487756
   },
   "MRVL": {
     "id": "MRVL_20260721144944",
@@ -501,8 +468,8 @@
     "mode": "paper",
     "strategy_version": "63",
     "status": "open",
-    "price_trough": 289.8500061035156,
-    "trailing_stop_price": 294.197756
+    "price_trough": 289.7300109863281,
+    "trailing_stop_price": 294.075961
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260721185742",
@@ -526,6 +493,66 @@
     "news_sentiment": -1.0,
     "news_headlines": [
       "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
+    "status": "open",
+    "price_trough": 186.04600524902344,
+    "trailing_stop_price": 187.534373
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260722010053",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.07377000153064728,
+    "entry_time": "2026-07-22T01:00:53.143450+00:00",
+    "stop_loss_pct": 0.00375,
+    "take_profit_pct": 0.00852,
+    "size_usd": 3604.1,
+    "position_size_pct": 0.0346,
+    "confidence": 0.541,
+    "signals": [
+      "5d momentum +0.38%",
+      "1d momentum +2.16%",
+      "BB overbought (pct_b=1.03)",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price decline"
+    ],
+    "news_sentiment": 0.203,
+    "news_headlines": [
+      "Top Cryptocurrencies Rise; Bitcoin Tops $66,000 Level",
+      "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Faster Selloffs' If\u2026",
+      "Grayscale Wants a Worldcoin ETF, but WLD Is Down 97% From Its Peak"
+    ],
+    "mode": "paper",
+    "strategy_version": "63",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260722010053",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 574.5800170898438,
+    "entry_time": "2026-07-22T01:00:53.148077+00:00",
+    "stop_loss_pct": 0.00235,
+    "take_profit_pct": 0.00545,
+    "size_usd": 2198.71,
+    "position_size_pct": 0.0211,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (41.8)",
+      "5d momentum +0.31%",
+      "1d momentum +0.47%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.143,
+    "news_headlines": [
+      "Top Cryptocurrencies Rise; Bitcoin Tops $66,000 Level",
+      "After $10M Wanchain bridge hack, Charles Hoskinson says crypto must change",
+      "Wanchain Bridge Breach Sends Midnight Token to All-Time Low"
     ],
     "mode": "paper",
     "strategy_version": "63",
