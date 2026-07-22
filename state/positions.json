@@ -105,8 +105,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 114.0770034790039,
-    "trailing_stop_price": 114.98962
+    "price_trough": 114.02799987792969,
+    "trailing_stop_price": 114.940224
   },
   "HAL": {
     "id": "HAL_20260721144944",
@@ -316,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "63",
     "status": "open",
-    "price_trough": 186.04600524902344,
-    "trailing_stop_price": 187.534373
+    "price_trough": 185.99400329589844,
+    "trailing_stop_price": 187.481955
   },
   "CVX": {
     "id": "CVX_20260722150630",
@@ -508,5 +508,57 @@
     "status": "open",
     "price_trough": 212.05999755859375,
     "trailing_stop_price": 214.184839
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260722213046",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.630000114440918,
+    "entry_time": "2026-07-22T21:30:46.784430+00:00",
+    "stop_loss_pct": 0.00521,
+    "take_profit_pct": 0.01207,
+    "size_usd": 4256.92,
+    "position_size_pct": 0.0405,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (74.1)",
+      "1d momentum +1.07%",
+      "BB overbought (pct_b=0.85)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "How tokenized stocks could become a $3 trillion market",
+      "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
+      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "64",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20260722213046",
+    "asset": "USD/NOK",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.584500312805176,
+    "entry_time": "2026-07-22T21:30:46.786747+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 1662.16,
+    "position_size_pct": 0.0158,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (21.9)",
+      "1d momentum -0.43%",
+      "BB oversold (pct_b=0.07)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "64",
+    "status": "open"
   }
 }
