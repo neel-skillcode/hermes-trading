@@ -3,15 +3,15 @@
   "portfolio_balance": 105077.9,
   "portfolio_peak": 105077.9,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": -161.0,
-  "equity_value": 104916.9,
+  "unrealized_pnl_usd": -153.25,
+  "equity_value": 104924.65,
   "open_positions": 19,
   "day_trades_open": 11,
   "swing_trades_open": 8,
   "day_capital_used_usd": 42031.16,
   "swing_capital_used_usd": 38364.07,
   "total_trades": 704,
-  "last_tick": "2026-07-22T22:28:56.833177+00:00",
+  "last_tick": "2026-07-22T23:31:33.232846+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.8408,
-      "unrealized_pnl_pct": 0.00083,
-      "unrealized_pnl_usd": 1.12
+      "current_price": 7.8397,
+      "unrealized_pnl_pct": 0.000689,
+      "unrealized_pnl_usd": 0.93
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 1.1405109167099,
       "trailing_stop_price": 1.149635,
-      "current_price": 1.141162,
-      "unrealized_pnl_pct": 0.002739,
-      "unrealized_pnl_usd": 18.93
+      "current_price": 1.141292,
+      "unrealized_pnl_pct": 0.002625,
+      "unrealized_pnl_usd": 18.14
     },
     {
       "id": "CAD/JPY_20260717125246",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 115.39600372314453,
       "trailing_stop_price": 116.319172,
-      "current_price": 115.760002,
-      "unrealized_pnl_pct": 0.000414,
-      "unrealized_pnl_usd": 1.85
+      "current_price": 115.799004,
+      "unrealized_pnl_pct": 7.8e-05,
+      "unrealized_pnl_usd": 0.35
     },
     {
       "id": "AUD/JPY_20260721111717",
@@ -132,11 +132,11 @@
       "mode": "paper",
       "strategy_version": "62",
       "status": "open",
-      "price_trough": 113.98699951171875,
-      "trailing_stop_price": 114.898896,
-      "current_price": 113.958,
-      "unrealized_pnl_pct": 0.001979,
-      "unrealized_pnl_usd": 6.21
+      "price_trough": 114.01300048828125,
+      "trailing_stop_price": 114.925104,
+      "current_price": 114.011002,
+      "unrealized_pnl_pct": 0.001515,
+      "unrealized_pnl_usd": 4.76
     },
     {
       "id": "HAL_20260721144944",
@@ -264,9 +264,9 @@
       "status": "open",
       "price_trough": 1.408270001411438,
       "trailing_stop_price": 1.419536,
-      "current_price": 1.40868,
-      "unrealized_pnl_pct": 0.000546,
-      "unrealized_pnl_usd": 3.66
+      "current_price": 1.40864,
+      "unrealized_pnl_pct": 0.000575,
+      "unrealized_pnl_usd": 3.85
     },
     {
       "id": "MU_20260721161036",
@@ -366,9 +366,9 @@
       "status": "open",
       "price_trough": 185.99400329589844,
       "trailing_stop_price": 187.481955,
-      "current_price": 186.063995,
-      "unrealized_pnl_pct": 4.3e-05,
-      "unrealized_pnl_usd": 0.29
+      "current_price": 186.104004,
+      "unrealized_pnl_pct": -0.000172,
+      "unrealized_pnl_usd": -1.18
     },
     {
       "id": "CVX_20260722150630",
@@ -606,11 +606,11 @@
       "mode": "paper",
       "strategy_version": "64",
       "status": "open",
-      "price_trough": 6.619999885559082,
-      "trailing_stop_price": 6.65449,
-      "current_price": 6.62,
-      "unrealized_pnl_pct": 0.001508,
-      "unrealized_pnl_usd": 6.42
+      "price_trough": 6.599999904632568,
+      "trailing_stop_price": 6.634386,
+      "current_price": 6.6,
+      "unrealized_pnl_pct": 0.004525,
+      "unrealized_pnl_usd": 19.26
     },
     {
       "id": "USD/NOK_20260722213046",
@@ -634,11 +634,11 @@
       "mode": "paper",
       "strategy_version": "64",
       "status": "open",
-      "price_peak": 9.59358024597168,
-      "trailing_stop_price": 9.574393,
-      "current_price": 9.59378,
-      "unrealized_pnl_pct": 0.000968,
-      "unrealized_pnl_usd": 1.61
+      "price_peak": 9.594470024108887,
+      "trailing_stop_price": 9.575281,
+      "current_price": 9.59447,
+      "unrealized_pnl_pct": 0.00104,
+      "unrealized_pnl_usd": 1.73
     }
   ],
   "last_candidates": [
@@ -706,6 +706,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "LYFT",
+      "rank_score": 0.6959,
+      "price": 14.640000343322754,
+      "rsi": 23.02405881188561,
+      "momentum_5d": -0.02008027078223319,
+      "momentum_1d": -0.06063520644922484,
+      "macd_crossover": false,
+      "atr_pct": 0.01323574848091215,
+      "bollinger_pct_b": 0.076,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.08,
+      "news_sentiment": 0.211,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Alphabet (GOOGL) Beats Q2 Earnings and Revenue Estimates",
+        "Update: Uber, Lyft Granted Preliminary Injunction Blocking New York City Law Against 'Wrongful Deactivations' of Drivers",
+        "Uber, Lyft Granted Preliminary Injunction Blocking New York City Law Against 'Wrongful Deactivations' of Drivers"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "RBLX",
       "rank_score": 0.6915,
       "price": 49.63999938964844,
@@ -723,27 +744,6 @@
         "Roblox\u2019s Mobile AI Build Launch Amid Safety Lawsuits Might Change The Case For Investing In RBLX",
         "Roblox (RBLX) Unveiled Build, Is The Stock Fully Priced?",
         "What\u2019s in the Proposed Crackdown on Megasize Retirement Accounts"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LYFT",
-      "rank_score": 0.6878,
-      "price": 14.640000343322754,
-      "rsi": 23.02405881188561,
-      "momentum_5d": -0.02008027078223319,
-      "momentum_1d": -0.06063520644922484,
-      "macd_crossover": false,
-      "atr_pct": 0.01323574848091215,
-      "bollinger_pct_b": 0.076,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.08,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Update: Uber, Lyft Granted Preliminary Injunction Blocking New York City Law Against 'Wrongful Deactivations' of Drivers",
-        "Uber, Lyft Granted Preliminary Injunction Blocking New York City Law Against 'Wrongful Deactivations' of Drivers",
-        "Uber, Lyft win court block on NYC law requiring notice before firing drivers"
       ],
       "high_impact_news": true
     },
@@ -770,7 +770,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.663,
+      "rank_score": 0.6618,
       "price": 342.07000732421875,
       "rsi": 22.707531642731524,
       "momentum_5d": -0.015526712245930939,
@@ -780,11 +780,11 @@
       "bollinger_pct_b": -0.0516,
       "volume_spike": true,
       "volume_spike_ratio": 2.16,
-      "news_sentiment": 0.718,
-      "news_confidence": 0.71,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.77,
       "news_headlines": [
-        "Tech stocks live: Big Tech earnings kickoff with Google, Tesla",
-        "Alphabet's cloud revenue is its 'single most linear' indicator of AI ROI",
+        "Inside Alphabet's earnings call with Google CEO Sundar Pichai",
+        "Google Q2 earnings top expectations, cloud revenue grows 82%, but stock falls on capex growth",
         "Options strategist reveals how he'd trading Alphabet ahead of earnings"
       ],
       "high_impact_news": true
@@ -825,36 +825,15 @@
       "news_sentiment": 0.77,
       "news_confidence": 0.61,
       "news_headlines": [
+        "Stocks Slip as Alphabet Gets Ready to Report: Stock Market Today",
         "The Winners And Losers During Oil's Worst Traffic Jam In Years",
-        "3 Dividend Stocks Built for Long-Term Buy-and-Hold Investors",
-        "Here's What to Expect From ExxonMobil's Next Earnings Report"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SMCI",
-      "rank_score": 0.6398,
-      "price": 30.5398006439209,
-      "rsi": 83.86035045126589,
-      "momentum_5d": -0.034619869670841734,
-      "momentum_1d": 0.2143062070434177,
-      "macd_crossover": false,
-      "atr_pct": 0.031302946656959804,
-      "bollinger_pct_b": 0.7808,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.07,
-      "news_sentiment": 0.782,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq slip as oil prices rise, Alphabet and Tesla earnings in focus",
-        "Supermicro stock jumps on gross margin raise amid record $60 billion backlog",
-        "Dow Jones Futures: Google, Tesla Fall On Earnings, But Strong Capex Lifts AI Stocks"
+        "3 Dividend Stocks Built for Long-Term Buy-and-Hold Investors"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ON",
-      "rank_score": 0.6375,
+      "rank_score": 0.6295,
       "price": 92.33999633789062,
       "rsi": 73.68201293614479,
       "momentum_5d": -0.01598465535525955,
@@ -864,12 +843,33 @@
       "bollinger_pct_b": 0.7249,
       "volume_spike": true,
       "volume_spike_ratio": 2.08,
-      "news_sentiment": 0.902,
-      "news_confidence": 0.61,
+      "news_sentiment": 0.855,
+      "news_confidence": 0.55,
       "news_headlines": [
+        "ON Semiconductor Corp. (ON) Gains As Market Dips: What You Should Know",
         "ON Semiconductor Corporation (ON) Is a Trending Stock: Facts to Know Before Betting on It",
-        "Nvidia Returns to NZS Growth Fund",
-        "Micron, Nvidia, Netflix, SK Hynix, Alphabet, Intuitive Surgical, and More Stocks That Explain Today\u2019s Market"
+        "Nvidia Returns to NZS Growth Fund"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SMCI",
+      "rank_score": 0.6288,
+      "price": 30.5398006439209,
+      "rsi": 83.86035045126589,
+      "momentum_5d": -0.034619869670841734,
+      "momentum_1d": 0.2143062070434177,
+      "macd_crossover": false,
+      "atr_pct": 0.031302946656959804,
+      "bollinger_pct_b": 0.7808,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.07,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Supermicro stock jumps on gross margin raise amid record $60 billion backlog",
+        "Dow Jones Futures: Google, Tesla Fall On Earnings, Capex",
+        "Stock Market Today, July 22: Nasdaq Slides Prior to Tesla and Alphabet's Earnings After Market Close"
       ],
       "high_impact_news": true
     },
@@ -909,9 +909,9 @@
       "news_sentiment": 0.527,
       "news_confidence": 0.55,
       "news_headlines": [
+        "This 1 Momentum ETF Is Still Beating the S&P 500 With Lower Drawdowns",
         "After a Tough Day, ServiceNow Reports Solid Earnings",
-        "Palantir Stock Tumbles Ahead of Earnings. Here's What's Spooking Investors",
-        "3 Reasons Investors Love Palantir Technologies (PLTR)"
+        "Palantir Stock Tumbles Ahead of Earnings. Here's What's Spooking Investors"
       ],
       "high_impact_news": true
     },
@@ -930,15 +930,15 @@
       "news_sentiment": 0.467,
       "news_confidence": 0.3,
       "news_headlines": [
+        "Why Uber Technologies (UBER) Dipped More Than Broader Market Today",
         "Kalanick\u2019s Atoms raises $1.7B in a16z-led round for industrial AI",
-        "Sunteck Realty Ltd (BOM:512179) Q1 2027 Earnings Call Highlights: Strong Growth in Pre-sales ...",
-        "Travis Kalanick\u2019s robotics company raises $1.7B, led by a16z"
+        "Sunteck Realty Ltd (BOM:512179) Q1 2027 Earnings Call Highlights: Strong Growth in Pre-sales ..."
       ],
       "high_impact_news": true
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.5595,
+      "rank_score": 0.5545,
       "price": 396.69000244140625,
       "rsi": 88.44200051039907,
       "momentum_5d": 0.012739316004252672,
@@ -948,12 +948,12 @@
       "bollinger_pct_b": 0.8833,
       "volume_spike": false,
       "volume_spike_ratio": 1.28,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.35,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
       "news_headlines": [
+        "Chasing Yield Is a Trap. These 3 Dividend ETFs Pay You Without the Risk",
         "This $222 Billion Vanguard ETF Is Trailing the S&P 500. That Almost Never Happens.",
-        "AMD\u2019s Microsoft Win Signals Dominance Over NVIDIA and Our Price Target Reflects It",
-        "Wall Street is Bullish on Marvell. Here\u2019s Our Price Target."
+        "AMD\u2019s Microsoft Win Signals Dominance Over NVIDIA and Our Price Target Reflects It"
       ],
       "high_impact_news": true
     },
@@ -993,9 +993,9 @@
       "news_sentiment": 0.333,
       "news_confidence": 0.48,
       "news_headlines": [
+        "Vertex Pharmaceuticals (VRTX) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
         "Vertex was sole bidder in high-premium Crinetics acquisition",
-        "Biotech IPO Gains Crush AI Listings With Standout 55% Return",
-        "Why Vertex Pharmaceuticals (VRTX) Dipped More Than Broader Market Today"
+        "Biotech IPO Gains Crush AI Listings With Standout 55% Return"
       ],
       "high_impact_news": true
     },
@@ -1042,23 +1042,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "META",
-      "rank_score": 0.5161,
-      "price": 627.0700073242188,
-      "rsi": 17.90241491697614,
-      "momentum_5d": -0.00408170901535495,
-      "momentum_1d": -0.03808868869449935,
+      "asset": "MPC",
+      "rank_score": 0.5156,
+      "price": 315.8999938964844,
+      "rsi": 51.409103378734066,
+      "momentum_5d": -0.01401545527274092,
+      "momentum_1d": 0.018572189901313315,
       "macd_crossover": false,
-      "atr_pct": 0.008494703055539893,
-      "bollinger_pct_b": 0.1337,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.37,
-      "news_sentiment": 0.309,
-      "news_confidence": 0.55,
+      "atr_pct": 0.00976831633318947,
+      "bollinger_pct_b": 0.1964,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.03,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Anthropic and AMD are signing a major AI chip deal. What could this mean for Nvidia?",
-        "Google\u2019s Red-Hot Cloud Growth Drives Second-Quarter Revenue Gains",
-        "Alphabet Stock Falls as AI Spending Continues to Mount"
+        "Marathon Petroleum vs. HF Sinclair: Picking the Better Refining Play",
+        "Marathon Petroleum (MPC) Exceeds Market Returns: Some Facts to Consider",
+        "How Time, Not a Trade, Could Re-Rate Chevron Stock"
       ],
       "high_impact_news": true
     }
