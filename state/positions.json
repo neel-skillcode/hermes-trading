@@ -135,38 +135,6 @@
     "price_trough": 115.39600372314453,
     "trailing_stop_price": 116.319172
   },
-  "LYFT": {
-    "id": "LYFT_20260720200021",
-    "asset": "LYFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 15.399999618530273,
-    "entry_time": "2026-07-20T20:00:21.380608+00:00",
-    "stop_loss_pct": 0.01388,
-    "take_profit_pct": 0.03287,
-    "size_usd": 4871.19,
-    "position_size_pct": 0.0472,
-    "confidence": 0.737,
-    "signals": [
-      "RSI oversold (35.4)",
-      "5d momentum -0.68%",
-      "1d momentum -5.03%",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.391,
-    "news_headlines": [
-      "Lyft (LYFT) Declines More Than Market: Some Information for Investors",
-      "Alphabet's Waymo, Baidu Ahead of Competitors in Robotaxi Space, Wedbush Says",
-      "Lyft (LYFT) Wins an Upgrade From Rothschild Redburn as Its Price Target Triples"
-    ],
-    "mode": "paper",
-    "strategy_version": "61",
-    "status": "open",
-    "price_trough": 14.904999732971191,
-    "trailing_stop_price": 15.111881
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
     "asset": "AUD/JPY",
@@ -435,8 +403,8 @@
     "mode": "paper",
     "strategy_version": "63",
     "status": "open",
-    "price_trough": 31.7549991607666,
-    "trailing_stop_price": 32.231324
+    "price_trough": 31.009899139404297,
+    "trailing_stop_price": 31.475048
   },
   "CVX": {
     "id": "CVX_20260722150630",
@@ -471,36 +439,6 @@
     "status": "open",
     "price_trough": 192.59500122070312,
     "trailing_stop_price": 193.594569
-  },
-  "PLTR": {
-    "id": "PLTR_20260722150630",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 127.05500030517578,
-    "entry_time": "2026-07-22T15:06:30.539955+00:00",
-    "stop_loss_pct": 0.01491,
-    "take_profit_pct": 0.03721,
-    "size_usd": 1797.63,
-    "position_size_pct": 0.0172,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (24.1)",
-      "5d momentum -4.36%",
-      "1d momentum -5.19%",
-      "BB oversold (pct_b=-0.16)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: ma catalyst"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "ServiceNow Stock at a Crossroads: Why AI Concerns Dominate This Earnings Report",
-      "3 AI Stocks Flying Under the Radar to Buy Before July Ends",
-      "FTSE 100 Live: London blue chips surge to 4-month high as inflation softens"
-    ],
-    "mode": "paper",
-    "strategy_version": "63",
-    "status": "open"
   },
   "RBLX": {
     "id": "RBLX_20260722164049",
@@ -587,6 +525,66 @@
       "Prediction: ServiceNow Stock Will Soar After Earnings if It Delivers on This AI Metric",
       "CRM, WDAY, TEAM Bounce Back: Can Momentum Continue?",
       "Morgan Stanley Slashes Salesforce Price Target By 35%"
+    ],
+    "mode": "paper",
+    "strategy_version": "64",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20260722175310",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 124.0,
+    "entry_time": "2026-07-22T17:53:10.516490+00:00",
+    "stop_loss_pct": 0.01442,
+    "take_profit_pct": 0.03597,
+    "size_usd": 6643.24,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (2.9)",
+      "5d momentum -6.50%",
+      "1d momentum -5.83%",
+      "BB oversold (pct_b=-0.03)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: ma catalyst"
+    ],
+    "news_sentiment": 0.407,
+    "news_headlines": [
+      "3 Reasons Investors Love Palantir Technologies (PLTR)",
+      "Prediction: ServiceNow Stock Will Soar After Earnings if It Delivers on This AI Metric",
+      "Palantir Technologies (PLTR) Could Be 23% Below Fair Value On Split Valuation Views"
+    ],
+    "mode": "paper",
+    "strategy_version": "64",
+    "status": "open"
+  },
+  "NVDA": {
+    "id": "NVDA_20260722175310",
+    "asset": "NVDA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 214.0050048828125,
+    "entry_time": "2026-07-22T17:53:10.518542+00:00",
+    "stop_loss_pct": 0.01002,
+    "take_profit_pct": 0.02401,
+    "size_usd": 77.19,
+    "position_size_pct": 0.0007,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (79.9)",
+      "5d momentum +3.29%",
+      "1d momentum +4.94%",
+      "BB overbought (pct_b=1.01)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.535,
+    "news_headlines": [
+      "China's open-source AI models are 'excellent' and 'should be used': Nvidia CEO Jensen Huang",
+      "How to tap real-time options data with Yahoo Finance AlphaSpace",
+      "A violent AI unwind is hiding beneath a resilient stock market: Chart of the Day"
     ],
     "mode": "paper",
     "strategy_version": "64",
