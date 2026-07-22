@@ -23,37 +23,6 @@
     "price_peak": 7.844130039215088,
     "trailing_stop_price": 7.781377
   },
-  "V": {
-    "id": "V_20260707180911",
-    "asset": "V",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 350.2200012207031,
-    "entry_time": "2026-07-07T18:09:11.702480+00:00",
-    "stop_loss_pct": 0.0304,
-    "take_profit_pct": 0.1019,
-    "size_usd": 2352.02,
-    "position_size_pct": 0.0235,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (31.4)",
-      "5d momentum -1.99%",
-      "BB oversold (pct_b=0.11)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.387,
-    "news_headlines": [
-      "Bitcoin's best week since March as massive spot ETF inflows return",
-      "Visa vs Coinbase: Two Different Economic Playbooks But One Winner",
-      "3 Reasons We Love Visa (V)"
-    ],
-    "mode": "paper",
-    "strategy_version": "49",
-    "status": "open",
-    "price_peak": 365.1400146484375,
-    "trailing_stop_price": 354.039758
-  },
   "EUR/USD": {
     "id": "EUR/USD_20260714123906",
     "asset": "EUR/USD",
@@ -310,7 +279,9 @@
     ],
     "mode": "paper",
     "strategy_version": "63",
-    "status": "open"
+    "status": "open",
+    "price_trough": 967.760009765625,
+    "trailing_stop_price": 982.27641
   },
   "ARM": {
     "id": "ARM_20260721174401",
@@ -403,8 +374,8 @@
     "mode": "paper",
     "strategy_version": "63",
     "status": "open",
-    "price_trough": 31.009899139404297,
-    "trailing_stop_price": 31.475048
+    "price_trough": 30.860000610351562,
+    "trailing_stop_price": 31.322901
   },
   "CVX": {
     "id": "CVX_20260722150630",
@@ -498,7 +469,9 @@
     ],
     "mode": "paper",
     "strategy_version": "64",
-    "status": "open"
+    "status": "open",
+    "price_peak": 655.4301147460938,
+    "trailing_stop_price": 650.324314
   },
   "CRM": {
     "id": "CRM_20260722164050",
@@ -588,6 +561,8 @@
     ],
     "mode": "paper",
     "strategy_version": "64",
-    "status": "open"
+    "status": "open",
+    "price_trough": 213.72999572753906,
+    "trailing_stop_price": 215.87157
   }
 }
