@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104080.6,
+  "portfolio_balance": 104131.15,
   "portfolio_peak": 104311.57,
-  "portfolio_drawdown_pct": 0.22,
-  "unrealized_pnl_usd": 346.84,
-  "equity_value": 104427.44,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 0.17,
+  "unrealized_pnl_usd": 336.11,
+  "equity_value": 104467.26,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41632.24,
+  "day_capital_used_usd": 41652.46,
   "swing_capital_used_usd": 46258.19,
-  "total_trades": 693,
-  "last_tick": "2026-07-22T04:24:36.149569+00:00",
+  "total_trades": 695,
+  "last_tick": "2026-07-22T07:06:21.829573+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 8,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.83954,
-      "unrealized_pnl_pct": 0.000669,
-      "unrealized_pnl_usd": 0.9
+      "current_price": 7.83963,
+      "unrealized_pnl_pct": 0.00068,
+      "unrealized_pnl_usd": 0.91
     },
     {
       "id": "V_20260707180911",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 1.1405109167099,
       "trailing_stop_price": 1.149635,
-      "current_price": 1.140901,
-      "unrealized_pnl_pct": 0.002966,
-      "unrealized_pnl_usd": 20.5
+      "current_price": 1.141292,
+      "unrealized_pnl_pct": 0.002625,
+      "unrealized_pnl_usd": 18.14
     },
     {
       "id": "USD/NOK_20260717114933",
@@ -136,9 +136,9 @@
       "status": "open",
       "price_peak": 9.673959732055664,
       "trailing_stop_price": 9.596568,
-      "current_price": 9.62278,
-      "unrealized_pnl_pct": -0.002698,
-      "unrealized_pnl_usd": -14.95
+      "current_price": 9.62631,
+      "unrealized_pnl_pct": -0.002332,
+      "unrealized_pnl_usd": -12.92
     },
     {
       "id": "CAD/JPY_20260717125246",
@@ -164,9 +164,9 @@
       "status": "open",
       "price_trough": 115.39600372314453,
       "trailing_stop_price": 116.319172,
-      "current_price": 115.676003,
-      "unrealized_pnl_pct": 0.00114,
-      "unrealized_pnl_usd": 5.08
+      "current_price": 115.704002,
+      "unrealized_pnl_pct": 0.000898,
+      "unrealized_pnl_usd": 4.0
     },
     {
       "id": "MRNA_20260720200021",
@@ -300,11 +300,11 @@
       "mode": "paper",
       "strategy_version": "62",
       "status": "open",
-      "price_trough": 114.14700317382812,
-      "trailing_stop_price": 115.060179,
-      "current_price": 114.194,
-      "unrealized_pnl_pct": -8.8e-05,
-      "unrealized_pnl_usd": -0.28
+      "price_trough": 114.09600067138672,
+      "trailing_stop_price": 115.008769,
+      "current_price": 114.092003,
+      "unrealized_pnl_pct": 0.000806,
+      "unrealized_pnl_usd": 2.53
     },
     {
       "id": "HAL_20260721144944",
@@ -465,9 +465,9 @@
       "mode": "paper",
       "strategy_version": "62",
       "status": "open",
-      "current_price": 1.41071,
-      "unrealized_pnl_pct": -0.000894,
-      "unrealized_pnl_usd": -5.99
+      "current_price": 1.40966,
+      "unrealized_pnl_pct": -0.000149,
+      "unrealized_pnl_usd": -1.0
     },
     {
       "id": "MU_20260721161036",
@@ -565,73 +565,40 @@
       "status": "open",
       "price_trough": 186.04600524902344,
       "trailing_stop_price": 187.534373,
-      "current_price": 186.128998,
-      "unrealized_pnl_pct": -0.000306,
-      "unrealized_pnl_usd": -2.09
+      "current_price": 186.089996,
+      "unrealized_pnl_pct": -9.7e-05,
+      "unrealized_pnl_usd": -0.66
     },
     {
-      "id": "DOGE-USD_20260722010053",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.07377000153064728,
-      "entry_time": "2026-07-22T01:00:53.143450+00:00",
-      "stop_loss_pct": 0.00375,
-      "take_profit_pct": 0.00852,
-      "size_usd": 3604.1,
-      "position_size_pct": 0.0346,
-      "confidence": 0.541,
-      "signals": [
-        "5d momentum +0.38%",
-        "1d momentum +2.16%",
-        "BB overbought (pct_b=1.03)",
-        "High-impact catalyst",
-        "Claude [contradicts]: product catalyst; price decline"
-      ],
-      "news_sentiment": 0.203,
-      "news_headlines": [
-        "Top Cryptocurrencies Rise; Bitcoin Tops $66,000 Level",
-        "Bitcoin, Dogecoin Flat; Ethereum, XRP Gain as US-Iran Hostilities Continue: Analyst Says Short-term Gains Can Invite 'Faster Selloffs' If\u2026",
-        "Grayscale Wants a Worldcoin ETF, but WLD Is Down 97% From Its Peak"
-      ],
-      "mode": "paper",
-      "strategy_version": "63",
-      "status": "open",
-      "price_trough": 0.07339999824762344,
-      "trailing_stop_price": 0.073675,
-      "current_price": 0.07339,
-      "unrealized_pnl_pct": 0.005151,
-      "unrealized_pnl_usd": 18.57
-    },
-    {
-      "id": "ETH-USD_20260722042436",
-      "asset": "ETH-USD",
+      "id": "AVAX-USD_20260722070621",
+      "asset": "AVAX-USD",
       "trade_type": "day",
       "direction": "long",
-      "entry_price": 1934.239990234375,
-      "entry_time": "2026-07-22T04:24:36.143846+00:00",
-      "stop_loss_pct": 0.00431,
-      "take_profit_pct": 0.00997,
-      "size_usd": 2193.89,
-      "position_size_pct": 0.0211,
-      "confidence": 0.624,
+      "entry_price": 6.5,
+      "entry_time": "2026-07-22T07:06:21.823379+00:00",
+      "stop_loss_pct": 0.00626,
+      "take_profit_pct": 0.01561,
+      "size_usd": 5818.21,
+      "position_size_pct": 0.0559,
+      "confidence": 0.99,
       "signals": [
-        "5d momentum +0.59%",
-        "1d momentum +0.57%",
-        "Volume spike 2.4\u00d7",
+        "RSI oversold (33.3)",
+        "5d momentum -1.37%",
+        "1d momentum -2.55%",
+        "BB oversold (pct_b=0.05)",
         "High-impact catalyst",
-        "Claude [supports]: analyst upgrade"
+        "Claude [strongly_supports]: analyst upgrade"
       ],
-      "news_sentiment": 0.294,
+      "news_sentiment": 0.444,
       "news_headlines": [
-        "Bitcoin and ethereum prices today, Tuesday, July 21, 2026: Crypto prices rise as investors\u2019 risk appetite returns",
-        "Bitcoin, Ethereum, XRP, Dogecoin Lift Amid Crypto Bill Optimism: Analyst Flags BTC's 'Biggest Test'",
-        "S&P Dow Jones New Crypto Index Snubs Bitcoin, Not a Revenue-Generating Protocol"
+        "How tokenized stocks could become a $3 trillion market",
+        "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
+        "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
       ],
       "mode": "paper",
       "strategy_version": "63",
       "status": "open",
-      "current_price": 1934.23999,
+      "current_price": 6.5,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -764,6 +731,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "INTC",
+      "rank_score": 0.5727,
+      "price": 105.43000030517578,
+      "rsi": 81.18363529949468,
+      "momentum_5d": 0.011076468591661713,
+      "momentum_1d": 0.09140788789370657,
+      "macd_crossover": false,
+      "atr_pct": 0.019918306212185453,
+      "bollinger_pct_b": 0.8768,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 0.933,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Supermicro stock jumps on gross margin raise amid record $60 billion backlog",
+        "Tech stocks live: Tech-heavy Nasdaq climbs ahead of Big Tech earnings kickoff",
+        "ASML Lifts 2026 Outlook As High NA EUV Enters Intel Production Might Change The Case For Investing In ASML Holding (ENXTAM:ASML)"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMD",
       "rank_score": 0.5593,
       "price": 544.4390258789062,
@@ -781,27 +769,6 @@
         "Supermicro stock jumps on gross margin raise amid record $60 billion backlog",
         "Tech stocks live: Tech-heavy Nasdaq climbs ahead of Big Tech earnings kickoff",
         "Why AMD Stock Jumped Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "INTC",
-      "rank_score": 0.5548,
-      "price": 105.43000030517578,
-      "rsi": 81.18363529949468,
-      "momentum_5d": 0.011076468591661713,
-      "momentum_1d": 0.09140788789370657,
-      "macd_crossover": false,
-      "atr_pct": 0.019918306212185453,
-      "bollinger_pct_b": 0.8768,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.679,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Supermicro stock jumps on gross margin raise amid record $60 billion backlog",
-        "Tech stocks live: Tech-heavy Nasdaq climbs ahead of Big Tech earnings kickoff",
-        "Is SK Hynix Buying Intel\u2019s Ohio Fab? Korean Chipmaker Denies Report \u2014 Now All Eyes Are on Earnings"
       ],
       "high_impact_news": true
     },
@@ -869,27 +836,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MCD",
-      "rank_score": 0.5309,
-      "price": 263.8900146484375,
-      "rsi": 31.175892307877888,
-      "momentum_5d": -0.004132199043927994,
-      "momentum_1d": -0.028405206184796705,
-      "macd_crossover": false,
-      "atr_pct": 0.004789605610014836,
-      "bollinger_pct_b": 0.1281,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.53,
-      "news_sentiment": 0.222,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "McDonald's (MCD) Stock Declines While Market Improves: Some Information for Investors",
-        "Domino's Stock Faces a Tough Test Between Value and Near-Term Risk",
-        "Can Starbucks Turn Traffic Gains Into Sustainable Earnings Growth?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "OXY",
       "rank_score": 0.5302,
       "price": 56.494998931884766,
@@ -911,27 +857,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MU",
-      "rank_score": 0.5252,
-      "price": 969.780029296875,
-      "rsi": 79.09280964838725,
-      "momentum_5d": 0.0147061697349916,
-      "momentum_1d": 0.13661196713163512,
-      "macd_crossover": false,
-      "atr_pct": 0.024009052442907675,
-      "bollinger_pct_b": 0.8682,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.64,
-      "news_sentiment": 0.167,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Why GM's memory chip guidance could help stabilize stocks like Micron and Sandisk",
-        "Dow Jones Futures: S&P 500 Regains 50-Day As Sandisk, Micron Soar; Google, Tesla Earnings Due",
-        "MU, SNDK, WDC Socks Rise Sharply For Second Day: Retail Feels Memory Pullback Is Over"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ON",
       "rank_score": 0.5238,
       "price": 91.05999755859375,
@@ -949,6 +874,48 @@
         "ON Semiconductor Corporation (ON) Is a Trending Stock: Facts to Know Before Betting on It",
         "Nvidia Returns to NZS Growth Fund",
         "Micron, Nvidia, Netflix, SK Hynix, Alphabet, Intuitive Surgical, and More Stocks That Explain Today\u2019s Market"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MCD",
+      "rank_score": 0.5189,
+      "price": 263.8900146484375,
+      "rsi": 31.175892307877888,
+      "momentum_5d": -0.004132199043927994,
+      "momentum_1d": -0.028405206184796705,
+      "macd_crossover": false,
+      "atr_pct": 0.004789605610014836,
+      "bollinger_pct_b": 0.1281,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.53,
+      "news_sentiment": 0.023,
+      "news_confidence": 0.58,
+      "news_headlines": [
+        "Why Did PSKY, MCD, NOC Stocks Tumble To 52-Week Lows Today?",
+        "McDonald's (MCD) Stock Declines While Market Improves: Some Information for Investors",
+        "Domino's Stock Faces a Tough Test Between Value and Near-Term Risk"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MU",
+      "rank_score": 0.5171,
+      "price": 969.780029296875,
+      "rsi": 79.09280964838725,
+      "momentum_5d": 0.0147061697349916,
+      "momentum_1d": 0.13661196713163512,
+      "macd_crossover": false,
+      "atr_pct": 0.024009052442907675,
+      "bollinger_pct_b": 0.8682,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.64,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Why GM's memory chip guidance could help stabilize stocks like Micron and Sandisk",
+        "Micron, Western Digital, and Sandisk Just Jumped 12% to 14%. Here's the Forecast That Did It.",
+        "Dow Jones Futures: S&P 500 Regains 50-Day As Sandisk, Micron Soar; Google, Tesla Earnings Due"
       ],
       "high_impact_news": true
     },
