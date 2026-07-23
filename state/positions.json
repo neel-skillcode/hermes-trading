@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_trough": 1.1405109167099,
-    "trailing_stop_price": 1.149635
+    "price_trough": 1.140380859375,
+    "trailing_stop_price": 1.149504
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260717125246",
@@ -509,37 +509,6 @@
     "price_trough": 212.05999755859375,
     "trailing_stop_price": 214.184839
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260722213046",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.630000114440918,
-    "entry_time": "2026-07-22T21:30:46.784430+00:00",
-    "stop_loss_pct": 0.00521,
-    "take_profit_pct": 0.01207,
-    "size_usd": 4256.92,
-    "position_size_pct": 0.0405,
-    "confidence": 0.633,
-    "signals": [
-      "RSI overbought (74.1)",
-      "1d momentum +1.07%",
-      "BB overbought (pct_b=0.85)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "How tokenized stocks could become a $3 trillion market",
-      "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
-      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
-    ],
-    "mode": "paper",
-    "strategy_version": "64",
-    "status": "open",
-    "price_trough": 6.559999942779541,
-    "trailing_stop_price": 6.594178
-  },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
     "asset": "EUR/GBP",
@@ -567,7 +536,9 @@
     ],
     "mode": "paper",
     "strategy_version": "64",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.8532199859619141,
+    "trailing_stop_price": 0.860046
   },
   "AUD/USD": {
     "id": "AUD/USD_20260723042718",
@@ -593,6 +564,38 @@
       "EUR/USD, USD/CAD, and AUD/USD Forecasts \u2013 Major Pairs Test Key Moving Average Bounds",
       "US Dollar In Uptrend Despite Pullback",
       "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience"
+    ],
+    "mode": "paper",
+    "strategy_version": "64",
+    "status": "open",
+    "price_trough": 0.6998390555381775,
+    "trailing_stop_price": 0.705438
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260723112708",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.5793071389198303,
+    "entry_time": "2026-07-23T11:27:08.116626+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 5878.12,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (24.7)",
+      "5d momentum -0.40%",
+      "1d momentum -0.45%",
+      "BB oversold (pct_b=-0.07)",
+      "High-impact catalyst",
+      "Claude [neutral]: fed hawkish"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "US Dollar In Uptrend Despite Pullback",
+      "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience",
+      "Currencies Forecast \u2013 RBNZ Rate Hike Sparks Kiwi Rally Amid Global Consolidation"
     ],
     "mode": "paper",
     "strategy_version": "64",
