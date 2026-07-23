@@ -3,15 +3,15 @@
   "portfolio_balance": 105073.65,
   "portfolio_peak": 105077.9,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": -143.43,
-  "equity_value": 104930.22,
+  "unrealized_pnl_usd": -140.93,
+  "equity_value": 104932.72,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40369.0,
   "swing_capital_used_usd": 51820.22,
   "total_trades": 705,
-  "last_tick": "2026-07-23T07:05:40.817514+00:00",
+  "last_tick": "2026-07-23T09:32:06.047843+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.84086,
-      "unrealized_pnl_pct": 0.000837,
-      "unrealized_pnl_usd": 1.13
+      "current_price": 7.8403,
+      "unrealized_pnl_pct": 0.000766,
+      "unrealized_pnl_usd": 1.03
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 1.1405109167099,
       "trailing_stop_price": 1.149635,
-      "current_price": 1.142596,
-      "unrealized_pnl_pct": 0.001485,
-      "unrealized_pnl_usd": 10.27
+      "current_price": 1.141422,
+      "unrealized_pnl_pct": 0.002511,
+      "unrealized_pnl_usd": 17.36
     },
     {
       "id": "CAD/JPY_20260717125246",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 115.39600372314453,
       "trailing_stop_price": 116.319172,
-      "current_price": 115.995003,
-      "unrealized_pnl_pct": -0.001615,
-      "unrealized_pnl_usd": -7.19
+      "current_price": 116.026001,
+      "unrealized_pnl_pct": -0.001882,
+      "unrealized_pnl_usd": -8.39
     },
     {
       "id": "AUD/JPY_20260721111717",
@@ -134,9 +134,9 @@
       "status": "open",
       "price_trough": 114.02799987792969,
       "trailing_stop_price": 114.940224,
-      "current_price": 114.239998,
-      "unrealized_pnl_pct": -0.00049,
-      "unrealized_pnl_usd": -1.54
+      "current_price": 114.334999,
+      "unrealized_pnl_pct": -0.001322,
+      "unrealized_pnl_usd": -4.15
     },
     {
       "id": "HAL_20260721144944",
@@ -264,9 +264,9 @@
       "status": "open",
       "price_trough": 1.4062800407409668,
       "trailing_stop_price": 1.41753,
-      "current_price": 1.40667,
-      "unrealized_pnl_pct": 0.001972,
-      "unrealized_pnl_usd": 13.21
+      "current_price": 1.4081,
+      "unrealized_pnl_pct": 0.000958,
+      "unrealized_pnl_usd": 6.42
     },
     {
       "id": "MU_20260721161036",
@@ -366,9 +366,9 @@
       "status": "open",
       "price_trough": 185.99400329589844,
       "trailing_stop_price": 187.481955,
-      "current_price": 186.348999,
-      "unrealized_pnl_pct": -0.001489,
-      "unrealized_pnl_usd": -10.17
+      "current_price": 186.408997,
+      "unrealized_pnl_pct": -0.001811,
+      "unrealized_pnl_usd": -12.38
     },
     {
       "id": "CVX_20260722150630",
@@ -640,9 +640,11 @@
       "mode": "paper",
       "strategy_version": "64",
       "status": "open",
-      "current_price": 0.85418,
-      "unrealized_pnl_pct": -0.000293,
-      "unrealized_pnl_usd": -2.04
+      "price_trough": 0.853600025177002,
+      "trailing_stop_price": 0.860429,
+      "current_price": 0.85355,
+      "unrealized_pnl_pct": 0.000445,
+      "unrealized_pnl_usd": 3.1
     },
     {
       "id": "AUD/USD_20260723042718",
@@ -672,11 +674,11 @@
       "mode": "paper",
       "strategy_version": "64",
       "status": "open",
-      "price_trough": 0.7004762887954712,
-      "trailing_stop_price": 0.70608,
-      "current_price": 0.700476,
-      "unrealized_pnl_pct": 0.002382,
-      "unrealized_pnl_usd": 15.47
+      "price_trough": 0.7001330256462097,
+      "trailing_stop_price": 0.705734,
+      "current_price": 0.700133,
+      "unrealized_pnl_pct": 0.002871,
+      "unrealized_pnl_usd": 18.65
     }
   ],
   "last_candidates": [
@@ -787,7 +789,7 @@
     },
     {
       "asset": "CRM",
-      "rank_score": 0.679,
+      "rank_score": 0.677,
       "price": 163.0,
       "rsi": 16.861556432582987,
       "momentum_5d": -0.014808080951543453,
@@ -797,33 +799,12 @@
       "bollinger_pct_b": 0.1373,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.472,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.451,
+      "news_confidence": 0.51,
       "news_headlines": [
+        "CRM, MSFT Are Already Weathering The 'SaaSpocalypse' \u2014 Now Jack Dorsey's Block Is Buzzing In With A New AI Rival",
         "CRM Paid Holders $63 Billion While The Stock Went Nowhere",
-        "The One Big Bet That Could Reignite Adobe Stock",
-        "Adobe Drops 40% From 52-Week High: Buy, Sell or Hold the Stock?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.665,
-      "price": 342.07000732421875,
-      "rsi": 22.707531642731524,
-      "momentum_5d": -0.015526712245930939,
-      "momentum_1d": -0.01021411665785548,
-      "macd_crossover": false,
-      "atr_pct": 0.006591123292420025,
-      "bollinger_pct_b": -0.0516,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.16,
-      "news_sentiment": 0.707,
-      "news_confidence": 0.75,
-      "news_headlines": [
-        "Inside Alphabet's earnings call with Google CEO Sundar Pichai",
-        "Google Q2 earnings top expectations, cloud revenue grows 82%, but stock falls on capex growth",
-        "Options strategist reveals how he'd trading Alphabet ahead of earnings"
+        "The One Big Bet That Could Reignite Adobe Stock"
       ],
       "high_impact_news": true
     },
@@ -845,6 +826,27 @@
         "Is Moderna (MRNA) Fully Valued As Board Changes And Earnings Near?",
         "Moderna (MRNA) Appoints Michael McDonnell To Board As Committee Roles Shift",
         "Should You Buy Moderna Stock Hand Over Fist Before Aug. 5?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.6455,
+      "price": 342.07000732421875,
+      "rsi": 22.707531642731524,
+      "momentum_5d": -0.015526712245930939,
+      "momentum_1d": -0.01021411665785548,
+      "macd_crossover": false,
+      "atr_pct": 0.006591123292420025,
+      "bollinger_pct_b": -0.0516,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.16,
+      "news_sentiment": 0.515,
+      "news_confidence": 0.65,
+      "news_headlines": [
+        "Google Cloud is becoming Alphabet's new profit engine: Chart of the Day",
+        "Inside Alphabet's earnings call with Google CEO Sundar Pichai",
+        "Alphabet's cloud revenue is its 'single most linear' indicator of AI ROI"
       ],
       "high_impact_news": true
     },
@@ -947,9 +949,9 @@
       "news_sentiment": 0.462,
       "news_confidence": 0.52,
       "news_headlines": [
+        "Micron and Sandisk Are Surging: Can the Rally Last Through 2027?",
         "Peter Thiel Turned a $2,000 Roth IRA Into $5 Billion and Will Never Owe a Penny of Tax. The Same Rules Apply to Your Account",
-        "This 1 Momentum ETF Is Still Beating the S&P 500 With Lower Drawdowns",
-        "After a Tough Day, ServiceNow Reports Solid Earnings"
+        "This 1 Momentum ETF Is Still Beating the S&P 500 With Lower Drawdowns"
       ],
       "high_impact_news": true
     },
@@ -997,7 +999,7 @@
     },
     {
       "asset": "WMT",
-      "rank_score": 0.5483,
+      "rank_score": 0.5533,
       "price": 109.33499908447266,
       "rsi": 24.072496288880444,
       "momentum_5d": 0.0025215618195036037,
@@ -1007,12 +1009,12 @@
       "bollinger_pct_b": 0.2706,
       "volume_spike": true,
       "volume_spike_ratio": 1.5,
-      "news_sentiment": 0.435,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.51,
+      "news_confidence": 0.49,
       "news_headlines": [
+        "ADM (NYSE:ADM) Appoints Jeff Rowe As COO And Expands Regenerative Agriculture",
         "Wal - Mart de Mexico SAB de CV (WMMVF) Q2 2026 Earnings Call Highlights: Resilient eCommerce ...",
-        "Walmart (WMT) Partners With ReturnPro To Resell Returned Products",
-        "3 Reasons to Sell WMT and 1 Stock to Buy Instead"
+        "Walmart (WMT) Partners With ReturnPro To Resell Returned Products"
       ],
       "high_impact_news": true
     },
@@ -1038,6 +1040,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "META",
+      "rank_score": 0.5281,
+      "price": 627.0700073242188,
+      "rsi": 17.90241491697614,
+      "momentum_5d": -0.00408170901535495,
+      "momentum_1d": -0.03808868869449935,
+      "macd_crossover": false,
+      "atr_pct": 0.008494703055539893,
+      "bollinger_pct_b": 0.1337,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.37,
+      "news_sentiment": 0.617,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Anthropic and AMD are signing a major AI chip deal. What could this mean for Nvidia?",
+        "Alphabet Stock Is Falling as AI Spending Continues to Mount",
+        "Should You Buy Amazon and Meta Platforms Stocks Before July 29?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HAL",
       "rank_score": 0.5224,
       "price": 33.02000045776367,
@@ -1059,27 +1082,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "META",
-      "rank_score": 0.5201,
-      "price": 627.0700073242188,
-      "rsi": 17.90241491697614,
-      "momentum_5d": -0.00408170901535495,
-      "momentum_1d": -0.03808868869449935,
-      "macd_crossover": false,
-      "atr_pct": 0.008494703055539893,
-      "bollinger_pct_b": 0.1337,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.37,
-      "news_sentiment": 0.512,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Anthropic and AMD are signing a major AI chip deal. What could this mean for Nvidia?",
-        "BlackRock Leads $12B Meta Data Center Debt, Buys Aligned",
-        "Jim Cramer reveals 4 surging chip stocks he likes best"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AXP",
       "rank_score": 0.5199,
       "price": 348.7300109863281,
@@ -1094,9 +1096,9 @@
       "news_sentiment": 0.97,
       "news_confidence": 0.66,
       "news_headlines": [
+        "Intel Earnings, New Home Sales: What to Watch the Rest of the Week",
         "American Express (AXP) Expands Accor Rewards And Paymode B2B Partnerships",
-        "What To Expect From American Express\u2019s (AXP) Q2 Earnings",
-        "Will Rising Expenses Affect Hartford's Q2 Earnings? Key Insights Here"
+        "What To Expect From American Express\u2019s (AXP) Q2 Earnings"
       ],
       "high_impact_news": true
     }
