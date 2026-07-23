@@ -197,38 +197,6 @@
     "price_trough": 185.99400329589844,
     "trailing_stop_price": 187.481955
   },
-  "REGN": {
-    "id": "REGN_20260722164049",
-    "asset": "REGN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 654.4500122070312,
-    "entry_time": "2026-07-22T16:40:49.998512+00:00",
-    "stop_loss_pct": 0.00779,
-    "take_profit_pct": 0.01866,
-    "size_usd": 5321.46,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (19.2)",
-      "5d momentum -3.09%",
-      "1d momentum -4.37%",
-      "BB oversold (pct_b=-0.22)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst downgrade"
-    ],
-    "news_sentiment": 0.265,
-    "news_headlines": [
-      "Regeneron Pharmaceuticals (REGN) Rebounds As Undervalued View Holds, Is The Upside Already Priced In?",
-      "The weight-loss drugs boom is creating both winners and wipeouts: One Big Investment Idea",
-      "Merck Snags A First-Of-Its-Kind Approval, And Shares Jump"
-    ],
-    "mode": "paper",
-    "strategy_version": "64",
-    "status": "open",
-    "price_peak": 655.4301147460938,
-    "trailing_stop_price": 650.324314
-  },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
     "asset": "EUR/GBP",
@@ -288,8 +256,8 @@
     "mode": "paper",
     "strategy_version": "64",
     "status": "open",
-    "price_trough": 0.6974959969520569,
-    "trailing_stop_price": 0.703076
+    "price_trough": 0.6972042322158813,
+    "trailing_stop_price": 0.702782
   },
   "TSLA": {
     "id": "TSLA_20260723151201",
@@ -356,8 +324,8 @@
     "mode": "paper",
     "strategy_version": "65",
     "status": "open",
-    "price_peak": 319.114990234375,
-    "trailing_stop_price": 315.122862
+    "price_peak": 319.614990234375,
+    "trailing_stop_price": 315.616607
   },
   "LYFT": {
     "id": "LYFT_20260723151201",
@@ -389,8 +357,8 @@
     "mode": "paper",
     "strategy_version": "65",
     "status": "open",
-    "price_peak": 13.949999809265137,
-    "trailing_stop_price": 13.74075
+    "price_peak": 13.96500015258789,
+    "trailing_stop_price": 13.755525
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260723151201",
@@ -455,8 +423,8 @@
     "mode": "paper",
     "strategy_version": "65",
     "status": "open",
-    "price_peak": 234.05999755859375,
-    "trailing_stop_price": 231.80834
+    "price_peak": 234.13499450683594,
+    "trailing_stop_price": 231.882616
   },
   "HOOD": {
     "id": "HOOD_20260723151201",
@@ -486,8 +454,8 @@
     "mode": "paper",
     "strategy_version": "65",
     "status": "open",
-    "price_peak": 102.13999938964844,
-    "trailing_stop_price": 98.172882
+    "price_peak": 102.45500183105469,
+    "trailing_stop_price": 98.47565
   },
   "USO": {
     "id": "USO_20260723164549",
@@ -548,6 +516,37 @@
     ],
     "mode": "paper",
     "strategy_version": "65",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260723180300",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.309999942779541,
+    "entry_time": "2026-07-23T18:03:00.049895+00:00",
+    "stop_loss_pct": 0.00879,
+    "take_profit_pct": 0.02193,
+    "size_usd": 5307.84,
+    "position_size_pct": 0.0508,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (22.0)",
+      "5d momentum -2.17%",
+      "1d momentum -4.54%",
+      "BB oversold (pct_b=-0.09)",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "How tokenized stocks could become a $3 trillion market",
+      "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
+      "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "66",
     "status": "open"
   }
 }
