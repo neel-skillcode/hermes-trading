@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_trough": 1.140380859375,
-    "trailing_stop_price": 1.149504
+    "price_trough": 1.1388224363327026,
+    "trailing_stop_price": 1.147933
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260717125246",
@@ -537,8 +537,8 @@
     "mode": "paper",
     "strategy_version": "64",
     "status": "open",
-    "price_trough": 0.8532199859619141,
-    "trailing_stop_price": 0.860046
+    "price_trough": 0.8532099723815918,
+    "trailing_stop_price": 0.860036
   },
   "AUD/USD": {
     "id": "AUD/USD_20260723042718",
@@ -568,34 +568,35 @@
     "mode": "paper",
     "strategy_version": "64",
     "status": "open",
-    "price_trough": 0.6998390555381775,
-    "trailing_stop_price": 0.705438
+    "price_trough": 0.6981289982795715,
+    "trailing_stop_price": 0.703714
   },
-  "NZD/USD": {
-    "id": "NZD/USD_20260723112708",
-    "asset": "NZD/USD",
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260723125848",
+    "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 0.5793071389198303,
-    "entry_time": "2026-07-23T11:27:08.116626+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00487,
-    "size_usd": 5878.12,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
+    "entry_price": 0.07126999646425247,
+    "entry_time": "2026-07-23T12:58:48.683306+00:00",
+    "stop_loss_pct": 0.00583,
+    "take_profit_pct": 0.0142,
+    "size_usd": 5850.46,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI oversold (24.7)",
-      "5d momentum -0.40%",
-      "1d momentum -0.45%",
-      "BB oversold (pct_b=-0.07)",
+      "RSI oversold (22.0)",
+      "5d momentum -1.26%",
+      "1d momentum -1.52%",
+      "BB oversold (pct_b=-0.29)",
+      "Volume spike 22.9\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: fed hawkish"
+      "Claude [contradicts]: price decline"
     ],
-    "news_sentiment": 0.333,
+    "news_sentiment": 0.278,
     "news_headlines": [
-      "US Dollar In Uptrend Despite Pullback",
-      "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience",
-      "Currencies Forecast \u2013 RBNZ Rate Hike Sparks Kiwi Rally Amid Global Consolidation"
+      "Bitcoin, Ethereum, XRP, Dogecoin Flat Despite Crypto Bill Getting Ethics Provisions: Analyst Highlights Level to 'Watch' for BTC",
+      "Elon Musk Likes, Whales Buy: Can Dogecoin Price Escape Its 19-Month Downtrend?",
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $66,000"
     ],
     "mode": "paper",
     "strategy_version": "64",
