@@ -83,39 +83,6 @@
     "price_trough": 114.02799987792969,
     "trailing_stop_price": 114.940224
   },
-  "HAL": {
-    "id": "HAL_20260721144944",
-    "asset": "HAL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 32.92499923706055,
-    "entry_time": "2026-07-21T14:49:44.797147+00:00",
-    "stop_loss_pct": 0.01412,
-    "take_profit_pct": 0.03524,
-    "size_usd": 6599.63,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (24.7)",
-      "5d momentum -8.02%",
-      "1d momentum -6.33%",
-      "BB oversold (pct_b=-0.19)",
-      "News +0.88 (conf 0.68) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: earnings beat; price decline"
-    ],
-    "news_sentiment": 0.875,
-    "news_headlines": [
-      "Halliburton tops second-quarter forecasts but shares fall after results (HAL)",
-      "Halliburton Q2 2025 earnings: CEO warns of softer oilfield market",
-      "Sector Update: Energy Stocks Edge Higher Premarket Tuesday"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_peak": 33.529998779296875,
-    "trailing_stop_price": 33.056555
-  },
   "MRVL": {
     "id": "MRVL_20260721144944",
     "asset": "MRVL",
@@ -354,7 +321,9 @@
     ],
     "mode": "paper",
     "strategy_version": "65",
-    "status": "open"
+    "status": "open",
+    "price_peak": 322.79998779296875,
+    "trailing_stop_price": 317.957988
   },
   "GOOGL": {
     "id": "GOOGL_20260723151201",
@@ -386,7 +355,9 @@
     ],
     "mode": "paper",
     "strategy_version": "65",
-    "status": "open"
+    "status": "open",
+    "price_peak": 319.114990234375,
+    "trailing_stop_price": 315.122862
   },
   "LYFT": {
     "id": "LYFT_20260723151201",
@@ -417,7 +388,9 @@
     ],
     "mode": "paper",
     "strategy_version": "65",
-    "status": "open"
+    "status": "open",
+    "price_peak": 13.949999809265137,
+    "trailing_stop_price": 13.74075
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260723151201",
@@ -448,7 +421,9 @@
     ],
     "mode": "paper",
     "strategy_version": "65",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.06965000182390213,
+    "trailing_stop_price": 0.069067
   },
   "AMZN": {
     "id": "AMZN_20260723151201",
@@ -479,7 +454,9 @@
     ],
     "mode": "paper",
     "strategy_version": "65",
-    "status": "open"
+    "status": "open",
+    "price_peak": 234.05999755859375,
+    "trailing_stop_price": 231.80834
   },
   "HOOD": {
     "id": "HOOD_20260723151201",
@@ -505,6 +482,69 @@
       "Cathie Wood\u2019s ARK Sells HOOD Stock Again \u2013 Even As Robinhood Hits 1M Gold Cards, Launches Platinum Card",
       "Robinhood Markets, Inc. (HOOD) Suffers a Larger Drop Than the General Market: Key Insights",
       "Elon Musk Likes, Whales Buy: Can Dogecoin Price Escape Its 19-Month Downtrend?"
+    ],
+    "mode": "paper",
+    "strategy_version": "65",
+    "status": "open",
+    "price_peak": 102.13999938964844,
+    "trailing_stop_price": 98.172882
+  },
+  "USO": {
+    "id": "USO_20260723164549",
+    "asset": "USO",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 140.66000366210938,
+    "entry_time": "2026-07-23T16:45:49.598178+00:00",
+    "stop_loss_pct": 0.01196,
+    "take_profit_pct": 0.02867,
+    "size_usd": 5307.95,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (85.7)",
+      "5d momentum +6.36%",
+      "1d momentum +13.33%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.512,
+    "news_headlines": [
+      "Hormuz Tensions Deepen: Energy ETFs in Focus",
+      "Sector Update: Energy Stocks Rise Premarket Thursday",
+      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Major Tech Stocks Sell-Off"
+    ],
+    "mode": "paper",
+    "strategy_version": "65",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260723164549",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1887.300048828125,
+    "entry_time": "2026-07-23T16:45:49.599406+00:00",
+    "stop_loss_pct": 0.00642,
+    "take_profit_pct": 0.01589,
+    "size_usd": 1302.11,
+    "position_size_pct": 0.0125,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (26.2)",
+      "5d momentum -1.97%",
+      "1d momentum -3.19%",
+      "BB oversold (pct_b=-0.03)",
+      "Volume spike 2.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.097,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Thursday, July 23: Prices mixed as analysts debate crypto bottom",
+      "Bitwise\u2019s Matt Hougan Backs HYPE and Robinhood for the Next Cycle: Where Does That Leave XRP?",
+      "Arbitrum Perp DEX AFX Trade Drained of $24M, Offers Hacker 30% to Return It"
     ],
     "mode": "paper",
     "strategy_version": "65",
