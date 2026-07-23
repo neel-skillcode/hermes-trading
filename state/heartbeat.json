@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105077.9,
+  "portfolio_balance": 105073.65,
   "portfolio_peak": 105077.9,
   "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": -182.42,
-  "equity_value": 104895.48,
-  "open_positions": 19,
-  "day_trades_open": 11,
-  "swing_trades_open": 8,
-  "day_capital_used_usd": 42031.16,
-  "swing_capital_used_usd": 38364.07,
-  "total_trades": 704,
-  "last_tick": "2026-07-23T01:05:01.601406+00:00",
+  "unrealized_pnl_usd": -161.89,
+  "equity_value": 104911.76,
+  "open_positions": 20,
+  "day_trades_open": 10,
+  "swing_trades_open": 10,
+  "day_capital_used_usd": 40369.0,
+  "swing_capital_used_usd": 51820.22,
+  "total_trades": 705,
+  "last_tick": "2026-07-23T04:27:18.689255+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "trades_since_last_reflection": 8,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.84035,
-      "unrealized_pnl_pct": 0.000772,
-      "unrealized_pnl_usd": 1.04
+      "current_price": 7.84061,
+      "unrealized_pnl_pct": 0.000805,
+      "unrealized_pnl_usd": 1.08
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 1.1405109167099,
       "trailing_stop_price": 1.149635,
-      "current_price": 1.142204,
-      "unrealized_pnl_pct": 0.001828,
-      "unrealized_pnl_usd": 12.63
+      "current_price": 1.143772,
+      "unrealized_pnl_pct": 0.000458,
+      "unrealized_pnl_usd": 3.16
     },
     {
       "id": "CAD/JPY_20260717125246",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 115.39600372314453,
       "trailing_stop_price": 116.319172,
-      "current_price": 115.851997,
-      "unrealized_pnl_pct": -0.00038,
-      "unrealized_pnl_usd": -1.69
+      "current_price": 115.952003,
+      "unrealized_pnl_pct": -0.001243,
+      "unrealized_pnl_usd": -5.54
     },
     {
       "id": "AUD/JPY_20260721111717",
@@ -134,9 +134,9 @@
       "status": "open",
       "price_trough": 114.02799987792969,
       "trailing_stop_price": 114.940224,
-      "current_price": 114.064003,
-      "unrealized_pnl_pct": 0.001051,
-      "unrealized_pnl_usd": 3.3
+      "current_price": 114.435997,
+      "unrealized_pnl_pct": -0.002207,
+      "unrealized_pnl_usd": -6.93
     },
     {
       "id": "HAL_20260721144944",
@@ -262,11 +262,11 @@
       "mode": "paper",
       "strategy_version": "62",
       "status": "open",
-      "price_trough": 1.4072999954223633,
-      "trailing_stop_price": 1.418558,
-      "current_price": 1.40764,
-      "unrealized_pnl_pct": 0.001284,
-      "unrealized_pnl_usd": 8.6
+      "price_trough": 1.4062800407409668,
+      "trailing_stop_price": 1.41753,
+      "current_price": 1.40624,
+      "unrealized_pnl_pct": 0.002278,
+      "unrealized_pnl_usd": 15.26
     },
     {
       "id": "MU_20260721161036",
@@ -366,9 +366,9 @@
       "status": "open",
       "price_trough": 185.99400329589844,
       "trailing_stop_price": 187.481955,
-      "current_price": 186.195999,
-      "unrealized_pnl_pct": -0.000666,
-      "unrealized_pnl_usd": -4.55
+      "current_price": 186.419998,
+      "unrealized_pnl_pct": -0.00187,
+      "unrealized_pnl_usd": -12.78
     },
     {
       "id": "CVX_20260722150630",
@@ -606,35 +606,75 @@
       "mode": "paper",
       "strategy_version": "64",
       "status": "open",
-      "current_price": 6.63,
+      "price_trough": 6.559999942779541,
+      "trailing_stop_price": 6.594178,
+      "current_price": 6.56,
+      "unrealized_pnl_pct": 0.010558,
+      "unrealized_pnl_usd": 44.94
+    },
+    {
+      "id": "EUR/GBP_20260723042718",
+      "asset": "EUR/GBP",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 0.8539299964904785,
+      "entry_time": "2026-07-23T04:27:18.685540+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02676,
+      "size_usd": 6960.08,
+      "position_size_pct": 0.0662,
+      "confidence": 0.69,
+      "signals": [
+        "RSI overbought (64.5)",
+        "MACD crossover",
+        "BB overbought (pct_b=1.02)",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed dovish"
+      ],
+      "news_sentiment": -0.467,
+      "news_headlines": [
+        "British Pound Rises as Burnham to Become U.K. Prime Minister",
+        "Pound Mostly Steady After Weaker GDP",
+        "ECB holds interest rates at 2% after eurozone inflation drops in January"
+      ],
+      "mode": "paper",
+      "strategy_version": "64",
+      "status": "open",
+      "current_price": 0.85393,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "USD/NOK_20260722213046",
-      "asset": "USD/NOK",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 9.584500312805176,
-      "entry_time": "2026-07-22T21:30:46.786747+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00462,
-      "size_usd": 1662.16,
-      "position_size_pct": 0.0158,
-      "confidence": 0.62,
+      "id": "AUD/USD_20260723042718",
+      "asset": "AUD/USD",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 0.7021485567092896,
+      "entry_time": "2026-07-23T04:27:18.687292+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02658,
+      "size_usd": 6496.07,
+      "position_size_pct": 0.0618,
+      "confidence": 0.644,
       "signals": [
-        "RSI oversold (21.9)",
-        "1d momentum -0.43%",
-        "BB oversold (pct_b=0.07)"
+        "RSI overbought (71.0)",
+        "5d momentum +0.42%",
+        "BB overbought (pct_b=1.05)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
       ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
+      "news_sentiment": 0.045,
+      "news_headlines": [
+        "EUR/USD, USD/CAD, and AUD/USD Forecasts \u2013 Major Pairs Test Key Moving Average Bounds",
+        "US Dollar In Uptrend Despite Pullback",
+        "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience"
+      ],
       "mode": "paper",
       "strategy_version": "64",
       "status": "open",
-      "current_price": 9.58071,
-      "unrealized_pnl_pct": -0.000395,
-      "unrealized_pnl_usd": -0.66
+      "current_price": 0.702149,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -702,6 +742,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "RBLX",
+      "rank_score": 0.6989,
+      "price": 49.63999938964844,
+      "rsi": 15.096148696877606,
+      "momentum_5d": -0.021871933208897784,
+      "momentum_1d": -0.056363466940196526,
+      "macd_crossover": false,
+      "atr_pct": 0.013695820550525768,
+      "bollinger_pct_b": 0.103,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.72,
+      "news_sentiment": 0.642,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Roblox (RBLX) Stock Looks Overvalued On Sales But Stronger On Narrative",
+        "Roblox\u2019s Mobile AI Build Launch Amid Safety Lawsuits Might Change The Case For Investing In RBLX",
+        "Roblox (RBLX) Unveiled Build, Is The Stock Fully Priced?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.6959,
       "price": 14.640000343322754,
@@ -719,27 +780,6 @@
         "Alphabet (GOOGL) Beats Q2 Earnings and Revenue Estimates",
         "Update: Uber, Lyft Granted Preliminary Injunction Blocking New York City Law Against 'Wrongful Deactivations' of Drivers",
         "Uber, Lyft Granted Preliminary Injunction Blocking New York City Law Against 'Wrongful Deactivations' of Drivers"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "RBLX",
-      "rank_score": 0.6915,
-      "price": 49.63999938964844,
-      "rsi": 15.096148696877606,
-      "momentum_5d": -0.021871933208897784,
-      "momentum_1d": -0.056363466940196526,
-      "macd_crossover": false,
-      "atr_pct": 0.013695820550525768,
-      "bollinger_pct_b": 0.103,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.72,
-      "news_sentiment": 0.487,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Roblox\u2019s Mobile AI Build Launch Amid Safety Lawsuits Might Change The Case For Investing In RBLX",
-        "Roblox (RBLX) Unveiled Build, Is The Stock Fully Priced?",
-        "What\u2019s in the Proposed Crackdown on Megasize Retirement Accounts"
       ],
       "high_impact_news": true
     },
@@ -766,7 +806,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.6628,
+      "rank_score": 0.662,
       "price": 342.07000732421875,
       "rsi": 22.707531642731524,
       "momentum_5d": -0.015526712245930939,
@@ -776,8 +816,8 @@
       "bollinger_pct_b": -0.0516,
       "volume_spike": true,
       "volume_spike_ratio": 2.16,
-      "news_sentiment": 0.669,
-      "news_confidence": 0.76,
+      "news_sentiment": 0.694,
+      "news_confidence": 0.72,
       "news_headlines": [
         "Inside Alphabet's earnings call with Google CEO Sundar Pichai",
         "Google Q2 earnings top expectations, cloud revenue grows 82%, but stock falls on capex growth",
@@ -807,29 +847,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "XOM",
-      "rank_score": 0.6438,
-      "price": 154.4499969482422,
-      "rsi": 88.73235033809591,
-      "momentum_5d": 0.0006802664596109955,
-      "momentum_1d": 0.04492253230040314,
-      "macd_crossover": false,
-      "atr_pct": 0.006060730729683168,
-      "bollinger_pct_b": 0.8246,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.77,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Stocks Slip as Alphabet Gets Ready to Report: Stock Market Today",
-        "The Winners And Losers During Oil's Worst Traffic Jam In Years",
-        "3 Dividend Stocks Built for Long-Term Buy-and-Hold Investors"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SMCI",
-      "rank_score": 0.6317,
+      "rank_score": 0.6337,
       "price": 30.5398006439209,
       "rsi": 83.86035045126589,
       "momentum_5d": -0.034619869670841734,
@@ -839,12 +858,33 @@
       "bollinger_pct_b": 0.7808,
       "volume_spike": false,
       "volume_spike_ratio": 1.07,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.725,
+      "news_confidence": 0.51,
       "news_headlines": [
         "Supermicro stock jumps on gross margin raise amid record $60 billion backlog",
-        "Dow Jones Futures Rise; Google, Tesla Fall On Earnings, Capex, But AI Stocks Climb",
-        "Stock Market Today, July 22: Nasdaq Slides Prior to Tesla and Alphabet's Earnings After Market Close"
+        "Dow Jones Futures: Google, Tesla Fall On Earnings, Capital Spending",
+        "Dell Technologies (DELL) Climbs 9.3% on Booming Demand for Nvidia-Powered AI Servers"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XOM",
+      "rank_score": 0.6318,
+      "price": 154.4499969482422,
+      "rsi": 88.73235033809591,
+      "momentum_5d": 0.0006802664596109955,
+      "momentum_1d": 0.04492253230040314,
+      "macd_crossover": false,
+      "atr_pct": 0.006060730729683168,
+      "bollinger_pct_b": 0.8246,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.58,
+      "news_sentiment": 0.593,
+      "news_confidence": 0.59,
+      "news_headlines": [
+        "Donald Trump's Iran Blockade Announcement Sent Oil Prices Surging and the Dow Falling",
+        "Stocks Slip as Alphabet Gets Ready to Report: Stock Market Today",
+        "The Winners And Losers During Oil's Worst Traffic Jam In Years"
       ],
       "high_impact_news": true
     },
@@ -913,7 +953,7 @@
     },
     {
       "asset": "UBER",
-      "rank_score": 0.5667,
+      "rank_score": 0.5641,
       "price": 70.33000183105469,
       "rsi": 25.13310823972469,
       "momentum_5d": -0.007339402318496054,
@@ -923,18 +963,18 @@
       "bollinger_pct_b": 0.1486,
       "volume_spike": true,
       "volume_spike_ratio": 1.51,
-      "news_sentiment": 0.467,
-      "news_confidence": 0.3,
+      "news_sentiment": 0.354,
+      "news_confidence": 0.32,
       "news_headlines": [
-        "Why Uber Technologies (UBER) Dipped More Than Broader Market Today",
-        "Kalanick\u2019s Atoms raises $1.7B in a16z-led round for industrial AI",
-        "Sunteck Realty Ltd (BOM:512179) Q1 2027 Earnings Call Highlights: Strong Growth in Pre-sales ..."
+        "Bill Ackman Says Tesla Robotaxi Fears Are Creating a 'Very Cheap' Buying Opportunity for UBER",
+        "Uber Cuts 10% of Customer Service Jobs, Citing \u2018Embrace\u2019 of AI",
+        "Why Uber Technologies (UBER) Dipped More Than Broader Market Today"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.5545,
+      "rank_score": 0.5625,
       "price": 396.69000244140625,
       "rsi": 88.44200051039907,
       "momentum_5d": 0.012739316004252672,
@@ -944,31 +984,12 @@
       "bollinger_pct_b": 0.8833,
       "volume_spike": false,
       "volume_spike_ratio": 1.28,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.409,
+      "news_confidence": 0.44,
       "news_headlines": [
         "Chasing Yield Is a Trap. These 3 Dividend ETFs Pay You Without the Risk",
-        "This $222 Billion Vanguard ETF Is Trailing the S&P 500. That Almost Never Happens.",
-        "AMD\u2019s Microsoft Win Signals Dominance Over NVIDIA and Our Price Target Reflects It"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "EUR/JPY",
-      "rank_score": 0.5537,
-      "price": 186.1959991455078,
-      "rsi": 73.40439923162252,
-      "momentum_5d": 0.00030617750622478955,
-      "momentum_1d": 0.000714788017705683,
-      "macd_crossover": true,
-      "atr_pct": 0.0005524200714776186,
-      "bollinger_pct_b": 0.8209,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+        "Wall Street Banks Trading Parts of $35 Billion AI Chip Deal",
+        "This $222 Billion Vanguard ETF Is Trailing the S&P 500. That Almost Never Happens."
       ],
       "high_impact_news": true
     },
@@ -990,6 +1011,27 @@
         "Walmart (WMT) Partners With ReturnPro To Resell Returned Products",
         "3 Reasons to Sell WMT and 1 Stock to Buy Instead",
         "Is Walmart (WMT) a Solid Growth Stock? 3 Reasons to Think \"Yes\""
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "EUR/GBP",
+      "rank_score": 0.5385,
+      "price": 0.8539299964904785,
+      "rsi": 64.45320236067651,
+      "momentum_5d": 0.0009024951706937084,
+      "momentum_1d": 0.0018301591088806211,
+      "macd_crossover": true,
+      "atr_pct": 0.0005093982432797982,
+      "bollinger_pct_b": 1.0197,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -0.467,
+      "news_confidence": 0.429,
+      "news_headlines": [
+        "British Pound Rises as Burnham to Become U.K. Prime Minister",
+        "Pound Mostly Steady After Weaker GDP",
+        "ECB holds interest rates at 2% after eurozone inflation drops in January"
       ],
       "high_impact_news": true
     },
@@ -1037,7 +1079,7 @@
     },
     {
       "asset": "AXP",
-      "rank_score": 0.5179,
+      "rank_score": 0.5199,
       "price": 348.7300109863281,
       "rsi": 37.18215872505221,
       "momentum_5d": 0.0006456323449107569,
@@ -1047,12 +1089,12 @@
       "bollinger_pct_b": 0.2332,
       "volume_spike": true,
       "volume_spike_ratio": 1.76,
-      "news_sentiment": 0.969,
-      "news_confidence": 0.64,
+      "news_sentiment": 0.97,
+      "news_confidence": 0.66,
       "news_headlines": [
+        "What To Expect From American Express\u2019s (AXP) Q2 Earnings",
         "Will Rising Expenses Affect Hartford's Q2 Earnings? Key Insights Here",
-        "Here's How AXP Strengthens Its B2B Payments Beyond the Platinum Card",
-        "American Express expands B2B payments tools"
+        "Here's How AXP Strengthens Its B2B Payments Beyond the Platinum Card"
       ],
       "high_impact_news": true
     }

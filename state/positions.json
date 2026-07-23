@@ -223,8 +223,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.408270001411438,
-    "trailing_stop_price": 1.419536
+    "price_trough": 1.4062800407409668,
+    "trailing_stop_price": 1.41753
   },
   "MU": {
     "id": "MU_20260721161036",
@@ -536,27 +536,64 @@
     ],
     "mode": "paper",
     "strategy_version": "64",
+    "status": "open",
+    "price_trough": 6.559999942779541,
+    "trailing_stop_price": 6.594178
+  },
+  "EUR/GBP": {
+    "id": "EUR/GBP_20260723042718",
+    "asset": "EUR/GBP",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.8539299964904785,
+    "entry_time": "2026-07-23T04:27:18.685540+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02676,
+    "size_usd": 6960.08,
+    "position_size_pct": 0.0662,
+    "confidence": 0.69,
+    "signals": [
+      "RSI overbought (64.5)",
+      "MACD crossover",
+      "BB overbought (pct_b=1.02)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish"
+    ],
+    "news_sentiment": -0.467,
+    "news_headlines": [
+      "British Pound Rises as Burnham to Become U.K. Prime Minister",
+      "Pound Mostly Steady After Weaker GDP",
+      "ECB holds interest rates at 2% after eurozone inflation drops in January"
+    ],
+    "mode": "paper",
+    "strategy_version": "64",
     "status": "open"
   },
-  "USD/NOK": {
-    "id": "USD/NOK_20260722213046",
-    "asset": "USD/NOK",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 9.584500312805176,
-    "entry_time": "2026-07-22T21:30:46.786747+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 1662.16,
-    "position_size_pct": 0.0158,
-    "confidence": 0.62,
+  "AUD/USD": {
+    "id": "AUD/USD_20260723042718",
+    "asset": "AUD/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.7021485567092896,
+    "entry_time": "2026-07-23T04:27:18.687292+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02658,
+    "size_usd": 6496.07,
+    "position_size_pct": 0.0618,
+    "confidence": 0.644,
     "signals": [
-      "RSI oversold (21.9)",
-      "1d momentum -0.43%",
-      "BB oversold (pct_b=0.07)"
+      "RSI overbought (71.0)",
+      "5d momentum +0.42%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
+    "news_sentiment": 0.045,
+    "news_headlines": [
+      "EUR/USD, USD/CAD, and AUD/USD Forecasts \u2013 Major Pairs Test Key Moving Average Bounds",
+      "US Dollar In Uptrend Despite Pullback",
+      "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience"
+    ],
     "mode": "paper",
     "strategy_version": "64",
     "status": "open"
