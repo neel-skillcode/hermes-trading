@@ -3,15 +3,15 @@
   "portfolio_balance": 104358.33,
   "portfolio_peak": 105273.92,
   "portfolio_drawdown_pct": 0.87,
-  "unrealized_pnl_usd": 246.85,
-  "equity_value": 104605.17,
-  "open_positions": 17,
-  "day_trades_open": 7,
+  "unrealized_pnl_usd": 244.43,
+  "equity_value": 104602.76,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 36455.68,
+  "day_capital_used_usd": 41743.33,
   "swing_capital_used_usd": 52214.17,
   "total_trades": 720,
-  "last_tick": "2026-07-24T09:11:55.416542+00:00",
+  "last_tick": "2026-07-24T11:13:13.351369+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 3,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.844130039215088,
       "trailing_stop_price": 7.781377,
-      "current_price": 7.84194,
-      "unrealized_pnl_pct": 0.000975,
-      "unrealized_pnl_usd": 1.31
+      "current_price": 7.842,
+      "unrealized_pnl_pct": 0.000983,
+      "unrealized_pnl_usd": 1.32
     },
     {
       "id": "EUR/USD_20260714123906",
@@ -106,9 +106,9 @@
       "status": "open",
       "price_trough": 114.02799987792969,
       "trailing_stop_price": 114.940224,
-      "current_price": 114.431999,
-      "unrealized_pnl_pct": -0.002172,
-      "unrealized_pnl_usd": -6.82
+      "current_price": 114.519997,
+      "unrealized_pnl_pct": -0.002943,
+      "unrealized_pnl_usd": -9.24
     },
     {
       "id": "MRVL_20260721144944",
@@ -200,9 +200,9 @@
       "status": "open",
       "price_trough": 1.4062800407409668,
       "trailing_stop_price": 1.41753,
-      "current_price": 1.40784,
-      "unrealized_pnl_pct": 0.001142,
-      "unrealized_pnl_usd": 7.65
+      "current_price": 1.40795,
+      "unrealized_pnl_pct": 0.001064,
+      "unrealized_pnl_usd": 7.13
     },
     {
       "id": "EUR/JPY_20260721185742",
@@ -232,9 +232,9 @@
       "status": "open",
       "price_trough": 185.99400329589844,
       "trailing_stop_price": 187.481955,
-      "current_price": 186.432007,
-      "unrealized_pnl_pct": -0.001935,
-      "unrealized_pnl_usd": -13.22
+      "current_price": 186.464005,
+      "unrealized_pnl_pct": -0.002107,
+      "unrealized_pnl_usd": -14.4
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -266,9 +266,9 @@
       "status": "open",
       "price_trough": 0.8532099723815918,
       "trailing_stop_price": 0.860036,
-      "current_price": 0.85473,
-      "unrealized_pnl_pct": -0.000937,
-      "unrealized_pnl_usd": -6.52
+      "current_price": 0.8543,
+      "unrealized_pnl_pct": -0.000433,
+      "unrealized_pnl_usd": -3.02
     },
     {
       "id": "AUD/USD_20260723042718",
@@ -300,9 +300,9 @@
       "status": "open",
       "price_trough": 0.6972042322158813,
       "trailing_stop_price": 0.702782,
-      "current_price": 0.699203,
-      "unrealized_pnl_pct": 0.004195,
-      "unrealized_pnl_usd": 27.25
+      "current_price": 0.699496,
+      "unrealized_pnl_pct": 0.003777,
+      "unrealized_pnl_usd": 24.54
     },
     {
       "id": "TSLA_20260723151201",
@@ -446,9 +446,9 @@
       "status": "open",
       "price_peak": 0.06981000304222107,
       "trailing_stop_price": 0.069226,
-      "current_price": 0.06979,
-      "unrealized_pnl_pct": 0.015127,
-      "unrealized_pnl_usd": 87.96
+      "current_price": 0.0698,
+      "unrealized_pnl_pct": 0.015273,
+      "unrealized_pnl_usd": 88.8
     },
     {
       "id": "AMZN_20260723151201",
@@ -581,15 +581,48 @@
       "mode": "paper",
       "strategy_version": "66",
       "status": "open",
-      "current_price": 116.303001,
-      "unrealized_pnl_pct": -0.001056,
-      "unrealized_pnl_usd": -1.37
+      "current_price": 116.307999,
+      "unrealized_pnl_pct": -0.001014,
+      "unrealized_pnl_usd": -1.32
+    },
+    {
+      "id": "SOL-USD_20260724111313",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 75.37000274658203,
+      "entry_time": "2026-07-24T11:13:13.347301+00:00",
+      "stop_loss_pct": 0.00478,
+      "take_profit_pct": 0.01146,
+      "size_usd": 5287.65,
+      "position_size_pct": 0.0507,
+      "confidence": 0.794,
+      "signals": [
+        "RSI oversold (37.1)",
+        "5d momentum -0.55%",
+        "1d momentum -2.90%",
+        "BB oversold (pct_b=0.05)",
+        "High-impact catalyst",
+        "Claude [contradicts]: price decline"
+      ],
+      "news_sentiment": 0.158,
+      "news_headlines": [
+        "The 3 big themes coming to crypto that investors should pay attention to",
+        "Solana Tokenized-Equity Volume Is Up Roughly 2,400x Year-Over-Year",
+        "Stripe Plans to Acquire PayPal for $53 Billion. Here's What That Could Mean for Crypto Investors."
+      ],
+      "mode": "paper",
+      "strategy_version": "66",
+      "status": "open",
+      "current_price": 75.370003,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "VLO",
-      "rank_score": 0.7128,
+      "rank_score": 0.7158,
       "price": 305.4100036621094,
       "rsi": 32.349786340892095,
       "momentum_5d": -0.021153187067534798,
@@ -599,12 +632,33 @@
       "bollinger_pct_b": -0.0929,
       "volume_spike": true,
       "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.576,
-      "news_confidence": 0.58,
+      "news_sentiment": 0.597,
+      "news_confidence": 0.61,
       "news_headlines": [
+        "Valero Energy (VLO) Eyes Earnings And Crude Supply Shifts, Is The Stock Fully Priced?",
         "Weatherford Q2 Earnings Miss Estimates on Middle East Disruptions",
-        "Valero Energy (VLO) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-        "Global Refiners Are Cutting Out Oil Traders To Buy Venezuelan Crude Directly"
+        "Valero Energy (VLO) Earnings Expected to Grow: What to Know Ahead of Next Week's Release"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TSLA",
+      "rank_score": 0.7073,
+      "price": 319.4599914550781,
+      "rsi": 8.567173091465236,
+      "momentum_5d": -0.00023504072288249892,
+      "momentum_1d": -0.14165189493845073,
+      "macd_crossover": false,
+      "atr_pct": 0.02251189689785075,
+      "bollinger_pct_b": 0.1412,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.06,
+      "news_sentiment": 0.676,
+      "news_confidence": 0.68,
+      "news_headlines": [
+        "'Magnificent 7' stocks erase $797 billion in market value in worst day since April 2025",
+        "How Tesla's robotaxi struggle is akin to the Apple vs. Google Maps rivalry",
+        "Earnings: Negative cash flows make Big Tech more 'economically sensitive'"
       ],
       "high_impact_news": true
     },
@@ -666,29 +720,8 @@
       "news_confidence": 0.62,
       "news_headlines": [
         "Verizon & American Express earnings, US new home sales: What to Watch",
-        "Walmart shares its quiet plan to take down Amazon",
-        "Visa's Q3 Earnings Could be a Catalyst: Should You Buy Now?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TSLA",
-      "rank_score": 0.6763,
-      "price": 319.4599914550781,
-      "rsi": 8.567173091465236,
-      "momentum_5d": -0.00023504072288249892,
-      "momentum_1d": -0.14165189493845073,
-      "macd_crossover": false,
-      "atr_pct": 0.02251189689785075,
-      "bollinger_pct_b": 0.1412,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.06,
-      "news_sentiment": 0.306,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq futures steady from tech rout as new tariffs take effect",
-        "Elon Musk says Tesla\u2013SpaceX merger has to be a 'process': Earnings recap",
-        "Tesla is 'all about' future promises: Why this strategist calls it a 'story' stock"
+        "Stocks to Watch: Intel, SAP, Oracle, Volkswagen",
+        "New Home Sales: What to Watch Friday"
       ],
       "high_impact_news": true
     },
@@ -820,7 +853,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.587,
+      "rank_score": 0.593,
       "price": 317.6499938964844,
       "rsi": 14.212841552540866,
       "momentum_5d": 0.0031739169027844827,
@@ -830,10 +863,10 @@
       "bollinger_pct_b": 0.1404,
       "volume_spike": false,
       "volume_spike_ratio": 1.46,
-      "news_sentiment": 0.745,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.797,
+      "news_confidence": 0.59,
       "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq futures steady from tech rout as new tariffs take effect",
+        "Stock market today: Dow, S&P 500, Nasdaq futures rise after tech rout as new Trump tariffs take effect",
         "2 reasons why Microsoft belongs in your portfolio: D.A. Davidson's Gil Luria",
         "IBM may be caught up in latest bout of AI volatility: 'Don't concentrate in any one theme'"
       ],
@@ -903,6 +936,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "META",
+      "rank_score": 0.5745,
+      "price": 605.969970703125,
+      "rsi": 15.749674462095328,
+      "momentum_5d": 0.01116329775597427,
+      "momentum_1d": -0.06741572400453356,
+      "macd_crossover": false,
+      "atr_pct": 0.010938475125228993,
+      "bollinger_pct_b": 0.2078,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.44,
+      "news_sentiment": 0.615,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "Smart glasses are selling hot at National Vision, CEO ties it to the premium consumer",
+        "Could AMD's new Helios AI rack system push it to outperform Nvidia?",
+        "Meta\u2019s Latest AI Data Center Debt Raise Could Reportedly Cost More Than Its 2025 Record Deal"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HAL",
       "rank_score": 0.5716,
       "price": 32.70000076293945,
@@ -938,9 +992,9 @@
       "news_sentiment": -0.132,
       "news_confidence": 0.53,
       "news_headlines": [
-        "Top apparel exporter Vietnam faces higher US tariffs than peers\u00a0",
-        "US Sets New Forced-Labor Duties as Trump Resurrects Tariff Wall",
-        "Oil\u2019s Surge Sparks Unusually Active Options Bets on Petrobras, Nike, Goldman Sachs and Other 120+ DTEs"
+        "Nike\u2019s Sneakerhead Market Share Is Slipping. That\u2019s Good for Its Stock.",
+        "Sportswear giant continues store closures nationwide",
+        "Top apparel exporter Vietnam faces higher US tariffs than peers\u00a0"
       ],
       "high_impact_news": true
     },
@@ -966,44 +1020,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MPC",
-      "rank_score": 0.565,
-      "price": 312.239990234375,
-      "rsi": 36.59942394793545,
-      "momentum_5d": -0.012773518908924211,
-      "momentum_1d": -0.019362160043206997,
+      "asset": "AMZN",
+      "rank_score": 0.5657,
+      "price": 233.55999755859375,
+      "rsi": 20.77897836199628,
+      "momentum_5d": 0.0055105854400881,
+      "momentum_1d": -0.06740139242236991,
       "macd_crossover": false,
-      "atr_pct": 0.011434409154045023,
-      "bollinger_pct_b": -0.0015,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.61,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Marathon Petroleum Corporation (MPC) Is a Trending Stock: Facts to Know Before Betting on It",
-        "Marathon Petroleum vs. HF Sinclair: Picking the Better Refining Play",
-        "Marathon Petroleum (MPC) Exceeds Market Returns: Some Facts to Consider"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "META",
-      "rank_score": 0.5595,
-      "price": 605.969970703125,
-      "rsi": 15.749674462095328,
-      "momentum_5d": 0.01116329775597427,
-      "momentum_1d": -0.06741572400453356,
-      "macd_crossover": false,
-      "atr_pct": 0.010938475125228993,
-      "bollinger_pct_b": 0.2078,
+      "atr_pct": 0.012828066488196363,
+      "bollinger_pct_b": 0.1633,
       "volume_spike": false,
       "volume_spike_ratio": 1.44,
-      "news_sentiment": 0.436,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.833,
+      "news_confidence": 0.48,
       "news_headlines": [
-        "Smart glasses are selling hot at National Vision, CEO ties it to the premium consumer",
-        "Could AMD's new Helios AI rack system push it to outperform Nvidia?",
-        "Google\u2019s Earnings Could be a Bad Omen for Big Tech"
+        "2 reasons why Microsoft belongs in your portfolio: D.A. Davidson's Gil Luria",
+        "Google, Amazon, Meta, & Microsoft will spend 'unprecedented' $1T on AI capex in 2027: Analyst",
+        "IBM may be caught up in latest bout of AI volatility: 'Don't concentrate in any one theme'"
       ],
       "high_impact_news": true
     }
