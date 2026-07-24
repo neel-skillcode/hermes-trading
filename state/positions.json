@@ -112,8 +112,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 194.26300048828125,
-    "trailing_stop_price": 205.918781
+    "price_trough": 194.22999572753906,
+    "trailing_stop_price": 205.883795
   },
   "AMD": {
     "id": "AMD_20260721144944",
@@ -144,8 +144,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 524.181396484375,
-    "trailing_stop_price": 553.535555
+    "price_trough": 521.9500122070312,
+    "trailing_stop_price": 551.179213
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -361,8 +361,8 @@
     "mode": "paper",
     "strategy_version": "66",
     "status": "open",
-    "price_peak": 324.6499938964844,
-    "trailing_stop_price": 320.663292
+    "price_peak": 326.2799987792969,
+    "trailing_stop_price": 322.27328
   },
   "HOOD": {
     "id": "HOOD_20260724142716",
@@ -457,39 +457,6 @@
     "strategy_version": "67",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260724155523",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 557.2999877929688,
-    "entry_time": "2026-07-24T15:55:23.344981+00:00",
-    "stop_loss_pct": 0.00414,
-    "take_profit_pct": 0.01008,
-    "size_usd": 56.13,
-    "position_size_pct": 0.0005,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (25.1)",
-      "5d momentum -1.88%",
-      "1d momentum -1.55%",
-      "BB oversold (pct_b=-0.46)",
-      "Volume spike 10.3\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.143,
-    "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $66,000",
-      "S&P\u2019s New Crypto Index Excludes XRP and Bitcoin: Here\u2019s the Real Reason",
-      "Bitcoin Price to $20,000? Bitcoin Left Out of S&P\u2019s New Crypto Index as Crash Fears Return"
-    ],
-    "mode": "paper",
-    "strategy_version": "67",
-    "status": "open",
-    "price_peak": 562.2100219726562,
-    "trailing_stop_price": 559.882472
-  },
   "SLB": {
     "id": "SLB_20260724172516",
     "asset": "SLB",
@@ -580,6 +547,37 @@
       "Countdown to Lam Research (LRCX) Q4 Earnings: Wall Street Forecasts for Key Metrics",
       "LRCX Poised for a Q4 Earnings Surprise: Should You Buy the Stock Now?",
       "This AI Stock Needs to Cool Off After Gaining More Than 200% Year to Date"
+    ],
+    "mode": "paper",
+    "strategy_version": "67",
+    "status": "open",
+    "price_peak": 305.2099914550781,
+    "trailing_stop_price": 300.631842
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260724201309",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.230000019073486,
+    "entry_time": "2026-07-24T20:13:09.685839+00:00",
+    "stop_loss_pct": 0.00543,
+    "take_profit_pct": 0.01239,
+    "size_usd": 56.43,
+    "position_size_pct": 0.0005,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (42.9)",
+      "5d momentum +0.48%",
+      "1d momentum -1.27%",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "Aptos climbs to the top 4 blockchains in transaction count",
+      "How tokenized stocks could become a $3 trillion market",
+      "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates"
     ],
     "mode": "paper",
     "strategy_version": "67",
