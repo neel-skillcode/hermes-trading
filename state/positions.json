@@ -330,38 +330,6 @@
     "price_peak": 234.13499450683594,
     "trailing_stop_price": 231.882616
   },
-  "USO": {
-    "id": "USO_20260723164549",
-    "asset": "USO",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 140.66000366210938,
-    "entry_time": "2026-07-23T16:45:49.598178+00:00",
-    "stop_loss_pct": 0.01196,
-    "take_profit_pct": 0.02867,
-    "size_usd": 5307.95,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (85.7)",
-      "5d momentum +6.36%",
-      "1d momentum +13.33%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.512,
-    "news_headlines": [
-      "Hormuz Tensions Deepen: Energy ETFs in Focus",
-      "Sector Update: Energy Stocks Rise Premarket Thursday",
-      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Major Tech Stocks Sell-Off"
-    ],
-    "mode": "paper",
-    "strategy_version": "65",
-    "status": "open",
-    "price_trough": 136.6510009765625,
-    "trailing_stop_price": 138.285347
-  },
   "AXP": {
     "id": "AXP_20260724142716",
     "asset": "AXP",
@@ -392,7 +360,9 @@
     ],
     "mode": "paper",
     "strategy_version": "66",
-    "status": "open"
+    "status": "open",
+    "price_peak": 323.15460205078125,
+    "trailing_stop_price": 319.186264
   },
   "SLB": {
     "id": "SLB_20260724142716",
@@ -488,7 +458,9 @@
     ],
     "mode": "paper",
     "strategy_version": "66",
-    "status": "open"
+    "status": "open",
+    "price_peak": 943.385009765625,
+    "trailing_stop_price": 929.234235
   },
   "AAPL": {
     "id": "AAPL_20260724142716",
@@ -517,6 +489,70 @@
     ],
     "mode": "paper",
     "strategy_version": "66",
+    "status": "open",
+    "price_peak": 333.3299865722656,
+    "trailing_stop_price": 327.03005
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260724155523",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 73.98999786376953,
+    "entry_time": "2026-07-24T15:55:23.342579+00:00",
+    "stop_loss_pct": 0.00575,
+    "take_profit_pct": 0.0138,
+    "size_usd": 5343.74,
+    "position_size_pct": 0.0512,
+    "confidence": 0.8,
+    "signals": [
+      "RSI oversold (22.0)",
+      "5d momentum -2.28%",
+      "1d momentum -3.48%",
+      "BB oversold (pct_b=-0.34)",
+      "Volume spike 5.4\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: analyst downgrade; price decline"
+    ],
+    "news_sentiment": 0.029,
+    "news_headlines": [
+      "The 3 big themes coming to crypto that investors should pay attention to",
+      "Why Are CRCL, COIN Stocks Rising Pre-Market Despite Bitcoin\u2019s Dip, Price Target Cuts?",
+      "5 Things That Smart Money Thinks Could End the Crypto Bear Market"
+    ],
+    "mode": "paper",
+    "strategy_version": "67",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260724155523",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 557.2999877929688,
+    "entry_time": "2026-07-24T15:55:23.344981+00:00",
+    "stop_loss_pct": 0.00414,
+    "take_profit_pct": 0.01008,
+    "size_usd": 56.13,
+    "position_size_pct": 0.0005,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (25.1)",
+      "5d momentum -1.88%",
+      "1d momentum -1.55%",
+      "BB oversold (pct_b=-0.46)",
+      "Volume spike 10.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.143,
+    "news_headlines": [
+      "Top Cryptocurrencies Fall; Bitcoin Drops Below $66,000",
+      "S&P\u2019s New Crypto Index Excludes XRP and Bitcoin: Here\u2019s the Real Reason",
+      "Bitcoin Price to $20,000? Bitcoin Left Out of S&P\u2019s New Crypto Index as Crash Fears Return"
+    ],
+    "mode": "paper",
+    "strategy_version": "67",
     "status": "open"
   }
 }
