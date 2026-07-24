@@ -357,8 +357,8 @@
     "mode": "paper",
     "strategy_version": "65",
     "status": "open",
-    "price_peak": 13.96500015258789,
-    "trailing_stop_price": 13.755525
+    "price_peak": 14.020000457763672,
+    "trailing_stop_price": 13.8097
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260723151201",
@@ -485,38 +485,9 @@
     ],
     "mode": "paper",
     "strategy_version": "65",
-    "status": "open"
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260723164549",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1887.300048828125,
-    "entry_time": "2026-07-23T16:45:49.599406+00:00",
-    "stop_loss_pct": 0.00642,
-    "take_profit_pct": 0.01589,
-    "size_usd": 1302.11,
-    "position_size_pct": 0.0125,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (26.2)",
-      "5d momentum -1.97%",
-      "1d momentum -3.19%",
-      "BB oversold (pct_b=-0.03)",
-      "Volume spike 2.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.097,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, July 23: Prices mixed as analysts debate crypto bottom",
-      "Bitwise\u2019s Matt Hougan Backs HYPE and Robinhood for the Next Cycle: Where Does That Leave XRP?",
-      "Arbitrum Perp DEX AFX Trade Drained of $24M, Offers Hacker 30% to Return It"
-    ],
-    "mode": "paper",
-    "strategy_version": "65",
-    "status": "open"
+    "status": "open",
+    "price_trough": 139.49000549316406,
+    "trailing_stop_price": 141.158306
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260723180300",
@@ -544,6 +515,33 @@
       "How tokenized stocks could become a $3 trillion market",
       "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates",
       "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "66",
+    "status": "open"
+  },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260724010254",
+    "asset": "CAD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 116.4260025024414,
+    "entry_time": "2026-07-24T01:02:54.869442+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00468,
+    "size_usd": 1297.49,
+    "position_size_pct": 0.0124,
+    "confidence": 0.684,
+    "signals": [
+      "RSI overbought (72.5)",
+      "1d momentum +0.53%",
+      "News +1.00 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
     ],
     "mode": "paper",
     "strategy_version": "66",
