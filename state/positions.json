@@ -364,39 +364,6 @@
     "price_peak": 323.15460205078125,
     "trailing_stop_price": 319.186264
   },
-  "SLB": {
-    "id": "SLB_20260724142716",
-    "asset": "SLB",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 51.32500076293945,
-    "entry_time": "2026-07-24T14:27:16.670848+00:00",
-    "stop_loss_pct": 0.01162,
-    "take_profit_pct": 0.02829,
-    "size_usd": 5798.52,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (77.6)",
-      "MACD crossover",
-      "5d momentum +7.74%",
-      "1d momentum +9.70%",
-      "BB overbought (pct_b=1.44)",
-      "Volume spike 4.9\u00d7",
-      "News +0.73 (conf 0.66) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; macro risk"
-    ],
-    "news_sentiment": 0.727,
-    "news_headlines": [
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid New US Tariffs",
-      "Sector Update: Energy Stocks Decline Pre-Bell Friday",
-      "SLB tops second-quarter forecasts as growth in production systems offsets Middle East weakness"
-    ],
-    "mode": "paper",
-    "strategy_version": "66",
-    "status": "open"
-  },
   "HOOD": {
     "id": "HOOD_20260724142716",
     "asset": "HOOD",
@@ -550,6 +517,68 @@
       "Top Cryptocurrencies Fall; Bitcoin Drops Below $66,000",
       "S&P\u2019s New Crypto Index Excludes XRP and Bitcoin: Here\u2019s the Real Reason",
       "Bitcoin Price to $20,000? Bitcoin Left Out of S&P\u2019s New Crypto Index as Crash Fears Return"
+    ],
+    "mode": "paper",
+    "strategy_version": "67",
+    "status": "open"
+  },
+  "SLB": {
+    "id": "SLB_20260724172516",
+    "asset": "SLB",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 52.09000015258789,
+    "entry_time": "2026-07-24T17:25:16.563506+00:00",
+    "stop_loss_pct": 0.01106,
+    "take_profit_pct": 0.02525,
+    "size_usd": 3770.89,
+    "position_size_pct": 0.0362,
+    "confidence": 0.565,
+    "signals": [
+      "RSI overbought (82.8)",
+      "5d momentum +10.06%",
+      "1d momentum +13.91%",
+      "BB overbought (pct_b=1.02)",
+      "News +0.67 (conf 0.61) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge; macro risk"
+    ],
+    "news_sentiment": 0.672,
+    "news_headlines": [
+      "SLB Q2 Earnings Call Highlights",
+      "SLB Q2 Earnings Beat Estimates on Digital & Production Systems Growth",
+      "Market Awaits New Home Sales Report"
+    ],
+    "mode": "paper",
+    "strategy_version": "67",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260724172516",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 63925.96875,
+    "entry_time": "2026-07-24T17:25:16.565077+00:00",
+    "stop_loss_pct": 0.00511,
+    "take_profit_pct": 0.01264,
+    "size_usd": 1993.06,
+    "position_size_pct": 0.0191,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (29.6)",
+      "5d momentum -2.04%",
+      "1d momentum -1.40%",
+      "BB oversold (pct_b=-0.35)",
+      "Volume spike 4.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.135,
+    "news_headlines": [
+      "What to know about Morgan Stanley's $400M crypto surprise",
+      "BitMEX is shutting down and facing a theft lawsuit",
+      "Stock Market Today: Nasdaq Ventures Into The Black, But American Express Triggers Sell Signal (Live Coverage)"
     ],
     "mode": "paper",
     "strategy_version": "67",
