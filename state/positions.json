@@ -111,7 +111,9 @@
     ],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_trough": 196.88999938964844,
+    "trailing_stop_price": 208.703399
   },
   "AMD": {
     "id": "AMD_20260721144944",
@@ -141,7 +143,9 @@
     ],
     "mode": "paper",
     "strategy_version": "62",
-    "status": "open"
+    "status": "open",
+    "price_trough": 524.181396484375,
+    "trailing_stop_price": 553.535555
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -259,40 +263,6 @@
     "price_trough": 0.6972042322158813,
     "trailing_stop_price": 0.702782
   },
-  "TSLA": {
-    "id": "TSLA_20260723151201",
-    "asset": "TSLA",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 321.81500244140625,
-    "entry_time": "2026-07-23T15:12:01.733666+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 6349.24,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (4.7)",
-      "5d momentum -14.68%",
-      "1d momentum -15.86%",
-      "BB oversold (pct_b=-0.25)",
-      "Volume spike 1.9\u00d7",
-      "News +0.44 (conf 0.75) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: ma catalyst"
-    ],
-    "news_sentiment": 0.44,
-    "news_headlines": [
-      "Stock market today: Dow, S&P 500, Nasdaq sell off as rising oil prices, bond yields, and AI capex weigh",
-      "Earnings: Negative cash flows make Big Tech more 'economically sensitive'",
-      "Tesla's 'ChatGPT moment' will be here in the next 5 years: Earnings takeaways"
-    ],
-    "mode": "paper",
-    "strategy_version": "65",
-    "status": "open",
-    "price_peak": 322.79998779296875,
-    "trailing_stop_price": 317.957988
-  },
   "GOOGL": {
     "id": "GOOGL_20260723151201",
     "asset": "GOOGL",
@@ -324,74 +294,8 @@
     "mode": "paper",
     "strategy_version": "65",
     "status": "open",
-    "price_peak": 319.614990234375,
-    "trailing_stop_price": 315.616607
-  },
-  "LYFT": {
-    "id": "LYFT_20260723151201",
-    "asset": "LYFT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 13.664999961853027,
-    "entry_time": "2026-07-23T15:12:01.737776+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6616.58,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (10.5)",
-      "5d momentum -8.04%",
-      "1d momentum -12.49%",
-      "BB oversold (pct_b=-0.18)",
-      "Volume spike 3.4\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: product catalyst"
-    ],
-    "news_sentiment": 0.211,
-    "news_headlines": [
-      "Amazon Workers on Food Stamps Nearly Tripled, While Company Spends $200 Billion on AI",
-      "Alphabet (GOOGL) Beats Q2 Earnings and Revenue Estimates",
-      "Update: Uber, Lyft Granted Preliminary Injunction Blocking New York City Law Against 'Wrongful Deactivations' of Drivers"
-    ],
-    "mode": "paper",
-    "strategy_version": "65",
-    "status": "open",
-    "price_peak": 14.020000457763672,
-    "trailing_stop_price": 13.8097
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260723151201",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.06875000149011612,
-    "entry_time": "2026-07-23T15:12:01.739664+00:00",
-    "stop_loss_pct": 0.00837,
-    "take_profit_pct": 0.02038,
-    "size_usd": 5814.57,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (12.7)",
-      "5d momentum -4.99%",
-      "1d momentum -5.86%",
-      "BB oversold (pct_b=-0.27)",
-      "Volume spike 3.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.278,
-    "news_headlines": [
-      "Bitcoin, Ethereum, XRP, Dogecoin Flat Despite Crypto Bill Getting Ethics Provisions: Analyst Highlights Level to 'Watch' for BTC",
-      "Elon Musk Likes, Whales Buy: Can Dogecoin Price Escape Its 19-Month Downtrend?",
-      "Top Cryptocurrencies Fall; Bitcoin Drops Below $66,000"
-    ],
-    "mode": "paper",
-    "strategy_version": "65",
-    "status": "open",
-    "price_peak": 0.06981000304222107,
-    "trailing_stop_price": 0.069226
+    "price_peak": 322.239990234375,
+    "trailing_stop_price": 318.208768
   },
   "AMZN": {
     "id": "AMZN_20260723151201",
@@ -426,37 +330,6 @@
     "price_peak": 234.13499450683594,
     "trailing_stop_price": 231.882616
   },
-  "HOOD": {
-    "id": "HOOD_20260723151201",
-    "asset": "HOOD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 100.36000061035156,
-    "entry_time": "2026-07-23T15:12:01.761161+00:00",
-    "stop_loss_pct": 0.03884,
-    "take_profit_pct": 0.13136,
-    "size_usd": 4849.49,
-    "position_size_pct": 0.0464,
-    "confidence": 0.764,
-    "signals": [
-      "RSI oversold (6.8)",
-      "5d momentum -5.09%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: earnings beat"
-    ],
-    "news_sentiment": 0.704,
-    "news_headlines": [
-      "Cathie Wood\u2019s ARK Sells HOOD Stock Again \u2013 Even As Robinhood Hits 1M Gold Cards, Launches Platinum Card",
-      "Robinhood Markets, Inc. (HOOD) Suffers a Larger Drop Than the General Market: Key Insights",
-      "Elon Musk Likes, Whales Buy: Can Dogecoin Price Escape Its 19-Month Downtrend?"
-    ],
-    "mode": "paper",
-    "strategy_version": "65",
-    "status": "open",
-    "price_peak": 102.45500183105469,
-    "trailing_stop_price": 98.47565
-  },
   "USO": {
     "id": "USO_20260723164549",
     "asset": "USO",
@@ -486,65 +359,161 @@
     "mode": "paper",
     "strategy_version": "65",
     "status": "open",
-    "price_trough": 139.49000549316406,
-    "trailing_stop_price": 141.158306
+    "price_trough": 136.6510009765625,
+    "trailing_stop_price": 138.285347
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260724124523",
-    "asset": "SOL-USD",
+  "AXP": {
+    "id": "AXP_20260724142716",
+    "asset": "AXP",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 74.91999816894531,
-    "entry_time": "2026-07-24T12:45:23.783566+00:00",
-    "stop_loss_pct": 0.0051,
-    "take_profit_pct": 0.01222,
-    "size_usd": 5301.31,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
+    "entry_price": 321.635009765625,
+    "entry_time": "2026-07-24T14:27:16.669043+00:00",
+    "stop_loss_pct": 0.01228,
+    "take_profit_pct": 0.03064,
+    "size_usd": 6598.31,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
     "signals": [
-      "RSI oversold (27.3)",
-      "5d momentum -1.46%",
-      "1d momentum -2.56%",
-      "BB oversold (pct_b=-0.17)",
+      "RSI oversold (13.5)",
+      "5d momentum -5.84%",
+      "1d momentum -9.04%",
+      "BB oversold (pct_b=-0.35)",
+      "Volume spike 4.9\u00d7",
+      "News +0.84 (conf 0.75) \u2192 long",
       "High-impact catalyst",
-      "Claude [contradicts]: price decline"
+      "Claude [strongly_supports]: earnings beat; macro risk; price decline"
     ],
-    "news_sentiment": 0.158,
+    "news_sentiment": 0.845,
     "news_headlines": [
-      "The 3 big themes coming to crypto that investors should pay attention to",
-      "5 Things That Smart Money Thinks Could End the Crypto Bear Market",
-      "Solana Tokenized-Equity Volume Is Up Roughly 2,400x Year-Over-Year"
+      "Earnings live: American Express, Verizon stocks slip despite earnings beats",
+      "Verizon & American Express earnings, US new home sales: What to Watch",
+      "American Express Posts Mixed Second-Quarter Results, Sees Revenue Growth at High End of Guidance Range"
     ],
     "mode": "paper",
     "strategy_version": "66",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260724124523",
-    "asset": "XRP-USD",
+  "SLB": {
+    "id": "SLB_20260724142716",
+    "asset": "SLB",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 51.32500076293945,
+    "entry_time": "2026-07-24T14:27:16.670848+00:00",
+    "stop_loss_pct": 0.01162,
+    "take_profit_pct": 0.02829,
+    "size_usd": 5798.52,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (77.6)",
+      "MACD crossover",
+      "5d momentum +7.74%",
+      "1d momentum +9.70%",
+      "BB overbought (pct_b=1.44)",
+      "Volume spike 4.9\u00d7",
+      "News +0.73 (conf 0.66) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; macro risk"
+    ],
+    "news_sentiment": 0.727,
+    "news_headlines": [
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid New US Tariffs",
+      "Sector Update: Energy Stocks Decline Pre-Bell Friday",
+      "SLB tops second-quarter forecasts as growth in production systems offsets Middle East weakness"
+    ],
+    "mode": "paper",
+    "strategy_version": "66",
+    "status": "open"
+  },
+  "HOOD": {
+    "id": "HOOD_20260724142716",
+    "asset": "HOOD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 1.1013000011444092,
-    "entry_time": "2026-07-24T12:45:23.785107+00:00",
-    "stop_loss_pct": 0.00482,
-    "take_profit_pct": 0.01192,
-    "size_usd": 1269.99,
-    "position_size_pct": 0.0122,
+    "entry_price": 95.66999816894531,
+    "entry_time": "2026-07-24T14:27:16.672136+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6331.71,
+    "position_size_pct": 0.0608,
     "confidence": 0.95,
     "signals": [
-      "RSI oversold (36.4)",
-      "5d momentum -1.07%",
-      "1d momentum -1.79%",
-      "BB oversold (pct_b=0.06)",
-      "Volume spike 1.9\u00d7",
+      "RSI oversold (20.6)",
+      "5d momentum -6.21%",
+      "1d momentum -5.21%",
+      "BB oversold (pct_b=-0.24)",
+      "Volume spike 2.7\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: price decline"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.111,
+    "news_sentiment": 0.174,
     "news_headlines": [
-      "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap?",
-      "5 Things That Smart Money Thinks Could End the Crypto Bear Market",
-      "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow"
+      "Robinhood CEO\u2019s X Account Hacked to Promote Fake Memecoin",
+      "Momentum Crash Hits YOLO Traders\u2019 Returns by Most in Four Years",
+      "Here's Why Hyperliquid Is Now a Threat to Robinhood, Kalshi, and Polymarket"
+    ],
+    "mode": "paper",
+    "strategy_version": "66",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260724142716",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 929.0549926757812,
+    "entry_time": "2026-07-24T14:27:16.673832+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6549.68,
+    "position_size_pct": 0.0629,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (38.8)",
+      "5d momentum -7.51%",
+      "1d momentum +5.85%",
+      "BB oversold (pct_b=-0.22)",
+      "Volume spike 1.7\u00d7",
+      "News +0.87 (conf 0.60) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.867,
+    "news_headlines": [
+      "Is Wall Street buying Intel's comeback story after blowout Q2 earnings?",
+      "2 reasons why Microsoft belongs in your portfolio: D.A. Davidson's Gil Luria",
+      "Financial Institutions Q2 Earnings Call Highlights"
+    ],
+    "mode": "paper",
+    "strategy_version": "66",
+    "status": "open"
+  },
+  "AAPL": {
+    "id": "AAPL_20260724142716",
+    "asset": "AAPL",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 327.46990966796875,
+    "entry_time": "2026-07-24T14:27:16.694920+00:00",
+    "stop_loss_pct": 0.0189,
+    "take_profit_pct": 0.0631,
+    "size_usd": 4705.34,
+    "position_size_pct": 0.0452,
+    "confidence": 0.678,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +2.22%",
+      "1d momentum +0.47%",
+      "High-impact catalyst",
+      "Claude [neutral]: earnings beat"
+    ],
+    "news_sentiment": 0.172,
+    "news_headlines": [
+      "'Magnificent 7' stocks erase $797 billion in market value in worst day since April 2025",
+      "The Discount On GOOGL Stock Looks Overdone",
+      "Intel Rises 3% on Q2 Earnings Beat, Upbeat Q3 Outlook as Chip Sector Stays Flat"
     ],
     "mode": "paper",
     "strategy_version": "66",
