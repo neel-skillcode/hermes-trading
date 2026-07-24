@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "55",
     "status": "open",
-    "price_trough": 1.1373976469039917,
-    "trailing_stop_price": 1.146497
+    "price_trough": 1.1371389627456665,
+    "trailing_stop_price": 1.146236
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
@@ -489,58 +489,62 @@
     "price_trough": 139.49000549316406,
     "trailing_stop_price": 141.158306
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260724010254",
-    "asset": "CAD/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 116.4260025024414,
-    "entry_time": "2026-07-24T01:02:54.869442+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00468,
-    "size_usd": 1297.49,
-    "position_size_pct": 0.0124,
-    "confidence": 0.684,
-    "signals": [
-      "RSI overbought (72.5)",
-      "1d momentum +0.53%",
-      "News +1.00 (conf 0.70) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-    ],
-    "news_sentiment": 1.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "66",
-    "status": "open"
-  },
   "SOL-USD": {
-    "id": "SOL-USD_20260724111313",
+    "id": "SOL-USD_20260724124523",
     "asset": "SOL-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 75.37000274658203,
-    "entry_time": "2026-07-24T11:13:13.347301+00:00",
-    "stop_loss_pct": 0.00478,
-    "take_profit_pct": 0.01146,
-    "size_usd": 5287.65,
-    "position_size_pct": 0.0507,
+    "entry_price": 74.91999816894531,
+    "entry_time": "2026-07-24T12:45:23.783566+00:00",
+    "stop_loss_pct": 0.0051,
+    "take_profit_pct": 0.01222,
+    "size_usd": 5301.31,
+    "position_size_pct": 0.0508,
     "confidence": 0.794,
     "signals": [
-      "RSI oversold (37.1)",
-      "5d momentum -0.55%",
-      "1d momentum -2.90%",
-      "BB oversold (pct_b=0.05)",
+      "RSI oversold (27.3)",
+      "5d momentum -1.46%",
+      "1d momentum -2.56%",
+      "BB oversold (pct_b=-0.17)",
       "High-impact catalyst",
       "Claude [contradicts]: price decline"
     ],
     "news_sentiment": 0.158,
     "news_headlines": [
       "The 3 big themes coming to crypto that investors should pay attention to",
-      "Solana Tokenized-Equity Volume Is Up Roughly 2,400x Year-Over-Year",
-      "Stripe Plans to Acquire PayPal for $53 Billion. Here's What That Could Mean for Crypto Investors."
+      "5 Things That Smart Money Thinks Could End the Crypto Bear Market",
+      "Solana Tokenized-Equity Volume Is Up Roughly 2,400x Year-Over-Year"
+    ],
+    "mode": "paper",
+    "strategy_version": "66",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260724124523",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.1013000011444092,
+    "entry_time": "2026-07-24T12:45:23.785107+00:00",
+    "stop_loss_pct": 0.00482,
+    "take_profit_pct": 0.01192,
+    "size_usd": 1269.99,
+    "position_size_pct": 0.0122,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (36.4)",
+      "5d momentum -1.07%",
+      "1d momentum -1.79%",
+      "BB oversold (pct_b=0.06)",
+      "Volume spike 1.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.111,
+    "news_headlines": [
+      "Is It Good to Buy Ripple (XRP) Now Since It\u2019s So Cheap?",
+      "5 Things That Smart Money Thinks Could End the Crypto Bear Market",
+      "XRP Price to $6? Ripple Opens RLUSD Route to $2T Network but XRP Demand Doubts Grow"
     ],
     "mode": "paper",
     "strategy_version": "66",
