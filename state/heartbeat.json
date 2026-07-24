@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104185.8,
+  "portfolio_balance": 104185.26,
   "portfolio_peak": 105273.92,
   "portfolio_drawdown_pct": 1.03,
-  "unrealized_pnl_usd": 573.65,
-  "equity_value": 104759.45,
+  "unrealized_pnl_usd": 568.0,
+  "equity_value": 104753.26,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41674.32,
+  "day_capital_used_usd": 41674.1,
   "swing_capital_used_usd": 52070.02,
-  "total_trades": 732,
-  "last_tick": "2026-07-24T22:36:04.400846+00:00",
+  "total_trades": 733,
+  "last_tick": "2026-07-24T23:38:50.701296+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -516,9 +516,9 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "current_price": 73.860001,
-      "unrealized_pnl_pct": -0.001757,
-      "unrealized_pnl_usd": -9.39
+      "current_price": 73.800003,
+      "unrealized_pnl_pct": -0.002568,
+      "unrealized_pnl_usd": -13.72
     },
     {
       "id": "SLB_20260724172516",
@@ -586,9 +586,9 @@
       "status": "open",
       "price_peak": 64226.01953125,
       "trailing_stop_price": 63897.824571,
-      "current_price": 64126.46875,
-      "unrealized_pnl_pct": 0.003136,
-      "unrealized_pnl_usd": 6.25
+      "current_price": 64075.589844,
+      "unrealized_pnl_pct": 0.002341,
+      "unrealized_pnl_usd": 4.66
     },
     {
       "id": "LRCX_20260724185436",
@@ -627,42 +627,42 @@
       "unrealized_pnl_usd": 19.99
     },
     {
-      "id": "AVAX-USD_20260724201309",
-      "asset": "AVAX-USD",
+      "id": "ETH-USD_20260724233850",
+      "asset": "ETH-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 6.230000019073486,
-      "entry_time": "2026-07-24T20:13:09.685839+00:00",
-      "stop_loss_pct": 0.00543,
-      "take_profit_pct": 0.01239,
-      "size_usd": 56.43,
+      "entry_price": 1857.9000244140625,
+      "entry_time": "2026-07-24T23:38:50.696739+00:00",
+      "stop_loss_pct": 0.00552,
+      "take_profit_pct": 0.01348,
+      "size_usd": 56.21,
       "position_size_pct": 0.0005,
-      "confidence": 0.564,
+      "confidence": 0.88,
       "signals": [
-        "RSI oversold (42.9)",
-        "5d momentum +0.48%",
-        "1d momentum -1.27%",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade"
+        "RSI oversold (28.7)",
+        "MACD crossover",
+        "1d momentum -1.01%",
+        "Volume spike 4.5\u00d7",
+        "Claude [supports]: analyst downgrade"
       ],
-      "news_sentiment": 0.444,
+      "news_sentiment": -0.217,
       "news_headlines": [
-        "Aptos climbs to the top 4 blockchains in transaction count",
-        "How tokenized stocks could become a $3 trillion market",
-        "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates"
+        "What to know about Morgan Stanley's $400M crypto surprise",
+        "Financial Services Roundup: Market Talk",
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000"
       ],
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "current_price": 6.26,
-      "unrealized_pnl_pct": -0.004815,
-      "unrealized_pnl_usd": -0.27
+      "current_price": 1857.900024,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "UBER",
-      "rank_score": 0.7902,
+      "rank_score": 0.8702,
       "price": 65.94000244140625,
       "rsi": 24.594864277766987,
       "momentum_5d": -0.05746135928636152,
@@ -675,11 +675,11 @@
       "news_sentiment": 0.487,
       "news_confidence": 0.39,
       "news_headlines": [
+        "S&P 500, Dow, Nasdaq End Second Week Lower Over Elevated Oil Prices, Chipmaker Rout \u2014 PSKY, UBER, QCOM, VZ, INTC In Focus",
         "Stocks to Watch: Bank of America, Intel, SAP, Oracle",
-        "Uber Stock Slides Nearly 5% After Report Says Alphabet\u2019s Waymo Could Walk Away From Their Robotaxi Deal",
-        "Uber under pressure: Waymo partnership on the brink"
+        "Uber Stock Slides Nearly 5% After Report Says Alphabet\u2019s Waymo Could Walk Away From Their Robotaxi Deal"
       ],
-      "high_impact_news": false
+      "high_impact_news": true
     },
     {
       "asset": "LRCX",
@@ -780,15 +780,15 @@
       "news_sentiment": 0.0,
       "news_confidence": 0.56,
       "news_headlines": [
+        "Oracle Just Hit a New 52-Week Low. Wall Street's Average Target Is Still More Than Double the Stock.",
         "Stocks to Watch: Bank of America, Intel, SAP, Oracle",
-        "Oracle Stock Reverses Lower Despite Pentagon Software Deal",
-        "ORCL Has Left Its Peers Behind. Or Has It?"
+        "Oracle Stock Reverses Lower Despite Pentagon Software Deal"
       ],
       "high_impact_news": true
     },
     {
       "asset": "INTC",
-      "rank_score": 0.6831,
+      "rank_score": 0.6781,
       "price": 92.31500244140625,
       "rsi": 23.93239900751962,
       "momentum_5d": -0.04311993882882248,
@@ -798,12 +798,12 @@
       "bollinger_pct_b": 0.0353,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.587,
-      "news_confidence": 0.63,
+      "news_sentiment": 0.533,
+      "news_confidence": 0.6,
       "news_headlines": [
         "Intel stock falls nearly 8% despite big Q2 earnings beat",
-        "Nasdaq lags on angst over AI spending ahead of earnings reports",
-        "Stock Market Today, July 24: Intel Reverses Gains on Foundry and AI Spending Concerns"
+        "S&P 500, Dow, Nasdaq End Second Week Lower Over Elevated Oil Prices, Chipmaker Rout \u2014 PSKY, UBER, QCOM, VZ, INTC In Focus",
+        "Nasdaq lags on angst over AI spending ahead of earnings reports"
       ],
       "high_impact_news": true
     },
@@ -907,8 +907,8 @@
       "news_confidence": 0.46,
       "news_headlines": [
         "Earnings live: American Express, Verizon stocks slip despite earnings beats",
-        "Verizon & American Express earnings, US new home sales: What to Watch",
-        "TechCrunch\u00a0Disrupt 2026\u2019s new Smart Money Stage explores fintech, payments, AI, and everything between"
+        "TechCrunch\u00a0Disrupt 2026\u2019s new Smart Money Stage explores fintech, payments, AI, and everything between",
+        "How To Earn $500 A Month From American Express Stock Ahead Of Q2 Earnings"
       ],
       "high_impact_news": true
     },
@@ -977,7 +977,7 @@
     },
     {
       "asset": "VLO",
-      "rank_score": 0.56,
+      "rank_score": 0.5546,
       "price": 302.5050048828125,
       "rsi": 30.68316847181842,
       "momentum_5d": -0.00459028970611642,
@@ -987,12 +987,12 @@
       "bollinger_pct_b": 0.1347,
       "volume_spike": true,
       "volume_spike_ratio": 1.68,
-      "news_sentiment": 0.513,
-      "news_confidence": 0.62,
+      "news_sentiment": 0.48,
+      "news_confidence": 0.55,
       "news_headlines": [
+        "How Many Stocks Should You Own?",
         "Eni Taps Saipem for New Long-Term Offshore Drilling Campaign",
-        "EQNR Q2 Earnings Miss Estimates, Revenues Rise Y/Y on Higher Output",
-        "Valero Energy Corporation (VLO) is Attracting Investor Attention: Here is What You Should Know"
+        "EQNR Q2 Earnings Miss Estimates, Revenues Rise Y/Y on Higher Output"
       ],
       "high_impact_news": true
     },
@@ -1018,6 +1018,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "TSLA",
+      "rank_score": 0.5537,
+      "price": 313.0,
+      "rsi": 13.588065808417355,
+      "momentum_5d": 0.008424988810991893,
+      "momentum_1d": -0.17507865655457347,
+      "macd_crossover": false,
+      "atr_pct": 0.026008755689557427,
+      "bollinger_pct_b": 0.3127,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 0.594,
+      "news_confidence": 0.69,
+      "news_headlines": [
+        "What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence",
+        "Why Big Tech barnings could define the market next week",
+        "Tesla (TSLA) Just Found A Record Profit Engine Beyond Car Sales"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BMY",
       "rank_score": 0.5466,
       "price": 62.09000015258789,
@@ -1039,29 +1060,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "META",
-      "rank_score": 0.5462,
-      "price": 595.2000122070312,
-      "rsi": 21.355453544046583,
-      "momentum_5d": -0.022274783726044033,
-      "momentum_1d": -0.07961369994036027,
-      "macd_crossover": false,
-      "atr_pct": 0.011497517831914803,
-      "bollinger_pct_b": 0.1552,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.25,
-      "news_confidence": 0.72,
-      "news_headlines": [
-        "What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence",
-        "Dow Jones Futures: Apple Earnings, Iran News, Fed Meeting Loom As AI Stocks Sell Off",
-        "Earnings Are Crushing It. Stocks Are Getting Crushed."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
-      "rank_score": 0.5421,
+      "rank_score": 0.5451,
       "price": 166.97000122070312,
       "rsi": 26.441780844662574,
       "momentum_5d": -0.009961415574153013,
@@ -1071,12 +1071,12 @@
       "bollinger_pct_b": 0.206,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": -0.023,
-      "news_confidence": 0.43,
+      "news_sentiment": -0.111,
+      "news_confidence": 0.36,
       "news_headlines": [
+        "S&P 500, Dow, Nasdaq End Second Week Lower Over Elevated Oil Prices, Chipmaker Rout \u2014 PSKY, UBER, QCOM, VZ, INTC In Focus",
         "TSMC might set up a price hike that could come straight for your next phone, laptop, or tablet",
-        "MRVL Has Momentum. The Question Is The Price",
-        "Qualcomm (QCOM) Raises Product Prices And Deepens Samsung Snapdragon Ties"
+        "MRVL Has Momentum. The Question Is The Price"
       ],
       "high_impact_news": true
     }
