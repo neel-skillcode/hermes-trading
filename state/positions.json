@@ -112,8 +112,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 196.88999938964844,
-    "trailing_stop_price": 208.703399
+    "price_trough": 194.26300048828125,
+    "trailing_stop_price": 205.918781
   },
   "AMD": {
     "id": "AMD_20260721144944",
@@ -229,8 +229,8 @@
     "mode": "paper",
     "strategy_version": "64",
     "status": "open",
-    "price_trough": 0.8532099723815918,
-    "trailing_stop_price": 0.860036
+    "price_trough": 0.8531200289726257,
+    "trailing_stop_price": 0.859945
   },
   "AUD/USD": {
     "id": "AUD/USD_20260723042718",
@@ -361,8 +361,8 @@
     "mode": "paper",
     "strategy_version": "66",
     "status": "open",
-    "price_peak": 323.15460205078125,
-    "trailing_stop_price": 319.186264
+    "price_peak": 324.6499938964844,
+    "trailing_stop_price": 320.663292
   },
   "HOOD": {
     "id": "HOOD_20260724142716",
@@ -394,40 +394,6 @@
     "mode": "paper",
     "strategy_version": "66",
     "status": "open"
-  },
-  "MU": {
-    "id": "MU_20260724142716",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 929.0549926757812,
-    "entry_time": "2026-07-24T14:27:16.673832+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6549.68,
-    "position_size_pct": 0.0629,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (38.8)",
-      "5d momentum -7.51%",
-      "1d momentum +5.85%",
-      "BB oversold (pct_b=-0.22)",
-      "Volume spike 1.7\u00d7",
-      "News +0.87 (conf 0.60) \u2192 long",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.867,
-    "news_headlines": [
-      "Is Wall Street buying Intel's comeback story after blowout Q2 earnings?",
-      "2 reasons why Microsoft belongs in your portfolio: D.A. Davidson's Gil Luria",
-      "Financial Institutions Q2 Earnings Call Highlights"
-    ],
-    "mode": "paper",
-    "strategy_version": "66",
-    "status": "open",
-    "price_peak": 943.385009765625,
-    "trailing_stop_price": 929.234235
   },
   "AAPL": {
     "id": "AAPL_20260724142716",
@@ -520,7 +486,9 @@
     ],
     "mode": "paper",
     "strategy_version": "67",
-    "status": "open"
+    "status": "open",
+    "price_peak": 562.2100219726562,
+    "trailing_stop_price": 559.882472
   },
   "SLB": {
     "id": "SLB_20260724172516",
@@ -579,6 +547,39 @@
       "What to know about Morgan Stanley's $400M crypto surprise",
       "BitMEX is shutting down and facing a theft lawsuit",
       "Stock Market Today: Nasdaq Ventures Into The Black, But American Express Triggers Sell Signal (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "67",
+    "status": "open",
+    "price_peak": 64226.01953125,
+    "trailing_stop_price": 63897.824571
+  },
+  "LRCX": {
+    "id": "LRCX_20260724185436",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 304.4649963378906,
+    "entry_time": "2026-07-24T18:54:36.158891+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6510.33,
+    "position_size_pct": 0.0625,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (31.1)",
+      "5d momentum -2.45%",
+      "1d momentum -5.31%",
+      "BB oversold (pct_b=-0.14)",
+      "News +0.88 (conf 0.62) \u2192 long",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.877,
+    "news_headlines": [
+      "Countdown to Lam Research (LRCX) Q4 Earnings: Wall Street Forecasts for Key Metrics",
+      "LRCX Poised for a Q4 Earnings Surprise: Should You Buy the Stock Now?",
+      "This AI Stock Needs to Cool Off After Gaining More Than 200% Year to Date"
     ],
     "mode": "paper",
     "strategy_version": "67",
