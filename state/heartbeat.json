@@ -3,15 +3,15 @@
   "portfolio_balance": 104184.9,
   "portfolio_peak": 105273.92,
   "portfolio_drawdown_pct": 1.03,
-  "unrealized_pnl_usd": 628.13,
-  "equity_value": 104813.03,
+  "unrealized_pnl_usd": 616.53,
+  "equity_value": 104801.43,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41673.96,
   "swing_capital_used_usd": 52070.02,
   "total_trades": 734,
-  "last_tick": "2026-07-25T19:45:52.093433+00:00",
+  "last_tick": "2026-07-25T20:35:00.890721+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -516,11 +516,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_peak": 74.52999877929688,
-      "trailing_stop_price": 74.101451,
-      "current_price": 74.519997,
-      "unrealized_pnl_pct": 0.007163,
-      "unrealized_pnl_usd": 38.28
+      "price_peak": 74.41999816894531,
+      "trailing_stop_price": 73.992083,
+      "current_price": 74.379997,
+      "unrealized_pnl_pct": 0.005271,
+      "unrealized_pnl_usd": 28.17
     },
     {
       "id": "SLB_20260724172516",
@@ -586,11 +586,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_peak": 64334.44140625,
-      "trailing_stop_price": 64005.692411,
-      "current_price": 64334.441406,
-      "unrealized_pnl_pct": 0.00639,
-      "unrealized_pnl_usd": 12.74
+      "price_peak": 64278.98828125,
+      "trailing_stop_price": 63950.522651,
+      "current_price": 64279.0,
+      "unrealized_pnl_pct": 0.005523,
+      "unrealized_pnl_usd": 11.01
     },
     {
       "id": "LRCX_20260724185436",
@@ -658,11 +658,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_trough": 0.07270000129938126,
-      "trailing_stop_price": 0.073178,
-      "current_price": 0.0727,
-      "unrealized_pnl_pct": 0.000962,
-      "unrealized_pnl_usd": 0.05
+      "price_trough": 0.07238999754190445,
+      "trailing_stop_price": 0.072866,
+      "current_price": 0.07239,
+      "unrealized_pnl_pct": 0.005222,
+      "unrealized_pnl_usd": 0.29
     }
   ],
   "last_candidates": [
@@ -688,6 +688,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ARM",
+      "rank_score": 0.7469,
+      "price": 259.739990234375,
+      "rsi": 23.92170724823326,
+      "momentum_5d": -0.03871214470797887,
+      "momentum_1d": -0.11290983243472542,
+      "macd_crossover": false,
+      "atr_pct": 0.023996334560405733,
+      "bollinger_pct_b": -0.0102,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.32,
+      "news_sentiment": 0.373,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "These high-flying tech stocks are down 65% \u2014 here's how to shop the sell-off: One Big Investment Idea",
+        "Arm Just Scored a Major Server Market Share Win. What That Means for ARM Stock Here.",
+        "AMD, Newly Emboldened, Is Taking Direct Aim at Nvidia"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LRCX",
       "rank_score": 0.7431,
       "price": 305.3999938964844,
@@ -705,27 +726,6 @@
         "Countdown to Lam Research (LRCX) Q4 Earnings: Wall Street Forecasts for Key Metrics",
         "LRCX Poised for a Q4 Earnings Surprise: Should You Buy the Stock Now?",
         "This AI Stock Needs to Cool Off After Gaining More Than 200% Year to Date"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ARM",
-      "rank_score": 0.7419,
-      "price": 259.739990234375,
-      "rsi": 23.92170724823326,
-      "momentum_5d": -0.03871214470797887,
-      "momentum_1d": -0.11290983243472542,
-      "macd_crossover": false,
-      "atr_pct": 0.023996334560405733,
-      "bollinger_pct_b": -0.0102,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.32,
-      "news_sentiment": 0.292,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "These high-flying tech stocks are down 65% \u2014 here's how to shop the sell-off: One Big Investment Idea",
-        "AMD, Newly Emboldened, Is Taking Direct Aim at Nvidia",
-        "Can Arm Holdings Become a $1 Trillion Company?"
       ],
       "high_impact_news": true
     },
@@ -794,7 +794,7 @@
     },
     {
       "asset": "INTC",
-      "rank_score": 0.6741,
+      "rank_score": 0.6851,
       "price": 92.31500244140625,
       "rsi": 23.93239900751962,
       "momentum_5d": -0.04311993882882248,
@@ -804,12 +804,12 @@
       "bollinger_pct_b": 0.0353,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.56,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.83,
+      "news_confidence": 0.47,
       "news_headlines": [
         "Alphabet flops, Intel shocks, and Tesla tanks: AlphaSpace weekly recap",
-        "Intel's CEO Just Made a Bold AI Prediction. Here's Why NVDA Investors Should Pay Attention",
-        "Intel vs. IonQ: Comparing Revenue Trends Between Artificial Intelligence and Quantum Computing Chipmakers"
+        "Intel stock falls nearly 8% despite big Q2 earnings beat",
+        "Goldman delivers a candid response after Intel's stunning quarter"
       ],
       "high_impact_news": true
     },
@@ -835,23 +835,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.6582,
-      "price": 0.07270000129938126,
-      "rsi": 87.03290693180851,
-      "momentum_5d": 0.03355133925616005,
-      "momentum_1d": 0.05088182439504148,
+      "asset": "AVAX-USD",
+      "rank_score": 0.6573,
+      "price": 6.71999979019165,
+      "rsi": 96.07843320583387,
+      "momentum_5d": 0.022830991569417654,
+      "momentum_1d": 0.07692308280124724,
       "macd_crossover": false,
-      "atr_pct": 0.00782079627862758,
-      "bollinger_pct_b": 0.9723,
+      "atr_pct": 0.010204077288291062,
+      "bollinger_pct_b": 0.9144,
       "volume_spike": false,
-      "volume_spike_ratio": 1.44,
-      "news_sentiment": -0.026,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.444,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
-        "Dogecoin slides after Elon Musk says he got carried away",
-        "Dogecoin Falls 5% After Musk Says He Got \u2018Carried Away\u2019 With Politics"
+        "Aptos climbs to the top 4 blockchains in transaction count",
+        "How tokenized stocks could become a $3 trillion market",
+        "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates"
       ],
       "high_impact_news": true
     },
@@ -873,27 +873,6 @@
         "KLA's Q4 Earnings Loom: Buy, Sell or Hold the KLAC Stock?",
         "LRCX Poised for a Q4 Earnings Surprise: Should You Buy the Stock Now?",
         "AMSL, AMAT, KLAC, LRCX: Chipmaking Equipment Stocks Rise On Intel\u2019s CapEx Bump"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6356,
-      "price": 6.679999828338623,
-      "rsi": 90.19604543227607,
-      "momentum_5d": 0.01984727233865542,
-      "momentum_1d": 0.0722311088101826,
-      "macd_crossover": false,
-      "atr_pct": 0.01005132169096699,
-      "bollinger_pct_b": 0.9263,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.444,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Aptos climbs to the top 4 blockchains in transaction count",
-        "How tokenized stocks could become a $3 trillion market",
-        "BlackRock's BUIDL Nears $1 Billion Milestone on Avalanche as Real-World Asset Boom Accelerates"
       ],
       "high_impact_news": true
     },
@@ -920,7 +899,7 @@
     },
     {
       "asset": "AMZN",
-      "rank_score": 0.6202,
+      "rank_score": 0.6153,
       "price": 232.07000732421875,
       "rsi": 24.18788506184869,
       "momentum_5d": -0.007314532740213012,
@@ -930,12 +909,12 @@
       "bollinger_pct_b": 0.2802,
       "volume_spike": false,
       "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.673,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.609,
+      "news_confidence": 0.46,
       "news_headlines": [
         "Alphabet flops, Intel shocks, and Tesla tanks: AlphaSpace weekly recap",
-        "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
-        "Why UPS Is Betting $48 Million on Temperature-Controlled Logistics Growth"
+        "Google and Tesla lost half a trillion dollars this week as their suppliers cashed in: Chart of the Day",
+        "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus"
       ],
       "high_impact_news": true
     },
@@ -982,27 +961,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5769,
-      "price": 1873.969970703125,
-      "rsi": 78.08724898605203,
-      "momentum_5d": 0.003706339784165597,
-      "momentum_1d": 0.006412324838154552,
-      "macd_crossover": false,
-      "atr_pct": 0.0025347304351551604,
-      "bollinger_pct_b": 1.0027,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.1,
-      "news_sentiment": -0.459,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Why bear markets may actually be more favorable for crypto builders",
-        "Ethereum Traders are Giving Up Again. The Last Two Times ETH Rallied",
-        "Another Crypto Project Goes Dark as Dango Winds Down"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARKK",
       "rank_score": 0.573,
       "price": 71.87999725341797,
@@ -1022,6 +980,27 @@
         "Why Are CRCL, COIN Stocks Rising Pre-Market Despite Bitcoin\u2019s Dip, Price Target Cuts?"
       ],
       "high_impact_news": false
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5724,
+      "price": 0.07238999754190445,
+      "rsi": 81.32768409614008,
+      "momentum_5d": 0.018143474506647887,
+      "momentum_1d": 0.047006006801429426,
+      "macd_crossover": false,
+      "atr_pct": 0.008199638220507875,
+      "bollinger_pct_b": 0.8644,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.68,
+      "news_sentiment": -0.026,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
+        "Dogecoin slides after Elon Musk says he got carried away",
+        "Dogecoin Falls 5% After Musk Says He Got \u2018Carried Away\u2019 With Politics"
+      ],
+      "high_impact_news": true
     },
     {
       "asset": "LYFT",
@@ -1045,27 +1024,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.5557,
-      "price": 64334.44140625,
-      "rsi": 74.08853643846618,
-      "momentum_5d": 0.002889692599549316,
-      "momentum_1d": 0.002744796123604108,
-      "macd_crossover": false,
-      "atr_pct": 0.0018234572702657784,
-      "bollinger_pct_b": 1.0258,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.31,
-      "news_sentiment": -0.391,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Why bear markets may actually be more favorable for crypto builders",
-        "MARA CEO Says Bitcoin's Payments Use Case Has 'Seen Its Day Go By' As Miners Chase AI Money",
-        "Galaxy Research Head Says Bitcoin Is A 'Veblen Good' \u2014 The Firm's Own Desk Is 50/50 On The Bottom"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VLO",
       "rank_score": 0.5546,
       "price": 302.5050048828125,
@@ -1083,6 +1041,48 @@
         "How Many Stocks Should You Own?",
         "Eni Taps Saipem for New Long-Term Offshore Drilling Campaign",
         "EQNR Q2 Earnings Miss Estimates, Revenues Rise Y/Y on Higher Output"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "IONQ",
+      "rank_score": 0.5542,
+      "price": 32.84000015258789,
+      "rsi": 29.352711072661407,
+      "momentum_5d": -0.02159983625157023,
+      "momentum_1d": -0.07778714996591304,
+      "macd_crossover": false,
+      "atr_pct": 0.02272294576404239,
+      "bollinger_pct_b": 0.099,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.89,
+      "news_sentiment": 0.692,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "These high-flying tech stocks are down 65% \u2014 here's how to shop the sell-off: One Big Investment Idea",
+        "Intel vs. IonQ: Comparing Revenue Trends Between Artificial Intelligence and Quantum Computing Chipmakers",
+        "Jim Cramer says he's steering clear of one popular stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BMY",
+      "rank_score": 0.5535,
+      "price": 62.09000015258789,
+      "rsi": 68.42839664815733,
+      "momentum_5d": -0.001768498537014553,
+      "momentum_1d": 0.026365836000741816,
+      "macd_crossover": false,
+      "atr_pct": 0.007211873734301961,
+      "bollinger_pct_b": 0.7192,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.57,
+      "news_sentiment": 0.551,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Why Agilent Technologies (A) Is Up 5.4% After New FDA Nod For OPDIVO Cancer Test",
+        "Is Bristol Myers Squibb's Dividend Too Good to Be True? Here's My Honest Answer",
+        "3 Healthcare Stocks We Keep Off Our Radar"
       ],
       "high_impact_news": true
     }
