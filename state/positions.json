@@ -523,37 +523,6 @@
     "price_peak": 305.21,
     "trailing_stop_price": 300.63185
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260725173043",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.07276999950408936,
-    "entry_time": "2026-07-25T17:30:43.009571+00:00",
-    "stop_loss_pct": 0.00658,
-    "take_profit_pct": 0.01643,
-    "size_usd": 56.07,
-    "position_size_pct": 0.0005,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (88.5)",
-      "5d momentum +4.42%",
-      "1d momentum +5.30%",
-      "BB overbought (pct_b=1.26)",
-      "Volume spike 4.5\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": -0.026,
-    "news_headlines": [
-      "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
-      "Dogecoin slides after Elon Musk says he got carried away",
-      "Dogecoin Falls 5% After Musk Says He Got \u2018Carried Away\u2019 With Politics"
-    ],
-    "mode": "paper",
-    "strategy_version": "67",
-    "status": "open"
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260726043833",
     "asset": "SOL-USD",
@@ -580,6 +549,39 @@
       "Why bear markets may actually be more favorable for crypto builders",
       "This Bitwise Advisor Says Nvidia And Solana Had The Same 'Aha Moment' As Jensen Huang Pushes Open AI Models",
       "Bitcoin Was Flat This Week, But These AI And DeFi Altcoins Were Anything But Boring"
+    ],
+    "mode": "paper",
+    "strategy_version": "67",
+    "status": "open",
+    "price_trough": 74.97000122070312,
+    "trailing_stop_price": 75.242892
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260726071808",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 571.77001953125,
+    "entry_time": "2026-07-26T07:18:08.350502+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00495,
+    "size_usd": 55.74,
+    "position_size_pct": 0.0005,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (82.8)",
+      "5d momentum +0.37%",
+      "1d momentum +1.33%",
+      "BB overbought (pct_b=0.97)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.043,
+    "news_headlines": [
+      "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
+      "Aptos climbs to the top 4 blockchains in transaction count",
+      "Cardano Price Forecast: ADA Could Rally by 180% \u2014 Is It Worth the Risk?"
     ],
     "mode": "paper",
     "strategy_version": "67",
