@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104263.52,
+  "portfolio_balance": 104241.89,
   "portfolio_peak": 105273.92,
-  "portfolio_drawdown_pct": 0.96,
-  "unrealized_pnl_usd": 608.0,
-  "equity_value": 104871.52,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 0.98,
+  "unrealized_pnl_usd": 601.75,
+  "equity_value": 104843.64,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41705.41,
+  "day_capital_used_usd": 41696.75,
   "swing_capital_used_usd": 52070.02,
-  "total_trades": 736,
-  "last_tick": "2026-07-26T14:54:32.442531+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "total_trades": 738,
+  "last_tick": "2026-07-26T15:57:16.332395+00:00",
+  "last_reflection": "2026-07-26",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -550,11 +550,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_peak": 64648.3984375,
-      "trailing_stop_price": 64318.045121,
-      "current_price": 64644.511719,
-      "unrealized_pnl_pct": 0.01124,
-      "unrealized_pnl_usd": 22.4
+      "price_peak": 64716.0,
+      "trailing_stop_price": 64385.30124,
+      "current_price": 64718.019531,
+      "unrealized_pnl_pct": 0.01239,
+      "unrealized_pnl_usd": 24.69
     },
     {
       "id": "LRCX_20260724185436",
@@ -593,74 +593,38 @@
       "unrealized_pnl_usd": 19.99
     },
     {
-      "id": "SOL-USD_20260726043833",
-      "asset": "SOL-USD",
+      "id": "ETH-USD_20260726155715",
+      "asset": "ETH-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 75.08999633789062,
-      "entry_time": "2026-07-26T04:38:33.193111+00:00",
-      "stop_loss_pct": 0.00364,
-      "take_profit_pct": 0.00909,
-      "size_usd": 5375.52,
-      "position_size_pct": 0.0516,
-      "confidence": 0.99,
-      "signals": [
-        "RSI overbought (86.3)",
-        "5d momentum +0.85%",
-        "1d momentum +1.17%",
-        "BB overbought (pct_b=0.98)",
-        "Volume spike 3.0\u00d7",
-        "High-impact catalyst",
-        "Claude [supports]: analyst downgrade"
-      ],
-      "news_sentiment": -0.217,
-      "news_headlines": [
-        "Why bear markets may actually be more favorable for crypto builders",
-        "This Bitwise Advisor Says Nvidia And Solana Had The Same 'Aha Moment' As Jensen Huang Pushes Open AI Models",
-        "Bitcoin Was Flat This Week, But These AI And DeFi Altcoins Were Anything But Boring"
-      ],
-      "mode": "paper",
-      "strategy_version": "67",
-      "status": "open",
-      "price_trough": 74.97000122070312,
-      "trailing_stop_price": 75.242892,
-      "current_price": 74.970001,
-      "unrealized_pnl_pct": 0.001598,
-      "unrealized_pnl_usd": 8.59
-    },
-    {
-      "id": "BNB-USD_20260726071808",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 571.77001953125,
-      "entry_time": "2026-07-26T07:18:08.350502+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00495,
-      "size_usd": 55.74,
-      "position_size_pct": 0.0005,
+      "entry_price": 1912.5,
+      "entry_time": "2026-07-26T15:57:15.589104+00:00",
+      "stop_loss_pct": 0.00365,
+      "take_profit_pct": 0.00905,
+      "size_usd": 5422.6,
+      "position_size_pct": 0.052,
       "confidence": 0.95,
       "signals": [
-        "RSI overbought (82.8)",
-        "5d momentum +0.37%",
-        "1d momentum +1.33%",
-        "BB overbought (pct_b=0.97)",
-        "Volume spike 2.5\u00d7",
+        "RSI overbought (86.6)",
+        "5d momentum +1.50%",
+        "1d momentum +2.49%",
+        "BB overbought (pct_b=1.34)",
+        "Volume spike 16.4\u00d7",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
       ],
-      "news_sentiment": 0.043,
+      "news_sentiment": -0.226,
       "news_headlines": [
-        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
-        "Aptos climbs to the top 4 blockchains in transaction count",
-        "Cardano Price Forecast: ADA Could Rally by 180% \u2014 Is It Worth the Risk?"
+        "Robinhood Bets on 3 Crypto Sectors as Blockchain Fees Hit $25 Million",
+        "Is Money Rotating Back Into Bitcoin and Ethereum ETFs While XRP and HYPE Funds Fade?",
+        "Wall Street's Cheapest Bitcoin ETF Made $400 Million Without Lifting A Finger \u2014 Executive Sees More Assets Ahead"
       ],
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "current_price": 572.320007,
-      "unrealized_pnl_pct": -0.000962,
-      "unrealized_pnl_usd": -0.05
+      "current_price": 1912.5,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -686,6 +650,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.7882,
+      "price": 1912.5,
+      "rsi": 86.58668063861194,
+      "momentum_5d": 0.014955025958534625,
+      "momentum_1d": 0.02486470447516797,
+      "macd_crossover": false,
+      "atr_pct": 0.0035970006492180204,
+      "bollinger_pct_b": 1.3378,
+      "volume_spike": true,
+      "volume_spike_ratio": 16.44,
+      "news_sentiment": -0.226,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "Robinhood Bets on 3 Crypto Sectors as Blockchain Fees Hit $25 Million",
+        "Is Money Rotating Back Into Bitcoin and Ethereum ETFs While XRP and HYPE Funds Fade?",
+        "Wall Street's Cheapest Bitcoin ETF Made $400 Million Without Lifting A Finger \u2014 Executive Sees More Assets Ahead"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARM",
       "rank_score": 0.7539,
       "price": 259.739990234375,
@@ -703,6 +688,27 @@
         "No Matter Who Wins the Smartphone and AI Chip Races, ARM Stock Still Benefits",
         "Arm Just Scored a Major Server Market Share Win. What That Means for ARM Stock Here.",
         "AMD, Newly Emboldened, Is Taking Direct Aim at Nvidia"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.7437,
+      "price": 573.3900146484375,
+      "rsi": 76.19035407156656,
+      "momentum_5d": 0.005101027694777989,
+      "momentum_1d": 0.011912324977945525,
+      "macd_crossover": true,
+      "atr_pct": 0.0021301622236198094,
+      "bollinger_pct_b": 1.0814,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.15,
+      "news_sentiment": 0.043,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Top Cryptocurrencies Fall; Bitcoin Holds Above $64,000",
+        "Aptos climbs to the top 4 blockchains in transaction count",
+        "Cardano Price Forecast: ADA Could Rally by 180% \u2014 Is It Worth the Risk?"
       ],
       "high_impact_news": true
     },
@@ -728,6 +734,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.7357,
+      "price": 75.38999938964844,
+      "rsi": 68.42098218468499,
+      "momentum_5d": 0.004396507351296936,
+      "momentum_1d": 0.017271606648969408,
+      "macd_crossover": true,
+      "atr_pct": 0.0038277158283922426,
+      "bollinger_pct_b": 1.055,
+      "volume_spike": true,
+      "volume_spike_ratio": 10.04,
+      "news_sentiment": -0.217,
+      "news_confidence": 0.23,
+      "news_headlines": [
+        "Robinhood Bets on 3 Crypto Sectors as Blockchain Fees Hit $25 Million",
+        "Wall Street's Cheapest Bitcoin ETF Made $400 Million Without Lifting A Finger \u2014 Executive Sees More Assets Ahead",
+        "This Bitwise Advisor Says Nvidia And Solana Had The Same 'Aha Moment' As Jensen Huang Pushes Open AI Models"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ORCL",
       "rank_score": 0.6984,
       "price": 114.98999786376953,
@@ -735,7 +762,7 @@
       "momentum_5d": -0.031500087487748345,
       "momentum_1d": -0.08687367914630753,
       "macd_crossover": false,
-      "atr_pct": 0.019353353424303277,
+      "atr_pct": 0.019359561732492567,
       "bollinger_pct_b": 0.0979,
       "volume_spike": true,
       "volume_spike_ratio": 1.78,
@@ -792,22 +819,22 @@
     },
     {
       "asset": "INTC",
-      "rank_score": 0.6751,
+      "rank_score": 0.6701,
       "price": 92.31500244140625,
       "rsi": 23.93239900751962,
       "momentum_5d": -0.04311993882882248,
       "momentum_1d": -0.11896434306263473,
       "macd_crossover": false,
-      "atr_pct": 0.027697781131442466,
+      "atr_pct": 0.02769004199605513,
       "bollinger_pct_b": 0.0353,
       "volume_spike": false,
       "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
       "news_headlines": [
+        "Trump Says The Government\u2019s Intel Stake Made $70 Billion in Eight Months \u2014 \u2018Do I Get Credit for That? No\u2019",
         "Intel CEO Lip-Bu Tan Eyes $100 Billion Custom AI Chip Market, Backs $20 Over Billion CapEx Push Amid 'Unprecedented Demand for Compute'",
-        "The U.S. government invested $27 billion in corporate stakes. Good luck finding them",
-        "Intel Corporation (INTC) Just Had Its Best Quarter in 15 Years. Is the Turnaround Finally Real?"
+        "The U.S. government invested $27 billion in corporate stakes. Good luck finding them"
       ],
       "high_impact_news": true
     },
@@ -890,29 +917,8 @@
       "news_confidence": 0.57,
       "news_headlines": [
         "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
-        "Companies with aggressive buybacks have lagged the S&P 500 in the AI era",
-        "Wall Street's Average Amazon Price Target Sits 34% Above the Stock -- 4 Days Before Its Earnings."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.64,
-      "price": 1895.5,
-      "rsi": 73.28067561919255,
-      "momentum_5d": 0.007125076071399547,
-      "momentum_1d": 0.015237915657232613,
-      "macd_crossover": false,
-      "atr_pct": 0.0030474430085234766,
-      "bollinger_pct_b": 1.1584,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.22,
-      "news_sentiment": -0.226,
-      "news_confidence": 0.31,
-      "news_headlines": [
-        "Robinhood Bets on 3 Crypto Sectors as Blockchain Fees Hit $25 Million",
-        "Is Money Rotating Back Into Bitcoin and Ethereum ETFs While XRP and HYPE Funds Fade?",
-        "Wall Street's Cheapest Bitcoin ETF Made $400 Million Without Lifting A Finger \u2014 Executive Sees More Assets Ahead"
+        "Magnificent 7 Trade Is Broken \u2014 Here\u2019s Where Smart Investors Should Look Next",
+        "Companies with aggressive buybacks have lagged the S&P 500 in the AI era"
       ],
       "high_impact_news": true
     },
@@ -959,6 +965,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5914,
+      "price": 64718.01953125,
+      "rsi": 67.98881759935082,
+      "momentum_5d": 0.004093569874137802,
+      "momentum_1d": 0.00936290923508643,
+      "macd_crossover": false,
+      "atr_pct": 0.001998004892291543,
+      "bollinger_pct_b": 1.16,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.41,
+      "news_sentiment": 0.128,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "US and Iran Pause Strikes as Markets Wait for Monday\u2019s Verdict",
+        "Is Money Rotating Back Into Bitcoin and Ethereum ETFs While XRP and HYPE Funds Fade?",
+        "Two Central Banks Decide Interest Rates Next Week: What It Means for Bitcoin"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "UNH",
       "rank_score": 0.5782,
       "price": 420.6400146484375,
@@ -987,7 +1014,7 @@
       "momentum_5d": -0.027406684815773585,
       "momentum_1d": -0.06826386513223272,
       "macd_crossover": false,
-      "atr_pct": 0.02255671830914217,
+      "atr_pct": 0.022506402426172852,
       "bollinger_pct_b": 0.3605,
       "volume_spike": true,
       "volume_spike_ratio": 1.94,
@@ -1002,7 +1029,7 @@
     },
     {
       "asset": "META",
-      "rank_score": 0.5692,
+      "rank_score": 0.5642,
       "price": 595.2000122070312,
       "rsi": 21.355453544046583,
       "momentum_5d": -0.022274783726044033,
@@ -1012,75 +1039,12 @@
       "bollinger_pct_b": 0.1552,
       "volume_spike": false,
       "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.774,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.72,
+      "news_confidence": 0.5,
       "news_headlines": [
         "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
-        "Mark Zuckerberg's Meta Is Also One of CoreWeave's Biggest Customers, in a Deal Worth $35 Billion Through 2032. That Didn't Stop CoreWeave Shares From Sinking on Meta's Own Cloud News.",
-        "Companies with aggressive buybacks have lagged the S&P 500 in the AI era"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.5664,
-      "price": 64644.51171875,
-      "rsi": 61.49156047060127,
-      "momentum_5d": 0.0025258521987242006,
-      "momentum_1d": 0.0077231599927999744,
-      "macd_crossover": false,
-      "atr_pct": 0.001931753041714704,
-      "bollinger_pct_b": 1.1775,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.01,
-      "news_sentiment": 0.128,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "US and Iran Pause Strikes as Markets Wait for Monday\u2019s Verdict",
-        "Is Money Rotating Back Into Bitcoin and Ethereum ETFs While XRP and HYPE Funds Fade?",
-        "Two Central Banks Decide Interest Rates Next Week: What It Means for Bitcoin"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.5602,
-      "price": 32.84000015258789,
-      "rsi": 29.352711072661407,
-      "momentum_5d": -0.02159983625157023,
-      "momentum_1d": -0.07778714996591304,
-      "macd_crossover": false,
-      "atr_pct": 0.02272294576404239,
-      "bollinger_pct_b": 0.099,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.89,
-      "news_sentiment": 0.875,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "IonQ vs. Rigetti: Who's Winning the $2.7 Trillion Quantum Computing Race?",
-        "3 Stocks Smart Quantum Computing Investors Are Buying",
-        "Intel vs. IonQ: Comparing Revenue Trends Between Artificial Intelligence and Quantum Computing Chipmakers"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.5585,
-      "price": 62.09000015258789,
-      "rsi": 68.42839664815733,
-      "momentum_5d": -0.001768498537014553,
-      "momentum_1d": 0.026365836000741816,
-      "macd_crossover": false,
-      "atr_pct": 0.007211873734301961,
-      "bollinger_pct_b": 0.7192,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.57,
-      "news_sentiment": 0.615,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Israel \"Izzy\" Englander Increased His Position in This Pharma Stock by 780%. Does He Know Something Wall Street Doesn't?",
-        "Why Agilent Technologies (A) Is Up 5.4% After New FDA Nod For OPDIVO Cancer Test",
-        "Is Bristol Myers Squibb's Dividend Too Good to Be True? Here's My Honest Answer"
+        "Magnificent 7 Trade Is Broken \u2014 Here\u2019s Where Smart Investors Should Look Next",
+        "Stock Market Week Ahead: Mag 7 And The Fed \u2014 But It's All About The Cash"
       ],
       "high_impact_news": true
     }
