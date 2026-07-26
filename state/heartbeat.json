@@ -3,15 +3,15 @@
   "portfolio_balance": 104263.52,
   "portfolio_peak": 105273.92,
   "portfolio_drawdown_pct": 0.96,
-  "unrealized_pnl_usd": 595.68,
-  "equity_value": 104859.2,
+  "unrealized_pnl_usd": 601.47,
+  "equity_value": 104864.99,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41705.41,
   "swing_capital_used_usd": 52070.02,
   "total_trades": 736,
-  "last_tick": "2026-07-26T10:58:57.712110+00:00",
+  "last_tick": "2026-07-26T12:06:36.162590+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -550,11 +550,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_peak": 64490.9609375,
-      "trailing_stop_price": 64161.412127,
-      "current_price": 64450.339844,
-      "unrealized_pnl_pct": 0.008203,
-      "unrealized_pnl_usd": 16.35
+      "price_peak": 64509.03125,
+      "trailing_stop_price": 64179.3901,
+      "current_price": 64569.429688,
+      "unrealized_pnl_pct": 0.010066,
+      "unrealized_pnl_usd": 20.06
     },
     {
       "id": "LRCX_20260724185436",
@@ -624,9 +624,9 @@
       "status": "open",
       "price_trough": 74.97000122070312,
       "trailing_stop_price": 75.242892,
-      "current_price": 75.059998,
-      "unrealized_pnl_pct": 0.0004,
-      "unrealized_pnl_usd": 2.15
+      "current_price": 75.029999,
+      "unrealized_pnl_pct": 0.000799,
+      "unrealized_pnl_usd": 4.3
     },
     {
       "id": "BNB-USD_20260726071808",
@@ -658,11 +658,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_trough": 570.530029296875,
-      "trailing_stop_price": 571.671089,
-      "current_price": 570.530029,
-      "unrealized_pnl_pct": 0.002169,
-      "unrealized_pnl_usd": 0.12
+      "price_trough": 571.2000122070312,
+      "trailing_stop_price": 572.342412,
+      "current_price": 571.200012,
+      "unrealized_pnl_pct": 0.000997,
+      "unrealized_pnl_usd": 0.06
     }
   ],
   "last_candidates": [
@@ -751,27 +751,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.6964,
-      "price": 114.98999786376953,
-      "rsi": 19.977892929326202,
-      "momentum_5d": -0.031500087487748345,
-      "momentum_1d": -0.08687367914630753,
-      "macd_crossover": false,
-      "atr_pct": 0.019353353424303277,
-      "bollinger_pct_b": 0.0979,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.78,
-      "news_sentiment": 0.226,
-      "news_confidence": 0.31,
-      "news_headlines": [
-        "Oracle Won a $7 Billion Pentagon Contract on Thursday. Yet Shares Have Been Slammed.",
-        "Larry Ellison Personally Guaranteed $40.4 Billion of His Son's Warner Bros. Discovery Deal. Now 12 States Have Sued to Block It, and Oracle Stock Has Fallen 34% This Month.",
-        "Data Centers \u2014 Not Iran \u2014 Are Fueling the U.S.\u2019s Coming Energy Crisis"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRNA",
       "rank_score": 0.6945,
       "price": 54.04999923706055,
@@ -789,6 +768,27 @@
         "FDA Showdown Week: CAPR, NRXP, REPL And MRNA Face Make-Or-Break Regulatory Decisions",
         "Will Moderna (MRNA) Report Negative Earnings Next Week? What You Should Know",
         "Dassault Systemes SE (DASTF) (H1 2026) Earnings Call Highlights: Strong Subscription Growth and ..."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.6914,
+      "price": 114.98999786376953,
+      "rsi": 19.977892929326202,
+      "momentum_5d": -0.031500087487748345,
+      "momentum_1d": -0.08687367914630753,
+      "macd_crossover": false,
+      "atr_pct": 0.019353353424303277,
+      "bollinger_pct_b": 0.0979,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.78,
+      "news_sentiment": 0.059,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Oracle Won a $7 Billion Pentagon Contract on Thursday. Yet Shares Have Been Slammed.",
+        "Larry Ellison Personally Guaranteed $40.4 Billion of His Son's Warner Bros. Discovery Deal. Now 12 States Have Sued to Block It, and Oracle Stock Has Fallen 34% This Month.",
+        "Data Centers \u2014 Not Iran \u2014 Are Fueling the U.S.\u2019s Coming Energy Crisis"
       ],
       "high_impact_news": true
     },
@@ -913,8 +913,8 @@
       "news_confidence": 0.5,
       "news_headlines": [
         "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
-        "Blue Origin Raised $10 Billion at a $130 Billion Valuation Under Jeff Bezos",
-        "Should You Buy SpaceX Stock Before Aug. 4?"
+        "Dow Jones Futures: U.S., Iran Halt Attacks After Market Sell Signal; Apple Earnings, Fed Meeting Ahead",
+        "Blue Origin Raised $10 Billion at a $130 Billion Valuation Under Jeff Bezos"
       ],
       "high_impact_news": true
     },
@@ -1039,8 +1039,8 @@
       "news_confidence": 0.52,
       "news_headlines": [
         "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
-        "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
-        "eBay (EBAY) Faces A New Seller Threat As Meta Launches Marketplace App"
+        "Dow Jones Futures: U.S., Iran Halt Attacks After Market Sell Signal; Apple Earnings, Fed Meeting Ahead",
+        "Morgan Stanley resets Microsoft stock forecast ahead of earnings"
       ],
       "high_impact_news": true
     },
