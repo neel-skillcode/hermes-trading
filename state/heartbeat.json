@@ -3,15 +3,15 @@
   "portfolio_balance": 104263.52,
   "portfolio_peak": 105273.92,
   "portfolio_drawdown_pct": 0.96,
-  "unrealized_pnl_usd": 601.47,
-  "equity_value": 104864.99,
+  "unrealized_pnl_usd": 610.14,
+  "equity_value": 104873.66,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41705.41,
   "swing_capital_used_usd": 52070.02,
   "total_trades": 736,
-  "last_tick": "2026-07-26T12:06:36.162590+00:00",
+  "last_tick": "2026-07-26T13:51:01.500359+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -550,11 +550,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_peak": 64509.03125,
-      "trailing_stop_price": 64179.3901,
-      "current_price": 64569.429688,
-      "unrealized_pnl_pct": 0.010066,
-      "unrealized_pnl_usd": 20.06
+      "price_peak": 64490.9609375,
+      "trailing_stop_price": 64161.412127,
+      "current_price": 64478.078125,
+      "unrealized_pnl_pct": 0.008637,
+      "unrealized_pnl_usd": 17.21
     },
     {
       "id": "LRCX_20260724185436",
@@ -622,11 +622,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_trough": 74.97000122070312,
-      "trailing_stop_price": 75.242892,
-      "current_price": 75.029999,
-      "unrealized_pnl_pct": 0.000799,
-      "unrealized_pnl_usd": 4.3
+      "price_trough": 74.87000274658203,
+      "trailing_stop_price": 75.14253,
+      "current_price": 74.870003,
+      "unrealized_pnl_pct": 0.00293,
+      "unrealized_pnl_usd": 15.75
     },
     {
       "id": "BNB-USD_20260726071808",
@@ -658,11 +658,11 @@
       "mode": "paper",
       "strategy_version": "67",
       "status": "open",
-      "price_trough": 571.2000122070312,
-      "trailing_stop_price": 572.342412,
-      "current_price": 571.200012,
-      "unrealized_pnl_pct": 0.000997,
-      "unrealized_pnl_usd": 0.06
+      "price_trough": 570.5700073242188,
+      "trailing_stop_price": 571.711147,
+      "current_price": 570.570007,
+      "unrealized_pnl_pct": 0.002099,
+      "unrealized_pnl_usd": 0.12
     }
   ],
   "last_candidates": [
@@ -730,6 +730,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ORCL",
+      "rank_score": 0.6984,
+      "price": 114.98999786376953,
+      "rsi": 19.977892929326202,
+      "momentum_5d": -0.031500087487748345,
+      "momentum_1d": -0.08687367914630753,
+      "macd_crossover": false,
+      "atr_pct": 0.019353353424303277,
+      "bollinger_pct_b": 0.0979,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.78,
+      "news_sentiment": 0.231,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Oracle Won a $7 Billion Pentagon Contract on Thursday. Yet Shares Have Been Slammed.",
+        "Why Paramount's Warner Bros. deal suddenly looks less certain",
+        "Larry Ellison Personally Guaranteed $40.4 Billion of His Son's Warner Bros. Discovery Deal. Now 12 States Have Sued to Block It, and Oracle Stock Has Fallen 34% This Month."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SLB",
       "rank_score": 0.697,
       "price": 52.45500183105469,
@@ -772,27 +793,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.6914,
-      "price": 114.98999786376953,
-      "rsi": 19.977892929326202,
-      "momentum_5d": -0.031500087487748345,
-      "momentum_1d": -0.08687367914630753,
-      "macd_crossover": false,
-      "atr_pct": 0.019353353424303277,
-      "bollinger_pct_b": 0.0979,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.78,
-      "news_sentiment": 0.059,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Oracle Won a $7 Billion Pentagon Contract on Thursday. Yet Shares Have Been Slammed.",
-        "Larry Ellison Personally Guaranteed $40.4 Billion of His Son's Warner Bros. Discovery Deal. Now 12 States Have Sued to Block It, and Oracle Stock Has Fallen 34% This Month.",
-        "Data Centers \u2014 Not Iran \u2014 Are Fueling the U.S.\u2019s Coming Energy Crisis"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "INTC",
       "rank_score": 0.6801,
       "price": 92.31500244140625,
@@ -807,7 +807,7 @@
       "news_sentiment": 0.81,
       "news_confidence": 0.42,
       "news_headlines": [
-        "Alphabet flops, Intel shocks, and Tesla tanks: AlphaSpace weekly recap",
+        "Intel CEO Lip-Bu Tan Eyes $100 Billion Custom AI Chip Market, Backs $20 Over Billion CapEx Push Amid 'Unprecedented Demand for Compute'",
         "Intel Corporation (INTC) Just Had Its Best Quarter in 15 Years. Is the Turnaround Finally Real?",
         "Intel CEO Lip-Bu Tan Warns AI Supply Crunch Won't Ease: Shortages Will 'Persist for the Foreseeable Future'"
       ],
@@ -877,6 +877,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMZN",
+      "rank_score": 0.6333,
+      "price": 232.07000732421875,
+      "rsi": 24.18788506184869,
+      "momentum_5d": -0.007314532740213012,
+      "momentum_1d": -0.0665486708500394,
+      "macd_crossover": true,
+      "atr_pct": 0.01292889482858672,
+      "bollinger_pct_b": 0.2802,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.885,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
+        "Companies with aggressive buybacks have lagged the S&P 500 in the AI era",
+        "Wall Street's Average Amazon Price Target Sits 34% Above the Stock -- 4 Days Before Its Earnings."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ON",
       "rank_score": 0.6266,
       "price": 86.81999969482422,
@@ -894,27 +915,6 @@
         "Micron, onsemi, Seagate, Western Digital, and Vishay Intertechnology Shares Are Falling, What You Need To Know",
         "1 Profitable Stock with Impressive Fundamentals and 2 We Find Risky",
         "MaxLinear (MXL) Tops Q2 Earnings and Revenue Estimates"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMZN",
-      "rank_score": 0.6093,
-      "price": 232.07000732421875,
-      "rsi": 24.18788506184869,
-      "momentum_5d": -0.007314532740213012,
-      "momentum_1d": -0.0665486708500394,
-      "macd_crossover": true,
-      "atr_pct": 0.01292889482858672,
-      "bollinger_pct_b": 0.2802,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.44,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
-        "Dow Jones Futures: U.S., Iran Halt Attacks After Market Sell Signal; Apple Earnings, Fed Meeting Ahead",
-        "Blue Origin Raised $10 Billion at a $130 Billion Valuation Under Jeff Bezos"
       ],
       "high_impact_news": true
     },
@@ -982,6 +982,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "META",
+      "rank_score": 0.5652,
+      "price": 595.2000122070312,
+      "rsi": 21.355453544046583,
+      "momentum_5d": -0.022274783726044033,
+      "momentum_1d": -0.07961369994036027,
+      "macd_crossover": false,
+      "atr_pct": 0.011497517831914803,
+      "bollinger_pct_b": 0.1552,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.25,
+      "news_sentiment": 0.673,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
+        "Mark Zuckerberg's Meta Is Also One of CoreWeave's Biggest Customers, in a Deal Worth $35 Billion Through 2032. That Didn't Stop CoreWeave Shares From Sinking on Meta's Own Cloud News.",
+        "Companies with aggressive buybacks have lagged the S&P 500 in the AI era"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "IONQ",
       "rank_score": 0.5602,
       "price": 32.84000015258789,
@@ -1024,23 +1045,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "META",
-      "rank_score": 0.5582,
-      "price": 595.2000122070312,
-      "rsi": 21.355453544046583,
-      "momentum_5d": -0.022274783726044033,
-      "momentum_1d": -0.07961369994036027,
+      "asset": "TSLA",
+      "rank_score": 0.5577,
+      "price": 313.0,
+      "rsi": 13.588065808417355,
+      "momentum_5d": 0.008424988810991893,
+      "momentum_1d": -0.17507865655457347,
       "macd_crossover": false,
-      "atr_pct": 0.011497517831914803,
-      "bollinger_pct_b": 0.1552,
+      "atr_pct": 0.026008755689557427,
+      "bollinger_pct_b": 0.3127,
       "volume_spike": false,
-      "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.577,
-      "news_confidence": 0.52,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 0.789,
+      "news_confidence": 0.57,
       "news_headlines": [
+        "'The AI trade is still on': Wall Street sees Big Tech's spending as positive for semiconductor stocks",
         "4 Big Tech earnings reports, a Fed meeting, and $100 oil: It's the busiest week of the quarter",
-        "Dow Jones Futures: U.S., Iran Halt Attacks After Market Sell Signal; Apple Earnings, Fed Meeting Ahead",
-        "Morgan Stanley resets Microsoft stock forecast ahead of earnings"
+        "Dow Jones Futures: U.S., Iran Seek Deal; Apple Leads Earnings Wave, Fed Meeting Ahead"
       ],
       "high_impact_news": true
     },
@@ -1062,27 +1083,6 @@
         "How Many Stocks Should You Own?",
         "Eni Taps Saipem for New Long-Term Offshore Drilling Campaign",
         "EQNR Q2 Earnings Miss Estimates, Revenues Rise Y/Y on Higher Output"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.5451,
-      "price": 166.97000122070312,
-      "rsi": 26.441780844662574,
-      "momentum_5d": -0.009961415574153013,
-      "momentum_1d": -0.034297240515413496,
-      "macd_crossover": false,
-      "atr_pct": 0.014746470206424408,
-      "bollinger_pct_b": 0.206,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.095,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "No Matter Who Wins the Smartphone and AI Chip Races, ARM Stock Still Benefits",
-        "Texas Instruments vs. Qualcomm: One Pays Out 94% of Earnings. The Better Dividend Chip Stock Is Clear.",
-        "S&P 500, Dow, Nasdaq End Second Week Lower Over Elevated Oil Prices, Chipmaker Rout \u2014 PSKY, UBER, QCOM, VZ, INTC In Focus"
       ],
       "high_impact_news": true
     }
