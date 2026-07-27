@@ -490,37 +490,6 @@
     "price_peak": 305.21,
     "trailing_stop_price": 300.63185
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260726223036",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1938.4000244140625,
-    "entry_time": "2026-07-26T22:30:36.993171+00:00",
-    "stop_loss_pct": 0.0047,
-    "take_profit_pct": 0.01164,
-    "size_usd": 6333.87,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (91.8)",
-      "5d momentum +1.51%",
-      "1d momentum +3.43%",
-      "BB overbought (pct_b=1.09)",
-      "Volume spike 4.4\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.226,
-    "news_headlines": [
-      "Robinhood Bets on 3 Crypto Sectors as Blockchain Fees Hit $25 Million",
-      "Is Money Rotating Back Into Bitcoin and Ethereum ETFs While XRP and HYPE Funds Fade?",
-      "Wall Street's Cheapest Bitcoin ETF Made $400 Million Without Lifting A Finger \u2014 Executive Sees More Assets Ahead"
-    ],
-    "mode": "paper",
-    "strategy_version": "68",
-    "status": "open"
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260726223036",
     "asset": "SOL-USD",
@@ -547,6 +516,67 @@
       "Robinhood Bets on 3 Crypto Sectors as Blockchain Fees Hit $25 Million",
       "Wall Street's Cheapest Bitcoin ETF Made $400 Million Without Lifting A Finger \u2014 Executive Sees More Assets Ahead",
       "This Bitwise Advisor Says Nvidia And Solana Had The Same 'Aha Moment' As Jensen Huang Pushes Open AI Models"
+    ],
+    "mode": "paper",
+    "strategy_version": "68",
+    "status": "open",
+    "price_trough": 76.29000091552734,
+    "trailing_stop_price": 76.65009
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260727045156",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1953.8499755859375,
+    "entry_time": "2026-07-27T04:51:56.778717+00:00",
+    "stop_loss_pct": 0.00623,
+    "take_profit_pct": 0.01522,
+    "size_usd": 5904.3,
+    "position_size_pct": 0.0567,
+    "confidence": 0.886,
+    "signals": [
+      "RSI overbought (77.7)",
+      "1d momentum +3.67%",
+      "BB overbought (pct_b=0.86)",
+      "Volume spike 2.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.029,
+    "news_headlines": [
+      "Bitcoin, Ethereum, XRP, Dogecoin Rise as US-Iran Hold Off Strikes: Analyst Says 'Very Likely' Bottom is in, Bets Most on This Coin",
+      "Robinhood Bets on 3 Crypto Sectors as Blockchain Fees Hit $25 Million",
+      "Is Money Rotating Back Into Bitcoin and Ethereum ETFs While XRP and HYPE Funds Fade?"
+    ],
+    "mode": "paper",
+    "strategy_version": "68",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260727045156",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 65285.578125,
+    "entry_time": "2026-07-27T04:51:56.780570+00:00",
+    "stop_loss_pct": 0.00321,
+    "take_profit_pct": 0.00755,
+    "size_usd": 409.38,
+    "position_size_pct": 0.0039,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (70.2)",
+      "1d momentum +1.27%",
+      "BB overbought (pct_b=0.87)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.15,
+    "news_headlines": [
+      "Strategy Earnings Loom as Bitcoin Buying Freeze Hits a Month",
+      "Bitcoin, Ethereum, XRP, Dogecoin Rise as US-Iran Hold Off Strikes: Analyst Says 'Very Likely' Bottom is in, Bets Most on This Coin",
+      "Fed Rate Decision Pits 104 Economists Against a 36% Hike Bet"
     ],
     "mode": "paper",
     "strategy_version": "68",
