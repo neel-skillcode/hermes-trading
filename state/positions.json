@@ -112,8 +112,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 188.25,
-    "trailing_stop_price": 199.545
+    "price_trough": 187.3300018310547,
+    "trailing_stop_price": 198.569802
   },
   "AMD": {
     "id": "AMD_20260721144944",
@@ -144,8 +144,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 486.56500244140625,
-    "trailing_stop_price": 513.812643
+    "price_trough": 483.6400146484375,
+    "trailing_stop_price": 510.723855
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -357,38 +357,6 @@
     "price_trough": 1933.4100341796875,
     "trailing_stop_price": 1945.455179
   },
-  "COIN": {
-    "id": "COIN_20260727135952",
-    "asset": "COIN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 165.4801025390625,
-    "entry_time": "2026-07-27T13:59:52.669165+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03578,
-    "size_usd": 5152.28,
-    "position_size_pct": 0.0493,
-    "confidence": 0.771,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +4.42%",
-      "1d momentum -7.26%",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish"
-    ],
-    "news_sentiment": 0.03,
-    "news_headlines": [
-      "Crypto Firms Pivoting to AI Is 'Zero-Sum' Thinking: Coinbase CEO",
-      "Brian Armstrong Says the AI Megatrend Makes Crypto More Important",
-      "Brian Armstrong: Part of Crypto Business Could Leave the US if CLARITY Act Stalls"
-    ],
-    "mode": "paper",
-    "strategy_version": "68",
-    "status": "open",
-    "price_trough": 164.235107421875,
-    "trailing_stop_price": 166.698634
-  },
   "LRCX": {
     "id": "LRCX_20260727162616",
     "asset": "LRCX",
@@ -482,64 +450,94 @@
     "strategy_version": "68",
     "status": "open"
   },
-  "PLTR": {
-    "id": "PLTR_20260727162616",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 130.22999572753906,
-    "entry_time": "2026-07-27T16:26:16.832438+00:00",
-    "stop_loss_pct": 0.01263,
-    "take_profit_pct": 0.03027,
-    "size_usd": 5294.15,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (85.5)",
-      "5d momentum +5.17%",
-      "1d momentum -1.80%",
-      "BB overbought (pct_b=1.16)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.714,
-    "news_headlines": [
-      "Palantir Technologies Likely to Deliver Q2 Revenue Beat, Raise Annual Outlook, Oppenheimer Says",
-      "Prediction: Palantir Stock Will Hit a New Low After Aug. 3",
-      "Palantir Technologies Inc. (PLTR) Earnings Expected to Grow: Should You Buy?"
-    ],
-    "mode": "paper",
-    "strategy_version": "68",
-    "status": "open"
-  },
   "CRM": {
-    "id": "CRM_20260727162616",
+    "id": "CRM_20260727180304",
     "asset": "CRM",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 173.77999877929688,
-    "entry_time": "2026-07-27T16:26:16.834207+00:00",
-    "stop_loss_pct": 0.0119,
-    "take_profit_pct": 0.02853,
-    "size_usd": 1748.41,
-    "position_size_pct": 0.0168,
+    "entry_price": 176.2899932861328,
+    "entry_time": "2026-07-27T18:03:04.722454+00:00",
+    "stop_loss_pct": 0.01213,
+    "take_profit_pct": 0.02909,
+    "size_usd": 5285.99,
+    "position_size_pct": 0.0508,
     "confidence": 0.794,
     "signals": [
-      "RSI overbought (85.5)",
-      "5d momentum +6.44%",
-      "1d momentum +2.14%",
-      "BB overbought (pct_b=1.03)",
+      "RSI overbought (92.0)",
+      "5d momentum +7.75%",
+      "1d momentum +6.55%",
+      "BB overbought (pct_b=0.97)",
       "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": 0.628,
+    "news_sentiment": 0.778,
     "news_headlines": [
-      "Stock Market Today: Indexes Mixed On U.S.-Iran War Pause; Pharma Player Tests Entry, Oil Skids (Live Coverage)",
+      "Stock Market Today: Dow Up; Pharma Firm Tests Entry; Memory Plays Sink As China Rival Soars (Live Coverage)",
       "Experian Taps Fastly to Tackle AI Agent Trust Issues",
       "Joins Industry Coalition to Launch Open Source AI Cybersecurity Alliance"
     ],
     "mode": "paper",
-    "strategy_version": "68",
+    "strategy_version": "69",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20260727180304",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 132.11500549316406,
+    "entry_time": "2026-07-27T18:03:04.724375+00:00",
+    "stop_loss_pct": 0.01333,
+    "take_profit_pct": 0.03195,
+    "size_usd": 5285.99,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (86.9)",
+      "5d momentum +7.46%",
+      "1d momentum +4.18%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat"
+    ],
+    "news_sentiment": 0.565,
+    "news_headlines": [
+      "SpaceX stock plunge sends a big reminder to those who want to get in on or near IPO day",
+      "PAYC vs. PLTR: Which Stock Is the Better Value Option?",
+      "Nvidia Leads Defense of Open-Source AI With New Cybersecurity Initiative"
+    ],
+    "mode": "paper",
+    "strategy_version": "69",
+    "status": "open"
+  },
+  "USO": {
+    "id": "USO_20260727180304",
+    "asset": "USO",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 125.66000366210938,
+    "entry_time": "2026-07-27T18:03:04.726101+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03543,
+    "size_usd": 1558.66,
+    "position_size_pct": 0.015,
+    "confidence": 0.724,
+    "signals": [
+      "RSI oversold (13.2)",
+      "5d momentum -8.05%",
+      "1d momentum -4.88%",
+      "BB oversold (pct_b=0.08)",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: price surge; macro risk; price decline"
+    ],
+    "news_sentiment": -0.273,
+    "news_headlines": [
+      "Sector Update: Energy Stocks Decline Pre-Bell Monday",
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Oil Prices Fall",
+      "Market Minute 7-24-26- Stocks Steady After Thursday Rout"
+    ],
+    "mode": "paper",
+    "strategy_version": "69",
     "status": "open"
   }
 }
