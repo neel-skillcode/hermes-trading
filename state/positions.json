@@ -112,8 +112,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 187.3300018310547,
-    "trailing_stop_price": 198.569802
+    "price_trough": 176.72000122070312,
+    "trailing_stop_price": 187.323201
   },
   "AMD": {
     "id": "AMD_20260721144944",
@@ -144,8 +144,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 483.6400146484375,
-    "trailing_stop_price": 510.723855
+    "price_trough": 456.0899963378906,
+    "trailing_stop_price": 481.631036
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -291,68 +291,8 @@
     "mode": "paper",
     "strategy_version": "66",
     "status": "open",
-    "price_peak": 337.8550109863281,
-    "trailing_stop_price": 331.469551
-  },
-  "ARM": {
-    "id": "ARM_20260727194736",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 265.5350036621094,
-    "entry_time": "2026-07-27T19:47:36.940733+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03638,
-    "size_usd": 5688.37,
-    "position_size_pct": 0.0545,
-    "confidence": 0.851,
-    "signals": [
-      "RSI oversold (30.4)",
-      "MACD crossover",
-      "5d momentum +4.62%",
-      "1d momentum -7.30%",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 5 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.673,
-    "news_headlines": [
-      "SpaceX stock plunge sends a big reminder to those who want to get in on or near IPO day",
-      "Arm Holdings' Next Earnings Report on July 29 Could Send the Stock Soaring. Here's Why.",
-      "Arm Holdings Has Fallen 28% in the Past Month. Should You Buy Before July 29 Earnings?"
-    ],
-    "mode": "paper",
-    "strategy_version": "69",
-    "status": "open"
-  },
-  "KLAC": {
-    "id": "KLAC_20260727194736",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 203.41000366210938,
-    "entry_time": "2026-07-27T19:47:36.942646+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03338,
-    "size_usd": 3007.95,
-    "position_size_pct": 0.0288,
-    "confidence": 0.45,
-    "signals": [
-      "RSI oversold (32.7)",
-      "5d momentum +3.30%",
-      "1d momentum -6.06%",
-      "News +0.83 (conf 0.72) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst"
-    ],
-    "news_sentiment": 0.826,
-    "news_headlines": [
-      "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and More Stocks That Explain Today\u2019s Market",
-      "3 Reasons Lam Research Is Worth a Closer Look Before July 29 Q4 Earnings",
-      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?"
-    ],
-    "mode": "paper",
-    "strategy_version": "69",
-    "status": "open"
+    "price_peak": 339.614990234375,
+    "trailing_stop_price": 333.196267
   },
   "META": {
     "id": "META_20260727194736",
@@ -382,37 +322,9 @@
     ],
     "mode": "paper",
     "strategy_version": "69",
-    "status": "open"
-  },
-  "OXY": {
-    "id": "OXY_20260727194736",
-    "asset": "OXY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 55.13999938964844,
-    "entry_time": "2026-07-27T19:47:36.945584+00:00",
-    "stop_loss_pct": 0.00899,
-    "take_profit_pct": 0.02191,
-    "size_usd": 5842.1,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (15.3)",
-      "5d momentum -0.97%",
-      "1d momentum -4.10%",
-      "BB oversold (pct_b=0.08)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 3 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.224,
-    "news_headlines": [
-      "Energy Stocks Tumble After Oil Suffers Biggest Drop in Months",
-      "Occidental Petroleum shares decline as oil prices retreat",
-      "Global oil stocks tumble as crude prices retreat after U.S. halts Iran strikes"
-    ],
-    "mode": "paper",
-    "strategy_version": "69",
-    "status": "open"
+    "status": "open",
+    "price_peak": 594.5850219726562,
+    "trailing_stop_price": 588.3835
   },
   "QQQ": {
     "id": "QQQ_20260727194736",
@@ -442,124 +354,191 @@
     ],
     "mode": "paper",
     "strategy_version": "69",
+    "status": "open",
+    "price_trough": 677.0599975585938,
+    "trailing_stop_price": 682.39523
+  },
+  "PYPL": {
+    "id": "PYPL_20260728153106",
+    "asset": "PYPL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 58.54999923706055,
+    "entry_time": "2026-07-28T15:31:06.700096+00:00",
+    "stop_loss_pct": 0.00854,
+    "take_profit_pct": 0.01975,
+    "size_usd": 4207.08,
+    "position_size_pct": 0.0399,
+    "confidence": 0.623,
+    "signals": [
+      "RSI overbought (75.9)",
+      "5d momentum +3.89%",
+      "1d momentum +5.49%",
+      "BB overbought (pct_b=1.14)",
+      "News +0.90 (conf 0.80) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; ma catalyst"
+    ],
+    "news_sentiment": 0.9,
+    "news_headlines": [
+      "Stock market today: Nasdaq declines as chip stocks sell off, S&P 500 and Dow rise",
+      "PayPal beats earnings as takeover talk swirls",
+      "PayPal Earnings Top Estimates. CEO Lores Does Not Rule Out Stripe Deal?"
+    ],
+    "mode": "paper",
+    "strategy_version": "70",
     "status": "open"
   },
   "LRCX": {
-    "id": "LRCX_20260727194736",
+    "id": "LRCX_20260728153106",
     "asset": "LRCX",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 291.7149963378906,
-    "entry_time": "2026-07-27T19:47:36.948950+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03423,
-    "size_usd": 3769.96,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (31.0)",
-      "5d momentum +4.18%",
-      "1d momentum -9.16%",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst"
-    ],
-    "news_sentiment": 0.6,
-    "news_headlines": [
-      "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and More Stocks That Explain Today\u2019s Market",
-      "3 Reasons Lam Research Is Worth a Closer Look Before July 29 Q4 Earnings",
-      "Most Stocks Are Higher Despite the S&P 500's Reversal"
-    ],
-    "mode": "paper",
-    "strategy_version": "69",
-    "status": "open"
-  },
-  "AMAT": {
-    "id": "AMAT_20260727194736",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 516.1400146484375,
-    "entry_time": "2026-07-27T19:47:36.950768+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03423,
-    "size_usd": 3769.96,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (30.4)",
-      "5d momentum +3.84%",
-      "1d momentum -7.89%",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; product catalyst"
-    ],
-    "news_sentiment": 0.716,
-    "news_headlines": [
-      "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and More Stocks That Explain Today\u2019s Market",
-      "3 Reasons Lam Research Is Worth a Closer Look Before July 29 Q4 Earnings",
-      "Applied Materials Stock Keeps Winning Upgrades: Is Michael Burry Dead Wrong to Short This Semiconductor Gem?"
-    ],
-    "mode": "paper",
-    "strategy_version": "69",
-    "status": "open"
-  },
-  "USO": {
-    "id": "USO_20260727194736",
-    "asset": "USO",
-    "trade_type": "day",
     "direction": "long",
-    "entry_price": 125.1449966430664,
-    "entry_time": "2026-07-27T19:47:36.952567+00:00",
+    "entry_price": 264.80999755859375,
+    "entry_time": "2026-07-28T15:31:06.701944+00:00",
     "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03543,
-    "size_usd": 4839.46,
-    "position_size_pct": 0.0463,
-    "confidence": 0.724,
-    "signals": [
-      "RSI oversold (13.5)",
-      "5d momentum -1.18%",
-      "1d momentum -5.21%",
-      "BB oversold (pct_b=0.14)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: price surge; macro risk; price decline"
-    ],
-    "news_sentiment": -0.273,
-    "news_headlines": [
-      "Sector Update: Energy Stocks Decline Pre-Bell Monday",
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Oil Prices Fall",
-      "Market Minute 7-24-26- Stocks Steady After Thursday Rout"
-    ],
-    "mode": "paper",
-    "strategy_version": "69",
-    "status": "open"
-  },
-  "PLTR": {
-    "id": "PLTR_20260727194736",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 130.875,
-    "entry_time": "2026-07-27T19:47:36.954380+00:00",
-    "stop_loss_pct": 0.01336,
-    "take_profit_pct": 0.03204,
-    "size_usd": 1998.61,
-    "position_size_pct": 0.0191,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5361.83,
+    "position_size_pct": 0.0508,
     "confidence": 0.794,
     "signals": [
-      "RSI overbought (79.8)",
-      "5d momentum +0.87%",
-      "1d momentum +4.93%",
-      "BB overbought (pct_b=0.86)",
+      "RSI oversold (24.5)",
+      "5d momentum -7.25%",
+      "1d momentum -17.04%",
+      "BB oversold (pct_b=0.08)",
       "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
+      "Claude [contradicts]: price decline"
     ],
-    "news_sentiment": 0.633,
+    "news_sentiment": 0.385,
     "news_headlines": [
-      "SpaceX stock plunge sends a big reminder to those who want to get in on or near IPO day",
-      "Nvidia and SpaceX Just Joined a New AI Security Alliance. Here's What It Means for Both Stocks.",
-      "Salesforce Surges 7%, ServiceNow Jumps 8%, Workday Jumps 10% as Software Rebounds on AI Rotation"
+      "Micron, SK Hynix stocks sink as AI chip sell-off deepens",
+      "Lam Research (LRCX) Rose on AI Data\u00a0Center\u00a0and Memory Spending",
+      "Lam Research Corporation (LRCX) Rose on Strong Semiconductor Capital Spending"
     ],
     "mode": "paper",
-    "strategy_version": "69",
+    "strategy_version": "70",
+    "status": "open"
+  },
+  "SNAP": {
+    "id": "SNAP_20260728153106",
+    "asset": "SNAP",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 4.724999904632568,
+    "entry_time": "2026-07-28T15:31:06.703680+00:00",
+    "stop_loss_pct": 0.01307,
+    "take_profit_pct": 0.02973,
+    "size_usd": 3707.36,
+    "position_size_pct": 0.0351,
+    "confidence": 0.549,
+    "signals": [
+      "RSI overbought (79.5)",
+      "5d momentum +4.65%",
+      "1d momentum +5.70%",
+      "BB overbought (pct_b=1.04)",
+      "News +0.46 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.463,
+    "news_headlines": [
+      "The 3 Biggest Reasons to Buy Reddit Stock Before Its July 30 Earnings Report",
+      "The Zacks Analyst Blog Highlights Meta Platforms, Alphabet, Amazon and Snap",
+      "Meta Q2 Earnings Loom: Buy, Sell or Hold META Stock Ahead of Results?"
+    ],
+    "mode": "paper",
+    "strategy_version": "70",
+    "status": "open"
+  },
+  "HAL": {
+    "id": "HAL_20260728153106",
+    "asset": "HAL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 31.57200050354004,
+    "entry_time": "2026-07-28T15:31:06.705346+00:00",
+    "stop_loss_pct": 0.00958,
+    "take_profit_pct": 0.0239,
+    "size_usd": 6685.41,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (10.4)",
+      "5d momentum -2.94%",
+      "1d momentum -4.39%",
+      "BB oversold (pct_b=0.04)",
+      "News +0.84 (conf 0.65) \u2192 long",
+      "High-impact catalyst",
+      "Claude [supports]: earnings beat; earnings miss"
+    ],
+    "news_sentiment": 0.838,
+    "news_headlines": [
+      "Halliburton Bags Spate of Middle East Contracts in July",
+      "Is LBRT Stock Attractive After Its Sharp Pullback and Earnings Beat?",
+      "Baker Hughes Rises as Energy Infrastructure Demand Outweighs Middle East Disruptions"
+    ],
+    "mode": "paper",
+    "strategy_version": "70",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260728153106",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 816.469970703125,
+    "entry_time": "2026-07-28T15:31:06.707088+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5361.83,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (26.0)",
+      "5d momentum -7.71%",
+      "1d momentum -14.91%",
+      "BB oversold (pct_b=0.09)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; price decline"
+    ],
+    "news_sentiment": 0.102,
+    "news_headlines": [
+      "Micron, SK Hynix stocks sink as AI chip sell-off deepens",
+      "Chinese memory chipmaker CXMT booms in IPO. Does US memory stand a chance?",
+      "MU, AMD, INTC, SNDK Stocks Fall \u2014 Morgan Stanley's Mike Wilson Explains Why Investors Are Going After Chip And Memory Stocks"
+    ],
+    "mode": "paper",
+    "strategy_version": "70",
+    "status": "open"
+  },
+  "CRM": {
+    "id": "CRM_20260728153106",
+    "asset": "CRM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 184.35009765625,
+    "entry_time": "2026-07-28T15:31:06.708865+00:00",
+    "stop_loss_pct": 0.01396,
+    "take_profit_pct": 0.03444,
+    "size_usd": 4021.69,
+    "position_size_pct": 0.0381,
+    "confidence": 0.934,
+    "signals": [
+      "RSI overbought (88.9)",
+      "5d momentum +4.89%",
+      "1d momentum +13.10%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.226,
+    "news_headlines": [
+      "Nasdaq 100 enters correction as sell-off deepens, while Coke and Sherwin-Williams lead Dow",
+      "Disney or Salesforce: Which Beaten-Down Dow Giant Is the Smarter Dip-Buy?",
+      "Salesforce\u2019s Agentforce Bet Made It the Dow\u2019s Worst Performer. Is the Market Overreacting?"
+    ],
+    "mode": "paper",
+    "strategy_version": "70",
     "status": "open"
   }
 }
