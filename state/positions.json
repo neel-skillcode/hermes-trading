@@ -227,8 +227,8 @@
     "mode": "paper",
     "strategy_version": "66",
     "status": "open",
-    "price_peak": 340.5849914550781,
-    "trailing_stop_price": 334.147935
+    "price_peak": 342.7200012207031,
+    "trailing_stop_price": 336.242593
   },
   "HAL": {
     "id": "HAL_20260728195709",
@@ -326,39 +326,6 @@
     "strategy_version": "70",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260728195709",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1919.4000244140625,
-    "entry_time": "2026-07-28T19:57:09.530286+00:00",
-    "stop_loss_pct": 0.00921,
-    "take_profit_pct": 0.0228,
-    "size_usd": 6426.18,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (62.4)",
-      "5d momentum +1.73%",
-      "1d momentum -1.41%",
-      "BB overbought (pct_b=0.98)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.353,
-    "news_headlines": [
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-      "Bitcoin and ethereum prices today, Tuesday, July 28, 2026: Crypto prices slide ahead of Fed meeting",
-      "Morgan Stanley launches cheapest Ether and Solana ETFs at 14 basis points"
-    ],
-    "mode": "paper",
-    "strategy_version": "70",
-    "status": "open",
-    "price_trough": 1887.510009765625,
-    "trailing_stop_price": 1904.893977
-  },
   "MA": {
     "id": "MA_20260728195709",
     "asset": "MA",
@@ -450,8 +417,8 @@
     "mode": "paper",
     "strategy_version": "70",
     "status": "open",
-    "price_peak": 15.46500015258789,
-    "trailing_stop_price": 15.287462
+    "price_peak": 15.635000228881836,
+    "trailing_stop_price": 15.45551
   },
   "SOFI": {
     "id": "SOFI_20260729152343",
@@ -483,7 +450,9 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
-    "status": "open"
+    "status": "open",
+    "price_peak": 15.550000190734863,
+    "trailing_stop_price": 15.31675
   },
   "XOM": {
     "id": "XOM_20260729152343",
@@ -515,8 +484,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_trough": 157.4550018310547,
-    "trailing_stop_price": 162.266827
+    "price_trough": 156.55999755859375,
+    "trailing_stop_price": 161.344471
   },
   "KLAC": {
     "id": "KLAC_20260729164615",
@@ -547,7 +516,9 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
-    "status": "open"
+    "status": "open",
+    "price_peak": 173.80499267578125,
+    "trailing_stop_price": 171.197918
   },
   "ARM": {
     "id": "ARM_20260729164615",
@@ -578,7 +549,9 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
-    "status": "open"
+    "status": "open",
+    "price_peak": 231.99000549316406,
+    "trailing_stop_price": 228.510155
   },
   "JPM": {
     "id": "JPM_20260729164615",
@@ -604,6 +577,39 @@
       "The Best Cities For Entrepreneurs to Start a Business, According to This Banking Pro",
       "JPMorgan's Robust Capital Position Fuels Higher Shareholder Returns",
       "JPMorgan maps Fed decision scenarios as Wall Street braces for surprise rate hike"
+    ],
+    "mode": "paper",
+    "strategy_version": "71",
+    "status": "open",
+    "price_peak": 349.04998779296875,
+    "trailing_stop_price": 342.64143
+  },
+  "MU": {
+    "id": "MU_20260729175818",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 768.8350219726562,
+    "entry_time": "2026-07-29T17:58:18.008952+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5967.44,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (23.8)",
+      "5d momentum -6.32%",
+      "1d momentum -17.73%",
+      "BB oversold (pct_b=0.14)",
+      "News +0.61 (conf 0.62) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": 0.613,
+    "news_headlines": [
+      "Nvidia, Micron, AMD sink as SK Hynix results fail to impress, AI trade unwinds",
+      "Mag 7 earnings: Alphabet 'really set the tone,' strategist says",
+      "Is Intel or Micron More Dangerous for the Rest of 2026?"
     ],
     "mode": "paper",
     "strategy_version": "71",
