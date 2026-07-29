@@ -80,8 +80,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 114.02799987792969,
-    "trailing_stop_price": 114.940224
+    "price_trough": 113.49800109863281,
+    "trailing_stop_price": 114.405985
   },
   "MRVL": {
     "id": "MRVL_20260721144944",
@@ -112,40 +112,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 174.7100067138672,
-    "trailing_stop_price": 185.192607
-  },
-  "AMD": {
-    "id": "AMD_20260721144944",
-    "asset": "AMD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 529.260009765625,
-    "entry_time": "2026-07-21T14:49:44.815601+00:00",
-    "stop_loss_pct": 0.056,
-    "take_profit_pct": 0.18051,
-    "size_usd": 4469.75,
-    "position_size_pct": 0.0429,
-    "confidence": 0.447,
-    "signals": [
-      "RSI overbought (70.7)",
-      "5d momentum +3.44%",
-      "BB overbought (pct_b=1.01)",
-      "News +0.97 (conf 0.60) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.967,
-    "news_headlines": [
-      "Tech stocks live: Tech-heavy Nasdaq climbs ahead of Big Tech earnings kickoff",
-      "AMD stock rises on price target bumps, Microsoft deal",
-      "SanDisk Rises 8%, Western Digital Jumps 9%, Micron Adds 7% as Memory Rebound Accelerates"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_trough": 453.84759521484375,
-    "trailing_stop_price": 479.263061
+    "price_trough": 167.16659545898438,
+    "trailing_stop_price": 177.196591
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -260,8 +228,8 @@
     "mode": "paper",
     "strategy_version": "64",
     "status": "open",
-    "price_trough": 0.6972042322158813,
-    "trailing_stop_price": 0.702782
+    "price_trough": 0.6928086280822754,
+    "trailing_stop_price": 0.698351
   },
   "AAPL": {
     "id": "AAPL_20260724142716",
@@ -294,38 +262,6 @@
     "price_peak": 340.0299987792969,
     "trailing_stop_price": 333.603432
   },
-  "BIIB": {
-    "id": "BIIB_20260728195709",
-    "asset": "BIIB",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 207.3300018310547,
-    "entry_time": "2026-07-28T19:57:09.522153+00:00",
-    "stop_loss_pct": 0.00845,
-    "take_profit_pct": 0.02018,
-    "size_usd": 5242.41,
-    "position_size_pct": 0.0496,
-    "confidence": 0.775,
-    "signals": [
-      "RSI overbought (65.7)",
-      "5d momentum +2.27%",
-      "1d momentum +3.00%",
-      "BB overbought (pct_b=1.27)",
-      "Volume spike 2.4\u00d7",
-      "News +0.71 (conf 0.71) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.711,
-    "news_headlines": [
-      "Biogen (BIIB) Reports Q2: Everything You Need To Know Ahead Of Earnings",
-      "The Zacks Analyst Blog Highlights Harmony Biosciences, Acadia Pharmaceuticals, Biogen, Insmed and Agios Pharmaceuticals",
-      "Tech Earnings, Fed Rate Decision: What to Watch This Week"
-    ],
-    "mode": "paper",
-    "strategy_version": "70",
-    "status": "open"
-  },
   "HAL": {
     "id": "HAL_20260728195709",
     "asset": "HAL",
@@ -354,7 +290,9 @@
     ],
     "mode": "paper",
     "strategy_version": "70",
-    "status": "open"
+    "status": "open",
+    "price_trough": 31.309999465942383,
+    "trailing_stop_price": 31.557348
   },
   "REGN": {
     "id": "REGN_20260728195709",
@@ -477,7 +415,9 @@
     ],
     "mode": "paper",
     "strategy_version": "70",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1893.0,
+    "trailing_stop_price": 1910.43453
   },
   "MA": {
     "id": "MA_20260728195709",
@@ -506,7 +446,9 @@
     ],
     "mode": "paper",
     "strategy_version": "70",
-    "status": "open"
+    "status": "open",
+    "price_peak": 566.6550903320312,
+    "trailing_stop_price": 563.425156
   },
   "NVDA": {
     "id": "NVDA_20260728195709",
@@ -536,7 +478,9 @@
     ],
     "mode": "paper",
     "strategy_version": "70",
-    "status": "open"
+    "status": "open",
+    "price_trough": 192.6699981689453,
+    "trailing_stop_price": 195.317284
   },
   "LYFT": {
     "id": "LYFT_20260728195709",
@@ -565,6 +509,69 @@
     ],
     "mode": "paper",
     "strategy_version": "70",
+    "status": "open"
+  },
+  "SOFI": {
+    "id": "SOFI_20260729152343",
+    "asset": "SOFI",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 15.335000038146973,
+    "entry_time": "2026-07-29T15:23:43.086841+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 5494.79,
+    "position_size_pct": 0.0517,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (26.4)",
+      "5d momentum -8.20%",
+      "1d momentum -7.84%",
+      "BB oversold (pct_b=-0.12)",
+      "Volume spike 1.9\u00d7",
+      "News +0.92 (conf 0.75) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: earnings beat"
+    ],
+    "news_sentiment": 0.92,
+    "news_headlines": [
+      "SoFi is revving up consumer lending. Investors are tapping the breaks.",
+      "SoFi Sinks 10% as Record Q2 Revenue Beat Meets Unchanged Profit Guidance",
+      "SoFi Earnings, Revenue Top Estimates. Here's Why Fintech Stock Tumbled."
+    ],
+    "mode": "paper",
+    "strategy_version": "71",
+    "status": "open"
+  },
+  "XOM": {
+    "id": "XOM_20260729152343",
+    "asset": "XOM",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 157.8699951171875,
+    "entry_time": "2026-07-29T15:23:43.100834+00:00",
+    "stop_loss_pct": 0.03056,
+    "take_profit_pct": 0.10679,
+    "size_usd": 5562.11,
+    "position_size_pct": 0.0523,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (64.2)",
+      "MACD crossover",
+      "5d momentum +3.61%",
+      "1d momentum +0.48%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [supports]: analyst downgrade"
+    ],
+    "news_sentiment": 0.25,
+    "news_headlines": [
+      "Earnings live: Humana stock falls, Procter & Gamble dips, with Big Tech earnings on deck",
+      "Exxon Mobil (XOM): President Trump\u2019s Top Energy Stock Pick?",
+      "Oil Prices Spike After Iran Launches Surprise Attack on U.S. Forces"
+    ],
+    "mode": "paper",
+    "strategy_version": "71",
     "status": "open"
   }
 }
