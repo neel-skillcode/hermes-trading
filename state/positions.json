@@ -74,8 +74,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.4002699851989746,
-    "trailing_stop_price": 1.411472
+    "price_trough": 1.3995800018310547,
+    "trailing_stop_price": 1.410777
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260721185742",
@@ -198,8 +198,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_peak": 350.82000732421875,
-    "trailing_stop_price": 344.378952
+    "price_peak": 351.3599853515625,
+    "trailing_stop_price": 344.909016
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260729191955",
@@ -419,40 +419,8 @@
     "mode": "paper",
     "strategy_version": "72",
     "status": "open",
-    "price_trough": 181.50999450683594,
-    "trailing_stop_price": 184.232644
-  },
-  "USD/JPY": {
-    "id": "USD/JPY_20260730150920",
-    "asset": "USD/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 159.00399780273438,
-    "entry_time": "2026-07-30T15:09:20.344910+00:00",
-    "stop_loss_pct": 0.00362,
-    "take_profit_pct": 0.00867,
-    "size_usd": 547.37,
-    "position_size_pct": 0.0051,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (7.6)",
-      "5d momentum -2.34%",
-      "1d momentum -2.96%",
-      "BB oversold (pct_b=-0.14)",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.125,
-    "news_headlines": [
-      "Treasury Yields Rise Amid Data, Geopolitical Lull",
-      "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
-      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "72",
-    "status": "open",
-    "price_peak": 159.59300231933594,
-    "trailing_stop_price": 159.015276
+    "price_trough": 180.6699981689453,
+    "trailing_stop_price": 183.380048
   },
   "INTC": {
     "id": "INTC_20260730150920",
@@ -544,7 +512,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
+    "status": "open",
+    "price_trough": 574.72998046875,
+    "trailing_stop_price": 579.11517
   },
   "BNB-USD": {
     "id": "BNB-USD_20260730164538",
@@ -572,6 +542,36 @@
       "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
       "Why Does XRP Fall Faster Than Every Other Major Coin?",
       "1inch's Shared Liquidity Layer Aqua Goes Live"
+    ],
+    "mode": "paper",
+    "strategy_version": "73",
+    "status": "open"
+  },
+  "LRCX": {
+    "id": "LRCX_20260730180435",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 295.2401123046875,
+    "entry_time": "2026-07-30T18:04:35.171944+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 547.31,
+    "position_size_pct": 0.0051,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (60.3)",
+      "5d momentum +17.63%",
+      "1d momentum +5.44%",
+      "News +1.00 (conf 0.82) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: earnings beat; price surge"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Stock Market Today: Nasdaq Rebounds, Chips Jump; These Techs Face Key Resistance Level (Live Coverage)",
+      "Why Lam Research Stock Is Having Its Best Day Since 1999",
+      "LRCX Q4 Earnings Beat on NAND and Customer Support Strength"
     ],
     "mode": "paper",
     "strategy_version": "73",
