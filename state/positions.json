@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.844130039215088,
-    "trailing_stop_price": 7.781377
+    "price_peak": 7.8445000648498535,
+    "trailing_stop_price": 7.781744
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260721111717",
@@ -423,8 +423,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_peak": 73.63999938964844,
-    "trailing_stop_price": 72.988285
+    "price_peak": 73.81999969482422,
+    "trailing_stop_price": 73.166693
   },
   "XRP-USD": {
     "id": "XRP-USD_20260729202844",
@@ -455,8 +455,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_peak": 1.0742000341415405,
-    "trailing_stop_price": 1.066509
+    "price_peak": 1.079200029373169,
+    "trailing_stop_price": 1.071473
   },
   "EUR/USD": {
     "id": "EUR/USD_20260729202844",
@@ -543,6 +543,67 @@
       "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
       "Aptos climbs to the top 4 blockchains in transaction count",
       "How tokenized stocks could become a $3 trillion market"
+    ],
+    "mode": "paper",
+    "strategy_version": "72",
+    "status": "open",
+    "price_trough": 6.440000057220459,
+    "trailing_stop_price": 6.4883
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260730090849",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 577.7999877929688,
+    "entry_time": "2026-07-30T09:08:49.006244+00:00",
+    "stop_loss_pct": 0.0042,
+    "take_profit_pct": 0.01023,
+    "size_usd": 6009.98,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (73.7)",
+      "5d momentum +1.16%",
+      "1d momentum +0.96%",
+      "BB overbought (pct_b=1.00)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.45,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
+      "Why Does XRP Fall Faster Than Every Other Major Coin?",
+      "1inch's Shared Liquidity Layer Aqua Goes Live"
+    ],
+    "mode": "paper",
+    "strategy_version": "72",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260730090849",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.5824450850486755,
+    "entry_time": "2026-07-30T09:08:49.008525+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00463,
+    "size_usd": 3681.92,
+    "position_size_pct": 0.0343,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (74.6)",
+      "1d momentum +0.72%",
+      "BB overbought (pct_b=0.88)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
+      "US Dollar In Uptrend Despite Pullback",
+      "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience"
     ],
     "mode": "paper",
     "strategy_version": "72",
