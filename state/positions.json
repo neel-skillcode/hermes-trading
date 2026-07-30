@@ -357,8 +357,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_trough": 218.20799255371094,
-    "trailing_stop_price": 219.953656
+    "price_trough": 217.8000030517578,
+    "trailing_stop_price": 219.542403
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260729202844",
@@ -423,40 +423,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_peak": 73.81999969482422,
-    "trailing_stop_price": 73.166693
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260729202844",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.0614999532699585,
-    "entry_time": "2026-07-29T20:28:44.386192+00:00",
-    "stop_loss_pct": 0.00716,
-    "take_profit_pct": 0.01695,
-    "size_usd": 5055.63,
-    "position_size_pct": 0.0472,
-    "confidence": 0.737,
-    "signals": [
-      "RSI oversold (32.4)",
-      "5d momentum -0.48%",
-      "BB oversold (pct_b=0.00)",
-      "Volume spike 2.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; price decline"
-    ],
-    "news_sentiment": -0.073,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
-      "Crypto analyst unveils one factor that could send XRP to $100 trillion",
-      "XRP Retail Trading Goes Live in Hong Kong on OSL. Here\u2019s What It\u2019s Actually Worth"
-    ],
-    "mode": "paper",
-    "strategy_version": "71",
-    "status": "open",
-    "price_peak": 1.079200029373169,
-    "trailing_stop_price": 1.071473
+    "price_peak": 73.98999786376953,
+    "trailing_stop_price": 73.335186
   },
   "EUR/USD": {
     "id": "EUR/USD_20260729202844",
@@ -516,8 +484,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_trough": 116.35299682617188,
-    "trailing_stop_price": 117.283821
+    "price_trough": 115.91100311279297,
+    "trailing_stop_price": 116.838291
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260730035554",
@@ -551,22 +519,23 @@
     "trailing_stop_price": 6.4883
   },
   "BNB-USD": {
-    "id": "BNB-USD_20260730090849",
+    "id": "BNB-USD_20260730111915",
     "asset": "BNB-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 577.7999877929688,
-    "entry_time": "2026-07-30T09:08:49.006244+00:00",
-    "stop_loss_pct": 0.0042,
-    "take_profit_pct": 0.01023,
-    "size_usd": 6009.98,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
+    "entry_price": 588.1900024414062,
+    "entry_time": "2026-07-30T11:19:15.877789+00:00",
+    "stop_loss_pct": 0.00526,
+    "take_profit_pct": 0.01303,
+    "size_usd": 6530.86,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
     "signals": [
-      "RSI overbought (73.7)",
-      "5d momentum +1.16%",
-      "1d momentum +0.96%",
-      "BB overbought (pct_b=1.00)",
+      "RSI overbought (85.0)",
+      "5d momentum +2.60%",
+      "1d momentum +3.18%",
+      "BB overbought (pct_b=1.16)",
+      "Volume spike 2.5\u00d7",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
     ],
@@ -581,21 +550,22 @@
     "status": "open"
   },
   "NZD/USD": {
-    "id": "NZD/USD_20260730090849",
+    "id": "NZD/USD_20260730111915",
     "asset": "NZD/USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 0.5824450850486755,
-    "entry_time": "2026-07-30T09:08:49.008525+00:00",
+    "entry_price": 0.5841804146766663,
+    "entry_time": "2026-07-30T11:19:15.880709+00:00",
     "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00463,
-    "size_usd": 3681.92,
-    "position_size_pct": 0.0343,
-    "confidence": 0.633,
+    "take_profit_pct": 0.00479,
+    "size_usd": 5458.42,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
     "signals": [
-      "RSI overbought (74.6)",
-      "1d momentum +0.72%",
-      "BB overbought (pct_b=0.88)",
+      "RSI overbought (85.0)",
+      "5d momentum +0.55%",
+      "1d momentum +1.09%",
+      "BB overbought (pct_b=0.97)",
       "High-impact catalyst",
       "Claude [contradicts]: fed hawkish"
     ],
@@ -604,6 +574,36 @@
       "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
       "US Dollar In Uptrend Despite Pullback",
       "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience"
+    ],
+    "mode": "paper",
+    "strategy_version": "72",
+    "status": "open"
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20260730111915",
+    "asset": "USD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 162.79600524902344,
+    "entry_time": "2026-07-30T11:19:15.882465+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00479,
+    "size_usd": 2746.89,
+    "position_size_pct": 0.0256,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (30.7)",
+      "5d momentum -0.51%",
+      "1d momentum -0.52%",
+      "BB oversold (pct_b=-0.12)",
+      "High-impact catalyst",
+      "Claude [contradicts]: macro risk"
+    ],
+    "news_sentiment": 0.125,
+    "news_headlines": [
+      "Treasury Yields Rise Amid Data, Geopolitical Lull",
+      "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
+      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
     ],
     "mode": "paper",
     "strategy_version": "72",
