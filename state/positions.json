@@ -74,8 +74,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.4012700319290161,
-    "trailing_stop_price": 1.41248
+    "price_trough": 1.4002699851989746,
+    "trailing_stop_price": 1.411472
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260721185742",
@@ -136,38 +136,6 @@
     "status": "open",
     "price_trough": 0.8531200289726257,
     "trailing_stop_price": 0.859945
-  },
-  "HAL": {
-    "id": "HAL_20260728195709",
-    "asset": "HAL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 31.334999084472656,
-    "entry_time": "2026-07-28T19:57:09.523963+00:00",
-    "stop_loss_pct": 0.0079,
-    "take_profit_pct": 0.01759,
-    "size_usd": 3043.98,
-    "position_size_pct": 0.0288,
-    "confidence": 0.45,
-    "signals": [
-      "RSI oversold (8.1)",
-      "5d momentum -0.68%",
-      "1d momentum -4.74%",
-      "News +0.88 (conf 0.68) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; earnings miss"
-    ],
-    "news_sentiment": 0.875,
-    "news_headlines": [
-      "SLB Growth Outlook Hinges on Offshore, Digital and Production Gains",
-      "Halliburton Bags Spate of Middle East Contracts in July",
-      "Is LBRT Stock Attractive After Its Sharp Pullback and Earnings Beat?"
-    ],
-    "mode": "paper",
-    "strategy_version": "70",
-    "status": "open",
-    "price_trough": 31.170000076293945,
-    "trailing_stop_price": 31.416243
   },
   "XOM": {
     "id": "XOM_20260729152343",
@@ -230,8 +198,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_peak": 349.04998779296875,
-    "trailing_stop_price": 342.64143
+    "price_peak": 350.82000732421875,
+    "trailing_stop_price": 344.378952
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260729191955",
@@ -293,39 +261,6 @@
     "price_trough": 113.43499755859375,
     "trailing_stop_price": 114.342478
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260730111915",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 588.1900024414062,
-    "entry_time": "2026-07-30T11:19:15.877789+00:00",
-    "stop_loss_pct": 0.00526,
-    "take_profit_pct": 0.01303,
-    "size_usd": 6530.86,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (85.0)",
-      "5d momentum +2.60%",
-      "1d momentum +3.18%",
-      "BB overbought (pct_b=1.16)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.45,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
-      "Why Does XRP Fall Faster Than Every Other Major Coin?",
-      "1inch's Shared Liquidity Layer Aqua Goes Live"
-    ],
-    "mode": "paper",
-    "strategy_version": "72",
-    "status": "open",
-    "price_trough": 586.0499877929688,
-    "trailing_stop_price": 589.132611
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260730125645",
     "asset": "BTC-USD",
@@ -358,38 +293,6 @@
     "status": "open",
     "price_trough": 64673.28125,
     "trailing_stop_price": 64964.957748
-  },
-  "MSFT": {
-    "id": "MSFT_20260730150920",
-    "asset": "MSFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 445.5199890136719,
-    "entry_time": "2026-07-30T15:09:20.338407+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03547,
-    "size_usd": 5021.75,
-    "position_size_pct": 0.0467,
-    "confidence": 0.729,
-    "signals": [
-      "RSI overbought (77.5)",
-      "5d momentum +12.46%",
-      "1d momentum +16.20%",
-      "BB overbought (pct_b=1.20)",
-      "Volume spike 2.1\u00d7",
-      "News +0.90 (conf 0.77) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.896,
-    "news_headlines": [
-      "Meta is in need of a new 'lead singer' beyond advertising: Brent Thill",
-      "Tech stocks today: Microsoft stock soars on AI growth, while Meta sinks on lack of clarity",
-      "Microsoft's Q4 results are 'narrative changing,' according to one analyst"
-    ],
-    "mode": "paper",
-    "strategy_version": "72",
-    "status": "open"
   },
   "META": {
     "id": "META_20260730150920",
@@ -451,7 +354,9 @@
     ],
     "mode": "paper",
     "strategy_version": "72",
-    "status": "open"
+    "status": "open",
+    "price_peak": 152.18499755859375,
+    "trailing_stop_price": 149.902223
   },
   "LLY": {
     "id": "LLY_20260730150920",
@@ -481,7 +386,9 @@
     ],
     "mode": "paper",
     "strategy_version": "72",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1166.0,
+    "trailing_stop_price": 1154.11846
   },
   "KLAC": {
     "id": "KLAC_20260730150920",
@@ -511,7 +418,9 @@
     ],
     "mode": "paper",
     "strategy_version": "72",
-    "status": "open"
+    "status": "open",
+    "price_trough": 181.50999450683594,
+    "trailing_stop_price": 184.232644
   },
   "USD/JPY": {
     "id": "USD/JPY_20260730150920",
@@ -541,7 +450,9 @@
     ],
     "mode": "paper",
     "strategy_version": "72",
-    "status": "open"
+    "status": "open",
+    "price_peak": 159.59300231933594,
+    "trailing_stop_price": 159.015276
   },
   "INTC": {
     "id": "INTC_20260730150920",
@@ -570,6 +481,100 @@
     ],
     "mode": "paper",
     "strategy_version": "72",
+    "status": "open",
+    "price_trough": 92.02999877929688,
+    "trailing_stop_price": 97.551799
+  },
+  "MSFT": {
+    "id": "MSFT_20260730164538",
+    "asset": "MSFT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 453.3900146484375,
+    "entry_time": "2026-07-30T16:45:38.671062+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5462.14,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (79.2)",
+      "5d momentum +14.50%",
+      "1d momentum +16.15%",
+      "BB overbought (pct_b=1.02)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.828,
+    "news_headlines": [
+      "Vertiv CEO: How Google, Meta, Microsoft earnings are 'reinforcing' data center acceleration",
+      "Microsoft's $41 billion AI bet just cleared a major test: Chart of the Day",
+      "Chip stocks are rebounding \u2014 except for Qualcomm: Why it might just be a 'one off'"
+    ],
+    "mode": "paper",
+    "strategy_version": "73",
+    "status": "open"
+  },
+  "MA": {
+    "id": "MA_20260730164538",
+    "asset": "MA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 577.9099731445312,
+    "entry_time": "2026-07-30T16:45:38.673433+00:00",
+    "stop_loss_pct": 0.00763,
+    "take_profit_pct": 0.01761,
+    "size_usd": 4230.75,
+    "position_size_pct": 0.0394,
+    "confidence": 0.615,
+    "signals": [
+      "RSI overbought (80.4)",
+      "5d momentum +2.51%",
+      "1d momentum +5.23%",
+      "BB overbought (pct_b=1.03)",
+      "News +0.88 (conf 0.77) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat"
+    ],
+    "news_sentiment": 0.881,
+    "news_headlines": [
+      "Mastercard stock climbs after Q2 earnings beat",
+      "Mastercard Second-Quarter Results Top Street Estimates",
+      "Mastercard Stock Rises as Earnings Get Boost From Growth in Payments Network"
+    ],
+    "mode": "paper",
+    "strategy_version": "73",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260730164538",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 591.5399780273438,
+    "entry_time": "2026-07-30T16:45:38.674951+00:00",
+    "stop_loss_pct": 0.00549,
+    "take_profit_pct": 0.01359,
+    "size_usd": 4845.73,
+    "position_size_pct": 0.0451,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (82.0)",
+      "5d momentum +0.57%",
+      "1d momentum +4.15%",
+      "BB overbought (pct_b=0.93)",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.45,
+    "news_headlines": [
+      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
+      "Why Does XRP Fall Faster Than Every Other Major Coin?",
+      "1inch's Shared Liquidity Layer Aqua Goes Live"
+    ],
+    "mode": "paper",
+    "strategy_version": "73",
     "status": "open"
   }
 }
