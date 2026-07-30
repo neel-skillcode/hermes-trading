@@ -357,8 +357,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_trough": 218.26600646972656,
-    "trailing_stop_price": 220.012135
+    "price_trough": 218.20799255371094,
+    "trailing_stop_price": 219.953656
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260729202844",
@@ -389,38 +389,9 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260729202844",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.309999942779541,
-    "entry_time": "2026-07-29T20:28:44.380512+00:00",
-    "stop_loss_pct": 0.00832,
-    "take_profit_pct": 0.02076,
-    "size_usd": 6791.15,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (34.2)",
-      "5d momentum -0.94%",
-      "1d momentum -4.10%",
-      "BB oversold (pct_b=-0.04)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.282,
-    "news_headlines": [
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-      "Aptos climbs to the top 4 blockchains in transaction count",
-      "How tokenized stocks could become a $3 trillion market"
-    ],
-    "mode": "paper",
-    "strategy_version": "71",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.07017000019550323,
+    "trailing_stop_price": 0.069607
   },
   "SOL-USD": {
     "id": "SOL-USD_20260729202844",
@@ -451,38 +422,9 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
-    "status": "open"
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260729202844",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 566.0,
-    "entry_time": "2026-07-29T20:28:44.384496+00:00",
-    "stop_loss_pct": 0.00436,
-    "take_profit_pct": 0.0108,
-    "size_usd": 6516.76,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (38.0)",
-      "5d momentum -0.31%",
-      "1d momentum -0.75%",
-      "BB oversold (pct_b=0.00)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.45,
-    "news_headlines": [
-      "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
-      "Why Does XRP Fall Faster Than Every Other Major Coin?",
-      "1inch's Shared Liquidity Layer Aqua Goes Live"
-    ],
-    "mode": "paper",
-    "strategy_version": "71",
-    "status": "open"
+    "status": "open",
+    "price_peak": 73.63999938964844,
+    "trailing_stop_price": 72.988285
   },
   "XRP-USD": {
     "id": "XRP-USD_20260729202844",
@@ -512,7 +454,9 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.0742000341415405,
+    "trailing_stop_price": 1.066509
   },
   "EUR/USD": {
     "id": "EUR/USD_20260729202844",
@@ -542,7 +486,9 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.1454753875732422,
+    "trailing_stop_price": 1.147766
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260729202844",
@@ -569,6 +515,37 @@
     ],
     "mode": "paper",
     "strategy_version": "71",
+    "status": "open",
+    "price_trough": 116.35299682617188,
+    "trailing_stop_price": 117.283821
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260730035554",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.480000019073486,
+    "entry_time": "2026-07-30T03:55:54.879033+00:00",
+    "stop_loss_pct": 0.0075,
+    "take_profit_pct": 0.01703,
+    "size_usd": 3720.14,
+    "position_size_pct": 0.0346,
+    "confidence": 0.541,
+    "signals": [
+      "5d momentum +1.09%",
+      "1d momentum +1.25%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.282,
+    "news_headlines": [
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+      "Aptos climbs to the top 4 blockchains in transaction count",
+      "How tokenized stocks could become a $3 trillion market"
+    ],
+    "mode": "paper",
+    "strategy_version": "72",
     "status": "open"
   }
 }
