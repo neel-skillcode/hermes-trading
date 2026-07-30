@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 107590.62,
-  "portfolio_peak": 107741.2,
-  "portfolio_drawdown_pct": 0.14,
-  "unrealized_pnl_usd": 610.6,
-  "equity_value": 108201.22,
-  "open_positions": 19,
-  "day_trades_open": 9,
-  "swing_trades_open": 10,
-  "day_capital_used_usd": 43036.25,
-  "swing_capital_used_usd": 52487.69,
-  "total_trades": 820,
-  "last_tick": "2026-07-30T22:52:54.554426+00:00",
+  "portfolio_balance": 107784.14,
+  "portfolio_peak": 107784.14,
+  "portfolio_drawdown_pct": 0.0,
+  "unrealized_pnl_usd": 357.58,
+  "equity_value": 108141.72,
+  "open_positions": 17,
+  "day_trades_open": 10,
+  "swing_trades_open": 7,
+  "day_capital_used_usd": 43113.65,
+  "swing_capital_used_usd": 35891.14,
+  "total_trades": 823,
+  "last_tick": "2026-07-30T23:52:03.504377+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -45,38 +45,6 @@
       "unrealized_pnl_usd": 1.46
     },
     {
-      "id": "AUD/JPY_20260721111717",
-      "asset": "AUD/JPY",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 114.18399810791016,
-      "entry_time": "2026-07-21T11:17:17.310401+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02674,
-      "size_usd": 3139.66,
-      "position_size_pct": 0.0304,
-      "confidence": 0.684,
-      "signals": [
-        "RSI overbought (86.9)",
-        "BB overbought (pct_b=0.86)",
-        "News -1.00 (conf 0.70) \u2192 short",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-      ],
-      "news_sentiment": -1.0,
-      "news_headlines": [
-        "Further Strength for the Australian Dollar After Higher Inflation"
-      ],
-      "mode": "paper",
-      "strategy_version": "62",
-      "status": "open",
-      "price_trough": 111.43800354003906,
-      "trailing_stop_price": 112.329508,
-      "current_price": 112.223999,
-      "unrealized_pnl_pct": 0.017165,
-      "unrealized_pnl_usd": 53.89
-    },
-    {
       "id": "USD/CAD_20260721144944",
       "asset": "USD/CAD",
       "trade_type": "swing",
@@ -100,41 +68,9 @@
       "status": "open",
       "price_trough": 1.3995800018310547,
       "trailing_stop_price": 1.410777,
-      "current_price": 1.4005,
-      "unrealized_pnl_pct": 0.00635,
-      "unrealized_pnl_usd": 42.54
-    },
-    {
-      "id": "EUR/JPY_20260721185742",
-      "asset": "EUR/JPY",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 186.07200622558594,
-      "entry_time": "2026-07-21T18:57:42.731108+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02674,
-      "size_usd": 6833.87,
-      "position_size_pct": 0.0657,
-      "confidence": 0.684,
-      "signals": [
-        "RSI overbought (89.0)",
-        "BB overbought (pct_b=0.94)",
-        "News -1.00 (conf 0.70) \u2192 short",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-      ],
-      "news_sentiment": -1.0,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "mode": "paper",
-      "strategy_version": "63",
-      "status": "open",
-      "price_trough": 182.98500061035156,
-      "trailing_stop_price": 184.448881,
-      "current_price": 184.091003,
-      "unrealized_pnl_pct": 0.010646,
-      "unrealized_pnl_usd": 72.76
+      "current_price": 1.4008,
+      "unrealized_pnl_pct": 0.006137,
+      "unrealized_pnl_usd": 41.12
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -166,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85603,
-      "unrealized_pnl_pct": -0.002459,
-      "unrealized_pnl_usd": -17.12
+      "current_price": 0.85605,
+      "unrealized_pnl_pct": -0.002483,
+      "unrealized_pnl_usd": -17.28
     },
     {
       "id": "XOM_20260729152343",
@@ -241,40 +177,6 @@
       "unrealized_pnl_usd": 29.68
     },
     {
-      "id": "GBP/JPY_20260729191955",
-      "asset": "GBP/JPY",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 218.52200317382812,
-      "entry_time": "2026-07-29T19:19:55.871637+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02658,
-      "size_usd": 6623.02,
-      "position_size_pct": 0.0618,
-      "confidence": 0.644,
-      "signals": [
-        "RSI overbought (84.0)",
-        "5d momentum +0.35%",
-        "BB overbought (pct_b=1.27)",
-        "High-impact catalyst",
-        "Claude [neutral]: fed dovish; price decline"
-      ],
-      "news_sentiment": -0.28,
-      "news_headlines": [
-        "Pound Mostly Steady After Weaker GDP",
-        "Sterling Declines as the BoE Appears More Dovish",
-        "Mixed Performance by the Pound After Weaker Job Data"
-      ],
-      "mode": "paper",
-      "strategy_version": "71",
-      "status": "open",
-      "price_trough": 213.55499267578125,
-      "trailing_stop_price": 215.263433,
-      "current_price": 215.041,
-      "unrealized_pnl_pct": 0.01593,
-      "unrealized_pnl_usd": 105.5
-    },
-    {
       "id": "CAD/JPY_20260729202844",
       "asset": "CAD/JPY",
       "trade_type": "swing",
@@ -302,9 +204,9 @@
       "status": "open",
       "price_trough": 113.43499755859375,
       "trailing_stop_price": 114.342478,
-      "current_price": 114.008003,
-      "unrealized_pnl_pct": 0.02044,
-      "unrealized_pnl_usd": 93.59
+      "current_price": 114.292999,
+      "unrealized_pnl_pct": 0.017992,
+      "unrealized_pnl_usd": 82.38
     },
     {
       "id": "BTC-USD_20260730125645",
@@ -338,9 +240,9 @@
       "status": "open",
       "price_trough": 64673.28125,
       "trailing_stop_price": 64964.957748,
-      "current_price": 64822.390625,
-      "unrealized_pnl_pct": -1.4e-05,
-      "unrealized_pnl_usd": -0.09
+      "current_price": 64733.671875,
+      "unrealized_pnl_pct": 0.001355,
+      "unrealized_pnl_usd": 9.24
     },
     {
       "id": "INTC_20260730150920",
@@ -406,9 +308,11 @@
       "mode": "paper",
       "strategy_version": "73",
       "status": "open",
-      "current_price": 591.690002,
-      "unrealized_pnl_pct": -0.000254,
-      "unrealized_pnl_usd": -1.23
+      "price_trough": 591.510009765625,
+      "trailing_stop_price": 594.7574,
+      "current_price": 591.890015,
+      "unrealized_pnl_pct": -0.000592,
+      "unrealized_pnl_usd": -2.87
     },
     {
       "id": "REGN_20260730194616",
@@ -650,11 +554,41 @@
       "mode": "paper",
       "strategy_version": "73",
       "status": "open",
-      "price_peak": 1924.9599609375,
-      "trailing_stop_price": 1914.257184,
-      "current_price": 1925.130005,
-      "unrealized_pnl_pct": 0.000816,
-      "unrealized_pnl_usd": 4.24
+      "current_price": 1919.300049,
+      "unrealized_pnl_pct": -0.002215,
+      "unrealized_pnl_usd": -11.52
+    },
+    {
+      "id": "SOL-USD_20260730235203",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 74.48999786376953,
+      "entry_time": "2026-07-30T23:52:03.498098+00:00",
+      "stop_loss_pct": 0.00509,
+      "take_profit_pct": 0.01185,
+      "size_usd": 77.4,
+      "position_size_pct": 0.0007,
+      "confidence": 0.655,
+      "signals": [
+        "RSI overbought (60.9)",
+        "1d momentum +1.21%",
+        "Volume spike 2.6\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": -0.133,
+      "news_headlines": [
+        "RWA Trend Takes a Jurassic Turn as First Tokenized Dinosaur Lands on Solana",
+        "A New Crypto Index Just Launched. Here's Why That's Bullish for Ethereum, Solana, and Hyperliquid.",
+        "Crypto Exchange Luno Cuts 20% Of Staff"
+      ],
+      "mode": "paper",
+      "strategy_version": "74",
+      "status": "open",
+      "current_price": 74.489998,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -722,27 +656,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "META",
-      "rank_score": 0.6594,
-      "price": 539.0599975585938,
-      "rsi": 17.790315844051108,
-      "momentum_5d": 0.011360104727557881,
-      "momentum_1d": -0.09682496505191338,
-      "macd_crossover": false,
-      "atr_pct": 0.01949828700841698,
-      "bollinger_pct_b": 0.2093,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.89,
-      "news_confidence": 0.73,
-      "news_headlines": [
-        "Tech stocks today: Microsoft makes market history, Apple and Amazon beat on earnings",
-        "Microsoft and Meta results send stocks in opposite directions",
-        "Microsoft and Meta boost AI spending, but only one stock pays the price"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VLO",
       "rank_score": 0.6571,
       "price": 311.7300109863281,
@@ -760,6 +673,27 @@
         "Valero Energy Corporation Q2 2026 Earnings Call Summary",
         "Valero Energy Corp (VLO) (Q2 2026) Earnings Call Highlights: Record Net Income of $3. ...",
         "Valero Q2 Earnings Beat on Strong Refining & Renewable Diesel Margins"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "META",
+      "rank_score": 0.6544,
+      "price": 539.0599975585938,
+      "rsi": 17.790315844051108,
+      "momentum_5d": 0.011360104727557881,
+      "momentum_1d": -0.09682496505191338,
+      "macd_crossover": false,
+      "atr_pct": 0.01949828700841698,
+      "bollinger_pct_b": 0.2093,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.58,
+      "news_sentiment": 0.811,
+      "news_confidence": 0.74,
+      "news_headlines": [
+        "Earnings live: Amazon stock surges on earnings beat, Apple stock slides",
+        "Microsoft and Meta results send stocks in opposite directions",
+        "Microsoft and Meta boost AI spending, but only one stock pays the price"
       ],
       "high_impact_news": true
     },
@@ -799,9 +733,9 @@
       "news_sentiment": 0.741,
       "news_confidence": 0.54,
       "news_headlines": [
+        "Lucid Group (LCID) Outpaces Stock Market Gains: What You Should Know",
         "Is Rivian Automotive a Buy After Its Latest Earnings Report?",
-        "Analysts Estimate Fox Factory Holding (FOXF) to Report a Decline in Earnings: What to Look Out for",
-        "Rivian Reports Earnings on July 30, Followed by Lucid on Aug. 4. Here's the Better Buy Now."
+        "Analysts Estimate Fox Factory Holding (FOXF) to Report a Decline in Earnings: What to Look Out for"
       ],
       "high_impact_news": true
     },
@@ -849,7 +783,7 @@
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.6118,
+      "rank_score": 0.6053,
       "price": 451.4800109863281,
       "rsi": 80.00411025587763,
       "momentum_5d": 0.015725935129084368,
@@ -859,10 +793,10 @@
       "bollinger_pct_b": 0.8231,
       "volume_spike": false,
       "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.886,
-      "news_confidence": 0.7,
+      "news_sentiment": 0.75,
+      "news_confidence": 0.74,
       "news_headlines": [
-        "Tech stocks today: Microsoft makes market history, Apple and Amazon beat on earnings",
+        "Earnings live: Amazon stock surges on earnings beat, Apple stock slides",
         "Microsoft's stock rockets more than 15% for largest single-day jump in history",
         "Meta's & Microsoft's massive AI spending: Why only one is getting rewarded"
       ],
@@ -904,9 +838,9 @@
       "news_sentiment": 0.84,
       "news_confidence": 0.5,
       "news_headlines": [
+        "AI Chip Selloff Creates Buying Opportunity in Nvidia and Micron Stock",
         "S&P 500, Nasdaq End Best Day In A Month On Support From Microsoft Gains, AI Stocks  \u2014 ORCL, GOOGL, MSFT, BE, TSLA Stock In Focus",
-        "How To Bank 13% On IBM Stock Before Buying A Single Share",
-        "Why Oracle Stock Just Jumped"
+        "How To Bank 13% On IBM Stock Before Buying A Single Share"
       ],
       "high_impact_news": true
     },
@@ -974,29 +908,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "LRCX",
-      "rank_score": 0.5341,
-      "price": 297.70001220703125,
-      "rsi": 62.09037738520514,
-      "momentum_5d": -0.008955032824757852,
-      "momentum_1d": 0.054850864288043026,
-      "macd_crossover": false,
-      "atr_pct": 0.04135658866708497,
-      "bollinger_pct_b": 0.7934,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.931,
-      "news_confidence": 0.68,
-      "news_headlines": [
-        "Has Lam Research (LRCX) Fallen Far Enough To Look Like A Bargain?",
-        "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage",
-        "Stock Market Today: Chips Lead Nasdaq's Fierce Rebound, But Meta Bashed"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
-      "rank_score": 0.5297,
+      "rank_score": 0.5347,
       "price": 151.64999389648438,
       "rsi": 27.14982600979131,
       "momentum_5d": 0.007908993284043979,
@@ -1006,12 +919,33 @@
       "bollinger_pct_b": 0.2069,
       "volume_spike": false,
       "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.587,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.648,
+      "news_confidence": 0.53,
       "news_headlines": [
         "Apple earnings: iPhone prices are 'not immune' to rising memory costs",
-        "Qualcomm's automotive segment is the highlight of Q3: CFO",
-        "Chip stocks are rebounding \u2014 except for Qualcomm: Why it might just be a 'one off'"
+        "Chip stocks are rebounding \u2014 except for Qualcomm: Why it might just be a 'one off'",
+        "Are Micron\u2019s (MU) New Auto AI Deals Quietly Redefining Its Competitive Moat?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LRCX",
+      "rank_score": 0.5331,
+      "price": 297.70001220703125,
+      "rsi": 62.09037738520514,
+      "momentum_5d": -0.008955032824757852,
+      "momentum_1d": 0.054850864288043026,
+      "macd_crossover": false,
+      "atr_pct": 0.04135658866708497,
+      "bollinger_pct_b": 0.7934,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.15,
+      "news_sentiment": 0.93,
+      "news_confidence": 0.67,
+      "news_headlines": [
+        "Lam Research (LRCX) Stock Trades Up, Here Is Why",
+        "Has Lam Research (LRCX) Fallen Far Enough To Look Like A Bargain?",
+        "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage"
       ],
       "high_impact_news": true
     },
@@ -1037,27 +971,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMZN",
-      "rank_score": 0.5267,
-      "price": 236.02999877929688,
-      "rsi": 57.95744918546205,
-      "momentum_5d": -0.002198284784410504,
-      "momentum_1d": 0.018684880745711962,
-      "macd_crossover": false,
-      "atr_pct": 0.013637397915097922,
-      "bollinger_pct_b": 0.7165,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.06,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.76,
-      "news_headlines": [
-        "Amazon earnings: AWS's growth rate 'no doubt' justifies the big AI spending",
-        "Amazon Q2 earnings results beat Wall Street's estimates, as AWS continues to boom",
-        "Amazon beats expectations with cloud and AI growth"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HD",
       "rank_score": 0.5224,
       "price": 333.3900146484375,
@@ -1075,6 +988,27 @@
         "Home Depot (HD) Dips More Than Broader Market: What You Should Know",
         "C.H. Robinson Faces $604 Million Verdict: What Vicarious Liability and Negligent Hiring Mean for Brokers After Montgomery and Home Depot",
         "Here's How Many Shares of Home Depot You'd Need to Generate $10,000 in Yearly Dividends"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SLB",
+      "rank_score": 0.5117,
+      "price": 48.91999816894531,
+      "rsi": 34.85710673425591,
+      "momentum_5d": 0.010534978788281623,
+      "momentum_1d": -0.06426933222657492,
+      "macd_crossover": false,
+      "atr_pct": 0.010995360648871964,
+      "bollinger_pct_b": 0.3036,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.33,
+      "news_sentiment": 0.932,
+      "news_confidence": 0.59,
+      "news_headlines": [
+        "NOV Earnings Reveal Improving Margins Amid Uneven Revenue Trends Today",
+        "Do Wall Street Analysts Like SLB Stock?",
+        "SLB (SLB) Stock Looks Reasonable Despite Its 93% Five Year Run"
       ],
       "high_impact_news": true
     }

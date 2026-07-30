@@ -23,35 +23,6 @@
     "price_peak": 7.8445000648498535,
     "trailing_stop_price": 7.781744
   },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260721111717",
-    "asset": "AUD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 114.18399810791016,
-    "entry_time": "2026-07-21T11:17:17.310401+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02674,
-    "size_usd": 3139.66,
-    "position_size_pct": 0.0304,
-    "confidence": 0.684,
-    "signals": [
-      "RSI overbought (86.9)",
-      "BB overbought (pct_b=0.86)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Further Strength for the Australian Dollar After Higher Inflation"
-    ],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_trough": 111.43800354003906,
-    "trailing_stop_price": 112.329508
-  },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
     "asset": "USD/CAD",
@@ -76,35 +47,6 @@
     "status": "open",
     "price_trough": 1.3995800018310547,
     "trailing_stop_price": 1.410777
-  },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260721185742",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 186.07200622558594,
-    "entry_time": "2026-07-21T18:57:42.731108+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02674,
-    "size_usd": 6833.87,
-    "position_size_pct": 0.0657,
-    "confidence": 0.684,
-    "signals": [
-      "RSI overbought (89.0)",
-      "BB overbought (pct_b=0.94)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-    ],
-    "mode": "paper",
-    "strategy_version": "63",
-    "status": "open",
-    "price_trough": 182.98500061035156,
-    "trailing_stop_price": 184.448881
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -201,37 +143,6 @@
     "price_peak": 351.6675109863281,
     "trailing_stop_price": 345.210895
   },
-  "GBP/JPY": {
-    "id": "GBP/JPY_20260729191955",
-    "asset": "GBP/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 218.52200317382812,
-    "entry_time": "2026-07-29T19:19:55.871637+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02658,
-    "size_usd": 6623.02,
-    "position_size_pct": 0.0618,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (84.0)",
-      "5d momentum +0.35%",
-      "BB overbought (pct_b=1.27)",
-      "High-impact catalyst",
-      "Claude [neutral]: fed dovish; price decline"
-    ],
-    "news_sentiment": -0.28,
-    "news_headlines": [
-      "Pound Mostly Steady After Weaker GDP",
-      "Sterling Declines as the BoE Appears More Dovish",
-      "Mixed Performance by the Pound After Weaker Job Data"
-    ],
-    "mode": "paper",
-    "strategy_version": "71",
-    "status": "open",
-    "price_trough": 213.55499267578125,
-    "trailing_stop_price": 215.263433
-  },
   "CAD/JPY": {
     "id": "CAD/JPY_20260729202844",
     "asset": "CAD/JPY",
@@ -322,8 +233,8 @@
     "mode": "paper",
     "strategy_version": "72",
     "status": "open",
-    "price_trough": 91.62000274658203,
-    "trailing_stop_price": 97.117203
+    "price_trough": 91.12999725341797,
+    "trailing_stop_price": 96.597797
   },
   "BNB-USD": {
     "id": "BNB-USD_20260730164538",
@@ -354,7 +265,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
+    "status": "open",
+    "price_trough": 591.510009765625,
+    "trailing_stop_price": 594.7574
   },
   "REGN": {
     "id": "REGN_20260730194616",
@@ -415,7 +328,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
+    "status": "open",
+    "price_trough": 35.77000045776367,
+    "trailing_stop_price": 36.30655
   },
   "MRNA": {
     "id": "MRNA_20260730194616",
@@ -477,7 +392,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
+    "status": "open",
+    "price_trough": 451.1000061035156,
+    "trailing_stop_price": 457.866506
   },
   "VLO": {
     "id": "VLO_20260730194616",
@@ -508,7 +425,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
+    "status": "open",
+    "price_trough": 311.7099914550781,
+    "trailing_stop_price": 315.575195
   },
   "MA": {
     "id": "MA_20260730194616",
@@ -539,7 +458,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
+    "status": "open",
+    "price_trough": 577.3499755859375,
+    "trailing_stop_price": 582.118886
   },
   "ETH-USD": {
     "id": "ETH-USD_20260730194616",
@@ -569,6 +490,35 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260730235203",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74.48999786376953,
+    "entry_time": "2026-07-30T23:52:03.498098+00:00",
+    "stop_loss_pct": 0.00509,
+    "take_profit_pct": 0.01185,
+    "size_usd": 77.4,
+    "position_size_pct": 0.0007,
+    "confidence": 0.655,
+    "signals": [
+      "RSI overbought (60.9)",
+      "1d momentum +1.21%",
+      "Volume spike 2.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.133,
+    "news_headlines": [
+      "RWA Trend Takes a Jurassic Turn as First Tokenized Dinosaur Lands on Solana",
+      "A New Crypto Index Just Launched. Here's Why That's Bullish for Ethereum, Solana, and Hyperliquid.",
+      "Crypto Exchange Luno Cuts 20% Of Staff"
+    ],
+    "mode": "paper",
+    "strategy_version": "74",
     "status": "open"
   }
 }
