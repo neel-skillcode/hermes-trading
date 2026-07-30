@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 107415.46,
-  "portfolio_peak": 107531.48,
-  "portfolio_drawdown_pct": 0.11,
-  "unrealized_pnl_usd": 416.87,
-  "equity_value": 107832.33,
+  "portfolio_balance": 107587.0,
+  "portfolio_peak": 107587.0,
+  "portfolio_drawdown_pct": 0.0,
+  "unrealized_pnl_usd": 315.27,
+  "equity_value": 107902.26,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42966.18,
+  "day_capital_used_usd": 42991.74,
   "swing_capital_used_usd": 51365.32,
-  "total_trades": 800,
-  "last_tick": "2026-07-30T11:19:15.884495+00:00",
+  "total_trades": 801,
+  "last_tick": "2026-07-30T12:56:45.757637+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 6,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.8445000648498535,
       "trailing_stop_price": 7.781744,
-      "current_price": 7.8432,
-      "unrealized_pnl_pct": 0.001136,
-      "unrealized_pnl_usd": 1.53
+      "current_price": 7.84378,
+      "unrealized_pnl_pct": 0.00121,
+      "unrealized_pnl_usd": 1.63
     },
     {
       "id": "AUD/JPY_20260721111717",
@@ -72,9 +72,9 @@
       "status": "open",
       "price_trough": 113.47100067138672,
       "trailing_stop_price": 114.378769,
-      "current_price": 113.571999,
-      "unrealized_pnl_pct": 0.00536,
-      "unrealized_pnl_usd": 16.83
+      "current_price": 113.648003,
+      "unrealized_pnl_pct": 0.004694,
+      "unrealized_pnl_usd": 14.74
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -100,9 +100,9 @@
       "status": "open",
       "price_trough": 1.4027099609375,
       "trailing_stop_price": 1.413932,
-      "current_price": 1.40448,
-      "unrealized_pnl_pct": 0.003526,
-      "unrealized_pnl_usd": 23.62
+      "current_price": 1.40544,
+      "unrealized_pnl_pct": 0.002845,
+      "unrealized_pnl_usd": 19.06
     },
     {
       "id": "EUR/JPY_20260721185742",
@@ -132,9 +132,9 @@
       "status": "open",
       "price_trough": 185.99400329589844,
       "trailing_stop_price": 187.481955,
-      "current_price": 186.735992,
-      "unrealized_pnl_pct": -0.003568,
-      "unrealized_pnl_usd": -24.39
+      "current_price": 186.865997,
+      "unrealized_pnl_pct": -0.004267,
+      "unrealized_pnl_usd": -29.16
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -166,9 +166,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85734,
-      "unrealized_pnl_pct": -0.003993,
-      "unrealized_pnl_usd": -27.79
+      "current_price": 0.85794,
+      "unrealized_pnl_pct": -0.004696,
+      "unrealized_pnl_usd": -32.68
     },
     {
       "id": "AAPL_20260724142716",
@@ -408,11 +408,11 @@
       "mode": "paper",
       "strategy_version": "71",
       "status": "open",
-      "price_trough": 217.8000030517578,
-      "trailing_stop_price": 219.542403,
-      "current_price": 217.796005,
-      "unrealized_pnl_pct": 0.003322,
-      "unrealized_pnl_usd": 22.0
+      "price_trough": 217.79299926757812,
+      "trailing_stop_price": 219.535343,
+      "current_price": 217.794006,
+      "unrealized_pnl_pct": 0.003331,
+      "unrealized_pnl_usd": 22.06
     },
     {
       "id": "DOGE-USD_20260729202844",
@@ -446,45 +446,9 @@
       "status": "open",
       "price_peak": 0.07017000019550323,
       "trailing_stop_price": 0.069607,
-      "current_price": 0.06986,
-      "unrealized_pnl_pct": 0.013933,
-      "unrealized_pnl_usd": 90.8
-    },
-    {
-      "id": "SOL-USD_20260729202844",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 72.44999694824219,
-      "entry_time": "2026-07-29T20:28:44.382420+00:00",
-      "stop_loss_pct": 0.00885,
-      "take_profit_pct": 0.02208,
-      "size_usd": 6791.15,
-      "position_size_pct": 0.0634,
-      "confidence": 0.99,
-      "signals": [
-        "RSI oversold (34.7)",
-        "5d momentum -0.81%",
-        "1d momentum -2.02%",
-        "BB oversold (pct_b=-0.05)",
-        "Volume spike 3.4\u00d7",
-        "High-impact catalyst",
-        "Claude [supports]: fed dovish"
-      ],
-      "news_sentiment": 0.059,
-      "news_headlines": [
-        "Morgan Stanley offering new ethereum, solana ETFs",
-        "The CLARITY Act divides finance giants ahead of congressional recess",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000"
-      ],
-      "mode": "paper",
-      "strategy_version": "71",
-      "status": "open",
-      "price_peak": 73.98999786376953,
-      "trailing_stop_price": 73.335186,
-      "current_price": 73.989998,
-      "unrealized_pnl_pct": 0.021256,
-      "unrealized_pnl_usd": 144.35
+      "current_price": 0.07017,
+      "unrealized_pnl_pct": 0.018433,
+      "unrealized_pnl_usd": 120.12
     },
     {
       "id": "EUR/USD_20260729202844",
@@ -547,11 +511,11 @@
       "mode": "paper",
       "strategy_version": "71",
       "status": "open",
-      "price_trough": 115.91100311279297,
-      "trailing_stop_price": 116.838291,
-      "current_price": 115.904999,
-      "unrealized_pnl_pct": 0.004141,
-      "unrealized_pnl_usd": 18.96
+      "price_trough": 115.90899658203125,
+      "trailing_stop_price": 116.836269,
+      "current_price": 115.916,
+      "unrealized_pnl_pct": 0.004047,
+      "unrealized_pnl_usd": 18.53
     },
     {
       "id": "AVAX-USD_20260730035554",
@@ -617,9 +581,11 @@
       "mode": "paper",
       "strategy_version": "72",
       "status": "open",
-      "current_price": 588.190002,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 586.0499877929688,
+      "trailing_stop_price": 589.132611,
+      "current_price": 585.960022,
+      "unrealized_pnl_pct": 0.003791,
+      "unrealized_pnl_usd": 24.76
     },
     {
       "id": "NZD/USD_20260730111915",
@@ -650,9 +616,11 @@
       "mode": "paper",
       "strategy_version": "72",
       "status": "open",
-      "current_price": 0.58418,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.5838052034378052,
+      "trailing_stop_price": 0.584973,
+      "current_price": 0.583805,
+      "unrealized_pnl_pct": 0.000642,
+      "unrealized_pnl_usd": 3.51
     },
     {
       "id": "USD/JPY_20260730111915",
@@ -683,7 +651,43 @@
       "mode": "paper",
       "strategy_version": "72",
       "status": "open",
-      "current_price": 162.796005,
+      "price_peak": 162.9080047607422,
+      "trailing_stop_price": 162.582189,
+      "current_price": 162.899994,
+      "unrealized_pnl_pct": 0.000639,
+      "unrealized_pnl_usd": 1.75
+    },
+    {
+      "id": "BTC-USD_20260730125645",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 64821.51171875,
+      "entry_time": "2026-07-30T12:56:45.755147+00:00",
+      "stop_loss_pct": 0.00451,
+      "take_profit_pct": 0.01124,
+      "size_usd": 6816.71,
+      "position_size_pct": 0.0634,
+      "confidence": 0.99,
+      "signals": [
+        "RSI overbought (72.6)",
+        "5d momentum +1.41%",
+        "1d momentum +0.97%",
+        "BB overbought (pct_b=1.02)",
+        "Volume spike 4.5\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: price decline"
+      ],
+      "news_sentiment": 0.412,
+      "news_headlines": [
+        "Robinhood, Arm, Carvana: Stocks moving on earnings in after-hours",
+        "Bitcoin and ethereum prices today, Wednesday, July 29, 2026:  Crypto investors watching the Fed decision closely",
+        "Stock Market Today: Dow Rises After Key Inflation Data; Meta Plunges On Earnings (Live Coverage)"
+      ],
+      "mode": "paper",
+      "strategy_version": "72",
+      "status": "open",
+      "current_price": 64821.511719,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -691,7 +695,7 @@
   "last_candidates": [
     {
       "asset": "QCOM",
-      "rank_score": 0.8264,
+      "rank_score": 0.8131,
       "price": 155.27999877929688,
       "rsi": 18.0375203184564,
       "momentum_5d": -0.02731145469193906,
@@ -701,39 +705,18 @@
       "bollinger_pct_b": -0.0499,
       "volume_spike": true,
       "volume_spike_ratio": 2.44,
-      "news_sentiment": 0.747,
-      "news_confidence": 0.78,
+      "news_sentiment": 0.789,
+      "news_confidence": 0.57,
       "news_headlines": [
         "Qualcomm stock slides after Q3 earnings top revenue expectations as smartphone market slows",
         "Can Qualcomm secure a 'tiny slice' of the data center pie?",
-        "Qualcomm shares slide as higher costs, Apple-related weakness cloud profit forecast"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.7998,
-      "price": 588.1900024414062,
-      "rsi": 85.01615072278268,
-      "momentum_5d": 0.02597246636226096,
-      "momentum_1d": 0.03180367849078729,
-      "macd_crossover": false,
-      "atr_pct": 0.005180545888065574,
-      "bollinger_pct_b": 1.1594,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.55,
-      "news_sentiment": -0.45,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
-        "Why Does XRP Fall Faster Than Every Other Major Coin?",
-        "1inch's Shared Liquidity Layer Aqua Goes Live"
+        "Qualcomm Has Huge News for Apple"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ARM",
-      "rank_score": 0.7876,
+      "rank_score": 0.7946,
       "price": 224.57000732421875,
       "rsi": 18.148891016968335,
       "momentum_5d": -0.028508376161489157,
@@ -743,12 +726,12 @@
       "bollinger_pct_b": 0.0972,
       "volume_spike": true,
       "volume_spike_ratio": 2.89,
-      "news_sentiment": 0.806,
-      "news_confidence": 0.72,
+      "news_sentiment": 0.844,
+      "news_confidence": 0.77,
       "news_headlines": [
         "Robinhood, Arm, Carvana: Stocks moving on earnings in after-hours",
         "Earnings live: Qualcomm stock slides, Arm Holdings little changed after results exceed expectations",
-        "Arm Holdings Tops First-Quarter Forecasts, but Shares Extend Decline"
+        "Memory Prices Hit Arm's Royalties as Stock Falls 4%"
       ],
       "high_impact_news": true
     },
@@ -817,7 +800,7 @@
     },
     {
       "asset": "KLAC",
-      "rank_score": 0.7372,
+      "rank_score": 0.7392,
       "price": 169.82000732421875,
       "rsi": 19.896249368773823,
       "momentum_5d": -0.03901756589173793,
@@ -827,12 +810,12 @@
       "bollinger_pct_b": 0.088,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
-      "news_sentiment": 0.632,
-      "news_confidence": 0.76,
+      "news_sentiment": 0.694,
+      "news_confidence": 0.72,
       "news_headlines": [
+        "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He\u2019s Bullish on Memory",
         "KLA (KLAC) Posts Strong Q4 And Guides Higher On AI Demand",
-        "KLA Stock Is Having Its Worst Month Ever. Why Earnings Can\u2019t Stop the Selloff.",
-        "Nasdaq, S&P 500 Fall 1%, Dow Sinks 900 Points Ahead of Fed Decision"
+        "KLA Stock Is Having Its Worst Month Ever. Why Earnings Can\u2019t Stop the Selloff."
       ],
       "high_impact_news": true
     },
@@ -869,18 +852,18 @@
       "bollinger_pct_b": 0.0644,
       "volume_spike": false,
       "volume_spike_ratio": 1.31,
-      "news_sentiment": 0.755,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.822,
+      "news_confidence": 0.45,
       "news_headlines": [
         "Nvidia, Micron, AMD sink after SK Hynix results fail to impress, AI trade unwinds",
         "Semiconductor stocks are going up in smoke. But the S&P 500 is holding strong.",
-        "NVDA, NBIS, SKHY, SNDK Stock Losses Reportedly Force Ex-OpenAI Researcher\u2019s $20B Fund To Seek Capital"
+        "This Memory Chip Stock Just Surged 531%. It\u2019s Not SK Hynix or Micron"
       ],
       "high_impact_news": true
     },
     {
       "asset": "LRCX",
-      "rank_score": 0.7026,
+      "rank_score": 0.7016,
       "price": 251.0,
       "rsi": 25.19004947141967,
       "momentum_5d": -0.023953972524449012,
@@ -890,12 +873,12 @@
       "bollinger_pct_b": 0.1347,
       "volume_spike": true,
       "volume_spike_ratio": 1.75,
-      "news_sentiment": 0.859,
-      "news_confidence": 0.71,
+      "news_sentiment": 0.857,
+      "news_confidence": 0.7,
       "news_headlines": [
+        "Microsoft, Meta, Lam Research, Shell, and More Stocks That Explain Today\u2019s Market",
         "Lam Research Corp (LRCX) (Q4 2026) Earnings Call Highlights: Record Revenue and EPS Fueled by ...",
-        "Lam Research Q4 Earnings Call Highlights",
-        "Lam Research (LRCX) Q4 Earnings: Taking a Look at Key Metrics Versus Estimates"
+        "Lam Research Q4 Earnings Call Highlights"
       ],
       "high_impact_news": true
     },
@@ -942,8 +925,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.6827,
+      "price": 585.9600219726562,
+      "rsi": 77.47891640478774,
+      "momentum_5d": 0.02065850355526345,
+      "momentum_1d": 0.030331802383516612,
+      "macd_crossover": false,
+      "atr_pct": 0.0053124148516731865,
+      "bollinger_pct_b": 0.9795,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.95,
+      "news_sentiment": -0.45,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000",
+        "Why Does XRP Fall Faster Than Every Other Major Coin?",
+        "1inch's Shared Liquidity Layer Aqua Goes Live"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AVGO",
-      "rank_score": 0.6844,
+      "rank_score": 0.6774,
       "price": 370.29998779296875,
       "rsi": 36.93170809524303,
       "momentum_5d": -0.005372011994564379,
@@ -953,12 +957,12 @@
       "bollinger_pct_b": -0.0584,
       "volume_spike": true,
       "volume_spike_ratio": 2.24,
-      "news_sentiment": 0.446,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.354,
+      "news_confidence": 0.52,
       "news_headlines": [
         "Kospi sell-off deepens, Why leveraged ETFs are under fire",
-        "NVDA, NBIS, SKHY, SNDK Stock Losses Reportedly Force Ex-OpenAI Researcher\u2019s $20B Fund To Seek Capital",
-        "Got $1,000? 2 Magnificent Artificial Intelligence (AI) Stocks Down 15% or More From Their Highs to Buy Hand Over Fist"
+        "SPMO ETF Hides A Heavy Tech Tilt",
+        "NVDA, NBIS, SKHY, SNDK Stock Losses Reportedly Force Ex-OpenAI Researcher\u2019s $20B Fund To Seek Capital"
       ],
       "high_impact_news": true
     },
@@ -984,29 +988,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMZN",
-      "rank_score": 0.6549,
-      "price": 226.7100067138672,
-      "rsi": 36.4904235756831,
-      "momentum_5d": -0.005723275570793413,
-      "momentum_1d": -0.02930781262045725,
-      "macd_crossover": false,
-      "atr_pct": 0.009633698595767808,
-      "bollinger_pct_b": -0.0886,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.91,
-      "news_sentiment": 0.723,
-      "news_confidence": 0.65,
-      "news_headlines": [
-        "Big Tech earnings meet IPO buzz: What to watch Thursday",
-        "Amazon Q2 earnings to put spotlight on AWS growth amid AI spending",
-        "Amazon, Walmart AI detect 'made in USA' fraud but do not flag it, study says"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "REGN",
-      "rank_score": 0.6504,
+      "rank_score": 0.6524,
       "price": 695.8499755859375,
       "rsi": 75.24746387286355,
       "momentum_5d": 0.00035940196776087136,
@@ -1016,33 +999,54 @@
       "bollinger_pct_b": 0.7172,
       "volume_spike": true,
       "volume_spike_ratio": 2.38,
-      "news_sentiment": 0.887,
-      "news_confidence": 0.71,
+      "news_sentiment": 0.89,
+      "news_confidence": 0.73,
       "news_headlines": [
-        "Tech Earnings, Central Bank Decisions: What to Watch the Rest of the Week",
-        "Sanofi Raises Guidance as New CEO Looks to Revamp Drug Pipeline",
-        "Regeneron (REGN) To Report Earnings Tomorrow: Here Is What To Expect"
+        "Regeneron beats quarterly estimates on eczema drug strength, shares rise",
+        "Regeneron\u2019s (NASDAQ:REGN) Q2 CY2026: Strong Sales",
+        "Tech Earnings, Central Bank Decisions: What to Watch the Rest of the Week"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "SPY",
-      "rank_score": 0.6443,
-      "price": 729.5399780273438,
-      "rsi": 31.656285504401666,
-      "momentum_5d": -0.006672195873538507,
-      "momentum_1d": -0.01640808885519031,
+      "asset": "JPM",
+      "rank_score": 0.6459,
+      "price": 344.739990234375,
+      "rsi": 18.691975933479654,
+      "momentum_5d": -0.015211495493390684,
+      "momentum_1d": -0.022013958094549455,
       "macd_crossover": false,
-      "atr_pct": 0.005025530157166865,
-      "bollinger_pct_b": -0.1643,
+      "atr_pct": 0.008062988997292195,
+      "bollinger_pct_b": -0.028,
       "volume_spike": true,
-      "volume_spike_ratio": 3.4,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.42,
+      "volume_spike_ratio": 1.84,
+      "news_sentiment": 0.23,
+      "news_confidence": 0.61,
       "news_headlines": [
-        "His 401(k) Hit a Record High on AI Stocks. Why His Social Security Check Matters More Than Ever.",
-        "The SOXX Dip Has A Painful History",
-        "How Much Eli Lilly (LLY) Are You Really Betting On?"
+        "Ohio State Lands a Multimillion-Dollar Recruit: JPMorgan",
+        "In 12 Words, JPMorgan CEO Jamie Dimon Just Issued a Stark Warning to Investors",
+        "Florida woman, 32, was saving to buy a house. Scammers posing as Chase Bank convinced her to hand over $50,000 instead"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MS",
+      "rank_score": 0.6438,
+      "price": 203.1699981689453,
+      "rsi": 23.582711612993805,
+      "momentum_5d": -0.010037507194263058,
+      "momentum_1d": -0.055725995952265156,
+      "macd_crossover": false,
+      "atr_pct": 0.01328313654932405,
+      "bollinger_pct_b": 0.0565,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.79,
+      "news_sentiment": 0.147,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Morgan Stanley offering new ethereum, solana ETFs",
+        "Sandwich Chain Jersey Mike\u2019s, Backers Raise $1 Billion in IPO",
+        "Morgan Stanley resets Akamai stock price target amid sell-off"
       ],
       "high_impact_news": true
     },
@@ -1068,29 +1072,29 @@
       "high_impact_news": true
     },
     {
-      "asset": "MS",
-      "rank_score": 0.6409,
-      "price": 203.1699981689453,
-      "rsi": 23.582711612993805,
-      "momentum_5d": -0.010037507194263058,
-      "momentum_1d": -0.055725995952265156,
+      "asset": "AMZN",
+      "rank_score": 0.6419,
+      "price": 226.7100067138672,
+      "rsi": 36.4904235756831,
+      "momentum_5d": -0.005723275570793413,
+      "momentum_1d": -0.02930781262045725,
       "macd_crossover": false,
-      "atr_pct": 0.01328313654932405,
-      "bollinger_pct_b": 0.0565,
+      "atr_pct": 0.009633698595767808,
+      "bollinger_pct_b": -0.0886,
       "volume_spike": true,
-      "volume_spike_ratio": 1.79,
-      "news_sentiment": 0.093,
-      "news_confidence": 0.36,
+      "volume_spike_ratio": 1.91,
+      "news_sentiment": 0.607,
+      "news_confidence": 0.56,
       "news_headlines": [
-        "Morgan Stanley offering new ethereum, solana ETFs",
-        "Morgan Stanley resets Akamai stock price target amid sell-off",
-        "Fast Money Host Warns Hyperscaler CapEx Binge Is \u2018Issuing Near Junk\u2019 as Data Center Buildout Shows Cracks"
+        "Big Tech earnings meet IPO buzz: What to watch Thursday",
+        "Morgan Stanley Says Amazon, Microsoft, and Google's AI Spending Will Pay Off Big",
+        "Stock Market Today: Dow Rises After Key Inflation Data; Meta Plunges On Earnings (Live Coverage)"
       ],
       "high_impact_news": true
     },
     {
       "asset": "GS",
-      "rank_score": 0.6399,
+      "rank_score": 0.6419,
       "price": 980.97998046875,
       "rsi": 22.884565869829345,
       "momentum_5d": -0.010195938067748385,
@@ -1100,12 +1104,12 @@
       "bollinger_pct_b": 0.0747,
       "volume_spike": true,
       "volume_spike_ratio": 1.66,
-      "news_sentiment": 0.409,
+      "news_sentiment": 0.455,
       "news_confidence": 0.44,
       "news_headlines": [
-        "Vanguard\u2019s and T. Rowe Price\u2019s New Private-Asset Funds: The Timing Couldn\u2019t Be Worse",
-        "Cigna Reports Earnings Thursday With New CEO, New Business Model",
-        "Goldman Sachs (GS) Launches Retail Private Markets Fund As CEO Backs Crypto Bill"
+        "Goldman Sachs tops North America M&A advisers by value in H1 2026, Houlihan Lokey leads by volume",
+        "Market Chatter: Goldman Sachs Ordered to pay Former Compliance Manager $2 Million in UK Discrimination case",
+        "Private Credit Gets Cheaper in Europe as Redemptions Pressure US"
       ],
       "high_impact_news": true
     }
