@@ -140,8 +140,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_peak": 352.2200012207031,
-    "trailing_stop_price": 345.753242
+    "price_peak": 354.0,
+    "trailing_stop_price": 347.50056
   },
   "INTC": {
     "id": "INTC_20260730150920",
@@ -204,8 +204,8 @@
     "mode": "paper",
     "strategy_version": "73",
     "status": "open",
-    "price_trough": 586.4600219726562,
-    "trailing_stop_price": 589.679687
+    "price_trough": 586.1300048828125,
+    "trailing_stop_price": 589.347859
   },
   "REGN": {
     "id": "REGN_20260730194616",
@@ -267,40 +267,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
-  },
-  "MSFT": {
-    "id": "MSFT_20260730194616",
-    "asset": "MSFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 455.510009765625,
-    "entry_time": "2026-07-30T19:46:16.718805+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03442,
-    "size_usd": 4055.74,
-    "position_size_pct": 0.0377,
-    "confidence": 0.589,
-    "signals": [
-      "RSI overbought (83.5)",
-      "5d momentum +2.48%",
-      "1d momentum +16.34%",
-      "BB overbought (pct_b=0.85)",
-      "News +0.84 (conf 0.64) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.844,
-    "news_headlines": [
-      "Microsoft stock surges on strong quarter, record cloud revenue",
-      "Vertiv CEO: How Google, Meta, Microsoft earnings are 'reinforcing' data center acceleration",
-      "Microsoft's $41 billion AI bet just cleared a major test: Chart of the Day"
-    ],
-    "mode": "paper",
-    "strategy_version": "73",
     "status": "open",
-    "price_trough": 451.1000061035156,
-    "trailing_stop_price": 457.866506
+    "price_trough": 57.02000045776367,
+    "trailing_stop_price": 57.798894
   },
   "VLO": {
     "id": "VLO_20260730194616",
@@ -332,8 +301,8 @@
     "mode": "paper",
     "strategy_version": "73",
     "status": "open",
-    "price_trough": 309.1099853515625,
-    "trailing_stop_price": 312.942949
+    "price_trough": 306.42999267578125,
+    "trailing_stop_price": 310.229725
   },
   "MA": {
     "id": "MA_20260730194616",
@@ -423,8 +392,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.512550354003906,
-    "trailing_stop_price": 9.588651
+    "price_trough": 9.488750457763672,
+    "trailing_stop_price": 9.56466
   },
   "USD/CHF": {
     "id": "USD/CHF_20260731121759",
@@ -447,7 +416,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "74",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.8087199926376343,
+    "trailing_stop_price": 0.81519
   },
   "USD/SEK": {
     "id": "USD/SEK_20260731121759",
@@ -471,8 +442,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.561249732971191,
-    "trailing_stop_price": 9.63774
+    "price_trough": 9.52970027923584,
+    "trailing_stop_price": 9.605938
   },
   "RBLX": {
     "id": "RBLX_20260731144122",
@@ -503,7 +474,9 @@
     ],
     "mode": "paper",
     "strategy_version": "74",
-    "status": "open"
+    "status": "open",
+    "price_peak": 34.53099822998047,
+    "trailing_stop_price": 34.013033
   },
   "AMZN": {
     "id": "AMZN_20260731144122",
@@ -592,6 +565,40 @@
     ],
     "mode": "paper",
     "strategy_version": "74",
+    "status": "open",
+    "price_peak": 183.34100341796875,
+    "trailing_stop_price": 181.551595
+  },
+  "RIVN": {
+    "id": "RIVN_20260731162332",
+    "asset": "RIVN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 15.241000175476074,
+    "entry_time": "2026-07-31T16:23:32.546956+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 4025.18,
+    "position_size_pct": 0.0374,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (29.2)",
+      "5d momentum -7.77%",
+      "1d momentum -7.52%",
+      "BB oversold (pct_b=-0.20)",
+      "Volume spike 1.7\u00d7",
+      "News +0.68 (conf 0.72) \u2192 long",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.681,
+    "news_headlines": [
+      "Rivian\u2019s turnaround gains traction as R2 demand exceeds expectations",
+      "Rivian Automotive Stock's Best Case Is Hiding In Its Cost Per Vehicle",
+      "Rivian Sinks 8% Despite Q2 Beat and Raised Guidance; Lucid Falls 6%"
+    ],
+    "mode": "paper",
+    "strategy_version": "75",
     "status": "open"
   }
 }
