@@ -143,68 +143,6 @@
     "price_peak": 351.6675109863281,
     "trailing_stop_price": 345.210895
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260729202844",
-    "asset": "CAD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 116.38700103759766,
-    "entry_time": "2026-07-29T20:28:44.390000+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02578,
-    "size_usd": 4578.88,
-    "position_size_pct": 0.0427,
-    "confidence": 0.445,
-    "signals": [
-      "RSI overbought (71.9)",
-      "BB overbought (pct_b=0.95)",
-      "News +1.00 (conf 0.70) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-    ],
-    "news_sentiment": 1.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "71",
-    "status": "open",
-    "price_trough": 113.43499755859375,
-    "trailing_stop_price": 114.342478
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260730125645",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 64821.51171875,
-    "entry_time": "2026-07-30T12:56:45.755147+00:00",
-    "stop_loss_pct": 0.00451,
-    "take_profit_pct": 0.01124,
-    "size_usd": 6816.71,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (72.6)",
-      "5d momentum +1.41%",
-      "1d momentum +0.97%",
-      "BB overbought (pct_b=1.02)",
-      "Volume spike 4.5\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.412,
-    "news_headlines": [
-      "Robinhood, Arm, Carvana: Stocks moving on earnings in after-hours",
-      "Bitcoin and ethereum prices today, Wednesday, July 29, 2026:  Crypto investors watching the Fed decision closely",
-      "Stock Market Today: Dow Rises After Key Inflation Data; Meta Plunges On Earnings (Live Coverage)"
-    ],
-    "mode": "paper",
-    "strategy_version": "72",
-    "status": "open",
-    "price_trough": 64673.28125,
-    "trailing_stop_price": 64964.957748
-  },
   "INTC": {
     "id": "INTC_20260730150920",
     "asset": "INTC",
@@ -490,7 +428,9 @@
     ],
     "mode": "paper",
     "strategy_version": "73",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1926.3699951171875,
+    "trailing_stop_price": 1915.659378
   },
   "SOL-USD": {
     "id": "SOL-USD_20260730235203",
@@ -517,6 +457,93 @@
       "A New Crypto Index Just Launched. Here's Why That's Bullish for Ethereum, Solana, and Hyperliquid.",
       "Crypto Exchange Luno Cuts 20% Of Staff"
     ],
+    "mode": "paper",
+    "strategy_version": "74",
+    "status": "open",
+    "price_peak": 74.95999908447266,
+    "trailing_stop_price": 74.578453
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260731011948",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.489999771118164,
+    "entry_time": "2026-07-31T01:19:48.009506+00:00",
+    "stop_loss_pct": 0.00646,
+    "take_profit_pct": 0.01572,
+    "size_usd": 6003.96,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (60.7)",
+      "MACD crossover",
+      "1d momentum +1.25%",
+      "BB overbought (pct_b=0.88)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.282,
+    "news_headlines": [
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+      "Aptos climbs to the top 4 blockchains in transaction count",
+      "How tokenized stocks could become a $3 trillion market"
+    ],
+    "mode": "paper",
+    "strategy_version": "74",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260731011948",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 65081.23828125,
+    "entry_time": "2026-07-31T01:19:48.011095+00:00",
+    "stop_loss_pct": 0.00469,
+    "take_profit_pct": 0.0117,
+    "size_usd": 830.97,
+    "position_size_pct": 0.0077,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (70.7)",
+      "5d momentum +0.42%",
+      "1d momentum +1.92%",
+      "BB overbought (pct_b=0.89)",
+      "Volume spike 2.4\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: earnings miss; price decline"
+    ],
+    "news_sentiment": 0.128,
+    "news_headlines": [
+      "US stocks, bitcoin gain since Fed held rates steady at July FOMC meeting",
+      "Bitcoin Pullback Pushes Strategy to $8.22B Q2 Loss",
+      "Coinbase Q2 earnings miss Wall Street estimates"
+    ],
+    "mode": "paper",
+    "strategy_version": "74",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20260731011948",
+    "asset": "USD/NOK",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 9.5381498336792,
+    "entry_time": "2026-07-31T01:19:48.015311+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 6935.6,
+    "position_size_pct": 0.0643,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (39.2)",
+      "MACD crossover",
+      "1d momentum -0.57%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "74",
     "status": "open"
