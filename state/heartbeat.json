@@ -3,15 +3,15 @@
   "portfolio_balance": 107788.63,
   "portfolio_peak": 107855.94,
   "portfolio_drawdown_pct": 0.06,
-  "unrealized_pnl_usd": 353.25,
-  "equity_value": 108141.88,
+  "unrealized_pnl_usd": 340.99,
+  "equity_value": 108129.62,
   "open_positions": 16,
   "day_trades_open": 9,
   "swing_trades_open": 7,
   "day_capital_used_usd": 43115.45,
   "swing_capital_used_usd": 38247.86,
   "total_trades": 828,
-  "last_tick": "2026-07-31T07:39:06.065092+00:00",
+  "last_tick": "2026-07-31T10:13:51.317062+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.8445000648498535,
       "trailing_stop_price": 7.781744,
-      "current_price": 7.84075,
-      "unrealized_pnl_pct": 0.000823,
-      "unrealized_pnl_usd": 1.11
+      "current_price": 7.84243,
+      "unrealized_pnl_pct": 0.001038,
+      "unrealized_pnl_usd": 1.39
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3995800018310547,
       "trailing_stop_price": 1.410777,
-      "current_price": 1.40177,
-      "unrealized_pnl_pct": 0.005449,
-      "unrealized_pnl_usd": 36.51
+      "current_price": 1.40167,
+      "unrealized_pnl_pct": 0.00552,
+      "unrealized_pnl_usd": 36.98
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85618,
-      "unrealized_pnl_pct": -0.002635,
-      "unrealized_pnl_usd": -18.34
+      "current_price": 0.85566,
+      "unrealized_pnl_pct": -0.002026,
+      "unrealized_pnl_usd": -14.1
     },
     {
       "id": "XOM_20260729152343",
@@ -242,9 +242,9 @@
       "status": "open",
       "price_trough": 588.7100219726562,
       "trailing_stop_price": 591.94204,
-      "current_price": 589.340027,
-      "unrealized_pnl_pct": 0.003719,
-      "unrealized_pnl_usd": 18.02
+      "current_price": 589.400024,
+      "unrealized_pnl_pct": 0.003618,
+      "unrealized_pnl_usd": 17.53
     },
     {
       "id": "REGN_20260730194616",
@@ -487,11 +487,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 6.409999847412109,
-      "trailing_stop_price": 6.451408,
-      "current_price": 6.41,
-      "unrealized_pnl_pct": 0.012327,
-      "unrealized_pnl_usd": 74.01
+      "price_trough": 6.429999828338623,
+      "trailing_stop_price": 6.471538,
+      "current_price": 6.43,
+      "unrealized_pnl_pct": 0.009245,
+      "unrealized_pnl_usd": 55.51
     },
     {
       "id": "USD/NOK_20260731011948",
@@ -515,11 +515,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 9.536849975585938,
-      "trailing_stop_price": 9.613145,
-      "current_price": 9.53685,
-      "unrealized_pnl_pct": 0.000136,
-      "unrealized_pnl_usd": 0.95
+      "price_trough": 9.522049903869629,
+      "trailing_stop_price": 9.598226,
+      "current_price": 9.52197,
+      "unrealized_pnl_pct": 0.001696,
+      "unrealized_pnl_usd": 11.77
     },
     {
       "id": "SOL-USD_20260731044803",
@@ -551,9 +551,9 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "current_price": 73.57,
-      "unrealized_pnl_pct": -0.002305,
-      "unrealized_pnl_usd": -14.05
+      "current_price": 73.459999,
+      "unrealized_pnl_pct": -0.003797,
+      "unrealized_pnl_usd": -23.14
     }
   ],
   "last_candidates": [
@@ -614,9 +614,30 @@
       "news_sentiment": 0.851,
       "news_confidence": 0.78,
       "news_headlines": [
+        "Bristol Myers Squibb (BMY) Earnings Beat And Higher Outlook Put Valuation Back In Focus",
         "Bristol-Myers Squibb (BMY) Q2 2026 Earnings Call Transcript",
-        "Why Bristol Myers Squibb Stock Topped the Market on Thursday",
-        "Bristol-Myers Squibb Co (BMY) (Q2 2026) Earnings Call Highlights: Growth Portfolio Surges 14%, ..."
+        "Why Bristol Myers Squibb Stock Topped the Market on Thursday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "META",
+      "rank_score": 0.6644,
+      "price": 539.0599975585938,
+      "rsi": 17.790315844051108,
+      "momentum_5d": 0.011360104727557881,
+      "momentum_1d": -0.09682496505191338,
+      "macd_crossover": false,
+      "atr_pct": 0.01949828700841698,
+      "bollinger_pct_b": 0.2093,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.58,
+      "news_sentiment": 0.921,
+      "news_confidence": 0.76,
+      "news_headlines": [
+        "Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day",
+        "Earnings live: Amazon stock surges on earnings beat, Apple stock slides",
+        "Meta's & Microsoft's massive AI spending: Why only one is getting rewarded"
       ],
       "high_impact_news": true
     },
@@ -656,51 +677,9 @@
       "news_sentiment": 0.264,
       "news_confidence": 0.58,
       "news_headlines": [
-        "Here Comes the Next Wave of GLP-1s. They\u2019ll Treat a Lot More Than Obesity.",
         "Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge",
-        "Sector Update: Healthcare Stocks Decline Late Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "META",
-      "rank_score": 0.6484,
-      "price": 539.0599975585938,
-      "rsi": 17.790315844051108,
-      "momentum_5d": 0.011360104727557881,
-      "momentum_1d": -0.09682496505191338,
-      "macd_crossover": false,
-      "atr_pct": 0.01949828700841698,
-      "bollinger_pct_b": 0.2093,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.844,
-      "news_confidence": 0.64,
-      "news_headlines": [
-        "Earnings live: Amazon stock surges on earnings beat, Apple stock slides",
-        "Microsoft and Meta results send stocks in opposite directions",
-        "Microsoft and Meta boost AI spending, but only one stock pays the price"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6447,
-      "price": 1885.969970703125,
-      "rsi": 27.605008516349884,
-      "momentum_5d": -0.00852184469929041,
-      "momentum_1d": -0.00762446488334701,
-      "macd_crossover": false,
-      "atr_pct": 0.006469579921090762,
-      "bollinger_pct_b": -0.1956,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.43,
-      "news_sentiment": 0.534,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "Microsoft and Meta boost AI spending, but only one stock pays the price",
-        "Bitcoin and ethereum prices today, Thursday, July 30, 2026: Prices rise after Fed leaves rates unchanged",
-        "ETH/BTC Ratio Hits 3-Month High: But Don\u2019t Count on Altcoin Season Yet"
+        "Resilience and Lilly to increase US medicines production with $750m investment",
+        "Here Comes the Next Wave of GLP-1s. They\u2019ll Treat a Lot More Than Obesity."
       ],
       "high_impact_news": true
     },
@@ -719,9 +698,9 @@
       "news_sentiment": 0.741,
       "news_confidence": 0.54,
       "news_headlines": [
+        "Should You Buy Lucid Stock Before Aug. 4?",
         "Lucid Group (LCID) Outpaces Stock Market Gains: What You Should Know",
-        "Is Rivian Automotive a Buy After Its Latest Earnings Report?",
-        "Analysts Estimate Fox Factory Holding (FOXF) to Report a Decline in Earnings: What to Look Out for"
+        "Is Rivian Automotive a Buy After Its Latest Earnings Report?"
       ],
       "high_impact_news": true
     },
@@ -747,27 +726,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MSFT",
-      "rank_score": 0.6208,
-      "price": 451.4800109863281,
-      "rsi": 80.00411025587763,
-      "momentum_5d": 0.015725935129084368,
-      "momentum_1d": 0.1530645329994555,
-      "macd_crossover": false,
-      "atr_pct": 0.020352041184302862,
-      "bollinger_pct_b": 0.8231,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.922,
-      "news_confidence": 0.77,
-      "news_headlines": [
-        "Earnings live: Amazon stock surges on earnings beat, Apple stock slides",
-        "Microsoft's stock rockets more than 15% for largest single-day jump in history",
-        "Meta's & Microsoft's massive AI spending: Why only one is getting rewarded"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "RIVN",
       "rank_score": 0.6208,
       "price": 16.780000686645508,
@@ -782,30 +740,30 @@
       "news_sentiment": 0.703,
       "news_confidence": 0.74,
       "news_headlines": [
+        "Rivian stock rises after it reports strong Q2 results; R2 launch edition conversions stronger than expected, CEO says",
         "Rivian\u2019s turnaround gains traction as R2 demand exceeds expectations",
-        "Rivian reports strong Q2 results; R2 launch edition conversions stronger than expected, CEO says",
         "Rivian Automotive Inc (RIVN) (Q2 2026) Earnings Call Highlights: R2 Ramp Drives Record ..."
       ],
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.6044,
-      "price": 63905.23046875,
-      "rsi": 21.057815867238006,
-      "momentum_5d": -0.005056836730871122,
-      "momentum_1d": -0.00020460686910727787,
+      "asset": "MSFT",
+      "rank_score": 0.6028,
+      "price": 451.4800109863281,
+      "rsi": 80.00411025587763,
+      "momentum_5d": 0.015725935129084368,
+      "momentum_1d": 0.1530645329994555,
       "macd_crossover": false,
-      "atr_pct": 0.004599160868554898,
-      "bollinger_pct_b": -0.1076,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.85,
-      "news_sentiment": 0.567,
-      "news_confidence": 0.6,
+      "atr_pct": 0.020352041184302862,
+      "bollinger_pct_b": 0.8231,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.08,
+      "news_sentiment": 0.688,
+      "news_confidence": 0.77,
       "news_headlines": [
-        "US stocks, bitcoin gain since Fed held rates steady at July FOMC meeting",
-        "Why Is The Crypto Market Down Today?",
-        "Coinbase Global Inc (COIN) (Q2 2026) Earnings Call Highlights: Diversification Drives ..."
+        "Stock market today: Nasdaq, Dow, S&P 500, Nasdaq set for more gains as Big Tech's AI spending shows no sign of letting up",
+        "Amazon stock soars after Q2 earnings beat expectations as AI, chip businesses see $25 billion run rate",
+        "Microsoft's stock rockets more than 15% for largest single-day jump in history"
       ],
       "high_impact_news": true
     },
@@ -832,7 +790,7 @@
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.576,
+      "rank_score": 0.583,
       "price": 127.57499694824219,
       "rsi": 66.94160232926774,
       "momentum_5d": 0.019947194440862615,
@@ -842,33 +800,12 @@
       "bollinger_pct_b": 0.8796,
       "volume_spike": false,
       "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.83,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.885,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "CRM Upgraded Its Profit Engine. Quietly",
-        "AI Chip Selloff Creates Buying Opportunity in Nvidia and Micron Stock",
-        "S&P 500, Nasdaq End Best Day In A Month On Support From Microsoft Gains, AI Stocks  \u2014 ORCL, GOOGL, MSFT, BE, TSLA Stock In Focus"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5616,
-      "price": 0.06976000219583511,
-      "rsi": 18.675158435216602,
-      "momentum_5d": -0.0028587184149049105,
-      "momentum_1d": 0.0008608252976811485,
-      "macd_crossover": false,
-      "atr_pct": 0.005856811935539236,
-      "bollinger_pct_b": -0.0213,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.52,
-      "news_sentiment": -0.208,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Bitcoin, Ethereum Spike, XRP and Dogecoin Climb Amid Sharp Crypto Recovery: Analyst Says 'Don't Fear' BTC Dropping to $60,000",
-        "Coinbase beats much of customer lawsuit over US token sales",
-        "Top Cryptocurrencies Mixed; Bitcoin Holds Above $63,000"
+        "The AI spending boom is forcing a rethink on stock buybacks: One Big Investment Idea",
+        "MU, NVDA, ORCL, NBIS: AI Stocks In Focus As Situational Awareness Reportedly Seeks Fresh Investment After July Rout",
+        "CRM Upgraded Its Profit Engine. Quietly"
       ],
       "high_impact_news": true
     },
@@ -894,6 +831,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.5413,
+      "price": 1881.6400146484375,
+      "rsi": 20.075715978383386,
+      "momentum_5d": -0.011951275716155119,
+      "momentum_1d": -0.017887071375939104,
+      "macd_crossover": false,
+      "atr_pct": 0.006249867644589915,
+      "bollinger_pct_b": 0.0032,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.03,
+      "news_sentiment": 0.534,
+      "news_confidence": 0.58,
+      "news_headlines": [
+        "Microsoft and Meta boost AI spending, but only one stock pays the price",
+        "Bitcoin and ethereum prices today, Thursday, July 30, 2026: Prices rise after Fed leaves rates unchanged",
+        "ETH/BTC Ratio Hits 3-Month High: But Don\u2019t Count on Altcoin Season Yet"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5389,
       "price": 314.0950012207031,
@@ -911,6 +869,27 @@
         "Ahead of Marathon Petroleum (MPC) Q2 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
         "PBF Energy (PBF) Q2 Earnings and Revenues Top Estimates",
         "This Old-School Sector Battles Semiconductor ETFs For Supremacy"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.5384,
+      "price": 151.64999389648438,
+      "rsi": 27.14982600979131,
+      "momentum_5d": 0.007908993284043979,
+      "momentum_1d": -0.09441175098444855,
+      "macd_crossover": false,
+      "atr_pct": 0.022708357763256203,
+      "bollinger_pct_b": 0.2069,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.826,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Apple earnings: iPhone prices are 'not immune' to rising memory costs",
+        "Chip stocks are rebounding \u2014 except for Qualcomm: Why it might just be a 'one off'",
+        "QCOM Q2 Deep Dive: Data Center and Automotive Growth Offset Smartphone Headwinds"
       ],
       "high_impact_news": true
     },
@@ -936,6 +915,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5314,
+      "price": 63657.37109375,
+      "rsi": 15.920567676874839,
+      "momentum_5d": -0.00984240390670323,
+      "momentum_1d": -0.012639817518500256,
+      "macd_crossover": false,
+      "atr_pct": 0.004530808591113862,
+      "bollinger_pct_b": 0.0249,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.53,
+      "news_sentiment": 0.745,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "US stocks, bitcoin gain since Fed held rates steady at July FOMC meeting",
+        "Coinbase Wants to Be an Everything Exchange but Can\u2019t Overcome Crypto Woes",
+        "Why Is The Crypto Market Down Today?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LRCX",
       "rank_score": 0.5311,
       "price": 297.70001220703125,
@@ -957,23 +957,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.528,
-      "price": 1.0745999813079834,
-      "rsi": 23.80942726811962,
-      "momentum_5d": -0.004907903402393546,
-      "momentum_1d": -0.0007439218393215291,
+      "asset": "HD",
+      "rank_score": 0.5294,
+      "price": 333.3900146484375,
+      "rsi": 28.841052514008084,
+      "momentum_5d": 0.003280249459858133,
+      "momentum_1d": -0.01339092310805967,
       "macd_crossover": false,
-      "atr_pct": 0.004998551048159686,
-      "bollinger_pct_b": -0.0329,
+      "atr_pct": 0.009264156497802559,
+      "bollinger_pct_b": 0.2258,
       "volume_spike": true,
-      "volume_spike_ratio": 1.97,
-      "news_sentiment": -0.2,
-      "news_confidence": 0.4,
+      "volume_spike_ratio": 2.66,
+      "news_sentiment": 0.526,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "Bitcoin, Ethereum Spike, XRP and Dogecoin Climb Amid Sharp Crypto Recovery: Analyst Says 'Don't Fear' BTC Dropping to $60,000",
-        "Ripple (XRP) Price Prediction: Analyst Predicts XRP Will Reach $1,000",
-        "$8.5 million in XRP stolen in fake investment scam"
+        "Floor & Decor Q2 Earnings Call Highlights",
+        "Home Depot (HD) Dips More Than Broader Market: What You Should Know",
+        "C.H. Robinson Faces $604 Million Verdict: What Vicarious Liability and Negligent Hiring Mean for Brokers After Montgomery and Home Depot"
       ],
       "high_impact_news": true
     }
