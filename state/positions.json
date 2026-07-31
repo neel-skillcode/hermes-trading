@@ -171,8 +171,8 @@
     "mode": "paper",
     "strategy_version": "72",
     "status": "open",
-    "price_trough": 91.12999725341797,
-    "trailing_stop_price": 96.597797
+    "price_trough": 90.19999694824219,
+    "trailing_stop_price": 95.611997
   },
   "BNB-USD": {
     "id": "BNB-USD_20260730164538",
@@ -262,8 +262,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.476349830627441,
-    "trailing_stop_price": 9.552161
+    "price_trough": 9.46819019317627,
+    "trailing_stop_price": 9.543936
   },
   "USD/CHF": {
     "id": "USD/CHF_20260731121759",
@@ -287,8 +287,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 0.8077700138092041,
-    "trailing_stop_price": 0.814232
+    "price_trough": 0.8076800107955933,
+    "trailing_stop_price": 0.814141
   },
   "USD/SEK": {
     "id": "USD/SEK_20260731121759",
@@ -312,41 +312,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.51630973815918,
-    "trailing_stop_price": 9.59244
-  },
-  "RBLX": {
-    "id": "RBLX_20260731144122",
-    "asset": "RBLX",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 34.36989974975586,
-    "entry_time": "2026-07-31T14:41:22.186340+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03578,
-    "size_usd": 5313.12,
-    "position_size_pct": 0.0493,
-    "confidence": 0.771,
-    "signals": [
-      "RSI oversold (12.8)",
-      "5d momentum -28.81%",
-      "1d momentum -28.80%",
-      "BB oversold (pct_b=-0.25)",
-      "News +0.24 (conf 0.69) \u2192 long",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: analyst upgrade; earnings miss; analyst downgrade"
-    ],
-    "news_sentiment": 0.239,
-    "news_headlines": [
-      "Stocks to Watch: Apple, Amazon, SK Hynix, Roblox",
-      "Universal Music Group Record Low; Roblox Slumps  | Stock Movers",
-      "Roblox cut at BMO and Deutsche Bank as platform transition slows monetization"
-    ],
-    "mode": "paper",
-    "strategy_version": "74",
-    "status": "open",
-    "price_peak": 35.15999984741211,
-    "trailing_stop_price": 34.6326
+    "price_trough": 9.508919715881348,
+    "trailing_stop_price": 9.584991
   },
   "AMZN": {
     "id": "AMZN_20260731144122",
@@ -408,8 +375,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_peak": 305.9100036621094,
-    "trailing_stop_price": 301.321354
+    "price_peak": 308.9100036621094,
+    "trailing_stop_price": 304.276354
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260731144122",
@@ -532,7 +499,9 @@
     ],
     "mode": "paper",
     "strategy_version": "75",
-    "status": "open"
+    "status": "open",
+    "price_trough": 32.25,
+    "trailing_stop_price": 32.446725
   },
   "CVX": {
     "id": "CVX_20260731194203",
@@ -563,7 +532,9 @@
     ],
     "mode": "paper",
     "strategy_version": "75",
-    "status": "open"
+    "status": "open",
+    "price_trough": 196.8300018310547,
+    "trailing_stop_price": 198.014918
   },
   "COIN": {
     "id": "COIN_20260731194203",
@@ -589,6 +560,37 @@
       "Coinbase stock sinks as weak crypto market leads to another quarterly loss",
       "Coinbase Stock Plunges 11.8% After Third Consecutive Loss",
       "Sector Update: Financial Stocks Edge Higher Friday Afternoon"
+    ],
+    "mode": "paper",
+    "strategy_version": "75",
+    "status": "open",
+    "price_trough": 146.25999450683594,
+    "trailing_stop_price": 148.453894
+  },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260731204541",
+    "asset": "CAD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 112.51000213623047,
+    "entry_time": "2026-07-31T20:45:41.557738+00:00",
+    "stop_loss_pct": 0.00525,
+    "take_profit_pct": 0.01299,
+    "size_usd": 6560.16,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (31.1)",
+      "5d momentum -0.82%",
+      "1d momentum -1.16%",
+      "BB oversold (pct_b=-0.10)",
+      "News +1.00 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
     ],
     "mode": "paper",
     "strategy_version": "75",
