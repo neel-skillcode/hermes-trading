@@ -430,8 +430,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 6.440000057220459,
-    "trailing_stop_price": 6.481602
+    "price_trough": 6.409999847412109,
+    "trailing_stop_price": 6.451408
   },
   "USD/NOK": {
     "id": "USD/NOK_20260731011948",
@@ -454,7 +454,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "74",
-    "status": "open"
+    "status": "open",
+    "price_trough": 9.524149894714355,
+    "trailing_stop_price": 9.600343
   },
   "SOL-USD": {
     "id": "SOL-USD_20260731044803",
@@ -483,6 +485,52 @@
       "RWA Trend Takes a Jurassic Turn as First Tokenized Dinosaur Lands on Solana",
       "A New Crypto Index Just Launched. Here's Why That's Bullish for Ethereum, Solana, and Hyperliquid."
     ],
+    "mode": "paper",
+    "strategy_version": "74",
+    "status": "open"
+  },
+  "USD/CHF": {
+    "id": "USD/CHF_20260731121759",
+    "asset": "USD/CHF",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.8101300001144409,
+    "entry_time": "2026-07-31T12:17:59.496776+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5794.72,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (76.0)",
+      "5d momentum +0.38%",
+      "BB overbought (pct_b=1.01)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "74",
+    "status": "open"
+  },
+  "USD/SEK": {
+    "id": "USD/SEK_20260731121759",
+    "asset": "USD/SEK",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 9.565460205078125,
+    "entry_time": "2026-07-31T12:17:59.499934+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5794.72,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (63.9)",
+      "5d momentum +0.35%",
+      "BB overbought (pct_b=1.02)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "74",
     "status": "open"

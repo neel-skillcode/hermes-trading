@@ -3,15 +3,15 @@
   "portfolio_balance": 107788.63,
   "portfolio_peak": 107855.94,
   "portfolio_drawdown_pct": 0.06,
-  "unrealized_pnl_usd": 340.99,
-  "equity_value": 108129.62,
-  "open_positions": 16,
+  "unrealized_pnl_usd": 331.93,
+  "equity_value": 108120.56,
+  "open_positions": 18,
   "day_trades_open": 9,
-  "swing_trades_open": 7,
+  "swing_trades_open": 9,
   "day_capital_used_usd": 43115.45,
-  "swing_capital_used_usd": 38247.86,
+  "swing_capital_used_usd": 49837.3,
   "total_trades": 828,
-  "last_tick": "2026-07-31T10:13:51.317062+00:00",
+  "last_tick": "2026-07-31T12:17:59.501592+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.8445000648498535,
       "trailing_stop_price": 7.781744,
-      "current_price": 7.84243,
-      "unrealized_pnl_pct": 0.001038,
-      "unrealized_pnl_usd": 1.39
+      "current_price": 7.8433,
+      "unrealized_pnl_pct": 0.001149,
+      "unrealized_pnl_usd": 1.54
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3995800018310547,
       "trailing_stop_price": 1.410777,
-      "current_price": 1.40167,
-      "unrealized_pnl_pct": 0.00552,
-      "unrealized_pnl_usd": 36.98
+      "current_price": 1.40393,
+      "unrealized_pnl_pct": 0.003916,
+      "unrealized_pnl_usd": 26.24
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85566,
-      "unrealized_pnl_pct": -0.002026,
-      "unrealized_pnl_usd": -14.1
+      "current_price": 0.85593,
+      "unrealized_pnl_pct": -0.002342,
+      "unrealized_pnl_usd": -16.3
     },
     {
       "id": "XOM_20260729152343",
@@ -242,9 +242,9 @@
       "status": "open",
       "price_trough": 588.7100219726562,
       "trailing_stop_price": 591.94204,
-      "current_price": 589.400024,
-      "unrealized_pnl_pct": 0.003618,
-      "unrealized_pnl_usd": 17.53
+      "current_price": 590.469971,
+      "unrealized_pnl_pct": 0.001809,
+      "unrealized_pnl_usd": 8.77
     },
     {
       "id": "REGN_20260730194616",
@@ -487,11 +487,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 6.429999828338623,
-      "trailing_stop_price": 6.471538,
-      "current_price": 6.43,
-      "unrealized_pnl_pct": 0.009245,
-      "unrealized_pnl_usd": 55.51
+      "price_trough": 6.409999847412109,
+      "trailing_stop_price": 6.451408,
+      "current_price": 6.41,
+      "unrealized_pnl_pct": 0.012327,
+      "unrealized_pnl_usd": 74.01
     },
     {
       "id": "USD/NOK_20260731011948",
@@ -515,11 +515,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 9.522049903869629,
-      "trailing_stop_price": 9.598226,
-      "current_price": 9.52197,
-      "unrealized_pnl_pct": 0.001696,
-      "unrealized_pnl_usd": 11.77
+      "price_trough": 9.524149894714355,
+      "trailing_stop_price": 9.600343,
+      "current_price": 9.52455,
+      "unrealized_pnl_pct": 0.001426,
+      "unrealized_pnl_usd": 9.89
     },
     {
       "id": "SOL-USD_20260731044803",
@@ -551,15 +551,67 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "current_price": 73.459999,
-      "unrealized_pnl_pct": -0.003797,
-      "unrealized_pnl_usd": -23.14
+      "current_price": 73.410004,
+      "unrealized_pnl_pct": -0.004475,
+      "unrealized_pnl_usd": -27.27
+    },
+    {
+      "id": "USD/CHF_20260731121759",
+      "asset": "USD/CHF",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 0.8101300001144409,
+      "entry_time": "2026-07-31T12:17:59.496776+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02624,
+      "size_usd": 5794.72,
+      "position_size_pct": 0.0538,
+      "confidence": 0.56,
+      "signals": [
+        "RSI overbought (76.0)",
+        "5d momentum +0.38%",
+        "BB overbought (pct_b=1.01)"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "74",
+      "status": "open",
+      "current_price": 0.81013,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "USD/SEK_20260731121759",
+      "asset": "USD/SEK",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 9.565460205078125,
+      "entry_time": "2026-07-31T12:17:59.499934+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02624,
+      "size_usd": 5794.72,
+      "position_size_pct": 0.0538,
+      "confidence": 0.56,
+      "signals": [
+        "RSI overbought (63.9)",
+        "5d momentum +0.35%",
+        "BB overbought (pct_b=1.02)"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "74",
+      "status": "open",
+      "current_price": 9.56546,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "REGN",
-      "rank_score": 0.8852,
+      "rank_score": 0.8833,
       "price": 738.4099731445312,
       "rsi": 77.69111169512144,
       "momentum_5d": 0.053561970535016205,
@@ -569,18 +621,18 @@
       "bollinger_pct_b": 1.0652,
       "volume_spike": true,
       "volume_spike_ratio": 2.45,
-      "news_sentiment": 0.789,
-      "news_confidence": 0.76,
+      "news_sentiment": 0.784,
+      "news_confidence": 0.74,
       "news_headlines": [
+        "Regeneron Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary",
         "Regeneron (REGN) Q2 2026 Earnings Call Transcript",
-        "Regeneron (REGN) Stock Looks Cheap On Earnings Yet Mixed Elsewhere",
-        "Regeneron Pharmaceuticals Inc (REGN) (Q2 2026) Earnings Call Highlights: Record Dupixent Sales ..."
+        "Regeneron (REGN) Stock Looks Cheap On Earnings Yet Mixed Elsewhere"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MRNA",
-      "rank_score": 0.738,
+      "rank_score": 0.7365,
       "price": 57.880001068115234,
       "rsi": 67.30770212168765,
       "momentum_5d": 0.03542038440409858,
@@ -590,18 +642,18 @@
       "bollinger_pct_b": 1.0844,
       "volume_spike": true,
       "volume_spike_ratio": 1.62,
-      "news_sentiment": 0.676,
-      "news_confidence": 0.62,
+      "news_sentiment": 0.641,
+      "news_confidence": 0.63,
       "news_headlines": [
-        "When will fusion power startup Commonwealth Fusion Systems go public?",
-        "Moderna (MRNA) Q2 Earnings: What To Expect",
-        "Tech Earnings, Central Bank Decisions: What to Watch the Rest of the Week"
+        "Stocks Rise Pre-Bell as Amazon Results Lift AI Trade Sentiment",
+        "Moderna Earnings Are Better Than Expected So Why Is the Stock Falling?",
+        "Moderna (NASDAQ:MRNA) Beats Expectations in Q2 CY2026"
       ],
       "high_impact_news": true
     },
     {
       "asset": "BMY",
-      "rank_score": 0.6686,
+      "rank_score": 0.6666,
       "price": 64.86000061035156,
       "rsi": 62.448988171328125,
       "momentum_5d": 0.0214173324464813,
@@ -611,18 +663,18 @@
       "bollinger_pct_b": 0.9197,
       "volume_spike": true,
       "volume_spike_ratio": 1.78,
-      "news_sentiment": 0.851,
-      "news_confidence": 0.78,
+      "news_sentiment": 0.847,
+      "news_confidence": 0.76,
       "news_headlines": [
         "Bristol Myers Squibb (BMY) Earnings Beat And Higher Outlook Put Valuation Back In Focus",
-        "Bristol-Myers Squibb (BMY) Q2 2026 Earnings Call Transcript",
-        "Why Bristol Myers Squibb Stock Topped the Market on Thursday"
+        "Bristol-Myers Squibb Company Q2 2026 Earnings Call Summary",
+        "Bristol-Myers Squibb (BMY) Q2 2026 Earnings Call Transcript"
       ],
       "high_impact_news": true
     },
     {
       "asset": "META",
-      "rank_score": 0.6644,
+      "rank_score": 0.6638,
       "price": 539.0599975585938,
       "rsi": 17.790315844051108,
       "momentum_5d": 0.011360104727557881,
@@ -632,10 +684,10 @@
       "bollinger_pct_b": 0.2093,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.921,
-      "news_confidence": 0.76,
+      "news_sentiment": 0.937,
+      "news_confidence": 0.74,
       "news_headlines": [
-        "Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day",
+        "Amazon stock soars after Q2 earnings beat expectations as AI, chip businesses see $25 billion run rate",
         "Earnings live: Amazon stock surges on earnings beat, Apple stock slides",
         "Meta's & Microsoft's massive AI spending: Why only one is getting rewarded"
       ],
@@ -656,15 +708,15 @@
       "news_sentiment": 0.956,
       "news_confidence": 0.82,
       "news_headlines": [
+        "Valero Energy Corp's Dividend Analysis",
         "Valero Energy (VLO) Q2 2026 Earnings Call Transcript",
-        "Valero Energy Corporation Q2 2026 Earnings Call Summary",
-        "Valero Energy Corp (VLO) (Q2 2026) Earnings Call Highlights: Record Net Income of $3. ..."
+        "Valero Energy Corporation Q2 2026 Earnings Call Summary"
       ],
       "high_impact_news": true
     },
     {
       "asset": "LLY",
-      "rank_score": 0.6508,
+      "rank_score": 0.6452,
       "price": 1155.4200439453125,
       "rsi": 13.635955471628364,
       "momentum_5d": -0.0025207814295971145,
@@ -674,10 +726,10 @@
       "bollinger_pct_b": 0.1197,
       "volume_spike": true,
       "volume_spike_ratio": 1.93,
-      "news_sentiment": 0.264,
-      "news_confidence": 0.58,
+      "news_sentiment": 0.17,
+      "news_confidence": 0.57,
       "news_headlines": [
-        "Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge",
+        "Dow Jones Futures: Apple, Amazon Diverge Late; What To Do As AI Stocks Rally",
         "Resilience and Lilly to increase US medicines production with $750m investment",
         "Here Comes the Next Wave of GLP-1s. They\u2019ll Treat a Lot More Than Obesity."
       ],
@@ -705,27 +757,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "IONQ",
-      "rank_score": 0.6225,
-      "price": 35.76499938964844,
-      "rsi": 61.42684496270636,
-      "momentum_5d": 0.04089053417751087,
-      "momentum_1d": 0.0336705481764313,
-      "macd_crossover": false,
-      "atr_pct": 0.028888368963382986,
-      "bollinger_pct_b": 0.9475,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.28,
-      "news_sentiment": 0.885,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "3 AI Stocks That Could Reward Patient Investors for Years to Come",
-        "Rigetti vs. IonQ vs. D-Wave: Ranking the Quantum Computing Trade Heading Into H2 2026.",
-        "Astera Labs vs. IonQ: Is the Artificial Intelligence Giant or the Quantum Computing Chipmaker the Better Stock to Buy in 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "RIVN",
       "rank_score": 0.6208,
       "price": 16.780000686645508,
@@ -742,13 +773,34 @@
       "news_headlines": [
         "Rivian stock rises after it reports strong Q2 results; R2 launch edition conversions stronger than expected, CEO says",
         "Rivian\u2019s turnaround gains traction as R2 demand exceeds expectations",
-        "Rivian Automotive Inc (RIVN) (Q2 2026) Earnings Call Highlights: R2 Ramp Drives Record ..."
+        "Rivian Stock Got a Boost From Earnings. The R2 Rollout Is Paying Off."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "IONQ",
+      "rank_score": 0.6165,
+      "price": 35.76499938964844,
+      "rsi": 61.42684496270636,
+      "momentum_5d": 0.04089053417751087,
+      "momentum_1d": 0.0336705481764313,
+      "macd_crossover": false,
+      "atr_pct": 0.028888368963382986,
+      "bollinger_pct_b": 0.9475,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.28,
+      "news_sentiment": 0.833,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Rigetti\u2019s Pullback Opens Door for Strategic Buyer: Which Tech Giant Will Make a Move?",
+        "3 AI Stocks That Could Reward Patient Investors for Years to Come",
+        "Rigetti vs. IonQ vs. D-Wave: Ranking the Quantum Computing Trade Heading Into H2 2026."
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.6028,
+      "rank_score": 0.6081,
       "price": 451.4800109863281,
       "rsi": 80.00411025587763,
       "momentum_5d": 0.015725935129084368,
@@ -758,12 +810,12 @@
       "bollinger_pct_b": 0.8231,
       "volume_spike": false,
       "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.688,
-      "news_confidence": 0.77,
+      "news_sentiment": 0.897,
+      "news_confidence": 0.65,
       "news_headlines": [
-        "Stock market today: Nasdaq, Dow, S&P 500, Nasdaq set for more gains as Big Tech's AI spending shows no sign of letting up",
         "Amazon stock soars after Q2 earnings beat expectations as AI, chip businesses see $25 billion run rate",
-        "Microsoft's stock rockets more than 15% for largest single-day jump in history"
+        "Earnings live: Amazon stock surges on earnings beat, Apple stock slides",
+        "Microsoft stock surges on strong quarter, record cloud revenue"
       ],
       "high_impact_news": true
     },
@@ -810,6 +862,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.5748,
+      "price": 1875.0,
+      "rsi": 13.123113270660767,
+      "momentum_5d": -0.007011815395738762,
+      "momentum_1d": -0.02490522821566227,
+      "macd_crossover": false,
+      "atr_pct": 0.006175999813988095,
+      "bollinger_pct_b": 0.0156,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.55,
+      "news_confidence": 0.57,
+      "news_headlines": [
+        "How Anthropic's Claude found a major post-quantum flaw that humans missed",
+        "XRP Flashes 2 Bullish On-Chain Signals Heading Into August",
+        "Ethereum Just Turned 11\u2014This Is How Rich Its Earliest Investors Are Today"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HOOD",
       "rank_score": 0.5532,
       "price": 86.61000061035156,
@@ -826,28 +899,7 @@
       "news_headlines": [
         "Microsoft and Meta boost AI spending, but only one stock pays the price",
         "Robinhood shares edge lower after record quarter for prediction markets business",
-        "HOOD Stock On Track For Worst Month Since February: Why Is Retail Still Bullish?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.5413,
-      "price": 1881.6400146484375,
-      "rsi": 20.075715978383386,
-      "momentum_5d": -0.011951275716155119,
-      "momentum_1d": -0.017887071375939104,
-      "macd_crossover": false,
-      "atr_pct": 0.006249867644589915,
-      "bollinger_pct_b": 0.0032,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.03,
-      "news_sentiment": 0.534,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "Microsoft and Meta boost AI spending, but only one stock pays the price",
-        "Bitcoin and ethereum prices today, Thursday, July 30, 2026: Prices rise after Fed leaves rates unchanged",
-        "ETH/BTC Ratio Hits 3-Month High: But Don\u2019t Count on Altcoin Season Yet"
+        "Robinhood Set Records on Revenue, Net Deposits, and Gold Subscribers. The Stock Is Still 44% Below Its High."
       ],
       "high_impact_news": true
     },
@@ -915,27 +967,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.5314,
-      "price": 63657.37109375,
-      "rsi": 15.920567676874839,
-      "momentum_5d": -0.00984240390670323,
-      "momentum_1d": -0.012639817518500256,
-      "macd_crossover": false,
-      "atr_pct": 0.004530808591113862,
-      "bollinger_pct_b": 0.0249,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.53,
-      "news_sentiment": 0.745,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "US stocks, bitcoin gain since Fed held rates steady at July FOMC meeting",
-        "Coinbase Wants to Be an Everything Exchange but Can\u2019t Overcome Crypto Woes",
-        "Why Is The Crypto Market Down Today?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LRCX",
       "rank_score": 0.5311,
       "price": 297.70001220703125,
@@ -974,6 +1005,27 @@
         "Floor & Decor Q2 Earnings Call Highlights",
         "Home Depot (HD) Dips More Than Broader Market: What You Should Know",
         "C.H. Robinson Faces $604 Million Verdict: What Vicarious Liability and Negligent Hiring Mean for Brokers After Montgomery and Home Depot"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HAL",
+      "rank_score": 0.5266,
+      "price": 31.639999389648438,
+      "rsi": 65.25090838393821,
+      "momentum_5d": 0.01215608310890259,
+      "momentum_1d": -0.025862074027912827,
+      "macd_crossover": false,
+      "atr_pct": 0.00812969908948128,
+      "bollinger_pct_b": 0.9162,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.37,
+      "news_sentiment": 0.754,
+      "news_confidence": 0.67,
+      "news_headlines": [
+        "Core Laboratories Q2 Earnings Call Highlights",
+        "NOV Q2 Earnings Surpass Estimates, Revenues Decrease Y/Y",
+        "Expand Energy Q2 Earnings Beat Estimates on Strong Production"
       ],
       "high_impact_news": true
     }
