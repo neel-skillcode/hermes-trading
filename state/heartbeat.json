@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 107897.44,
+  "portfolio_balance": 107861.68,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 0.0,
-  "unrealized_pnl_usd": 598.19,
-  "equity_value": 108495.63,
+  "portfolio_drawdown_pct": 0.03,
+  "unrealized_pnl_usd": 608.85,
+  "equity_value": 108470.53,
   "open_positions": 20,
-  "day_trades_open": 10,
-  "swing_trades_open": 10,
-  "day_capital_used_usd": 42829.34,
-  "swing_capital_used_usd": 53837.55,
-  "total_trades": 837,
-  "last_tick": "2026-07-31T20:45:41.560025+00:00",
+  "day_trades_open": 11,
+  "swing_trades_open": 9,
+  "day_capital_used_usd": 43144.67,
+  "swing_capital_used_usd": 49837.3,
+  "total_trades": 838,
+  "last_tick": "2026-07-31T21:48:59.047454+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "trades_since_last_reflection": 8,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.8445000648498535,
       "trailing_stop_price": 7.781744,
-      "current_price": 7.84164,
-      "unrealized_pnl_pct": 0.000937,
-      "unrealized_pnl_usd": 1.26
+      "current_price": 7.842,
+      "unrealized_pnl_pct": 0.000983,
+      "unrealized_pnl_usd": 1.32
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3995800018310547,
       "trailing_stop_price": 1.410777,
-      "current_price": 1.40103,
-      "unrealized_pnl_pct": 0.005974,
-      "unrealized_pnl_usd": 40.02
+      "current_price": 1.4017,
+      "unrealized_pnl_pct": 0.005499,
+      "unrealized_pnl_usd": 36.84
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85531,
-      "unrealized_pnl_pct": -0.001616,
-      "unrealized_pnl_usd": -11.25
+      "current_price": 0.85507,
+      "unrealized_pnl_pct": -0.001335,
+      "unrealized_pnl_usd": -9.29
     },
     {
       "id": "XOM_20260729152343",
@@ -242,9 +242,9 @@
       "status": "open",
       "price_trough": 586.1300048828125,
       "trailing_stop_price": 589.347859,
-      "current_price": 587.070007,
-      "unrealized_pnl_pct": 0.007556,
-      "unrealized_pnl_usd": 36.62
+      "current_price": 587.719971,
+      "unrealized_pnl_pct": 0.006458,
+      "unrealized_pnl_usd": 31.29
     },
     {
       "id": "MA_20260730194616",
@@ -304,11 +304,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 9.46819019317627,
-      "trailing_stop_price": 9.543936,
-      "current_price": 9.46811,
-      "unrealized_pnl_pct": 0.007343,
-      "unrealized_pnl_usd": 50.93
+      "price_trough": 9.462499618530273,
+      "trailing_stop_price": 9.5382,
+      "current_price": 9.4625,
+      "unrealized_pnl_pct": 0.007931,
+      "unrealized_pnl_usd": 55.01
     },
     {
       "id": "USD/CHF_20260731121759",
@@ -332,11 +332,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 0.8076800107955933,
-      "trailing_stop_price": 0.814141,
-      "current_price": 0.80768,
-      "unrealized_pnl_pct": 0.003024,
-      "unrealized_pnl_usd": 17.52
+      "price_trough": 0.8073999881744385,
+      "trailing_stop_price": 0.813859,
+      "current_price": 0.8074,
+      "unrealized_pnl_pct": 0.00337,
+      "unrealized_pnl_usd": 19.53
     },
     {
       "id": "USD/SEK_20260731121759",
@@ -362,9 +362,9 @@
       "status": "open",
       "price_trough": 9.508919715881348,
       "trailing_stop_price": 9.584991,
-      "current_price": 9.50557,
-      "unrealized_pnl_pct": 0.006261,
-      "unrealized_pnl_usd": 36.28
+      "current_price": 9.5093,
+      "unrealized_pnl_pct": 0.005871,
+      "unrealized_pnl_usd": 34.02
     },
     {
       "id": "AMZN_20260731144122",
@@ -434,39 +434,6 @@
       "current_price": 309.029999,
       "unrealized_pnl_pct": 0.022381,
       "unrealized_pnl_usd": 56.28
-    },
-    {
-      "id": "EUR/JPY_20260731144122",
-      "asset": "EUR/JPY",
-      "trade_type": "swing",
-      "direction": "long",
-      "entry_price": 183.1280059814453,
-      "entry_time": "2026-07-31T14:41:22.213239+00:00",
-      "stop_loss_pct": 0.00976,
-      "take_profit_pct": 0.03197,
-      "size_usd": 4000.25,
-      "position_size_pct": 0.0372,
-      "confidence": 0.549,
-      "signals": [
-        "RSI oversold (33.0)",
-        "5d momentum -0.52%",
-        "BB oversold (pct_b=0.07)",
-        "News -1.00 (conf 0.70) \u2192 short",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-      ],
-      "news_sentiment": -1.0,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "mode": "paper",
-      "strategy_version": "74",
-      "status": "open",
-      "price_peak": 183.4499969482422,
-      "trailing_stop_price": 181.659525,
-      "current_price": 181.888,
-      "unrealized_pnl_pct": -0.006771,
-      "unrealized_pnl_usd": -27.09
     },
     {
       "id": "GOOGL_20260731175939",
@@ -670,7 +637,39 @@
       "mode": "paper",
       "strategy_version": "75",
       "status": "open",
-      "current_price": 112.510002,
+      "current_price": 112.274002,
+      "unrealized_pnl_pct": -0.002098,
+      "unrealized_pnl_usd": -13.76
+    },
+    {
+      "id": "EUR/JPY_20260731214859",
+      "asset": "EUR/JPY",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 181.49099731445312,
+      "entry_time": "2026-07-31T21:48:59.045323+00:00",
+      "stop_loss_pct": 0.00467,
+      "take_profit_pct": 0.01096,
+      "size_usd": 315.33,
+      "position_size_pct": 0.0029,
+      "confidence": 0.699,
+      "signals": [
+        "RSI oversold (31.9)",
+        "5d momentum -1.12%",
+        "1d momentum -1.33%",
+        "BB oversold (pct_b=-0.06)",
+        "News -1.00 (conf 0.70) \u2192 short",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
+      ],
+      "news_sentiment": -1.0,
+      "news_headlines": [
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+      ],
+      "mode": "paper",
+      "strategy_version": "75",
+      "status": "open",
+      "current_price": 181.490997,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -699,7 +698,7 @@
     },
     {
       "asset": "RIVN",
-      "rank_score": 0.7288,
+      "rank_score": 0.7318,
       "price": 15.21500015258789,
       "rsi": 32.01266770165307,
       "momentum_5d": -0.02059862877163309,
@@ -709,81 +708,18 @@
       "bollinger_pct_b": 0.0364,
       "volume_spike": true,
       "volume_spike_ratio": 2.28,
-      "news_sentiment": 0.68,
-      "news_confidence": 0.64,
+      "news_sentiment": 0.694,
+      "news_confidence": 0.67,
       "news_headlines": [
-        "Rivian\u2019s turnaround gains traction as R2 demand exceeds expectations",
+        "Stock Market Today, July 31: Rivian Beats Q2 Revenue Estimate as Concerns of Rising Costs Weigh on Stock",
         "Rivian Stock Reverses After Earnings. The R2 Rollout Is Paying Off.",
         "What's Going On With Rivian Stock Friday"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "RBLX",
-      "rank_score": 0.7116,
-      "price": 35.599998474121094,
-      "rsi": 14.697321693792588,
-      "momentum_5d": 0.04813773926653812,
-      "momentum_1d": -0.28398891096231305,
-      "macd_crossover": false,
-      "atr_pct": 0.057971101125883766,
-      "bollinger_pct_b": 0.1929,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.187,
-      "news_confidence": 0.77,
-      "news_headlines": [
-        "Why Roblox Had Its Worst Day Ever After Earnings",
-        "Sector Update: Tech Stocks Mixed Late Afternoon",
-        "Stocks to Watch: Apple, Amazon, SK Hynix, Roblox"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "REGN",
-      "rank_score": 0.7005,
-      "price": 762.989990234375,
-      "rsi": 89.235661792506,
-      "momentum_5d": 0.03473105479125725,
-      "momentum_1d": 0.11040121201591269,
-      "macd_crossover": false,
-      "atr_pct": 0.015281987721133351,
-      "bollinger_pct_b": 0.9177,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.4,
-      "news_sentiment": 0.731,
-      "news_confidence": 0.67,
-      "news_headlines": [
-        "Is The Recent Pullback In Alnylam Stock An Opportunity Or A Trap?",
-        "AbbVie Earnings Beat Forecasts as Skyrizi Sales Soar 24%. Why the Stock Is Falling.",
-        "Health Care Roundup: Market Talk"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.6997,
-      "price": 356.3299865722656,
-      "rsi": 75.92981676560133,
-      "momentum_5d": 0.021427169885859687,
-      "momentum_1d": 0.06348113522549727,
-      "macd_crossover": false,
-      "atr_pct": 0.011952907170418041,
-      "bollinger_pct_b": 0.9065,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.66,
-      "news_sentiment": 0.873,
-      "news_confidence": 0.67,
-      "news_headlines": [
-        "Tech stocks today: Amazon beats, Apple sinks",
-        "Amazon's AWS business has taken on a life of its own: Earnings call takeaways",
-        "Amazon stock soars after Q2 earnings beat expectations as AI, chip businesses see $25 billion run rate"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AAPL",
-      "rank_score": 0.695,
+      "rank_score": 0.7114,
       "price": 309.0299987792969,
       "rsi": 21.684858389031277,
       "momentum_5d": 0.024193774325284217,
@@ -793,18 +729,81 @@
       "bollinger_pct_b": 0.2586,
       "volume_spike": true,
       "volume_spike_ratio": 2.31,
-      "news_sentiment": 0.593,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.733,
+      "news_confidence": 0.66,
       "news_headlines": [
-        "Apple stock slides nearly 10% as Cook warns of memory shortage impact",
-        "Apple's iPhone leasing program: How it works, what to consider",
-        "Apple CEO Tim Cook says this '100-year flood' won't be receding anytime soon"
+        "Stock market today: Dow, S&P 500, Nasdaq rise to cap volatile July as Big Tech AI spending ramps up",
+        "Apple stock plunges: CEO Tim Cook explains weak revenue forecast",
+        "Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "REGN",
+      "rank_score": 0.7095,
+      "price": 762.989990234375,
+      "rsi": 89.235661792506,
+      "momentum_5d": 0.03473105479125725,
+      "momentum_1d": 0.11040121201591269,
+      "macd_crossover": false,
+      "atr_pct": 0.015281987721133351,
+      "bollinger_pct_b": 0.9177,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.4,
+      "news_sentiment": 0.784,
+      "news_confidence": 0.74,
+      "news_headlines": [
+        "Is The Recent Pullback In Alnylam Stock An Opportunity Or A Trap?",
+        "AbbVie Earnings Beat Forecasts as Skyrizi Sales Soar 24%. Why the Stock Is Falling.",
+        "AbbVie Lowers Outlook to Account for Acquisition as Profit Jumps"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RBLX",
+      "rank_score": 0.7076,
+      "price": 35.599998474121094,
+      "rsi": 14.697321693792588,
+      "momentum_5d": 0.04813773926653812,
+      "momentum_1d": -0.28398891096231305,
+      "macd_crossover": false,
+      "atr_pct": 0.057971101125883766,
+      "bollinger_pct_b": 0.1929,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.146,
+      "news_confidence": 0.71,
+      "news_headlines": [
+        "Roblox Downgraded to Neutral on Soft Third Quarter Outlook, Lack of Visibility, Wedbush Says",
+        "Why Roblox Had Its Worst Day Ever After Earnings",
+        "Sector Update: Tech Stocks Mixed Late Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.6867,
+      "price": 356.3299865722656,
+      "rsi": 75.92981676560133,
+      "momentum_5d": 0.021427169885859687,
+      "momentum_1d": 0.06348113522549727,
+      "macd_crossover": false,
+      "atr_pct": 0.011952907170418041,
+      "bollinger_pct_b": 0.9065,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.66,
+      "news_sentiment": 0.758,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Reddit stock tumbles the most on record as lack of new AI deals, US daily users metric disappoints",
+        "Apple stock plunges: CEO Tim Cook explains weak revenue forecast",
+        "Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day"
       ],
       "high_impact_news": true
     },
     {
       "asset": "CVX",
-      "rank_score": 0.6866,
+      "rank_score": 0.6746,
       "price": 196.8800048828125,
       "rsi": 74.41193542210202,
       "momentum_5d": 0.011612423298357238,
@@ -814,12 +813,12 @@
       "bollinger_pct_b": 0.9511,
       "volume_spike": true,
       "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.94,
-      "news_confidence": 0.67,
+      "news_sentiment": 0.895,
+      "news_confidence": 0.57,
       "news_headlines": [
-        "Why Exxon's Q2 earnings fell short \u2014 even despite surging oil prices",
-        "Chevron earnings beat forecast as refining margins soar, rival Exxon misses estimates",
-        "Friday's market movers: Oil earnings and consumer sentiment data"
+        "Chevron CFO explains outlook for ramping up oil production in Venezuela",
+        "Energy earnings: How Exxon, Chevron fare amid all-time high fuel prices",
+        "Update: Wall Street Gains Amid Amazon Rally as July Ends Mostly Lower"
       ],
       "high_impact_news": true
     },
@@ -846,7 +845,7 @@
     },
     {
       "asset": "COIN",
-      "rank_score": 0.666,
+      "rank_score": 0.664,
       "price": 146.22000122070312,
       "rsi": 34.51648494864382,
       "momentum_5d": 0.043608597414424285,
@@ -856,33 +855,33 @@
       "bollinger_pct_b": 0.1982,
       "volume_spike": true,
       "volume_spike_ratio": 1.81,
-      "news_sentiment": -0.288,
+      "news_sentiment": -0.25,
       "news_confidence": 0.52,
       "news_headlines": [
         "Coinbase stock sinks as weak crypto market leads to another quarterly loss",
-        "Sector Update: Financial Stocks Edge Higher Late Afternoon",
-        "Coinbase Stock Plunges 11.8% After Third Consecutive Loss"
+        "Crypto Market Today, July 31: Bitcoin Slides Below $63,000 and Coinbase Tumbles 10%",
+        "Weekly Wrap: Crypto Stays Rangebound Amid Market Volatility"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "ABBV",
-      "rank_score": 0.6378,
-      "price": 250.8699951171875,
-      "rsi": 27.347404157401186,
-      "momentum_5d": -0.012497797928091338,
-      "momentum_1d": -0.05385630438623296,
+      "asset": "AMZN",
+      "rank_score": 0.6339,
+      "price": 271.6099853515625,
+      "rsi": 86.25176265297166,
+      "momentum_5d": 0.015744171844326565,
+      "momentum_1d": 0.1705813333641977,
       "macd_crossover": false,
-      "atr_pct": 0.012042295404892947,
-      "bollinger_pct_b": 0.1693,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.53,
-      "news_sentiment": 0.851,
-      "news_confidence": 0.74,
+      "atr_pct": 0.020839696278757973,
+      "bollinger_pct_b": 0.8494,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.19,
+      "news_sentiment": 0.935,
+      "news_confidence": 0.62,
       "news_headlines": [
-        "Friday's market movers: Oil earnings and consumer sentiment data",
-        "AbbVie Earnings Beat Forecasts as Skyrizi Sales Soar 24%. Why the Stock Is Falling.",
-        "ABBV Beats on Q2 Earnings & Sales, Cuts '26 EPS View, Stock Down"
+        "Stock market today: Dow, S&P 500, Nasdaq rise to cap volatile July as Big Tech AI spending ramps up",
+        "Amazon's AWS business has taken on a life of its own: Earnings call takeaways",
+        "Amazon's surging cloud business is growing at a breakneck pace: Chart"
       ],
       "high_impact_news": true
     },
@@ -904,6 +903,27 @@
         "Occidental Petroleum Stock Outlook: Is Wall Street Bullish or Bearish?",
         "Is Trending Stock Occidental Petroleum Corporation (OXY) a Buy Now?",
         "3 Large-Cap Stocks Worth Investigating"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.6303,
+      "price": 250.8699951171875,
+      "rsi": 27.347404157401186,
+      "momentum_5d": -0.012497797928091338,
+      "momentum_1d": -0.05385630438623296,
+      "macd_crossover": false,
+      "atr_pct": 0.012042295404892947,
+      "bollinger_pct_b": 0.1693,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.53,
+      "news_sentiment": 0.782,
+      "news_confidence": 0.71,
+      "news_headlines": [
+        "Friday's market movers: Oil earnings and consumer sentiment data",
+        "AbbVie (ABBV) Wins EU Approval For RINVOQ In Vitiligo And Alopecia",
+        "Health Care Roundup: Market Talk"
       ],
       "high_impact_news": true
     },
@@ -950,23 +970,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMZN",
-      "rank_score": 0.62,
-      "price": 271.6099853515625,
-      "rsi": 86.25176265297166,
-      "momentum_5d": 0.015744171844326565,
-      "momentum_1d": 0.1705813333641977,
+      "asset": "MSFT",
+      "rank_score": 0.6,
+      "price": 464.9200134277344,
+      "rsi": 86.39464596508446,
+      "momentum_5d": 0.015497190043200878,
+      "momentum_1d": 0.16793530000633244,
       "macd_crossover": false,
-      "atr_pct": 0.020839696278757973,
-      "bollinger_pct_b": 0.8494,
+      "atr_pct": 0.02181873991580369,
+      "bollinger_pct_b": 0.7288,
       "volume_spike": false,
-      "volume_spike_ratio": 1.19,
-      "news_sentiment": 0.71,
-      "news_confidence": 0.62,
+      "volume_spike_ratio": 0.89,
+      "news_sentiment": 0.879,
+      "news_confidence": 0.66,
       "news_headlines": [
-        "Amazon earnings: AWS's growth rate 'no doubt' justifies the big AI spending",
+        "Stock market today: Dow, S&P 500, Nasdaq rise to cap volatile July as Big Tech AI spending ramps up",
         "Where Apple is diverging from rest of Mag 7 earnings",
-        "Apple CEO Tim Cook says this '100-year flood' won't be receding anytime soon"
+        "Amazon stock soars after Q2 earnings beat expectations as AI, chip businesses see $25 billion run rate"
       ],
       "high_impact_news": true
     },
@@ -1013,27 +1033,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MSFT",
-      "rank_score": 0.5915,
-      "price": 464.9200134277344,
-      "rsi": 86.39464596508446,
-      "momentum_5d": 0.015497190043200878,
-      "momentum_1d": 0.16793530000633244,
-      "macd_crossover": false,
-      "atr_pct": 0.02181873991580369,
-      "bollinger_pct_b": 0.7288,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.89,
-      "news_sentiment": 0.798,
-      "news_confidence": 0.62,
-      "news_headlines": [
-        "Apple stock plunges: CEO Tim Cook explains weak revenue forecast",
-        "Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day",
-        "The AI spending boom is forcing a rethink on stock buybacks: One Big Investment Idea"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ON",
       "rank_score": 0.5852,
       "price": 81.54000091552734,
@@ -1056,7 +1055,7 @@
     },
     {
       "asset": "LCID",
-      "rank_score": 0.5535,
+      "rank_score": 0.5615,
       "price": 7.389999866485596,
       "rsi": 37.41209616394035,
       "momentum_5d": -0.01864441949994532,
@@ -1066,18 +1065,18 @@
       "bollinger_pct_b": 0.128,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.66,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.729,
+      "news_confidence": 0.59,
       "news_headlines": [
+        "Stock Market Today, July 31: Rivian Beats Q2 Revenue Estimate as Concerns of Rising Costs Weigh on Stock",
         "Rivian Automotive Stock's Best Case Is Hiding In Its Cost Per Vehicle",
-        "Rivian Sinks 8% Despite Q2 Beat and Raised Guidance; Lucid Falls 6%",
-        "Tesla Stock Falls More Than Twice As Far As The Market In A Shock"
+        "Rivian Sinks 8% Despite Q2 Beat and Raised Guidance; Lucid Falls 6%"
       ],
       "high_impact_news": true
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5464,
+      "rank_score": 0.5535,
       "price": 200.80999755859375,
       "rsi": 74.2665729775904,
       "momentum_5d": 0.026531042689665458,
@@ -1087,12 +1086,12 @@
       "bollinger_pct_b": 0.98,
       "volume_spike": false,
       "volume_spike_ratio": 1.26,
-      "news_sentiment": 0.652,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.673,
+      "news_confidence": 0.55,
       "news_headlines": [
-        "Amazon's AWS business has taken on a life of its own: Earnings call takeaways",
-        "NVIDIA Stock Rises as Amazon Lifts AI Spending",
-        "Alibaba shares rise on Moonshot\u2019s 20,000-chip AI deal"
+        "AI trade is a combination of 'perception and reality': Bradley Tusk",
+        "Apple CEO Tim Cook says this '100-year flood' won't be receding anytime soon",
+        "Novo Nordisk Shares Plunge After a Key Trial Fails. Should Investors Buy the Dip?"
       ],
       "high_impact_news": true
     }

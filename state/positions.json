@@ -262,8 +262,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.46819019317627,
-    "trailing_stop_price": 9.543936
+    "price_trough": 9.462499618530273,
+    "trailing_stop_price": 9.5382
   },
   "USD/CHF": {
     "id": "USD/CHF_20260731121759",
@@ -287,8 +287,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 0.8076800107955933,
-    "trailing_stop_price": 0.814141
+    "price_trough": 0.8073999881744385,
+    "trailing_stop_price": 0.813859
   },
   "USD/SEK": {
     "id": "USD/SEK_20260731121759",
@@ -377,36 +377,6 @@
     "status": "open",
     "price_peak": 308.9100036621094,
     "trailing_stop_price": 304.276354
-  },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260731144122",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 183.1280059814453,
-    "entry_time": "2026-07-31T14:41:22.213239+00:00",
-    "stop_loss_pct": 0.00976,
-    "take_profit_pct": 0.03197,
-    "size_usd": 4000.25,
-    "position_size_pct": 0.0372,
-    "confidence": 0.549,
-    "signals": [
-      "RSI oversold (33.0)",
-      "5d momentum -0.52%",
-      "BB oversold (pct_b=0.07)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-    ],
-    "mode": "paper",
-    "strategy_version": "74",
-    "status": "open",
-    "price_peak": 183.4499969482422,
-    "trailing_stop_price": 181.659525
   },
   "GOOGL": {
     "id": "GOOGL_20260731175939",
@@ -591,6 +561,35 @@
     "news_sentiment": 1.0,
     "news_headlines": [
       "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+    ],
+    "mode": "paper",
+    "strategy_version": "75",
+    "status": "open"
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260731214859",
+    "asset": "EUR/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 181.49099731445312,
+    "entry_time": "2026-07-31T21:48:59.045323+00:00",
+    "stop_loss_pct": 0.00467,
+    "take_profit_pct": 0.01096,
+    "size_usd": 315.33,
+    "position_size_pct": 0.0029,
+    "confidence": 0.699,
+    "signals": [
+      "RSI oversold (31.9)",
+      "5d momentum -1.12%",
+      "1d momentum -1.33%",
+      "BB oversold (pct_b=-0.06)",
+      "News -1.00 (conf 0.70) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
+    ],
+    "news_sentiment": -1.0,
+    "news_headlines": [
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
     ],
     "mode": "paper",
     "strategy_version": "75",
