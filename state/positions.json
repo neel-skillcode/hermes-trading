@@ -204,8 +204,8 @@
     "mode": "paper",
     "strategy_version": "73",
     "status": "open",
-    "price_trough": 591.510009765625,
-    "trailing_stop_price": 594.7574
+    "price_trough": 588.7100219726562,
+    "trailing_stop_price": 591.94204
   },
   "REGN": {
     "id": "REGN_20260730194616",
@@ -400,69 +400,6 @@
     "price_trough": 577.3499755859375,
     "trailing_stop_price": 582.118886
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260730194616",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1923.56005859375,
-    "entry_time": "2026-07-30T19:46:16.724680+00:00",
-    "stop_loss_pct": 0.00556,
-    "take_profit_pct": 0.01373,
-    "size_usd": 5200.89,
-    "position_size_pct": 0.0483,
-    "confidence": 0.937,
-    "signals": [
-      "RSI overbought (65.6)",
-      "5d momentum +0.41%",
-      "1d momentum +1.96%",
-      "Volume spike 2.3\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.696,
-    "news_headlines": [
-      "Microsoft and Meta boost AI spending, but only one stock pays the price",
-      "Bitcoin and ethereum prices today, Thursday, July 30, 2026: Prices rise after Fed leaves rates unchanged",
-      "This underrated token beats Bitcoin and Ethereum with 50% weekly gains"
-    ],
-    "mode": "paper",
-    "strategy_version": "73",
-    "status": "open",
-    "price_peak": 1926.3699951171875,
-    "trailing_stop_price": 1915.659378
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260730235203",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 74.48999786376953,
-    "entry_time": "2026-07-30T23:52:03.498098+00:00",
-    "stop_loss_pct": 0.00509,
-    "take_profit_pct": 0.01185,
-    "size_usd": 77.4,
-    "position_size_pct": 0.0007,
-    "confidence": 0.655,
-    "signals": [
-      "RSI overbought (60.9)",
-      "1d momentum +1.21%",
-      "Volume spike 2.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.133,
-    "news_headlines": [
-      "RWA Trend Takes a Jurassic Turn as First Tokenized Dinosaur Lands on Solana",
-      "A New Crypto Index Just Launched. Here's Why That's Bullish for Ethereum, Solana, and Hyperliquid.",
-      "Crypto Exchange Luno Cuts 20% Of Staff"
-    ],
-    "mode": "paper",
-    "strategy_version": "74",
-    "status": "open",
-    "price_peak": 74.95999908447266,
-    "trailing_stop_price": 74.578453
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260731011948",
     "asset": "AVAX-USD",
@@ -492,38 +429,9 @@
     ],
     "mode": "paper",
     "strategy_version": "74",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260731011948",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 65081.23828125,
-    "entry_time": "2026-07-31T01:19:48.011095+00:00",
-    "stop_loss_pct": 0.00469,
-    "take_profit_pct": 0.0117,
-    "size_usd": 830.97,
-    "position_size_pct": 0.0077,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (70.7)",
-      "5d momentum +0.42%",
-      "1d momentum +1.92%",
-      "BB overbought (pct_b=0.89)",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: earnings miss; price decline"
-    ],
-    "news_sentiment": 0.128,
-    "news_headlines": [
-      "US stocks, bitcoin gain since Fed held rates steady at July FOMC meeting",
-      "Bitcoin Pullback Pushes Strategy to $8.22B Q2 Loss",
-      "Coinbase Q2 earnings miss Wall Street estimates"
-    ],
-    "mode": "paper",
-    "strategy_version": "74",
-    "status": "open"
+    "status": "open",
+    "price_trough": 6.440000057220459,
+    "trailing_stop_price": 6.481602
   },
   "USD/NOK": {
     "id": "USD/NOK_20260731011948",
@@ -544,6 +452,37 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "74",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260731044803",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 73.73999786376953,
+    "entry_time": "2026-07-31T04:48:03.399646+00:00",
+    "stop_loss_pct": 0.00604,
+    "take_profit_pct": 0.01496,
+    "size_usd": 6092.84,
+    "position_size_pct": 0.0565,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (32.6)",
+      "5d momentum -0.94%",
+      "1d momentum +0.44%",
+      "BB oversold (pct_b=-0.03)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.111,
+    "news_headlines": [
+      "Bitcoin, Ethereum Spike, XRP and Dogecoin Climb Amid Sharp Crypto Recovery: Analyst Says 'Don't Fear' BTC Dropping to $60,000",
+      "RWA Trend Takes a Jurassic Turn as First Tokenized Dinosaur Lands on Solana",
+      "A New Crypto Index Just Launched. Here's Why That's Bullish for Ethereum, Solana, and Hyperliquid."
+    ],
     "mode": "paper",
     "strategy_version": "74",
     "status": "open"
