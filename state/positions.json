@@ -207,72 +207,6 @@
     "price_trough": 586.1300048828125,
     "trailing_stop_price": 589.347859
   },
-  "MRNA": {
-    "id": "MRNA_20260730194616",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 57.709999084472656,
-    "entry_time": "2026-07-30T19:46:16.717066+00:00",
-    "stop_loss_pct": 0.01366,
-    "take_profit_pct": 0.03118,
-    "size_usd": 3897.36,
-    "position_size_pct": 0.0362,
-    "confidence": 0.566,
-    "signals": [
-      "RSI overbought (66.4)",
-      "5d momentum +3.24%",
-      "1d momentum +3.72%",
-      "BB overbought (pct_b=1.05)",
-      "News +0.68 (conf 0.62) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.676,
-    "news_headlines": [
-      "When will fusion power startup Commonwealth Fusion Systems go public?",
-      "Moderna (MRNA) Q2 Earnings: What To Expect",
-      "Tech Earnings, Central Bank Decisions: What to Watch the Rest of the Week"
-    ],
-    "mode": "paper",
-    "strategy_version": "73",
-    "status": "open",
-    "price_trough": 56.0099983215332,
-    "trailing_stop_price": 56.775095
-  },
-  "VLO": {
-    "id": "VLO_20260730194616",
-    "asset": "VLO",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 313.05499267578125,
-    "entry_time": "2026-07-30T19:46:16.720507+00:00",
-    "stop_loss_pct": 0.0124,
-    "take_profit_pct": 0.02864,
-    "size_usd": 4276.08,
-    "position_size_pct": 0.0397,
-    "confidence": 0.621,
-    "signals": [
-      "RSI overbought (71.7)",
-      "5d momentum +2.06%",
-      "1d momentum +3.39%",
-      "BB overbought (pct_b=1.00)",
-      "News +0.97 (conf 0.73) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.973,
-    "news_headlines": [
-      "AR Q2 Earnings Beat Estimates on Record Production Gains",
-      "Phillips 66's Q2 Earnings on Deck: Should You Bet on the Stock?",
-      "Valero Energy (VLO) Beats Q2 Earnings and Revenue Estimates"
-    ],
-    "mode": "paper",
-    "strategy_version": "73",
-    "status": "open",
-    "price_trough": 306.42999267578125,
-    "trailing_stop_price": 310.229725
-  },
   "MA": {
     "id": "MA_20260730194616",
     "asset": "MA",
@@ -328,8 +262,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.47659969329834,
-    "trailing_stop_price": 9.552412
+    "price_trough": 9.476349830627441,
+    "trailing_stop_price": 9.552161
   },
   "USD/CHF": {
     "id": "USD/CHF_20260731121759",
@@ -411,8 +345,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_peak": 34.782501220703125,
-    "trailing_stop_price": 34.260764
+    "price_peak": 35.15999984741211,
+    "trailing_stop_price": 34.6326
   },
   "AMZN": {
     "id": "AMZN_20260731144122",
@@ -473,7 +407,9 @@
     ],
     "mode": "paper",
     "strategy_version": "74",
-    "status": "open"
+    "status": "open",
+    "price_peak": 305.9100036621094,
+    "trailing_stop_price": 301.321354
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260731144122",
@@ -502,42 +438,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_peak": 183.34100341796875,
-    "trailing_stop_price": 181.551595
-  },
-  "RIVN": {
-    "id": "RIVN_20260731162332",
-    "asset": "RIVN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 15.241000175476074,
-    "entry_time": "2026-07-31T16:23:32.546956+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 4025.18,
-    "position_size_pct": 0.0374,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (29.2)",
-      "5d momentum -7.77%",
-      "1d momentum -7.52%",
-      "BB oversold (pct_b=-0.20)",
-      "Volume spike 1.7\u00d7",
-      "News +0.68 (conf 0.72) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.681,
-    "news_headlines": [
-      "Rivian\u2019s turnaround gains traction as R2 demand exceeds expectations",
-      "Rivian Automotive Stock's Best Case Is Hiding In Its Cost Per Vehicle",
-      "Rivian Sinks 8% Despite Q2 Beat and Raised Guidance; Lucid Falls 6%"
-    ],
-    "mode": "paper",
-    "strategy_version": "75",
-    "status": "open",
-    "price_peak": 15.774999618530273,
-    "trailing_stop_price": 15.538375
+    "price_peak": 183.4499969482422,
+    "trailing_stop_price": 181.659525
   },
   "GOOGL": {
     "id": "GOOGL_20260731175939",
@@ -596,6 +498,97 @@
       "AbbVie Bought Apogee to Strengthen Its Portfolio. Now It\u2019s Cutting Earnings Guidance.",
       "AbbVie Lowers Outlook to Account for Acquisition as Profit Jumps",
       "Health Care Roundup: Market Talk"
+    ],
+    "mode": "paper",
+    "strategy_version": "75",
+    "status": "open"
+  },
+  "HAL": {
+    "id": "HAL_20260731194203",
+    "asset": "HAL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 32.29499816894531,
+    "entry_time": "2026-07-31T19:42:03.213557+00:00",
+    "stop_loss_pct": 0.0061,
+    "take_profit_pct": 0.01401,
+    "size_usd": 4073.92,
+    "position_size_pct": 0.0378,
+    "confidence": 0.591,
+    "signals": [
+      "RSI overbought (94.0)",
+      "5d momentum +1.05%",
+      "1d momentum +2.67%",
+      "BB overbought (pct_b=0.93)",
+      "News +0.82 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price decline"
+    ],
+    "news_sentiment": 0.821,
+    "news_headlines": [
+      "Is CLB Stock Attractive After Its Sharp Selloff and Mixed Q2 Results?",
+      "CVX Q2 Earnings Beat on Higher Output & Strong Refining Margins",
+      "Core Laboratories Q2 Earnings Call Highlights"
+    ],
+    "mode": "paper",
+    "strategy_version": "75",
+    "status": "open"
+  },
+  "CVX": {
+    "id": "CVX_20260731194203",
+    "asset": "CVX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 197.25,
+    "entry_time": "2026-07-31T19:42:03.215537+00:00",
+    "stop_loss_pct": 0.00602,
+    "take_profit_pct": 0.01371,
+    "size_usd": 3853.34,
+    "position_size_pct": 0.0358,
+    "confidence": 0.559,
+    "signals": [
+      "RSI overbought (76.1)",
+      "5d momentum +1.35%",
+      "1d momentum +5.27%",
+      "BB overbought (pct_b=0.98)",
+      "News +0.62 (conf 0.61) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge; price decline"
+    ],
+    "news_sentiment": 0.623,
+    "news_headlines": [
+      "Exxon and Chevron earnings: The outlook for Big Oil",
+      "Friday's market movers: Oil earnings and consumer sentiment data",
+      "European gas jumps 30% as Iran war strains winter supply"
+    ],
+    "mode": "paper",
+    "strategy_version": "75",
+    "status": "open"
+  },
+  "COIN": {
+    "id": "COIN_20260731194203",
+    "asset": "COIN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 149.46499633789062,
+    "entry_time": "2026-07-31T19:42:03.217262+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03528,
+    "size_usd": 4852.86,
+    "position_size_pct": 0.0451,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (37.2)",
+      "5d momentum +6.68%",
+      "1d momentum -10.22%",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": -0.346,
+    "news_headlines": [
+      "Coinbase stock sinks as weak crypto market leads to another quarterly loss",
+      "Coinbase Stock Plunges 11.8% After Third Consecutive Loss",
+      "Sector Update: Financial Stocks Edge Higher Friday Afternoon"
     ],
     "mode": "paper",
     "strategy_version": "75",
