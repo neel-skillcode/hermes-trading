@@ -224,38 +224,6 @@
     "price_trough": 9.500009536743164,
     "trailing_stop_price": 9.57601
   },
-  "AAPL": {
-    "id": "AAPL_20260731144122",
-    "asset": "AAPL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 302.2650146484375,
-    "entry_time": "2026-07-31T14:41:22.190397+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 2514.83,
-    "position_size_pct": 0.0234,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (12.7)",
-      "5d momentum -8.98%",
-      "1d momentum -9.97%",
-      "BB oversold (pct_b=-0.21)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: earnings beat; price surge; price decline"
-    ],
-    "news_sentiment": 0.399,
-    "news_headlines": [
-      "Apple's iPhone leasing program: How it works, what to consider",
-      "Apple CEO Tim Cook says this '100-year flood' won't be receding anytime soon",
-      "Apple earnings: iPhone prices are 'not immune' to rising memory costs"
-    ],
-    "mode": "paper",
-    "strategy_version": "74",
-    "status": "open",
-    "price_peak": 308.9100036621094,
-    "trailing_stop_price": 304.276354
-  },
   "REGN": {
     "id": "REGN_20260731175939",
     "asset": "REGN",
@@ -315,8 +283,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 111.74400329589844,
-    "trailing_stop_price": 111.11265
+    "price_peak": 111.75800323486328,
+    "trailing_stop_price": 111.126571
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260803011206",
@@ -346,8 +314,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 180.6280059814453,
-    "trailing_stop_price": 179.717641
+    "price_peak": 180.66000366210938,
+    "trailing_stop_price": 179.749477
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -403,40 +371,6 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open"
-  },
-  "CRM": {
-    "id": "CRM_20260803140422",
-    "asset": "CRM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 192.31500244140625,
-    "entry_time": "2026-08-03T14:04:22.620395+00:00",
-    "stop_loss_pct": 0.01191,
-    "take_profit_pct": 0.02947,
-    "size_usd": 6532.62,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (95.1)",
-      "MACD crossover",
-      "5d momentum +5.36%",
-      "1d momentum +5.12%",
-      "BB overbought (pct_b=1.01)",
-      "Volume spike 1.7\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.07,
-    "news_headlines": [
-      "What Salesforce\u2019s (CRM) $1.6 Billion VA Contract Signals for Its Government Cloud Strategy",
-      "WDAY, ADBE, INTU, ADSK, CRM: Software Stocks Stage Sharp Rebound In July",
-      "Prediction: Salesforce Will End The Year At This Price"
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open",
-    "price_trough": 188.7899932861328,
-    "trailing_stop_price": 191.038482
   },
   "XLF": {
     "id": "XLF_20260803140422",
@@ -497,38 +431,9 @@
     ],
     "mode": "paper",
     "strategy_version": "76",
-    "status": "open"
-  },
-  "SOFI": {
-    "id": "SOFI_20260803163510",
-    "asset": "SOFI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 17.629899978637695,
-    "entry_time": "2026-08-03T16:35:10.796868+00:00",
-    "stop_loss_pct": 0.01283,
-    "take_profit_pct": 0.0295,
-    "size_usd": 4104.62,
-    "position_size_pct": 0.0383,
-    "confidence": 0.598,
-    "signals": [
-      "RSI overbought (77.5)",
-      "5d momentum +7.56%",
-      "1d momentum +17.34%",
-      "BB overbought (pct_b=0.99)",
-      "News +0.83 (conf 0.71) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.831,
-    "news_headlines": [
-      "Digital Payment Update - XTransfer Recognized as Leading Innovator in Global Payments",
-      "SOFI Stock Got Hit With Price-Target Cuts After Q2 Earnings, But One Contrarian Says Market Is Missing Bigger Story",
-      "SoFi Just Reported Earnings. Is the Stock a Buy Now?"
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open"
+    "status": "open",
+    "price_trough": 38.84000015258789,
+    "trailing_stop_price": 39.4226
   },
   "GOOGL": {
     "id": "GOOGL_20260803163510",
@@ -558,7 +463,9 @@
     ],
     "mode": "paper",
     "strategy_version": "76",
-    "status": "open"
+    "status": "open",
+    "price_trough": 373.510009765625,
+    "trailing_stop_price": 378.350699
   },
   "SNAP": {
     "id": "SNAP_20260803163510",
@@ -585,6 +492,65 @@
       "SNAP Stock Falls Premarket Ahead Of Quarterly Report: Investors Watch User Growth, Ad Sales",
       "Reddit\u2019s user base grows to more than 130M daily actives",
       "Snap (SNAP) Q2 Earnings: What To Expect"
+    ],
+    "mode": "paper",
+    "strategy_version": "76",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260803200555",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 73.9800033569336,
+    "entry_time": "2026-08-03T20:05:55.240200+00:00",
+    "stop_loss_pct": 0.00582,
+    "take_profit_pct": 0.01417,
+    "size_usd": 6006.52,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (72.2)",
+      "5d momentum +0.60%",
+      "1d momentum +0.52%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.226,
+    "news_headlines": [
+      "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
+      "Solana could burn 9,000 SOL a day under new proposals",
+      "Coinbase missed again, Strategy sells Bitcoin, and is PayPal for sale?"
+    ],
+    "mode": "paper",
+    "strategy_version": "76",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260803200555",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1869.219970703125,
+    "entry_time": "2026-08-03T20:05:55.242992+00:00",
+    "stop_loss_pct": 0.00557,
+    "take_profit_pct": 0.01293,
+    "size_usd": 4425.85,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (62.9)",
+      "5d momentum +0.44%",
+      "1d momentum -0.66%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.439,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Monday, August 3, 2026: Prices pulling back this morning despite de-escalation with Iran",
+      "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
+      "BlackRock Unveils Two New Tokenized Treasury Funds on Ethereum"
     ],
     "mode": "paper",
     "strategy_version": "76",
