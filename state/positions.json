@@ -207,31 +207,6 @@
     "price_trough": 570.3200073242188,
     "trailing_stop_price": 575.030851
   },
-  "USD/NOK": {
-    "id": "USD/NOK_20260731011948",
-    "asset": "USD/NOK",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 9.5381498336792,
-    "entry_time": "2026-07-31T01:19:48.015311+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 6935.6,
-    "position_size_pct": 0.0643,
-    "confidence": 0.67,
-    "signals": [
-      "RSI oversold (39.2)",
-      "MACD crossover",
-      "1d momentum -0.57%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "74",
-    "status": "open",
-    "price_trough": 9.45419979095459,
-    "trailing_stop_price": 9.529833
-  },
   "USD/CHF": {
     "id": "USD/CHF_20260731121759",
     "asset": "USD/CHF",
@@ -531,7 +506,9 @@
     ],
     "mode": "paper",
     "strategy_version": "75",
-    "status": "open"
+    "status": "open",
+    "price_peak": 111.625,
+    "trailing_stop_price": 110.994319
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260803011206",
@@ -560,7 +537,9 @@
     ],
     "mode": "paper",
     "strategy_version": "75",
-    "status": "open"
+    "status": "open",
+    "price_peak": 180.6280059814453,
+    "trailing_stop_price": 179.717641
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -590,6 +569,31 @@
     ],
     "mode": "paper",
     "strategy_version": "75",
+    "status": "open",
+    "price_peak": 210.9320068359375,
+    "trailing_stop_price": 209.761334
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20260803081405",
+    "asset": "USD/NOK",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 9.533049583435059,
+    "entry_time": "2026-08-03T08:14:05.304180+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5793.2,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (67.3)",
+      "5d momentum +0.48%",
+      "BB overbought (pct_b=0.89)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "76",
     "status": "open"
   }
 }
