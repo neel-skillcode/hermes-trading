@@ -283,8 +283,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 111.75800323486328,
-    "trailing_stop_price": 111.126571
+    "price_peak": 111.86299896240234,
+    "trailing_stop_price": 111.230973
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260803011206",
@@ -314,8 +314,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 180.66000366210938,
-    "trailing_stop_price": 179.749477
+    "price_peak": 180.9239959716797,
+    "trailing_stop_price": 180.012139
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -346,8 +346,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 210.9320068359375,
-    "trailing_stop_price": 209.761334
+    "price_peak": 211.01199340820312,
+    "trailing_stop_price": 209.840877
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -370,7 +370,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "76",
-    "status": "open"
+    "status": "open",
+    "price_trough": 9.510899543762207,
+    "trailing_stop_price": 9.586987
   },
   "XLF": {
     "id": "XLF_20260803140422",
@@ -525,7 +527,9 @@
     ],
     "mode": "paper",
     "strategy_version": "76",
-    "status": "open"
+    "status": "open",
+    "price_trough": 73.69000244140625,
+    "trailing_stop_price": 74.118878
   },
   "ETH-USD": {
     "id": "ETH-USD_20260803200555",
@@ -554,6 +558,37 @@
     ],
     "mode": "paper",
     "strategy_version": "76",
+    "status": "open",
+    "price_trough": 1863.550048828125,
+    "trailing_stop_price": 1873.930023
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260803211655",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.559999942779541,
+    "entry_time": "2026-08-03T21:16:55.689170+00:00",
+    "stop_loss_pct": 0.00542,
+    "take_profit_pct": 0.01236,
+    "size_usd": 2773.04,
+    "position_size_pct": 0.0258,
+    "confidence": 0.564,
+    "signals": [
+      "RSI overbought (75.6)",
+      "5d momentum +0.46%",
+      "1d momentum -1.06%",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.282,
+    "news_headlines": [
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+      "Aptos climbs to the top 4 blockchains in transaction count",
+      "How tokenized stocks could become a $3 trillion market"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
     "status": "open"
   }
 }
