@@ -285,8 +285,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 181.6179962158203,
-    "trailing_stop_price": 180.702642
+    "price_peak": 181.92599487304688,
+    "trailing_stop_price": 181.009088
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -317,8 +317,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 211.86000061035156,
-    "trailing_stop_price": 210.684178
+    "price_peak": 212.22300720214844,
+    "trailing_stop_price": 211.04517
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -344,70 +344,6 @@
     "status": "open",
     "price_trough": 9.510899543762207,
     "trailing_stop_price": 9.586987
-  },
-  "GOOGL": {
-    "id": "GOOGL_20260803163510",
-    "asset": "GOOGL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 375.3699951171875,
-    "entry_time": "2026-08-03T16:35:10.798619+00:00",
-    "stop_loss_pct": 0.01296,
-    "take_profit_pct": 0.03106,
-    "size_usd": 5449.94,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (95.9)",
-      "5d momentum +5.55%",
-      "1d momentum +12.88%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.818,
-    "news_headlines": [
-      "This valuation signal shows how investors are rethinking tech stocks",
-      "Morgan Stanley Sees Cloud Spending Hitting $1.4 Trillion in 2027",
-      "Meta Price Prediction: Analysts See 40% Upside Ahead"
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open",
-    "price_trough": 373.51,
-    "trailing_stop_price": 378.35069
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260803200555",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 73.9800033569336,
-    "entry_time": "2026-08-03T20:05:55.240200+00:00",
-    "stop_loss_pct": 0.00582,
-    "take_profit_pct": 0.01417,
-    "size_usd": 6006.52,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (72.2)",
-      "5d momentum +0.60%",
-      "1d momentum +0.52%",
-      "BB overbought (pct_b=0.92)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.226,
-    "news_headlines": [
-      "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
-      "Solana could burn 9,000 SOL a day under new proposals",
-      "Coinbase missed again, Strategy sells Bitcoin, and is PayPal for sale?"
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open",
-    "price_trough": 73.69000244140625,
-    "trailing_stop_price": 74.118878
   },
   "BNB-USD": {
     "id": "BNB-USD_20260804155552",
@@ -465,7 +401,9 @@
     ],
     "mode": "paper",
     "strategy_version": "77",
-    "status": "open"
+    "status": "open",
+    "price_trough": 58.220001220703125,
+    "trailing_stop_price": 59.205084
   },
   "PLTR": {
     "id": "PLTR_20260804174229",
@@ -558,7 +496,9 @@
     ],
     "mode": "paper",
     "strategy_version": "77",
-    "status": "open"
+    "status": "open",
+    "price_trough": 5.650000095367432,
+    "trailing_stop_price": 5.73475
   },
   "MRVL": {
     "id": "MRVL_20260804174229",
@@ -585,6 +525,68 @@
       "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
       "These 3 Chip Stocks Could Be Entering a New Growth Cycle",
       "Marvell Surges as China Ban Report Reignites Optical-Networking Stocks"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open",
+    "price_trough": 220.22999572753906,
+    "trailing_stop_price": 223.533446
+  },
+  "IONQ": {
+    "id": "IONQ_20260804191138",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 41.83000183105469,
+    "entry_time": "2026-08-04T19:11:38.042393+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03688,
+    "size_usd": 6215.16,
+    "position_size_pct": 0.0587,
+    "confidence": 0.917,
+    "signals": [
+      "RSI overbought (82.8)",
+      "5d momentum +3.76%",
+      "1d momentum +20.44%",
+      "News +0.88 (conf 0.61) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: ma catalyst; price surge"
+    ],
+    "news_sentiment": 0.875,
+    "news_headlines": [
+      "Why IonQ (IONQ) Stock Is Up Today",
+      "IonQ vs. Advanced Micro Devices: Comparing Revenue Trends Between a Quantum Computing Innovator and an Artificial Intelligence Giant",
+      "BigBear.ai vs. IonQ: Which Tech Stock Is a Better Buy in 2026, the Company Focused on Artificial Intelligence or the Quantum Computing Innovator?"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "ARM": {
+    "id": "ARM_20260804191138",
+    "asset": "ARM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 281.7300109863281,
+    "entry_time": "2026-08-04T19:11:38.044313+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5206.27,
+    "position_size_pct": 0.0492,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (82.7)",
+      "5d momentum +3.80%",
+      "1d momentum +17.04%",
+      "BB overbought (pct_b=0.95)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.478,
+    "news_headlines": [
+      "Why Arm Holdings Stock Lost 34% in July",
+      "Arm Quietly Builds Its Next Big AI Advantage",
+      "ARM Stock: A $1 Billion AGI CPU Opportunity Could End Up Being Much Bigger Than Wall Street Expects"
     ],
     "mode": "paper",
     "strategy_version": "77",
