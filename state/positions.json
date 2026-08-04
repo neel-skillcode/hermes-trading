@@ -109,8 +109,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_trough": 153.27499389648438,
-    "trailing_stop_price": 157.959078
+    "price_trough": 152.9499969482422,
+    "trailing_stop_price": 157.624149
   },
   "JPM": {
     "id": "JPM_20260729164615",
@@ -140,39 +140,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_peak": 354.2149963378906,
-    "trailing_stop_price": 347.711609
-  },
-  "INTC": {
-    "id": "INTC_20260730150920",
-    "asset": "INTC",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 93.1989974975586,
-    "entry_time": "2026-07-30T15:09:20.353303+00:00",
-    "stop_loss_pct": 0.06,
-    "take_profit_pct": 0.19692,
-    "size_usd": 5827.71,
-    "position_size_pct": 0.0541,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (63.1)",
-      "5d momentum +11.26%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat"
-    ],
-    "news_sentiment": 0.889,
-    "news_headlines": [
-      "AMD is Down 18% Over a Month: One Analyst Targets $1,250, Meaning 190% Returns From Here",
-      "TSMC is moving in on Intel\u2019s turf; Why Intel is up anyway",
-      "ASML's EUV Machines Are Becoming More Valuable Than Ever. Here's Why."
-    ],
-    "mode": "paper",
-    "strategy_version": "72",
-    "status": "open",
-    "price_trough": 87.7750015258789,
-    "trailing_stop_price": 93.041502
+    "price_peak": 361.3699951171875,
+    "trailing_stop_price": 354.735242
   },
   "USD/CHF": {
     "id": "USD/CHF_20260731121759",
@@ -253,7 +222,9 @@
     ],
     "mode": "paper",
     "strategy_version": "75",
-    "status": "open"
+    "status": "open",
+    "price_trough": 755.6875,
+    "trailing_stop_price": 765.231833
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260803011206",
@@ -346,8 +317,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 211.6510009765625,
-    "trailing_stop_price": 210.476338
+    "price_peak": 211.75399780273438,
+    "trailing_stop_price": 210.578763
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -373,69 +344,6 @@
     "status": "open",
     "price_trough": 9.510899543762207,
     "trailing_stop_price": 9.586987
-  },
-  "XLF": {
-    "id": "XLF_20260803140422",
-    "asset": "XLF",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 57.5,
-    "entry_time": "2026-08-03T14:04:22.643585+00:00",
-    "stop_loss_pct": 0.01055,
-    "take_profit_pct": 0.03461,
-    "size_usd": 5027.28,
-    "position_size_pct": 0.0468,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (75.5)",
-      "5d momentum +0.87%",
-      "BB overbought (pct_b=1.08)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.756,
-    "news_headlines": [
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid US-Iran Truce Hopes",
-      "Financials Hit Record Highs as the AI Trade Unravels\u2014Can They Keep Leading?",
-      "Financial stocks are crushing it. These charts show why the \u2018breakout\u2019 rally may have just begun."
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open",
-    "price_trough": 57.084999084472656,
-    "trailing_stop_price": 57.687246
-  },
-  "IONQ": {
-    "id": "IONQ_20260803163510",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 39.999900817871094,
-    "entry_time": "2026-08-03T16:35:10.794284+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5449.94,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (94.1)",
-      "5d momentum +9.20%",
-      "1d momentum +21.91%",
-      "BB overbought (pct_b=0.96)",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst"
-    ],
-    "news_sentiment": 0.867,
-    "news_headlines": [
-      "Quantum Computing Stock Pre-Q2 Earnings Release: To Buy, Hold or Sell?",
-      "IonQ closes $1.8bn SkyWater acquisition after US FTC clearance",
-      "IonQ Is Worth $13 Billion and Sits 58% Below Its High. Here's What Has to Go Right."
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open",
-    "price_trough": 38.84000015258789,
-    "trailing_stop_price": 39.4226
   },
   "GOOGL": {
     "id": "GOOGL_20260803163510",
@@ -468,36 +376,6 @@
     "status": "open",
     "price_trough": 373.51,
     "trailing_stop_price": 378.35069
-  },
-  "SNAP": {
-    "id": "SNAP_20260803163510",
-    "asset": "SNAP",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 4.989999771118164,
-    "entry_time": "2026-08-03T16:35:10.800334+00:00",
-    "stop_loss_pct": 0.01287,
-    "take_profit_pct": 0.03084,
-    "size_usd": 3109.49,
-    "position_size_pct": 0.029,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (76.5)",
-      "5d momentum +6.17%",
-      "1d momentum +5.30%",
-      "BB overbought (pct_b=1.03)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.373,
-    "news_headlines": [
-      "SNAP Stock Falls Premarket Ahead Of Quarterly Report: Investors Watch User Growth, Ad Sales",
-      "Reddit\u2019s user base grows to more than 130M daily actives",
-      "Snap (SNAP) Q2 Earnings: What To Expect"
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open"
   },
   "SOL-USD": {
     "id": "SOL-USD_20260803200555",
@@ -587,6 +465,127 @@
       "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
       "Aptos climbs to the top 4 blockchains in transaction count",
       "How tokenized stocks could become a $3 trillion market"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open",
+    "price_trough": 6.741000175476074,
+    "trailing_stop_price": 6.807871
+  },
+  "PLTR": {
+    "id": "PLTR_20260804155552",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 158.38999938964844,
+    "entry_time": "2026-08-04T15:55:52.930165+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0344,
+    "size_usd": 3980.83,
+    "position_size_pct": 0.0375,
+    "confidence": 0.586,
+    "signals": [
+      "RSI overbought (95.0)",
+      "5d momentum +25.85%",
+      "1d momentum +28.72%",
+      "BB overbought (pct_b=1.08)",
+      "News +0.78 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.784,
+    "news_headlines": [
+      "Stock market today: Nasdaq surges, Dow and S&P 500 trade at record highs amid US-Iran optimism, tech rally",
+      "Is Palantir incomparable? Valuation remains a key question despite the big earnings beat",
+      "Why Palantir is the 'best' publicly traded tech company"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "SMCI": {
+    "id": "SMCI_20260804155552",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 30.739999771118164,
+    "entry_time": "2026-08-04T15:55:52.932293+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 4138.06,
+    "position_size_pct": 0.039,
+    "confidence": 0.934,
+    "signals": [
+      "RSI overbought (91.1)",
+      "5d momentum +7.00%",
+      "1d momentum +19.56%",
+      "BB overbought (pct_b=1.19)",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.407,
+    "news_headlines": [
+      "Down 50% in The Year, Is SMCI a Buy?",
+      "Super Micro Computer (SMCI) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "Should Investors Buy, Hold, or Sell Vertiv Stock Post Q2 Earnings?"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260804155552",
+    "asset": "BNB-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 592.9199829101562,
+    "entry_time": "2026-08-04T15:55:52.962337+00:00",
+    "stop_loss_pct": 0.01103,
+    "take_profit_pct": 0.03638,
+    "size_usd": 6093.52,
+    "position_size_pct": 0.0574,
+    "confidence": 0.598,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +0.61%",
+      "BB overbought (pct_b=0.98)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.053,
+    "news_headlines": [
+      "Cardano Tops Weekly Crypto Gainer Charts as ADA Soars 11% Over 7 Days \u2014 Bitcoin, Dogecoin Left in the Dust",
+      "Trump Family-Backed World Liberty Financial Token Lags Broader Crypto Rally After Billion-Dollar Crypto Income Disclosure",
+      "BNB Chain Sues Ex-Employee Over A Tutorial Wallet That Became a Meme Coin"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "PYPL": {
+    "id": "PYPL_20260804155552",
+    "asset": "PYPL",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 58.230098724365234,
+    "entry_time": "2026-08-04T15:55:52.970659+00:00",
+    "stop_loss_pct": 0.01692,
+    "take_profit_pct": 0.05673,
+    "size_usd": 4111.31,
+    "position_size_pct": 0.0387,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (87.1)",
+      "5d momentum +1.09%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [supports]: macro risk"
+    ],
+    "news_sentiment": 0.207,
+    "news_headlines": [
+      "PayPal's Chief Accounting Officer Sells 38% of His Directly-Held Shares. Here's What That Means for Investors.",
+      "PYPL Stock Clocked Its Best Month Ever In July: Retail Says 'Ticking Time Bomb' Is Worth Much More",
+      "The Magnificent Seven Start Burning Cash (for Real)"
     ],
     "mode": "paper",
     "strategy_version": "77",
