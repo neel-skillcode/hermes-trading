@@ -285,8 +285,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 181.427001953125,
-    "trailing_stop_price": 180.51261
+    "price_peak": 181.6179962158203,
+    "trailing_stop_price": 180.702642
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -317,8 +317,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 211.75399780273438,
-    "trailing_stop_price": 210.578763
+    "price_peak": 211.86000061035156,
+    "trailing_stop_price": 210.684178
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -409,130 +409,6 @@
     "price_trough": 73.69000244140625,
     "trailing_stop_price": 74.118878
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260803200555",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1869.219970703125,
-    "entry_time": "2026-08-03T20:05:55.242992+00:00",
-    "stop_loss_pct": 0.00557,
-    "take_profit_pct": 0.01293,
-    "size_usd": 4425.85,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (62.9)",
-      "5d momentum +0.44%",
-      "1d momentum -0.66%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.439,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Monday, August 3, 2026: Prices pulling back this morning despite de-escalation with Iran",
-      "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
-      "BlackRock Unveils Two New Tokenized Treasury Funds on Ethereum"
-    ],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open",
-    "price_trough": 1863.550048828125,
-    "trailing_stop_price": 1873.930023
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260804042324",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.882999897003174,
-    "entry_time": "2026-08-04T04:23:24.654100+00:00",
-    "stop_loss_pct": 0.00992,
-    "take_profit_pct": 0.02378,
-    "size_usd": 2718.43,
-    "position_size_pct": 0.0253,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (83.7)",
-      "5d momentum +4.76%",
-      "1d momentum +7.38%",
-      "BB overbought (pct_b=0.98)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.282,
-    "news_headlines": [
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-      "Aptos climbs to the top 4 blockchains in transaction count",
-      "How tokenized stocks could become a $3 trillion market"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open",
-    "price_trough": 6.741000175476074,
-    "trailing_stop_price": 6.807871
-  },
-  "PLTR": {
-    "id": "PLTR_20260804155552",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 158.38999938964844,
-    "entry_time": "2026-08-04T15:55:52.930165+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0344,
-    "size_usd": 3980.83,
-    "position_size_pct": 0.0375,
-    "confidence": 0.586,
-    "signals": [
-      "RSI overbought (95.0)",
-      "5d momentum +25.85%",
-      "1d momentum +28.72%",
-      "BB overbought (pct_b=1.08)",
-      "News +0.78 (conf 0.67) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.784,
-    "news_headlines": [
-      "Stock market today: Nasdaq surges, Dow and S&P 500 trade at record highs amid US-Iran optimism, tech rally",
-      "Is Palantir incomparable? Valuation remains a key question despite the big earnings beat",
-      "Why Palantir is the 'best' publicly traded tech company"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open"
-  },
-  "SMCI": {
-    "id": "SMCI_20260804155552",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 30.739999771118164,
-    "entry_time": "2026-08-04T15:55:52.932293+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 4138.06,
-    "position_size_pct": 0.039,
-    "confidence": 0.934,
-    "signals": [
-      "RSI overbought (91.1)",
-      "5d momentum +7.00%",
-      "1d momentum +19.56%",
-      "BB overbought (pct_b=1.19)",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.407,
-    "news_headlines": [
-      "Down 50% in The Year, Is SMCI a Buy?",
-      "Super Micro Computer (SMCI) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-      "Should Investors Buy, Hold, or Sell Vertiv Stock Post Q2 Earnings?"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open"
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260804155552",
     "asset": "BNB-USD",
@@ -586,6 +462,129 @@
       "PayPal's Chief Accounting Officer Sells 38% of His Directly-Held Shares. Here's What That Means for Investors.",
       "PYPL Stock Clocked Its Best Month Ever In July: Retail Says 'Ticking Time Bomb' Is Worth Much More",
       "The Magnificent Seven Start Burning Cash (for Real)"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20260804174229",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 162.80999755859375,
+    "entry_time": "2026-08-04T17:42:29.077961+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03463,
+    "size_usd": 4192.09,
+    "position_size_pct": 0.0396,
+    "confidence": 0.618,
+    "signals": [
+      "RSI overbought (99.2)",
+      "5d momentum +29.31%",
+      "1d momentum +34.83%",
+      "BB overbought (pct_b=0.96)",
+      "News +0.94 (conf 0.74) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.939,
+    "news_headlines": [
+      "Stock market today: Nasdaq surges, Dow and S&P 500 trade at record highs amid US-Iran optimism, tech rally",
+      "Palantir looks 'a bit unstoppable' after overwhelming Q2 commercial growth",
+      "Why Palantir stock is ripping higher after earnings: AlphaSpace stat of the morning"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "SMCI": {
+    "id": "SMCI_20260804174229",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 31.4950008392334,
+    "entry_time": "2026-08-04T17:42:29.079834+00:00",
+    "stop_loss_pct": 0.01478,
+    "take_profit_pct": 0.03413,
+    "size_usd": 4185.3,
+    "position_size_pct": 0.0395,
+    "confidence": 0.617,
+    "signals": [
+      "RSI overbought (92.0)",
+      "5d momentum +9.93%",
+      "1d momentum +13.48%",
+      "BB overbought (pct_b=1.06)",
+      "News +0.39 (conf 0.68) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.387,
+    "news_headlines": [
+      "Dell and Super Micro Rally 10%, Hewlett Packard Enterprise Climbs 6% as AI Server Stocks Surge",
+      "Down 50% in The Year, Is SMCI a Buy?",
+      "Super Micro Computer (SMCI) Earnings Expected to Grow: What to Know Ahead of Next Week's Release"
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "SNAP": {
+    "id": "SNAP_20260804174229",
+    "asset": "SNAP",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 5.735000133514404,
+    "entry_time": "2026-08-04T17:42:29.081639+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03451,
+    "size_usd": 4076.77,
+    "position_size_pct": 0.0385,
+    "confidence": 0.601,
+    "signals": [
+      "RSI overbought (90.9)",
+      "5d momentum +13.34%",
+      "1d momentum +23.60%",
+      "BB overbought (pct_b=0.90)",
+      "News +0.90 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.9,
+    "news_headlines": [
+      "Snap stock jumps 13% on improved advertising, World Cup boost",
+      "Snap second quarter results lifted by improving advertising trends",
+      "Pinterest Earnings Should be Strong. Just Look at Reddit and Snap Results."
+    ],
+    "mode": "paper",
+    "strategy_version": "77",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260804174229",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 221.86000061035156,
+    "entry_time": "2026-08-04T17:42:29.083448+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 2747.09,
+    "position_size_pct": 0.0259,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (85.0)",
+      "5d momentum +14.44%",
+      "1d momentum +22.46%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.898,
+    "news_headlines": [
+      "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
+      "These 3 Chip Stocks Could Be Entering a New Growth Cycle",
+      "Marvell Surges as China Ban Report Reignites Optical-Networking Stocks"
     ],
     "mode": "paper",
     "strategy_version": "77",
