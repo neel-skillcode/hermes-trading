@@ -434,7 +434,9 @@
     ],
     "mode": "paper",
     "strategy_version": "77",
-    "status": "open"
+    "status": "open",
+    "price_trough": 162.66000366210938,
+    "trailing_stop_price": 165.099904
   },
   "SMCI": {
     "id": "SMCI_20260804174229",
@@ -467,39 +469,6 @@
     "strategy_version": "77",
     "status": "open"
   },
-  "SNAP": {
-    "id": "SNAP_20260804174229",
-    "asset": "SNAP",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 5.735000133514404,
-    "entry_time": "2026-08-04T17:42:29.081639+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03451,
-    "size_usd": 4076.77,
-    "position_size_pct": 0.0385,
-    "confidence": 0.601,
-    "signals": [
-      "RSI overbought (90.9)",
-      "5d momentum +13.34%",
-      "1d momentum +23.60%",
-      "BB overbought (pct_b=0.90)",
-      "News +0.90 (conf 0.67) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.9,
-    "news_headlines": [
-      "Snap stock jumps 13% on improved advertising, World Cup boost",
-      "Snap second quarter results lifted by improving advertising trends",
-      "Pinterest Earnings Should be Strong. Just Look at Reddit and Snap Results."
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open",
-    "price_trough": 5.650000095367432,
-    "trailing_stop_price": 5.73475
-  },
   "MRVL": {
     "id": "MRVL_20260804174229",
     "asset": "MRVL",
@@ -529,8 +498,8 @@
     "mode": "paper",
     "strategy_version": "77",
     "status": "open",
-    "price_trough": 220.22999572753906,
-    "trailing_stop_price": 223.533446
+    "price_trough": 218.58999633789062,
+    "trailing_stop_price": 221.868846
   },
   "IONQ": {
     "id": "IONQ_20260804191138",
@@ -590,6 +559,39 @@
     ],
     "mode": "paper",
     "strategy_version": "77",
+    "status": "open",
+    "price_trough": 280.55999755859375,
+    "trailing_stop_price": 284.768398
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260804204259",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 74.30999755859375,
+    "entry_time": "2026-08-04T20:42:59.358047+00:00",
+    "stop_loss_pct": 0.00656,
+    "take_profit_pct": 0.01624,
+    "size_usd": 4061.13,
+    "position_size_pct": 0.0384,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (66.8)",
+      "5d momentum +0.53%",
+      "1d momentum +0.68%",
+      "BB overbought (pct_b=1.06)",
+      "Volume spike 2.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.184,
+    "news_headlines": [
+      "Solana Proposal Would Increase Daily SOL Burns More Than 10-Fold",
+      "Solana Just Had a Disappointing Month. Is It Still a Buy?",
+      "Solana Proposal Could Increase SOL Burns 14-Fold"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
     "status": "open"
   }
 }
