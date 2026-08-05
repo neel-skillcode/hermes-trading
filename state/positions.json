@@ -165,8 +165,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 0.807200014591217,
-    "trailing_stop_price": 0.813658
+    "price_trough": 0.8068600296974182,
+    "trailing_stop_price": 0.813315
   },
   "USD/SEK": {
     "id": "USD/SEK_20260731121759",
@@ -190,8 +190,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.481789588928223,
-    "trailing_stop_price": 9.557644
+    "price_trough": 9.479379653930664,
+    "trailing_stop_price": 9.555215
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260803011206",
@@ -221,8 +221,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 112.4520034790039,
-    "trailing_stop_price": 111.81665
+    "price_peak": 112.56400299072266,
+    "trailing_stop_price": 111.928016
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260803011206",
@@ -252,8 +252,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 182.10400390625,
-    "trailing_stop_price": 181.1862
+    "price_peak": 182.2270050048828,
+    "trailing_stop_price": 181.308581
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -284,8 +284,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 212.31199645996094,
-    "trailing_stop_price": 211.133665
+    "price_peak": 212.38400268554688,
+    "trailing_stop_price": 211.205271
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -340,8 +340,8 @@
     "mode": "paper",
     "strategy_version": "77",
     "status": "open",
-    "price_trough": 58.21500015258789,
-    "trailing_stop_price": 59.199998
+    "price_trough": 58.150001525878906,
+    "trailing_stop_price": 59.1339
   },
   "PLTR": {
     "id": "PLTR_20260804174229",
@@ -438,41 +438,8 @@
     "mode": "paper",
     "strategy_version": "77",
     "status": "open",
-    "price_trough": 215.98500061035156,
-    "trailing_stop_price": 219.224776
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260804204259",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 74.30999755859375,
-    "entry_time": "2026-08-04T20:42:59.358047+00:00",
-    "stop_loss_pct": 0.00656,
-    "take_profit_pct": 0.01624,
-    "size_usd": 4061.13,
-    "position_size_pct": 0.0384,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (66.8)",
-      "5d momentum +0.53%",
-      "1d momentum +0.68%",
-      "BB overbought (pct_b=1.06)",
-      "Volume spike 2.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.184,
-    "news_headlines": [
-      "Solana Proposal Would Increase Daily SOL Burns More Than 10-Fold",
-      "Solana Just Had a Disappointing Month. Is It Still a Buy?",
-      "Solana Proposal Could Increase SOL Burns 14-Fold"
-    ],
-    "mode": "paper",
-    "strategy_version": "78",
-    "status": "open",
-    "price_trough": 73.93000030517578,
-    "trailing_stop_price": 74.414981
+    "price_trough": 214.25999450683594,
+    "trailing_stop_price": 217.473894
   },
   "LCID": {
     "id": "LCID_20260805152238",
@@ -596,6 +563,37 @@
       "NUGT and AGQ Jump Big as Gold and Silver Rally",
       "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
       "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260805182001",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1917.9599609375,
+    "entry_time": "2026-08-05T18:20:01.145190+00:00",
+    "stop_loss_pct": 0.00633,
+    "take_profit_pct": 0.01541,
+    "size_usd": 4057.85,
+    "position_size_pct": 0.0385,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (82.1)",
+      "5d momentum +2.18%",
+      "1d momentum +2.35%",
+      "BB overbought (pct_b=1.21)",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.368,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
+      "Why Hasn\u2019t XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution",
+      "XRP Price to $4.90? Bullish Calls Grow as Holders Can Now Borrow RLUSD Against FXRP"
     ],
     "mode": "paper",
     "strategy_version": "78",
