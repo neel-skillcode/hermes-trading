@@ -345,35 +345,6 @@
     "price_trough": 9.510899543762207,
     "trailing_stop_price": 9.586987
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260804155552",
-    "asset": "BNB-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 592.9199829101562,
-    "entry_time": "2026-08-04T15:55:52.962337+00:00",
-    "stop_loss_pct": 0.01103,
-    "take_profit_pct": 0.03638,
-    "size_usd": 6093.52,
-    "position_size_pct": 0.0574,
-    "confidence": 0.598,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +0.61%",
-      "BB overbought (pct_b=0.98)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.053,
-    "news_headlines": [
-      "Cardano Tops Weekly Crypto Gainer Charts as ADA Soars 11% Over 7 Days \u2014 Bitcoin, Dogecoin Left in the Dust",
-      "Trump Family-Backed World Liberty Financial Token Lags Broader Crypto Rally After Billion-Dollar Crypto Income Disclosure",
-      "BNB Chain Sues Ex-Employee Over A Tutorial Wallet That Became a Meme Coin"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open"
-  },
   "PYPL": {
     "id": "PYPL_20260804155552",
     "asset": "PYPL",
@@ -592,6 +563,8 @@
     ],
     "mode": "paper",
     "strategy_version": "78",
-    "status": "open"
+    "status": "open",
+    "price_trough": 74.01000213623047,
+    "trailing_stop_price": 74.495508
   }
 }
