@@ -221,8 +221,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 112.41100311279297,
-    "trailing_stop_price": 111.775881
+    "price_peak": 112.4520034790039,
+    "trailing_stop_price": 111.81665
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260803011206",
@@ -252,8 +252,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 181.93899536132812,
-    "trailing_stop_price": 181.022023
+    "price_peak": 182.10400390625,
+    "trailing_stop_price": 181.1862
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -284,8 +284,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 212.22300720214844,
-    "trailing_stop_price": 211.04517
+    "price_peak": 212.31199645996094,
+    "trailing_stop_price": 211.133665
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -340,8 +340,8 @@
     "mode": "paper",
     "strategy_version": "77",
     "status": "open",
-    "price_trough": 58.220001220703125,
-    "trailing_stop_price": 59.205084
+    "price_trough": 58.21500015258789,
+    "trailing_stop_price": 59.199998
   },
   "PLTR": {
     "id": "PLTR_20260804174229",
@@ -438,40 +438,8 @@
     "mode": "paper",
     "strategy_version": "77",
     "status": "open",
-    "price_trough": 216.0500030517578,
-    "trailing_stop_price": 219.290753
-  },
-  "ARM": {
-    "id": "ARM_20260804191138",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 281.7300109863281,
-    "entry_time": "2026-08-04T19:11:38.044313+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5206.27,
-    "position_size_pct": 0.0492,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (82.7)",
-      "5d momentum +3.80%",
-      "1d momentum +17.04%",
-      "BB overbought (pct_b=0.95)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.478,
-    "news_headlines": [
-      "Why Arm Holdings Stock Lost 34% in July",
-      "Arm Quietly Builds Its Next Big AI Advantage",
-      "ARM Stock: A $1 Billion AGI CPU Opportunity Could End Up Being Much Bigger Than Wall Street Expects"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open",
-    "price_trough": 275.42999267578125,
-    "trailing_stop_price": 279.561443
+    "price_trough": 215.98500061035156,
+    "trailing_stop_price": 219.224776
   },
   "SOL-USD": {
     "id": "SOL-USD_20260804204259",
@@ -536,7 +504,9 @@
     ],
     "mode": "paper",
     "strategy_version": "78",
-    "status": "open"
+    "status": "open",
+    "price_peak": 6.670499801635742,
+    "trailing_stop_price": 6.570442
   },
   "UBER": {
     "id": "UBER_20260805152238",
@@ -594,6 +564,38 @@
       "Traders in the world\u2019s most important financial market are bracing for a wild stretch ahead",
       "Most Income Investors Have Never Heard of These 3 Bond ETFs Paying Over 10 Percent Monthly",
       "TLT Slides as the 30-Year Yield Hits Its Highest Since 2007"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
+    "status": "open",
+    "price_trough": 82.87000274658203,
+    "trailing_stop_price": 83.532963
+  },
+  "GLD": {
+    "id": "GLD_20260805165644",
+    "asset": "GLD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 388.7799987792969,
+    "entry_time": "2026-08-05T16:56:44.156563+00:00",
+    "stop_loss_pct": 0.00624,
+    "take_profit_pct": 0.01496,
+    "size_usd": 5215.18,
+    "position_size_pct": 0.0494,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (85.3)",
+      "5d momentum +3.88%",
+      "1d momentum +4.95%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "NUGT and AGQ Jump Big as Gold and Silver Rally",
+      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
+      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes"
     ],
     "mode": "paper",
     "strategy_version": "78",
