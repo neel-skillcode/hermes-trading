@@ -109,8 +109,8 @@
     "mode": "paper",
     "strategy_version": "71",
     "status": "open",
-    "price_trough": 151.8699951171875,
-    "trailing_stop_price": 156.511142
+    "price_trough": 151.5399932861328,
+    "trailing_stop_price": 156.171055
   },
   "JPM": {
     "id": "JPM_20260729164615",
@@ -221,8 +221,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 112.56400299072266,
-    "trailing_stop_price": 111.928016
+    "price_peak": 112.56700134277344,
+    "trailing_stop_price": 111.930998
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260803011206",
@@ -340,172 +340,8 @@
     "mode": "paper",
     "strategy_version": "77",
     "status": "open",
-    "price_trough": 58.150001525878906,
-    "trailing_stop_price": 59.1339
-  },
-  "PLTR": {
-    "id": "PLTR_20260804174229",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 162.80999755859375,
-    "entry_time": "2026-08-04T17:42:29.077961+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03463,
-    "size_usd": 4192.09,
-    "position_size_pct": 0.0396,
-    "confidence": 0.618,
-    "signals": [
-      "RSI overbought (99.2)",
-      "5d momentum +29.31%",
-      "1d momentum +34.83%",
-      "BB overbought (pct_b=0.96)",
-      "News +0.94 (conf 0.74) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.939,
-    "news_headlines": [
-      "Stock market today: Nasdaq surges, Dow and S&P 500 trade at record highs amid US-Iran optimism, tech rally",
-      "Palantir looks 'a bit unstoppable' after overwhelming Q2 commercial growth",
-      "Why Palantir stock is ripping higher after earnings: AlphaSpace stat of the morning"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open",
-    "price_trough": 159.02999877929688,
-    "trailing_stop_price": 161.415449
-  },
-  "SMCI": {
-    "id": "SMCI_20260804174229",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 31.4950008392334,
-    "entry_time": "2026-08-04T17:42:29.079834+00:00",
-    "stop_loss_pct": 0.01478,
-    "take_profit_pct": 0.03413,
-    "size_usd": 4185.3,
-    "position_size_pct": 0.0395,
-    "confidence": 0.617,
-    "signals": [
-      "RSI overbought (92.0)",
-      "5d momentum +9.93%",
-      "1d momentum +13.48%",
-      "BB overbought (pct_b=1.06)",
-      "News +0.39 (conf 0.68) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.387,
-    "news_headlines": [
-      "Dell and Super Micro Rally 10%, Hewlett Packard Enterprise Climbs 6% as AI Server Stocks Surge",
-      "Down 50% in The Year, Is SMCI a Buy?",
-      "Super Micro Computer (SMCI) Earnings Expected to Grow: What to Know Ahead of Next Week's Release"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open",
-    "price_trough": 30.979900360107422,
-    "trailing_stop_price": 31.437783
-  },
-  "MRVL": {
-    "id": "MRVL_20260804174229",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 221.86000061035156,
-    "entry_time": "2026-08-04T17:42:29.083448+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 2747.09,
-    "position_size_pct": 0.0259,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (85.0)",
-      "5d momentum +14.44%",
-      "1d momentum +22.46%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.898,
-    "news_headlines": [
-      "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
-      "These 3 Chip Stocks Could Be Entering a New Growth Cycle",
-      "Marvell Surges as China Ban Report Reignites Optical-Networking Stocks"
-    ],
-    "mode": "paper",
-    "strategy_version": "77",
-    "status": "open",
-    "price_trough": 214.25999450683594,
-    "trailing_stop_price": 217.473894
-  },
-  "LCID": {
-    "id": "LCID_20260805152238",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.599999904632568,
-    "entry_time": "2026-08-05T15:22:38.803344+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 6415.45,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (26.6)",
-      "5d momentum -14.95%",
-      "1d momentum -17.02%",
-      "BB oversold (pct_b=-0.25)",
-      "Volume spike 2.1\u00d7",
-      "News +0.34 (conf 0.65) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.344,
-    "news_headlines": [
-      "Lucid Q2 results: Losses widen as automaker launches 'operational reset'",
-      "Lucid Stock Is Sliding Even as Sales Top Estimates",
-      "Lucid Group Q2 Earnings Call Highlights"
-    ],
-    "mode": "paper",
-    "strategy_version": "78",
-    "status": "open",
-    "price_peak": 6.670499801635742,
-    "trailing_stop_price": 6.570442
-  },
-  "UBER": {
-    "id": "UBER_20260805152238",
-    "asset": "UBER",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 67.58000183105469,
-    "entry_time": "2026-08-05T15:22:38.805425+00:00",
-    "stop_loss_pct": 0.01159,
-    "take_profit_pct": 0.02868,
-    "size_usd": 3720.34,
-    "position_size_pct": 0.0353,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (18.8)",
-      "5d momentum -5.34%",
-      "1d momentum -3.43%",
-      "BB oversold (pct_b=-0.20)",
-      "Volume spike 2.2\u00d7",
-      "News +0.88 (conf 0.66) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.879,
-    "news_headlines": [
-      "Uber stock drops as bookings guidance disappoints; CEO bets on robotaxi push to grow overall business",
-      "Earnings live updates: Eli Lilly stock pops on upbeat guidance, Uber stock slides",
-      "Uber shares retreat as weak outlook overshadows Q2 earnings and bookings beat"
-    ],
-    "mode": "paper",
-    "strategy_version": "78",
-    "status": "open"
+    "price_trough": 57.94499969482422,
+    "trailing_stop_price": 58.925429
   },
   "TLT": {
     "id": "TLT_20260805152238",
@@ -538,36 +374,6 @@
     "price_trough": 82.87000274658203,
     "trailing_stop_price": 83.532963
   },
-  "GLD": {
-    "id": "GLD_20260805165644",
-    "asset": "GLD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 388.7799987792969,
-    "entry_time": "2026-08-05T16:56:44.156563+00:00",
-    "stop_loss_pct": 0.00624,
-    "take_profit_pct": 0.01496,
-    "size_usd": 5215.18,
-    "position_size_pct": 0.0494,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (85.3)",
-      "5d momentum +3.88%",
-      "1d momentum +4.95%",
-      "BB overbought (pct_b=0.96)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "NUGT and AGQ Jump Big as Gold and Silver Rally",
-      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes"
-    ],
-    "mode": "paper",
-    "strategy_version": "78",
-    "status": "open"
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260805182001",
     "asset": "ETH-USD",
@@ -594,6 +400,160 @@
       "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
       "Why Hasn\u2019t XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution",
       "XRP Price to $4.90? Bullish Calls Grow as Holders Can Now Borrow RLUSD Against FXRP"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
+    "status": "open",
+    "price_trough": 1916.6300048828125,
+    "trailing_stop_price": 1928.762273
+  },
+  "MPC": {
+    "id": "MPC_20260805195955",
+    "asset": "MPC",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 297.5299987792969,
+    "entry_time": "2026-08-05T19:59:55.750143+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6717.16,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (34.8)",
+      "5d momentum -1.68%",
+      "1d momentum -5.08%",
+      "BB oversold (pct_b=0.01)",
+      "News +0.97 (conf 0.73) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: earnings beat"
+    ],
+    "news_sentiment": 0.973,
+    "news_headlines": [
+      "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
+      "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
+      "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
+    "status": "open"
+  },
+  "USO": {
+    "id": "USO_20260805195955",
+    "asset": "USO",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 114.88500213623047,
+    "entry_time": "2026-08-05T19:59:55.751803+00:00",
+    "stop_loss_pct": 0.01214,
+    "take_profit_pct": 0.02896,
+    "size_usd": 5224.46,
+    "position_size_pct": 0.0493,
+    "confidence": 0.77,
+    "signals": [
+      "RSI oversold (19.1)",
+      "MACD crossover",
+      "1d momentum -11.07%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.522,
+    "news_headlines": [
+      "Trump Says Hormuz Deal Could Come Within 48 Hours: Do Prediction Markets Back Him Up?",
+      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
+      "Market Minute 8-4-26- Stocks Up, Oil Down - Day 2"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260805195955",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 64838.421875,
+    "entry_time": "2026-08-05T19:59:55.753558+00:00",
+    "stop_loss_pct": 0.00406,
+    "take_profit_pct": 0.00988,
+    "size_usd": 5902.96,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (70.5)",
+      "5d momentum +0.64%",
+      "1d momentum +1.02%",
+      "BB overbought (pct_b=1.05)",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge; price decline"
+    ],
+    "news_sentiment": 0.296,
+    "news_headlines": [
+      "Bitcoin faces its toughest month: Can it rally in August?",
+      "Strategy\u2019s Preferred Stock Recovers As Company Builds Cash Reserve",
+      "Gold surges on strong China demand as Bitcoin takes a breather"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
+    "status": "open"
+  },
+  "PFE": {
+    "id": "PFE_20260805195955",
+    "asset": "PFE",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 25.7549991607666,
+    "entry_time": "2026-08-05T19:59:55.755354+00:00",
+    "stop_loss_pct": 0.00818,
+    "take_profit_pct": 0.01868,
+    "size_usd": 3853.89,
+    "position_size_pct": 0.0364,
+    "confidence": 0.568,
+    "signals": [
+      "RSI overbought (74.2)",
+      "5d momentum +1.26%",
+      "1d momentum +2.88%",
+      "BB overbought (pct_b=0.94)",
+      "News +0.62 (conf 0.68) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; ma catalyst; price decline"
+    ],
+    "news_sentiment": 0.625,
+    "news_headlines": [
+      "3 Beaten-Down Stocks to Hold for the Next 10 Years",
+      "Pfizer Stock Slips Despite Earnings Beat and $2.5 Billion Cuts",
+      "Pfizer Q2 Earnings Call Highlights Non-COVID Growth and Cost Cuts"
+    ],
+    "mode": "paper",
+    "strategy_version": "78",
+    "status": "open"
+  },
+  "ON": {
+    "id": "ON_20260805195955",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 76.92500305175781,
+    "entry_time": "2026-08-05T19:59:55.757155+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03733,
+    "size_usd": 4970.77,
+    "position_size_pct": 0.0469,
+    "confidence": 0.977,
+    "signals": [
+      "RSI oversold (32.8)",
+      "1d momentum -8.30%",
+      "BB oversold (pct_b=0.06)",
+      "News +0.73 (conf 0.68) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: earnings beat; analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.735,
+    "news_headlines": [
+      "ON Semiconductor Corp. (ON) Moves to Buy: Rationale Behind the Upgrade",
+      "Price Prediction: ON Semiconductor Stock Looks Ready for Its Next Move",
+      "ON Semiconductor stock jumps -- Analysts see a bigger AI opportunity ahead"
     ],
     "mode": "paper",
     "strategy_version": "78",
