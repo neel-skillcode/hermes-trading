@@ -190,8 +190,8 @@
     "mode": "paper",
     "strategy_version": "74",
     "status": "open",
-    "price_trough": 9.477399826049805,
-    "trailing_stop_price": 9.553219
+    "price_trough": 9.473389625549316,
+    "trailing_stop_price": 9.549177
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260803011206",
@@ -221,8 +221,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 112.61000061035156,
-    "trailing_stop_price": 111.973754
+    "price_peak": 112.68499755859375,
+    "trailing_stop_price": 112.048327
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -253,8 +253,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 212.4320068359375,
-    "trailing_stop_price": 211.253009
+    "price_peak": 212.50900268554688,
+    "trailing_stop_price": 211.329578
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -553,6 +553,37 @@
       "Bitcoin faces its toughest month: Can it rally in August?",
       "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
       "Ethereum Price Forecast: Flag Pattern Breakout Could Push ETH to $2,500"
+    ],
+    "mode": "paper",
+    "strategy_version": "79",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260806092930",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.619999885559082,
+    "entry_time": "2026-08-06T09:29:30.474695+00:00",
+    "stop_loss_pct": 0.00575,
+    "take_profit_pct": 0.01435,
+    "size_usd": 544.07,
+    "position_size_pct": 0.0051,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (38.5)",
+      "5d momentum -0.66%",
+      "1d momentum -0.66%",
+      "BB oversold (pct_b=-0.08)",
+      "Volume spike 2.4\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.282,
+    "news_headlines": [
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+      "Aptos climbs to the top 4 blockchains in transaction count",
+      "How tokenized stocks could become a $3 trillion market"
     ],
     "mode": "paper",
     "strategy_version": "79",
