@@ -221,8 +221,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 112.60600280761719,
-    "trailing_stop_price": 111.969779
+    "price_peak": 112.61000061035156,
+    "trailing_stop_price": 111.973754
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -343,39 +343,6 @@
     "price_trough": 82.87000274658203,
     "trailing_stop_price": 83.532963
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260805182001",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1917.9599609375,
-    "entry_time": "2026-08-05T18:20:01.145190+00:00",
-    "stop_loss_pct": 0.00633,
-    "take_profit_pct": 0.01541,
-    "size_usd": 4057.85,
-    "position_size_pct": 0.0385,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (82.1)",
-      "5d momentum +2.18%",
-      "1d momentum +2.35%",
-      "BB overbought (pct_b=1.21)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.368,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
-      "Why Hasn\u2019t XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution",
-      "XRP Price to $4.90? Bullish Calls Grow as Holders Can Now Borrow RLUSD Against FXRP"
-    ],
-    "mode": "paper",
-    "strategy_version": "78",
-    "status": "open",
-    "price_trough": 1895.0,
-    "trailing_stop_price": 1906.99535
-  },
   "MPC": {
     "id": "MPC_20260805195955",
     "asset": "MPC",
@@ -439,39 +406,6 @@
     "status": "open",
     "price_trough": 114.87999725341797,
     "trailing_stop_price": 116.27464
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260805195955",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 64838.421875,
-    "entry_time": "2026-08-05T19:59:55.753558+00:00",
-    "stop_loss_pct": 0.00406,
-    "take_profit_pct": 0.00988,
-    "size_usd": 5902.96,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (70.5)",
-      "5d momentum +0.64%",
-      "1d momentum +1.02%",
-      "BB overbought (pct_b=1.05)",
-      "Volume spike 3.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge; price decline"
-    ],
-    "news_sentiment": 0.296,
-    "news_headlines": [
-      "Bitcoin faces its toughest month: Can it rally in August?",
-      "Strategy\u2019s Preferred Stock Recovers As Company Builds Cash Reserve",
-      "Gold surges on strong China demand as Bitcoin takes a breather"
-    ],
-    "mode": "paper",
-    "strategy_version": "78",
-    "status": "open",
-    "price_trough": 64441.19921875,
-    "trailing_stop_price": 64702.830488
   },
   "PFE": {
     "id": "PFE_20260805195955",
@@ -559,6 +493,66 @@
       "Crypto analyst says everything hinges on XRP holding key support",
       "Why Hasn\u2019t XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution",
       "The Man Who Sued Ripple Now Runs US Intelligence. Here\u2019s What That Lawsuit Is Still Costing XRP"
+    ],
+    "mode": "paper",
+    "strategy_version": "79",
+    "status": "open",
+    "price_peak": 1.0499999523162842,
+    "trailing_stop_price": 1.04434
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260806064023",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 64781.23046875,
+    "entry_time": "2026-08-06T06:40:23.452845+00:00",
+    "stop_loss_pct": 0.00247,
+    "take_profit_pct": 0.00571,
+    "size_usd": 4236.9,
+    "position_size_pct": 0.0399,
+    "confidence": 0.624,
+    "signals": [
+      "5d momentum +0.40%",
+      "1d momentum +0.91%",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.798,
+    "news_headlines": [
+      "Bitcoin faces its toughest month: Can it rally in August?",
+      "Strategy has gone six consecutive weeks without buying Bitcoin, here's what happened last time",
+      "Bitcoin Miners are Leaving the Network. Will It Impact BTC Price?"
+    ],
+    "mode": "paper",
+    "strategy_version": "79",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260806064023",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1911.3800048828125,
+    "entry_time": "2026-08-06T06:40:23.454910+00:00",
+    "stop_loss_pct": 0.00488,
+    "take_profit_pct": 0.01162,
+    "size_usd": 5187.49,
+    "position_size_pct": 0.0489,
+    "confidence": 0.764,
+    "signals": [
+      "RSI overbought (63.4)",
+      "5d momentum +0.34%",
+      "1d momentum +2.31%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.476,
+    "news_headlines": [
+      "Bitcoin faces its toughest month: Can it rally in August?",
+      "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
+      "Ethereum Price Forecast: Flag Pattern Breakout Could Push ETH to $2,500"
     ],
     "mode": "paper",
     "strategy_version": "79",
