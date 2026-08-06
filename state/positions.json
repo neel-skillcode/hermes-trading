@@ -373,8 +373,8 @@
     "mode": "paper",
     "strategy_version": "78",
     "status": "open",
-    "price_trough": 1909.8199462890625,
-    "trailing_stop_price": 1921.909107
+    "price_trough": 1895.0,
+    "trailing_stop_price": 1906.99535
   },
   "MPC": {
     "id": "MPC_20260805195955",
@@ -470,8 +470,8 @@
     "mode": "paper",
     "strategy_version": "78",
     "status": "open",
-    "price_trough": 64613.78125,
-    "trailing_stop_price": 64876.113202
+    "price_trough": 64441.19921875,
+    "trailing_stop_price": 64702.830488
   },
   "PFE": {
     "id": "PFE_20260805195955",
@@ -532,6 +532,36 @@
     ],
     "mode": "paper",
     "strategy_version": "78",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260806040102",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.041700005531311,
+    "entry_time": "2026-08-06T04:01:02.529862+00:00",
+    "stop_loss_pct": 0.00539,
+    "take_profit_pct": 0.01344,
+    "size_usd": 4843.58,
+    "position_size_pct": 0.0457,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (24.0)",
+      "5d momentum -1.84%",
+      "1d momentum -2.32%",
+      "BB oversold (pct_b=-0.08)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": -0.111,
+    "news_headlines": [
+      "Crypto analyst says everything hinges on XRP holding key support",
+      "Why Hasn\u2019t XRP Hit New Highs Like Bitcoin and Ethereum Despite Ripple Becoming a Top Financial Institution",
+      "The Man Who Sued Ripple Now Runs US Intelligence. Here\u2019s What That Lawsuit Is Still Costing XRP"
+    ],
+    "mode": "paper",
+    "strategy_version": "79",
     "status": "open"
   }
 }
