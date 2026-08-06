@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.8445000648498535,
-    "trailing_stop_price": 7.781744
+    "price_peak": 7.844799995422363,
+    "trailing_stop_price": 7.782042
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -221,8 +221,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 112.8010025024414,
-    "trailing_stop_price": 112.163677
+    "price_peak": 112.87200164794922,
+    "trailing_stop_price": 112.234275
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20260803011206",
@@ -253,8 +253,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 212.67100524902344,
-    "trailing_stop_price": 211.490681
+    "price_peak": 213.11399841308594,
+    "trailing_stop_price": 211.931216
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -340,8 +340,8 @@
     "mode": "paper",
     "strategy_version": "78",
     "status": "open",
-    "price_trough": 82.87000274658203,
-    "trailing_stop_price": 83.532963
+    "price_trough": 82.67500305175781,
+    "trailing_stop_price": 83.336403
   },
   "MPC": {
     "id": "MPC_20260805195955",
@@ -373,39 +373,8 @@
     "mode": "paper",
     "strategy_version": "78",
     "status": "open",
-    "price_peak": 297.75,
-    "trailing_stop_price": 293.28375
-  },
-  "USO": {
-    "id": "USO_20260805195955",
-    "asset": "USO",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 114.88500213623047,
-    "entry_time": "2026-08-05T19:59:55.751803+00:00",
-    "stop_loss_pct": 0.01214,
-    "take_profit_pct": 0.02896,
-    "size_usd": 5224.46,
-    "position_size_pct": 0.0493,
-    "confidence": 0.77,
-    "signals": [
-      "RSI oversold (19.1)",
-      "MACD crossover",
-      "1d momentum -11.07%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.522,
-    "news_headlines": [
-      "Trump Says Hormuz Deal Could Come Within 48 Hours: Do Prediction Markets Back Him Up?",
-      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
-      "Market Minute 8-4-26- Stocks Up, Oil Down - Day 2"
-    ],
-    "mode": "paper",
-    "strategy_version": "78",
-    "status": "open",
-    "price_trough": 114.87999725341797,
-    "trailing_stop_price": 116.27464
+    "price_peak": 299.80999755859375,
+    "trailing_stop_price": 295.312848
   },
   "PFE": {
     "id": "PFE_20260805195955",
@@ -466,7 +435,9 @@
     ],
     "mode": "paper",
     "strategy_version": "78",
-    "status": "open"
+    "status": "open",
+    "price_peak": 79.36000061035156,
+    "trailing_stop_price": 78.169601
   },
   "XRP-USD": {
     "id": "XRP-USD_20260806040102",
@@ -529,7 +500,9 @@
     ],
     "mode": "paper",
     "strategy_version": "79",
-    "status": "open"
+    "status": "open",
+    "price_peak": 6.460000038146973,
+    "trailing_stop_price": 6.402894
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260806132015",
@@ -557,6 +530,70 @@
       "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends",
       "Can Dogecoin Reach $1 in the Second Half of 2026? The Answer Might Shock You.",
       "Dogecoin Price Retests the Zone That Triggered 900% DOGE Rally"
+    ],
+    "mode": "paper",
+    "strategy_version": "79",
+    "status": "open",
+    "price_peak": 0.06905999779701233,
+    "trailing_stop_price": 0.06869
+  },
+  "SOUN": {
+    "id": "SOUN_20260806153457",
+    "asset": "SOUN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.162799835205078,
+    "entry_time": "2026-08-06T15:34:57.572066+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03429,
+    "size_usd": 3876.79,
+    "position_size_pct": 0.0366,
+    "confidence": 0.572,
+    "signals": [
+      "RSI overbought (76.0)",
+      "5d momentum +11.40%",
+      "1d momentum +16.66%",
+      "BB overbought (pct_b=0.99)",
+      "News +0.70 (conf 0.64) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.701,
+    "news_headlines": [
+      "SoundHound AI Rallies 12%, Unity Software Rises 11%, Datadog Sinks 15% as Traders Separate Software Winners From Losers",
+      "Wall Street Analysts Think SoundHound AI (SOUN) Is a Good Investment: Is It?",
+      "Nasdaq, Dow Futures Mixed Ahead Of Jobless Claims: Why SPCX, SNDK, SOUN, IONQ, FIG Stocks Are In Focus"
+    ],
+    "mode": "paper",
+    "strategy_version": "79",
+    "status": "open"
+  },
+  "SLB": {
+    "id": "SLB_20260806153457",
+    "asset": "SLB",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 52.092498779296875,
+    "entry_time": "2026-08-06T15:34:57.573610+00:00",
+    "stop_loss_pct": 0.00849,
+    "take_profit_pct": 0.02014,
+    "size_usd": 1299.74,
+    "position_size_pct": 0.0123,
+    "confidence": 0.742,
+    "signals": [
+      "RSI overbought (68.7)",
+      "5d momentum +3.32%",
+      "1d momentum +5.03%",
+      "BB overbought (pct_b=1.03)",
+      "News +0.85 (conf 0.72) \u2192 long",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.847,
+    "news_headlines": [
+      "How Baker Hughes' Chart Deal Could Reshape Its Growth and Risk Profile",
+      "Can TechnipFMC's Q2 Subsea Momentum Power Stronger 2026 Results Ahead?",
+      "SLB (SLB) Just Took a Hit. Here\u2019s Why Investors May Stay Bullish"
     ],
     "mode": "paper",
     "strategy_version": "79",
