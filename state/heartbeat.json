@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 106015.78,
+  "portfolio_balance": 106073.23,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 1.74,
-  "unrealized_pnl_usd": 630.3,
-  "equity_value": 106646.08,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 1.69,
+  "unrealized_pnl_usd": 585.11,
+  "equity_value": 106658.34,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42406.31,
+  "day_capital_used_usd": 37585.71,
   "swing_capital_used_usd": 52758.61,
-  "total_trades": 877,
-  "last_tick": "2026-08-05T23:31:44.647745+00:00",
+  "total_trades": 878,
+  "last_tick": "2026-08-06T00:55:02.433571+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.8445000648498535,
       "trailing_stop_price": 7.781744,
-      "current_price": 7.8431,
-      "unrealized_pnl_pct": 0.001123,
-      "unrealized_pnl_usd": 1.51
+      "current_price": 7.8433,
+      "unrealized_pnl_pct": 0.001149,
+      "unrealized_pnl_usd": 1.54
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3995800018310547,
       "trailing_stop_price": 1.410777,
-      "current_price": 1.40116,
-      "unrealized_pnl_pct": 0.005882,
-      "unrealized_pnl_usd": 39.41
+      "current_price": 1.40062,
+      "unrealized_pnl_pct": 0.006265,
+      "unrealized_pnl_usd": 41.97
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85795,
-      "unrealized_pnl_pct": -0.004708,
-      "unrealized_pnl_usd": -32.77
+      "current_price": 0.8581,
+      "unrealized_pnl_pct": -0.004883,
+      "unrealized_pnl_usd": -33.99
     },
     {
       "id": "XOM_20260729152343",
@@ -198,11 +198,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 0.8068100214004517,
-      "trailing_stop_price": 0.813265,
-      "current_price": 0.80683,
-      "unrealized_pnl_pct": 0.004073,
-      "unrealized_pnl_usd": 23.6
+      "price_trough": 0.8063200116157532,
+      "trailing_stop_price": 0.812771,
+      "current_price": 0.80631,
+      "unrealized_pnl_pct": 0.004715,
+      "unrealized_pnl_usd": 27.32
     },
     {
       "id": "USD/SEK_20260731121759",
@@ -226,11 +226,11 @@
       "mode": "paper",
       "strategy_version": "74",
       "status": "open",
-      "price_trough": 9.479379653930664,
-      "trailing_stop_price": 9.555215,
-      "current_price": 9.48365,
-      "unrealized_pnl_pct": 0.008553,
-      "unrealized_pnl_usd": 49.56
+      "price_trough": 9.477399826049805,
+      "trailing_stop_price": 9.553219,
+      "current_price": 9.47775,
+      "unrealized_pnl_pct": 0.009169,
+      "unrealized_pnl_usd": 53.13
     },
     {
       "id": "CAD/JPY_20260803011206",
@@ -260,45 +260,11 @@
       "mode": "paper",
       "strategy_version": "75",
       "status": "open",
-      "price_peak": 112.56700134277344,
-      "trailing_stop_price": 111.930998,
-      "current_price": 112.519997,
-      "unrealized_pnl_pct": 0.010807,
-      "unrealized_pnl_usd": 70.8
-    },
-    {
-      "id": "EUR/JPY_20260803011206",
-      "asset": "EUR/JPY",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 180.14199829101562,
-      "entry_time": "2026-08-03T01:12:06.072286+00:00",
-      "stop_loss_pct": 0.00504,
-      "take_profit_pct": 0.01184,
-      "size_usd": 4820.6,
-      "position_size_pct": 0.0447,
-      "confidence": 0.699,
-      "signals": [
-        "RSI oversold (25.6)",
-        "5d momentum -1.85%",
-        "1d momentum -2.57%",
-        "BB oversold (pct_b=-0.05)",
-        "News -1.00 (conf 0.70) \u2192 short",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-      ],
-      "news_sentiment": -1.0,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "mode": "paper",
-      "strategy_version": "75",
-      "status": "open",
-      "price_peak": 182.2270050048828,
-      "trailing_stop_price": 181.308581,
-      "current_price": 182.158997,
-      "unrealized_pnl_pct": 0.011197,
-      "unrealized_pnl_usd": 53.97
+      "price_peak": 112.60600280761719,
+      "trailing_stop_price": 111.969779,
+      "current_price": 112.607002,
+      "unrealized_pnl_pct": 0.011589,
+      "unrealized_pnl_usd": 75.92
     },
     {
       "id": "GBP/JPY_20260803011206",
@@ -329,11 +295,11 @@
       "mode": "paper",
       "strategy_version": "75",
       "status": "open",
-      "price_peak": 212.38400268554688,
-      "trailing_stop_price": 211.205271,
-      "current_price": 212.309998,
-      "unrealized_pnl_pct": 0.009131,
-      "unrealized_pnl_usd": 2.8
+      "price_peak": 212.4320068359375,
+      "trailing_stop_price": 211.253009,
+      "current_price": 212.421997,
+      "unrealized_pnl_pct": 0.009663,
+      "unrealized_pnl_usd": 2.97
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -359,9 +325,9 @@
       "status": "open",
       "price_trough": 9.510899543762207,
       "trailing_stop_price": 9.586987,
-      "current_price": 9.523,
-      "unrealized_pnl_pct": 0.001054,
-      "unrealized_pnl_usd": 6.11
+      "current_price": 9.52835,
+      "unrealized_pnl_pct": 0.000493,
+      "unrealized_pnl_usd": 2.86
     },
     {
       "id": "PYPL_20260804155552",
@@ -461,11 +427,11 @@
       "mode": "paper",
       "strategy_version": "78",
       "status": "open",
-      "price_trough": 1908.0,
-      "trailing_stop_price": 1920.07764,
-      "current_price": 1908.050049,
-      "unrealized_pnl_pct": 0.005167,
-      "unrealized_pnl_usd": 20.97
+      "price_trough": 1909.8199462890625,
+      "trailing_stop_price": 1921.909107,
+      "current_price": 1909.51001,
+      "unrealized_pnl_pct": 0.004406,
+      "unrealized_pnl_usd": 17.88
     },
     {
       "id": "MPC_20260805195955",
@@ -567,11 +533,11 @@
       "mode": "paper",
       "strategy_version": "78",
       "status": "open",
-      "price_trough": 64626.58984375,
-      "trailing_stop_price": 64888.973799,
-      "current_price": 64626.601562,
-      "unrealized_pnl_pct": 0.003267,
-      "unrealized_pnl_usd": 19.28
+      "price_trough": 64613.78125,
+      "trailing_stop_price": 64876.113202,
+      "current_price": 64613.78125,
+      "unrealized_pnl_pct": 0.003465,
+      "unrealized_pnl_usd": 20.45
     },
     {
       "id": "PFE_20260805195955",
@@ -707,7 +673,7 @@
     },
     {
       "asset": "LLY",
-      "rank_score": 0.6112,
+      "rank_score": 0.6118,
       "price": 1168.7750244140625,
       "rsi": 70.53688244380481,
       "momentum_5d": 0.021234446597687744,
@@ -717,12 +683,12 @@
       "bollinger_pct_b": 0.9461,
       "volume_spike": true,
       "volume_spike_ratio": 1.71,
-      "news_sentiment": 0.561,
-      "news_confidence": 0.71,
+      "news_sentiment": 0.587,
+      "news_confidence": 0.69,
       "news_headlines": [
         "The companies defying macro uncertainty and raising guidance: AlphaCheck",
         "Eli Lilly stock soars on strong demand for weight-loss drugs",
-        "Why Eli Lilly Stock Climbed Today"
+        "3 Medical Stocks Standing Out After Crushing Q2 Earnings Expectations"
       ],
       "high_impact_news": true
     },
@@ -762,9 +728,28 @@
       "news_sentiment": 0.586,
       "news_confidence": 0.64,
       "news_headlines": [
+        "Pfizer (PFE) Could Be 12% Undervalued Following Raised 2026 Revenue Guidance",
         "Why PFE Stock Hands You So Much Cash Right Now",
-        "3 Beaten-Down Stocks to Hold for the Next 10 Years",
-        "Pfizer Stock Slips Despite Earnings Beat and $2.5 Billion Cuts"
+        "3 Beaten-Down Stocks to Hold for the Next 10 Years"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "EUR/JPY",
+      "rank_score": 0.5817,
+      "price": 182.2899932861328,
+      "rsi": 65.28117359413203,
+      "momentum_5d": 0.0006147806845289771,
+      "momentum_1d": 0.0033353929332905455,
+      "macd_crossover": true,
+      "atr_pct": 0.0009016285732246658,
+      "bollinger_pct_b": 0.9679,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -1.0,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
       ],
       "high_impact_news": true
     },
@@ -791,7 +776,7 @@
     },
     {
       "asset": "GOOGL",
-      "rank_score": 0.5736,
+      "rank_score": 0.5666,
       "price": 362.4700012207031,
       "rsi": 33.70555871921226,
       "momentum_5d": -0.04299614117877593,
@@ -801,8 +786,8 @@
       "bollinger_pct_b": 0.0776,
       "volume_spike": false,
       "volume_spike_ratio": 0.85,
-      "news_sentiment": 0.56,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.467,
+      "news_confidence": 0.45,
       "news_headlines": [
         "Tech stocks today: Google shakes up AI leadership, SpaceX plunges",
         "This SpaceX number is spooking already skittish investors",
@@ -895,27 +880,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "NVDA",
-      "rank_score": 0.537,
-      "price": 219.1999969482422,
-      "rsi": 76.70744507228899,
-      "momentum_5d": 0.0004107358753134577,
-      "momentum_1d": 0.1000978222713146,
-      "macd_crossover": false,
-      "atr_pct": 0.011754583059002796,
-      "bollinger_pct_b": 0.7566,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.95,
-      "news_sentiment": 0.871,
-      "news_confidence": 0.62,
-      "news_headlines": [
-        "Nvidia stock rises after Musk says SpaceX will exclusively use company's chips",
-        "SpaceX stock declines post-earnings. Are investors worried about AI spending?",
-        "Amazon and Alphabet Just Crushed Expectations. Which Is the Better Buy Now?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MS",
       "rank_score": 0.5364,
       "price": 218.27000427246094,
@@ -933,6 +897,27 @@
         "Sector Update: Financial Stocks Advance Late Afternoon",
         "Sector Update: Financial Stocks Rise in Afternoon Trading",
         "AMD Shows Strong Outlook, but Warrants Limit Potential, Morgan Stanley Says"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NVDA",
+      "rank_score": 0.536,
+      "price": 219.1999969482422,
+      "rsi": 76.70744507228899,
+      "momentum_5d": 0.0004107358753134577,
+      "momentum_1d": 0.1000978222713146,
+      "macd_crossover": false,
+      "atr_pct": 0.011754583059002796,
+      "bollinger_pct_b": 0.7566,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.95,
+      "news_sentiment": 0.869,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Nvidia stock rises after Musk says SpaceX will exclusively use company's chips",
+        "SpaceX stock declines post-earnings. Are investors worried about AI spending?",
+        "Dow Jones Futures: Nvidia Lifts Dow, But Google, SpaceX Skid; Sandisk, Western Digital Lead Earnings Losers Late"
       ],
       "high_impact_news": true
     },
@@ -980,7 +965,7 @@
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.5211,
+      "rank_score": 0.5171,
       "price": 158.4250030517578,
       "rsi": 85.65945892214839,
       "momentum_5d": -0.0065529451366784465,
@@ -990,8 +975,8 @@
       "bollinger_pct_b": 0.6312,
       "volume_spike": false,
       "volume_spike_ratio": 0.4,
-      "news_sentiment": 0.477,
-      "news_confidence": 0.65,
+      "news_sentiment": 0.443,
+      "news_confidence": 0.61,
       "news_headlines": [
         "AI Trailblazers Nvidia, Palantir, Alphabet, and Meta Are Shaking Wall Street to Its Core With This $3.4 Billion Warning",
         "Palantir Keeps Beating Estimates, But The Price Keeps Getting Steeper",
@@ -1028,7 +1013,7 @@
       "momentum_5d": 0.007534186224126267,
       "momentum_1d": 0.032270919079585014,
       "macd_crossover": false,
-      "atr_pct": 0.008218042816898927,
+      "atr_pct": 0.007958443463364977,
       "bollinger_pct_b": 0.9188,
       "volume_spike": false,
       "volume_spike_ratio": 0.89,
@@ -1038,27 +1023,6 @@
         "Price hikes on consumer electronics could be here to stay. Here's why.",
         "The Calm Surface of Alphabet Stock Hides a Turbulent Forecast",
         "SpaceX\u2019s $1T Goal and 3 More Shockers From Musk on the Earnings Call"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "INTC",
-      "rank_score": 0.5063,
-      "price": 101.08000183105469,
-      "rsi": 78.32672408026468,
-      "momentum_5d": 0.014858461082159612,
-      "momentum_1d": 0.09423547313726319,
-      "macd_crossover": false,
-      "atr_pct": 0.01974122512357115,
-      "bollinger_pct_b": 0.6774,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.78,
-      "news_sentiment": 0.809,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "The companies defying macro uncertainty and raising guidance: AlphaCheck",
-        "Tech, Media & Telecom Roundup: Market Talk",
-        "SpaceX, Alphabet, Nvidia, Micron, AMD, Uber, CVS, Lilly, and More Stocks That Explain Today\u2019s Market"
       ],
       "high_impact_news": true
     }
