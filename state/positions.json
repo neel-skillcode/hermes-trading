@@ -253,8 +253,8 @@
     "mode": "paper",
     "strategy_version": "75",
     "status": "open",
-    "price_peak": 212.55499267578125,
-    "trailing_stop_price": 211.375312
+    "price_peak": 212.67100524902344,
+    "trailing_stop_price": 211.490681
   },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
@@ -500,35 +500,6 @@
     "price_peak": 1.0499999523162842,
     "trailing_stop_price": 1.04434
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260806064023",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1911.3800048828125,
-    "entry_time": "2026-08-06T06:40:23.454910+00:00",
-    "stop_loss_pct": 0.00488,
-    "take_profit_pct": 0.01162,
-    "size_usd": 5187.49,
-    "position_size_pct": 0.0489,
-    "confidence": 0.764,
-    "signals": [
-      "RSI overbought (63.4)",
-      "5d momentum +0.34%",
-      "1d momentum +2.31%",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.476,
-    "news_headlines": [
-      "Bitcoin faces its toughest month: Can it rally in August?",
-      "Bitcoin and ethereum prices today, Wednesday, August 5, 2026:  Crypto prices rise as investors watch Hormuz negotiations and jobs report closely",
-      "Ethereum Price Forecast: Flag Pattern Breakout Could Push ETH to $2,500"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open"
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260806114213",
     "asset": "AVAX-USD",
@@ -555,6 +526,37 @@
       "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
       "Aptos climbs to the top 4 blockchains in transaction count",
       "How tokenized stocks could become a $3 trillion market"
+    ],
+    "mode": "paper",
+    "strategy_version": "79",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260806132015",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.0685499981045723,
+    "entry_time": "2026-08-06T13:20:15.111433+00:00",
+    "stop_loss_pct": 0.00536,
+    "take_profit_pct": 0.01338,
+    "size_usd": 5169.64,
+    "position_size_pct": 0.0488,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (25.3)",
+      "5d momentum -1.96%",
+      "1d momentum -1.69%",
+      "BB oversold (pct_b=-0.06)",
+      "Volume spike 3.8\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends",
+      "Can Dogecoin Reach $1 in the Second Half of 2026? The Answer Might Shock You.",
+      "Dogecoin Price Retests the Zone That Triggered 900% DOGE Rally"
     ],
     "mode": "paper",
     "strategy_version": "79",
