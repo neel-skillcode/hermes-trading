@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.8450798988342285,
-    "trailing_stop_price": 7.782319
+    "price_peak": 7.845099925994873,
+    "trailing_stop_price": 7.782339
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.395550012588501,
-    "trailing_stop_price": 1.406714
+    "price_trough": 1.3940099477767944,
+    "trailing_stop_price": 1.405162
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -280,8 +280,8 @@
     "mode": "paper",
     "strategy_version": "79",
     "status": "open",
-    "price_trough": 51.380001068115234,
-    "trailing_stop_price": 51.816217
+    "price_trough": 51.369998931884766,
+    "trailing_stop_price": 51.80613
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260807003105",
@@ -424,8 +424,8 @@
     "mode": "paper",
     "strategy_version": "80",
     "status": "open",
-    "price_trough": 1929.31005859375,
-    "trailing_stop_price": 1936.178402
+    "price_trough": 1922.6500244140625,
+    "trailing_stop_price": 1929.494659
   },
   "SLV": {
     "id": "SLV_20260807133657",
@@ -457,7 +457,9 @@
     ],
     "mode": "paper",
     "strategy_version": "80",
-    "status": "open"
+    "status": "open",
+    "price_trough": 57.595001220703125,
+    "trailing_stop_price": 58.11566
   },
   "GLD": {
     "id": "GLD_20260807133657",
@@ -489,7 +491,9 @@
     ],
     "mode": "paper",
     "strategy_version": "80",
-    "status": "open"
+    "status": "open",
+    "price_trough": 398.8699951171875,
+    "trailing_stop_price": 401.37091
   },
   "KLAC": {
     "id": "KLAC_20260807133657",
@@ -521,38 +525,9 @@
     ],
     "mode": "paper",
     "strategy_version": "80",
-    "status": "open"
-  },
-  "SOUN": {
-    "id": "SOUN_20260807133657",
-    "asset": "SOUN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.425000190734863,
-    "entry_time": "2026-08-07T13:36:57.567859+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03458,
-    "size_usd": 4143.42,
-    "position_size_pct": 0.0391,
-    "confidence": 0.611,
-    "signals": [
-      "RSI overbought (73.7)",
-      "5d momentum +4.14%",
-      "1d momentum +21.32%",
-      "BB overbought (pct_b=0.96)",
-      "News +0.81 (conf 0.81) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.815,
-    "news_headlines": [
-      "Stock Market Today, Aug. 6: SoundHound AI Surges 10% on Record Q2 Revenue and Raised 2026 Guidance",
-      "Why SoundHound AI Stock Surged Today",
-      "SoundHound AI (SOUN) Is Up 12.8% After Raising 2026 Revenue Outlook On OASYS Momentum"
-    ],
-    "mode": "paper",
-    "strategy_version": "80",
-    "status": "open"
+    "status": "open",
+    "price_trough": 196.8000030517578,
+    "trailing_stop_price": 199.752003
   },
   "IONQ": {
     "id": "IONQ_20260807133657",
@@ -582,6 +557,40 @@
     ],
     "mode": "paper",
     "strategy_version": "80",
+    "status": "open",
+    "price_trough": 42.08000183105469,
+    "trailing_stop_price": 42.711202
+  },
+  "LYFT": {
+    "id": "LYFT_20260807143628",
+    "asset": "LYFT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 17.125,
+    "entry_time": "2026-08-07T14:36:28.541135+00:00",
+    "stop_loss_pct": 0.01256,
+    "take_profit_pct": 0.02997,
+    "size_usd": 4092.08,
+    "position_size_pct": 0.0387,
+    "confidence": 0.773,
+    "signals": [
+      "RSI overbought (66.4)",
+      "MACD crossover",
+      "5d momentum +5.35%",
+      "1d momentum +5.22%",
+      "BB overbought (pct_b=1.11)",
+      "News +0.76 (conf 0.69) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.761,
+    "news_headlines": [
+      "Lyft Q2 2026 earnings: record bookings, profit miss",
+      "Lyft Q2 Earnings Call Highlights",
+      "Is Stronger Profitability And Governance Change Altering The Investment Case For Lyft (LYFT)?"
+    ],
+    "mode": "paper",
+    "strategy_version": "81",
     "status": "open"
   }
 }
