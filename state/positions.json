@@ -346,39 +346,6 @@
     "price_peak": 79.36000061035156,
     "trailing_stop_price": 78.169601
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260806114213",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.446000099182129,
-    "entry_time": "2026-08-06T11:42:13.518809+00:00",
-    "stop_loss_pct": 0.00884,
-    "take_profit_pct": 0.02207,
-    "size_usd": 4769.8,
-    "position_size_pct": 0.045,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (23.4)",
-      "5d momentum -3.31%",
-      "1d momentum -3.17%",
-      "BB oversold (pct_b=-0.11)",
-      "Volume spike 2.8\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.282,
-    "news_headlines": [
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-      "Aptos climbs to the top 4 blockchains in transaction count",
-      "How tokenized stocks could become a $3 trillion market"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open",
-    "price_peak": 6.460000038146973,
-    "trailing_stop_price": 6.402894
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260806132015",
     "asset": "DOGE-USD",
@@ -538,37 +505,9 @@
     ],
     "mode": "paper",
     "strategy_version": "79",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260807003105",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.0335999727249146,
-    "entry_time": "2026-08-07T00:31:05.243354+00:00",
-    "stop_loss_pct": 0.00591,
-    "take_profit_pct": 0.0144,
-    "size_usd": 1799.73,
-    "position_size_pct": 0.017,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (24.6)",
-      "5d momentum -0.68%",
-      "1d momentum -2.61%",
-      "BB oversold (pct_b=0.11)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.311,
-    "news_headlines": [
-      "XRP Price Prediction: Can XRP Reach $50?",
-      "XRP, Bitcoin Whales Are Accumulating\u2014Is the Bear Market Nearly Over?",
-      "Another major ETF discloses massive XRP sale"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open"
+    "status": "open",
+    "price_peak": 72.62000274658203,
+    "trailing_stop_price": 72.223498
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260807003105",
@@ -595,6 +534,39 @@
     ],
     "mode": "paper",
     "strategy_version": "79",
+    "status": "open",
+    "price_trough": 182.52099609375,
+    "trailing_stop_price": 183.981164
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260807051819",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 586.4400024414062,
+    "entry_time": "2026-08-07T05:18:19.684510+00:00",
+    "stop_loss_pct": 0.00314,
+    "take_profit_pct": 0.00783,
+    "size_usd": 6544.68,
+    "position_size_pct": 0.0619,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (28.9)",
+      "5d momentum -1.00%",
+      "1d momentum -1.63%",
+      "BB oversold (pct_b=-0.21)",
+      "Volume spike 2.7\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.059,
+    "news_headlines": [
+      "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
+      "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund",
+      "Cardano Tops Weekly Crypto Gainer Charts as ADA Soars 11% Over 7 Days \u2014 Bitcoin, Dogecoin Left in the Dust"
+    ],
+    "mode": "paper",
+    "strategy_version": "80",
     "status": "open"
   }
 }
