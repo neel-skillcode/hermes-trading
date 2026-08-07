@@ -441,39 +441,6 @@
     "price_trough": 182.52099609375,
     "trailing_stop_price": 183.981164
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260807051819",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 586.4400024414062,
-    "entry_time": "2026-08-07T05:18:19.684510+00:00",
-    "stop_loss_pct": 0.00314,
-    "take_profit_pct": 0.00783,
-    "size_usd": 6544.68,
-    "position_size_pct": 0.0619,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (28.9)",
-      "5d momentum -1.00%",
-      "1d momentum -1.63%",
-      "BB oversold (pct_b=-0.21)",
-      "Volume spike 2.7\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.059,
-    "news_headlines": [
-      "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
-      "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund",
-      "Cardano Tops Weekly Crypto Gainer Charts as ADA Soars 11% Over 7 Days \u2014 Bitcoin, Dogecoin Left in the Dust"
-    ],
-    "mode": "paper",
-    "strategy_version": "80",
-    "status": "open",
-    "price_peak": 589.5999755859375,
-    "trailing_stop_price": 587.748632
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260807094533",
     "asset": "SOL-USD",
@@ -503,37 +470,9 @@
     ],
     "mode": "paper",
     "strategy_version": "80",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260807094533",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 64855.921875,
-    "entry_time": "2026-08-07T09:45:33.340033+00:00",
-    "stop_loss_pct": 0.00285,
-    "take_profit_pct": 0.00674,
-    "size_usd": 4998.36,
-    "position_size_pct": 0.0472,
-    "confidence": 0.737,
-    "signals": [
-      "RSI overbought (69.9)",
-      "5d momentum +1.03%",
-      "BB overbought (pct_b=1.12)",
-      "Volume spike 7.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": -0.019,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
-      "Bitcoin Bulls Go Missing as BTC Upside Volatility Sinks to All-Time Low: Glassnode",
-      "Why Is The Crypto Market Down Today?"
-    ],
-    "mode": "paper",
-    "strategy_version": "80",
-    "status": "open"
+    "status": "open",
+    "price_trough": 73.58999633789062,
+    "trailing_stop_price": 73.893923
   },
   "ETH-USD": {
     "id": "ETH-USD_20260807094533",
@@ -591,6 +530,60 @@
       "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends",
       "Can Dogecoin Reach $1 in the Second Half of 2026? The Answer Might Shock You."
     ],
+    "mode": "paper",
+    "strategy_version": "80",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260807112833",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 65073.6484375,
+    "entry_time": "2026-08-07T11:28:33.445384+00:00",
+    "stop_loss_pct": 0.00327,
+    "take_profit_pct": 0.00795,
+    "size_usd": 5902.4,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (75.8)",
+      "5d momentum +1.28%",
+      "1d momentum +0.81%",
+      "BB overbought (pct_b=1.18)",
+      "Volume spike 3.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": -0.131,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
+      "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain",
+      "Bitcoin Could Split in Two This Weekend: What Holders Need to Know"
+    ],
+    "mode": "paper",
+    "strategy_version": "80",
+    "status": "open"
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20260807112833",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 17.16200065612793,
+    "entry_time": "2026-08-07T11:28:33.447338+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 4206.31,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (26.0)",
+      "1d momentum -0.48%",
+      "BB oversold (pct_b=0.06)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "80",
     "status": "open"
