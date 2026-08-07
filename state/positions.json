@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.845200061798096,
-    "trailing_stop_price": 7.782438
+    "price_peak": 7.845620155334473,
+    "trailing_stop_price": 7.782855
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3938299417495728,
-    "trailing_stop_price": 1.404981
+    "price_trough": 1.3934999704360962,
+    "trailing_stop_price": 1.404648
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -280,8 +280,8 @@
     "mode": "paper",
     "strategy_version": "79",
     "status": "open",
-    "price_trough": 51.369998931884766,
-    "trailing_stop_price": 51.80613
+    "price_trough": 51.17499923706055,
+    "trailing_stop_price": 51.609475
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260807003105",
@@ -309,8 +309,8 @@
     "mode": "paper",
     "strategy_version": "79",
     "status": "open",
-    "price_trough": 182.21800231933594,
-    "trailing_stop_price": 183.675746
+    "price_trough": 181.9929962158203,
+    "trailing_stop_price": 183.44894
   },
   "BTC-USD": {
     "id": "BTC-USD_20260807112833",
@@ -342,8 +342,8 @@
     "mode": "paper",
     "strategy_version": "80",
     "status": "open",
-    "price_trough": 64950.05078125,
-    "trailing_stop_price": 65162.437447
+    "price_trough": 64601.91015625,
+    "trailing_stop_price": 64813.158402
   },
   "USD/MXN": {
     "id": "USD/MXN_20260807112833",
@@ -397,39 +397,8 @@
     "mode": "paper",
     "strategy_version": "80",
     "status": "open",
-    "price_trough": 0.06977999955415726,
-    "trailing_stop_price": 0.070063
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260807121007",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1929.4000244140625,
-    "entry_time": "2026-08-07T12:10:07.491616+00:00",
-    "stop_loss_pct": 0.00356,
-    "take_profit_pct": 0.00833,
-    "size_usd": 3816.26,
-    "position_size_pct": 0.036,
-    "confidence": 0.68,
-    "signals": [
-      "RSI overbought (77.5)",
-      "5d momentum +1.50%",
-      "1d momentum +1.72%",
-      "BB overbought (pct_b=1.29)",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.217,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
-      "Morning Minute: MetaMask Hands AI Agents a Wallet",
-      "XRP Lost 93% of Its Institutional Money, But Whales Smelled a Bargain"
-    ],
-    "mode": "paper",
-    "strategy_version": "80",
-    "status": "open",
-    "price_trough": 1915.739990234375,
-    "trailing_stop_price": 1922.560025
+    "price_trough": 0.0694499984383583,
+    "trailing_stop_price": 0.069732
   },
   "SLV": {
     "id": "SLV_20260807133657",
@@ -462,8 +431,8 @@
     "mode": "paper",
     "strategy_version": "80",
     "status": "open",
-    "price_trough": 57.30590057373047,
-    "trailing_stop_price": 57.823946
+    "price_trough": 57.13999938964844,
+    "trailing_stop_price": 57.656545
   },
   "GLD": {
     "id": "GLD_20260807133657",
@@ -496,8 +465,8 @@
     "mode": "paper",
     "strategy_version": "80",
     "status": "open",
-    "price_trough": 398.8699951171875,
-    "trailing_stop_price": 401.37091
+    "price_trough": 397.8800048828125,
+    "trailing_stop_price": 400.374713
   },
   "KLAC": {
     "id": "KLAC_20260807133657",
@@ -594,6 +563,37 @@
       "SpaceX's influence ripples across markets: AlphaCheck",
       "Alex Karp Was Right. But Is it Too Late to Buy Palantir Stock or Does a Big Breakout Loom?",
       "Stock Market Today: Nasdaq Leads After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "81",
+    "status": "open"
+  },
+  "SOUN": {
+    "id": "SOUN_20260807172259",
+    "asset": "SOUN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.824999809265137,
+    "entry_time": "2026-08-07T17:22:59.841128+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03468,
+    "size_usd": 3833.2,
+    "position_size_pct": 0.0362,
+    "confidence": 0.624,
+    "signals": [
+      "RSI overbought (79.3)",
+      "5d momentum +11.04%",
+      "1d momentum +23.33%",
+      "BB overbought (pct_b=0.94)",
+      "News +0.87 (conf 0.83) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.873,
+    "news_headlines": [
+      "SOUN Q2 Earnings Call Focuses on OASYS and Higher Outlook",
+      "SoundHound AI (SOUN) Stock Looks Fully Priced On Sales But Strong On Returns",
+      "Stock Market Today, Aug. 6: SoundHound AI Surges 10% on Record Q2 Revenue and Raised 2026 Guidance"
     ],
     "mode": "paper",
     "strategy_version": "81",
