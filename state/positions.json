@@ -250,39 +250,6 @@
     "price_trough": 82.5199966430664,
     "trailing_stop_price": 83.180157
   },
-  "SLB": {
-    "id": "SLB_20260806153457",
-    "asset": "SLB",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 52.092498779296875,
-    "entry_time": "2026-08-06T15:34:57.573610+00:00",
-    "stop_loss_pct": 0.00849,
-    "take_profit_pct": 0.02014,
-    "size_usd": 1299.74,
-    "position_size_pct": 0.0123,
-    "confidence": 0.742,
-    "signals": [
-      "RSI overbought (68.7)",
-      "5d momentum +3.32%",
-      "1d momentum +5.03%",
-      "BB overbought (pct_b=1.03)",
-      "News +0.85 (conf 0.72) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.847,
-    "news_headlines": [
-      "How Baker Hughes' Chart Deal Could Reshape Its Growth and Risk Profile",
-      "Can TechnipFMC's Q2 Subsea Momentum Power Stronger 2026 Results Ahead?",
-      "SLB (SLB) Just Took a Hit. Here\u2019s Why Investors May Stay Bullish"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open",
-    "price_trough": 51.17499923706055,
-    "trailing_stop_price": 51.609475
-  },
   "EUR/JPY": {
     "id": "EUR/JPY_20260807003105",
     "asset": "EUR/JPY",
@@ -569,22 +536,22 @@
     "status": "open"
   },
   "SOUN": {
-    "id": "SOUN_20260807172259",
+    "id": "SOUN_20260807180837",
     "asset": "SOUN",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 7.824999809265137,
-    "entry_time": "2026-08-07T17:22:59.841128+00:00",
+    "entry_price": 7.945000171661377,
+    "entry_time": "2026-08-07T18:08:37.675090+00:00",
     "stop_loss_pct": 0.015,
     "take_profit_pct": 0.03468,
-    "size_usd": 3833.2,
-    "position_size_pct": 0.0362,
+    "size_usd": 4226.87,
+    "position_size_pct": 0.0399,
     "confidence": 0.624,
     "signals": [
-      "RSI overbought (79.3)",
-      "5d momentum +11.04%",
-      "1d momentum +23.33%",
-      "BB overbought (pct_b=0.94)",
+      "RSI overbought (81.7)",
+      "5d momentum +12.51%",
+      "1d momentum +24.24%",
+      "BB overbought (pct_b=0.93)",
       "News +0.87 (conf 0.83) \u2192 long",
       "High-impact catalyst",
       "Claude [contradicts]: earnings beat; price surge"
@@ -594,6 +561,36 @@
       "SOUN Q2 Earnings Call Focuses on OASYS and Higher Outlook",
       "SoundHound AI (SOUN) Stock Looks Fully Priced On Sales But Strong On Returns",
       "Stock Market Today, Aug. 6: SoundHound AI Surges 10% on Record Q2 Revenue and Raised 2026 Guidance"
+    ],
+    "mode": "paper",
+    "strategy_version": "81",
+    "status": "open"
+  },
+  "IONQ": {
+    "id": "IONQ_20260807180837",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 43.489898681640625,
+    "entry_time": "2026-08-07T18:08:37.677019+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 894.11,
+    "position_size_pct": 0.0084,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (65.4)",
+      "5d momentum +9.63%",
+      "1d momentum +6.28%",
+      "BB overbought (pct_b=0.99)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.782,
+    "news_headlines": [
+      "What Sent IonQ Shares Surging and Whether the Momentum Can Last",
+      "Rigetti Stock Rises as Major Quantum Orders Fuel Growth",
+      "Two Quantum IPOs Face Their First Big Earnings Tests"
     ],
     "mode": "paper",
     "strategy_version": "81",
