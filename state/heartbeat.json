@@ -3,15 +3,15 @@
   "portfolio_balance": 105861.57,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.89,
-  "unrealized_pnl_usd": 376.94,
-  "equity_value": 106238.51,
+  "unrealized_pnl_usd": 389.27,
+  "equity_value": 106250.84,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42344.63,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 918,
-  "last_tick": "2026-08-07T22:02:32.664433+00:00",
+  "last_tick": "2026-08-07T22:49:35.577114+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -669,9 +669,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 1.0224,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1.0192999839782715,
+      "trailing_stop_price": 1.024631,
+      "current_price": 1.0194,
+      "unrealized_pnl_pct": 0.002934,
+      "unrealized_pnl_usd": 12.33
     }
   ],
   "last_candidates": [
@@ -739,6 +741,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "IONQ",
+      "rank_score": 0.6858,
+      "price": 44.439998626708984,
+      "rsi": 73.9437220251988,
+      "momentum_5d": 0.03904601709309012,
+      "momentum_1d": 0.07019860309971127,
+      "macd_crossover": false,
+      "atr_pct": 0.02774994916168935,
+      "bollinger_pct_b": 0.9835,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.94,
+      "news_sentiment": 0.836,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Congress Eyes Boosting Quantum Funds as Global Race Heats Up",
+        "Why IonQ Stock Crashed 31.6% In July",
+        "What Sent IonQ Shares Surging and Whether the Momentum Can Last"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRNA",
       "rank_score": 0.6821,
       "price": 59.16999816894531,
@@ -756,27 +779,6 @@
         "Moderna Q2 Earnings Call Highlights Cost Cuts and Pipeline Milestones",
         "Moderna (MRNA) Starts Phase 1 Canada Trial For Bundibugyo Ebola mRNA Vaccine",
         "Roivant Sciences Q1 Earnings Call Highlights"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.6788,
-      "price": 44.439998626708984,
-      "rsi": 73.9437220251988,
-      "momentum_5d": 0.03904601709309012,
-      "momentum_1d": 0.07019860309971127,
-      "macd_crossover": false,
-      "atr_pct": 0.02774994916168935,
-      "bollinger_pct_b": 0.9835,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.94,
-      "news_sentiment": 0.786,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Why IonQ Stock Crashed 31.6% In July",
-        "What Sent IonQ Shares Surging and Whether the Momentum Can Last",
-        "Rigetti Stock Rises as Major Quantum Orders Fuel Growth"
       ],
       "high_impact_news": true
     },
