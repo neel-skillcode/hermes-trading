@@ -346,39 +346,6 @@
     "price_peak": 79.36000061035156,
     "trailing_stop_price": 78.169601
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260806132015",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.0685499981045723,
-    "entry_time": "2026-08-06T13:20:15.111433+00:00",
-    "stop_loss_pct": 0.00536,
-    "take_profit_pct": 0.01338,
-    "size_usd": 5169.64,
-    "position_size_pct": 0.0488,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (25.3)",
-      "5d momentum -1.96%",
-      "1d momentum -1.69%",
-      "BB oversold (pct_b=-0.06)",
-      "Volume spike 3.8\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends",
-      "Can Dogecoin Reach $1 in the Second Half of 2026? The Answer Might Shock You.",
-      "Dogecoin Price Retests the Zone That Triggered 900% DOGE Rally"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open",
-    "price_peak": 0.06905999779701233,
-    "trailing_stop_price": 0.06869
-  },
   "SOUN": {
     "id": "SOUN_20260806153457",
     "asset": "SOUN",
@@ -445,70 +412,6 @@
     "price_trough": 51.540000915527344,
     "trailing_stop_price": 51.977576
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260807003105",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 64204.96875,
-    "entry_time": "2026-08-07T00:31:05.239958+00:00",
-    "stop_loss_pct": 0.0037,
-    "take_profit_pct": 0.00924,
-    "size_usd": 6702.93,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (31.0)",
-      "5d momentum -0.55%",
-      "1d momentum -0.57%",
-      "BB oversold (pct_b=0.02)",
-      "Volume spike 5.3\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.25,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
-      "Cleanspark Q3 Earnings Call Highlights",
-      "Meme coin surges 77% on Robinhood listing"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260807003105",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 72.58000183105469,
-    "entry_time": "2026-08-07T00:31:05.241856+00:00",
-    "stop_loss_pct": 0.00546,
-    "take_profit_pct": 0.01362,
-    "size_usd": 6702.93,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (24.7)",
-      "5d momentum -0.74%",
-      "1d momentum -1.85%",
-      "BB oversold (pct_b=0.09)",
-      "Volume spike 1.5\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.474,
-    "news_headlines": [
-      "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
-      "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund",
-      "Solana leads every blockchain in tokenized gold growth"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open",
-    "price_peak": 72.62000274658203,
-    "trailing_stop_price": 72.223498
-  },
   "EUR/JPY": {
     "id": "EUR/JPY_20260807003105",
     "asset": "EUR/JPY",
@@ -564,6 +467,129 @@
       "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
       "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund",
       "Cardano Tops Weekly Crypto Gainer Charts as ADA Soars 11% Over 7 Days \u2014 Bitcoin, Dogecoin Left in the Dust"
+    ],
+    "mode": "paper",
+    "strategy_version": "80",
+    "status": "open",
+    "price_peak": 589.5999755859375,
+    "trailing_stop_price": 587.748632
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260807094533",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 73.66000366210938,
+    "entry_time": "2026-08-07T09:45:33.337741+00:00",
+    "stop_loss_pct": 0.00413,
+    "take_profit_pct": 0.01006,
+    "size_usd": 5900.37,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (78.4)",
+      "5d momentum +1.45%",
+      "1d momentum +0.60%",
+      "BB overbought (pct_b=1.13)",
+      "Volume spike 5.8\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.095,
+    "news_headlines": [
+      "Bonk Meme Coin Hits Nearly 3-Year Low After Upbit Announces September Delisting",
+      "Solana Price Prediction: Descending Price Channel Raises Odds of a Drop to $60",
+      "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle"
+    ],
+    "mode": "paper",
+    "strategy_version": "80",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260807094533",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 64855.921875,
+    "entry_time": "2026-08-07T09:45:33.340033+00:00",
+    "stop_loss_pct": 0.00285,
+    "take_profit_pct": 0.00674,
+    "size_usd": 4998.36,
+    "position_size_pct": 0.0472,
+    "confidence": 0.737,
+    "signals": [
+      "RSI overbought (69.9)",
+      "5d momentum +1.03%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 7.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": -0.019,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
+      "Bitcoin Bulls Go Missing as BTC Upside Volatility Sinks to All-Time Low: Glassnode",
+      "Why Is The Crypto Market Down Today?"
+    ],
+    "mode": "paper",
+    "strategy_version": "80",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260807094533",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1914.5999755859375,
+    "entry_time": "2026-08-07T09:45:33.341966+00:00",
+    "stop_loss_pct": 0.0035,
+    "take_profit_pct": 0.0085,
+    "size_usd": 5832.55,
+    "position_size_pct": 0.055,
+    "confidence": 0.86,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +1.00%",
+      "1d momentum +0.47%",
+      "BB overbought (pct_b=0.93)",
+      "Volume spike 9.9\u00d7",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.217,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Thursday, August 6, 2026: Prices firm as Hormuz negotiations continue and ADP jobs report misses",
+      "Tom Lee Sees S&P 500 at 8,000, Names Ethereum the Next Rally Leader",
+      "Meme coin surges 77% on Robinhood listing"
+    ],
+    "mode": "paper",
+    "strategy_version": "80",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260807094533",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.06950999796390533,
+    "entry_time": "2026-08-07T09:45:33.344151+00:00",
+    "stop_loss_pct": 0.00406,
+    "take_profit_pct": 0.00974,
+    "size_usd": 1940.26,
+    "position_size_pct": 0.0183,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (77.0)",
+      "5d momentum +0.77%",
+      "1d momentum +0.74%",
+      "BB overbought (pct_b=1.04)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.094,
+    "news_headlines": [
+      "Dogecoin cheers crypto payments to buy hoodie or tote bag",
+      "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends",
+      "Can Dogecoin Reach $1 in the Second Half of 2026? The Answer Might Shock You."
     ],
     "mode": "paper",
     "strategy_version": "80",
