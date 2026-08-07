@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.845099925994873,
-    "trailing_stop_price": 7.782339
+    "price_peak": 7.845200061798096,
+    "trailing_stop_price": 7.782438
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3940099477767944,
-    "trailing_stop_price": 1.405162
+    "price_trough": 1.3938299417495728,
+    "trailing_stop_price": 1.404981
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -309,8 +309,8 @@
     "mode": "paper",
     "strategy_version": "79",
     "status": "open",
-    "price_trough": 182.26199340820312,
-    "trailing_stop_price": 183.720089
+    "price_trough": 182.21800231933594,
+    "trailing_stop_price": 183.675746
   },
   "BTC-USD": {
     "id": "BTC-USD_20260807112833",
@@ -341,7 +341,9 @@
     ],
     "mode": "paper",
     "strategy_version": "80",
-    "status": "open"
+    "status": "open",
+    "price_trough": 64950.05078125,
+    "trailing_stop_price": 65162.437447
   },
   "USD/MXN": {
     "id": "USD/MXN_20260807112833",
@@ -394,7 +396,9 @@
     ],
     "mode": "paper",
     "strategy_version": "80",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.06977999955415726,
+    "trailing_stop_price": 0.070063
   },
   "ETH-USD": {
     "id": "ETH-USD_20260807121007",
@@ -424,8 +428,8 @@
     "mode": "paper",
     "strategy_version": "80",
     "status": "open",
-    "price_trough": 1922.6500244140625,
-    "trailing_stop_price": 1929.494659
+    "price_trough": 1915.739990234375,
+    "trailing_stop_price": 1922.560025
   },
   "SLV": {
     "id": "SLV_20260807133657",
@@ -458,8 +462,8 @@
     "mode": "paper",
     "strategy_version": "80",
     "status": "open",
-    "price_trough": 57.595001220703125,
-    "trailing_stop_price": 58.11566
+    "price_trough": 57.30590057373047,
+    "trailing_stop_price": 57.823946
   },
   "GLD": {
     "id": "GLD_20260807133657",
@@ -529,38 +533,6 @@
     "price_trough": 196.8000030517578,
     "trailing_stop_price": 199.752003
   },
-  "IONQ": {
-    "id": "IONQ_20260807133657",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 42.3672981262207,
-    "entry_time": "2026-08-07T13:36:57.570053+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 147.16,
-    "position_size_pct": 0.0014,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (61.4)",
-      "5d momentum +5.63%",
-      "1d momentum +6.49%",
-      "BB overbought (pct_b=1.03)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.741,
-    "news_headlines": [
-      "Why Rigetti Stock Isn\u2019t Rallying After Its Quantum Sales Surged",
-      "Two Quantum IPOs Face Their First Big Earnings Tests",
-      "IonQ Kicks Off Quantum Earnings Season as Revenue Nearly Quadruples"
-    ],
-    "mode": "paper",
-    "strategy_version": "80",
-    "status": "open",
-    "price_trough": 42.08000183105469,
-    "trailing_stop_price": 42.711202
-  },
   "LYFT": {
     "id": "LYFT_20260807143628",
     "asset": "LYFT",
@@ -588,6 +560,40 @@
       "Lyft Q2 2026 earnings: record bookings, profit miss",
       "Lyft Q2 Earnings Call Highlights",
       "Is Stronger Profitability And Governance Change Altering The Investment Case For Lyft (LYFT)?"
+    ],
+    "mode": "paper",
+    "strategy_version": "81",
+    "status": "open",
+    "price_trough": 17.09000015258789,
+    "trailing_stop_price": 17.304651
+  },
+  "PLTR": {
+    "id": "PLTR_20260807153142",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 169.30369567871094,
+    "entry_time": "2026-08-07T15:31:42.415482+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03545,
+    "size_usd": 146.39,
+    "position_size_pct": 0.0014,
+    "confidence": 0.727,
+    "signals": [
+      "RSI overbought (67.3)",
+      "MACD crossover",
+      "5d momentum +8.39%",
+      "1d momentum +34.46%",
+      "BB overbought (pct_b=0.99)",
+      "News +0.45 (conf 0.62) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.452,
+    "news_headlines": [
+      "SpaceX's influence ripples across markets: AlphaCheck",
+      "Alex Karp Was Right. But Is it Too Late to Buy Palantir Stock or Does a Big Breakout Loom?",
+      "Stock Market Today: Nasdaq Leads After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)"
     ],
     "mode": "paper",
     "strategy_version": "81",
