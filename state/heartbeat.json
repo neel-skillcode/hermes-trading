@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105872.84,
+  "portfolio_balance": 105861.57,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 1.88,
-  "unrealized_pnl_usd": 349.01,
-  "equity_value": 106221.85,
-  "open_positions": 20,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 1.89,
+  "unrealized_pnl_usd": 376.94,
+  "equity_value": 106238.5,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42349.13,
+  "day_capital_used_usd": 38142.82,
   "swing_capital_used_usd": 52936.42,
-  "total_trades": 917,
-  "last_tick": "2026-08-07T20:46:36.540256+00:00",
+  "total_trades": 918,
+  "last_tick": "2026-08-07T21:23:42.684287+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.845620155334473,
       "trailing_stop_price": 7.782855,
-      "current_price": 7.8449,
-      "unrealized_pnl_pct": 0.001353,
-      "unrealized_pnl_usd": 1.82
+      "current_price": 7.8439,
+      "unrealized_pnl_pct": 0.001225,
+      "unrealized_pnl_usd": 1.65
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3934999704360962,
       "trailing_stop_price": 1.404648,
-      "current_price": 1.39503,
-      "unrealized_pnl_pct": 0.010231,
-      "unrealized_pnl_usd": 68.54
+      "current_price": 1.3936,
+      "unrealized_pnl_pct": 0.011246,
+      "unrealized_pnl_usd": 75.34
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85662,
-      "unrealized_pnl_pct": -0.00315,
-      "unrealized_pnl_usd": -21.93
+      "current_price": 0.85667,
+      "unrealized_pnl_pct": -0.003209,
+      "unrealized_pnl_usd": -22.33
     },
     {
       "id": "XOM_20260729152343",
@@ -166,9 +166,9 @@
       "status": "open",
       "price_trough": 0.8063200116157532,
       "trailing_stop_price": 0.812771,
-      "current_price": 0.80802,
-      "unrealized_pnl_pct": 0.002605,
-      "unrealized_pnl_usd": 15.09
+      "current_price": 0.80767,
+      "unrealized_pnl_pct": 0.003037,
+      "unrealized_pnl_usd": 17.6
     },
     {
       "id": "USD/SEK_20260731121759",
@@ -194,9 +194,9 @@
       "status": "open",
       "price_trough": 9.464690208435059,
       "trailing_stop_price": 9.540408,
-      "current_price": 9.47938,
-      "unrealized_pnl_pct": 0.008999,
-      "unrealized_pnl_usd": 52.15
+      "current_price": 9.47552,
+      "unrealized_pnl_pct": 0.009403,
+      "unrealized_pnl_usd": 54.49
     },
     {
       "id": "GBP/JPY_20260803011206",
@@ -229,9 +229,9 @@
       "status": "open",
       "price_peak": 213.2010040283203,
       "trailing_stop_price": 212.017738,
-      "current_price": 212.863007,
-      "unrealized_pnl_pct": 0.011759,
-      "unrealized_pnl_usd": 3.61
+      "current_price": 212.884003,
+      "unrealized_pnl_pct": 0.011859,
+      "unrealized_pnl_usd": 3.64
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -257,9 +257,9 @@
       "status": "open",
       "price_trough": 9.489049911499023,
       "trailing_stop_price": 9.564962,
-      "current_price": 9.50705,
-      "unrealized_pnl_pct": 0.002727,
-      "unrealized_pnl_usd": 15.8
+      "current_price": 9.4896,
+      "unrealized_pnl_pct": 0.004558,
+      "unrealized_pnl_usd": 26.4
     },
     {
       "id": "TLT_20260805152238",
@@ -323,35 +323,9 @@
       "status": "open",
       "price_trough": 181.9929962158203,
       "trailing_stop_price": 183.44894,
-      "current_price": 182.341995,
-      "unrealized_pnl_pct": 0.00155,
-      "unrealized_pnl_usd": 6.58
-    },
-    {
-      "id": "USD/MXN_20260807112833",
-      "asset": "USD/MXN",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 17.16200065612793,
-      "entry_time": "2026-08-07T11:28:33.447338+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00462,
-      "size_usd": 4206.31,
-      "position_size_pct": 0.0397,
-      "confidence": 0.62,
-      "signals": [
-        "RSI oversold (26.0)",
-        "1d momentum -0.48%",
-        "BB oversold (pct_b=0.06)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "80",
-      "status": "open",
-      "current_price": 17.133129,
-      "unrealized_pnl_pct": -0.001682,
-      "unrealized_pnl_usd": -7.08
+      "current_price": 182.378006,
+      "unrealized_pnl_pct": 0.001352,
+      "unrealized_pnl_usd": 5.75
     },
     {
       "id": "SOUN_20260807195911",
@@ -677,7 +651,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015398148395170244,
+      "atr_pct": 0.015357249336667662,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -838,6 +812,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "PLTR",
+      "rank_score": 0.6134,
+      "price": 172.0,
+      "rsi": 77.91715331650953,
+      "momentum_5d": 0.017594920345124186,
+      "momentum_1d": 0.05891773536751297,
+      "macd_crossover": false,
+      "atr_pct": 0.01761345213829877,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.96,
+      "news_sentiment": 0.887,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "SpaceX's influence ripples across markets: AlphaCheck",
+        "Stock Market Today, Aug. 7: Palantir Surges on Bank of America Upbeat View After Strong Earnings",
+        "S&P 500 Posts Weekly Gain as Tech Giants Surge"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "QCOM",
       "rank_score": 0.6118,
       "price": 167.8699951171875,
@@ -855,27 +850,6 @@
         "The Toughest Questions AMD Faced On Its Latest Call",
         "How To Earn 11% On NVDA Stock And Set A 30% Safety Net",
         "Can MU Stock Compound Its Way Higher?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PLTR",
-      "rank_score": 0.6104,
-      "price": 172.0,
-      "rsi": 77.91715331650953,
-      "momentum_5d": 0.017594920345124186,
-      "momentum_1d": 0.05891773536751297,
-      "macd_crossover": false,
-      "atr_pct": 0.01761345213829877,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.96,
-      "news_sentiment": 0.88,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "SpaceX's influence ripples across markets: AlphaCheck",
-        "Stock Market Today: Nasdaq Leaps As Fed Rate-Hike Odds Sink; Biotech Jumps 20%, Sezzle Fizzles Out",
-        "US Equity Indexes Rise This Week as Technology Mega-Caps Advance, Hormuz Reopening Deal in Works"
       ],
       "high_impact_news": true
     },
@@ -960,6 +934,25 @@
         "TSCO Cuts 2026 Outlook as Demand Weakens and Higher Costs Persist",
         "TSCO Jumps 13% in a Month. Can Its Rebound Keep Gaining Momentum?",
         "Is TSCO a Buy After Its Valuation Reset and Earnings Estimate Cuts?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "CAD/JPY",
+      "rank_score": 0.5475,
+      "price": 113.17900085449219,
+      "rsi": 58.47639668385516,
+      "momentum_5d": 0.001663880702954148,
+      "momentum_1d": 0.0009374723359969945,
+      "macd_crossover": true,
+      "atr_pct": 0.0019463477011163843,
+      "bollinger_pct_b": 0.9433,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 1.0,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
       ],
       "high_impact_news": true
     },
@@ -1065,27 +1058,6 @@
         "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
         "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
         "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.4958,
-      "price": 354.25,
-      "rsi": 22.51752390086625,
-      "momentum_5d": -0.007869819015871773,
-      "momentum_1d": -0.06186273207212432,
-      "macd_crossover": false,
-      "atr_pct": 0.006375026385598347,
-      "bollinger_pct_b": 0.2582,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.63,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "OpenAI developing $300+ AI speaker to challenge Amazon Alexa",
-        "Explainer-How could New Mexico's $567 million ruling change Meta?",
-        "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026"
       ],
       "high_impact_news": true
     }
