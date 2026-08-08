@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 375.02,
-  "equity_value": 106207.82,
+  "unrealized_pnl_usd": 389.12,
+  "equity_value": 106221.92,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-08T10:00:05.660681+00:00",
+  "last_tick": "2026-08-08T10:40:44.616425+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,9 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 6.54,
-      "unrealized_pnl_pct": -0.000459,
-      "unrealized_pnl_usd": -1.92
+      "price_trough": 6.51800012588501,
+      "trailing_stop_price": 6.564734,
+      "current_price": 6.518,
+      "unrealized_pnl_pct": 0.002907,
+      "unrealized_pnl_usd": 12.18
     }
   ],
   "last_candidates": [
@@ -685,7 +687,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015357249336667662,
+      "atr_pct": 0.015398148395170244,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -826,7 +828,7 @@
     },
     {
       "asset": "PFE",
-      "rank_score": 0.6365,
+      "rank_score": 0.6383,
       "price": 26.75,
       "rsi": 85.98478171030919,
       "momentum_5d": 0.01383360879105182,
@@ -836,12 +838,12 @@
       "bollinger_pct_b": 0.9357,
       "volume_spike": false,
       "volume_spike_ratio": 1.37,
-      "news_sentiment": 0.656,
-      "news_confidence": 0.64,
+      "news_sentiment": 0.674,
+      "news_confidence": 0.65,
       "news_headlines": [
+        "Novavax (NVAX) Is Up 8.6% After Beating Q2 Estimates And Expanding Big-Pharma Partnerships - What's Changed",
         "Pfizer's Next Weight-Loss Weapon: How Berobenatide Stacks Up Against Novo Nordisk's Wegovy and Eli Lilly's Zepbound",
-        "The Two Divergent Paths Priced Into Eli Lilly Stock",
-        "NVAX Q2 Earnings & Sales Beat Estimates, '26 Sales Outlook Raised"
+        "The Two Divergent Paths Priced Into Eli Lilly Stock"
       ],
       "high_impact_news": true
     },
@@ -1012,27 +1014,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5288,
-      "price": 6.539999961853027,
-      "rsi": 71.36573315520153,
-      "momentum_5d": 0.002913671779254154,
-      "momentum_1d": 0.01411072752012953,
-      "macd_crossover": false,
-      "atr_pct": 0.00536261091281319,
-      "bollinger_pct_b": 0.8213,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.93,
-      "news_sentiment": 0.282,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-        "Aptos climbs to the top 4 blockchains in transaction count",
-        "How tokenized stocks could become a $3 trillion market"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SLV",
       "rank_score": 0.5217,
       "price": 57.5099983215332,
@@ -1054,23 +1035,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5171,
-      "price": 0.07033000141382217,
-      "rsi": 64.24584493587903,
-      "momentum_5d": 0.0035674121287547133,
-      "momentum_1d": 0.011651392547018396,
-      "macd_crossover": false,
-      "atr_pct": 0.003625754427833302,
-      "bollinger_pct_b": 0.8814,
-      "volume_spike": true,
-      "volume_spike_ratio": 7.34,
-      "news_sentiment": 0.25,
-      "news_confidence": 0.48,
+      "asset": "ETH-USD",
+      "rank_score": 0.5209,
+      "price": 1920.1300048828125,
+      "rsi": 65.7618235156931,
+      "momentum_5d": 0.001857515610449347,
+      "momentum_1d": 0.004551540431722583,
+      "macd_crossover": true,
+      "atr_pct": 0.0018685528885815541,
+      "bollinger_pct_b": 0.9635,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.33,
+      "news_sentiment": 0.029,
+      "news_confidence": 0.35,
       "news_headlines": [
-        "XRP at a Crossroads as Senate Punts on Clarity Act",
-        "Dogecoin cheers crypto payments to buy hoodie or tote bag",
-        "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends"
+        "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report",
+        "Bitcoin, Ethereum and XRP Face a CLARITY Act Shock \u2014 4 AI Models Predict the Winners and Losers",
+        "Ethereum price today: August 7, 2026"
       ],
       "high_impact_news": true
     },
@@ -1092,6 +1073,27 @@
         "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
         "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
         "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TLT",
+      "rank_score": 0.5054,
+      "price": 82.75,
+      "rsi": 39.07577302072714,
+      "momentum_5d": 0.001815999136197349,
+      "momentum_1d": 0.0006046318452600055,
+      "macd_crossover": true,
+      "atr_pct": 0.001987389773194729,
+      "bollinger_pct_b": 0.5487,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.66,
+      "news_sentiment": -0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "The 20 Most Actively Traded ETFs",
+        "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
+        "Fed- Why I'm Not Worried About Warsh's Policy Approach"
       ],
       "high_impact_news": true
     }
