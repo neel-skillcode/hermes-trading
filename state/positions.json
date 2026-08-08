@@ -566,30 +566,32 @@
     "price_peak": 41.70000076293945,
     "trailing_stop_price": 40.736731
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260807220232",
-    "asset": "XRP-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260808023302",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.0224000215530396,
-    "entry_time": "2026-08-07T22:02:32.662210+00:00",
-    "stop_loss_pct": 0.00523,
-    "take_profit_pct": 0.01215,
-    "size_usd": 4201.81,
-    "position_size_pct": 0.0397,
-    "confidence": 0.644,
+    "entry_price": 6.5370001792907715,
+    "entry_time": "2026-08-08T02:33:02.085848+00:00",
+    "stop_loss_pct": 0.00717,
+    "take_profit_pct": 0.01745,
+    "size_usd": 4190.3,
+    "position_size_pct": 0.0396,
+    "confidence": 0.87,
     "signals": [
-      "RSI oversold (41.5)",
-      "5d momentum +0.64%",
-      "1d momentum -1.37%",
+      "RSI overbought (61.7)",
+      "5d momentum +1.46%",
+      "1d momentum +1.93%",
+      "BB overbought (pct_b=1.05)",
+      "Volume spike 3.0\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      "Claude [contradicts]: analyst upgrade"
     ],
-    "news_sentiment": 0.0,
+    "news_sentiment": 0.282,
     "news_headlines": [
-      "$10,000 in XRP vs $10,000 in HYPE: Which Is Worth More by 2030?",
-      "XRP Price Today: August 7, 2026",
-      "XRP at a Crossroads as Senate Punts on Clarity Act"
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+      "Aptos climbs to the top 4 blockchains in transaction count",
+      "How tokenized stocks could become a $3 trillion market"
     ],
     "mode": "paper",
     "strategy_version": "82",

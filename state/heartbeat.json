@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105861.57,
+  "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 1.89,
-  "unrealized_pnl_usd": 374.06,
-  "equity_value": 106235.63,
+  "portfolio_drawdown_pct": 1.91,
+  "unrealized_pnl_usd": 376.94,
+  "equity_value": 106209.74,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42344.63,
+  "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
-  "total_trades": 918,
-  "last_tick": "2026-08-08T00:36:15.309417+00:00",
+  "total_trades": 919,
+  "last_tick": "2026-08-08T02:33:02.088415+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -642,36 +642,38 @@
       "unrealized_pnl_usd": 2.98
     },
     {
-      "id": "XRP-USD_20260807220232",
-      "asset": "XRP-USD",
+      "id": "AVAX-USD_20260808023302",
+      "asset": "AVAX-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 1.0224000215530396,
-      "entry_time": "2026-08-07T22:02:32.662210+00:00",
-      "stop_loss_pct": 0.00523,
-      "take_profit_pct": 0.01215,
-      "size_usd": 4201.81,
-      "position_size_pct": 0.0397,
-      "confidence": 0.644,
+      "entry_price": 6.5370001792907715,
+      "entry_time": "2026-08-08T02:33:02.085848+00:00",
+      "stop_loss_pct": 0.00717,
+      "take_profit_pct": 0.01745,
+      "size_usd": 4190.3,
+      "position_size_pct": 0.0396,
+      "confidence": 0.87,
       "signals": [
-        "RSI oversold (41.5)",
-        "5d momentum +0.64%",
-        "1d momentum -1.37%",
+        "RSI overbought (61.7)",
+        "5d momentum +1.46%",
+        "1d momentum +1.93%",
+        "BB overbought (pct_b=1.05)",
+        "Volume spike 3.0\u00d7",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+        "Claude [contradicts]: analyst upgrade"
       ],
-      "news_sentiment": 0.0,
+      "news_sentiment": 0.282,
       "news_headlines": [
-        "$10,000 in XRP vs $10,000 in HYPE: Which Is Worth More by 2030?",
-        "XRP Price Today: August 7, 2026",
-        "XRP at a Crossroads as Senate Punts on Clarity Act"
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+        "Aptos climbs to the top 4 blockchains in transaction count",
+        "How tokenized stocks could become a $3 trillion market"
       ],
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 1.0231,
-      "unrealized_pnl_pct": -0.000685,
-      "unrealized_pnl_usd": -2.88
+      "current_price": 6.537,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -683,7 +685,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015357249336667662,
+      "atr_pct": 0.015398148395170244,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -859,8 +861,29 @@
       "news_confidence": 0.58,
       "news_headlines": [
         "SpaceX's influence ripples across markets: AlphaCheck",
-        "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear \u2014 SEZL, SPCX, RDW, PLTR, TTD In Focus",
-        "Stock Market Today, Aug. 7: Palantir Surges on Bank of America Upbeat View After Strong Earnings"
+        "PLTY Holders Left $60,000 on a $10,000 Position While Chasing Monthly Distributions",
+        "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear \u2014 SEZL, SPCX, RDW, PLTR, TTD In Focus"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6139,
+      "price": 6.5370001792907715,
+      "rsi": 61.69155822204193,
+      "momentum_5d": 0.014589530008621997,
+      "momentum_1d": 0.01933573528987505,
+      "macd_crossover": false,
+      "atr_pct": 0.007331890834711556,
+      "bollinger_pct_b": 1.05,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.03,
+      "news_sentiment": 0.282,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+        "Aptos climbs to the top 4 blockchains in transaction count",
+        "How tokenized stocks could become a $3 trillion market"
       ],
       "high_impact_news": true
     },
@@ -929,7 +952,7 @@
     },
     {
       "asset": "UBER",
-      "rank_score": 0.57,
+      "rank_score": 0.562,
       "price": 75.01000213623047,
       "rsi": 85.38863290650863,
       "momentum_5d": 0.0017361763832939483,
@@ -939,12 +962,12 @@
       "bollinger_pct_b": 0.8306,
       "volume_spike": false,
       "volume_spike_ratio": 0.58,
-      "news_sentiment": 0.615,
-      "news_confidence": 0.6,
+      "news_sentiment": 0.536,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "Uber CTO Says Thousands of Engineers Now Use Advanced AI Tools as Company Cuts Cost Per Token: 'The Next Phase' Is About Using Tokens More Efficiently",
         "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
-        "LYFT Q2 Earnings Miss, Revenues Top Estimates on Record Rides",
-        "CART Q2 Earnings Miss, Revenues Beat on GTV and Ad Growth"
+        "LYFT Q2 Earnings Miss, Revenues Top Estimates on Record Rides"
       ],
       "high_impact_news": true
     },
@@ -1069,27 +1092,6 @@
         "The 20 Most Actively Traded ETFs",
         "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
         "Fed- Why I'm Not Worried About Warsh's Policy Approach"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.505,
-      "price": 64.70999908447266,
-      "rsi": 71.17637467107674,
-      "momentum_5d": 0.005750742425270112,
-      "momentum_1d": -0.017535850857929004,
-      "macd_crossover": false,
-      "atr_pct": 0.007990480074482645,
-      "bollinger_pct_b": 1.0356,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.443,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
-        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
-        "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
       ],
       "high_impact_news": true
     }
