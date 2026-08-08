@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 371.17,
-  "equity_value": 106203.97,
+  "unrealized_pnl_usd": 378.22,
+  "equity_value": 106211.02,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-08T11:59:40.740153+00:00",
+  "last_tick": "2026-08-08T13:00:32.587003+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,9 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 6.546,
-      "unrealized_pnl_pct": -0.001377,
-      "unrealized_pnl_usd": -5.77
+      "price_trough": 6.534999847412109,
+      "trailing_stop_price": 6.581856,
+      "current_price": 6.535,
+      "unrealized_pnl_pct": 0.000306,
+      "unrealized_pnl_usd": 1.28
     }
   ],
   "last_candidates": [
@@ -695,27 +697,6 @@
         "Autonomous driving will be 'big part' of society in next 5, 10 years: Lyft CEO",
         "LYFT Q2 Earnings Miss, Revenues Top Estimates on Record Rides",
         "Lyft Q2 Rides, Gross Bookings Growth Support Higher Estimates, RBC Says"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.7102,
-      "price": 75.52999877929688,
-      "rsi": 89.5835916216053,
-      "momentum_5d": 0.011517351432174404,
-      "momentum_1d": 0.026501724649579783,
-      "macd_crossover": false,
-      "atr_pct": 0.0043029289452575096,
-      "bollinger_pct_b": 1.0272,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.74,
-      "news_sentiment": -0.273,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "Solana Meme Coin Jimothy Jumps 331% on Elon Musk Raccoon Post",
-        "Solana wants to be the Netflix of finance",
-        "GTA 6 Creator\u2019s Stock Hits Solana as Netflix Special Approaches"
       ],
       "high_impact_news": true
     },
@@ -1054,27 +1035,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5183,
-      "price": 6.546000003814697,
-      "rsi": 70.0000733597673,
-      "momentum_5d": 0.0049125061635998,
-      "momentum_1d": 0.013155864200378177,
-      "macd_crossover": false,
-      "atr_pct": 0.005914198095379898,
-      "bollinger_pct_b": 0.7942,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.22,
-      "news_sentiment": 0.282,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-        "Aptos climbs to the top 4 blockchains in transaction count",
-        "How tokenized stocks could become a $3 trillion market"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MPC",
       "rank_score": 0.5132,
       "price": 298.1700134277344,
@@ -1092,6 +1052,48 @@
         "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
         "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
         "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TLT",
+      "rank_score": 0.5054,
+      "price": 82.75,
+      "rsi": 39.07577302072714,
+      "momentum_5d": 0.001815999136197349,
+      "momentum_1d": 0.0006046318452600055,
+      "macd_crossover": true,
+      "atr_pct": 0.001987389773194729,
+      "bollinger_pct_b": 0.5487,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.66,
+      "news_sentiment": -0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "The 20 Most Actively Traded ETFs",
+        "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
+        "Fed- Why I'm Not Worried About Warsh's Policy Approach"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BMY",
+      "rank_score": 0.505,
+      "price": 64.70999908447266,
+      "rsi": 71.17637467107674,
+      "momentum_5d": 0.005750742425270112,
+      "momentum_1d": -0.017535850857929004,
+      "macd_crossover": false,
+      "atr_pct": 0.007990480074482645,
+      "bollinger_pct_b": 1.0356,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.16,
+      "news_sentiment": 0.443,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
+        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
+        "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
       ],
       "high_impact_news": true
     }
