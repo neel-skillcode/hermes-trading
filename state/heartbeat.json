@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 376.94,
-  "equity_value": 106209.74,
+  "unrealized_pnl_usd": 388.48,
+  "equity_value": 106221.28,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-08T02:33:02.088415+00:00",
+  "last_tick": "2026-08-08T03:53:42.448418+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,9 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 6.537,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 6.51800012588501,
+      "trailing_stop_price": 6.564734,
+      "current_price": 6.519,
+      "unrealized_pnl_pct": 0.002754,
+      "unrealized_pnl_usd": 11.54
     }
   ],
   "last_candidates": [
@@ -685,7 +687,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015398148395170244,
+      "atr_pct": 0.015357249336667662,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -763,7 +765,7 @@
     },
     {
       "asset": "MRNA",
-      "rank_score": 0.6821,
+      "rank_score": 0.6751,
       "price": 59.16999816894531,
       "rsi": 65.036037303107,
       "momentum_5d": 0.035526755354929745,
@@ -773,12 +775,12 @@
       "bollinger_pct_b": 0.945,
       "volume_spike": true,
       "volume_spike_ratio": 1.82,
-      "news_sentiment": 0.9,
-      "news_confidence": 0.6,
+      "news_sentiment": 0.77,
+      "news_confidence": 0.61,
       "news_headlines": [
+        "Moderna (MRNA) Q2 2026 Earnings Call Transcript",
         "Moderna Q2 Earnings Call Highlights Cost Cuts and Pipeline Milestones",
-        "Moderna (MRNA) Starts Phase 1 Canada Trial For Bundibugyo Ebola mRNA Vaccine",
-        "Roivant Sciences Q1 Earnings Call Highlights"
+        "Moderna (MRNA) Starts Phase 1 Canada Trial For Bundibugyo Ebola mRNA Vaccine"
       ],
       "high_impact_news": true
     },
@@ -800,6 +802,27 @@
         "Could 1 Tiny Biotech Topple Vertex Pharmaceuticals' Cystic Fibrosis Empire?",
         "What Insmed Stock's Premium Is Actually Buying",
         "AbCellera Biologics Inc (ABCL) (Q2 2026) Earnings Call Highlights: Strong Pipeline Progress and ..."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.652,
+      "price": 74.48999786376953,
+      "rsi": 56.62254918059706,
+      "momentum_5d": 0.011954860020667046,
+      "momentum_1d": 0.026598682057800027,
+      "macd_crossover": false,
+      "atr_pct": 0.004775332738575218,
+      "bollinger_pct_b": 1.1923,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.77,
+      "news_sentiment": -0.053,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Solana wants to be the Netflix of finance",
+        "GTA 6 Creator\u2019s Stock Hits Solana as Netflix Special Approaches",
+        "Bonk Meme Coin Hits Nearly 3-Year Low After Upbit Announces September Delisting"
       ],
       "high_impact_news": true
     },
@@ -867,27 +890,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6139,
-      "price": 6.5370001792907715,
-      "rsi": 61.69155822204193,
-      "momentum_5d": 0.014589530008621997,
-      "momentum_1d": 0.01933573528987505,
-      "macd_crossover": false,
-      "atr_pct": 0.007331890834711556,
-      "bollinger_pct_b": 1.05,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.03,
-      "news_sentiment": 0.282,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-        "Aptos climbs to the top 4 blockchains in transaction count",
-        "How tokenized stocks could become a $3 trillion market"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
       "rank_score": 0.6138,
       "price": 167.8699951171875,
@@ -947,6 +949,27 @@
         "A Roblox Director Sells 16,666 Shares Amid a Sinking Stock Price. Here's What That Means to Investors.",
         "Cathie Wood Invests $17.6 Million in Major AI Stock",
         "Roblox Sentiment Is Mixed Post-Crash: Buy, Sell, or Hold Now?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5943,
+      "price": 0.07022999972105026,
+      "rsi": 56.09749005982279,
+      "momentum_5d": 0.00919668632789063,
+      "momentum_1d": 0.01782610841156533,
+      "macd_crossover": false,
+      "atr_pct": 0.004363221935930341,
+      "bollinger_pct_b": 1.1168,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.17,
+      "news_sentiment": 0.25,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "XRP at a Crossroads as Senate Punts on Clarity Act",
+        "Dogecoin cheers crypto payments to buy hoodie or tote bag",
+        "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends"
       ],
       "high_impact_news": true
     },
@@ -1071,27 +1094,6 @@
         "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
         "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
         "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TLT",
-      "rank_score": 0.5054,
-      "price": 82.75,
-      "rsi": 39.07577302072714,
-      "momentum_5d": 0.001815999136197349,
-      "momentum_1d": 0.0006046318452600055,
-      "macd_crossover": true,
-      "atr_pct": 0.001987389773194729,
-      "bollinger_pct_b": 0.5487,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.66,
-      "news_sentiment": -0.353,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "The 20 Most Actively Traded ETFs",
-        "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
-        "Fed- Why I'm Not Worried About Warsh's Policy Approach"
       ],
       "high_impact_news": true
     }
