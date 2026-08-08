@@ -3,18 +3,18 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 382.71,
-  "equity_value": 106215.51,
+  "unrealized_pnl_usd": 368.61,
+  "equity_value": 106201.41,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-08T14:19:41.404990+00:00",
+  "last_tick": "2026-08-08T14:54:18.290111+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
-  "universe_scanned": 109,
+  "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
     {
@@ -671,14 +671,75 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "price_trough": 6.5279998779296875,
-      "trailing_stop_price": 6.574806,
-      "current_price": 6.528,
-      "unrealized_pnl_pct": 0.001377,
-      "unrealized_pnl_usd": 5.77
+      "current_price": 6.55,
+      "unrealized_pnl_pct": -0.001989,
+      "unrealized_pnl_usd": -8.33
     }
   ],
   "last_candidates": [
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.8905,
+      "price": 609.0,
+      "rsi": 94.0279661140516,
+      "momentum_5d": 0.024648818063161916,
+      "momentum_1d": 0.03134686458999598,
+      "macd_crossover": false,
+      "atr_pct": 0.0035550150825416375,
+      "bollinger_pct_b": 1.4658,
+      "volume_spike": true,
+      "volume_spike_ratio": 251.07,
+      "news_sentiment": 0.029,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "XRP Price Forecast: Potential 35% Drop Ahead as XRP Retests Key Support",
+        "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
+        "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.7454,
+      "price": 76.08999633789062,
+      "rsi": 87.8125074505877,
+      "momentum_5d": 0.016838092690157277,
+      "momentum_1d": 0.0328491683058767,
+      "macd_crossover": false,
+      "atr_pct": 0.004909602921959554,
+      "bollinger_pct_b": 1.0339,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.34,
+      "news_sentiment": -0.273,
+      "news_confidence": 0.33,
+      "news_headlines": [
+        "Solana Meme Coin Jimothy Jumps 331% on Elon Musk Raccoon Post",
+        "Solana wants to be the Netflix of finance",
+        "GTA 6 Creator\u2019s Stock Hits Solana as Netflix Special Approaches"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.7444,
+      "price": 0.07131999731063843,
+      "rsi": 82.39992370598193,
+      "momentum_5d": 0.014076437891577899,
+      "momentum_1d": 0.02382998558121213,
+      "macd_crossover": false,
+      "atr_pct": 0.0040060826014579765,
+      "bollinger_pct_b": 1.231,
+      "volume_spike": true,
+      "volume_spike_ratio": 39.64,
+      "news_sentiment": 0.25,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "XRP at a Crossroads as Senate Punts on Clarity Act",
+        "Dogecoin cheers crypto payments to buy hoodie or tote bag",
+        "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "LYFT",
       "rank_score": 0.7229,
@@ -697,27 +758,6 @@
         "Autonomous driving will be 'big part' of society in next 5, 10 years: Lyft CEO",
         "LYFT Q2 Earnings Miss, Revenues Top Estimates on Record Rides",
         "Lyft Q2 Rides, Gross Bookings Growth Support Higher Estimates, RBC Says"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.7015,
-      "price": 600.0700073242188,
-      "rsi": 89.58373599991862,
-      "momentum_5d": 0.00962401274205855,
-      "momentum_1d": 0.016223843330589374,
-      "macd_crossover": false,
-      "atr_pct": 0.0023330654735356357,
-      "bollinger_pct_b": 1.1885,
-      "volume_spike": true,
-      "volume_spike_ratio": 17.74,
-      "news_sentiment": 0.029,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "XRP Price Forecast: Potential 35% Drop Ahead as XRP Retests Key Support",
-        "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
-        "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund"
       ],
       "high_impact_news": true
     },
@@ -870,7 +910,7 @@
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.6223,
+      "rank_score": 0.6203,
       "price": 172.0,
       "rsi": 77.91715331650953,
       "momentum_5d": 0.017594920345124186,
@@ -880,12 +920,33 @@
       "bollinger_pct_b": 0.8879,
       "volume_spike": false,
       "volume_spike_ratio": 0.96,
-      "news_sentiment": 0.933,
-      "news_confidence": 0.6,
+      "news_sentiment": 0.931,
+      "news_confidence": 0.58,
       "news_headlines": [
-        "SpaceX's influence ripples across markets: AlphaCheck",
+        "Stock Market Week Ahead: Bullish Signals Amid 'Dirty' Volume",
         "Palantir (PLTR) Posted Record 93% Growth, Here\u2019s Why Analysts Think It Won\u2019t Last",
         "PLTY Holders Left $60,000 on a $10,000 Position While Chasing Monthly Distributions"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.6146,
+      "price": 65107.0,
+      "rsi": 72.44241477386532,
+      "momentum_5d": 0.0023356210046886817,
+      "momentum_1d": 0.0031586083633786326,
+      "macd_crossover": false,
+      "atr_pct": 0.001250632715321372,
+      "bollinger_pct_b": 1.2671,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.14,
+      "news_sentiment": 0.35,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "'Bitcoin is a zeppelin': Why this historian says BTC looks more like the past than future",
+        "Strategy (MSTR) Unveils $15 Billion Bitcoin Backed Preferred Stock Plan",
+        "Bitcoin rises toward $65,000 as fresh security risks hit infrastructure"
       ],
       "high_impact_news": true
     },
@@ -953,6 +1014,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.5778,
+      "price": 1923.3199462890625,
+      "rsi": 71.7149692784514,
+      "momentum_5d": 0.0029201216400141514,
+      "momentum_1d": 0.005862613041811465,
+      "macd_crossover": false,
+      "atr_pct": 0.001843539000816015,
+      "bollinger_pct_b": 1.1461,
+      "volume_spike": true,
+      "volume_spike_ratio": 27.21,
+      "news_sentiment": 0.029,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chain",
+        "Bitcoin, Ethereum and XRP Face a CLARITY Act Shock \u2014 4 AI Models Predict the Winners and Losers",
+        "Ethereum price today: August 7, 2026"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.5729,
+      "price": 1.0441999435424805,
+      "rsi": 81.87678668564749,
+      "momentum_5d": 0.00849904410363632,
+      "momentum_1d": 0.017342141472302133,
+      "macd_crossover": false,
+      "atr_pct": 0.0038648999583923774,
+      "bollinger_pct_b": 0.931,
+      "volume_spike": true,
+      "volume_spike_ratio": 9.91,
+      "news_sentiment": -0.2,
+      "news_confidence": 0.3,
+      "news_headlines": [
+        "Is XRP About to Have Its Biggest Year Yet in 2027?",
+        "Can XRP Hold Above $1 in August 2026?",
+        "Bitcoin, Ethereum and XRP Face a CLARITY Act Shock \u2014 4 AI Models Predict the Winners and Losers"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "UBER",
       "rank_score": 0.563,
       "price": 75.01000213623047,
@@ -991,109 +1094,6 @@
         "The Bull Case For Home Depot (HD) Could Change Following Its New Pro-Focused Leadership Overhaul \u2013 Learn Why",
         "TSCO Cuts 2026 Outlook as Demand Weakens and Higher Costs Persist",
         "TSCO Jumps 13% in a Month. Can Its Rebound Keep Gaining Momentum?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "CAD/JPY",
-      "rank_score": 0.5475,
-      "price": 113.17900085449219,
-      "rsi": 58.47639668385516,
-      "momentum_5d": 0.001663880702954148,
-      "momentum_1d": 0.0009374723359969945,
-      "macd_crossover": true,
-      "atr_pct": 0.0019463477011163843,
-      "bollinger_pct_b": 0.9433,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "V",
-      "rank_score": 0.5421,
-      "price": 362.3999938964844,
-      "rsi": 29.89239852974073,
-      "momentum_5d": -0.005270128977642725,
-      "momentum_1d": -0.019321357588726547,
-      "macd_crossover": false,
-      "atr_pct": 0.006102553331748348,
-      "bollinger_pct_b": 0.0645,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.593,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "Circle Internet Group (CRCL) Launches Arc As Its Growth Story Moves Beyond USDC",
-        "PYPL Showered Owners With Cash. The Stock Still Lagged The Market",
-        "Reading Between The Lines Of V's Latest Call"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SLV",
-      "rank_score": 0.5217,
-      "price": 57.5099983215332,
-      "rsi": 66.704784517751,
-      "momentum_5d": 0.0021782696463562476,
-      "momentum_1d": 0.06263857088975701,
-      "macd_crossover": false,
-      "atr_pct": 0.008959682457074089,
-      "bollinger_pct_b": 0.8541,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.03,
-      "news_sentiment": 0.755,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
-        "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
-        "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.5148,
-      "price": 354.25,
-      "rsi": 22.51752390086625,
-      "momentum_5d": -0.007869819015871773,
-      "momentum_1d": -0.06186273207212432,
-      "macd_crossover": false,
-      "atr_pct": 0.006375026385598347,
-      "bollinger_pct_b": 0.2582,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.63,
-      "news_sentiment": 0.932,
-      "news_confidence": 0.59,
-      "news_headlines": [
-        "Tech stocks today: Shares climb after rocky week",
-        "Berkshire Hathaway's new CEO Greg Abel spends a chunk of the company's massive cashpile",
-        "Berkshire Hathaway, Under a New CEO, Starts to Spend its Cash Pile"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MPC",
-      "rank_score": 0.5132,
-      "price": 298.1700134277344,
-      "rsi": 50.76463235089864,
-      "momentum_5d": -0.003442509148643243,
-      "momentum_1d": -0.041223117171645805,
-      "macd_crossover": false,
-      "atr_pct": 0.012459285882065931,
-      "bollinger_pct_b": 0.3454,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.973,
-      "news_confidence": 0.73,
-      "news_headlines": [
-        "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
-        "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
-        "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
       ],
       "high_impact_news": true
     }
