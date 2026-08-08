@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 378.22,
-  "equity_value": 106211.02,
+  "unrealized_pnl_usd": 385.27,
+  "equity_value": 106218.07,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-08T13:00:32.587003+00:00",
+  "last_tick": "2026-08-08T13:51:13.679660+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,11 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "price_trough": 6.534999847412109,
-      "trailing_stop_price": 6.581856,
-      "current_price": 6.535,
-      "unrealized_pnl_pct": 0.000306,
-      "unrealized_pnl_usd": 1.28
+      "price_trough": 6.52400016784668,
+      "trailing_stop_price": 6.570777,
+      "current_price": 6.524,
+      "unrealized_pnl_pct": 0.001989,
+      "unrealized_pnl_usd": 8.33
     }
   ],
   "last_candidates": [
@@ -687,7 +687,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015357249336667662,
+      "atr_pct": 0.015398148395170244,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -1014,6 +1014,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5409,
+      "price": 0.07056000083684921,
+      "rsi": 76.08691250845276,
+      "momentum_5d": 0.002842572381874249,
+      "momentum_1d": 0.008288051911742457,
+      "macd_crossover": false,
+      "atr_pct": 0.0034418432728937575,
+      "bollinger_pct_b": 0.8941,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.72,
+      "news_sentiment": 0.25,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "XRP at a Crossroads as Senate Punts on Clarity Act",
+        "Dogecoin cheers crypto payments to buy hoodie or tote bag",
+        "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SLV",
       "rank_score": 0.5217,
       "price": 57.5099983215332,
@@ -1035,6 +1056,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "GOOGL",
+      "rank_score": 0.5148,
+      "price": 354.25,
+      "rsi": 22.51752390086625,
+      "momentum_5d": -0.007869819015871773,
+      "momentum_1d": -0.06186273207212432,
+      "macd_crossover": false,
+      "atr_pct": 0.006375026385598347,
+      "bollinger_pct_b": 0.2582,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.63,
+      "news_sentiment": 0.932,
+      "news_confidence": 0.59,
+      "news_headlines": [
+        "Tech stocks today: Shares climb after rocky week",
+        "Berkshire Hathaway's new CEO Greg Abel spends a chunk of the company's massive cashpile",
+        "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Arista Beats Views"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5132,
       "price": 298.1700134277344,
@@ -1052,48 +1094,6 @@
         "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
         "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
         "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TLT",
-      "rank_score": 0.5054,
-      "price": 82.75,
-      "rsi": 39.07577302072714,
-      "momentum_5d": 0.001815999136197349,
-      "momentum_1d": 0.0006046318452600055,
-      "macd_crossover": true,
-      "atr_pct": 0.001987389773194729,
-      "bollinger_pct_b": 0.5487,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.66,
-      "news_sentiment": -0.353,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "The 20 Most Actively Traded ETFs",
-        "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
-        "Fed- Why I'm Not Worried About Warsh's Policy Approach"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.505,
-      "price": 64.70999908447266,
-      "rsi": 71.17637467107674,
-      "momentum_5d": 0.005750742425270112,
-      "momentum_1d": -0.017535850857929004,
-      "macd_crossover": false,
-      "atr_pct": 0.007990480074482645,
-      "bollinger_pct_b": 1.0356,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.443,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
-        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
-        "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
       ],
       "high_impact_news": true
     }
