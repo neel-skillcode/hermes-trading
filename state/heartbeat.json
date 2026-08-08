@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 372.45,
-  "equity_value": 106205.25,
+  "unrealized_pnl_usd": 382.71,
+  "equity_value": 106215.51,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-08T17:53:23.359272+00:00",
+  "last_tick": "2026-08-08T18:19:38.471885+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,9 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 6.544,
-      "unrealized_pnl_pct": -0.001071,
-      "unrealized_pnl_usd": -4.49
+      "price_trough": 6.5269999504089355,
+      "trailing_stop_price": 6.573799,
+      "current_price": 6.528,
+      "unrealized_pnl_pct": 0.001377,
+      "unrealized_pnl_usd": 5.77
     }
   ],
   "last_candidates": [
@@ -888,27 +890,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.6122,
-      "price": 1.0464999675750732,
-      "rsi": 72.81072321256902,
-      "momentum_5d": 0.005669830574102852,
-      "momentum_1d": 0.03012102693890521,
-      "macd_crossover": false,
-      "atr_pct": 0.003426386394072417,
-      "bollinger_pct_b": 0.8684,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.9,
-      "news_sentiment": -0.2,
-      "news_confidence": 0.3,
-      "news_headlines": [
-        "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move)",
-        "Is XRP About to Have Its Biggest Year Yet in 2027?",
-        "Can XRP Hold Above $1 in August 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "TGT",
       "rank_score": 0.5975,
       "price": 149.69000244140625,
@@ -1033,48 +1014,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.533,
-      "price": 76.3499984741211,
-      "rsi": 81.199951171875,
-      "momentum_5d": 0.012733772280736624,
-      "momentum_1d": 0.040615995856397684,
-      "macd_crossover": false,
-      "atr_pct": 0.0048273961691773625,
-      "bollinger_pct_b": 0.8878,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.03,
-      "news_sentiment": -0.273,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "Solana Meme Coin Jimothy Jumps 331% on Elon Musk Raccoon Post",
-        "Solana wants to be the Netflix of finance",
-        "GTA 6 Creator\u2019s Stock Hits Solana as Netflix Special Approaches"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.5294,
-      "price": 1923.9599609375,
-      "rsi": 67.3418175300233,
-      "momentum_5d": 0.0030550990178561483,
-      "momentum_1d": 0.0066711665701793335,
-      "macd_crossover": false,
-      "atr_pct": 0.0018447793099022583,
-      "bollinger_pct_b": 1.0071,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.98,
-      "news_sentiment": 0.029,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chain",
-        "Bitcoin, Ethereum and XRP Face a CLARITY Act Shock \u2014 4 AI Models Predict the Winners and Losers",
-        "Ethereum price today: August 7, 2026"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SLV",
       "rank_score": 0.5217,
       "price": 57.5099983215332,
@@ -1092,6 +1031,69 @@
         "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
         "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MPC",
+      "rank_score": 0.5132,
+      "price": 298.1700134277344,
+      "rsi": 50.76463235089864,
+      "momentum_5d": -0.003442509148643243,
+      "momentum_1d": -0.041223117171645805,
+      "macd_crossover": false,
+      "atr_pct": 0.012459285882065931,
+      "bollinger_pct_b": 0.3454,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.58,
+      "news_sentiment": 0.973,
+      "news_confidence": 0.73,
+      "news_headlines": [
+        "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
+        "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
+        "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.5098,
+      "price": 354.25,
+      "rsi": 22.51752390086625,
+      "momentum_5d": -0.007869819015871773,
+      "momentum_1d": -0.06186273207212432,
+      "macd_crossover": false,
+      "atr_pct": 0.006375026385598347,
+      "bollinger_pct_b": 0.2582,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.63,
+      "news_sentiment": 0.893,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Tech stocks today: Shares climb after rocky week",
+        "Even Without Alphabet and Amazon, the S&P 500 Just Posted Its Biggest Earnings Beat Ever",
+        "Berkshire Hathaway Just Did Something It Hasn\u2019t Done in More Than 3 Years"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TLT",
+      "rank_score": 0.5054,
+      "price": 82.75,
+      "rsi": 39.07577302072714,
+      "momentum_5d": 0.001815999136197349,
+      "momentum_1d": 0.0006046318452600055,
+      "macd_crossover": true,
+      "atr_pct": 0.001987389773194729,
+      "bollinger_pct_b": 0.5487,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.66,
+      "news_sentiment": -0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "The 20 Most Actively Traded ETFs",
+        "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
+        "Fed- Why I'm Not Worried About Warsh's Policy Approach"
       ],
       "high_impact_news": true
     }
