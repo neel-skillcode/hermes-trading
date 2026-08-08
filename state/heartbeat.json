@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 389.12,
-  "equity_value": 106221.92,
+  "unrealized_pnl_usd": 379.5,
+  "equity_value": 106212.3,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-08T07:58:51.542178+00:00",
+  "last_tick": "2026-08-08T08:47:00.726701+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,11 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "price_trough": 6.51800012588501,
-      "trailing_stop_price": 6.564734,
-      "current_price": 6.518,
-      "unrealized_pnl_pct": 0.002907,
-      "unrealized_pnl_usd": 12.18
+      "price_trough": 6.5329999923706055,
+      "trailing_stop_price": 6.579842,
+      "current_price": 6.533,
+      "unrealized_pnl_pct": 0.000612,
+      "unrealized_pnl_usd": 2.56
     }
   ],
   "last_candidates": [
@@ -933,7 +933,7 @@
     },
     {
       "asset": "UBER",
-      "rank_score": 0.562,
+      "rank_score": 0.563,
       "price": 75.01000213623047,
       "rsi": 85.38863290650863,
       "momentum_5d": 0.0017361763832939483,
@@ -943,12 +943,33 @@
       "bollinger_pct_b": 0.8306,
       "volume_spike": false,
       "volume_spike_ratio": 0.58,
-      "news_sentiment": 0.536,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.544,
+      "news_confidence": 0.55,
       "news_headlines": [
+        "Uber Technologies (UBER) Lands Licensed Autonomous Rides In London With 100,000 Sign Ups",
         "Uber CTO Says Thousands of Engineers Now Use Advanced AI Tools as Company Cuts Cost Per Token: 'The Next Phase' Is About Using Tokens More Efficiently",
-        "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses",
-        "LYFT Q2 Earnings Miss, Revenues Top Estimates on Record Rides"
+        "Gary Black Says Uber, Not Tesla or Waymo, Has the Best Shot at Bringing Robotaxis to the Masses"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5579,
+      "price": 6.5329999923706055,
+      "rsi": 75.0958701391236,
+      "momentum_5d": 0.0016866232258889976,
+      "momentum_1d": 0.019825140855281788,
+      "macd_crossover": false,
+      "atr_pct": 0.0055432906224625236,
+      "bollinger_pct_b": 0.8146,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.35,
+      "news_sentiment": 0.282,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+        "Aptos climbs to the top 4 blockchains in transaction count",
+        "How tokenized stocks could become a $3 trillion market"
       ],
       "high_impact_news": true
     },
@@ -1073,27 +1094,6 @@
         "The 20 Most Actively Traded ETFs",
         "U.S.-Japan Yen Move Puts These ETF Areas in Focus",
         "Fed- Why I'm Not Worried About Warsh's Policy Approach"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.505,
-      "price": 64.70999908447266,
-      "rsi": 71.17637467107674,
-      "momentum_5d": 0.005750742425270112,
-      "momentum_1d": -0.017535850857929004,
-      "macd_crossover": false,
-      "atr_pct": 0.007990480074482645,
-      "bollinger_pct_b": 1.0356,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.443,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
-        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
-        "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
       ],
       "high_impact_news": true
     }
