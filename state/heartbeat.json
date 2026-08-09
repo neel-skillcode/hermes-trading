@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 425.02,
-  "equity_value": 106257.82,
+  "unrealized_pnl_usd": 416.68,
+  "equity_value": 106249.48,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-09T12:43:49.158851+00:00",
+  "last_tick": "2026-08-09T13:36:47.276337+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,14 +671,35 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "price_trough": 6.461999893188477,
-      "trailing_stop_price": 6.508332,
-      "current_price": 6.462,
-      "unrealized_pnl_pct": 0.011473,
-      "unrealized_pnl_usd": 48.08
+      "price_trough": 6.474999904632568,
+      "trailing_stop_price": 6.521426,
+      "current_price": 6.475,
+      "unrealized_pnl_pct": 0.009485,
+      "unrealized_pnl_usd": 39.74
     }
   ],
   "last_candidates": [
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.7417,
+      "price": 605.9099731445312,
+      "rsi": 69.49032136026398,
+      "momentum_5d": 0.0067625051632531135,
+      "momentum_1d": 0.013362975753856983,
+      "macd_crossover": true,
+      "atr_pct": 0.0032560373666638063,
+      "bollinger_pct_b": 1.1136,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.27,
+      "news_sentiment": 0.029,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "XRP Price Forecast: Potential 35% Drop Ahead as XRP Retests Key Support",
+        "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
+        "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "LYFT",
       "rank_score": 0.7229,
@@ -687,7 +708,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015398148395170244,
+      "atr_pct": 0.015357249336667662,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -890,6 +911,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.5979,
+      "price": 76.6500015258789,
+      "rsi": 71.69823995700659,
+      "momentum_5d": 0.005114075252079651,
+      "momentum_1d": 0.015500769964364827,
+      "macd_crossover": false,
+      "atr_pct": 0.0037182046535594463,
+      "bollinger_pct_b": 1.0573,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.47,
+      "news_sentiment": -0.053,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "3 Crypto Earnings to Watch This Week After Q1 Losses",
+        "Solana Meme Coin Jimothy Jumps 331% on Elon Musk Raccoon Post",
+        "Solana wants to be the Netflix of finance"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "TGT",
       "rank_score": 0.5975,
       "price": 149.69000244140625,
@@ -1035,65 +1077,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MPC",
-      "rank_score": 0.5132,
-      "price": 298.1700134277344,
-      "rsi": 50.76463235089864,
-      "momentum_5d": -0.003442509148643243,
-      "momentum_1d": -0.041223117171645805,
+      "asset": "ETH-USD",
+      "rank_score": 0.5127,
+      "price": 1922.8199462890625,
+      "rsi": 62.20307593203962,
+      "momentum_5d": 0.0043562564797729065,
+      "momentum_1d": 0.0020167254048622527,
       "macd_crossover": false,
-      "atr_pct": 0.012459285882065931,
-      "bollinger_pct_b": 0.3454,
+      "atr_pct": 0.0022719665446142476,
+      "bollinger_pct_b": 1.0361,
       "volume_spike": true,
-      "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.973,
-      "news_confidence": 0.73,
+      "volume_spike_ratio": 4.01,
+      "news_sentiment": 0.149,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
-        "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
-        "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.505,
-      "price": 64.70999908447266,
-      "rsi": 71.17637467107674,
-      "momentum_5d": 0.005750742425270112,
-      "momentum_1d": -0.017535850857929004,
-      "macd_crossover": false,
-      "atr_pct": 0.007990480074482645,
-      "bollinger_pct_b": 1.0356,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.443,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
-        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
-        "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GLD",
-      "rank_score": 0.5027,
-      "price": 398.510009765625,
-      "rsi": 70.78940495858384,
-      "momentum_5d": -0.0014032564420176732,
-      "momentum_1d": 0.06088274471661809,
-      "macd_crossover": false,
-      "atr_pct": 0.005909130113663664,
-      "bollinger_pct_b": 0.8388,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.78,
-      "news_sentiment": 0.316,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Gold Went Flat in 2026. This Award-Winning Fund Still Milks 13% Income Out of It",
-        "The 20 Most Actively Traded ETFs",
-        "Citadel Securities\u2019 Rubner says it\u2019s time to start buying gold again"
+        "3 Crypto Earnings to Watch This Week After Q1 Losses",
+        "Ethereum Price Risk: Fewer Coins to Sell and More Dollars in Position",
+        "Bitcoin slips below $65,000 as ETF inflows offset fork concerns"
       ],
       "high_impact_news": true
     }
