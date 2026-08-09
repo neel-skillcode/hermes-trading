@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 369.25,
-  "equity_value": 106202.05,
+  "unrealized_pnl_usd": 377.58,
+  "equity_value": 106210.38,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-09T17:44:30.342898+00:00",
+  "last_tick": "2026-08-09T18:14:46.172734+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -671,9 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 6.549,
-      "unrealized_pnl_pct": -0.001836,
-      "unrealized_pnl_usd": -7.69
+      "price_trough": 6.535999774932861,
+      "trailing_stop_price": 6.582863,
+      "current_price": 6.536,
+      "unrealized_pnl_pct": 0.000153,
+      "unrealized_pnl_usd": 0.64
     }
   ],
   "last_candidates": [
@@ -685,7 +687,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015398148395170244,
+      "atr_pct": 0.015357249336667662,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -951,27 +953,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5613,
-      "price": 6.548999786376953,
-      "rsi": 71.6278285786524,
-      "momentum_5d": 0.01377705072823958,
-      "momentum_1d": 0.0018356442950998254,
-      "macd_crossover": false,
-      "atr_pct": 0.004711735426442194,
-      "bollinger_pct_b": 1.1024,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.95,
-      "news_sentiment": 0.282,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-        "Aptos climbs to the top 4 blockchains in transaction count",
-        "How tokenized stocks could become a $3 trillion market"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HD",
       "rank_score": 0.5604,
       "price": 355.5899963378906,
@@ -1092,6 +1073,27 @@
         "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
         "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
         "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GLD",
+      "rank_score": 0.5027,
+      "price": 398.510009765625,
+      "rsi": 70.78940495858384,
+      "momentum_5d": -0.0014032564420176732,
+      "momentum_1d": 0.06088274471661809,
+      "macd_crossover": false,
+      "atr_pct": 0.005909130113663664,
+      "bollinger_pct_b": 0.8388,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.78,
+      "news_sentiment": 0.316,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Gold Went Flat in 2026. This Award-Winning Fund Still Milks 13% Income Out of It",
+        "The 20 Most Actively Traded ETFs",
+        "Citadel Securities\u2019 Rubner says it\u2019s time to start buying gold again"
       ],
       "high_impact_news": true
     }
