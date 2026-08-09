@@ -3,15 +3,15 @@
   "portfolio_balance": 105832.8,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.91,
-  "unrealized_pnl_usd": 351.3,
-  "equity_value": 106184.1,
+  "unrealized_pnl_usd": 415.4,
+  "equity_value": 106248.2,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42333.12,
   "swing_capital_used_usd": 52936.42,
   "total_trades": 919,
-  "last_tick": "2026-08-09T22:14:52.520135+00:00",
+  "last_tick": "2026-08-09T22:52:05.870855+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -255,8 +255,8 @@
       "mode": "paper",
       "strategy_version": "76",
       "status": "open",
-      "price_trough": 9.481149673461914,
-      "trailing_stop_price": 9.556999,
+      "price_trough": 9.487970352172852,
+      "trailing_stop_price": 9.563874,
       "current_price": 9.4896,
       "unrealized_pnl_pct": 0.004558,
       "unrealized_pnl_usd": 26.4
@@ -671,9 +671,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 6.577,
-      "unrealized_pnl_pct": -0.006119,
-      "unrealized_pnl_usd": -25.64
+      "price_trough": 6.479000091552734,
+      "trailing_stop_price": 6.525455,
+      "current_price": 6.477,
+      "unrealized_pnl_pct": 0.009179,
+      "unrealized_pnl_usd": 38.46
     }
   ],
   "last_candidates": [
@@ -888,27 +890,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.6064,
-      "price": 610.1199951171875,
-      "rsi": 87.49993089302794,
-      "momentum_5d": 0.003536399029011202,
-      "momentum_1d": 0.017205747806351868,
-      "macd_crossover": false,
-      "atr_pct": 0.003005268770400061,
-      "bollinger_pct_b": 0.9114,
-      "volume_spike": true,
-      "volume_spike_ratio": 16.6,
-      "news_sentiment": 0.029,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "XRP Price Forecast: Potential 35% Drop Ahead as XRP Retests Key Support",
-        "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
-        "Ethereum and Solana Just Got Demoted Inside Grayscale\u2019s Fund"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "TGT",
       "rank_score": 0.5975,
       "price": 149.69000244140625,
@@ -1092,6 +1073,27 @@
         "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
         "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
         "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5041,
+      "price": 0.06984999775886536,
+      "rsi": 43.452365113576896,
+      "momentum_5d": -0.008516716850125094,
+      "momentum_1d": -0.008657414030968234,
+      "macd_crossover": false,
+      "atr_pct": 0.003967710482451432,
+      "bollinger_pct_b": 0.0839,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.85,
+      "news_sentiment": 0.25,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "XRP at a Crossroads as Senate Punts on Clarity Act",
+        "Dogecoin cheers crypto payments to buy hoodie or tote bag",
+        "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends"
       ],
       "high_impact_news": true
     }
