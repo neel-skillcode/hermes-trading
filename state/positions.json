@@ -151,8 +151,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.489049911499023,
-    "trailing_stop_price": 9.564962
+    "price_trough": 9.488349914550781,
+    "trailing_stop_price": 9.564257
   },
   "TLT": {
     "id": "TLT_20260805152238",
@@ -215,8 +215,8 @@
     "mode": "paper",
     "strategy_version": "81",
     "status": "open",
-    "price_trough": 17.459999084472656,
-    "trailing_stop_price": 17.695709
+    "price_trough": 17.184999465942383,
+    "trailing_stop_price": 17.416997
   },
   "MRNA": {
     "id": "MRNA_20260807195911",
@@ -250,38 +250,6 @@
     "status": "open",
     "price_trough": 59.16999816894531,
     "trailing_stop_price": 60.057548
-  },
-  "ARKK": {
-    "id": "ARKK_20260807195911",
-    "asset": "ARKK",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 79.46499633789062,
-    "entry_time": "2026-08-07T19:59:11.284223+00:00",
-    "stop_loss_pct": 0.00921,
-    "take_profit_pct": 0.02244,
-    "size_usd": 5901.19,
-    "position_size_pct": 0.0557,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (78.2)",
-      "5d momentum +0.97%",
-      "1d momentum +3.77%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [neutral]: analyst downgrade"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "Cathie Wood sells $17 million of popular AI stock",
-      "Cathie Wood's Ark Invest Makes SpaceX, Circle Top Holdings After Latest Buying Spree",
-      "Cathie Wood's Ark Innovation Fund: Is It Still a Buy After Years of Underperformance?"
-    ],
-    "mode": "paper",
-    "strategy_version": "81",
-    "status": "open",
-    "price_trough": 79.43000030517578,
-    "trailing_stop_price": 80.161551
   },
   "NKE": {
     "id": "NKE_20260807195911",
@@ -465,7 +433,9 @@
     ],
     "mode": "paper",
     "strategy_version": "82",
-    "status": "open"
+    "status": "open",
+    "price_trough": 32.7400016784668,
+    "trailing_stop_price": 33.231102
   },
   "INTC": {
     "id": "INTC_20260810135409",
@@ -496,7 +466,9 @@
     ],
     "mode": "paper",
     "strategy_version": "82",
-    "status": "open"
+    "status": "open",
+    "price_peak": 97.98500061035156,
+    "trailing_stop_price": 96.515226
   },
   "VLO": {
     "id": "VLO_20260810135409",
@@ -528,6 +500,68 @@
     ],
     "mode": "paper",
     "strategy_version": "82",
+    "status": "open"
+  },
+  "ORCL": {
+    "id": "ORCL_20260810145046",
+    "asset": "ORCL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 150.55999755859375,
+    "entry_time": "2026-08-10T14:50:46.906610+00:00",
+    "stop_loss_pct": 0.01095,
+    "take_profit_pct": 0.02596,
+    "size_usd": 5046.34,
+    "position_size_pct": 0.0476,
+    "confidence": 0.744,
+    "signals": [
+      "RSI overbought (71.6)",
+      "MACD crossover",
+      "5d momentum +4.27%",
+      "1d momentum +2.95%",
+      "BB overbought (pct_b=1.24)",
+      "News +0.52 (conf 0.71) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.521,
+    "news_headlines": [
+      "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
+      "Nvidia investing up to $3 billion in Lancium for Stargate",
+      "Oracle\u2019s Rebound Is All But Assured So I Keep Buying"
+    ],
+    "mode": "paper",
+    "strategy_version": "83",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20260810145046",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 179.28500366210938,
+    "entry_time": "2026-08-10T14:50:46.908544+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 822.02,
+    "position_size_pct": 0.0078,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (87.2)",
+      "5d momentum +4.76%",
+      "1d momentum +10.27%",
+      "BB overbought (pct_b=0.98)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.551,
+    "news_headlines": [
+      "Palantir AI Boosts Pentagon Capabilities but LMT, RTX May Be the Better Missile Shortage Plays",
+      "Palantir (PLTR) Turning AI Demand\u00a0into\u00a0Profitable Growth",
+      "Price Prediction: Archer Aviation Will Trade at $10 on This Date"
+    ],
+    "mode": "paper",
+    "strategy_version": "83",
     "status": "open"
   }
 }
