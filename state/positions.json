@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3934999704360962,
-    "trailing_stop_price": 1.404648
+    "price_trough": 1.3931399583816528,
+    "trailing_stop_price": 1.404285
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -151,8 +151,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.488349914550781,
-    "trailing_stop_price": 9.564257
+    "price_trough": 9.478710174560547,
+    "trailing_stop_price": 9.55454
   },
   "TLT": {
     "id": "TLT_20260805152238",
@@ -182,8 +182,8 @@
     "mode": "paper",
     "strategy_version": "78",
     "status": "open",
-    "price_trough": 82.23500061035156,
-    "trailing_stop_price": 82.892881
+    "price_trough": 82.18499755859375,
+    "trailing_stop_price": 82.842478
   },
   "LYFT": {
     "id": "LYFT_20260807195911",
@@ -215,8 +215,8 @@
     "mode": "paper",
     "strategy_version": "81",
     "status": "open",
-    "price_trough": 17.184999465942383,
-    "trailing_stop_price": 17.416997
+    "price_trough": 17.104999542236328,
+    "trailing_stop_price": 17.335917
   },
   "MRNA": {
     "id": "MRNA_20260807195911",
@@ -279,37 +279,8 @@
     "mode": "paper",
     "strategy_version": "81",
     "status": "open",
-    "price_peak": 41.70000076293945,
-    "trailing_stop_price": 40.736731
-  },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260810092145",
-    "asset": "CAD/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 113.83100128173828,
-    "entry_time": "2026-08-10T09:21:45.630498+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.0047,
-    "size_usd": 4481.59,
-    "position_size_pct": 0.0424,
-    "confidence": 0.699,
-    "signals": [
-      "RSI overbought (85.0)",
-      "5d momentum +0.36%",
-      "1d momentum +0.78%",
-      "BB overbought (pct_b=1.02)",
-      "News +1.00 (conf 0.70) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-    ],
-    "news_sentiment": 1.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "82",
-    "status": "open"
+    "price_peak": 41.85499954223633,
+    "trailing_stop_price": 40.888149
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -434,8 +405,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 32.7400016784668,
-    "trailing_stop_price": 33.231102
+    "price_trough": 32.369998931884766,
+    "trailing_stop_price": 32.855549
   },
   "INTC": {
     "id": "INTC_20260810135409",
@@ -467,8 +438,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_peak": 97.98500061035156,
-    "trailing_stop_price": 96.515226
+    "price_peak": 98.29979705810547,
+    "trailing_stop_price": 96.8253
   },
   "VLO": {
     "id": "VLO_20260810135409",
@@ -532,7 +503,9 @@
     ],
     "mode": "paper",
     "strategy_version": "83",
-    "status": "open"
+    "status": "open",
+    "price_trough": 149.41000366210938,
+    "trailing_stop_price": 151.046043
   },
   "PLTR": {
     "id": "PLTR_20260810145046",
@@ -559,6 +532,39 @@
       "Palantir AI Boosts Pentagon Capabilities but LMT, RTX May Be the Better Missile Shortage Plays",
       "Palantir (PLTR) Turning AI Demand\u00a0into\u00a0Profitable Growth",
       "Price Prediction: Archer Aviation Will Trade at $10 on This Date"
+    ],
+    "mode": "paper",
+    "strategy_version": "83",
+    "status": "open",
+    "price_trough": 178.3699951171875,
+    "trailing_stop_price": 181.045545
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260810154438",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1877.8199462890625,
+    "entry_time": "2026-08-10T15:44:38.415832+00:00",
+    "stop_loss_pct": 0.00574,
+    "take_profit_pct": 0.01421,
+    "size_usd": 4477.7,
+    "position_size_pct": 0.0423,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (21.4)",
+      "5d momentum -1.99%",
+      "1d momentum -2.43%",
+      "BB oversold (pct_b=-0.23)",
+      "Volume spike 3.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.125,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
+      "Exclusive: Marex plans to accept Bitcoin, Ethereum as initial margin this year",
+      "Bitmine Buys Another 7,391 Ethereum And Increases Staked Position"
     ],
     "mode": "paper",
     "strategy_version": "83",
