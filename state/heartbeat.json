@@ -3,15 +3,15 @@
   "portfolio_balance": 105793.5,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 1.95,
-  "unrealized_pnl_usd": 347.89,
-  "equity_value": 106141.39,
+  "unrealized_pnl_usd": 335.63,
+  "equity_value": 106129.13,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42317.4,
   "swing_capital_used_usd": 52896.75,
   "total_trades": 924,
-  "last_tick": "2026-08-10T11:33:35.957307+00:00",
+  "last_tick": "2026-08-10T12:26:06.165743+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.845620155334473,
       "trailing_stop_price": 7.782855,
-      "current_price": 7.8448,
-      "unrealized_pnl_pct": 0.00134,
-      "unrealized_pnl_usd": 1.8
+      "current_price": 7.84511,
+      "unrealized_pnl_pct": 0.00138,
+      "unrealized_pnl_usd": 1.85
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3934999704360962,
       "trailing_stop_price": 1.404648,
-      "current_price": 1.39426,
-      "unrealized_pnl_pct": 0.010777,
-      "unrealized_pnl_usd": 72.2
+      "current_price": 1.39492,
+      "unrealized_pnl_pct": 0.010309,
+      "unrealized_pnl_usd": 69.07
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85576,
-      "unrealized_pnl_pct": -0.002143,
-      "unrealized_pnl_usd": -14.92
+      "current_price": 0.85584,
+      "unrealized_pnl_pct": -0.002237,
+      "unrealized_pnl_usd": -15.57
     },
     {
       "id": "XOM_20260729152343",
@@ -166,9 +166,9 @@
       "status": "open",
       "price_trough": 0.8063200116157532,
       "trailing_stop_price": 0.812771,
-      "current_price": 0.80857,
-      "unrealized_pnl_pct": 0.001926,
-      "unrealized_pnl_usd": 11.16
+      "current_price": 0.80878,
+      "unrealized_pnl_pct": 0.001666,
+      "unrealized_pnl_usd": 9.66
     },
     {
       "id": "USD/SEK_20260731121759",
@@ -194,9 +194,9 @@
       "status": "open",
       "price_trough": 9.464690208435059,
       "trailing_stop_price": 9.540408,
-      "current_price": 9.48921,
-      "unrealized_pnl_pct": 0.007971,
-      "unrealized_pnl_usd": 46.19
+      "current_price": 9.49568,
+      "unrealized_pnl_pct": 0.007295,
+      "unrealized_pnl_usd": 42.27
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -222,9 +222,9 @@
       "status": "open",
       "price_trough": 9.489049911499023,
       "trailing_stop_price": 9.564962,
-      "current_price": 9.50315,
-      "unrealized_pnl_pct": 0.003136,
-      "unrealized_pnl_usd": 18.17
+      "current_price": 9.51515,
+      "unrealized_pnl_pct": 0.001878,
+      "unrealized_pnl_usd": 10.88
     },
     {
       "id": "TLT_20260805152238",
@@ -602,9 +602,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 113.905998,
-      "unrealized_pnl_pct": -0.000659,
-      "unrealized_pnl_usd": -2.95
+      "price_trough": 113.8239974975586,
+      "trailing_stop_price": 114.051645,
+      "current_price": 113.827003,
+      "unrealized_pnl_pct": 3.5e-05,
+      "unrealized_pnl_usd": 0.16
     },
     {
       "id": "GBP/USD_20260810092145",
@@ -634,11 +636,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "price_trough": 1.3498737812042236,
-      "trailing_stop_price": 1.360673,
-      "current_price": 1.349874,
-      "unrealized_pnl_pct": 0.000432,
-      "unrealized_pnl_usd": 1.82
+      "price_trough": 1.3495277166366577,
+      "trailing_stop_price": 1.360324,
+      "current_price": 1.349528,
+      "unrealized_pnl_pct": 0.000688,
+      "unrealized_pnl_usd": 2.9
     }
   ],
   "last_candidates": [
@@ -650,7 +652,7 @@
       "momentum_5d": 0.01925882225258594,
       "momentum_1d": 0.056244349184033135,
       "macd_crossover": false,
-      "atr_pct": 0.015357249336667662,
+      "atr_pct": 0.015398148395170244,
       "bollinger_pct_b": 1.0037,
       "volume_spike": true,
       "volume_spike_ratio": 1.74,
@@ -811,27 +813,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "PLTR",
-      "rank_score": 0.6213,
-      "price": 172.0,
-      "rsi": 77.91715331650953,
-      "momentum_5d": 0.017594920345124186,
-      "momentum_1d": 0.05891773536751297,
-      "macd_crossover": false,
-      "atr_pct": 0.01761345213829877,
-      "bollinger_pct_b": 0.8879,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.96,
-      "news_sentiment": 0.932,
-      "news_confidence": 0.59,
-      "news_headlines": [
-        "Why Palantir Stock Skyrocketed This Past Week",
-        "Vitalhub Q2 Earnings Call Highlights",
-        "BofA, JPMorgan, Oppenheimer Name Their 3 Favorite AI Stocks, One Has a $255 Target"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
       "rank_score": 0.6148,
       "price": 167.8699951171875,
@@ -870,6 +851,27 @@
         "Can Target (TGT) Still Be A Bargain As Recovery Gets Tested?",
         "Taylor Farms Pulls Salsa and Guacamole Over Salmonella Concerns",
         "Why Target (TGT) Outpaced the Stock Market Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PLTR",
+      "rank_score": 0.6094,
+      "price": 172.0,
+      "rsi": 77.91715331650953,
+      "momentum_5d": 0.017594920345124186,
+      "momentum_1d": 0.05891773536751297,
+      "macd_crossover": false,
+      "atr_pct": 0.01761345213829877,
+      "bollinger_pct_b": 0.8879,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.96,
+      "news_sentiment": 0.705,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Stocks Mostly Up Pre-Bell as Traders Assess Middle East Developments, Await Key Inflation Data",
+        "Why Palantir Stock Skyrocketed This Past Week",
+        "Vitalhub Q2 Earnings Call Highlights"
       ],
       "high_impact_news": true
     },
@@ -979,25 +981,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "CAD/JPY",
-      "rank_score": 0.5184,
-      "price": 113.90599822998047,
-      "rsi": 85.60986117094457,
-      "momentum_5d": 0.0035240563273645268,
-      "momentum_1d": 0.00884799498558884,
-      "macd_crossover": false,
-      "atr_pct": 0.0011908376418770905,
-      "bollinger_pct_b": 0.9191,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MPC",
       "rank_score": 0.5132,
       "price": 298.1700134277344,
@@ -1020,7 +1003,7 @@
     },
     {
       "asset": "BMY",
-      "rank_score": 0.505,
+      "rank_score": 0.503,
       "price": 64.70999908447266,
       "rsi": 71.17637467107674,
       "momentum_5d": 0.005750742425270112,
@@ -1030,12 +1013,12 @@
       "bollinger_pct_b": 1.0356,
       "volume_spike": false,
       "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.443,
-      "news_confidence": 0.61,
+      "news_sentiment": 0.424,
+      "news_confidence": 0.59,
       "news_headlines": [
+        "Interest Rates Could Still Rise in September: 5 High-Yield Passive Income Stocks Will Benefit",
         "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
-        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
-        "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
+        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling."
       ],
       "high_impact_news": true
     },
@@ -1057,6 +1040,27 @@
         "Gold Went Flat in 2026. This Award-Winning Fund Still Milks 13% Income Out of It",
         "The 20 Most Actively Traded ETFs",
         "Citadel Securities\u2019 Rubner says it\u2019s time to start buying gold again"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.5018,
+      "price": 354.25,
+      "rsi": 22.51752390086625,
+      "momentum_5d": -0.007869819015871773,
+      "momentum_1d": -0.06186273207212432,
+      "macd_crossover": false,
+      "atr_pct": 0.006375026385598347,
+      "bollinger_pct_b": 0.2582,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.63,
+      "news_sentiment": 0.656,
+      "news_confidence": 0.64,
+      "news_headlines": [
+        "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
+        "Berkshire Earnings Were Good\u2014Not Great. A Real Bright Spot Was This.",
+        "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off"
       ],
       "high_impact_news": true
     }
