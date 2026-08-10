@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105828.24,
+  "portfolio_balance": 105793.5,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 1.92,
-  "unrealized_pnl_usd": 335.18,
-  "equity_value": 106163.42,
-  "open_positions": 20,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 1.95,
+  "unrealized_pnl_usd": 356.9,
+  "equity_value": 106150.4,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42167.75,
-  "swing_capital_used_usd": 52936.42,
-  "total_trades": 921,
-  "last_tick": "2026-08-10T07:57:36.747916+00:00",
+  "day_capital_used_usd": 42317.4,
+  "swing_capital_used_usd": 52896.75,
+  "total_trades": 924,
+  "last_tick": "2026-08-10T09:21:45.639135+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 7,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.845620155334473,
       "trailing_stop_price": 7.782855,
-      "current_price": 7.8454,
-      "unrealized_pnl_pct": 0.001417,
-      "unrealized_pnl_usd": 1.9
+      "current_price": 7.84503,
+      "unrealized_pnl_pct": 0.00137,
+      "unrealized_pnl_usd": 1.84
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3934999704360962,
       "trailing_stop_price": 1.404648,
-      "current_price": 1.394,
-      "unrealized_pnl_pct": 0.010962,
-      "unrealized_pnl_usd": 73.44
+      "current_price": 1.3938,
+      "unrealized_pnl_pct": 0.011104,
+      "unrealized_pnl_usd": 74.39
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85653,
-      "unrealized_pnl_pct": -0.003045,
-      "unrealized_pnl_usd": -21.19
+      "current_price": 0.85612,
+      "unrealized_pnl_pct": -0.002565,
+      "unrealized_pnl_usd": -17.85
     },
     {
       "id": "XOM_20260729152343",
@@ -166,9 +166,9 @@
       "status": "open",
       "price_trough": 0.8063200116157532,
       "trailing_stop_price": 0.812771,
-      "current_price": 0.80725,
-      "unrealized_pnl_pct": 0.003555,
-      "unrealized_pnl_usd": 20.6
+      "current_price": 0.80793,
+      "unrealized_pnl_pct": 0.002716,
+      "unrealized_pnl_usd": 15.74
     },
     {
       "id": "USD/SEK_20260731121759",
@@ -194,9 +194,9 @@
       "status": "open",
       "price_trough": 9.464690208435059,
       "trailing_stop_price": 9.540408,
-      "current_price": 9.47375,
-      "unrealized_pnl_pct": 0.009588,
-      "unrealized_pnl_usd": 55.56
+      "current_price": 9.47625,
+      "unrealized_pnl_pct": 0.009326,
+      "unrealized_pnl_usd": 54.04
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -222,9 +222,9 @@
       "status": "open",
       "price_trough": 9.489049911499023,
       "trailing_stop_price": 9.564962,
-      "current_price": 9.51135,
-      "unrealized_pnl_pct": 0.002276,
-      "unrealized_pnl_usd": 13.19
+      "current_price": 9.50948,
+      "unrealized_pnl_pct": 0.002472,
+      "unrealized_pnl_usd": 14.32
     },
     {
       "id": "TLT_20260805152238",
@@ -259,38 +259,6 @@
       "current_price": 82.75,
       "unrealized_pnl_pct": 0.00205,
       "unrealized_pnl_usd": 11.85
-    },
-    {
-      "id": "EUR/JPY_20260807003105",
-      "asset": "EUR/JPY",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 182.625,
-      "entry_time": "2026-08-07T00:31:05.244709+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02674,
-      "size_usd": 4248.32,
-      "position_size_pct": 0.0402,
-      "confidence": 0.684,
-      "signals": [
-        "RSI overbought (74.2)",
-        "BB overbought (pct_b=0.86)",
-        "News -1.00 (conf 0.70) \u2192 short",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-      ],
-      "news_sentiment": -1.0,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "mode": "paper",
-      "strategy_version": "79",
-      "status": "open",
-      "price_trough": 181.9929962158203,
-      "trailing_stop_price": 183.44894,
-      "current_price": 183.210007,
-      "unrealized_pnl_pct": -0.003203,
-      "unrealized_pnl_usd": -13.61
     },
     {
       "id": "SOUN_20260807195911",
@@ -607,53 +575,22 @@
       "unrealized_pnl_usd": 2.98
     },
     {
-      "id": "DOGE-USD_20260810043921",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.0696600005030632,
-      "entry_time": "2026-08-10T04:39:21.636813+00:00",
-      "stop_loss_pct": 0.00529,
-      "take_profit_pct": 0.01207,
-      "size_usd": 308.77,
-      "position_size_pct": 0.0029,
-      "confidence": 0.564,
-      "signals": [
-        "RSI oversold (36.7)",
-        "5d momentum +0.52%",
-        "1d momentum -0.49%",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": 0.25,
-      "news_headlines": [
-        "XRP at a Crossroads as Senate Punts on Clarity Act",
-        "Dogecoin cheers crypto payments to buy hoodie or tote bag",
-        "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends"
-      ],
-      "mode": "paper",
-      "strategy_version": "82",
-      "status": "open",
-      "current_price": 0.06999,
-      "unrealized_pnl_pct": -0.004737,
-      "unrealized_pnl_usd": -1.46
-    },
-    {
-      "id": "CAD/JPY_20260810060047",
+      "id": "CAD/JPY_20260810092145",
       "asset": "CAD/JPY",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 113.4520034790039,
-      "entry_time": "2026-08-10T06:00:47.919671+00:00",
+      "entry_price": 113.83100128173828,
+      "entry_time": "2026-08-10T09:21:45.630498+00:00",
       "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00459,
-      "size_usd": 4023.17,
-      "position_size_pct": 0.038,
-      "confidence": 0.594,
+      "take_profit_pct": 0.0047,
+      "size_usd": 4481.59,
+      "position_size_pct": 0.0424,
+      "confidence": 0.699,
       "signals": [
-        "RSI overbought (71.8)",
-        "1d momentum +0.49%",
-        "BB overbought (pct_b=0.88)",
+        "RSI overbought (85.0)",
+        "5d momentum +0.36%",
+        "1d momentum +0.78%",
+        "BB overbought (pct_b=1.02)",
         "News +1.00 (conf 0.70) \u2192 long",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
@@ -665,9 +602,41 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "current_price": 113.667999,
-      "unrealized_pnl_pct": -0.001904,
-      "unrealized_pnl_usd": -7.66
+      "current_price": 113.831001,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "GBP/USD_20260810092145",
+      "asset": "GBP/USD",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 1.3504570722579956,
+      "entry_time": "2026-08-10T09:21:45.633269+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02667,
+      "size_usd": 4208.65,
+      "position_size_pct": 0.0398,
+      "confidence": 0.667,
+      "signals": [
+        "MACD crossover",
+        "1d momentum +0.45%",
+        "BB overbought (pct_b=1.03)",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed dovish; price surge"
+      ],
+      "news_sentiment": -0.2,
+      "news_headlines": [
+        "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "UK\u2019s Nephos to attest Agant\u2019s GBPA stablecoin reserves",
+        "US Dollar Price Forecast: NFP Countdown Keeps DXY, EUR/USD and GBP/USD in Focus"
+      ],
+      "mode": "paper",
+      "strategy_version": "82",
+      "status": "open",
+      "current_price": 1.350457,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -967,14 +936,14 @@
     },
     {
       "asset": "CAD/JPY",
-      "rank_score": 0.5365,
-      "price": 113.66799926757812,
-      "rsi": 83.34986996196575,
-      "momentum_5d": 0.00258433753100882,
-      "momentum_1d": 0.0065528288340412815,
+      "rank_score": 0.5415,
+      "price": 113.83100128173828,
+      "rsi": 85.01782223755318,
+      "momentum_5d": 0.003632570981339703,
+      "momentum_1d": 0.007844540168294535,
       "macd_crossover": false,
-      "atr_pct": 0.0012203468216251082,
-      "bollinger_pct_b": 1.0493,
+      "atr_pct": 0.0012349196406268037,
+      "bollinger_pct_b": 1.0213,
       "volume_spike": false,
       "volume_spike_ratio": 1.0,
       "news_sentiment": 1.0,
@@ -1007,14 +976,14 @@
     },
     {
       "asset": "EUR/JPY",
-      "rank_score": 0.5252,
-      "price": 183.2100067138672,
-      "rsi": 87.5009442513975,
-      "momentum_5d": 0.0023635603640811288,
-      "momentum_1d": 0.004055491249046483,
+      "rank_score": 0.5285,
+      "price": 183.4669952392578,
+      "rsi": 87.96275246210226,
+      "momentum_5d": 0.003094538901773647,
+      "momentum_1d": 0.0052600252876505785,
       "macd_crossover": false,
-      "atr_pct": 0.0009298381875005004,
-      "bollinger_pct_b": 1.0022,
+      "atr_pct": 0.0009581261169687455,
+      "bollinger_pct_b": 0.9853,
       "volume_spike": false,
       "volume_spike_ratio": 1.0,
       "news_sentiment": -1.0,
@@ -1046,6 +1015,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "GBP/USD",
+      "rank_score": 0.5211,
+      "price": 1.3504570722579956,
+      "rsi": 58.20978245808508,
+      "momentum_5d": 0.0011208249865762583,
+      "momentum_1d": 0.004523989318139336,
+      "macd_crossover": true,
+      "atr_pct": 0.0003958426558860599,
+      "bollinger_pct_b": 1.0307,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -0.2,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "UK\u2019s Nephos to attest Agant\u2019s GBPA stablecoin reserves",
+        "US Dollar Price Forecast: NFP Countdown Keeps DXY, EUR/USD and GBP/USD in Focus"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5132,
       "price": 298.1700134277344,
@@ -1063,27 +1053,6 @@
         "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
         "Oil Refiners Are Quietly Printing Money. This Company\u2019s Earnings Jumped 975%",
         "Marathon Petroleum (MPC) Q2 Earnings: How Key Metrics Compare to Wall Street Estimates"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.505,
-      "price": 64.70999908447266,
-      "rsi": 71.17637467107674,
-      "momentum_5d": 0.005750742425270112,
-      "momentum_1d": -0.017535850857929004,
-      "macd_crossover": false,
-      "atr_pct": 0.007990480074482645,
-      "bollinger_pct_b": 1.0356,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.443,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Xenon Pharmaceuticals Q2 Earnings Call Highlights",
-        "Replimune Wins FDA Skin Cancer Drug Approval on Third Try. Why the Stock Is Tumbling.",
-        "CYTK Q2 Earnings Top Estimates, Myqorzo Uptake Strong"
       ],
       "high_impact_news": true
     }

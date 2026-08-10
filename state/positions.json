@@ -218,35 +218,6 @@
     "price_trough": 82.5199966430664,
     "trailing_stop_price": 83.180157
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260807003105",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 182.625,
-    "entry_time": "2026-08-07T00:31:05.244709+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02674,
-    "size_usd": 4248.32,
-    "position_size_pct": 0.0402,
-    "confidence": 0.684,
-    "signals": [
-      "RSI overbought (74.2)",
-      "BB overbought (pct_b=0.86)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-    ],
-    "mode": "paper",
-    "strategy_version": "79",
-    "status": "open",
-    "price_trough": 181.9929962158203,
-    "trailing_stop_price": 183.44894
-  },
   "SOUN": {
     "id": "SOUN_20260807195911",
     "asset": "SOUN",
@@ -534,51 +505,23 @@
     "price_peak": 41.70000076293945,
     "trailing_stop_price": 40.736731
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260810043921",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.0696600005030632,
-    "entry_time": "2026-08-10T04:39:21.636813+00:00",
-    "stop_loss_pct": 0.00529,
-    "take_profit_pct": 0.01207,
-    "size_usd": 308.77,
-    "position_size_pct": 0.0029,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (36.7)",
-      "5d momentum +0.52%",
-      "1d momentum -0.49%",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.25,
-    "news_headlines": [
-      "XRP at a Crossroads as Senate Punts on Clarity Act",
-      "Dogecoin cheers crypto payments to buy hoodie or tote bag",
-      "Dogecoin Trolls Spider-Man: You\u2019d Need 11 More Record Weekends"
-    ],
-    "mode": "paper",
-    "strategy_version": "82",
-    "status": "open"
-  },
   "CAD/JPY": {
-    "id": "CAD/JPY_20260810060047",
+    "id": "CAD/JPY_20260810092145",
     "asset": "CAD/JPY",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 113.4520034790039,
-    "entry_time": "2026-08-10T06:00:47.919671+00:00",
+    "entry_price": 113.83100128173828,
+    "entry_time": "2026-08-10T09:21:45.630498+00:00",
     "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00459,
-    "size_usd": 4023.17,
-    "position_size_pct": 0.038,
-    "confidence": 0.594,
+    "take_profit_pct": 0.0047,
+    "size_usd": 4481.59,
+    "position_size_pct": 0.0424,
+    "confidence": 0.699,
     "signals": [
-      "RSI overbought (71.8)",
-      "1d momentum +0.49%",
-      "BB overbought (pct_b=0.88)",
+      "RSI overbought (85.0)",
+      "5d momentum +0.36%",
+      "1d momentum +0.78%",
+      "BB overbought (pct_b=1.02)",
       "News +1.00 (conf 0.70) \u2192 long",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
@@ -586,6 +529,35 @@
     "news_sentiment": 1.0,
     "news_headlines": [
       "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+    ],
+    "mode": "paper",
+    "strategy_version": "82",
+    "status": "open"
+  },
+  "GBP/USD": {
+    "id": "GBP/USD_20260810092145",
+    "asset": "GBP/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.3504570722579956,
+    "entry_time": "2026-08-10T09:21:45.633269+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02667,
+    "size_usd": 4208.65,
+    "position_size_pct": 0.0398,
+    "confidence": 0.667,
+    "signals": [
+      "MACD crossover",
+      "1d momentum +0.45%",
+      "BB overbought (pct_b=1.03)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; price surge"
+    ],
+    "news_sentiment": -0.2,
+    "news_headlines": [
+      "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+      "UK\u2019s Nephos to attest Agant\u2019s GBPA stablecoin reserves",
+      "US Dollar Price Forecast: NFP Countdown Keeps DXY, EUR/USD and GBP/USD in Focus"
     ],
     "mode": "paper",
     "strategy_version": "82",
