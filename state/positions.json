@@ -182,8 +182,8 @@
     "mode": "paper",
     "strategy_version": "78",
     "status": "open",
-    "price_trough": 82.18499755859375,
-    "trailing_stop_price": 82.842478
+    "price_trough": 82.1449966430664,
+    "trailing_stop_price": 82.802157
   },
   "LYFT": {
     "id": "LYFT_20260807195911",
@@ -279,8 +279,8 @@
     "mode": "paper",
     "strategy_version": "81",
     "status": "open",
-    "price_peak": 41.85499954223633,
-    "trailing_stop_price": 40.888149
+    "price_peak": 41.869998931884766,
+    "trailing_stop_price": 40.902802
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -373,7 +373,9 @@
     ],
     "mode": "paper",
     "strategy_version": "82",
-    "status": "open"
+    "status": "open",
+    "price_trough": 10.154999732971191,
+    "trailing_stop_price": 10.25787
   },
   "SMCI": {
     "id": "SMCI_20260810135409",
@@ -405,8 +407,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 32.369998931884766,
-    "trailing_stop_price": 32.855549
+    "price_trough": 31.825000762939453,
+    "trailing_stop_price": 32.302376
   },
   "INTC": {
     "id": "INTC_20260810135409",
@@ -438,8 +440,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_peak": 98.29979705810547,
-    "trailing_stop_price": 96.8253
+    "price_peak": 98.69499969482422,
+    "trailing_stop_price": 97.214575
   },
   "VLO": {
     "id": "VLO_20260810135409",
@@ -473,40 +475,6 @@
     "strategy_version": "82",
     "status": "open"
   },
-  "ORCL": {
-    "id": "ORCL_20260810145046",
-    "asset": "ORCL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 150.55999755859375,
-    "entry_time": "2026-08-10T14:50:46.906610+00:00",
-    "stop_loss_pct": 0.01095,
-    "take_profit_pct": 0.02596,
-    "size_usd": 5046.34,
-    "position_size_pct": 0.0476,
-    "confidence": 0.744,
-    "signals": [
-      "RSI overbought (71.6)",
-      "MACD crossover",
-      "5d momentum +4.27%",
-      "1d momentum +2.95%",
-      "BB overbought (pct_b=1.24)",
-      "News +0.52 (conf 0.71) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.521,
-    "news_headlines": [
-      "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
-      "Nvidia investing up to $3 billion in Lancium for Stargate",
-      "Oracle\u2019s Rebound Is All But Assured So I Keep Buying"
-    ],
-    "mode": "paper",
-    "strategy_version": "83",
-    "status": "open",
-    "price_trough": 149.41000366210938,
-    "trailing_stop_price": 151.046043
-  },
   "PLTR": {
     "id": "PLTR_20260810145046",
     "asset": "PLTR",
@@ -536,8 +504,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_trough": 178.3699951171875,
-    "trailing_stop_price": 181.045545
+    "price_trough": 177.44000244140625,
+    "trailing_stop_price": 180.101602
   },
   "ETH-USD": {
     "id": "ETH-USD_20260810154438",
@@ -565,6 +533,68 @@
       "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
       "Exclusive: Marex plans to accept Bitcoin, Ethereum as initial margin this year",
       "Bitmine Buys Another 7,391 Ethereum And Increases Staked Position"
+    ],
+    "mode": "paper",
+    "strategy_version": "83",
+    "status": "open"
+  },
+  "MPC": {
+    "id": "MPC_20260810173102",
+    "asset": "MPC",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 315.04669189453125,
+    "entry_time": "2026-08-10T17:31:02.030004+00:00",
+    "stop_loss_pct": 0.01004,
+    "take_profit_pct": 0.02306,
+    "size_usd": 4040.5,
+    "position_size_pct": 0.0381,
+    "confidence": 0.596,
+    "signals": [
+      "RSI overbought (69.8)",
+      "5d momentum +5.66%",
+      "1d momentum +4.10%",
+      "BB overbought (pct_b=0.99)",
+      "News +0.94 (conf 0.62) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.935,
+    "news_headlines": [
+      "Marathon Petroleum Q2 Earnings Beat on Strong Refining Margins",
+      "MPC Jumps 18.1% in 3 Months as Refining Strength Builds Momentum",
+      "Are Oils-Energy Stocks Lagging  Marathon Petroleum (MPC) This Year?"
+    ],
+    "mode": "paper",
+    "strategy_version": "83",
+    "status": "open"
+  },
+  "OXY": {
+    "id": "OXY_20260810173102",
+    "asset": "OXY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 58.52000045776367,
+    "entry_time": "2026-08-10T17:31:02.031991+00:00",
+    "stop_loss_pct": 0.00821,
+    "take_profit_pct": 0.01886,
+    "size_usd": 988.75,
+    "position_size_pct": 0.0093,
+    "confidence": 0.595,
+    "signals": [
+      "RSI overbought (78.1)",
+      "5d momentum +4.66%",
+      "1d momentum +8.65%",
+      "BB overbought (pct_b=0.95)",
+      "News +0.83 (conf 0.69) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.826,
+    "news_headlines": [
+      "Occidental Petroleum Q2 Earnings Call Highlights",
+      "OXY Q2 Earnings Call Maps $4B Cash Flow Path to 2030",
+      "Occidental Petroleum Corp (OXY) (Q2 2026) Earnings Call Highlights: Record Free Cash Flow and ..."
     ],
     "mode": "paper",
     "strategy_version": "83",
