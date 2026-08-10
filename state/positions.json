@@ -182,41 +182,8 @@
     "mode": "paper",
     "strategy_version": "78",
     "status": "open",
-    "price_trough": 82.1449966430664,
-    "trailing_stop_price": 82.802157
-  },
-  "LYFT": {
-    "id": "LYFT_20260807195911",
-    "asset": "LYFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 17.485000610351562,
-    "entry_time": "2026-08-07T19:59:11.277488+00:00",
-    "stop_loss_pct": 0.0135,
-    "take_profit_pct": 0.03151,
-    "size_usd": 4519.5,
-    "position_size_pct": 0.0427,
-    "confidence": 0.667,
-    "signals": [
-      "RSI overbought (75.8)",
-      "5d momentum +2.04%",
-      "1d momentum +5.75%",
-      "BB overbought (pct_b=1.01)",
-      "News +0.80 (conf 0.66) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: earnings miss"
-    ],
-    "news_sentiment": 0.803,
-    "news_headlines": [
-      "Autonomous driving will be 'big part' of society in next 5, 10 years: Lyft CEO",
-      "LYFT Q2 Earnings Miss, Revenues Top Estimates on Record Rides",
-      "Lyft Q2 Rides, Gross Bookings Growth Support Higher Estimates, RBC Says"
-    ],
-    "mode": "paper",
-    "strategy_version": "81",
-    "status": "open",
-    "price_trough": 17.104999542236328,
-    "trailing_stop_price": 17.335917
+    "price_trough": 82.06999969482422,
+    "trailing_stop_price": 82.72656
   },
   "MRNA": {
     "id": "MRNA_20260807195911",
@@ -279,8 +246,8 @@
     "mode": "paper",
     "strategy_version": "81",
     "status": "open",
-    "price_peak": 41.869998931884766,
-    "trailing_stop_price": 40.902802
+    "price_peak": 42.025001525878906,
+    "trailing_stop_price": 41.054224
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -342,7 +309,9 @@
     ],
     "mode": "paper",
     "strategy_version": "82",
-    "status": "open"
+    "status": "open",
+    "price_trough": 520.2100219726562,
+    "trailing_stop_price": 526.301681
   },
   "UNG": {
     "id": "UNG_20260810135409",
@@ -407,8 +376,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 31.825000762939453,
-    "trailing_stop_price": 32.302376
+    "price_trough": 31.729999542236328,
+    "trailing_stop_price": 32.20595
   },
   "INTC": {
     "id": "INTC_20260810135409",
@@ -440,8 +409,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_peak": 98.69499969482422,
-    "trailing_stop_price": 97.214575
+    "price_peak": 98.99009704589844,
+    "trailing_stop_price": 97.505246
   },
   "VLO": {
     "id": "VLO_20260810135409",
@@ -504,8 +473,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_trough": 177.44000244140625,
-    "trailing_stop_price": 180.101602
+    "price_trough": 175.66000366210938,
+    "trailing_stop_price": 178.294904
   },
   "ETH-USD": {
     "id": "ETH-USD_20260810154438",
@@ -595,6 +564,37 @@
       "Occidental Petroleum Q2 Earnings Call Highlights",
       "OXY Q2 Earnings Call Maps $4B Cash Flow Path to 2030",
       "Occidental Petroleum Corp (OXY) (Q2 2026) Earnings Call Highlights: Record Free Cash Flow and ..."
+    ],
+    "mode": "paper",
+    "strategy_version": "83",
+    "status": "open"
+  },
+  "TGT": {
+    "id": "TGT_20260810193000",
+    "asset": "TGT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 152.75999450683594,
+    "entry_time": "2026-08-10T19:30:00.408939+00:00",
+    "stop_loss_pct": 0.00606,
+    "take_profit_pct": 0.01388,
+    "size_usd": 3967.14,
+    "position_size_pct": 0.0374,
+    "confidence": 0.585,
+    "signals": [
+      "RSI overbought (94.4)",
+      "5d momentum +2.02%",
+      "1d momentum +3.64%",
+      "BB overbought (pct_b=0.94)",
+      "News +0.81 (conf 0.64) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.812,
+    "news_headlines": [
+      "Target Stock: Next Stop, $166?",
+      "Consumers Seek Value, Deal With Stress During Back-to-School Shopping Season",
+      "Retail Stocks Forecasts \u2013 Walmart, Target, and Costco Consolidate Ahead of Earnings"
     ],
     "mode": "paper",
     "strategy_version": "83",
