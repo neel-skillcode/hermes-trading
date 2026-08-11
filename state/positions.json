@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.846159934997559,
-    "trailing_stop_price": 7.783391
+    "price_peak": 7.846499919891357,
+    "trailing_stop_price": 7.783728
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.392680048942566,
-    "trailing_stop_price": 1.403821
+    "price_trough": 1.3919199705123901,
+    "trailing_stop_price": 1.403055
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -218,37 +218,6 @@
     "price_trough": 59.10499954223633,
     "trailing_stop_price": 59.991575
   },
-  "NKE": {
-    "id": "NKE_20260807195911",
-    "asset": "NKE",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 41.67499923706055,
-    "entry_time": "2026-08-07T19:59:11.302650+00:00",
-    "stop_loss_pct": 0.0231,
-    "take_profit_pct": 0.07811,
-    "size_usd": 4959.53,
-    "position_size_pct": 0.0468,
-    "confidence": 0.764,
-    "signals": [
-      "RSI oversold (32.8)",
-      "5d momentum -0.75%",
-      "BB oversold (pct_b=0.14)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.612,
-    "news_headlines": [
-      "Seaport Entertainment Group Inc (SEG) (Q2 2026) Earnings Call Highlights: First-Ever Positive ...",
-      "Global sportswear brand closing 15 stores, laying off workers",
-      "NIKE (NKE) On China Reset And Store Closures Still Looks Pricey Against Fair Value"
-    ],
-    "mode": "paper",
-    "strategy_version": "81",
-    "status": "open",
-    "price_peak": 42.084999084472656,
-    "trailing_stop_price": 41.112836
-  },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
     "asset": "GBP/USD",
@@ -342,39 +311,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_trough": 175.07000732421875,
-    "trailing_stop_price": 177.696057
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260810154438",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1877.8199462890625,
-    "entry_time": "2026-08-10T15:44:38.415832+00:00",
-    "stop_loss_pct": 0.00574,
-    "take_profit_pct": 0.01421,
-    "size_usd": 4477.7,
-    "position_size_pct": 0.0423,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (21.4)",
-      "5d momentum -1.99%",
-      "1d momentum -2.43%",
-      "BB oversold (pct_b=-0.23)",
-      "Volume spike 3.7\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.125,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Monday, August 10, 2026: BTC breaking past $65,000 yet again",
-      "Exclusive: Marex plans to accept Bitcoin, Ethereum as initial margin this year",
-      "Bitmine Buys Another 7,391 Ethereum And Increases Staked Position"
-    ],
-    "mode": "paper",
-    "strategy_version": "83",
-    "status": "open"
+    "price_trough": 172.8800048828125,
+    "trailing_stop_price": 175.473205
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260810201001",
@@ -490,8 +428,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_trough": 199.72000122070312,
-    "trailing_stop_price": 202.532059
+    "price_trough": 198.67999267578125,
+    "trailing_stop_price": 201.477407
   },
   "SLB": {
     "id": "SLB_20260811143508",
@@ -581,6 +519,69 @@
       "Warren Buffett Passed on This Stock. Greg Abel May Not Wait Any Longer.",
       "Should You Own Walmart for Its Dividend King Status or Costco for Its Special Dividend? Here's the Answer.",
       "Costco Delivered Another Strong Sales Print in July. Here\u2019s What That Signals for the Second Half of the Year."
+    ],
+    "mode": "paper",
+    "strategy_version": "84",
+    "status": "open",
+    "price_peak": 940.6199951171875,
+    "trailing_stop_price": 927.29141
+  },
+  "VLO": {
+    "id": "VLO_20260811162809",
+    "asset": "VLO",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 322.87750244140625,
+    "entry_time": "2026-08-11T16:28:09.269622+00:00",
+    "stop_loss_pct": 0.00874,
+    "take_profit_pct": 0.02006,
+    "size_usd": 3979.99,
+    "position_size_pct": 0.0377,
+    "confidence": 0.589,
+    "signals": [
+      "RSI overbought (85.4)",
+      "5d momentum +2.50%",
+      "1d momentum +6.76%",
+      "BB overbought (pct_b=0.94)",
+      "News +0.81 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; ma catalyst; price surge"
+    ],
+    "news_sentiment": 0.806,
+    "news_headlines": [
+      "Marathon Petroleum's Value Chain Edge: Can it Keep Driving Growth?",
+      "Sunoco's $600M Offen Acquisition Expands Fuel Distribution Footprint",
+      "XOM Charges A Premium Its Peers Do Not"
+    ],
+    "mode": "paper",
+    "strategy_version": "84",
+    "status": "open"
+  },
+  "NKE": {
+    "id": "NKE_20260811162809",
+    "asset": "NKE",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 41.0099983215332,
+    "entry_time": "2026-08-11T16:28:09.271362+00:00",
+    "stop_loss_pct": 0.00894,
+    "take_profit_pct": 0.02231,
+    "size_usd": 453.04,
+    "position_size_pct": 0.0043,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (32.6)",
+      "5d momentum -2.03%",
+      "1d momentum -3.41%",
+      "BB oversold (pct_b=-0.10)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.75,
+    "news_headlines": [
+      "Stock Market Today: Dow Falls, Oil Rises Despite Iran Claim; Roger Federer Play Dives On This (Live Coverage)",
+      "Sneaker maker On Tempers 2026 Sales Growth Outlook as Second-Quarter Top-Line Misses Views",
+      "What Does Nike (NKE) Gain From Its Victor Wembanyama Signature Shoe Bet?"
     ],
     "mode": "paper",
     "strategy_version": "84",
