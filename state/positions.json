@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.392899990081787,
-    "trailing_stop_price": 1.404043
+    "price_trough": 1.392680048942566,
+    "trailing_stop_price": 1.403821
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -215,8 +215,8 @@
     "mode": "paper",
     "strategy_version": "81",
     "status": "open",
-    "price_trough": 59.16999816894531,
-    "trailing_stop_price": 60.057548
+    "price_trough": 59.10499954223633,
+    "trailing_stop_price": 59.991575
   },
   "NKE": {
     "id": "NKE_20260807195911",
@@ -310,40 +310,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 10.095000267028809,
-    "trailing_stop_price": 10.197263
-  },
-  "VLO": {
-    "id": "VLO_20260810135409",
-    "asset": "VLO",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 309.3399963378906,
-    "entry_time": "2026-08-10T13:54:09.133262+00:00",
-    "stop_loss_pct": 0.03971,
-    "take_profit_pct": 0.13442,
-    "size_usd": 5696.39,
-    "position_size_pct": 0.0537,
-    "confidence": 0.77,
-    "signals": [
-      "RSI overbought (63.8)",
-      "MACD crossover",
-      "5d momentum +3.00%",
-      "1d momentum +0.69%",
-      "BB overbought (pct_b=1.10)",
-      "News +0.84 (conf 0.61) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; analyst upgrade"
-    ],
-    "news_sentiment": 0.836,
-    "news_headlines": [
-      "Valero Energy (VLO) Buyback And Results Leave Valuation Looking Finely Balanced",
-      "The U.S. Didn\u2019t Buy a Drop of Saudi Oil in July \u2014 the First Time in 41 Years",
-      "WTI Q2 Earnings Beat Estimates on Strong Oil Pricing & Cost Control"
-    ],
-    "mode": "paper",
-    "strategy_version": "82",
-    "status": "open"
+    "price_trough": 10.045000076293945,
+    "trailing_stop_price": 10.146756
   },
   "PLTR": {
     "id": "PLTR_20260810145046",
@@ -374,8 +342,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_trough": 175.22999572753906,
-    "trailing_stop_price": 177.858446
+    "price_trough": 175.07000732421875,
+    "trailing_stop_price": 177.696057
   },
   "ETH-USD": {
     "id": "ETH-USD_20260810154438",
@@ -521,38 +489,9 @@
     ],
     "mode": "paper",
     "strategy_version": "83",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260811143508",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.383999824523926,
-    "entry_time": "2026-08-11T14:35:08.771849+00:00",
-    "stop_loss_pct": 0.00646,
-    "take_profit_pct": 0.01613,
-    "size_usd": 6721.85,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (34.4)",
-      "5d momentum -1.86%",
-      "1d momentum -2.01%",
-      "BB oversold (pct_b=-0.04)",
-      "Volume spike 3.5\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.282,
-    "news_headlines": [
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-      "Aptos climbs to the top 4 blockchains in transaction count"
-    ],
-    "mode": "paper",
-    "strategy_version": "83",
-    "status": "open"
+    "status": "open",
+    "price_trough": 199.72000122070312,
+    "trailing_stop_price": 202.532059
   },
   "SLB": {
     "id": "SLB_20260811143508",
@@ -583,6 +522,68 @@
     ],
     "mode": "paper",
     "strategy_version": "83",
+    "status": "open",
+    "price_trough": 53.375999450683594,
+    "trailing_stop_price": 53.766178
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260811153222",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.236000061035156,
+    "entry_time": "2026-08-11T15:32:22.293416+00:00",
+    "stop_loss_pct": 0.00907,
+    "take_profit_pct": 0.02263,
+    "size_usd": 6563.09,
+    "position_size_pct": 0.0621,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (13.0)",
+      "5d momentum -3.94%",
+      "1d momentum -3.81%",
+      "BB oversold (pct_b=-0.19)",
+      "Volume spike 19.1\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.282,
+    "news_headlines": [
+      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+      "Aptos climbs to the top 4 blockchains in transaction count"
+    ],
+    "mode": "paper",
+    "strategy_version": "84",
+    "status": "open"
+  },
+  "COST": {
+    "id": "COST_20260811153222",
+    "asset": "COST",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 940.114990234375,
+    "entry_time": "2026-08-11T15:32:22.323556+00:00",
+    "stop_loss_pct": 0.01417,
+    "take_profit_pct": 0.04751,
+    "size_usd": 5511.84,
+    "position_size_pct": 0.0521,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (43.7)",
+      "5d momentum -1.02%",
+      "BB oversold (pct_b=0.03)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.811,
+    "news_headlines": [
+      "Warren Buffett Passed on This Stock. Greg Abel May Not Wait Any Longer.",
+      "Should You Own Walmart for Its Dividend King Status or Costco for Its Special Dividend? Here's the Answer.",
+      "Costco Delivered Another Strong Sales Print in July. Here\u2019s What That Signals for the Second Half of the Year."
+    ],
+    "mode": "paper",
+    "strategy_version": "84",
     "status": "open"
   }
 }
