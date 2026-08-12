@@ -163,8 +163,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 1.3494912385940552,
-    "trailing_stop_price": 1.360287
+    "price_trough": 1.3489997386932373,
+    "trailing_stop_price": 1.359792
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260810201001",
@@ -251,8 +251,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 949.739990234375,
-    "trailing_stop_price": 936.282175
+    "price_peak": 949.8800048828125,
+    "trailing_stop_price": 936.420205
   },
   "GOOGL": {
     "id": "GOOGL_20260811193321",
@@ -283,8 +283,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 344.25,
-    "trailing_stop_price": 341.547638
+    "price_peak": 344.489990234375,
+    "trailing_stop_price": 341.785744
   },
   "UNH": {
     "id": "UNH_20260811193321",
@@ -314,8 +314,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 405.9200134277344,
-    "trailing_stop_price": 398.775821
+    "price_peak": 406.9049987792969,
+    "trailing_stop_price": 399.743471
   },
   "MU": {
     "id": "MU_20260812135615",
@@ -348,8 +348,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_trough": 922.2520141601562,
-    "trailing_stop_price": 936.085794
+    "price_trough": 915.2650146484375,
+    "trailing_stop_price": 928.99399
   },
   "MRVL": {
     "id": "MRVL_20260812135615",
@@ -381,8 +381,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_trough": 221.55499267578125,
-    "trailing_stop_price": 224.878318
+    "price_trough": 219.47000122070312,
+    "trailing_stop_price": 222.762051
   },
   "MCD": {
     "id": "MCD_20260812155025",
@@ -443,39 +443,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 75.16999816894531,
-    "trailing_stop_price": 72.894602
-  },
-  "SMCI": {
-    "id": "SMCI_20260812174211",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 37.095001220703125,
-    "entry_time": "2026-08-12T17:42:11.466141+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03414,
-    "size_usd": 3711.52,
-    "position_size_pct": 0.0353,
-    "confidence": 0.552,
-    "signals": [
-      "RSI overbought (79.4)",
-      "5d momentum +17.09%",
-      "1d momentum +20.85%",
-      "BB overbought (pct_b=1.00)",
-      "News +0.57 (conf 0.60) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.567,
-    "news_headlines": [
-      "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
-      "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
-      "Super Micro stock jumps on upbeat outlook"
-    ],
-    "mode": "paper",
-    "strategy_version": "85",
-    "status": "open"
+    "price_peak": 75.87000274658203,
+    "trailing_stop_price": 73.573418
   },
   "LRCX": {
     "id": "LRCX_20260812174211",
@@ -506,8 +475,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 327.9649963378906,
-    "trailing_stop_price": 331.949771
+    "price_trough": 325.3800048828125,
+    "trailing_stop_price": 329.333372
   },
   "MRNA": {
     "id": "MRNA_20260812183628",
@@ -538,7 +507,9 @@
     ],
     "mode": "paper",
     "strategy_version": "85",
-    "status": "open"
+    "status": "open",
+    "price_trough": 64.00250244140625,
+    "trailing_stop_price": 64.96254
   },
   "IONQ": {
     "id": "IONQ_20260812183628",
@@ -569,7 +540,9 @@
     ],
     "mode": "paper",
     "strategy_version": "85",
-    "status": "open"
+    "status": "open",
+    "price_trough": 44.994998931884766,
+    "trailing_stop_price": 45.669924
   },
   "VLO": {
     "id": "VLO_20260812183628",
@@ -597,6 +570,39 @@
       "Is DINO a Buy Now as Strong Earnings Meet a Richer Stock Valuation?",
       "Valero Energy Corporation (VLO) Hit a 52 Week High, Can the Run Continue?",
       "5 Low-Leverage Stocks to Buy as High Oil Prices Shake Investor Confidence"
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
+    "status": "open",
+    "price_trough": 329.0799865722656,
+    "trailing_stop_price": 331.367092
+  },
+  "SMCI": {
+    "id": "SMCI_20260812194413",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 37.80500030517578,
+    "entry_time": "2026-08-12T19:44:13.337962+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03398,
+    "size_usd": 3577.29,
+    "position_size_pct": 0.034,
+    "confidence": 0.531,
+    "signals": [
+      "RSI overbought (83.3)",
+      "5d momentum +5.69%",
+      "1d momentum +23.08%",
+      "BB overbought (pct_b=0.91)",
+      "News +0.33 (conf 0.69) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+      "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
+      "Super Micro stock jumps on upbeat outlook"
     ],
     "mode": "paper",
     "strategy_version": "85",
