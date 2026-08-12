@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.846519947052002,
-    "trailing_stop_price": 7.783748
+    "price_peak": 7.847400188446045,
+    "trailing_stop_price": 7.784621
   },
   "USD/CAD": {
     "id": "USD/CAD_20260721144944",
@@ -151,8 +151,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.478710174560547,
-    "trailing_stop_price": 9.55454
+    "price_trough": 9.460269927978516,
+    "trailing_stop_price": 9.535952
   },
   "TLT": {
     "id": "TLT_20260805152238",
@@ -216,39 +216,6 @@
     "price_trough": 1.3498737812042236,
     "trailing_stop_price": 1.360673
   },
-  "UNG": {
-    "id": "UNG_20260810135409",
-    "asset": "UNG",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 10.175000190734863,
-    "entry_time": "2026-08-10T13:54:09.126984+00:00",
-    "stop_loss_pct": 0.01013,
-    "take_profit_pct": 0.02507,
-    "size_usd": 6448.57,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (79.3)",
-      "5d momentum +4.52%",
-      "1d momentum +4.03%",
-      "BB overbought (pct_b=1.44)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.217,
-    "news_headlines": [
-      "Sector Update: Energy Stocks Advance Premarket Monday",
-      "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
-      "Sector Update: Energy Stocks Decline Premarket Friday"
-    ],
-    "mode": "paper",
-    "strategy_version": "82",
-    "status": "open",
-    "price_trough": 10.045000076293945,
-    "trailing_stop_price": 10.146756
-  },
   "CAD/JPY": {
     "id": "CAD/JPY_20260810201001",
     "asset": "CAD/JPY",
@@ -275,7 +242,9 @@
     ],
     "mode": "paper",
     "strategy_version": "83",
-    "status": "open"
+    "status": "open",
+    "price_trough": 114.23699951171875,
+    "trailing_stop_price": 114.465474
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260810201001",
@@ -303,38 +272,6 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open"
-  },
-  "KLAC": {
-    "id": "KLAC_20260811143508",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 201.3000030517578,
-    "entry_time": "2026-08-11T14:35:08.769837+00:00",
-    "stop_loss_pct": 0.01408,
-    "take_profit_pct": 0.03398,
-    "size_usd": 5621.91,
-    "position_size_pct": 0.053,
-    "confidence": 0.828,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +4.07%",
-      "1d momentum +3.26%",
-      "BB overbought (pct_b=0.99)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.67,
-    "news_headlines": [
-      "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
-      "Bernstein raises WFE growth estimates, boosts price targets",
-      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility"
-    ],
-    "mode": "paper",
-    "strategy_version": "83",
-    "status": "open",
-    "price_trough": 197.8249969482422,
-    "trailing_stop_price": 200.610373
   },
   "SLB": {
     "id": "SLB_20260811143508",
@@ -366,8 +303,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_trough": 53.316001892089844,
-    "trailing_stop_price": 53.705742
+    "price_trough": 53.04999923706055,
+    "trailing_stop_price": 53.437795
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260811153222",
@@ -399,8 +336,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 6.244999885559082,
-    "trailing_stop_price": 6.188358
+    "price_peak": 6.3420000076293945,
+    "trailing_stop_price": 6.284478
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -430,73 +367,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 942.97998046875,
-    "trailing_stop_price": 929.617954
-  },
-  "VLO": {
-    "id": "VLO_20260811162809",
-    "asset": "VLO",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 322.87750244140625,
-    "entry_time": "2026-08-11T16:28:09.269622+00:00",
-    "stop_loss_pct": 0.00874,
-    "take_profit_pct": 0.02006,
-    "size_usd": 3979.99,
-    "position_size_pct": 0.0377,
-    "confidence": 0.589,
-    "signals": [
-      "RSI overbought (85.4)",
-      "5d momentum +2.50%",
-      "1d momentum +6.76%",
-      "BB overbought (pct_b=0.94)",
-      "News +0.81 (conf 0.67) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.806,
-    "news_headlines": [
-      "Marathon Petroleum's Value Chain Edge: Can it Keep Driving Growth?",
-      "Sunoco's $600M Offen Acquisition Expands Fuel Distribution Footprint",
-      "XOM Charges A Premium Its Peers Do Not"
-    ],
-    "mode": "paper",
-    "strategy_version": "84",
-    "status": "open",
-    "price_trough": 322.56500244140625,
-    "trailing_stop_price": 325.384221
-  },
-  "NKE": {
-    "id": "NKE_20260811162809",
-    "asset": "NKE",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 41.0099983215332,
-    "entry_time": "2026-08-11T16:28:09.271362+00:00",
-    "stop_loss_pct": 0.00894,
-    "take_profit_pct": 0.02231,
-    "size_usd": 453.04,
-    "position_size_pct": 0.0043,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (32.6)",
-      "5d momentum -2.03%",
-      "1d momentum -3.41%",
-      "BB oversold (pct_b=-0.10)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.75,
-    "news_headlines": [
-      "Stock Market Today: Dow Falls, Oil Rises Despite Iran Claim; Roger Federer Play Dives On This (Live Coverage)",
-      "Sneaker maker On Tempers 2026 Sales Growth Outlook as Second-Quarter Top-Line Misses Views",
-      "What Does Nike (NKE) Gain From Its Victor Wembanyama Signature Shoe Bet?"
-    ],
-    "mode": "paper",
-    "strategy_version": "84",
-    "status": "open",
-    "price_peak": 41.314998626708984,
-    "trailing_stop_price": 40.945643
+    "price_peak": 945.5750122070312,
+    "trailing_stop_price": 932.176214
   },
   "MPC": {
     "id": "MPC_20260811193321",
@@ -525,7 +397,9 @@
     ],
     "mode": "paper",
     "strategy_version": "84",
-    "status": "open"
+    "status": "open",
+    "price_peak": 339.3500061035156,
+    "trailing_stop_price": 335.742716
   },
   "GOOGL": {
     "id": "GOOGL_20260811193321",
@@ -555,7 +429,9 @@
     ],
     "mode": "paper",
     "strategy_version": "84",
-    "status": "open"
+    "status": "open",
+    "price_peak": 344.25,
+    "trailing_stop_price": 341.547638
   },
   "UNH": {
     "id": "UNH_20260811193321",
@@ -581,6 +457,104 @@
       "UnitedHealth Group Stock Outlook: Is Wall Street Bullish or Bearish?",
       "Healthcare Investing Is Now an AI Short in Disguise",
       "Elizabeth Warren Says UnitedHealth, CVS Have Too Much Control Over US Healthcare\u2014Now She Wants to Break Up the Vertical Integration"
+    ],
+    "mode": "paper",
+    "strategy_version": "84",
+    "status": "open",
+    "price_peak": 405.2650146484375,
+    "trailing_stop_price": 398.13235
+  },
+  "MU": {
+    "id": "MU_20260812135615",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 927.5999755859375,
+    "entry_time": "2026-08-12T13:56:15.747041+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5859.16,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (74.2)",
+      "MACD crossover",
+      "5d momentum +8.31%",
+      "1d momentum +3.77%",
+      "BB overbought (pct_b=1.40)",
+      "Volume spike 2.6\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.736,
+    "news_headlines": [
+      "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
+      "Forget big tech: the real AI money is in plumbing",
+      "The Old Fear-Based Paradigm Around Memory Cyclicality is Dead, So I\u2019m Buying Micron"
+    ],
+    "mode": "paper",
+    "strategy_version": "84",
+    "status": "open"
+  },
+  "SMCI": {
+    "id": "SMCI_20260812135615",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 35.92499923706055,
+    "entry_time": "2026-08-12T13:56:15.748996+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5859.16,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (72.1)",
+      "MACD crossover",
+      "5d momentum +13.83%",
+      "1d momentum +19.65%",
+      "BB overbought (pct_b=1.47)",
+      "Volume spike 7.5\u00d7",
+      "News +0.78 (conf 0.67) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.784,
+    "news_headlines": [
+      "Earnings live updates: Supermicro and CoreWeave stocks jump on accelerating AI demand",
+      "Tech stocks today: CoreWeave and Supermicro results win over investors",
+      "Why this week's CoreWeave earnings are so important for markets"
+    ],
+    "mode": "paper",
+    "strategy_version": "84",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260812135615",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 222.2899932861328,
+    "entry_time": "2026-08-12T13:56:15.750332+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 4700.36,
+    "position_size_pct": 0.0447,
+    "confidence": 0.95,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +5.52%",
+      "1d momentum +4.01%",
+      "BB overbought (pct_b=1.06)",
+      "Volume spike 2.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.667,
+    "news_headlines": [
+      "Nvidia Will Be The World\u2019s First $10 Trillion Company",
+      "Lumentum, CoreWeave, SMCI, and More Stocks That Explain Today\u2019s Market",
+      "Strong Results from CoreWeave, Super Micro Computer Boost Stock Futures"
     ],
     "mode": "paper",
     "strategy_version": "84",
