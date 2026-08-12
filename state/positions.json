@@ -104,31 +104,6 @@
     "price_trough": 0.8063200116157532,
     "trailing_stop_price": 0.812771
   },
-  "USD/SEK": {
-    "id": "USD/SEK_20260731121759",
-    "asset": "USD/SEK",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 9.565460205078125,
-    "entry_time": "2026-07-31T12:17:59.499934+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 5794.72,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (63.9)",
-      "5d momentum +0.35%",
-      "BB overbought (pct_b=1.02)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "74",
-    "status": "open",
-    "price_trough": 9.464690208435059,
-    "trailing_stop_price": 9.540408
-  },
   "USD/NOK": {
     "id": "USD/NOK_20260803081405",
     "asset": "USD/NOK",
@@ -273,39 +248,6 @@
     "strategy_version": "83",
     "status": "open"
   },
-  "SLB": {
-    "id": "SLB_20260811143508",
-    "asset": "SLB",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 53.79999923706055,
-    "entry_time": "2026-08-11T14:35:08.773808+00:00",
-    "stop_loss_pct": 0.00731,
-    "take_profit_pct": 0.01684,
-    "size_usd": 1903.3,
-    "position_size_pct": 0.0179,
-    "confidence": 0.604,
-    "signals": [
-      "RSI overbought (73.2)",
-      "5d momentum +2.47%",
-      "1d momentum +7.49%",
-      "BB overbought (pct_b=0.96)",
-      "News +0.81 (conf 0.77) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.805,
-    "news_headlines": [
-      "3 Cash-Producing Stocks with Open Questions",
-      "Is Cactus Worth Buying as Growth Accelerates but Valuation Stretches?",
-      "Sector Update: Energy Stocks Gain Late Afternoon"
-    ],
-    "mode": "paper",
-    "strategy_version": "83",
-    "status": "open",
-    "price_trough": 53.04999923706055,
-    "trailing_stop_price": 53.437795
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260811153222",
     "asset": "AVAX-USD",
@@ -336,8 +278,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 6.3420000076293945,
-    "trailing_stop_price": 6.284478
+    "price_peak": 6.373000144958496,
+    "trailing_stop_price": 6.315197
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -367,8 +309,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 945.5750122070312,
-    "trailing_stop_price": 932.176214
+    "price_peak": 948.5,
+    "trailing_stop_price": 935.059755
   },
   "MPC": {
     "id": "MPC_20260811193321",
@@ -398,8 +340,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 339.3500061035156,
-    "trailing_stop_price": 335.742716
+    "price_peak": 341.614990234375,
+    "trailing_stop_price": 337.983623
   },
   "GOOGL": {
     "id": "GOOGL_20260811193321",
@@ -461,8 +403,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 405.2650146484375,
-    "trailing_stop_price": 398.13235
+    "price_peak": 405.9200134277344,
+    "trailing_stop_price": 398.775821
   },
   "MU": {
     "id": "MU_20260812135615",
@@ -494,7 +436,9 @@
     ],
     "mode": "paper",
     "strategy_version": "84",
-    "status": "open"
+    "status": "open",
+    "price_trough": 922.2520141601562,
+    "trailing_stop_price": 936.085794
   },
   "SMCI": {
     "id": "SMCI_20260812135615",
@@ -558,6 +502,70 @@
     ],
     "mode": "paper",
     "strategy_version": "84",
+    "status": "open",
+    "price_trough": 221.55499267578125,
+    "trailing_stop_price": 224.878318
+  },
+  "MRNA": {
+    "id": "MRNA_20260812155025",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 63.095001220703125,
+    "entry_time": "2026-08-12T15:50:25.032812+00:00",
+    "stop_loss_pct": 0.01471,
+    "take_profit_pct": 0.03372,
+    "size_usd": 1920.77,
+    "position_size_pct": 0.0182,
+    "confidence": 0.585,
+    "signals": [
+      "RSI overbought (77.0)",
+      "5d momentum +5.42%",
+      "1d momentum +17.17%",
+      "BB overbought (pct_b=1.17)",
+      "News +0.81 (conf 0.64) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst"
+    ],
+    "news_sentiment": 0.812,
+    "news_headlines": [
+      "Could Arbutus Biopharma Corporation (ABUS) Turn its Moderna, Inc. (MRNA) Settlement Into a Lasting Biotech Advantage?",
+      "FDA approval of\u00a0mFLUSIVA\u00a0highlights Moderna\u2019s position in mRNA market",
+      "RocketLab Rises on Space Interest; Moderna Moves on Flu Shot | Stock Movers"
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
+    "status": "open"
+  },
+  "MCD": {
+    "id": "MCD_20260812155025",
+    "asset": "MCD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 274.9100036621094,
+    "entry_time": "2026-08-12T15:50:25.039946+00:00",
+    "stop_loss_pct": 0.01839,
+    "take_profit_pct": 0.06318,
+    "size_usd": 5710.52,
+    "position_size_pct": 0.0542,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (61.3)",
+      "MACD crossover",
+      "5d momentum +0.84%",
+      "1d momentum -0.50%",
+      "BB overbought (pct_b=1.00)",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst"
+    ],
+    "news_sentiment": 0.88,
+    "news_headlines": [
+      "Why fast food chains like McDonald's and Starbucks are going all in on energy drinks",
+      "Scott Bessent Tells Robert Reich 'McDonald's Problem Is Called Burger King, Professor' Amid Clash Over the 'K-Shaped' Economy: 'No Wonder Bill Clinton...'",
+      "McDonald\u2019s unveils unexpected first-ever partnership"
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
     "status": "open"
   }
 }
