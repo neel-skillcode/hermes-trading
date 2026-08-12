@@ -163,8 +163,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 1.3498737812042236,
-    "trailing_stop_price": 1.360673
+    "price_trough": 1.3495277166366577,
+    "trailing_stop_price": 1.360324
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260810201001",
@@ -415,41 +415,6 @@
     "price_trough": 922.2520141601562,
     "trailing_stop_price": 936.085794
   },
-  "SMCI": {
-    "id": "SMCI_20260812135615",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 35.92499923706055,
-    "entry_time": "2026-08-12T13:56:15.748996+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5859.16,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (72.1)",
-      "MACD crossover",
-      "5d momentum +13.83%",
-      "1d momentum +19.65%",
-      "BB overbought (pct_b=1.47)",
-      "Volume spike 7.5\u00d7",
-      "News +0.78 (conf 0.67) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.784,
-    "news_headlines": [
-      "Earnings live updates: Supermicro and CoreWeave stocks jump on accelerating AI demand",
-      "Tech stocks today: CoreWeave and Supermicro results win over investors",
-      "Why this week's CoreWeave earnings are so important for markets"
-    ],
-    "mode": "paper",
-    "strategy_version": "84",
-    "status": "open",
-    "price_trough": 35.915000915527344,
-    "trailing_stop_price": 36.453726
-  },
   "MRVL": {
     "id": "MRVL_20260812135615",
     "asset": "MRVL",
@@ -569,6 +534,69 @@
       "Uber (UBER) Q2 2026 Earnings Call Transcript",
       "Uber's AV Ambitions in London Receive a Boost: Here's How",
       "Despite Nearing 52-Week Low, Uber Stock Has More Room to Run"
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
+    "status": "open",
+    "price_peak": 75.06500244140625,
+    "trailing_stop_price": 72.792785
+  },
+  "SMCI": {
+    "id": "SMCI_20260812174211",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 37.095001220703125,
+    "entry_time": "2026-08-12T17:42:11.466141+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03414,
+    "size_usd": 3711.52,
+    "position_size_pct": 0.0353,
+    "confidence": 0.552,
+    "signals": [
+      "RSI overbought (79.4)",
+      "5d momentum +17.09%",
+      "1d momentum +20.85%",
+      "BB overbought (pct_b=1.00)",
+      "News +0.57 (conf 0.60) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.567,
+    "news_headlines": [
+      "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+      "Tech leads sectors higher in early trading as chip stocks gain: AlphaCheck",
+      "Super Micro stock jumps on upbeat outlook"
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
+    "status": "open"
+  },
+  "LRCX": {
+    "id": "LRCX_20260812174211",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 329.1099853515625,
+    "entry_time": "2026-08-12T17:42:11.467697+00:00",
+    "stop_loss_pct": 0.01215,
+    "take_profit_pct": 0.02913,
+    "size_usd": 2062.07,
+    "position_size_pct": 0.0196,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (79.2)",
+      "5d momentum +5.72%",
+      "1d momentum +6.34%",
+      "BB overbought (pct_b=0.95)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.885,
+    "news_headlines": [
+      "5 Semiconductor Stocks Jim Cramer Could Be Talking About on Thursday",
+      "Intel Just Increased Its Stock Offering to $20B. Why That\u2019s Good News for ASML.",
+      "Elon Musk\u2019s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified."
     ],
     "mode": "paper",
     "strategy_version": "85",
