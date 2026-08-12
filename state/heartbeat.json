@@ -3,15 +3,15 @@
   "portfolio_balance": 105264.08,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 523.59,
-  "equity_value": 105787.67,
+  "unrealized_pnl_usd": 521.66,
+  "equity_value": 105785.74,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40350.49,
   "swing_capital_used_usd": 52626.93,
   "total_trades": 960,
-  "last_tick": "2026-08-12T22:01:51.295266+00:00",
+  "last_tick": "2026-08-12T22:53:02.868812+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8459,
-      "unrealized_pnl_pct": 0.001481,
-      "unrealized_pnl_usd": 1.99
+      "current_price": 7.84651,
+      "unrealized_pnl_pct": 0.001559,
+      "unrealized_pnl_usd": 2.09
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3916000127792358,
       "trailing_stop_price": 1.402733,
-      "current_price": 1.394,
-      "unrealized_pnl_pct": 0.010962,
-      "unrealized_pnl_usd": 73.44
+      "current_price": 1.39398,
+      "unrealized_pnl_pct": 0.010976,
+      "unrealized_pnl_usd": 73.53
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_trough": 9.460269927978516,
       "trailing_stop_price": 9.535952,
-      "current_price": 9.48861,
-      "unrealized_pnl_pct": 0.004662,
-      "unrealized_pnl_usd": 27.01
+      "current_price": 9.49133,
+      "unrealized_pnl_pct": 0.004376,
+      "unrealized_pnl_usd": 25.35
     },
     {
       "id": "TLT_20260805152238",
@@ -198,9 +198,9 @@
       "status": "open",
       "price_trough": 1.3489997386932373,
       "trailing_stop_price": 1.359792,
-      "current_price": 1.349309,
-      "unrealized_pnl_pct": 0.00085,
-      "unrealized_pnl_usd": 3.58
+      "current_price": 1.349564,
+      "unrealized_pnl_pct": 0.000661,
+      "unrealized_pnl_usd": 2.78
     },
     {
       "id": "CAD/JPY_20260810201001",
@@ -261,9 +261,9 @@
       "mode": "paper",
       "strategy_version": "83",
       "status": "open",
-      "current_price": 183.707001,
-      "unrealized_pnl_pct": -0.000897,
-      "unrealized_pnl_usd": -2.71
+      "current_price": 183.722,
+      "unrealized_pnl_pct": -0.000816,
+      "unrealized_pnl_usd": -2.47
     },
     {
       "id": "COST_20260811153222",
@@ -330,9 +330,9 @@
       "status": "open",
       "price_peak": 344.489990234375,
       "trailing_stop_price": 341.785744,
-      "current_price": 343.545013,
-      "unrealized_pnl_pct": -0.001361,
-      "unrealized_pnl_usd": -6.79
+      "current_price": 343.549988,
+      "unrealized_pnl_pct": -0.001347,
+      "unrealized_pnl_usd": -6.72
     },
     {
       "id": "UNH_20260811193321",
@@ -691,6 +691,27 @@
   ],
   "last_candidates": [
     {
+      "asset": "SMCI",
+      "rank_score": 0.6848,
+      "price": 37.560001373291016,
+      "rsi": 81.23787160429299,
+      "momentum_5d": 0.05004195953648176,
+      "momentum_1d": 0.22285532107107608,
+      "macd_crossover": false,
+      "atr_pct": 0.029077275662634235,
+      "bollinger_pct_b": 0.8893,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.02,
+      "news_sentiment": 0.351,
+      "news_confidence": 0.77,
+      "news_headlines": [
+        "Earnings live updates: Cisco and Cerebras earnings point to strong AI demand, but their stocks are falling anyway",
+        "CoreWeave & Super Micro earnings are quieting AI concerns. What does this mean for Nvidia?",
+        "AMD, Intel, and NVIDIA All Rally Wednesday After Series of Blockbuster AI Earnings Reports"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HAL",
       "rank_score": 0.6828,
       "price": 33.290000915527344,
@@ -701,13 +722,34 @@
       "atr_pct": 0.006329216599071186,
       "bollinger_pct_b": -0.0118,
       "volume_spike": true,
-      "volume_spike_ratio": 2.53,
+      "volume_spike_ratio": 5.75,
       "news_sentiment": 0.74,
       "news_confidence": 0.77,
       "news_headlines": [
         "Halliburton, TechnipFMC, Antero Resources, APA Corporation, and Transocean Stocks Trade Up, What You Need To Know",
         "Murphy USA Q2 Earnings Beat Estimates on Strong Fuel Contribution",
         "Delek US Q2 Earnings Beat Estimates on Strong Refining Margins"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.6816,
+      "price": 0.06933999806642532,
+      "rsi": 25.352196428977436,
+      "momentum_5d": -0.019790802356127644,
+      "momentum_1d": -0.04054241712427377,
+      "macd_crossover": false,
+      "atr_pct": 0.007190244881394346,
+      "bollinger_pct_b": -0.0221,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.75,
+      "news_sentiment": 0.179,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Billionaire buys rare art with Dogecoin",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+        "T. Rowe Price Defends Meme Inclusion in Active Crypto ETF"
       ],
       "high_impact_news": true
     },
@@ -722,7 +764,7 @@
       "atr_pct": 0.0194302110984528,
       "bollinger_pct_b": 0.9769,
       "volume_spike": false,
-      "volume_spike_ratio": 0.86,
+      "volume_spike_ratio": 0.51,
       "news_sentiment": 0.91,
       "news_confidence": 0.72,
       "news_headlines": [
@@ -743,7 +785,7 @@
       "atr_pct": 0.011267660750546247,
       "bollinger_pct_b": 0.8636,
       "volume_spike": false,
-      "volume_spike_ratio": 1.29,
+      "volume_spike_ratio": 1.1,
       "news_sentiment": 0.931,
       "news_confidence": 0.58,
       "news_headlines": [
@@ -775,27 +817,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SMCI",
-      "rank_score": 0.6698,
-      "price": 37.560001373291016,
-      "rsi": 81.23787160429299,
-      "momentum_5d": 0.05004195953648176,
-      "momentum_1d": 0.22285532107107608,
-      "macd_crossover": false,
-      "atr_pct": 0.029077275662634235,
-      "bollinger_pct_b": 0.8893,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.02,
-      "news_sentiment": 0.158,
-      "news_confidence": 0.76,
-      "news_headlines": [
-        "Earnings live updates: Cisco and Cerebras earnings point to strong AI demand, but their stocks are falling anyway",
-        "CoreWeave & Super Micro earnings are quieting AI concerns. What does this mean for Nvidia?",
-        "Dow Jones Futures: Cisco, Coherent Are Earnings Movers Late After Nebius, Lumentum, CoreWeave Lead AI Rally"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VLO",
       "rank_score": 0.6594,
       "price": 330.2300109863281,
@@ -813,27 +834,6 @@
         "Is DINO a Buy Now as Strong Earnings Meet a Richer Stock Valuation?",
         "Valero Energy Corporation (VLO) Hit a 52 Week High, Can the Run Continue?",
         "5 Low-Leverage Stocks to Buy as High Oil Prices Shake Investor Confidence"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BAC",
-      "rank_score": 0.6473,
-      "price": 64.81999969482422,
-      "rsi": 92.72741774952576,
-      "momentum_5d": 0.005428857879541957,
-      "momentum_1d": 0.027421137074848546,
-      "macd_crossover": false,
-      "atr_pct": 0.0038899924501378438,
-      "bollinger_pct_b": 0.9352,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.833,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Sector Update: Financial Stocks Rise Late Afternoon",
-        "Intel: BofA sees $20B raise fueling foundry and server CPU growth",
-        "Can Bank Of America\u2019s (BAC) $250B Bet Pay Off?"
       ],
       "high_impact_news": true
     },
@@ -922,23 +922,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5832,
-      "price": 0.0692100003361702,
-      "rsi": 24.009413072360815,
-      "momentum_5d": -0.02162848586380288,
-      "momentum_1d": -0.04234119577336502,
+      "asset": "JPM",
+      "rank_score": 0.5966,
+      "price": 365.2200012207031,
+      "rsi": 79.68004301942597,
+      "momentum_5d": 0.0018241652378446606,
+      "momentum_1d": 0.020823468809024543,
       "macd_crossover": false,
-      "atr_pct": 0.006821886402968064,
-      "bollinger_pct_b": -0.0505,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.179,
-      "news_confidence": 0.39,
+      "atr_pct": 0.0047352596465700765,
+      "bollinger_pct_b": 0.7956,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.77,
+      "news_sentiment": 0.725,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "Billionaire buys rare art with Dogecoin",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-        "T. Rowe Price Defends Meme Inclusion in Active Crypto ETF"
+        "The Goldman Sachs Group (GS)\u2019s $2.3 Billion ETF Bet: How Does It Compare With JPMorgan?",
+        "Why Delta and United\u2019s Loyalty Programs Could Be Worth $30 Billion",
+        "JPMorgan Stock Rises 0.7% as Bank Calls for S&P 8,000"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.5933,
+      "price": 64.81999969482422,
+      "rsi": 92.72741774952576,
+      "momentum_5d": 0.005428857879541957,
+      "momentum_1d": 0.027421137074848546,
+      "macd_crossover": false,
+      "atr_pct": 0.0038899924501378438,
+      "bollinger_pct_b": 0.9352,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.24,
+      "news_sentiment": 0.833,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Sector Update: Financial Stocks Rise Late Afternoon",
+        "Intel: BofA sees $20B raise fueling foundry and server CPU growth",
+        "Can Bank Of America\u2019s (BAC) $250B Bet Pay Off?"
       ],
       "high_impact_news": true
     },
@@ -954,12 +975,12 @@
       "bollinger_pct_b": 0.8194,
       "volume_spike": true,
       "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.448,
-      "news_confidence": 0.58,
+      "news_sentiment": 0.406,
+      "news_confidence": 0.64,
       "news_headlines": [
         "Quantum computing goes mainstream with Quantinuum and Orcale partnership",
-        "Stock Market Today, Aug. 12: Nebius Group Surges on Massive Revenue Growth",
-        "Expert urges investors to spread bets across the 'AI universe'"
+        "Oracle (ORCL) Stock Looks Below Fair Value on Earnings Today",
+        "Michael Burry Adds To NBIS, MU, ORCL Shorts \u2014 Says Nebius Is \u2018What The Top Of A Boom Looks Like\u2019"
       ],
       "high_impact_news": true
     },
@@ -1048,27 +1069,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SNAP",
-      "rank_score": 0.5561,
-      "price": 5.194399833679199,
-      "rsi": 39.22437035761372,
-      "momentum_5d": -0.015279670185980952,
-      "momentum_1d": -0.018999101258778035,
-      "macd_crossover": false,
-      "atr_pct": 0.01595123605252448,
-      "bollinger_pct_b": 0.0622,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.78,
-      "news_sentiment": 0.547,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Reddit Strengthens Ad Game Against Meta and Snap: More Upside Ahead?",
-        "The Market Shaved 10% Off Meta Over a Month: One Analyst Targets 87% Returns Over The Next Year",
-        "3 of Wall Street\u2019s Favorite Stocks to Research Further"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LYFT",
       "rank_score": 0.5484,
       "price": 16.594999313354492,
@@ -1090,23 +1090,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "SBUX",
-      "rank_score": 0.5234,
-      "price": 108.48999786376953,
-      "rsi": 84.84573653500524,
-      "momentum_5d": 0.010901958370036584,
-      "momentum_1d": 0.020794120341137597,
+      "asset": "MSFT",
+      "rank_score": 0.5461,
+      "price": 492.44000244140625,
+      "rsi": 24.730894752860905,
+      "momentum_5d": -0.0015409767778066673,
+      "momentum_1d": -0.014647044943935492,
       "macd_crossover": false,
-      "atr_pct": 0.006830449589982448,
-      "bollinger_pct_b": 0.9265,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.29,
-      "news_sentiment": 0.803,
-      "news_confidence": 0.61,
+      "atr_pct": 0.0068292407528528585,
+      "bollinger_pct_b": 0.1435,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.07,
+      "news_sentiment": 0.16,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "Why fast food chains like McDonald's and Starbucks are going all in on energy drinks",
-        "GRND Stock Has Soared 250% Since Its 2022 IPO Crash, Leaving Starbucks, Target and Ethereum Behind",
-        "1 Surging  Stock with Competitive Advantages and 2 We Find Risky"
+        "Tech just got cheaper - what it means for the bull market",
+        "Your Newborn\u2019s Trump Account Auto-Buys This S&P 500 ETF: The Hidden Costs Parents Never See",
+        "Advanced Micro Devices vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     }
