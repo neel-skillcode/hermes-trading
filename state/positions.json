@@ -163,8 +163,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 1.3495277166366577,
-    "trailing_stop_price": 1.360324
+    "price_trough": 1.3494912385940552,
+    "trailing_stop_price": 1.360287
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260810201001",
@@ -223,39 +223,6 @@
     "strategy_version": "83",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260811153222",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.236000061035156,
-    "entry_time": "2026-08-11T15:32:22.293416+00:00",
-    "stop_loss_pct": 0.00907,
-    "take_profit_pct": 0.02263,
-    "size_usd": 6563.09,
-    "position_size_pct": 0.0621,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (13.0)",
-      "5d momentum -3.94%",
-      "1d momentum -3.81%",
-      "BB oversold (pct_b=-0.19)",
-      "Volume spike 19.1\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.282,
-    "news_headlines": [
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-      "Aptos climbs to the top 4 blockchains in transaction count"
-    ],
-    "mode": "paper",
-    "strategy_version": "84",
-    "status": "open",
-    "price_peak": 6.373000144958496,
-    "trailing_stop_price": 6.315197
-  },
   "COST": {
     "id": "COST_20260811153222",
     "asset": "COST",
@@ -284,39 +251,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 948.989990234375,
-    "trailing_stop_price": 935.542802
-  },
-  "MPC": {
-    "id": "MPC_20260811193321",
-    "asset": "MPC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 334.135009765625,
-    "entry_time": "2026-08-11T19:33:21.049169+00:00",
-    "stop_loss_pct": 0.01063,
-    "take_profit_pct": 0.02531,
-    "size_usd": 5155.65,
-    "position_size_pct": 0.0489,
-    "confidence": 0.764,
-    "signals": [
-      "RSI overbought (98.2)",
-      "5d momentum +0.75%",
-      "1d momentum +11.47%",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.929,
-    "news_headlines": [
-      "MPC, PSX Stocks Hit All-Time Highs \u2013 What\u2019s Driving The Rally In These Energy Stocks?",
-      "Marathon Petroleum's Value Chain Edge: Can it Keep Driving Growth?",
-      "XOM Charges A Premium Its Peers Do Not"
-    ],
-    "mode": "paper",
-    "strategy_version": "84",
-    "status": "open",
-    "price_peak": 342.3446960449219,
-    "trailing_stop_price": 338.705572
+    "price_peak": 949.739990234375,
+    "trailing_stop_price": 936.282175
   },
   "GOOGL": {
     "id": "GOOGL_20260811193321",
@@ -448,37 +384,6 @@
     "price_trough": 221.55499267578125,
     "trailing_stop_price": 224.878318
   },
-  "MRNA": {
-    "id": "MRNA_20260812155025",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 63.095001220703125,
-    "entry_time": "2026-08-12T15:50:25.032812+00:00",
-    "stop_loss_pct": 0.01471,
-    "take_profit_pct": 0.03372,
-    "size_usd": 1920.77,
-    "position_size_pct": 0.0182,
-    "confidence": 0.585,
-    "signals": [
-      "RSI overbought (77.0)",
-      "5d momentum +5.42%",
-      "1d momentum +17.17%",
-      "BB overbought (pct_b=1.17)",
-      "News +0.81 (conf 0.64) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst"
-    ],
-    "news_sentiment": 0.812,
-    "news_headlines": [
-      "Could Arbutus Biopharma Corporation (ABUS) Turn its Moderna, Inc. (MRNA) Settlement Into a Lasting Biotech Advantage?",
-      "FDA approval of\u00a0mFLUSIVA\u00a0highlights Moderna\u2019s position in mRNA market",
-      "RocketLab Rises on Space Interest; Moderna Moves on Flu Shot | Stock Movers"
-    ],
-    "mode": "paper",
-    "strategy_version": "85",
-    "status": "open"
-  },
   "MCD": {
     "id": "MCD_20260812155025",
     "asset": "MCD",
@@ -538,8 +443,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 75.06500244140625,
-    "trailing_stop_price": 72.792785
+    "price_peak": 75.16999816894531,
+    "trailing_stop_price": 72.894602
   },
   "SMCI": {
     "id": "SMCI_20260812174211",
@@ -597,6 +502,101 @@
       "5 Semiconductor Stocks Jim Cramer Could Be Talking About on Thursday",
       "Intel Just Increased Its Stock Offering to $20B. Why That\u2019s Good News for ASML.",
       "Elon Musk\u2019s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified."
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
+    "status": "open",
+    "price_trough": 327.9649963378906,
+    "trailing_stop_price": 331.949771
+  },
+  "MRNA": {
+    "id": "MRNA_20260812183628",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 64.16999816894531,
+    "entry_time": "2026-08-12T18:36:28.904460+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03439,
+    "size_usd": 3943.67,
+    "position_size_pct": 0.0374,
+    "confidence": 0.585,
+    "signals": [
+      "RSI overbought (82.8)",
+      "5d momentum +3.90%",
+      "1d momentum +11.41%",
+      "BB overbought (pct_b=0.98)",
+      "News +0.81 (conf 0.64) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst"
+    ],
+    "news_sentiment": 0.812,
+    "news_headlines": [
+      "Could Arbutus Biopharma Corporation (ABUS) Turn its Moderna, Inc. (MRNA) Settlement Into a Lasting Biotech Advantage?",
+      "FDA approval of\u00a0mFLUSIVA\u00a0highlights Moderna\u2019s position in mRNA market",
+      "RocketLab Rises on Space Interest; Moderna Moves on Flu Shot | Stock Movers"
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
+    "status": "open"
+  },
+  "IONQ": {
+    "id": "IONQ_20260812183628",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 45.165000915527344,
+    "entry_time": "2026-08-12T18:36:28.906916+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0346,
+    "size_usd": 4139.17,
+    "position_size_pct": 0.0393,
+    "confidence": 0.614,
+    "signals": [
+      "RSI overbought (67.6)",
+      "5d momentum +3.28%",
+      "1d momentum +4.22%",
+      "BB overbought (pct_b=1.05)",
+      "News +0.91 (conf 0.74) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.912,
+    "news_headlines": [
+      "What IonQ (IONQ)'s Surging Sales, Deep Losses And DARPA Clock Deal Means For Shareholders",
+      "Quantinuum Stock Heads for Record Following First Earnings Report Since IPO",
+      "Rigetti Advances Quantum Roadmap With Strategic Global Expansion"
+    ],
+    "mode": "paper",
+    "strategy_version": "85",
+    "status": "open"
+  },
+  "VLO": {
+    "id": "VLO_20260812183628",
+    "asset": "VLO",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 329.9700012207031,
+    "entry_time": "2026-08-12T18:36:28.912214+00:00",
+    "stop_loss_pct": 0.00695,
+    "take_profit_pct": 0.01597,
+    "size_usd": 4017.83,
+    "position_size_pct": 0.0381,
+    "confidence": 0.596,
+    "signals": [
+      "RSI overbought (96.7)",
+      "5d momentum +1.29%",
+      "1d momentum +9.87%",
+      "BB overbought (pct_b=0.86)",
+      "News +0.85 (conf 0.68) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; ma catalyst"
+    ],
+    "news_sentiment": 0.853,
+    "news_headlines": [
+      "Is DINO a Buy Now as Strong Earnings Meet a Richer Stock Valuation?",
+      "Valero Energy Corporation (VLO) Hit a 52 Week High, Can the Run Continue?",
+      "5 Low-Leverage Stocks to Buy as High Oil Prices Shake Investor Confidence"
     ],
     "mode": "paper",
     "strategy_version": "85",
