@@ -160,7 +160,9 @@
     ],
     "mode": "paper",
     "strategy_version": "83",
-    "status": "open"
+    "status": "open",
+    "price_peak": 183.89500427246094,
+    "trailing_stop_price": 183.527214
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -190,39 +192,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 954.989990234375,
-    "trailing_stop_price": 941.457782
-  },
-  "UNH": {
-    "id": "UNH_20260811193321",
-    "asset": "UNH",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 403.19000244140625,
-    "entry_time": "2026-08-11T19:33:21.078834+00:00",
-    "stop_loss_pct": 0.0176,
-    "take_profit_pct": 0.05847,
-    "size_usd": 4833.66,
-    "position_size_pct": 0.0458,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (37.2)",
-      "5d momentum -0.47%",
-      "BB oversold (pct_b=0.10)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.227,
-    "news_headlines": [
-      "UnitedHealth Group Stock Outlook: Is Wall Street Bullish or Bearish?",
-      "Healthcare Investing Is Now an AI Short in Disguise",
-      "Elizabeth Warren Says UnitedHealth, CVS Have Too Much Control Over US Healthcare\u2014Now She Wants to Break Up the Vertical Integration"
-    ],
-    "mode": "paper",
-    "strategy_version": "84",
-    "status": "open",
-    "price_peak": 406.9049987792969,
-    "trailing_stop_price": 399.743471
+    "price_peak": 961.8499755859375,
+    "trailing_stop_price": 948.220561
   },
   "MCD": {
     "id": "MCD_20260812155025",
@@ -254,8 +225,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 272.3999938964844,
-    "trailing_stop_price": 277.40943
+    "price_trough": 272.20001220703125,
+    "trailing_stop_price": 277.20577
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -384,8 +355,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 282.70001220703125,
-    "trailing_stop_price": 286.940512
+    "price_trough": 278.6499938964844,
+    "trailing_stop_price": 282.829744
   },
   "SOFI": {
     "id": "SOFI_20260813142500",
@@ -416,8 +387,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 18.351200103759766,
-    "trailing_stop_price": 17.702118
+    "price_peak": 18.43000030517578,
+    "trailing_stop_price": 17.778131
   },
   "MU": {
     "id": "MU_20260813152917",
@@ -450,8 +421,8 @@
     "mode": "paper",
     "strategy_version": "86",
     "status": "open",
-    "price_trough": 967.2000122070312,
-    "trailing_stop_price": 981.708012
+    "price_trough": 949.8300170898438,
+    "trailing_stop_price": 964.077467
   },
   "INTC": {
     "id": "INTC_20260813152917",
@@ -482,8 +453,8 @@
     "mode": "paper",
     "strategy_version": "86",
     "status": "open",
-    "price_trough": 105.31500244140625,
-    "trailing_stop_price": 106.894727
+    "price_trough": 104.55999755859375,
+    "trailing_stop_price": 106.128398
   },
   "SMCI": {
     "id": "SMCI_20260813162612",
@@ -515,8 +486,8 @@
     "mode": "paper",
     "strategy_version": "86",
     "status": "open",
-    "price_trough": 39.64500045776367,
-    "trailing_stop_price": 40.239675
+    "price_trough": 39.15999984741211,
+    "trailing_stop_price": 39.7474
   },
   "LRCX": {
     "id": "LRCX_20260813172739",
@@ -548,34 +519,60 @@
     "mode": "paper",
     "strategy_version": "86",
     "status": "open",
-    "price_trough": 342.17999267578125,
-    "trailing_stop_price": 346.898655
+    "price_trough": 337.010009765625,
+    "trailing_stop_price": 341.657378
   },
-  "VLO": {
-    "id": "VLO_20260813182702",
-    "asset": "VLO",
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260813200814",
+    "asset": "CAD/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 114.52400207519531,
+    "entry_time": "2026-08-13T20:08:14.702781+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02578,
+    "size_usd": 4465.88,
+    "position_size_pct": 0.0427,
+    "confidence": 0.445,
+    "signals": [
+      "RSI overbought (72.0)",
+      "BB overbought (pct_b=0.95)",
+      "News +1.00 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+    ],
+    "mode": "paper",
+    "strategy_version": "86",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260813200814",
+    "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 339.79998779296875,
-    "entry_time": "2026-08-13T18:27:02.986461+00:00",
-    "stop_loss_pct": 0.00832,
-    "take_profit_pct": 0.01995,
-    "size_usd": 4904.58,
-    "position_size_pct": 0.0469,
-    "confidence": 0.794,
+    "entry_price": 0.0702499970793724,
+    "entry_time": "2026-08-13T20:08:14.705342+00:00",
+    "stop_loss_pct": 0.00373,
+    "take_profit_pct": 0.00852,
+    "size_usd": 3773.42,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
     "signals": [
-      "RSI overbought (98.7)",
-      "5d momentum +2.90%",
-      "1d momentum +9.12%",
-      "BB overbought (pct_b=0.99)",
+      "RSI oversold (41.5)",
+      "5d momentum +0.86%",
+      "1d momentum -0.43%",
       "High-impact catalyst",
-      "Claude [contradicts]: earnings beat"
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.793,
+    "news_sentiment": 0.081,
     "news_headlines": [
-      "Should You Buy Phillips 66 Stock at its Current Premium Valuation?",
-      "How To Give A Bull Wings While Trading This Hot Energy Stock",
-      "Zacks.com featured highlights include LifeStance Health, Tutor Perini, Valero Energy, SharkNinja and Lumentum"
+      "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+      "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+      "Billionaire buys rare art with Dogecoin"
     ],
     "mode": "paper",
     "strategy_version": "86",
