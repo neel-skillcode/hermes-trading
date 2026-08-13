@@ -256,8 +256,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 75.87000274658203,
-    "trailing_stop_price": 73.573418
+    "price_peak": 75.87999725341797,
+    "trailing_stop_price": 73.58311
   },
   "MRNA": {
     "id": "MRNA_20260812183628",
@@ -547,7 +547,9 @@
     ],
     "mode": "paper",
     "strategy_version": "86",
-    "status": "open"
+    "status": "open",
+    "price_trough": 114.4729995727539,
+    "trailing_stop_price": 115.388784
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260813200814",
@@ -573,6 +575,37 @@
       "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
       "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
       "Billionaire buys rare art with Dogecoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "86",
+    "status": "open",
+    "price_trough": 0.07015000283718109,
+    "trailing_stop_price": 0.070412
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260813215251",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.418000221252441,
+    "entry_time": "2026-08-13T21:52:51.798507+00:00",
+    "stop_loss_pct": 0.00594,
+    "take_profit_pct": 0.01415,
+    "size_usd": 1093.69,
+    "position_size_pct": 0.0105,
+    "confidence": 0.764,
+    "signals": [
+      "RSI oversold (34.2)",
+      "5d momentum +0.50%",
+      "1d momentum +1.37%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.282,
+    "news_headlines": [
+      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+      "Aptos climbs to the top 4 blockchains in transaction count"
     ],
     "mode": "paper",
     "strategy_version": "86",
