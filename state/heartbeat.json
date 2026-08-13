@@ -3,15 +3,15 @@
   "portfolio_balance": 105264.08,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 513.6,
-  "equity_value": 105777.68,
+  "unrealized_pnl_usd": 519.47,
+  "equity_value": 105783.55,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40350.49,
   "swing_capital_used_usd": 52626.93,
   "total_trades": 960,
-  "last_tick": "2026-08-13T02:43:46.673564+00:00",
+  "last_tick": "2026-08-13T04:30:39.784223+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8464,
-      "unrealized_pnl_pct": 0.001544,
-      "unrealized_pnl_usd": 2.08
+      "current_price": 7.84651,
+      "unrealized_pnl_pct": 0.001559,
+      "unrealized_pnl_usd": 2.09
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3916000127792358,
       "trailing_stop_price": 1.402733,
-      "current_price": 1.39494,
-      "unrealized_pnl_pct": 0.010295,
-      "unrealized_pnl_usd": 68.97
+      "current_price": 1.3944,
+      "unrealized_pnl_pct": 0.010678,
+      "unrealized_pnl_usd": 71.54
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_trough": 9.460269927978516,
       "trailing_stop_price": 9.535952,
-      "current_price": 9.50135,
-      "unrealized_pnl_pct": 0.003325,
-      "unrealized_pnl_usd": 19.26
+      "current_price": 9.49495,
+      "unrealized_pnl_pct": 0.003997,
+      "unrealized_pnl_usd": 23.15
     },
     {
       "id": "TLT_20260805152238",
@@ -196,11 +196,11 @@
       "mode": "paper",
       "strategy_version": "82",
       "status": "open",
-      "price_trough": 1.3487813472747803,
-      "trailing_stop_price": 1.359572,
-      "current_price": 1.348763,
-      "unrealized_pnl_pct": 0.001254,
-      "unrealized_pnl_usd": 5.28
+      "price_trough": 1.3488540649414062,
+      "trailing_stop_price": 1.359645,
+      "current_price": 1.348854,
+      "unrealized_pnl_pct": 0.001187,
+      "unrealized_pnl_usd": 5.0
     },
     {
       "id": "CAD/JPY_20260810201001",
@@ -231,9 +231,9 @@
       "status": "open",
       "price_trough": 114.23699951171875,
       "trailing_stop_price": 114.465474,
-      "current_price": 114.308998,
-      "unrealized_pnl_pct": -0.000131,
-      "unrealized_pnl_usd": -0.53
+      "current_price": 114.322998,
+      "unrealized_pnl_pct": -0.000254,
+      "unrealized_pnl_usd": -1.02
     },
     {
       "id": "EUR/JPY_20260810201001",
@@ -261,9 +261,9 @@
       "mode": "paper",
       "strategy_version": "83",
       "status": "open",
-      "current_price": 183.695007,
-      "unrealized_pnl_pct": -0.000963,
-      "unrealized_pnl_usd": -2.91
+      "current_price": 183.705002,
+      "unrealized_pnl_pct": -0.000908,
+      "unrealized_pnl_usd": -2.75
     },
     {
       "id": "COST_20260811153222",
@@ -691,8 +691,29 @@
   ],
   "last_candidates": [
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.711,
+      "price": 6.486999988555908,
+      "rsi": 69.77687332490567,
+      "momentum_5d": 0.028376648435028483,
+      "momentum_1d": 0.03164756335306303,
+      "macd_crossover": false,
+      "atr_pct": 0.009260290198711902,
+      "bollinger_pct_b": 1.0111,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.23,
+      "news_sentiment": 0.282,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
+        "Aptos climbs to the top 4 blockchains in transaction count"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SMCI",
-      "rank_score": 0.6848,
+      "rank_score": 0.6968,
       "price": 37.560001373291016,
       "rsi": 81.23787160429299,
       "momentum_5d": 0.05004195953648176,
@@ -702,12 +723,12 @@
       "bollinger_pct_b": 0.8893,
       "volume_spike": false,
       "volume_spike_ratio": 1.02,
-      "news_sentiment": 0.36,
-      "news_confidence": 0.75,
+      "news_sentiment": 0.534,
+      "news_confidence": 0.73,
       "news_headlines": [
         "Earnings live updates: Cisco and Cerebras earnings point to strong AI demand, but their stocks are falling anyway",
         "CoreWeave & Super Micro earnings are quieting AI concerns. What does this mean for Nvidia?",
-        "Dow Jones Futures: Cisco, Coherent Are Earnings Movers Late After Nebius, Lumentum, CoreWeave Lead AI Rally"
+        "Super Micro Guided Fiscal 2027 Revenue $16 Billion Above Wall Street and Missed the Quarter Anyway"
       ],
       "high_impact_news": true
     },
@@ -755,7 +776,7 @@
     },
     {
       "asset": "IONQ",
-      "rank_score": 0.6732,
+      "rank_score": 0.6722,
       "price": 45.189998626708984,
       "rsi": 71.76189616146345,
       "momentum_5d": 0.04897856791949537,
@@ -765,12 +786,12 @@
       "bollinger_pct_b": 0.9769,
       "volume_spike": false,
       "volume_spike_ratio": 0.86,
-      "news_sentiment": 0.86,
-      "news_confidence": 0.72,
+      "news_sentiment": 0.858,
+      "news_confidence": 0.71,
       "news_headlines": [
+        "IonQ (IONQ) Q2 2026 Earnings Call Transcript",
         "Infleqtion: Losses Are Growing but So Is Its Crucial Federal Quantum Business.",
-        "IonQ, D-Wave or Rigetti: Which Quantum Stock Is the Best Buy After Q2?",
-        "Quantinuum Stock Heads for Record After First Earnings Report Since IPO"
+        "IonQ, D-Wave or Rigetti: Which Quantum Stock Is the Best Buy After Q2?"
       ],
       "high_impact_news": true
     },
@@ -937,8 +958,29 @@
       "news_confidence": 0.53,
       "news_headlines": [
         "Home Depot earnings preview: What does CEO Ted Decker's leave of absence mean for shareholders?",
-        "Home Depot (HD) CEO Ted Decker Takes Temporary Medical Leave",
-        "The Peer-Group Mispricing Sitting On LOW Stock"
+        "Home Depot hardware store rival files Chapter 11 bankruptcy",
+        "Home Depot (HD) CEO Ted Decker Takes Temporary Medical Leave"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.5756,
+      "price": 153.27999877929688,
+      "rsi": 56.388137259328985,
+      "momentum_5d": 0.02466744121760223,
+      "momentum_1d": 0.06149588128915216,
+      "macd_crossover": false,
+      "atr_pct": 0.01685603724341418,
+      "bollinger_pct_b": 0.8194,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.54,
+      "news_sentiment": 0.395,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Quantum computing goes mainstream with Quantinuum and Orcale partnership",
+        "Oracle sends another shocking message to employees",
+        "The Mega Backdoor Roth: How Tech Workers Add $34,000 Annually to a 401(k) Tax-Free"
       ],
       "high_impact_news": true
     },
@@ -1006,27 +1048,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.5686,
-      "price": 153.27999877929688,
-      "rsi": 56.388137259328985,
-      "momentum_5d": 0.02466744121760223,
-      "momentum_1d": 0.06149588128915216,
-      "macd_crossover": false,
-      "atr_pct": 0.01685603724341418,
-      "bollinger_pct_b": 0.8194,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.243,
-      "news_confidence": 0.59,
-      "news_headlines": [
-        "Quantum computing goes mainstream with Quantinuum and Orcale partnership",
-        "Oracle sends another shocking message to employees",
-        "The Mega Backdoor Roth: How Tech Workers Add $34,000 Annually to a 401(k) Tax-Free"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SNAP",
       "rank_score": 0.5561,
       "price": 5.194399833679199,
@@ -1069,44 +1090,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "SBUX",
-      "rank_score": 0.5154,
-      "price": 108.48999786376953,
-      "rsi": 84.84573653500524,
-      "momentum_5d": 0.010901958370036584,
-      "momentum_1d": 0.020794120341137597,
+      "asset": "NZD/USD",
+      "rank_score": 0.5204,
+      "price": 0.5830903649330139,
+      "rsi": 12.44523400833043,
+      "momentum_5d": -0.005247887940931289,
+      "momentum_1d": -0.0065889699313065484,
       "macd_crossover": false,
-      "atr_pct": 0.006830449589982448,
-      "bollinger_pct_b": 0.9265,
+      "atr_pct": 0.0010583916561990154,
+      "bollinger_pct_b": -0.1166,
       "volume_spike": false,
-      "volume_spike_ratio": 1.29,
-      "news_sentiment": 0.745,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "Why fast food chains like McDonald's and Starbucks are going all in on energy drinks",
-        "The Debates That Matter For KO Stock",
-        "GRND Stock Has Soared 250% Since Its 2022 IPO Crash, Leaving Starbucks, Target and Ethereum Behind"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TGT",
-      "rank_score": 0.5148,
-      "price": 154.02000427246094,
-      "rsi": 63.59355393863222,
-      "momentum_5d": 0.0074568246548806965,
-      "momentum_1d": 0.03912473021642909,
-      "macd_crossover": false,
-      "atr_pct": 0.008509562076559027,
-      "bollinger_pct_b": 0.93,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.16,
-      "news_sentiment": 0.106,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.333,
       "news_confidence": 0.47,
       "news_headlines": [
-        "EBAY Stock: Where Compounding Could Take The Price",
-        "AOC documents her egg-freezing journey on Instagram, sharing costs that can hit $20,000 per cycle",
-        "Walmart Among Big-Box Retailers That May Miss Comparable Sales Expectations, RBC Says"
+        "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
+        "US Dollar In Uptrend Despite Pullback",
+        "Currencies Forecast: Interest Rate Differentials Drive US Dollar Resilience"
       ],
       "high_impact_news": true
     }
