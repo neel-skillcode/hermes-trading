@@ -132,8 +132,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 1.34865403175354,
-    "trailing_stop_price": 1.359443
+    "price_trough": 1.3482176065444946,
+    "trailing_stop_price": 1.359003
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260810201001",
@@ -318,8 +318,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 63.88999938964844,
-    "trailing_stop_price": 64.848349
+    "price_trough": 63.880001068115234,
+    "trailing_stop_price": 64.838201
   },
   "HOOD": {
     "id": "HOOD_20260813142500",
@@ -415,7 +415,9 @@
     ],
     "mode": "paper",
     "strategy_version": "85",
-    "status": "open"
+    "status": "open",
+    "price_peak": 18.274999618530273,
+    "trailing_stop_price": 17.628613
   },
   "MU": {
     "id": "MU_20260813152917",
@@ -451,37 +453,6 @@
     "price_trough": 968.7949829101562,
     "trailing_stop_price": 983.326908
   },
-  "LRCX": {
-    "id": "LRCX_20260813152917",
-    "asset": "LRCX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 338.9599914550781,
-    "entry_time": "2026-08-13T15:29:17.187963+00:00",
-    "stop_loss_pct": 0.0128,
-    "take_profit_pct": 0.03117,
-    "size_usd": 5825.72,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (88.3)",
-      "5d momentum +3.07%",
-      "1d momentum +9.14%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.885,
-    "news_headlines": [
-      "5 Semiconductor Stocks Jim Cramer Could Be Talking About on Thursday",
-      "Intel Just Increased Its Stock Offering to $20B. Why That\u2019s Good News for ASML.",
-      "Elon Musk\u2019s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified."
-    ],
-    "mode": "paper",
-    "strategy_version": "86",
-    "status": "open"
-  },
   "INTC": {
     "id": "INTC_20260813152917",
     "asset": "INTC",
@@ -511,8 +482,8 @@
     "mode": "paper",
     "strategy_version": "86",
     "status": "open",
-    "price_trough": 105.58619689941406,
-    "trailing_stop_price": 107.16999
+    "price_trough": 105.31500244140625,
+    "trailing_stop_price": 106.894727
   },
   "SMCI": {
     "id": "SMCI_20260813162612",
@@ -570,6 +541,37 @@
       "Zacks.com featured highlights include LifeStance Health, Tutor Perini, Valero Energy, SharkNinja and Lumentum",
       "Use DuPont Analysis to Pick 5 Top-Ranked Quality Stocks",
       "Valero Energy (VLO) Is Up 9.2% After Robust Q2 Earnings And US$8.4 Billion Buyback Completion"
+    ],
+    "mode": "paper",
+    "strategy_version": "86",
+    "status": "open"
+  },
+  "LRCX": {
+    "id": "LRCX_20260813172739",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 344.5799865722656,
+    "entry_time": "2026-08-13T17:27:39.555605+00:00",
+    "stop_loss_pct": 0.01379,
+    "take_profit_pct": 0.03358,
+    "size_usd": 5787.19,
+    "position_size_pct": 0.0553,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (90.7)",
+      "5d momentum +6.00%",
+      "1d momentum +11.48%",
+      "BB overbought (pct_b=0.98)",
+      "Volume spike 5.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.822,
+    "news_headlines": [
+      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
+      "Applied Materials Stock Nearly Tripled On Orders It Cannot Ship Fast Enough",
+      "5 Semiconductor Stocks Jim Cramer Could Be Talking About on Thursday"
     ],
     "mode": "paper",
     "strategy_version": "86",
