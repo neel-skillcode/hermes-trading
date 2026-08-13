@@ -132,38 +132,8 @@
     "mode": "paper",
     "strategy_version": "82",
     "status": "open",
-    "price_trough": 1.3489997386932373,
-    "trailing_stop_price": 1.359792
-  },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260810201001",
-    "asset": "CAD/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 114.29399871826172,
-    "entry_time": "2026-08-10T20:10:01.599134+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00459,
-    "size_usd": 4035.4,
-    "position_size_pct": 0.038,
-    "confidence": 0.594,
-    "signals": [
-      "RSI overbought (95.5)",
-      "1d momentum +1.14%",
-      "BB overbought (pct_b=0.86)",
-      "News +1.00 (conf 0.70) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-    ],
-    "news_sentiment": 1.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "83",
-    "status": "open",
-    "price_trough": 114.11100006103516,
-    "trailing_stop_price": 114.339222
+    "price_trough": 1.34865403175354,
+    "trailing_stop_price": 1.359443
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20260810201001",
@@ -284,8 +254,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 273.2200012207031,
-    "trailing_stop_price": 278.244517
+    "price_trough": 272.7300109863281,
+    "trailing_stop_price": 277.745516
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -348,8 +318,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 63.95500183105469,
-    "trailing_stop_price": 64.914327
+    "price_trough": 63.88999938964844,
+    "trailing_stop_price": 64.848349
   },
   "HOOD": {
     "id": "HOOD_20260813142500",
@@ -384,40 +354,6 @@
     "price_trough": 98.30999755859375,
     "trailing_stop_price": 99.60769
   },
-  "SMCI": {
-    "id": "SMCI_20260813142500",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 41.52000045776367,
-    "entry_time": "2026-08-13T14:25:00.440188+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03532,
-    "size_usd": 4739.43,
-    "position_size_pct": 0.0454,
-    "confidence": 0.709,
-    "signals": [
-      "RSI overbought (86.1)",
-      "5d momentum +15.87%",
-      "1d momentum +33.50%",
-      "BB overbought (pct_b=1.11)",
-      "Volume spike 3.0\u00d7",
-      "News +0.88 (conf 0.66) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.879,
-    "news_headlines": [
-      "Tech stocks today: Anthropic investors aiming for $2 trillion IPO",
-      "DELL Stock On Track To Top $500 For First Time As AI Server Boom Gets Fresh Fuel From Lenovo, SMCI",
-      "Dow Jones Futures: Cisco, Coherent Are Earnings Losers After Nebius, Lumentum, CoreWeave Lead AI Rally"
-    ],
-    "mode": "paper",
-    "strategy_version": "85",
-    "status": "open",
-    "price_trough": 41.5,
-    "trailing_stop_price": 42.1225
-  },
   "ARM": {
     "id": "ARM_20260813142500",
     "asset": "ARM",
@@ -448,8 +384,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 285.08099365234375,
-    "trailing_stop_price": 289.357209
+    "price_trough": 282.70001220703125,
+    "trailing_stop_price": 286.940512
   },
   "SOFI": {
     "id": "SOFI_20260813142500",
@@ -511,7 +447,9 @@
     ],
     "mode": "paper",
     "strategy_version": "86",
-    "status": "open"
+    "status": "open",
+    "price_trough": 968.7949829101562,
+    "trailing_stop_price": 983.326908
   },
   "LRCX": {
     "id": "LRCX_20260813152917",
@@ -569,6 +507,69 @@
       "Intel\u2019s Best Growth in 15 Years: 25% Revenue Surge and Our New Price Target",
       "Hold Intel And Strictly Follow These Binary Catalysts",
       "Insulet Corporation\u2019s (PODD) Wearable Pod Tech Finds New Frontier"
+    ],
+    "mode": "paper",
+    "strategy_version": "86",
+    "status": "open",
+    "price_trough": 105.58619689941406,
+    "trailing_stop_price": 107.16999
+  },
+  "SMCI": {
+    "id": "SMCI_20260813162612",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 40.01219940185547,
+    "entry_time": "2026-08-13T16:26:12.326563+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03437,
+    "size_usd": 3910.19,
+    "position_size_pct": 0.0373,
+    "confidence": 0.583,
+    "signals": [
+      "RSI overbought (77.7)",
+      "5d momentum +5.70%",
+      "1d momentum +28.66%",
+      "BB overbought (pct_b=0.85)",
+      "News +0.81 (conf 0.63) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; price surge"
+    ],
+    "news_sentiment": 0.81,
+    "news_headlines": [
+      "Things are looking up for AI infrastructure companies, for now",
+      "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
+      "Jim Cramer Told Club Members to Check Their Inbox for \u201cMultiple Moves\u201d: What Retail Investors Should Know"
+    ],
+    "mode": "paper",
+    "strategy_version": "86",
+    "status": "open"
+  },
+  "VLO": {
+    "id": "VLO_20260813162612",
+    "asset": "VLO",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 335.1300048828125,
+    "entry_time": "2026-08-13T16:26:12.328854+00:00",
+    "stop_loss_pct": 0.00779,
+    "take_profit_pct": 0.01867,
+    "size_usd": 4932.07,
+    "position_size_pct": 0.0471,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (98.3)",
+      "5d momentum +1.42%",
+      "1d momentum +12.36%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; ma catalyst"
+    ],
+    "news_sentiment": 0.849,
+    "news_headlines": [
+      "Zacks.com featured highlights include LifeStance Health, Tutor Perini, Valero Energy, SharkNinja and Lumentum",
+      "Use DuPont Analysis to Pick 5 Top-Ranked Quality Stocks",
+      "Valero Energy (VLO) Is Up 9.2% After Robust Q2 Earnings And US$8.4 Billion Buyback Completion"
     ],
     "mode": "paper",
     "strategy_version": "86",
