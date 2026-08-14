@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3899999856948853,
-    "trailing_stop_price": 1.40112
+    "price_trough": 1.386970043182373,
+    "trailing_stop_price": 1.398066
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.460269927978516,
-    "trailing_stop_price": 9.535952
+    "price_trough": 9.431489944458008,
+    "trailing_stop_price": 9.506942
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -161,8 +161,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_peak": 183.89500427246094,
-    "trailing_stop_price": 183.527214
+    "price_peak": 184.1179962158203,
+    "trailing_stop_price": 183.74976
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -256,8 +256,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 75.87999725341797,
-    "trailing_stop_price": 73.58311
+    "price_peak": 76.04499816894531,
+    "trailing_stop_price": 73.743116
   },
   "MRNA": {
     "id": "MRNA_20260812183628",
@@ -322,8 +322,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 98.30999755859375,
-    "trailing_stop_price": 99.60769
+    "price_trough": 97.11000061035156,
+    "trailing_stop_price": 98.391853
   },
   "ARM": {
     "id": "ARM_20260813142500",
@@ -390,40 +390,6 @@
     "price_peak": 18.43000030517578,
     "trailing_stop_price": 17.778131
   },
-  "MU": {
-    "id": "MU_20260813152917",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 975.3900146484375,
-    "entry_time": "2026-08-13T15:29:17.185967+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03488,
-    "size_usd": 4359.24,
-    "position_size_pct": 0.0417,
-    "confidence": 0.651,
-    "signals": [
-      "RSI overbought (84.6)",
-      "5d momentum +4.96%",
-      "1d momentum +11.32%",
-      "BB overbought (pct_b=1.06)",
-      "Volume spike 2.1\u00d7",
-      "News +0.39 (conf 0.69) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price surge"
-    ],
-    "news_sentiment": 0.391,
-    "news_headlines": [
-      "AI infrastructure stocks surge after strong earnings from CoreWeave, Supermicro",
-      "Wall Street Analysts Predict 70% Upside for This AI Memory Stock in 2027",
-      "Micron Technology (MU): A Clear Beneficiary of the AI Infrastructure Buildout?"
-    ],
-    "mode": "paper",
-    "strategy_version": "86",
-    "status": "open",
-    "price_trough": 949.8300170898438,
-    "trailing_stop_price": 964.077467
-  },
   "INTC": {
     "id": "INTC_20260813152917",
     "asset": "INTC",
@@ -453,8 +419,8 @@
     "mode": "paper",
     "strategy_version": "86",
     "status": "open",
-    "price_trough": 104.55999755859375,
-    "trailing_stop_price": 106.128398
+    "price_trough": 104.28500366210938,
+    "trailing_stop_price": 105.849279
   },
   "SMCI": {
     "id": "SMCI_20260813162612",
@@ -488,39 +454,6 @@
     "status": "open",
     "price_trough": 39.15999984741211,
     "trailing_stop_price": 39.7474
-  },
-  "LRCX": {
-    "id": "LRCX_20260813172739",
-    "asset": "LRCX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 344.5799865722656,
-    "entry_time": "2026-08-13T17:27:39.555605+00:00",
-    "stop_loss_pct": 0.01379,
-    "take_profit_pct": 0.03358,
-    "size_usd": 5787.19,
-    "position_size_pct": 0.0553,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (90.7)",
-      "5d momentum +6.00%",
-      "1d momentum +11.48%",
-      "BB overbought (pct_b=0.98)",
-      "Volume spike 5.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.822,
-    "news_headlines": [
-      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
-      "Applied Materials Stock Nearly Tripled On Orders It Cannot Ship Fast Enough",
-      "5 Semiconductor Stocks Jim Cramer Could Be Talking About on Thursday"
-    ],
-    "mode": "paper",
-    "strategy_version": "86",
-    "status": "open",
-    "price_trough": 337.010009765625,
-    "trailing_stop_price": 341.657378
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260813200814",
@@ -579,6 +512,67 @@
     ],
     "mode": "paper",
     "strategy_version": "86",
+    "status": "open"
+  },
+  "AMAT": {
+    "id": "AMAT_20260814143404",
+    "asset": "AMAT",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 510.94000244140625,
+    "entry_time": "2026-08-14T14:34:04.114395+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6640.7,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (23.9)",
+      "5d momentum -9.01%",
+      "1d momentum -3.62%",
+      "BB oversold (pct_b=0.01)",
+      "News +0.59 (conf 0.75) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: earnings beat; price surge; price decline"
+    ],
+    "news_sentiment": 0.593,
+    "news_headlines": [
+      "Earnings live updates: Applied Materials stock falls after solid earnings fail to impress",
+      "Stock market today: S&P 500 notches record high, Nasdaq rallies after soft inflation data",
+      "Stock Market Today: Dow Steady After Surprise Retail Sales; Applied Materials Dives On Earnings (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "87",
+    "status": "open"
+  },
+  "AVGO": {
+    "id": "AVGO_20260814143404",
+    "asset": "AVGO",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 397.8500061035156,
+    "entry_time": "2026-08-14T14:34:04.116249+00:00",
+    "stop_loss_pct": 0.01086,
+    "take_profit_pct": 0.02646,
+    "size_usd": 3602.41,
+    "position_size_pct": 0.0344,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (21.6)",
+      "5d momentum -5.69%",
+      "1d momentum -6.34%",
+      "BB oversold (pct_b=-0.18)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.366,
+    "news_headlines": [
+      "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+      "Intel Stock's Real Opportunity Is Demand It Cannot Yet Ship",
+      "Here\u2019s What Jim Cramer Is Saying About Semis in August"
+    ],
+    "mode": "paper",
+    "strategy_version": "87",
     "status": "open"
   }
 }
