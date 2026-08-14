@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3916000127792358,
-    "trailing_stop_price": 1.402733
+    "price_trough": 1.3899999856948853,
+    "trailing_stop_price": 1.40112
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -551,61 +551,31 @@
     "price_trough": 114.4729995727539,
     "trailing_stop_price": 115.388784
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260813200814",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.0702499970793724,
-    "entry_time": "2026-08-13T20:08:14.705342+00:00",
-    "stop_loss_pct": 0.00373,
-    "take_profit_pct": 0.00852,
-    "size_usd": 3773.42,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (41.5)",
-      "5d momentum +0.86%",
-      "1d momentum -0.43%",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
-      "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
-      "Billionaire buys rare art with Dogecoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "86",
-    "status": "open",
-    "price_trough": 0.07015000283718109,
-    "trailing_stop_price": 0.070412
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260813215251",
-    "asset": "AVAX-USD",
+  "ETH-USD": {
+    "id": "ETH-USD_20260814070029",
+    "asset": "ETH-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 6.418000221252441,
-    "entry_time": "2026-08-13T21:52:51.798507+00:00",
-    "stop_loss_pct": 0.00594,
-    "take_profit_pct": 0.01415,
-    "size_usd": 1093.69,
-    "position_size_pct": 0.0105,
-    "confidence": 0.764,
+    "entry_price": 1870.93994140625,
+    "entry_time": "2026-08-14T07:00:29.212839+00:00",
+    "stop_loss_pct": 0.00322,
+    "take_profit_pct": 0.00782,
+    "size_usd": 4878.65,
+    "position_size_pct": 0.0467,
+    "confidence": 0.853,
     "signals": [
-      "RSI oversold (34.2)",
-      "5d momentum +0.50%",
-      "1d momentum +1.37%",
+      "5d momentum -0.89%",
+      "1d momentum -1.36%",
+      "BB oversold (pct_b=-0.07)",
+      "Volume spike 4.4\u00d7",
       "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
+      "Claude [supports]: ma catalyst"
     ],
-    "news_sentiment": 0.282,
+    "news_sentiment": 0.717,
     "news_headlines": [
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?",
-      "Aptos climbs to the top 4 blockchains in transaction count"
+      "Why Fidelity added staking rewards to its ethereum ETF",
+      "SharpLink Deploys $200M in Ethereum Through Lido to Expand DeFi Yield Strategy",
+      "Bit Digital, Inc. Q2 2026 Earnings Call Summary"
     ],
     "mode": "paper",
     "strategy_version": "86",
