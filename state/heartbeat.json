@@ -3,15 +3,15 @@
   "portfolio_balance": 105289.2,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.42,
-  "unrealized_pnl_usd": 413.39,
-  "equity_value": 105702.59,
+  "unrealized_pnl_usd": 413.23,
+  "equity_value": 105702.43,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42115.68,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 990,
-  "last_tick": "2026-08-14T21:13:27.929220+00:00",
+  "last_tick": "2026-08-14T21:42:17.256310+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85483,
-      "unrealized_pnl_pct": -0.001054,
-      "unrealized_pnl_usd": -7.34
+      "current_price": 0.85477,
+      "unrealized_pnl_pct": -0.000984,
+      "unrealized_pnl_usd": -6.85
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1879.9200439453125,
       "trailing_stop_price": 1873.866701,
-      "current_price": 1877.75,
-      "unrealized_pnl_pct": 0.00364,
-      "unrealized_pnl_usd": 17.76
+      "current_price": 1878.040039,
+      "unrealized_pnl_pct": 0.003795,
+      "unrealized_pnl_usd": 18.51
     },
     {
       "id": "PYPL_20260814195445",
@@ -541,9 +541,9 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "current_price": 606.150024,
-      "unrealized_pnl_pct": -0.00071,
-      "unrealized_pnl_usd": -4.16
+      "current_price": 606.630005,
+      "unrealized_pnl_pct": -0.001502,
+      "unrealized_pnl_usd": -8.81
     },
     {
       "id": "AMD_20260814195445",
@@ -607,17 +607,17 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "price_peak": 75.08999633789062,
-      "trailing_stop_price": 74.752842,
-      "current_price": 75.07,
-      "unrealized_pnl_pct": 0.0012,
-      "unrealized_pnl_usd": 5.82
+      "price_peak": 75.12000274658203,
+      "trailing_stop_price": 74.782714,
+      "current_price": 75.120003,
+      "unrealized_pnl_pct": 0.001867,
+      "unrealized_pnl_usd": 9.05
     }
   ],
   "last_candidates": [
     {
       "asset": "PYPL",
-      "rank_score": 0.8276,
+      "rank_score": 0.8236,
       "price": 61.65999984741211,
       "rsi": 77.0660498370308,
       "momentum_5d": 0.03007015066333417,
@@ -627,18 +627,18 @@
       "bollinger_pct_b": 1.1294,
       "volume_spike": true,
       "volume_spike_ratio": 11.84,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.804,
+      "news_confidence": 0.51,
       "news_headlines": [
         "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
-        "Stripe and Advent bid $60.50 a share for PayPal as talks advance, WSJ reports",
-        "Stripe, Advent in Talks to Buy PayPal"
+        "The Engine Behind XYZ Stock Has Real Parts",
+        "Stripe and Advent bid $60.50 a share for PayPal as talks advance, WSJ reports"
       ],
       "high_impact_news": true
     },
     {
       "asset": "RIVN",
-      "rank_score": 0.7159,
+      "rank_score": 0.7219,
       "price": 15.364999771118164,
       "rsi": 26.427374034365215,
       "momentum_5d": -0.00835782940785778,
@@ -648,12 +648,12 @@
       "bollinger_pct_b": -0.0545,
       "volume_spike": true,
       "volume_spike_ratio": 2.41,
-      "news_sentiment": 0.422,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.581,
+      "news_confidence": 0.43,
       "news_headlines": [
+        "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
         "Prediction: Will Lucid Stock Double This Year?",
-        "Why Is Rivian Worth As Much As Stellantis?  It Isn\u2019t",
-        "Rivian Automotive Stock's Real Risk Is A Back-Loaded Year"
+        "Why Is Rivian Worth As Much As Stellantis?  It Isn\u2019t"
       ],
       "high_impact_news": true
     },
@@ -680,7 +680,7 @@
     },
     {
       "asset": "AMD",
-      "rank_score": 0.641,
+      "rank_score": 0.632,
       "price": 514.3699951171875,
       "rsi": 73.01328339919806,
       "momentum_5d": 0.026573934270767794,
@@ -690,12 +690,33 @@
       "bollinger_pct_b": 1.0305,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.474,
+      "news_confidence": 0.38,
       "news_headlines": [
         "Why Cloudflare and these 3 AI sub-sectors are 'the place to be' for tech investors",
         "QCOM: A Cash Gusher At A Marked-Down Price",
         "Kulicke and Soffa, AMD, Intel, and Nvidia Shares Are Soaring, What You Need To Know"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.6196,
+      "price": 393.04998779296875,
+      "rsi": 25.29331394414524,
+      "momentum_5d": -0.0021326431852264835,
+      "momentum_1d": -0.06013874624568853,
+      "macd_crossover": false,
+      "atr_pct": 0.013526918171848217,
+      "bollinger_pct_b": 0.1662,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.05,
+      "news_sentiment": 0.238,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%",
+        "Broadcom (AVGO) Faces A $370 Billion AI Financing Risk Question"
       ],
       "high_impact_news": true
     },
@@ -721,27 +742,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "RBLX",
-      "rank_score": 0.6046,
-      "price": 38.25,
-      "rsi": 80.20136834209065,
-      "momentum_5d": -0.014175238347304006,
-      "momentum_1d": 0.04522472261486309,
-      "macd_crossover": false,
-      "atr_pct": 0.015718775303089984,
-      "bollinger_pct_b": 0.7306,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.77,
-      "news_sentiment": -0.149,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
-        "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You.",
-        "SportsHero expands HeroPlay offering through Razer supply agreement"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HD",
       "rank_score": 0.6019,
       "price": 338.79998779296875,
@@ -759,6 +759,27 @@
         "S&P 500 Ekes Out Weekly Gain Amid Growing Probability of Fed Pause Extension",
         "S&P 500 Pulls Back from High as Market's Fear Gauge Keeps Its Cool",
         "Q2 Earnings Season Enters Final Stretch: Walmart Headlines Upcoming Retail Earnings"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RBLX",
+      "rank_score": 0.5976,
+      "price": 38.25,
+      "rsi": 80.20136834209065,
+      "momentum_5d": -0.014175238347304006,
+      "momentum_1d": 0.04522472261486309,
+      "macd_crossover": false,
+      "atr_pct": 0.015718775303089984,
+      "bollinger_pct_b": 0.7306,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.77,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
+        "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
+        "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
       ],
       "high_impact_news": true
     },
@@ -785,7 +806,7 @@
     },
     {
       "asset": "LCID",
-      "rank_score": 0.575,
+      "rank_score": 0.581,
       "price": 6.224999904632568,
       "rsi": 30.994135739641337,
       "momentum_5d": -0.03188179302938214,
@@ -795,33 +816,12 @@
       "bollinger_pct_b": 0.0776,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.577,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.643,
+      "news_confidence": 0.56,
       "news_headlines": [
+        "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
         "Lucid Just Took Aim at Cadillac's Stronghold",
-        "Prediction: Will Lucid Stock Double This Year?",
-        "Lucid Delays Cosmos SUV: Red Flag or Smart Move?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.5669,
-      "price": 393.04998779296875,
-      "rsi": 25.29331394414524,
-      "momentum_5d": -0.0021326431852264835,
-      "momentum_1d": -0.06013874624568853,
-      "macd_crossover": false,
-      "atr_pct": 0.013526918171848217,
-      "bollinger_pct_b": 0.1662,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.61,
-      "news_sentiment": 0.07,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-        "QCOM: A Cash Gusher At A Marked-Down Price",
-        "S&P 500 ends lower as investors weigh data, Middle East tensions"
+        "Prediction: Will Lucid Stock Double This Year?"
       ],
       "high_impact_news": true
     },
@@ -889,6 +889,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMAT",
+      "rank_score": 0.5283,
+      "price": 507.1099853515625,
+      "rsi": 24.015063286082594,
+      "momentum_5d": 0.0015602346656585755,
+      "momentum_1d": -0.03328444579155058,
+      "macd_crossover": false,
+      "atr_pct": 0.01867019243482957,
+      "bollinger_pct_b": 0.1728,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.09,
+      "news_sentiment": 0.622,
+      "news_confidence": 0.67,
+      "news_headlines": [
+        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%",
+        "Stock Market Today: Nasdaq Slips On Retail Sales Gloom; Nvidia Eyes Robotics Wave",
+        "Update: S&P Logs Third Consecutive Weekly Gain Despite Pullback From Record High"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5264,
       "price": 355.4100036621094,
@@ -920,34 +941,13 @@
       "atr_pct": 0.009357263987702744,
       "bollinger_pct_b": 0.7112,
       "volume_spike": false,
-      "volume_spike_ratio": 1.35,
+      "volume_spike_ratio": 1.36,
       "news_sentiment": 0.66,
       "news_confidence": 0.53,
       "news_headlines": [
         "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
         "JPMorgan Chase: How To Limit Risk On A Stock That's Doing Well",
         "Marathon Surges 51% After Q2 Results: Is the Stock Still a Buy?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMAT",
-      "rank_score": 0.5223,
-      "price": 507.1099853515625,
-      "rsi": 24.015063286082594,
-      "momentum_5d": 0.0015602346656585755,
-      "momentum_1d": -0.03328444579155058,
-      "macd_crossover": false,
-      "atr_pct": 0.01867019243482957,
-      "bollinger_pct_b": 0.1728,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.09,
-      "news_sentiment": 0.566,
-      "news_confidence": 0.63,
-      "news_headlines": [
-        "Update: S&P Logs Third Consecutive Weekly Gain Despite Pullback From Record High",
-        "S&P 500 ends lower as investors weigh data, Middle East tensions",
-        "Update: US Equity Indexes Fall After Retail Sales Drop Most in 14 Months, Crude Oil Rises as Iran Warned Against Economic Pain"
       ],
       "high_impact_news": true
     },
@@ -1016,7 +1016,7 @@
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.4945,
+      "rank_score": 0.4964,
       "price": 150.33999633789062,
       "rsi": 42.74433219206454,
       "momentum_5d": -0.02058634307563111,
@@ -1026,12 +1026,12 @@
       "bollinger_pct_b": 0.1766,
       "volume_spike": false,
       "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.019,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.07,
+      "news_confidence": 0.38,
       "news_headlines": [
+        "ADBE Stock: Collect 12% While Setting A 30%-Off Buy Price",
         "Oracle Stock Drops While $40 Billion Funding Need Looms",
-        "Oracle junk bond fears, debt surge sound alarms for investors",
-        "Intuit's Options Price A Floor Below Anything The Stock Has Touched In A Year"
+        "Oracle junk bond fears, debt surge sound alarms for investors"
       ],
       "high_impact_news": true
     }
