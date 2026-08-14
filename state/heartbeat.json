@@ -3,15 +3,15 @@
   "portfolio_balance": 105289.2,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.42,
-  "unrealized_pnl_usd": 414.42,
-  "equity_value": 105703.62,
+  "unrealized_pnl_usd": 417.41,
+  "equity_value": 105706.61,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42115.68,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 990,
-  "last_tick": "2026-08-14T22:50:46.519639+00:00",
+  "last_tick": "2026-08-14T23:08:53.721653+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1879.9200439453125,
       "trailing_stop_price": 1873.866701,
-      "current_price": 1877.560059,
-      "unrealized_pnl_pct": 0.003538,
-      "unrealized_pnl_usd": 17.26
+      "current_price": 1878.150024,
+      "unrealized_pnl_pct": 0.003854,
+      "unrealized_pnl_usd": 18.8
     },
     {
       "id": "PYPL_20260814195445",
@@ -541,9 +541,9 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "current_price": 606.309998,
-      "unrealized_pnl_pct": -0.000974,
-      "unrealized_pnl_usd": -5.71
+      "current_price": 606.159973,
+      "unrealized_pnl_pct": -0.000726,
+      "unrealized_pnl_usd": -4.26
     },
     {
       "id": "AMD_20260814195445",
@@ -607,35 +607,14 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "price_peak": 75.11000061035156,
-      "trailing_stop_price": 74.772757,
+      "price_peak": 75.0999984741211,
+      "trailing_stop_price": 74.762799,
       "current_price": 75.110001,
       "unrealized_pnl_pct": 0.001734,
       "unrealized_pnl_usd": 8.4
     }
   ],
   "last_candidates": [
-    {
-      "asset": "PYPL",
-      "rank_score": 0.7296,
-      "price": 61.65999984741211,
-      "rsi": 77.0660498370308,
-      "momentum_5d": 0.03007015066333417,
-      "momentum_1d": 0.04641494519751133,
-      "macd_crossover": false,
-      "atr_pct": 0.009774116662973668,
-      "bollinger_pct_b": 1.1294,
-      "volume_spike": true,
-      "volume_spike_ratio": 11.84,
-      "news_sentiment": 0.551,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
-        "PayPal Stock Rises on Report of Stripe, Advent Buyout Talks",
-        "The Engine Behind XYZ Stock Has Real Parts"
-      ],
-      "high_impact_news": false
-    },
     {
       "asset": "RIVN",
       "rank_score": 0.7219,
@@ -658,8 +637,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "PYPL",
+      "rank_score": 0.7186,
+      "price": 61.65999984741211,
+      "rsi": 77.0660498370308,
+      "momentum_5d": 0.03007015066333417,
+      "momentum_1d": 0.04641494519751133,
+      "macd_crossover": false,
+      "atr_pct": 0.009774116662973668,
+      "bollinger_pct_b": 1.1294,
+      "volume_spike": true,
+      "volume_spike_ratio": 11.84,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
+        "Talks to sell PayPal to Stripe and Advent are heating up",
+        "PayPal Stock Rises on Report of Stripe, Advent Buyout Talks"
+      ],
+      "high_impact_news": false
+    },
+    {
       "asset": "VRTX",
-      "rank_score": 0.6699,
+      "rank_score": 0.6748,
       "price": 505.54998779296875,
       "rsi": 12.29004175260782,
       "momentum_5d": -0.0025058591075658807,
@@ -668,40 +668,19 @@
       "atr_pct": 0.00799476313741735,
       "bollinger_pct_b": 0.1377,
       "volume_spike": true,
-      "volume_spike_ratio": 2.12,
-      "news_sentiment": 0.115,
-      "news_confidence": 0.61,
+      "volume_spike_ratio": 2.29,
+      "news_sentiment": 0.069,
+      "news_confidence": 0.58,
       "news_headlines": [
+        "Can AbCellera Biologics (ABCL)\u2019s Vertex Pharmaceuticals Incorporated (VRTX) Deal Turn its TCE Platform Into a Breakthrough?",
         "Is Vertex Pharmaceuticals (VRTX) Fairly Valued As Pipeline Catalysts Near?",
-        "Vertex Pharmaceuticals Just Hit an All-Time High. Here's Why the Biotech Stock Could Soar Even More",
-        "Vertex Pharmaceuticals (VRTX) Could Be 8% Undervalued Following Raised 2026 Guidance"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.661,
-      "price": 0.9918000102043152,
-      "rsi": 24.637784443681397,
-      "momentum_5d": -0.008199989795684814,
-      "momentum_1d": -0.016266651847288673,
-      "macd_crossover": false,
-      "atr_pct": 0.004767671827025204,
-      "bollinger_pct_b": -0.1013,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.43,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued?",
-        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price",
-        "XRP Price Falls Below $1 Again Despite Record Network Adoption"
+        "Vertex Pharmaceuticals Just Hit an All-Time High. Here's Why the Biotech Stock Could Soar Even More"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AMD",
-      "rank_score": 0.632,
+      "rank_score": 0.627,
       "price": 514.3699951171875,
       "rsi": 73.01328339919806,
       "momentum_5d": 0.026573934270767794,
@@ -710,13 +689,76 @@
       "atr_pct": 0.014685470585146144,
       "bollinger_pct_b": 1.0305,
       "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.474,
-      "news_confidence": 0.38,
+      "volume_spike_ratio": 1.21,
+      "news_sentiment": 0.371,
+      "news_confidence": 0.35,
       "news_headlines": [
         "Why Cloudflare and these 3 AI sub-sectors are 'the place to be' for tech investors",
-        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
-        "QCOM: A Cash Gusher At A Marked-Down Price"
+        "Intel\u2019s stock buybacks: History & investor impact explained",
+        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.6186,
+      "price": 393.04998779296875,
+      "rsi": 25.29331394414524,
+      "momentum_5d": -0.0021326431852264835,
+      "momentum_1d": -0.06013874624568853,
+      "macd_crossover": false,
+      "atr_pct": 0.013526918171848217,
+      "bollinger_pct_b": 0.1662,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.05,
+      "news_sentiment": 0.213,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+        "Wall Street ends lower as investors weigh data, Middle East tensions",
+        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.6104,
+      "price": 1180.6300048828125,
+      "rsi": 19.33134119400401,
+      "momentum_5d": -0.0033428958979555266,
+      "momentum_1d": -0.03351420156546836,
+      "macd_crossover": false,
+      "atr_pct": 0.00938038106883238,
+      "bollinger_pct_b": 0.1405,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.54,
+      "news_sentiment": 0.713,
+      "news_confidence": 0.58,
+      "news_headlines": [
+        "GLP-1 Demand Is Soaring. 2 Stocks That Could Benefit From This (Hint: Not Eli Lilly or Novo Nordisk)",
+        "AbbVie Defends Its Turf, But Leaves One Big Question Open",
+        "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here\u2019s What Happens to Your Portfolio"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RBLX",
+      "rank_score": 0.5976,
+      "price": 38.25,
+      "rsi": 80.20136834209065,
+      "momentum_5d": -0.014175238347304006,
+      "momentum_1d": 0.04522472261486309,
+      "macd_crossover": false,
+      "atr_pct": 0.015718775303089984,
+      "bollinger_pct_b": 0.7306,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.77,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
+        "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
+        "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
       ],
       "high_impact_news": true
     },
@@ -784,65 +826,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "RBLX",
-      "rank_score": 0.5726,
-      "price": 38.25,
-      "rsi": 80.20136834209065,
-      "momentum_5d": -0.014175238347304006,
-      "momentum_1d": 0.04522472261486309,
-      "macd_crossover": false,
-      "atr_pct": 0.015718775303089984,
-      "bollinger_pct_b": 0.7306,
+      "asset": "WFC",
+      "rank_score": 0.5526,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
+      "macd_crossover": true,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
-      "volume_spike_ratio": 1.52,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.52,
+      "volume_spike_ratio": 1.56,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
-        "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
-        "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.5706,
-      "price": 393.04998779296875,
-      "rsi": 25.29331394414524,
-      "momentum_5d": -0.0021326431852264835,
-      "momentum_1d": -0.06013874624568853,
-      "macd_crossover": false,
-      "atr_pct": 0.013526918171848217,
-      "bollinger_pct_b": 0.1662,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.61,
-      "news_sentiment": 0.145,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
-        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LLY",
-      "rank_score": 0.5614,
-      "price": 1180.6300048828125,
-      "rsi": 19.33134119400401,
-      "momentum_5d": -0.0033428958979555266,
-      "momentum_1d": -0.03351420156546836,
-      "macd_crossover": false,
-      "atr_pct": 0.00938038106883238,
-      "bollinger_pct_b": 0.1405,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.76,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "AbbVie Defends Its Turf, But Leaves One Big Question Open",
-        "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here\u2019s What Happens to Your Portfolio",
-        "Eli Lilly (LLY) Steps Up Legal Fight Over Illegal Retatrutide Sales"
+        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
+        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
+        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
       ],
       "high_impact_news": true
     },
@@ -899,7 +899,7 @@
       "atr_pct": 0.008649376353345287,
       "bollinger_pct_b": 0.6938,
       "volume_spike": false,
-      "volume_spike_ratio": 0.97,
+      "volume_spike_ratio": 1.02,
       "news_sentiment": 0.971,
       "news_confidence": 0.68,
       "news_headlines": [
@@ -920,7 +920,7 @@
       "atr_pct": 0.009357263987702744,
       "bollinger_pct_b": 0.7112,
       "volume_spike": false,
-      "volume_spike_ratio": 1.35,
+      "volume_spike_ratio": 1.36,
       "news_sentiment": 0.66,
       "news_confidence": 0.53,
       "news_headlines": [
@@ -962,7 +962,7 @@
       "atr_pct": 0.00580584541858147,
       "bollinger_pct_b": 0.1183,
       "volume_spike": false,
-      "volume_spike_ratio": 0.58,
+      "volume_spike_ratio": 0.92,
       "news_sentiment": 0.574,
       "news_confidence": 0.47,
       "news_headlines": [
@@ -994,6 +994,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.5006,
+      "price": 0.9921000003814697,
+      "rsi": 28.51404661138666,
+      "momentum_5d": -0.0066086133633527,
+      "momentum_1d": -0.01626175499955023,
+      "macd_crossover": false,
+      "atr_pct": 0.004463855503791637,
+      "bollinger_pct_b": -0.0127,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.44,
+      "news_sentiment": 0.756,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued?",
+        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price",
+        "XRP Price Falls Below $1 Again Despite Record Network Adoption"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.4981,
       "price": 17.485000610351562,
@@ -1011,27 +1032,6 @@
         "Uber Stock Looks Cheap. Here\u2019s Why.",
         "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
         "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "WFC",
-      "rank_score": 0.4978,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
-      "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.38,
-      "news_sentiment": 0.63,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
-        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
-        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
       ],
       "high_impact_news": true
     }
