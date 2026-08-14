@@ -3,15 +3,15 @@
   "portfolio_balance": 105289.2,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.42,
-  "unrealized_pnl_usd": 417.41,
-  "equity_value": 105706.61,
+  "unrealized_pnl_usd": 423.78,
+  "equity_value": 105712.98,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42115.68,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 990,
-  "last_tick": "2026-08-14T23:08:53.721653+00:00",
+  "last_tick": "2026-08-14T23:34:24.409903+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1879.9200439453125,
       "trailing_stop_price": 1873.866701,
-      "current_price": 1878.150024,
-      "unrealized_pnl_pct": 0.003854,
-      "unrealized_pnl_usd": 18.8
+      "current_price": 1878.579956,
+      "unrealized_pnl_pct": 0.004084,
+      "unrealized_pnl_usd": 19.92
     },
     {
       "id": "PYPL_20260814195445",
@@ -541,9 +541,9 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "current_price": 606.159973,
-      "unrealized_pnl_pct": -0.000726,
-      "unrealized_pnl_usd": -4.26
+      "current_price": 606.419983,
+      "unrealized_pnl_pct": -0.001156,
+      "unrealized_pnl_usd": -6.78
     },
     {
       "id": "AMD_20260814195445",
@@ -607,14 +607,35 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "price_peak": 75.0999984741211,
-      "trailing_stop_price": 74.762799,
-      "current_price": 75.110001,
-      "unrealized_pnl_pct": 0.001734,
-      "unrealized_pnl_usd": 8.4
+      "price_peak": 75.2300033569336,
+      "trailing_stop_price": 74.892221,
+      "current_price": 75.230003,
+      "unrealized_pnl_pct": 0.003334,
+      "unrealized_pnl_usd": 16.16
     }
   ],
   "last_candidates": [
+    {
+      "asset": "PYPL",
+      "rank_score": 0.8006,
+      "price": 61.65999984741211,
+      "rsi": 77.0660498370308,
+      "momentum_5d": 0.03007015066333417,
+      "momentum_1d": 0.04641494519751133,
+      "macd_crossover": false,
+      "atr_pct": 0.009774116662973668,
+      "bollinger_pct_b": 1.1294,
+      "volume_spike": true,
+      "volume_spike_ratio": 11.84,
+      "news_sentiment": 0.36,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
+        "PayPal (PYPL) Is In Acquisition Talks At $53 Billion",
+        "Talks to sell PayPal to Stripe and Advent are heating up"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "RIVN",
       "rank_score": 0.7219,
@@ -637,29 +658,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "PYPL",
-      "rank_score": 0.7186,
-      "price": 61.65999984741211,
-      "rsi": 77.0660498370308,
-      "momentum_5d": 0.03007015066333417,
-      "momentum_1d": 0.04641494519751133,
-      "macd_crossover": false,
-      "atr_pct": 0.009774116662973668,
-      "bollinger_pct_b": 1.1294,
-      "volume_spike": true,
-      "volume_spike_ratio": 11.84,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
-        "Talks to sell PayPal to Stripe and Advent are heating up",
-        "PayPal Stock Rises on Report of Stripe, Advent Buyout Talks"
-      ],
-      "high_impact_news": false
-    },
-    {
       "asset": "VRTX",
-      "rank_score": 0.6748,
+      "rank_score": 0.6668,
       "price": 505.54998779296875,
       "rsi": 12.29004175260782,
       "momentum_5d": -0.0025058591075658807,
@@ -668,7 +668,7 @@
       "atr_pct": 0.00799476313741735,
       "bollinger_pct_b": 0.1377,
       "volume_spike": true,
-      "volume_spike_ratio": 2.29,
+      "volume_spike_ratio": 2.12,
       "news_sentiment": 0.069,
       "news_confidence": 0.58,
       "news_headlines": [
@@ -689,55 +689,13 @@
       "atr_pct": 0.014685470585146144,
       "bollinger_pct_b": 1.0305,
       "volume_spike": false,
-      "volume_spike_ratio": 1.21,
+      "volume_spike_ratio": 0.71,
       "news_sentiment": 0.371,
       "news_confidence": 0.35,
       "news_headlines": [
         "Why Cloudflare and these 3 AI sub-sectors are 'the place to be' for tech investors",
         "Intel\u2019s stock buybacks: History & investor impact explained",
         "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.6186,
-      "price": 393.04998779296875,
-      "rsi": 25.29331394414524,
-      "momentum_5d": -0.0021326431852264835,
-      "momentum_1d": -0.06013874624568853,
-      "macd_crossover": false,
-      "atr_pct": 0.013526918171848217,
-      "bollinger_pct_b": 0.1662,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.05,
-      "news_sentiment": 0.213,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-        "Wall Street ends lower as investors weigh data, Middle East tensions",
-        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LLY",
-      "rank_score": 0.6104,
-      "price": 1180.6300048828125,
-      "rsi": 19.33134119400401,
-      "momentum_5d": -0.0033428958979555266,
-      "momentum_1d": -0.03351420156546836,
-      "macd_crossover": false,
-      "atr_pct": 0.00938038106883238,
-      "bollinger_pct_b": 0.1405,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.713,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "GLP-1 Demand Is Soaring. 2 Stocks That Could Benefit From This (Hint: Not Eli Lilly or Novo Nordisk)",
-        "AbbVie Defends Its Turf, But Leaves One Big Question Open",
-        "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here\u2019s What Happens to Your Portfolio"
       ],
       "high_impact_news": true
     },
@@ -784,6 +742,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVGO",
+      "rank_score": 0.5866,
+      "price": 393.04998779296875,
+      "rsi": 25.29331394414524,
+      "momentum_5d": -0.0021326431852264835,
+      "momentum_1d": -0.06013874624568853,
+      "macd_crossover": false,
+      "atr_pct": 0.013526918171848217,
+      "bollinger_pct_b": 0.1662,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.61,
+      "news_sentiment": 0.472,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+        "Wall Street ends lower as investors weigh data, Middle East tensions",
+        "AI Infrastructure Stocks: Billions of Reasons to Stay Bullish"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HAL",
       "rank_score": 0.5853,
       "price": 34.415000915527344,
@@ -826,23 +805,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "WFC",
-      "rank_score": 0.5526,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
-      "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.56,
-      "news_sentiment": 0.63,
-      "news_confidence": 0.54,
+      "asset": "LLY",
+      "rank_score": 0.5564,
+      "price": 1180.6300048828125,
+      "rsi": 19.33134119400401,
+      "momentum_5d": -0.0033428958979555266,
+      "momentum_1d": -0.03351420156546836,
+      "macd_crossover": false,
+      "atr_pct": 0.00938038106883238,
+      "bollinger_pct_b": 0.1405,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.713,
+      "news_confidence": 0.58,
       "news_headlines": [
-        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
-        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
-        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
+        "GLP-1 Demand Is Soaring. 2 Stocks That Could Benefit From This (Hint: Not Eli Lilly or Novo Nordisk)",
+        "AbbVie Defends Its Turf, But Leaves One Big Question Open",
+        "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here\u2019s What Happens to Your Portfolio"
       ],
       "high_impact_news": true
     },
@@ -899,7 +878,7 @@
       "atr_pct": 0.008649376353345287,
       "bollinger_pct_b": 0.6938,
       "volume_spike": false,
-      "volume_spike_ratio": 1.02,
+      "volume_spike_ratio": 0.97,
       "news_sentiment": 0.971,
       "news_confidence": 0.68,
       "news_headlines": [
@@ -920,7 +899,7 @@
       "atr_pct": 0.009357263987702744,
       "bollinger_pct_b": 0.7112,
       "volume_spike": false,
-      "volume_spike_ratio": 1.36,
+      "volume_spike_ratio": 1.35,
       "news_sentiment": 0.66,
       "news_confidence": 0.53,
       "news_headlines": [
@@ -952,27 +931,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMZN",
-      "rank_score": 0.5088,
-      "price": 262.6600036621094,
-      "rsi": 20.8647400081839,
-      "momentum_5d": -0.0038682836847847043,
-      "momentum_1d": -0.03447980711231279,
-      "macd_crossover": false,
-      "atr_pct": 0.00580584541858147,
-      "bollinger_pct_b": 0.1183,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.574,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Amazon.com vs. StubHub: Which Consumer Stock Is a Better Buy in 2026?",
-        "Home Depot Paid Shareholders $68 Billion. The Stock Still Lagged.",
-        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "RXRX",
       "rank_score": 0.5083,
       "price": 3.1649999618530273,
@@ -994,23 +952,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5006,
-      "price": 0.9921000003814697,
-      "rsi": 28.51404661138666,
-      "momentum_5d": -0.0066086133633527,
-      "momentum_1d": -0.01626175499955023,
+      "asset": "AMZN",
+      "rank_score": 0.5019,
+      "price": 262.6600036621094,
+      "rsi": 20.8647400081839,
+      "momentum_5d": -0.0038682836847847043,
+      "momentum_1d": -0.03447980711231279,
       "macd_crossover": false,
-      "atr_pct": 0.004463855503791637,
-      "bollinger_pct_b": -0.0127,
+      "atr_pct": 0.00580584541858147,
+      "bollinger_pct_b": 0.1183,
       "volume_spike": false,
-      "volume_spike_ratio": 0.44,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.41,
+      "volume_spike_ratio": 0.58,
+      "news_sentiment": 0.476,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued?",
-        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price",
-        "XRP Price Falls Below $1 Again Despite Record Network Adoption"
+        "Amazon reinstates binding arbitration, bars class-action lawsuits",
+        "Amazon.com vs. StubHub: Which Consumer Stock Is a Better Buy in 2026?",
+        "AI Infrastructure Stocks: Billions of Reasons to Stay Bullish"
       ],
       "high_impact_news": true
     },
@@ -1032,6 +990,48 @@
         "Uber Stock Looks Cheap. Here\u2019s Why.",
         "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
         "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "WFC",
+      "rank_score": 0.4978,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
+      "macd_crossover": true,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.38,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
+        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
+        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SMCI",
+      "rank_score": 0.4966,
+      "price": 39.84000015258789,
+      "rsi": 60.82475533786883,
+      "momentum_5d": 0.016972560637467177,
+      "momentum_1d": 0.2657664708415028,
+      "macd_crossover": false,
+      "atr_pct": 0.029849034806226225,
+      "bollinger_pct_b": 0.6132,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.34,
+      "news_sentiment": 0.938,
+      "news_confidence": 0.64,
+      "news_headlines": [
+        "Applied Digital (APLD) Stock Trades Up, Here Is Why",
+        "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
+        "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know"
       ],
       "high_impact_news": true
     }
