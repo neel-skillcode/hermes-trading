@@ -3,15 +3,15 @@
   "portfolio_balance": 105289.2,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.42,
-  "unrealized_pnl_usd": 416.99,
-  "equity_value": 105706.19,
+  "unrealized_pnl_usd": 397.75,
+  "equity_value": 105686.95,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42115.68,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 990,
-  "last_tick": "2026-08-14T21:58:55.995837+00:00",
+  "last_tick": "2026-08-14T22:28:16.386118+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1879.9200439453125,
       "trailing_stop_price": 1873.866701,
-      "current_price": 1877.640015,
-      "unrealized_pnl_pct": 0.003581,
-      "unrealized_pnl_usd": 17.47
+      "current_price": 1875.01001,
+      "unrealized_pnl_pct": 0.002175,
+      "unrealized_pnl_usd": 10.61
     },
     {
       "id": "PYPL_20260814195445",
@@ -541,9 +541,9 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "current_price": 606.200012,
-      "unrealized_pnl_pct": -0.000793,
-      "unrealized_pnl_usd": -4.65
+      "current_price": 606.210022,
+      "unrealized_pnl_pct": -0.000809,
+      "unrealized_pnl_usd": -4.74
     },
     {
       "id": "AMD_20260814195445",
@@ -607,17 +607,15 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "price_peak": 75.12999725341797,
-      "trailing_stop_price": 74.792664,
-      "current_price": 75.129997,
-      "unrealized_pnl_pct": 0.002,
-      "unrealized_pnl_usd": 9.7
+      "current_price": 74.940002,
+      "unrealized_pnl_pct": -0.000533,
+      "unrealized_pnl_usd": -2.59
     }
   ],
   "last_candidates": [
     {
       "asset": "PYPL",
-      "rank_score": 0.8236,
+      "rank_score": 0.7296,
       "price": 61.65999984741211,
       "rsi": 77.0660498370308,
       "momentum_5d": 0.03007015066333417,
@@ -627,14 +625,14 @@
       "bollinger_pct_b": 1.1294,
       "volume_spike": true,
       "volume_spike_ratio": 11.84,
-      "news_sentiment": 0.745,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.551,
+      "news_confidence": 0.49,
       "news_headlines": [
         "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
-        "The Engine Behind XYZ Stock Has Real Parts",
-        "Stripe and Advent bid $60.50 a share for PayPal as talks advance, WSJ reports"
+        "PayPal Stock Rises on Report of Stripe, Advent Buyout Talks",
+        "The Engine Behind XYZ Stock Has Real Parts"
       ],
-      "high_impact_news": true
+      "high_impact_news": false
     },
     {
       "asset": "RIVN",
@@ -658,8 +656,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.7149,
+      "price": 0.9889000058174133,
+      "rsi": 22.295180640483707,
+      "momentum_5d": -0.01109999418258667,
+      "momentum_1d": -0.019143069467607934,
+      "macd_crossover": false,
+      "atr_pct": 0.004781653290401021,
+      "bollinger_pct_b": -0.2015,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.69,
+      "news_sentiment": 0.756,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued?",
+        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price",
+        "XRP Price Falls Below $1 Again Despite Record Network Adoption"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "VRTX",
-      "rank_score": 0.6628,
+      "rank_score": 0.6699,
       "price": 505.54998779296875,
       "rsi": 12.29004175260782,
       "momentum_5d": -0.0025058591075658807,
@@ -669,12 +688,12 @@
       "bollinger_pct_b": 0.1377,
       "volume_spike": true,
       "volume_spike_ratio": 2.12,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.115,
+      "news_confidence": 0.61,
       "news_headlines": [
+        "Is Vertex Pharmaceuticals (VRTX) Fairly Valued As Pipeline Catalysts Near?",
         "Vertex Pharmaceuticals Just Hit an All-Time High. Here's Why the Biotech Stock Could Soar Even More",
-        "Vertex Pharmaceuticals (VRTX) Could Be 8% Undervalued Following Raised 2026 Guidance",
-        "BofA biotech scorecard: Two buys and odd one out"
+        "Vertex Pharmaceuticals (VRTX) Could Be 8% Undervalued Following Raised 2026 Guidance"
       ],
       "high_impact_news": true
     },
@@ -694,35 +713,14 @@
       "news_confidence": 0.38,
       "news_headlines": [
         "Why Cloudflare and these 3 AI sub-sectors are 'the place to be' for tech investors",
-        "QCOM: A Cash Gusher At A Marked-Down Price",
-        "Kulicke and Soffa, AMD, Intel, and Nvidia Shares Are Soaring, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.6196,
-      "price": 393.04998779296875,
-      "rsi": 25.29331394414524,
-      "momentum_5d": -0.0021326431852264835,
-      "momentum_1d": -0.06013874624568853,
-      "macd_crossover": false,
-      "atr_pct": 0.013526918171848217,
-      "bollinger_pct_b": 0.1662,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.05,
-      "news_sentiment": 0.238,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%",
-        "Broadcom (AVGO) Faces A $370 Billion AI Financing Risk Question"
+        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+        "QCOM: A Cash Gusher At A Marked-Down Price"
       ],
       "high_impact_news": true
     },
     {
       "asset": "HD",
-      "rank_score": 0.6019,
+      "rank_score": 0.5969,
       "price": 338.79998779296875,
       "rsi": 32.38943301118411,
       "momentum_5d": 0.0015223380442065317,
@@ -732,11 +730,11 @@
       "bollinger_pct_b": 0.2164,
       "volume_spike": true,
       "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.725,
-      "news_confidence": 0.77,
+      "news_sentiment": 0.687,
+      "news_confidence": 0.74,
       "news_headlines": [
+        "Home Depot Paid Shareholders $68 Billion. The Stock Still Lagged.",
         "S&P 500 Ekes Out Weekly Gain Amid Growing Probability of Fed Pause Extension",
-        "S&P 500 Pulls Back from High as Market's Fear Gauge Keeps Its Cool",
         "Q2 Earnings Season Enters Final Stretch: Walmart Headlines Upcoming Retail Earnings"
       ],
       "high_impact_news": true
@@ -805,6 +803,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVGO",
+      "rank_score": 0.5706,
+      "price": 393.04998779296875,
+      "rsi": 25.29331394414524,
+      "momentum_5d": -0.0021326431852264835,
+      "momentum_1d": -0.06013874624568853,
+      "macd_crossover": false,
+      "atr_pct": 0.013526918171848217,
+      "bollinger_pct_b": 0.1662,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.61,
+      "news_sentiment": 0.145,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LLY",
       "rank_score": 0.5614,
       "price": 1180.6300048828125,
@@ -868,27 +887,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMAT",
-      "rank_score": 0.5283,
-      "price": 507.1099853515625,
-      "rsi": 24.015063286082594,
-      "momentum_5d": 0.0015602346656585755,
-      "momentum_1d": -0.03328444579155058,
-      "macd_crossover": false,
-      "atr_pct": 0.01867019243482957,
-      "bollinger_pct_b": 0.1728,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.09,
-      "news_sentiment": 0.622,
-      "news_confidence": 0.67,
-      "news_headlines": [
-        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%",
-        "Stock Market Today: Nasdaq Slips On Retail Sales Gloom; Nvidia Eyes Robotics Wave",
-        "Update: S&P Logs Third Consecutive Weekly Gain Despite Pullback From Record High"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MPC",
       "rank_score": 0.5264,
       "price": 355.4100036621094,
@@ -931,29 +929,29 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5176,
-      "price": 0.9973999857902527,
-      "rsi": 37.190125390691385,
-      "momentum_5d": -0.003994415948284072,
-      "momentum_1d": -0.010024879539462888,
+      "asset": "AMAT",
+      "rank_score": 0.5213,
+      "price": 507.1099853515625,
+      "rsi": 24.015063286082594,
+      "momentum_5d": 0.0015602346656585755,
+      "momentum_1d": -0.03328444579155058,
       "macd_crossover": false,
-      "atr_pct": 0.004239606440986359,
-      "bollinger_pct_b": 0.1496,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.64,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.41,
+      "atr_pct": 0.01867019243482957,
+      "bollinger_pct_b": 0.1728,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.09,
+      "news_sentiment": 0.559,
+      "news_confidence": 0.62,
       "news_headlines": [
-        "Ripple Is Valued at $50 Billion While XRP Trades at $1: Is XRP Undervalued?",
-        "XRP Price to $11 or $398? Bulls Eye Bullish Signals That Could \u2018Pump\u2019 Price",
-        "XRP Price Falls Below $1 Again Despite Record Network Adoption"
+        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%",
+        "Stock Market Today: Nasdaq Slips On Retail Sales Gloom; Nvidia Eyes Robotics Wave",
+        "Update: S&P Logs Third Consecutive Weekly Gain Despite Pullback From Record High"
       ],
       "high_impact_news": true
     },
     {
       "asset": "AMZN",
-      "rank_score": 0.5159,
+      "rank_score": 0.5109,
       "price": 262.6600036621094,
       "rsi": 20.8647400081839,
       "momentum_5d": -0.0038682836847847043,
@@ -963,12 +961,12 @@
       "bollinger_pct_b": 0.1183,
       "volume_spike": false,
       "volume_spike_ratio": 0.58,
-      "news_sentiment": 0.654,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.592,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Rocket Lab, Amazon Win Space Force Contracts. SpaceX Closes Cursor Deal.",
-        "Amazon.com vs. Comcast: Which Stock Is a Better Buy in 2026?",
-        "The Best House On The Block Costs The Most: PLTR"
+        "Home Depot Paid Shareholders $68 Billion. The Stock Still Lagged.",
+        "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows",
+        "Rocket Lab, Amazon Win Space Force Contracts. SpaceX Closes Cursor Deal."
       ],
       "high_impact_news": true
     },
@@ -1015,23 +1013,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.4964,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
+      "asset": "WFC",
+      "rank_score": 0.4978,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
+      "macd_crossover": true,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.07,
-      "news_confidence": 0.38,
+      "volume_spike_ratio": 1.38,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "ADBE Stock: Collect 12% While Setting A 30%-Off Buy Price",
-        "Oracle Stock Drops While $40 Billion Funding Need Looms",
-        "Oracle junk bond fears, debt surge sound alarms for investors"
+        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
+        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
+        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
       ],
       "high_impact_news": true
     }
