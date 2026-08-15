@@ -3,15 +3,15 @@
   "portfolio_balance": 105268.58,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 515.8,
-  "equity_value": 105784.38,
+  "unrealized_pnl_usd": 521.8,
+  "equity_value": 105790.38,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42107.43,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 991,
-  "last_tick": "2026-08-15T04:49:08.777816+00:00",
+  "last_tick": "2026-08-15T05:11:36.771385+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1883.25,
       "trailing_stop_price": 1877.185935,
-      "current_price": 1883.170044,
-      "unrealized_pnl_pct": 0.006537,
-      "unrealized_pnl_usd": 31.89
+      "current_price": 1882.910034,
+      "unrealized_pnl_pct": 0.006398,
+      "unrealized_pnl_usd": 31.21
     },
     {
       "id": "PYPL_20260814195445",
@@ -575,9 +575,9 @@
       "status": "open",
       "price_peak": 75.5999984741211,
       "trailing_stop_price": 75.260554,
-      "current_price": 75.510002,
-      "unrealized_pnl_pct": 0.007069,
-      "unrealized_pnl_usd": 34.26
+      "current_price": 75.440002,
+      "unrealized_pnl_pct": 0.006135,
+      "unrealized_pnl_usd": 29.74
     },
     {
       "id": "AVAX-USD_20260815030028",
@@ -608,35 +608,14 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 6.7270002365112305,
-      "trailing_stop_price": 6.789763,
-      "current_price": 6.727,
-      "unrealized_pnl_pct": 0.009424,
-      "unrealized_pnl_usd": 55.17
+      "price_trough": 6.714000225067139,
+      "trailing_stop_price": 6.776642,
+      "current_price": 6.714,
+      "unrealized_pnl_pct": 0.011338,
+      "unrealized_pnl_usd": 66.38
     }
   ],
   "last_candidates": [
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.8017,
-      "price": 6.7270002365112305,
-      "rsi": 82.89473920081457,
-      "momentum_5d": 0.039721863161291907,
-      "momentum_1d": 0.04667810620789002,
-      "macd_crossover": false,
-      "atr_pct": 0.010671282880360832,
-      "bollinger_pct_b": 1.0277,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.47,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "PYPL",
       "rank_score": 0.8006,
@@ -697,6 +676,27 @@
         "Can AbCellera Biologics (ABCL)\u2019s Vertex Pharmaceuticals Incorporated (VRTX) Deal Turn its TCE Platform Into a Breakthrough?",
         "Is Vertex Pharmaceuticals (VRTX) Fairly Valued As Pipeline Catalysts Near?",
         "Vertex Pharmaceuticals Just Hit an All-Time High. Here's Why the Biotech Stock Could Soar Even More"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6302,
+      "price": 6.714000225067139,
+      "rsi": 78.81872619456891,
+      "momentum_5d": 0.03387746665389031,
+      "momentum_1d": 0.045468747563653156,
+      "macd_crossover": false,
+      "atr_pct": 0.010181286687774946,
+      "bollinger_pct_b": 0.9393,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.18,
+      "news_sentiment": 0.15,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
       ],
       "high_impact_news": true
     },
@@ -802,27 +802,6 @@
         "Home Depot Paid Shareholders $68 Billion. The Stock Still Lagged.",
         "S&P 500 Ekes Out Weekly Gain Amid Growing Probability of Fed Pause Extension",
         "Q2 Earnings Season Enters Final Stretch: Walmart Headlines Upcoming Retail Earnings"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.5957,
-      "price": 610.5499877929688,
-      "rsi": 85.49276320449555,
-      "momentum_5d": 0.005086698232878261,
-      "momentum_1d": 0.00044235184363607415,
-      "macd_crossover": false,
-      "atr_pct": 0.0023491791390047667,
-      "bollinger_pct_b": 1.092,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.48,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
       ],
       "high_impact_news": true
     },
@@ -1033,6 +1012,27 @@
         "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
         "Pershing Square Holdings Ltd (LSE:PSH) (Q2 2026) Earnings Call Highlights: Strategic Leverage ...",
         "Applied Optoelectronics (AAOI) Could Be 93% Overvalued As Amazon Deal Lifts Revenue Hopes"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.4981,
+      "price": 150.33999633789062,
+      "rsi": 42.74433219206454,
+      "momentum_5d": -0.02058634307563111,
+      "momentum_1d": 0.03784173356026913,
+      "macd_crossover": false,
+      "atr_pct": 0.015639360212492688,
+      "bollinger_pct_b": 0.1766,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": -0.101,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
+        "Why Oracle Stock Got Trounced Today",
+        "ORCL Stock Drops After 6-Month Delay To Gas Pipeline Project Supporting New Mexico AI Data Center"
       ],
       "high_impact_news": true
     }
