@@ -446,38 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260815095343",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 611.280029296875,
-    "entry_time": "2026-08-15T09:53:43.217357+00:00",
-    "stop_loss_pct": 0.00214,
-    "take_profit_pct": 0.00514,
-    "size_usd": 5438.22,
-    "position_size_pct": 0.0516,
-    "confidence": 0.806,
-    "signals": [
-      "RSI overbought (76.5)",
-      "1d momentum +0.73%",
-      "BB overbought (pct_b=0.88)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.2,
-    "news_headlines": [
-      "Why is Ethereum Price Stuck Below $2,000?",
-      "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-      "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
-    ],
-    "mode": "paper",
-    "strategy_version": "88",
-    "status": "open",
-    "price_trough": 609.6599731445312,
-    "trailing_stop_price": 610.964645
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260815115341",
     "asset": "AVAX-USD",
@@ -536,6 +504,8 @@
     ],
     "mode": "paper",
     "strategy_version": "88",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1882.6600341796875,
+    "trailing_stop_price": 1878.894714
   }
 }
