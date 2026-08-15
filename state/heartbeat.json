@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105337.85,
+  "portfolio_balance": 105271.71,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.37,
-  "unrealized_pnl_usd": 386.48,
-  "equity_value": 105724.33,
+  "portfolio_drawdown_pct": 2.43,
+  "unrealized_pnl_usd": 401.01,
+  "equity_value": 105672.72,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42135.14,
+  "day_capital_used_usd": 42108.69,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 999,
-  "last_tick": "2026-08-15T22:30:47.867416+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 1000,
+  "last_tick": "2026-08-15T22:50:54.214920+00:00",
+  "last_reflection": "2026-08-15",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -537,43 +537,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_peak": 1883.219970703125,
-      "trailing_stop_price": 1879.453531,
-      "current_price": 1883.050049,
-      "unrealized_pnl_pct": 0.001005,
-      "unrealized_pnl_usd": 3.82
-    },
-    {
-      "id": "AVAX-USD_20260815162850",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 6.499000072479248,
-      "entry_time": "2026-08-15T16:28:50.398820+00:00",
-      "stop_loss_pct": 0.00666,
-      "take_profit_pct": 0.01546,
-      "size_usd": 4341.6,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
-      "signals": [
-        "RSI oversold (11.9)",
-        "5d momentum -1.02%",
-        "1d momentum +0.96%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.263,
-      "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-      ],
-      "mode": "paper",
-      "strategy_version": "88",
-      "status": "open",
-      "current_price": 6.475,
-      "unrealized_pnl_pct": -0.003693,
-      "unrealized_pnl_usd": -16.03
+      "price_peak": 1883.22998046875,
+      "trailing_stop_price": 1879.463521,
+      "current_price": 1883.219971,
+      "unrealized_pnl_pct": 0.001095,
+      "unrealized_pnl_usd": 4.17
     },
     {
       "id": "SOL-USD_20260815175219",
@@ -605,9 +573,9 @@
       "status": "open",
       "price_trough": 75.5,
       "trailing_stop_price": 75.66912,
-      "current_price": 75.540001,
-      "unrealized_pnl_pct": 0.000132,
-      "unrealized_pnl_usd": 0.62
+      "current_price": 75.57,
+      "unrealized_pnl_pct": -0.000265,
+      "unrealized_pnl_usd": -1.23
     },
     {
       "id": "DOGE-USD_20260815184538",
@@ -638,11 +606,44 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_peak": 0.06983999907970428,
-      "trailing_stop_price": 0.069675,
+      "price_peak": 0.06984999775886536,
+      "trailing_stop_price": 0.069685,
       "current_price": 0.06984,
       "unrealized_pnl_pct": 0.00129,
       "unrealized_pnl_usd": 3.61
+    },
+    {
+      "id": "BTC-USD_20260815225053",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 63097.94140625,
+      "entry_time": "2026-08-15T22:50:53.550095+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00481,
+      "size_usd": 4315.15,
+      "position_size_pct": 0.041,
+      "confidence": 0.806,
+      "signals": [
+        "RSI overbought (77.2)",
+        "1d momentum +0.45%",
+        "BB overbought (pct_b=0.96)",
+        "Volume spike 3.2\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: price surge"
+      ],
+      "news_sentiment": -0.243,
+      "news_headlines": [
+        "Could Bitcoin Ever Break the 21 Million Cap? Adam Back Says It\u2019s a Trap",
+        "Is Bitcoin a Buy at $63,000? We Asked 3 AI Models",
+        "Jim Cramer Is Selling His Bitcoin, Citing the Quantum Threat. Here's Why He's Wrong."
+      ],
+      "mode": "paper",
+      "strategy_version": "88",
+      "status": "open",
+      "current_price": 63097.941406,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -1004,6 +1005,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5016,
+      "price": 63097.94140625,
+      "rsi": 77.17251166371403,
+      "momentum_5d": 0.0015492227937510506,
+      "momentum_1d": 0.004511856581752331,
+      "macd_crossover": false,
+      "atr_pct": 0.0011544552544274394,
+      "bollinger_pct_b": 0.9612,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.23,
+      "news_sentiment": -0.243,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Could Bitcoin Ever Break the 21 Million Cap? Adam Back Says It\u2019s a Trap",
+        "Is Bitcoin a Buy at $63,000? We Asked 3 AI Models",
+        "Jim Cramer Is Selling His Bitcoin, Citing the Quantum Threat. Here's Why He's Wrong."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ORCL",
       "rank_score": 0.4995,
       "price": 150.33999633789062,
@@ -1042,27 +1064,6 @@
         "Uber Stock Looks Cheap. Here\u2019s Why.",
         "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
         "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MA",
-      "rank_score": 0.4957,
-      "price": 569.260009765625,
-      "rsi": 76.53007721068269,
-      "momentum_5d": 0.0035611373775240327,
-      "momentum_1d": 0.008155387324689655,
-      "macd_crossover": false,
-      "atr_pct": 0.005388858830291199,
-      "bollinger_pct_b": 0.8234,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.522,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs",
-        "Mastercard vs. Visa: One Fintech Giant Has the Stronger Growth Story",
-        "Breakfast News: Mastercard's CEO Speaks"
       ],
       "high_impact_news": true
     }

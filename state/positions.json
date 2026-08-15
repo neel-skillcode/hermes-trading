@@ -474,37 +474,8 @@
     "mode": "paper",
     "strategy_version": "88",
     "status": "open",
-    "price_peak": 1883.219970703125,
-    "trailing_stop_price": 1879.453531
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260815162850",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.499000072479248,
-    "entry_time": "2026-08-15T16:28:50.398820+00:00",
-    "stop_loss_pct": 0.00666,
-    "take_profit_pct": 0.01546,
-    "size_usd": 4341.6,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (11.9)",
-      "5d momentum -1.02%",
-      "1d momentum +0.96%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-    ],
-    "mode": "paper",
-    "strategy_version": "88",
-    "status": "open"
+    "price_peak": 1883.22998046875,
+    "trailing_stop_price": 1879.463521
   },
   "SOL-USD": {
     "id": "SOL-USD_20260815175219",
@@ -562,6 +533,38 @@
       "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
       "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
       "Billionaire buys rare art with Dogecoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "88",
+    "status": "open",
+    "price_peak": 0.06984999775886536,
+    "trailing_stop_price": 0.069685
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260815225053",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 63097.94140625,
+    "entry_time": "2026-08-15T22:50:53.550095+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00481,
+    "size_usd": 4315.15,
+    "position_size_pct": 0.041,
+    "confidence": 0.806,
+    "signals": [
+      "RSI overbought (77.2)",
+      "1d momentum +0.45%",
+      "BB overbought (pct_b=0.96)",
+      "Volume spike 3.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": -0.243,
+    "news_headlines": [
+      "Could Bitcoin Ever Break the 21 Million Cap? Adam Back Says It\u2019s a Trap",
+      "Is Bitcoin a Buy at $63,000? We Asked 3 AI Models",
+      "Jim Cramer Is Selling His Bitcoin, Citing the Quantum Threat. Here's Why He's Wrong."
     ],
     "mode": "paper",
     "strategy_version": "88",
