@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105271.71,
+  "portfolio_balance": 105261.28,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.43,
-  "unrealized_pnl_usd": 405.72,
-  "equity_value": 105677.43,
+  "portfolio_drawdown_pct": 2.44,
+  "unrealized_pnl_usd": 414.91,
+  "equity_value": 105676.19,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42108.69,
+  "day_capital_used_usd": 42104.51,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1000,
-  "last_tick": "2026-08-15T23:04:57.557180+00:00",
+  "total_trades": 1001,
+  "last_tick": "2026-08-15T23:30:10.279810+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -539,9 +539,9 @@
       "status": "open",
       "price_peak": 1883.22998046875,
       "trailing_stop_price": 1879.463521,
-      "current_price": 1882.609985,
-      "unrealized_pnl_pct": 0.000771,
-      "unrealized_pnl_usd": 2.93
+      "current_price": 1881.329956,
+      "unrealized_pnl_pct": 9e-05,
+      "unrealized_pnl_usd": 0.34
     },
     {
       "id": "SOL-USD_20260815175219",
@@ -571,46 +571,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 75.47000122070312,
-      "trailing_stop_price": 75.639054,
-      "current_price": 75.480003,
-      "unrealized_pnl_pct": 0.000927,
-      "unrealized_pnl_usd": 4.32
-    },
-    {
-      "id": "DOGE-USD_20260815184538",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.06975000351667404,
-      "entry_time": "2026-08-15T18:45:38.815761+00:00",
-      "stop_loss_pct": 0.00236,
-      "take_profit_pct": 0.00576,
-      "size_usd": 2797.4,
-      "position_size_pct": 0.0266,
-      "confidence": 0.877,
-      "signals": [
-        "RSI oversold (24.5)",
-        "5d momentum -0.39%",
-        "BB oversold (pct_b=-0.03)",
-        "Volume spike 3.2\u00d7",
-        "High-impact catalyst",
-        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.081,
-      "news_headlines": [
-        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
-        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
-        "Billionaire buys rare art with Dogecoin"
-      ],
-      "mode": "paper",
-      "strategy_version": "88",
-      "status": "open",
-      "price_peak": 0.06984999775886536,
-      "trailing_stop_price": 0.069685,
-      "current_price": 0.06979,
-      "unrealized_pnl_pct": 0.000573,
-      "unrealized_pnl_usd": 1.6
+      "price_trough": 75.29000091552734,
+      "trailing_stop_price": 75.458651,
+      "current_price": 75.290001,
+      "unrealized_pnl_pct": 0.003441,
+      "unrealized_pnl_usd": 16.06
     },
     {
       "id": "BTC-USD_20260815225053",
@@ -641,11 +606,45 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 63062.96875,
-      "trailing_stop_price": 63189.094688,
-      "current_price": 63062.96875,
-      "unrealized_pnl_pct": 0.000554,
-      "unrealized_pnl_usd": 2.39
+      "price_trough": 63038.8515625,
+      "trailing_stop_price": 63164.929266,
+      "current_price": 63038.859375,
+      "unrealized_pnl_pct": 0.000936,
+      "unrealized_pnl_usd": 4.04
+    },
+    {
+      "id": "AVAX-USD_20260815233010",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 6.328999996185303,
+      "entry_time": "2026-08-15T23:30:10.275278+00:00",
+      "stop_loss_pct": 0.00599,
+      "take_profit_pct": 0.01481,
+      "size_usd": 2793.22,
+      "position_size_pct": 0.0265,
+      "confidence": 0.95,
+      "signals": [
+        "RSI oversold (10.8)",
+        "5d momentum -2.47%",
+        "1d momentum -2.18%",
+        "BB oversold (pct_b=-0.09)",
+        "Volume spike 2.9\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.263,
+      "news_headlines": [
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+      ],
+      "mode": "paper",
+      "strategy_version": "89",
+      "status": "open",
+      "current_price": 6.329,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -667,6 +666,27 @@
         "Breaking: PayPal Is \u201cIn Talks to Sell Itself\u201d After Rejecting Stripe\u2019s Initial $60.50 Bid in July",
         "PayPal (PYPL) Is In Acquisition Talks At $53 Billion",
         "Talks to sell PayPal to Stripe and Advent are heating up"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.7429,
+      "price": 6.328999996185303,
+      "rsi": 10.80254135889409,
+      "momentum_5d": -0.024657089115201408,
+      "momentum_1d": -0.021792859131170243,
+      "macd_crossover": false,
+      "atr_pct": 0.005891257815012088,
+      "bollinger_pct_b": -0.0945,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.85,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
       ],
       "high_impact_news": true
     },
@@ -755,23 +775,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6121,
-      "price": 6.335999965667725,
-      "rsi": 11.041081590074597,
-      "momentum_5d": -0.023578345140607443,
-      "momentum_1d": -0.020862343505343252,
+      "asset": "DOGE-USD",
+      "rank_score": 0.6151,
+      "price": 0.06949000060558319,
+      "rsi": 24.770328648766878,
+      "momentum_5d": -0.0031559423268854264,
+      "momentum_1d": -0.0072857098609817456,
       "macd_crossover": false,
-      "atr_pct": 0.005693103702782684,
-      "bollinger_pct_b": -0.0815,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
+      "atr_pct": 0.00243611605462789,
+      "bollinger_pct_b": -0.2121,
+      "volume_spike": true,
+      "volume_spike_ratio": 11.43,
+      "news_sentiment": 0.081,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+        "Billionaire buys rare art with Dogecoin"
       ],
       "high_impact_news": true
     },
@@ -882,14 +902,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5526,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
+      "rank_score": 0.5538,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
       "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
@@ -1045,27 +1065,6 @@
         "Nvidia Is Looking to Own Another Layer of the AI Ecosystem",
         "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?",
         "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LYFT",
-      "rank_score": 0.4981,
-      "price": 17.485000610351562,
-      "rsi": 93.20375764556432,
-      "momentum_5d": 0.009818080915421567,
-      "momentum_1d": -0.011308954573392913,
-      "macd_crossover": false,
-      "atr_pct": 0.010314548964074183,
-      "bollinger_pct_b": 0.867,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.933,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Uber Stock Looks Cheap. Here\u2019s Why.",
-        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
-        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
