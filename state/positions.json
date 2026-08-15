@@ -446,37 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260815115341",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.565000057220459,
-    "entry_time": "2026-08-15T11:53:41.134838+00:00",
-    "stop_loss_pct": 0.00942,
-    "take_profit_pct": 0.02187,
-    "size_usd": 4343.43,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (64.2)",
-      "5d momentum -1.25%",
-      "1d momentum +3.32%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.15,
-    "news_headlines": [
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
-    ],
-    "mode": "paper",
-    "strategy_version": "88",
-    "status": "open",
-    "price_peak": 6.565999984741211,
-    "trailing_stop_price": 6.504148
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260815133727",
     "asset": "ETH-USD",
@@ -505,7 +474,36 @@
     "mode": "paper",
     "strategy_version": "88",
     "status": "open",
-    "price_peak": 1882.6600341796875,
-    "trailing_stop_price": 1878.894714
+    "price_peak": 1883.219970703125,
+    "trailing_stop_price": 1879.453531
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260815162850",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.499000072479248,
+    "entry_time": "2026-08-15T16:28:50.398820+00:00",
+    "stop_loss_pct": 0.00666,
+    "take_profit_pct": 0.01546,
+    "size_usd": 4341.6,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (11.9)",
+      "5d momentum -1.02%",
+      "1d momentum +0.96%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.263,
+    "news_headlines": [
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+    ],
+    "mode": "paper",
+    "strategy_version": "88",
+    "status": "open"
   }
 }
