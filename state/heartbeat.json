@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105425.9,
+  "portfolio_balance": 105424.64,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.29,
-  "unrealized_pnl_usd": 364.65,
-  "equity_value": 105790.55,
+  "unrealized_pnl_usd": 368.25,
+  "equity_value": 105792.89,
   "open_positions": 17,
   "day_trades_open": 7,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 35142.81,
+  "day_capital_used_usd": 36310.48,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 995,
-  "last_tick": "2026-08-15T09:33:19.151689+00:00",
+  "total_trades": 996,
+  "last_tick": "2026-08-15T09:53:43.220865+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 6,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -537,26 +537,27 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 6.578,
-      "unrealized_pnl_pct": -0.007843,
-      "unrealized_pnl_usd": -34.08
+      "current_price": 6.59,
+      "unrealized_pnl_pct": -0.006033,
+      "unrealized_pnl_usd": -26.22
     },
     {
-      "id": "BNB-USD_20260815080231",
+      "id": "BNB-USD_20260815095343",
       "asset": "BNB-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 611.0999755859375,
-      "entry_time": "2026-08-15T08:02:31.689552+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00463,
-      "size_usd": 4270.55,
-      "position_size_pct": 0.0405,
-      "confidence": 0.633,
+      "entry_price": 611.280029296875,
+      "entry_time": "2026-08-15T09:53:43.217357+00:00",
+      "stop_loss_pct": 0.00214,
+      "take_profit_pct": 0.00514,
+      "size_usd": 5438.22,
+      "position_size_pct": 0.0516,
+      "confidence": 0.806,
       "signals": [
-        "RSI overbought (80.3)",
-        "1d momentum +0.53%",
+        "RSI overbought (76.5)",
+        "1d momentum +0.73%",
         "BB overbought (pct_b=0.88)",
+        "Volume spike 2.1\u00d7",
         "High-impact catalyst",
         "Claude [contradicts]: product catalyst; price surge"
       ],
@@ -569,11 +570,9 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 609.8300170898438,
-      "trailing_stop_price": 611.049677,
-      "current_price": 610.48999,
-      "unrealized_pnl_pct": 0.000998,
-      "unrealized_pnl_usd": 4.26
+      "current_price": 611.280029,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -914,6 +913,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.516,
+      "price": 611.280029296875,
+      "rsi": 76.4760796223316,
+      "momentum_5d": 0.0005565634172094683,
+      "momentum_1d": 0.007266851574752704,
+      "macd_crossover": false,
+      "atr_pct": 0.0022575729229267864,
+      "bollinger_pct_b": 0.8791,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.11,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMZN",
       "rank_score": 0.5109,
       "price": 262.6600036621094,
@@ -973,27 +993,6 @@
         "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today",
         "Did Oracle\u2019s Expanded AWS AI Push and Rising Debt-Funded Capex Just Shift Its (ORCL) Investment Narrative?",
         "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LYFT",
-      "rank_score": 0.4981,
-      "price": 17.485000610351562,
-      "rsi": 93.20375764556432,
-      "momentum_5d": 0.009818080915421567,
-      "momentum_1d": -0.011308954573392913,
-      "macd_crossover": false,
-      "atr_pct": 0.010314548964074183,
-      "bollinger_pct_b": 0.867,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.933,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Uber Stock Looks Cheap. Here\u2019s Why.",
-        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
-        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
