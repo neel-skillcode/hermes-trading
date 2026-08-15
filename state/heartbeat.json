@@ -3,15 +3,15 @@
   "portfolio_balance": 105382.04,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.33,
-  "unrealized_pnl_usd": 413.57,
-  "equity_value": 105795.61,
-  "open_positions": 17,
-  "day_trades_open": 7,
+  "unrealized_pnl_usd": 409.54,
+  "equity_value": 105791.58,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 36308.72,
+  "day_capital_used_usd": 40112.59,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 997,
-  "last_tick": "2026-08-15T13:02:26.301658+00:00",
+  "last_tick": "2026-08-15T13:37:27.116722+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -538,11 +538,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 610.0999755859375,
-      "trailing_stop_price": 611.40559,
-      "current_price": 610.099976,
-      "unrealized_pnl_pct": 0.00193,
-      "unrealized_pnl_usd": 10.5
+      "price_trough": 609.6599731445312,
+      "trailing_stop_price": 610.964645,
+      "current_price": 609.659973,
+      "unrealized_pnl_pct": 0.00265,
+      "unrealized_pnl_usd": 14.41
     },
     {
       "id": "AVAX-USD_20260815115341",
@@ -572,11 +572,43 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_peak": 6.578000068664551,
-      "trailing_stop_price": 6.516035,
-      "current_price": 6.578,
-      "unrealized_pnl_pct": 0.00198,
-      "unrealized_pnl_usd": 8.6
+      "price_peak": 6.565999984741211,
+      "trailing_stop_price": 6.504148,
+      "current_price": 6.566,
+      "unrealized_pnl_pct": 0.000152,
+      "unrealized_pnl_usd": 0.66
+    },
+    {
+      "id": "ETH-USD_20260815133727",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1881.1600341796875,
+      "entry_time": "2026-08-15T13:37:27.112336+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00456,
+      "size_usd": 3803.87,
+      "position_size_pct": 0.0361,
+      "confidence": 0.564,
+      "signals": [
+        "5d momentum +0.32%",
+        "1d momentum +0.74%",
+        "Volume spike 2.4\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": -0.037,
+      "news_headlines": [
+        "Strategy, Metaplanet face MSCI exclusion Risk: What it means for crypto",
+        "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+      ],
+      "mode": "paper",
+      "strategy_version": "88",
+      "status": "open",
+      "current_price": 1881.160034,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -918,7 +950,7 @@
     },
     {
       "asset": "AMZN",
-      "rank_score": 0.5149,
+      "rank_score": 0.5099,
       "price": 262.6600036621094,
       "rsi": 20.8647400081839,
       "momentum_5d": -0.0038682836847847043,
@@ -928,12 +960,12 @@
       "bollinger_pct_b": 0.1183,
       "volume_spike": false,
       "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.623,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.56,
+      "news_confidence": 0.5,
       "news_headlines": [
+        "The 5 Biggest Risks Americans Don\u2019t Think About Behind the Data Center Boom",
         "3 Cloud Computing Stocks to Buy in August",
-        "Jeff Bezos Is Selling $4 Billion of His Amazon Stock. Should You Follow Suit?",
-        "Elon Musk Admits He Underestimated Anthropic's AI -- Why Amazon Investors Should Care"
+        "Jeff Bezos Is Selling $4 Billion of His Amazon Stock. Should You Follow Suit?"
       ],
       "high_impact_news": true
     },
