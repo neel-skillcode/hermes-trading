@@ -3,15 +3,15 @@
   "portfolio_balance": 105289.2,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.42,
-  "unrealized_pnl_usd": 423.34,
-  "equity_value": 105712.54,
+  "unrealized_pnl_usd": 436.98,
+  "equity_value": 105726.18,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42115.68,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 990,
-  "last_tick": "2026-08-15T00:49:48.733554+00:00",
+  "last_tick": "2026-08-15T02:05:23.047438+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -400,11 +400,11 @@
       "mode": "paper",
       "strategy_version": "86",
       "status": "open",
-      "price_peak": 1880.3699951171875,
-      "trailing_stop_price": 1874.315204,
-      "current_price": 1880.290039,
-      "unrealized_pnl_pct": 0.004998,
-      "unrealized_pnl_usd": 24.38
+      "price_peak": 1883.1199951171875,
+      "trailing_stop_price": 1877.056349,
+      "current_price": 1883.130005,
+      "unrealized_pnl_pct": 0.006515,
+      "unrealized_pnl_usd": 31.79
     },
     {
       "id": "PYPL_20260814195445",
@@ -541,9 +541,9 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "current_price": 607.460022,
-      "unrealized_pnl_pct": -0.002873,
-      "unrealized_pnl_usd": -16.84
+      "current_price": 607.349976,
+      "unrealized_pnl_pct": -0.002691,
+      "unrealized_pnl_usd": -15.78
     },
     {
       "id": "AMD_20260814195445",
@@ -607,11 +607,11 @@
       "mode": "paper",
       "strategy_version": "87",
       "status": "open",
-      "price_peak": 75.30999755859375,
-      "trailing_stop_price": 74.971856,
-      "current_price": 75.309998,
-      "unrealized_pnl_pct": 0.004401,
-      "unrealized_pnl_usd": 21.33
+      "price_peak": 75.38999938964844,
+      "trailing_stop_price": 75.051498,
+      "current_price": 75.389999,
+      "unrealized_pnl_pct": 0.005468,
+      "unrealized_pnl_usd": 26.51
     }
   ],
   "last_candidates": [
@@ -659,7 +659,7 @@
     },
     {
       "asset": "VRTX",
-      "rank_score": 0.6668,
+      "rank_score": 0.6748,
       "price": 505.54998779296875,
       "rsi": 12.29004175260782,
       "momentum_5d": -0.0025058591075658807,
@@ -668,7 +668,7 @@
       "atr_pct": 0.00799476313741735,
       "bollinger_pct_b": 0.1377,
       "volume_spike": true,
-      "volume_spike_ratio": 2.12,
+      "volume_spike_ratio": 2.29,
       "news_sentiment": 0.069,
       "news_confidence": 0.58,
       "news_headlines": [
@@ -689,13 +689,76 @@
       "atr_pct": 0.014685470585146144,
       "bollinger_pct_b": 1.0305,
       "volume_spike": false,
-      "volume_spike_ratio": 0.71,
+      "volume_spike_ratio": 1.21,
       "news_sentiment": 0.371,
       "news_confidence": 0.35,
       "news_headlines": [
         "Why Cloudflare and these 3 AI sub-sectors are 'the place to be' for tech investors",
         "Intel\u2019s stock buybacks: History & investor impact explained",
         "Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.6256,
+      "price": 393.04998779296875,
+      "rsi": 25.29331394414524,
+      "momentum_5d": -0.0021326431852264835,
+      "momentum_1d": -0.06013874624568853,
+      "macd_crossover": false,
+      "atr_pct": 0.013526918171848217,
+      "bollinger_pct_b": 0.1662,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.05,
+      "news_sentiment": 0.393,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+        "Review & Preview: Headline Fatigue",
+        "Wall Street ends lower as investors weigh data, Middle East tensions"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.6154,
+      "price": 1180.6300048828125,
+      "rsi": 19.33134119400401,
+      "momentum_5d": -0.0033428958979555266,
+      "momentum_1d": -0.03351420156546836,
+      "macd_crossover": false,
+      "atr_pct": 0.00938038106883238,
+      "bollinger_pct_b": 0.1405,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.54,
+      "news_sentiment": 0.76,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Can Veeva Systems Inc. (VEEV)\u2019s AI Platform Keep Pace With Eli Lilly and Company (LLY)\u2019s Explosive Growth",
+        "GLP-1 Demand Is Soaring. 2 Stocks That Could Benefit From This (Hint: Not Eli Lilly or Novo Nordisk)",
+        "AbbVie Defends Its Turf, But Leaves One Big Question Open"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RBLX",
+      "rank_score": 0.5976,
+      "price": 38.25,
+      "rsi": 80.20136834209065,
+      "momentum_5d": -0.014175238347304006,
+      "momentum_1d": 0.04522472261486309,
+      "macd_crossover": false,
+      "atr_pct": 0.015718775303089984,
+      "bollinger_pct_b": 0.7306,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.77,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
+        "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
+        "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
       ],
       "high_impact_news": true
     },
@@ -742,27 +805,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.5816,
-      "price": 393.04998779296875,
-      "rsi": 25.29331394414524,
-      "momentum_5d": -0.0021326431852264835,
-      "momentum_1d": -0.06013874624568853,
-      "macd_crossover": false,
-      "atr_pct": 0.013526918171848217,
-      "bollinger_pct_b": 0.1662,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.61,
-      "news_sentiment": 0.393,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
-        "Wall Street ends lower as investors weigh data, Middle East tensions",
-        "Third Point Exited Nvidia and Broadcom, Made New Bet on Warner Bros. Discovery in Second Quarter"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LCID",
       "rank_score": 0.581,
       "price": 6.224999904632568,
@@ -784,65 +826,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5772,
-      "price": 6.485000133514404,
-      "rsi": 76.34854525488954,
-      "momentum_5d": 0.009495695698311117,
-      "momentum_1d": 0.004025394402054409,
-      "macd_crossover": false,
-      "atr_pct": 0.006333299639432545,
-      "bollinger_pct_b": 1.044,
+      "asset": "WFC",
+      "rank_score": 0.5538,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
+      "macd_crossover": true,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": true,
-      "volume_spike_ratio": 4.89,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
+      "volume_spike_ratio": 1.56,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "RBLX",
-      "rank_score": 0.5726,
-      "price": 38.25,
-      "rsi": 80.20136834209065,
-      "momentum_5d": -0.014175238347304006,
-      "momentum_1d": 0.04522472261486309,
-      "macd_crossover": false,
-      "atr_pct": 0.015718775303089984,
-      "bollinger_pct_b": 0.7306,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.52,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
-        "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
-        "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LLY",
-      "rank_score": 0.5564,
-      "price": 1180.6300048828125,
-      "rsi": 19.33134119400401,
-      "momentum_5d": -0.0033428958979555266,
-      "momentum_1d": -0.03351420156546836,
-      "macd_crossover": false,
-      "atr_pct": 0.00938038106883238,
-      "bollinger_pct_b": 0.1405,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.713,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "GLP-1 Demand Is Soaring. 2 Stocks That Could Benefit From This (Hint: Not Eli Lilly or Novo Nordisk)",
-        "AbbVie Defends Its Turf, But Leaves One Big Question Open",
-        "Vanguard Quietly Changed the Index Behind Your VUG ETF. Here\u2019s What Happens to Your Portfolio"
+        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
+        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
+        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
       ],
       "high_impact_news": true
     },
@@ -899,7 +899,7 @@
       "atr_pct": 0.008649376353345287,
       "bollinger_pct_b": 0.6938,
       "volume_spike": false,
-      "volume_spike_ratio": 0.97,
+      "volume_spike_ratio": 1.02,
       "news_sentiment": 0.971,
       "news_confidence": 0.68,
       "news_headlines": [
@@ -920,7 +920,7 @@
       "atr_pct": 0.009357263987702744,
       "bollinger_pct_b": 0.7112,
       "volume_spike": false,
-      "volume_spike_ratio": 1.35,
+      "volume_spike_ratio": 1.36,
       "news_sentiment": 0.66,
       "news_confidence": 0.53,
       "news_headlines": [
@@ -953,7 +953,7 @@
     },
     {
       "asset": "AMZN",
-      "rank_score": 0.5109,
+      "rank_score": 0.5179,
       "price": 262.6600036621094,
       "rsi": 20.8647400081839,
       "momentum_5d": -0.0038682836847847043,
@@ -962,13 +962,13 @@
       "atr_pct": 0.00580584541858147,
       "bollinger_pct_b": 0.1183,
       "volume_spike": false,
-      "volume_spike_ratio": 0.58,
-      "news_sentiment": 0.592,
-      "news_confidence": 0.49,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
       "news_headlines": [
+        "Pershing Square Holdings Ltd (LSE:PSH) (Q2 2026) Earnings Call Highlights: Strategic Leverage ...",
         "Applied Optoelectronics (AAOI) Could Be 93% Overvalued As Amazon Deal Lifts Revenue Hopes",
-        "Amazon reinstates binding arbitration, bars class-action lawsuits",
-        "Amazon.com vs. StubHub: Which Consumer Stock Is a Better Buy in 2026?"
+        "The Rich and Famous Who Can\u2019t Get Into Miami\u2019s Most Exclusive Country Club"
       ],
       "high_impact_news": true
     },
@@ -1015,23 +1015,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "WFC",
-      "rank_score": 0.4978,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
-      "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "asset": "SMCI",
+      "rank_score": 0.4966,
+      "price": 39.84000015258789,
+      "rsi": 60.82475533786883,
+      "momentum_5d": 0.016972560637467177,
+      "momentum_1d": 0.2657664708415028,
+      "macd_crossover": false,
+      "atr_pct": 0.029849034806226225,
+      "bollinger_pct_b": 0.6132,
       "volume_spike": false,
-      "volume_spike_ratio": 1.38,
-      "news_sentiment": 0.63,
-      "news_confidence": 0.54,
+      "volume_spike_ratio": 0.42,
+      "news_sentiment": 0.938,
+      "news_confidence": 0.64,
       "news_headlines": [
-        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
-        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
-        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
+        "Applied Digital (APLD) Stock Trades Up, Here Is Why",
+        "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
+        "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know"
       ],
       "high_impact_news": true
     }
