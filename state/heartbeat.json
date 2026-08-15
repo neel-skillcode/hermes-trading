@@ -3,15 +3,15 @@
   "portfolio_balance": 105337.85,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.37,
-  "unrealized_pnl_usd": 395.18,
-  "equity_value": 105733.03,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "unrealized_pnl_usd": 391.87,
+  "equity_value": 105729.72,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39337.74,
+  "day_capital_used_usd": 42135.14,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 999,
-  "last_tick": "2026-08-15T18:08:34.273443+00:00",
+  "last_tick": "2026-08-15T18:45:38.819208+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -539,9 +539,9 @@
       "status": "open",
       "price_peak": 1883.219970703125,
       "trailing_stop_price": 1879.453531,
-      "current_price": 1883.140015,
-      "unrealized_pnl_pct": 0.001053,
-      "unrealized_pnl_usd": 4.0
+      "current_price": 1880.98999,
+      "unrealized_pnl_pct": -9e-05,
+      "unrealized_pnl_usd": -0.34
     },
     {
       "id": "AVAX-USD_20260815162850",
@@ -571,9 +571,9 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 6.495,
-      "unrealized_pnl_pct": -0.000616,
-      "unrealized_pnl_usd": -2.67
+      "current_price": 6.491,
+      "unrealized_pnl_pct": -0.001231,
+      "unrealized_pnl_usd": -5.34
     },
     {
       "id": "SOL-USD_20260815175219",
@@ -603,9 +603,44 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 75.559998,
-      "unrealized_pnl_pct": -0.000132,
-      "unrealized_pnl_usd": -0.62
+      "price_trough": 75.5,
+      "trailing_stop_price": 75.66912,
+      "current_price": 75.5,
+      "unrealized_pnl_pct": 0.000662,
+      "unrealized_pnl_usd": 3.09
+    },
+    {
+      "id": "DOGE-USD_20260815184538",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.06975000351667404,
+      "entry_time": "2026-08-15T18:45:38.815761+00:00",
+      "stop_loss_pct": 0.00236,
+      "take_profit_pct": 0.00576,
+      "size_usd": 2797.4,
+      "position_size_pct": 0.0266,
+      "confidence": 0.877,
+      "signals": [
+        "RSI oversold (24.5)",
+        "5d momentum -0.39%",
+        "BB oversold (pct_b=-0.03)",
+        "Volume spike 3.2\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.081,
+      "news_headlines": [
+        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+        "Billionaire buys rare art with Dogecoin"
+      ],
+      "mode": "paper",
+      "strategy_version": "88",
+      "status": "open",
+      "current_price": 0.06975,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -715,27 +750,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "LLY",
-      "rank_score": 0.6014,
-      "price": 1180.6300048828125,
-      "rsi": 19.33134119400401,
-      "momentum_5d": -0.0033428958979555266,
-      "momentum_1d": -0.03351420156546836,
-      "macd_crossover": false,
-      "atr_pct": 0.00938038106883238,
-      "bollinger_pct_b": 0.1405,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.567,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "Eli Lilly\u2019s Weight-Loss Pill Just Got Its First Foothold in Europe",
-        "Can Veeva Systems Inc. (VEEV)\u2019s AI Platform Keep Pace With Eli Lilly and Company (LLY)\u2019s Explosive Growth",
-        "GLP-1 Demand Is Soaring. 2 Stocks That Could Benefit From This (Hint: Not Eli Lilly or Novo Nordisk)"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HD",
       "rank_score": 0.5981,
       "price": 338.79998779296875,
@@ -774,6 +788,27 @@
         "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
         "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
         "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.5884,
+      "price": 1180.6300048828125,
+      "rsi": 19.33134119400401,
+      "momentum_5d": -0.0033428958979555266,
+      "momentum_1d": -0.03351420156546836,
+      "macd_crossover": false,
+      "atr_pct": 0.00938038106883238,
+      "bollinger_pct_b": 0.1405,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.54,
+      "news_sentiment": 0.358,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Eli Lilly Is Building a Weight Loss Drug for Every Kind of Patient",
+        "Eli Lilly\u2019s Weight-Loss Pill Just Got Its First Foothold in Europe",
+        "Can Veeva Systems Inc. (VEEV)\u2019s AI Platform Keep Pace With Eli Lilly and Company (LLY)\u2019s Explosive Growth"
       ],
       "high_impact_news": true
     },
@@ -858,6 +893,27 @@
         "QCOM: A Cash Gusher At A Marked-Down Price",
         "What Separates AVGO From Its Peers Right Now",
         "Broadcom Sinks 6% as BofA Flags $370B in AI Debt, AMD Climbs 4% on Baird\u2019s $1,250 Call"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5417,
+      "price": 0.06975000351667404,
+      "rsi": 24.50968217909292,
+      "momentum_5d": -0.003855957565100807,
+      "momentum_1d": 0.0008610558058029431,
+      "macd_crossover": false,
+      "atr_pct": 0.002406556486179101,
+      "bollinger_pct_b": -0.0328,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.25,
+      "news_sentiment": 0.081,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+        "Billionaire buys rare art with Dogecoin"
       ],
       "high_impact_news": true
     },
@@ -1005,27 +1061,6 @@
         "Warren Buffett Wasn\u2019t the Only Billionaire Buying Alphabet Stock in Q2",
         "Nvidia\u2019s Secret $21 Billion SpaceX Windfall \u2014 How One Chip Deal Turned Into a Rocket Fortune",
         "The 5 Biggest Risks Americans Don\u2019t Think About Behind the Data Center Boom"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LYFT",
-      "rank_score": 0.4981,
-      "price": 17.485000610351562,
-      "rsi": 93.20375764556432,
-      "momentum_5d": 0.009818080915421567,
-      "momentum_1d": -0.011308954573392913,
-      "macd_crossover": false,
-      "atr_pct": 0.010314548964074183,
-      "bollinger_pct_b": 0.867,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.933,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Uber Stock Looks Cheap. Here\u2019s Why.",
-        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
-        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
