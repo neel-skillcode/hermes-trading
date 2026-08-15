@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105424.83,
+  "portfolio_balance": 105414.56,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.29,
-  "unrealized_pnl_usd": 402.75,
-  "equity_value": 105827.58,
+  "portfolio_drawdown_pct": 2.3,
+  "unrealized_pnl_usd": 402.31,
+  "equity_value": 105816.87,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40605.35,
+  "day_capital_used_usd": 40021.46,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 993,
-  "last_tick": "2026-08-15T07:47:37.210650+00:00",
+  "total_trades": 994,
+  "last_tick": "2026-08-15T08:02:31.693869+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 4,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1883.25,
       "trailing_stop_price": 1877.185935,
-      "current_price": 1879.170044,
-      "unrealized_pnl_pct": 0.004399,
-      "unrealized_pnl_usd": 21.46
+      "current_price": 1877.969971,
+      "unrealized_pnl_pct": 0.003757,
+      "unrealized_pnl_usd": 18.33
     },
     {
       "id": "PYPL_20260814195445",
@@ -545,39 +545,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "BNB-USD_20260815054059",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 609.8099975585938,
-      "entry_time": "2026-08-15T05:40:59.036342+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00474,
-      "size_usd": 4854.44,
-      "position_size_pct": 0.0461,
-      "confidence": 0.737,
-      "signals": [
-        "RSI overbought (70.8)",
-        "5d momentum +0.41%",
-        "BB overbought (pct_b=0.92)",
-        "Volume spike 2.0\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: product catalyst; price surge"
-      ],
-      "news_sentiment": 0.2,
-      "news_headlines": [
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
-      ],
-      "mode": "paper",
-      "strategy_version": "88",
-      "status": "open",
-      "current_price": 610.559998,
-      "unrealized_pnl_pct": -0.00123,
-      "unrealized_pnl_usd": -5.97
-    },
-    {
       "id": "AVAX-USD_20260815071804",
       "asset": "AVAX-USD",
       "trade_type": "day",
@@ -605,9 +572,41 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 6.619,
-      "unrealized_pnl_pct": -0.001659,
-      "unrealized_pnl_usd": -7.21
+      "current_price": 6.614,
+      "unrealized_pnl_pct": -0.002413,
+      "unrealized_pnl_usd": -10.49
+    },
+    {
+      "id": "BNB-USD_20260815080231",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 611.0999755859375,
+      "entry_time": "2026-08-15T08:02:31.689552+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00463,
+      "size_usd": 4270.55,
+      "position_size_pct": 0.0405,
+      "confidence": 0.633,
+      "signals": [
+        "RSI overbought (80.3)",
+        "1d momentum +0.53%",
+        "BB overbought (pct_b=0.88)",
+        "High-impact catalyst",
+        "Claude [contradicts]: product catalyst; price surge"
+      ],
+      "news_sentiment": 0.2,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "mode": "paper",
+      "strategy_version": "88",
+      "status": "open",
+      "current_price": 611.099976,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -823,14 +822,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5538,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5526,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
@@ -969,27 +968,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5099,
-      "price": 610.5599975585938,
-      "rsi": 77.5839969183973,
-      "momentum_5d": 0.004458373087938223,
-      "momentum_1d": 0.005864905368358732,
-      "macd_crossover": false,
-      "atr_pct": 0.0021245244748918242,
-      "bollinger_pct_b": 0.8734,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.99,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "RXRX",
       "rank_score": 0.5083,
       "price": 3.1649999618530273,
@@ -1028,6 +1006,27 @@
         "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today",
         "Did Oracle\u2019s Expanded AWS AI Push and Rising Debt-Funded Capex Just Shift Its (ORCL) Investment Narrative?",
         "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LYFT",
+      "rank_score": 0.4981,
+      "price": 17.485000610351562,
+      "rsi": 93.20375764556432,
+      "momentum_5d": 0.009818080915421567,
+      "momentum_1d": -0.011308954573392913,
+      "macd_crossover": false,
+      "atr_pct": 0.010314548964074183,
+      "bollinger_pct_b": 0.867,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.2,
+      "news_sentiment": 0.933,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Uber Stock Looks Cheap. Here\u2019s Why.",
+        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
+        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
