@@ -3,15 +3,15 @@
   "portfolio_balance": 105382.04,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.33,
-  "unrealized_pnl_usd": 397.94,
-  "equity_value": 105779.98,
+  "unrealized_pnl_usd": 393.2,
+  "equity_value": 105775.24,
   "open_positions": 17,
   "day_trades_open": 7,
   "swing_trades_open": 10,
   "day_capital_used_usd": 36308.72,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 997,
-  "last_tick": "2026-08-15T11:53:41.138317+00:00",
+  "last_tick": "2026-08-15T12:17:32.242681+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -540,9 +540,9 @@
       "status": "open",
       "price_trough": 610.8900146484375,
       "trailing_stop_price": 612.197319,
-      "current_price": 610.890015,
-      "unrealized_pnl_pct": 0.000638,
-      "unrealized_pnl_usd": 3.47
+      "current_price": 611.719971,
+      "unrealized_pnl_pct": -0.00072,
+      "unrealized_pnl_usd": -3.91
     },
     {
       "id": "AVAX-USD_20260815115341",
@@ -572,9 +572,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 6.565,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 6.568999767303467,
+      "trailing_stop_price": 6.50712,
+      "current_price": 6.569,
+      "unrealized_pnl_pct": 0.000609,
+      "unrealized_pnl_usd": 2.65
     }
   ],
   "last_candidates": [
@@ -643,7 +645,7 @@
     },
     {
       "asset": "AMD",
-      "rank_score": 0.636,
+      "rank_score": 0.645,
       "price": 514.3699951171875,
       "rsi": 73.01328339919806,
       "momentum_5d": 0.026573934270767794,
@@ -653,10 +655,10 @@
       "bollinger_pct_b": 1.0305,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.524,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.633,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Why Cloudflare and these 3 AI sub-sectors are 'the place to be' for tech investors",
+        "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
         "AMD, Intel and NVIDIA All Rally as Super Micro\u2019s Blowout Numbers Reignite the AI Trade",
         "Intel\u2019s stock buybacks: History & investor impact explained"
       ],
@@ -957,27 +959,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.4981,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": -0.101,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today",
-        "Did Oracle\u2019s Expanded AWS AI Push and Rising Debt-Funded Capex Just Shift Its (ORCL) Investment Narrative?",
-        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LYFT",
       "rank_score": 0.4981,
       "price": 17.485000610351562,
@@ -995,6 +976,27 @@
         "Uber Stock Looks Cheap. Here\u2019s Why.",
         "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
         "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MA",
+      "rank_score": 0.4957,
+      "price": 569.260009765625,
+      "rsi": 76.53007721068269,
+      "momentum_5d": 0.0035611373775240327,
+      "momentum_1d": 0.008155387324689655,
+      "macd_crossover": false,
+      "atr_pct": 0.005388858830291199,
+      "bollinger_pct_b": 0.8234,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.522,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Breakfast News: Mastercard's CEO Speaks",
+        "Can Fiserv (FISV)\u2019s Turnaround Close the Gap With Mastercard Incorporated (MA)\u2019s Growth Machine?",
+        "Bill Ackman Just Bought Visa Stock. What Barchart Options Data Says Could Come Next for V Investors."
       ],
       "high_impact_news": true
     }
