@@ -3,15 +3,15 @@
   "portfolio_balance": 105268.58,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 467.81,
-  "equity_value": 105736.39,
+  "unrealized_pnl_usd": 515.8,
+  "equity_value": 105784.38,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42107.43,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 991,
-  "last_tick": "2026-08-15T04:15:34.951406+00:00",
+  "last_tick": "2026-08-15T04:49:08.777816+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1883.25,
       "trailing_stop_price": 1877.185935,
-      "current_price": 1882.040039,
-      "unrealized_pnl_pct": 0.005933,
-      "unrealized_pnl_usd": 28.94
+      "current_price": 1883.170044,
+      "unrealized_pnl_pct": 0.006537,
+      "unrealized_pnl_usd": 31.89
     },
     {
       "id": "PYPL_20260814195445",
@@ -575,9 +575,9 @@
       "status": "open",
       "price_peak": 75.5999984741211,
       "trailing_stop_price": 75.260554,
-      "current_price": 75.400002,
-      "unrealized_pnl_pct": 0.005601,
-      "unrealized_pnl_usd": 27.15
+      "current_price": 75.510002,
+      "unrealized_pnl_pct": 0.007069,
+      "unrealized_pnl_usd": 34.26
     },
     {
       "id": "AVAX-USD_20260815030028",
@@ -608,14 +608,35 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 6.763000011444092,
-      "trailing_stop_price": 6.826099,
-      "current_price": 6.771,
-      "unrealized_pnl_pct": 0.002945,
-      "unrealized_pnl_usd": 17.24
+      "price_trough": 6.7270002365112305,
+      "trailing_stop_price": 6.789763,
+      "current_price": 6.727,
+      "unrealized_pnl_pct": 0.009424,
+      "unrealized_pnl_usd": 55.17
     }
   ],
   "last_candidates": [
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.8017,
+      "price": 6.7270002365112305,
+      "rsi": 82.89473920081457,
+      "momentum_5d": 0.039721863161291907,
+      "momentum_1d": 0.04667810620789002,
+      "macd_crossover": false,
+      "atr_pct": 0.010671282880360832,
+      "bollinger_pct_b": 1.0277,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.47,
+      "news_sentiment": 0.15,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "PYPL",
       "rank_score": 0.8006,
@@ -634,27 +655,6 @@
         "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
         "PayPal (PYPL) Is In Acquisition Talks At $53 Billion",
         "Talks to sell PayPal to Stripe and Advent are heating up"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.7338,
-      "price": 6.770999908447266,
-      "rsi": 88.9327716838177,
-      "momentum_5d": 0.046522430914437356,
-      "momentum_1d": 0.05352417305441983,
-      "macd_crossover": false,
-      "atr_pct": 0.01011667535490802,
-      "bollinger_pct_b": 1.0883,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
       ],
       "high_impact_news": true
     },
@@ -806,6 +806,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.5957,
+      "price": 610.5499877929688,
+      "rsi": 85.49276320449555,
+      "momentum_5d": 0.005086698232878261,
+      "momentum_1d": 0.00044235184363607415,
+      "macd_crossover": false,
+      "atr_pct": 0.0023491791390047667,
+      "bollinger_pct_b": 1.092,
+      "volume_spike": true,
+      "volume_spike_ratio": 8.48,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HAL",
       "rank_score": 0.5853,
       "price": 34.415000915527344,
@@ -823,27 +844,6 @@
         "CRC Q2 Earnings Miss on Takeaway Constraints, Revenues Beat",
         "LNG Q2 Earnings Beat Estimates on Higher Volumes and Margins",
         "Centuri hires Halliburton alum for CFO"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.5849,
-      "price": 610.2899780273438,
-      "rsi": 85.11855745010656,
-      "momentum_5d": 0.004658670451262858,
-      "momentum_1d": 1.6301910583920436e-05,
-      "macd_crossover": false,
-      "atr_pct": 0.0022179237885102607,
-      "bollinger_pct_b": 1.0673,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.48,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
       ],
       "high_impact_news": true
     },
@@ -870,14 +870,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5538,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5526,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
