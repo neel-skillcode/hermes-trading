@@ -3,15 +3,15 @@
   "portfolio_balance": 105286.04,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.42,
-  "unrealized_pnl_usd": 517.5,
-  "equity_value": 105803.53,
+  "unrealized_pnl_usd": 506.48,
+  "equity_value": 105792.52,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42114.41,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 992,
-  "last_tick": "2026-08-15T05:40:59.041219+00:00",
+  "last_tick": "2026-08-15T06:00:00.718439+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1883.25,
       "trailing_stop_price": 1877.185935,
-      "current_price": 1879.109985,
-      "unrealized_pnl_pct": 0.004367,
-      "unrealized_pnl_usd": 21.3
+      "current_price": 1878.839966,
+      "unrealized_pnl_pct": 0.004222,
+      "unrealized_pnl_usd": 20.6
     },
     {
       "id": "PYPL_20260814195445",
@@ -575,9 +575,9 @@
       "status": "open",
       "price_trough": 6.672999858856201,
       "trailing_stop_price": 6.735259,
-      "current_price": 6.673,
-      "unrealized_pnl_pct": 0.017376,
-      "unrealized_pnl_usd": 101.72
+      "current_price": 6.682,
+      "unrealized_pnl_pct": 0.016051,
+      "unrealized_pnl_usd": 93.96
     },
     {
       "id": "BNB-USD_20260815054059",
@@ -608,9 +608,9 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 609.809998,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 610.130005,
+      "unrealized_pnl_pct": -0.000525,
+      "unrealized_pnl_usd": -2.55
     }
   ],
   "last_candidates": [
@@ -783,6 +783,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5889,
+      "price": 6.682000160217285,
+      "rsi": 73.99615795246402,
+      "momentum_5d": 0.02894983113546941,
+      "momentum_1d": 0.040485866032665796,
+      "macd_crossover": false,
+      "atr_pct": 0.010796593490266656,
+      "bollinger_pct_b": 0.8875,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.39,
+      "news_sentiment": 0.15,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HAL",
       "rank_score": 0.5853,
       "price": 34.415000915527344,
@@ -821,27 +842,6 @@
         "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target",
         "Lucid Just Took Aim at Cadillac's Stronghold",
         "Prediction: Will Lucid Stock Double This Year?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5776,
-      "price": 6.672999858856201,
-      "rsi": 72.74430260844001,
-      "momentum_5d": 0.027563890048429004,
-      "momentum_1d": 0.03908438651579941,
-      "macd_crossover": false,
-      "atr_pct": 0.010789748863478195,
-      "bollinger_pct_b": 0.873,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.76,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
       ],
       "high_impact_news": true
     },
@@ -951,6 +951,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.5207,
+      "price": 610.1300048828125,
+      "rsi": 73.44801217878114,
+      "momentum_5d": 0.004676558083000137,
+      "momentum_1d": 0.0007545425977188726,
+      "macd_crossover": false,
+      "atr_pct": 0.002123685183435873,
+      "bollinger_pct_b": 0.9522,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.92,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMAT",
       "rank_score": 0.5192,
       "price": 507.1099853515625,
@@ -1010,27 +1031,6 @@
         "These Are the Stocks Wall Street Is Betting Against the Most",
         "Recursion (RXRX) Q2 2026 Earnings Call Transcript",
         "The Biggest IPO of the Year Is Targeted in the Next 60 Days. Why One Unexpected Industry Could Rally Before Then (Hint: It\u2019s Not Tech)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.4981,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": -0.101,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
-        "Why Oracle Stock Got Trounced Today",
-        "ORCL Stock Drops After 6-Month Delay To Gas Pipeline Project Supporting New Mexico AI Data Center"
       ],
       "high_impact_news": true
     }
