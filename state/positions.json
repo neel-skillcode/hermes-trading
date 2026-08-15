@@ -478,38 +478,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260815030028",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.790999889373779,
-    "entry_time": "2026-08-15T03:00:28.403336+00:00",
-    "stop_loss_pct": 0.00933,
-    "take_profit_pct": 0.02275,
-    "size_usd": 5854.25,
-    "position_size_pct": 0.0556,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (87.9)",
-      "5d momentum +6.14%",
-      "1d momentum +5.40%",
-      "BB overbought (pct_b=1.25)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.15,
-    "news_headlines": [
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
-    ],
-    "mode": "paper",
-    "strategy_version": "88",
-    "status": "open",
-    "price_trough": 6.672999858856201,
-    "trailing_stop_price": 6.735259
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260815054059",
     "asset": "BNB-USD",
@@ -535,6 +503,35 @@
       "Why is Ethereum Price Stuck Below $2,000?",
       "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
       "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+    ],
+    "mode": "paper",
+    "strategy_version": "88",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260815071804",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.630000114440918,
+    "entry_time": "2026-08-15T07:18:04.512932+00:00",
+    "stop_loss_pct": 0.00954,
+    "take_profit_pct": 0.02216,
+    "size_usd": 4345.19,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (66.9)",
+      "5d momentum -1.75%",
+      "1d momentum +4.07%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.15,
+    "news_headlines": [
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+      "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
     ],
     "mode": "paper",
     "strategy_version": "88",
