@@ -3,15 +3,15 @@
   "portfolio_balance": 105268.58,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 467.3,
-  "equity_value": 105735.88,
+  "unrealized_pnl_usd": 469.45,
+  "equity_value": 105738.03,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42107.43,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 991,
-  "last_tick": "2026-08-15T03:00:28.409291+00:00",
+  "last_tick": "2026-08-15T03:47:24.178474+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1883.25,
       "trailing_stop_price": 1877.185935,
-      "current_price": 1883.25,
-      "unrealized_pnl_pct": 0.00658,
-      "unrealized_pnl_usd": 32.1
+      "current_price": 1881.430054,
+      "unrealized_pnl_pct": 0.005607,
+      "unrealized_pnl_usd": 27.35
     },
     {
       "id": "PYPL_20260814195445",
@@ -575,9 +575,9 @@
       "status": "open",
       "price_peak": 75.5999984741211,
       "trailing_stop_price": 75.260554,
-      "current_price": 75.610001,
-      "unrealized_pnl_pct": 0.008402,
-      "unrealized_pnl_usd": 40.73
+      "current_price": 75.410004,
+      "unrealized_pnl_pct": 0.005735,
+      "unrealized_pnl_usd": 27.8
     },
     {
       "id": "AVAX-USD_20260815030028",
@@ -608,12 +608,35 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 6.791,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 6.76800012588501,
+      "trailing_stop_price": 6.831146,
+      "current_price": 6.768,
+      "unrealized_pnl_pct": 0.003387,
+      "unrealized_pnl_usd": 19.83
     }
   ],
   "last_candidates": [
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.9035,
+      "price": 6.76800012588501,
+      "rsi": 87.13443715195832,
+      "momentum_5d": 0.05338520232960735,
+      "momentum_1d": 0.055850278782367646,
+      "macd_crossover": false,
+      "atr_pct": 0.009952294645420561,
+      "bollinger_pct_b": 1.2238,
+      "volume_spike": true,
+      "volume_spike_ratio": 16.29,
+      "news_sentiment": 0.15,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "PYPL",
       "rank_score": 0.8006,
@@ -632,27 +655,6 @@
         "A PayPal sale is back on the table: What we know about Stripe, Advent's bid",
         "PayPal (PYPL) Is In Acquisition Talks At $53 Billion",
         "Talks to sell PayPal to Stripe and Advent are heating up"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.7745,
-      "price": 6.790999889373779,
-      "rsi": 87.91202457191713,
-      "momentum_5d": 0.06142546739806543,
-      "momentum_1d": 0.05401211520172884,
-      "macd_crossover": false,
-      "atr_pct": 0.009529415773511045,
-      "bollinger_pct_b": 1.2543,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
       ],
       "high_impact_news": true
     },
@@ -846,15 +848,36 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.576,
+      "price": 609.3099975585938,
+      "rsi": 81.54485920104781,
+      "momentum_5d": 0.005196688256602216,
+      "momentum_1d": -0.0029128757116764427,
+      "macd_crossover": false,
+      "atr_pct": 0.0024125742007306897,
+      "bollinger_pct_b": 1.0277,
+      "volume_spike": true,
+      "volume_spike_ratio": 6.98,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WFC",
-      "rank_score": 0.5538,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5526,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
@@ -1010,27 +1033,6 @@
         "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
         "Pershing Square Holdings Ltd (LSE:PSH) (Q2 2026) Earnings Call Highlights: Strategic Leverage ...",
         "Applied Optoelectronics (AAOI) Could Be 93% Overvalued As Amazon Deal Lifts Revenue Hopes"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.4981,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": -0.101,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
-        "Why Oracle Stock Got Trounced Today",
-        "ORCL Stock Drops After 6-Month Delay To Gas Pipeline Project Supporting New Mexico AI Data Center"
       ],
       "high_impact_news": true
     }
