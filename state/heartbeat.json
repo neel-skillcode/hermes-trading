@@ -3,15 +3,15 @@
   "portfolio_balance": 105382.04,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.33,
-  "unrealized_pnl_usd": 405.15,
-  "equity_value": 105787.19,
+  "unrealized_pnl_usd": 398.57,
+  "equity_value": 105780.61,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40112.59,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 997,
-  "last_tick": "2026-08-15T14:42:57.435179+00:00",
+  "last_tick": "2026-08-15T14:59:24.351715+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -538,11 +538,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 609.1699829101562,
-      "trailing_stop_price": 610.473607,
-      "current_price": 609.049988,
-      "unrealized_pnl_pct": 0.003648,
-      "unrealized_pnl_usd": 19.84
+      "price_trough": 609.6599731445312,
+      "trailing_stop_price": 610.964645,
+      "current_price": 610.0,
+      "unrealized_pnl_pct": 0.002094,
+      "unrealized_pnl_usd": 11.39
     },
     {
       "id": "AVAX-USD_20260815115341",
@@ -574,9 +574,9 @@
       "status": "open",
       "price_peak": 6.565999984741211,
       "trailing_stop_price": 6.504148,
-      "current_price": 6.553,
-      "unrealized_pnl_pct": -0.001828,
-      "unrealized_pnl_usd": -7.94
+      "current_price": 6.552,
+      "unrealized_pnl_pct": -0.00198,
+      "unrealized_pnl_usd": -8.6
     },
     {
       "id": "ETH-USD_20260815133727",
@@ -606,9 +606,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 1880.560059,
-      "unrealized_pnl_pct": -0.000319,
-      "unrealized_pnl_usd": -1.21
+      "price_peak": 1881.8199462890625,
+      "trailing_stop_price": 1878.056306,
+      "current_price": 1881.810059,
+      "unrealized_pnl_pct": 0.000346,
+      "unrealized_pnl_usd": 1.31
     }
   ],
   "last_candidates": [
@@ -991,6 +993,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ORCL",
+      "rank_score": 0.4995,
+      "price": 150.33999633789062,
+      "rsi": 42.74433219206454,
+      "momentum_5d": -0.02058634307563111,
+      "momentum_1d": 0.03784173356026913,
+      "macd_crossover": false,
+      "atr_pct": 0.015639360212492688,
+      "bollinger_pct_b": 0.1766,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.116,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Nvidia Is Looking to Own Another Layer of the AI Ecosystem",
+        "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?",
+        "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.4981,
       "price": 17.485000610351562,
@@ -1008,27 +1031,6 @@
         "Uber Stock Looks Cheap. Here\u2019s Why.",
         "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
         "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MA",
-      "rank_score": 0.4957,
-      "price": 569.260009765625,
-      "rsi": 76.53007721068269,
-      "momentum_5d": 0.0035611373775240327,
-      "momentum_1d": 0.008155387324689655,
-      "macd_crossover": false,
-      "atr_pct": 0.005388858830291199,
-      "bollinger_pct_b": 0.8234,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.522,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Breakfast News: Mastercard's CEO Speaks",
-        "Can Fiserv (FISV)\u2019s Turnaround Close the Gap With Mastercard Incorporated (MA)\u2019s Growth Machine?",
-        "Bill Ackman Just Bought Visa Stock. What Barchart Options Data Says Could Come Next for V Investors."
       ],
       "high_impact_news": true
     }
