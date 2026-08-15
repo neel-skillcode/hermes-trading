@@ -3,15 +3,15 @@
   "portfolio_balance": 105424.64,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.29,
-  "unrealized_pnl_usd": 368.25,
-  "equity_value": 105792.89,
+  "unrealized_pnl_usd": 364.7,
+  "equity_value": 105789.34,
   "open_positions": 17,
   "day_trades_open": 7,
   "swing_trades_open": 10,
   "day_capital_used_usd": 36310.48,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 996,
-  "last_tick": "2026-08-15T09:53:43.220865+00:00",
+  "last_tick": "2026-08-15T10:11:30.808978+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -537,9 +537,9 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 6.59,
-      "unrealized_pnl_pct": -0.006033,
-      "unrealized_pnl_usd": -26.22
+      "current_price": 6.582,
+      "unrealized_pnl_pct": -0.00724,
+      "unrealized_pnl_usd": -31.46
     },
     {
       "id": "BNB-USD_20260815095343",
@@ -570,9 +570,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "current_price": 611.280029,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 611.0900268554688,
+      "trailing_stop_price": 612.39776,
+      "current_price": 611.090027,
+      "unrealized_pnl_pct": 0.000311,
+      "unrealized_pnl_usd": 1.69
     }
   ],
   "last_candidates": [
@@ -913,27 +915,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.516,
-      "price": 611.280029296875,
-      "rsi": 76.4760796223316,
-      "momentum_5d": 0.0005565634172094683,
-      "momentum_1d": 0.007266851574752704,
-      "macd_crossover": false,
-      "atr_pct": 0.0022575729229267864,
-      "bollinger_pct_b": 0.8791,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.11,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AMZN",
       "rank_score": 0.5109,
       "price": 262.6600036621094,
@@ -948,9 +929,9 @@
       "news_sentiment": 0.592,
       "news_confidence": 0.49,
       "news_headlines": [
+        "Jeff Bezos Is Selling $4 Billion of His Amazon Stock. Should You Follow Suit?",
         "Elon Musk Admits He Underestimated Anthropic's AI -- Why Amazon Investors Should Care",
-        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
-        "Pershing Square Holdings Ltd (LSE:PSH) (Q2 2026) Earnings Call Highlights: Strategic Leverage ..."
+        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot"
       ],
       "high_impact_news": true
     },
@@ -993,6 +974,27 @@
         "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today",
         "Did Oracle\u2019s Expanded AWS AI Push and Rising Debt-Funded Capex Just Shift Its (ORCL) Investment Narrative?",
         "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LYFT",
+      "rank_score": 0.4981,
+      "price": 17.485000610351562,
+      "rsi": 93.20375764556432,
+      "momentum_5d": 0.009818080915421567,
+      "momentum_1d": -0.011308954573392913,
+      "macd_crossover": false,
+      "atr_pct": 0.010314548964074183,
+      "bollinger_pct_b": 0.867,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.2,
+      "news_sentiment": 0.933,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Uber Stock Looks Cheap. Here\u2019s Why.",
+        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
+        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
