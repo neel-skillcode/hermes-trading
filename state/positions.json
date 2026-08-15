@@ -478,38 +478,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260814195445",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 74.9800033569336,
-    "entry_time": "2026-08-14T19:54:45.294677+00:00",
-    "stop_loss_pct": 0.00449,
-    "take_profit_pct": 0.01096,
-    "size_usd": 4847.46,
-    "position_size_pct": 0.046,
-    "confidence": 0.886,
-    "signals": [
-      "RSI oversold (34.0)",
-      "1d momentum -1.52%",
-      "BB oversold (pct_b=0.08)",
-      "Volume spike 6.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.289,
-    "news_headlines": [
-      "Solana Has Plans to Become 'The Netflix of Finance.' What Does That Mean for the Price of SOL?",
-      "Israel\u2019s Largest Bank Will Give Bitcoin Trading Another Try",
-      "Solana is about to cut transaction finality by nearly 99%"
-    ],
-    "mode": "paper",
-    "strategy_version": "87",
-    "status": "open",
-    "price_peak": 75.5999984741211,
-    "trailing_stop_price": 75.260554
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260815030028",
     "asset": "AVAX-USD",
@@ -535,6 +503,38 @@
       "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
       "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
       "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
+    ],
+    "mode": "paper",
+    "strategy_version": "88",
+    "status": "open",
+    "price_trough": 6.672999858856201,
+    "trailing_stop_price": 6.735259
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260815054059",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 609.8099975585938,
+    "entry_time": "2026-08-15T05:40:59.036342+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00474,
+    "size_usd": 4854.44,
+    "position_size_pct": 0.0461,
+    "confidence": 0.737,
+    "signals": [
+      "RSI overbought (70.8)",
+      "5d momentum +0.41%",
+      "BB overbought (pct_b=0.92)",
+      "Volume spike 2.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "Why is Ethereum Price Stuck Below $2,000?",
+      "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+      "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
     ],
     "mode": "paper",
     "strategy_version": "88",

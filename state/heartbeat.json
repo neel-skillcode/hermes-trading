@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105268.58,
+  "portfolio_balance": 105286.04,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 521.8,
-  "equity_value": 105790.38,
+  "portfolio_drawdown_pct": 2.42,
+  "unrealized_pnl_usd": 517.5,
+  "equity_value": 105803.53,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42107.43,
+  "day_capital_used_usd": 42114.41,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 991,
-  "last_tick": "2026-08-15T05:11:36.771385+00:00",
+  "total_trades": 992,
+  "last_tick": "2026-08-15T05:40:59.041219+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -402,9 +402,9 @@
       "status": "open",
       "price_peak": 1883.25,
       "trailing_stop_price": 1877.185935,
-      "current_price": 1882.910034,
-      "unrealized_pnl_pct": 0.006398,
-      "unrealized_pnl_usd": 31.21
+      "current_price": 1879.109985,
+      "unrealized_pnl_pct": 0.004367,
+      "unrealized_pnl_usd": 21.3
     },
     {
       "id": "PYPL_20260814195445",
@@ -545,41 +545,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "SOL-USD_20260814195445",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 74.9800033569336,
-      "entry_time": "2026-08-14T19:54:45.294677+00:00",
-      "stop_loss_pct": 0.00449,
-      "take_profit_pct": 0.01096,
-      "size_usd": 4847.46,
-      "position_size_pct": 0.046,
-      "confidence": 0.886,
-      "signals": [
-        "RSI oversold (34.0)",
-        "1d momentum -1.52%",
-        "BB oversold (pct_b=0.08)",
-        "Volume spike 6.8\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.289,
-      "news_headlines": [
-        "Solana Has Plans to Become 'The Netflix of Finance.' What Does That Mean for the Price of SOL?",
-        "Israel\u2019s Largest Bank Will Give Bitcoin Trading Another Try",
-        "Solana is about to cut transaction finality by nearly 99%"
-      ],
-      "mode": "paper",
-      "strategy_version": "87",
-      "status": "open",
-      "price_peak": 75.5999984741211,
-      "trailing_stop_price": 75.260554,
-      "current_price": 75.440002,
-      "unrealized_pnl_pct": 0.006135,
-      "unrealized_pnl_usd": 29.74
-    },
-    {
       "id": "AVAX-USD_20260815030028",
       "asset": "AVAX-USD",
       "trade_type": "day",
@@ -608,11 +573,44 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 6.714000225067139,
-      "trailing_stop_price": 6.776642,
-      "current_price": 6.714,
-      "unrealized_pnl_pct": 0.011338,
-      "unrealized_pnl_usd": 66.38
+      "price_trough": 6.672999858856201,
+      "trailing_stop_price": 6.735259,
+      "current_price": 6.673,
+      "unrealized_pnl_pct": 0.017376,
+      "unrealized_pnl_usd": 101.72
+    },
+    {
+      "id": "BNB-USD_20260815054059",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 609.8099975585938,
+      "entry_time": "2026-08-15T05:40:59.036342+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00474,
+      "size_usd": 4854.44,
+      "position_size_pct": 0.0461,
+      "confidence": 0.737,
+      "signals": [
+        "RSI overbought (70.8)",
+        "5d momentum +0.41%",
+        "BB overbought (pct_b=0.92)",
+        "Volume spike 2.0\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: product catalyst; price surge"
+      ],
+      "news_sentiment": 0.2,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "mode": "paper",
+      "strategy_version": "88",
+      "status": "open",
+      "current_price": 609.809998,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -676,27 +674,6 @@
         "Can AbCellera Biologics (ABCL)\u2019s Vertex Pharmaceuticals Incorporated (VRTX) Deal Turn its TCE Platform Into a Breakthrough?",
         "Is Vertex Pharmaceuticals (VRTX) Fairly Valued As Pipeline Catalysts Near?",
         "Vertex Pharmaceuticals Just Hit an All-Time High. Here's Why the Biotech Stock Could Soar Even More"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6302,
-      "price": 6.714000225067139,
-      "rsi": 78.81872619456891,
-      "momentum_5d": 0.03387746665389031,
-      "momentum_1d": 0.045468747563653156,
-      "macd_crossover": false,
-      "atr_pct": 0.010181286687774946,
-      "bollinger_pct_b": 0.9393,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.18,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
-        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
       ],
       "high_impact_news": true
     },
@@ -848,6 +825,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5776,
+      "price": 6.672999858856201,
+      "rsi": 72.74430260844001,
+      "momentum_5d": 0.027563890048429004,
+      "momentum_1d": 0.03908438651579941,
+      "macd_crossover": false,
+      "atr_pct": 0.010789748863478195,
+      "bollinger_pct_b": 0.873,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.76,
+      "news_sentiment": 0.15,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)",
+        "Ethereum and solana are getting busier \u2014 and cheaper. What's going on?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WFC",
       "rank_score": 0.5526,
       "price": 88.78500366210938,
@@ -974,6 +972,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMZN",
+      "rank_score": 0.5109,
+      "price": 262.6600036621094,
+      "rsi": 20.8647400081839,
+      "momentum_5d": -0.0038682836847847043,
+      "momentum_1d": -0.03447980711231279,
+      "macd_crossover": false,
+      "atr_pct": 0.00580584541858147,
+      "bollinger_pct_b": 0.1183,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.592,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Elon Musk Admits He Underestimated Anthropic's AI -- Why Amazon Investors Should Care",
+        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
+        "Pershing Square Holdings Ltd (LSE:PSH) (Q2 2026) Earnings Call Highlights: Strategic Leverage ..."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "RXRX",
       "rank_score": 0.5083,
       "price": 3.1649999618530273,
@@ -991,27 +1010,6 @@
         "These Are the Stocks Wall Street Is Betting Against the Most",
         "Recursion (RXRX) Q2 2026 Earnings Call Transcript",
         "The Biggest IPO of the Year Is Targeted in the Next 60 Days. Why One Unexpected Industry Could Rally Before Then (Hint: It\u2019s Not Tech)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMZN",
-      "rank_score": 0.5059,
-      "price": 262.6600036621094,
-      "rsi": 20.8647400081839,
-      "momentum_5d": -0.0038682836847847043,
-      "momentum_1d": -0.03447980711231279,
-      "macd_crossover": false,
-      "atr_pct": 0.00580584541858147,
-      "bollinger_pct_b": 0.1183,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.522,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "\u2018Big Short\u2019 investor warns AI boom has quiet weak spot",
-        "Pershing Square Holdings Ltd (LSE:PSH) (Q2 2026) Earnings Call Highlights: Strategic Leverage ...",
-        "Applied Optoelectronics (AAOI) Could Be 93% Overvalued As Amazon Deal Lifts Revenue Hopes"
       ],
       "high_impact_news": true
     },
