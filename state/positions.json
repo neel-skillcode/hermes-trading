@@ -446,37 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260816213006",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.310999870300293,
-    "entry_time": "2026-08-16T21:30:06.527390+00:00",
-    "stop_loss_pct": 0.00386,
-    "take_profit_pct": 0.00882,
-    "size_usd": 2805.44,
-    "position_size_pct": 0.0266,
-    "confidence": 0.564,
-    "signals": [
-      "5d momentum -0.80%",
-      "1d momentum -2.74%",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-    ],
-    "mode": "paper",
-    "strategy_version": "89",
-    "status": "open",
-    "price_trough": 6.296000003814697,
-    "trailing_stop_price": 6.320303
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260816214747",
     "asset": "SOL-USD",
@@ -506,7 +475,9 @@
     ],
     "mode": "paper",
     "strategy_version": "90",
-    "status": "open"
+    "status": "open",
+    "price_peak": 74.41999816894531,
+    "trailing_stop_price": 74.18111
   },
   "XRP-USD": {
     "id": "XRP-USD_20260816214747",
@@ -565,6 +536,38 @@
       "A Meme Coin Trader Turned $120 Into $205,000: Luck or Strategy?",
       "Why is Ethereum Price Stuck Below $2,000?",
       "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?"
+    ],
+    "mode": "paper",
+    "strategy_version": "90",
+    "status": "open",
+    "price_peak": 601.6599731445312,
+    "trailing_stop_price": 600.318271
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260816230027",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1873.3599853515625,
+    "entry_time": "2026-08-16T23:00:27.974967+00:00",
+    "stop_loss_pct": 0.0023,
+    "take_profit_pct": 0.00561,
+    "size_usd": 2803.31,
+    "position_size_pct": 0.0266,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (41.7)",
+      "5d momentum -0.55%",
+      "1d momentum -0.40%",
+      "BB oversold (pct_b=0.05)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.185,
+    "news_headlines": [
+      "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
+      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
     ],
     "mode": "paper",
     "strategy_version": "90",

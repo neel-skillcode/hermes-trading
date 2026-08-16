@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105270.85,
+  "portfolio_balance": 105265.52,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.43,
-  "unrealized_pnl_usd": 386.44,
-  "equity_value": 105657.29,
+  "portfolio_drawdown_pct": 2.44,
+  "unrealized_pnl_usd": 402.3,
+  "equity_value": 105667.82,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42108.34,
+  "day_capital_used_usd": 42106.21,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1013,
-  "last_tick": "2026-08-16T22:48:07.916499+00:00",
+  "total_trades": 1014,
+  "last_tick": "2026-08-16T23:00:27.977699+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 4,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.847,
-      "unrealized_pnl_pct": 0.001621,
-      "unrealized_pnl_usd": 2.18
+      "current_price": 7.84641,
+      "unrealized_pnl_pct": 0.001546,
+      "unrealized_pnl_usd": 2.08
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.386970043182373,
       "trailing_stop_price": 1.398066,
-      "current_price": 1.3872,
-      "unrealized_pnl_pct": 0.015786,
-      "unrealized_pnl_usd": 105.76
+      "current_price": 1.38703,
+      "unrealized_pnl_pct": 0.015907,
+      "unrealized_pnl_usd": 106.57
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85477,
-      "unrealized_pnl_pct": -0.000984,
-      "unrealized_pnl_usd": -6.85
+      "current_price": 0.85458,
+      "unrealized_pnl_pct": -0.000761,
+      "unrealized_pnl_usd": -5.3
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -196,9 +196,9 @@
       "status": "open",
       "price_peak": 184.36500549316406,
       "trailing_stop_price": 183.996275,
-      "current_price": 184.365005,
-      "unrealized_pnl_pct": 0.002681,
-      "unrealized_pnl_usd": 8.11
+      "current_price": 184.207993,
+      "unrealized_pnl_pct": 0.001827,
+      "unrealized_pnl_usd": 5.52
     },
     {
       "id": "COST_20260811153222",
@@ -367,9 +367,9 @@
       "status": "open",
       "price_trough": 114.4729995727539,
       "trailing_stop_price": 115.388784,
-      "current_price": 114.818001,
-      "unrealized_pnl_pct": -0.002567,
-      "unrealized_pnl_usd": -11.46
+      "current_price": 114.737,
+      "unrealized_pnl_pct": -0.00186,
+      "unrealized_pnl_usd": -8.31
     },
     {
       "id": "PYPL_20260814195445",
@@ -510,40 +510,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "AVAX-USD_20260816213006",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 6.310999870300293,
-      "entry_time": "2026-08-16T21:30:06.527390+00:00",
-      "stop_loss_pct": 0.00386,
-      "take_profit_pct": 0.00882,
-      "size_usd": 2805.44,
-      "position_size_pct": 0.0266,
-      "confidence": 0.564,
-      "signals": [
-        "5d momentum -0.80%",
-        "1d momentum -2.74%",
-        "Volume spike 2.0\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.263,
-      "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-      ],
-      "mode": "paper",
-      "strategy_version": "89",
-      "status": "open",
-      "price_trough": 6.296000003814697,
-      "trailing_stop_price": 6.320303,
-      "current_price": 6.309,
-      "unrealized_pnl_pct": 0.000317,
-      "unrealized_pnl_usd": 0.89
-    },
-    {
       "id": "SOL-USD_20260816214747",
       "asset": "SOL-USD",
       "trade_type": "day",
@@ -573,9 +539,11 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "current_price": 74.309998,
-      "unrealized_pnl_pct": -0.000672,
-      "unrealized_pnl_usd": -3.94
+      "price_peak": 74.41999816894531,
+      "trailing_stop_price": 74.18111,
+      "current_price": 74.440002,
+      "unrealized_pnl_pct": 0.001076,
+      "unrealized_pnl_usd": 6.31
     },
     {
       "id": "XRP-USD_20260816214747",
@@ -607,9 +575,9 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "current_price": 0.9923,
-      "unrealized_pnl_pct": -0.001911,
-      "unrealized_pnl_usd": -4.98
+      "current_price": 0.9931,
+      "unrealized_pnl_pct": -0.001106,
+      "unrealized_pnl_usd": -2.88
     },
     {
       "id": "BNB-USD_20260816224807",
@@ -641,7 +609,42 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "current_price": 601.25,
+      "price_peak": 601.6599731445312,
+      "trailing_stop_price": 600.318271,
+      "current_price": 601.469971,
+      "unrealized_pnl_pct": 0.000366,
+      "unrealized_pnl_usd": 1.58
+    },
+    {
+      "id": "ETH-USD_20260816230027",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1873.3599853515625,
+      "entry_time": "2026-08-16T23:00:27.974967+00:00",
+      "stop_loss_pct": 0.0023,
+      "take_profit_pct": 0.00561,
+      "size_usd": 2803.31,
+      "position_size_pct": 0.0266,
+      "confidence": 0.874,
+      "signals": [
+        "RSI oversold (41.7)",
+        "5d momentum -0.55%",
+        "1d momentum -0.40%",
+        "BB oversold (pct_b=0.05)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.185,
+      "news_headlines": [
+        "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
+        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
+      ],
+      "mode": "paper",
+      "strategy_version": "90",
+      "status": "open",
+      "current_price": 1873.359985,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -690,27 +693,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.6874,
-      "price": 601.25,
-      "rsi": 17.915951972555746,
-      "momentum_5d": -0.007035407667783929,
-      "momentum_1d": -0.012190486008000642,
-      "macd_crossover": false,
-      "atr_pct": 0.002156232307599495,
-      "bollinger_pct_b": -0.2886,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.29,
-      "news_sentiment": 0.095,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "A Meme Coin Trader Turned $120 Into $205,000: Luck or Strategy?",
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VRTX",
       "rank_score": 0.6748,
       "price": 505.54998779296875,
@@ -732,48 +714,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.6682,
-      "price": 74.30999755859375,
-      "rsi": 22.999954223632812,
-      "momentum_5d": -0.011966514251224268,
-      "momentum_1d": -0.015891995016391932,
-      "macd_crossover": false,
-      "atr_pct": 0.0035276838919256343,
-      "bollinger_pct_b": -0.1667,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.36,
-      "news_sentiment": -0.163,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
-        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.6615,
-      "price": 0.9922999739646912,
-      "rsi": 26.553518209829775,
-      "momentum_5d": -0.007501552564433436,
-      "momentum_1d": -0.01086531062146157,
-      "macd_crossover": false,
-      "atr_pct": 0.0029512971062034734,
-      "bollinger_pct_b": -0.2996,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.5,
-      "news_sentiment": 0.152,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
-        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AVGO",
       "rank_score": 0.6439,
       "price": 393.04998779296875,
@@ -791,27 +731,6 @@
         "Wall Street\u2019s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the \u2018Smart Money?\u2019",
         "I Checked VIG's Top Holdings. They're Not What You'd Expect From a Dividend ETF.",
         "Stanley Druckenmiller\u2019s Big Bet: New Broadcom, Intel and Arm Stakes in One Quarter"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6252,
-      "price": 62702.671875,
-      "rsi": 32.146935579347726,
-      "momentum_5d": -0.006098495409735637,
-      "momentum_1d": -0.005692963052666072,
-      "macd_crossover": false,
-      "atr_pct": 0.0018435085697283704,
-      "bollinger_pct_b": -0.2612,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.57,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "HIVE reports 74% revenue jump in fiscal Q1 2027 earnings",
-        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP"
       ],
       "high_impact_news": true
     },
@@ -922,14 +841,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5606,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
+      "rank_score": 0.5618,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
       "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.7,
@@ -938,27 +857,6 @@
         "3 Bank Stocks Walking a Fine Line",
         "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
         "Dell Stock Rises as Wells Fargo Lifts Target to $545"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.5494,
-      "price": 1871.550048828125,
-      "rsi": 38.081324470487594,
-      "momentum_5d": -0.0061440302896589956,
-      "momentum_1d": -0.005858931617267304,
-      "macd_crossover": false,
-      "atr_pct": 0.002453281645471076,
-      "bollinger_pct_b": -0.1067,
-      "volume_spike": true,
-      "volume_spike_ratio": 7.33,
-      "news_sentiment": 0.185,
-      "news_confidence": 0.27,
-      "news_headlines": [
-        "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
-        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
       ],
       "high_impact_news": true
     },
@@ -1064,6 +962,111 @@
         "Sector Update: Energy Stocks Rise Friday",
         "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
         "Sector Update: Energy Stocks Rise Friday Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "VLO",
+      "rank_score": 0.5243,
+      "price": 341.7200012207031,
+      "rsi": 77.29215415082797,
+      "momentum_5d": -0.007334874674430109,
+      "momentum_1d": 0.059695475322137086,
+      "macd_crossover": false,
+      "atr_pct": 0.009357263987702744,
+      "bollinger_pct_b": 0.7112,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.36,
+      "news_sentiment": 0.66,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
+        "JPMorgan Chase: How To Limit Risk On A Stock That's Doing Well",
+        "Marathon Surges 51% After Q2 Results: Is the Stock Still a Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMZN",
+      "rank_score": 0.5139,
+      "price": 262.6600036621094,
+      "rsi": 20.8647400081839,
+      "momentum_5d": -0.0038682836847847043,
+      "momentum_1d": -0.03447980711231279,
+      "macd_crossover": false,
+      "atr_pct": 0.00580584541858147,
+      "bollinger_pct_b": 0.1183,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
+        "Amazon, Alphabet, and Microsoft Are Dropping Nearly $600 Billion on Capital Expenditures: 1 Clear Winner Emerges",
+        "As Oracle Deepens Its Partnership with AWS, Here\u2019s How You Should Play ORCL Stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RXRX",
+      "rank_score": 0.5083,
+      "price": 3.1649999618530273,
+      "rsi": 29.720984059547334,
+      "momentum_5d": -0.004717014021786209,
+      "momentum_1d": -0.043835567893724135,
+      "macd_crossover": false,
+      "atr_pct": 0.015129760187602872,
+      "bollinger_pct_b": 0.1155,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.679,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "These Are the Stocks Wall Street Is Betting Against the Most",
+        "Recursion (RXRX) Q2 2026 Earnings Call Transcript",
+        "The Biggest IPO of the Year Is Targeted in the Next 60 Days. Why One Unexpected Industry Could Rally Before Then (Hint: It\u2019s Not Tech)"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.4978,
+      "price": 150.33999633789062,
+      "rsi": 42.74433219206454,
+      "momentum_5d": -0.02058634307563111,
+      "momentum_1d": 0.03784173356026913,
+      "macd_crossover": false,
+      "atr_pct": 0.015639360212492688,
+      "bollinger_pct_b": 0.1766,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.08,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI",
+        "As Oracle Deepens Its Partnership with AWS, Here\u2019s How You Should Play ORCL Stock",
+        "1 Momentum  Stock to Target This Week and 2 We Avoid"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MA",
+      "rank_score": 0.4967,
+      "price": 569.260009765625,
+      "rsi": 76.53007721068269,
+      "momentum_5d": 0.0035611373775240327,
+      "momentum_1d": 0.008155387324689655,
+      "macd_crossover": false,
+      "atr_pct": 0.005388858830291199,
+      "bollinger_pct_b": 0.8234,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.556,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Visa (V) Drew Fresh Interest From Bill Ackman\u2019s Pershing Square",
+        "Billionaire Bill Ackman doubles down on these stocks in Q2",
+        "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs"
       ],
       "high_impact_news": true
     }
