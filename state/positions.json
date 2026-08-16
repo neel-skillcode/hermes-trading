@@ -478,38 +478,6 @@
     "price_trough": 0.06984999775886536,
     "trailing_stop_price": 0.06999
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260816163926",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 63275.44921875,
-    "entry_time": "2026-08-16T16:39:26.614162+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00474,
-    "size_usd": 4310.3,
-    "position_size_pct": 0.041,
-    "confidence": 0.737,
-    "signals": [
-      "RSI overbought (71.0)",
-      "5d momentum +0.52%",
-      "BB overbought (pct_b=1.37)",
-      "Volume spike 30.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.722,
-    "news_headlines": [
-      "Strategy (MSTR) Could Be Dropped From Global Indexes In Bitcoin Treasury Review",
-      "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
-      "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks."
-    ],
-    "mode": "paper",
-    "strategy_version": "89",
-    "status": "open",
-    "price_trough": 63079.80078125,
-    "trailing_stop_price": 63205.960383
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260816165846",
     "asset": "ETH-USD",
@@ -539,8 +507,8 @@
     "mode": "paper",
     "strategy_version": "89",
     "status": "open",
-    "price_trough": 1883.27001953125,
-    "trailing_stop_price": 1887.03656
+    "price_trough": 1882.1800537109375,
+    "trailing_stop_price": 1885.944414
   },
   "SOL-USD": {
     "id": "SOL-USD_20260816181904",
@@ -567,6 +535,35 @@
       "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
       "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
       "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+    ],
+    "mode": "paper",
+    "strategy_version": "89",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260816205022",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 604.5599975585938,
+    "entry_time": "2026-08-16T20:50:22.676361+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00474,
+    "size_usd": 4318.6,
+    "position_size_pct": 0.041,
+    "confidence": 0.741,
+    "signals": [
+      "5d momentum -0.34%",
+      "1d momentum -0.90%",
+      "BB oversold (pct_b=0.07)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.095,
+    "news_headlines": [
+      "A Meme Coin Trader Turned $120 Into $205,000: Luck or Strategy?",
+      "Why is Ethereum Price Stuck Below $2,000?",
+      "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?"
     ],
     "mode": "paper",
     "strategy_version": "89",
