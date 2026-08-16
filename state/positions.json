@@ -446,38 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260816041803",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 605.469970703125,
-    "entry_time": "2026-08-16T04:18:03.158071+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00499,
-    "size_usd": 4661.39,
-    "position_size_pct": 0.0443,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (26.3)",
-      "1d momentum -0.90%",
-      "BB oversold (pct_b=0.02)",
-      "Volume spike 1.8\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.2,
-    "news_headlines": [
-      "Why is Ethereum Price Stuck Below $2,000?",
-      "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-      "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
-    ],
-    "mode": "paper",
-    "strategy_version": "89",
-    "status": "open",
-    "price_peak": 607.0999755859375,
-    "trailing_stop_price": 605.885776
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260816153408",
     "asset": "DOGE-USD",
@@ -507,8 +475,8 @@
     "mode": "paper",
     "strategy_version": "89",
     "status": "open",
-    "price_trough": 0.06996999680995941,
-    "trailing_stop_price": 0.07011
+    "price_trough": 0.06984999775886536,
+    "trailing_stop_price": 0.06999
   },
   "BTC-USD": {
     "id": "BTC-USD_20260816163926",
@@ -539,8 +507,8 @@
     "mode": "paper",
     "strategy_version": "89",
     "status": "open",
-    "price_trough": 63195.73046875,
-    "trailing_stop_price": 63322.12193
+    "price_trough": 63079.80078125,
+    "trailing_stop_price": 63205.960383
   },
   "ETH-USD": {
     "id": "ETH-USD_20260816165846",
@@ -566,6 +534,38 @@
     "news_headlines": [
       "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
       "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
+      "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+    ],
+    "mode": "paper",
+    "strategy_version": "89",
+    "status": "open",
+    "price_trough": 1883.27001953125,
+    "trailing_stop_price": 1887.03656
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260816181904",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 75.06999969482422,
+    "entry_time": "2026-08-16T18:19:04.544887+00:00",
+    "stop_loss_pct": 0.00232,
+    "take_profit_pct": 0.00559,
+    "size_usd": 4660.59,
+    "position_size_pct": 0.0443,
+    "confidence": 0.806,
+    "signals": [
+      "RSI oversold (37.9)",
+      "1d momentum -0.54%",
+      "BB oversold (pct_b=-0.01)",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.179,
+    "news_headlines": [
+      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+      "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
       "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
     ],
     "mode": "paper",
