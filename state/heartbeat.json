@@ -3,15 +3,15 @@
   "portfolio_balance": 105245.17,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.46,
-  "unrealized_pnl_usd": 436.85,
-  "equity_value": 105682.02,
+  "unrealized_pnl_usd": 441.08,
+  "equity_value": 105686.25,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42098.07,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 1004,
-  "last_tick": "2026-08-16T11:19:46.953204+00:00",
+  "last_tick": "2026-08-16T11:39:43.008851+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -538,11 +538,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 62936.23046875,
-      "trailing_stop_price": 63062.10293,
-      "current_price": 62937.039062,
-      "unrealized_pnl_pct": 0.00255,
-      "unrealized_pnl_usd": 11.0
+      "price_trough": 62927.6484375,
+      "trailing_stop_price": 63053.503734,
+      "current_price": 62927.648438,
+      "unrealized_pnl_pct": 0.002699,
+      "unrealized_pnl_usd": 11.65
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -574,11 +574,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 6.367000102996826,
-      "trailing_stop_price": 6.328862,
-      "current_price": 6.367,
-      "unrealized_pnl_pct": 0.006004,
-      "unrealized_pnl_usd": 16.77
+      "price_peak": 6.366000175476074,
+      "trailing_stop_price": 6.327868,
+      "current_price": 6.366,
+      "unrealized_pnl_pct": 0.005846,
+      "unrealized_pnl_usd": 16.33
     },
     {
       "id": "DOGE-USD_20260816015015",
@@ -611,9 +611,9 @@
       "status": "open",
       "price_peak": 0.06978999823331833,
       "trailing_stop_price": 0.069623,
-      "current_price": 0.06974,
-      "unrealized_pnl_pct": 0.002588,
-      "unrealized_pnl_usd": 9.84
+      "current_price": 0.06977,
+      "unrealized_pnl_pct": 0.003019,
+      "unrealized_pnl_usd": 11.48
     },
     {
       "id": "BNB-USD_20260816041803",
@@ -644,11 +644,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 606.1599731445312,
-      "trailing_stop_price": 604.947653,
-      "current_price": 606.090027,
-      "unrealized_pnl_pct": 0.001024,
-      "unrealized_pnl_usd": 4.77
+      "price_peak": 606.4000244140625,
+      "trailing_stop_price": 605.187224,
+      "current_price": 606.400024,
+      "unrealized_pnl_pct": 0.001536,
+      "unrealized_pnl_usd": 7.16
     }
   ],
   "last_candidates": [
@@ -863,6 +863,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5554,
+      "price": 6.366000175476074,
+      "rsi": 27.472608087360683,
+      "momentum_5d": 0.006482271533175127,
+      "momentum_1d": -0.030459916194017386,
+      "macd_crossover": true,
+      "atr_pct": 0.0062497211173624815,
+      "bollinger_pct_b": 0.4293,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.26,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WFC",
       "rank_score": 0.5538,
       "price": 88.79000091552734,
@@ -901,6 +922,27 @@
         "QCOM: A Cash Gusher At A Marked-Down Price",
         "What Separates AVGO From Its Peers Right Now",
         "Broadcom Sinks 6% as BofA Flags $370B in AI Debt, AMD Climbs 4% on Baird\u2019s $1,250 Call"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.537,
+      "price": 62927.6484375,
+      "rsi": 25.11240510061178,
+      "momentum_5d": -0.0010488396908620353,
+      "momentum_1d": -0.00034266211604095563,
+      "macd_crossover": false,
+      "atr_pct": 0.0008746226467247596,
+      "bollinger_pct_b": 0.0238,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.75,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks.",
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
       ],
       "high_impact_news": true
     },
@@ -989,27 +1031,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5135,
-      "price": 6.367000102996826,
-      "rsi": 27.73728725070481,
-      "momentum_5d": 0.00664036284557125,
-      "momentum_1d": -0.030307627506372597,
-      "macd_crossover": true,
-      "atr_pct": 0.006248739608325072,
-      "bollinger_pct_b": 0.4326,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.11,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "RXRX",
       "rank_score": 0.5083,
       "price": 3.1649999618530273,
@@ -1048,27 +1069,6 @@
         "Billionaire Bill Ackman doubles down on these stocks in Q2",
         "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs",
         "Mastercard vs. Visa: One Fintech Giant Has the Stronger Growth Story"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMZN",
-      "rank_score": 0.4989,
-      "price": 262.6600036621094,
-      "rsi": 20.8647400081839,
-      "momentum_5d": -0.0038682836847847043,
-      "momentum_1d": -0.03447980711231279,
-      "macd_crossover": false,
-      "atr_pct": 0.00580584541858147,
-      "bollinger_pct_b": 0.1183,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.395,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "NiSource (NI): A Costly Quarter Masks A Bigger Bet",
-        "Open-Weight AI Won\u2019t Crimp Demand for Picks and Shovels",
-        "Amazon (AMZN) Stock Gets Fair Value Bump As AWS AI Demand Lifts Analyst Views"
       ],
       "high_impact_news": true
     }
