@@ -3,15 +3,15 @@
   "portfolio_balance": 105267.58,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 448.0,
-  "equity_value": 105715.58,
+  "unrealized_pnl_usd": 448.64,
+  "equity_value": 105716.22,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42107.03,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 1005,
-  "last_tick": "2026-08-16T15:34:08.828744+00:00",
+  "last_tick": "2026-08-16T15:52:25.639622+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -540,9 +540,9 @@
       "status": "open",
       "price_trough": 62996.96875,
       "trailing_stop_price": 63122.962688,
-      "current_price": 63063.75,
-      "unrealized_pnl_pct": 0.000542,
-      "unrealized_pnl_usd": 2.34
+      "current_price": 63061.148438,
+      "unrealized_pnl_pct": 0.000583,
+      "unrealized_pnl_usd": 2.52
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -574,11 +574,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 6.419000148773193,
-      "trailing_stop_price": 6.38055,
-      "current_price": 6.419,
-      "unrealized_pnl_pct": 0.01422,
-      "unrealized_pnl_usd": 39.72
+      "price_peak": 6.421000003814697,
+      "trailing_stop_price": 6.382538,
+      "current_price": 6.423,
+      "unrealized_pnl_pct": 0.014852,
+      "unrealized_pnl_usd": 41.49
     },
     {
       "id": "BNB-USD_20260816041803",
@@ -611,9 +611,9 @@
       "status": "open",
       "price_peak": 607.0999755859375,
       "trailing_stop_price": 605.885776,
-      "current_price": 606.960022,
-      "unrealized_pnl_pct": 0.002461,
-      "unrealized_pnl_usd": 11.47
+      "current_price": 606.719971,
+      "unrealized_pnl_pct": 0.002065,
+      "unrealized_pnl_usd": 9.62
     },
     {
       "id": "DOGE-USD_20260816153408",
@@ -644,9 +644,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 0.06998,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.06996999680995941,
+      "trailing_stop_price": 0.07011,
+      "current_price": 0.06997,
+      "unrealized_pnl_pct": 0.000143,
+      "unrealized_pnl_usd": 0.54
     }
   ],
   "last_candidates": [
@@ -756,6 +758,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.6016,
+      "price": 75.55000305175781,
+      "rsi": 58.474768047069475,
+      "momentum_5d": 0.004921558194733851,
+      "momentum_1d": 0.0013254619955018422,
+      "macd_crossover": true,
+      "atr_pct": 0.0023541697953891254,
+      "bollinger_pct_b": 0.8985,
+      "volume_spike": true,
+      "volume_spike_ratio": 9.63,
+      "news_sentiment": -0.179,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "RBLX",
       "rank_score": 0.5976,
       "price": 38.25,
@@ -861,15 +884,36 @@
       "high_impact_news": true
     },
     {
-      "asset": "WFC",
-      "rank_score": 0.5526,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
+      "asset": "BTC-USD",
+      "rank_score": 0.5751,
+      "price": 63061.1484375,
+      "rsi": 56.70346478685908,
+      "momentum_5d": 0.0019217773023484782,
+      "momentum_1d": 0.0006061160136668965,
       "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
+      "atr_pct": 0.0008239991480774515,
+      "bollinger_pct_b": 0.7919,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.42,
+      "news_sentiment": 0.722,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Strategy (MSTR) Could Be Dropped From Global Indexes In Bitcoin Treasury Review",
+        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "WFC",
+      "rank_score": 0.5538,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
+      "macd_crossover": true,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
@@ -987,23 +1031,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.5201,
-      "price": 75.48999786376953,
-      "rsi": 56.25,
-      "momentum_5d": 0.00412340459344755,
-      "momentum_1d": 0.0006627176662953101,
+      "asset": "XRP-USD",
+      "rank_score": 0.515,
+      "price": 1.0013999938964844,
+      "rsi": 55.33957547278999,
+      "momentum_5d": 0.002302036192683776,
+      "momentum_1d": 0.00019979344358407052,
       "macd_crossover": true,
-      "atr_pct": 0.0022992642109081586,
-      "bollinger_pct_b": 0.7908,
+      "atr_pct": 0.0018759545518364671,
+      "bollinger_pct_b": 0.648,
       "volume_spike": true,
-      "volume_spike_ratio": 3.17,
-      "news_sentiment": -0.179,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 5.13,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.33,
       "news_headlines": [
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
-        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
-        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go?",
+        "XRP Is Trading Near a 52-Week Low of $1. Here's What to Do if XRP Drops Below a Buck.",
+        "209-year-old bank reveals XRP holdings"
       ],
       "high_impact_news": true
     },
@@ -1025,48 +1069,6 @@
         "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
         "Peter Thiel invests $118 million in surging big tech stock",
         "At AI-Fueled Market Party, Wall Street Eyes the Rates Punch Bowl"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "RXRX",
-      "rank_score": 0.5083,
-      "price": 3.1649999618530273,
-      "rsi": 29.720984059547334,
-      "momentum_5d": -0.004717014021786209,
-      "momentum_1d": -0.043835567893724135,
-      "macd_crossover": false,
-      "atr_pct": 0.015129760187602872,
-      "bollinger_pct_b": 0.1155,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.679,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "These Are the Stocks Wall Street Is Betting Against the Most",
-        "Recursion (RXRX) Q2 2026 Earnings Call Transcript",
-        "The Biggest IPO of the Year Is Targeted in the Next 60 Days. Why One Unexpected Industry Could Rally Before Then (Hint: It\u2019s Not Tech)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5056,
-      "price": 0.06998000293970108,
-      "rsi": 71.42868003710068,
-      "momentum_5d": 0.004017220354173009,
-      "momentum_1d": -0.000285676546242933,
-      "macd_crossover": false,
-      "atr_pct": 0.0021740770758317315,
-      "bollinger_pct_b": 0.9542,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.43,
-      "news_sentiment": 0.081,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
-        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
-        "Billionaire buys rare art with Dogecoin"
       ],
       "high_impact_news": true
     }
