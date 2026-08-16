@@ -3,15 +3,15 @@
   "portfolio_balance": 105245.17,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.46,
-  "unrealized_pnl_usd": 406.37,
-  "equity_value": 105651.54,
+  "unrealized_pnl_usd": 409.68,
+  "equity_value": 105654.85,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42098.07,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 1004,
-  "last_tick": "2026-08-16T07:38:07.550391+00:00",
+  "last_tick": "2026-08-16T07:57:55.546169+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -538,11 +538,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 62993.51171875,
-      "trailing_stop_price": 63119.498742,
-      "current_price": 62993.511719,
-      "unrealized_pnl_pct": 0.001655,
-      "unrealized_pnl_usd": 7.14
+      "price_trough": 62991.08984375,
+      "trailing_stop_price": 63117.072023,
+      "current_price": 62991.089844,
+      "unrealized_pnl_pct": 0.001693,
+      "unrealized_pnl_usd": 7.31
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -576,9 +576,9 @@
       "status": "open",
       "price_peak": 6.343999862670898,
       "trailing_stop_price": 6.305999,
-      "current_price": 6.333,
-      "unrealized_pnl_pct": 0.000632,
-      "unrealized_pnl_usd": 1.77
+      "current_price": 6.328,
+      "unrealized_pnl_pct": -0.000158,
+      "unrealized_pnl_usd": -0.44
     },
     {
       "id": "DOGE-USD_20260816015015",
@@ -609,11 +609,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 0.06978999823331833,
-      "trailing_stop_price": 0.069623,
-      "current_price": 0.06975,
-      "unrealized_pnl_pct": 0.002732,
-      "unrealized_pnl_usd": 10.38
+      "price_peak": 0.0697999969124794,
+      "trailing_stop_price": 0.069632,
+      "current_price": 0.0698,
+      "unrealized_pnl_pct": 0.00345,
+      "unrealized_pnl_usd": 13.12
     },
     {
       "id": "BNB-USD_20260816041803",
@@ -644,9 +644,9 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 604.51001,
-      "unrealized_pnl_pct": -0.001585,
-      "unrealized_pnl_usd": -7.39
+      "current_price": 604.849976,
+      "unrealized_pnl_pct": -0.001024,
+      "unrealized_pnl_usd": -4.77
     }
   ],
   "last_candidates": [
@@ -861,15 +861,36 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.5564,
+      "price": 604.8499755859375,
+      "rsi": 18.42378013670327,
+      "momentum_5d": -0.0030164454274689396,
+      "momentum_1d": -0.009790025598932996,
+      "macd_crossover": false,
+      "atr_pct": 0.001828070721007878,
+      "bollinger_pct_b": 0.1214,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.23,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WFC",
-      "rank_score": 0.5526,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
+      "rank_score": 0.5538,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
       "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
@@ -1046,27 +1067,6 @@
         "Uber Stock Looks Cheap. Here\u2019s Why.",
         "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
         "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.4948,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.02,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Wix, AppLovin, Manhattan Associates, Strategy, and Oracle Shares Skyrocket, What You Need To Know",
-        "Nvidia Is Looking to Own Another Layer of the AI Ecosystem",
-        "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?"
       ],
       "high_impact_news": true
     }
