@@ -3,15 +3,15 @@
   "portfolio_balance": 105245.17,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.46,
-  "unrealized_pnl_usd": 441.08,
-  "equity_value": 105686.25,
+  "unrealized_pnl_usd": 433.35,
+  "equity_value": 105678.52,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42098.07,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 1004,
-  "last_tick": "2026-08-16T11:39:43.008851+00:00",
+  "last_tick": "2026-08-16T11:55:41.237073+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -538,11 +538,11 @@
       "mode": "paper",
       "strategy_version": "88",
       "status": "open",
-      "price_trough": 62927.6484375,
-      "trailing_stop_price": 63053.503734,
-      "current_price": 62927.648438,
-      "unrealized_pnl_pct": 0.002699,
-      "unrealized_pnl_usd": 11.65
+      "price_trough": 62920.55859375,
+      "trailing_stop_price": 63046.399711,
+      "current_price": 62920.550781,
+      "unrealized_pnl_pct": 0.002811,
+      "unrealized_pnl_usd": 12.13
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -574,11 +574,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 6.366000175476074,
-      "trailing_stop_price": 6.327868,
-      "current_price": 6.366,
-      "unrealized_pnl_pct": 0.005846,
-      "unrealized_pnl_usd": 16.33
+      "price_peak": 6.348999977111816,
+      "trailing_stop_price": 6.310969,
+      "current_price": 6.349,
+      "unrealized_pnl_pct": 0.00316,
+      "unrealized_pnl_usd": 8.83
     },
     {
       "id": "DOGE-USD_20260816015015",
@@ -611,9 +611,9 @@
       "status": "open",
       "price_peak": 0.06978999823331833,
       "trailing_stop_price": 0.069623,
-      "current_price": 0.06977,
-      "unrealized_pnl_pct": 0.003019,
-      "unrealized_pnl_usd": 11.48
+      "current_price": 0.06975,
+      "unrealized_pnl_pct": 0.002732,
+      "unrealized_pnl_usd": 10.38
     },
     {
       "id": "BNB-USD_20260816041803",
@@ -644,11 +644,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 606.4000244140625,
-      "trailing_stop_price": 605.187224,
-      "current_price": 606.400024,
-      "unrealized_pnl_pct": 0.001536,
-      "unrealized_pnl_usd": 7.16
+      "price_peak": 606.4500122070312,
+      "trailing_stop_price": 605.237112,
+      "current_price": 606.450012,
+      "unrealized_pnl_pct": 0.001619,
+      "unrealized_pnl_usd": 7.55
     }
   ],
   "last_candidates": [
@@ -842,6 +842,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5804,
+      "price": 6.348999977111816,
+      "rsi": 25.524479605191857,
+      "momentum_5d": 0.0037944930546121424,
+      "momentum_1d": -0.03304904175048475,
+      "macd_crossover": true,
+      "atr_pct": 0.006423959917653936,
+      "bollinger_pct_b": 0.3738,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.41,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LCID",
       "rank_score": 0.578,
       "price": 6.224999904632568,
@@ -863,23 +884,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5554,
-      "price": 6.366000175476074,
-      "rsi": 27.472608087360683,
-      "momentum_5d": 0.006482271533175127,
-      "momentum_1d": -0.030459916194017386,
-      "macd_crossover": true,
-      "atr_pct": 0.0062497211173624815,
-      "bollinger_pct_b": 0.4293,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.26,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
+      "asset": "BTC-USD",
+      "rank_score": 0.554,
+      "price": 62920.55078125,
+      "rsi": 24.564101947872487,
+      "momentum_5d": -0.001161512134890433,
+      "momentum_1d": -0.0004554142103630158,
+      "macd_crossover": false,
+      "atr_pct": 0.0008747213071912978,
+      "bollinger_pct_b": -0.0071,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.08,
+      "news_sentiment": 0.795,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks.",
+        "The Cavs' Tristan Thompson Told Teammates to Long Bitcoin: 'Stack Digital Gold, Buy it Every Day'"
       ],
       "high_impact_news": true
     },
@@ -922,27 +943,6 @@
         "QCOM: A Cash Gusher At A Marked-Down Price",
         "What Separates AVGO From Its Peers Right Now",
         "Broadcom Sinks 6% as BofA Flags $370B in AI Debt, AMD Climbs 4% on Baird\u2019s $1,250 Call"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.537,
-      "price": 62927.6484375,
-      "rsi": 25.11240510061178,
-      "momentum_5d": -0.0010488396908620353,
-      "momentum_1d": -0.00034266211604095563,
-      "macd_crossover": false,
-      "atr_pct": 0.0008746226467247596,
-      "bollinger_pct_b": 0.0238,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.75,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
-        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks.",
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
       ],
       "high_impact_news": true
     },
