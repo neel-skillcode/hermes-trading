@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105245.17,
+  "portfolio_balance": 105267.58,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.46,
-  "unrealized_pnl_usd": 468.7,
-  "equity_value": 105713.87,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 2.44,
+  "unrealized_pnl_usd": 446.4,
+  "equity_value": 105713.98,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42098.07,
+  "day_capital_used_usd": 38296.83,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1004,
-  "last_tick": "2026-08-16T14:31:05.344683+00:00",
+  "total_trades": 1005,
+  "last_tick": "2026-08-16T14:52:15.226174+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -540,9 +540,9 @@
       "status": "open",
       "price_trough": 62996.96875,
       "trailing_stop_price": 63122.962688,
-      "current_price": 63002.570312,
-      "unrealized_pnl_pct": 0.001511,
-      "unrealized_pnl_usd": 6.52
+      "current_price": 63031.871094,
+      "unrealized_pnl_pct": 0.001047,
+      "unrealized_pnl_usd": 4.52
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -574,46 +574,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 6.401000022888184,
-      "trailing_stop_price": 6.362658,
-      "current_price": 6.401,
-      "unrealized_pnl_pct": 0.011376,
-      "unrealized_pnl_usd": 31.78
-    },
-    {
-      "id": "DOGE-USD_20260816015015",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.06955999881029129,
-      "entry_time": "2026-08-16T01:50:15.195952+00:00",
-      "stop_loss_pct": 0.0024,
-      "take_profit_pct": 0.00585,
-      "size_usd": 3801.24,
-      "position_size_pct": 0.0361,
-      "confidence": 0.877,
-      "signals": [
-        "RSI oversold (34.3)",
-        "5d momentum -0.43%",
-        "BB oversold (pct_b=-0.05)",
-        "Volume spike 4.5\u00d7",
-        "High-impact catalyst",
-        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.081,
-      "news_headlines": [
-        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
-        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
-        "Billionaire buys rare art with Dogecoin"
-      ],
-      "mode": "paper",
-      "strategy_version": "89",
-      "status": "open",
-      "price_peak": 0.06994999945163727,
-      "trailing_stop_price": 0.069782,
-      "current_price": 0.06994,
-      "unrealized_pnl_pct": 0.005463,
-      "unrealized_pnl_usd": 20.77
+      "price_peak": 6.4070000648498535,
+      "trailing_stop_price": 6.368622,
+      "current_price": 6.408,
+      "unrealized_pnl_pct": 0.012482,
+      "unrealized_pnl_usd": 34.87
     },
     {
       "id": "BNB-USD_20260816041803",
@@ -644,11 +609,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 607.4500122070312,
-      "trailing_stop_price": 606.235112,
-      "current_price": 607.440002,
-      "unrealized_pnl_pct": 0.003254,
-      "unrealized_pnl_usd": 15.17
+      "price_peak": 607.0999755859375,
+      "trailing_stop_price": 605.885776,
+      "current_price": 607.099976,
+      "unrealized_pnl_pct": 0.002692,
+      "unrealized_pnl_usd": 12.55
     }
   ],
   "last_candidates": [
@@ -779,27 +744,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "HD",
-      "rank_score": 0.5901,
-      "price": 338.79998779296875,
-      "rsi": 32.38943301118411,
-      "momentum_5d": 0.0015223380442065317,
-      "momentum_1d": -0.045978617570193434,
-      "macd_crossover": false,
-      "atr_pct": 0.006174495338502826,
-      "bollinger_pct_b": 0.2164,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.595,
-      "news_confidence": 0.74,
-      "news_headlines": [
-        "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot",
-        "Bill Gates\u2019 Portfolio Just Added Home Depot (HD) Despite Risks. Time to Buy?",
-        "Home Depot and Lowe's Have Both Raised Their Dividends for 17 Straight Years. Which Stock Is the Smarter Buy Heading Into Earnings?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LLY",
       "rank_score": 0.5869,
       "price": 1180.6300048828125,
@@ -817,6 +761,27 @@
         "Eli Lilly\u2019s (LLY) Growth Story Keeps Adding Chapters",
         "Eli Lilly Is Building a Weight Loss Drug for Every Kind of Patient",
         "Eli Lilly\u2019s Weight-Loss Pill Just Got Its First Foothold in Europe"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HD",
+      "rank_score": 0.586,
+      "price": 338.79998779296875,
+      "rsi": 32.38943301118411,
+      "momentum_5d": 0.0015223380442065317,
+      "momentum_1d": -0.045978617570193434,
+      "macd_crossover": false,
+      "atr_pct": 0.006174495338502826,
+      "bollinger_pct_b": 0.2164,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "2 Dow Jones Stocks to Target This Week and 1 We Avoid",
+        "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot",
+        "Bill Gates\u2019 Portfolio Just Added Home Depot (HD) Despite Risks. Time to Buy?"
       ],
       "high_impact_news": true
     },
@@ -864,14 +829,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5538,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5526,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
