@@ -446,37 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260815175219",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 75.55000305175781,
-    "entry_time": "2026-08-15T17:52:19.632701+00:00",
-    "stop_loss_pct": 0.00224,
-    "take_profit_pct": 0.00526,
-    "size_usd": 4665.2,
-    "position_size_pct": 0.0443,
-    "confidence": 0.692,
-    "signals": [
-      "1d momentum +0.45%",
-      "BB overbought (pct_b=0.89)",
-      "Volume spike 2.7\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 3 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
-      "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls",
-      "Israel\u2019s Largest Bank Partners With Galaxy Digital To Offer Crypto Trading"
-    ],
-    "mode": "paper",
-    "strategy_version": "88",
-    "status": "open",
-    "price_trough": 75.29000091552734,
-    "trailing_stop_price": 75.458651
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260815225053",
     "asset": "BTC-USD",
@@ -539,8 +508,8 @@
     "mode": "paper",
     "strategy_version": "89",
     "status": "open",
-    "price_peak": 6.336999893188477,
-    "trailing_stop_price": 6.299041
+    "price_peak": 6.343999862670898,
+    "trailing_stop_price": 6.305999
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260816015015",
@@ -567,6 +536,38 @@
       "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
       "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
       "Billionaire buys rare art with Dogecoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "89",
+    "status": "open",
+    "price_peak": 0.06978999823331833,
+    "trailing_stop_price": 0.069623
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260816024841",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 606.8699951171875,
+    "entry_time": "2026-08-16T02:48:41.677067+00:00",
+    "stop_loss_pct": 0.0021,
+    "take_profit_pct": 0.00518,
+    "size_usd": 4665.69,
+    "position_size_pct": 0.0443,
+    "confidence": 0.937,
+    "signals": [
+      "RSI oversold (32.3)",
+      "5d momentum -0.44%",
+      "BB oversold (pct_b=0.06)",
+      "Volume spike 4.5\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "Why is Ethereum Price Stuck Below $2,000?",
+      "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+      "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
     ],
     "mode": "paper",
     "strategy_version": "89",

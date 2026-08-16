@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105254.69,
+  "portfolio_balance": 105255.93,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.45,
-  "unrealized_pnl_usd": 415.33,
-  "equity_value": 105670.02,
+  "unrealized_pnl_usd": 415.35,
+  "equity_value": 105671.28,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42101.88,
+  "day_capital_used_usd": 42102.37,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1002,
-  "last_tick": "2026-08-16T01:50:15.198272+00:00",
+  "total_trades": 1003,
+  "last_tick": "2026-08-16T02:48:41.680328+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 2,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -510,40 +510,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "SOL-USD_20260815175219",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 75.55000305175781,
-      "entry_time": "2026-08-15T17:52:19.632701+00:00",
-      "stop_loss_pct": 0.00224,
-      "take_profit_pct": 0.00526,
-      "size_usd": 4665.2,
-      "position_size_pct": 0.0443,
-      "confidence": 0.692,
-      "signals": [
-        "1d momentum +0.45%",
-        "BB overbought (pct_b=0.89)",
-        "Volume spike 2.7\u00d7",
-        "High-impact catalyst",
-        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 3 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [
-        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
-        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls",
-        "Israel\u2019s Largest Bank Partners With Galaxy Digital To Offer Crypto Trading"
-      ],
-      "mode": "paper",
-      "strategy_version": "88",
-      "status": "open",
-      "price_trough": 75.29000091552734,
-      "trailing_stop_price": 75.458651,
-      "current_price": 75.370003,
-      "unrealized_pnl_pct": 0.002383,
-      "unrealized_pnl_usd": 11.11
-    },
-    {
       "id": "BTC-USD_20260815225053",
       "asset": "BTC-USD",
       "trade_type": "day",
@@ -574,9 +540,9 @@
       "status": "open",
       "price_trough": 62996.96875,
       "trailing_stop_price": 63122.962688,
-      "current_price": 63000.589844,
-      "unrealized_pnl_pct": 0.001543,
-      "unrealized_pnl_usd": 6.66
+      "current_price": 63073.148438,
+      "unrealized_pnl_pct": 0.000393,
+      "unrealized_pnl_usd": 1.7
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -608,11 +574,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 6.336999893188477,
-      "trailing_stop_price": 6.299041,
-      "current_price": 6.336,
-      "unrealized_pnl_pct": 0.001106,
-      "unrealized_pnl_usd": 3.09
+      "price_peak": 6.343999862670898,
+      "trailing_stop_price": 6.305999,
+      "current_price": 6.344,
+      "unrealized_pnl_pct": 0.00237,
+      "unrealized_pnl_usd": 6.62
     },
     {
       "id": "DOGE-USD_20260816015015",
@@ -643,7 +609,42 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 0.06956,
+      "price_peak": 0.06978999823331833,
+      "trailing_stop_price": 0.069623,
+      "current_price": 0.06979,
+      "unrealized_pnl_pct": 0.003306,
+      "unrealized_pnl_usd": 12.57
+    },
+    {
+      "id": "BNB-USD_20260816024841",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 606.8699951171875,
+      "entry_time": "2026-08-16T02:48:41.677067+00:00",
+      "stop_loss_pct": 0.0021,
+      "take_profit_pct": 0.00518,
+      "size_usd": 4665.69,
+      "position_size_pct": 0.0443,
+      "confidence": 0.937,
+      "signals": [
+        "RSI oversold (32.3)",
+        "5d momentum -0.44%",
+        "BB oversold (pct_b=0.06)",
+        "Volume spike 4.5\u00d7",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: product catalyst; price surge"
+      ],
+      "news_sentiment": 0.2,
+      "news_headlines": [
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "mode": "paper",
+      "strategy_version": "89",
+      "status": "open",
+      "current_price": 606.869995,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -664,9 +665,9 @@
       "news_sentiment": 0.143,
       "news_confidence": 0.49,
       "news_headlines": [
+        "2 Financials Stocks to Keep an Eye On and 1 We Find Risky",
         "Breaking: PayPal Is \u201cIn Talks to Sell Itself\u201d After Rejecting Stripe\u2019s Initial $60.50 Bid in July",
-        "PayPal (PYPL) Is In Acquisition Talks At $53 Billion",
-        "Talks to sell PayPal to Stripe and Advent are heating up"
+        "PayPal (PYPL) Is In Acquisition Talks At $53 Billion"
       ],
       "high_impact_news": true
     },
@@ -776,27 +777,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "RBLX",
-      "rank_score": 0.5976,
-      "price": 38.25,
-      "rsi": 80.20136834209065,
-      "momentum_5d": -0.014175238347304006,
-      "momentum_1d": 0.04522472261486309,
-      "macd_crossover": false,
-      "atr_pct": 0.015718775303089984,
-      "bollinger_pct_b": 0.7306,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.77,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
-        "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
-        "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LLY",
       "rank_score": 0.5884,
       "price": 1180.6300048828125,
@@ -861,16 +841,16 @@
     },
     {
       "asset": "AVAX-USD",
-      "rank_score": 0.5609,
-      "price": 6.335999965667725,
-      "rsi": 14.285733366814299,
-      "momentum_5d": -0.02493077495796304,
-      "momentum_1d": -0.013852174696505218,
+      "rank_score": 0.576,
+      "price": 6.343999862670898,
+      "rsi": 12.772547260341128,
+      "momentum_5d": -0.02234550538163177,
+      "momentum_1d": -0.059869631536601346,
       "macd_crossover": false,
-      "atr_pct": 0.007158647965816779,
-      "bollinger_pct_b": -0.0217,
+      "atr_pct": 0.007194654450037133,
+      "bollinger_pct_b": 0.1125,
       "volume_spike": false,
-      "volume_spike_ratio": 0.99,
+      "volume_spike_ratio": 0.15,
       "news_sentiment": 0.263,
       "news_confidence": 0.38,
       "news_headlines": [
@@ -882,14 +862,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5526,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
+      "rank_score": 0.5538,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
       "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
@@ -940,27 +920,6 @@
         "SLB (SLB) Stock May Trade At A Discount On Cash Flow But Fairly On Earnings",
         "SLB (SLB) Is Considered a Good Investment by Brokers: Is That True?",
         "3 Cash-Producing Stocks with Open Questions"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5275,
-      "price": 0.06955999881029129,
-      "rsi": 34.28559264305177,
-      "momentum_5d": -0.004294269153037663,
-      "momentum_1d": -0.003152776515786892,
-      "macd_crossover": false,
-      "atr_pct": 0.002443931862961156,
-      "bollinger_pct_b": -0.05,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.51,
-      "news_sentiment": 0.081,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
-        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
-        "Billionaire buys rare art with Dogecoin"
       ],
       "high_impact_news": true
     },
@@ -1028,6 +987,23 @@
       "high_impact_news": true
     },
     {
+      "asset": "RBLX",
+      "rank_score": 0.5176,
+      "price": 38.25,
+      "rsi": 80.20136834209065,
+      "momentum_5d": -0.014175238347304006,
+      "momentum_1d": 0.04522472261486309,
+      "macd_crossover": false,
+      "atr_pct": 0.015718775303089984,
+      "bollinger_pct_b": 0.7306,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.77,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
       "asset": "RXRX",
       "rank_score": 0.5083,
       "price": 3.1649999618530273,
@@ -1049,23 +1025,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.4995,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
+      "asset": "BNB-USD",
+      "rank_score": 0.5039,
+      "price": 606.8699951171875,
+      "rsi": 32.32244926295327,
+      "momentum_5d": -0.004380324517510934,
+      "momentum_1d": -0.0016122077948680462,
       "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.116,
-      "news_confidence": 0.49,
+      "atr_pct": 0.0020762145717314997,
+      "bollinger_pct_b": 0.0555,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.54,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "Nvidia Is Looking to Own Another Layer of the AI Ecosystem",
-        "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?",
-        "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today"
+        "Why is Ethereum Price Stuck Below $2,000?",
+        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
+        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MA",
+      "rank_score": 0.5027,
+      "price": 569.260009765625,
+      "rsi": 76.53007721068269,
+      "momentum_5d": 0.0035611373775240327,
+      "momentum_1d": 0.008155387324689655,
+      "macd_crossover": false,
+      "atr_pct": 0.005388858830291199,
+      "bollinger_pct_b": 0.8234,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.756,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Billionaire Bill Ackman doubles down on these stocks in Q2",
+        "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs",
+        "Mastercard vs. Visa: One Fintech Giant Has the Stronger Growth Story"
       ],
       "high_impact_news": true
     }
