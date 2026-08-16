@@ -446,68 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260816153408",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.06998000293970108,
-    "entry_time": "2026-08-16T15:34:08.826041+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00474,
-    "size_usd": 3810.2,
-    "position_size_pct": 0.0362,
-    "confidence": 0.737,
-    "signals": [
-      "RSI overbought (71.4)",
-      "5d momentum +0.40%",
-      "BB overbought (pct_b=0.95)",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
-      "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
-      "Billionaire buys rare art with Dogecoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "89",
-    "status": "open",
-    "price_trough": 0.06973999738693237,
-    "trailing_stop_price": 0.069879
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260816181904",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 75.06999969482422,
-    "entry_time": "2026-08-16T18:19:04.544887+00:00",
-    "stop_loss_pct": 0.00232,
-    "take_profit_pct": 0.00559,
-    "size_usd": 4660.59,
-    "position_size_pct": 0.0443,
-    "confidence": 0.806,
-    "signals": [
-      "RSI oversold (37.9)",
-      "1d momentum -0.54%",
-      "BB oversold (pct_b=-0.01)",
-      "Volume spike 3.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.179,
-    "news_headlines": [
-      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
-      "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
-      "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
-    ],
-    "mode": "paper",
-    "strategy_version": "89",
-    "status": "open"
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260816205022",
     "asset": "BNB-USD",
@@ -564,6 +502,70 @@
     ],
     "mode": "paper",
     "strategy_version": "89",
+    "status": "open",
+    "price_trough": 6.296000003814697,
+    "trailing_stop_price": 6.320303
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260816214747",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74.36000061035156,
+    "entry_time": "2026-08-16T21:47:47.857569+00:00",
+    "stop_loss_pct": 0.00321,
+    "take_profit_pct": 0.00782,
+    "size_usd": 5862.79,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (22.5)",
+      "5d momentum -1.48%",
+      "1d momentum -1.58%",
+      "BB oversold (pct_b=-0.39)",
+      "Volume spike 6.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.179,
+    "news_headlines": [
+      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+      "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
+      "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+    ],
+    "mode": "paper",
+    "strategy_version": "90",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260816214747",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.9941999912261963,
+    "entry_time": "2026-08-16T21:47:47.859323+00:00",
+    "stop_loss_pct": 0.00269,
+    "take_profit_pct": 0.00665,
+    "size_usd": 2603.87,
+    "position_size_pct": 0.0247,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (28.3)",
+      "5d momentum -0.76%",
+      "1d momentum -0.91%",
+      "BB oversold (pct_b=-0.35)",
+      "Volume spike 5.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.312,
+    "news_headlines": [
+      "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
+      "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast?",
+      "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go?"
+    ],
+    "mode": "paper",
+    "strategy_version": "90",
     "status": "open"
   }
 }

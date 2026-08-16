@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105304.74,
+  "portfolio_balance": 105294.42,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.4,
-  "unrealized_pnl_usd": 395.89,
-  "equity_value": 105700.63,
+  "portfolio_drawdown_pct": 2.41,
+  "unrealized_pnl_usd": 394.21,
+  "equity_value": 105688.63,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42121.9,
+  "day_capital_used_usd": 42117.77,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1010,
-  "last_tick": "2026-08-16T21:30:07.047553+00:00",
-  "last_reflection": "2026-08-16",
-  "trades_since_last_reflection": 0,
+  "total_trades": 1012,
+  "last_tick": "2026-08-16T21:47:47.864461+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -510,74 +510,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "DOGE-USD_20260816153408",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.06998000293970108,
-      "entry_time": "2026-08-16T15:34:08.826041+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00474,
-      "size_usd": 3810.2,
-      "position_size_pct": 0.0362,
-      "confidence": 0.737,
-      "signals": [
-        "RSI overbought (71.4)",
-        "5d momentum +0.40%",
-        "BB overbought (pct_b=0.95)",
-        "Volume spike 2.4\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.081,
-      "news_headlines": [
-        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
-        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
-        "Billionaire buys rare art with Dogecoin"
-      ],
-      "mode": "paper",
-      "strategy_version": "89",
-      "status": "open",
-      "price_trough": 0.06973999738693237,
-      "trailing_stop_price": 0.069879,
-      "current_price": 0.06974,
-      "unrealized_pnl_pct": 0.00343,
-      "unrealized_pnl_usd": 13.07
-    },
-    {
-      "id": "SOL-USD_20260816181904",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 75.06999969482422,
-      "entry_time": "2026-08-16T18:19:04.544887+00:00",
-      "stop_loss_pct": 0.00232,
-      "take_profit_pct": 0.00559,
-      "size_usd": 4660.59,
-      "position_size_pct": 0.0443,
-      "confidence": 0.806,
-      "signals": [
-        "RSI oversold (37.9)",
-        "1d momentum -0.54%",
-        "BB oversold (pct_b=-0.01)",
-        "Volume spike 3.0\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": -0.179,
-      "news_headlines": [
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
-        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
-        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
-      ],
-      "mode": "paper",
-      "strategy_version": "89",
-      "status": "open",
-      "current_price": 74.910004,
-      "unrealized_pnl_pct": -0.002131,
-      "unrealized_pnl_usd": -9.93
-    },
-    {
       "id": "BNB-USD_20260816205022",
       "asset": "BNB-USD",
       "trade_type": "day",
@@ -605,9 +537,9 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 604.320007,
-      "unrealized_pnl_pct": -0.000397,
-      "unrealized_pnl_usd": -1.71
+      "current_price": 603.590027,
+      "unrealized_pnl_pct": -0.001604,
+      "unrealized_pnl_usd": -6.93
     },
     {
       "id": "AVAX-USD_20260816213006",
@@ -637,7 +569,77 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 6.311,
+      "price_trough": 6.296000003814697,
+      "trailing_stop_price": 6.320303,
+      "current_price": 6.296,
+      "unrealized_pnl_pct": 0.002377,
+      "unrealized_pnl_usd": 6.67
+    },
+    {
+      "id": "SOL-USD_20260816214747",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 74.36000061035156,
+      "entry_time": "2026-08-16T21:47:47.857569+00:00",
+      "stop_loss_pct": 0.00321,
+      "take_profit_pct": 0.00782,
+      "size_usd": 5862.79,
+      "position_size_pct": 0.0557,
+      "confidence": 0.87,
+      "signals": [
+        "RSI oversold (22.5)",
+        "5d momentum -1.48%",
+        "1d momentum -1.58%",
+        "BB oversold (pct_b=-0.39)",
+        "Volume spike 6.7\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": -0.179,
+      "news_headlines": [
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+      ],
+      "mode": "paper",
+      "strategy_version": "90",
+      "status": "open",
+      "current_price": 74.360001,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "XRP-USD_20260816214747",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.9941999912261963,
+      "entry_time": "2026-08-16T21:47:47.859323+00:00",
+      "stop_loss_pct": 0.00269,
+      "take_profit_pct": 0.00665,
+      "size_usd": 2603.87,
+      "position_size_pct": 0.0247,
+      "confidence": 0.95,
+      "signals": [
+        "RSI oversold (28.3)",
+        "5d momentum -0.76%",
+        "1d momentum -0.91%",
+        "BB oversold (pct_b=-0.35)",
+        "Volume spike 5.9\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: price decline"
+      ],
+      "news_sentiment": 0.312,
+      "news_headlines": [
+        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
+        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast?",
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go?"
+      ],
+      "mode": "paper",
+      "strategy_version": "90",
+      "status": "open",
+      "current_price": 0.9942,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -661,6 +663,27 @@
         "1 Unpopular Stock That Deserves a Second Chance and 2 That Underwhelm",
         "2 Financials Stocks to Keep an Eye On and 1 We Find Risky",
         "Breaking: PayPal Is \u201cIn Talks to Sell Itself\u201d After Rejecting Stripe\u2019s Initial $60.50 Bid in July"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.7388,
+      "price": 74.36000061035156,
+      "rsi": 22.45985377635617,
+      "momentum_5d": -0.014838403507823212,
+      "momentum_1d": -0.015751189852249284,
+      "macd_crossover": false,
+      "atr_pct": 0.0032851672476362907,
+      "bollinger_pct_b": -0.3898,
+      "volume_spike": true,
+      "volume_spike_ratio": 6.74,
+      "news_sentiment": -0.179,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
       ],
       "high_impact_news": true
     },
@@ -707,6 +730,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.6694,
+      "price": 0.9941999912261963,
+      "rsi": 28.31310592459606,
+      "momentum_5d": -0.007586294952929701,
+      "momentum_1d": -0.009070029668654478,
+      "macd_crossover": false,
+      "atr_pct": 0.0026439123216815273,
+      "bollinger_pct_b": -0.3538,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.9,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
+        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast?",
+        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AVGO",
       "rank_score": 0.6439,
       "price": 393.04998779296875,
@@ -745,6 +789,48 @@
         "1 Major Red Flag AMD Investors Can't Afford to Ignore",
         "AMD Turned $10,000 Into More Than $700,000 in a Decade. The S&P 500 Turned It Into About $42,000.",
         "Broadcom vs. AMD: Which AI Chip Stock Is the Better Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.6312,
+      "price": 0.0693499967455864,
+      "rsi": 28.703390707460926,
+      "momentum_5d": -0.008577594149456837,
+      "momentum_1d": -0.007726472758261654,
+      "macd_crossover": false,
+      "atr_pct": 0.00286330529871596,
+      "bollinger_pct_b": -0.257,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.57,
+      "news_sentiment": 0.081,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+        "Billionaire buys rare art with Dogecoin"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6017,
+      "price": 6.296000003814697,
+      "rsi": 43.70374033304311,
+      "momentum_5d": -0.010374093816399406,
+      "momentum_1d": -0.029742617419407796,
+      "macd_crossover": false,
+      "atr_pct": 0.00498048794510937,
+      "bollinger_pct_b": 0.043,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.98,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
       ],
       "high_impact_news": true
     },
@@ -791,27 +877,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "HD",
-      "rank_score": 0.586,
-      "price": 338.79998779296875,
-      "rsi": 32.38943301118411,
-      "momentum_5d": 0.0015223380442065317,
-      "momentum_1d": -0.045978617570193434,
-      "macd_crossover": false,
-      "atr_pct": 0.006174495338502826,
-      "bollinger_pct_b": 0.2164,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Walmart, Target, Home Depot, Fed Minutes, and More to Watch This Week",
-        "2 Dow Jones Stocks to Target This Week and 1 We Avoid",
-        "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HAL",
       "rank_score": 0.5853,
       "price": 34.415000915527344,
@@ -829,6 +894,27 @@
         "1 Profitable Stock for Long-Term Investors and 2 We Brush Off",
         "CRC Q2 Earnings Miss on Takeaway Constraints, Revenues Beat",
         "LNG Q2 Earnings Beat Estimates on Higher Volumes and Margins"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HD",
+      "rank_score": 0.585,
+      "price": 338.79998779296875,
+      "rsi": 32.38943301118411,
+      "momentum_5d": 0.0015223380442065317,
+      "momentum_1d": -0.045978617570193434,
+      "macd_crossover": false,
+      "atr_pct": 0.006174495338502826,
+      "bollinger_pct_b": 0.2164,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.565,
+      "news_confidence": 0.69,
+      "news_headlines": [
+        "Walmart, Target, Home Depot, Fed Minutes, and More to Watch This Week",
+        "Home Depot CEO Takes Medical Leave. What This Means for HD Stock Ahead of Earnings.",
+        "2 Dow Jones Stocks to Target This Week and 1 We Avoid"
       ],
       "high_impact_news": true
     },
@@ -896,6 +982,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.5423,
+      "price": 1873.22998046875,
+      "rsi": 39.652144236531925,
+      "momentum_5d": -0.007533959082886485,
+      "momentum_1d": -0.005257217711147128,
+      "macd_crossover": false,
+      "atr_pct": 0.0021582315895306674,
+      "bollinger_pct_b": -0.1086,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.46,
+      "news_sentiment": -0.037,
+      "news_confidence": 0.27,
+      "news_headlines": [
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SLB",
       "rank_score": 0.5349,
       "price": 53.76499938964844,
@@ -913,27 +1020,6 @@
         "SLB (SLB) Stock May Trade At A Discount On Cash Flow But Fairly On Earnings",
         "SLB (SLB) Is Considered a Good Investment by Brokers: Is That True?",
         "3 Cash-Producing Stocks with Open Questions"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5297,
-      "price": 6.310999870300293,
-      "rsi": 46.274514937095155,
-      "momentum_5d": -0.008016365662897715,
-      "momentum_1d": -0.027431033685838158,
-      "macd_crossover": false,
-      "atr_pct": 0.0046517448017819076,
-      "bollinger_pct_b": 0.1507,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.01,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
       ],
       "high_impact_news": true
     },
@@ -976,90 +1062,6 @@
         "Sector Update: Energy Stocks Rise Friday",
         "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
         "Sector Update: Energy Stocks Rise Friday Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "VLO",
-      "rank_score": 0.5243,
-      "price": 341.7200012207031,
-      "rsi": 77.29215415082797,
-      "momentum_5d": -0.007334874674430109,
-      "momentum_1d": 0.059695475322137086,
-      "macd_crossover": false,
-      "atr_pct": 0.009357263987702744,
-      "bollinger_pct_b": 0.7112,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.36,
-      "news_sentiment": 0.66,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets.",
-        "JPMorgan Chase: How To Limit Risk On A Stock That's Doing Well",
-        "Marathon Surges 51% After Q2 Results: Is the Stock Still a Buy?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMZN",
-      "rank_score": 0.5139,
-      "price": 262.6600036621094,
-      "rsi": 20.8647400081839,
-      "momentum_5d": -0.0038682836847847043,
-      "momentum_1d": -0.03447980711231279,
-      "macd_crossover": false,
-      "atr_pct": 0.00580584541858147,
-      "bollinger_pct_b": 0.1183,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.762,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
-        "Peter Thiel invests $118 million in surging big tech stock",
-        "At AI-Fueled Market Party, Wall Street Eyes the Rates Punch Bowl"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "RXRX",
-      "rank_score": 0.5083,
-      "price": 3.1649999618530273,
-      "rsi": 29.720984059547334,
-      "momentum_5d": -0.004717014021786209,
-      "momentum_1d": -0.043835567893724135,
-      "macd_crossover": false,
-      "atr_pct": 0.015129760187602872,
-      "bollinger_pct_b": 0.1155,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.679,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "These Are the Stocks Wall Street Is Betting Against the Most",
-        "Recursion (RXRX) Q2 2026 Earnings Call Transcript",
-        "The Biggest IPO of the Year Is Targeted in the Next 60 Days. Why One Unexpected Industry Could Rally Before Then (Hint: It\u2019s Not Tech)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LYFT",
-      "rank_score": 0.4981,
-      "price": 17.485000610351562,
-      "rsi": 93.20375764556432,
-      "momentum_5d": 0.009818080915421567,
-      "momentum_1d": -0.011308954573392913,
-      "macd_crossover": false,
-      "atr_pct": 0.010314548964074183,
-      "bollinger_pct_b": 0.867,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.933,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Uber Stock Looks Cheap. Here\u2019s Why.",
-        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
-        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
