@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105265.52,
+  "portfolio_balance": 105257.14,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 402.3,
-  "equity_value": 105667.82,
+  "portfolio_drawdown_pct": 2.45,
+  "unrealized_pnl_usd": 400.42,
+  "equity_value": 105657.56,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42106.21,
+  "day_capital_used_usd": 42102.86,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1014,
-  "last_tick": "2026-08-16T23:00:27.977699+00:00",
+  "total_trades": 1015,
+  "last_tick": "2026-08-16T23:27:49.085175+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.84641,
-      "unrealized_pnl_pct": 0.001546,
-      "unrealized_pnl_usd": 2.08
+      "current_price": 7.8466,
+      "unrealized_pnl_pct": 0.00157,
+      "unrealized_pnl_usd": 2.11
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.386970043182373,
       "trailing_stop_price": 1.398066,
-      "current_price": 1.38703,
-      "unrealized_pnl_pct": 0.015907,
-      "unrealized_pnl_usd": 106.57
+      "current_price": 1.387,
+      "unrealized_pnl_pct": 0.015928,
+      "unrealized_pnl_usd": 106.71
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85458,
-      "unrealized_pnl_pct": -0.000761,
-      "unrealized_pnl_usd": -5.3
+      "current_price": 0.85457,
+      "unrealized_pnl_pct": -0.000749,
+      "unrealized_pnl_usd": -5.22
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_trough": 9.431489944458008,
       "trailing_stop_price": 9.506942,
-      "current_price": 9.4322,
-      "unrealized_pnl_pct": 0.010579,
-      "unrealized_pnl_usd": 61.29
+      "current_price": 9.44171,
+      "unrealized_pnl_pct": 0.009581,
+      "unrealized_pnl_usd": 55.51
     },
     {
       "id": "GBP/USD_20260810092145",
@@ -164,9 +164,9 @@
       "status": "open",
       "price_trough": 1.3482176065444946,
       "trailing_stop_price": 1.359003,
-      "current_price": 1.353583,
-      "unrealized_pnl_pct": -0.002315,
-      "unrealized_pnl_usd": -9.74
+      "current_price": 1.354481,
+      "unrealized_pnl_pct": -0.00298,
+      "unrealized_pnl_usd": -12.54
     },
     {
       "id": "EUR/JPY_20260810201001",
@@ -196,9 +196,9 @@
       "status": "open",
       "price_peak": 184.36500549316406,
       "trailing_stop_price": 183.996275,
-      "current_price": 184.207993,
-      "unrealized_pnl_pct": 0.001827,
-      "unrealized_pnl_usd": 5.52
+      "current_price": 184.283005,
+      "unrealized_pnl_pct": 0.002235,
+      "unrealized_pnl_usd": 6.76
     },
     {
       "id": "COST_20260811153222",
@@ -367,9 +367,9 @@
       "status": "open",
       "price_trough": 114.4729995727539,
       "trailing_stop_price": 115.388784,
-      "current_price": 114.737,
-      "unrealized_pnl_pct": -0.00186,
-      "unrealized_pnl_usd": -8.31
+      "current_price": 114.787003,
+      "unrealized_pnl_pct": -0.002296,
+      "unrealized_pnl_usd": -10.26
     },
     {
       "id": "PYPL_20260814195445",
@@ -539,45 +539,11 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "price_peak": 74.41999816894531,
-      "trailing_stop_price": 74.18111,
-      "current_price": 74.440002,
-      "unrealized_pnl_pct": 0.001076,
-      "unrealized_pnl_usd": 6.31
-    },
-    {
-      "id": "XRP-USD_20260816214747",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.9941999912261963,
-      "entry_time": "2026-08-16T21:47:47.859323+00:00",
-      "stop_loss_pct": 0.00269,
-      "take_profit_pct": 0.00665,
-      "size_usd": 2603.87,
-      "position_size_pct": 0.0247,
-      "confidence": 0.95,
-      "signals": [
-        "RSI oversold (28.3)",
-        "5d momentum -0.76%",
-        "1d momentum -0.91%",
-        "BB oversold (pct_b=-0.35)",
-        "Volume spike 5.9\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: price decline"
-      ],
-      "news_sentiment": 0.312,
-      "news_headlines": [
-        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
-        "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered\u2019s $8 Billion Forecast?",
-        "XRP\u2019s $1 Support Hangs By a Thread. Where Does XRP Go?"
-      ],
-      "mode": "paper",
-      "strategy_version": "90",
-      "status": "open",
-      "current_price": 0.9931,
-      "unrealized_pnl_pct": -0.001106,
-      "unrealized_pnl_usd": -2.88
+      "price_peak": 74.45999908447266,
+      "trailing_stop_price": 74.220982,
+      "current_price": 74.459999,
+      "unrealized_pnl_pct": 0.001345,
+      "unrealized_pnl_usd": 7.88
     },
     {
       "id": "BNB-USD_20260816224807",
@@ -609,11 +575,11 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "price_peak": 601.6599731445312,
-      "trailing_stop_price": 600.318271,
-      "current_price": 601.469971,
-      "unrealized_pnl_pct": 0.000366,
-      "unrealized_pnl_usd": 1.58
+      "price_peak": 602.0800170898438,
+      "trailing_stop_price": 600.737379,
+      "current_price": 602.080017,
+      "unrealized_pnl_pct": 0.00138,
+      "unrealized_pnl_usd": 5.95
     },
     {
       "id": "ETH-USD_20260816230027",
@@ -644,7 +610,40 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "current_price": 1873.359985,
+      "current_price": 1872.23999,
+      "unrealized_pnl_pct": -0.000598,
+      "unrealized_pnl_usd": -1.68
+    },
+    {
+      "id": "BTC-USD_20260816232749",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 62778.55859375,
+      "entry_time": "2026-08-16T23:27:49.081426+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00494,
+      "size_usd": 2600.52,
+      "position_size_pct": 0.0247,
+      "confidence": 0.937,
+      "signals": [
+        "RSI oversold (39.7)",
+        "5d momentum -0.47%",
+        "BB oversold (pct_b=-0.08)",
+        "Volume spike 1.9\u00d7",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: analyst upgrade; fed dovish"
+      ],
+      "news_sentiment": 0.5,
+      "news_headlines": [
+        "HIVE reports 74% revenue jump in fiscal Q1 2027 earnings",
+        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP"
+      ],
+      "mode": "paper",
+      "strategy_version": "90",
+      "status": "open",
+      "current_price": 62778.558594,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -813,8 +812,8 @@
       "news_confidence": 0.69,
       "news_headlines": [
         "Walmart, Target, Home Depot, Fed Minutes, and More to Watch This Week",
-        "Home Depot CEO Takes Medical Leave. What This Means for HD Stock Ahead of Earnings.",
-        "2 Dow Jones Stocks to Target This Week and 1 We Avoid"
+        "Retail Earnings, Fed Minutes and Other Key Things to Watch this Week",
+        "Home Depot CEO Takes Medical Leave. What This Means for HD Stock Ahead of Earnings."
       ],
       "high_impact_news": true
     },
@@ -841,14 +840,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5618,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5606,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.7,
@@ -1002,8 +1001,29 @@
       "news_confidence": 0.42,
       "news_headlines": [
         "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
-        "Amazon, Alphabet, and Microsoft Are Dropping Nearly $600 Billion on Capital Expenditures: 1 Clear Winner Emerges",
-        "As Oracle Deepens Its Partnership with AWS, Here\u2019s How You Should Play ORCL Stock"
+        "Elon Musk and Jensen Huang\u2019s New Partnership Could Create the Next Era of Technology",
+        "Amazon, Alphabet, and Microsoft Are Dropping Nearly $600 Billion on Capital Expenditures: 1 Clear Winner Emerges"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5093,
+      "price": 62778.55859375,
+      "rsi": 39.74929398881909,
+      "momentum_5d": -0.00468860566080994,
+      "momentum_1d": -0.003811612898266966,
+      "macd_crossover": false,
+      "atr_pct": 0.0018963472061666725,
+      "bollinger_pct_b": -0.0789,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.89,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "HIVE reports 74% revenue jump in fiscal Q1 2027 earnings",
+        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+        "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP"
       ],
       "high_impact_news": true
     },
@@ -1046,27 +1066,6 @@
         "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI",
         "As Oracle Deepens Its Partnership with AWS, Here\u2019s How You Should Play ORCL Stock",
         "1 Momentum  Stock to Target This Week and 2 We Avoid"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MA",
-      "rank_score": 0.4967,
-      "price": 569.260009765625,
-      "rsi": 76.53007721068269,
-      "momentum_5d": 0.0035611373775240327,
-      "momentum_1d": 0.008155387324689655,
-      "macd_crossover": false,
-      "atr_pct": 0.005388858830291199,
-      "bollinger_pct_b": 0.8234,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Visa (V) Drew Fresh Interest From Bill Ackman\u2019s Pershing Square",
-        "Billionaire Bill Ackman doubles down on these stocks in Q2",
-        "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs"
       ],
       "high_impact_news": true
     }
