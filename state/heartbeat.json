@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105267.58,
+  "portfolio_balance": 105255.44,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 441.82,
-  "equity_value": 105709.4,
+  "portfolio_drawdown_pct": 2.45,
+  "unrealized_pnl_usd": 425.08,
+  "equity_value": 105680.53,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42107.03,
+  "day_capital_used_usd": 42102.18,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1005,
-  "last_tick": "2026-08-16T16:08:44.214742+00:00",
+  "total_trades": 1006,
+  "last_tick": "2026-08-16T16:39:26.618860+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 6,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -510,41 +510,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "BTC-USD_20260815225053",
-      "asset": "BTC-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 63097.94140625,
-      "entry_time": "2026-08-15T22:50:53.550095+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00481,
-      "size_usd": 4315.15,
-      "position_size_pct": 0.041,
-      "confidence": 0.806,
-      "signals": [
-        "RSI overbought (77.2)",
-        "1d momentum +0.45%",
-        "BB overbought (pct_b=0.96)",
-        "Volume spike 3.2\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": -0.243,
-      "news_headlines": [
-        "Could Bitcoin Ever Break the 21 Million Cap? Adam Back Says It\u2019s a Trap",
-        "Is Bitcoin a Buy at $63,000? We Asked 3 AI Models",
-        "Jim Cramer Is Selling His Bitcoin, Citing the Quantum Threat. Here's Why He's Wrong."
-      ],
-      "mode": "paper",
-      "strategy_version": "88",
-      "status": "open",
-      "price_trough": 62996.96875,
-      "trailing_stop_price": 63122.962688,
-      "current_price": 63068.71875,
-      "unrealized_pnl_pct": 0.000463,
-      "unrealized_pnl_usd": 2.0
-    },
-    {
       "id": "AVAX-USD_20260815233010",
       "asset": "AVAX-USD",
       "trade_type": "day",
@@ -576,9 +541,9 @@
       "status": "open",
       "price_peak": 6.419000148773193,
       "trailing_stop_price": 6.38055,
-      "current_price": 6.418,
-      "unrealized_pnl_pct": 0.014062,
-      "unrealized_pnl_usd": 39.28
+      "current_price": 6.378,
+      "unrealized_pnl_pct": 0.007742,
+      "unrealized_pnl_usd": 21.63
     },
     {
       "id": "BNB-USD_20260816041803",
@@ -611,9 +576,9 @@
       "status": "open",
       "price_peak": 607.0999755859375,
       "trailing_stop_price": 605.885776,
-      "current_price": 606.330017,
-      "unrealized_pnl_pct": 0.00142,
-      "unrealized_pnl_usd": 6.62
+      "current_price": 606.849976,
+      "unrealized_pnl_pct": 0.002279,
+      "unrealized_pnl_usd": 10.62
     },
     {
       "id": "DOGE-USD_20260816153408",
@@ -644,9 +609,42 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 0.06999,
-      "unrealized_pnl_pct": -0.000143,
-      "unrealized_pnl_usd": -0.54
+      "current_price": 0.07001,
+      "unrealized_pnl_pct": -0.000429,
+      "unrealized_pnl_usd": -1.63
+    },
+    {
+      "id": "BTC-USD_20260816163926",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 63275.44921875,
+      "entry_time": "2026-08-16T16:39:26.614162+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00474,
+      "size_usd": 4310.3,
+      "position_size_pct": 0.041,
+      "confidence": 0.737,
+      "signals": [
+        "RSI overbought (71.0)",
+        "5d momentum +0.52%",
+        "BB overbought (pct_b=1.37)",
+        "Volume spike 30.6\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: analyst upgrade"
+      ],
+      "news_sentiment": 0.722,
+      "news_headlines": [
+        "Strategy (MSTR) Could Be Dropped From Global Indexes In Bitcoin Treasury Review",
+        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks."
+      ],
+      "mode": "paper",
+      "strategy_version": "89",
+      "status": "open",
+      "current_price": 63275.449219,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -714,6 +712,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.6604,
+      "price": 63275.44921875,
+      "rsi": 71.00043058009533,
+      "momentum_5d": 0.005244693403910462,
+      "momentum_1d": 0.003988804126697896,
+      "macd_crossover": false,
+      "atr_pct": 0.0009519302937866307,
+      "bollinger_pct_b": 1.3654,
+      "volume_spike": true,
+      "volume_spike_ratio": 30.57,
+      "news_sentiment": 0.722,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Strategy (MSTR) Could Be Dropped From Global Indexes In Bitcoin Treasury Review",
+        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AVGO",
       "rank_score": 0.6439,
       "price": 393.04998779296875,
@@ -752,6 +771,27 @@
         "AMD Turned $10,000 Into More Than $700,000 in a Decade. The S&P 500 Turned It Into About $42,000.",
         "Broadcom vs. AMD: Which AI Chip Stock Is the Better Buy?",
         "These 5 AI Stocks Have Returned 300%-Plus Over the Past 3 Years -- and 1 Still Looks Dirt Cheap"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6277,
+      "price": 1889.300048828125,
+      "rsi": 69.26608377592945,
+      "momentum_5d": 0.005529809548850311,
+      "momentum_1d": 0.0032978153569562783,
+      "macd_crossover": false,
+      "atr_pct": 0.0013644542180358795,
+      "bollinger_pct_b": 1.3639,
+      "volume_spike": true,
+      "volume_spike_ratio": 6.77,
+      "news_sentiment": -0.037,
+      "news_confidence": 0.27,
+      "news_headlines": [
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
       ],
       "high_impact_news": true
     },
@@ -1025,48 +1065,6 @@
         "These Are the Stocks Wall Street Is Betting Against the Most",
         "Recursion (RXRX) Q2 2026 Earnings Call Transcript",
         "The Biggest IPO of the Year Is Targeted in the Next 60 Days. Why One Unexpected Industry Could Rally Before Then (Hint: It\u2019s Not Tech)"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.4998,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.115,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "1 Momentum  Stock to Target This Week and 2 We Avoid",
-        "Wix, AppLovin, Manhattan Associates, Strategy, and Oracle Shares Skyrocket, What You Need To Know",
-        "Nvidia Is Looking to Own Another Layer of the AI Ecosystem"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LYFT",
-      "rank_score": 0.4981,
-      "price": 17.485000610351562,
-      "rsi": 93.20375764556432,
-      "momentum_5d": 0.009818080915421567,
-      "momentum_1d": -0.011308954573392913,
-      "macd_crossover": false,
-      "atr_pct": 0.010314548964074183,
-      "bollinger_pct_b": 0.867,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.933,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Uber Stock Looks Cheap. Here\u2019s Why.",
-        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
-        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }

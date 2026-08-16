@@ -446,38 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260815225053",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 63097.94140625,
-    "entry_time": "2026-08-15T22:50:53.550095+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00481,
-    "size_usd": 4315.15,
-    "position_size_pct": 0.041,
-    "confidence": 0.806,
-    "signals": [
-      "RSI overbought (77.2)",
-      "1d momentum +0.45%",
-      "BB overbought (pct_b=0.96)",
-      "Volume spike 3.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": -0.243,
-    "news_headlines": [
-      "Could Bitcoin Ever Break the 21 Million Cap? Adam Back Says It\u2019s a Trap",
-      "Is Bitcoin a Buy at $63,000? We Asked 3 AI Models",
-      "Jim Cramer Is Selling His Bitcoin, Citing the Quantum Threat. Here's Why He's Wrong."
-    ],
-    "mode": "paper",
-    "strategy_version": "88",
-    "status": "open",
-    "price_trough": 62996.96875,
-    "trailing_stop_price": 63122.962688
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260815233010",
     "asset": "AVAX-USD",
@@ -568,6 +536,36 @@
       "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
       "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
       "Billionaire buys rare art with Dogecoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "89",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260816163926",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 63275.44921875,
+    "entry_time": "2026-08-16T16:39:26.614162+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00474,
+    "size_usd": 4310.3,
+    "position_size_pct": 0.041,
+    "confidence": 0.737,
+    "signals": [
+      "RSI overbought (71.0)",
+      "5d momentum +0.52%",
+      "BB overbought (pct_b=1.37)",
+      "Volume spike 30.6\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.722,
+    "news_headlines": [
+      "Strategy (MSTR) Could Be Dropped From Global Indexes In Bitcoin Treasury Review",
+      "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+      "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks."
     ],
     "mode": "paper",
     "strategy_version": "89",
