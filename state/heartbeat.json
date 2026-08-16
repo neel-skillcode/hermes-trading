@@ -3,15 +3,15 @@
   "portfolio_balance": 105267.58,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.44,
-  "unrealized_pnl_usd": 450.73,
-  "equity_value": 105718.31,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "unrealized_pnl_usd": 448.0,
+  "equity_value": 105715.58,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 38296.83,
+  "day_capital_used_usd": 42107.03,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 1005,
-  "last_tick": "2026-08-16T15:08:16.163878+00:00",
+  "last_tick": "2026-08-16T15:34:08.828744+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -540,9 +540,9 @@
       "status": "open",
       "price_trough": 62996.96875,
       "trailing_stop_price": 63122.962688,
-      "current_price": 63045.828125,
-      "unrealized_pnl_pct": 0.000826,
-      "unrealized_pnl_usd": 3.56
+      "current_price": 63063.75,
+      "unrealized_pnl_pct": 0.000542,
+      "unrealized_pnl_usd": 2.34
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -574,11 +574,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 6.416999816894531,
-      "trailing_stop_price": 6.378562,
-      "current_price": 6.417,
-      "unrealized_pnl_pct": 0.013904,
-      "unrealized_pnl_usd": 38.84
+      "price_peak": 6.419000148773193,
+      "trailing_stop_price": 6.38055,
+      "current_price": 6.419,
+      "unrealized_pnl_pct": 0.01422,
+      "unrealized_pnl_usd": 39.72
     },
     {
       "id": "BNB-USD_20260816041803",
@@ -609,11 +609,44 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 607.27001953125,
-      "trailing_stop_price": 606.055479,
-      "current_price": 607.27002,
-      "unrealized_pnl_pct": 0.002973,
-      "unrealized_pnl_usd": 13.86
+      "price_peak": 607.0999755859375,
+      "trailing_stop_price": 605.885776,
+      "current_price": 606.960022,
+      "unrealized_pnl_pct": 0.002461,
+      "unrealized_pnl_usd": 11.47
+    },
+    {
+      "id": "DOGE-USD_20260816153408",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.06998000293970108,
+      "entry_time": "2026-08-16T15:34:08.826041+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00474,
+      "size_usd": 3810.2,
+      "position_size_pct": 0.0362,
+      "confidence": 0.737,
+      "signals": [
+        "RSI overbought (71.4)",
+        "5d momentum +0.40%",
+        "BB overbought (pct_b=0.95)",
+        "Volume spike 2.4\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.081,
+      "news_headlines": [
+        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+        "Billionaire buys rare art with Dogecoin"
+      ],
+      "mode": "paper",
+      "strategy_version": "89",
+      "status": "open",
+      "current_price": 0.06998,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -682,7 +715,7 @@
     },
     {
       "asset": "AVGO",
-      "rank_score": 0.6489,
+      "rank_score": 0.6439,
       "price": 393.04998779296875,
       "rsi": 25.29331394414524,
       "momentum_5d": -0.0021326431852264835,
@@ -692,12 +725,12 @@
       "bollinger_pct_b": 0.1662,
       "volume_spike": true,
       "volume_spike_ratio": 2.05,
-      "news_sentiment": 0.872,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
       "news_headlines": [
+        "I Checked VIG's Top Holdings. They're Not What You'd Expect From a Dividend ETF.",
         "Stanley Druckenmiller\u2019s Big Bet: New Broadcom, Intel and Arm Stakes in One Quarter",
-        "At AI-Fueled Market Party, Wall Street Eyes the Rates Punch Bowl",
-        "Broadcom vs. AMD: Which AI Chip Stock Is the Better Buy?"
+        "At AI-Fueled Market Party, Wall Street Eyes the Rates Punch Bowl"
       ],
       "high_impact_news": true
     },
@@ -891,6 +924,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMAT",
+      "rank_score": 0.5286,
+      "price": 507.1099853515625,
+      "rsi": 24.015063286082594,
+      "momentum_5d": 0.0015602346656585755,
+      "momentum_1d": -0.03328444579155058,
+      "macd_crossover": false,
+      "atr_pct": 0.01867019243482957,
+      "bollinger_pct_b": 0.1728,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.09,
+      "news_sentiment": 0.7,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Applied Materials Trades More Than 25% Below Its High With Revenue at a Record",
+        "AMAT Q2 Deep Dive: AI Demand and Advanced Packaging Drive Guidance Upside, Market Reacts Cautiously",
+        "Applied Materials (AMAT) Stock: A Top AI Pick After Record Q3 Results"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5264,
       "price": 355.4100036621094,
@@ -933,23 +987,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMAT",
-      "rank_score": 0.5203,
-      "price": 507.1099853515625,
-      "rsi": 24.015063286082594,
-      "momentum_5d": 0.0015602346656585755,
-      "momentum_1d": -0.03328444579155058,
-      "macd_crossover": false,
-      "atr_pct": 0.01867019243482957,
-      "bollinger_pct_b": 0.1728,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.09,
-      "news_sentiment": 0.552,
-      "news_confidence": 0.61,
+      "asset": "SOL-USD",
+      "rank_score": 0.5201,
+      "price": 75.48999786376953,
+      "rsi": 56.25,
+      "momentum_5d": 0.00412340459344755,
+      "momentum_1d": 0.0006627176662953101,
+      "macd_crossover": true,
+      "atr_pct": 0.0022992642109081586,
+      "bollinger_pct_b": 0.7908,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.17,
+      "news_sentiment": -0.179,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "AMAT Q2 Deep Dive: AI Demand and Advanced Packaging Drive Guidance Upside, Market Reacts Cautiously",
-        "Applied Materials (AMAT) Stock: A Top AI Pick After Record Q3 Results",
-        "Stock Market Today, Aug. 14: Rally Stalls on Disappointing Consumer Data, Broadcom Falls 6%"
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMZN",
+      "rank_score": 0.5139,
+      "price": 262.6600036621094,
+      "rsi": 20.8647400081839,
+      "momentum_5d": -0.0038682836847847043,
+      "momentum_1d": -0.03447980711231279,
+      "macd_crossover": false,
+      "atr_pct": 0.00580584541858147,
+      "bollinger_pct_b": 0.1183,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "'Spending is leading to earnings': Wall Street strategists see payoff from Big Tech's AI investment",
+        "Peter Thiel invests $118 million in surging big tech stock",
+        "At AI-Fueled Market Party, Wall Street Eyes the Rates Punch Bowl"
       ],
       "high_impact_news": true
     },
@@ -975,65 +1050,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMZN",
-      "rank_score": 0.5059,
-      "price": 262.6600036621094,
-      "rsi": 20.8647400081839,
-      "momentum_5d": -0.0038682836847847043,
-      "momentum_1d": -0.03447980711231279,
+      "asset": "DOGE-USD",
+      "rank_score": 0.5056,
+      "price": 0.06998000293970108,
+      "rsi": 71.42868003710068,
+      "momentum_5d": 0.004017220354173009,
+      "momentum_1d": -0.000285676546242933,
       "macd_crossover": false,
-      "atr_pct": 0.00580584541858147,
-      "bollinger_pct_b": 0.1183,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
+      "atr_pct": 0.0021740770758317315,
+      "bollinger_pct_b": 0.9542,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.43,
+      "news_sentiment": 0.081,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "At AI-Fueled Market Party, Wall Street Eyes the Rates Punch Bowl",
-        "Peter Thiel\u2019s Second-Biggest Bet is Not a Tech Stock Anymore",
-        "NiSource (NI): A Costly Quarter Masks A Bigger Bet"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.4998,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.115,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "1 Momentum  Stock to Target This Week and 2 We Avoid",
-        "Wix, AppLovin, Manhattan Associates, Strategy, and Oracle Shares Skyrocket, What You Need To Know",
-        "Nvidia Is Looking to Own Another Layer of the AI Ecosystem"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LYFT",
-      "rank_score": 0.4981,
-      "price": 17.485000610351562,
-      "rsi": 93.20375764556432,
-      "momentum_5d": 0.009818080915421567,
-      "momentum_1d": -0.011308954573392913,
-      "macd_crossover": false,
-      "atr_pct": 0.010314548964074183,
-      "bollinger_pct_b": 0.867,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.2,
-      "news_sentiment": 0.933,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Uber Stock Looks Cheap. Here\u2019s Why.",
-        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
-        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
+        "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+        "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+        "Billionaire buys rare art with Dogecoin"
       ],
       "high_impact_news": true
     }
