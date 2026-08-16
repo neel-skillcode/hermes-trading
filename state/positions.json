@@ -446,37 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260815133727",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1881.1600341796875,
-    "entry_time": "2026-08-15T13:37:27.112336+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00456,
-    "size_usd": 3803.87,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "5d momentum +0.32%",
-      "1d momentum +0.74%",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.037,
-    "news_headlines": [
-      "Strategy, Metaplanet face MSCI exclusion Risk: What it means for crypto",
-      "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
-      "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
-    ],
-    "mode": "paper",
-    "strategy_version": "88",
-    "status": "open",
-    "price_peak": 1883.22998046875,
-    "trailing_stop_price": 1879.463521
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260815175219",
     "asset": "SOL-USD",
@@ -537,8 +506,8 @@
     "mode": "paper",
     "strategy_version": "88",
     "status": "open",
-    "price_trough": 63038.8515625,
-    "trailing_stop_price": 63164.929266
+    "price_trough": 62996.96875,
+    "trailing_stop_price": 63122.962688
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260815233010",
@@ -566,6 +535,38 @@
       "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
       "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
       "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+    ],
+    "mode": "paper",
+    "strategy_version": "89",
+    "status": "open",
+    "price_peak": 6.336999893188477,
+    "trailing_stop_price": 6.299041
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260816015015",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.06955999881029129,
+    "entry_time": "2026-08-16T01:50:15.195952+00:00",
+    "stop_loss_pct": 0.0024,
+    "take_profit_pct": 0.00585,
+    "size_usd": 3801.24,
+    "position_size_pct": 0.0361,
+    "confidence": 0.877,
+    "signals": [
+      "RSI oversold (34.3)",
+      "5d momentum -0.43%",
+      "BB oversold (pct_b=-0.05)",
+      "Volume spike 4.5\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It",
+      "XRP Holders Can Now Trade Options Using Flare\u2019s FXRP as Collateral",
+      "Billionaire buys rare art with Dogecoin"
     ],
     "mode": "paper",
     "strategy_version": "89",
