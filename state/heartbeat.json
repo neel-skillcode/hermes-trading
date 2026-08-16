@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105255.44,
+  "portfolio_balance": 105272.21,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.45,
-  "unrealized_pnl_usd": 425.08,
-  "equity_value": 105680.53,
+  "portfolio_drawdown_pct": 2.43,
+  "unrealized_pnl_usd": 412.14,
+  "equity_value": 105684.36,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42102.18,
+  "day_capital_used_usd": 42108.88,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1006,
-  "last_tick": "2026-08-16T16:39:26.618860+00:00",
+  "total_trades": 1007,
+  "last_tick": "2026-08-16T16:58:46.936881+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 7,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -510,42 +510,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "AVAX-USD_20260815233010",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 6.328999996185303,
-      "entry_time": "2026-08-15T23:30:10.275278+00:00",
-      "stop_loss_pct": 0.00599,
-      "take_profit_pct": 0.01481,
-      "size_usd": 2793.22,
-      "position_size_pct": 0.0265,
-      "confidence": 0.95,
-      "signals": [
-        "RSI oversold (10.8)",
-        "5d momentum -2.47%",
-        "1d momentum -2.18%",
-        "BB oversold (pct_b=-0.09)",
-        "Volume spike 2.9\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.263,
-      "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-      ],
-      "mode": "paper",
-      "strategy_version": "89",
-      "status": "open",
-      "price_peak": 6.419000148773193,
-      "trailing_stop_price": 6.38055,
-      "current_price": 6.378,
-      "unrealized_pnl_pct": 0.007742,
-      "unrealized_pnl_usd": 21.63
-    },
-    {
       "id": "BNB-USD_20260816041803",
       "asset": "BNB-USD",
       "trade_type": "day",
@@ -576,9 +540,9 @@
       "status": "open",
       "price_peak": 607.0999755859375,
       "trailing_stop_price": 605.885776,
-      "current_price": 606.849976,
-      "unrealized_pnl_pct": 0.002279,
-      "unrealized_pnl_usd": 10.62
+      "current_price": 606.98999,
+      "unrealized_pnl_pct": 0.00251,
+      "unrealized_pnl_usd": 11.7
     },
     {
       "id": "DOGE-USD_20260816153408",
@@ -609,9 +573,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 0.07001,
-      "unrealized_pnl_pct": -0.000429,
-      "unrealized_pnl_usd": -1.63
+      "price_trough": 0.06996999680995941,
+      "trailing_stop_price": 0.07011,
+      "current_price": 0.06997,
+      "unrealized_pnl_pct": 0.000143,
+      "unrealized_pnl_usd": 0.54
     },
     {
       "id": "BTC-USD_20260816163926",
@@ -642,7 +608,42 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 63275.449219,
+      "price_trough": 63195.73046875,
+      "trailing_stop_price": 63322.12193,
+      "current_price": 63195.738281,
+      "unrealized_pnl_pct": 0.00126,
+      "unrealized_pnl_usd": 5.43
+    },
+    {
+      "id": "ETH-USD_20260816165846",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1887.5799560546875,
+      "entry_time": "2026-08-16T16:58:46.934432+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00482,
+      "size_usd": 2799.92,
+      "position_size_pct": 0.0266,
+      "confidence": 0.817,
+      "signals": [
+        "RSI overbought (66.3)",
+        "5d momentum +0.46%",
+        "BB overbought (pct_b=1.29)",
+        "Volume spike 14.0\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": -0.037,
+      "news_headlines": [
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+      ],
+      "mode": "paper",
+      "strategy_version": "89",
+      "status": "open",
+      "current_price": 1887.579956,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -712,27 +713,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.6604,
-      "price": 63275.44921875,
-      "rsi": 71.00043058009533,
-      "momentum_5d": 0.005244693403910462,
-      "momentum_1d": 0.003988804126697896,
-      "macd_crossover": false,
-      "atr_pct": 0.0009519302937866307,
-      "bollinger_pct_b": 1.3654,
-      "volume_spike": true,
-      "volume_spike_ratio": 30.57,
-      "news_sentiment": 0.722,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Strategy (MSTR) Could Be Dropped From Global Indexes In Bitcoin Treasury Review",
-        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
-        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AVGO",
       "rank_score": 0.6439,
       "price": 393.04998779296875,
@@ -775,23 +755,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.6277,
-      "price": 1889.300048828125,
-      "rsi": 69.26608377592945,
-      "momentum_5d": 0.005529809548850311,
-      "momentum_1d": 0.0032978153569562783,
+      "asset": "BTC-USD",
+      "rank_score": 0.6005,
+      "price": 63195.73828125,
+      "rsi": 65.82239720034995,
+      "momentum_5d": 0.003978216711377259,
+      "momentum_1d": 0.002724158442241513,
       "macd_crossover": false,
-      "atr_pct": 0.0013644542180358795,
-      "bollinger_pct_b": 1.3639,
+      "atr_pct": 0.0009505702162983678,
+      "bollinger_pct_b": 1.2364,
       "volume_spike": true,
-      "volume_spike_ratio": 6.77,
-      "news_sentiment": -0.037,
-      "news_confidence": 0.27,
+      "volume_spike_ratio": 13.31,
+      "news_sentiment": 0.722,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
-        "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
-        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
+        "Strategy (MSTR) Could Be Dropped From Global Indexes In Bitcoin Treasury Review",
+        "Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.",
+        "Bitcoin Miner Riot Platforms Just Signed a $9 Billion Compute Deal With Anthropic. Why AI Is Now the Key to Valuing Bitcoin Mining Stocks."
       ],
       "high_impact_news": true
     },
@@ -813,6 +793,27 @@
         "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
         "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
         "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5929,
+      "price": 1887.5799560546875,
+      "rsi": 66.29113915355182,
+      "momentum_5d": 0.004614335820919279,
+      "momentum_1d": 0.002384373723970787,
+      "macd_crossover": false,
+      "atr_pct": 0.0013600250957616629,
+      "bollinger_pct_b": 1.2926,
+      "volume_spike": true,
+      "volume_spike_ratio": 13.97,
+      "news_sentiment": -0.037,
+      "news_confidence": 0.27,
+      "news_headlines": [
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
+        "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
+        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
       ],
       "high_impact_news": true
     },
@@ -902,22 +903,22 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5538,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5606,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
-      "news_sentiment": 0.63,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.7,
+      "news_confidence": 0.6,
       "news_headlines": [
+        "3 Bank Stocks Walking a Fine Line",
         "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
-        "Dell Stock Rises as Wells Fargo Lifts Target to $545",
-        "Wells Fargo downgrades Roku to equal weight after strong second quarter"
+        "Dell Stock Rises as Wells Fargo Lifts Target to $545"
       ],
       "high_impact_news": true
     },
