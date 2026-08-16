@@ -3,15 +3,15 @@
   "portfolio_balance": 105255.93,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.45,
-  "unrealized_pnl_usd": 415.35,
-  "equity_value": 105671.28,
+  "unrealized_pnl_usd": 418.13,
+  "equity_value": 105674.06,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42102.37,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 1003,
-  "last_tick": "2026-08-16T02:48:41.680328+00:00",
+  "last_tick": "2026-08-16T03:35:08.301606+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 3,
   "universe_scanned": 110,
@@ -540,9 +540,9 @@
       "status": "open",
       "price_trough": 62996.96875,
       "trailing_stop_price": 63122.962688,
-      "current_price": 63073.148438,
-      "unrealized_pnl_pct": 0.000393,
-      "unrealized_pnl_usd": 1.7
+      "current_price": 63052.480469,
+      "unrealized_pnl_pct": 0.00072,
+      "unrealized_pnl_usd": 3.11
     },
     {
       "id": "AVAX-USD_20260815233010",
@@ -574,11 +574,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 6.343999862670898,
-      "trailing_stop_price": 6.305999,
-      "current_price": 6.344,
-      "unrealized_pnl_pct": 0.00237,
-      "unrealized_pnl_usd": 6.62
+      "price_peak": 6.363999843597412,
+      "trailing_stop_price": 6.325879,
+      "current_price": 6.364,
+      "unrealized_pnl_pct": 0.00553,
+      "unrealized_pnl_usd": 15.45
     },
     {
       "id": "DOGE-USD_20260816015015",
@@ -611,9 +611,9 @@
       "status": "open",
       "price_peak": 0.06978999823331833,
       "trailing_stop_price": 0.069623,
-      "current_price": 0.06979,
-      "unrealized_pnl_pct": 0.003306,
-      "unrealized_pnl_usd": 12.57
+      "current_price": 0.06978,
+      "unrealized_pnl_pct": 0.003163,
+      "unrealized_pnl_usd": 12.02
     },
     {
       "id": "BNB-USD_20260816024841",
@@ -644,9 +644,9 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "current_price": 606.869995,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 605.969971,
+      "unrealized_pnl_pct": -0.001483,
+      "unrealized_pnl_usd": -6.92
     }
   ],
   "last_candidates": [
@@ -714,27 +714,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMD",
-      "rank_score": 0.645,
-      "price": 514.3699951171875,
-      "rsi": 73.01328339919806,
-      "momentum_5d": 0.026573934270767794,
-      "momentum_1d": 0.10313544750748131,
-      "macd_crossover": false,
-      "atr_pct": 0.014685470585146144,
-      "bollinger_pct_b": 1.0305,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.721,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Prediction: Even After Soaring 180%, a Stock Split Isn't on the Horizon for AMD. Here's Why.",
-        "AMD\u2019s $566 Million SpaceX Stake Raises a Bigger Question Than AI Chip Orders",
-        "Not Nvidia. Not AMD. This Chip Stock Will Be the Biggest Winner of the Historic AI Semiconductor Boom"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AVGO",
       "rank_score": 0.6406,
       "price": 393.04998779296875,
@@ -752,6 +731,27 @@
         "Bond Traders Are Agonizing Over $70 Billion of Shadow Credit Backstops For AI Companies",
         "Cisco vs. Broadcom: One Stock Looks Like the Better AI Play",
         "Review & Preview: Headline Fatigue"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.64,
+      "price": 514.3699951171875,
+      "rsi": 73.01328339919806,
+      "momentum_5d": 0.026573934270767794,
+      "momentum_1d": 0.10313544750748131,
+      "macd_crossover": false,
+      "atr_pct": 0.014685470585146144,
+      "bollinger_pct_b": 1.0305,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.21,
+      "news_sentiment": 0.65,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "AMD Just Borrowed $4.75 Billion, More Than Triple Its Last Bond Sale",
+        "Prediction: Even After Soaring 180%, a Stock Split Isn't on the Horizon for AMD. Here's Why.",
+        "AMD\u2019s $566 Million SpaceX Stake Raises a Bigger Question Than AI Chip Orders"
       ],
       "high_impact_news": true
     },
@@ -840,36 +840,15 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.576,
-      "price": 6.343999862670898,
-      "rsi": 12.772547260341128,
-      "momentum_5d": -0.02234550538163177,
-      "momentum_1d": -0.059869631536601346,
-      "macd_crossover": false,
-      "atr_pct": 0.007194654450037133,
-      "bollinger_pct_b": 0.1125,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.15,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "WFC",
-      "rank_score": 0.5538,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5526,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.63,
@@ -1025,27 +1004,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5039,
-      "price": 606.8699951171875,
-      "rsi": 32.32244926295327,
-      "momentum_5d": -0.004380324517510934,
-      "momentum_1d": -0.0016122077948680462,
-      "macd_crossover": false,
-      "atr_pct": 0.0020762145717314997,
-      "bollinger_pct_b": 0.0555,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.54,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?",
-        "Bitcoin Rally Fades\u2014Where Does Price Go Next?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MA",
       "rank_score": 0.5027,
       "price": 569.260009765625,
@@ -1063,6 +1021,48 @@
         "Billionaire Bill Ackman doubles down on these stocks in Q2",
         "3 of Bill Ackman's New Stock Picks Are Interesting: S&P Global Trades 28% Below Its High While Visa and Mastercard Sit Near Theirs",
         "Mastercard vs. Visa: One Fintech Giant Has the Stronger Growth Story"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.4995,
+      "price": 150.33999633789062,
+      "rsi": 42.74433219206454,
+      "momentum_5d": -0.02058634307563111,
+      "momentum_1d": 0.03784173356026913,
+      "macd_crossover": false,
+      "atr_pct": 0.015639360212492688,
+      "bollinger_pct_b": 0.1766,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.116,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Nvidia Is Looking to Own Another Layer of the AI Ecosystem",
+        "Alphabet vs. Oracle: Which Is the Better AI Stock to Own for the Next 5 Years?",
+        "If You'd Invested $10,000 in Oracle a Year Ago, Here's What It Would Be Worth Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LYFT",
+      "rank_score": 0.4981,
+      "price": 17.485000610351562,
+      "rsi": 93.20375764556432,
+      "momentum_5d": 0.009818080915421567,
+      "momentum_1d": -0.011308954573392913,
+      "macd_crossover": false,
+      "atr_pct": 0.010314548964074183,
+      "bollinger_pct_b": 0.867,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.2,
+      "news_sentiment": 0.933,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Uber Stock Looks Cheap. Here\u2019s Why.",
+        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
+        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
