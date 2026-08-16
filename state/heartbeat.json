@@ -3,15 +3,15 @@
   "portfolio_balance": 105270.21,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.43,
-  "unrealized_pnl_usd": 417.01,
-  "equity_value": 105687.22,
+  "unrealized_pnl_usd": 420.77,
+  "equity_value": 105690.98,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 42108.08,
   "swing_capital_used_usd": 51856.17,
   "total_trades": 1008,
-  "last_tick": "2026-08-16T19:32:02.830150+00:00",
+  "last_tick": "2026-08-16T19:48:18.491948+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -540,9 +540,9 @@
       "status": "open",
       "price_trough": 0.06984999775886536,
       "trailing_stop_price": 0.06999,
-      "current_price": 0.06998,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 0.06993,
+      "unrealized_pnl_pct": 0.000715,
+      "unrealized_pnl_usd": 2.72
     },
     {
       "id": "BTC-USD_20260816163926",
@@ -575,9 +575,9 @@
       "status": "open",
       "price_trough": 63079.80078125,
       "trailing_stop_price": 63205.960383,
-      "current_price": 63148.601562,
-      "unrealized_pnl_pct": 0.002005,
-      "unrealized_pnl_usd": 8.64
+      "current_price": 63105.808594,
+      "unrealized_pnl_pct": 0.002681,
+      "unrealized_pnl_usd": 11.56
     },
     {
       "id": "ETH-USD_20260816165846",
@@ -610,9 +610,9 @@
       "status": "open",
       "price_trough": 1883.27001953125,
       "trailing_stop_price": 1887.03656,
-      "current_price": 1885.73999,
-      "unrealized_pnl_pct": 0.000975,
-      "unrealized_pnl_usd": 2.73
+      "current_price": 1884.079956,
+      "unrealized_pnl_pct": 0.001854,
+      "unrealized_pnl_usd": 5.19
     },
     {
       "id": "SOL-USD_20260816181904",
@@ -643,11 +643,11 @@
       "mode": "paper",
       "strategy_version": "89",
       "status": "open",
-      "price_peak": 75.26000213623047,
-      "trailing_stop_price": 75.085399,
-      "current_price": 75.25,
-      "unrealized_pnl_pct": 0.002398,
-      "unrealized_pnl_usd": 11.18
+      "price_peak": 75.18000030517578,
+      "trailing_stop_price": 75.005583,
+      "current_price": 75.18,
+      "unrealized_pnl_pct": 0.001465,
+      "unrealized_pnl_usd": 6.83
     }
   ],
   "last_candidates": [
@@ -863,14 +863,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5618,
-      "price": 88.79000091552734,
-      "rsi": 47.50378005286303,
-      "momentum_5d": 0.0033335008733779187,
-      "momentum_1d": 0.013584502992403614,
+      "rank_score": 0.5606,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
       "macd_crossover": true,
-      "atr_pct": 0.005849529751858036,
-      "bollinger_pct_b": 0.7629,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.7,
@@ -1030,27 +1030,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5037,
-      "price": 1885.739990234375,
-      "rsi": 67.97162450840958,
-      "momentum_5d": 0.0023174400388262205,
-      "momentum_1d": 0.0017956208743893517,
-      "macd_crossover": false,
-      "atr_pct": 0.0015537720627291551,
-      "bollinger_pct_b": 0.985,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.48,
-      "news_sentiment": -0.037,
-      "news_confidence": 0.27,
-      "news_headlines": [
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
-        "Tom Lee's Bitmine Continues to Buy Ethereum, Now Holds 4.8% of Its Total Supply. Should Investors Follow His Lead and Buy ETH?",
-        "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ORCL",
       "rank_score": 0.4998,
       "price": 150.33999633789062,
@@ -1068,6 +1047,27 @@
         "1 Momentum  Stock to Target This Week and 2 We Avoid",
         "Wix, AppLovin, Manhattan Associates, Strategy, and Oracle Shares Skyrocket, What You Need To Know",
         "Nvidia Is Looking to Own Another Layer of the AI Ecosystem"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LYFT",
+      "rank_score": 0.4981,
+      "price": 17.485000610351562,
+      "rsi": 93.20375764556432,
+      "momentum_5d": 0.009818080915421567,
+      "momentum_1d": -0.011308954573392913,
+      "macd_crossover": false,
+      "atr_pct": 0.010314548964074183,
+      "bollinger_pct_b": 0.867,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.2,
+      "news_sentiment": 0.933,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Uber Stock Looks Cheap. Here\u2019s Why.",
+        "Lyft (LYFT) Q2 2026 Earnings Call Transcript",
+        "Lyft Director Janey Whiteside Sells 14,220 Shares at $17.00"
       ],
       "high_impact_news": true
     }
