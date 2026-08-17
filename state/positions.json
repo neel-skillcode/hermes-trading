@@ -320,39 +320,6 @@
     "price_trough": 114.4729995727539,
     "trailing_stop_price": 115.388784
   },
-  "PYPL": {
-    "id": "PYPL_20260814195445",
-    "asset": "PYPL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 61.93000030517578,
-    "entry_time": "2026-08-14T19:54:45.286979+00:00",
-    "stop_loss_pct": 0.00951,
-    "take_profit_pct": 0.02317,
-    "size_usd": 5862.5,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (78.4)",
-      "5d momentum +3.46%",
-      "1d momentum +5.10%",
-      "BB overbought (pct_b=1.18)",
-      "Volume spike 8.9\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; analyst upgrade; ma catalyst"
-    ],
-    "news_sentiment": 0.927,
-    "news_headlines": [
-      "PayPal Cost Savings: Will $1.5B Plan Reshape Profitability?",
-      "PayPal Grows Its Volume Every Year. Here's Why the Stock Doesn't Always Follow.",
-      "PayPal Stock Surged On A Profit Shift Management Had Already Spelled Out"
-    ],
-    "mode": "paper",
-    "strategy_version": "87",
-    "status": "open",
-    "price_trough": 60.525001525878906,
-    "trailing_stop_price": 61.100594
-  },
   "AMD": {
     "id": "AMD_20260814195445",
     "asset": "AMD",
@@ -411,8 +378,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 1.1590172052383423,
-    "trailing_stop_price": 1.161335
+    "price_trough": 1.1588828563690186,
+    "trailing_stop_price": 1.161201
   },
   "AUD/USD": {
     "id": "AUD/USD_20260817072739",
@@ -443,8 +410,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.7116931080818176,
-    "trailing_stop_price": 0.713116
+    "price_trough": 0.7113893628120422,
+    "trailing_stop_price": 0.712812
   },
   "NZD/USD": {
     "id": "NZD/USD_20260817085737",
@@ -474,8 +441,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.5912261605262756,
-    "trailing_stop_price": 0.592409
+    "price_trough": 0.591051459312439,
+    "trailing_stop_price": 0.592234
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260817104927",
@@ -597,6 +564,37 @@
       "Stock Market Today: Dow Falls, Oil Rises After Trump Oman Threat; Micron, Sandisk Extend Gains (Live Coverage)",
       "Broadcom Has Taken a Haircut Over 3 Months: One Analyst Expects 72% Returns From Here",
       "24/7 Wall St.\u2019s Lumentum Recommendation is Up More than 1000%. Here\u2019s Why the Stock Can Keep Rallying."
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open"
+  },
+  "NKE": {
+    "id": "NKE_20260817152621",
+    "asset": "NKE",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 39.35499954223633,
+    "entry_time": "2026-08-17T15:26:21.109081+00:00",
+    "stop_loss_pct": 0.00881,
+    "take_profit_pct": 0.02182,
+    "size_usd": 6387.54,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (25.6)",
+      "5d momentum -3.85%",
+      "1d momentum -4.56%",
+      "BB oversold (pct_b=-0.22)",
+      "Volume spike 1.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: macro risk"
+    ],
+    "news_sentiment": 0.063,
+    "news_headlines": [
+      "Stock Market Today: Dow Falls, Oil Rises After Trump Oman Threat; Micron, Sandisk Extend Gains (Live Coverage)",
+      "Tariff refunds are juicing corporate profits and GDP as more tailwinds converge to propel growth to a blistering 4.3% pace, top economist says",
+      "Bill Gates\u2019 Daughter Under Fire Over Reported \u2018Cookie Stuffing\u2019 Scheme at Her E-Commerce Startup\u2014What Is It?"
     ],
     "mode": "paper",
     "strategy_version": "91",
