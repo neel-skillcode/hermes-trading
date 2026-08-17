@@ -196,8 +196,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 266.4100036621094,
-    "trailing_stop_price": 271.309284
+    "price_trough": 265.42999267578125,
+    "trailing_stop_price": 270.31125
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -291,36 +291,6 @@
     "price_trough": 114.4729995727539,
     "trailing_stop_price": 115.388784
   },
-  "AMD": {
-    "id": "AMD_20260814195445",
-    "asset": "AMD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 510.3599853515625,
-    "entry_time": "2026-08-14T19:54:45.293273+00:00",
-    "stop_loss_pct": 0.01344,
-    "take_profit_pct": 0.03222,
-    "size_usd": 5350.38,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (71.3)",
-      "5d momentum +1.86%",
-      "1d momentum +9.45%",
-      "BB overbought (pct_b=0.95)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; price surge"
-    ],
-    "news_sentiment": 0.6,
-    "news_headlines": [
-      "Why Cloudflare and these 3 AI sub-sectors are 'the place to be' for tech investors",
-      "Kulicke and Soffa, AMD, Intel, and Nvidia Shares Are Soaring, What You Need To Know",
-      "AMD Stock Jumps 5.6% While $4.75 Billion Debt Deal Lands"
-    ],
-    "mode": "paper",
-    "strategy_version": "87",
-    "status": "open"
-  },
   "EUR/USD": {
     "id": "EUR/USD_20260817072739",
     "asset": "EUR/USD",
@@ -349,8 +319,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 1.1587486267089844,
-    "trailing_stop_price": 1.161066
+    "price_trough": 1.1583458185195923,
+    "trailing_stop_price": 1.160663
   },
   "AUD/USD": {
     "id": "AUD/USD_20260817072739",
@@ -381,8 +351,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.711186945438385,
-    "trailing_stop_price": 0.712609
+    "price_trough": 0.7108330726623535,
+    "trailing_stop_price": 0.712255
   },
   "NZD/USD": {
     "id": "NZD/USD_20260817085737",
@@ -412,8 +382,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.5908768773078918,
-    "trailing_stop_price": 0.592059
+    "price_trough": 0.5906674861907959,
+    "trailing_stop_price": 0.591849
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260817104927",
@@ -445,158 +415,153 @@
     "price_trough": 113.26499938964844,
     "trailing_stop_price": 113.491529
   },
-  "SOUN": {
-    "id": "SOUN_20260817143719",
-    "asset": "SOUN",
+  "SLB": {
+    "id": "SLB_20260817194640",
+    "asset": "SLB",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 6.994999885559082,
-    "entry_time": "2026-08-17T14:37:19.063230+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 5832.64,
-    "position_size_pct": 0.0556,
+    "entry_price": 53.755001068115234,
+    "entry_time": "2026-08-17T19:46:40.882005+00:00",
+    "stop_loss_pct": 0.00768,
+    "take_profit_pct": 0.01915,
+    "size_usd": 6666.4,
+    "position_size_pct": 0.0634,
     "confidence": 0.99,
     "signals": [
-      "RSI oversold (35.6)",
-      "5d momentum -5.98%",
-      "1d momentum -5.22%",
-      "BB oversold (pct_b=-0.12)",
-      "News +0.91 (conf 0.67) \u2192 long",
+      "RSI overbought (79.7)",
+      "MACD crossover",
+      "5d momentum +1.02%",
+      "1d momentum +1.73%",
+      "News +0.80 (conf 0.75) \u2192 long",
       "High-impact catalyst",
-      "Claude [strongly_supports]: ma catalyst"
+      "Claude [supports]: price decline"
     ],
-    "news_sentiment": 0.91,
+    "news_sentiment": 0.8,
     "news_headlines": [
-      "1 Growth Stock to Stash and 2 We Brush Off",
-      "AppLovin vs. SoundHound AI: Comparing Recent Revenue Growth Trajectories for These Tech Companies",
-      "C3.ai Remains Turbulent: Why One Of Wall Street\u2019s Most Outspoken Pros Expects 50% Returns From Here"
+      "SLB (SLB) Stock May Trade At A Discount On Cash Flow But Fairly On Earnings",
+      "SLB (SLB) Is Considered a Good Investment by Brokers: Is That True?",
+      "3 Cash-Producing Stocks with Open Questions"
     ],
     "mode": "paper",
-    "strategy_version": "91",
-    "status": "open",
-    "price_peak": 7.050099849700928,
-    "trailing_stop_price": 6.944348
-  },
-  "MRVL": {
-    "id": "MRVL_20260817145809",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 237.88499450683594,
-    "entry_time": "2026-08-17T14:58:09.737534+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5330.99,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (63.5)",
-      "5d momentum +8.32%",
-      "1d momentum +12.73%",
-      "BB overbought (pct_b=1.13)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.745,
-    "news_headlines": [
-      "Stock Market Today: Dow Falls, Oil Rises After Trump Oman Threat; Micron, Sandisk Extend Gains (Live Coverage)",
-      "Broadcom Has Taken a Haircut Over 3 Months: One Analyst Expects 72% Returns From Here",
-      "24/7 Wall St.\u2019s Lumentum Recommendation is Up More than 1000%. Here\u2019s Why the Stock Can Keep Rallying."
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
+    "strategy_version": "92",
     "status": "open"
   },
-  "MU": {
-    "id": "MU_20260817154920",
-    "asset": "MU",
+  "USO": {
+    "id": "USO_20260817194640",
+    "asset": "USO",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1027.93994140625,
-    "entry_time": "2026-08-17T15:49:20.644044+00:00",
-    "stop_loss_pct": 0.01368,
-    "take_profit_pct": 0.03279,
-    "size_usd": 4678.35,
-    "position_size_pct": 0.0445,
-    "confidence": 0.794,
+    "entry_price": 129.9600067138672,
+    "entry_time": "2026-08-17T19:46:40.883787+00:00",
+    "stop_loss_pct": 0.00657,
+    "take_profit_pct": 0.01621,
+    "size_usd": 6289.31,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
     "signals": [
-      "RSI overbought (73.6)",
-      "5d momentum +6.93%",
-      "1d momentum +18.41%",
-      "BB overbought (pct_b=1.00)",
+      "RSI overbought (97.0)",
+      "5d momentum +2.26%",
+      "1d momentum +2.28%",
+      "BB overbought (pct_b=0.98)",
       "High-impact catalyst",
-      "Claude [contradicts]: price surge"
+      "Claude [supports]: fed hawkish"
     ],
-    "news_sentiment": 0.674,
+    "news_sentiment": 0.0,
     "news_headlines": [
-      "Tech searches for gains as stocks teeter at the open: AlphaCheck",
-      "Micron stock heats up again, crossing $1,000",
-      "Stock Market Today: Dow Falls After Trump Oman Threat; Homebuilders Decline Despite This Data (Live Coverage)"
+      "Sector Update: Energy Stocks Edge Higher Premarket Monday",
+      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday Amid Lower Rate Hike Expectations",
+      "'Economic Isolation' for Iran? ETFs to Gain/Lose"
     ],
     "mode": "paper",
     "strategy_version": "92",
     "status": "open"
   },
   "RIVN": {
-    "id": "RIVN_20260817164433",
+    "id": "RIVN_20260817194640",
     "asset": "RIVN",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 14.859999656677246,
-    "entry_time": "2026-08-17T16:44:33.957590+00:00",
-    "stop_loss_pct": 0.01287,
-    "take_profit_pct": 0.03175,
-    "size_usd": 3028.64,
-    "position_size_pct": 0.0288,
+    "entry_price": 14.798999786376953,
+    "entry_time": "2026-08-17T19:46:40.885781+00:00",
+    "stop_loss_pct": 0.01301,
+    "take_profit_pct": 0.03209,
+    "size_usd": 6289.31,
+    "position_size_pct": 0.0598,
     "confidence": 0.934,
     "signals": [
-      "RSI oversold (17.3)",
-      "5d momentum -4.19%",
-      "1d momentum -7.96%",
-      "BB oversold (pct_b=0.03)",
+      "RSI oversold (16.7)",
+      "5d momentum -1.04%",
+      "1d momentum -7.07%",
+      "BB oversold (pct_b=0.15)",
       "High-impact catalyst",
       "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.6,
+    "news_sentiment": 0.68,
     "news_headlines": [
-      "Rivian Closes the Self-Driving Gap With Tesla",
-      "3 Critical Things Investors Overlooked in Rivian's Strong Q2",
-      "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target"
+      "Rivian Drops 25% This Year With $164M of Credits Vanishing in the Second Half",
+      "Tesla Batters Rivian in Self-Driving Test",
+      "Rivian Closes the Self-Driving Gap With Tesla"
     ],
     "mode": "paper",
     "strategy_version": "92",
-    "status": "open",
-    "price_peak": 14.880000114440918,
-    "trailing_stop_price": 14.688495
+    "status": "open"
   },
-  "MRNA": {
-    "id": "MRNA_20260817170823",
-    "asset": "MRNA",
+  "NKE": {
+    "id": "NKE_20260817194640",
+    "asset": "NKE",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 65.29000091552734,
-    "entry_time": "2026-08-17T17:08:23.105414+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03569,
-    "size_usd": 5099.8,
-    "position_size_pct": 0.0486,
-    "confidence": 0.759,
+    "direction": "long",
+    "entry_price": 39.154998779296875,
+    "entry_time": "2026-08-17T19:46:40.887241+00:00",
+    "stop_loss_pct": 0.00776,
+    "take_profit_pct": 0.01834,
+    "size_usd": 4875.23,
+    "position_size_pct": 0.0463,
+    "confidence": 0.724,
     "signals": [
-      "RSI overbought (60.5)",
-      "MACD crossover",
-      "5d momentum +3.58%",
-      "1d momentum +5.72%",
-      "BB overbought (pct_b=0.96)",
-      "News +0.71 (conf 0.63) \u2192 long",
+      "RSI oversold (12.6)",
+      "5d momentum -0.66%",
+      "1d momentum -3.84%",
+      "BB oversold (pct_b=0.15)",
       "High-impact catalyst",
-      "Claude [contradicts]: product catalyst"
+      "Claude [strongly_contradicts]: price surge; macro risk; price decline"
     ],
-    "news_sentiment": 0.714,
+    "news_sentiment": 0.208,
     "news_headlines": [
-      "Option Volatility And Earnings Report For Aug 17-21",
-      "FDA nod is just the first hurdle for Moderna\u2019s potential blockbuster flu vax",
-      "Moderna (MRNA): Buy, Sell, or Hold Post Q2 Earnings?"
+      "Nike's stock plunge is relentless",
+      "Where Nipsey Hussle Once Sold Mixtapes, Foot Locker And Nike Are Now Investing In Crenshaw Youth",
+      "What Does Nike (NKE) Cookie Stuffing Exposure Mean For Investors?"
+    ],
+    "mode": "paper",
+    "strategy_version": "92",
+    "status": "open"
+  },
+  "WFC": {
+    "id": "WFC_20260817194640",
+    "asset": "WFC",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 87.66999816894531,
+    "entry_time": "2026-08-17T19:46:40.888625+00:00",
+    "stop_loss_pct": 0.00577,
+    "take_profit_pct": 0.01439,
+    "size_usd": 6549.88,
+    "position_size_pct": 0.0623,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (42.3)",
+      "5d momentum -1.15%",
+      "1d momentum -1.07%",
+      "BB oversold (pct_b=-0.05)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade; analyst downgrade"
+    ],
+    "news_sentiment": 0.837,
+    "news_headlines": [
+      "Wells Fargo Sees Up to 52% Upside in 2 Stocks",
+      "Wells Fargo's NII Outlook: Can It Achieve the $50B Target in 2026?",
+      "Why This Former Wells Fargo Executive Launched an Independent RIA"
     ],
     "mode": "paper",
     "strategy_version": "92",
