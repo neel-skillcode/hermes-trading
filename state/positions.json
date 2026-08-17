@@ -161,8 +161,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_peak": 184.42599487304688,
-    "trailing_stop_price": 184.057143
+    "price_peak": 184.5489959716797,
+    "trailing_stop_price": 184.179898
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -475,8 +475,8 @@
     "mode": "paper",
     "strategy_version": "90",
     "status": "open",
-    "price_trough": 1900.77001953125,
-    "trailing_stop_price": 1908.468138
+    "price_trough": 1893.3299560546875,
+    "trailing_stop_price": 1900.997942
   },
   "BTC-USD": {
     "id": "BTC-USD_20260817042112",
@@ -506,35 +506,9 @@
     ],
     "mode": "paper",
     "strategy_version": "90",
-    "status": "open"
-  },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260817050307",
-    "asset": "AUD/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 112.99600219726562,
-    "entry_time": "2026-08-17T05:03:07.306130+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00471,
-    "size_usd": 54.92,
-    "position_size_pct": 0.0005,
-    "confidence": 0.713,
-    "signals": [
-      "RSI overbought (64.0)",
-      "1d momentum +0.41%",
-      "BB overbought (pct_b=0.87)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
-      "Further Strength for the Australian Dollar After Higher Inflation"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open"
+    "status": "open",
+    "price_trough": 63336.94140625,
+    "trailing_stop_price": 63521.251906
   },
   "EUR/USD": {
     "id": "EUR/USD_20260817072739",
@@ -563,7 +537,9 @@
     ],
     "mode": "paper",
     "strategy_version": "91",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.1599582433700562,
+    "trailing_stop_price": 1.162278
   },
   "AUD/USD": {
     "id": "AUD/USD_20260817072739",
@@ -590,6 +566,37 @@
       "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
       "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
       "Dollar Mostly Flat After Inflation Meets Expectations"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open",
+    "price_trough": 0.7120985388755798,
+    "trailing_stop_price": 0.713523
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260817085737",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.5920312404632568,
+    "entry_time": "2026-08-17T08:57:37.960537+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00463,
+    "size_usd": 54.87,
+    "position_size_pct": 0.0005,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (80.4)",
+      "1d momentum +0.73%",
+      "BB overbought (pct_b=0.88)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.382,
+    "news_headlines": [
+      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
+      "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
+      "US Dollar In Uptrend Despite Pullback"
     ],
     "mode": "paper",
     "strategy_version": "91",
