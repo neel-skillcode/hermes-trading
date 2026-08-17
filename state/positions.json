@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3856799602508545,
-    "trailing_stop_price": 1.396765
+    "price_trough": 1.3846999406814575,
+    "trailing_stop_price": 1.395778
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.413189888000488,
-    "trailing_stop_price": 9.488495
+    "price_trough": 9.412890434265137,
+    "trailing_stop_price": 9.488194
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -161,8 +161,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_peak": 184.5489959716797,
-    "trailing_stop_price": 184.179898
+    "price_peak": 184.6490020751953,
+    "trailing_stop_price": 184.279704
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -225,8 +225,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 272.20001220703125,
-    "trailing_stop_price": 277.20577
+    "price_trough": 266.94000244140625,
+    "trailing_stop_price": 271.849029
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -256,8 +256,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 76.11000061035156,
-    "trailing_stop_price": 73.806151
+    "price_peak": 76.27999877929688,
+    "trailing_stop_price": 73.971003
   },
   "SOFI": {
     "id": "SOFI_20260813142500",
@@ -350,41 +350,8 @@
     "mode": "paper",
     "strategy_version": "87",
     "status": "open",
-    "price_trough": 61.65999984741211,
-    "trailing_stop_price": 62.246386
-  },
-  "RIVN": {
-    "id": "RIVN_20260814195445",
-    "asset": "RIVN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 15.354999542236328,
-    "entry_time": "2026-08-14T19:54:45.288468+00:00",
-    "stop_loss_pct": 0.01112,
-    "take_profit_pct": 0.02751,
-    "size_usd": 6401.58,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (26.2)",
-      "5d momentum -0.90%",
-      "1d momentum -5.54%",
-      "BB oversold (pct_b=-0.06)",
-      "Volume spike 1.5\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.422,
-    "news_headlines": [
-      "Prediction: Will Lucid Stock Double This Year?",
-      "Why Is Rivian Worth As Much As Stellantis?  It Isn\u2019t",
-      "Rivian Automotive Stock's Real Risk Is A Back-Loaded Year"
-    ],
-    "mode": "paper",
-    "strategy_version": "87",
-    "status": "open",
-    "price_peak": 15.359999656677246,
-    "trailing_stop_price": 15.189196
+    "price_trough": 60.525001525878906,
+    "trailing_stop_price": 61.100594
   },
   "LCID": {
     "id": "LCID_20260814195445",
@@ -506,8 +473,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.7120985388755798,
-    "trailing_stop_price": 0.713523
+    "price_trough": 0.7118450999259949,
+    "trailing_stop_price": 0.713269
   },
   "NZD/USD": {
     "id": "NZD/USD_20260817085737",
@@ -536,7 +503,9 @@
     ],
     "mode": "paper",
     "strategy_version": "91",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.5919961929321289,
+    "trailing_stop_price": 0.59318
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260817104927",
@@ -564,7 +533,9 @@
     ],
     "mode": "paper",
     "strategy_version": "91",
-    "status": "open"
+    "status": "open",
+    "price_trough": 113.33300018310547,
+    "trailing_stop_price": 113.559666
   },
   "ETH-USD": {
     "id": "ETH-USD_20260817104927",
@@ -591,6 +562,40 @@
       "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
       "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
       "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open",
+    "price_trough": 1901.530029296875,
+    "trailing_stop_price": 1911.189802
+  },
+  "MRVL": {
+    "id": "MRVL_20260817140145",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 235.53500366210938,
+    "entry_time": "2026-08-17T14:01:45.011268+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6324.88,
+    "position_size_pct": 0.0602,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (62.1)",
+      "MACD crossover",
+      "5d momentum +6.65%",
+      "1d momentum +12.84%",
+      "BB overbought (pct_b=1.17)",
+      "Volume spike 2.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price decline"
+    ],
+    "news_sentiment": 0.75,
+    "news_headlines": [
+      "Stocks to Watch: Alibaba, L3Harris, Diana Shipping, BHP",
+      "Who\u2019s Really The King of Custom Silicon, Broadcom or Marvell Technology?",
+      "Intel, Oracle, Marvell, Alibaba, and More Stocks That Explain Today\u2019s Market"
     ],
     "mode": "paper",
     "strategy_version": "91",
