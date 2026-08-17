@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105314.69,
+  "portfolio_balance": 105348.81,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.39,
-  "unrealized_pnl_usd": 423.46,
-  "equity_value": 105738.15,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 2.36,
+  "unrealized_pnl_usd": 397.25,
+  "equity_value": 105746.06,
+  "open_positions": 20,
+  "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42125.88,
+  "day_capital_used_usd": 42139.52,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1020,
-  "last_tick": "2026-08-17T04:21:12.839950+00:00",
-  "last_reflection": "2026-08-17",
-  "trades_since_last_reflection": 0,
+  "total_trades": 1021,
+  "last_tick": "2026-08-17T05:03:07.308089+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,8 +40,8 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.84641,
-      "unrealized_pnl_pct": 0.001546,
+      "current_price": 7.84642,
+      "unrealized_pnl_pct": 0.001547,
       "unrealized_pnl_usd": 2.08
     },
     {
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3861000537872314,
       "trailing_stop_price": 1.397189,
-      "current_price": 1.38629,
-      "unrealized_pnl_pct": 0.016432,
-      "unrealized_pnl_usd": 110.09
+      "current_price": 1.38635,
+      "unrealized_pnl_pct": 0.016389,
+      "unrealized_pnl_usd": 109.8
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85477,
-      "unrealized_pnl_pct": -0.000984,
-      "unrealized_pnl_usd": -6.85
+      "current_price": 0.85484,
+      "unrealized_pnl_pct": -0.001066,
+      "unrealized_pnl_usd": -7.42
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_trough": 9.421299934387207,
       "trailing_stop_price": 9.49667,
-      "current_price": 9.42125,
-      "unrealized_pnl_pct": 0.011728,
-      "unrealized_pnl_usd": 67.94
+      "current_price": 9.42395,
+      "unrealized_pnl_pct": 0.011444,
+      "unrealized_pnl_usd": 66.3
     },
     {
       "id": "GBP/USD_20260810092145",
@@ -164,9 +164,9 @@
       "status": "open",
       "price_trough": 1.3482176065444946,
       "trailing_stop_price": 1.359003,
-      "current_price": 1.355509,
-      "unrealized_pnl_pct": -0.003741,
-      "unrealized_pnl_usd": -15.75
+      "current_price": 1.355234,
+      "unrealized_pnl_pct": -0.003537,
+      "unrealized_pnl_usd": -14.89
     },
     {
       "id": "EUR/JPY_20260810201001",
@@ -367,9 +367,9 @@
       "status": "open",
       "price_trough": 114.4729995727539,
       "trailing_stop_price": 115.388784,
-      "current_price": 114.760002,
-      "unrealized_pnl_pct": -0.002061,
-      "unrealized_pnl_usd": -9.2
+      "current_price": 114.764,
+      "unrealized_pnl_pct": -0.002096,
+      "unrealized_pnl_usd": -9.36
     },
     {
       "id": "PYPL_20260814195445",
@@ -510,42 +510,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "BNB-USD_20260816224807",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 601.25,
-      "entry_time": "2026-08-16T22:48:07.912582+00:00",
-      "stop_loss_pct": 0.00223,
-      "take_profit_pct": 0.00557,
-      "size_usd": 4309.17,
-      "position_size_pct": 0.0409,
-      "confidence": 0.99,
-      "signals": [
-        "RSI oversold (17.9)",
-        "5d momentum -0.70%",
-        "1d momentum -1.22%",
-        "BB oversold (pct_b=-0.29)",
-        "Volume spike 3.3\u00d7",
-        "High-impact catalyst",
-        "Claude [strongly_supports]: product catalyst; price surge"
-      ],
-      "news_sentiment": 0.095,
-      "news_headlines": [
-        "A Meme Coin Trader Turned $120 Into $205,000: Luck or Strategy?",
-        "Why is Ethereum Price Stuck Below $2,000?",
-        "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?"
-      ],
-      "mode": "paper",
-      "strategy_version": "90",
-      "status": "open",
-      "price_peak": 604.5499877929688,
-      "trailing_stop_price": 603.201841,
-      "current_price": 604.549988,
-      "unrealized_pnl_pct": 0.005489,
-      "unrealized_pnl_usd": 23.65
-    },
-    {
       "id": "NZD/USD_20260817011929",
       "asset": "NZD/USD",
       "trade_type": "day",
@@ -575,9 +539,9 @@
       "status": "open",
       "price_trough": 0.5905628204345703,
       "trailing_stop_price": 0.591744,
-      "current_price": 0.590982,
-      "unrealized_pnl_pct": -0.000532,
-      "unrealized_pnl_usd": -1.22
+      "current_price": 0.591156,
+      "unrealized_pnl_pct": -0.000828,
+      "unrealized_pnl_usd": -1.9
     },
     {
       "id": "ETH-USD_20260817042112",
@@ -608,9 +572,11 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "current_price": 1901.310059,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1900.77001953125,
+      "trailing_stop_price": 1908.468138,
+      "current_price": 1900.630005,
+      "unrealized_pnl_pct": 0.000358,
+      "unrealized_pnl_usd": 2.11
     },
     {
       "id": "BTC-USD_20260817042112",
@@ -641,7 +607,70 @@
       "mode": "paper",
       "strategy_version": "90",
       "status": "open",
-      "current_price": 63421.75,
+      "current_price": 63466.519531,
+      "unrealized_pnl_pct": -0.000706,
+      "unrealized_pnl_usd": -2.19
+    },
+    {
+      "id": "AUD/USD_20260817050307",
+      "asset": "AUD/USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.7103786468505859,
+      "entry_time": "2026-08-17T05:03:07.304659+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00463,
+      "size_usd": 4267.89,
+      "position_size_pct": 0.0405,
+      "confidence": 0.633,
+      "signals": [
+        "RSI overbought (61.9)",
+        "1d momentum +0.55%",
+        "BB overbought (pct_b=0.93)",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.417,
+      "news_headlines": [
+        "Indonesian Rupiah Remains Under Depreciation Pressure Vs. Dollar",
+        "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
+        "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone"
+      ],
+      "mode": "paper",
+      "strategy_version": "91",
+      "status": "open",
+      "current_price": 0.710379,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AUD/JPY_20260817050307",
+      "asset": "AUD/JPY",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 112.99600219726562,
+      "entry_time": "2026-08-17T05:03:07.306130+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00471,
+      "size_usd": 54.92,
+      "position_size_pct": 0.0005,
+      "confidence": 0.713,
+      "signals": [
+        "RSI overbought (64.0)",
+        "1d momentum +0.41%",
+        "BB overbought (pct_b=0.87)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+        "Further Strength for the Australian Dollar After Higher Inflation"
+      ],
+      "mode": "paper",
+      "strategy_version": "91",
+      "status": "open",
+      "current_price": 112.996002,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -767,9 +796,9 @@
       "news_sentiment": 0.723,
       "news_confidence": 0.65,
       "news_headlines": [
+        "Morning Bid: Could consumers keep the Fed on hold, while Japan hikes?",
         "Home Depot Earnings: What To Look For From HD",
-        "Dow Futures Slip, S&P 500, Nasdaq Futures Climb Ahead Of Key Retail Earnings, Fed Minutes: NLST, AVGO, LUNR, MRK Stocks In Focus",
-        "Home Depot's Customer Transactions Have Fallen for 5 Straight Quarters"
+        "Dow Futures Slip, S&P 500, Nasdaq Futures Climb Ahead Of Key Retail Earnings, Fed Minutes: NLST, AVGO, LUNR, MRK Stocks In Focus"
       ],
       "high_impact_news": true
     },
@@ -838,14 +867,14 @@
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5606,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
+      "rank_score": 0.5618,
+      "price": 88.79000091552734,
+      "rsi": 47.50378005286303,
+      "momentum_5d": 0.0033335008733779187,
+      "momentum_1d": 0.013584502992403614,
       "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
+      "atr_pct": 0.005849529751858036,
+      "bollinger_pct_b": 0.7629,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
       "news_sentiment": 0.7,

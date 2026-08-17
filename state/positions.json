@@ -446,39 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260816224807",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 601.25,
-    "entry_time": "2026-08-16T22:48:07.912582+00:00",
-    "stop_loss_pct": 0.00223,
-    "take_profit_pct": 0.00557,
-    "size_usd": 4309.17,
-    "position_size_pct": 0.0409,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (17.9)",
-      "5d momentum -0.70%",
-      "1d momentum -1.22%",
-      "BB oversold (pct_b=-0.29)",
-      "Volume spike 3.3\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.095,
-    "news_headlines": [
-      "A Meme Coin Trader Turned $120 Into $205,000: Luck or Strategy?",
-      "Why is Ethereum Price Stuck Below $2,000?",
-      "BNB Price Jumps on Potential Binance, X Partnership Tease: Is $700 Next?"
-    ],
-    "mode": "paper",
-    "strategy_version": "90",
-    "status": "open",
-    "price_peak": 604.5499877929688,
-    "trailing_stop_price": 603.201841
-  },
   "NZD/USD": {
     "id": "NZD/USD_20260817011929",
     "asset": "NZD/USD",
@@ -538,7 +505,9 @@
     ],
     "mode": "paper",
     "strategy_version": "90",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1900.77001953125,
+    "trailing_stop_price": 1908.468138
   },
   "BTC-USD": {
     "id": "BTC-USD_20260817042112",
@@ -568,6 +537,63 @@
     ],
     "mode": "paper",
     "strategy_version": "90",
+    "status": "open"
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20260817050307",
+    "asset": "AUD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.7103786468505859,
+    "entry_time": "2026-08-17T05:03:07.304659+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00463,
+    "size_usd": 4267.89,
+    "position_size_pct": 0.0405,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (61.9)",
+      "1d momentum +0.55%",
+      "BB overbought (pct_b=0.93)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.417,
+    "news_headlines": [
+      "Indonesian Rupiah Remains Under Depreciation Pressure Vs. Dollar",
+      "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
+      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260817050307",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 112.99600219726562,
+    "entry_time": "2026-08-17T05:03:07.306130+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00471,
+    "size_usd": 54.92,
+    "position_size_pct": 0.0005,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (64.0)",
+      "1d momentum +0.41%",
+      "BB overbought (pct_b=0.87)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+      "Further Strength for the Australian Dollar After Higher Inflation"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
     "status": "open"
   }
 }
