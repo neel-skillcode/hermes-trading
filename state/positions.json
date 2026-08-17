@@ -225,8 +225,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 266.94000244140625,
-    "trailing_stop_price": 271.849029
+    "price_trough": 266.7998962402344,
+    "trailing_stop_price": 271.706346
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -411,8 +411,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 1.1594202518463135,
-    "trailing_stop_price": 1.161739
+    "price_trough": 1.1590172052383423,
+    "trailing_stop_price": 1.161335
   },
   "AUD/USD": {
     "id": "AUD/USD_20260817072739",
@@ -443,8 +443,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.7118450999259949,
-    "trailing_stop_price": 0.713269
+    "price_trough": 0.7116931080818176,
+    "trailing_stop_price": 0.713116
   },
   "NZD/USD": {
     "id": "NZD/USD_20260817085737",
@@ -474,8 +474,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.5919261574745178,
-    "trailing_stop_price": 0.59311
+    "price_trough": 0.5912261605262756,
+    "trailing_stop_price": 0.592409
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260817104927",
@@ -504,8 +504,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 113.33300018310547,
-    "trailing_stop_price": 113.559666
+    "price_trough": 113.26499938964844,
+    "trailing_stop_price": 113.491529
   },
   "ETH-USD": {
     "id": "ETH-USD_20260817104927",
@@ -539,40 +539,6 @@
     "price_trough": 1899.260009765625,
     "trailing_stop_price": 1908.908251
   },
-  "MRVL": {
-    "id": "MRVL_20260817140145",
-    "asset": "MRVL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 235.53500366210938,
-    "entry_time": "2026-08-17T14:01:45.011268+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 6324.88,
-    "position_size_pct": 0.0602,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (62.1)",
-      "MACD crossover",
-      "5d momentum +6.65%",
-      "1d momentum +12.84%",
-      "BB overbought (pct_b=1.17)",
-      "Volume spike 2.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.75,
-    "news_headlines": [
-      "Stocks to Watch: Alibaba, L3Harris, Diana Shipping, BHP",
-      "Who\u2019s Really The King of Custom Silicon, Broadcom or Marvell Technology?",
-      "Intel, Oracle, Marvell, Alibaba, and More Stocks That Explain Today\u2019s Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open",
-    "price_trough": 234.5800018310547,
-    "trailing_stop_price": 238.098702
-  },
   "SOUN": {
     "id": "SOUN_20260817143719",
     "asset": "SOUN",
@@ -599,6 +565,38 @@
       "1 Growth Stock to Stash and 2 We Brush Off",
       "AppLovin vs. SoundHound AI: Comparing Recent Revenue Growth Trajectories for These Tech Companies",
       "C3.ai Remains Turbulent: Why One Of Wall Street\u2019s Most Outspoken Pros Expects 50% Returns From Here"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open",
+    "price_peak": 7.014999866485596,
+    "trailing_stop_price": 6.909775
+  },
+  "MRVL": {
+    "id": "MRVL_20260817145809",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 237.88499450683594,
+    "entry_time": "2026-08-17T14:58:09.737534+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5330.99,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (63.5)",
+      "5d momentum +8.32%",
+      "1d momentum +12.73%",
+      "BB overbought (pct_b=1.13)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.745,
+    "news_headlines": [
+      "Stock Market Today: Dow Falls, Oil Rises After Trump Oman Threat; Micron, Sandisk Extend Gains (Live Coverage)",
+      "Broadcom Has Taken a Haircut Over 3 Months: One Analyst Expects 72% Returns From Here",
+      "24/7 Wall St.\u2019s Lumentum Recommendation is Up More than 1000%. Here\u2019s Why the Stock Can Keep Rallying."
     ],
     "mode": "paper",
     "strategy_version": "91",
