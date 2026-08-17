@@ -1,20 +1,20 @@
 {
   "status": "running",
-  "portfolio_balance": 105331.24,
+  "portfolio_balance": 105313.04,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.38,
-  "unrealized_pnl_usd": 448.43,
-  "equity_value": 105779.67,
+  "portfolio_drawdown_pct": 2.4,
+  "unrealized_pnl_usd": 407.74,
+  "equity_value": 105720.78,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42132.5,
+  "day_capital_used_usd": 42125.21,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1024,
-  "last_tick": "2026-08-17T10:15:13.497392+00:00",
+  "total_trades": 1026,
+  "last_tick": "2026-08-17T10:49:27.533931+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
-  "universe_scanned": 110,
+  "trades_since_last_reflection": 6,
+  "universe_scanned": 109,
   "market_open": false,
   "open_position_list": [
     {
@@ -40,8 +40,8 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.84521,
-      "unrealized_pnl_pct": 0.001393,
+      "current_price": 7.84522,
+      "unrealized_pnl_pct": 0.001394,
       "unrealized_pnl_usd": 1.87
     },
     {
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3856799602508545,
       "trailing_stop_price": 1.396765,
-      "current_price": 1.38567,
-      "unrealized_pnl_pct": 0.016872,
-      "unrealized_pnl_usd": 113.04
+      "current_price": 1.38574,
+      "unrealized_pnl_pct": 0.016822,
+      "unrealized_pnl_usd": 112.7
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85506,
-      "unrealized_pnl_pct": -0.001323,
-      "unrealized_pnl_usd": -9.21
+      "current_price": 0.85503,
+      "unrealized_pnl_pct": -0.001288,
+      "unrealized_pnl_usd": -8.97
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -128,11 +128,11 @@
       "mode": "paper",
       "strategy_version": "76",
       "status": "open",
-      "price_trough": 9.405850410461426,
-      "trailing_stop_price": 9.481097,
-      "current_price": 9.4063,
-      "unrealized_pnl_pct": 0.013296,
-      "unrealized_pnl_usd": 77.03
+      "price_trough": 9.413189888000488,
+      "trailing_stop_price": 9.488495,
+      "current_price": 9.41284,
+      "unrealized_pnl_pct": 0.01261,
+      "unrealized_pnl_usd": 73.05
     },
     {
       "id": "GBP/USD_20260810092145",
@@ -164,9 +164,9 @@
       "status": "open",
       "price_trough": 1.3482176065444946,
       "trailing_stop_price": 1.359003,
-      "current_price": 1.356061,
-      "unrealized_pnl_pct": -0.00415,
-      "unrealized_pnl_usd": -17.46
+      "current_price": 1.355969,
+      "unrealized_pnl_pct": -0.004081,
+      "unrealized_pnl_usd": -17.18
     },
     {
       "id": "EUR/JPY_20260810201001",
@@ -194,11 +194,11 @@
       "mode": "paper",
       "strategy_version": "83",
       "status": "open",
-      "price_peak": 184.55299377441406,
-      "trailing_stop_price": 184.183888,
-      "current_price": 184.556,
-      "unrealized_pnl_pct": 0.00372,
-      "unrealized_pnl_usd": 11.25
+      "price_peak": 184.5489959716797,
+      "trailing_stop_price": 184.179898,
+      "current_price": 184.507996,
+      "unrealized_pnl_pct": 0.003459,
+      "unrealized_pnl_usd": 10.46
     },
     {
       "id": "COST_20260811153222",
@@ -367,9 +367,9 @@
       "status": "open",
       "price_trough": 114.4729995727539,
       "trailing_stop_price": 115.388784,
-      "current_price": 114.865997,
-      "unrealized_pnl_pct": -0.002986,
-      "unrealized_pnl_usd": -13.34
+      "current_price": 114.849998,
+      "unrealized_pnl_pct": -0.002847,
+      "unrealized_pnl_usd": -12.71
     },
     {
       "id": "PYPL_20260814195445",
@@ -510,76 +510,6 @@
       "unrealized_pnl_usd": -42.04
     },
     {
-      "id": "ETH-USD_20260817042112",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1901.31005859375,
-      "entry_time": "2026-08-17T04:21:12.194430+00:00",
-      "stop_loss_pct": 0.00405,
-      "take_profit_pct": 0.00986,
-      "size_usd": 5890.88,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI overbought (69.0)",
-        "5d momentum +1.45%",
-        "1d momentum +1.14%",
-        "BB overbought (pct_b=1.05)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.185,
-      "news_headlines": [
-        "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
-        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
-      ],
-      "mode": "paper",
-      "strategy_version": "90",
-      "status": "open",
-      "price_trough": 1891.81005859375,
-      "trailing_stop_price": 1899.471889,
-      "current_price": 1891.810059,
-      "unrealized_pnl_pct": 0.004997,
-      "unrealized_pnl_usd": 29.43
-    },
-    {
-      "id": "BTC-USD_20260817042112",
-      "asset": "BTC-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 63421.75,
-      "entry_time": "2026-08-17T04:21:12.196803+00:00",
-      "stop_loss_pct": 0.00291,
-      "take_profit_pct": 0.00697,
-      "size_usd": 3104.46,
-      "position_size_pct": 0.0295,
-      "confidence": 0.794,
-      "signals": [
-        "RSI overbought (67.8)",
-        "5d momentum +0.93%",
-        "1d momentum +0.64%",
-        "BB overbought (pct_b=1.07)",
-        "High-impact catalyst",
-        "Claude [contradicts]: fed dovish"
-      ],
-      "news_sentiment": 0.129,
-      "news_headlines": [
-        "3 Reasons to Sell MSTR and 1 Stock to Buy Instead",
-        "Why Coinbase (COIN) Stock Is Falling Today",
-        "Why Strategy (MSTR) Shares Are Trading Lower Today"
-      ],
-      "mode": "paper",
-      "strategy_version": "90",
-      "status": "open",
-      "price_trough": 63259.98828125,
-      "trailing_stop_price": 63444.074847,
-      "current_price": 63259.980469,
-      "unrealized_pnl_pct": 0.002551,
-      "unrealized_pnl_usd": 7.92
-    },
-    {
       "id": "EUR/USD_20260817072739",
       "asset": "EUR/USD",
       "trade_type": "day",
@@ -607,11 +537,11 @@
       "mode": "paper",
       "strategy_version": "91",
       "status": "open",
-      "price_trough": 1.1598236560821533,
-      "trailing_stop_price": 1.162143,
-      "current_price": 1.159824,
-      "unrealized_pnl_pct": 0.000696,
-      "unrealized_pnl_usd": 3.63
+      "price_trough": 1.15968918800354,
+      "trailing_stop_price": 1.162009,
+      "current_price": 1.159689,
+      "unrealized_pnl_pct": 0.000812,
+      "unrealized_pnl_usd": 4.23
     },
     {
       "id": "AUD/USD_20260817072739",
@@ -676,9 +606,73 @@
       "mode": "paper",
       "strategy_version": "91",
       "status": "open",
-      "current_price": 0.592487,
-      "unrealized_pnl_pct": -0.00077,
+      "current_price": 0.592452,
+      "unrealized_pnl_pct": -0.000711,
       "unrealized_pnl_usd": -0.04
+    },
+    {
+      "id": "AUD/JPY_20260817104927",
+      "asset": "AUD/JPY",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 113.4020004272461,
+      "entry_time": "2026-08-17T10:49:27.530262+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00471,
+      "size_usd": 4805.64,
+      "position_size_pct": 0.0456,
+      "confidence": 0.713,
+      "signals": [
+        "RSI overbought (73.7)",
+        "1d momentum +0.72%",
+        "BB overbought (pct_b=1.01)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+        "Further Strength for the Australian Dollar After Higher Inflation"
+      ],
+      "mode": "paper",
+      "strategy_version": "91",
+      "status": "open",
+      "current_price": 113.402,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "ETH-USD_20260817104927",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1904.8800048828125,
+      "entry_time": "2026-08-17T10:49:27.531896+00:00",
+      "stop_loss_pct": 0.00508,
+      "take_profit_pct": 0.01237,
+      "size_usd": 4182.41,
+      "position_size_pct": 0.0397,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (66.6)",
+        "5d momentum +0.37%",
+        "1d momentum +1.39%",
+        "BB overbought (pct_b=0.88)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.185,
+      "news_headlines": [
+        "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
+        "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+        "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
+      ],
+      "mode": "paper",
+      "strategy_version": "91",
+      "status": "open",
+      "current_price": 1904.880005,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -746,8 +740,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.6149,
+      "asset": "ORCL",
+      "rank_score": 0.6209,
       "price": 393.04998779296875,
       "rsi": 25.29331394414524,
       "momentum_5d": -0.0021326431852264835,
@@ -757,33 +751,12 @@
       "bollinger_pct_b": 0.1662,
       "volume_spike": true,
       "volume_spike_ratio": 2.05,
-      "news_sentiment": 0.137,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.302,
+      "news_confidence": 0.43,
       "news_headlines": [
-        "EMCOR and Thor Industries have been highlighted as Zacks Bull and Bear of the Day",
-        "US Stock Market Today S&P 500 Futures Dip As Inflation Concerns Resurface",
-        "Michael Burry Says \u2018You Could Have Heard It First\u2019 \u2014 As Big Tech\u2019s $3T AI Spending Risk Comes Into Focus"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HD",
-      "rank_score": 0.601,
-      "price": 338.79998779296875,
-      "rsi": 32.38943301118411,
-      "momentum_5d": 0.0015223380442065317,
-      "momentum_1d": -0.045978617570193434,
-      "macd_crossover": false,
-      "atr_pct": 0.006174495338502826,
-      "bollinger_pct_b": 0.2164,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.846,
-      "news_confidence": 0.65,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq futures waver ahead of retail earnings",
-        "US Equity Investors to Focus on Fed Policy Minutes, PMIs Alongside Trump's Move to Inflict Intense Economic Pain on Iran",
-        "Fed rate hike bets retreat as markets await retail earnings and fresh economic signals: Dow Jones, S&P, Nasdaq, Wall Street Futures"
+        "AI Is Driving Up Treasury Yields: \u2018It Just Touches Everything\u2019",
+        "Michael Burry Says \u2018You Could Have Heard It First\u2019 \u2014 As Big Tech\u2019s $3T AI Spending Risk Comes Into Focus",
+        "AI Money Moves Put These Five Stocks In Spotlight Last Week: NVDA, INTC, ORCL, AMD, SNDK"
       ],
       "high_impact_news": true
     },
@@ -805,6 +778,27 @@
         "Super League Enterprise, Inc. Q2 2026 Earnings Call Summary",
         "Walmart says it did nothing wrong after 11-year-old raids family's emergency fund for $2,000 in Roblox gaming gift cards",
         "Minnesota Man Made $68 Million Buying Shares of His Brother\u2019s Company in His Retirement Accounts. He Will Never Pay a Penny of Tax on the Roth Money. The Same Rules Apply to You."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HD",
+      "rank_score": 0.5891,
+      "price": 338.79998779296875,
+      "rsi": 32.38943301118411,
+      "momentum_5d": 0.0015223380442065317,
+      "momentum_1d": -0.045978617570193434,
+      "macd_crossover": false,
+      "atr_pct": 0.006174495338502826,
+      "bollinger_pct_b": 0.2164,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.683,
+      "news_confidence": 0.63,
+      "news_headlines": [
+        "Stock market today: Dow, S&P 500, Nasdaq futures waver ahead of retail earnings",
+        "Morning Bid: Retail risk",
+        "US Equity Investors to Focus on Fed Policy Minutes, PMIs Alongside Trump's Move to Inflict Intense Economic Pain on Iran"
       ],
       "high_impact_news": true
     },
@@ -868,27 +862,6 @@
         "Peabody Energy, Borr Drilling, Texas Pacific Land, Halliburton, and Transocean Stocks Trade Up, What You Need To Know",
         "1 Profitable Stock for Long-Term Investors and 2 We Brush Off",
         "CRC Q2 Earnings Miss on Takeaway Constraints, Revenues Beat"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "WFC",
-      "rank_score": 0.5606,
-      "price": 88.78500366210938,
-      "rsi": 47.424284459240766,
-      "momentum_5d": 0.003277031544456837,
-      "momentum_1d": 0.01352745671951532,
-      "macd_crossover": true,
-      "atr_pct": 0.005849858991947469,
-      "bollinger_pct_b": 0.7592,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.56,
-      "news_sentiment": 0.7,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "3 Bank Stocks Walking a Fine Line",
-        "Wells Fargo (WFC) Could Be 10% Undervalued After Preferred Dividend Declaration",
-        "Dell Stock Rises as Wells Fargo Lifts Target to $545"
       ],
       "high_impact_news": true
     },
@@ -977,6 +950,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "V",
+      "rank_score": 0.5266,
+      "price": 88.78500366210938,
+      "rsi": 47.424284459240766,
+      "momentum_5d": 0.003277031544456837,
+      "momentum_1d": 0.01352745671951532,
+      "macd_crossover": true,
+      "atr_pct": 0.005849858991947469,
+      "bollinger_pct_b": 0.7592,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.56,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Bill Ackman lost $400M dumping Netflix \u2014 now says it \u2018won the streaming wars.\u2019 Should you rebuy a stock that burned you?",
+        "Visa\u2019s Agentic Ready Program Moves Issuer-Layer Readiness From Theory to Production",
+        "More Than 30% of Americans 80 and Older Still Carry Mortgage Debt. The Number Climbs to 41% for Those 65 to 79, Visa Says"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MPC",
       "rank_score": 0.5264,
       "price": 355.4100036621094,
@@ -1019,6 +1013,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "CRM",
+      "rank_score": 0.5208,
+      "price": 150.33999633789062,
+      "rsi": 42.74433219206454,
+      "momentum_5d": -0.02058634307563111,
+      "momentum_1d": 0.03784173356026913,
+      "macd_crossover": false,
+      "atr_pct": 0.015639360212492688,
+      "bollinger_pct_b": 0.1766,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.443,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Salesforce Borrowed $25 Billion to Buy Its Own Stock and Cut Its Cash Flow Growth Guidance in Half",
+        "Jim Cramer Was Worried About Potential Impact On Salesforce Inc. (NYSE:CRM)\u2019s Dreamforce Conference",
+        "Salesforce (CRM) Stock Still Trades At a Discount After a 23% Slide"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "RXRX",
       "rank_score": 0.5083,
       "price": 3.1649999618530273,
@@ -1040,44 +1055,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMZN",
-      "rank_score": 0.5019,
-      "price": 262.6600036621094,
-      "rsi": 20.8647400081839,
-      "momentum_5d": -0.0038682836847847043,
-      "momentum_1d": -0.03447980711231279,
+      "asset": "MU",
+      "rank_score": 0.4999,
+      "price": 972.780029296875,
+      "rsi": 73.50965248627611,
+      "momentum_5d": 0.009013683576574337,
+      "momentum_1d": 0.14149262539619673,
       "macd_crossover": false,
-      "atr_pct": 0.00580584541858147,
-      "bollinger_pct_b": 0.1183,
+      "atr_pct": 0.01657745416003966,
+      "bollinger_pct_b": 0.7601,
       "volume_spike": false,
-      "volume_spike_ratio": 0.92,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.4,
+      "volume_spike_ratio": 0.57,
+      "news_sentiment": 0.88,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "Amazon restores binding arbitration and blocks class-action suits",
-        "Billionaire Stanley Druckenmiller Dumped Micron and Intel, and More Than 11X'd Duquesne Family Office's Stake in an AI Pioneer",
-        "Mainetti unveils M-Film flexible packaging range"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.4998,
-      "price": 150.33999633789062,
-      "rsi": 42.74433219206454,
-      "momentum_5d": -0.02058634307563111,
-      "momentum_1d": 0.03784173356026913,
-      "macd_crossover": false,
-      "atr_pct": 0.015639360212492688,
-      "bollinger_pct_b": 0.1766,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.125,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Michael Burry Says \u2018You Could Have Heard It First\u2019 \u2014 As Big Tech\u2019s $3T AI Spending Risk Comes Into Focus",
-        "AI Money Moves Put These Five Stocks In Spotlight Last Week: NVDA, INTC, ORCL, AMD, SNDK",
-        "NVIDIA\u2019s $3 Billion Bet on the Power Behind AI"
+        "Elon Musk\u2019s 5-Word Statement Should Have Every Micron Investor Paying Attention",
+        "Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Monday; Sandisk, Micron to Advance",
+        "Elon Musk Just Uttered 3 Massively Bullish Words for Micron, Sandisk, and SK Hynix"
       ],
       "high_impact_news": true
     },

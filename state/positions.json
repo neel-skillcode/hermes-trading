@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.41415023803711,
-    "trailing_stop_price": 9.489463
+    "price_trough": 9.413189888000488,
+    "trailing_stop_price": 9.488495
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -446,70 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260817042112",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1901.31005859375,
-    "entry_time": "2026-08-17T04:21:12.194430+00:00",
-    "stop_loss_pct": 0.00405,
-    "take_profit_pct": 0.00986,
-    "size_usd": 5890.88,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (69.0)",
-      "5d momentum +1.45%",
-      "1d momentum +1.14%",
-      "BB overbought (pct_b=1.05)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.185,
-    "news_headlines": [
-      "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
-      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
-    ],
-    "mode": "paper",
-    "strategy_version": "90",
-    "status": "open",
-    "price_trough": 1893.3299560546875,
-    "trailing_stop_price": 1900.997942
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260817042112",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 63421.75,
-    "entry_time": "2026-08-17T04:21:12.196803+00:00",
-    "stop_loss_pct": 0.00291,
-    "take_profit_pct": 0.00697,
-    "size_usd": 3104.46,
-    "position_size_pct": 0.0295,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (67.8)",
-      "5d momentum +0.93%",
-      "1d momentum +0.64%",
-      "BB overbought (pct_b=1.07)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish"
-    ],
-    "news_sentiment": 0.129,
-    "news_headlines": [
-      "3 Reasons to Sell MSTR and 1 Stock to Buy Instead",
-      "Why Coinbase (COIN) Stock Is Falling Today",
-      "Why Strategy (MSTR) Shares Are Trading Lower Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "90",
-    "status": "open",
-    "price_trough": 63336.94140625,
-    "trailing_stop_price": 63521.251906
-  },
   "EUR/USD": {
     "id": "EUR/USD_20260817072739",
     "asset": "EUR/USD",
@@ -538,8 +474,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 1.1599582433700562,
-    "trailing_stop_price": 1.162278
+    "price_trough": 1.15968918800354,
+    "trailing_stop_price": 1.162009
   },
   "AUD/USD": {
     "id": "AUD/USD_20260817072739",
@@ -597,6 +533,64 @@
       "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
       "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
       "US Dollar In Uptrend Despite Pullback"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260817104927",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 113.4020004272461,
+    "entry_time": "2026-08-17T10:49:27.530262+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00471,
+    "size_usd": 4805.64,
+    "position_size_pct": 0.0456,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (73.7)",
+      "1d momentum +0.72%",
+      "BB overbought (pct_b=1.01)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+      "Further Strength for the Australian Dollar After Higher Inflation"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260817104927",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1904.8800048828125,
+    "entry_time": "2026-08-17T10:49:27.531896+00:00",
+    "stop_loss_pct": 0.00508,
+    "take_profit_pct": 0.01237,
+    "size_usd": 4182.41,
+    "position_size_pct": 0.0397,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (66.6)",
+      "5d momentum +0.37%",
+      "1d momentum +1.39%",
+      "BB overbought (pct_b=0.88)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.185,
+    "news_headlines": [
+      "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
+      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
     ],
     "mode": "paper",
     "strategy_version": "91",
