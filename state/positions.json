@@ -446,39 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260816214747",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 74.36000061035156,
-    "entry_time": "2026-08-16T21:47:47.857569+00:00",
-    "stop_loss_pct": 0.00321,
-    "take_profit_pct": 0.00782,
-    "size_usd": 5862.79,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (22.5)",
-      "5d momentum -1.48%",
-      "1d momentum -1.58%",
-      "BB oversold (pct_b=-0.39)",
-      "Volume spike 6.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 3 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.179,
-    "news_headlines": [
-      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)",
-      "Solana Company Q2 Loss Hits $30.3 Million as SOL Treasury Suffers",
-      "Crypto Market Today, Aug. 14: Bitcoin Slips as SEC Tokenization Progress Stalls"
-    ],
-    "mode": "paper",
-    "strategy_version": "90",
-    "status": "open",
-    "price_peak": 74.45999908447266,
-    "trailing_stop_price": 74.220982
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260816224807",
     "asset": "BNB-USD",
@@ -509,38 +476,8 @@
     "mode": "paper",
     "strategy_version": "90",
     "status": "open",
-    "price_peak": 602.0800170898438,
-    "trailing_stop_price": 600.737379
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260816230027",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1873.3599853515625,
-    "entry_time": "2026-08-16T23:00:27.974967+00:00",
-    "stop_loss_pct": 0.0023,
-    "take_profit_pct": 0.00561,
-    "size_usd": 2803.31,
-    "position_size_pct": 0.0266,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (41.7)",
-      "5d momentum -0.55%",
-      "1d momentum -0.40%",
-      "BB oversold (pct_b=0.05)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.185,
-    "news_headlines": [
-      "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
-      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
-    ],
-    "mode": "paper",
-    "strategy_version": "90",
-    "status": "open"
+    "price_peak": 603.4400024414062,
+    "trailing_stop_price": 602.094331
   },
   "BTC-USD": {
     "id": "BTC-USD_20260816232749",
@@ -567,6 +504,69 @@
       "HIVE reports 74% revenue jump in fiscal Q1 2027 earnings",
       "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
       "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP"
+    ],
+    "mode": "paper",
+    "strategy_version": "90",
+    "status": "open",
+    "price_peak": 63004.25,
+    "trailing_stop_price": 62878.2415
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260817011929",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1890.8699951171875,
+    "entry_time": "2026-08-17T01:19:29.472839+00:00",
+    "stop_loss_pct": 0.00333,
+    "take_profit_pct": 0.00825,
+    "size_usd": 6404.63,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (63.6)",
+      "MACD crossover",
+      "5d momentum +0.57%",
+      "1d momentum +0.65%",
+      "BB overbought (pct_b=1.14)",
+      "Volume spike 4.4\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.185,
+    "news_headlines": [
+      "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
+      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
+    ],
+    "mode": "paper",
+    "strategy_version": "90",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20260817011929",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.5906674861907959,
+    "entry_time": "2026-08-17T01:19:29.474705+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00463,
+    "size_usd": 2294.3,
+    "position_size_pct": 0.0218,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (69.0)",
+      "1d momentum +0.77%",
+      "BB overbought (pct_b=0.93)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.382,
+    "news_headlines": [
+      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
+      "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
+      "US Dollar In Uptrend Despite Pullback"
     ],
     "mode": "paper",
     "strategy_version": "90",
