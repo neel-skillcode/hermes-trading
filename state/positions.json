@@ -225,8 +225,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_trough": 266.7998962402344,
-    "trailing_stop_price": 271.706346
+    "price_trough": 266.4100036621094,
+    "trailing_stop_price": 271.309284
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -378,8 +378,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 1.1588828563690186,
-    "trailing_stop_price": 1.161201
+    "price_trough": 1.1587486267089844,
+    "trailing_stop_price": 1.161066
   },
   "AUD/USD": {
     "id": "AUD/USD_20260817072739",
@@ -410,8 +410,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.7113893628120422,
-    "trailing_stop_price": 0.712812
+    "price_trough": 0.711186945438385,
+    "trailing_stop_price": 0.712609
   },
   "NZD/USD": {
     "id": "NZD/USD_20260817085737",
@@ -441,8 +441,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.591051459312439,
-    "trailing_stop_price": 0.592234
+    "price_trough": 0.5908768773078918,
+    "trailing_stop_price": 0.592059
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260817104927",
@@ -473,38 +473,6 @@
     "status": "open",
     "price_trough": 113.26499938964844,
     "trailing_stop_price": 113.491529
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260817104927",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1904.8800048828125,
-    "entry_time": "2026-08-17T10:49:27.531896+00:00",
-    "stop_loss_pct": 0.00508,
-    "take_profit_pct": 0.01237,
-    "size_usd": 4182.41,
-    "position_size_pct": 0.0397,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (66.6)",
-      "5d momentum +0.37%",
-      "1d momentum +1.39%",
-      "BB overbought (pct_b=0.88)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.185,
-    "news_headlines": [
-      "Hong Kong\u2019s Stablecoin Bifurcation: Two Paths for Tokenized Money",
-      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-      "Morgan Stanley\u2019s Bigger Crypto ETF Bet Might Change The Case For Investing In Morgan Stanley (MS)"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open",
-    "price_trough": 1899.260009765625,
-    "trailing_stop_price": 1908.908251
   },
   "SOUN": {
     "id": "SOUN_20260817143719",
@@ -598,6 +566,36 @@
     ],
     "mode": "paper",
     "strategy_version": "91",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260817154920",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1027.93994140625,
+    "entry_time": "2026-08-17T15:49:20.644044+00:00",
+    "stop_loss_pct": 0.01368,
+    "take_profit_pct": 0.03279,
+    "size_usd": 4678.35,
+    "position_size_pct": 0.0445,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (73.6)",
+      "5d momentum +6.93%",
+      "1d momentum +18.41%",
+      "BB overbought (pct_b=1.00)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.674,
+    "news_headlines": [
+      "Tech searches for gains as stocks teeter at the open: AlphaCheck",
+      "Micron stock heats up again, crossing $1,000",
+      "Stock Market Today: Dow Falls After Trump Oman Threat; Homebuilders Decline Despite This Data (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "92",
     "status": "open"
   }
 }
