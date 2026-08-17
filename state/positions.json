@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.386970043182373,
-    "trailing_stop_price": 1.398066
+    "price_trough": 1.3863999843597412,
+    "trailing_stop_price": 1.397491
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.431489944458008,
-    "trailing_stop_price": 9.506942
+    "price_trough": 9.425049781799316,
+    "trailing_stop_price": 9.50045
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -479,38 +479,6 @@
     "price_peak": 603.4400024414062,
     "trailing_stop_price": 602.094331
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260816232749",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 62778.55859375,
-    "entry_time": "2026-08-16T23:27:49.081426+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00494,
-    "size_usd": 2600.52,
-    "position_size_pct": 0.0247,
-    "confidence": 0.937,
-    "signals": [
-      "RSI oversold (39.7)",
-      "5d momentum -0.47%",
-      "BB oversold (pct_b=-0.08)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade; fed dovish"
-    ],
-    "news_sentiment": 0.5,
-    "news_headlines": [
-      "HIVE reports 74% revenue jump in fiscal Q1 2027 earnings",
-      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-      "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP"
-    ],
-    "mode": "paper",
-    "strategy_version": "90",
-    "status": "open",
-    "price_peak": 63004.25,
-    "trailing_stop_price": 62878.2415
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260817011929",
     "asset": "ETH-USD",
@@ -567,6 +535,39 @@
       "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
       "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
       "US Dollar In Uptrend Despite Pullback"
+    ],
+    "mode": "paper",
+    "strategy_version": "90",
+    "status": "open",
+    "price_trough": 0.5905628204345703,
+    "trailing_stop_price": 0.591744
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260817023544",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 63229.33984375,
+    "entry_time": "2026-08-17T02:35:44.978718+00:00",
+    "stop_loss_pct": 0.00244,
+    "take_profit_pct": 0.00593,
+    "size_usd": 2607.82,
+    "position_size_pct": 0.0248,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (61.9)",
+      "MACD crossover",
+      "5d momentum +0.36%",
+      "BB overbought (pct_b=1.03)",
+      "Volume spike 2.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; fed dovish"
+    ],
+    "news_sentiment": 0.392,
+    "news_headlines": [
+      "Why Strategy (MSTR) Shares Are Trading Lower Today",
+      "HIVE reports 74% revenue jump in fiscal Q1 2027 earnings",
+      "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?"
     ],
     "mode": "paper",
     "strategy_version": "90",
