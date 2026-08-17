@@ -135,35 +135,6 @@
     "price_trough": 1.3482176065444946,
     "trailing_stop_price": 1.359003
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260810201001",
-    "asset": "EUR/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 183.8719940185547,
-    "entry_time": "2026-08-10T20:10:01.600635+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00445,
-    "size_usd": 3023.15,
-    "position_size_pct": 0.0285,
-    "confidence": 0.445,
-    "signals": [
-      "RSI overbought (86.8)",
-      "1d momentum +0.94%",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-    ],
-    "mode": "paper",
-    "strategy_version": "83",
-    "status": "open",
-    "price_peak": 184.6490020751953,
-    "trailing_stop_price": 184.279704
-  },
   "COST": {
     "id": "COST_20260811153222",
     "asset": "COST",
@@ -504,8 +475,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_peak": 7.014999866485596,
-    "trailing_stop_price": 6.909775
+    "price_peak": 7.050099849700928,
+    "trailing_stop_price": 6.944348
   },
   "MRVL": {
     "id": "MRVL_20260817145809",
@@ -593,6 +564,36 @@
       "Tech searches for gains as stocks teeter at the open: AlphaCheck",
       "Micron stock heats up again, crossing $1,000",
       "Stock Market Today: Dow Falls After Trump Oman Threat; Homebuilders Decline Despite This Data (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "92",
+    "status": "open"
+  },
+  "RIVN": {
+    "id": "RIVN_20260817164433",
+    "asset": "RIVN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 14.859999656677246,
+    "entry_time": "2026-08-17T16:44:33.957590+00:00",
+    "stop_loss_pct": 0.01287,
+    "take_profit_pct": 0.03175,
+    "size_usd": 3028.64,
+    "position_size_pct": 0.0288,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (17.3)",
+      "5d momentum -4.19%",
+      "1d momentum -7.96%",
+      "BB oversold (pct_b=0.03)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.6,
+    "news_headlines": [
+      "Rivian Closes the Self-Driving Gap With Tesla",
+      "3 Critical Things Investors Overlooked in Rivian's Strong Q2",
+      "Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target"
     ],
     "mode": "paper",
     "strategy_version": "92",
