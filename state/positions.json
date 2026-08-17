@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3861000537872314,
-    "trailing_stop_price": 1.397189
+    "price_trough": 1.3856799602508545,
+    "trailing_stop_price": 1.396765
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.421299934387207,
-    "trailing_stop_price": 9.49667
+    "price_trough": 9.41415023803711,
+    "trailing_stop_price": 9.489463
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -161,8 +161,8 @@
     "mode": "paper",
     "strategy_version": "83",
     "status": "open",
-    "price_peak": 184.36500549316406,
-    "trailing_stop_price": 183.996275
+    "price_peak": 184.42599487304688,
+    "trailing_stop_price": 184.057143
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -446,37 +446,6 @@
     "strategy_version": "87",
     "status": "open"
   },
-  "NZD/USD": {
-    "id": "NZD/USD_20260817011929",
-    "asset": "NZD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.5906674861907959,
-    "entry_time": "2026-08-17T01:19:29.474705+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00463,
-    "size_usd": 2294.3,
-    "position_size_pct": 0.0218,
-    "confidence": 0.633,
-    "signals": [
-      "RSI overbought (69.0)",
-      "1d momentum +0.77%",
-      "BB overbought (pct_b=0.93)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed hawkish"
-    ],
-    "news_sentiment": 0.382,
-    "news_headlines": [
-      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
-      "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
-      "US Dollar In Uptrend Despite Pullback"
-    ],
-    "mode": "paper",
-    "strategy_version": "90",
-    "status": "open",
-    "price_trough": 0.5905628204345703,
-    "trailing_stop_price": 0.591744
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260817042112",
     "asset": "ETH-USD",
@@ -539,35 +508,6 @@
     "strategy_version": "90",
     "status": "open"
   },
-  "AUD/USD": {
-    "id": "AUD/USD_20260817050307",
-    "asset": "AUD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.7103786468505859,
-    "entry_time": "2026-08-17T05:03:07.304659+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00463,
-    "size_usd": 4267.89,
-    "position_size_pct": 0.0405,
-    "confidence": 0.633,
-    "signals": [
-      "RSI overbought (61.9)",
-      "1d momentum +0.55%",
-      "BB overbought (pct_b=0.93)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.417,
-    "news_headlines": [
-      "Indonesian Rupiah Remains Under Depreciation Pressure Vs. Dollar",
-      "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
-      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open"
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260817050307",
     "asset": "AUD/JPY",
@@ -591,6 +531,65 @@
     "news_headlines": [
       "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
       "Further Strength for the Australian Dollar After Higher Inflation"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open"
+  },
+  "EUR/USD": {
+    "id": "EUR/USD_20260817072739",
+    "asset": "EUR/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1606314182281494,
+    "entry_time": "2026-08-17T07:27:39.477034+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00477,
+    "size_usd": 5210.95,
+    "position_size_pct": 0.0495,
+    "confidence": 0.773,
+    "signals": [
+      "RSI overbought (81.6)",
+      "1d momentum +0.51%",
+      "BB overbought (pct_b=1.11)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge; fed hawkish"
+    ],
+    "news_sentiment": -0.63,
+    "news_headlines": [
+      "Yen stronger as traders pare bets on Fed rate hike",
+      "Dollar Falls After July Retail Sales Data",
+      "US Dollar Price Forecast: Softer PPI Boosts Fed Cut Bets \u2013 Can EUR/USD and GBP/USD Rally?"
+    ],
+    "mode": "paper",
+    "strategy_version": "91",
+    "status": "open"
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20260817072739",
+    "asset": "AUD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.7123521566390991,
+    "entry_time": "2026-08-17T07:27:39.479400+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00479,
+    "size_usd": 1344.27,
+    "position_size_pct": 0.0128,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (83.7)",
+      "5d momentum +0.41%",
+      "1d momentum +0.75%",
+      "BB overbought (pct_b=1.06)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.417,
+    "news_headlines": [
+      "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
+      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
+      "Dollar Mostly Flat After Inflation Meets Expectations"
     ],
     "mode": "paper",
     "strategy_version": "91",
