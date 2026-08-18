@@ -163,8 +163,8 @@
     "mode": "paper",
     "strategy_version": "84",
     "status": "open",
-    "price_peak": 961.8499755859375,
-    "trailing_stop_price": 948.220561
+    "price_peak": 967.4400024414062,
+    "trailing_stop_price": 953.731378
   },
   "MCD": {
     "id": "MCD_20260812155025",
@@ -227,8 +227,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 76.61000061035156,
-    "trailing_stop_price": 74.291016
+    "price_peak": 76.86000061035156,
+    "trailing_stop_price": 74.533448
   },
   "SOFI": {
     "id": "SOFI_20260813142500",
@@ -387,38 +387,6 @@
     "price_peak": 54.06999969482422,
     "trailing_stop_price": 53.654742
   },
-  "NKE": {
-    "id": "NKE_20260817194640",
-    "asset": "NKE",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 39.154998779296875,
-    "entry_time": "2026-08-17T19:46:40.887241+00:00",
-    "stop_loss_pct": 0.00776,
-    "take_profit_pct": 0.01834,
-    "size_usd": 4875.23,
-    "position_size_pct": 0.0463,
-    "confidence": 0.724,
-    "signals": [
-      "RSI oversold (12.6)",
-      "5d momentum -0.66%",
-      "1d momentum -3.84%",
-      "BB oversold (pct_b=0.15)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: price surge; macro risk; price decline"
-    ],
-    "news_sentiment": 0.208,
-    "news_headlines": [
-      "Nike's stock plunge is relentless",
-      "Where Nipsey Hussle Once Sold Mixtapes, Foot Locker And Nike Are Now Investing In Crenshaw Youth",
-      "What Does Nike (NKE) Cookie Stuffing Exposure Mean For Investors?"
-    ],
-    "mode": "paper",
-    "strategy_version": "92",
-    "status": "open",
-    "price_peak": 39.3650016784668,
-    "trailing_stop_price": 39.059529
-  },
   "WFC": {
     "id": "WFC_20260817194640",
     "asset": "WFC",
@@ -452,39 +420,6 @@
     "price_peak": 87.68900299072266,
     "trailing_stop_price": 87.183037
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260818032750",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.249000072479248,
-    "entry_time": "2026-08-18T03:27:50.106898+00:00",
-    "stop_loss_pct": 0.00712,
-    "take_profit_pct": 0.01762,
-    "size_usd": 54.98,
-    "position_size_pct": 0.0005,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (41.9)",
-      "5d momentum -1.01%",
-      "1d momentum -1.75%",
-      "BB oversold (pct_b=-0.07)",
-      "Volume spike 1.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
-    ],
-    "mode": "paper",
-    "strategy_version": "92",
-    "status": "open",
-    "price_peak": 6.322000026702881,
-    "trailing_stop_price": 6.276987
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260818110004",
     "asset": "BNB-USD",
@@ -514,7 +449,9 @@
     ],
     "mode": "paper",
     "strategy_version": "93",
-    "status": "open"
+    "status": "open",
+    "price_peak": 602.6400146484375,
+    "trailing_stop_price": 601.284075
   },
   "ARM": {
     "id": "ARM_20260818140156",
@@ -545,7 +482,9 @@
     ],
     "mode": "paper",
     "strategy_version": "93",
-    "status": "open"
+    "status": "open",
+    "price_peak": 254.09500122070312,
+    "trailing_stop_price": 250.283576
   },
   "INTC": {
     "id": "INTC_20260818140156",
@@ -573,6 +512,39 @@
       "Global bond sell-off pressures stocks: AlphaCheck",
       "Intel and AMD Fall 4% as 13F Filings Reveal Concentrated Chip Bets",
       "Stanley Druckenmiller\u2019s Duquesne Family Office Shifts to Bitcoin Mining Companies"
+    ],
+    "mode": "paper",
+    "strategy_version": "93",
+    "status": "open",
+    "price_peak": 97.10359954833984,
+    "trailing_stop_price": 95.647046
+  },
+  "ON": {
+    "id": "ON_20260818144250",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 78.30999755859375,
+    "entry_time": "2026-08-18T14:42:50.281228+00:00",
+    "stop_loss_pct": 0.01495,
+    "take_profit_pct": 0.03731,
+    "size_usd": 4967.18,
+    "position_size_pct": 0.0473,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (33.2)",
+      "5d momentum -7.07%",
+      "1d momentum -6.32%",
+      "BB oversold (pct_b=-0.12)",
+      "News +0.97 (conf 0.62) \u2192 long",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 5 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.968,
+    "news_headlines": [
+      "TXN's Automotive Recovery Gains Pace: Can It Lift 2026 Growth Further?",
+      "Power Semis Soar Monday: Wolfspeed, STMicro and On Semiconductor Rally on Vera Rubin Ramp Signals",
+      "onsemi Boosts Utilization as AI Data Center Revenue Set to More Than Double"
     ],
     "mode": "paper",
     "strategy_version": "93",
