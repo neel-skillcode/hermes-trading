@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.406519889831543,
-    "trailing_stop_price": 9.481772
+    "price_trough": 9.404620170593262,
+    "trailing_stop_price": 9.479857
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -351,41 +351,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 0.7100255489349365,
-    "trailing_stop_price": 0.711446
-  },
-  "WFC": {
-    "id": "WFC_20260817194640",
-    "asset": "WFC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 87.66999816894531,
-    "entry_time": "2026-08-17T19:46:40.888625+00:00",
-    "stop_loss_pct": 0.00577,
-    "take_profit_pct": 0.01439,
-    "size_usd": 6549.88,
-    "position_size_pct": 0.0623,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (42.3)",
-      "5d momentum -1.15%",
-      "1d momentum -1.07%",
-      "BB oversold (pct_b=-0.05)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade; analyst downgrade"
-    ],
-    "news_sentiment": 0.837,
-    "news_headlines": [
-      "Wells Fargo Sees Up to 52% Upside in 2 Stocks",
-      "Wells Fargo's NII Outlook: Can It Achieve the $50B Target in 2026?",
-      "Why This Former Wells Fargo Executive Launched an Independent RIA"
-    ],
-    "mode": "paper",
-    "strategy_version": "92",
-    "status": "open",
-    "price_peak": 87.68900299072266,
-    "trailing_stop_price": 87.183037
+    "price_trough": 0.7099247574806213,
+    "trailing_stop_price": 0.711345
   },
   "BNB-USD": {
     "id": "BNB-USD_20260818110004",
@@ -417,8 +384,8 @@
     "mode": "paper",
     "strategy_version": "93",
     "status": "open",
-    "price_peak": 602.7100219726562,
-    "trailing_stop_price": 601.353924
+    "price_peak": 602.8699951171875,
+    "trailing_stop_price": 601.513538
   },
   "ARM": {
     "id": "ARM_20260818151252",
@@ -449,7 +416,9 @@
     ],
     "mode": "paper",
     "strategy_version": "93",
-    "status": "open"
+    "status": "open",
+    "price_peak": 249.7799072265625,
+    "trailing_stop_price": 246.033209
   },
   "ON": {
     "id": "ON_20260818151252",
@@ -481,7 +450,9 @@
     ],
     "mode": "paper",
     "strategy_version": "93",
-    "status": "open"
+    "status": "open",
+    "price_peak": 77.7249984741211,
+    "trailing_stop_price": 76.559123
   },
   "INTC": {
     "id": "INTC_20260818151252",
@@ -511,7 +482,9 @@
     ],
     "mode": "paper",
     "strategy_version": "93",
-    "status": "open"
+    "status": "open",
+    "price_peak": 96.30000305175781,
+    "trailing_stop_price": 94.855503
   },
   "NVDA": {
     "id": "NVDA_20260818151252",
@@ -539,6 +512,69 @@
       "Tech stocks today: Meta social media trial kicks off, chip stocks fall",
       "Nvidia to back OpenAI data center with upwards of $105 billion",
       "Veteran Analyst Revamps Nvidia Stock Price Target Ahead of Earnings"
+    ],
+    "mode": "paper",
+    "strategy_version": "93",
+    "status": "open",
+    "price_peak": 220.13099670410156,
+    "trailing_stop_price": 218.433787
+  },
+  "RXRX": {
+    "id": "RXRX_20260818161135",
+    "asset": "RXRX",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2.9298999309539795,
+    "entry_time": "2026-08-18T16:11:35.804055+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5857.34,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (14.2)",
+      "5d momentum -5.79%",
+      "1d momentum -10.95%",
+      "BB oversold (pct_b=-0.03)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.636,
+    "news_headlines": [
+      "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
+      "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
+      "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
+    ],
+    "mode": "paper",
+    "strategy_version": "93",
+    "status": "open"
+  },
+  "XLE": {
+    "id": "XLE_20260818161135",
+    "asset": "XLE",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 63.4109992980957,
+    "entry_time": "2026-08-18T16:11:35.806021+00:00",
+    "stop_loss_pct": 0.00512,
+    "take_profit_pct": 0.01248,
+    "size_usd": 676.41,
+    "position_size_pct": 0.0065,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (78.7)",
+      "5d momentum +1.23%",
+      "1d momentum +3.94%",
+      "BB overbought (pct_b=0.94)",
+      "Volume spike 4.4\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge; fed hawkish"
+    ],
+    "news_sentiment": 0.556,
+    "news_headlines": [
+      "U.S. SPR Falls Fast: What Does it Mean for Oil & Energy ETFs?",
+      "Energy Is Headed for a Record High, and the Rally Isn't Over Yet",
+      "Sector Update: Energy Stocks Rise Pre-Bell Tuesday"
     ],
     "mode": "paper",
     "strategy_version": "93",
