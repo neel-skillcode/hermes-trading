@@ -354,36 +354,6 @@
     "price_trough": 0.7108330726623535,
     "trailing_stop_price": 0.712255
   },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260817104927",
-    "asset": "AUD/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 113.4020004272461,
-    "entry_time": "2026-08-17T10:49:27.530262+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00471,
-    "size_usd": 4805.64,
-    "position_size_pct": 0.0456,
-    "confidence": 0.713,
-    "signals": [
-      "RSI overbought (73.7)",
-      "1d momentum +0.72%",
-      "BB overbought (pct_b=1.01)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
-      "Further Strength for the Australian Dollar After Higher Inflation"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open",
-    "price_trough": 113.26499938964844,
-    "trailing_stop_price": 113.491529
-  },
   "SLB": {
     "id": "SLB_20260817194640",
     "asset": "SLB",
@@ -476,7 +446,7 @@
     "mode": "paper",
     "strategy_version": "92",
     "status": "open",
-    "price_peak": 14.869999885559082,
+    "price_peak": 14.87,
     "trailing_stop_price": 14.676541
   },
   "NKE": {
@@ -569,6 +539,39 @@
     ],
     "mode": "paper",
     "strategy_version": "92",
+    "status": "open",
+    "price_peak": 6.308000087738037,
+    "trailing_stop_price": 6.263087
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260818110004",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 600.72998046875,
+    "entry_time": "2026-08-18T11:00:04.921895+00:00",
+    "stop_loss_pct": 0.00225,
+    "take_profit_pct": 0.00561,
+    "size_usd": 4804.1,
+    "position_size_pct": 0.0457,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (25.2)",
+      "5d momentum -0.40%",
+      "1d momentum -0.62%",
+      "BB oversold (pct_b=0.03)",
+      "Volume spike 5.0\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: product catalyst; price surge"
+    ],
+    "news_sentiment": -0.081,
+    "news_headlines": [
+      "CZ Wallet Abandoned After Traders Earned Big on Signals",
+      "A Meme Coin Trader Turned $120 Into $205,000: Luck or Strategy?",
+      "Why is Ethereum Price Stuck Below $2,000?"
+    ],
+    "mode": "paper",
+    "strategy_version": "93",
     "status": "open"
   }
 }
