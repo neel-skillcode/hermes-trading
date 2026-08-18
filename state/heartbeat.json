@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 105214.66,
+  "portfolio_balance": 105214.93,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.49,
-  "unrealized_pnl_usd": 470.79,
-  "equity_value": 105685.45,
+  "unrealized_pnl_usd": 471.23,
+  "equity_value": 105686.16,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 42085.86,
+  "day_capital_used_usd": 42085.97,
   "swing_capital_used_usd": 51856.17,
-  "total_trades": 1039,
-  "last_tick": "2026-08-18T02:42:16.766107+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 1040,
+  "last_tick": "2026-08-18T03:27:50.663532+00:00",
+  "last_reflection": "2026-08-17",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8442,
-      "unrealized_pnl_pct": 0.001264,
-      "unrealized_pnl_usd": 1.7
+      "current_price": 7.84416,
+      "unrealized_pnl_pct": 0.001259,
+      "unrealized_pnl_usd": 1.69
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3846999406814575,
       "trailing_stop_price": 1.395778,
-      "current_price": 1.38688,
-      "unrealized_pnl_pct": 0.016013,
-      "unrealized_pnl_usd": 107.28
+      "current_price": 1.38697,
+      "unrealized_pnl_pct": 0.015949,
+      "unrealized_pnl_usd": 106.86
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85483,
-      "unrealized_pnl_pct": -0.001054,
-      "unrealized_pnl_usd": -7.34
+      "current_price": 0.855,
+      "unrealized_pnl_pct": -0.001253,
+      "unrealized_pnl_usd": -8.72
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_trough": 9.412890434265137,
       "trailing_stop_price": 9.488194,
-      "current_price": 9.41645,
-      "unrealized_pnl_pct": 0.012231,
-      "unrealized_pnl_usd": 70.86
+      "current_price": 9.41765,
+      "unrealized_pnl_pct": 0.012105,
+      "unrealized_pnl_usd": 70.13
     },
     {
       "id": "GBP/USD_20260810092145",
@@ -164,9 +164,9 @@
       "status": "open",
       "price_trough": 1.3482176065444946,
       "trailing_stop_price": 1.359003,
-      "current_price": 1.354169,
-      "unrealized_pnl_pct": -0.002749,
-      "unrealized_pnl_usd": -11.57
+      "current_price": 1.353766,
+      "unrealized_pnl_pct": -0.00245,
+      "unrealized_pnl_usd": -10.31
     },
     {
       "id": "COST_20260811153222",
@@ -335,9 +335,9 @@
       "status": "open",
       "price_trough": 114.4729995727539,
       "trailing_stop_price": 115.388784,
-      "current_price": 115.000999,
-      "unrealized_pnl_pct": -0.004165,
-      "unrealized_pnl_usd": -18.6
+      "current_price": 115.001999,
+      "unrealized_pnl_pct": -0.004174,
+      "unrealized_pnl_usd": -18.64
     },
     {
       "id": "EUR/USD_20260817072739",
@@ -367,11 +367,11 @@
       "mode": "paper",
       "strategy_version": "91",
       "status": "open",
-      "price_trough": 1.1579434871673584,
-      "trailing_stop_price": 1.160259,
-      "current_price": 1.157943,
-      "unrealized_pnl_pct": 0.002316,
-      "unrealized_pnl_usd": 12.07
+      "price_trough": 1.1578094959259033,
+      "trailing_stop_price": 1.160125,
+      "current_price": 1.157809,
+      "unrealized_pnl_pct": 0.002431,
+      "unrealized_pnl_usd": 12.67
     },
     {
       "id": "AUD/USD_20260817072739",
@@ -404,43 +404,9 @@
       "status": "open",
       "price_trough": 0.7108330726623535,
       "trailing_stop_price": 0.712255,
-      "current_price": 0.711035,
-      "unrealized_pnl_pct": 0.001849,
-      "unrealized_pnl_usd": 2.49
-    },
-    {
-      "id": "NZD/USD_20260817085737",
-      "asset": "NZD/USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.5920312404632568,
-      "entry_time": "2026-08-17T08:57:37.960537+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00463,
-      "size_usd": 54.87,
-      "position_size_pct": 0.0005,
-      "confidence": 0.633,
-      "signals": [
-        "RSI overbought (80.4)",
-        "1d momentum +0.73%",
-        "BB overbought (pct_b=0.88)",
-        "High-impact catalyst",
-        "Claude [contradicts]: fed hawkish"
-      ],
-      "news_sentiment": 0.382,
-      "news_headlines": [
-        "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
-        "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
-        "US Dollar In Uptrend Despite Pullback"
-      ],
-      "mode": "paper",
-      "strategy_version": "91",
-      "status": "open",
-      "price_trough": 0.5896574258804321,
-      "trailing_stop_price": 0.590837,
-      "current_price": 0.589657,
-      "unrealized_pnl_pct": 0.00401,
-      "unrealized_pnl_usd": 0.22
+      "current_price": 0.710884,
+      "unrealized_pnl_pct": 0.002062,
+      "unrealized_pnl_usd": 2.77
     },
     {
       "id": "AUD/JPY_20260817104927",
@@ -471,9 +437,9 @@
       "status": "open",
       "price_trough": 113.26499938964844,
       "trailing_stop_price": 113.491529,
-      "current_price": 113.373001,
-      "unrealized_pnl_pct": 0.000256,
-      "unrealized_pnl_usd": 1.23
+      "current_price": 113.347,
+      "unrealized_pnl_pct": 0.000485,
+      "unrealized_pnl_usd": 2.33
     },
     {
       "id": "SLB_20260817194640",
@@ -645,6 +611,40 @@
       "current_price": 87.544998,
       "unrealized_pnl_pct": -0.001426,
       "unrealized_pnl_usd": -9.34
+    },
+    {
+      "id": "AVAX-USD_20260818032750",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 6.249000072479248,
+      "entry_time": "2026-08-18T03:27:50.106898+00:00",
+      "stop_loss_pct": 0.00712,
+      "take_profit_pct": 0.01762,
+      "size_usd": 54.98,
+      "position_size_pct": 0.0005,
+      "confidence": 0.95,
+      "signals": [
+        "RSI oversold (41.9)",
+        "5d momentum -1.01%",
+        "1d momentum -1.75%",
+        "BB oversold (pct_b=-0.07)",
+        "Volume spike 1.8\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.263,
+      "news_headlines": [
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+      ],
+      "mode": "paper",
+      "strategy_version": "92",
+      "status": "open",
+      "current_price": 6.249,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -691,6 +691,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "NKE",
+      "rank_score": 0.6316,
+      "price": 39.08000183105469,
+      "rsi": 12.22557403541849,
+      "momentum_5d": -0.008499278870768338,
+      "momentum_1d": -0.04027503291956235,
+      "macd_crossover": false,
+      "atr_pct": 0.00869935981250365,
+      "bollinger_pct_b": 0.1286,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.59,
+      "news_sentiment": 0.111,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Nike stock hits 12-year low as turnaround skepticism lingers",
+        "Nike's stock plunge is relentless",
+        "NKE Vs LULU: Retail Traders See A Bigger Comeback Opportunity In One Stock"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "USO",
       "rank_score": 0.6303,
       "price": 130.27000427246094,
@@ -708,27 +729,6 @@
         "Sector Update: Energy Stocks Edge Higher Premarket Monday",
         "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday Amid Lower Rate Hike Expectations",
         "'Economic Isolation' for Iran? ETFs to Gain/Lose"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NKE",
-      "rank_score": 0.6276,
-      "price": 39.08000183105469,
-      "rsi": 12.22557403541849,
-      "momentum_5d": -0.008499278870768338,
-      "momentum_1d": -0.04027503291956235,
-      "macd_crossover": false,
-      "atr_pct": 0.00869935981250365,
-      "bollinger_pct_b": 0.1286,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.59,
-      "news_sentiment": -0.0,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Nike stock hits 12-year low as turnaround skepticism lingers",
-        "Nike's stock plunge is relentless",
-        "Nike Stock Hits 12-Year Low: Riskier Than Bitcoin?"
       ],
       "high_impact_news": true
     },
@@ -818,7 +818,7 @@
     },
     {
       "asset": "SPY",
-      "rank_score": 0.5631,
+      "rank_score": 0.5681,
       "price": 772.6799926757812,
       "rsi": 16.045349262464967,
       "momentum_5d": -0.003912563344287241,
@@ -828,8 +828,8 @@
       "bollinger_pct_b": -0.032,
       "volume_spike": true,
       "volume_spike_ratio": 2.29,
-      "news_sentiment": 0.071,
-      "news_confidence": 0.28,
+      "news_sentiment": 0.226,
+      "news_confidence": 0.31,
       "news_headlines": [
         "Situational Awareness\u2019 13F Reveals an $11 Billion AI Bet That Unraveled in Under a Month",
         "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage \u2014 TSLA, PSKY, MSTR, BABA, NVDA In Focus",
@@ -880,6 +880,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5512,
+      "price": 6.249000072479248,
+      "rsi": 41.89600841102008,
+      "momentum_5d": -0.010137831086654671,
+      "momentum_1d": -0.01745283941901742,
+      "macd_crossover": false,
+      "atr_pct": 0.007006834338828601,
+      "bollinger_pct_b": -0.0741,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.81,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+        "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MCD",
       "rank_score": 0.5457,
       "price": 265.55999755859375,
@@ -923,7 +944,7 @@
     },
     {
       "asset": "VLO",
-      "rank_score": 0.5355,
+      "rank_score": 0.5415,
       "price": 347.3299865722656,
       "rsi": 61.26501949423468,
       "momentum_5d": -8.636221948971262e-05,
@@ -933,8 +954,8 @@
       "bollinger_pct_b": 0.7519,
       "volume_spike": true,
       "volume_spike_ratio": 1.5,
-      "news_sentiment": 0.927,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.966,
+      "news_confidence": 0.59,
       "news_headlines": [
         "Valero (VLO) Stock Could Be 8% Overvalued On Refining Cash Flow",
         "The Questions That Decide CVX Stock",
@@ -1041,30 +1062,9 @@
       "news_sentiment": 0.667,
       "news_confidence": 0.44,
       "news_headlines": [
+        "CVX Stock Rises Overnight: Chevron Says It Has Discovered Oil, Gas Condensate Offshore In Angola",
         "Chevron Struck Oil Off Angola. Here's What CVX Investors Need to Know.",
-        "The Questions That Decide CVX Stock",
-        "U.S. Shale Majors Cut Spending Despite Higher Oil Prices"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMZN",
-      "rank_score": 0.5035,
-      "price": 261.3349914550781,
-      "rsi": 34.482954995642174,
-      "momentum_5d": -0.001432883773046043,
-      "momentum_1d": -0.027554510115293175,
-      "macd_crossover": true,
-      "atr_pct": 0.006461425022281222,
-      "bollinger_pct_b": 0.3029,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.19,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Amazon Alexa+ assistance is the way consumers 'actually want to shop': VP",
-        "Morgan Stanley resets Amazon stock price target after earnings",
-        "Cloudways Bets That Enterprises Will Pay to Rehabilitate the Agent Every Hyperscaler Banned"
+        "The Questions That Decide CVX Stock"
       ],
       "high_impact_news": true
     }

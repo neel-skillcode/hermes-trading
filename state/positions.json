@@ -319,8 +319,8 @@
     "mode": "paper",
     "strategy_version": "91",
     "status": "open",
-    "price_trough": 1.1583458185195923,
-    "trailing_stop_price": 1.160663
+    "price_trough": 1.1578094959259033,
+    "trailing_stop_price": 1.160125
   },
   "AUD/USD": {
     "id": "AUD/USD_20260817072739",
@@ -353,37 +353,6 @@
     "status": "open",
     "price_trough": 0.7108330726623535,
     "trailing_stop_price": 0.712255
-  },
-  "NZD/USD": {
-    "id": "NZD/USD_20260817085737",
-    "asset": "NZD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.5920312404632568,
-    "entry_time": "2026-08-17T08:57:37.960537+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00463,
-    "size_usd": 54.87,
-    "position_size_pct": 0.0005,
-    "confidence": 0.633,
-    "signals": [
-      "RSI overbought (80.4)",
-      "1d momentum +0.73%",
-      "BB overbought (pct_b=0.88)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed hawkish"
-    ],
-    "news_sentiment": 0.382,
-    "news_headlines": [
-      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
-      "UBS adds Norwegian krone to top FX picks as oil rally seen capped",
-      "US Dollar In Uptrend Despite Pullback"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open",
-    "price_trough": 0.5906674861907959,
-    "trailing_stop_price": 0.591849
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260817104927",
@@ -444,7 +413,9 @@
     ],
     "mode": "paper",
     "strategy_version": "92",
-    "status": "open"
+    "status": "open",
+    "price_peak": 53.86000061035156,
+    "trailing_stop_price": 53.446356
   },
   "USO": {
     "id": "USO_20260817194640",
@@ -504,7 +475,9 @@
     ],
     "mode": "paper",
     "strategy_version": "92",
-    "status": "open"
+    "status": "open",
+    "price_peak": 14.869999885559082,
+    "trailing_stop_price": 14.676541
   },
   "NKE": {
     "id": "NKE_20260817194640",
@@ -562,6 +535,37 @@
       "Wells Fargo Sees Up to 52% Upside in 2 Stocks",
       "Wells Fargo's NII Outlook: Can It Achieve the $50B Target in 2026?",
       "Why This Former Wells Fargo Executive Launched an Independent RIA"
+    ],
+    "mode": "paper",
+    "strategy_version": "92",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260818032750",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.249000072479248,
+    "entry_time": "2026-08-18T03:27:50.106898+00:00",
+    "stop_loss_pct": 0.00712,
+    "take_profit_pct": 0.01762,
+    "size_usd": 54.98,
+    "position_size_pct": 0.0005,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (41.9)",
+      "5d momentum -1.01%",
+      "1d momentum -1.75%",
+      "BB oversold (pct_b=-0.07)",
+      "Volume spike 1.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.263,
+    "news_headlines": [
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
+      "5 Cryptocurrencies With the Weakest 2026 Price Outlook (Hint: Not Bitcoin, ETH or XRP)"
     ],
     "mode": "paper",
     "strategy_version": "92",
