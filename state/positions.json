@@ -322,38 +322,6 @@
     "price_trough": 1.1578094959259033,
     "trailing_stop_price": 1.160125
   },
-  "AUD/USD": {
-    "id": "AUD/USD_20260817072739",
-    "asset": "AUD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.7123521566390991,
-    "entry_time": "2026-08-17T07:27:39.479400+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00479,
-    "size_usd": 1344.27,
-    "position_size_pct": 0.0128,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (83.7)",
-      "5d momentum +0.41%",
-      "1d momentum +0.75%",
-      "BB overbought (pct_b=1.06)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.417,
-    "news_headlines": [
-      "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
-      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone",
-      "Dollar Mostly Flat After Inflation Meets Expectations"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open",
-    "price_trough": 0.7099247574806213,
-    "trailing_stop_price": 0.711345
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260818110004",
     "asset": "BNB-USD",
@@ -417,8 +385,8 @@
     "mode": "paper",
     "strategy_version": "93",
     "status": "open",
-    "price_peak": 249.7799072265625,
-    "trailing_stop_price": 246.033209
+    "price_peak": 251.3699951171875,
+    "trailing_stop_price": 247.599445
   },
   "ON": {
     "id": "ON_20260818151252",
@@ -451,8 +419,8 @@
     "mode": "paper",
     "strategy_version": "93",
     "status": "open",
-    "price_peak": 77.7249984741211,
-    "trailing_stop_price": 76.559123
+    "price_peak": 78.12000274658203,
+    "trailing_stop_price": 76.948203
   },
   "INTC": {
     "id": "INTC_20260818151252",
@@ -547,7 +515,9 @@
     ],
     "mode": "paper",
     "strategy_version": "93",
-    "status": "open"
+    "status": "open",
+    "price_peak": 2.9649999141693115,
+    "trailing_stop_price": 2.920525
   },
   "XLE": {
     "id": "XLE_20260818161135",
@@ -578,6 +548,37 @@
     ],
     "mode": "paper",
     "strategy_version": "93",
+    "status": "open"
+  },
+  "XOM": {
+    "id": "XOM_20260818180313",
+    "asset": "XOM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 165.1699981689453,
+    "entry_time": "2026-08-18T18:03:13.738447+00:00",
+    "stop_loss_pct": 0.0067,
+    "take_profit_pct": 0.01633,
+    "size_usd": 1346.94,
+    "position_size_pct": 0.0129,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (75.9)",
+      "5d momentum +2.27%",
+      "1d momentum +3.43%",
+      "BB overbought (pct_b=0.95)",
+      "Volume spike 4.9\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Update: Technology Pushes US Equity Indexes Lower as 30-Year Yield Touches 19-Year High, Crude Oil Rises",
+      "XOM Runs One Of The Market's Biggest Cash-Return Machines",
+      "This Energy Stock Is Spiking Now; Its Exxon Deal Smells Like AI"
+    ],
+    "mode": "paper",
+    "strategy_version": "94",
     "status": "open"
   }
 }
