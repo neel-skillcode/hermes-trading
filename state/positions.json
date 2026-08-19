@@ -163,8 +163,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 77.29499816894531,
-    "trailing_stop_price": 74.955279
+    "price_peak": 77.43000030517578,
+    "trailing_stop_price": 75.086194
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260813200814",
@@ -287,8 +287,8 @@
     "mode": "paper",
     "strategy_version": "94",
     "status": "open",
-    "price_peak": 112.78900146484375,
-    "trailing_stop_price": 112.563423
+    "price_peak": 112.83699798583984,
+    "trailing_stop_price": 112.611324
   },
   "AUD/USD": {
     "id": "AUD/USD_20260819132535",
@@ -383,8 +383,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_peak": 43.40999984741211,
-    "trailing_stop_price": 42.75885
+    "price_peak": 43.63999938964844,
+    "trailing_stop_price": 42.985399
   },
   "AXP": {
     "id": "AXP_20260819140520",
@@ -411,37 +411,6 @@
       "Marti Technologies Shares Rise After Revenue Beat and Higher Guidance",
       "Is American Express\u2019 Expanded Virtual Cards Strategy Deepening Its Corporate Moat In Premium Payments (AXP)?",
       "Berkshire Boosts Alphabet Stake 83% as Buffett Makes Major AI Bet"
-    ],
-    "mode": "paper",
-    "strategy_version": "95",
-    "status": "open"
-  },
-  "MRNA": {
-    "id": "MRNA_20260819144730",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 144.85000610351562,
-    "entry_time": "2026-08-19T14:47:30.857903+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5838.59,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (83.1)",
-      "5d momentum +127.72%",
-      "1d momentum +129.30%",
-      "BB overbought (pct_b=1.17)",
-      "Volume spike 2.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; product catalyst; price surge"
-    ],
-    "news_sentiment": 0.73,
-    "news_headlines": [
-      "Moderna & Merck stocks skyrocket on their cancer vaccine trial's success. Here's what to know.",
-      "Moderna Stock Jumps 86% on First mRNA Cancer Trial Win",
-      "Moderna Skyrockets 150%, Merck Jumps On Late-Stage Cancer Vaccine Trial Win"
     ],
     "mode": "paper",
     "strategy_version": "95",
@@ -476,38 +445,9 @@
     ],
     "mode": "paper",
     "strategy_version": "95",
-    "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260819144730",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 78.9800033569336,
-    "entry_time": "2026-08-19T14:47:30.861599+00:00",
-    "stop_loss_pct": 0.00538,
-    "take_profit_pct": 0.01311,
-    "size_usd": 5821.38,
-    "position_size_pct": 0.0555,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (83.5)",
-      "5d momentum +2.24%",
-      "1d momentum +2.93%",
-      "BB overbought (pct_b=1.22)",
-      "Volume spike 2.8\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.185,
-    "news_headlines": [
-      "Kraken launches US stock trading in Europe. Here's what you need to know.",
-      "Bitmark shutdown sparks panic as users report frozen withdrawals",
-      "Rain forms agentic payments alliance with Visa, Mastercard and other players"
-    ],
-    "mode": "paper",
-    "strategy_version": "95",
-    "status": "open"
+    "status": "open",
+    "price_trough": 175.22999572753906,
+    "trailing_stop_price": 176.328688
   },
   "ARKK": {
     "id": "ARKK_20260819144730",
@@ -536,6 +476,68 @@
     ],
     "mode": "paper",
     "strategy_version": "95",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260819151531",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2010.6199951171875,
+    "entry_time": "2026-08-19T15:15:31.933228+00:00",
+    "stop_loss_pct": 0.007,
+    "take_profit_pct": 0.01706,
+    "size_usd": 5841.56,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (87.6)",
+      "5d momentum +4.80%",
+      "1d momentum +4.91%",
+      "BB overbought (pct_b=1.40)",
+      "Volume spike 10.3\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Kraken launches US stock trading in Europe. Here's what you need to know.",
+      "Tom Lee Eyes Ethereum AI Growth as Peter Brandt\u2019s September Bitcoin Bottom Window Nears",
+      "Is Arthur Hayes Crypto\u2019s Jim Cramer? 124 Trades Show a Clear Pattern"
+    ],
+    "mode": "paper",
+    "strategy_version": "96",
+    "status": "open"
+  },
+  "COIN": {
+    "id": "COIN_20260819151531",
+    "asset": "COIN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 160.51499938964844,
+    "entry_time": "2026-08-19T15:15:31.935121+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 5839.8,
+    "position_size_pct": 0.0557,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (71.9)",
+      "5d momentum +7.97%",
+      "1d momentum +5.29%",
+      "BB overbought (pct_b=1.36)",
+      "Volume spike 2.9\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.182,
+    "news_headlines": [
+      "Clarity Act Vote Set, SEC Proposes Crypto Rules Ahead Of White House Summit",
+      "Valero Energy and Coinbase Global have been highlighted as Zacks Bull and Bear of the Day",
+      "Can a $7 USDT Transfer Freeze Your Crypto Exchange Account? Inside the HTX \u2018Dusting\u2019 Panic"
+    ],
+    "mode": "paper",
+    "strategy_version": "96",
     "status": "open"
   }
 }
