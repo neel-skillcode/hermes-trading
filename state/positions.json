@@ -255,8 +255,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 340.2349853515625,
-    "trailing_stop_price": 345.576675
+    "price_trough": 339.8999938964844,
+    "trailing_stop_price": 345.236424
   },
   "ARKK": {
     "id": "ARKK_20260819144730",
@@ -320,70 +320,6 @@
     "price_trough": 68269.2109375,
     "trailing_stop_price": 68759.383872
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260819154832",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2082.85009765625,
-    "entry_time": "2026-08-19T15:48:32.967534+00:00",
-    "stop_loss_pct": 0.00968,
-    "take_profit_pct": 0.02357,
-    "size_usd": 5823.29,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (92.0)",
-      "5d momentum +8.57%",
-      "1d momentum +8.68%",
-      "BB overbought (pct_b=1.50)",
-      "Volume spike 46.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "Kraken launches US stock trading in Europe. Here's what you need to know.",
-      "Tom Lee Eyes Ethereum AI Growth as Peter Brandt\u2019s September Bitcoin Bottom Window Nears",
-      "Is Arthur Hayes Crypto\u2019s Jim Cramer? 124 Trades Show a Clear Pattern"
-    ],
-    "mode": "paper",
-    "strategy_version": "96",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260819154832",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.0663000345230103,
-    "entry_time": "2026-08-19T15:48:32.969265+00:00",
-    "stop_loss_pct": 0.00809,
-    "take_profit_pct": 0.02019,
-    "size_usd": 2557.69,
-    "position_size_pct": 0.0245,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (95.2)",
-      "5d momentum +6.15%",
-      "1d momentum +6.28%",
-      "BB overbought (pct_b=1.44)",
-      "Volume spike 30.9\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.211,
-    "news_headlines": [
-      "XRP Holds Above $1 as Ripple Signs Korea\u2019s First Regional Bank. Will It Move XRP?",
-      "Why is XRP Crashing?",
-      "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter"
-    ],
-    "mode": "paper",
-    "strategy_version": "96",
-    "status": "open",
-    "price_trough": 1.0640000104904175,
-    "trailing_stop_price": 1.072608
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260819183704",
     "asset": "SOL-USD",
@@ -442,8 +378,8 @@
     "mode": "paper",
     "strategy_version": "96",
     "status": "open",
-    "price_trough": 175.1999969482422,
-    "trailing_stop_price": 181.561509
+    "price_trough": 175.19000244140625,
+    "trailing_stop_price": 181.551151
   },
   "MRNA": {
     "id": "MRNA_20260819195506",
@@ -474,7 +410,9 @@
     ],
     "mode": "paper",
     "strategy_version": "96",
-    "status": "open"
+    "status": "open",
+    "price_trough": 174.3800048828125,
+    "trailing_stop_price": 176.995705
   },
   "RXRX": {
     "id": "RXRX_20260819195506",
@@ -536,6 +474,68 @@
     ],
     "mode": "paper",
     "strategy_version": "96",
+    "status": "open",
+    "price_trough": 0.07293999940156937,
+    "trailing_stop_price": 0.073566
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260819201844",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2109.7099609375,
+    "entry_time": "2026-08-19T20:18:44.691169+00:00",
+    "stop_loss_pct": 0.01109,
+    "take_profit_pct": 0.02659,
+    "size_usd": 5308.29,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (96.0)",
+      "5d momentum +1.17%",
+      "1d momentum +10.37%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.744,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation",
+      "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
+      "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen"
+    ],
+    "mode": "paper",
+    "strategy_version": "97",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260819201844",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.0741000175476074,
+    "entry_time": "2026-08-19T20:18:44.693174+00:00",
+    "stop_loss_pct": 0.00939,
+    "take_profit_pct": 0.02252,
+    "size_usd": 3035.94,
+    "position_size_pct": 0.0291,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (88.1)",
+      "5d momentum +0.64%",
+      "1d momentum +7.46%",
+      "BB overbought (pct_b=0.93)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.19,
+    "news_headlines": [
+      "Trump Says CFTC Working to Bring Hyperliquid to US. How Will HYPE Price React?",
+      "Why Is XRP (Ripple) Up Today?",
+      "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back?"
+    ],
+    "mode": "paper",
+    "strategy_version": "97",
     "status": "open"
   }
 }
