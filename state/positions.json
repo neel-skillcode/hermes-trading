@@ -101,39 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.32664966583252,
-    "trailing_stop_price": 9.401263
-  },
-  "COST": {
-    "id": "COST_20260811153222",
-    "asset": "COST",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 940.114990234375,
-    "entry_time": "2026-08-11T15:32:22.323556+00:00",
-    "stop_loss_pct": 0.01417,
-    "take_profit_pct": 0.04751,
-    "size_usd": 5511.84,
-    "position_size_pct": 0.0521,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (43.7)",
-      "5d momentum -1.02%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.811,
-    "news_headlines": [
-      "Warren Buffett Passed on This Stock. Greg Abel May Not Wait Any Longer.",
-      "Should You Own Walmart for Its Dividend King Status or Costco for Its Special Dividend? Here's the Answer.",
-      "Costco Delivered Another Strong Sales Print in July. Here\u2019s What That Signals for the Second Half of the Year."
-    ],
-    "mode": "paper",
-    "strategy_version": "84",
-    "status": "open",
-    "price_peak": 974.0599975585938,
-    "trailing_stop_price": 960.257567
+    "price_trough": 9.326580047607422,
+    "trailing_stop_price": 9.401193
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -415,8 +384,8 @@
     "mode": "paper",
     "strategy_version": "96",
     "status": "open",
-    "price_trough": 68279.78125,
-    "trailing_stop_price": 68770.030079
+    "price_trough": 68269.2109375,
+    "trailing_stop_price": 68759.383872
   },
   "ETH-USD": {
     "id": "ETH-USD_20260819154832",
@@ -512,38 +481,6 @@
     "strategy_version": "96",
     "status": "open"
   },
-  "MRNA": {
-    "id": "MRNA_20260819183704",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 154.21099853515625,
-    "entry_time": "2026-08-19T18:37:04.316461+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 521.39,
-    "position_size_pct": 0.005,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (79.7)",
-      "5d momentum -4.49%",
-      "1d momentum +143.83%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge; macro risk"
-    ],
-    "news_sentiment": 0.581,
-    "news_headlines": [
-      "Moderna & Merck stocks skyrocket on their cancer vaccine trial's success. Here's what to know.",
-      "Tech sell-off resumes, counterbalancing bond yield relief: AlphaCheck",
-      "Top Midday Gainers"
-    ],
-    "mode": "paper",
-    "strategy_version": "96",
-    "status": "open",
-    "price_trough": 153.5800018310547,
-    "trailing_stop_price": 155.883702
-  },
   "RXRX": {
     "id": "RXRX_20260819190600",
     "asset": "RXRX",
@@ -569,6 +506,65 @@
       "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
       "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
       "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
+    ],
+    "mode": "paper",
+    "strategy_version": "96",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260819193448",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 162.22360229492188,
+    "entry_time": "2026-08-19T19:34:48.626983+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 551.84,
+    "position_size_pct": 0.0053,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (81.2)",
+      "5d momentum +14.47%",
+      "1d momentum +155.75%",
+      "BB overbought (pct_b=0.89)",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.442,
+    "news_headlines": [
+      "Moderna & Merck stocks skyrocket on their cancer vaccine trial's success. Here's what to know.",
+      "Tech sell-off resumes, counterbalancing bond yield relief: AlphaCheck",
+      "Stock Market Today: S&P 500 Higher As Yields Tumble; Coinbase Soars Amid White House News (Live Coverage)"
+    ],
+    "mode": "paper",
+    "strategy_version": "96",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20260819193448",
+    "asset": "PLTR",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 176.27499389648438,
+    "entry_time": "2026-08-19T19:34:48.656730+00:00",
+    "stop_loss_pct": 0.03631,
+    "take_profit_pct": 0.11918,
+    "size_usd": 5426.5,
+    "position_size_pct": 0.0518,
+    "confidence": 0.564,
+    "signals": [
+      "RSI overbought (62.9)",
+      "5d momentum +0.63%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.84,
+    "news_headlines": [
+      "Is Palantir Technologies (PLTR) Overvalued As Revenue Growth And 2026 Outlook Jump?",
+      "Palantir Stock Climbs as Enterprise AI Demand Keeps Growing",
+      "Mercury Systems' 2027, 2028 Outlook Conservative, RBC Says"
     ],
     "mode": "paper",
     "strategy_version": "96",
