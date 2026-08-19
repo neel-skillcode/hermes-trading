@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.404620170593262,
-    "trailing_stop_price": 9.479857
+    "price_trough": 9.397839546203613,
+    "trailing_stop_price": 9.473022
   },
   "GBP/USD": {
     "id": "GBP/USD_20260810092145",
@@ -259,37 +259,6 @@
     "price_trough": 114.4729995727539,
     "trailing_stop_price": 115.388784
   },
-  "EUR/USD": {
-    "id": "EUR/USD_20260817072739",
-    "asset": "EUR/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1606314182281494,
-    "entry_time": "2026-08-17T07:27:39.477034+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00477,
-    "size_usd": 5210.95,
-    "position_size_pct": 0.0495,
-    "confidence": 0.773,
-    "signals": [
-      "RSI overbought (81.6)",
-      "1d momentum +0.51%",
-      "BB overbought (pct_b=1.11)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; fed hawkish"
-    ],
-    "news_sentiment": -0.63,
-    "news_headlines": [
-      "Yen stronger as traders pare bets on Fed rate hike",
-      "Dollar Falls After July Retail Sales Data",
-      "US Dollar Price Forecast: Softer PPI Boosts Fed Cut Bets \u2013 Can EUR/USD and GBP/USD Rally?"
-    ],
-    "mode": "paper",
-    "strategy_version": "91",
-    "status": "open",
-    "price_trough": 1.1578094959259033,
-    "trailing_stop_price": 1.160125
-  },
   "ABBV": {
     "id": "ABBV_20260818195941",
     "asset": "ABBV",
@@ -416,8 +385,8 @@
     "mode": "paper",
     "strategy_version": "94",
     "status": "open",
-    "price_trough": 14.78,
-    "trailing_stop_price": 14.990911
+    "price_trough": 14.779999732971191,
+    "trailing_stop_price": 14.99091
   },
   "META": {
     "id": "META_20260818195941",
@@ -540,6 +509,37 @@
     ],
     "mode": "paper",
     "strategy_version": "94",
+    "status": "open",
+    "price_peak": 112.63200378417969,
+    "trailing_stop_price": 112.40674
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260819082021",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.0038000345230103,
+    "entry_time": "2026-08-19T08:20:21.813802+00:00",
+    "stop_loss_pct": 0.00276,
+    "take_profit_pct": 0.00638,
+    "size_usd": 4187.31,
+    "position_size_pct": 0.0397,
+    "confidence": 0.621,
+    "signals": [
+      "5d momentum +0.44%",
+      "1d momentum +0.76%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Ripple\u2019s Brokerage Arm Raises $275 Million: Why Doesn\u2019t XRP Care?",
+      "Why the Crypto Industry Is More Reliant Than Ever on Trump",
+      "World's second-largest bank boosts XRP holdings"
+    ],
+    "mode": "paper",
+    "strategy_version": "95",
     "status": "open"
   }
 }
