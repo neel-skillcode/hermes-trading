@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3808000087738037,
-    "trailing_stop_price": 1.391846
+    "price_trough": 1.3804899454116821,
+    "trailing_stop_price": 1.391534
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.324970245361328,
-    "trailing_stop_price": 9.39957
+    "price_trough": 9.32174015045166,
+    "trailing_stop_price": 9.396314
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -163,37 +163,6 @@
     "status": "open",
     "price_trough": 114.4729995727539,
     "trailing_stop_price": 115.388784
-  },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260819045033",
-    "asset": "AUD/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 112.60399627685547,
-    "entry_time": "2026-08-19T04:50:33.758320+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00487,
-    "size_usd": 4806.25,
-    "position_size_pct": 0.0456,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (8.1)",
-      "5d momentum -0.34%",
-      "1d momentum -0.69%",
-      "BB oversold (pct_b=0.04)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
-      "Further Strength for the Australian Dollar After Higher Inflation"
-    ],
-    "mode": "paper",
-    "strategy_version": "94",
-    "status": "open",
-    "price_peak": 112.85600280761719,
-    "trailing_stop_price": 112.630291
   },
   "AUD/USD": {
     "id": "AUD/USD_20260819132535",
@@ -285,69 +254,6 @@
     ],
     "mode": "paper",
     "strategy_version": "95",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260819154832",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 68460.0,
-    "entry_time": "2026-08-19T15:48:32.965564+00:00",
-    "stop_loss_pct": 0.00718,
-    "take_profit_pct": 0.01748,
-    "size_usd": 5823.29,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (95.2)",
-      "5d momentum +6.31%",
-      "1d momentum +5.64%",
-      "BB overbought (pct_b=1.50)",
-      "Volume spike 31.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.125,
-    "news_headlines": [
-      "Kraken launches US stock trading in Europe. Here's what you need to know.",
-      "Looking to Diversify Your Portfolio? Here's 1 Cryptocurrency You Should Consider.",
-      "Stock Market Today: Dow Gathers Steam On Treasury News; Moderna Soars As Bitcoin Rises (Live Coverage)"
-    ],
-    "mode": "paper",
-    "strategy_version": "96",
-    "status": "open",
-    "price_trough": 68269.2109375,
-    "trailing_stop_price": 68759.383872
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260819183704",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 82.12000274658203,
-    "entry_time": "2026-08-19T18:37:04.315173+00:00",
-    "stop_loss_pct": 0.00912,
-    "take_profit_pct": 0.02186,
-    "size_usd": 5314.21,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (91.7)",
-      "5d momentum +4.81%",
-      "1d momentum +6.35%",
-      "BB overbought (pct_b=0.99)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.533,
-    "news_headlines": [
-      "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back?",
-      "Solana, Ethereum, XRP Outperform Bitcoin In $69K Rally \u2013 $1.6B In Crypto Bets Get Wiped Out",
-      "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour"
-    ],
-    "mode": "paper",
-    "strategy_version": "96",
     "status": "open"
   },
   "PLTR": {
@@ -445,24 +351,86 @@
     "strategy_version": "96",
     "status": "open"
   },
+  "ETH-USD": {
+    "id": "ETH-USD_20260819211223",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2274.1298828125,
+    "entry_time": "2026-08-19T21:12:23.502432+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5757.26,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (98.2)",
+      "5d momentum +8.87%",
+      "1d momentum +19.00%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.657,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation",
+      "Over $1 billion in Bitcoin shorts wiped out in 4 hours",
+      "Ripple minted $30 million in RLUSD in a single day, here is what the supply data actually tells you"
+    ],
+    "mode": "paper",
+    "strategy_version": "97",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260819211223",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 86.2300033569336,
+    "entry_time": "2026-08-19T21:12:23.504085+00:00",
+    "stop_loss_pct": 0.01332,
+    "take_profit_pct": 0.03244,
+    "size_usd": 5757.26,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (97.0)",
+      "5d momentum +5.70%",
+      "1d momentum +12.07%",
+      "BB overbought (pct_b=1.11)",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.561,
+    "news_headlines": [
+      "Over $1 billion in Bitcoin shorts wiped out in 4 hours",
+      "Altcoin Boom May Never Come Back: How Crypto Trading Has Changed in 2026",
+      "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back?"
+    ],
+    "mode": "paper",
+    "strategy_version": "97",
+    "status": "open"
+  },
   "DOGE-USD": {
-    "id": "DOGE-USD_20260819195506",
+    "id": "DOGE-USD_20260819211223",
     "asset": "DOGE-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 0.07301999628543854,
-    "entry_time": "2026-08-19T19:55:06.648112+00:00",
-    "stop_loss_pct": 0.00858,
-    "take_profit_pct": 0.02089,
-    "size_usd": 5318.11,
-    "position_size_pct": 0.0509,
+    "entry_price": 0.07569000124931335,
+    "entry_time": "2026-08-19T21:12:23.505398+00:00",
+    "stop_loss_pct": 0.01092,
+    "take_profit_pct": 0.0266,
+    "size_usd": 5757.26,
+    "position_size_pct": 0.0557,
     "confidence": 0.87,
     "signals": [
-      "RSI overbought (83.2)",
-      "5d momentum +2.51%",
-      "1d momentum +3.82%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 2.0\u00d7",
+      "RSI overbought (91.1)",
+      "5d momentum +4.13%",
+      "1d momentum +7.97%",
+      "BB overbought (pct_b=1.17)",
+      "Volume spike 1.6\u00d7",
       "High-impact catalyst",
       "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
     ],
@@ -473,67 +441,66 @@
       "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It"
     ],
     "mode": "paper",
-    "strategy_version": "96",
-    "status": "open",
-    "price_trough": 0.07293999940156937,
-    "trailing_stop_price": 0.073566
+    "strategy_version": "97",
+    "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260819201844",
-    "asset": "ETH-USD",
+  "XRP-USD": {
+    "id": "XRP-USD_20260819211223",
+    "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 2109.7099609375,
-    "entry_time": "2026-08-19T20:18:44.691169+00:00",
-    "stop_loss_pct": 0.01109,
-    "take_profit_pct": 0.02659,
-    "size_usd": 5308.29,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
+    "entry_price": 1.1097999811172485,
+    "entry_time": "2026-08-19T21:12:23.506661+00:00",
+    "stop_loss_pct": 0.0119,
+    "take_profit_pct": 0.02899,
+    "size_usd": 5757.26,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI overbought (96.0)",
-      "5d momentum +1.17%",
-      "1d momentum +10.37%",
-      "BB overbought (pct_b=0.92)",
+      "RSI overbought (92.1)",
+      "5d momentum +4.33%",
+      "1d momentum +11.01%",
+      "BB overbought (pct_b=1.05)",
+      "Volume spike 1.6\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
+      "Claude [contradicts]: analyst upgrade"
     ],
-    "news_sentiment": 0.744,
+    "news_sentiment": 0.533,
     "news_headlines": [
-      "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation",
-      "Crypto Stocks Rip Higher as Strategy Jumps 12%, Coinbase Climbs 9%",
-      "Six-Bug Exploit Halts Maya Protocol After $1.4 Million in Bitcoin Stolen"
+      "Why Coinbase (COIN) Stock Is Trading Up Today",
+      "Ripple minted $30 million in RLUSD in a single day, here is what the supply data actually tells you",
+      "Trump Touts Clarity Act With Crypto Executives. Why CME Group Stock Is Tanking."
     ],
     "mode": "paper",
     "strategy_version": "97",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260819204920",
-    "asset": "XRP-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260819211223",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.0887000560760498,
-    "entry_time": "2026-08-19T20:49:20.545740+00:00",
-    "stop_loss_pct": 0.01045,
-    "take_profit_pct": 0.02546,
-    "size_usd": 3018.87,
-    "position_size_pct": 0.0289,
-    "confidence": 0.87,
+    "entry_price": 6.833000183105469,
+    "entry_time": "2026-08-19T21:12:23.507659+00:00",
+    "stop_loss_pct": 0.01392,
+    "take_profit_pct": 0.03446,
+    "size_usd": 6152.27,
+    "position_size_pct": 0.0595,
+    "confidence": 0.95,
     "signals": [
-      "RSI overbought (89.6)",
-      "5d momentum +1.99%",
-      "1d momentum +8.92%",
-      "BB overbought (pct_b=1.02)",
-      "Volume spike 2.3\u00d7",
+      "RSI overbought (79.3)",
+      "5d momentum +3.45%",
+      "1d momentum +8.24%",
+      "BB overbought (pct_b=1.17)",
+      "Volume spike 1.8\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.444,
+    "news_sentiment": 0.263,
     "news_headlines": [
-      "Trump Touts Clarity Act With Crypto Executives. Why CME Group Stock Is Tanking.",
-      "Trump Name-Drops Hyperliquid at the White House, How Will HYPE Price React?",
-      "Why Is XRP (Ripple) Up Today?"
+      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
     ],
     "mode": "paper",
     "strategy_version": "97",
