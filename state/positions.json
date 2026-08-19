@@ -163,8 +163,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 77.68000030517578,
-    "trailing_stop_price": 75.328627
+    "price_peak": 78.47000122070312,
+    "trailing_stop_price": 76.094714
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260813200814",
@@ -285,7 +285,9 @@
     ],
     "mode": "paper",
     "strategy_version": "95",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.7120478749275208,
+    "trailing_stop_price": 0.717744
   },
   "TGT": {
     "id": "TGT_20260819140520",
@@ -384,40 +386,9 @@
     ],
     "mode": "paper",
     "strategy_version": "95",
-    "status": "open"
-  },
-  "XLV": {
-    "id": "XLV_20260819144730",
-    "asset": "XLV",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 175.50999450683594,
-    "entry_time": "2026-08-19T14:47:30.859807+00:00",
-    "stop_loss_pct": 0.00627,
-    "take_profit_pct": 0.01526,
-    "size_usd": 5838.59,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (83.3)",
-      "5d momentum +3.42%",
-      "1d momentum +4.38%",
-      "BB overbought (pct_b=1.14)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.583,
-    "news_headlines": [
-      "Moderna Rockets 93%, Merck Jumps 7% as Melanoma Therapy Meets Primary Goal in Phase 3 Trial",
-      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Meeting Minutes' Release",
-      "Healthcare ETFs Are Looking Up: Here's Why"
-    ],
-    "mode": "paper",
-    "strategy_version": "95",
     "status": "open",
-    "price_trough": 174.47999572753906,
-    "trailing_stop_price": 175.573985
+    "price_trough": 340.92498779296875,
+    "trailing_stop_price": 346.27751
   },
   "ARKK": {
     "id": "ARKK_20260819144730",
@@ -477,7 +448,9 @@
     ],
     "mode": "paper",
     "strategy_version": "96",
-    "status": "open"
+    "status": "open",
+    "price_trough": 68279.78125,
+    "trailing_stop_price": 68770.030079
   },
   "ETH-USD": {
     "id": "ETH-USD_20260819154832",
@@ -536,6 +509,68 @@
       "XRP Holds Above $1 as Ripple Signs Korea\u2019s First Regional Bank. Will It Move XRP?",
       "Why is XRP Crashing?",
       "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter"
+    ],
+    "mode": "paper",
+    "strategy_version": "96",
+    "status": "open",
+    "price_trough": 1.0640000104904175,
+    "trailing_stop_price": 1.072608
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260819183704",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 82.12000274658203,
+    "entry_time": "2026-08-19T18:37:04.315173+00:00",
+    "stop_loss_pct": 0.00912,
+    "take_profit_pct": 0.02186,
+    "size_usd": 5314.21,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (91.7)",
+      "5d momentum +4.81%",
+      "1d momentum +6.35%",
+      "BB overbought (pct_b=0.99)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.533,
+    "news_headlines": [
+      "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back?",
+      "Solana, Ethereum, XRP Outperform Bitcoin In $69K Rally \u2013 $1.6B In Crypto Bets Get Wiped Out",
+      "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour"
+    ],
+    "mode": "paper",
+    "strategy_version": "96",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260819183704",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 154.21099853515625,
+    "entry_time": "2026-08-19T18:37:04.316461+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 521.39,
+    "position_size_pct": 0.005,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (79.7)",
+      "5d momentum -4.49%",
+      "1d momentum +143.83%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.581,
+    "news_headlines": [
+      "Moderna & Merck stocks skyrocket on their cancer vaccine trial's success. Here's what to know.",
+      "Tech sell-off resumes, counterbalancing bond yield relief: AlphaCheck",
+      "Top Midday Gainers"
     ],
     "mode": "paper",
     "strategy_version": "96",
