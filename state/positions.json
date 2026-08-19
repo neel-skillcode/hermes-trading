@@ -290,39 +290,6 @@
     "price_trough": 1.1578094959259033,
     "trailing_stop_price": 1.160125
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260818110004",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 600.72998046875,
-    "entry_time": "2026-08-18T11:00:04.921895+00:00",
-    "stop_loss_pct": 0.00225,
-    "take_profit_pct": 0.00561,
-    "size_usd": 4804.1,
-    "position_size_pct": 0.0457,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (25.2)",
-      "5d momentum -0.40%",
-      "1d momentum -0.62%",
-      "BB oversold (pct_b=0.03)",
-      "Volume spike 5.0\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: product catalyst; price surge"
-    ],
-    "news_sentiment": -0.081,
-    "news_headlines": [
-      "CZ Wallet Abandoned After Traders Earned Big on Signals",
-      "A Meme Coin Trader Turned $120 Into $205,000: Luck or Strategy?",
-      "Why is Ethereum Price Stuck Below $2,000?"
-    ],
-    "mode": "paper",
-    "strategy_version": "93",
-    "status": "open",
-    "price_peak": 602.8699951171875,
-    "trailing_stop_price": 601.513538
-  },
   "ABBV": {
     "id": "ABBV_20260818195941",
     "asset": "ABBV",
@@ -352,7 +319,9 @@
     ],
     "mode": "paper",
     "strategy_version": "94",
-    "status": "open"
+    "status": "open",
+    "price_trough": 258.9200134277344,
+    "trailing_stop_price": 260.701383
   },
   "SBUX": {
     "id": "SBUX_20260818195941",
@@ -382,7 +351,9 @@
     ],
     "mode": "paper",
     "strategy_version": "94",
-    "status": "open"
+    "status": "open",
+    "price_peak": 106.01000213623047,
+    "trailing_stop_price": 105.156622
   },
   "XOM": {
     "id": "XOM_20260818195941",
@@ -412,7 +383,9 @@
     ],
     "mode": "paper",
     "strategy_version": "94",
-    "status": "open"
+    "status": "open",
+    "price_trough": 165.55999755859375,
+    "trailing_stop_price": 166.62786
   },
   "RIVN": {
     "id": "RIVN_20260818195941",
@@ -442,7 +415,9 @@
     ],
     "mode": "paper",
     "strategy_version": "94",
-    "status": "open"
+    "status": "open",
+    "price_trough": 14.78,
+    "trailing_stop_price": 14.990911
   },
   "META": {
     "id": "META_20260818195941",
@@ -472,7 +447,9 @@
     ],
     "mode": "paper",
     "strategy_version": "94",
-    "status": "open"
+    "status": "open",
+    "price_peak": 543.67,
+    "trailing_stop_price": 537.782054
   },
   "LCID": {
     "id": "LCID_20260818195941",
@@ -529,6 +506,37 @@
       "Musk is putting Dogecoin on the moon in 28 days, here's what $1,000 then is worth today",
       "Dogecoin About to Go 'Parabolic' With Potential 145% Rally: Popular Crypto Analyst Identifies Key Level to Watch as Whales Position for Upside",
       "XRP Broke a Level It Hadn\u2019t Touched in Over a Year \u2014 And Whales Bought It"
+    ],
+    "mode": "paper",
+    "strategy_version": "94",
+    "status": "open",
+    "price_trough": 0.06992000341415405,
+    "trailing_stop_price": 0.070593
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260819045033",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 112.60399627685547,
+    "entry_time": "2026-08-19T04:50:33.758320+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 4806.25,
+    "position_size_pct": 0.0456,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (8.1)",
+      "5d momentum -0.34%",
+      "1d momentum -0.69%",
+      "BB oversold (pct_b=0.04)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+      "Further Strength for the Australian Dollar After Higher Inflation"
     ],
     "mode": "paper",
     "strategy_version": "94",
