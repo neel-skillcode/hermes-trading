@@ -324,40 +324,6 @@
     "price_trough": 159.48500061035156,
     "trailing_stop_price": 161.819861
   },
-  "IONQ": {
-    "id": "IONQ_20260819140520",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 42.560001373291016,
-    "entry_time": "2026-08-19T14:05:20.330178+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 5285.44,
-    "position_size_pct": 0.0503,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (16.3)",
-      "5d momentum -5.58%",
-      "1d momentum -6.38%",
-      "BB oversold (pct_b=-0.19)",
-      "Volume spike 2.2\u00d7",
-      "News +0.87 (conf 0.62) \u2192 long",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.871,
-    "news_headlines": [
-      "3 Quantum Computing Stocks With the Most Upside in August",
-      "Quantum Stocks Fall Tuesday as Rates Force Rotation: IonQ Down 6%, D-Wave Drops 6%, Rigetti Falls 5%",
-      "Two Quantum Computing Stocks Are Starting to Pull Ahead of the Pack"
-    ],
-    "mode": "paper",
-    "strategy_version": "95",
-    "status": "open",
-    "price_peak": 43.63999938964844,
-    "trailing_stop_price": 42.985399
-  },
   "AXP": {
     "id": "AXP_20260819140520",
     "asset": "AXP",
@@ -387,8 +353,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 340.92498779296875,
-    "trailing_stop_price": 346.27751
+    "price_trough": 340.4599914550781,
+    "trailing_stop_price": 345.805213
   },
   "ARKK": {
     "id": "ARKK_20260819144730",
@@ -571,6 +537,38 @@
       "Moderna & Merck stocks skyrocket on their cancer vaccine trial's success. Here's what to know.",
       "Tech sell-off resumes, counterbalancing bond yield relief: AlphaCheck",
       "Top Midday Gainers"
+    ],
+    "mode": "paper",
+    "strategy_version": "96",
+    "status": "open",
+    "price_trough": 153.5800018310547,
+    "trailing_stop_price": 155.883702
+  },
+  "RXRX": {
+    "id": "RXRX_20260819190600",
+    "asset": "RXRX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 3.4149999618530273,
+    "entry_time": "2026-08-19T19:06:00.857334+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5299.6,
+    "position_size_pct": 0.0507,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (70.3)",
+      "5d momentum +6.22%",
+      "1d momentum +7.95%",
+      "BB overbought (pct_b=0.96)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.636,
+    "news_headlines": [
+      "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
+      "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
+      "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
     ],
     "mode": "paper",
     "strategy_version": "96",
