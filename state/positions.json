@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3846999406814575,
-    "trailing_stop_price": 1.395778
+    "price_trough": 1.3838599920272827,
+    "trailing_stop_price": 1.394931
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,39 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.397839546203613,
-    "trailing_stop_price": 9.473022
-  },
-  "GBP/USD": {
-    "id": "GBP/USD_20260810092145",
-    "asset": "GBP/USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1.3504570722579956,
-    "entry_time": "2026-08-10T09:21:45.633269+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02667,
-    "size_usd": 4208.65,
-    "position_size_pct": 0.0398,
-    "confidence": 0.667,
-    "signals": [
-      "MACD crossover",
-      "1d momentum +0.45%",
-      "BB overbought (pct_b=1.03)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; price surge"
-    ],
-    "news_sentiment": -0.2,
-    "news_headlines": [
-      "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-      "UK\u2019s Nephos to attest Agant\u2019s GBPA stablecoin reserves",
-      "US Dollar Price Forecast: NFP Countdown Keeps DXY, EUR/USD and GBP/USD in Focus"
-    ],
-    "mode": "paper",
-    "strategy_version": "82",
-    "status": "open",
-    "price_trough": 1.3482176065444946,
-    "trailing_stop_price": 1.359003
+    "price_trough": 9.357839584350586,
+    "trailing_stop_price": 9.432702
   },
   "COST": {
     "id": "COST_20260811153222",
@@ -510,64 +479,64 @@
     "mode": "paper",
     "strategy_version": "94",
     "status": "open",
-    "price_peak": 112.64099884033203,
-    "trailing_stop_price": 112.415717
+    "price_peak": 112.78800201416016,
+    "trailing_stop_price": 112.562426
   },
   "XRP-USD": {
-    "id": "XRP-USD_20260819082021",
+    "id": "XRP-USD_20260819132535",
     "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.0038000345230103,
-    "entry_time": "2026-08-19T08:20:21.813802+00:00",
-    "stop_loss_pct": 0.00276,
-    "take_profit_pct": 0.00638,
-    "size_usd": 4187.31,
-    "position_size_pct": 0.0397,
-    "confidence": 0.621,
+    "entry_price": 1.0183000564575195,
+    "entry_time": "2026-08-19T13:25:35.499030+00:00",
+    "stop_loss_pct": 0.00426,
+    "take_profit_pct": 0.01062,
+    "size_usd": 5170.31,
+    "position_size_pct": 0.0491,
+    "confidence": 0.99,
     "signals": [
-      "5d momentum +0.44%",
-      "1d momentum +0.76%",
-      "BB overbought (pct_b=0.92)",
+      "RSI overbought (74.5)",
+      "5d momentum +1.26%",
+      "1d momentum +2.10%",
+      "BB overbought (pct_b=1.32)",
+      "Volume spike 6.1\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.0,
+    "news_sentiment": -0.371,
     "news_headlines": [
-      "Ripple\u2019s Brokerage Arm Raises $275 Million: Why Doesn\u2019t XRP Care?",
-      "Why the Crypto Industry Is More Reliant Than Ever on Trump",
-      "World's second-largest bank boosts XRP holdings"
+      "Why is XRP Crashing?",
+      "XRP Price to $0.18? Analysts Warn of Drop as Brad Garlinghouse Bets on Ripple's Crypto Winter",
+      "Coinbase Global (COIN) Will Attend A White House Crypto Summit"
     ],
     "mode": "paper",
     "strategy_version": "95",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260819085951",
-    "asset": "ETH-USD",
-    "trade_type": "day",
+  "AUD/USD": {
+    "id": "AUD/USD_20260819132535",
+    "asset": "AUD/USD",
+    "trade_type": "swing",
     "direction": "short",
-    "entry_price": 1920.1500244140625,
-    "entry_time": "2026-08-19T08:59:51.431991+00:00",
-    "stop_loss_pct": 0.00338,
-    "take_profit_pct": 0.00822,
-    "size_usd": 1023.4,
-    "position_size_pct": 0.0097,
-    "confidence": 0.87,
+    "entry_price": 0.7121492624282837,
+    "entry_time": "2026-08-19T13:25:35.505937+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02626,
+    "size_usd": 4160.53,
+    "position_size_pct": 0.0395,
+    "confidence": 0.564,
     "signals": [
-      "MACD crossover",
-      "5d momentum +0.51%",
-      "1d momentum +1.15%",
-      "BB overbought (pct_b=0.91)",
-      "Volume spike 7.7\u00d7",
+      "RSI overbought (71.8)",
+      "5d momentum +0.58%",
+      "BB overbought (pct_b=1.36)",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; macro risk"
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.217,
+    "news_sentiment": 0.417,
     "news_headlines": [
-      "Kraken launches US stock trading in Europe. Here's what you need to know.",
-      "Maya Protocol Becomes the 16th Crypto Hack Logged in August Alone",
-      "Tom Lee Uses BlackRock\u2019s Bitcoin Report to Pitch Ethereum as AI\u2019s Verification Layer"
+      "Alphabet raises $3.9 billion in inaugural Australian dollar bond",
+      "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
+      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone"
     ],
     "mode": "paper",
     "strategy_version": "95",
