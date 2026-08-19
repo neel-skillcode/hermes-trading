@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3804899454116821,
-    "trailing_stop_price": 1.391534
+    "price_trough": 1.3804700374603271,
+    "trailing_stop_price": 1.391514
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.32174015045166,
-    "trailing_stop_price": 9.396314
+    "price_trough": 9.318659782409668,
+    "trailing_stop_price": 9.393209
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -444,37 +444,6 @@
     "strategy_version": "97",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260819211223",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1097999811172485,
-    "entry_time": "2026-08-19T21:12:23.506661+00:00",
-    "stop_loss_pct": 0.0119,
-    "take_profit_pct": 0.02899,
-    "size_usd": 5757.26,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (92.1)",
-      "5d momentum +4.33%",
-      "1d momentum +11.01%",
-      "BB overbought (pct_b=1.05)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
-    ],
-    "news_sentiment": 0.533,
-    "news_headlines": [
-      "Why Coinbase (COIN) Stock Is Trading Up Today",
-      "Ripple minted $30 million in RLUSD in a single day, here is what the supply data actually tells you",
-      "Trump Touts Clarity Act With Crypto Executives. Why CME Group Stock Is Tanking."
-    ],
-    "mode": "paper",
-    "strategy_version": "97",
-    "status": "open"
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260819211223",
     "asset": "AVAX-USD",
@@ -501,6 +470,39 @@
       "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
       "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
       "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+    ],
+    "mode": "paper",
+    "strategy_version": "97",
+    "status": "open",
+    "price_trough": 6.826000213623047,
+    "trailing_stop_price": 6.921018
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260819215946",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1312999725341797,
+    "entry_time": "2026-08-19T21:59:46.579359+00:00",
+    "stop_loss_pct": 0.013,
+    "take_profit_pct": 0.03165,
+    "size_usd": 5712.65,
+    "position_size_pct": 0.0553,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (93.1)",
+      "5d momentum +6.35%",
+      "1d momentum +13.16%",
+      "BB overbought (pct_b=1.14)",
+      "Volume spike 5.8\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.533,
+    "news_headlines": [
+      "Why Coinbase (COIN) Stock Is Trading Up Today",
+      "Ripple minted $30 million in RLUSD in a single day, here is what the supply data actually tells you",
+      "Trump Touts Clarity Act With Crypto Executives. Why CME Group Stock Is Tanking."
     ],
     "mode": "paper",
     "strategy_version": "97",
