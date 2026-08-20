@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3789000511169434,
-    "trailing_stop_price": 1.389931
+    "price_trough": 1.378119945526123,
+    "trailing_stop_price": 1.389145
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.318659782409668,
-    "trailing_stop_price": 9.393209
+    "price_trough": 9.318440437316895,
+    "trailing_stop_price": 9.392988
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -417,39 +417,6 @@
     "price_trough": 0.07485000044107437,
     "trailing_stop_price": 0.075667
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260819211223",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 6.833000183105469,
-    "entry_time": "2026-08-19T21:12:23.507659+00:00",
-    "stop_loss_pct": 0.01392,
-    "take_profit_pct": 0.03446,
-    "size_usd": 6152.27,
-    "position_size_pct": 0.0595,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (79.3)",
-      "5d momentum +3.45%",
-      "1d momentum +8.24%",
-      "BB overbought (pct_b=1.17)",
-      "Volume spike 1.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-    ],
-    "mode": "paper",
-    "strategy_version": "97",
-    "status": "open",
-    "price_trough": 6.704999923706055,
-    "trailing_stop_price": 6.798334
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260820031449",
     "asset": "XRP-USD",
@@ -478,8 +445,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_peak": 1.1083999872207642,
-    "trailing_stop_price": 1.091774
+    "price_peak": 1.111199975013733,
+    "trailing_stop_price": 1.094532
   },
   "BTC-USD": {
     "id": "BTC-USD_20260820031449",
@@ -539,7 +506,9 @@
     ],
     "mode": "paper",
     "strategy_version": "98",
-    "status": "open"
+    "status": "open",
+    "price_peak": 86.08000183105469,
+    "trailing_stop_price": 85.089221
   },
   "BNB-USD": {
     "id": "BNB-USD_20260820071142",
@@ -565,6 +534,64 @@
       "3 Altcoins Grayscale Says Could Win From New US Token Rules",
       "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'",
       "CZ Wallet Abandoned After Traders Earned Big on Signals"
+    ],
+    "mode": "paper",
+    "strategy_version": "98",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260820075619",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.800000190734863,
+    "entry_time": "2026-08-20T07:56:19.394171+00:00",
+    "stop_loss_pct": 0.00953,
+    "take_profit_pct": 0.02213,
+    "size_usd": 4268.28,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (76.2)",
+      "5d momentum +0.46%",
+      "1d momentum +7.17%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.263,
+    "news_headlines": [
+      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+    ],
+    "mode": "paper",
+    "strategy_version": "98",
+    "status": "open"
+  },
+  "GBP/USD": {
+    "id": "GBP/USD_20260820075619",
+    "asset": "GBP/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3625833988189697,
+    "entry_time": "2026-08-20T07:56:19.396335+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00471,
+    "size_usd": 1895.88,
+    "position_size_pct": 0.0183,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (71.9)",
+      "1d momentum +0.51%",
+      "BB overbought (pct_b=1.11)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.116,
+    "news_headlines": [
+      "Dollar falls after US Treasury plans more bond buybacks",
+      "Dollar Weakness Lifts Cocoa Prices",
+      "As Pressure on the Dollar Ramps Up, Make This 1 Trade Now"
     ],
     "mode": "paper",
     "strategy_version": "98",
