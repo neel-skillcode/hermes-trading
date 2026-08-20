@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 103718.81,
+  "portfolio_balance": 103380.95,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.87,
-  "unrealized_pnl_usd": 461.34,
-  "equity_value": 104180.15,
+  "portfolio_drawdown_pct": 4.19,
+  "unrealized_pnl_usd": 618.35,
+  "equity_value": 103999.3,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41487.53,
+  "day_capital_used_usd": 40438.59,
   "swing_capital_used_usd": 52344.5,
-  "total_trades": 1105,
-  "last_tick": "2026-08-20T11:12:18.475439+00:00",
+  "total_trades": 1107,
+  "last_tick": "2026-08-20T11:42:47.732797+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.37568998336792,
       "trailing_stop_price": 1.386696,
-      "current_price": 1.37679,
-      "unrealized_pnl_pct": 0.023172,
-      "unrealized_pnl_usd": 155.24
+      "current_price": 1.37666,
+      "unrealized_pnl_pct": 0.023264,
+      "unrealized_pnl_usd": 155.86
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85756,
-      "unrealized_pnl_pct": -0.004251,
-      "unrealized_pnl_usd": -29.59
+      "current_price": 0.85731,
+      "unrealized_pnl_pct": -0.003958,
+      "unrealized_pnl_usd": -27.55
     },
     {
       "id": "USD/NOK_20260803081405",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_trough": 9.299850463867188,
       "trailing_stop_price": 9.374249,
-      "current_price": 9.32268,
-      "unrealized_pnl_pct": 0.022067,
-      "unrealized_pnl_usd": 127.84
+      "current_price": 9.31573,
+      "unrealized_pnl_pct": 0.022796,
+      "unrealized_pnl_usd": 132.06
     },
     {
       "id": "UBER_20260812164126",
@@ -196,9 +196,9 @@
       "status": "open",
       "price_trough": 114.4729995727539,
       "trailing_stop_price": 115.388784,
-      "current_price": 115.195999,
-      "unrealized_pnl_pct": -0.005868,
-      "unrealized_pnl_usd": -26.2
+      "current_price": 115.224998,
+      "unrealized_pnl_pct": -0.006121,
+      "unrealized_pnl_usd": -27.34
     },
     {
       "id": "AUD/USD_20260819132535",
@@ -230,9 +230,9 @@
       "status": "open",
       "price_trough": 0.711895763874054,
       "trailing_stop_price": 0.717591,
-      "current_price": 0.712099,
-      "unrealized_pnl_pct": 7.1e-05,
-      "unrealized_pnl_usd": 0.3
+      "current_price": 0.711946,
+      "unrealized_pnl_pct": 0.000285,
+      "unrealized_pnl_usd": 1.19
     },
     {
       "id": "AXP_20260819140520",
@@ -433,11 +433,11 @@
       "mode": "paper",
       "strategy_version": "98",
       "status": "open",
-      "price_peak": 87.4800033569336,
-      "trailing_stop_price": 86.473109,
-      "current_price": 87.169998,
-      "unrealized_pnl_pct": 0.015967,
-      "unrealized_pnl_usd": 80.83
+      "price_peak": 87.83000183105469,
+      "trailing_stop_price": 86.819079,
+      "current_price": 87.82,
+      "unrealized_pnl_pct": 0.023543,
+      "unrealized_pnl_usd": 119.18
     },
     {
       "id": "AVAX-USD_20260820075619",
@@ -467,79 +467,11 @@
       "mode": "paper",
       "strategy_version": "98",
       "status": "open",
-      "price_peak": 6.915999889373779,
-      "trailing_stop_price": 6.85009,
-      "current_price": 6.883,
-      "unrealized_pnl_pct": 0.012206,
-      "unrealized_pnl_usd": 52.1
-    },
-    {
-      "id": "XRP-USD_20260820083454",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.1434999704360962,
-      "entry_time": "2026-08-20T08:34:54.077685+00:00",
-      "stop_loss_pct": 0.01491,
-      "take_profit_pct": 0.0363,
-      "size_usd": 5777.88,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (71.3)",
-        "MACD crossover",
-        "5d momentum +4.63%",
-        "1d momentum +13.71%",
-        "BB overbought (pct_b=0.94)",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": 0.448,
-      "news_headlines": [
-        "Bitcoin tops $69,000 as broad crypto rally gathers pace",
-        "Trump hosts crypto executives at the White House \u2014 and one token surges 19% on his remarks",
-        "Ripple CEO drops new hint on IPO plan"
-      ],
-      "mode": "paper",
-      "strategy_version": "98",
-      "status": "open",
-      "current_price": 1.1587,
-      "unrealized_pnl_pct": -0.013293,
-      "unrealized_pnl_usd": -76.8
-    },
-    {
-      "id": "DOGE-USD_20260820083454",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.07664000242948532,
-      "entry_time": "2026-08-20T08:34:54.079573+00:00",
-      "stop_loss_pct": 0.01239,
-      "take_profit_pct": 0.03017,
-      "size_usd": 5777.88,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (74.3)",
-        "MACD crossover",
-        "5d momentum +2.54%",
-        "1d momentum +9.35%",
-        "BB overbought (pct_b=0.89)",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.278,
-      "news_headlines": [
-        "Bitcoin tops $69,000 as broad crypto rally gathers pace",
-        "Musk is putting Dogecoin on the moon in 28 days, here's what $1,000 then is worth today",
-        "Dogecoin About to Go 'Parabolic' With Potential 145% Rally: Popular Crypto Analyst Identifies Key Level to Watch as Whales Position for Upside"
-      ],
-      "mode": "paper",
-      "strategy_version": "98",
-      "status": "open",
-      "current_price": 0.0771,
-      "unrealized_pnl_pct": -0.006002,
-      "unrealized_pnl_usd": -34.68
+      "price_peak": 6.934000015258789,
+      "trailing_stop_price": 6.867919,
+      "current_price": 6.934,
+      "unrealized_pnl_pct": 0.019706,
+      "unrealized_pnl_usd": 84.11
     },
     {
       "id": "ETH-USD_20260820083454",
@@ -569,11 +501,11 @@
       "mode": "paper",
       "strategy_version": "98",
       "status": "open",
-      "price_peak": 2286.4599609375,
-      "trailing_stop_price": 2252.163062,
-      "current_price": 2286.26001,
-      "unrealized_pnl_pct": 0.00758,
-      "unrealized_pnl_usd": 0.47
+      "price_peak": 2308.840087890625,
+      "trailing_stop_price": 2274.207487,
+      "current_price": 2308.469971,
+      "unrealized_pnl_pct": 0.017368,
+      "unrealized_pnl_usd": 1.09
     },
     {
       "id": "BTC-USD_20260820094808",
@@ -605,11 +537,11 @@
       "mode": "paper",
       "strategy_version": "98",
       "status": "open",
-      "price_trough": 71865.4921875,
-      "trailing_stop_price": 72548.214363,
-      "current_price": 71865.59375,
-      "unrealized_pnl_pct": 0.001372,
-      "unrealized_pnl_usd": 7.92
+      "price_trough": 71938.859375,
+      "trailing_stop_price": 72622.278539,
+      "current_price": 72210.546875,
+      "unrealized_pnl_pct": -0.003422,
+      "unrealized_pnl_usd": -19.76
     },
     {
       "id": "BNB-USD_20260820094808",
@@ -640,9 +572,9 @@
       "mode": "paper",
       "strategy_version": "98",
       "status": "open",
-      "current_price": 642.780029,
-      "unrealized_pnl_pct": -0.00014,
-      "unrealized_pnl_usd": -0.1
+      "current_price": 646.599976,
+      "unrealized_pnl_pct": -0.006084,
+      "unrealized_pnl_usd": -4.2
     },
     {
       "id": "GBP/USD_20260820101438",
@@ -673,32 +605,98 @@
       "mode": "paper",
       "strategy_version": "98",
       "status": "open",
-      "price_trough": 1.363493800163269,
-      "trailing_stop_price": 1.366221,
-      "current_price": 1.363494,
-      "unrealized_pnl_pct": 0.001773,
-      "unrealized_pnl_usd": 3.36
+      "price_trough": 1.3636983633041382,
+      "trailing_stop_price": 1.366426,
+      "current_price": 1.363698,
+      "unrealized_pnl_pct": 0.001623,
+      "unrealized_pnl_usd": 3.07
+    },
+    {
+      "id": "XRP-USD_20260820114247",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1.1943000555038452,
+      "entry_time": "2026-08-20T11:42:47.728385+00:00",
+      "stop_loss_pct": 0.01393,
+      "take_profit_pct": 0.03338,
+      "size_usd": 5253.41,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (68.7)",
+        "5d momentum +7.53%",
+        "1d momentum +18.84%",
+        "BB overbought (pct_b=1.14)",
+        "High-impact catalyst",
+        "Claude [contradicts]: price surge"
+      ],
+      "news_sentiment": 0.448,
+      "news_headlines": [
+        "$230B Fixed-Income Giant Enters Aave Collateral Debate With Tokenized Fund",
+        "XRP Surges As Trump Urges Congress To Pass Clarity Act",
+        "XRP Had One of Its Best Days Since 2020, but Is the Price Rally Worth Trusting?"
+      ],
+      "mode": "paper",
+      "strategy_version": "99",
+      "status": "open",
+      "current_price": 1.1943,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "DOGE-USD_20260820114247",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.07771000266075134,
+      "entry_time": "2026-08-20T11:42:47.730725+00:00",
+      "stop_loss_pct": 0.01099,
+      "take_profit_pct": 0.02633,
+      "size_usd": 5253.41,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (63.5)",
+        "5d momentum +3.31%",
+        "1d momentum +10.75%",
+        "BB overbought (pct_b=0.97)",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.278,
+      "news_headlines": [
+        "Bitcoin tops $69,000 as broad crypto rally gathers pace",
+        "Musk is putting Dogecoin on the moon in 28 days, here's what $1,000 then is worth today",
+        "Dogecoin About to Go 'Parabolic' With Potential 145% Rally: Popular Crypto Analyst Identifies Key Level to Watch as Whales Position for Upside"
+      ],
+      "mode": "paper",
+      "strategy_version": "99",
+      "status": "open",
+      "current_price": 0.07771,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "MRNA",
-      "rank_score": 0.8584,
+      "rank_score": 0.8654,
       "price": 174.1649932861328,
-      "rsi": 82.49963667677342,
+      "rsi": 82.5034876381323,
       "momentum_5d": 0.22893820950272697,
       "momentum_1d": 1.7457826335832642,
       "macd_crossover": false,
-      "atr_pct": 0.08397316094853749,
+      "atr_pct": 0.0839690604355106,
       "bollinger_pct_b": 0.946,
       "volume_spike": true,
       "volume_spike_ratio": 2.14,
-      "news_sentiment": 0.255,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.365,
+      "news_confidence": 0.52,
       "news_headlines": [
         "After Moderna stock surge of 177% on cancer drug breakthrough, here's what Wall Street thinks happens next",
         "Tech sell-off resumes, counterbalancing bond yield relief: AlphaCheck",
-        "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Earnings In Focus"
+        "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Skids On Earnings"
       ],
       "high_impact_news": true
     },
@@ -720,6 +718,27 @@
         "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
         "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
         "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.7575,
+      "price": 1.1943000555038452,
+      "rsi": 68.68265926569958,
+      "momentum_5d": 0.07526788818175194,
+      "momentum_1d": 0.18835826982127266,
+      "macd_crossover": false,
+      "atr_pct": 0.014796475753713428,
+      "bollinger_pct_b": 1.1372,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.06,
+      "news_sentiment": 0.448,
+      "news_confidence": 0.29,
+      "news_headlines": [
+        "$230B Fixed-Income Giant Enters Aave Collateral Debate With Tokenized Fund",
+        "XRP Surges As Trump Urges Congress To Pass Clarity Act",
+        "XRP Had One of Its Best Days Since 2020, but Is the Price Rally Worth Trusting?"
       ],
       "high_impact_news": true
     },
@@ -746,14 +765,14 @@
     },
     {
       "asset": "ON",
-      "rank_score": 0.7453,
+      "rank_score": 0.7454,
       "price": 76.58000183105469,
       "rsi": 23.919757083685568,
       "momentum_5d": -0.030632888214497625,
       "momentum_1d": -0.06529962717189343,
       "macd_crossover": false,
       "atr_pct": 0.018936976272592113,
-      "bollinger_pct_b": 0.2125,
+      "bollinger_pct_b": 0.2124,
       "volume_spike": true,
       "volume_spike_ratio": 2.34,
       "news_sentiment": 0.968,
@@ -808,6 +827,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.6794,
+      "price": 72210.546875,
+      "rsi": 76.43507016995443,
+      "momentum_5d": 0.0343277130043438,
+      "momentum_1d": 0.12025356191170614,
+      "macd_crossover": false,
+      "atr_pct": 0.008694418062260581,
+      "bollinger_pct_b": 1.0333,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.69,
+      "news_sentiment": 0.7,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Citi enters the crypto arena: What to expect from its bitcoin custody launch",
+        "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation",
+        "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Skids On Earnings"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "C",
       "rank_score": 0.6791,
       "price": 132.89999389648438,
@@ -850,27 +890,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.6449,
-      "price": 71865.59375,
-      "rsi": 73.57189020034696,
-      "momentum_5d": 0.02938668164098104,
-      "momentum_1d": 0.1149021939177761,
-      "macd_crossover": false,
-      "atr_pct": 0.008584174649440147,
-      "bollinger_pct_b": 0.9777,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.1,
-      "news_sentiment": 0.755,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq futures steady after Treasury's bond intervention buoys markets",
-        "Crypto's next big moves: SEC's 'reg crypto' plan, Citi's bitcoin custody",
-        "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "REGN",
       "rank_score": 0.6047,
       "price": 840.9400024414062,
@@ -892,23 +911,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.6015,
-      "price": 1.1586999893188477,
-      "rsi": 59.806803417561994,
-      "momentum_5d": 0.04312203841440917,
-      "momentum_1d": 0.15293531822534495,
+      "asset": "DOGE-USD",
+      "rank_score": 0.5952,
+      "price": 0.07771000266075134,
+      "rsi": 63.50484048325775,
+      "momentum_5d": 0.03310288238998607,
+      "momentum_1d": 0.10745336246602007,
       "macd_crossover": false,
-      "atr_pct": 0.013068841531847248,
-      "bollinger_pct_b": 0.9333,
+      "atr_pct": 0.011673422779926482,
+      "bollinger_pct_b": 0.9712,
       "volume_spike": false,
-      "volume_spike_ratio": 0.14,
-      "news_sentiment": 0.448,
-      "news_confidence": 0.29,
+      "volume_spike_ratio": 0.52,
+      "news_sentiment": 0.278,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "XRP Surges As Trump Urges Congress To Pass Clarity Act",
-        "XRP Had One of Its Best Days Since 2020, but Is the Price Rally Worth Trusting?",
-        "Could Buying XRP Today Set You Up For Life?"
+        "Bitcoin tops $69,000 as broad crypto rally gathers pace",
+        "Musk is putting Dogecoin on the moon in 28 days, here's what $1,000 then is worth today",
+        "Dogecoin About to Go 'Parabolic' With Potential 145% Rally: Popular Crypto Analyst Identifies Key Level to Watch as Whales Position for Upside"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.5947,
+      "price": 646.5999755859375,
+      "rsi": 66.07423454696571,
+      "momentum_5d": 0.026789251965787048,
+      "momentum_1d": 0.0734622757425294,
+      "macd_crossover": false,
+      "atr_pct": 0.007896246649249086,
+      "bollinger_pct_b": 1.0233,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.43,
+      "news_sentiment": -0.081,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'",
+        "CZ Wallet Abandoned After Traders Earned Big on Signals"
       ],
       "high_impact_news": true
     },
@@ -949,8 +989,8 @@
       "news_confidence": 0.51,
       "news_headlines": [
         "Tech sell-off resumes, counterbalancing bond yield relief: AlphaCheck",
-        "AI Stocks Have Soared. Is It Too Late to Buy This Vanguard ETF?",
-        "AVGO Stock Recovers Premarket After Marvell-Linked Selloff: Cathie Wood Loads Up On The Dip"
+        "Billionaire Dan Loeb of Third Point Dumped Nvidia, Broadcom, and Meta, but Increased His Stake in This Virtual Monopoly by Almost 500%",
+        "AI Stocks Have Soared. Is It Too Late to Buy This Vanguard ETF?"
       ],
       "high_impact_news": true
     },
@@ -969,7 +1009,7 @@
       "news_sentiment": 0.518,
       "news_confidence": 0.56,
       "news_headlines": [
-        "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Earnings In Focus",
+        "Dow Jones Futures Fall As Oil Prices, Bitcoin Jump; Walmart Skids On Earnings",
         "Why Is Merck Stock Still Undervalued After An 80% Surge?",
         "7 Growth Stocks Holding Up in a Tough Market"
       ],
@@ -1039,65 +1079,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "TSLA",
-      "rank_score": 0.5501,
-      "price": 351.110107421875,
-      "rsi": 77.58989465732512,
-      "momentum_5d": 0.010563276982153752,
-      "momentum_1d": 0.03476151922432477,
+      "asset": "SOL-USD",
+      "rank_score": 0.5497,
+      "price": 87.81999969482422,
+      "rsi": 59.38932329128049,
+      "momentum_5d": 0.022827848480545577,
+      "momentum_1d": 0.13345374148032108,
       "macd_crossover": false,
-      "atr_pct": 0.010802349183656865,
-      "bollinger_pct_b": 0.9997,
+      "atr_pct": 0.010020508667424858,
+      "bollinger_pct_b": 0.8789,
       "volume_spike": false,
-      "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.44,
+      "volume_spike_ratio": 0.38,
+      "news_sentiment": 0.592,
+      "news_confidence": 0.48,
       "news_headlines": [
-        "JPMorgan Says Tesla Is Confident of Scaling Cybercab Operations, Touts Future Models Based on Platform\u2014FSD V15 a \u2018Step-Change\u2019 From Previous Versions",
-        "Why Are Nasdaq, S&P 500 Futures Falling Premarket? NVDA, SKHY, SPCX, TSLA, MRNA, MSTR, PURR, WMT Stocks In Focus",
-        "Tesla Stock Revs Up On Cybercab Buzz: Analyst Sees \u2018Good Entry Point\u2019 As Robotaxis Drive 30% Of Bull Case"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "WFC",
-      "rank_score": 0.5437,
-      "price": 85.94999694824219,
-      "rsi": 26.370459117932953,
-      "momentum_5d": -0.00046518102710870607,
-      "momentum_1d": -0.027549981661313245,
-      "macd_crossover": false,
-      "atr_pct": 0.005785259819030476,
-      "bollinger_pct_b": 0.1876,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.73,
-      "news_sentiment": 0.488,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Wegovy and Zepbound are changing how Americans get health care",
-        "Preferreds Offer 6.5% Yields or More After Bond Market Selloff",
-        "Wells Fargo (WFC) Stock Declines While Market Improves: Some Information for Investors"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.5434,
-      "price": 642.780029296875,
-      "rsi": 62.030277875242824,
-      "momentum_5d": 0.020723245252530265,
-      "momentum_1d": 0.06712053681351786,
-      "macd_crossover": false,
-      "atr_pct": 0.007687588013080345,
-      "bollinger_pct_b": 0.9374,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.16,
-      "news_sentiment": -0.081,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
-        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'",
-        "CZ Wallet Abandoned After Traders Earned Big on Signals"
+        "XRP Had One of Its Best Days Since 2020, but Is the Price Rally Worth Trusting?",
+        "MSTR, BMNR, COIN, CRCL Stock Extend Rally After Bitcoin Blasts Past $71K, Triggering $3B Liquidation Wave",
+        "An AI Agent Token Once Worth $2.4 Billion Is Now Worth Almost Nothing. This Is What You Need to Know About Investing in AI Cryptos."
       ],
       "high_impact_news": true
     }

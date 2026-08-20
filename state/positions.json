@@ -379,8 +379,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_peak": 87.4800033569336,
-    "trailing_stop_price": 86.473109
+    "price_peak": 87.83000183105469,
+    "trailing_stop_price": 86.819079
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260820075619",
@@ -410,70 +410,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_peak": 6.915999889373779,
-    "trailing_stop_price": 6.85009
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260820083454",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1434999704360962,
-    "entry_time": "2026-08-20T08:34:54.077685+00:00",
-    "stop_loss_pct": 0.01491,
-    "take_profit_pct": 0.0363,
-    "size_usd": 5777.88,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (71.3)",
-      "MACD crossover",
-      "5d momentum +4.63%",
-      "1d momentum +13.71%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.448,
-    "news_headlines": [
-      "Bitcoin tops $69,000 as broad crypto rally gathers pace",
-      "Trump hosts crypto executives at the White House \u2014 and one token surges 19% on his remarks",
-      "Ripple CEO drops new hint on IPO plan"
-    ],
-    "mode": "paper",
-    "strategy_version": "98",
-    "status": "open"
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260820083454",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.07664000242948532,
-    "entry_time": "2026-08-20T08:34:54.079573+00:00",
-    "stop_loss_pct": 0.01239,
-    "take_profit_pct": 0.03017,
-    "size_usd": 5777.88,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (74.3)",
-      "MACD crossover",
-      "5d momentum +2.54%",
-      "1d momentum +9.35%",
-      "BB overbought (pct_b=0.89)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.278,
-    "news_headlines": [
-      "Bitcoin tops $69,000 as broad crypto rally gathers pace",
-      "Musk is putting Dogecoin on the moon in 28 days, here's what $1,000 then is worth today",
-      "Dogecoin About to Go 'Parabolic' With Potential 145% Rally: Popular Crypto Analyst Identifies Key Level to Watch as Whales Position for Upside"
-    ],
-    "mode": "paper",
-    "strategy_version": "98",
-    "status": "open"
+    "price_peak": 6.934000015258789,
+    "trailing_stop_price": 6.867919
   },
   "ETH-USD": {
     "id": "ETH-USD_20260820083454",
@@ -503,8 +441,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_peak": 2286.4599609375,
-    "trailing_stop_price": 2252.163062
+    "price_peak": 2308.840087890625,
+    "trailing_stop_price": 2274.207487
   },
   "BTC-USD": {
     "id": "BTC-USD_20260820094808",
@@ -597,6 +535,68 @@
     ],
     "mode": "paper",
     "strategy_version": "98",
+    "status": "open",
+    "price_trough": 1.3636983633041382,
+    "trailing_stop_price": 1.366426
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260820114247",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1943000555038452,
+    "entry_time": "2026-08-20T11:42:47.728385+00:00",
+    "stop_loss_pct": 0.01393,
+    "take_profit_pct": 0.03338,
+    "size_usd": 5253.41,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (68.7)",
+      "5d momentum +7.53%",
+      "1d momentum +18.84%",
+      "BB overbought (pct_b=1.14)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.448,
+    "news_headlines": [
+      "$230B Fixed-Income Giant Enters Aave Collateral Debate With Tokenized Fund",
+      "XRP Surges As Trump Urges Congress To Pass Clarity Act",
+      "XRP Had One of Its Best Days Since 2020, but Is the Price Rally Worth Trusting?"
+    ],
+    "mode": "paper",
+    "strategy_version": "99",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260820114247",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.07771000266075134,
+    "entry_time": "2026-08-20T11:42:47.730725+00:00",
+    "stop_loss_pct": 0.01099,
+    "take_profit_pct": 0.02633,
+    "size_usd": 5253.41,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (63.5)",
+      "5d momentum +3.31%",
+      "1d momentum +10.75%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.278,
+    "news_headlines": [
+      "Bitcoin tops $69,000 as broad crypto rally gathers pace",
+      "Musk is putting Dogecoin on the moon in 28 days, here's what $1,000 then is worth today",
+      "Dogecoin About to Go 'Parabolic' With Potential 145% Rally: Popular Crypto Analyst Identifies Key Level to Watch as Whales Position for Upside"
+    ],
+    "mode": "paper",
+    "strategy_version": "99",
     "status": "open"
   }
 }
