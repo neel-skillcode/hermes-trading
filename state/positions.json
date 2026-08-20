@@ -192,8 +192,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 0.7114905714988708,
-    "trailing_stop_price": 0.717182
+    "price_trough": 0.7114399671554565,
+    "trailing_stop_price": 0.717131
   },
   "AXP": {
     "id": "AXP_20260819140520",
@@ -316,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_trough": 1.3629363775253296,
-    "trailing_stop_price": 1.365662
+    "price_trough": 1.3626948595046997,
+    "trailing_stop_price": 1.36542
   },
   "WMT": {
     "id": "WMT_20260820135501",
@@ -383,8 +383,8 @@
     "mode": "paper",
     "strategy_version": "99",
     "status": "open",
-    "price_trough": 61.564998626708984,
-    "trailing_stop_price": 62.018733
+    "price_trough": 61.5099983215332,
+    "trailing_stop_price": 61.963327
   },
   "HAL": {
     "id": "HAL_20260820135501",
@@ -482,8 +482,8 @@
     "mode": "paper",
     "strategy_version": "99",
     "status": "open",
-    "price_trough": 61.650001525878906,
-    "trailing_stop_price": 62.232594
+    "price_trough": 61.6150016784668,
+    "trailing_stop_price": 62.197263
   },
   "COIN": {
     "id": "COIN_20260820150639",
@@ -517,38 +517,6 @@
     "price_trough": 170.90499877929688,
     "trailing_stop_price": 173.468574
   },
-  "IONQ": {
-    "id": "IONQ_20260820154607",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 40.3650016784668,
-    "entry_time": "2026-08-20T15:46:07.529806+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 688.99,
-    "position_size_pct": 0.0066,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (19.2)",
-      "5d momentum -6.50%",
-      "1d momentum -12.88%",
-      "BB oversold (pct_b=-0.01)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.738,
-    "news_headlines": [
-      "IonQ (IONQ) Gains Attention After Q2 Results And New Deals As Valuation Debate Builds",
-      "D-Wave Stock: 71% Potential Upside, but is it Enough to Buy QBTS Now?",
-      "Quantum Stocks Are Starting to Choose Sides: Should Investors Do the Same?"
-    ],
-    "mode": "paper",
-    "strategy_version": "100",
-    "status": "open",
-    "price_peak": 41.310001373291016,
-    "trailing_stop_price": 40.690351
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260820165240",
     "asset": "DOGE-USD",
@@ -579,31 +547,32 @@
     "strategy_version": "100",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260820165240",
-    "asset": "XRP-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260820174946",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.3004000186920166,
-    "entry_time": "2026-08-20T16:52:40.960072+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03623,
-    "size_usd": 401.3,
-    "position_size_pct": 0.0038,
-    "confidence": 0.83,
+    "entry_price": 7.269999980926514,
+    "entry_time": "2026-08-20T17:49:46.863332+00:00",
+    "stop_loss_pct": 0.01298,
+    "take_profit_pct": 0.03212,
+    "size_usd": 1096.77,
+    "position_size_pct": 0.0105,
+    "confidence": 0.95,
     "signals": [
-      "RSI overbought (95.6)",
-      "5d momentum +9.29%",
-      "1d momentum +22.25%",
-      "BB overbought (pct_b=1.13)",
-      "Volume spike 1.6\u00d7",
-      "Claude [contradicts]: price surge"
+      "RSI overbought (85.6)",
+      "5d momentum +6.01%",
+      "1d momentum +11.16%",
+      "BB overbought (pct_b=1.18)",
+      "Volume spike 2.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.533,
+    "news_sentiment": 0.263,
     "news_headlines": [
-      "XRP Climbs to 5th on Crypto Rankings After Rallying Over 20%",
-      "Bitcoin, XRP, Ethereum, Surge. What Trump\u2019s Clarity Act Drive Means for Cryptos.",
-      "A Little-Known Firm Owns Nearly 3,000 Times More of This XRP ETF Than Morgan Stanley"
+      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
     ],
     "mode": "paper",
     "strategy_version": "100",
