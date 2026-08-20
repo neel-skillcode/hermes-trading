@@ -195,8 +195,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 331.7049865722656,
-    "trailing_stop_price": 336.912755
+    "price_trough": 331.54998779296875,
+    "trailing_stop_price": 336.755323
   },
   "ARKK": {
     "id": "ARKK_20260819144730",
@@ -255,8 +255,8 @@
     "mode": "paper",
     "strategy_version": "96",
     "status": "open",
-    "price_trough": 174.6750030517578,
-    "trailing_stop_price": 181.017452
+    "price_trough": 173.9499969482422,
+    "trailing_stop_price": 180.266121
   },
   "GBP/USD": {
     "id": "GBP/USD_20260820101438",
@@ -357,39 +357,6 @@
     "price_trough": 61.415000915527344,
     "trailing_stop_price": 61.867629
   },
-  "HAL": {
-    "id": "HAL_20260820135501",
-    "asset": "HAL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 36.02000045776367,
-    "entry_time": "2026-08-20T13:55:01.970625+00:00",
-    "stop_loss_pct": 0.00824,
-    "take_profit_pct": 0.02006,
-    "size_usd": 5829.98,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (70.3)",
-      "MACD crossover",
-      "5d momentum +2.64%",
-      "1d momentum +4.74%",
-      "BB overbought (pct_b=1.30)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; earnings miss"
-    ],
-    "news_sentiment": 0.22,
-    "news_headlines": [
-      "1 Mid-Cap Stock with Exciting Potential and 2 We Brush Off",
-      "DTI Q2 Loss Narrower Than Expected, Revenues Match Estimates",
-      "Peabody Energy, Borr Drilling, Texas Pacific Land, Halliburton, and Transocean Stocks Trade Up, What You Need To Know"
-    ],
-    "mode": "paper",
-    "strategy_version": "99",
-    "status": "open",
-    "price_trough": 35.38999938964844,
-    "trailing_stop_price": 35.681613
-  },
   "SLV": {
     "id": "SLV_20260820150639",
     "asset": "SLV",
@@ -455,38 +422,6 @@
     "price_trough": 170.4499969482422,
     "trailing_stop_price": 173.006747
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260820165240",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.08225999772548676,
-    "entry_time": "2026-08-20T16:52:40.958147+00:00",
-    "stop_loss_pct": 0.01291,
-    "take_profit_pct": 0.03095,
-    "size_usd": 5299.22,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (88.7)",
-      "5d momentum +6.68%",
-      "1d momentum +13.17%",
-      "BB overbought (pct_b=1.25)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.278,
-    "news_headlines": [
-      "Trump nudges CLARITY Act, bitcoin surges in response",
-      "Bitcoin Surges To $72,000 As Trump Urges Congress To Pass Clarity Act",
-      "Bitcoin tops $69,000 as broad crypto rally gathers pace"
-    ],
-    "mode": "paper",
-    "strategy_version": "100",
-    "status": "open",
-    "price_trough": 0.0798100009560585,
-    "trailing_stop_price": 0.08084
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260820174946",
     "asset": "AVAX-USD",
@@ -517,38 +452,8 @@
     "mode": "paper",
     "strategy_version": "100",
     "status": "open",
-    "price_trough": 7.140999794006348,
-    "trailing_stop_price": 7.23369
-  },
-  "AMAT": {
-    "id": "AMAT_20260820190405",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 489.6288146972656,
-    "entry_time": "2026-08-20T19:04:05.124666+00:00",
-    "stop_loss_pct": 0.01229,
-    "take_profit_pct": 0.02982,
-    "size_usd": 5676.15,
-    "position_size_pct": 0.0545,
-    "confidence": 0.851,
-    "signals": [
-      "RSI oversold (27.0)",
-      "MACD crossover",
-      "5d momentum -1.25%",
-      "1d momentum -8.80%",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.56,
-    "news_headlines": [
-      "Can Applied Materials Sustain Its Growth Amid AI-Driven Demand?",
-      "Time to Accumulate Applied Materials Before Foundry Ramps Hit?",
-      "The Zacks Analyst Blog Highlights NVIDIA, Applied Materials and ConocoPhillips"
-    ],
-    "mode": "paper",
-    "strategy_version": "100",
-    "status": "open"
+    "price_trough": 7.138999938964844,
+    "trailing_stop_price": 7.231664
   },
   "MS": {
     "id": "MS_20260820190405",
@@ -575,6 +480,119 @@
       "A Little-Known Firm Owns Nearly 3,000 Times More of This XRP ETF Than Morgan Stanley",
       "Morgan Stanley Says AI Data Centers Face a 38-Gigawatt Power Gap. These Industrial Stocks Fill It.",
       "\u2018Capital alone no longer clears a site\u2019: Morgan Stanley says data centers\u2019 big money era is over"
+    ],
+    "mode": "paper",
+    "strategy_version": "100",
+    "status": "open"
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260820200044",
+    "asset": "EUR/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 185.82000732421875,
+    "entry_time": "2026-08-20T20:00:44.906885+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00491,
+    "size_usd": 6104.65,
+    "position_size_pct": 0.0585,
+    "confidence": 0.914,
+    "signals": [
+      "RSI overbought (93.4)",
+      "1d momentum +0.62%",
+      "BB overbought (pct_b=0.92)",
+      "News -1.00 (conf 0.70) \u2192 short",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
+    ],
+    "news_sentiment": -1.0,
+    "news_headlines": [
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+    ],
+    "mode": "paper",
+    "strategy_version": "100",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260820200044",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 650.1699829101562,
+    "entry_time": "2026-08-20T20:00:44.908973+00:00",
+    "stop_loss_pct": 0.00885,
+    "take_profit_pct": 0.02108,
+    "size_usd": 5102.79,
+    "position_size_pct": 0.0489,
+    "confidence": 0.764,
+    "signals": [
+      "RSI overbought (77.3)",
+      "5d momentum +1.31%",
+      "1d momentum +5.48%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.05,
+    "news_headlines": [
+      "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+      "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+      "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
+    ],
+    "mode": "paper",
+    "strategy_version": "100",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260820200044",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.2325999736785889,
+    "entry_time": "2026-08-20T20:00:44.910929+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03483,
+    "size_usd": 4301.31,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (70.3)",
+      "5d momentum -2.30%",
+      "1d momentum +12.16%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.548,
+    "news_headlines": [
+      "XRP Price Prediction: Will XRP Recover By 2027?",
+      "Why Is XRP (Ripple) Up 24.9% Today?",
+      "$248 Million Mutual Fund Invests in Ripple. Does It Matter for XRP?"
+    ],
+    "mode": "paper",
+    "strategy_version": "100",
+    "status": "open"
+  },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260820200044",
+    "asset": "CAD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 115.37000274658203,
+    "entry_time": "2026-08-20T20:00:44.912641+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00468,
+    "size_usd": 1353.31,
+    "position_size_pct": 0.013,
+    "confidence": 0.684,
+    "signals": [
+      "RSI overbought (75.0)",
+      "1d momentum +0.74%",
+      "News +1.00 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
     ],
     "mode": "paper",
     "strategy_version": "100",
