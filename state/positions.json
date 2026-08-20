@@ -195,8 +195,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 331.54998779296875,
-    "trailing_stop_price": 336.755323
+    "price_trough": 331.1499938964844,
+    "trailing_stop_price": 336.349049
   },
   "ARKK": {
     "id": "ARKK_20260819144730",
@@ -422,39 +422,6 @@
     "price_trough": 170.4499969482422,
     "trailing_stop_price": 173.006747
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260820174946",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.269999980926514,
-    "entry_time": "2026-08-20T17:49:46.863332+00:00",
-    "stop_loss_pct": 0.01298,
-    "take_profit_pct": 0.03212,
-    "size_usd": 1096.77,
-    "position_size_pct": 0.0105,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (85.6)",
-      "5d momentum +6.01%",
-      "1d momentum +11.16%",
-      "BB overbought (pct_b=1.18)",
-      "Volume spike 2.7\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-    ],
-    "mode": "paper",
-    "strategy_version": "100",
-    "status": "open",
-    "price_trough": 7.138999938964844,
-    "trailing_stop_price": 7.231664
-  },
   "MS": {
     "id": "MS_20260820190405",
     "asset": "MS",
@@ -511,7 +478,9 @@
     ],
     "mode": "paper",
     "strategy_version": "100",
-    "status": "open"
+    "status": "open",
+    "price_trough": 185.68899536132812,
+    "trailing_stop_price": 186.060373
   },
   "BNB-USD": {
     "id": "BNB-USD_20260820200044",
@@ -540,7 +509,9 @@
     ],
     "mode": "paper",
     "strategy_version": "100",
-    "status": "open"
+    "status": "open",
+    "price_peak": 656.77001953125,
+    "trailing_stop_price": 650.957605
   },
   "XRP-USD": {
     "id": "XRP-USD_20260820200044",
@@ -569,7 +540,9 @@
     ],
     "mode": "paper",
     "strategy_version": "100",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.2697999477386475,
+    "trailing_stop_price": 1.250753
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260820200044",
@@ -593,6 +566,35 @@
     "news_sentiment": 1.0,
     "news_headlines": [
       "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+    ],
+    "mode": "paper",
+    "strategy_version": "100",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260820232339",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 7.229000091552734,
+    "entry_time": "2026-08-20T23:23:39.941046+00:00",
+    "stop_loss_pct": 0.01168,
+    "take_profit_pct": 0.02712,
+    "size_usd": 1099.0,
+    "position_size_pct": 0.0105,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (72.9)",
+      "5d momentum +0.92%",
+      "1d momentum +6.70%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.263,
+    "news_headlines": [
+      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
     ],
     "mode": "paper",
     "strategy_version": "100",
