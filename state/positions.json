@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.376960039138794,
-    "trailing_stop_price": 1.387976
+    "price_trough": 1.37568998336792,
+    "trailing_stop_price": 1.386696
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.312080383300781,
-    "trailing_stop_price": 9.386577
+    "price_trough": 9.299850463867188,
+    "trailing_stop_price": 9.374249
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -410,37 +410,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_peak": 6.883999824523926,
-    "trailing_stop_price": 6.818395
-  },
-  "GBP/USD": {
-    "id": "GBP/USD_20260820075619",
-    "asset": "GBP/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.3625833988189697,
-    "entry_time": "2026-08-20T07:56:19.396335+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00471,
-    "size_usd": 1895.88,
-    "position_size_pct": 0.0183,
-    "confidence": 0.713,
-    "signals": [
-      "RSI overbought (71.9)",
-      "1d momentum +0.51%",
-      "BB overbought (pct_b=1.11)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.116,
-    "news_headlines": [
-      "Dollar falls after US Treasury plans more bond buybacks",
-      "Dollar Weakness Lifts Cocoa Prices",
-      "As Pressure on the Dollar Ramps Up, Make This 1 Trade Now"
-    ],
-    "mode": "paper",
-    "strategy_version": "98",
-    "status": "open"
+    "price_peak": 6.915999889373779,
+    "trailing_stop_price": 6.85009
   },
   "XRP-USD": {
     "id": "XRP-USD_20260820083454",
@@ -532,8 +503,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_peak": 2286.02001953125,
-    "trailing_stop_price": 2251.729719
+    "price_peak": 2286.4599609375,
+    "trailing_stop_price": 2252.163062
   },
   "BTC-USD": {
     "id": "BTC-USD_20260820094808",
@@ -564,7 +535,9 @@
     ],
     "mode": "paper",
     "strategy_version": "98",
-    "status": "open"
+    "status": "open",
+    "price_trough": 71938.859375,
+    "trailing_stop_price": 72622.278539
   },
   "BNB-USD": {
     "id": "BNB-USD_20260820094808",
@@ -591,6 +564,36 @@
       "3 Altcoins Grayscale Says Could Win From New US Token Rules",
       "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'",
       "CZ Wallet Abandoned After Traders Earned Big on Signals"
+    ],
+    "mode": "paper",
+    "strategy_version": "98",
+    "status": "open"
+  },
+  "GBP/USD": {
+    "id": "GBP/USD_20260820101438",
+    "asset": "GBP/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3659149408340454,
+    "entry_time": "2026-08-20T10:14:38.675022+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 1894.03,
+    "position_size_pct": 0.0183,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (78.8)",
+      "5d momentum +0.40%",
+      "1d momentum +0.76%",
+      "BB overbought (pct_b=1.20)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.116,
+    "news_headlines": [
+      "Dollar falls after US Treasury plans more bond buybacks",
+      "Dollar Weakness Lifts Cocoa Prices",
+      "As Pressure on the Dollar Ramps Up, Make This 1 Trade Now"
     ],
     "mode": "paper",
     "strategy_version": "98",
