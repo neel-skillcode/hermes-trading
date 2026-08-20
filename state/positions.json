@@ -192,8 +192,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 0.7118450999259949,
-    "trailing_stop_price": 0.71754
+    "price_trough": 0.7116931080818176,
+    "trailing_stop_price": 0.717387
   },
   "AXP": {
     "id": "AXP_20260819140520",
@@ -224,8 +224,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 334.07501220703125,
-    "trailing_stop_price": 339.31999
+    "price_trough": 333.6050109863281,
+    "trailing_stop_price": 338.84261
   },
   "ARKK": {
     "id": "ARKK_20260819144730",
@@ -284,40 +284,8 @@
     "mode": "paper",
     "strategy_version": "96",
     "status": "open",
-    "price_trough": 174.7550048828125,
-    "trailing_stop_price": 181.100359
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260820094808",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 642.6900024414062,
-    "entry_time": "2026-08-20T09:48:08.036941+00:00",
-    "stop_loss_pct": 0.0088,
-    "take_profit_pct": 0.02109,
-    "size_usd": 691.06,
-    "position_size_pct": 0.0067,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (75.2)",
-      "5d momentum +2.61%",
-      "1d momentum +6.76%",
-      "BB overbought (pct_b=1.04)",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": -0.081,
-    "news_headlines": [
-      "3 Altcoins Grayscale Says Could Win From New US Token Rules",
-      "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'",
-      "CZ Wallet Abandoned After Traders Earned Big on Signals"
-    ],
-    "mode": "paper",
-    "strategy_version": "98",
-    "status": "open",
-    "price_trough": 641.030029296875,
-    "trailing_stop_price": 646.671094
+    "price_trough": 174.6750030517578,
+    "trailing_stop_price": 181.017452
   },
   "GBP/USD": {
     "id": "GBP/USD_20260820101438",
@@ -348,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "98",
     "status": "open",
-    "price_trough": 1.3634194135665894,
-    "trailing_stop_price": 1.366146
+    "price_trough": 1.3629363775253296,
+    "trailing_stop_price": 1.365662
   },
   "WMT": {
     "id": "WMT_20260820135501",
@@ -446,8 +414,8 @@
     "mode": "paper",
     "strategy_version": "99",
     "status": "open",
-    "price_trough": 35.8468017578125,
-    "trailing_stop_price": 36.142179
+    "price_trough": 35.689998626708984,
+    "trailing_stop_price": 35.984084
   },
   "XRP-USD": {
     "id": "XRP-USD_20260820142934",
@@ -509,7 +477,9 @@
     ],
     "mode": "paper",
     "strategy_version": "99",
-    "status": "open"
+    "status": "open",
+    "price_peak": 941.7098999023438,
+    "trailing_stop_price": 934.157387
   },
   "SLV": {
     "id": "SLV_20260820150639",
@@ -540,7 +510,9 @@
     ],
     "mode": "paper",
     "strategy_version": "99",
-    "status": "open"
+    "status": "open",
+    "price_trough": 61.650001525878906,
+    "trailing_stop_price": 62.232594
   },
   "COIN": {
     "id": "COIN_20260820150639",
@@ -570,6 +542,38 @@
     ],
     "mode": "paper",
     "strategy_version": "99",
+    "status": "open",
+    "price_trough": 170.90499877929688,
+    "trailing_stop_price": 173.468574
+  },
+  "IONQ": {
+    "id": "IONQ_20260820154607",
+    "asset": "IONQ",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 40.3650016784668,
+    "entry_time": "2026-08-20T15:46:07.529806+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03701,
+    "size_usd": 688.99,
+    "position_size_pct": 0.0066,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (19.2)",
+      "5d momentum -6.50%",
+      "1d momentum -12.88%",
+      "BB oversold (pct_b=-0.01)",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.738,
+    "news_headlines": [
+      "IonQ (IONQ) Gains Attention After Q2 Results And New Deals As Valuation Debate Builds",
+      "D-Wave Stock: 71% Potential Upside, but is it Enough to Buy QBTS Now?",
+      "Quantum Stocks Are Starting to Choose Sides: Should Investors Do the Same?"
+    ],
+    "mode": "paper",
+    "strategy_version": "100",
     "status": "open"
   }
 }
