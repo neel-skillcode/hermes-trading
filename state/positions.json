@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3804700374603271,
-    "trailing_stop_price": 1.391514
+    "price_trough": 1.3803800344467163,
+    "trailing_stop_price": 1.391423
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -192,8 +192,8 @@
     "mode": "paper",
     "strategy_version": "95",
     "status": "open",
-    "price_trough": 0.7120478749275208,
-    "trailing_stop_price": 0.717744
+    "price_trough": 0.711895763874054,
+    "trailing_stop_price": 0.717591
   },
   "AXP": {
     "id": "AXP_20260819140520",
@@ -380,7 +380,9 @@
     ],
     "mode": "paper",
     "strategy_version": "97",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2226.81005859375,
+    "trailing_stop_price": 2260.212209
   },
   "SOL-USD": {
     "id": "SOL-USD_20260819211223",
@@ -411,7 +413,9 @@
     ],
     "mode": "paper",
     "strategy_version": "97",
-    "status": "open"
+    "status": "open",
+    "price_trough": 84.20999908447266,
+    "trailing_stop_price": 85.331676
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260819211223",
@@ -442,7 +446,9 @@
     ],
     "mode": "paper",
     "strategy_version": "97",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.07485000044107437,
+    "trailing_stop_price": 0.075667
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260819211223",
@@ -474,38 +480,65 @@
     "mode": "paper",
     "strategy_version": "97",
     "status": "open",
-    "price_trough": 6.826000213623047,
-    "trailing_stop_price": 6.921018
+    "price_trough": 6.704999923706055,
+    "trailing_stop_price": 6.798334
   },
   "XRP-USD": {
-    "id": "XRP-USD_20260819215946",
+    "id": "XRP-USD_20260820031449",
     "asset": "XRP-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1312999725341797,
-    "entry_time": "2026-08-19T21:59:46.579359+00:00",
-    "stop_loss_pct": 0.013,
-    "take_profit_pct": 0.03165,
-    "size_usd": 5712.65,
-    "position_size_pct": 0.0553,
-    "confidence": 0.87,
+    "direction": "long",
+    "entry_price": 1.0888999700546265,
+    "entry_time": "2026-08-20T03:14:49.376685+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03528,
+    "size_usd": 4663.28,
+    "position_size_pct": 0.0451,
+    "confidence": 0.704,
     "signals": [
-      "RSI overbought (93.1)",
-      "5d momentum +6.35%",
-      "1d momentum +13.16%",
-      "BB overbought (pct_b=1.14)",
-      "Volume spike 5.8\u00d7",
+      "RSI overbought (70.8)",
+      "5d momentum -3.80%",
+      "1d momentum +9.13%",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
+      "Claude [supports]: price surge"
     ],
-    "news_sentiment": 0.533,
+    "news_sentiment": 0.429,
     "news_headlines": [
-      "Why Coinbase (COIN) Stock Is Trading Up Today",
-      "Ripple minted $30 million in RLUSD in a single day, here is what the supply data actually tells you",
-      "Trump Touts Clarity Act With Crypto Executives. Why CME Group Stock Is Tanking."
+      "Trump hosts crypto executives at the White House \u2014 and one token surges 19% on his remarks",
+      "Ripple CEO drops new hint on IPO plan",
+      "Bitcoin Hits $69,000, Ethereum Goes on 20% Bull Rampage, XRP, SOL Pump 10% on Historic Crypto Day"
     ],
     "mode": "paper",
-    "strategy_version": "97",
+    "strategy_version": "98",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260820031449",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 68952.3671875,
+    "entry_time": "2026-08-20T03:14:49.378715+00:00",
+    "stop_loss_pct": 0.01154,
+    "take_profit_pct": 0.02748,
+    "size_usd": 1134.2,
+    "position_size_pct": 0.011,
+    "confidence": 0.764,
+    "signals": [
+      "RSI overbought (78.9)",
+      "5d momentum -1.07%",
+      "1d momentum +7.24%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.561,
+    "news_headlines": [
+      "Citi enters the crypto arena: What to expect from its bitcoin custody launch",
+      "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation",
+      "MSTR Stock Climbs As Bitcoin Surges Past $69K For First Time Since June: Trump Urges Congress To Pass CLARITY Act"
+    ],
+    "mode": "paper",
+    "strategy_version": "98",
     "status": "open"
   }
 }
