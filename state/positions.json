@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3803800344467163,
-    "trailing_stop_price": 1.391423
+    "price_trough": 1.3789000511169434,
+    "trailing_stop_price": 1.389931
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -384,39 +384,6 @@
     "price_trough": 2226.81005859375,
     "trailing_stop_price": 2260.212209
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260819211223",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 86.2300033569336,
-    "entry_time": "2026-08-19T21:12:23.504085+00:00",
-    "stop_loss_pct": 0.01332,
-    "take_profit_pct": 0.03244,
-    "size_usd": 5757.26,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (97.0)",
-      "5d momentum +5.70%",
-      "1d momentum +12.07%",
-      "BB overbought (pct_b=1.11)",
-      "Volume spike 1.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.561,
-    "news_headlines": [
-      "Over $1 billion in Bitcoin shorts wiped out in 4 hours",
-      "Altcoin Boom May Never Come Back: How Crypto Trading Has Changed in 2026",
-      "Crypto Prices Explode With Surprise Rally: Is the Bull Market Back?"
-    ],
-    "mode": "paper",
-    "strategy_version": "97",
-    "status": "open",
-    "price_trough": 84.20999908447266,
-    "trailing_stop_price": 85.331676
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260819211223",
     "asset": "DOGE-USD",
@@ -510,7 +477,9 @@
     ],
     "mode": "paper",
     "strategy_version": "98",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.1083999872207642,
+    "trailing_stop_price": 1.091774
   },
   "BTC-USD": {
     "id": "BTC-USD_20260820031449",
@@ -536,6 +505,66 @@
       "Citi enters the crypto arena: What to expect from its bitcoin custody launch",
       "Bitcoin and ethereum prices today, Wednesday, August 19, 2026:  Crypto prices rise after SEC announces proposed regulation",
       "MSTR Stock Climbs As Bitcoin Surges Past $69K For First Time Since June: Trump Urges Congress To Pass CLARITY Act"
+    ],
+    "mode": "paper",
+    "strategy_version": "98",
+    "status": "open",
+    "price_peak": 69780.671875,
+    "trailing_stop_price": 68975.402922
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260820071142",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 85.80000305175781,
+    "entry_time": "2026-08-20T07:11:42.736511+00:00",
+    "stop_loss_pct": 0.01151,
+    "take_profit_pct": 0.02742,
+    "size_usd": 5062.15,
+    "position_size_pct": 0.0489,
+    "confidence": 0.764,
+    "signals": [
+      "RSI overbought (72.5)",
+      "5d momentum +1.25%",
+      "1d momentum +11.59%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.592,
+    "news_headlines": [
+      "Sol Strategies Inc (STKE) (Q3 2026) Earnings Call Highlights: Strategic Expansion and ...",
+      "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+      "Over $1 billion in Bitcoin shorts wiped out in 4 hours"
+    ],
+    "mode": "paper",
+    "strategy_version": "98",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260820071142",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 630.9400024414062,
+    "entry_time": "2026-08-20T07:11:42.738752+00:00",
+    "stop_loss_pct": 0.00726,
+    "take_profit_pct": 0.01729,
+    "size_usd": 706.86,
+    "position_size_pct": 0.0068,
+    "confidence": 0.764,
+    "signals": [
+      "RSI overbought (66.8)",
+      "5d momentum +1.12%",
+      "1d momentum +4.90%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: product catalyst; price surge"
+    ],
+    "news_sentiment": -0.081,
+    "news_headlines": [
+      "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+      "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'",
+      "CZ Wallet Abandoned After Traders Earned Big on Signals"
     ],
     "mode": "paper",
     "strategy_version": "98",
