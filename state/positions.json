@@ -169,38 +169,6 @@
     "price_peak": 115.5510025024414,
     "trailing_stop_price": 115.3199
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260821090347",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 77685.28125,
-    "entry_time": "2026-08-21T09:03:47.658545+00:00",
-    "stop_loss_pct": 0.01229,
-    "take_profit_pct": 0.02946,
-    "size_usd": 3714.84,
-    "position_size_pct": 0.0355,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (76.1)",
-      "5d momentum +3.58%",
-      "1d momentum +8.29%",
-      "BB overbought (pct_b=0.96)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.235,
-    "news_headlines": [
-      "Stablecoins join the payment conversation at X",
-      "Bitcoin and ethereum prices today, Thursday, August 20, 2026: Crypto prices surge after President Trump pushes for Clarity Act",
-      "Benjamin Cowen\u2019s Midterm Cycle Thesis Proved Right After Bitcoin\u2019s July Low"
-    ],
-    "mode": "paper",
-    "strategy_version": "101",
-    "status": "open",
-    "price_trough": 76932.5,
-    "trailing_stop_price": 77878.000425
-  },
   "USD/JPY": {
     "id": "USD/JPY_20260821090347",
     "asset": "USD/JPY",
@@ -385,7 +353,9 @@
     ],
     "mode": "paper",
     "strategy_version": "103",
-    "status": "open"
+    "status": "open",
+    "price_trough": 214.72000122070312,
+    "trailing_stop_price": 216.272427
   },
   "WFC": {
     "id": "WFC_20260821194841",
@@ -445,7 +415,9 @@
     ],
     "mode": "paper",
     "strategy_version": "103",
-    "status": "open"
+    "status": "open",
+    "price_trough": 53.869998931884766,
+    "trailing_stop_price": 54.179213
   },
   "TGT": {
     "id": "TGT_20260821194841",
@@ -504,7 +476,9 @@
     ],
     "mode": "paper",
     "strategy_version": "103",
-    "status": "open"
+    "status": "open",
+    "price_trough": 5.510000228881836,
+    "trailing_stop_price": 5.59265
   },
   "RIVN": {
     "id": "RIVN_20260821194841",
@@ -534,7 +508,9 @@
     ],
     "mode": "paper",
     "strategy_version": "103",
-    "status": "open"
+    "status": "open",
+    "price_trough": 16.969999313354492,
+    "trailing_stop_price": 17.224549
   },
   "GS": {
     "id": "GS_20260821194841",
@@ -592,6 +568,40 @@
     ],
     "mode": "paper",
     "strategy_version": "103",
+    "status": "open",
+    "price_trough": 335.6099853515625,
+    "trailing_stop_price": 344.691592
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260821214256",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.09032999724149704,
+    "entry_time": "2026-08-21T21:42:56.886515+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 3705.66,
+    "position_size_pct": 0.0358,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (74.9)",
+      "MACD crossover",
+      "5d momentum +6.66%",
+      "1d momentum +12.66%",
+      "BB overbought (pct_b=1.30)",
+      "Volume spike 3.6\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.476,
+    "news_headlines": [
+      "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
+      "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+      "Stablecoins join the payment conversation at X"
+    ],
+    "mode": "paper",
+    "strategy_version": "104",
     "status": "open"
   }
 }
