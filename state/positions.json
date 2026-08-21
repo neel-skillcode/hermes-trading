@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "62",
     "status": "open",
-    "price_trough": 1.3747299909591675,
-    "trailing_stop_price": 1.385728
+    "price_trough": 1.3737900257110596,
+    "trailing_stop_price": 1.38478
   },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
@@ -78,31 +78,6 @@
     "status": "open",
     "price_trough": 0.8531200289726257,
     "trailing_stop_price": 0.859945
-  },
-  "USD/NOK": {
-    "id": "USD/NOK_20260803081405",
-    "asset": "USD/NOK",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 9.533049583435059,
-    "entry_time": "2026-08-03T08:14:05.304180+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 5793.2,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (67.3)",
-      "5d momentum +0.48%",
-      "BB overbought (pct_b=0.89)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "76",
-    "status": "open",
-    "price_trough": 9.295940399169922,
-    "trailing_stop_price": 9.370308
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -537,8 +512,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 158.57400512695312,
-    "trailing_stop_price": 157.305413
+    "price_peak": 158.61199951171875,
+    "trailing_stop_price": 157.343104
   },
   "XRP-USD": {
     "id": "XRP-USD_20260821094811",
@@ -569,7 +544,9 @@
     ],
     "mode": "paper",
     "strategy_version": "101",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.3806999921798706,
+    "trailing_stop_price": 1.40141
   },
   "BNB-USD": {
     "id": "BNB-USD_20260821094811",
@@ -600,6 +577,39 @@
     ],
     "mode": "paper",
     "strategy_version": "101",
+    "status": "open",
+    "price_trough": 679.2000122070312,
+    "trailing_stop_price": 685.930884
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260821104945",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.5920000076293945,
+    "entry_time": "2026-08-21T10:49:45.998829+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 61.56,
+    "position_size_pct": 0.0006,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (74.0)",
+      "5d momentum +2.73%",
+      "1d momentum +9.89%",
+      "BB overbought (pct_b=0.94)",
+      "Volume spike 4.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.263,
+    "news_headlines": [
+      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+    ],
+    "mode": "paper",
+    "strategy_version": "102",
     "status": "open"
   }
 }
