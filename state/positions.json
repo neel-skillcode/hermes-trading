@@ -258,38 +258,6 @@
     "price_trough": 173.9499969482422,
     "trailing_stop_price": 180.266121
   },
-  "GBP/USD": {
-    "id": "GBP/USD_20260820101438",
-    "asset": "GBP/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.3659149408340454,
-    "entry_time": "2026-08-20T10:14:38.675022+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00487,
-    "size_usd": 1894.03,
-    "position_size_pct": 0.0183,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (78.8)",
-      "5d momentum +0.40%",
-      "1d momentum +0.76%",
-      "BB overbought (pct_b=1.20)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.116,
-    "news_headlines": [
-      "Dollar falls after US Treasury plans more bond buybacks",
-      "Dollar Weakness Lifts Cocoa Prices",
-      "As Pressure on the Dollar Ramps Up, Make This 1 Trade Now"
-    ],
-    "mode": "paper",
-    "strategy_version": "98",
-    "status": "open",
-    "price_trough": 1.3622678518295288,
-    "trailing_stop_price": 1.364992
-  },
   "WMT": {
     "id": "WMT_20260820135501",
     "asset": "WMT",
@@ -508,8 +476,8 @@
     "mode": "paper",
     "strategy_version": "100",
     "status": "open",
-    "price_peak": 115.4020004272461,
-    "trailing_stop_price": 115.171196
+    "price_peak": 115.4800033569336,
+    "trailing_stop_price": 115.249043
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260820232339",
@@ -572,7 +540,9 @@
     ],
     "mode": "paper",
     "strategy_version": "101",
-    "status": "open"
+    "status": "open",
+    "price_trough": 74401.0078125,
+    "trailing_stop_price": 75070.616883
   },
   "ETH-USD": {
     "id": "ETH-USD_20260821015127",
@@ -600,6 +570,38 @@
       "Trump nudges CLARITY Act, bitcoin surges in response",
       "Bitcoin and ethereum prices today, Thursday, August 20, 2026: Crypto prices surge after President Trump pushes for Clarity Act",
       "Top stocks today, Aug. 20: 5 biggest gainers as Bitcoin climbs"
+    ],
+    "mode": "paper",
+    "strategy_version": "101",
+    "status": "open",
+    "price_trough": 2346.199951171875,
+    "trailing_stop_price": 2373.627029
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260821025156",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 89.31999969482422,
+    "entry_time": "2026-08-21T02:51:56.123843+00:00",
+    "stop_loss_pct": 0.00935,
+    "take_profit_pct": 0.02258,
+    "size_usd": 1894.26,
+    "position_size_pct": 0.0181,
+    "confidence": 0.83,
+    "signals": [
+      "RSI overbought (70.1)",
+      "5d momentum +2.10%",
+      "1d momentum +5.40%",
+      "BB overbought (pct_b=1.14)",
+      "Volume spike 4.0\u00d7",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.737,
+    "news_headlines": [
+      "Rain\u2019s Agentic Payments Alliance Is Writing Agent Commerce Standards While Congress Stalls",
+      "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+      "Ramp Adds x402 Payments for AI Agents"
     ],
     "mode": "paper",
     "strategy_version": "101",
