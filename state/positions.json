@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "76",
     "status": "open",
-    "price_trough": 9.299469947814941,
-    "trailing_stop_price": 9.373866
+    "price_trough": 9.295940399169922,
+    "trailing_stop_price": 9.370308
   },
   "UBER": {
     "id": "UBER_20260812164126",
@@ -479,71 +479,6 @@
     "price_peak": 115.4800033569336,
     "trailing_stop_price": 115.249043
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260821060223",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 90.69000244140625,
-    "entry_time": "2026-08-21T06:02:23.294293+00:00",
-    "stop_loss_pct": 0.00822,
-    "take_profit_pct": 0.01924,
-    "size_usd": 2397.52,
-    "position_size_pct": 0.0229,
-    "confidence": 0.68,
-    "signals": [
-      "RSI overbought (76.6)",
-      "5d momentum +1.92%",
-      "1d momentum +5.64%",
-      "BB overbought (pct_b=1.07)",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.737,
-    "news_headlines": [
-      "Rain\u2019s Agentic Payments Alliance Is Writing Agent Commerce Standards While Congress Stalls",
-      "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
-      "Ramp Adds x402 Payments for AI Agents"
-    ],
-    "mode": "paper",
-    "strategy_version": "101",
-    "status": "open",
-    "price_trough": 90.45999908447266,
-    "trailing_stop_price": 91.20358
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260821075012",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.4770002365112305,
-    "entry_time": "2026-08-21T07:50:12.296780+00:00",
-    "stop_loss_pct": 0.0136,
-    "take_profit_pct": 0.03366,
-    "size_usd": 6361.06,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (65.3)",
-      "MACD crossover",
-      "5d momentum +2.88%",
-      "1d momentum +9.92%",
-      "BB overbought (pct_b=0.94)",
-      "Volume spike 2.7\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-    ],
-    "mode": "paper",
-    "strategy_version": "101",
-    "status": "open",
-    "price_trough": 7.446000099182129,
-    "trailing_stop_price": 7.547266
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260821090347",
     "asset": "BTC-USD",
@@ -598,6 +533,70 @@
       "Treasury Yields Rise Amid Data, Geopolitical Lull",
       "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
       "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
+    ],
+    "mode": "paper",
+    "strategy_version": "101",
+    "status": "open",
+    "price_peak": 158.57400512695312,
+    "trailing_stop_price": 157.305413
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260821094811",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3956999778747559,
+    "entry_time": "2026-08-21T09:48:11.947961+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5813.83,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (86.8)",
+      "5d momentum +6.23%",
+      "1d momentum +21.52%",
+      "BB overbought (pct_b=1.07)",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.562,
+    "news_headlines": [
+      "Ripple Is Turning RLUSD From a Payment Token Into Institutional Lending Collateral",
+      "XRP\u2019s Cross-Border Battle Heats Up as HSBC and Standard Chartered Go Live With Tokenized Deposits on SWIFT Ledger",
+      "How Investing in This Altcoin Could Help to Make You a Millionaire"
+    ],
+    "mode": "paper",
+    "strategy_version": "101",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260821094811",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 680.6699829101562,
+    "entry_time": "2026-08-21T09:48:11.949919+00:00",
+    "stop_loss_pct": 0.00991,
+    "take_profit_pct": 0.02414,
+    "size_usd": 2888.17,
+    "position_size_pct": 0.0277,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (82.2)",
+      "5d momentum +3.15%",
+      "1d momentum +5.98%",
+      "BB overbought (pct_b=1.03)",
+      "Volume spike 7.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.05,
+    "news_headlines": [
+      "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+      "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+      "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
     ],
     "mode": "paper",
     "strategy_version": "101",
