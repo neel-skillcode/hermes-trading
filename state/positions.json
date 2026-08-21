@@ -110,37 +110,6 @@
     "price_peak": 80.1500015258789,
     "trailing_stop_price": 77.723861
   },
-  "PLTR": {
-    "id": "PLTR_20260819193448",
-    "asset": "PLTR",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 176.27499389648438,
-    "entry_time": "2026-08-19T19:34:48.656730+00:00",
-    "stop_loss_pct": 0.03631,
-    "take_profit_pct": 0.11918,
-    "size_usd": 5426.5,
-    "position_size_pct": 0.0518,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (62.9)",
-      "5d momentum +0.63%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.84,
-    "news_headlines": [
-      "Is Palantir Technologies (PLTR) Overvalued As Revenue Growth And 2026 Outlook Jump?",
-      "Palantir Stock Climbs as Enterprise AI Demand Keeps Growing",
-      "Mercury Systems' 2027, 2028 Outlook Conservative, RBC Says"
-    ],
-    "mode": "paper",
-    "strategy_version": "96",
-    "status": "open",
-    "price_trough": 172.80499267578125,
-    "trailing_stop_price": 179.079542
-  },
   "OXY": {
     "id": "OXY_20260820135501",
     "asset": "OXY",
@@ -422,7 +391,9 @@
     ],
     "mode": "paper",
     "strategy_version": "102",
-    "status": "open"
+    "status": "open",
+    "price_trough": 189.13999938964844,
+    "trailing_stop_price": 191.977099
   },
   "SOFI": {
     "id": "SOFI_20260821135337",
@@ -607,6 +578,35 @@
       "Waymo is making its own AI chip for its robotaxi service",
       "India Orders Google to Remove Hundreds of Firebase Accounts",
       "Google is about to make a major change to every Pixel device"
+    ],
+    "mode": "paper",
+    "strategy_version": "102",
+    "status": "open"
+  },
+  "AXP": {
+    "id": "AXP_20260821160421",
+    "asset": "AXP",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 336.239990234375,
+    "entry_time": "2026-08-21T16:04:21.441628+00:00",
+    "stop_loss_pct": 0.01923,
+    "take_profit_pct": 0.06391,
+    "size_usd": 6426.25,
+    "position_size_pct": 0.062,
+    "confidence": 0.646,
+    "signals": [
+      "RSI oversold (29.3)",
+      "5d momentum +0.59%",
+      "Volume spike 3.5\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: earnings beat; macro risk"
+    ],
+    "news_sentiment": 0.321,
+    "news_headlines": [
+      "CFOs On the Move: Week ending Aug. 21",
+      "American Express (AXP) Becomes Official Payments Partner For St Andrews Links",
+      "Warren Buffett\u2019s Empire Just Made a Massive AI Bet Nobody Saw Coming"
     ],
     "mode": "paper",
     "strategy_version": "102",
