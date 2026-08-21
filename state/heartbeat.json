@@ -3,15 +3,15 @@
   "portfolio_balance": 103461.5,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 4.11,
-  "unrealized_pnl_usd": 469.68,
-  "equity_value": 103931.18,
+  "unrealized_pnl_usd": 480.63,
+  "equity_value": 103942.13,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41384.6,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1162,
-  "last_tick": "2026-08-21T22:54:16.236027+00:00",
+  "last_tick": "2026-08-21T23:15:47.727344+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -235,9 +235,9 @@
       "status": "open",
       "price_peak": 159.0399932861328,
       "trailing_stop_price": 157.767673,
-      "current_price": 158.862,
-      "unrealized_pnl_pct": 0.002398,
-      "unrealized_pnl_usd": 10.55
+      "current_price": 158.940002,
+      "unrealized_pnl_pct": 0.00289,
+      "unrealized_pnl_usd": 12.71
     },
     {
       "id": "AMZN_20260821135337",
@@ -641,9 +641,9 @@
       "mode": "paper",
       "strategy_version": "104",
       "status": "open",
-      "current_price": 2526.120117,
-      "unrealized_pnl_pct": -0.005165,
-      "unrealized_pnl_usd": -14.88
+      "current_price": 2526.199951,
+      "unrealized_pnl_pct": -0.005197,
+      "unrealized_pnl_usd": -14.97
     },
     {
       "id": "DOGE-USD_20260821225416",
@@ -675,135 +675,32 @@
       "mode": "paper",
       "strategy_version": "104",
       "status": "open",
-      "current_price": 0.09424,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.09392999857664108,
+      "trailing_stop_price": 0.095339,
+      "current_price": 0.09401,
+      "unrealized_pnl_pct": 0.002441,
+      "unrealized_pnl_usd": 8.88
     }
   ],
   "last_candidates": [
     {
       "asset": "DOGE-USD",
-      "rank_score": 0.9525,
-      "price": 0.09424000233411789,
-      "rsi": 77.57848047313328,
-      "momentum_5d": 0.11698470939910544,
-      "momentum_1d": 0.1875000176031231,
+      "rank_score": 0.7986,
+      "price": 0.09401000291109085,
+      "rsi": 82.50172514329512,
+      "momentum_5d": 0.11518394803719174,
+      "momentum_1d": 0.16869720614341313,
       "macd_crossover": false,
-      "atr_pct": 0.02154833153497125,
-      "bollinger_pct_b": 1.285,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.01,
+      "atr_pct": 0.019975083290156452,
+      "bollinger_pct_b": 1.1112,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.82,
       "news_sentiment": 0.476,
       "news_confidence": 0.42,
       "news_headlines": [
         "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
         "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
         "Stablecoins join the payment conversation at X"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.862,
-      "price": 7.881999969482422,
-      "rsi": 60.59636598523176,
-      "momentum_5d": 0.029384863879713233,
-      "momentum_1d": 0.0994559639995602,
-      "macd_crossover": true,
-      "atr_pct": 0.01899445574604766,
-      "bollinger_pct_b": 1.06,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.91,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.7381,
-      "price": 2526.1201171875,
-      "rsi": 66.28782219082973,
-      "momentum_5d": 0.04250717876897966,
-      "momentum_1d": 0.09182862354408172,
-      "macd_crossover": false,
-      "atr_pct": 0.014344105329423954,
-      "bollinger_pct_b": 1.1498,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.33,
-      "news_sentiment": 0.689,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Bitcoin nears $80,000, posts best weekly gain in 3 years",
-        "Bitcoin prices saw their best week in years, & Trump's CLARITY Act push is only one catalyst",
-        "Weekly Wrap: Bitcoin Breaks Out"
-      ],
-      "high_impact_news": false
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.7267,
-      "price": 1.4500000476837158,
-      "rsi": 59.28726800228463,
-      "momentum_5d": 0.045647949797132735,
-      "momentum_1d": 0.15445859812158055,
-      "macd_crossover": false,
-      "atr_pct": 0.027581287989738464,
-      "bollinger_pct_b": 0.9527,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.74,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Korea's crypto trading volume is surging. Why are these investors re-entering the market?",
-        "Bitcoin's surge boosts Robinhood, Coinbase, & other crypto stocks: AlphaSpace check",
-        "Why Bitcoin Is Up Today"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.7152,
-      "price": 94.0199966430664,
-      "rsi": 54.048351577824214,
-      "momentum_5d": 0.024629407739993964,
-      "momentum_1d": 0.07808734812618796,
-      "macd_crossover": true,
-      "atr_pct": 0.014183905556684586,
-      "bollinger_pct_b": 1.0411,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.84,
-      "news_sentiment": 0.444,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Solana Just Got Faster\u2014Is It Bullish for SOL?",
-        "Tech, Media & Telecom Roundup: Market Talk",
-        "Morgan Stanley Put Ethereum Yield in an ETP. Who Carries the Risk?"
-      ],
-      "high_impact_news": false
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.6561,
-      "price": 691.0999755859375,
-      "rsi": 57.001330079584925,
-      "momentum_5d": 0.017640447277189594,
-      "momentum_1d": 0.05719654335488407,
-      "macd_crossover": false,
-      "atr_pct": 0.010110171129326684,
-      "bollinger_pct_b": 0.9965,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.89,
-      "news_sentiment": 0.05,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
-        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
-        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
       ],
       "high_impact_news": true
     },
@@ -829,23 +726,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.6097,
-      "price": 78555.4609375,
-      "rsi": 44.09330676356816,
-      "momentum_5d": 0.015318280719058391,
-      "momentum_1d": 0.08106801372184883,
+      "asset": "ETH-USD",
+      "rank_score": 0.6287,
+      "price": 2526.199951171875,
+      "rsi": 79.03002960991452,
+      "momentum_5d": 0.0440481682340534,
+      "momentum_1d": 0.08590704112720163,
       "macd_crossover": false,
-      "atr_pct": 0.012163238912771664,
-      "bollinger_pct_b": 0.8238,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.46,
-      "news_sentiment": 0.302,
-      "news_confidence": 0.43,
+      "atr_pct": 0.01274497642280009,
+      "bollinger_pct_b": 1.0555,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.619,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq post weekly losses as bond volatility remains in focus, bitcoin soars",
-        "Bitcoin and ethereum prices today, Friday, August 21, 2026: Cryptos continue rally sparked by Treasury repurchase announcement",
-        "Is bitcoin's price volatility an investing opportunity? How to buy bitcoin."
+        "Bitcoin nears $80,000, posts best weekly gain in 3 years",
+        "Bitcoin prices saw their best week in years, & Trump's CLARITY Act push is only one catalyst",
+        "Tech, Media & Telecom Roundup: Market Talk"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6279,
+      "price": 7.853000164031982,
+      "rsi": 65.78630270606304,
+      "momentum_5d": 0.043726739612694666,
+      "momentum_1d": 0.07737688668448106,
+      "macd_crossover": false,
+      "atr_pct": 0.01657237442147031,
+      "bollinger_pct_b": 0.9688,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.14,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
       ],
       "high_impact_news": true
     },
@@ -867,6 +785,27 @@
         "Wells Fargo (WFC): Buy, Sell, or Hold Post Q2 Earnings?",
         "US Housing Affordability Gauge Worsens for First Time Since 2023",
         "Gen X Parents Thought They'd Be Preparing for Retirement by Now. Instead, They're Still Paying Their Adult Kids' Bills"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.6052,
+      "price": 1.4507999420166016,
+      "rsi": 56.04351208239108,
+      "momentum_5d": 0.05298298364813307,
+      "momentum_1d": 0.14443479636246623,
+      "macd_crossover": false,
+      "atr_pct": 0.024095094684736987,
+      "bollinger_pct_b": 0.9166,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.72,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Korea's crypto trading volume is surging. Why are these investors re-entering the market?",
+        "Bitcoin's surge boosts Robinhood, Coinbase, & other crypto stocks: AlphaSpace check",
+        "Tech, Media & Telecom Roundup: Market Talk"
       ],
       "high_impact_news": true
     },
@@ -893,7 +832,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.5931,
+      "rank_score": 0.5961,
       "price": 108.13500213623047,
       "rsi": 82.75500791840847,
       "momentum_5d": 0.01578131864430345,
@@ -903,8 +842,8 @@
       "bollinger_pct_b": 0.8622,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.628,
+      "news_confidence": 0.43,
       "news_headlines": [
         "Stocks trade higher, lifted by crypto, commodities: AlphaCheck",
         "U.S. Stocks Rise as Bitcoin Nears $80,000",
@@ -914,7 +853,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5909,
+      "rank_score": 0.5939,
       "price": 214.75,
       "rsi": 32.27551321124943,
       "momentum_5d": -0.005003946726090847,
@@ -924,8 +863,8 @@
       "bollinger_pct_b": 0.1576,
       "volume_spike": true,
       "volume_spike_ratio": 2.54,
-      "news_sentiment": 0.609,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.66,
+      "news_confidence": 0.47,
       "news_headlines": [
         "Stock market today: Dow, S&P 500, Nasdaq post weekly losses as bond volatility remains in focus, bitcoin soars",
         "Tech stocks today: Nvidia earnings on the horizon, as Anthropic prepares IPO plans",
@@ -956,7 +895,7 @@
     },
     {
       "asset": "COIN",
-      "rank_score": 0.5755,
+      "rank_score": 0.5786,
       "price": 186.5749969482422,
       "rsi": 82.52276271176197,
       "momentum_5d": -0.007685391401889243,
@@ -966,8 +905,8 @@
       "bollinger_pct_b": 0.8027,
       "volume_spike": false,
       "volume_spike_ratio": 0.78,
-      "news_sentiment": 0.815,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.825,
+      "news_confidence": 0.57,
       "news_headlines": [
         "Should investors be cautious or bullish on bitcoin's latest surge?",
         "U.S. Stocks Rise as Bitcoin Nears $80,000",
@@ -976,8 +915,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.5407,
+      "price": 689.6799926757812,
+      "rsi": 64.72525672175132,
+      "momentum_5d": 0.019482620363313007,
+      "momentum_1d": 0.053493448458500036,
+      "macd_crossover": false,
+      "atr_pct": 0.008640646234136408,
+      "bollinger_pct_b": 0.9135,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.46,
+      "news_sentiment": 0.05,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "UBER",
-      "rank_score": 0.5272,
+      "rank_score": 0.5332,
       "price": 78.79499816894531,
       "rsi": 60.0265865288166,
       "momentum_5d": -0.007869554449881447,
@@ -987,12 +947,12 @@
       "bollinger_pct_b": 0.5844,
       "volume_spike": true,
       "volume_spike_ratio": 4.27,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.32,
+      "news_sentiment": 0.611,
+      "news_confidence": 0.36,
       "news_headlines": [
+        "Uber Brings Baidu\u2019s Driverless Robotaxis To Dubai",
         "Why Is Tesla Stock Up Today?",
-        "Alphabet Rises as Waymo Secures Another Robotaxi Market",
-        "Tesla Jumps 3.6% as Semi Launch and Robotaxi Expansion Accelerate"
+        "Alphabet Rises as Waymo Secures Another Robotaxi Market"
       ],
       "high_impact_news": true
     },
@@ -1081,6 +1041,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.5127,
+      "price": 94.08000183105469,
+      "rsi": 64.32819627039797,
+      "momentum_5d": 0.02774744254013329,
+      "momentum_1d": 0.07348245648398428,
+      "macd_crossover": false,
+      "atr_pct": 0.012383070344207143,
+      "bollinger_pct_b": 0.9799,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.63,
+      "news_sentiment": 0.444,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Tech, Media & Telecom Roundup: Market Talk",
+        "Solana Just Got Faster\u2014Is It Bullish for SOL?",
+        "Morgan Stanley Put Ethereum Yield in an ETP. Who Carries the Risk?"
+      ],
+      "high_impact_news": false
+    },
+    {
       "asset": "TSLA",
       "rank_score": 0.5118,
       "price": 362.8800048828125,
@@ -1098,6 +1079,27 @@
         "Tesla Controls 59% of the U.S. EV Market -- Its Highest Share Since 2023",
         "Morgan Stanley resets Nvidia stock forecast ahead of earnings",
         "US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields \u2014 PSKY, MSTR, WMT, TSLA, NVDA In Focus"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GLD",
+      "rank_score": 0.5096,
+      "price": 423.3800048828125,
+      "rsi": 74.16759311591278,
+      "momentum_5d": 0.0026761512914446417,
+      "momentum_1d": 0.05756432467712549,
+      "macd_crossover": false,
+      "atr_pct": 0.0053548481127367095,
+      "bollinger_pct_b": 0.8337,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.59,
+      "news_sentiment": -0.226,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "Daily ETF Flows: $614M Flows Into GLD",
+        "Morgan Stanley Doubles Down on Gold After Breakout",
+        "65-Year Old Retired Teacher Wants to Burn $100,000 to Delay Social Security. One Detail Means He Doesn\u2019t Need To"
       ],
       "high_impact_news": true
     }
