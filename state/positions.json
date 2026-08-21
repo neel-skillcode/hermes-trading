@@ -143,38 +143,6 @@
     "price_trough": 61.33000183105469,
     "trailing_stop_price": 61.782004
   },
-  "MS": {
-    "id": "MS_20260820190405",
-    "asset": "MS",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 208.71499633789062,
-    "entry_time": "2026-08-20T19:04:05.127046+00:00",
-    "stop_loss_pct": 0.00796,
-    "take_profit_pct": 0.01881,
-    "size_usd": 115.56,
-    "position_size_pct": 0.0011,
-    "confidence": 0.724,
-    "signals": [
-      "RSI oversold (15.2)",
-      "5d momentum -1.83%",
-      "1d momentum -4.76%",
-      "BB oversold (pct_b=-0.04)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: price surge; analyst downgrade; price decline"
-    ],
-    "news_sentiment": 0.61,
-    "news_headlines": [
-      "A Little-Known Firm Owns Nearly 3,000 Times More of This XRP ETF Than Morgan Stanley",
-      "Morgan Stanley Says AI Data Centers Face a 38-Gigawatt Power Gap. These Industrial Stocks Fill It.",
-      "\u2018Capital alone no longer clears a site\u2019: Morgan Stanley says data centers\u2019 big money era is over"
-    ],
-    "mode": "paper",
-    "strategy_version": "100",
-    "status": "open",
-    "price_peak": 211.9250030517578,
-    "trailing_stop_price": 210.23808
-  },
   "EUR/JPY": {
     "id": "EUR/JPY_20260820200044",
     "asset": "EUR/JPY",
@@ -231,8 +199,8 @@
     "mode": "paper",
     "strategy_version": "100",
     "status": "open",
-    "price_peak": 115.50700378417969,
-    "trailing_stop_price": 115.27599
+    "price_peak": 115.5510025024414,
+    "trailing_stop_price": 115.3199
   },
   "BTC-USD": {
     "id": "BTC-USD_20260821090347",
@@ -263,8 +231,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_trough": 76950.0,
-    "trailing_stop_price": 77895.7155
+    "price_trough": 76932.5,
+    "trailing_stop_price": 77878.000425
   },
   "USD/JPY": {
     "id": "USD/JPY_20260821090347",
@@ -294,8 +262,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 158.95899963378906,
-    "trailing_stop_price": 157.687328
+    "price_peak": 159.0399932861328,
+    "trailing_stop_price": 157.767673
   },
   "BNB-USD": {
     "id": "BNB-USD_20260821094811",
@@ -392,8 +360,8 @@
     "mode": "paper",
     "strategy_version": "102",
     "status": "open",
-    "price_trough": 189.13999938964844,
-    "trailing_stop_price": 191.977099
+    "price_trough": 186.0500030517578,
+    "trailing_stop_price": 188.840753
   },
   "SOFI": {
     "id": "SOFI_20260821135337",
@@ -581,7 +549,9 @@
     ],
     "mode": "paper",
     "strategy_version": "102",
-    "status": "open"
+    "status": "open",
+    "price_peak": 345.239990234375,
+    "trailing_stop_price": 339.65746
   },
   "AXP": {
     "id": "AXP_20260821160421",
@@ -610,6 +580,37 @@
     ],
     "mode": "paper",
     "strategy_version": "102",
+    "status": "open"
+  },
+  "ON": {
+    "id": "ON_20260821185833",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 74.08499908447266,
+    "entry_time": "2026-08-21T18:58:33.905967+00:00",
+    "stop_loss_pct": 0.00865,
+    "take_profit_pct": 0.01994,
+    "size_usd": 58.87,
+    "position_size_pct": 0.0006,
+    "confidence": 0.609,
+    "signals": [
+      "RSI oversold (15.0)",
+      "MACD crossover",
+      "5d momentum -0.70%",
+      "1d momentum -4.15%",
+      "News +0.69 (conf 0.64) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: earnings beat; ma catalyst"
+    ],
+    "news_sentiment": 0.695,
+    "news_headlines": [
+      "Synaptics CFO Resigns, Company Skips Successor Search Before Merger",
+      "Microchip Stock Drops 9% in a Month: Should You Buy, Sell or Hold it?",
+      "Wolfspeed Sinks 12% on Wider-Than-Expected Loss, ON Semiconductor Slips as Chip Sector Holds Steady"
+    ],
+    "mode": "paper",
+    "strategy_version": "103",
     "status": "open"
   }
 }
