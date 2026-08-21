@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 103645.53,
+  "portfolio_balance": 103627.96,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.94,
-  "unrealized_pnl_usd": 489.52,
-  "equity_value": 104135.05,
+  "portfolio_drawdown_pct": 3.96,
+  "unrealized_pnl_usd": 422.61,
+  "equity_value": 104050.57,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41458.21,
+  "day_capital_used_usd": 41451.19,
   "swing_capital_used_usd": 51834.23,
-  "total_trades": 1159,
-  "last_tick": "2026-08-21T21:42:56.888732+00:00",
+  "total_trades": 1160,
+  "last_tick": "2026-08-21T22:00:27.516587+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -238,42 +238,6 @@
       "current_price": 158.862,
       "unrealized_pnl_pct": 0.002398,
       "unrealized_pnl_usd": 10.55
-    },
-    {
-      "id": "BNB-USD_20260821094811",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 680.6699829101562,
-      "entry_time": "2026-08-21T09:48:11.949919+00:00",
-      "stop_loss_pct": 0.00991,
-      "take_profit_pct": 0.02414,
-      "size_usd": 2888.17,
-      "position_size_pct": 0.0277,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (82.2)",
-        "5d momentum +3.15%",
-        "1d momentum +5.98%",
-        "BB overbought (pct_b=1.03)",
-        "Volume spike 7.0\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: product catalyst; price surge"
-      ],
-      "news_sentiment": 0.05,
-      "news_headlines": [
-        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
-        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
-        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
-      ],
-      "mode": "paper",
-      "strategy_version": "101",
-      "status": "open",
-      "price_trough": 674.4400024414062,
-      "trailing_stop_price": 681.123703,
-      "current_price": 679.5,
-      "unrealized_pnl_pct": 0.001719,
-      "unrealized_pnl_usd": 4.96
     },
     {
       "id": "AMZN_20260821135337",
@@ -678,7 +642,41 @@
       "mode": "paper",
       "strategy_version": "104",
       "status": "open",
-      "current_price": 0.09033,
+      "current_price": 0.09184,
+      "unrealized_pnl_pct": -0.016717,
+      "unrealized_pnl_usd": -61.95
+    },
+    {
+      "id": "ETH-USD_20260821220027",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 2513.139892578125,
+      "entry_time": "2026-08-21T22:00:27.514506+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03682,
+      "size_usd": 2881.15,
+      "position_size_pct": 0.0278,
+      "confidence": 0.91,
+      "signals": [
+        "RSI overbought (73.1)",
+        "MACD crossover",
+        "5d momentum +4.45%",
+        "1d momentum +8.39%",
+        "BB overbought (pct_b=1.25)",
+        "Volume spike 4.0\u00d7",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.689,
+      "news_headlines": [
+        "Bitcoin nears $80,000, posts best weekly gain in 3 years",
+        "Bitcoin prices saw their best week in years, & Trump's CLARITY Act push is only one catalyst",
+        "Weekly Wrap: Bitcoin Breaks Out"
+      ],
+      "mode": "paper",
+      "strategy_version": "104",
+      "status": "open",
+      "current_price": 2513.139893,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -687,15 +685,15 @@
     {
       "asset": "DOGE-USD",
       "rank_score": 1.0,
-      "price": 0.09032999724149704,
-      "rsi": 74.89207375969247,
-      "momentum_5d": 0.06659582353991181,
-      "momentum_1d": 0.12659018283286919,
+      "price": 0.091839998960495,
+      "rsi": 77.35236027742658,
+      "momentum_5d": 0.08442557640390752,
+      "momentum_1d": 0.145422831616593,
       "macd_crossover": true,
-      "atr_pct": 0.020591174383972025,
-      "bollinger_pct_b": 1.2967,
+      "atr_pct": 0.021372578497537004,
+      "bollinger_pct_b": 1.3692,
       "volume_spike": true,
-      "volume_spike_ratio": 3.6,
+      "volume_spike_ratio": 6.69,
       "news_sentiment": 0.476,
       "news_confidence": 0.42,
       "news_headlines": [
@@ -707,22 +705,43 @@
     },
     {
       "asset": "ETH-USD",
-      "rank_score": 0.8548,
-      "price": 2481.510009765625,
-      "rsi": 70.06004484261612,
-      "momentum_5d": 0.03137546222457544,
-      "momentum_1d": 0.07030377238547159,
+      "rank_score": 0.9312,
+      "price": 2513.139892578125,
+      "rsi": 73.11862041231504,
+      "momentum_5d": 0.044521605047885056,
+      "momentum_1d": 0.08394610417583441,
       "macd_crossover": true,
-      "atr_pct": 0.015041836698050896,
-      "bollinger_pct_b": 1.1255,
+      "atr_pct": 0.015542611158952262,
+      "bollinger_pct_b": 1.2485,
       "volume_spike": true,
-      "volume_spike_ratio": 3.51,
+      "volume_spike_ratio": 3.99,
       "news_sentiment": 0.689,
       "news_confidence": 0.45,
       "news_headlines": [
         "Bitcoin nears $80,000, posts best weekly gain in 3 years",
         "Bitcoin prices saw their best week in years, & Trump's CLARITY Act push is only one catalyst",
         "Weekly Wrap: Bitcoin Breaks Out"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6421,
+      "price": 93.69999694824219,
+      "rsi": 63.78737309954268,
+      "momentum_5d": 0.02292574791597171,
+      "momentum_1d": 0.07110189017631767,
+      "macd_crossover": false,
+      "atr_pct": 0.01574936115596067,
+      "bollinger_pct_b": 1.0624,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.58,
+      "news_sentiment": 0.444,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Solana Just Got Faster\u2014Is It Bullish for SOL?",
+        "Tech, Media & Telecom Roundup: Market Talk",
+        "Morgan Stanley Put Ethereum Yield in an ETP. Who Carries the Risk?"
       ],
       "high_impact_news": false
     },
@@ -748,6 +767,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6223,
+      "price": 7.77400016784668,
+      "rsi": 64.52539647634492,
+      "momentum_5d": 0.01887287696539087,
+      "momentum_1d": 0.07852385826346601,
+      "macd_crossover": false,
+      "atr_pct": 0.020030135077279024,
+      "bollinger_pct_b": 0.9447,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.67,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.6113,
+      "price": 684.8499755859375,
+      "rsi": 64.19455412797642,
+      "momentum_5d": 0.007725132708360613,
+      "momentum_1d": 0.047331319798631595,
+      "macd_crossover": false,
+      "atr_pct": 0.011198489653083185,
+      "bollinger_pct_b": 0.8477,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.43,
+      "news_sentiment": 0.05,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WFC",
       "rank_score": 0.6065,
       "price": 83.83999633789062,
@@ -765,27 +826,6 @@
         "Wells Fargo (WFC): Buy, Sell, or Hold Post Q2 Earnings?",
         "US Housing Affordability Gauge Worsens for First Time Since 2023",
         "Gen X Parents Thought They'd Be Preparing for Retirement by Now. Instead, They're Still Paying Their Adult Kids' Bills"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6032,
-      "price": 78179.953125,
-      "rsi": 61.50405187001712,
-      "momentum_5d": 0.009407317416620032,
-      "momentum_1d": 0.07499859542731291,
-      "macd_crossover": false,
-      "atr_pct": 0.014388400627569997,
-      "bollinger_pct_b": 0.7757,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.85,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Stock market today: Dow, S&P 500, Nasdaq post weekly losses as bond volatility remains in focus, bitcoin soars",
-        "Bitcoin and ethereum prices today, Friday, August 21, 2026: Cryptos continue rally sparked by Treasury repurchase announcement",
-        "Is bitcoin's price volatility an investing opportunity? How to buy bitcoin."
       ],
       "high_impact_news": true
     },
@@ -874,27 +914,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.537,
-      "price": 679.5,
-      "rsi": 60.262731951272066,
-      "momentum_5d": -0.00014710946075491402,
-      "momentum_1d": 0.03914967828434746,
-      "macd_crossover": false,
-      "atr_pct": 0.011066964080403132,
-      "bollinger_pct_b": 0.6922,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.39,
-      "news_sentiment": 0.05,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
-        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
-        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARKK",
       "rank_score": 0.5261,
       "price": 86.25,
@@ -937,23 +956,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "TSLA",
-      "rank_score": 0.5179,
-      "price": 362.8800048828125,
-      "rsi": 63.73707238608954,
-      "momentum_5d": 0.010906379688443804,
-      "momentum_1d": 0.07693911455139371,
+      "asset": "WMT",
+      "rank_score": 0.5165,
+      "price": 103.69999694824219,
+      "rsi": 16.030948173651055,
+      "momentum_5d": 0.009982896187182795,
+      "momentum_1d": -0.10173678182363578,
       "macd_crossover": false,
-      "atr_pct": 0.014094130032542184,
-      "bollinger_pct_b": 0.8371,
+      "atr_pct": 0.015480708309687884,
+      "bollinger_pct_b": 0.3547,
       "volume_spike": false,
-      "volume_spike_ratio": 1.11,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.45,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.404,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval",
-        "Elon Musk's SpaceX and Tesla Are Building a $16.8 Billion Chip Factory 5 Times Bigger Than Earth's Largest Building. What Does That Mean for Both Stocks?",
-        "Moderna, Robinhood, Marvell, Tesla, SpaceX, and More Stocks That Explain Today\u2019s Market"
+        "The Toughest Questions HD Faced On Its Latest Call",
+        "WMT Brings Tap-To-Pay To US Stores \u2014 Walmart Adding Google Pay To Its Checkout Options, Apple Pay Also Reportedly In The Mix",
+        "Sector Update: Consumer Stocks Higher Late Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5142,
+      "price": 78504.8125,
+      "rsi": 62.96717087469688,
+      "momentum_5d": 0.013601684606020795,
+      "momentum_1d": 0.07946551255730952,
+      "macd_crossover": false,
+      "atr_pct": 0.014488434455621977,
+      "bollinger_pct_b": 0.8332,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.52,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Stock market today: Dow, S&P 500, Nasdaq post weekly losses as bond volatility remains in focus, bitcoin soars",
+        "Bitcoin and ethereum prices today, Friday, August 21, 2026: Cryptos continue rally sparked by Treasury repurchase announcement",
+        "Is bitcoin's price volatility an investing opportunity? How to buy bitcoin."
       ],
       "high_impact_news": true
     },
@@ -979,46 +1019,25 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5123,
-      "price": 7.723999977111816,
-      "rsi": 62.739156762176506,
-      "momentum_5d": 0.012319772118088127,
-      "momentum_1d": 0.0715870950191952,
+      "asset": "TSLA",
+      "rank_score": 0.5118,
+      "price": 362.8800048828125,
+      "rsi": 63.73707238608954,
+      "momentum_5d": 0.010906379688443804,
+      "momentum_1d": 0.07693911455139371,
       "macd_crossover": false,
-      "atr_pct": 0.01970666171708966,
-      "bollinger_pct_b": 0.8689,
+      "atr_pct": 0.014094130032542184,
+      "bollinger_pct_b": 0.8371,
       "volume_spike": false,
-      "volume_spike_ratio": 1.03,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
+      "volume_spike_ratio": 1.11,
+      "news_sentiment": 0.463,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+        "US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields \u2014 PSKY, MSTR, WMT, TSLA, NVDA In Focus",
+        "Why Is Tesla Stock Up Today?",
+        "Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval"
       ],
       "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.5099,
-      "price": 92.91000366210938,
-      "rsi": 61.24446530187629,
-      "momentum_5d": 0.014301366919327896,
-      "momentum_1d": 0.062071331696461396,
-      "macd_crossover": false,
-      "atr_pct": 0.015260553954294254,
-      "bollinger_pct_b": 0.93,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.444,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Solana Just Got Faster\u2014Is It Bullish for SOL?",
-        "Tech, Media & Telecom Roundup: Market Talk",
-        "Morgan Stanley Put Ethereum Yield in an ETP. Who Carries the Risk?"
-      ],
-      "high_impact_news": false
     },
     {
       "asset": "GLD",
@@ -1038,27 +1057,6 @@
         "Daily ETF Flows: $614M Flows Into GLD",
         "Morgan Stanley Doubles Down on Gold After Breakout",
         "65-Year Old Retired Teacher Wants to Burn $100,000 to Delay Social Security. One Detail Means He Doesn\u2019t Need To"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "WMT",
-      "rank_score": 0.5057,
-      "price": 103.69999694824219,
-      "rsi": 16.030948173651055,
-      "momentum_5d": 0.009982896187182795,
-      "momentum_1d": -0.10173678182363578,
-      "macd_crossover": false,
-      "atr_pct": 0.015480708309687884,
-      "bollinger_pct_b": 0.3547,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.174,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "WMT Brings Tap-To-Pay To US Stores \u2014 Walmart Adding Google Pay To Its Checkout Options, Apple Pay Also Reportedly In The Mix",
-        "Sector Update: Consumer Stocks Higher Late Afternoon",
-        "Walmart Finally Gives In on Apple Pay and Google Pay"
       ],
       "high_impact_news": true
     },
