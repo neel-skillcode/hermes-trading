@@ -110,37 +110,6 @@
     "price_peak": 79.5199966430664,
     "trailing_stop_price": 77.112926
   },
-  "AUD/USD": {
-    "id": "AUD/USD_20260819132535",
-    "asset": "AUD/USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 0.7121492624282837,
-    "entry_time": "2026-08-19T13:25:35.505937+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02626,
-    "size_usd": 4160.53,
-    "position_size_pct": 0.0395,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (71.8)",
-      "5d momentum +0.58%",
-      "BB overbought (pct_b=1.36)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.417,
-    "news_headlines": [
-      "Alphabet raises $3.9 billion in inaugural Australian dollar bond",
-      "GOOGL Is Already Borrowing Billions For AI \u2013 Now It\u2019s Reportedly Eyeing Australia\u2019s Bond Market",
-      "Forex Price Analysis \u2013 AUD/USD and NZD/USD Test Resistance as USD/CAD Hits Golden Zone"
-    ],
-    "mode": "paper",
-    "strategy_version": "95",
-    "status": "open",
-    "price_trough": 0.7109847068786621,
-    "trailing_stop_price": 0.716673
-  },
   "AXP": {
     "id": "AXP_20260819140520",
     "asset": "AXP",
@@ -482,7 +451,9 @@
     ],
     "mode": "paper",
     "strategy_version": "101",
-    "status": "open"
+    "status": "open",
+    "price_trough": 76950.0,
+    "trailing_stop_price": 77895.7155
   },
   "USD/JPY": {
     "id": "USD/JPY_20260821090347",
@@ -512,8 +483,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 158.61199951171875,
-    "trailing_stop_price": 157.343104
+    "price_peak": 158.63999938964844,
+    "trailing_stop_price": 157.370879
   },
   "XRP-USD": {
     "id": "XRP-USD_20260821094811",
@@ -545,8 +516,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_trough": 1.3806999921798706,
-    "trailing_stop_price": 1.40141
+    "price_trough": 1.3782000541687012,
+    "trailing_stop_price": 1.398873
   },
   "BNB-USD": {
     "id": "BNB-USD_20260821094811",
@@ -578,8 +549,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_trough": 679.2000122070312,
-    "trailing_stop_price": 685.930884
+    "price_trough": 675.280029296875,
+    "trailing_stop_price": 681.972054
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260821104945",
@@ -610,6 +581,8 @@
     ],
     "mode": "paper",
     "strategy_version": "102",
-    "status": "open"
+    "status": "open",
+    "price_trough": 7.489999771118164,
+    "trailing_stop_price": 7.60235
   }
 }
