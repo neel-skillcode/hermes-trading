@@ -107,40 +107,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 79.5199966430664,
-    "trailing_stop_price": 77.112926
-  },
-  "AXP": {
-    "id": "AXP_20260819140520",
-    "asset": "AXP",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 342.9256896972656,
-    "entry_time": "2026-08-19T14:05:20.360951+00:00",
-    "stop_loss_pct": 0.0157,
-    "take_profit_pct": 0.05377,
-    "size_usd": 5585.85,
-    "position_size_pct": 0.0532,
-    "confidence": 0.851,
-    "signals": [
-      "RSI overbought (61.8)",
-      "MACD crossover",
-      "5d momentum +1.57%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat"
-    ],
-    "news_sentiment": 0.379,
-    "news_headlines": [
-      "Marti Technologies Shares Rise After Revenue Beat and Higher Guidance",
-      "Is American Express\u2019 Expanded Virtual Cards Strategy Deepening Its Corporate Moat In Premium Payments (AXP)?",
-      "Berkshire Boosts Alphabet Stake 83% as Buffett Makes Major AI Bet"
-    ],
-    "mode": "paper",
-    "strategy_version": "95",
-    "status": "open",
-    "price_trough": 331.1499938964844,
-    "trailing_stop_price": 336.349049
+    "price_peak": 80.1500015258789,
+    "trailing_stop_price": 77.723861
   },
   "PLTR": {
     "id": "PLTR_20260819193448",
@@ -357,8 +325,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 158.8179931640625,
-    "trailing_stop_price": 157.547449
+    "price_peak": 158.95899963378906,
+    "trailing_stop_price": 157.687328
   },
   "BNB-USD": {
     "id": "BNB-USD_20260821094811",
@@ -392,39 +360,6 @@
     "status": "open",
     "price_trough": 675.280029296875,
     "trailing_stop_price": 681.972054
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260821104945",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.5920000076293945,
-    "entry_time": "2026-08-21T10:49:45.998829+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 61.56,
-    "position_size_pct": 0.0006,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (74.0)",
-      "5d momentum +2.73%",
-      "1d momentum +9.89%",
-      "BB overbought (pct_b=0.94)",
-      "Volume spike 4.3\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-    ],
-    "mode": "paper",
-    "strategy_version": "102",
-    "status": "open",
-    "price_trough": 7.489999771118164,
-    "trailing_stop_price": 7.60235
   },
   "HOOD": {
     "id": "HOOD_20260821135337",
@@ -581,7 +516,9 @@
     ],
     "mode": "paper",
     "strategy_version": "102",
-    "status": "open"
+    "status": "open",
+    "price_trough": 62.459999084472656,
+    "trailing_stop_price": 63.078353
   },
   "AMZN": {
     "id": "AMZN_20260821135337",
@@ -608,6 +545,68 @@
       "QQQ Cut Its Fee After 26 Years. On $250,000, the VGT ETF Still Saves You $225 Every Year",
       "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
       "Tesla, Waymo, Uber Granted Las Vegas Robotaxi Permits"
+    ],
+    "mode": "paper",
+    "strategy_version": "102",
+    "status": "open",
+    "price_peak": 260.2900085449219,
+    "trailing_stop_price": 253.998799
+  },
+  "TSLA": {
+    "id": "TSLA_20260821150045",
+    "asset": "TSLA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 360.7099914550781,
+    "entry_time": "2026-08-21T15:00:45.455375+00:00",
+    "stop_loss_pct": 0.01251,
+    "take_profit_pct": 0.03047,
+    "size_usd": 102.52,
+    "position_size_pct": 0.001,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (65.6)",
+      "5d momentum +5.36%",
+      "1d momentum +5.88%",
+      "BB overbought (pct_b=1.09)",
+      "Volume spike 5.4\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": -0.0,
+    "news_headlines": [
+      "Tesla Faces Its Biggest-Ever China Recall",
+      "Moderna Rallies 8%, BioNTech Climbs 4% as the mRNA Trade Whipsaws for a Third Session",
+      "Tesla Is Ready to Launch Its EV Semi Truck\u2014and the Stock Is Rising"
+    ],
+    "mode": "paper",
+    "strategy_version": "102",
+    "status": "open"
+  },
+  "GOOGL": {
+    "id": "GOOGL_20260821150045",
+    "asset": "GOOGL",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 344.5799865722656,
+    "entry_time": "2026-08-21T15:00:45.457102+00:00",
+    "stop_loss_pct": 0.01617,
+    "take_profit_pct": 0.05352,
+    "size_usd": 6186.16,
+    "position_size_pct": 0.0596,
+    "confidence": 0.621,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +1.05%",
+      "Volume spike 3.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.312,
+    "news_headlines": [
+      "Waymo is making its own AI chip for its robotaxi service",
+      "India Orders Google to Remove Hundreds of Firebase Accounts",
+      "Google is about to make a major change to every Pixel device"
     ],
     "mode": "paper",
     "strategy_version": "102",
