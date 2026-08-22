@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 103602.86,
+  "portfolio_balance": 103760.78,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.98,
-  "unrealized_pnl_usd": 568.6,
-  "equity_value": 104171.46,
+  "portfolio_drawdown_pct": 3.83,
+  "unrealized_pnl_usd": 575.82,
+  "equity_value": 104336.6,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41441.14,
+  "day_capital_used_usd": 41504.31,
   "swing_capital_used_usd": 51834.23,
-  "total_trades": 1166,
-  "last_tick": "2026-08-22T05:58:51.301492+00:00",
+  "total_trades": 1167,
+  "last_tick": "2026-08-22T06:46:04.594730+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -641,29 +641,30 @@
       "mode": "paper",
       "strategy_version": "104",
       "status": "open",
-      "price_trough": 2440.030029296875,
-      "trailing_stop_price": 2476.63048,
-      "current_price": 2440.030029,
-      "unrealized_pnl_pct": 0.029091,
-      "unrealized_pnl_usd": 83.82
+      "price_trough": 2435.10009765625,
+      "trailing_stop_price": 2471.626599,
+      "current_price": 2435.419922,
+      "unrealized_pnl_pct": 0.030925,
+      "unrealized_pnl_usd": 89.1
     },
     {
-      "id": "XRP-USD_20260822053739",
+      "id": "XRP-USD_20260822064604",
       "asset": "XRP-USD",
       "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1.5257999897003174,
-      "entry_time": "2026-08-22T05:37:39.261468+00:00",
+      "direction": "short",
+      "entry_price": 1.589900016784668,
+      "entry_time": "2026-08-22T06:46:04.592517+00:00",
       "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03613,
-      "size_usd": 3695.61,
-      "position_size_pct": 0.0357,
-      "confidence": 0.817,
+      "take_profit_pct": 0.03712,
+      "size_usd": 3758.78,
+      "position_size_pct": 0.0362,
+      "confidence": 0.95,
       "signals": [
-        "RSI overbought (63.3)",
-        "5d momentum +4.49%",
-        "1d momentum +16.52%",
-        "Volume spike 9.7\u00d7",
+        "RSI overbought (68.3)",
+        "5d momentum +7.73%",
+        "1d momentum +22.46%",
+        "BB overbought (pct_b=0.92)",
+        "Volume spike 2.4\u00d7",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
       ],
@@ -676,24 +677,24 @@
       "mode": "paper",
       "strategy_version": "104",
       "status": "open",
-      "current_price": 1.525,
-      "unrealized_pnl_pct": -0.000524,
-      "unrealized_pnl_usd": -1.94
+      "current_price": 1.5899,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "XRP-USD",
-      "rank_score": 0.6856,
-      "price": 1.524999976158142,
-      "rsi": 63.1795438238006,
-      "momentum_5d": 0.04459206359614222,
-      "momentum_1d": 0.16456662893602317,
+      "rank_score": 0.8104,
+      "price": 1.589900016784668,
+      "rsi": 68.33397585863129,
+      "momentum_5d": 0.07731398327031186,
+      "momentum_1d": 0.2246013884948301,
       "macd_crossover": false,
-      "atr_pct": 0.04433724095248659,
-      "bollinger_pct_b": 0.7735,
+      "atr_pct": 0.04500283185390264,
+      "bollinger_pct_b": 0.9192,
       "volume_spike": true,
-      "volume_spike_ratio": 11.86,
+      "volume_spike_ratio": 2.41,
       "news_sentiment": 0.2,
       "news_confidence": 0.4,
       "news_headlines": [
@@ -809,27 +810,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5793,
-      "price": 699.02001953125,
-      "rsi": 60.76925183659789,
-      "momentum_5d": 0.015382866766608416,
-      "momentum_1d": 0.05218641562338363,
-      "macd_crossover": false,
-      "atr_pct": 0.015592239604013552,
-      "bollinger_pct_b": 0.7018,
-      "volume_spike": true,
-      "volume_spike_ratio": 8.18,
-      "news_sentiment": 0.05,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
-        "3 Altcoins Grayscale Says Could Win From New US Token Rules",
-        "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "COIN",
       "rank_score": 0.5655,
       "price": 186.5749969482422,
@@ -847,48 +827,6 @@
         "Should investors be cautious or bullish on bitcoin's latest surge?",
         "Coinbase CEO Brian Armstrong Sees Crypto Bull Market Starting Soon",
         "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China \u2014 Bitcoin Purchase 'Been Talked About'"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5625,
-      "price": 0.09178999811410904,
-      "rsi": 64.229946360056,
-      "momentum_5d": 0.000435909702052308,
-      "momentum_1d": 0.11004955280298247,
-      "macd_crossover": false,
-      "atr_pct": 0.040130421399666265,
-      "bollinger_pct_b": 0.6739,
-      "volume_spike": true,
-      "volume_spike_ratio": 13.93,
-      "news_sentiment": 0.476,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
-        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
-        "Stablecoins join the payment conversation at X"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5322,
-      "price": 7.709000110626221,
-      "rsi": 53.067897977954054,
-      "momentum_5d": -0.02132788466509347,
-      "momentum_1d": 0.043166474953176076,
-      "macd_crossover": false,
-      "atr_pct": 0.028213785244256988,
-      "bollinger_pct_b": 0.4653,
-      "volume_spike": true,
-      "volume_spike_ratio": 14.44,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
       ],
       "high_impact_news": true
     },
@@ -1040,6 +978,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.4949,
+      "price": 0.09299000352621078,
+      "rsi": 64.55120183704338,
+      "momentum_5d": 0.01650635864852921,
+      "momentum_1d": 0.11780264210354453,
+      "macd_crossover": false,
+      "atr_pct": 0.040818519267641594,
+      "bollinger_pct_b": 0.7144,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.16,
+      "news_sentiment": 0.476,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
+        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+        "Stablecoins join the payment conversation at X"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LRCX",
       "rank_score": 0.4948,
       "price": 314.1499938964844,
@@ -1099,6 +1058,48 @@
         "Marvell vs. Broadcom: the custom silicon shift",
         "Microsoft vs. Broadcom: One Has 85% Upside, But I'm Picking the Other",
         "Why Broadcom Stock Inched Higher on Friday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SLV",
+      "rank_score": 0.4809,
+      "price": 62.71500015258789,
+      "rsi": 76.45429610904348,
+      "momentum_5d": -0.00047810630022388433,
+      "momentum_1d": 0.08473243590190223,
+      "macd_crossover": false,
+      "atr_pct": 0.009632474441580519,
+      "bollinger_pct_b": 0.744,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.72,
+      "news_sentiment": 0.05,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Bitcoin Moves Past $77,000",
+        "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Renewed Inflation Concerns",
+        "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Meeting Minutes' Release"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.4792,
+      "price": 61.69499969482422,
+      "rsi": 23.2013601204239,
+      "momentum_5d": -0.007241141839644725,
+      "momentum_1d": -0.03375096054497657,
+      "macd_crossover": false,
+      "atr_pct": 0.005606509264865483,
+      "bollinger_pct_b": 0.1548,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": -0.17,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
+        "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
+        "SEC charges former Bank of America investment banker with insider trading"
       ],
       "high_impact_news": true
     }
