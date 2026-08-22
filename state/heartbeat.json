@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 103917.77,
+  "portfolio_balance": 103845.29,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.69,
-  "unrealized_pnl_usd": 442.91,
-  "equity_value": 104360.68,
+  "portfolio_drawdown_pct": 3.76,
+  "unrealized_pnl_usd": 476.78,
+  "equity_value": 104322.07,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41567.11,
+  "day_capital_used_usd": 41538.12,
   "swing_capital_used_usd": 51834.23,
-  "total_trades": 1171,
-  "last_tick": "2026-08-22T11:51:33.466904+00:00",
+  "total_trades": 1172,
+  "last_tick": "2026-08-22T12:11:04.087440+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 2,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -612,38 +612,6 @@
       "unrealized_pnl_usd": 4.62
     },
     {
-      "id": "AVAX-USD_20260822103025",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 7.446000099182129,
-      "entry_time": "2026-08-22T10:30:25.144922+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03483,
-      "size_usd": 4283.07,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
-      "signals": [
-        "RSI oversold (43.7)",
-        "5d momentum -3.22%",
-        "1d momentum -2.26%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.263,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-      ],
-      "mode": "paper",
-      "strategy_version": "105",
-      "status": "open",
-      "current_price": 7.514,
-      "unrealized_pnl_pct": -0.009132,
-      "unrealized_pnl_usd": -39.11
-    },
-    {
       "id": "BTC-USD_20260822103025",
       "asset": "BTC-USD",
       "trade_type": "day",
@@ -672,9 +640,41 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "current_price": 77080.460938,
-      "unrealized_pnl_pct": -0.001943,
-      "unrealized_pnl_usd": -4.7
+      "current_price": 77247.03125,
+      "unrealized_pnl_pct": -0.004108,
+      "unrealized_pnl_usd": -9.94
+    },
+    {
+      "id": "DOGE-USD_20260822121104",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.09059000015258789,
+      "entry_time": "2026-08-22T12:11:04.085099+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03573,
+      "size_usd": 4254.08,
+      "position_size_pct": 0.041,
+      "confidence": 0.764,
+      "signals": [
+        "RSI oversold (42.0)",
+        "5d momentum -2.62%",
+        "1d momentum +7.96%",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: price surge"
+      ],
+      "news_sentiment": 0.476,
+      "news_headlines": [
+        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
+        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?",
+        "Stablecoins join the payment conversation at X"
+      ],
+      "mode": "paper",
+      "strategy_version": "105",
+      "status": "open",
+      "current_price": 0.09059,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -735,9 +735,9 @@
       "news_sentiment": 0.567,
       "news_confidence": 0.57,
       "news_headlines": [
+        "The Target Turnaround Is Real. Here's What Investors Should Know.",
         "Jim Cramer reveals the sweet spot for buying Target stock",
-        "Target vs. Walmart: Which Retail Stock Is the Better Buy After Q2 Earnings?",
-        "Ross Stores Q2 Earnings Top Estimates on Strong Sales Growth Momentum"
+        "Target vs. Walmart: Which Retail Stock Is the Better Buy After Q2 Earnings?"
       ],
       "high_impact_news": true
     },
@@ -805,27 +805,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5266,
-      "price": 1.481600046157837,
-      "rsi": 56.909532869841364,
-      "momentum_5d": -0.062456450664982364,
-      "momentum_1d": 0.09190070864911774,
-      "macd_crossover": false,
-      "atr_pct": 0.05508524293823028,
-      "bollinger_pct_b": 0.5063,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.18,
-      "news_sentiment": 0.45,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Korea's crypto trading volume is surging. Why are these investors re-entering the market?",
-        "Bitcoin's surge boosts Robinhood, Coinbase, & other crypto stocks: AlphaSpace check",
-        "Why XRP Is Skyrocketing This Week"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARKK",
       "rank_score": 0.5265,
       "price": 86.25,
@@ -847,29 +826,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "WMT",
-      "rank_score": 0.5226,
-      "price": 103.69999694824219,
-      "rsi": 16.030948173651055,
-      "momentum_5d": 0.009982896187182795,
-      "momentum_1d": -0.10173678182363578,
-      "macd_crossover": false,
-      "atr_pct": 0.015480708309687884,
-      "bollinger_pct_b": 0.3547,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.532,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Should you be worried about Walmart's latest U.S. sales? 1 analyst calls it a 'worst case scenario'",
-        "The Toughest Questions HD Faced On Its Latest Call",
-        "Target vs. Walmart: Which Retail Stock Is the Better Buy After Q2 Earnings?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "PLTR",
-      "rank_score": 0.5174,
+      "rank_score": 0.5244,
       "price": 179.94000244140625,
       "rsi": 65.49474587686933,
       "momentum_5d": 0.00965099993784154,
@@ -879,12 +837,12 @@
       "bollinger_pct_b": 0.8991,
       "volume_spike": false,
       "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.135,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.286,
+      "news_confidence": 0.42,
       "news_headlines": [
+        "Palantir, Freeport Break Out, Lead Five Stocks Near Buy Points",
         "Prediction: This Will Be Palantir's Stock Price by the End of 2030",
-        "Palantir Stock Clears Buy Zone But Could Offer Alternative Entry",
-        "Michael Burry Says the AI Buildout Is Repeating 2008: \u2018The Shenanigans Are Apparent Today\u2019"
+        "Palantir Stock Clears Buy Zone But Could Offer Alternative Entry"
       ],
       "high_impact_news": true
     },
@@ -927,6 +885,27 @@
         "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
         "Salesforce (CRM) Adds No Code Contract Management App To Its AgentExchange",
         "Arista Networks vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "WMT",
+      "rank_score": 0.5105,
+      "price": 103.69999694824219,
+      "rsi": 16.030948173651055,
+      "momentum_5d": 0.009982896187182795,
+      "momentum_1d": -0.10173678182363578,
+      "macd_crossover": false,
+      "atr_pct": 0.015480708309687884,
+      "bollinger_pct_b": 0.3547,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.265,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Walmart shoppers must consider one major shift coming to prices",
+        "Should you be worried about Walmart's latest U.S. sales? 1 analyst calls it a 'worst case scenario'",
+        "The Toughest Questions HD Faced On Its Latest Call"
       ],
       "high_impact_news": true
     },
@@ -1074,6 +1053,27 @@
         "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
         "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
         "SEC charges former Bank of America investment banker with insider trading"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.476,
+      "price": 1.5098999738693237,
+      "rsi": 56.1413400593929,
+      "momentum_5d": -0.03409673949780799,
+      "momentum_1d": 0.09357570972783898,
+      "macd_crossover": false,
+      "atr_pct": 0.0527755029953008,
+      "bollinger_pct_b": 0.5797,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.05,
+      "news_sentiment": 0.526,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Korea's crypto trading volume is surging. Why are these investors re-entering the market?",
+        "Bitcoin's surge boosts Robinhood, Coinbase, & other crypto stocks: AlphaSpace check",
+        "Why XRP Is Skyrocketing This Week"
       ],
       "high_impact_news": true
     },
