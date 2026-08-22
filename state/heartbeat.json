@@ -3,15 +3,15 @@
   "portfolio_balance": 103845.29,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.76,
-  "unrealized_pnl_usd": 464.47,
-  "equity_value": 104309.76,
+  "unrealized_pnl_usd": 446.59,
+  "equity_value": 104291.88,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41538.12,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1172,
-  "last_tick": "2026-08-22T14:58:25.912793+00:00",
+  "last_tick": "2026-08-22T15:24:01.044247+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 3,
   "universe_scanned": 110,
@@ -640,9 +640,11 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "current_price": 77026.492188,
-      "unrealized_pnl_pct": -0.001241,
-      "unrealized_pnl_usd": -3.0
+      "price_trough": 76911.7109375,
+      "trailing_stop_price": 77561.614895,
+      "current_price": 76907.867188,
+      "unrealized_pnl_pct": 0.000301,
+      "unrealized_pnl_usd": 0.73
     },
     {
       "id": "DOGE-USD_20260822121104",
@@ -672,9 +674,9 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "current_price": 0.09018,
-      "unrealized_pnl_pct": -0.004526,
-      "unrealized_pnl_usd": -19.25
+      "current_price": 0.08972,
+      "unrealized_pnl_pct": -0.009604,
+      "unrealized_pnl_usd": -40.85
     }
   ],
   "last_candidates": [
@@ -1036,27 +1038,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.4766,
-      "price": 1.4495999813079834,
-      "rsi": 49.08313686190293,
-      "momentum_5d": -0.034951075066060724,
-      "momentum_1d": 0.03528065392961135,
-      "macd_crossover": false,
-      "atr_pct": 0.05542415549688501,
-      "bollinger_pct_b": 0.3379,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.15,
-      "news_sentiment": 0.526,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Korea's crypto trading volume is surging. Why are these investors re-entering the market?",
-        "Bitcoin's surge boosts Robinhood, Coinbase, & other crypto stocks: AlphaSpace check",
-        "How XRP Went From a Cycle Low to a Three-Month High in Four Days"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "GS",
       "rank_score": 0.475,
       "price": 1039.4100341796875,
@@ -1095,6 +1076,27 @@
         "Is Biogen (BIIB) Undervalued On Raised EPS Guidance And Key Phase 3 Readouts?",
         "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
         "Should You Buy, Sell or Hold Biogen Stock After a 9% Rise in a Month?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.4732,
+      "price": 61.69499969482422,
+      "rsi": 23.2013601204239,
+      "momentum_5d": -0.007241141839644725,
+      "momentum_1d": -0.03375096054497657,
+      "macd_crossover": false,
+      "atr_pct": 0.005606509264865483,
+      "bollinger_pct_b": 0.1548,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.055,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "What Do SEC Insider Trading Charges Mean For Bank Of America (BAC)?",
+        "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
+        "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines."
       ],
       "high_impact_news": true
     }
