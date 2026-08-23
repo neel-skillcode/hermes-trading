@@ -3,15 +3,15 @@
   "portfolio_balance": 104019.68,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.59,
-  "unrealized_pnl_usd": 539.45,
-  "equity_value": 104559.13,
+  "unrealized_pnl_usd": 555.69,
+  "equity_value": 104575.37,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41607.87,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1181,
-  "last_tick": "2026-08-23T22:08:01.774012+00:00",
+  "last_tick": "2026-08-23T22:35:22.455715+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -607,11 +607,11 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "price_peak": 0.09296999871730804,
-      "trailing_stop_price": 0.091575,
-      "current_price": 0.09299,
-      "unrealized_pnl_pct": 0.019627,
-      "unrealized_pnl_usd": 26.15
+      "price_peak": 0.09302999824285507,
+      "trailing_stop_price": 0.091635,
+      "current_price": 0.09303,
+      "unrealized_pnl_pct": 0.020066,
+      "unrealized_pnl_usd": 26.74
     },
     {
       "id": "SOL-USD_20260823150102",
@@ -641,11 +641,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "price_peak": 95.29000091552734,
-      "trailing_stop_price": 94.182731,
-      "current_price": 95.199997,
-      "unrealized_pnl_pct": 0.004219,
-      "unrealized_pnl_usd": 19.78
+      "price_peak": 95.5,
+      "trailing_stop_price": 94.39029,
+      "current_price": 95.5,
+      "unrealized_pnl_pct": 0.007384,
+      "unrealized_pnl_usd": 34.61
     },
     {
       "id": "ETH-USD_20260823194704",
@@ -676,11 +676,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "price_peak": 2460.199951171875,
-      "trailing_stop_price": 2435.032106,
-      "current_price": 2460.090088,
-      "unrealized_pnl_pct": 0.00352,
-      "unrealized_pnl_usd": 7.31
+      "price_peak": 2461.06005859375,
+      "trailing_stop_price": 2435.883414,
+      "current_price": 2461.060059,
+      "unrealized_pnl_pct": 0.003916,
+      "unrealized_pnl_usd": 8.14
     }
   ],
   "last_candidates": [
@@ -728,7 +728,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.5911,
+      "rank_score": 0.5841,
       "price": 108.13500213623047,
       "rsi": 82.75500791840847,
       "momentum_5d": 0.01578131864430345,
@@ -738,10 +738,10 @@
       "bollinger_pct_b": 0.8622,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.55,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.366,
+      "news_confidence": 0.41,
       "news_headlines": [
-        "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+        "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
         "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
         "Why Robinhood Markets Stock Popped Today"
       ],
@@ -776,7 +776,7 @@
       "momentum_5d": 0.01016830189973304,
       "momentum_1d": 0.08533187878991759,
       "macd_crossover": false,
-      "atr_pct": 0.012121398215153838,
+      "atr_pct": 0.01214299090286954,
       "bollinger_pct_b": 1.0059,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
@@ -786,6 +786,48 @@
         "Target admits it still has big problems to fix",
         "Target Just Reported Earnings. Here's Whether the Dividend King Is Still a Buy.",
         "Target Stock Is up 63% This Year, and It's Still Cheap"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.5632,
+      "price": 703.1099853515625,
+      "rsi": 76.15869610478958,
+      "momentum_5d": 0.007869599886472263,
+      "momentum_1d": 0.013813325523049081,
+      "macd_crossover": false,
+      "atr_pct": 0.00611264913171881,
+      "bollinger_pct_b": 0.8636,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.36,
+      "news_sentiment": 0.25,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens",
+        "Sandbox Says Bridge Exploit Was \u2018Minimal\u2019 - On-Chain Data Tells A Very Different Story",
+        "The Sandbox Contains Bridge Exploit After Unbacked SAND Minted on Base and BSC"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5621,
+      "price": 2461.06005859375,
+      "rsi": 66.02142587338965,
+      "momentum_5d": 0.008523701878031736,
+      "momentum_1d": 0.019655098608280564,
+      "macd_crossover": false,
+      "atr_pct": 0.010200590350418207,
+      "bollinger_pct_b": 0.8076,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.2,
+      "news_sentiment": 0.737,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Ethereum\u2019s \u2018Netflix Moment\u2019 Could Send ETH To $10K By 2029 As Bitcoin Eyes $81K",
+        "Jordi Visser Warns Betting Against Treasury Intervention Is \u2018A Very Dangerous Game,\u2019 Favors Bitcoin Over Equities",
+        "Arthur Hayes Calls Ethereum Foundation 'A Bunch Of Jokers' In A Blunt Take But Is Bullish On ETH"
       ],
       "high_impact_news": true
     },
@@ -811,27 +853,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5315,
-      "price": 1.520799994468689,
-      "rsi": 67.09048224923032,
-      "momentum_5d": 0.010431188970681533,
-      "momentum_1d": 0.03603784681667595,
-      "macd_crossover": false,
-      "atr_pct": 0.0183221294674299,
-      "bollinger_pct_b": 0.8203,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.97,
-      "news_sentiment": 0.53,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Should You Take Profits on XRP After a 50% Week? We Asked 2 AI Models",
-        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
-        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?"
-      ],
-      "high_impact_news": false
-    },
-    {
       "asset": "PLTR",
       "rank_score": 0.5304,
       "price": 179.94000244140625,
@@ -854,9 +875,9 @@
     },
     {
       "asset": "ARKK",
-      "rank_score": 0.5195,
+      "rank_score": 0.5191,
       "price": 86.25,
-      "rsi": 73.44510665919216,
+      "rsi": 73.32692640501361,
       "momentum_5d": 0.004132992267393613,
       "momentum_1d": 0.08572504216143122,
       "macd_crossover": false,
@@ -874,15 +895,36 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.5185,
+      "price": 1.5164999961853027,
+      "rsi": 65.02175699640988,
+      "momentum_5d": 0.007507286441971046,
+      "momentum_1d": 0.033178889706556566,
+      "macd_crossover": false,
+      "atr_pct": 0.018326983889412767,
+      "bollinger_pct_b": 0.7807,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.61,
+      "news_sentiment": 0.53,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Should You Take Profits on XRP After a 50% Week? We Asked 2 AI Models",
+        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
+        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?"
+      ],
+      "high_impact_news": false
+    },
+    {
       "asset": "SLB",
-      "rank_score": 0.5146,
+      "rank_score": 0.5142,
       "price": 53.869998931884766,
-      "rsi": 56.355924669325105,
+      "rsi": 56.26324212599701,
       "momentum_5d": 0.0117381916149449,
       "momentum_1d": 0.01236557748408207,
       "macd_crossover": true,
-      "atr_pct": 0.006803016865263634,
-      "bollinger_pct_b": 0.7953,
+      "atr_pct": 0.006796385731828123,
+      "bollinger_pct_b": 0.7951,
       "volume_spike": false,
       "volume_spike_ratio": 1.23,
       "news_sentiment": 0.794,
@@ -891,6 +933,27 @@
         "Is RPC Stock Attractive as Margin Gains Meet Soft Industry Activity?",
         "Sector Update: Energy Stocks Rise Pre-Bell Tuesday",
         "SLB (SLB) Stock May Trade At A Discount On Cash Flow But Fairly On Earnings"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5104,
+      "price": 77671.2421875,
+      "rsi": 71.22065456704405,
+      "momentum_5d": 0.006473799123321986,
+      "momentum_1d": 0.008855514010592562,
+      "macd_crossover": false,
+      "atr_pct": 0.0052153412233593936,
+      "bollinger_pct_b": 0.8218,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.7,
+      "news_sentiment": 0.111,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day",
+        "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+        "Japan Borrowing Costs Reach 1996 Highs: Will the Weak Yen Hurt Bitcoin?"
       ],
       "high_impact_news": true
     },
@@ -937,27 +1000,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "CRM",
-      "rank_score": 0.5005,
-      "price": 209.14999389648438,
-      "rsi": 62.58252632533124,
-      "momentum_5d": -0.006531291009922036,
-      "momentum_1d": 0.05418346940881881,
-      "macd_crossover": false,
-      "atr_pct": 0.009488881568718415,
-      "bollinger_pct_b": 0.8409,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.884,
-      "news_confidence": 0.69,
-      "news_headlines": [
-        "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-        "Nvidia, Fed Confab, Inflation, GDP, and More to Watch This Week",
-        "Jim Cramer Said Affirm Holdings, Inc. (NASDAQ:AFRM) Was The One To Buy"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "WMT",
       "rank_score": 0.4996,
       "price": 103.69999694824219,
@@ -1000,6 +1042,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "CRM",
+      "rank_score": 0.4937,
+      "price": 209.14999389648438,
+      "rsi": 62.63463697320915,
+      "momentum_5d": -0.006531291009922036,
+      "momentum_1d": 0.05418346940881881,
+      "macd_crossover": false,
+      "atr_pct": 0.009488881568718415,
+      "bollinger_pct_b": 0.8411,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.771,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+        "Nvidia, Fed Confab, Inflation, GDP, and More to Watch This Week",
+        "Jim Cramer Said Affirm Holdings, Inc. (NASDAQ:AFRM) Was The One To Buy"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ON",
       "rank_score": 0.4928,
       "price": 74.22000122070312,
@@ -1038,69 +1101,6 @@
         "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Bitcoin Moves Past $77,000",
         "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Renewed Inflation Concerns",
         "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Meeting Minutes' Release"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GS",
-      "rank_score": 0.475,
-      "price": 1039.4100341796875,
-      "rsi": 61.60078550255231,
-      "momentum_5d": 0.025160281242095198,
-      "momentum_1d": 0.004396777238013757,
-      "macd_crossover": false,
-      "atr_pct": 0.008880798780899158,
-      "bollinger_pct_b": 1.0061,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.826,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "The Gas Turbine Shortage Just Became AI\u2019s Biggest Constraint",
-        "What\u2019s Behind Goldman Sachs Group (GS) Latest Move?",
-        "Everyone\u2019s Arguing About Taxing the Rich. Almost Nobody Noticed the $1 Trillion Already Slipping Past the IRS"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRNA",
-      "rank_score": 0.4743,
-      "price": 145.0399932861328,
-      "rsi": 35.30501734078413,
-      "momentum_5d": -0.025448966884805843,
-      "momentum_1d": 1.280144503921444,
-      "macd_crossover": false,
-      "atr_pct": 0.07564155622762883,
-      "bollinger_pct_b": 0.4872,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.38,
-      "news_sentiment": 0.673,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Why Tempus AI Skyrocketed This Week",
-        "Hype for Moderna\u2019s Cancer Vaccine Is Running Ahead of the Math",
-        "Moderna (MRNA) Soars 179% as Melanoma Therapy Candidate Rewrites Growth Story"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.4738,
-      "price": 216.77999877929688,
-      "rsi": 35.09976236636676,
-      "momentum_5d": -0.009503800718514246,
-      "momentum_1d": 0.01879875938973449,
-      "macd_crossover": false,
-      "atr_pct": 0.00797877223751873,
-      "bollinger_pct_b": 0.3114,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.694,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Is Biogen (BIIB) Undervalued On Raised EPS Guidance And Key Phase 3 Readouts?",
-        "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
-        "Should You Buy, Sell or Hold Biogen Stock After a 9% Rise in a Month?"
       ],
       "high_impact_news": true
     }
