@@ -3,15 +3,15 @@
   "portfolio_balance": 104019.68,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.59,
-  "unrealized_pnl_usd": 555.69,
-  "equity_value": 104575.37,
+  "unrealized_pnl_usd": 557.74,
+  "equity_value": 104577.42,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41607.87,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1181,
-  "last_tick": "2026-08-23T22:35:22.455715+00:00",
+  "last_tick": "2026-08-23T22:54:24.671271+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 2,
   "universe_scanned": 110,
@@ -607,11 +607,11 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "price_peak": 0.09302999824285507,
-      "trailing_stop_price": 0.091635,
-      "current_price": 0.09303,
-      "unrealized_pnl_pct": 0.020066,
-      "unrealized_pnl_usd": 26.74
+      "price_peak": 0.0930899977684021,
+      "trailing_stop_price": 0.091694,
+      "current_price": 0.09311,
+      "unrealized_pnl_pct": 0.020943,
+      "unrealized_pnl_usd": 27.9
     },
     {
       "id": "SOL-USD_20260823150102",
@@ -641,11 +641,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "price_peak": 95.5,
-      "trailing_stop_price": 94.39029,
-      "current_price": 95.5,
-      "unrealized_pnl_pct": 0.007384,
-      "unrealized_pnl_usd": 34.61
+      "price_peak": 95.56999969482422,
+      "trailing_stop_price": 94.459476,
+      "current_price": 95.580002,
+      "unrealized_pnl_pct": 0.008228,
+      "unrealized_pnl_usd": 38.56
     },
     {
       "id": "ETH-USD_20260823194704",
@@ -676,11 +676,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "price_peak": 2461.06005859375,
-      "trailing_stop_price": 2435.883414,
-      "current_price": 2461.060059,
-      "unrealized_pnl_pct": 0.003916,
-      "unrealized_pnl_usd": 8.14
+      "price_peak": 2457.43994140625,
+      "trailing_stop_price": 2432.300331,
+      "current_price": 2457.439941,
+      "unrealized_pnl_pct": 0.002439,
+      "unrealized_pnl_usd": 5.07
     }
   ],
   "last_candidates": [
@@ -769,6 +769,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "BNB-USD",
+      "rank_score": 0.5803,
+      "price": 703.8200073242188,
+      "rsi": 77.5465195165283,
+      "momentum_5d": 0.008887377441051931,
+      "momentum_1d": 0.014837105233606235,
+      "macd_crossover": false,
+      "atr_pct": 0.006106482618761671,
+      "bollinger_pct_b": 0.8861,
+      "volume_spike": true,
+      "volume_spike_ratio": 16.43,
+      "news_sentiment": 0.25,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens",
+        "Sandbox Says Bridge Exploit Was \u2018Minimal\u2019 - On-Chain Data Tells A Very Different Story",
+        "The Sandbox Contains Bridge Exploit After Unbacked SAND Minted on Base and BSC"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5788,
+      "price": 7.63100004196167,
+      "rsi": 73.29190216452353,
+      "momentum_5d": 0.011130265190204765,
+      "momentum_1d": 0.01964188026749264,
+      "macd_crossover": false,
+      "atr_pct": 0.010446118709179851,
+      "bollinger_pct_b": 0.8306,
+      "volume_spike": true,
+      "volume_spike_ratio": 8.71,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "TGT",
       "rank_score": 0.578,
       "price": 165.41000366210938,
@@ -790,38 +832,59 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5632,
-      "price": 703.1099853515625,
-      "rsi": 76.15869610478958,
-      "momentum_5d": 0.007869599886472263,
-      "momentum_1d": 0.013813325523049081,
+      "asset": "SOL-USD",
+      "rank_score": 0.5732,
+      "price": 95.58000183105469,
+      "rsi": 78.98558336420112,
+      "momentum_5d": 0.00504735399195841,
+      "momentum_1d": 0.021263014969885127,
       "macd_crossover": false,
-      "atr_pct": 0.00611264913171881,
-      "bollinger_pct_b": 0.8636,
+      "atr_pct": 0.009632917184341363,
+      "bollinger_pct_b": 0.7843,
       "volume_spike": true,
-      "volume_spike_ratio": 4.36,
-      "news_sentiment": 0.25,
-      "news_confidence": 0.32,
+      "volume_spike_ratio": 5.38,
+      "news_sentiment": 0.191,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens",
-        "Sandbox Says Bridge Exploit Was \u2018Minimal\u2019 - On-Chain Data Tells A Very Different Story",
-        "The Sandbox Contains Bridge Exploit After Unbacked SAND Minted on Base and BSC"
+        "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
+        "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts",
+        "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
       ],
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5621,
-      "price": 2461.06005859375,
-      "rsi": 66.02142587338965,
-      "momentum_5d": 0.008523701878031736,
-      "momentum_1d": 0.019655098608280564,
+      "asset": "XRP-USD",
+      "rank_score": 0.5411,
+      "price": 1.5191999673843384,
+      "rsi": 66.32121563468134,
+      "momentum_5d": 0.00930104883106075,
+      "momentum_1d": 0.03501835772678495,
       "macd_crossover": false,
-      "atr_pct": 0.010200590350418207,
-      "bollinger_pct_b": 0.8076,
+      "atr_pct": 0.01829441258232421,
+      "bollinger_pct_b": 0.8054,
       "volume_spike": true,
-      "volume_spike_ratio": 3.2,
+      "volume_spike_ratio": 6.34,
+      "news_sentiment": 0.53,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Should You Take Profits on XRP After a 50% Week? We Asked 2 AI Models",
+        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
+        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5397,
+      "price": 2457.43994140625,
+      "rsi": 64.48452289186511,
+      "momentum_5d": 0.007040205376424231,
+      "momentum_1d": 0.01815522828414754,
+      "macd_crossover": false,
+      "atr_pct": 0.01021561709912038,
+      "bollinger_pct_b": 0.7785,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.31,
       "news_sentiment": 0.737,
       "news_confidence": 0.38,
       "news_headlines": [
@@ -895,27 +958,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5185,
-      "price": 1.5164999961853027,
-      "rsi": 65.02175699640988,
-      "momentum_5d": 0.007507286441971046,
-      "momentum_1d": 0.033178889706556566,
-      "macd_crossover": false,
-      "atr_pct": 0.018326983889412767,
-      "bollinger_pct_b": 0.7807,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.61,
-      "news_sentiment": 0.53,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Should You Take Profits on XRP After a 50% Week? We Asked 2 AI Models",
-        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
-        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?"
-      ],
-      "high_impact_news": false
-    },
-    {
       "asset": "SLB",
       "rank_score": 0.5142,
       "price": 53.869998931884766,
@@ -933,27 +975,6 @@
         "Is RPC Stock Attractive as Margin Gains Meet Soft Industry Activity?",
         "Sector Update: Energy Stocks Rise Pre-Bell Tuesday",
         "SLB (SLB) Stock May Trade At A Discount On Cash Flow But Fairly On Earnings"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.5104,
-      "price": 77671.2421875,
-      "rsi": 71.22065456704405,
-      "momentum_5d": 0.006473799123321986,
-      "momentum_1d": 0.008855514010592562,
-      "macd_crossover": false,
-      "atr_pct": 0.0052153412233593936,
-      "bollinger_pct_b": 0.8218,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.7,
-      "news_sentiment": 0.111,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day",
-        "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
-        "Japan Borrowing Costs Reach 1996 Highs: Will the Weak Yen Hurt Bitcoin?"
       ],
       "high_impact_news": true
     },
@@ -1000,6 +1021,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5039,
+      "price": 77647.6328125,
+      "rsi": 70.63393623836329,
+      "momentum_5d": 0.0061678658501832006,
+      "momentum_1d": 0.008548856778388195,
+      "macd_crossover": false,
+      "atr_pct": 0.0052330900357597885,
+      "bollinger_pct_b": 0.812,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.27,
+      "news_sentiment": 0.111,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day",
+        "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+        "Japan Borrowing Costs Reach 1996 Highs: Will the Weak Yen Hurt Bitcoin?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WMT",
       "rank_score": 0.4996,
       "price": 103.69999694824219,
@@ -1021,6 +1063,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.4949,
+      "price": 0.09311000257730484,
+      "rsi": 64.65059780067035,
+      "momentum_5d": 0.005398995840997646,
+      "momentum_1d": 0.013056309967508789,
+      "macd_crossover": false,
+      "atr_pct": 0.014360894536501299,
+      "bollinger_pct_b": 0.7331,
+      "volume_spike": true,
+      "volume_spike_ratio": 11.93,
+      "news_sentiment": 0.476,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
+        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
+        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LRCX",
       "rank_score": 0.4948,
       "price": 314.1499938964844,
@@ -1038,69 +1101,6 @@
         "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
         "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn\u2019t Have That Problem",
         "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "CRM",
-      "rank_score": 0.4937,
-      "price": 209.14999389648438,
-      "rsi": 62.63463697320915,
-      "momentum_5d": -0.006531291009922036,
-      "momentum_1d": 0.05418346940881881,
-      "macd_crossover": false,
-      "atr_pct": 0.009488881568718415,
-      "bollinger_pct_b": 0.8411,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.771,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
-        "Nvidia, Fed Confab, Inflation, GDP, and More to Watch This Week",
-        "Jim Cramer Said Affirm Holdings, Inc. (NASDAQ:AFRM) Was The One To Buy"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ON",
-      "rank_score": 0.4928,
-      "price": 74.22000122070312,
-      "rsi": 20.864211950071777,
-      "momentum_5d": -0.004025703648380315,
-      "momentum_1d": -0.05247032445136639,
-      "macd_crossover": false,
-      "atr_pct": 0.010095085039391077,
-      "bollinger_pct_b": 0.2789,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.69,
-      "news_confidence": 0.63,
-      "news_headlines": [
-        "ON Semiconductor (ON) Stock May Be 2% Undervalued As AI Data Center Wins Build",
-        "Synaptics CFO Resigns, Company Skips Successor Search Before Merger",
-        "Microchip Stock Drops 9% in a Month: Should You Buy, Sell or Hold it?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SLV",
-      "rank_score": 0.4809,
-      "price": 62.71500015258789,
-      "rsi": 76.45429610904348,
-      "momentum_5d": -0.00047810630022388433,
-      "momentum_1d": 0.08473243590190223,
-      "macd_crossover": false,
-      "atr_pct": 0.009632474441580519,
-      "bollinger_pct_b": 0.744,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.05,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Bitcoin Moves Past $77,000",
-        "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Renewed Inflation Concerns",
-        "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Meeting Minutes' Release"
       ],
       "high_impact_news": true
     }
