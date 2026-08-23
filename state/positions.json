@@ -539,38 +539,6 @@
     "price_trough": 335.6099853515625,
     "trailing_stop_price": 344.691592
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260823061616",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 7.357999801635742,
-    "entry_time": "2026-08-23T06:16:16.532171+00:00",
-    "stop_loss_pct": 0.01149,
-    "take_profit_pct": 0.02799,
-    "size_usd": 4270.69,
-    "position_size_pct": 0.0411,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (29.1)",
-      "5d momentum -2.09%",
-      "1d momentum -4.06%",
-      "BB oversold (pct_b=0.10)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-    ],
-    "mode": "paper",
-    "strategy_version": "105",
-    "status": "open",
-    "price_peak": 7.465000152587891,
-    "trailing_stop_price": 7.379227
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260823102153",
     "asset": "DOGE-USD",
@@ -595,6 +563,39 @@
       "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
       "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
       "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
+    ],
+    "mode": "paper",
+    "strategy_version": "105",
+    "status": "open",
+    "price_peak": 0.093469999730587,
+    "trailing_stop_price": 0.092068
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260823132833",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2459.8798828125,
+    "entry_time": "2026-08-23T13:28:33.250709+00:00",
+    "stop_loss_pct": 0.00926,
+    "take_profit_pct": 0.02293,
+    "size_usd": 4323.16,
+    "position_size_pct": 0.0416,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (61.1)",
+      "5d momentum +1.97%",
+      "1d momentum +1.23%",
+      "BB overbought (pct_b=1.04)",
+      "Volume spike 5.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.538,
+    "news_headlines": [
+      "Another DeFi Hack: Term Labs Loses $8.5 Million in Governance Exploit",
+      "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
+      "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
     ],
     "mode": "paper",
     "strategy_version": "105",
