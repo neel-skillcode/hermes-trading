@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104021.03,
+  "portfolio_balance": 104099.88,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.59,
-  "unrealized_pnl_usd": 515.67,
-  "equity_value": 104536.7,
+  "portfolio_drawdown_pct": 3.52,
+  "unrealized_pnl_usd": 486.72,
+  "equity_value": 104586.61,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41608.41,
+  "day_capital_used_usd": 41639.95,
   "swing_capital_used_usd": 51834.23,
-  "total_trades": 1177,
-  "last_tick": "2026-08-23T14:16:24.344931+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "total_trades": 1179,
+  "last_tick": "2026-08-23T14:43:28.082357+00:00",
+  "last_reflection": "2026-08-23",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -612,57 +612,22 @@
       "unrealized_pnl_usd": 4.62
     },
     {
-      "id": "DOGE-USD_20260823102153",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 0.09282000362873077,
-      "entry_time": "2026-08-23T10:21:53.022906+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03573,
-      "size_usd": 2420.87,
-      "position_size_pct": 0.0233,
-      "confidence": 0.764,
-      "signals": [
-        "RSI oversold (44.2)",
-        "5d momentum +3.71%",
-        "1d momentum +3.52%",
-        "High-impact catalyst",
-        "Claude [strongly_supports]: price surge"
-      ],
-      "news_sentiment": 0.476,
-      "news_headlines": [
-        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
-        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
-        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
-      ],
-      "mode": "paper",
-      "strategy_version": "105",
-      "status": "open",
-      "price_peak": 0.0943399965763092,
-      "trailing_stop_price": 0.092925,
-      "current_price": 0.09436,
-      "unrealized_pnl_pct": 0.016591,
-      "unrealized_pnl_usd": 40.17
-    },
-    {
-      "id": "ETH-USD_20260823132833",
+      "id": "ETH-USD_20260823144327",
       "asset": "ETH-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 2459.8798828125,
-      "entry_time": "2026-08-23T13:28:33.250709+00:00",
-      "stop_loss_pct": 0.00926,
-      "take_profit_pct": 0.02293,
-      "size_usd": 4323.16,
-      "position_size_pct": 0.0416,
-      "confidence": 0.95,
+      "entry_price": 2398.090087890625,
+      "entry_time": "2026-08-23T14:43:27.386933+00:00",
+      "stop_loss_pct": 0.01043,
+      "take_profit_pct": 0.02513,
+      "size_usd": 5443.17,
+      "position_size_pct": 0.0523,
+      "confidence": 0.817,
       "signals": [
-        "RSI overbought (61.1)",
-        "5d momentum +1.97%",
-        "1d momentum +1.23%",
-        "BB overbought (pct_b=1.04)",
-        "Volume spike 5.1\u00d7",
+        "RSI oversold (42.7)",
+        "5d momentum -0.54%",
+        "1d momentum -0.64%",
+        "Volume spike 14.2\u00d7",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
       ],
@@ -675,33 +640,44 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "current_price": 2466.26001,
-      "unrealized_pnl_pct": -0.002594,
-      "unrealized_pnl_usd": -11.21
+      "current_price": 2398.090088,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "DOGE-USD_20260823144327",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 0.09120000153779984,
+      "entry_time": "2026-08-23T14:43:27.389043+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03581,
+      "size_usd": 1332.4,
+      "position_size_pct": 0.0128,
+      "confidence": 0.775,
+      "signals": [
+        "RSI oversold (38.7)",
+        "1d momentum +1.12%",
+        "Volume spike 4.1\u00d7",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: price surge"
+      ],
+      "news_sentiment": 0.476,
+      "news_headlines": [
+        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
+        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
+        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
+      ],
+      "mode": "paper",
+      "strategy_version": "105",
+      "status": "open",
+      "current_price": 0.0912,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.7025,
-      "price": 1.5443999767303467,
-      "rsi": 59.20513679804304,
-      "momentum_5d": 0.045562224205950005,
-      "momentum_1d": 0.06414934895695365,
-      "macd_crossover": false,
-      "atr_pct": 0.018074523824998183,
-      "bollinger_pct_b": 1.1165,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.38,
-      "news_sentiment": 0.447,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
-        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
-        "$830 Million in an Hour: XRP and TRUMP Drive New Record in South Korea"
-      ],
-      "high_impact_news": false
-    },
     {
       "asset": "RIVN",
       "rank_score": 0.6421,
@@ -724,27 +700,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6263,
-      "price": 7.64300012588501,
-      "rsi": 56.43227477611952,
-      "momentum_5d": 0.030331612014239034,
-      "momentum_1d": 0.023159349471537385,
-      "macd_crossover": false,
-      "atr_pct": 0.010429704149647202,
-      "bollinger_pct_b": 0.9591,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.85,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "WFC",
       "rank_score": 0.6135,
       "price": 83.83999633789062,
@@ -762,27 +717,6 @@
         "Jim Cramer Continued To Complain About JPMorgan Chase & Co. (NYSE:JPM) & Wells Fargo\u2019s Multiple",
         "Wells Fargo (WFC): Buy, Sell, or Hold Post Q2 Earnings?",
         "US Housing Affordability Gauge Worsens for First Time Since 2023"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.6012,
-      "price": 2466.260009765625,
-      "rsi": 60.50878132827545,
-      "momentum_5d": 0.022843620006210895,
-      "momentum_1d": 0.02185613475252275,
-      "macd_crossover": false,
-      "atr_pct": 0.009044928862543563,
-      "bollinger_pct_b": 1.029,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.76,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Another DeFi Hack: Term Labs Loses $8.5 Million in Governance Exploit",
-        "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
-        "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
       ],
       "high_impact_news": true
     },
@@ -815,16 +749,16 @@
       "momentum_5d": 0.01016830189973304,
       "momentum_1d": 0.08533187878991759,
       "macd_crossover": false,
-      "atr_pct": 0.01214299090286954,
+      "atr_pct": 0.012121398215153838,
       "bollinger_pct_b": 1.0059,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
       "news_sentiment": 0.436,
       "news_confidence": 0.39,
       "news_headlines": [
-        "Tariff refunds are hitting retailers' wallets. Here's what they're doing with the money.",
         "Target Stock Is up 63% This Year, and It's Still Cheap",
-        "Jim Cramer Advised Being Patient & Buying Walmart Inc. (NASDAQ:WMT)\u2019s Shares"
+        "Jim Cramer Advised Being Patient & Buying Walmart Inc. (NASDAQ:WMT)\u2019s Shares",
+        "Here's How Many Shares of Target You'd Need for $10,000 in Yearly Dividends"
       ],
       "high_impact_news": true
     },
@@ -846,27 +780,6 @@
         "Is Lucid Group (LCID) Trading At A Premium After Gravity GT S?",
         "Is Lucid (LCID) Using Dutch Retail Partnerships To Quietly Rewire Its European Expansion Strategy?",
         "Lucid Group (LCID) Unveils The Gravity GT S SUV"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5574,
-      "price": 0.09436000138521194,
-      "rsi": 52.11824345155428,
-      "momentum_5d": 0.0357848687785914,
-      "momentum_1d": 0.04623573028782834,
-      "macd_crossover": false,
-      "atr_pct": 0.015086602056692745,
-      "bollinger_pct_b": 0.8986,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.476,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
-        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
-        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
       ],
       "high_impact_news": true
     },
@@ -914,9 +827,9 @@
     },
     {
       "asset": "ARKK",
-      "rank_score": 0.5191,
+      "rank_score": 0.5195,
       "price": 86.25,
-      "rsi": 73.32692640501361,
+      "rsi": 73.44510665919216,
       "momentum_5d": 0.004132992267393613,
       "momentum_1d": 0.08572504216143122,
       "macd_crossover": false,
@@ -934,15 +847,36 @@
       "high_impact_news": true
     },
     {
+      "asset": "WMT",
+      "rank_score": 0.5155,
+      "price": 103.69999694824219,
+      "rsi": 16.030948173651055,
+      "momentum_5d": 0.009982896187182795,
+      "momentum_1d": -0.10173678182363578,
+      "macd_crossover": false,
+      "atr_pct": 0.015480708309687884,
+      "bollinger_pct_b": 0.3547,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Walmart isn't losing any retail war",
+        "Walmart Keeps Pushing Into Fashion With New Clothing Brand",
+        "After Biggest One-Day Decline Since 2022, Is Walmart Stock a Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SLB",
-      "rank_score": 0.5142,
+      "rank_score": 0.5146,
       "price": 53.869998931884766,
-      "rsi": 56.26324212599701,
+      "rsi": 56.355924669325105,
       "momentum_5d": 0.0117381916149449,
       "momentum_1d": 0.01236557748408207,
       "macd_crossover": true,
-      "atr_pct": 0.006796385731828123,
-      "bollinger_pct_b": 0.7951,
+      "atr_pct": 0.006803016865263634,
+      "bollinger_pct_b": 0.7953,
       "volume_spike": false,
       "volume_spike_ratio": 1.23,
       "news_sentiment": 0.794,
@@ -955,36 +889,15 @@
       "high_impact_news": true
     },
     {
-      "asset": "WMT",
-      "rank_score": 0.5105,
-      "price": 103.69999694824219,
-      "rsi": 16.030948173651055,
-      "momentum_5d": 0.009982896187182795,
-      "momentum_1d": -0.10173678182363578,
-      "macd_crossover": false,
-      "atr_pct": 0.015480708309687884,
-      "bollinger_pct_b": 0.3547,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Walmart isn't losing any retail war",
-        "Tariff refunds are hitting retailers' wallets. Here's what they're doing with the money.",
-        "After Biggest One-Day Decline Since 2022, Is Walmart Stock a Buy?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "CRM",
-      "rank_score": 0.5077,
+      "rank_score": 0.5075,
       "price": 209.14999389648438,
-      "rsi": 62.63463697320915,
+      "rsi": 62.58252632533124,
       "momentum_5d": -0.006531291009922036,
       "momentum_1d": 0.05418346940881881,
       "macd_crossover": false,
       "atr_pct": 0.009488881568718415,
-      "bollinger_pct_b": 0.8411,
+      "bollinger_pct_b": 0.8409,
       "volume_spike": false,
       "volume_spike_ratio": 0.98,
       "news_sentiment": 1.0,
@@ -1098,6 +1011,90 @@
         "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Bitcoin Moves Past $77,000",
         "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Renewed Inflation Concerns",
         "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Meeting Minutes' Release"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GS",
+      "rank_score": 0.475,
+      "price": 1039.4100341796875,
+      "rsi": 61.60078550255231,
+      "momentum_5d": 0.025160281242095198,
+      "momentum_1d": 0.004396777238013757,
+      "macd_crossover": false,
+      "atr_pct": 0.008880798780899158,
+      "bollinger_pct_b": 1.0061,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.08,
+      "news_sentiment": 0.826,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "The Gas Turbine Shortage Just Became AI\u2019s Biggest Constraint",
+        "What\u2019s Behind Goldman Sachs Group (GS) Latest Move?",
+        "Everyone\u2019s Arguing About Taxing the Rich. Almost Nobody Noticed the $1 Trillion Already Slipping Past the IRS"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.4738,
+      "price": 216.77999877929688,
+      "rsi": 35.09976236636676,
+      "momentum_5d": -0.009503800718514246,
+      "momentum_1d": 0.01879875938973449,
+      "macd_crossover": false,
+      "atr_pct": 0.00797877223751873,
+      "bollinger_pct_b": 0.3114,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.694,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Is Biogen (BIIB) Undervalued On Raised EPS Guidance And Key Phase 3 Readouts?",
+        "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
+        "Should You Buy, Sell or Hold Biogen Stock After a 9% Rise in a Month?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.4732,
+      "price": 368.45001220703125,
+      "rsi": 64.76265796515673,
+      "momentum_5d": -1.3500605001038221e-05,
+      "momentum_1d": -0.0342070453288827,
+      "macd_crossover": false,
+      "atr_pct": 0.00890111282694298,
+      "bollinger_pct_b": 0.9216,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.68,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
+        "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
+        "Nvidia Stock Doesn\u2019t Look as Expensive as You Think"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.4732,
+      "price": 61.69499969482422,
+      "rsi": 23.2013601204239,
+      "momentum_5d": -0.007241141839644725,
+      "momentum_1d": -0.03375096054497657,
+      "macd_crossover": false,
+      "atr_pct": 0.005606509264865483,
+      "bollinger_pct_b": 0.1548,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.055,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "What Do SEC Insider Trading Charges Mean For Bank Of America (BAC)?",
+        "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
+        "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines."
       ],
       "high_impact_news": true
     }
