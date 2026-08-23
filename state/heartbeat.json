@@ -3,15 +3,15 @@
   "portfolio_balance": 104021.03,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.59,
-  "unrealized_pnl_usd": 502.63,
-  "equity_value": 104523.67,
+  "unrealized_pnl_usd": 520.27,
+  "equity_value": 104541.3,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41608.41,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1177,
-  "last_tick": "2026-08-23T13:28:33.252927+00:00",
+  "last_tick": "2026-08-23T13:55:02.312036+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -639,11 +639,11 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "price_peak": 0.093469999730587,
-      "trailing_stop_price": 0.092068,
-      "current_price": 0.09343,
-      "unrealized_pnl_pct": 0.006572,
-      "unrealized_pnl_usd": 15.91
+      "price_peak": 0.09380999952554703,
+      "trailing_stop_price": 0.092403,
+      "current_price": 0.09383,
+      "unrealized_pnl_pct": 0.010881,
+      "unrealized_pnl_usd": 26.34
     },
     {
       "id": "ETH-USD_20260823132833",
@@ -675,24 +675,26 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "current_price": 2459.879883,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 2455.679931640625,
+      "trailing_stop_price": 2478.419528,
+      "current_price": 2455.780029,
+      "unrealized_pnl_pct": 0.001667,
+      "unrealized_pnl_usd": 7.21
     }
   ],
   "last_candidates": [
     {
       "asset": "DOGE-USD",
-      "rank_score": 0.7242,
-      "price": 0.09342999756336212,
-      "rsi": 56.8904363393436,
-      "momentum_5d": 0.02738067928584537,
-      "momentum_1d": 0.024451710394303182,
+      "rank_score": 0.7751,
+      "price": 0.09382999688386917,
+      "rsi": 58.39040353137798,
+      "momentum_5d": 0.03189263101280208,
+      "momentum_1d": 0.028837667782047972,
       "macd_crossover": true,
-      "atr_pct": 0.016414124699899408,
-      "bollinger_pct_b": 0.7759,
+      "atr_pct": 0.016465947013677856,
+      "bollinger_pct_b": 0.8389,
       "volume_spike": true,
-      "volume_spike_ratio": 3.24,
+      "volume_spike_ratio": 4.73,
       "news_sentiment": 0.476,
       "news_confidence": 0.42,
       "news_headlines": [
@@ -745,27 +747,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.6038,
-      "price": 2459.8798828125,
-      "rsi": 61.076020753440105,
-      "momentum_5d": 0.019685868515898302,
-      "momentum_1d": 0.012304587932441413,
-      "macd_crossover": false,
-      "atr_pct": 0.009118920381826226,
-      "bollinger_pct_b": 1.0398,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.1,
-      "news_sentiment": 0.538,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Another DeFi Hack: Term Labs Loses $8.5 Million in Governance Exploit",
-        "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
-        "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HOOD",
       "rank_score": 0.5911,
       "price": 108.13500213623047,
@@ -794,7 +775,7 @@
       "momentum_5d": 0.01016830189973304,
       "momentum_1d": 0.08533187878991759,
       "macd_crossover": false,
-      "atr_pct": 0.012121398215153838,
+      "atr_pct": 0.01214299090286954,
       "bollinger_pct_b": 1.0059,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
@@ -829,6 +810,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.5804,
+      "price": 2455.780029296875,
+      "rsi": 60.11616225867159,
+      "momentum_5d": 0.017986369803754603,
+      "momentum_1d": 0.010588251250692597,
+      "macd_crossover": false,
+      "atr_pct": 0.009130061051274905,
+      "bollinger_pct_b": 1.0061,
+      "volume_spike": true,
+      "volume_spike_ratio": 15.06,
+      "news_sentiment": 0.538,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Another DeFi Hack: Term Labs Loses $8.5 Million in Governance Exploit",
+        "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
+        "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "COIN",
       "rank_score": 0.5466,
       "price": 186.5749969482422,
@@ -846,6 +848,48 @@
         "Ripple CEO Brad Garlinghouse Calls CFTC\u2019s New Crypto Panel An \u2018Olympic Roster\u2019",
         "XRP Price Breaks $1.20 as Whales Scoop 300M Tokens \u2014 Is $2 Next After Ripple Prime\u2019s $275M Raise?",
         "Trump's Crypto Comments Cheered: Robinhood CEO Stresses 'Broad Ownership' At White House Event, Binance Founder Says, 'We're So Back'"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.5461,
+      "price": 1.5199999809265137,
+      "rsi": 64.7118275720544,
+      "momentum_5d": 0.030438573154304708,
+      "momentum_1d": 0.012860654372972005,
+      "macd_crossover": false,
+      "atr_pct": 0.019558272885035588,
+      "bollinger_pct_b": 0.986,
+      "volume_spike": true,
+      "volume_spike_ratio": 58.85,
+      "news_sentiment": 0.447,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
+        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
+        "$830 Million in an Hour: XRP and TRUMP Drive New Record in South Korea"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.5327,
+      "price": 95.37000274658203,
+      "rsi": 58.02846757661187,
+      "momentum_5d": 0.023502923741508124,
+      "momentum_1d": 0.013388610435221649,
+      "macd_crossover": false,
+      "atr_pct": 0.014372595371971629,
+      "bollinger_pct_b": 0.8118,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.77,
+      "news_sentiment": 0.191,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
+        "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts",
+        "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
       ],
       "high_impact_news": true
     },
@@ -871,10 +915,31 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5302,
+      "price": 7.5929999351501465,
+      "rsi": 58.22368550044821,
+      "momentum_5d": 0.02524976969396661,
+      "momentum_1d": 0.0074299793720642516,
+      "macd_crossover": false,
+      "atr_pct": 0.01106281325492657,
+      "bollinger_pct_b": 0.8666,
+      "volume_spike": true,
+      "volume_spike_ratio": 38.45,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARKK",
-      "rank_score": 0.5195,
+      "rank_score": 0.5191,
       "price": 86.25,
-      "rsi": 73.44510665919216,
+      "rsi": 73.32692640501361,
       "momentum_5d": 0.004132992267393613,
       "momentum_1d": 0.08572504216143122,
       "macd_crossover": false,
@@ -893,14 +958,14 @@
     },
     {
       "asset": "SLB",
-      "rank_score": 0.5146,
+      "rank_score": 0.5142,
       "price": 53.869998931884766,
-      "rsi": 56.355924669325105,
+      "rsi": 56.26324212599701,
       "momentum_5d": 0.0117381916149449,
       "momentum_1d": 0.01236557748408207,
       "macd_crossover": true,
-      "atr_pct": 0.006803016865263634,
-      "bollinger_pct_b": 0.7953,
+      "atr_pct": 0.006796385731828123,
+      "bollinger_pct_b": 0.7951,
       "volume_spike": false,
       "volume_spike_ratio": 1.23,
       "news_sentiment": 0.794,
@@ -935,14 +1000,14 @@
     },
     {
       "asset": "CRM",
-      "rank_score": 0.5075,
+      "rank_score": 0.5077,
       "price": 209.14999389648438,
-      "rsi": 62.58252632533124,
+      "rsi": 62.63463697320915,
       "momentum_5d": -0.006531291009922036,
       "momentum_1d": 0.05418346940881881,
       "macd_crossover": false,
       "atr_pct": 0.009488881568718415,
-      "bollinger_pct_b": 0.8409,
+      "bollinger_pct_b": 0.8411,
       "volume_spike": false,
       "volume_spike_ratio": 0.98,
       "news_sentiment": 1.0,
@@ -997,48 +1062,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.5008,
-      "price": 95.13999938964844,
-      "rsi": 56.979154249020496,
-      "momentum_5d": 0.021034546877585554,
-      "momentum_1d": 0.010944626209933113,
-      "macd_crossover": false,
-      "atr_pct": 0.014444876713414722,
-      "bollinger_pct_b": 0.7663,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.08,
-      "news_sentiment": 0.191,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
-        "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts",
-        "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.4995,
-      "price": 7.576000213623047,
-      "rsi": 57.022016820825286,
-      "momentum_5d": 0.022954371204650572,
-      "momentum_1d": 0.005174477033904659,
-      "macd_crossover": false,
-      "atr_pct": 0.010965073891055119,
-      "bollinger_pct_b": 0.8226,
-      "volume_spike": true,
-      "volume_spike_ratio": 20.69,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LRCX",
       "rank_score": 0.4948,
       "price": 314.1499938964844,
@@ -1077,27 +1100,6 @@
         "ON Semiconductor (ON) Stock May Be 2% Undervalued As AI Data Center Wins Build",
         "Synaptics CFO Resigns, Company Skips Successor Search Before Merger",
         "Microchip Stock Drops 9% in a Month: Should You Buy, Sell or Hold it?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.4816,
-      "price": 77492.5390625,
-      "rsi": 56.64575338764308,
-      "momentum_5d": 0.01343885964073403,
-      "momentum_1d": 0.002785322419444424,
-      "macd_crossover": false,
-      "atr_pct": 0.005765272765674518,
-      "bollinger_pct_b": 0.832,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.53,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day",
-        "Bonds or Bitcoin? We Asked Four AI Models Which Asset to Buy Now",
-        "Bitcoin Finally Wakes Up While U.S. Debt Hits $40 Trillion"
       ],
       "high_impact_news": true
     }
