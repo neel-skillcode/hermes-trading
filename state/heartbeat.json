@@ -3,15 +3,15 @@
   "portfolio_balance": 103889.86,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.71,
-  "unrealized_pnl_usd": 578.58,
-  "equity_value": 104468.44,
+  "unrealized_pnl_usd": 573.66,
+  "equity_value": 104463.52,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41555.94,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1176,
-  "last_tick": "2026-08-23T12:01:49.842749+00:00",
+  "last_tick": "2026-08-23T12:56:00.744739+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -640,11 +640,11 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "price_peak": 7.5229997634887695,
-      "trailing_stop_price": 7.43656,
-      "current_price": 7.523,
-      "unrealized_pnl_pct": 0.022425,
-      "unrealized_pnl_usd": 95.77
+      "price_peak": 7.5370001792907715,
+      "trailing_stop_price": 7.4504,
+      "current_price": 7.537,
+      "unrealized_pnl_pct": 0.024327,
+      "unrealized_pnl_usd": 103.89
     },
     {
       "id": "DOGE-USD_20260823102153",
@@ -674,9 +674,9 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "current_price": 0.09267,
-      "unrealized_pnl_pct": -0.001616,
-      "unrealized_pnl_usd": -3.91
+      "current_price": 0.09217,
+      "unrealized_pnl_pct": -0.007003,
+      "unrealized_pnl_usd": -16.95
     }
   ],
   "last_candidates": [
@@ -807,6 +807,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.5385,
+      "price": 94.51000213623047,
+      "rsi": 54.946270167658085,
+      "momentum_5d": 0.022503535910279707,
+      "momentum_1d": 0.007354534679713023,
+      "macd_crossover": true,
+      "atr_pct": 0.014087699690376234,
+      "bollinger_pct_b": 0.6429,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.191,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
+        "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts",
+        "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "PLTR",
       "rank_score": 0.5304,
       "price": 179.94000244140625,
@@ -884,30 +905,9 @@
       "news_sentiment": 0.333,
       "news_confidence": 0.39,
       "news_headlines": [
+        "Walmart isn't losing any retail war",
         "Tariff refunds are hitting retailers' wallets. Here's what they're doing with the money.",
-        "After Biggest One-Day Decline Since 2022, Is Walmart Stock a Buy?",
-        "1 Overlooked Dividend King With a 63-Year Winning Streak Worth Buying Now"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GLD",
-      "rank_score": 0.5096,
-      "price": 423.3800048828125,
-      "rsi": 74.16759311591278,
-      "momentum_5d": 0.0026761512914446417,
-      "momentum_1d": 0.05756432467712549,
-      "macd_crossover": false,
-      "atr_pct": 0.0053548481127367095,
-      "bollinger_pct_b": 0.8337,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.85,
-      "news_sentiment": -0.28,
-      "news_confidence": 0.25,
-      "news_headlines": [
-        "Daily ETF Flows: $614M Flows Into GLD",
-        "Morgan Stanley Doubles Down on Gold After Breakout",
-        "Market Minute 8-21-26- Markets Mull Bessent's Next Move"
+        "After Biggest One-Day Decline Since 2022, Is Walmart Stock a Buy?"
       ],
       "high_impact_news": true
     },
@@ -929,6 +929,27 @@
         "Dow Jones Futures: Market Rally Repairs Some Damage As Nvidia Looms; New Trump Tariffs On Canada",
         "Jim Cramer Said Affirm Holdings, Inc. (NASDAQ:AFRM) Was The One To Buy",
         "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GLD",
+      "rank_score": 0.5046,
+      "price": 423.3800048828125,
+      "rsi": 74.16759311591278,
+      "momentum_5d": 0.0026761512914446417,
+      "momentum_1d": 0.05756432467712549,
+      "macd_crossover": false,
+      "atr_pct": 0.0053548481127367095,
+      "bollinger_pct_b": 0.8337,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.85,
+      "news_sentiment": -0.071,
+      "news_confidence": 0.28,
+      "news_headlines": [
+        "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
+        "Daily ETF Flows: $614M Flows Into GLD",
+        "Morgan Stanley Doubles Down on Gold After Breakout"
       ],
       "high_impact_news": true
     },
@@ -1076,27 +1097,6 @@
         "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
         "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
         "Nvidia Stock Doesn\u2019t Look as Expensive as You Think"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BAC",
-      "rank_score": 0.4732,
-      "price": 61.69499969482422,
-      "rsi": 23.2013601204239,
-      "momentum_5d": -0.007241141839644725,
-      "momentum_1d": -0.03375096054497657,
-      "macd_crossover": false,
-      "atr_pct": 0.005606509264865483,
-      "bollinger_pct_b": 0.1548,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.055,
-      "news_confidence": 0.55,
-      "news_headlines": [
-        "What Do SEC Insider Trading Charges Mean For Bank Of America (BAC)?",
-        "Warren Buffett's Berkshire makes $1.6 billion move on major bank",
-        "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines."
       ],
       "high_impact_news": true
     }
