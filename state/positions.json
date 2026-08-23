@@ -539,36 +539,6 @@
     "price_trough": 335.6099853515625,
     "trailing_stop_price": 344.691592
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260823144327",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2398.090087890625,
-    "entry_time": "2026-08-23T14:43:27.386933+00:00",
-    "stop_loss_pct": 0.01043,
-    "take_profit_pct": 0.02513,
-    "size_usd": 5443.17,
-    "position_size_pct": 0.0523,
-    "confidence": 0.817,
-    "signals": [
-      "RSI oversold (42.7)",
-      "5d momentum -0.54%",
-      "1d momentum -0.64%",
-      "Volume spike 14.2\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.538,
-    "news_headlines": [
-      "Another DeFi Hack: Term Labs Loses $8.5 Million in Governance Exploit",
-      "Crypto Skeptic Rashida Tlaib Holds Bitcoin and Ethereum ETFs",
-      "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
-    ],
-    "mode": "paper",
-    "strategy_version": "105",
-    "status": "open"
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260823144327",
     "asset": "DOGE-USD",
@@ -596,6 +566,37 @@
     ],
     "mode": "paper",
     "strategy_version": "105",
+    "status": "open",
+    "price_peak": 0.0924300029873848,
+    "trailing_stop_price": 0.091044
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260823150102",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 94.80000305175781,
+    "entry_time": "2026-08-23T15:01:02.914390+00:00",
+    "stop_loss_pct": 0.01162,
+    "take_profit_pct": 0.02732,
+    "size_usd": 4686.95,
+    "position_size_pct": 0.0451,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (42.0)",
+      "5d momentum +1.26%",
+      "1d momentum +1.86%",
+      "High-impact catalyst",
+      "Claude [supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.191,
+    "news_headlines": [
+      "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
+      "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts",
+      "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
+    ],
+    "mode": "paper",
+    "strategy_version": "106",
     "status": "open"
   }
 }
