@@ -538,8 +538,8 @@
     "mode": "paper",
     "strategy_version": "105",
     "status": "open",
-    "price_peak": 0.0924300029873848,
-    "trailing_stop_price": 0.091044
+    "price_peak": 0.09283000230789185,
+    "trailing_stop_price": 0.091438
   },
   "SOL-USD": {
     "id": "SOL-USD_20260823150102",
@@ -569,7 +569,37 @@
     "mode": "paper",
     "strategy_version": "106",
     "status": "open",
-    "price_peak": 95.0199966430664,
-    "trailing_stop_price": 93.915864
+    "price_peak": 95.29000091552734,
+    "trailing_stop_price": 94.182731
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260823194704",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2451.4599609375,
+    "entry_time": "2026-08-23T19:47:04.745781+00:00",
+    "stop_loss_pct": 0.01023,
+    "take_profit_pct": 0.02494,
+    "size_usd": 2077.45,
+    "position_size_pct": 0.02,
+    "confidence": 0.877,
+    "signals": [
+      "RSI overbought (74.8)",
+      "5d momentum +0.53%",
+      "1d momentum +0.51%",
+      "Volume spike 2.8\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.737,
+    "news_headlines": [
+      "Ethereum\u2019s \u2018Netflix Moment\u2019 Could Send ETH To $10K By 2029 As Bitcoin Eyes $81K",
+      "Jordi Visser Warns Betting Against Treasury Intervention Is \u2018A Very Dangerous Game,\u2019 Favors Bitcoin Over Equities",
+      "Arthur Hayes Calls Ethereum Foundation 'A Bunch Of Jokers' In A Blunt Take But Is Bullish On ETH"
+    ],
+    "mode": "paper",
+    "strategy_version": "106",
+    "status": "open"
   }
 }
