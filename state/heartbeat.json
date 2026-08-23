@@ -3,15 +3,15 @@
   "portfolio_balance": 104024.95,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.59,
-  "unrealized_pnl_usd": 530.84,
-  "equity_value": 104555.79,
+  "unrealized_pnl_usd": 538.35,
+  "equity_value": 104563.3,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40883.73,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1180,
-  "last_tick": "2026-08-23T18:36:09.439103+00:00",
+  "last_tick": "2026-08-23T19:01:09.708315+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 1,
   "universe_scanned": 110,
@@ -167,8 +167,8 @@
       "mode": "paper",
       "strategy_version": "100",
       "status": "open",
-      "price_trough": 185.36199951171875,
-      "trailing_stop_price": 185.732724,
+      "price_trough": 185.2010040283203,
+      "trailing_stop_price": 185.571406,
       "current_price": 185.593994,
       "unrealized_pnl_pct": 0.001216,
       "unrealized_pnl_usd": 7.43
@@ -639,11 +639,11 @@
       "mode": "paper",
       "strategy_version": "105",
       "status": "open",
-      "price_peak": 0.0928099974989891,
-      "trailing_stop_price": 0.091418,
-      "current_price": 0.0929,
-      "unrealized_pnl_pct": 0.01864,
-      "unrealized_pnl_usd": 24.84
+      "price_peak": 0.09294000267982483,
+      "trailing_stop_price": 0.091546,
+      "current_price": 0.09294,
+      "unrealized_pnl_pct": 0.019079,
+      "unrealized_pnl_usd": 25.42
     },
     {
       "id": "SOL-USD_20260823150102",
@@ -673,11 +673,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "price_peak": 95.16000366210938,
-      "trailing_stop_price": 94.054244,
-      "current_price": 95.190002,
-      "unrealized_pnl_pct": 0.004114,
-      "unrealized_pnl_usd": 19.28
+      "price_peak": 95.31999969482422,
+      "trailing_stop_price": 94.212381,
+      "current_price": 95.330002,
+      "unrealized_pnl_pct": 0.005591,
+      "unrealized_pnl_usd": 26.2
     }
   ],
   "last_candidates": [
@@ -725,7 +725,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.5921,
+      "rank_score": 0.5911,
       "price": 108.13500213623047,
       "rsi": 82.75500791840847,
       "momentum_5d": 0.01578131864430345,
@@ -735,10 +735,10 @@
       "bollinger_pct_b": 0.8622,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.561,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.55,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Dow Jones Futures Due With Nvidia Earnings, Tariffs, Warsh In Focus",
+        "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
         "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
         "Why Robinhood Markets Stock Popped Today"
       ],
@@ -773,7 +773,7 @@
       "momentum_5d": 0.01016830189973304,
       "momentum_1d": 0.08533187878991759,
       "macd_crossover": false,
-      "atr_pct": 0.01214299090286954,
+      "atr_pct": 0.012121398215153838,
       "bollinger_pct_b": 1.0059,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
@@ -830,9 +830,9 @@
     },
     {
       "asset": "ARKK",
-      "rank_score": 0.5191,
+      "rank_score": 0.5195,
       "price": 86.25,
-      "rsi": 73.32692640501361,
+      "rsi": 73.44510665919216,
       "momentum_5d": 0.004132992267393613,
       "momentum_1d": 0.08572504216143122,
       "macd_crossover": false,
@@ -850,8 +850,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "SLB",
+      "rank_score": 0.5146,
+      "price": 53.869998931884766,
+      "rsi": 56.355924669325105,
+      "momentum_5d": 0.0117381916149449,
+      "momentum_1d": 0.01236557748408207,
+      "macd_crossover": true,
+      "atr_pct": 0.006803016865263634,
+      "bollinger_pct_b": 0.7953,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.23,
+      "news_sentiment": 0.794,
+      "news_confidence": 0.68,
+      "news_headlines": [
+        "Is RPC Stock Attractive as Margin Gains Meet Soft Industry Activity?",
+        "Sector Update: Energy Stocks Rise Pre-Bell Tuesday",
+        "SLB (SLB) Stock May Trade At A Discount On Cash Flow But Fairly On Earnings"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "WMT",
-      "rank_score": 0.5155,
+      "rank_score": 0.5105,
       "price": 103.69999694824219,
       "rsi": 16.030948173651055,
       "momentum_5d": 0.009982896187182795,
@@ -861,33 +882,12 @@
       "bollinger_pct_b": 0.3547,
       "volume_spike": false,
       "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.36,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.39,
       "news_headlines": [
         "Walmart isn't losing any retail war",
-        "Walmart Keeps Pushing Into Fashion With New Clothing Brand",
-        "After Biggest One-Day Decline Since 2022, Is Walmart Stock a Buy?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SLB",
-      "rank_score": 0.5142,
-      "price": 53.869998931884766,
-      "rsi": 56.26324212599701,
-      "momentum_5d": 0.0117381916149449,
-      "momentum_1d": 0.01236557748408207,
-      "macd_crossover": true,
-      "atr_pct": 0.006796385731828123,
-      "bollinger_pct_b": 0.7951,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.23,
-      "news_sentiment": 0.794,
-      "news_confidence": 0.68,
-      "news_headlines": [
-        "Is RPC Stock Attractive as Margin Gains Meet Soft Industry Activity?",
-        "Sector Update: Energy Stocks Rise Pre-Bell Tuesday",
-        "SLB (SLB) Stock May Trade At A Discount On Cash Flow But Fairly On Earnings"
+        "Walmart Just Posted Its Biggest One-Day Drop Since 2022. History Says What Its Big Drops Have Been Worth.",
+        "Walmart Keeps Pushing Into Fashion With New Clothing Brand"
       ],
       "high_impact_news": true
     },
@@ -909,27 +909,6 @@
         "Daily ETF Flows: $614M Flows Into GLD",
         "Morgan Stanley Doubles Down on Gold After Breakout",
         "Market Minute 8-21-26- Markets Mull Bessent's Next Move"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.5061,
-      "price": 2445.6201171875,
-      "rsi": 70.57487275649612,
-      "momentum_5d": -0.005554435422825949,
-      "momentum_1d": 0.007609836881485748,
-      "macd_crossover": false,
-      "atr_pct": 0.010844182940245136,
-      "bollinger_pct_b": 0.7751,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.15,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Ethereum\u2019s \u2018Netflix Moment\u2019 Could Send ETH To $10K By 2029 As Bitcoin Eyes $81K",
-        "Jordi Visser Warns Betting Against Treasury Intervention Is \u2018A Very Dangerous Game,\u2019 Favors Bitcoin Over Equities",
-        "Arthur Hayes Calls Ethereum Foundation 'A Bunch Of Jokers' In A Blunt Take But Is Bullish On ETH"
       ],
       "high_impact_news": true
     },
@@ -956,21 +935,21 @@
     },
     {
       "asset": "CRM",
-      "rank_score": 0.5018,
+      "rank_score": 0.5005,
       "price": 209.14999389648438,
-      "rsi": 62.63463697320915,
+      "rsi": 62.58252632533124,
       "momentum_5d": -0.006531291009922036,
       "momentum_1d": 0.05418346940881881,
       "macd_crossover": false,
       "atr_pct": 0.009488881568718415,
-      "bollinger_pct_b": 0.8411,
+      "bollinger_pct_b": 0.8409,
       "volume_spike": false,
       "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.886,
-      "news_confidence": 0.7,
+      "news_sentiment": 0.884,
+      "news_confidence": 0.69,
       "news_headlines": [
+        "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
         "Nvidia, Fed Confab, Inflation, GDP, and More to Watch This Week",
-        "Dow Jones Futures Due With Nvidia Earnings, Tariffs, Warsh In Focus",
         "Jim Cramer Said Affirm Holdings, Inc. (NASDAQ:AFRM) Was The One To Buy"
       ],
       "high_impact_news": true
@@ -1014,27 +993,6 @@
         "ON Semiconductor (ON) Stock May Be 2% Undervalued As AI Data Center Wins Build",
         "Synaptics CFO Resigns, Company Skips Successor Search Before Merger",
         "Microchip Stock Drops 9% in a Month: Should You Buy, Sell or Hold it?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.4878,
-      "price": 699.5,
-      "rsi": 78.98766490993088,
-      "momentum_5d": 0.0015463719771355423,
-      "momentum_1d": 0.0014029382714150804,
-      "macd_crossover": false,
-      "atr_pct": 0.007044845638705581,
-      "bollinger_pct_b": 0.7977,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.35,
-      "news_sentiment": 0.25,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens",
-        "Sandbox Says Bridge Exploit Was \u2018Minimal\u2019 - On-Chain Data Tells A Very Different Story",
-        "The Sandbox Contains Bridge Exploit After Unbacked SAND Minted on Base and BSC"
       ],
       "high_impact_news": true
     },
@@ -1098,6 +1056,48 @@
         "Why Tempus AI Skyrocketed This Week",
         "Hype for Moderna\u2019s Cancer Vaccine Is Running Ahead of the Math",
         "Moderna (MRNA) Soars 179% as Melanoma Therapy Candidate Rewrites Growth Story"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.4738,
+      "price": 216.77999877929688,
+      "rsi": 35.09976236636676,
+      "momentum_5d": -0.009503800718514246,
+      "momentum_1d": 0.01879875938973449,
+      "macd_crossover": false,
+      "atr_pct": 0.00797877223751873,
+      "bollinger_pct_b": 0.3114,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.694,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Is Biogen (BIIB) Undervalued On Raised EPS Guidance And Key Phase 3 Readouts?",
+        "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
+        "Should You Buy, Sell or Hold Biogen Stock After a 9% Rise in a Month?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.4711,
+      "price": 61.69499969482422,
+      "rsi": 23.2013601204239,
+      "momentum_5d": -0.007241141839644725,
+      "momentum_1d": -0.03375096054497657,
+      "macd_crossover": false,
+      "atr_pct": 0.005606509264865483,
+      "bollinger_pct_b": 0.1548,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.022,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Iconic bank stock pays Buffett's Berkshire $619M in annual dividends",
+        "Investor bullishness surges as BofA survey shows cash levels near historic lows",
+        "What Do SEC Insider Trading Charges Mean For Bank Of America (BAC)?"
       ],
       "high_impact_news": true
     }
