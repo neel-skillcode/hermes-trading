@@ -113,8 +113,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 159.1649932861328,
-    "trailing_stop_price": 157.891673
+    "price_peak": 159.1790008544922,
+    "trailing_stop_price": 157.905569
   },
   "AMZN": {
     "id": "AMZN_20260821135337",
@@ -304,40 +304,6 @@
     "price_trough": 335.6099853515625,
     "trailing_stop_price": 344.691592
   },
-  "MA": {
-    "id": "MA_20260824135951",
-    "asset": "MA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 596.1749877929688,
-    "entry_time": "2026-08-24T13:59:51.746409+00:00",
-    "stop_loss_pct": 0.0063,
-    "take_profit_pct": 0.01534,
-    "size_usd": 5786.66,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (79.5)",
-      "MACD crossover",
-      "5d momentum +2.61%",
-      "1d momentum +3.50%",
-      "BB overbought (pct_b=1.46)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": -0.086,
-    "news_headlines": [
-      "Mastercard Jumps as Cross-Border Growth Crushes Consumer Fears",
-      "Trump June stock disclosure: 1,000+ trades worth up to $263M",
-      "Ripple Payment Rails Separated From FedNow Access by Volante"
-    ],
-    "mode": "paper",
-    "strategy_version": "106",
-    "status": "open",
-    "price_trough": 595.9249877929688,
-    "trailing_stop_price": 599.679315
-  },
   "MU": {
     "id": "MU_20260824135951",
     "asset": "MU",
@@ -368,8 +334,8 @@
     "mode": "paper",
     "strategy_version": "106",
     "status": "open",
-    "price_peak": 908.72998046875,
-    "trailing_stop_price": 895.099031
+    "price_peak": 911.6849975585938,
+    "trailing_stop_price": 898.009723
   },
   "NVDA": {
     "id": "NVDA_20260824135951",
@@ -433,8 +399,8 @@
     "mode": "paper",
     "strategy_version": "106",
     "status": "open",
-    "price_peak": 180.52999877929688,
-    "trailing_stop_price": 178.085623
+    "price_peak": 181.8800048828125,
+    "trailing_stop_price": 179.41735
   },
   "AMAT": {
     "id": "AMAT_20260824135951",
@@ -564,8 +530,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 169.77000427246094,
-    "trailing_stop_price": 171.523728
+    "price_trough": 169.46499633789062,
+    "trailing_stop_price": 171.21557
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260824175145",
@@ -595,7 +561,9 @@
     ],
     "mode": "paper",
     "strategy_version": "107",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.08930999785661697,
+    "trailing_stop_price": 0.08797
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -621,6 +589,36 @@
       "Will Costco's AI Search Growth Become a Meaningful Sales Catalyst?",
       "Michael Burry Says LULU Stock Is \u2018Screaming Cheap\u2019 While Apple Shares Are \u2018Permacostly\u2019 Like Costco",
       "The Ultimate Growth Stock to Buy With $10,000 Right Now"
+    ],
+    "mode": "paper",
+    "strategy_version": "107",
+    "status": "open"
+  },
+  "LCID": {
+    "id": "LCID_20260824193817",
+    "asset": "LCID",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 5.162399768829346,
+    "entry_time": "2026-08-24T19:38:17.919865+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 5772.39,
+    "position_size_pct": 0.0554,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (9.6)",
+      "5d momentum -2.79%",
+      "1d momentum -10.14%",
+      "BB oversold (pct_b=0.08)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; product catalyst; price surge"
+    ],
+    "news_sentiment": 0.464,
+    "news_headlines": [
+      "Lucid Stock Drifts Lower Monday: What's Going On?",
+      "XPeng Sinks 7% as Q2 Miss Overshadows $6.3B Robotics Valuation, NIO Drops 4%, Tesla Slips",
+      "Is Lucid Group (LCID) Trading At A Premium After Gravity GT S?"
     ],
     "mode": "paper",
     "strategy_version": "107",
