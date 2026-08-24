@@ -23,31 +23,6 @@
     "price_peak": 7.847400188446045,
     "trailing_stop_price": 7.784621
   },
-  "USD/CAD": {
-    "id": "USD/CAD_20260721144944",
-    "asset": "USD/CAD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1.4094500541687012,
-    "entry_time": "2026-07-21T14:49:44.819313+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 6699.63,
-    "position_size_pct": 0.0643,
-    "confidence": 0.67,
-    "signals": [
-      "RSI overbought (64.0)",
-      "MACD crossover",
-      "BB overbought (pct_b=1.14)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "62",
-    "status": "open",
-    "price_trough": 1.3737900257110596,
-    "trailing_stop_price": 1.38478
-  },
   "EUR/GBP": {
     "id": "EUR/GBP_20260723042718",
     "asset": "EUR/GBP",
@@ -264,8 +239,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 16.905000686645508,
-    "trailing_stop_price": 17.158576
+    "price_trough": 16.719999313354492,
+    "trailing_stop_price": 16.970799
   },
   "GS": {
     "id": "GS_20260821194841",
@@ -359,7 +334,9 @@
     ],
     "mode": "paper",
     "strategy_version": "106",
-    "status": "open"
+    "status": "open",
+    "price_trough": 595.9249877929688,
+    "trailing_stop_price": 599.679315
   },
   "MU": {
     "id": "MU_20260824135951",
@@ -391,8 +368,8 @@
     "mode": "paper",
     "strategy_version": "106",
     "status": "open",
-    "price_peak": 902.1599731445312,
-    "trailing_stop_price": 888.627574
+    "price_peak": 908.72998046875,
+    "trailing_stop_price": 895.099031
   },
   "NVDA": {
     "id": "NVDA_20260824135951",
@@ -455,7 +432,9 @@
     ],
     "mode": "paper",
     "strategy_version": "106",
-    "status": "open"
+    "status": "open",
+    "price_peak": 180.52999877929688,
+    "trailing_stop_price": 178.085623
   },
   "AMAT": {
     "id": "AMAT_20260824135951",
@@ -487,8 +466,8 @@
     "mode": "paper",
     "strategy_version": "106",
     "status": "open",
-    "price_peak": 479.6099853515625,
-    "trailing_stop_price": 472.540534
+    "price_peak": 484.5899963378906,
+    "trailing_stop_price": 477.44714
   },
   "BTC-USD": {
     "id": "BTC-USD_20260824144920",
@@ -519,7 +498,9 @@
     ],
     "mode": "paper",
     "strategy_version": "107",
-    "status": "open"
+    "status": "open",
+    "price_trough": 78752.1328125,
+    "trailing_stop_price": 79530.991406
   },
   "ETH-USD": {
     "id": "ETH-USD_20260824144920",
@@ -550,7 +531,9 @@
     ],
     "mode": "paper",
     "strategy_version": "107",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2466.159912109375,
+    "trailing_stop_price": 2494.767367
   },
   "TGT": {
     "id": "TGT_20260824152510",
@@ -577,6 +560,67 @@
       "Can Walmart's Tap to Pay Push Strengthen Customer Engagement?",
       "Walmart Has Too Many Stores",
       "Target Corporation (TGT) Soars to 52-Week High, Time to Cash Out?"
+    ],
+    "mode": "paper",
+    "strategy_version": "107",
+    "status": "open",
+    "price_trough": 169.77000427246094,
+    "trailing_stop_price": 171.523728
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260824175145",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08886999636888504,
+    "entry_time": "2026-08-24T17:51:45.793557+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 45.35,
+    "position_size_pct": 0.0004,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (40.2)",
+      "5d momentum -4.62%",
+      "1d momentum -4.04%",
+      "BB oversold (pct_b=-0.16)",
+      "Volume spike 8.1\u00d7",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.8,
+    "news_headlines": [
+      "Should You Buy Dogecoin While It's Below $0.10? The Answer Might Shock You.",
+      "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
+      "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days"
+    ],
+    "mode": "paper",
+    "strategy_version": "107",
+    "status": "open"
+  },
+  "COST": {
+    "id": "COST_20260824175145",
+    "asset": "COST",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 968.5750122070312,
+    "entry_time": "2026-08-24T17:51:45.805329+00:00",
+    "stop_loss_pct": 0.0148,
+    "take_profit_pct": 0.04917,
+    "size_usd": 6443.68,
+    "position_size_pct": 0.0618,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (89.1)",
+      "5d momentum +2.22%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.64,
+    "news_headlines": [
+      "Will Costco's AI Search Growth Become a Meaningful Sales Catalyst?",
+      "Michael Burry Says LULU Stock Is \u2018Screaming Cheap\u2019 While Apple Shares Are \u2018Permacostly\u2019 Like Costco",
+      "The Ultimate Growth Stock to Buy With $10,000 Right Now"
     ],
     "mode": "paper",
     "strategy_version": "107",
