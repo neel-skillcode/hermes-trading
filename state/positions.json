@@ -138,8 +138,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 159.14500427246094,
-    "trailing_stop_price": 157.871844
+    "price_peak": 159.1649932861328,
+    "trailing_stop_price": 157.891673
   },
   "AMZN": {
     "id": "AMZN_20260821135337",
@@ -235,37 +235,6 @@
     "price_peak": 342.8299865722656,
     "trailing_stop_price": 336.237366
   },
-  "LCID": {
-    "id": "LCID_20260821194841",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 5.545000076293945,
-    "entry_time": "2026-08-21T19:48:41.048528+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03423,
-    "size_usd": 3742.02,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (21.6)",
-      "5d momentum -1.24%",
-      "1d momentum -5.94%",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.822,
-    "news_headlines": [
-      "Lucid Group (LCID) Unveils The Gravity GT S SUV",
-      "Why Lucid (LCID) Stock Is Falling Today",
-      "Tesla Stock Shares Part Of The Market's Direction And Amplifies All Of It"
-    ],
-    "mode": "paper",
-    "strategy_version": "103",
-    "status": "open",
-    "price_trough": 5.425000190734863,
-    "trailing_stop_price": 5.506375
-  },
   "RIVN": {
     "id": "RIVN_20260821194841",
     "asset": "RIVN",
@@ -295,8 +264,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 16.969999313354492,
-    "trailing_stop_price": 17.224549
+    "price_trough": 16.905000686645508,
+    "trailing_stop_price": 17.158576
   },
   "GS": {
     "id": "GS_20260821194841",
@@ -578,6 +547,36 @@
       "Bitcoin or gold? Deciding on the summer's top safe-haven.",
       "Bitcoin and ethereum prices today, Monday, August 24, 2026: Prices rising, as investors look for more Fed clues this week",
       "Solana RWA Ecosystem Just Hit $4 Billion Two Days After Cutting Block Times to 350ms"
+    ],
+    "mode": "paper",
+    "strategy_version": "107",
+    "status": "open"
+  },
+  "TGT": {
+    "id": "TGT_20260824152510",
+    "asset": "TGT",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 170.1649932861328,
+    "entry_time": "2026-08-24T15:25:10.861308+00:00",
+    "stop_loss_pct": 0.01033,
+    "take_profit_pct": 0.02477,
+    "size_usd": 3798.71,
+    "position_size_pct": 0.0365,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (80.7)",
+      "5d momentum +4.28%",
+      "1d momentum +10.73%",
+      "BB overbought (pct_b=1.09)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.588,
+    "news_headlines": [
+      "Can Walmart's Tap to Pay Push Strengthen Customer Engagement?",
+      "Walmart Has Too Many Stores",
+      "Target Corporation (TGT) Soars to 52-Week High, Time to Cash Out?"
     ],
     "mode": "paper",
     "strategy_version": "107",
