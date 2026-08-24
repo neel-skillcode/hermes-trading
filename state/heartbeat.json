@@ -3,15 +3,15 @@
   "portfolio_balance": 103867.9,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.73,
-  "unrealized_pnl_usd": 597.57,
-  "equity_value": 104465.47,
+  "unrealized_pnl_usd": 633.87,
+  "equity_value": 104501.77,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41547.16,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1186,
-  "last_tick": "2026-08-24T12:04:07.808869+00:00",
+  "last_tick": "2026-08-24T13:07:58.259902+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8362,
-      "unrealized_pnl_pct": 0.000243,
-      "unrealized_pnl_usd": 0.33
+      "current_price": 7.837,
+      "unrealized_pnl_pct": 0.000345,
+      "unrealized_pnl_usd": 0.46
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3737900257110596,
       "trailing_stop_price": 1.38478,
-      "current_price": 1.3843,
-      "unrealized_pnl_pct": 0.017844,
-      "unrealized_pnl_usd": 119.55
+      "current_price": 1.3829,
+      "unrealized_pnl_pct": 0.018837,
+      "unrealized_pnl_usd": 126.2
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85544,
-      "unrealized_pnl_pct": -0.001768,
-      "unrealized_pnl_usd": -12.31
+      "current_price": 0.8552,
+      "unrealized_pnl_pct": -0.001487,
+      "unrealized_pnl_usd": -10.35
     },
     {
       "id": "UBER_20260812164126",
@@ -170,9 +170,9 @@
       "status": "open",
       "price_peak": 159.0919952392578,
       "trailing_stop_price": 157.819259,
-      "current_price": 159.082001,
-      "unrealized_pnl_pct": 0.003786,
-      "unrealized_pnl_usd": 16.66
+      "current_price": 159.087006,
+      "unrealized_pnl_pct": 0.003818,
+      "unrealized_pnl_usd": 16.8
     },
     {
       "id": "AMZN_20260821135337",
@@ -575,11 +575,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "price_peak": 2504.639892578125,
-      "trailing_stop_price": 2479.017426,
-      "current_price": 2485.889893,
-      "unrealized_pnl_pct": 0.014045,
-      "unrealized_pnl_usd": 29.18
+      "price_peak": 2506.280029296875,
+      "trailing_stop_price": 2480.640785,
+      "current_price": 2506.909912,
+      "unrealized_pnl_pct": 0.022619,
+      "unrealized_pnl_usd": 46.99
     },
     {
       "id": "SOL-USD_20260824073448",
@@ -612,9 +612,9 @@
       "status": "open",
       "price_peak": 96.26000213623047,
       "trailing_stop_price": 95.213656,
-      "current_price": 95.489998,
-      "unrealized_pnl_pct": 0.012942,
-      "unrealized_pnl_usd": 79.01
+      "current_price": 96.059998,
+      "unrealized_pnl_pct": 0.018988,
+      "unrealized_pnl_usd": 115.93
     },
     {
       "id": "BNB-USD_20260824114504",
@@ -646,11 +646,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "price_trough": 701.9600219726562,
-      "trailing_stop_price": 707.554643,
-      "current_price": 701.929993,
-      "unrealized_pnl_pct": 0.006722,
-      "unrealized_pnl_usd": 40.05
+      "price_trough": 705.1699829101562,
+      "trailing_stop_price": 710.790188,
+      "current_price": 705.169983,
+      "unrealized_pnl_pct": 0.002137,
+      "unrealized_pnl_usd": 12.73
     }
   ],
   "last_candidates": [
@@ -676,6 +676,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.6318,
+      "price": 78986.3203125,
+      "rsi": 62.07225714170294,
+      "momentum_5d": 0.025456144319001305,
+      "momentum_1d": 0.019477695416002704,
+      "macd_crossover": false,
+      "atr_pct": 0.008042143317001533,
+      "bollinger_pct_b": 1.0787,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.93,
+      "news_sentiment": 0.576,
+      "news_confidence": 0.33,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Monday, August 24, 2026: Prices rising, as investors look for more Fed clues this week",
+        "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day",
+        "Stock Market Today: Dow Falls Ahead of 'Economic D-Day'; Alibaba Slides On Offering (Live Coverage)"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "TGT",
       "rank_score": 0.603,
       "price": 165.41000366210938,
@@ -692,7 +713,7 @@
       "news_headlines": [
         "PENGU Jumps 62% in a Week on IPO Speculation and a Target Rollout",
         "Zacks Investment Ideas feature highlights: Target and Walmart",
-        "Target (TGT) Stock Still Looks Like A Bargain After Rally"
+        "Target, Starbucks and Nike are writing the 2026 turnaround playbook. Here are the key lessons"
       ],
       "high_impact_news": true
     },
@@ -719,7 +740,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.5881,
+      "rank_score": 0.5931,
       "price": 108.13500213623047,
       "rsi": 82.75500791840847,
       "momentum_5d": 0.01578131864430345,
@@ -729,12 +750,12 @@
       "bollinger_pct_b": 0.8622,
       "volume_spike": false,
       "volume_spike_ratio": 1.01,
-      "news_sentiment": 0.576,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "The Clarity Act Is on Hold, but the SEC Is Picking Up the Slack. Here's the Latest Outlook on Crypto Regulation.",
-        "Stocks to Watch: Alibaba, Marvell Technology, Coinbase",
-        "US Stock Market Today S&P 500 Futures Rise As Higher Yields Test Growth"
+        "Robinhood Stock Surges 13.2% in a Week: What's Behind the Rally?",
+        "NYSE and Nasdaq Want 23-Hour Trading. Here Is What It Means for You.",
+        "The Clarity Act Is on Hold, but the SEC Is Picking Up the Slack. Here's the Latest Outlook on Crypto Regulation."
       ],
       "high_impact_news": true
     },
@@ -761,7 +782,7 @@
     },
     {
       "asset": "COIN",
-      "rank_score": 0.5365,
+      "rank_score": 0.5415,
       "price": 186.5749969482422,
       "rsi": 82.52276271176197,
       "momentum_5d": -0.007685391401889243,
@@ -771,18 +792,18 @@
       "bollinger_pct_b": 0.8027,
       "volume_spike": false,
       "volume_spike_ratio": 0.78,
-      "news_sentiment": 0.217,
-      "news_confidence": 0.23,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.26,
       "news_headlines": [
+        "Robinhood Stock Surges 13.2% in a Week: What's Behind the Rally?",
         "Strategy Remains Down 20% in 2026: A Prominent Analyst Still Sees 265% Upside After Downward Adjustment",
-        "The Clarity Act Is on Hold, but the SEC Is Picking Up the Slack. Here's the Latest Outlook on Crypto Regulation.",
-        "Stocks to Watch: Alibaba, Marvell Technology, Coinbase"
+        "Coinbase CEO Brian Armstrong Says Crypto May Be on the Cusp of Next Bull Market, Touts 'AI-Fi' as New Opportunity"
       ],
       "high_impact_news": true
     },
     {
       "asset": "PLTR",
-      "rank_score": 0.5304,
+      "rank_score": 0.5354,
       "price": 179.94000244140625,
       "rsi": 65.49474587686933,
       "momentum_5d": 0.00965099993784154,
@@ -792,12 +813,33 @@
       "bollinger_pct_b": 0.8991,
       "volume_spike": false,
       "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.511,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "Cathie Wood Dumps $27.2 Million of Palantir Stock After 43% Rally",
         "Peter Thiel\u2019s Fund Shows the Next Big AI Bet Is Power, Not Chips",
-        "The AI Debt Boom Is Helping Push Everyone\u2019s Cost of Capital Higher",
-        "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold"
+        "The AI Debt Boom Is Helping Push Everyone\u2019s Cost of Capital Higher"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5327,
+      "price": 2506.909912109375,
+      "rsi": 63.66499331531262,
+      "momentum_5d": 0.021402566760236105,
+      "momentum_1d": 0.01936740926006613,
+      "macd_crossover": false,
+      "atr_pct": 0.010068174987490283,
+      "bollinger_pct_b": 1.0419,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.89,
+      "news_sentiment": 0.744,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Monday, August 24, 2026: Prices rising, as investors look for more Fed clues this week",
+        "SharpLink\u2019s Ethereum Treasury Draws 60% Institutional Ownership",
+        "Wintermute Boosts Crypto Shorts to $191M as It Moves Millions to Binance"
       ],
       "high_impact_news": true
     },
@@ -823,27 +865,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.515,
-      "price": 2485.889892578125,
-      "rsi": 60.131158567344876,
-      "momentum_5d": 0.012995066250254686,
-      "momentum_1d": 0.02438267397529841,
-      "macd_crossover": false,
-      "atr_pct": 0.00961110233841435,
-      "bollinger_pct_b": 0.9805,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.47,
-      "news_sentiment": 0.87,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Wintermute Boosts Crypto Shorts to $191M as It Moves Millions to Binance",
-        "3 Trading Firms Still Short Bitcoin and Ethereum Despite Sharp Price Rally",
-        "HYPE Is Surging \u2013 And These Three Trading Firms Are Sitting On $600M In BTC, ETH Shorts"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SLB",
       "rank_score": 0.5142,
       "price": 53.869998931884766,
@@ -865,27 +886,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "TSLA",
-      "rank_score": 0.5119,
-      "price": 362.8800048828125,
-      "rsi": 63.73707238608954,
-      "momentum_5d": 0.010906379688443804,
-      "momentum_1d": 0.07693911455139371,
-      "macd_crossover": false,
-      "atr_pct": 0.014094130032542184,
-      "bollinger_pct_b": 0.8371,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.11,
-      "news_sentiment": 0.514,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Amazon Could Be Worth More Than Tesla and SpaceX Combined by 2030. Here's the Math.",
-        "Elon Musk Admits China Is \u201cBy Far\u201d Strongest AI Competitor, As Chinese Robot Just Beat Usain Bolt\u2019s 100m World Record",
-        "1 Profitable Stock to Own for Decades and 2 We Turn Down"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "GLD",
       "rank_score": 0.5096,
       "price": 423.3800048828125,
@@ -903,6 +903,27 @@
         "Daily ETF Flows: $614M Flows Into GLD",
         "Morgan Stanley Doubles Down on Gold After Breakout",
         "Market Minute 8-21-26- Markets Mull Bessent's Next Move"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "TSLA",
+      "rank_score": 0.5059,
+      "price": 362.8800048828125,
+      "rsi": 63.73707238608954,
+      "momentum_5d": 0.010906379688443804,
+      "momentum_1d": 0.07693911455139371,
+      "macd_crossover": false,
+      "atr_pct": 0.014094130032542184,
+      "bollinger_pct_b": 0.8371,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.11,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "XPeng Stock Drops on Disappointing Earnings. It Continues to Chase Tesla.",
+        "Amazon Could Be Worth More Than Tesla and SpaceX Combined by 2030. Here's the Math.",
+        "Elon Musk Admits China Is \u201cBy Far\u201d Strongest AI Competitor, As Chinese Robot Just Beat Usain Bolt\u2019s 100m World Record"
       ],
       "high_impact_news": true
     },
@@ -929,7 +950,7 @@
     },
     {
       "asset": "WMT",
-      "rank_score": 0.4985,
+      "rank_score": 0.498,
       "price": 103.69999694824219,
       "rsi": 16.030948173651055,
       "momentum_5d": 0.009982896187182795,
@@ -939,33 +960,12 @@
       "bollinger_pct_b": 0.3547,
       "volume_spike": false,
       "volume_spike_ratio": 0.79,
-      "news_sentiment": -0.022,
-      "news_confidence": 0.45,
+      "news_sentiment": -0.01,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Walmart isn't losing any retail war",
+        "JP Morgan Warns of Fall Sell-Off Potential: 5 Defensive Dividend Stocks to Buy",
         "Visa Jumps Toward Record High as Spending Defies Walmart's Warning",
         "PENGU Jumps 62% in a Week on IPO Speculation and a Target Rollout"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "CRM",
-      "rank_score": 0.4958,
-      "price": 209.14999389648438,
-      "rsi": 62.63463697320915,
-      "momentum_5d": -0.006531291009922036,
-      "momentum_1d": 0.05418346940881881,
-      "macd_crossover": false,
-      "atr_pct": 0.009488881568718415,
-      "bollinger_pct_b": 0.8411,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.98,
-      "news_sentiment": 0.778,
-      "news_confidence": 0.72,
-      "news_headlines": [
-        "Nvidia, software giants' earnings: What to watch the week of August 24th",
-        "US Equity Investors to Focus on Nvidia's Earnings, Chair Warsh's Jackson Hole Speech, PCE Inflation This Week",
-        "Nvidia Earnings, Jackson Hole: What to Watch This Week"
       ],
       "high_impact_news": true
     },
@@ -991,6 +991,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "CRM",
+      "rank_score": 0.4867,
+      "price": 209.14999389648438,
+      "rsi": 62.63463697320915,
+      "momentum_5d": -0.006531291009922036,
+      "momentum_1d": 0.05418346940881881,
+      "macd_crossover": false,
+      "atr_pct": 0.009488881568718415,
+      "bollinger_pct_b": 0.8411,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.662,
+      "news_confidence": 0.71,
+      "news_headlines": [
+        "Nvidia, software giants' earnings: What to watch the week of August 24th",
+        "Investors May Want To Own Workday Before August 27th",
+        "Stocks Down Pre-Bell as Investors Await Key Inflation Data, Warsh Speech, Nvidia Earnings"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.4812,
+      "price": 61.69499969482422,
+      "rsi": 23.2013601204239,
+      "momentum_5d": -0.007241141839644725,
+      "momentum_1d": -0.03375096054497657,
+      "macd_crossover": false,
+      "atr_pct": 0.005606509264865483,
+      "bollinger_pct_b": 0.1548,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.234,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "JPMorgan's Card Credit Trends Improve: Are Losses Past Their Peak?",
+        "BofA starts bullish Alvotech coverage on biosimilar launch cycle",
+        "Iconic bank stock pays Buffett's Berkshire $619M in annual dividends"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SLV",
       "rank_score": 0.4809,
       "price": 62.71500015258789,
@@ -1012,27 +1054,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BAC",
-      "rank_score": 0.4801,
-      "price": 61.69499969482422,
-      "rsi": 23.2013601204239,
-      "momentum_5d": -0.007241141839644725,
-      "momentum_1d": -0.03375096054497657,
-      "macd_crossover": false,
-      "atr_pct": 0.005606509264865483,
-      "bollinger_pct_b": 0.1548,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.208,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "BofA starts bullish Alvotech coverage on biosimilar launch cycle",
-        "Iconic bank stock pays Buffett's Berkshire $619M in annual dividends",
-        "Investor bullishness surges as BofA survey shows cash levels near historic lows"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRNA",
       "rank_score": 0.4793,
       "price": 145.0399932861328,
@@ -1050,27 +1071,6 @@
         "Analysts praise intismeran\u2019s landmark Phase III win, look to further data",
         "1 Large-Cap Stock with Impressive Fundamentals and 2 We Turn Down",
         "SLS Stock Charges Ahead As AML Trial Buzz Builds: Report Claims Regal Hit 80th Event \u2014 Retail Isn\u2019t Convinced"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.4738,
-      "price": 216.77999877929688,
-      "rsi": 35.09976236636676,
-      "momentum_5d": -0.009503800718514246,
-      "momentum_1d": 0.01879875938973449,
-      "macd_crossover": false,
-      "atr_pct": 0.00797877223751873,
-      "bollinger_pct_b": 0.3114,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.694,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Is Biogen (BIIB) Undervalued On Raised EPS Guidance And Key Phase 3 Readouts?",
-        "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
-        "Should You Buy, Sell or Hold Biogen Stock After a 9% Rise in a Month?"
       ],
       "high_impact_news": true
     }
