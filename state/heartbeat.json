@@ -3,15 +3,15 @@
   "portfolio_balance": 103982.15,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.63,
-  "unrealized_pnl_usd": 415.47,
-  "equity_value": 104397.62,
+  "unrealized_pnl_usd": 445.66,
+  "equity_value": 104427.81,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41592.86,
   "swing_capital_used_usd": 51834.23,
   "total_trades": 1184,
-  "last_tick": "2026-08-24T07:34:48.664815+00:00",
+  "last_tick": "2026-08-24T08:23:32.697166+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8378,
-      "unrealized_pnl_pct": 0.000447,
-      "unrealized_pnl_usd": 0.6
+      "current_price": 7.8364,
+      "unrealized_pnl_pct": 0.000268,
+      "unrealized_pnl_usd": 0.36
     },
     {
       "id": "USD/CAD_20260721144944",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.3737900257110596,
       "trailing_stop_price": 1.38478,
-      "current_price": 1.38255,
-      "unrealized_pnl_pct": 0.019085,
-      "unrealized_pnl_usd": 127.87
+      "current_price": 1.3841,
+      "unrealized_pnl_pct": 0.017986,
+      "unrealized_pnl_usd": 120.5
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85548,
-      "unrealized_pnl_pct": -0.001815,
-      "unrealized_pnl_usd": -12.63
+      "current_price": 0.85571,
+      "unrealized_pnl_pct": -0.002085,
+      "unrealized_pnl_usd": -14.51
     },
     {
       "id": "UBER_20260812164126",
@@ -168,11 +168,11 @@
       "mode": "paper",
       "strategy_version": "101",
       "status": "open",
-      "price_peak": 159.0919952392578,
-      "trailing_stop_price": 157.819259,
-      "current_price": 159.097,
-      "unrealized_pnl_pct": 0.003881,
-      "unrealized_pnl_usd": 17.07
+      "price_peak": 159.23300170898438,
+      "trailing_stop_price": 157.959138,
+      "current_price": 159.233994,
+      "unrealized_pnl_pct": 0.004745,
+      "unrealized_pnl_usd": 20.88
     },
     {
       "id": "AMZN_20260821135337",
@@ -577,9 +577,9 @@
       "status": "open",
       "price_peak": 2458.860107421875,
       "trailing_stop_price": 2433.705969,
-      "current_price": 2458.139893,
-      "unrealized_pnl_pct": 0.002725,
-      "unrealized_pnl_usd": 5.66
+      "current_price": 2442.719971,
+      "unrealized_pnl_pct": -0.003565,
+      "unrealized_pnl_usd": -7.41
     },
     {
       "id": "DOGE-USD_20260824021155",
@@ -609,9 +609,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "current_price": 0.09174,
-      "unrealized_pnl_pct": -0.006362,
-      "unrealized_pnl_usd": -23.88
+      "price_trough": 0.09047999978065491,
+      "trailing_stop_price": 0.091672,
+      "current_price": 0.09042,
+      "unrealized_pnl_pct": 0.008118,
+      "unrealized_pnl_usd": 30.47
     },
     {
       "id": "XRP-USD_20260824021155",
@@ -640,9 +642,11 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "current_price": 1.487,
-      "unrealized_pnl_pct": -0.010808,
-      "unrealized_pnl_usd": -24.32
+      "price_trough": 1.4608999490737915,
+      "trailing_stop_price": 1.482813,
+      "current_price": 1.4609,
+      "unrealized_pnl_pct": 0.006934,
+      "unrealized_pnl_usd": 15.6
     },
     {
       "id": "SOL-USD_20260824073448",
@@ -673,9 +677,9 @@
       "mode": "paper",
       "strategy_version": "106",
       "status": "open",
-      "current_price": 94.269997,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 93.57,
+      "unrealized_pnl_pct": -0.007425,
+      "unrealized_pnl_usd": -45.33
     }
   ],
   "last_candidates": [
@@ -729,7 +733,7 @@
       "momentum_5d": 0.01016830189973304,
       "momentum_1d": 0.08533187878991759,
       "macd_crossover": false,
-      "atr_pct": 0.012121398215153838,
+      "atr_pct": 0.01214299090286954,
       "bollinger_pct_b": 1.0059,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
@@ -785,6 +789,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5541,
+      "price": 0.09042000025510788,
+      "rsi": 36.1262334196217,
+      "momentum_5d": -0.008335122845517216,
+      "momentum_1d": -0.005608706617554397,
+      "macd_crossover": false,
+      "atr_pct": 0.014748633427515794,
+      "bollinger_pct_b": -0.033,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.99,
+      "news_sentiment": 0.476,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
+        "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
+        "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "COIN",
       "rank_score": 0.5395,
       "price": 186.5749969482422,
@@ -827,29 +852,10 @@
       "high_impact_news": true
     },
     {
-      "asset": "EUR/JPY",
-      "rank_score": 0.5289,
-      "price": 185.76699829101562,
-      "rsi": 54.66023522176954,
-      "momentum_5d": 0.0009267333127575298,
-      "momentum_1d": -0.0005326365492770083,
-      "macd_crossover": true,
-      "atr_pct": 0.000576360408520052,
-      "bollinger_pct_b": 0.9304,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARKK",
-      "rank_score": 0.5195,
+      "rank_score": 0.5191,
       "price": 86.25,
-      "rsi": 73.44510665919216,
+      "rsi": 73.32692640501361,
       "momentum_5d": 0.004132992267393613,
       "momentum_1d": 0.08572504216143122,
       "macd_crossover": false,
@@ -868,14 +874,14 @@
     },
     {
       "asset": "SLB",
-      "rank_score": 0.5146,
+      "rank_score": 0.5142,
       "price": 53.869998931884766,
-      "rsi": 56.355924669325105,
+      "rsi": 56.26324212599701,
       "momentum_5d": 0.0117381916149449,
       "momentum_1d": 0.01236557748408207,
       "macd_crossover": true,
-      "atr_pct": 0.006803016865263634,
-      "bollinger_pct_b": 0.7953,
+      "atr_pct": 0.006796385731828123,
+      "bollinger_pct_b": 0.7951,
       "volume_spike": false,
       "volume_spike_ratio": 1.23,
       "news_sentiment": 0.794,
@@ -951,36 +957,15 @@
       "high_impact_news": true
     },
     {
-      "asset": "GBP/JPY",
-      "rank_score": 0.5008,
-      "price": 217.1230010986328,
-      "rsi": 59.94067959084706,
-      "momentum_5d": 0.0012266446382408031,
-      "momentum_1d": 0.0011619760079218408,
-      "macd_crossover": true,
-      "atr_pct": 0.0007280312752662096,
-      "bollinger_pct_b": 0.9761,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.28,
-      "news_confidence": 0.357,
-      "news_headlines": [
-        "Pound Mostly Steady After Weaker GDP",
-        "Sterling Declines as the BoE Appears More Dovish",
-        "Mixed Performance by the Pound After Weaker Job Data"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "CRM",
-      "rank_score": 0.5005,
+      "rank_score": 0.5007,
       "price": 209.14999389648438,
-      "rsi": 62.58252632533124,
+      "rsi": 62.63463697320915,
       "momentum_5d": -0.006531291009922036,
       "momentum_1d": 0.05418346940881881,
       "macd_crossover": false,
       "atr_pct": 0.009488881568718415,
-      "bollinger_pct_b": 0.8409,
+      "bollinger_pct_b": 0.8411,
       "volume_spike": false,
       "volume_spike_ratio": 0.98,
       "news_sentiment": 0.884,
@@ -1010,27 +995,6 @@
         "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
         "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn\u2019t Have That Problem",
         "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.493,
-      "price": 94.2699966430664,
-      "rsi": 42.80759608824198,
-      "momentum_5d": -0.0033830183657173277,
-      "momentum_1d": 0.01990691692973619,
-      "macd_crossover": false,
-      "atr_pct": 0.010766963038288176,
-      "bollinger_pct_b": 0.2346,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.03,
-      "news_sentiment": 0.191,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Trump Team Pulls Millions From TRUMP Memecoin Liquidity Pools During Price Rally",
-        "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
-        "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts"
       ],
       "high_impact_news": true
     },
@@ -1094,6 +1058,48 @@
         "SLS Stock Charges Ahead As AML Trial Buzz Builds: Report Claims Regal Hit 80th Event \u2014 Retail Isn\u2019t Convinced",
         "Why Tempus AI Skyrocketed This Week",
         "Hype for Moderna\u2019s Cancer Vaccine Is Running Ahead of the Math"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.4738,
+      "price": 216.77999877929688,
+      "rsi": 35.09976236636676,
+      "momentum_5d": -0.009503800718514246,
+      "momentum_1d": 0.01879875938973449,
+      "macd_crossover": false,
+      "atr_pct": 0.00797877223751873,
+      "bollinger_pct_b": 0.3114,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.694,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Is Biogen (BIIB) Undervalued On Raised EPS Guidance And Key Phase 3 Readouts?",
+        "What Biogen (BIIB)'s Higher Earnings Guidance and Late-Stage Pipeline Progress Means For Shareholders",
+        "Should You Buy, Sell or Hold Biogen Stock After a 9% Rise in a Month?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BAC",
+      "rank_score": 0.4711,
+      "price": 61.69499969482422,
+      "rsi": 23.2013601204239,
+      "momentum_5d": -0.007241141839644725,
+      "momentum_1d": -0.03375096054497657,
+      "macd_crossover": false,
+      "atr_pct": 0.005606509264865483,
+      "bollinger_pct_b": 0.1548,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.022,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Iconic bank stock pays Buffett's Berkshire $619M in annual dividends",
+        "Investor bullishness surges as BofA survey shows cash levels near historic lows",
+        "What Do SEC Insider Trading Charges Mean For Bank Of America (BAC)?"
       ],
       "high_impact_news": true
     }
