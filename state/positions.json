@@ -510,68 +510,6 @@
     "price_trough": 335.6099853515625,
     "trailing_stop_price": 344.691592
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260823144327",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.09120000153779984,
-    "entry_time": "2026-08-23T14:43:27.389043+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03581,
-    "size_usd": 1332.4,
-    "position_size_pct": 0.0128,
-    "confidence": 0.775,
-    "signals": [
-      "RSI oversold (38.7)",
-      "1d momentum +1.12%",
-      "Volume spike 4.1\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: price surge"
-    ],
-    "news_sentiment": 0.476,
-    "news_headlines": [
-      "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
-      "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
-      "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
-    ],
-    "mode": "paper",
-    "strategy_version": "105",
-    "status": "open",
-    "price_peak": 0.09283000230789185,
-    "trailing_stop_price": 0.091438
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260823150102",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 94.80000305175781,
-    "entry_time": "2026-08-23T15:01:02.914390+00:00",
-    "stop_loss_pct": 0.01162,
-    "take_profit_pct": 0.02732,
-    "size_usd": 4686.95,
-    "position_size_pct": 0.0451,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (42.0)",
-      "5d momentum +1.26%",
-      "1d momentum +1.86%",
-      "High-impact catalyst",
-      "Claude [supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.191,
-    "news_headlines": [
-      "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
-      "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts",
-      "Solana Is Beating Ethereum in Tokenized Assets. That Might Not Make It the Better Buy."
-    ],
-    "mode": "paper",
-    "strategy_version": "106",
-    "status": "open",
-    "price_peak": 95.29000091552734,
-    "trailing_stop_price": 94.182731
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260823194704",
     "asset": "ETH-USD",
@@ -597,6 +535,63 @@
       "Ethereum\u2019s \u2018Netflix Moment\u2019 Could Send ETH To $10K By 2029 As Bitcoin Eyes $81K",
       "Jordi Visser Warns Betting Against Treasury Intervention Is \u2018A Very Dangerous Game,\u2019 Favors Bitcoin Over Equities",
       "Arthur Hayes Calls Ethereum Foundation 'A Bunch Of Jokers' In A Blunt Take But Is Bullish On ETH"
+    ],
+    "mode": "paper",
+    "strategy_version": "106",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260824021155",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.09115999937057495,
+    "entry_time": "2026-08-24T02:11:55.241211+00:00",
+    "stop_loss_pct": 0.01317,
+    "take_profit_pct": 0.03005,
+    "size_usd": 3753.28,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (43.3)",
+      "5d momentum -2.34%",
+      "1d momentum -0.73%",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.476,
+    "news_headlines": [
+      "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?",
+      "Bitcoin\u2019s $77K Breakout Has Retail Buying The Rally \u2013 But Over $4.1B Crypto Bets Got Wiped Out In 2 Days",
+      "Solana, Robinhood, BNB Clash for Meme Coin Season: Who is Winning the $3 Billion Rally?"
+    ],
+    "mode": "paper",
+    "strategy_version": "106",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260824021155",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.4710999727249146,
+    "entry_time": "2026-08-24T02:11:55.243000+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0342,
+    "size_usd": 2250.38,
+    "position_size_pct": 0.0216,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (43.5)",
+      "5d momentum -3.58%",
+      "1d momentum -0.92%",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.53,
+    "news_headlines": [
+      "Should You Take Profits on XRP After a 50% Week? We Asked 2 AI Models",
+      "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
+      "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?"
     ],
     "mode": "paper",
     "strategy_version": "106",
