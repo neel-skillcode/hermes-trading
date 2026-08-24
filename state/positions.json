@@ -138,8 +138,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 159.1219940185547,
-    "trailing_stop_price": 157.849018
+    "price_peak": 159.14500427246094,
+    "trailing_stop_price": 157.871844
   },
   "AMZN": {
     "id": "AMZN_20260821135337",
@@ -170,8 +170,8 @@
     "mode": "paper",
     "strategy_version": "102",
     "status": "open",
-    "price_peak": 261.54998779296875,
-    "trailing_stop_price": 255.228325
+    "price_peak": 262.32000732421875,
+    "trailing_stop_price": 255.979733
   },
   "GOOGL": {
     "id": "GOOGL_20260821150045",
@@ -201,8 +201,8 @@
     "mode": "paper",
     "strategy_version": "102",
     "status": "open",
-    "price_peak": 347.8949890136719,
-    "trailing_stop_price": 342.269527
+    "price_peak": 350.1000061035156,
+    "trailing_stop_price": 344.438889
   },
   "AXP": {
     "id": "AXP_20260821160421",
@@ -232,8 +232,8 @@
     "mode": "paper",
     "strategy_version": "102",
     "status": "open",
-    "price_peak": 342.20001220703125,
-    "trailing_stop_price": 335.619506
+    "price_peak": 342.8299865722656,
+    "trailing_stop_price": 336.237366
   },
   "LCID": {
     "id": "LCID_20260821194841",
@@ -263,8 +263,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 5.429999828338623,
-    "trailing_stop_price": 5.51145
+    "price_trough": 5.425000190734863,
+    "trailing_stop_price": 5.506375
   },
   "RIVN": {
     "id": "RIVN_20260821194841",
@@ -325,7 +325,9 @@
     ],
     "mode": "paper",
     "strategy_version": "103",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1032.7149658203125,
+    "trailing_stop_price": 1056.46741
   },
   "HD": {
     "id": "HD_20260821194841",
@@ -357,71 +359,6 @@
     "status": "open",
     "price_trough": 335.6099853515625,
     "trailing_stop_price": 344.691592
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260823194704",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2451.4599609375,
-    "entry_time": "2026-08-23T19:47:04.745781+00:00",
-    "stop_loss_pct": 0.01023,
-    "take_profit_pct": 0.02494,
-    "size_usd": 2077.45,
-    "position_size_pct": 0.02,
-    "confidence": 0.877,
-    "signals": [
-      "RSI overbought (74.8)",
-      "5d momentum +0.53%",
-      "1d momentum +0.51%",
-      "Volume spike 2.8\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.737,
-    "news_headlines": [
-      "Ethereum\u2019s \u2018Netflix Moment\u2019 Could Send ETH To $10K By 2029 As Bitcoin Eyes $81K",
-      "Jordi Visser Warns Betting Against Treasury Intervention Is \u2018A Very Dangerous Game,\u2019 Favors Bitcoin Over Equities",
-      "Arthur Hayes Calls Ethereum Foundation 'A Bunch Of Jokers' In A Blunt Take But Is Bullish On ETH"
-    ],
-    "mode": "paper",
-    "strategy_version": "106",
-    "status": "open",
-    "price_peak": 2504.639892578125,
-    "trailing_stop_price": 2479.017426
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260824114504",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 706.6799926757812,
-    "entry_time": "2026-08-24T11:45:04.458551+00:00",
-    "stop_loss_pct": 0.00797,
-    "take_profit_pct": 0.01974,
-    "size_usd": 5957.96,
-    "position_size_pct": 0.0574,
-    "confidence": 0.95,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +0.99%",
-      "1d momentum +1.66%",
-      "BB overbought (pct_b=1.09)",
-      "Volume spike 2.4\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.385,
-    "news_headlines": [
-      "HYPE Is Surging \u2013 And These Three Trading Firms Are Sitting On $600M In BTC, ETH Shorts",
-      "500M SAND Minted in Sandbox Exploit as Korean Exchanges Freeze Transfers",
-      "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens"
-    ],
-    "mode": "paper",
-    "strategy_version": "106",
-    "status": "open",
-    "price_trough": 699.9400024414062,
-    "trailing_stop_price": 705.518524
   },
   "MA": {
     "id": "MA_20260824135951",
@@ -484,7 +421,9 @@
     ],
     "mode": "paper",
     "strategy_version": "106",
-    "status": "open"
+    "status": "open",
+    "price_peak": 902.1599731445312,
+    "trailing_stop_price": 888.627574
   },
   "NVDA": {
     "id": "NVDA_20260824135951",
@@ -578,6 +517,70 @@
     ],
     "mode": "paper",
     "strategy_version": "106",
+    "status": "open",
+    "price_peak": 479.6099853515625,
+    "trailing_stop_price": 472.540534
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260824144920",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 79516.109375,
+    "entry_time": "2026-08-24T14:49:20.822646+00:00",
+    "stop_loss_pct": 0.00989,
+    "take_profit_pct": 0.02449,
+    "size_usd": 6321.44,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (64.1)",
+      "5d momentum +2.55%",
+      "1d momentum +3.03%",
+      "BB overbought (pct_b=1.16)",
+      "Volume spike 3.6\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+      "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold",
+      "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day"
+    ],
+    "mode": "paper",
+    "strategy_version": "107",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260824144920",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2516.320068359375,
+    "entry_time": "2026-08-24T14:49:20.824518+00:00",
+    "stop_loss_pct": 0.0116,
+    "take_profit_pct": 0.02871,
+    "size_usd": 1731.56,
+    "position_size_pct": 0.0167,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (63.1)",
+      "5d momentum +2.18%",
+      "1d momentum +3.19%",
+      "BB overbought (pct_b=1.07)",
+      "Volume spike 3.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: price surge; macro risk"
+    ],
+    "news_sentiment": 0.4,
+    "news_headlines": [
+      "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+      "Bitcoin and ethereum prices today, Monday, August 24, 2026: Prices rising, as investors look for more Fed clues this week",
+      "Solana RWA Ecosystem Just Hit $4 Billion Two Days After Cutting Block Times to 350ms"
+    ],
+    "mode": "paper",
+    "strategy_version": "107",
     "status": "open"
   }
 }
