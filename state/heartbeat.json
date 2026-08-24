@@ -3,15 +3,15 @@
   "portfolio_balance": 104190.47,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.44,
-  "unrealized_pnl_usd": 753.71,
-  "equity_value": 104944.18,
+  "unrealized_pnl_usd": 747.85,
+  "equity_value": 104938.32,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41676.19,
   "swing_capital_used_usd": 51578.28,
   "total_trades": 1196,
-  "last_tick": "2026-08-24T21:39:13.376414+00:00",
+  "last_tick": "2026-08-24T21:59:22.844425+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85554,
-      "unrealized_pnl_pct": -0.001885,
-      "unrealized_pnl_usd": -13.12
+      "current_price": 0.85536,
+      "unrealized_pnl_pct": -0.001675,
+      "unrealized_pnl_usd": -11.66
     },
     {
       "id": "UBER_20260812164126",
@@ -142,9 +142,9 @@
       "status": "open",
       "price_peak": 159.1790008544922,
       "trailing_stop_price": 157.905569,
-      "current_price": 159.048004,
-      "unrealized_pnl_pct": 0.003571,
-      "unrealized_pnl_usd": 15.71
+      "current_price": 159.026993,
+      "unrealized_pnl_pct": 0.003439,
+      "unrealized_pnl_usd": 15.13
     },
     {
       "id": "AMZN_20260821135337",
@@ -527,9 +527,9 @@
       "status": "open",
       "price_trough": 78752.1328125,
       "trailing_stop_price": 79530.991406,
-      "current_price": 78917.640625,
-      "unrealized_pnl_pct": 0.007526,
-      "unrealized_pnl_usd": 47.58
+      "current_price": 78976.09375,
+      "unrealized_pnl_pct": 0.006791,
+      "unrealized_pnl_usd": 42.93
     },
     {
       "id": "ETH-USD_20260824144920",
@@ -563,9 +563,9 @@
       "status": "open",
       "price_trough": 2466.159912109375,
       "trailing_stop_price": 2494.767367,
-      "current_price": 2479.77002,
-      "unrealized_pnl_pct": 0.014525,
-      "unrealized_pnl_usd": 25.15
+      "current_price": 2483.280029,
+      "unrealized_pnl_pct": 0.01313,
+      "unrealized_pnl_usd": 22.74
     },
     {
       "id": "TGT_20260824152510",
@@ -631,11 +631,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_peak": 0.08963000029325485,
-      "trailing_stop_price": 0.088286,
-      "current_price": 0.08962,
-      "unrealized_pnl_pct": 0.008439,
-      "unrealized_pnl_usd": 0.38
+      "price_peak": 0.09019000083208084,
+      "trailing_stop_price": 0.088837,
+      "current_price": 0.09023,
+      "unrealized_pnl_pct": 0.015303,
+      "unrealized_pnl_usd": 0.69
     },
     {
       "id": "COST_20260824175145",
@@ -832,7 +832,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5861,
+      "rank_score": 0.5621,
       "price": 208.4600067138672,
       "rsi": 23.804883950341534,
       "momentum_5d": -0.006718389651331536,
@@ -842,8 +842,8 @@
       "bollinger_pct_b": 0.0796,
       "volume_spike": false,
       "volume_spike_ratio": 0.37,
-      "news_sentiment": 0.843,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.404,
+      "news_confidence": 0.47,
       "news_headlines": [
         "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
         "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
@@ -894,6 +894,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.5345,
+      "price": 97.44999694824219,
+      "rsi": 70.38366540424832,
+      "momentum_5d": 0.014575677792846813,
+      "momentum_1d": 0.022024106006578004,
+      "macd_crossover": false,
+      "atr_pct": 0.014359015305115061,
+      "bollinger_pct_b": 1.0137,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.26,
+      "news_sentiment": 0.556,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Solana sets an all-time record for weekly network activity",
+        "Prediction: 1 Cryptocurrency That Will Be Worth More Than Bitcoin and Ethereum Combined"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "COIN",
       "rank_score": 0.5135,
       "price": 179.48500061035156,
@@ -908,9 +929,9 @@
       "news_sentiment": 0.625,
       "news_confidence": 0.32,
       "news_headlines": [
+        "Hyperliquid Sets New High With $1.2B Token Unlock Days Away",
         "Coinbase Enters the Tokenized Stock Wars",
-        "Coinbase Debuts Tokenized Stocks On Base Network",
-        "Crypto Exchange Trading Volumes Double In Five Days"
+        "Coinbase Debuts Tokenized Stocks On Base Network"
       ],
       "high_impact_news": true
     },
@@ -994,7 +1015,7 @@
       "news_headlines": [
         "GLD\u2019s Gains Are Taxed at 28% as a Collectible, Not the 15% Rate Every Other ETF Gets",
         "Daily ETF Flows: GLD  IBIT Pick Up Assets",
-        "Treasury Yields Fall, Gold Rises On Bessent's $1 Trillion Warning"
+        "Investors Pour $56B Into ETFs as Gold and Bitcoin Roar Back"
       ],
       "high_impact_news": true
     },
@@ -1100,27 +1121,6 @@
         "Coca-Cola Just Won a Key Consumer Battle",
         "Costco fights customer\u2019s tariff suit as refunds flow in",
         "Will Costco's AI Search Growth Become a Meaningful Sales Catalyst?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HAL",
-      "rank_score": 0.4482,
-      "price": 34.630001068115234,
-      "rsi": 28.131457370194624,
-      "momentum_5d": 0.012721198338155206,
-      "momentum_1d": -0.012405463443036118,
-      "macd_crossover": false,
-      "atr_pct": 0.008290085490225564,
-      "bollinger_pct_b": 0.2564,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.36,
-      "news_sentiment": 0.93,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "Halliburton Expands Presence in Brazil With New Petrobras CCS Deal",
-        "How Strong Quarterly Results And New Tech Partnerships At Halliburton (HAL) Have Changed Its Investment Story",
-        "Halliburton (HAL) Brings Three Startups Into Its Labs Push Beyond Oilfield Services"
       ],
       "high_impact_news": true
     }
