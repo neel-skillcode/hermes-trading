@@ -110,36 +110,6 @@
     "price_peak": 80.1500015258789,
     "trailing_stop_price": 77.723861
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260820200044",
-    "asset": "EUR/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 185.82000732421875,
-    "entry_time": "2026-08-20T20:00:44.906885+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00491,
-    "size_usd": 6104.65,
-    "position_size_pct": 0.0585,
-    "confidence": 0.914,
-    "signals": [
-      "RSI overbought (93.4)",
-      "1d momentum +0.62%",
-      "BB overbought (pct_b=0.92)",
-      "News -1.00 (conf 0.70) \u2192 short",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone mixed sentiment across 1 articles. Overall new"
-    ],
-    "news_sentiment": -1.0,
-    "news_headlines": [
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-    ],
-    "mode": "paper",
-    "strategy_version": "100",
-    "status": "open",
-    "price_trough": 185.36199951171875,
-    "trailing_stop_price": 185.732724
-  },
   "USD/JPY": {
     "id": "USD/JPY_20260821090347",
     "asset": "USD/JPY",
@@ -168,8 +138,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 159.0399932861328,
-    "trailing_stop_price": 157.767673
+    "price_peak": 159.0919952392578,
+    "trailing_stop_price": 157.819259
   },
   "AMZN": {
     "id": "AMZN_20260821135337",
@@ -538,7 +508,9 @@
     ],
     "mode": "paper",
     "strategy_version": "106",
-    "status": "open"
+    "status": "open",
+    "price_peak": 2458.860107421875,
+    "trailing_stop_price": 2433.705969
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260824021155",
@@ -592,6 +564,36 @@
       "Should You Take Profits on XRP After a 50% Week? We Asked 2 AI Models",
       "XRP Has Rallied 1,000% After Every 60% Crash. Is this the Fourth?",
       "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?"
+    ],
+    "mode": "paper",
+    "strategy_version": "106",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260824073448",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 94.2699966430664,
+    "entry_time": "2026-08-24T07:34:48.663445+00:00",
+    "stop_loss_pct": 0.01087,
+    "take_profit_pct": 0.02684,
+    "size_usd": 6105.33,
+    "position_size_pct": 0.0587,
+    "confidence": 0.937,
+    "signals": [
+      "RSI oversold (42.8)",
+      "5d momentum -0.34%",
+      "1d momentum +1.99%",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.191,
+    "news_headlines": [
+      "Trump Team Pulls Millions From TRUMP Memecoin Liquidity Pools During Price Rally",
+      "Another TRUMP Coin? Eric Trump Shuts Down New Crypto Rumors",
+      "Solana Price Prediction: SOL Enters Bull Market Territory as Market Sentiment Shifts"
     ],
     "mode": "paper",
     "strategy_version": "106",
