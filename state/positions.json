@@ -239,8 +239,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 16.719999313354492,
-    "trailing_stop_price": 16.970799
+    "price_trough": 16.600000381469727,
+    "trailing_stop_price": 16.849
   },
   "GS": {
     "id": "GS_20260821194841",
@@ -435,39 +435,6 @@
     "price_peak": 484.5899963378906,
     "trailing_stop_price": 477.44714
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260824144920",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 79516.109375,
-    "entry_time": "2026-08-24T14:49:20.822646+00:00",
-    "stop_loss_pct": 0.00989,
-    "take_profit_pct": 0.02449,
-    "size_usd": 6321.44,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (64.1)",
-      "5d momentum +2.55%",
-      "1d momentum +3.03%",
-      "BB overbought (pct_b=1.16)",
-      "Volume spike 3.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge; macro risk"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-      "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold",
-      "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day"
-    ],
-    "mode": "paper",
-    "strategy_version": "107",
-    "status": "open",
-    "price_trough": 78752.1328125,
-    "trailing_stop_price": 79530.991406
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260824144920",
     "asset": "ETH-USD",
@@ -562,8 +529,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_peak": 0.08930999785661697,
-    "trailing_stop_price": 0.08797
+    "price_peak": 0.09087999910116196,
+    "trailing_stop_price": 0.089517
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -619,6 +586,36 @@
       "Lucid Stock Drifts Lower Monday: What's Going On?",
       "XPeng Sinks 7% as Q2 Miss Overshadows $6.3B Robotics Valuation, NIO Drops 4%, Tesla Slips",
       "Is Lucid Group (LCID) Trading At A Premium After Gravity GT S?"
+    ],
+    "mode": "paper",
+    "strategy_version": "107",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260825011754",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 101.7699966430664,
+    "entry_time": "2026-08-25T01:17:54.586753+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5294.15,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (80.2)",
+      "5d momentum +6.11%",
+      "1d momentum +6.65%",
+      "BB overbought (pct_b=1.18)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.556,
+    "news_headlines": [
+      "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+      "Solana sets an all-time record for weekly network activity",
+      "Prediction: 1 Cryptocurrency That Will Be Worth More Than Bitcoin and Ethereum Combined"
     ],
     "mode": "paper",
     "strategy_version": "107",

@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104190.47,
+  "portfolio_balance": 104182.72,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.44,
-  "unrealized_pnl_usd": 756.62,
-  "equity_value": 104947.09,
+  "unrealized_pnl_usd": 701.64,
+  "equity_value": 104884.37,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41676.19,
+  "day_capital_used_usd": 40648.9,
   "swing_capital_used_usd": 51578.28,
-  "total_trades": 1196,
-  "last_tick": "2026-08-24T23:58:04.483887+00:00",
+  "total_trades": 1197,
+  "last_tick": "2026-08-25T01:17:54.589095+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 6,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,8 +40,8 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8364,
-      "unrealized_pnl_pct": 0.000268,
+      "current_price": 7.83641,
+      "unrealized_pnl_pct": 0.000269,
       "unrealized_pnl_usd": 0.36
     },
     {
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85553,
-      "unrealized_pnl_pct": -0.001874,
-      "unrealized_pnl_usd": -13.04
+      "current_price": 0.85548,
+      "unrealized_pnl_pct": -0.001815,
+      "unrealized_pnl_usd": -12.63
     },
     {
       "id": "UBER_20260812164126",
@@ -142,9 +142,9 @@
       "status": "open",
       "price_peak": 159.1790008544922,
       "trailing_stop_price": 157.905569,
-      "current_price": 159.123001,
-      "unrealized_pnl_pct": 0.004045,
-      "unrealized_pnl_usd": 17.79
+      "current_price": 159.136002,
+      "unrealized_pnl_pct": 0.004127,
+      "unrealized_pnl_usd": 18.16
     },
     {
       "id": "AMZN_20260821135337",
@@ -496,42 +496,6 @@
       "unrealized_pnl_usd": 31.69
     },
     {
-      "id": "BTC-USD_20260824144920",
-      "asset": "BTC-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 79516.109375,
-      "entry_time": "2026-08-24T14:49:20.822646+00:00",
-      "stop_loss_pct": 0.00989,
-      "take_profit_pct": 0.02449,
-      "size_usd": 6321.44,
-      "position_size_pct": 0.0608,
-      "confidence": 0.95,
-      "signals": [
-        "RSI overbought (64.1)",
-        "5d momentum +2.55%",
-        "1d momentum +3.03%",
-        "BB overbought (pct_b=1.16)",
-        "Volume spike 3.6\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: price surge; macro risk"
-      ],
-      "news_sentiment": 0.081,
-      "news_headlines": [
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold",
-        "Scott Bessent just kicked the bitcoin debasement trade into another gear: Chart of the Day"
-      ],
-      "mode": "paper",
-      "strategy_version": "107",
-      "status": "open",
-      "price_trough": 78752.1328125,
-      "trailing_stop_price": 79530.991406,
-      "current_price": 78903.671875,
-      "unrealized_pnl_pct": 0.007702,
-      "unrealized_pnl_usd": 48.69
-    },
-    {
       "id": "ETH-USD_20260824144920",
       "asset": "ETH-USD",
       "trade_type": "day",
@@ -563,9 +527,9 @@
       "status": "open",
       "price_trough": 2466.159912109375,
       "trailing_stop_price": 2494.767367,
-      "current_price": 2480.600098,
-      "unrealized_pnl_pct": 0.014195,
-      "unrealized_pnl_usd": 24.58
+      "current_price": 2491.719971,
+      "unrealized_pnl_pct": 0.009776,
+      "unrealized_pnl_usd": 16.93
     },
     {
       "id": "TGT_20260824152510",
@@ -631,11 +595,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_peak": 0.0898900032043457,
-      "trailing_stop_price": 0.088542,
-      "current_price": 0.08991,
-      "unrealized_pnl_pct": 0.011703,
-      "unrealized_pnl_usd": 0.53
+      "price_peak": 0.09087999910116196,
+      "trailing_stop_price": 0.089517,
+      "current_price": 0.09108,
+      "unrealized_pnl_pct": 0.024868,
+      "unrealized_pnl_usd": 1.13
     },
     {
       "id": "COST_20260824175145",
@@ -701,9 +665,63 @@
       "current_price": 5.095,
       "unrealized_pnl_pct": -0.013056,
       "unrealized_pnl_usd": -75.36
+    },
+    {
+      "id": "SOL-USD_20260825011754",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 101.7699966430664,
+      "entry_time": "2026-08-25T01:17:54.586753+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03596,
+      "size_usd": 5294.15,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (80.2)",
+        "5d momentum +6.11%",
+        "1d momentum +6.65%",
+        "BB overbought (pct_b=1.18)",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.556,
+      "news_headlines": [
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Solana sets an all-time record for weekly network activity",
+        "Prediction: 1 Cryptocurrency That Will Be Worth More Than Bitcoin and Ethereum Combined"
+      ],
+      "mode": "paper",
+      "strategy_version": "107",
+      "status": "open",
+      "current_price": 101.769997,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.7891,
+      "price": 101.7699966430664,
+      "rsi": 80.16950204571434,
+      "momentum_5d": 0.06109887141284831,
+      "momentum_1d": 0.06654787880920036,
+      "macd_crossover": false,
+      "atr_pct": 0.016753476882561114,
+      "bollinger_pct_b": 1.1815,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.556,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Solana sets an all-time record for weekly network activity",
+        "Prediction: 1 Cryptocurrency That Will Be Worth More Than Bitcoin and Ethereum Combined"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "LCID",
       "rank_score": 0.7675,
@@ -727,7 +745,7 @@
     },
     {
       "asset": "MA",
-      "rank_score": 0.6873,
+      "rank_score": 0.6953,
       "price": 599.8300170898438,
       "rsi": 89.72217722034051,
       "momentum_5d": 0.004841382109789459,
@@ -737,18 +755,18 @@
       "bollinger_pct_b": 0.9072,
       "volume_spike": true,
       "volume_spike_ratio": 1.89,
-      "news_sentiment": 0.535,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.633,
+      "news_confidence": 0.49,
       "news_headlines": [
         "Stablecoin card spending triples to $1 billion",
         "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings",
-        "Is Mastercard (MA) Undervalued Or Is Its Recent Rally Already Priced In?"
+        "Will PYPL Stock's Multiple Catch Up?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ON",
-      "rank_score": 0.6522,
+      "rank_score": 0.6442,
       "price": 71.94000244140625,
       "rsi": 29.72182287949009,
       "momentum_5d": 0.008693252232683697,
@@ -758,12 +776,12 @@
       "bollinger_pct_b": 0.2173,
       "volume_spike": true,
       "volume_spike_ratio": 2.12,
-      "news_sentiment": 0.735,
-      "news_confidence": 0.66,
+      "news_sentiment": 0.675,
+      "news_confidence": 0.6,
       "news_headlines": [
+        "Reading Between The Lines Of ADI's Latest Call",
         "Chipmaker Stock Pullback Could Reap Bullish Implications",
-        "ON Semiconductor (ON) Stock May Be 2% Undervalued As AI Data Center Wins Build",
-        "Synaptics CFO Resigns, Company Skips Successor Search Before Merger"
+        "ON Semiconductor (ON) Stock May Be 2% Undervalued As AI Data Center Wins Build"
       ],
       "high_impact_news": true
     },
@@ -785,27 +803,6 @@
         "Is Meta Stock Actually the Cheapest Mega-Cap Tech Bet?",
         "Is Pinterest Worth Buying as AI Growth Meets Valuation and Cost Risks?",
         "Snap Rises 4%, Meta Platforms and Alphabet Tick Up, Reddit Slips as the Social Media Trade Splits"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.6292,
-      "price": 98.51000213623047,
-      "rsi": 72.44188790455794,
-      "momentum_5d": 0.0271087308398077,
-      "momentum_1d": 0.03238319038545953,
-      "macd_crossover": false,
-      "atr_pct": 0.014907850088845485,
-      "bollinger_pct_b": 1.0697,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.29,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Solana sets an all-time record for weekly network activity",
-        "Prediction: 1 Cryptocurrency That Will Be Worth More Than Bitcoin and Ethereum Combined"
       ],
       "high_impact_news": true
     },
@@ -853,7 +850,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.6021,
+      "rank_score": 0.5911,
       "price": 208.4600067138672,
       "rsi": 23.804883950341534,
       "momentum_5d": -0.006718389651331536,
@@ -863,8 +860,8 @@
       "bollinger_pct_b": 0.0796,
       "volume_spike": false,
       "volume_spike_ratio": 0.37,
-      "news_sentiment": 0.967,
-      "news_confidence": 0.61,
+      "news_sentiment": 0.889,
+      "news_confidence": 0.54,
       "news_headlines": [
         "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
         "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
@@ -874,7 +871,7 @@
     },
     {
       "asset": "V",
-      "rank_score": 0.5663,
+      "rank_score": 0.5743,
       "price": 382.44000244140625,
       "rsi": 87.52289512141076,
       "momentum_5d": 0.002437662582831253,
@@ -884,12 +881,12 @@
       "bollinger_pct_b": 0.883,
       "volume_spike": false,
       "volume_spike_ratio": 1.25,
-      "news_sentiment": 0.2,
+      "news_sentiment": 0.345,
       "news_confidence": 0.55,
       "news_headlines": [
         "Stablecoin card spending triples to $1 billion",
-        "Visa Charges Toward New All-Time Closing High",
-        "Stock Market Today: Dow Up As Trump Says This On Canada; Nvidia Shares Skid Despite AI Move (Live Coverage)"
+        "Will PYPL Stock's Multiple Catch Up?",
+        "Visa Charges Toward New All-Time Closing High"
       ],
       "high_impact_news": true
     },
