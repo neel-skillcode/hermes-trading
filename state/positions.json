@@ -113,8 +113,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 159.26600646972656,
-    "trailing_stop_price": 157.991878
+    "price_peak": 159.43800354003906,
+    "trailing_stop_price": 158.1625
   },
   "AMZN": {
     "id": "AMZN_20260821135337",
@@ -554,34 +554,34 @@
     ],
     "mode": "paper",
     "strategy_version": "107",
-    "status": "open"
+    "status": "open",
+    "price_trough": 100.27999877929688,
+    "trailing_stop_price": 101.784199
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260825023241",
-    "asset": "XRP-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260825080029",
+    "asset": "AVAX-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.5434999465942383,
-    "entry_time": "2026-08-25T02:32:41.111158+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 2799.83,
-    "position_size_pct": 0.0269,
-    "confidence": 0.87,
+    "direction": "long",
+    "entry_price": 7.526000022888184,
+    "entry_time": "2026-08-25T08:00:29.163255+00:00",
+    "stop_loss_pct": 0.00845,
+    "take_profit_pct": 0.01929,
+    "size_usd": 2841.48,
+    "position_size_pct": 0.0272,
+    "confidence": 0.564,
     "signals": [
-      "RSI overbought (65.2)",
-      "5d momentum +4.01%",
-      "1d momentum +2.60%",
-      "BB overbought (pct_b=1.19)",
-      "Volume spike 2.3\u00d7",
+      "5d momentum -2.02%",
+      "1d momentum +0.90%",
+      "Volume spike 1.6\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: price surge"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.617,
+    "news_sentiment": 0.263,
     "news_headlines": [
-      "Asia's most regulated markets just said yes to Shiba Inu",
-      "Can XRP Be Used With FedNow Through Volante? Here\u2019s What the Evidence Reveals",
-      "XRP Price Prediction: 20% Gain Awaits if XRP Stays Above This Support Area"
+      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
     ],
     "mode": "paper",
     "strategy_version": "107",

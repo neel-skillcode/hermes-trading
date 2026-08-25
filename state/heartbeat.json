@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104179.55,
+  "portfolio_balance": 104283.67,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.45,
-  "unrealized_pnl_usd": 778.84,
-  "equity_value": 104958.39,
+  "portfolio_drawdown_pct": 3.35,
+  "unrealized_pnl_usd": 779.72,
+  "equity_value": 105063.39,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41671.82,
+  "day_capital_used_usd": 41713.47,
   "swing_capital_used_usd": 51578.28,
-  "total_trades": 1199,
-  "last_tick": "2026-08-25T07:14:58.209194+00:00",
+  "total_trades": 1200,
+  "last_tick": "2026-08-25T08:00:29.168786+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8385,
-      "unrealized_pnl_pct": 0.000536,
-      "unrealized_pnl_usd": 0.72
+      "current_price": 7.83826,
+      "unrealized_pnl_pct": 0.000505,
+      "unrealized_pnl_usd": 0.68
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85468,
-      "unrealized_pnl_pct": -0.000878,
-      "unrealized_pnl_usd": -6.11
+      "current_price": 0.85478,
+      "unrealized_pnl_pct": -0.000995,
+      "unrealized_pnl_usd": -6.93
     },
     {
       "id": "UBER_20260812164126",
@@ -140,11 +140,11 @@
       "mode": "paper",
       "strategy_version": "101",
       "status": "open",
-      "price_peak": 159.3560028076172,
-      "trailing_stop_price": 158.081155,
-      "current_price": 159.356003,
-      "unrealized_pnl_pct": 0.005515,
-      "unrealized_pnl_usd": 24.26
+      "price_peak": 159.43800354003906,
+      "trailing_stop_price": 158.1625,
+      "current_price": 159.440002,
+      "unrealized_pnl_pct": 0.006045,
+      "unrealized_pnl_usd": 26.6
     },
     {
       "id": "AMZN_20260821135337",
@@ -624,47 +624,43 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_trough": 101.43000030517578,
-      "trailing_stop_price": 102.95145,
-      "current_price": 101.43,
-      "unrealized_pnl_pct": 0.003341,
-      "unrealized_pnl_usd": 17.69
+      "price_trough": 100.27999877929688,
+      "trailing_stop_price": 101.784199,
+      "current_price": 100.199997,
+      "unrealized_pnl_pct": 0.015427,
+      "unrealized_pnl_usd": 81.67
     },
     {
-      "id": "XRP-USD_20260825023241",
-      "asset": "XRP-USD",
+      "id": "AVAX-USD_20260825080029",
+      "asset": "AVAX-USD",
       "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.5434999465942383,
-      "entry_time": "2026-08-25T02:32:41.111158+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03653,
-      "size_usd": 2799.83,
-      "position_size_pct": 0.0269,
-      "confidence": 0.87,
+      "direction": "long",
+      "entry_price": 7.526000022888184,
+      "entry_time": "2026-08-25T08:00:29.163255+00:00",
+      "stop_loss_pct": 0.00845,
+      "take_profit_pct": 0.01929,
+      "size_usd": 2841.48,
+      "position_size_pct": 0.0272,
+      "confidence": 0.564,
       "signals": [
-        "RSI overbought (65.2)",
-        "5d momentum +4.01%",
-        "1d momentum +2.60%",
-        "BB overbought (pct_b=1.19)",
-        "Volume spike 2.3\u00d7",
+        "5d momentum -2.02%",
+        "1d momentum +0.90%",
+        "Volume spike 1.6\u00d7",
         "High-impact catalyst",
-        "Claude [contradicts]: price surge"
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
       ],
-      "news_sentiment": 0.617,
+      "news_sentiment": 0.263,
       "news_headlines": [
-        "Asia's most regulated markets just said yes to Shiba Inu",
-        "Can XRP Be Used With FedNow Through Volante? Here\u2019s What the Evidence Reveals",
-        "XRP Price Prediction: 20% Gain Awaits if XRP Stays Above This Support Area"
+        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
       ],
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_trough": 1.5078999996185303,
-      "trailing_stop_price": 1.530518,
-      "current_price": 1.5079,
-      "unrealized_pnl_pct": 0.023064,
-      "unrealized_pnl_usd": 64.58
+      "current_price": 7.526,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -796,7 +792,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5821,
+      "rank_score": 0.5941,
       "price": 208.4600067138672,
       "rsi": 23.804883950341534,
       "momentum_5d": -0.006718389651331536,
@@ -806,8 +802,8 @@
       "bollinger_pct_b": 0.0796,
       "volume_spike": false,
       "volume_spike_ratio": 1.32,
-      "news_sentiment": 0.709,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.895,
+      "news_confidence": 0.57,
       "news_headlines": [
         "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
         "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
@@ -854,48 +850,6 @@
         "Crypto Exchange Trading Volumes Double In Five Days",
         "Robinhood CEO Vlad Tenev Is Betting Big on the Future of Tokenization. Here's What That Means for the Average Crypto Investor.",
         "Could This Brokerage Stock Help Make You a Millionaire?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.533,
-      "price": 101.43000030517578,
-      "rsi": 76.03095283664422,
-      "momentum_5d": 0.004953928450294075,
-      "momentum_1d": 0.0784688677719297,
-      "macd_crossover": false,
-      "atr_pct": 0.015739219191469436,
-      "bollinger_pct_b": 0.8055,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.16,
-      "news_sentiment": 0.73,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "X Trade Buttons Coming Soon as Bier Counters Crypto Shadowban Rumors",
-        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.5321,
-      "price": 80682.7890625,
-      "rsi": 76.31079289313179,
-      "momentum_5d": 0.0006001238421528963,
-      "momentum_1d": 0.043790624478541665,
-      "macd_crossover": false,
-      "atr_pct": 0.006826543859157207,
-      "bollinger_pct_b": 0.888,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.28,
-      "news_sentiment": 0.371,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Strategy raise $2B last week \u2014 but it didn't buy any bitcoin",
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold"
       ],
       "high_impact_news": true
     },
@@ -1026,6 +980,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.4922,
+      "price": 100.19999694824219,
+      "rsi": 71.09169741193371,
+      "momentum_5d": -0.007232768797447021,
+      "momentum_1d": 0.06539068258296489,
+      "macd_crossover": false,
+      "atr_pct": 0.01683776097473861,
+      "bollinger_pct_b": 0.6923,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.53,
+      "news_sentiment": 0.73,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "X Trade Buttons Coming Soon as Bier Counters Crypto Shadowban Rumors",
+        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "INTC",
       "rank_score": 0.4775,
       "price": 87.26000213623047,
@@ -1047,44 +1022,63 @@
       "high_impact_news": true
     },
     {
-      "asset": "EUR/GBP",
-      "rank_score": 0.4695,
-      "price": 0.8546800017356873,
-      "rsi": 33.33418237391747,
-      "momentum_5d": -0.0008066490290004123,
-      "momentum_1d": -0.0012853814208301857,
+      "asset": "COST",
+      "rank_score": 0.4655,
+      "price": 971.3800048828125,
+      "rsi": 90.53004455636086,
+      "momentum_5d": 0.006616624747208782,
+      "momentum_1d": 0.004150465118098532,
       "macd_crossover": false,
-      "atr_pct": 0.0004588237376915033,
-      "bollinger_pct_b": -0.2583,
+      "atr_pct": 0.005488775567267112,
+      "bollinger_pct_b": 0.874,
       "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.467,
-      "news_confidence": 0.429,
+      "volume_spike_ratio": 1.41,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "British Pound Rises as Burnham to Become U.K. Prime Minister",
-        "Pound Mostly Steady After Weaker GDP",
-        "ECB holds interest rates at 2% after eurozone inflation drops in January"
+        "The Premium On WMT Stock Vs What Its Peers Deliver",
+        "Coca-Cola Just Won a Key Consumer Battle",
+        "Costco fights customer\u2019s tariff suit as refunds flow in"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "GBP/USD",
-      "rank_score": 0.4687,
-      "price": 1.364089012145996,
-      "rsi": 61.05597191276754,
-      "momentum_5d": 0.0007093323067502357,
-      "momentum_1d": 0.0004365344254999753,
-      "macd_crossover": true,
-      "atr_pct": 0.00045738024143324657,
-      "bollinger_pct_b": 0.8822,
+      "asset": "EUR/JPY",
+      "rank_score": 0.4641,
+      "price": 185.88600158691406,
+      "rsi": 67.65380046512406,
+      "momentum_5d": 0.0003659948194118988,
+      "momentum_1d": 0.0010501711458492972,
+      "macd_crossover": false,
+      "atr_pct": 0.0007566058628159353,
+      "bollinger_pct_b": 1.0572,
       "volume_spike": false,
       "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.152,
-      "news_confidence": 0.33,
+      "news_sentiment": -1.0,
+      "news_confidence": 0.7,
       "news_headlines": [
-        "Scott Bessent and the bond market: a pointless intervention",
-        "US Dollar Price Forecast: Fiscal Risks Weigh on DXY; EUR/USD and GBP/USD Test Key Resistance",
-        "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain"
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARM",
+      "rank_score": 0.4628,
+      "price": 238.8300018310547,
+      "rsi": 24.727764639450044,
+      "momentum_5d": 0.001383655476120283,
+      "momentum_1d": -0.04897862785252401,
+      "macd_crossover": false,
+      "atr_pct": 0.015134044209023494,
+      "bollinger_pct_b": 0.2196,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.01,
+      "news_sentiment": 0.294,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Arm Holdings (ARM) Delivers Strong Growth, but Has the Valuation Run Too Far?",
+        "Arm Holdings (ARM) Shifts Strategy to Sell Own Data Center Chips",
+        "Arm (ARM) Stock Looks Above Fair Value Even After AI Progress"
       ],
       "high_impact_news": true
     }
