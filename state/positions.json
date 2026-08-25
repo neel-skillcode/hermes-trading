@@ -303,8 +303,8 @@
     "mode": "paper",
     "strategy_version": "106",
     "status": "open",
-    "price_peak": 930.5750122070312,
-    "trailing_stop_price": 916.616387
+    "price_peak": 931.9000244140625,
+    "trailing_stop_price": 917.921524
   },
   "NVDA": {
     "id": "NVDA_20260824135951",
@@ -495,7 +495,9 @@
     ],
     "mode": "paper",
     "strategy_version": "107",
-    "status": "open"
+    "status": "open",
+    "price_peak": 39.69499969482422,
+    "trailing_stop_price": 39.312737
   },
   "USO": {
     "id": "USO_20260825134349",
@@ -526,38 +528,9 @@
     ],
     "mode": "paper",
     "strategy_version": "107",
-    "status": "open"
-  },
-  "AMD": {
-    "id": "AMD_20260825134349",
-    "asset": "AMD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 473.489990234375,
-    "entry_time": "2026-08-25T13:43:49.674208+00:00",
-    "stop_loss_pct": 0.01174,
-    "take_profit_pct": 0.02817,
-    "size_usd": 3798.22,
-    "position_size_pct": 0.0363,
-    "confidence": 0.8,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +2.85%",
-      "1d momentum +1.75%",
-      "BB overbought (pct_b=0.88)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: analyst upgrade; price surge; analyst downgrade"
-    ],
-    "news_sentiment": 0.412,
-    "news_headlines": [
-      "How investors should approach Nvidia\u2019s earnings",
-      "AMD upgraded, Five Below downgraded: Wall Street's top analyst calls",
-      "AMD and Intel Rise 3% on a Strong Buy Upgrade and a Pelosi Disclosure, NVIDIA and Broadcom Tick Up"
-    ],
-    "mode": "paper",
-    "strategy_version": "107",
-    "status": "open"
+    "status": "open",
+    "price_peak": 127.91500091552734,
+    "trailing_stop_price": 126.717717
   },
   "BIIB": {
     "id": "BIIB_20260825134349",
@@ -587,6 +560,36 @@
     ],
     "mode": "paper",
     "strategy_version": "107",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260825152202",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 243.75,
+    "entry_time": "2026-08-25T15:22:02.622435+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03698,
+    "size_usd": 3777.3,
+    "position_size_pct": 0.0361,
+    "confidence": 0.931,
+    "signals": [
+      "RSI overbought (61.5)",
+      "MACD crossover",
+      "5d momentum +6.87%",
+      "1d momentum +3.56%",
+      "High-impact catalyst",
+      "Claude [neutral]: fed hawkish"
+    ],
+    "news_sentiment": 0.472,
+    "news_headlines": [
+      "Investors rotate into tech stocks as inflation concerns ease: AlphaCheck",
+      "Morgan Stanley: Google AI Chip Boom Could Unlock $200 Billion",
+      "How Patience Discounts the Premium on NVIDIA Stock"
+    ],
+    "mode": "paper",
+    "strategy_version": "108",
     "status": "open"
   }
 }
