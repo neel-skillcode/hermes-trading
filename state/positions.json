@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "85",
     "status": "open",
-    "price_peak": 80.1500015258789,
-    "trailing_stop_price": 77.723861
+    "price_peak": 80.16000366210938,
+    "trailing_stop_price": 77.73356
   },
   "USD/JPY": {
     "id": "USD/JPY_20260821090347",
@@ -273,8 +273,8 @@
     "mode": "paper",
     "strategy_version": "106",
     "status": "open",
-    "price_peak": 212.44000244140625,
-    "trailing_stop_price": 210.655506
+    "price_peak": 213.0749969482422,
+    "trailing_stop_price": 211.285167
   },
   "KLAC": {
     "id": "KLAC_20260824135951",
@@ -369,39 +369,6 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open"
-  },
-  "NKE": {
-    "id": "NKE_20260825134349",
-    "asset": "NKE",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 39.310001373291016,
-    "entry_time": "2026-08-25T13:43:49.670424+00:00",
-    "stop_loss_pct": 0.00963,
-    "take_profit_pct": 0.02345,
-    "size_usd": 5821.49,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (30.4)",
-      "5d momentum -3.72%",
-      "1d momentum -4.39%",
-      "BB oversold (pct_b=-0.34)",
-      "Volume spike 4.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.086,
-    "news_headlines": [
-      "Palantir highlighted as Zacks Bull and GoPro Bear of the Day",
-      "Dick\u2019s Sporting Goods Cuts Earnings Outlook as Same-Store Sales Slow. Stock Sinks.",
-      "Dick\u2019s Lowers Outlook Amid Foot Locker Weakness, More Discounts"
-    ],
-    "mode": "paper",
-    "strategy_version": "107",
-    "status": "open",
-    "price_peak": 39.80500030517578,
-    "trailing_stop_price": 39.421678
   },
   "USO": {
     "id": "USO_20260825134349",
@@ -527,54 +494,23 @@
     "price_trough": 133.0500030517578,
     "trailing_stop_price": 134.923347
   },
-  "MRNA": {
-    "id": "MRNA_20260825165053",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 157.4499969482422,
-    "entry_time": "2026-08-25T16:50:53.954580+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03406,
-    "size_usd": 3548.47,
-    "position_size_pct": 0.034,
-    "confidence": 0.541,
-    "signals": [
-      "5d momentum +12.89%",
-      "1d momentum +8.85%",
-      "BB overbought (pct_b=0.89)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; product catalyst; price surge"
-    ],
-    "news_sentiment": 0.636,
-    "news_headlines": [
-      "What Happens if Moderna\u2019s Cancer Vaccine Works?",
-      "Nvidia, Micron, Marvell, Moderna, Dick\u2019s, Robinhood, and More Stocks That Explain Today\u2019s Market",
-      "Moderna Rallies 11%, BioNTech Ticks Up: Is the mRNA Trade Down to One Name?"
-    ],
-    "mode": "paper",
-    "strategy_version": "108",
-    "status": "open",
-    "price_trough": 156.6199951171875,
-    "trailing_stop_price": 158.969295
-  },
   "SNAP": {
-    "id": "SNAP_20260825181806",
+    "id": "SNAP_20260825190325",
     "asset": "SNAP",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 5.760000228881836,
-    "entry_time": "2026-08-25T18:18:06.493704+00:00",
+    "entry_price": 5.920000076293945,
+    "entry_time": "2026-08-25T19:03:25.165927+00:00",
     "stop_loss_pct": 0.015,
     "take_profit_pct": 0.03596,
-    "size_usd": 2471.69,
-    "position_size_pct": 0.0237,
+    "size_usd": 5302.08,
+    "position_size_pct": 0.0508,
     "confidence": 0.794,
     "signals": [
-      "RSI overbought (96.2)",
-      "5d momentum +4.16%",
-      "1d momentum +13.39%",
-      "BB overbought (pct_b=0.94)",
+      "RSI overbought (97.0)",
+      "5d momentum +5.06%",
+      "1d momentum +16.19%",
+      "BB overbought (pct_b=1.04)",
       "High-impact catalyst",
       "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
     ],
@@ -583,6 +519,68 @@
       "SNAP: Priced Like A Decline, Paying Like A Machine",
       "Teens Return to TikTok After World\u2019s First Usage Ban, Data Show",
       "Is Meta Stock Actually the Cheapest Mega-Cap Tech Bet?"
+    ],
+    "mode": "paper",
+    "strategy_version": "108",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260825190325",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 159.0800018310547,
+    "entry_time": "2026-08-25T19:03:25.167447+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5809.59,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (63.8)",
+      "MACD crossover",
+      "5d momentum +3.89%",
+      "1d momentum +19.56%",
+      "BB overbought (pct_b=0.87)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; product catalyst; price surge"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Schwab SCHD draws $679M as dividend ETF climbs 2.39%",
+      "Moderna Stock Soars on Cancer Vaccine Breakthrough",
+      "Moderna, Nvidia, Apple, Dick\u2019s, Robinhood, AMD, and More Stocks That Explain Today\u2019s Market"
+    ],
+    "mode": "paper",
+    "strategy_version": "108",
+    "status": "open"
+  },
+  "AVGO": {
+    "id": "AVGO_20260825190325",
+    "asset": "AVGO",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 356.44000244140625,
+    "entry_time": "2026-08-25T19:03:25.168801+00:00",
+    "stop_loss_pct": 0.00909,
+    "take_profit_pct": 0.02268,
+    "size_usd": 693.39,
+    "position_size_pct": 0.0066,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (26.0)",
+      "5d momentum -0.36%",
+      "1d momentum -2.03%",
+      "BB oversold (pct_b=0.14)",
+      "Volume spike 5.7\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.591,
+    "news_headlines": [
+      "Broadcom Stabilizes as Google Turns Custom Chips Into a Contest",
+      "Broadcom (AVGO) Debuts VMware Cloud Foundation 9.1 In Managed Multitenant Cloud",
+      "How Patience Discounts the Premium on NVIDIA Stock"
     ],
     "mode": "paper",
     "strategy_version": "108",
