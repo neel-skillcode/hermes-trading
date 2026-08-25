@@ -3,15 +3,15 @@
   "portfolio_balance": 104645.35,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.01,
-  "unrealized_pnl_usd": 550.44,
-  "equity_value": 105195.79,
+  "unrealized_pnl_usd": 551.01,
+  "equity_value": 105196.36,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41858.14,
   "swing_capital_used_usd": 49608.1,
   "total_trades": 1221,
-  "last_tick": "2026-08-25T23:14:57.882915+00:00",
+  "last_tick": "2026-08-25T23:40:19.294638+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8375,
-      "unrealized_pnl_pct": 0.000408,
-      "unrealized_pnl_usd": 0.55
+      "current_price": 7.8376,
+      "unrealized_pnl_pct": 0.000421,
+      "unrealized_pnl_usd": 0.57
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -142,9 +142,9 @@
       "status": "open",
       "price_peak": 159.43800354003906,
       "trailing_stop_price": 158.1625,
-      "current_price": 159.229004,
-      "unrealized_pnl_pct": 0.004714,
-      "unrealized_pnl_usd": 20.74
+      "current_price": 159.248993,
+      "unrealized_pnl_pct": 0.00484,
+      "unrealized_pnl_usd": 21.29
     },
     {
       "id": "AMZN_20260821135337",
@@ -734,7 +734,7 @@
     },
     {
       "asset": "META",
-      "rank_score": 0.602,
+      "rank_score": 0.6071,
       "price": 569.864990234375,
       "rsi": 90.2650071799975,
       "momentum_5d": 0.011483897583099114,
@@ -744,18 +744,18 @@
       "bollinger_pct_b": 0.9555,
       "volume_spike": false,
       "volume_spike_ratio": 1.23,
-      "news_sentiment": 0.814,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.87,
+      "news_confidence": 0.46,
       "news_headlines": [
         "The real question investors should be asking ahead of Nvidia earnings",
         "Coca-Cola's new CEO can boast about something that 'Magnificent 7' members Elon Musk and Mark Zuckerberg can't",
-        "OpenAI\u2019s Data-Center Chief Has Reportedly Left \u2014 Executive Exodus Grows Ahead Of Planned IPO"
+        "How Meta\u2019s Hatch AI Deal With Reddit Data Could Impact Reddit (RDDT) Investors"
       ],
       "high_impact_news": true
     },
     {
       "asset": "GS",
-      "rank_score": 0.5917,
+      "rank_score": 0.5897,
       "price": 1059.1065673828125,
       "rsi": 69.41553878438998,
       "momentum_5d": 0.009153470588673178,
@@ -765,8 +765,8 @@
       "bollinger_pct_b": 0.8592,
       "volume_spike": true,
       "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.556,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.535,
+      "news_confidence": 0.43,
       "news_headlines": [
         "Best CD rates today, Tuesday, August 25, 2026: Lock in up to 4.30% APY today with multiple offers",
         "157-year-old Wall Street giant has a new call on Coinbase and Robinhood",
@@ -964,6 +964,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5363,
+      "price": 0.08623000234365463,
+      "rsi": 25.409826054031612,
+      "momentum_5d": -0.028284835851717493,
+      "momentum_1d": -0.042846007687107036,
+      "macd_crossover": false,
+      "atr_pct": 0.013013372249504152,
+      "bollinger_pct_b": 0.1041,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.82,
+      "news_sentiment": 0.795,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Crypto\u2019s biggest rally since 2023: With Bitcoin price at a high, here\u2019s what history, Ray Dalio, and Kalshi predict comes next",
+        "Should You Buy Dogecoin While It's Below $0.10? The Answer Might Shock You.",
+        "Down 32% or More in 2026, Are Any of These Top Cryptocurrencies Worth Buying Right Now?"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.5298,
+      "price": 1.4372999668121338,
+      "rsi": 32.82010906579208,
+      "momentum_5d": -0.0262195025919541,
+      "momentum_1d": -0.0297036587264894,
+      "macd_crossover": false,
+      "atr_pct": 0.013124811445381183,
+      "bollinger_pct_b": 0.0693,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.27,
+      "news_sentiment": 0.725,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "XRP Is Up 48% in a Week. Is It Too Late to Buy?",
+        "XRP Hot Streak Cools as Traders Hit a Wall: Where Does It Go Next?",
+        "XRP active addresses jump 655%, analyst warns of bigger moves"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MA",
       "rank_score": 0.522,
       "price": 599.2899780273438,
@@ -1004,48 +1046,6 @@
         "Take-Two Stock's Next Leg Sits In A Guide That Has Not Moved"
       ],
       "high_impact_news": true
-    },
-    {
-      "asset": "PYPL",
-      "rank_score": 0.5209,
-      "price": 62.2599983215332,
-      "rsi": 70.30519707394035,
-      "momentum_5d": 0.004687738632101468,
-      "momentum_1d": 0.009730756983553185,
-      "macd_crossover": true,
-      "atr_pct": 0.005959451487797183,
-      "bollinger_pct_b": 0.9012,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.09,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "SoFi Rises 3% as the Stablecoin Trade Pulls Fintech Into the Crypto Bid, Coinbase Climbs 5%",
-        "SoFi Technologies Stablecoin Push: Can SoFiUSD Scale Payments?",
-        "Visa Stock Offers A Different Rhythm"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.5097,
-      "price": 67.91999816894531,
-      "rsi": 73.31609801991549,
-      "momentum_5d": 0.0007366350425821818,
-      "momentum_1d": 0.02621440922190202,
-      "macd_crossover": false,
-      "atr_pct": 0.006357291372304161,
-      "bollinger_pct_b": 0.9321,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.83,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "The Hidden Engine That Could Drive Walt Disney Stock Higher",
-        "3 Dividend Stocks to Hold for the Next 10 Years",
-        "PFE vs BMY: Which Large Oncology Drugmaker Is a Better Stock Now?"
-      ],
-      "high_impact_news": false
     }
   ]
 }
