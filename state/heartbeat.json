@@ -3,15 +3,15 @@
   "portfolio_balance": 104179.55,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.45,
-  "unrealized_pnl_usd": 695.1,
-  "equity_value": 104874.65,
+  "unrealized_pnl_usd": 750.38,
+  "equity_value": 104929.93,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41671.82,
   "swing_capital_used_usd": 51578.28,
   "total_trades": 1199,
-  "last_tick": "2026-08-25T05:52:58.429710+00:00",
+  "last_tick": "2026-08-25T06:22:51.375604+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8388,
-      "unrealized_pnl_pct": 0.000574,
-      "unrealized_pnl_usd": 0.77
+      "current_price": 7.83902,
+      "unrealized_pnl_pct": 0.000602,
+      "unrealized_pnl_usd": 0.81
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85542,
-      "unrealized_pnl_pct": -0.001745,
-      "unrealized_pnl_usd": -12.14
+      "current_price": 0.8555,
+      "unrealized_pnl_pct": -0.001839,
+      "unrealized_pnl_usd": -12.8
     },
     {
       "id": "UBER_20260812164126",
@@ -140,11 +140,11 @@
       "mode": "paper",
       "strategy_version": "101",
       "status": "open",
-      "price_peak": 159.3090057373047,
-      "trailing_stop_price": 158.034534,
-      "current_price": 159.315002,
-      "unrealized_pnl_pct": 0.005256,
-      "unrealized_pnl_usd": 23.13
+      "price_peak": 159.32899475097656,
+      "trailing_stop_price": 158.054363,
+      "current_price": 159.334,
+      "unrealized_pnl_pct": 0.005376,
+      "unrealized_pnl_usd": 23.65
     },
     {
       "id": "AMZN_20260821135337",
@@ -624,9 +624,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "current_price": 102.309998,
-      "unrealized_pnl_pct": -0.005306,
-      "unrealized_pnl_usd": -28.09
+      "price_trough": 101.55999755859375,
+      "trailing_stop_price": 103.083398,
+      "current_price": 101.57,
+      "unrealized_pnl_pct": 0.001965,
+      "unrealized_pnl_usd": 10.4
     },
     {
       "id": "XRP-USD_20260825023241",
@@ -658,11 +660,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_trough": 1.523800015449524,
-      "trailing_stop_price": 1.546657,
-      "current_price": 1.5249,
-      "unrealized_pnl_pct": 0.012051,
-      "unrealized_pnl_usd": 33.74
+      "price_trough": 1.5163999795913696,
+      "trailing_stop_price": 1.539146,
+      "current_price": 1.5156,
+      "unrealized_pnl_pct": 0.018076,
+      "unrealized_pnl_usd": 50.61
     }
   ],
   "last_candidates": [
@@ -793,29 +795,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.5985,
-      "price": 80767.671875,
-      "rsi": 72.41565317698414,
-      "momentum_5d": 0.012839159770397592,
-      "momentum_1d": 0.04676123796984092,
-      "macd_crossover": false,
-      "atr_pct": 0.0076070191626849025,
-      "bollinger_pct_b": 0.9757,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.5,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Strategy raise $2B last week \u2014 but it didn't buy any bitcoin",
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "NVDA",
-      "rank_score": 0.5891,
+      "rank_score": 0.5971,
       "price": 208.4600067138672,
       "rsi": 23.804883950341534,
       "momentum_5d": -0.006718389651331536,
@@ -825,33 +806,12 @@
       "bollinger_pct_b": 0.0796,
       "volume_spike": false,
       "volume_spike_ratio": 1.32,
-      "news_sentiment": 0.767,
-      "news_confidence": 0.6,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.66,
       "news_headlines": [
         "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
         "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
         "Nvidia earnings may come down to guidance and Jensen Huang's confidence"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.5787,
-      "price": 102.30999755859375,
-      "rsi": 76.06387331931452,
-      "momentum_5d": 0.005503661509520885,
-      "momentum_1d": 0.08528695451182758,
-      "macd_crossover": false,
-      "atr_pct": 0.015918010804578834,
-      "bollinger_pct_b": 0.9455,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.69,
-      "news_sentiment": 0.8,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%",
-        "Solana sets an all-time record for weekly network activity"
       ],
       "high_impact_news": true
     },
@@ -877,6 +837,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5686,
+      "price": 80777.96875,
+      "rsi": 73.23685756271517,
+      "momentum_5d": 0.01197754414784555,
+      "momentum_1d": 0.04284628315596662,
+      "macd_crossover": false,
+      "atr_pct": 0.006948258191200362,
+      "bollinger_pct_b": 0.9498,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.13,
+      "news_sentiment": 0.371,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Strategy raise $2B last week \u2014 but it didn't buy any bitcoin",
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.5624,
+      "price": 101.56999969482422,
+      "rsi": 75.6505733043189,
+      "momentum_5d": 0.011049179976780697,
+      "momentum_1d": 0.07436004560205436,
+      "macd_crossover": false,
+      "atr_pct": 0.015239318319138972,
+      "bollinger_pct_b": 0.8422,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.14,
+      "news_sentiment": 0.8,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%",
+        "Solana sets an all-time record for weekly network activity"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HOOD",
       "rank_score": 0.5366,
       "price": 103.6500015258789,
@@ -898,27 +900,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5232,
-      "price": 716.989990234375,
-      "rsi": 71.1211415326269,
-      "momentum_5d": 0.01011537270604385,
-      "momentum_1d": 0.025370025361994994,
-      "macd_crossover": false,
-      "atr_pct": 0.006905861339322896,
-      "bollinger_pct_b": 1.0111,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.28,
-      "news_sentiment": 0.385,
-      "news_confidence": 0.26,
-      "news_headlines": [
-        "HYPE Is Surging \u2013 And These Three Trading Firms Are Sitting On $600M In BTC, ETH Shorts",
-        "500M SAND Minted in Sandbox Exploit as Korean Exchanges Freeze Transfers",
-        "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "KLAC",
       "rank_score": 0.5074,
       "price": 181.5718994140625,
@@ -936,27 +917,6 @@
         "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
         "KLA (KLAC) Gains\u00a0From\u00a0Advanced Nodes, HBM and Packaging",
         "KLA Corporation: See What Wall Street Sees"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5058,
-      "price": 7.685999870300293,
-      "rsi": 66.51577657334208,
-      "momentum_5d": 0.008396700477143691,
-      "momentum_1d": 0.02616823834066266,
-      "macd_crossover": false,
-      "atr_pct": 0.009655770928850473,
-      "bollinger_pct_b": 1.002,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.31,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
       ],
       "high_impact_news": true
     },
@@ -999,27 +959,6 @@
         "GLD\u2019s Gains Are Taxed at 28% as a Collectible, Not the 15% Rate Every Other ETF Gets",
         "Daily ETF Flows: GLD  IBIT Pick Up Assets",
         "Investors Pour $56B Into ETFs as Gold and Bitcoin Roar Back"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.5034,
-      "price": 1.524899959564209,
-      "rsi": 60.34629568276045,
-      "momentum_5d": 0.011810744908965977,
-      "momentum_1d": 0.030198558116902415,
-      "macd_crossover": false,
-      "atr_pct": 0.014712899065735432,
-      "bollinger_pct_b": 0.9252,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.18,
-      "news_sentiment": 0.535,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment?",
-        "Asia's most regulated markets just said yes to Shiba Inu",
-        "Can XRP Be Used With FedNow Through Volante? Here\u2019s What the Evidence Reveals"
       ],
       "high_impact_news": true
     },
@@ -1083,6 +1022,69 @@
         "Sector Update: Financial Stocks Advance Late Afternoon",
         "Which Credit Card Stock Has Dominated in 2026: Visa, Mastercard, or American Express?",
         "Sector Update: Financial Stocks Rise Monday Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.4784,
+      "price": 715.739990234375,
+      "rsi": 71.61360357726538,
+      "momentum_5d": 0.007360882178810129,
+      "momentum_1d": 0.02271942553835938,
+      "macd_crossover": false,
+      "atr_pct": 0.006285207553741778,
+      "bollinger_pct_b": 0.9081,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.13,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.26,
+      "news_headlines": [
+        "HYPE Is Surging \u2013 And These Three Trading Firms Are Sitting On $600M In BTC, ETH Shorts",
+        "500M SAND Minted in Sandbox Exploit as Korean Exchanges Freeze Transfers",
+        "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "INTC",
+      "rank_score": 0.4775,
+      "price": 87.26000213623047,
+      "rsi": 27.467761619682122,
+      "momentum_5d": 0.007097992001749095,
+      "momentum_1d": -0.06383432042360533,
+      "macd_crossover": false,
+      "atr_pct": 0.014376403430661922,
+      "bollinger_pct_b": 0.2029,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.487,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Alibaba Is Selling $10.2 Billion of Stock to Fund AI. Alphabet and Intel Went First.",
+        "Berkshire Hathaway Rose While Every Major Chip Stock Fell Monday",
+        "S&P 500, Nasdaq End Lower On Chipmaker Weakness, While Traders Position For Nvidia Earnings This Week \u2014 AVGO, INTC, BE, NVDA, PSKY In Focus"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.4655,
+      "price": 971.3800048828125,
+      "rsi": 90.53004455636086,
+      "momentum_5d": 0.006616624747208782,
+      "momentum_1d": 0.004150465118098532,
+      "macd_crossover": false,
+      "atr_pct": 0.005488775567267112,
+      "bollinger_pct_b": 0.874,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.41,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "The Premium On WMT Stock Vs What Its Peers Deliver",
+        "Coca-Cola Just Won a Key Consumer Battle",
+        "Costco fights customer\u2019s tariff suit as refunds flow in"
       ],
       "high_impact_news": true
     }
