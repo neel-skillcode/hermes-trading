@@ -211,37 +211,6 @@
     "price_trough": 16.600000381469727,
     "trailing_stop_price": 16.849
   },
-  "GS": {
-    "id": "GS_20260821194841",
-    "asset": "GS",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1038.5,
-    "entry_time": "2026-08-21T19:48:41.071965+00:00",
-    "stop_loss_pct": 0.023,
-    "take_profit_pct": 0.07549,
-    "size_usd": 5613.03,
-    "position_size_pct": 0.0541,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (60.9)",
-      "5d momentum +2.43%",
-      "BB overbought (pct_b=0.99)",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.415,
-    "news_headlines": [
-      "Goldman Sachs Jumps as Banks Power the Dow Rebound",
-      "Sector Update: Financial Stocks Rise in Afternoon Trading",
-      "AI Cloud Firm Nscale Is Said to Seek Up to $3 Billion in US IPO"
-    ],
-    "mode": "paper",
-    "strategy_version": "103",
-    "status": "open",
-    "price_trough": 1032.7149658203125,
-    "trailing_stop_price": 1056.46741
-  },
   "HD": {
     "id": "HD_20260821194841",
     "asset": "HD",
@@ -434,8 +403,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 963.875,
-    "trailing_stop_price": 978.14035
+    "price_trough": 962.6099853515625,
+    "trailing_stop_price": 976.856613
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260825080029",
@@ -587,6 +556,35 @@
       "Investors rotate into tech stocks as inflation concerns ease: AlphaCheck",
       "Morgan Stanley: Google AI Chip Boom Could Unlock $200 Billion",
       "How Patience Discounts the Premium on NVIDIA Stock"
+    ],
+    "mode": "paper",
+    "strategy_version": "108",
+    "status": "open"
+  },
+  "C": {
+    "id": "C_20260825160444",
+    "asset": "C",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 133.17999267578125,
+    "entry_time": "2026-08-25T16:04:44.702445+00:00",
+    "stop_loss_pct": 0.01408,
+    "take_profit_pct": 0.0462,
+    "size_usd": 5652.8,
+    "position_size_pct": 0.0541,
+    "confidence": 0.564,
+    "signals": [
+      "RSI overbought (75.2)",
+      "5d momentum +0.83%",
+      "BB overbought (pct_b=1.04)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.137,
+    "news_headlines": [
+      "Goldman Sachs, Citi, JPMorgan Face Subpoenas Over AI Hedge Fund: Reports",
+      "Goldman vs. Citigroup: Which Bank Stock Is the Better Buy Now?",
+      "Citi Raises Corn, Soybean and Wheat Price Targets as El Ni\u00f1o Risks Intensify"
     ],
     "mode": "paper",
     "strategy_version": "108",
