@@ -3,15 +3,15 @@
   "portfolio_balance": 104283.67,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.35,
-  "unrealized_pnl_usd": 779.72,
-  "equity_value": 105063.39,
+  "unrealized_pnl_usd": 764.02,
+  "equity_value": 105047.69,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41713.47,
   "swing_capital_used_usd": 51578.28,
   "total_trades": 1200,
-  "last_tick": "2026-08-25T08:00:29.168786+00:00",
+  "last_tick": "2026-08-25T08:52:35.749890+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.83826,
-      "unrealized_pnl_pct": 0.000505,
-      "unrealized_pnl_usd": 0.68
+      "current_price": 7.8379,
+      "unrealized_pnl_pct": 0.00046,
+      "unrealized_pnl_usd": 0.62
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85478,
-      "unrealized_pnl_pct": -0.000995,
-      "unrealized_pnl_usd": -6.93
+      "current_price": 0.85536,
+      "unrealized_pnl_pct": -0.001675,
+      "unrealized_pnl_usd": -11.66
     },
     {
       "id": "UBER_20260812164126",
@@ -142,9 +142,9 @@
       "status": "open",
       "price_peak": 159.43800354003906,
       "trailing_stop_price": 158.1625,
-      "current_price": 159.440002,
-      "unrealized_pnl_pct": 0.006045,
-      "unrealized_pnl_usd": 26.6
+      "current_price": 159.362,
+      "unrealized_pnl_pct": 0.005553,
+      "unrealized_pnl_usd": 24.43
     },
     {
       "id": "AMZN_20260821135337",
@@ -626,9 +626,9 @@
       "status": "open",
       "price_trough": 100.27999877929688,
       "trailing_stop_price": 101.784199,
-      "current_price": 100.199997,
-      "unrealized_pnl_pct": 0.015427,
-      "unrealized_pnl_usd": 81.67
+      "current_price": 100.389999,
+      "unrealized_pnl_pct": 0.01356,
+      "unrealized_pnl_usd": 71.79
     },
     {
       "id": "AVAX-USD_20260825080029",
@@ -658,9 +658,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "current_price": 7.526,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 7.5289998054504395,
+      "trailing_stop_price": 7.46538,
+      "current_price": 7.529,
+      "unrealized_pnl_pct": 0.000399,
+      "unrealized_pnl_usd": 1.13
     }
   ],
   "last_candidates": [
@@ -792,7 +794,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5941,
+      "rank_score": 0.5881,
       "price": 208.4600067138672,
       "rsi": 23.804883950341534,
       "momentum_5d": -0.006718389651331536,
@@ -802,11 +804,11 @@
       "bollinger_pct_b": 0.0796,
       "volume_spike": false,
       "volume_spike_ratio": 1.32,
-      "news_sentiment": 0.895,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.763,
+      "news_confidence": 0.59,
       "news_headlines": [
-        "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
-        "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
+        "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings, Fed Jackson Hole summit",
+        "Stock market today: S&P 500, Nasdaq fall as chip stocks sink, US unveils new Iran sanctions",
         "Nvidia earnings may come down to guidance and Jensen Huang's confidence"
       ],
       "high_impact_news": true
@@ -854,6 +856,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "UNH",
+      "rank_score": 0.5111,
+      "price": 398.7699890136719,
+      "rsi": 84.6384382272674,
+      "momentum_5d": 0.008395439889131946,
+      "momentum_1d": 0.02089041235022471,
+      "macd_crossover": false,
+      "atr_pct": 0.0073177074037645735,
+      "bollinger_pct_b": 0.888,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.36,
+      "news_sentiment": -0.333,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Zacks Industry Outlook UnitedHealth, The Cigna, Humana, Centene and Molina",
+        "UnitedHealth Stock's Biggest Risk Sits In The Commercial Book",
+        "5 HMO Stocks to Watch Amid Steady Premium Flow, Increased Digitization"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "KLAC",
       "rank_score": 0.5074,
       "price": 181.5718994140625,
@@ -871,27 +894,6 @@
         "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
         "KLA (KLAC) Gains\u00a0From\u00a0Advanced Nodes, HBM and Packaging",
         "KLA Corporation: See What Wall Street Sees"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "UNH",
-      "rank_score": 0.5051,
-      "price": 398.7699890136719,
-      "rsi": 84.6384382272674,
-      "momentum_5d": 0.008395439889131946,
-      "momentum_1d": 0.02089041235022471,
-      "macd_crossover": false,
-      "atr_pct": 0.0073177074037645735,
-      "bollinger_pct_b": 0.888,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.36,
-      "news_sentiment": -0.174,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "UnitedHealth Stock's Biggest Risk Sits In The Commercial Book",
-        "5 HMO Stocks to Watch Amid Steady Premium Flow, Increased Digitization",
-        "What Does UnitedHealth Group (UNH) IRS Tax Scrutiny Mean For Investors?"
       ],
       "high_impact_news": true
     },
@@ -917,23 +919,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "COIN",
-      "rank_score": 0.5015,
-      "price": 179.48500061035156,
-      "rsi": 60.74980339854338,
-      "momentum_5d": -0.04402130167589048,
-      "momentum_1d": 0.1116031627979062,
+      "asset": "SOL-USD",
+      "rank_score": 0.5009,
+      "price": 100.38999938964844,
+      "rsi": 70.18017757945918,
+      "momentum_5d": -0.011909439986663578,
+      "momentum_1d": 0.06888843001321984,
       "macd_crossover": false,
-      "atr_pct": 0.024915725642529772,
-      "bollinger_pct_b": 0.4243,
+      "atr_pct": 0.01703358177802708,
+      "bollinger_pct_b": 0.6914,
       "volume_spike": false,
       "volume_spike_ratio": 0.55,
-      "news_sentiment": 0.235,
-      "news_confidence": 0.34,
+      "news_sentiment": 0.73,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Coinbase CEO Says Stablecoins Let People Escape Inflation Without Leaving Home: 'Crypto Gives People a Way Out'",
-        "Coinbase Global (COIN) Adds 290 Plus Leveraged Markets To Base App",
-        "Hyperliquid Sets New High With $1.2B Token Unlock Days Away"
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Is PENGU a Good Investment in 2026? Token Jumps 62% as Luca Netz Tweet Sparks IPO Speculation",
+        "X Trade Buttons Coming Soon as Bier Counters Crypto Shadowban Rumors"
       ],
       "high_impact_news": true
     },
@@ -980,23 +982,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.4922,
-      "price": 100.19999694824219,
-      "rsi": 71.09169741193371,
-      "momentum_5d": -0.007232768797447021,
-      "momentum_1d": 0.06539068258296489,
+      "asset": "COIN",
+      "rank_score": 0.4965,
+      "price": 179.48500061035156,
+      "rsi": 60.74980339854338,
+      "momentum_5d": -0.04402130167589048,
+      "momentum_1d": 0.1116031627979062,
       "macd_crossover": false,
-      "atr_pct": 0.01683776097473861,
-      "bollinger_pct_b": 0.6923,
+      "atr_pct": 0.024915725642529772,
+      "bollinger_pct_b": 0.4243,
       "volume_spike": false,
-      "volume_spike_ratio": 0.53,
-      "news_sentiment": 0.73,
-      "news_confidence": 0.37,
+      "volume_spike_ratio": 0.55,
+      "news_sentiment": 0.097,
+      "news_confidence": 0.31,
       "news_headlines": [
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "X Trade Buttons Coming Soon as Bier Counters Crypto Shadowban Rumors",
-        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%"
+        "Zacks Investment Ideas feature highlights: Coinbase and IBIT",
+        "Bitwise CEO Hunter Horsley Teases Tokenized Stocks Product After $1.8B H1 Inflows",
+        "Coinbase CEO Says Stablecoins Let People Escape Inflation Without Leaving Home: 'Crypto Gives People a Way Out'"
       ],
       "high_impact_news": true
     },
@@ -1043,25 +1045,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "EUR/JPY",
-      "rank_score": 0.4641,
-      "price": 185.88600158691406,
-      "rsi": 67.65380046512406,
-      "momentum_5d": 0.0003659948194118988,
-      "momentum_1d": 0.0010501711458492972,
-      "macd_crossover": false,
-      "atr_pct": 0.0007566058628159353,
-      "bollinger_pct_b": 1.0572,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ARM",
       "rank_score": 0.4628,
       "price": 238.8300018310547,
@@ -1079,6 +1062,25 @@
         "Arm Holdings (ARM) Delivers Strong Growth, but Has the Valuation Run Too Far?",
         "Arm Holdings (ARM) Shifts Strategy to Sell Own Data Center Chips",
         "Arm (ARM) Stock Looks Above Fair Value Even After AI Progress"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "EUR/JPY",
+      "rank_score": 0.4482,
+      "price": 185.91400146484375,
+      "rsi": 64.88101725703905,
+      "momentum_5d": 0.0007266402649382807,
+      "momentum_1d": 0.001346518431292878,
+      "macd_crossover": false,
+      "atr_pct": 0.0007438114107401685,
+      "bollinger_pct_b": 1.0227,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -1.0,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
       ],
       "high_impact_news": true
     }
