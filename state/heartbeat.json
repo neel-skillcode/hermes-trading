@@ -3,15 +3,15 @@
   "portfolio_balance": 104179.55,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.45,
-  "unrealized_pnl_usd": 750.38,
-  "equity_value": 104929.93,
+  "unrealized_pnl_usd": 778.84,
+  "equity_value": 104958.39,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41671.82,
   "swing_capital_used_usd": 51578.28,
   "total_trades": 1199,
-  "last_tick": "2026-08-25T06:22:51.375604+00:00",
+  "last_tick": "2026-08-25T07:14:58.209194+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.83902,
-      "unrealized_pnl_pct": 0.000602,
-      "unrealized_pnl_usd": 0.81
+      "current_price": 7.8385,
+      "unrealized_pnl_pct": 0.000536,
+      "unrealized_pnl_usd": 0.72
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.8555,
-      "unrealized_pnl_pct": -0.001839,
-      "unrealized_pnl_usd": -12.8
+      "current_price": 0.85468,
+      "unrealized_pnl_pct": -0.000878,
+      "unrealized_pnl_usd": -6.11
     },
     {
       "id": "UBER_20260812164126",
@@ -140,11 +140,11 @@
       "mode": "paper",
       "strategy_version": "101",
       "status": "open",
-      "price_peak": 159.32899475097656,
-      "trailing_stop_price": 158.054363,
-      "current_price": 159.334,
-      "unrealized_pnl_pct": 0.005376,
-      "unrealized_pnl_usd": 23.65
+      "price_peak": 159.3560028076172,
+      "trailing_stop_price": 158.081155,
+      "current_price": 159.356003,
+      "unrealized_pnl_pct": 0.005515,
+      "unrealized_pnl_usd": 24.26
     },
     {
       "id": "AMZN_20260821135337",
@@ -624,11 +624,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_trough": 101.55999755859375,
-      "trailing_stop_price": 103.083398,
-      "current_price": 101.57,
-      "unrealized_pnl_pct": 0.001965,
-      "unrealized_pnl_usd": 10.4
+      "price_trough": 101.43000030517578,
+      "trailing_stop_price": 102.95145,
+      "current_price": 101.43,
+      "unrealized_pnl_pct": 0.003341,
+      "unrealized_pnl_usd": 17.69
     },
     {
       "id": "XRP-USD_20260825023241",
@@ -660,11 +660,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_trough": 1.5163999795913696,
-      "trailing_stop_price": 1.539146,
-      "current_price": 1.5156,
-      "unrealized_pnl_pct": 0.018076,
-      "unrealized_pnl_usd": 50.61
+      "price_trough": 1.5078999996185303,
+      "trailing_stop_price": 1.530518,
+      "current_price": 1.5079,
+      "unrealized_pnl_pct": 0.023064,
+      "unrealized_pnl_usd": 64.58
     }
   ],
   "last_candidates": [
@@ -796,7 +796,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5971,
+      "rank_score": 0.5821,
       "price": 208.4600067138672,
       "rsi": 23.804883950341534,
       "momentum_5d": -0.006718389651331536,
@@ -806,8 +806,8 @@
       "bollinger_pct_b": 0.0796,
       "volume_spike": false,
       "volume_spike_ratio": 1.32,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.66,
+      "news_sentiment": 0.709,
+      "news_confidence": 0.55,
       "news_headlines": [
         "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
         "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
@@ -837,48 +837,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.5686,
-      "price": 80777.96875,
-      "rsi": 73.23685756271517,
-      "momentum_5d": 0.01197754414784555,
-      "momentum_1d": 0.04284628315596662,
-      "macd_crossover": false,
-      "atr_pct": 0.006948258191200362,
-      "bollinger_pct_b": 0.9498,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.13,
-      "news_sentiment": 0.371,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Strategy raise $2B last week \u2014 but it didn't buy any bitcoin",
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.5624,
-      "price": 101.56999969482422,
-      "rsi": 75.6505733043189,
-      "momentum_5d": 0.011049179976780697,
-      "momentum_1d": 0.07436004560205436,
-      "macd_crossover": false,
-      "atr_pct": 0.015239318319138972,
-      "bollinger_pct_b": 0.8422,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.14,
-      "news_sentiment": 0.8,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%",
-        "Solana sets an all-time record for weekly network activity"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HOOD",
       "rank_score": 0.5366,
       "price": 103.6500015258789,
@@ -896,6 +854,48 @@
         "Crypto Exchange Trading Volumes Double In Five Days",
         "Robinhood CEO Vlad Tenev Is Betting Big on the Future of Tokenization. Here's What That Means for the Average Crypto Investor.",
         "Could This Brokerage Stock Help Make You a Millionaire?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.533,
+      "price": 101.43000030517578,
+      "rsi": 76.03095283664422,
+      "momentum_5d": 0.004953928450294075,
+      "momentum_1d": 0.0784688677719297,
+      "macd_crossover": false,
+      "atr_pct": 0.015739219191469436,
+      "bollinger_pct_b": 0.8055,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.16,
+      "news_sentiment": 0.73,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "X Trade Buttons Coming Soon as Bier Counters Crypto Shadowban Rumors",
+        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5321,
+      "price": 80682.7890625,
+      "rsi": 76.31079289313179,
+      "momentum_5d": 0.0006001238421528963,
+      "momentum_1d": 0.043790624478541665,
+      "macd_crossover": false,
+      "atr_pct": 0.006826543859157207,
+      "bollinger_pct_b": 0.888,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.28,
+      "news_sentiment": 0.371,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Strategy raise $2B last week \u2014 but it didn't buy any bitcoin",
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold"
       ],
       "high_impact_news": true
     },
@@ -1026,27 +1026,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.4784,
-      "price": 715.739990234375,
-      "rsi": 71.61360357726538,
-      "momentum_5d": 0.007360882178810129,
-      "momentum_1d": 0.02271942553835938,
-      "macd_crossover": false,
-      "atr_pct": 0.006285207553741778,
-      "bollinger_pct_b": 0.9081,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.13,
-      "news_sentiment": 0.385,
-      "news_confidence": 0.26,
-      "news_headlines": [
-        "HYPE Is Surging \u2013 And These Three Trading Firms Are Sitting On $600M In BTC, ETH Shorts",
-        "500M SAND Minted in Sandbox Exploit as Korean Exchanges Freeze Transfers",
-        "BounceBit Retires Its Chain After Attacker Moves 286.5 Million Tokens"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "INTC",
       "rank_score": 0.4775,
       "price": 87.26000213623047,
@@ -1068,23 +1047,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "COST",
-      "rank_score": 0.4655,
-      "price": 971.3800048828125,
-      "rsi": 90.53004455636086,
-      "momentum_5d": 0.006616624747208782,
-      "momentum_1d": 0.004150465118098532,
+      "asset": "EUR/GBP",
+      "rank_score": 0.4695,
+      "price": 0.8546800017356873,
+      "rsi": 33.33418237391747,
+      "momentum_5d": -0.0008066490290004123,
+      "momentum_1d": -0.0012853814208301857,
       "macd_crossover": false,
-      "atr_pct": 0.005488775567267112,
-      "bollinger_pct_b": 0.874,
+      "atr_pct": 0.0004588237376915033,
+      "bollinger_pct_b": -0.2583,
       "volume_spike": false,
-      "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.52,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -0.467,
+      "news_confidence": 0.429,
       "news_headlines": [
-        "The Premium On WMT Stock Vs What Its Peers Deliver",
-        "Coca-Cola Just Won a Key Consumer Battle",
-        "Costco fights customer\u2019s tariff suit as refunds flow in"
+        "British Pound Rises as Burnham to Become U.K. Prime Minister",
+        "Pound Mostly Steady After Weaker GDP",
+        "ECB holds interest rates at 2% after eurozone inflation drops in January"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GBP/USD",
+      "rank_score": 0.4687,
+      "price": 1.364089012145996,
+      "rsi": 61.05597191276754,
+      "momentum_5d": 0.0007093323067502357,
+      "momentum_1d": 0.0004365344254999753,
+      "macd_crossover": true,
+      "atr_pct": 0.00045738024143324657,
+      "bollinger_pct_b": 0.8822,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.152,
+      "news_confidence": 0.33,
+      "news_headlines": [
+        "Scott Bessent and the bond market: a pointless intervention",
+        "US Dollar Price Forecast: Fiscal Risks Weigh on DXY; EUR/USD and GBP/USD Test Key Resistance",
+        "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain"
       ],
       "high_impact_news": true
     }
