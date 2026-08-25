@@ -310,39 +310,6 @@
     "price_peak": 183.05999755859375,
     "trailing_stop_price": 180.581365
   },
-  "AMAT": {
-    "id": "AMAT_20260824135951",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 478.17498779296875,
-    "entry_time": "2026-08-24T13:59:51.751542+00:00",
-    "stop_loss_pct": 0.01474,
-    "take_profit_pct": 0.03647,
-    "size_usd": 2473.85,
-    "position_size_pct": 0.0238,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (31.4)",
-      "5d momentum -1.83%",
-      "1d momentum -5.57%",
-      "BB oversold (pct_b=-0.29)",
-      "Volume spike 2.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.6,
-    "news_headlines": [
-      "Applied Materials (AMAT) Is Positioned to Capture More of the AI Chip Manufacturing Boom",
-      "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That",
-      "MarketBeat Week in Review \u2013 08/17 - 08/21"
-    ],
-    "mode": "paper",
-    "strategy_version": "106",
-    "status": "open",
-    "price_peak": 484.5899963378906,
-    "trailing_stop_price": 477.44714
-  },
   "COST": {
     "id": "COST_20260824175145",
     "asset": "COST",
@@ -584,6 +551,38 @@
       "What Happens if Moderna\u2019s Cancer Vaccine Works?",
       "Nvidia, Micron, Marvell, Moderna, Dick\u2019s, Robinhood, and More Stocks That Explain Today\u2019s Market",
       "Moderna Rallies 11%, BioNTech Ticks Up: Is the mRNA Trade Down to One Name?"
+    ],
+    "mode": "paper",
+    "strategy_version": "108",
+    "status": "open",
+    "price_trough": 156.6199951171875,
+    "trailing_stop_price": 158.969295
+  },
+  "SNAP": {
+    "id": "SNAP_20260825181806",
+    "asset": "SNAP",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 5.760000228881836,
+    "entry_time": "2026-08-25T18:18:06.493704+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 2471.69,
+    "position_size_pct": 0.0237,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (96.2)",
+      "5d momentum +4.16%",
+      "1d momentum +13.39%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.306,
+    "news_headlines": [
+      "SNAP: Priced Like A Decline, Paying Like A Machine",
+      "Teens Return to TikTok After World\u2019s First Usage Ban, Data Show",
+      "Is Meta Stock Actually the Cheapest Mega-Cap Tech Bet?"
     ],
     "mode": "paper",
     "strategy_version": "108",
