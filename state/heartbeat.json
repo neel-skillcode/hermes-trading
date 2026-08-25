@@ -3,15 +3,15 @@
   "portfolio_balance": 104179.55,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.45,
-  "unrealized_pnl_usd": 726.34,
-  "equity_value": 104905.89,
+  "unrealized_pnl_usd": 695.1,
+  "equity_value": 104874.65,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41671.82,
   "swing_capital_used_usd": 51578.28,
   "total_trades": 1199,
-  "last_tick": "2026-08-25T05:20:10.842694+00:00",
+  "last_tick": "2026-08-25T05:52:58.429710+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 8,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8393,
-      "unrealized_pnl_pct": 0.000638,
-      "unrealized_pnl_usd": 0.86
+      "current_price": 7.8388,
+      "unrealized_pnl_pct": 0.000574,
+      "unrealized_pnl_usd": 0.77
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85526,
-      "unrealized_pnl_pct": -0.001558,
-      "unrealized_pnl_usd": -10.84
+      "current_price": 0.85542,
+      "unrealized_pnl_pct": -0.001745,
+      "unrealized_pnl_usd": -12.14
     },
     {
       "id": "UBER_20260812164126",
@@ -140,11 +140,11 @@
       "mode": "paper",
       "strategy_version": "101",
       "status": "open",
-      "price_peak": 159.32699584960938,
-      "trailing_stop_price": 158.05238,
-      "current_price": 159.326004,
-      "unrealized_pnl_pct": 0.005326,
-      "unrealized_pnl_usd": 23.43
+      "price_peak": 159.3090057373047,
+      "trailing_stop_price": 158.034534,
+      "current_price": 159.315002,
+      "unrealized_pnl_pct": 0.005256,
+      "unrealized_pnl_usd": 23.13
     },
     {
       "id": "AMZN_20260821135337",
@@ -624,9 +624,9 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "current_price": 101.919998,
-      "unrealized_pnl_pct": -0.001474,
-      "unrealized_pnl_usd": -7.8
+      "current_price": 102.309998,
+      "unrealized_pnl_pct": -0.005306,
+      "unrealized_pnl_usd": -28.09
     },
     {
       "id": "XRP-USD_20260825023241",
@@ -658,11 +658,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_trough": 1.5199999809265137,
-      "trailing_stop_price": 1.5428,
-      "current_price": 1.5198,
-      "unrealized_pnl_pct": 0.015355,
-      "unrealized_pnl_usd": 42.99
+      "price_trough": 1.523800015449524,
+      "trailing_stop_price": 1.546657,
+      "current_price": 1.5249,
+      "unrealized_pnl_pct": 0.012051,
+      "unrealized_pnl_usd": 33.74
     }
   ],
   "last_candidates": [
@@ -752,7 +752,7 @@
     },
     {
       "asset": "TGT",
-      "rank_score": 0.6212,
+      "rank_score": 0.6161,
       "price": 169.89999389648438,
       "rsi": 84.08424924777458,
       "momentum_5d": -0.0015873004486621017,
@@ -762,12 +762,12 @@
       "bollinger_pct_b": 0.8033,
       "volume_spike": true,
       "volume_spike_ratio": 1.53,
-      "news_sentiment": 0.797,
-      "news_confidence": 0.59,
+      "news_sentiment": 0.75,
+      "news_confidence": 0.56,
       "news_headlines": [
+        "Target pulls 'offensive' Halloween costume critics accused of evoking Blackface: 'We are deeply sorry'",
         "Why Did TGT, ABNB, IMAX Stocks Hit 52-Week Highs Today?",
-        "The Premium On WMT Stock Vs What Its Peers Deliver",
-        "Target says shoppers are unknowingly leaving money behind"
+        "The Premium On WMT Stock Vs What Its Peers Deliver"
       ],
       "high_impact_news": true
     },
@@ -793,8 +793,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5985,
+      "price": 80767.671875,
+      "rsi": 72.41565317698414,
+      "momentum_5d": 0.012839159770397592,
+      "momentum_1d": 0.04676123796984092,
+      "macd_crossover": false,
+      "atr_pct": 0.0076070191626849025,
+      "bollinger_pct_b": 0.9757,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.5,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Strategy raise $2B last week \u2014 but it didn't buy any bitcoin",
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "NVDA",
-      "rank_score": 0.5921,
+      "rank_score": 0.5891,
       "price": 208.4600067138672,
       "rsi": 23.804883950341534,
       "momentum_5d": -0.006718389651331536,
@@ -804,12 +825,33 @@
       "bollinger_pct_b": 0.0796,
       "volume_spike": false,
       "volume_spike_ratio": 1.32,
-      "news_sentiment": 0.891,
-      "news_confidence": 0.55,
+      "news_sentiment": 0.767,
+      "news_confidence": 0.6,
       "news_headlines": [
         "What's at stake for Paramount, the Ellisons in Warner Bros. takeover bid",
         "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
         "Nvidia earnings may come down to guidance and Jensen Huang's confidence"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.5787,
+      "price": 102.30999755859375,
+      "rsi": 76.06387331931452,
+      "momentum_5d": 0.005503661509520885,
+      "momentum_1d": 0.08528695451182758,
+      "macd_crossover": false,
+      "atr_pct": 0.015918010804578834,
+      "bollinger_pct_b": 0.9455,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.69,
+      "news_sentiment": 0.8,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
+        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%",
+        "Solana sets an all-time record for weekly network activity"
       ],
       "high_impact_news": true
     },
@@ -831,48 +873,6 @@
         "Stablecoin card spending triples to $1 billion",
         "HIMS Stock Posts Worst Day In A Month As Visa Flags Disputes \u2014 But Analyst Says GLP-1 Users Are Sticking Around",
         "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.5642,
-      "price": 80556.9296875,
-      "rsi": 70.78037813473165,
-      "momentum_5d": 0.010196419981562052,
-      "momentum_1d": 0.044029987359802555,
-      "macd_crossover": false,
-      "atr_pct": 0.007417094075093217,
-      "bollinger_pct_b": 0.9227,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.18,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Strategy raise $2B last week \u2014 but it didn't buy any bitcoin",
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Investor safe havens should be uncorrelated & 'truly different': AlphaSpace analysis of gold"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.5577,
-      "price": 101.91999816894531,
-      "rsi": 75.20665615316551,
-      "momentum_5d": 0.0016707436751382063,
-      "momentum_1d": 0.08114990769379185,
-      "macd_crossover": false,
-      "atr_pct": 0.015362193171216966,
-      "bollinger_pct_b": 0.9141,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.18,
-      "news_sentiment": 0.8,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Bitcoin or gold? Deciding on the summer's top safe-haven.",
-        "Kylie Jenner's X Account Reportedly Hacked to Push Meme Coin That Crashed 68%",
-        "Solana sets an all-time record for weekly network activity"
       ],
       "high_impact_news": true
     },
@@ -899,16 +899,16 @@
     },
     {
       "asset": "BNB-USD",
-      "rank_score": 0.5089,
-      "price": 716.3599853515625,
-      "rsi": 70.41759206591595,
-      "momentum_5d": 0.00922780436384042,
-      "momentum_1d": 0.024469053059081158,
+      "rank_score": 0.5232,
+      "price": 716.989990234375,
+      "rsi": 71.1211415326269,
+      "momentum_5d": 0.01011537270604385,
+      "momentum_1d": 0.025370025361994994,
       "macd_crossover": false,
-      "atr_pct": 0.006742431834973764,
-      "bollinger_pct_b": 0.9883,
+      "atr_pct": 0.006905861339322896,
+      "bollinger_pct_b": 1.0111,
       "volume_spike": false,
-      "volume_spike_ratio": 0.11,
+      "volume_spike_ratio": 0.28,
       "news_sentiment": 0.385,
       "news_confidence": 0.26,
       "news_headlines": [
@@ -936,6 +936,27 @@
         "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
         "KLA (KLAC) Gains\u00a0From\u00a0Advanced Nodes, HBM and Packaging",
         "KLA Corporation: See What Wall Street Sees"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5058,
+      "price": 7.685999870300293,
+      "rsi": 66.51577657334208,
+      "momentum_5d": 0.008396700477143691,
+      "momentum_1d": 0.02616823834066266,
+      "macd_crossover": false,
+      "atr_pct": 0.009655770928850473,
+      "bollinger_pct_b": 1.002,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.31,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
       ],
       "high_impact_news": true
     },
@@ -978,6 +999,27 @@
         "GLD\u2019s Gains Are Taxed at 28% as a Collectible, Not the 15% Rate Every Other ETF Gets",
         "Daily ETF Flows: GLD  IBIT Pick Up Assets",
         "Investors Pour $56B Into ETFs as Gold and Bitcoin Roar Back"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.5034,
+      "price": 1.524899959564209,
+      "rsi": 60.34629568276045,
+      "momentum_5d": 0.011810744908965977,
+      "momentum_1d": 0.030198558116902415,
+      "macd_crossover": false,
+      "atr_pct": 0.014712899065735432,
+      "bollinger_pct_b": 0.9252,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.18,
+      "news_sentiment": 0.535,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Could $5,000 in This Cryptocurrency Turn Into a Life-Changing Investment?",
+        "Asia's most regulated markets just said yes to Shiba Inu",
+        "Can XRP Be Used With FedNow Through Volante? Here\u2019s What the Evidence Reveals"
       ],
       "high_impact_news": true
     },
@@ -1041,48 +1083,6 @@
         "Sector Update: Financial Stocks Advance Late Afternoon",
         "Which Credit Card Stock Has Dominated in 2026: Visa, Mastercard, or American Express?",
         "Sector Update: Financial Stocks Rise Monday Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "INTC",
-      "rank_score": 0.4775,
-      "price": 87.26000213623047,
-      "rsi": 27.467761619682122,
-      "momentum_5d": 0.007097992001749095,
-      "momentum_1d": -0.06383432042360533,
-      "macd_crossover": false,
-      "atr_pct": 0.014376403430661922,
-      "bollinger_pct_b": 0.2029,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.487,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Alibaba Is Selling $10.2 Billion of Stock to Fund AI. Alphabet and Intel Went First.",
-        "Berkshire Hathaway Rose While Every Major Chip Stock Fell Monday",
-        "S&P 500, Nasdaq End Lower On Chipmaker Weakness, While Traders Position For Nvidia Earnings This Week \u2014 AVGO, INTC, BE, NVDA, PSKY In Focus"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.4658,
-      "price": 7.685999870300293,
-      "rsi": 66.51577657334208,
-      "momentum_5d": 0.008396700477143691,
-      "momentum_1d": 0.02616823834066266,
-      "macd_crossover": false,
-      "atr_pct": 0.009507075052177606,
-      "bollinger_pct_b": 1.002,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.263,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
       ],
       "high_impact_news": true
     }
