@@ -207,8 +207,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 958.864990234375,
-    "trailing_stop_price": 973.056192
+    "price_trough": 958.6699829101562,
+    "trailing_stop_price": 972.858299
   },
   "BIIB": {
     "id": "BIIB_20260825134349",
@@ -304,38 +304,6 @@
     "strategy_version": "108",
     "status": "open"
   },
-  "USO": {
-    "id": "USO_20260825200021",
-    "asset": "USO",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 126.0999984741211,
-    "entry_time": "2026-08-25T20:00:21.067259+00:00",
-    "stop_loss_pct": 0.01013,
-    "take_profit_pct": 0.02392,
-    "size_usd": 4848.85,
-    "position_size_pct": 0.0463,
-    "confidence": 0.724,
-    "signals": [
-      "RSI oversold (15.6)",
-      "5d momentum -1.57%",
-      "1d momentum -6.18%",
-      "BB oversold (pct_b=0.05)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: fed hawkish; macro risk; price decline"
-    ],
-    "news_sentiment": -0.255,
-    "news_headlines": [
-      "Sector Update: Energy Stocks Fall Premarket Tuesday",
-      "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Chip Stocks Recover",
-      "Sector Update: Energy Stocks Decline Premarket Monday"
-    ],
-    "mode": "paper",
-    "strategy_version": "108",
-    "status": "open",
-    "price_peak": 128.5399932861328,
-    "trailing_stop_price": 127.237883
-  },
   "HAL": {
     "id": "HAL_20260825200021",
     "asset": "HAL",
@@ -365,7 +333,9 @@
     ],
     "mode": "paper",
     "strategy_version": "108",
-    "status": "open"
+    "status": "open",
+    "price_peak": 33.91999816894531,
+    "trailing_stop_price": 33.607595
   },
   "CVX": {
     "id": "CVX_20260825200021",
@@ -396,8 +366,8 @@
     "mode": "paper",
     "strategy_version": "108",
     "status": "open",
-    "price_peak": 201.63999938964844,
-    "trailing_stop_price": 200.512832
+    "price_peak": 201.82000732421875,
+    "trailing_stop_price": 200.691833
   },
   "XLE": {
     "id": "XLE_20260825200021",
@@ -428,8 +398,8 @@
     "mode": "paper",
     "strategy_version": "108",
     "status": "open",
-    "price_peak": 62.72999954223633,
-    "trailing_stop_price": 62.405685
+    "price_peak": 62.83000183105469,
+    "trailing_stop_price": 62.505171
   },
   "ORCL": {
     "id": "ORCL_20260826141159",
@@ -462,8 +432,8 @@
     "mode": "paper",
     "strategy_version": "109",
     "status": "open",
-    "price_trough": 148.0449981689453,
-    "trailing_stop_price": 149.756398
+    "price_trough": 147.4600067138672,
+    "trailing_stop_price": 149.164644
   },
   "MSFT": {
     "id": "MSFT_20260826141159",
@@ -495,8 +465,8 @@
     "mode": "paper",
     "strategy_version": "109",
     "status": "open",
-    "price_trough": 494.79998779296875,
-    "trailing_stop_price": 498.040928
+    "price_trough": 493.80108642578125,
+    "trailing_stop_price": 497.035484
   },
   "AAPL": {
     "id": "AAPL_20260826141159",
@@ -527,8 +497,8 @@
     "mode": "paper",
     "strategy_version": "109",
     "status": "open",
-    "price_trough": 313.2250061035156,
-    "trailing_stop_price": 318.690782
+    "price_trough": 312.9590148925781,
+    "trailing_stop_price": 318.42015
   },
   "XRP-USD": {
     "id": "XRP-USD_20260826155250",
@@ -559,7 +529,9 @@
     ],
     "mode": "paper",
     "strategy_version": "109",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.3727999925613403,
+    "trailing_stop_price": 1.352208
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260826155250",
@@ -587,6 +559,36 @@
       "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
       "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
       "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
+    ],
+    "mode": "paper",
+    "strategy_version": "109",
+    "status": "open"
+  },
+  "LLY": {
+    "id": "LLY_20260826163955",
+    "asset": "LLY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1191.6400146484375,
+    "entry_time": "2026-08-26T16:39:55.327783+00:00",
+    "stop_loss_pct": 0.01225,
+    "take_profit_pct": 0.03057,
+    "size_usd": 4896.99,
+    "position_size_pct": 0.0467,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (19.4)",
+      "5d momentum -4.05%",
+      "1d momentum -5.41%",
+      "BB oversold (pct_b=-0.07)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: fed dovish"
+    ],
+    "news_sentiment": 0.723,
+    "news_headlines": [
+      "Is It Too Late to Buy Eli Lilly? Billionaire Ken Griffin Doesn't Think So. He Nearly Quadrupled His Stake in the Pharma Stock in Q2.",
+      "Can Eli Lilly Stock Keep Surging As Drug Prices Fall?",
+      "LLY Stock In Spotlight After Study Shows Zepbound Use Linked To Up To 38% Lower Healthcare Costs In Adults Above 55 Years"
     ],
     "mode": "paper",
     "strategy_version": "109",
