@@ -3,15 +3,15 @@
   "portfolio_balance": 104645.35,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.01,
-  "unrealized_pnl_usd": 538.93,
-  "equity_value": 105184.28,
+  "unrealized_pnl_usd": 541.39,
+  "equity_value": 105186.74,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41858.14,
   "swing_capital_used_usd": 49608.1,
   "total_trades": 1221,
-  "last_tick": "2026-08-26T12:19:29.087667+00:00",
+  "last_tick": "2026-08-26T13:27:48.268228+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8378,
-      "unrealized_pnl_pct": 0.000447,
-      "unrealized_pnl_usd": 0.6
+      "current_price": 7.8389,
+      "unrealized_pnl_pct": 0.000587,
+      "unrealized_pnl_usd": 0.79
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85612,
-      "unrealized_pnl_pct": -0.002565,
-      "unrealized_pnl_usd": -17.85
+      "current_price": 0.85671,
+      "unrealized_pnl_pct": -0.003256,
+      "unrealized_pnl_usd": -22.66
     },
     {
       "id": "UBER_20260812164126",
@@ -142,9 +142,9 @@
       "status": "open",
       "price_peak": 159.43800354003906,
       "trailing_stop_price": 158.1625,
-      "current_price": 159.029999,
-      "unrealized_pnl_pct": 0.003458,
-      "unrealized_pnl_usd": 15.21
+      "current_price": 159.285004,
+      "unrealized_pnl_pct": 0.005067,
+      "unrealized_pnl_usd": 22.29
     },
     {
       "id": "AMZN_20260821135337",
@@ -629,7 +629,7 @@
   "last_candidates": [
     {
       "asset": "SNAP",
-      "rank_score": 0.7322,
+      "rank_score": 0.7252,
       "price": 5.920000076293945,
       "rsi": 96.59862709848859,
       "momentum_5d": 0.04501325969250442,
@@ -639,12 +639,12 @@
       "bollinger_pct_b": 0.9639,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.435,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.317,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "Meta reaches $16.68 billion settlement over social media harms to children",
         "Meta, States Have Discussed Settling Teen Social Media Case",
-        "SNAP: Priced Like A Decline, Paying Like A Machine",
-        "Teens Return to TikTok After World\u2019s First Usage Ban, Data Show"
+        "SNAP: Priced Like A Decline, Paying Like A Machine"
       ],
       "high_impact_news": true
     },
@@ -671,7 +671,7 @@
     },
     {
       "asset": "XOM",
-      "rank_score": 0.6847,
+      "rank_score": 0.6797,
       "price": 160.63999938964844,
       "rsi": 22.6773316221651,
       "momentum_5d": -0.007414711909266396,
@@ -681,12 +681,12 @@
       "bollinger_pct_b": 0.0813,
       "volume_spike": true,
       "volume_spike_ratio": 2.3,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.25,
+      "news_confidence": 0.48,
       "news_headlines": [
+        "Shell (LSE:SHEL) Could Be 5% Undervalued As Chemicals Sale Interest Builds",
         "Arthur Hayes Says Bitcoin Can Hit $250,000 Without A Credit Crisis \u2013 But Warns Of 75% Crash",
-        "5 Blue-Chip Dividend Stocks to Buy Before August Ends",
-        "Morgan Stanley Sees ExxonMobil (XOM) Breaking its Record High. Can the Oil Giant Deliver?"
+        "5 Blue-Chip Dividend Stocks to Buy Before August Ends"
       ],
       "high_impact_news": true
     },
@@ -705,9 +705,30 @@
       "news_sentiment": -0.255,
       "news_confidence": 0.51,
       "news_headlines": [
+        "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release",
         "Sector Update: Energy Stocks Fall Premarket Tuesday",
-        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Chip Stocks Recover",
-        "Sector Update: Energy Stocks Decline Premarket Monday"
+        "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Chip Stocks Recover"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.6649,
+      "price": 1.3849999904632568,
+      "rsi": 30.327221594303822,
+      "momentum_5d": -0.03072294272831678,
+      "momentum_1d": -0.049416627216601394,
+      "macd_crossover": false,
+      "atr_pct": 0.013310992975394292,
+      "bollinger_pct_b": -0.1276,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.432,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Ripple Continues to Expand Globally, But the Price of XRP Keeps Falling. Is XRP a Buy, Sell, or Hold Right Now?",
+        "US Sanctions Target Iran Crypto as Bearish Bitcoin and XRP Forecasts Resurface",
+        "Shiba Inu (SHIB) Breaks 11-Month Downtrend After Japan Approval"
       ],
       "high_impact_news": true
     },
@@ -733,29 +754,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "XLE",
-      "rank_score": 0.6401,
-      "price": 62.08000183105469,
-      "rsi": 23.679736727181975,
-      "momentum_5d": -0.010519602004388057,
-      "momentum_1d": -0.029772583591859532,
-      "macd_crossover": false,
-      "atr_pct": 0.0056963297058480146,
-      "bollinger_pct_b": 0.0366,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.71,
-      "news_sentiment": -0.686,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Sector Update: Energy Stocks Fall Tuesday",
-        "Sector Update: Energy Stocks Fall Tuesday Afternoon",
-        "Exchange-Traded Funds Rise as US Equities Advance After Midday"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LLY",
-      "rank_score": 0.6399,
+      "rank_score": 0.651,
       "price": 1233.5699462890625,
       "rsi": 36.40997550726566,
       "momentum_5d": -0.022995567932490104,
@@ -765,18 +765,39 @@
       "bollinger_pct_b": 0.057,
       "volume_spike": true,
       "volume_spike_ratio": 2.44,
-      "news_sentiment": 0.692,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.922,
+      "news_confidence": 0.51,
       "news_headlines": [
+        "NVO vs. GPCR: Which Obesity Stock Is the Better Buy Right Now?",
         "Dow Jones AI Giant Nvidia Tests Key Support Level As Pivotal Earnings Report Looms",
-        "2 Stocks That Could Capitalize on the GLP-1 Boom",
-        "Lilly Gains as Foundayo Crosses the Atlantic Without a Needle"
+        "2 Stocks That Could Capitalize on the GLP-1 Boom"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLE",
+      "rank_score": 0.6421,
+      "price": 62.08000183105469,
+      "rsi": 23.679736727181975,
+      "momentum_5d": -0.010519602004388057,
+      "momentum_1d": -0.029772583591859532,
+      "macd_crossover": false,
+      "atr_pct": 0.0056963297058480146,
+      "bollinger_pct_b": 0.0366,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.71,
+      "news_sentiment": -0.698,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release",
+        "Sector Update: Energy Stocks Fall Tuesday",
+        "Sector Update: Energy Stocks Fall Tuesday Afternoon"
       ],
       "high_impact_news": true
     },
     {
       "asset": "CVX",
-      "rank_score": 0.6224,
+      "rank_score": 0.6294,
       "price": 199.91000366210938,
       "rsi": 23.932934295259486,
       "momentum_5d": -0.009169264943967284,
@@ -786,12 +807,12 @@
       "bollinger_pct_b": 0.0801,
       "volume_spike": true,
       "volume_spike_ratio": 1.62,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.4,
       "news_headlines": [
+        "Stock Market Today: Dow Steady On Inflation Data; Nvidia Earnings Due After Close (Live Coverage)",
         "Big Oil Is Betting Billions On Nuclear Fusion",
-        "Chevron stock turns heads as company strikes fresh oil",
-        "Chevron Falls as Oil Surrenders the Iran Premium"
+        "Chevron stock turns heads as company strikes fresh oil"
       ],
       "high_impact_news": true
     },
@@ -817,48 +838,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "TLT",
-      "rank_score": 0.5874,
-      "price": 83.46499633789062,
-      "rsi": 87.01295612988629,
-      "momentum_5d": 0.002582538593280781,
-      "momentum_1d": 0.014155446451200707,
-      "macd_crossover": false,
-      "atr_pct": 0.003269544781898981,
-      "bollinger_pct_b": 0.8806,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.14,
-      "news_sentiment": 0.139,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Daily ETF Flows: TLT Gains",
-        "This chart shows exactly why investors should worry about rising yields \u2014 even if they don\u2019t own any bonds",
-        "Scott Bessent's Bond Plan 'Won't Work,' Citi Economist Says: US Fiscal Position Is 'Absolutely Out of Control'"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GS",
-      "rank_score": 0.5837,
-      "price": 1059.1065673828125,
-      "rsi": 69.41553878438998,
-      "momentum_5d": 0.009153470588673178,
-      "momentum_1d": 0.05033628504565697,
-      "macd_crossover": false,
-      "atr_pct": 0.006641073174109926,
-      "bollinger_pct_b": 0.8592,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.548,
-      "news_confidence": 0.31,
-      "news_headlines": [
-        "Best CD rates today, Wednesday, August 26, 2026: Earn up to 4.30% APY",
-        "3 Great Mutual Fund Picks for Your Retirement",
-        "Morgan Stanley\u2019s Khanduja Scales Back US Curve Bets on Bessent Plan"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MA",
       "rank_score": 0.583,
       "price": 599.2899780273438,
@@ -880,8 +859,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "TLT",
+      "rank_score": 0.583,
+      "price": 83.46499633789062,
+      "rsi": 87.01295612988629,
+      "momentum_5d": 0.002582538593280781,
+      "momentum_1d": 0.014155446451200707,
+      "macd_crossover": false,
+      "atr_pct": 0.003269544781898981,
+      "bollinger_pct_b": 0.8806,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.14,
+      "news_sentiment": -0.057,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Daily ETF Flows: TLT Gains",
+        "Scott Bessent's Bond Plan 'Won't Work,' Citi Economist Says: US Fiscal Position Is 'Absolutely Out of Control'",
+        "3 Contrarian Trades for a Market That Looks Too Hot"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "META",
-      "rank_score": 0.5761,
+      "rank_score": 0.5781,
       "price": 569.864990234375,
       "rsi": 90.2650071799975,
       "momentum_5d": 0.011483897583099114,
@@ -891,12 +891,33 @@
       "bollinger_pct_b": 0.9555,
       "volume_spike": false,
       "volume_spike_ratio": 1.23,
-      "news_sentiment": 0.273,
-      "news_confidence": 0.33,
+      "news_sentiment": -0.256,
+      "news_confidence": 0.43,
       "news_headlines": [
-        "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
-        "Coca-Cola's new CEO can boast about something that 'Magnificent 7' members Elon Musk and Mark Zuckerberg can't",
-        "Meta, states discuss mid-trial settlement in teen addiction case"
+        "Tech stocks today: Meta stock jumps after company agrees to settle social media case",
+        "The real question investors should be asking ahead of Nvidia earnings",
+        "Meta reaches $16.68 billion settlement over social media harms to children"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GS",
+      "rank_score": 0.5757,
+      "price": 1059.1065673828125,
+      "rsi": 69.41553878438998,
+      "momentum_5d": 0.009153470588673178,
+      "momentum_1d": 0.05033628504565697,
+      "macd_crossover": false,
+      "atr_pct": 0.006641073174109926,
+      "bollinger_pct_b": 0.8592,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.243,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Best CD rates today, Wednesday, August 26, 2026: Earn up to 4.30% APY",
+        "3 Great Mutual Fund Picks for Your Retirement",
+        "Morgan Stanley\u2019s Khanduja Scales Back US Curve Bets on Bessent Plan"
       ],
       "high_impact_news": true
     },
@@ -944,7 +965,7 @@
     },
     {
       "asset": "NKE",
-      "rank_score": 0.5536,
+      "rank_score": 0.5529,
       "price": 39.470001220703125,
       "rsi": 29.845093428586807,
       "momentum_5d": -0.004162914288315669,
@@ -954,33 +975,33 @@
       "bollinger_pct_b": 0.124,
       "volume_spike": true,
       "volume_spike_ratio": 1.77,
-      "news_sentiment": 0.472,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.477,
+      "news_confidence": 0.51,
       "news_headlines": [
         "Dick's Sporting Goods' stock crash reveals a major problem for struggling Nike",
-        "DKS Stock Faces Wall Street Downgrades After Record Single-Day Drop \u2013 Nike Turnaround Now In Question",
-        "Nike brought back a 32-year veteran to save the $60B brand. Two years later, its turnaround is still a \u2018long, hard slog\u2019"
+        "Dick\u2019s Sporting Goods cut at Telsey as Foot Locker turnaround slips further out",
+        "DKS Stock Faces Wall Street Downgrades After Record Single-Day Drop \u2013 Nike Turnaround Now In Question"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5509,
-      "price": 1.4127999544143677,
-      "rsi": 34.77875583387487,
-      "momentum_5d": -0.013958751657140517,
-      "momentum_1d": -0.04151969039875104,
+      "asset": "MPC",
+      "rank_score": 0.5517,
+      "price": 354.8900146484375,
+      "rsi": 35.52447593705935,
+      "momentum_5d": -0.012631049494634058,
+      "momentum_1d": -0.020114512017863538,
       "macd_crossover": false,
-      "atr_pct": 0.011714335738408792,
-      "bollinger_pct_b": 0.1321,
+      "atr_pct": 0.009944166604056556,
+      "bollinger_pct_b": -0.1283,
       "volume_spike": false,
-      "volume_spike_ratio": 0.24,
-      "news_sentiment": 0.718,
-      "news_confidence": 0.52,
+      "volume_spike_ratio": 1.41,
+      "news_sentiment": 0.791,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "Shiba Inu (SHIB) Breaks 11-Month Downtrend After Japan Approval",
-        "XRP Ripple Ledger Gets Busier Without Attracting New Users",
-        "Why Did the XRP Price Rally Beat Every Top-10 Coin Without an Altcoin Season?"
+        "Will Valero's Excess Cash Translate Into Higher Shareholder Returns?",
+        "Marathon Petroleum (MPC) and Valero Energy (VLO) Have Exploded in 2026. But Barron\u2019s Sees More Upside",
+        "Marathon vs. Valero: Which Refining Stock Is the Better Buy Now?"
       ],
       "high_impact_news": true
     },
@@ -999,30 +1020,9 @@
       "news_sentiment": 0.261,
       "news_confidence": 0.46,
       "news_headlines": [
+        "Lucid Unleashes America's Most Powerful 3-Row Crossover. Is It the Answer Investors Need?",
         "PSNY Stock Loses August Race To Chinese EV Rivals \u2014 Unexplained US Ban Deals Polestar A Fresh Blow",
-        "The Real Engine That Could Power Tesla Stock Higher",
-        "Lucid Stock Plunges. New Tariff Threat Overshadows Its European Expansion"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MPC",
-      "rank_score": 0.5417,
-      "price": 354.8900146484375,
-      "rsi": 35.52447593705935,
-      "momentum_5d": -0.012631049494634058,
-      "momentum_1d": -0.020114512017863538,
-      "macd_crossover": false,
-      "atr_pct": 0.009944166604056556,
-      "bollinger_pct_b": -0.1283,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.595,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Marathon Petroleum (MPC) and Valero Energy (VLO) Have Exploded in 2026. But Barron\u2019s Sees More Upside",
-        "Marathon vs. Valero: Which Refining Stock Is the Better Buy Now?",
-        "Are Investors Undervaluing Marathon Petroleum (MPC) Right Now?"
+        "The Real Engine That Could Power Tesla Stock Higher"
       ],
       "high_impact_news": true
     },
