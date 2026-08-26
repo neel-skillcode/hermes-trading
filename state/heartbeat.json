@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104745.69,
+  "portfolio_balance": 104898.45,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.92,
-  "unrealized_pnl_usd": 406.3,
-  "equity_value": 105151.99,
+  "portfolio_drawdown_pct": 2.78,
+  "unrealized_pnl_usd": 637.03,
+  "equity_value": 105535.48,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41898.28,
+  "day_capital_used_usd": 41959.38,
   "swing_capital_used_usd": 52436.24,
-  "total_trades": 1230,
-  "last_tick": "2026-08-26T20:19:35.987212+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 1231,
+  "last_tick": "2026-08-26T23:45:55.325595+00:00",
+  "last_reflection": "2026-08-26",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.838,
-      "unrealized_pnl_pct": 0.000472,
-      "unrealized_pnl_usd": 0.63
+      "current_price": 7.8383,
+      "unrealized_pnl_pct": 0.000511,
+      "unrealized_pnl_usd": 0.69
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85717,
-      "unrealized_pnl_pct": -0.003794,
-      "unrealized_pnl_usd": -26.41
+      "current_price": 0.85722,
+      "unrealized_pnl_pct": -0.003853,
+      "unrealized_pnl_usd": -26.82
     },
     {
       "id": "UBER_20260812164126",
@@ -142,9 +142,9 @@
       "status": "open",
       "price_peak": 159.43800354003906,
       "trailing_stop_price": 158.1625,
-      "current_price": 159.343002,
-      "unrealized_pnl_pct": 0.005433,
-      "unrealized_pnl_usd": 23.9
+      "current_price": 159.246002,
+      "unrealized_pnl_pct": 0.004821,
+      "unrealized_pnl_usd": 21.21
     },
     {
       "id": "AMZN_20260821135337",
@@ -492,47 +492,11 @@
       "mode": "paper",
       "strategy_version": "109",
       "status": "open",
-      "price_peak": 1.385699987411499,
-      "trailing_stop_price": 1.364914,
-      "current_price": 1.372,
-      "unrealized_pnl_pct": -0.000437,
-      "unrealized_pnl_usd": -2.78
-    },
-    {
-      "id": "AVAX-USD_20260826155250",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 7.23199987411499,
-      "entry_time": "2026-08-26T15:52:50.214883+00:00",
-      "stop_loss_pct": 0.01059,
-      "take_profit_pct": 0.0262,
-      "size_usd": 5523.94,
-      "position_size_pct": 0.0528,
-      "confidence": 0.95,
-      "signals": [
-        "RSI oversold (37.1)",
-        "5d momentum -2.30%",
-        "1d momentum -3.74%",
-        "BB oversold (pct_b=-0.07)",
-        "Volume spike 7.8\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.263,
-      "news_headlines": [
-        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-      ],
-      "mode": "paper",
-      "strategy_version": "109",
-      "status": "open",
-      "price_peak": 7.252999782562256,
-      "trailing_stop_price": 7.176191,
-      "current_price": 7.238,
-      "unrealized_pnl_pct": 0.00083,
-      "unrealized_pnl_usd": 4.58
+      "price_peak": 1.4234000444412231,
+      "trailing_stop_price": 1.402049,
+      "current_price": 1.4234,
+      "unrealized_pnl_pct": 0.03701,
+      "unrealized_pnl_usd": 235.57
     },
     {
       "id": "LLY_20260826163955",
@@ -669,9 +633,64 @@
       "current_price": 40.02,
       "unrealized_pnl_pct": -0.003486,
       "unrealized_pnl_usd": -11.18
+    },
+    {
+      "id": "SOL-USD_20260826234554",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 101.55000305175781,
+      "entry_time": "2026-08-26T23:45:54.724449+00:00",
+      "stop_loss_pct": 0.01311,
+      "take_profit_pct": 0.03246,
+      "size_usd": 5585.04,
+      "position_size_pct": 0.0532,
+      "confidence": 0.95,
+      "signals": [
+        "RSI overbought (77.6)",
+        "5d momentum +4.87%",
+        "1d momentum +5.14%",
+        "BB overbought (pct_b=1.33)",
+        "Volume spike 10.0\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.312,
+      "news_headlines": [
+        "Governments Can See Just 14% of the $457 Billion Crypto Tax",
+        "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
+        "Coinbase CEO weighs leaving California over wealth tax"
+      ],
+      "mode": "paper",
+      "strategy_version": "109",
+      "status": "open",
+      "current_price": 101.550003,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.897,
+      "price": 101.55000305175781,
+      "rsi": 77.59511467237081,
+      "momentum_5d": 0.04874523527262144,
+      "momentum_1d": 0.05135114299534827,
+      "macd_crossover": false,
+      "atr_pct": 0.012907097707571204,
+      "bollinger_pct_b": 1.3298,
+      "volume_spike": true,
+      "volume_spike_ratio": 10.03,
+      "news_sentiment": 0.312,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Governments Can See Just 14% of the $457 Billion Crypto Tax",
+        "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
+        "Coinbase CEO weighs leaving California over wealth tax"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "XOM",
       "rank_score": 0.6744,
@@ -690,27 +709,6 @@
         "Exxon Slips Below $159 as Hormuz Hope Hits Crude Again",
         "ExxonMobil Stock's Biggest Risk Is The Shortage Ending",
         "Can ExxonMobil's Permian Growth Keep Driving Upstream Momentum?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MSFT",
-      "rank_score": 0.6598,
-      "price": 496.1700134277344,
-      "rsi": 85.2452067142544,
-      "momentum_5d": 0.002373798365918216,
-      "momentum_1d": 0.024678890126193984,
-      "macd_crossover": false,
-      "atr_pct": 0.006064283231628139,
-      "bollinger_pct_b": 0.9301,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.25,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Nvidia to report Q2 earnings amid chip stock struggles",
-        "Anthropic Ramps Up Infrastructure Spending Ahead Of IPO, Says Report \u2014 Plans $45B Computing Push",
-        "Boston Scientific Hammered After Cyberattack Tampers With Shipments"
       ],
       "high_impact_news": true
     },
@@ -736,8 +734,50 @@
       "high_impact_news": true
     },
     {
+      "asset": "MSFT",
+      "rank_score": 0.6538,
+      "price": 496.1700134277344,
+      "rsi": 85.2452067142544,
+      "momentum_5d": 0.002373798365918216,
+      "momentum_1d": 0.024678890126193984,
+      "macd_crossover": false,
+      "atr_pct": 0.006064283231628139,
+      "bollinger_pct_b": 0.9301,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.25,
+      "news_sentiment": 0.561,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Stocks in holding pattern ahead of Nvidia earnings: AlphaCheck",
+        "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
+        "Nvidia doubles revenue, forecasts even more AI spending"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.638,
+      "price": 0.08748000115156174,
+      "rsi": 60.349435849470396,
+      "momentum_5d": 0.027846314772712648,
+      "momentum_1d": 0.02124676581232592,
+      "macd_crossover": false,
+      "atr_pct": 0.01190475277951634,
+      "bollinger_pct_b": 0.9371,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.17,
+      "news_sentiment": 0.682,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Dogecoin Price Risks 35% Drop as DOGE Breakout Fails",
+        "Top 3 Meme Coins Rally as Bitcoin Touches $80,000, But Only One Has Room to Run",
+        "Crypto\u2019s biggest rally since 2023: With Bitcoin price at a high, here\u2019s what history, Ray Dalio, and Kalshi predict comes next"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "V",
-      "rank_score": 0.6316,
+      "rank_score": 0.6336,
       "price": 383.80999755859375,
       "rsi": 58.17395230950751,
       "momentum_5d": 0.0057650802952770325,
@@ -747,12 +787,75 @@
       "bollinger_pct_b": 0.8422,
       "volume_spike": true,
       "volume_spike_ratio": 5.43,
-      "news_sentiment": 0.962,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.963,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "Visa (V) Launches Unified Card Present Payment Platform For Global Merchants",
         "Visa Hits $385.57 Record, Then Surrenders the Breakout",
-        "Cathie Wood bets on 'disrupter' stock with bullish analyst call",
-        "JPMorgan Weighs Stablecoin as Bank Push Accelerates"
+        "Cathie Wood bets on 'disrupter' stock with bullish analyst call"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.6285,
+      "price": 707.5800170898438,
+      "rsi": 64.6295693551128,
+      "momentum_5d": 0.01333294756782422,
+      "momentum_1d": 0.01949431530126463,
+      "macd_crossover": false,
+      "atr_pct": 0.007573098016107935,
+      "bollinger_pct_b": 1.0369,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.58,
+      "news_sentiment": 0.657,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Should You Go 'All In' on Bitcoin? Binance Founder Changpeng Zhao Has the Answer",
+        "CZ Says Hyperliquid\u2019s US Breakthrough Could Open \u2018A Whole Continent\u2019 For Decentralized Crypto \u2013 HYPE Token Hits Record High",
+        "Why the Senate Must Pass the CLARITY Act Before the Window Closes"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6209,
+      "price": 2509.6201171875,
+      "rsi": 70.7822014358115,
+      "momentum_5d": 0.014775113586375795,
+      "momentum_1d": 0.02745903544189547,
+      "macd_crossover": false,
+      "atr_pct": 0.008678880048465289,
+      "bollinger_pct_b": 1.1457,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.88,
+      "news_sentiment": 0.355,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "Bitcoin and ethereum prices today, Wednesday, August 26, 2026: 'Bitcoin is having a price gusher to close out August'",
+        "Governments Can See Just 14% of the $457 Billion Crypto Tax",
+        "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.5911,
+      "price": 1189.2099609375,
+      "rsi": 21.78957024910028,
+      "momentum_5d": -0.01416736068876676,
+      "momentum_1d": -0.05836480572241541,
+      "macd_crossover": false,
+      "atr_pct": 0.012375250124438998,
+      "bollinger_pct_b": 0.0854,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.89,
+      "news_sentiment": 0.49,
+      "news_confidence": 0.51,
+      "news_headlines": [
+        "Veeva Systems Q2 Earnings Call Highlights",
+        "Revolution Medicines Wins FDA Approval for Pancreatic Cancer Pill. What It Means for the Stock.",
+        "Eli Lilly Clears Big Hurdle in Alzheimer's Fight"
       ],
       "high_impact_news": true
     },
@@ -778,23 +881,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "LLY",
-      "rank_score": 0.5881,
-      "price": 1189.2099609375,
-      "rsi": 21.78957024910028,
-      "momentum_5d": -0.01416736068876676,
-      "momentum_1d": -0.05836480572241541,
+      "asset": "AVAX-USD",
+      "rank_score": 0.5782,
+      "price": 7.433000087738037,
+      "rsi": 60.0700640931961,
+      "momentum_5d": 0.025100008555580595,
+      "momentum_1d": 0.014605496996303504,
       "macd_crossover": false,
-      "atr_pct": 0.012375250124438998,
-      "bollinger_pct_b": 0.0854,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.89,
-      "news_sentiment": 0.458,
-      "news_confidence": 0.48,
+      "atr_pct": 0.010484144268848798,
+      "bollinger_pct_b": 0.9172,
+      "volume_spike": true,
+      "volume_spike_ratio": 4.48,
+      "news_sentiment": 0.263,
+      "news_confidence": 0.38,
       "news_headlines": [
-        "Eli Lilly Clears Big Hurdle in Alzheimer's Fight",
-        "Sector Update: Healthcare Stocks Decline Late Afternoon",
-        "Has AbbVie Stock Become Too Expensive to Buy?"
+        "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
+        "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
+        "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
       ],
       "high_impact_news": true
     },
@@ -820,27 +923,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "NKE",
-      "rank_score": 0.5429,
-      "price": 38.59349822998047,
-      "rsi": 8.81646137803709,
-      "momentum_5d": 0.00047951955087935816,
-      "momentum_1d": -0.05268785861687547,
-      "macd_crossover": false,
-      "atr_pct": 0.009719253676585524,
-      "bollinger_pct_b": 0.2089,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.139,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Dick's Sporting Goods stock crash reveals a major problem for struggling Nike",
-        "Sector Update: Consumer Stocks Softer Late Afternoon",
-        "Update: US Equity Indexes Slip as Investors Await Nvidia's Earnings After July's PCE Inflation Rate Accelerates"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
       "rank_score": 0.5395,
       "price": 163.77000427246094,
@@ -858,6 +940,27 @@
         "Qualcomm's Costs Are Inside The Guidance And Its Replacement Growth Is Not",
         "Can Qualcomm Capitalize on Soaring Edge AI Demand With VENTUNO Q?",
         "The Options Market Says Micron Stock Can Halve Or Double From Here"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NKE",
+      "rank_score": 0.5366,
+      "price": 38.59349822998047,
+      "rsi": 8.81646137803709,
+      "momentum_5d": 0.00047951955087935816,
+      "momentum_1d": -0.05268785861687547,
+      "macd_crossover": false,
+      "atr_pct": 0.009719253676585524,
+      "bollinger_pct_b": 0.2089,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": -0.006,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Dick's Sporting Goods stock crash reveals a major problem for struggling Nike",
+        "Your Annuity Might Be Backed by LeBron\u2019s Nike Deal: Inside the $245 Million Two Retirement Insurers Are Betting on the King",
+        "Update: US Equity Indexes Slip After Fed's Preferred Inflation Gauge Accelerates in July"
       ],
       "high_impact_news": true
     },
@@ -926,7 +1029,7 @@
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.5211,
+      "rank_score": 0.5261,
       "price": 245.11500549316406,
       "rsi": 76.04322101104046,
       "momentum_5d": 0.01753915112383525,
@@ -936,12 +1039,12 @@
       "bollinger_pct_b": 0.7933,
       "volume_spike": false,
       "volume_spike_ratio": 0.89,
-      "news_sentiment": 0.551,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.615,
+      "news_confidence": 0.52,
       "news_headlines": [
+        "Marvell Reports Thursday. Here's Where the Google Contract Would Actually Show Up in the Numbers.",
         "Rosenblatt Resets Marvell Stock Target Before Earnings",
-        "MXL's AI Optical Growth Accelerates: Can It Challenge AVGO & MRVL?",
-        "AMD vs. Marvell: Which Is the Better AI Chip Stock to Own for the Next 5 Years?"
+        "MXL's AI Optical Growth Accelerates: Can It Challenge AVGO & MRVL?"
       ],
       "high_impact_news": true
     },
@@ -967,128 +1070,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AAPL",
-      "rank_score": 0.5081,
-      "price": 313.489990234375,
-      "rsi": 65.11284954275592,
-      "momentum_5d": 0.0031038053718243606,
-      "momentum_1d": 0.007811974200647632,
+      "asset": "CRM",
+      "rank_score": 0.5072,
+      "price": 206.11000061035156,
+      "rsi": 34.51932731928632,
+      "momentum_5d": 0.014071343716366851,
+      "momentum_1d": -0.015147162592868411,
       "macd_crossover": false,
-      "atr_pct": 0.0061518698854132305,
-      "bollinger_pct_b": 0.8135,
+      "atr_pct": 0.009903305936990616,
+      "bollinger_pct_b": 0.4465,
       "volume_spike": true,
-      "volume_spike_ratio": 3.25,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.48,
+      "volume_spike_ratio": 1.97,
+      "news_sentiment": 0.901,
+      "news_confidence": 0.81,
       "news_headlines": [
-        "AAPL Stock Gains 1%; Apple Is Expected To Ship 10M Foldable iPhones In The First Year, IDC Predicts",
-        "Jim Cramer Highlights Sandisk\u2019s (SNDK) Massive Buybacks After Stock Surge",
-        "Nvidia, Meta, Revolution Medicines, Abercrombie, Intuit, Salesforce, Moderna, and More Stocks That Explain Today\u2019s Market"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.5028,
-      "price": 40.02000045776367,
-      "rsi": 40.56362793080294,
-      "momentum_5d": -0.012549121925723498,
-      "momentum_1d": -0.10409666222942292,
-      "macd_crossover": false,
-      "atr_pct": 0.017204251790115505,
-      "bollinger_pct_b": 0.0972,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.54,
-      "news_sentiment": 0.791,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Will New Capital Markets And Chip Leaders On The Board Change IonQ's (IONQ) Narrative",
-        "Strong Cash Cushion Strengthens Rigetti's Long-Term Growth Roadmap",
-        "D-Wave Sinks 8% as Its CFO Retires; Rigetti Slides 5%, IonQ Falls 3%"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "META",
-      "rank_score": 0.4859,
-      "price": 576.1099853515625,
-      "rsi": 74.56400125807946,
-      "momentum_5d": -0.01117368064979573,
-      "momentum_1d": 0.043290023672185166,
-      "macd_crossover": false,
-      "atr_pct": 0.013153682881977848,
-      "bollinger_pct_b": 0.7616,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.512,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Nvidia to report Q2 earnings amid chip stock struggles",
-        "Is Meta a buy after its $16.68 billion social media case settlement?",
-        "Meta settles social media trial, agreeing to pay up to $16.7B: Reuters"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "REGN",
-      "rank_score": 0.4822,
-      "price": 814.7999877929688,
-      "rsi": 35.48076527039828,
-      "momentum_5d": -0.004678569154562102,
-      "momentum_1d": -0.027893775903878183,
-      "macd_crossover": false,
-      "atr_pct": 0.007522297399442796,
-      "bollinger_pct_b": 0.0282,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.46,
-      "news_sentiment": 0.802,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "Regeneron Pharmaceuticals Stock Outlook: Is Wall Street Bullish or Bearish?",
-        "Veeva's Vault CRM Wins Reinforce Market-Leader Status Ahead of Earnings, Truist Says",
-        "Oil Shipper Hits New High; Three Stocks Also Near Pivots"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.4712,
-      "price": 1.371999979019165,
-      "rsi": 25.97784555939039,
-      "momentum_5d": -0.0005099416919191437,
-      "momentum_1d": -0.049466568583702984,
-      "macd_crossover": false,
-      "atr_pct": 0.014764692601017895,
-      "bollinger_pct_b": 0.1518,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.04,
-      "news_sentiment": 0.211,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Ripple Just Borrowed $275 Million to Expand Its Prime Brokerage. Here's What It Could Mean for XRP.",
-        "XRP Leads Crypto Market Pullback With Nearly 7% Drop: Is the Rally Over?",
-        "XRP Dropped Below $1 For the First Time Since 2024. But I'm Still Avoiding XRP Right Now."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "OXY",
-      "rank_score": 0.4709,
-      "price": 58.630001068115234,
-      "rsi": 29.713808851041932,
-      "momentum_5d": 0.0,
-      "momentum_1d": -0.0456580164804108,
-      "macd_crossover": false,
-      "atr_pct": 0.008359202357700553,
-      "bollinger_pct_b": 0.2783,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.13,
-      "news_sentiment": 0.391,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "ExxonMobil Stock's Biggest Risk Is The Shortage Ending",
-        "Which Oil and Gas Stock Has Dominated in 2026: ConocoPhillips, EOG Resources, or Occidental Petroleum?",
-        "Berkshire Hathaway (BRK.A) Holds Firm As A Top Portfolio Stake Lifts Its Dividend"
+        "Earnings live updates: Salesforce, CrowdStrike, Okta stocks surge as AI boom helps lift Q2 results",
+        "Dow Jones Futures Rise; Nvidia, CrowdStrike, Okta, Salesforce Lead Earnings Movers",
+        "Veeva Systems Q2 Earnings Call Highlights"
       ],
       "high_impact_news": true
     }

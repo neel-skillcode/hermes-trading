@@ -176,8 +176,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 335.6099853515625,
-    "trailing_stop_price": 344.691592
+    "price_trough": 334.8500061035156,
+    "trailing_stop_price": 343.911047
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -207,8 +207,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 956.5399780273438,
-    "trailing_stop_price": 970.69677
+    "price_trough": 956.1199951171875,
+    "trailing_stop_price": 970.270571
   },
   "BIIB": {
     "id": "BIIB_20260825134349",
@@ -303,8 +303,8 @@
     "mode": "paper",
     "strategy_version": "108",
     "status": "open",
-    "price_peak": 34.19499969482422,
-    "trailing_stop_price": 33.880064
+    "price_peak": 34.439998626708984,
+    "trailing_stop_price": 34.122806
   },
   "ORCL": {
     "id": "ORCL_20260826141159",
@@ -435,41 +435,8 @@
     "mode": "paper",
     "strategy_version": "109",
     "status": "open",
-    "price_peak": 1.385699987411499,
-    "trailing_stop_price": 1.364914
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260826155250",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 7.23199987411499,
-    "entry_time": "2026-08-26T15:52:50.214883+00:00",
-    "stop_loss_pct": 0.01059,
-    "take_profit_pct": 0.0262,
-    "size_usd": 5523.94,
-    "position_size_pct": 0.0528,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (37.1)",
-      "5d momentum -2.30%",
-      "1d momentum -3.74%",
-      "BB oversold (pct_b=-0.07)",
-      "Volume spike 7.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.263,
-    "news_headlines": [
-      "Securitize Adds Neuberger High-Yield Credit Fund to Ethereum, Solana, Avalanche and Sui",
-      "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ..."
-    ],
-    "mode": "paper",
-    "strategy_version": "109",
-    "status": "open",
-    "price_peak": 7.252999782562256,
-    "trailing_stop_price": 7.176191
+    "price_peak": 1.4234000444412231,
+    "trailing_stop_price": 1.402049
   },
   "LLY": {
     "id": "LLY_20260826163955",
@@ -561,7 +528,9 @@
     ],
     "mode": "paper",
     "strategy_version": "109",
-    "status": "open"
+    "status": "open",
+    "price_trough": 58.619998931884766,
+    "trailing_stop_price": 59.081338
   },
   "IONQ": {
     "id": "IONQ_20260826182406",
@@ -588,6 +557,37 @@
       "Strong Cash Cushion Strengthens Rigetti's Long-Term Growth Roadmap",
       "D-Wave Sinks 8% as Its CFO Retires; Rigetti Slides 5%, IonQ Falls 3%",
       "What's Driving Quantum Computing's Long-Term Growth Potential?"
+    ],
+    "mode": "paper",
+    "strategy_version": "109",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260826234554",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 101.55000305175781,
+    "entry_time": "2026-08-26T23:45:54.724449+00:00",
+    "stop_loss_pct": 0.01311,
+    "take_profit_pct": 0.03246,
+    "size_usd": 5585.04,
+    "position_size_pct": 0.0532,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (77.6)",
+      "5d momentum +4.87%",
+      "1d momentum +5.14%",
+      "BB overbought (pct_b=1.33)",
+      "Volume spike 10.0\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.312,
+    "news_headlines": [
+      "Governments Can See Just 14% of the $457 Billion Crypto Tax",
+      "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
+      "Coinbase CEO weighs leaving California over wealth tax"
     ],
     "mode": "paper",
     "strategy_version": "109",
