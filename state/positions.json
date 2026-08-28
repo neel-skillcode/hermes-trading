@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 159.43800354003906,
-    "trailing_stop_price": 158.1625
+    "price_peak": 159.63499450683594,
+    "trailing_stop_price": 158.357915
   },
   "AMZN": {
     "id": "AMZN_20260821135337",
@@ -397,91 +397,92 @@
     "status": "open"
   },
   "SOL-USD": {
-    "id": "SOL-USD_20260828010354",
+    "id": "SOL-USD_20260828124125",
     "asset": "SOL-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 109.31999969482422,
-    "entry_time": "2026-08-28T01:03:54.541562+00:00",
-    "stop_loss_pct": 0.01252,
-    "take_profit_pct": 0.02945,
-    "size_usd": 4710.62,
-    "position_size_pct": 0.0451,
-    "confidence": 0.704,
-    "signals": [
-      "RSI overbought (77.4)",
-      "5d momentum +0.87%",
-      "1d momentum +7.07%",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.209,
-    "news_headlines": [
-      "GTA 6 leaker sends community into meltdown before Netflix extended look",
-      "$13 trillion brokerage giant adds three popular assets",
-      "Why Solana Wants Less Inflation, Faster"
-    ],
-    "mode": "paper",
-    "strategy_version": "110",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260828010354",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 80823.25,
-    "entry_time": "2026-08-28T01:03:54.543446+00:00",
-    "stop_loss_pct": 0.00643,
-    "take_profit_pct": 0.01568,
-    "size_usd": 5848.12,
+    "entry_price": 104.98999786376953,
+    "entry_time": "2026-08-28T12:41:25.091927+00:00",
+    "stop_loss_pct": 0.01183,
+    "take_profit_pct": 0.02883,
+    "size_usd": 5846.28,
     "position_size_pct": 0.0559,
     "confidence": 0.874,
     "signals": [
-      "RSI overbought (62.1)",
-      "5d momentum +0.81%",
-      "1d momentum +2.27%",
-      "BB overbought (pct_b=0.92)",
+      "RSI oversold (19.8)",
+      "5d momentum -1.29%",
+      "1d momentum +0.55%",
+      "BB oversold (pct_b=0.04)",
       "High-impact catalyst",
-      "Claude [neutral]: price surge; analyst downgrade"
+      "Claude [neutral]: price surge"
     ],
-    "news_sentiment": 0.349,
+    "news_sentiment": 0.069,
     "news_headlines": [
-      "The SEC failed to pass crypto custody rules in 2023. But it's trying again.",
-      "StarkWare completes first quantum-safe bitcoin transaction",
-      "Bitcoin-backed mortgages are now available on Coinbase: What homebuyer should know"
+      "Morning Minute: Solana Jumps with Network Inflation Set to Drop",
+      "You Can Now Own the Magazine Where One Piece Began \u2014 via a Solana Token",
+      "Whales Yank 231 Million XRP From Binance \u2014 Largest Withdrawal in 6 Months"
     ],
     "mode": "paper",
-    "strategy_version": "110",
+    "strategy_version": "111",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260828010354",
-    "asset": "BNB-USD",
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260828124125",
+    "asset": "DOGE-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 714.0,
-    "entry_time": "2026-08-28T01:03:54.547481+00:00",
-    "stop_loss_pct": 0.00398,
-    "take_profit_pct": 0.00903,
-    "size_usd": 3619.95,
-    "position_size_pct": 0.0346,
-    "confidence": 0.541,
+    "direction": "long",
+    "entry_price": 0.0867300033569336,
+    "entry_time": "2026-08-28T12:41:25.094582+00:00",
+    "stop_loss_pct": 0.00982,
+    "take_profit_pct": 0.02422,
+    "size_usd": 6247.63,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
     "signals": [
-      "5d momentum +0.44%",
-      "1d momentum +0.90%",
-      "BB overbought (pct_b=0.90)",
+      "RSI oversold (27.7)",
+      "5d momentum -0.93%",
+      "1d momentum -1.02%",
+      "BB oversold (pct_b=0.11)",
       "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 1 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.737,
+    "news_sentiment": 0.696,
     "news_headlines": [
-      "What is crypto?",
-      "Should You Go 'All In' on Bitcoin? Binance Founder Changpeng Zhao Has the Answer",
-      "CZ Says Hyperliquid\u2019s US Breakthrough Could Open \u2018A Whole Continent\u2019 For Decentralized Crypto \u2013 HYPE Token Hits Record High"
+      "MSTR Stock Hits 2-Month High With Bitcoin Back Above $80K Ahead Of Kevin Warsh\u2019s Jackson Hole Speech",
+      "3 Big Changes Just Hit XRP, Dogecoin, and Ethereum ETFs",
+      "Dogecoin Price Risks 35% Drop as DOGE Breakout Fails"
     ],
     "mode": "paper",
-    "strategy_version": "110",
+    "strategy_version": "111",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260828124125",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.4148999452590942,
+    "entry_time": "2026-08-28T12:41:25.096176+00:00",
+    "stop_loss_pct": 0.0078,
+    "take_profit_pct": 0.0181,
+    "size_usd": 4307.79,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (23.7)",
+      "5d momentum -0.42%",
+      "1d momentum -0.46%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.714,
+    "news_headlines": [
+      "Better Buy: XRP (Ripple) vs. Bitcoin",
+      "XRP Price Could Be Set for a Shake-Up as Ripple Puts XRPL Lending Protocol Through AI-Only Security Test",
+      "Will The XRP Price Break $2?"
+    ],
+    "mode": "paper",
+    "strategy_version": "111",
     "status": "open"
   }
 }
