@@ -145,8 +145,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 330.8500061035156,
-    "trailing_stop_price": 339.802807
+    "price_trough": 328.6099853515625,
+    "trailing_stop_price": 337.502172
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -176,8 +176,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 939.5850219726562,
-    "trailing_stop_price": 953.49088
+    "price_trough": 934.6599731445312,
+    "trailing_stop_price": 948.492941
   },
   "BIIB": {
     "id": "BIIB_20260825134349",
@@ -239,75 +239,8 @@
     "mode": "paper",
     "strategy_version": "108",
     "status": "open",
-    "price_trough": 132.96499633789062,
-    "trailing_stop_price": 134.837143
-  },
-  "HAL": {
-    "id": "HAL_20260825200021",
-    "asset": "HAL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 33.845001220703125,
-    "entry_time": "2026-08-25T20:00:21.068557+00:00",
-    "stop_loss_pct": 0.00921,
-    "take_profit_pct": 0.02299,
-    "size_usd": 6630.33,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (24.3)",
-      "5d momentum -1.47%",
-      "1d momentum -4.46%",
-      "BB oversold (pct_b=0.14)",
-      "News +0.74 (conf 0.62) \u2192 long",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: product catalyst"
-    ],
-    "news_sentiment": 0.742,
-    "news_headlines": [
-      "Why Is Baker Hughes (BKR) Up 2.3% Since Last Earnings Report?",
-      "Halliburton Secures bp Contract for Deepwater Appraisal Campaign in Brazil",
-      "Sector Update: Energy Stocks Fall Premarket Tuesday"
-    ],
-    "mode": "paper",
-    "strategy_version": "108",
-    "status": "open",
-    "price_peak": 34.540000915527344,
-    "trailing_stop_price": 34.221888
-  },
-  "ORCL": {
-    "id": "ORCL_20260826141159",
-    "asset": "ORCL",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 149.125,
-    "entry_time": "2026-08-26T14:11:59.490420+00:00",
-    "stop_loss_pct": 0.01156,
-    "take_profit_pct": 0.02714,
-    "size_usd": 4658.02,
-    "position_size_pct": 0.0444,
-    "confidence": 0.694,
-    "signals": [
-      "RSI overbought (73.9)",
-      "5d momentum +2.75%",
-      "1d momentum +5.20%",
-      "BB overbought (pct_b=1.10)",
-      "Volume spike 2.8\u00d7",
-      "News +0.81 (conf 0.62) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; price decline"
-    ],
-    "news_sentiment": 0.806,
-    "news_headlines": [
-      "Oracle's historic stock rout could be a buying opportunity",
-      "Is Soaring AI CapEx Putting Microsoft Stock\u2019s Valuation At Risk?",
-      "Is IBM Stock A Bargain After Its 28% Drawdown?"
-    ],
-    "mode": "paper",
-    "strategy_version": "109",
-    "status": "open",
-    "price_trough": 147.4600067138672,
-    "trailing_stop_price": 149.164644
+    "price_trough": 132.67999267578125,
+    "trailing_stop_price": 134.548127
   },
   "AAPL": {
     "id": "AAPL_20260826141159",
@@ -341,102 +274,6 @@
     "price_trough": 312.9590148925781,
     "trailing_stop_price": 318.42015
   },
-  "LLY": {
-    "id": "LLY_20260826163955",
-    "asset": "LLY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1191.6400146484375,
-    "entry_time": "2026-08-26T16:39:55.327783+00:00",
-    "stop_loss_pct": 0.01225,
-    "take_profit_pct": 0.03057,
-    "size_usd": 4896.99,
-    "position_size_pct": 0.0467,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (19.4)",
-      "5d momentum -4.05%",
-      "1d momentum -5.41%",
-      "BB oversold (pct_b=-0.07)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: fed dovish"
-    ],
-    "news_sentiment": 0.723,
-    "news_headlines": [
-      "Is It Too Late to Buy Eli Lilly? Billionaire Ken Griffin Doesn't Think So. He Nearly Quadrupled His Stake in the Pharma Stock in Q2.",
-      "Can Eli Lilly Stock Keep Surging As Drug Prices Fall?",
-      "LLY Stock In Spotlight After Study Shows Zepbound Use Linked To Up To 38% Lower Healthcare Costs In Adults Above 55 Years"
-    ],
-    "mode": "paper",
-    "strategy_version": "109",
-    "status": "open",
-    "price_peak": 1197.18505859375,
-    "trailing_stop_price": 1182.519542
-  },
-  "OXY": {
-    "id": "OXY_20260826182406",
-    "asset": "OXY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 58.6349983215332,
-    "entry_time": "2026-08-26T18:24:06.174491+00:00",
-    "stop_loss_pct": 0.00787,
-    "take_profit_pct": 0.01864,
-    "size_usd": 4940.64,
-    "position_size_pct": 0.0472,
-    "confidence": 0.737,
-    "signals": [
-      "RSI oversold (32.0)",
-      "5d momentum +0.39%",
-      "1d momentum -4.45%",
-      "Volume spike 4.3\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.391,
-    "news_headlines": [
-      "ExxonMobil Stock's Biggest Risk Is The Shortage Ending",
-      "Which Oil and Gas Stock Has Dominated in 2026: ConocoPhillips, EOG Resources, or Occidental Petroleum?",
-      "Berkshire Hathaway (BRK.A) Holds Firm As A Top Portfolio Stake Lifts Its Dividend"
-    ],
-    "mode": "paper",
-    "strategy_version": "109",
-    "status": "open",
-    "price_trough": 58.619998931884766,
-    "trailing_stop_price": 59.081338
-  },
-  "CRM": {
-    "id": "CRM_20260827162836",
-    "asset": "CRM",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 248.3000030517578,
-    "entry_time": "2026-08-27T16:28:36.259570+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03531,
-    "size_usd": 4734.94,
-    "position_size_pct": 0.0453,
-    "confidence": 0.708,
-    "signals": [
-      "RSI overbought (91.2)",
-      "5d momentum +21.11%",
-      "1d momentum +18.72%",
-      "BB overbought (pct_b=1.10)",
-      "Volume spike 1.7\u00d7",
-      "News +0.87 (conf 0.66) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.871,
-    "news_headlines": [
-      "Here are the companies leading the software comeback against OpenAI and Anthropic",
-      "AI Winner or Victim? Inside Salesforce's Q2 earnings",
-      "Salesforce stock surges on Q2 earnings: 'One of our best quarters ever,' CEO Marc Benioff says"
-    ],
-    "mode": "paper",
-    "strategy_version": "110",
-    "status": "open"
-  },
   "NVDA": {
     "id": "NVDA_20260827162836",
     "asset": "NVDA",
@@ -466,7 +303,9 @@
     ],
     "mode": "paper",
     "strategy_version": "110",
-    "status": "open"
+    "status": "open",
+    "price_trough": 227.97999572753906,
+    "trailing_stop_price": 231.094202
   },
   "MSFT": {
     "id": "MSFT_20260827162836",
@@ -552,6 +391,94 @@
       "Bank of America doubles down on Nvidia stock",
       "Market Chatter: Major US Banks Clash Over Fed's GSIB Capital Surcharge Revision",
       "Can JPMorgan's Stablecoin Push Strengthen Its Digital Payments Edge?"
+    ],
+    "mode": "paper",
+    "strategy_version": "110",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260828010354",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 109.31999969482422,
+    "entry_time": "2026-08-28T01:03:54.541562+00:00",
+    "stop_loss_pct": 0.01252,
+    "take_profit_pct": 0.02945,
+    "size_usd": 4710.62,
+    "position_size_pct": 0.0451,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (77.4)",
+      "5d momentum +0.87%",
+      "1d momentum +7.07%",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.209,
+    "news_headlines": [
+      "GTA 6 leaker sends community into meltdown before Netflix extended look",
+      "$13 trillion brokerage giant adds three popular assets",
+      "Why Solana Wants Less Inflation, Faster"
+    ],
+    "mode": "paper",
+    "strategy_version": "110",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260828010354",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 80823.25,
+    "entry_time": "2026-08-28T01:03:54.543446+00:00",
+    "stop_loss_pct": 0.00643,
+    "take_profit_pct": 0.01568,
+    "size_usd": 5848.12,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (62.1)",
+      "5d momentum +0.81%",
+      "1d momentum +2.27%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [neutral]: price surge; analyst downgrade"
+    ],
+    "news_sentiment": 0.349,
+    "news_headlines": [
+      "The SEC failed to pass crypto custody rules in 2023. But it's trying again.",
+      "StarkWare completes first quantum-safe bitcoin transaction",
+      "Bitcoin-backed mortgages are now available on Coinbase: What homebuyer should know"
+    ],
+    "mode": "paper",
+    "strategy_version": "110",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260828010354",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 714.0,
+    "entry_time": "2026-08-28T01:03:54.547481+00:00",
+    "stop_loss_pct": 0.00398,
+    "take_profit_pct": 0.00903,
+    "size_usd": 3619.95,
+    "position_size_pct": 0.0346,
+    "confidence": 0.541,
+    "signals": [
+      "5d momentum +0.44%",
+      "1d momentum +0.90%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.737,
+    "news_headlines": [
+      "What is crypto?",
+      "Should You Go 'All In' on Bitcoin? Binance Founder Changpeng Zhao Has the Answer",
+      "CZ Says Hyperliquid\u2019s US Breakthrough Could Open \u2018A Whole Continent\u2019 For Decentralized Crypto \u2013 HYPE Token Hits Record High"
     ],
     "mode": "paper",
     "strategy_version": "110",
