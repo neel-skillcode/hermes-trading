@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104641.21,
+  "portfolio_balance": 104521.49,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.02,
-  "unrealized_pnl_usd": 518.38,
-  "equity_value": 105159.59,
-  "open_positions": 15,
-  "day_trades_open": 6,
+  "portfolio_drawdown_pct": 3.13,
+  "unrealized_pnl_usd": 434.25,
+  "equity_value": 104955.74,
+  "open_positions": 16,
+  "day_trades_open": 7,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 25907.97,
+  "day_capital_used_usd": 31820.92,
   "swing_capital_used_usd": 43233.89,
-  "total_trades": 1254,
-  "last_tick": "2026-08-29T10:30:31.771548+00:00",
-  "last_reflection": "2026-08-29",
-  "trades_since_last_reflection": 0,
+  "total_trades": 1256,
+  "last_tick": "2026-08-29T15:16:07.166475+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -348,9 +348,9 @@
       "status": "open",
       "price_trough": 1.3795000314712524,
       "trailing_stop_price": 1.396054,
-      "current_price": 1.3851,
-      "unrealized_pnl_pct": -0.002243,
-      "unrealized_pnl_usd": -9.68
+      "current_price": 1.395,
+      "unrealized_pnl_pct": -0.009407,
+      "unrealized_pnl_usd": -40.6
     },
     {
       "id": "BNB-USD_20260828224037",
@@ -382,9 +382,9 @@
       "status": "open",
       "price_trough": 688.6799926757812,
       "trailing_stop_price": 692.502167,
-      "current_price": 688.919983,
-      "unrealized_pnl_pct": 0.001565,
-      "unrealized_pnl_usd": 5.92
+      "current_price": 691.400024,
+      "unrealized_pnl_pct": -0.002029,
+      "unrealized_pnl_usd": -7.67
     },
     {
       "id": "USD/CHF_20260828224037",
@@ -442,26 +442,59 @@
       "status": "open",
       "price_trough": 0.08460000157356262,
       "trailing_stop_price": 0.085369,
-      "current_price": 0.0846,
-      "unrealized_pnl_pct": 0.003534,
-      "unrealized_pnl_usd": 16.34
+      "current_price": 0.08536,
+      "unrealized_pnl_pct": -0.005418,
+      "unrealized_pnl_usd": -25.06
     },
     {
-      "id": "AVAX-USD_20260829035242",
+      "id": "SOL-USD_20260829151607",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 105.08999633789062,
+      "entry_time": "2026-08-29T15:16:07.158255+00:00",
+      "stop_loss_pct": 0.0055,
+      "take_profit_pct": 0.01341,
+      "size_usd": 5866.58,
+      "position_size_pct": 0.0561,
+      "confidence": 0.877,
+      "signals": [
+        "RSI overbought (62.3)",
+        "5d momentum +1.58%",
+        "BB overbought (pct_b=1.08)",
+        "Volume spike 3.0\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: price decline"
+      ],
+      "news_sentiment": 0.238,
+      "news_headlines": [
+        "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+        "Treasury eases as Warsh vows to fight inflation",
+        "Bitcoin, Ethereum And HYPE? Charles Schwab's Adam Lynch Maps Out A Crypto Portfolio As Debasement Fears Build"
+      ],
+      "mode": "paper",
+      "strategy_version": "112",
+      "status": "open",
+      "current_price": 105.089996,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AVAX-USD_20260829151607",
       "asset": "AVAX-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 7.269999980926514,
-      "entry_time": "2026-08-29T03:52:42.061026+00:00",
-      "stop_loss_pct": 0.00763,
-      "take_profit_pct": 0.01771,
-      "size_usd": 4316.4,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
+      "entry_price": 7.343999862670898,
+      "entry_time": "2026-08-29T15:16:07.160000+00:00",
+      "stop_loss_pct": 0.00411,
+      "take_profit_pct": 0.00938,
+      "size_usd": 3772.81,
+      "position_size_pct": 0.0361,
+      "confidence": 0.564,
       "signals": [
-        "RSI oversold (32.3)",
-        "5d momentum -0.47%",
-        "1d momentum -2.40%",
+        "5d momentum +1.12%",
+        "BB overbought (pct_b=0.98)",
+        "Volume spike 2.8\u00d7",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
       ],
@@ -472,41 +505,42 @@
         "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
       ],
       "mode": "paper",
-      "strategy_version": "111",
+      "strategy_version": "112",
       "status": "open",
-      "current_price": 7.273,
-      "unrealized_pnl_pct": -0.000413,
-      "unrealized_pnl_usd": -1.78
+      "current_price": 7.344,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "SOL-USD_20260829103031",
-      "asset": "SOL-USD",
+      "id": "BTC-USD_20260829151607",
+      "asset": "BTC-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 103.45999908447266,
-      "entry_time": "2026-08-29T10:30:31.123102+00:00",
-      "stop_loss_pct": 0.00483,
-      "take_profit_pct": 0.01136,
-      "size_usd": 4714.71,
-      "position_size_pct": 0.0451,
-      "confidence": 0.704,
+      "entry_price": 77932.6015625,
+      "entry_time": "2026-08-29T15:16:07.161490+00:00",
+      "stop_loss_pct": 0.0026,
+      "take_profit_pct": 0.00623,
+      "size_usd": 5304.67,
+      "position_size_pct": 0.0508,
+      "confidence": 0.793,
       "signals": [
-        "RSI oversold (43.9)",
-        "5d momentum -0.55%",
-        "1d momentum -2.59%",
+        "5d momentum +0.39%",
+        "1d momentum -0.50%",
+        "BB overbought (pct_b=0.94)",
+        "Volume spike 3.6\u00d7",
         "High-impact catalyst",
-        "Claude [supports]: price decline"
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
       ],
-      "news_sentiment": 0.128,
+      "news_sentiment": 0.152,
       "news_headlines": [
         "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-        "Treasury eases as Warsh vows to fight inflation",
-        "This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond"
+        "Fed: What to make of Kevin Warsh's plans to fight inflation",
+        "Bitmine's Tom Lee Sees $6,000 Ethereum By Year-End If Bitcoin Hits $150,000"
       ],
       "mode": "paper",
-      "strategy_version": "111",
+      "strategy_version": "112",
       "status": "open",
-      "current_price": 103.459999,
+      "current_price": 77932.601562,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -618,6 +652,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "LLY",
+      "rank_score": 0.6386,
+      "price": 1173.9599609375,
+      "rsi": 37.59133077732971,
+      "momentum_5d": 0.00034128027848304295,
+      "momentum_1d": -0.059711214363527464,
+      "macd_crossover": true,
+      "atr_pct": 0.007305840976976083,
+      "bollinger_pct_b": 0.3515,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.72,
+      "news_sentiment": 0.239,
+      "news_confidence": 0.71,
+      "news_headlines": [
+        "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level",
+        "Sector Update: Healthcare Stocks Decline Late Afternoon",
+        "Is OmniAb (OABI)\u2019s Eli Lilly (LLY) Partnership a Game Changer for OABI?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ABBV",
       "rank_score": 0.6369,
       "price": 255.4550018310547,
@@ -656,27 +711,6 @@
         "Wells Fargo\u2019s Fixed\u2011Income Moves and Dividends Could Be A Game Changer For Wells Fargo (WFC)",
         "Wells Fargo (WFC) Gains As Market Dips: What You Should Know",
         "WFC Broadens Wealth Focus: Can Its Multi-Year Revamp Drive Growth?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LLY",
-      "rank_score": 0.6226,
-      "price": 1173.9599609375,
-      "rsi": 37.59133077732971,
-      "momentum_5d": 0.00034128027848304295,
-      "momentum_1d": -0.059711214363527464,
-      "macd_crossover": true,
-      "atr_pct": 0.007305840976976083,
-      "bollinger_pct_b": 0.3515,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.72,
-      "news_sentiment": 0.014,
-      "news_confidence": 0.69,
-      "news_headlines": [
-        "Sector Update: Healthcare Stocks Decline Late Afternoon",
-        "Is OmniAb (OABI)\u2019s Eli Lilly (LLY) Partnership a Game Changer for OABI?",
-        "GLP-1 Coverage Fell From 72% to 60%. Is Eli Lilly\u2019s Weight-Loss Boom Hitting an Insurance Wall?"
       ],
       "high_impact_news": true
     },
@@ -829,7 +863,7 @@
     },
     {
       "asset": "CRM",
-      "rank_score": 0.5758,
+      "rank_score": 0.5828,
       "price": 256.239990234375,
       "rsi": 89.00983997425719,
       "momentum_5d": -0.02078875952945457,
@@ -839,18 +873,18 @@
       "bollinger_pct_b": 0.6814,
       "volume_spike": false,
       "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.464,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.541,
+      "news_confidence": 0.61,
       "news_headlines": [
         "6 things investors need to watch in the week ahead",
-        "Salesforce is surging again \u2014 but the best software setups may be elsewhere: One Big Investment Idea",
-        "Bandwidth (BAND) Could Be 27% Undervalued As Salesforce Deal And Outlook Lift Reset Views"
+        "Salesforce CEO Dismisses \u2018SaaSpocalypse\u2019 Fears as \u2018Nonsense\u2019 After CRM\u2019s Record Q2: \u2018Time for It to Stop\u2019",
+        "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do."
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.5684,
+      "rank_score": 0.5793,
       "price": 513.6699829101562,
       "rsi": 73.33331163192679,
       "momentum_5d": -0.0031858846053123896,
@@ -860,12 +894,12 @@
       "bollinger_pct_b": 0.7764,
       "volume_spike": true,
       "volume_spike_ratio": 1.59,
-      "news_sentiment": 0.462,
-      "news_confidence": 0.52,
+      "news_sentiment": 0.686,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "Is AGCO\u2019s (AGCO) Precision Autonomy Push Quietly Redefining Its Long\u2011Term Competitive Moat?",
-        "Research Solutions Targets AI-Driven Growth as High-Margin SaaS Revenue Rises",
-        "Microsoft Made $24.1 Billion From OpenAI in 2026. Investors Still Can\u2019t See One Crucial Number"
+        "Chevron's Microsoft Data Center Deal Was a Bigger Story Than Its Earnings. Here's Why.",
+        "VUG vs. VOOG Is Not a Fee Fight | How the Cheaper Vanguard Growth ETF Is Losing",
+        "Stock Market Week Ahead: Chips, Cybersecurity And Jobs"
       ],
       "high_impact_news": true
     },
