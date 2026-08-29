@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104726.41,
+  "portfolio_balance": 104641.21,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 2.94,
-  "unrealized_pnl_usd": 470.83,
-  "equity_value": 105197.24,
+  "portfolio_drawdown_pct": 3.02,
+  "unrealized_pnl_usd": 518.38,
+  "equity_value": 105159.59,
   "open_positions": 15,
   "day_trades_open": 6,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 27039.54,
+  "day_capital_used_usd": 25907.97,
   "swing_capital_used_usd": 43233.89,
-  "total_trades": 1253,
-  "last_tick": "2026-08-29T03:52:42.062883+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 1254,
+  "last_tick": "2026-08-29T10:30:31.771548+00:00",
+  "last_reflection": "2026-08-29",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -141,8 +141,8 @@
       "mode": "paper",
       "strategy_version": "102",
       "status": "open",
-      "price_peak": 266.42999267578125,
-      "trailing_stop_price": 259.99038,
+      "price_peak": 266.43,
+      "trailing_stop_price": 259.990387,
       "current_price": 266.380005,
       "unrealized_pnl_pct": 0.028375,
       "unrealized_pnl_usd": 208.12
@@ -312,44 +312,11 @@
       "mode": "paper",
       "strategy_version": "110",
       "status": "open",
-      "price_peak": 62.31999969482422,
+      "price_peak": 62.32,
       "trailing_stop_price": 61.435056,
       "current_price": 62.330002,
       "unrealized_pnl_pct": 0.011194,
       "unrealized_pnl_usd": 62.66
-    },
-    {
-      "id": "SOL-USD_20260828124125",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 104.98999786376953,
-      "entry_time": "2026-08-28T12:41:25.091927+00:00",
-      "stop_loss_pct": 0.01183,
-      "take_profit_pct": 0.02883,
-      "size_usd": 5846.28,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI oversold (19.8)",
-        "5d momentum -1.29%",
-        "1d momentum +0.55%",
-        "BB oversold (pct_b=0.04)",
-        "High-impact catalyst",
-        "Claude [neutral]: price surge"
-      ],
-      "news_sentiment": 0.069,
-      "news_headlines": [
-        "Morning Minute: Solana Jumps with Network Inflation Set to Drop",
-        "You Can Now Own the Magazine Where One Piece Began \u2014 via a Solana Token",
-        "Whales Yank 231 Million XRP From Binance \u2014 Largest Withdrawal in 6 Months"
-      ],
-      "mode": "paper",
-      "strategy_version": "111",
-      "status": "open",
-      "current_price": 104.059998,
-      "unrealized_pnl_pct": -0.008858,
-      "unrealized_pnl_usd": -51.79
     },
     {
       "id": "XRP-USD_20260828224037",
@@ -381,9 +348,9 @@
       "status": "open",
       "price_trough": 1.3795000314712524,
       "trailing_stop_price": 1.396054,
-      "current_price": 1.3795,
-      "unrealized_pnl_pct": 0.001809,
-      "unrealized_pnl_usd": 7.81
+      "current_price": 1.3851,
+      "unrealized_pnl_pct": -0.002243,
+      "unrealized_pnl_usd": -9.68
     },
     {
       "id": "BNB-USD_20260828224037",
@@ -415,9 +382,9 @@
       "status": "open",
       "price_trough": 688.6799926757812,
       "trailing_stop_price": 692.502167,
-      "current_price": 688.679993,
-      "unrealized_pnl_pct": 0.001913,
-      "unrealized_pnl_usd": 7.23
+      "current_price": 688.919983,
+      "unrealized_pnl_pct": 0.001565,
+      "unrealized_pnl_usd": 5.92
     },
     {
       "id": "USD/CHF_20260828224037",
@@ -473,9 +440,11 @@
       "mode": "paper",
       "strategy_version": "111",
       "status": "open",
-      "current_price": 0.0849,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.08460000157356262,
+      "trailing_stop_price": 0.085369,
+      "current_price": 0.0846,
+      "unrealized_pnl_pct": 0.003534,
+      "unrealized_pnl_usd": 16.34
     },
     {
       "id": "AVAX-USD_20260829035242",
@@ -505,7 +474,39 @@
       "mode": "paper",
       "strategy_version": "111",
       "status": "open",
-      "current_price": 7.27,
+      "current_price": 7.273,
+      "unrealized_pnl_pct": -0.000413,
+      "unrealized_pnl_usd": -1.78
+    },
+    {
+      "id": "SOL-USD_20260829103031",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 103.45999908447266,
+      "entry_time": "2026-08-29T10:30:31.123102+00:00",
+      "stop_loss_pct": 0.00483,
+      "take_profit_pct": 0.01136,
+      "size_usd": 4714.71,
+      "position_size_pct": 0.0451,
+      "confidence": 0.704,
+      "signals": [
+        "RSI oversold (43.9)",
+        "5d momentum -0.55%",
+        "1d momentum -2.59%",
+        "High-impact catalyst",
+        "Claude [supports]: price decline"
+      ],
+      "news_sentiment": 0.128,
+      "news_headlines": [
+        "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+        "Treasury eases as Warsh vows to fight inflation",
+        "This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond"
+      ],
+      "mode": "paper",
+      "strategy_version": "111",
+      "status": "open",
+      "current_price": 103.459999,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -597,7 +598,7 @@
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.6573,
+      "rank_score": 0.6483,
       "price": 216.59500122070312,
       "rsi": 9.548141963180782,
       "momentum_5d": -0.02702034667425779,
@@ -607,12 +608,12 @@
       "bollinger_pct_b": 0.1177,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.58,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.475,
+      "news_confidence": 0.47,
       "news_headlines": [
         "Trending: Take-Two Interactive price ascends as 'Grand Theft Auto VI' is teased",
-        "Jim Cramer Explained What Turned The Tide For NVIDIA Corporation (NASDAQ:NVDA)\u2019s Stock",
-        "Marvell Technology Inc. (NASDAQ: MRVL) Is Only Expensive If It Doesn\u2019t Work, Jim Cramer Said"
+        "How networking became the critical layer of AI",
+        "Jim Cramer Explained What Turned The Tide For NVIDIA Corporation (NASDAQ:NVDA)\u2019s Stock"
       ],
       "high_impact_news": true
     },
@@ -743,29 +744,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.6021,
-      "price": 0.08489999920129776,
-      "rsi": 32.119243692918005,
-      "momentum_5d": -0.002818864338609559,
-      "momentum_1d": -0.033359904780510714,
-      "macd_crossover": true,
-      "atr_pct": 0.010196877488345696,
-      "bollinger_pct_b": 0.3,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.42,
-      "news_sentiment": 0.696,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Can Dogecoin Reach $1 by 2030?",
-        "MSTR Stock Hits 2-Month High With Bitcoin Back Above $80K Ahead Of Kevin Warsh\u2019s Jackson Hole Speech",
-        "3 Big Changes Just Hit XRP, Dogecoin, and Ethereum ETFs"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HOOD",
-      "rank_score": 0.5894,
+      "rank_score": 0.5904,
       "price": 104.2699966430664,
       "rsi": 36.310659283843805,
       "momentum_5d": -0.03889760626599112,
@@ -775,12 +755,12 @@
       "bollinger_pct_b": 0.0318,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.652,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.66,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "DKNG Soars Nearly 10%, FLUT Jumps 8% \u2014 DraftKings, Flutter Entertainment Rally On Ruling That Sports Bets Aren\u2019t Swaps",
-        "Coinbase (COIN) Q2 Revenue Fell, but Its Diversification Story Got Stronger",
-        "Ninth Circuit rules states can regulate prediction markets as gambling"
+        "Reform UK plays down crypto ties as it courts business, diplomats",
+        "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months",
+        "DKNG Soars Nearly 10%, FLUT Jumps 8% \u2014 DraftKings, Flutter Entertainment Rally On Ruling That Sports Bets Aren\u2019t Swaps"
       ],
       "high_impact_news": true
     },
@@ -820,9 +800,9 @@
       "news_sentiment": 0.429,
       "news_confidence": 0.28,
       "news_headlines": [
-        "Bitcoin and Cathie Wood are partying like it's 2021 again: Chart of the Day",
         "Cathie Wood buys $17.2 million of beaten-down AI stock",
-        "Cathie Wood Just Sold Another $18 Million of AMD Stock"
+        "Cathie Wood Just Sold Another $18 Million of AMD Stock",
+        "Bitcoin and Cathie Wood are partying like it's 2021 again: Chart of the Day"
       ],
       "high_impact_news": true
     },
@@ -859,18 +839,18 @@
       "bollinger_pct_b": 0.6814,
       "volume_spike": false,
       "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.419,
-      "news_confidence": 0.62,
+      "news_sentiment": 0.464,
+      "news_confidence": 0.56,
       "news_headlines": [
         "6 things investors need to watch in the week ahead",
         "Salesforce is surging again \u2014 but the best software setups may be elsewhere: One Big Investment Idea",
-        "Why ZM Stock Prints So Much Cash Right Now"
+        "Bandwidth (BAND) Could Be 27% Undervalued As Salesforce Deal And Outlook Lift Reset Views"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.5744,
+      "rank_score": 0.5684,
       "price": 513.6699829101562,
       "rsi": 73.33331163192679,
       "momentum_5d": -0.0031858846053123896,
@@ -880,12 +860,12 @@
       "bollinger_pct_b": 0.7764,
       "volume_spike": true,
       "volume_spike_ratio": 1.59,
-      "news_sentiment": 0.536,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.462,
+      "news_confidence": 0.52,
       "news_headlines": [
-        "Microsoft Made $24.1 Billion From OpenAI in 2026. Investors Still Can\u2019t See One Crucial Number",
-        "Why ZM Stock Prints So Much Cash Right Now",
-        "Has Microsoft Stock Run Ahead Of Its AI Payoff?"
+        "Is AGCO\u2019s (AGCO) Precision Autonomy Push Quietly Redefining Its Long\u2011Term Competitive Moat?",
+        "Research Solutions Targets AI-Driven Growth as High-Margin SaaS Revenue Rises",
+        "Microsoft Made $24.1 Billion From OpenAI in 2026. Investors Still Can\u2019t See One Crucial Number"
       ],
       "high_impact_news": true
     },
@@ -928,6 +908,27 @@
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech",
         "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Ahead of Fed's Jackson Hole Symposium",
         "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RXRX",
+      "rank_score": 0.5299,
+      "price": 3.3299999237060547,
+      "rsi": 31.33397022435574,
+      "momentum_5d": -0.01914581961285317,
+      "momentum_1d": -0.05531919613779498,
+      "macd_crossover": false,
+      "atr_pct": 0.01672671555621634,
+      "bollinger_pct_b": 0.1142,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.91,
+      "news_sentiment": 0.636,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
+        "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
+        "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
       ],
       "high_impact_news": true
     }

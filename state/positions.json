@@ -114,8 +114,8 @@
     "mode": "paper",
     "strategy_version": "102",
     "status": "open",
-    "price_peak": 266.42999267578125,
-    "trailing_stop_price": 259.99038
+    "price_peak": 266.43,
+    "trailing_stop_price": 259.990387
   },
   "HD": {
     "id": "HD_20260821194841",
@@ -270,38 +270,8 @@
     "mode": "paper",
     "strategy_version": "110",
     "status": "open",
-    "price_peak": 62.31999969482422,
+    "price_peak": 62.32,
     "trailing_stop_price": 61.435056
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260828124125",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 104.98999786376953,
-    "entry_time": "2026-08-28T12:41:25.091927+00:00",
-    "stop_loss_pct": 0.01183,
-    "take_profit_pct": 0.02883,
-    "size_usd": 5846.28,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (19.8)",
-      "5d momentum -1.29%",
-      "1d momentum +0.55%",
-      "BB oversold (pct_b=0.04)",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge"
-    ],
-    "news_sentiment": 0.069,
-    "news_headlines": [
-      "Morning Minute: Solana Jumps with Network Inflation Set to Drop",
-      "You Can Now Own the Magazine Where One Piece Began \u2014 via a Solana Token",
-      "Whales Yank 231 Million XRP From Binance \u2014 Largest Withdrawal in 6 Months"
-    ],
-    "mode": "paper",
-    "strategy_version": "111",
-    "status": "open"
   },
   "XRP-USD": {
     "id": "XRP-USD_20260828224037",
@@ -415,7 +385,9 @@
     ],
     "mode": "paper",
     "strategy_version": "111",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.08460000157356262,
+    "trailing_stop_price": 0.085369
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260829035242",
@@ -441,6 +413,35 @@
       "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
       "Treasury eases as Warsh vows to fight inflation",
       "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
+    ],
+    "mode": "paper",
+    "strategy_version": "111",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260829103031",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 103.45999908447266,
+    "entry_time": "2026-08-29T10:30:31.123102+00:00",
+    "stop_loss_pct": 0.00483,
+    "take_profit_pct": 0.01136,
+    "size_usd": 4714.71,
+    "position_size_pct": 0.0451,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (43.9)",
+      "5d momentum -0.55%",
+      "1d momentum -2.59%",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.128,
+    "news_headlines": [
+      "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+      "Treasury eases as Warsh vows to fight inflation",
+      "This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond"
     ],
     "mode": "paper",
     "strategy_version": "111",
