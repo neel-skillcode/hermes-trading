@@ -358,36 +358,6 @@
     "price_trough": 0.08460000157356262,
     "trailing_stop_price": 0.085369
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260829151607",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 105.08999633789062,
-    "entry_time": "2026-08-29T15:16:07.158255+00:00",
-    "stop_loss_pct": 0.0055,
-    "take_profit_pct": 0.01341,
-    "size_usd": 5866.58,
-    "position_size_pct": 0.0561,
-    "confidence": 0.877,
-    "signals": [
-      "RSI overbought (62.3)",
-      "5d momentum +1.58%",
-      "BB overbought (pct_b=1.08)",
-      "Volume spike 3.0\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price decline"
-    ],
-    "news_sentiment": 0.238,
-    "news_headlines": [
-      "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-      "Treasury eases as Warsh vows to fight inflation",
-      "Bitcoin, Ethereum And HYPE? Charles Schwab's Adam Lynch Maps Out A Crypto Portfolio As Debasement Fears Build"
-    ],
-    "mode": "paper",
-    "strategy_version": "112",
-    "status": "open"
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260829151607",
     "asset": "AVAX-USD",
@@ -419,31 +389,89 @@
     "price_trough": 7.315000057220459,
     "trailing_stop_price": 7.345065
   },
+  "SOL-USD": {
+    "id": "SOL-USD_20260829231706",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 105.7300033569336,
+    "entry_time": "2026-08-29T23:17:06.699661+00:00",
+    "stop_loss_pct": 0.00602,
+    "take_profit_pct": 0.01486,
+    "size_usd": 6243.75,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI overbought (79.8)",
+      "5d momentum +0.57%",
+      "1d momentum +1.52%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [supports]: price decline"
+    ],
+    "news_sentiment": 0.459,
+    "news_headlines": [
+      "Bitcoin, Ethereum And HYPE? Charles Schwab's Adam Lynch Maps Out A Crypto Portfolio As Debasement Fears Build",
+      "This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond",
+      "Bitwise's Matt Hougan Says Ethereum And Solana Are Betting On Opposite Valuation Models, 'My Favorite Approach Is Just To Own Them Both'"
+    ],
+    "mode": "paper",
+    "strategy_version": "112",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260829231706",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2455.35009765625,
+    "entry_time": "2026-08-29T23:17:06.703434+00:00",
+    "stop_loss_pct": 0.00258,
+    "take_profit_pct": 0.00598,
+    "size_usd": 4231.58,
+    "position_size_pct": 0.0405,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (78.5)",
+      "1d momentum +0.51%",
+      "BB overbought (pct_b=0.87)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?",
+      "Arthur Hayes Names Ethereum His \u2018No. 1 Crypto Pick\u2019, Sees ETH Surging 3X To 5X \u2018Pretty Quickly\u2019",
+      "Tom Lee's Bitmine Continues to Buy Ethereum Hand Over Fist. Should Crypto Investors Be Doing the Same?"
+    ],
+    "mode": "paper",
+    "strategy_version": "112",
+    "status": "open"
+  },
   "BTC-USD": {
-    "id": "BTC-USD_20260829151607",
+    "id": "BTC-USD_20260829231706",
     "asset": "BTC-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 77932.6015625,
-    "entry_time": "2026-08-29T15:16:07.161490+00:00",
-    "stop_loss_pct": 0.0026,
-    "take_profit_pct": 0.00623,
-    "size_usd": 5304.67,
-    "position_size_pct": 0.0508,
-    "confidence": 0.793,
+    "entry_price": 78229.9921875,
+    "entry_time": "2026-08-29T23:17:06.706537+00:00",
+    "stop_loss_pct": 0.00229,
+    "take_profit_pct": 0.0053,
+    "size_usd": 4231.58,
+    "position_size_pct": 0.0405,
+    "confidence": 0.633,
     "signals": [
-      "5d momentum +0.39%",
-      "1d momentum -0.50%",
-      "BB overbought (pct_b=0.94)",
-      "Volume spike 3.6\u00d7",
+      "RSI overbought (75.3)",
+      "1d momentum +0.50%",
+      "BB overbought (pct_b=0.85)",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": 0.152,
+    "news_sentiment": 0.135,
     "news_headlines": [
-      "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-      "Fed: What to make of Kevin Warsh's plans to fight inflation",
-      "Bitmine's Tom Lee Sees $6,000 Ethereum By Year-End If Bitcoin Hits $150,000"
+      "Bitcoin Is Stuck Below $80,000. What Does That Mean for XRP?",
+      "MARA Holdings (MARA) Is Down 5.2% After Bitcoin Pullback Tests Its AI Diversification Story \u2013 Has The Bull Case Changed?",
+      "Coinbase CEO Says Crypto Is 'Updating the Financial System' as Trump Pushes CLARITY Act"
     ],
     "mode": "paper",
     "strategy_version": "112",
