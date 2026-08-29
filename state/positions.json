@@ -330,7 +330,9 @@
     ],
     "mode": "paper",
     "strategy_version": "111",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.3795000314712524,
+    "trailing_stop_price": 1.396054
   },
   "BNB-USD": {
     "id": "BNB-USD_20260828224037",
@@ -359,7 +361,9 @@
     ],
     "mode": "paper",
     "strategy_version": "111",
-    "status": "open"
+    "status": "open",
+    "price_trough": 688.6799926757812,
+    "trailing_stop_price": 692.502167
   },
   "USD/CHF": {
     "id": "USD/CHF_20260828224037",
@@ -380,6 +384,64 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "111",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260829035242",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.08489999920129776,
+    "entry_time": "2026-08-29T03:52:42.056536+00:00",
+    "stop_loss_pct": 0.00909,
+    "take_profit_pct": 0.02131,
+    "size_usd": 4624.72,
+    "position_size_pct": 0.0442,
+    "confidence": 0.69,
+    "signals": [
+      "RSI oversold (32.1)",
+      "MACD crossover",
+      "1d momentum -3.34%",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.696,
+    "news_headlines": [
+      "Can Dogecoin Reach $1 by 2030?",
+      "MSTR Stock Hits 2-Month High With Bitcoin Back Above $80K Ahead Of Kevin Warsh\u2019s Jackson Hole Speech",
+      "3 Big Changes Just Hit XRP, Dogecoin, and Ethereum ETFs"
+    ],
+    "mode": "paper",
+    "strategy_version": "111",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260829035242",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.269999980926514,
+    "entry_time": "2026-08-29T03:52:42.061026+00:00",
+    "stop_loss_pct": 0.00763,
+    "take_profit_pct": 0.01771,
+    "size_usd": 4316.4,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (32.3)",
+      "5d momentum -0.47%",
+      "1d momentum -2.40%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.351,
+    "news_headlines": [
+      "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+      "Treasury eases as Warsh vows to fight inflation",
+      "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
+    ],
     "mode": "paper",
     "strategy_version": "111",
     "status": "open"

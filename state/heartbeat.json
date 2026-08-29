@@ -3,15 +3,15 @@
   "portfolio_balance": 104726.41,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 2.94,
-  "unrealized_pnl_usd": 445.22,
-  "equity_value": 105171.62,
-  "open_positions": 13,
-  "day_trades_open": 4,
+  "unrealized_pnl_usd": 470.83,
+  "equity_value": 105197.24,
+  "open_positions": 15,
+  "day_trades_open": 6,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 18098.42,
+  "day_capital_used_usd": 27039.54,
   "swing_capital_used_usd": 43233.89,
   "total_trades": 1253,
-  "last_tick": "2026-08-28T22:40:37.934560+00:00",
+  "last_tick": "2026-08-29T03:52:42.062883+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -347,9 +347,9 @@
       "mode": "paper",
       "strategy_version": "111",
       "status": "open",
-      "current_price": 103.870003,
-      "unrealized_pnl_pct": -0.010668,
-      "unrealized_pnl_usd": -62.37
+      "current_price": 104.059998,
+      "unrealized_pnl_pct": -0.008858,
+      "unrealized_pnl_usd": -51.79
     },
     {
       "id": "XRP-USD_20260828224037",
@@ -379,9 +379,11 @@
       "mode": "paper",
       "strategy_version": "111",
       "status": "open",
-      "current_price": 1.382,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1.3795000314712524,
+      "trailing_stop_price": 1.396054,
+      "current_price": 1.3795,
+      "unrealized_pnl_pct": 0.001809,
+      "unrealized_pnl_usd": 7.81
     },
     {
       "id": "BNB-USD_20260828224037",
@@ -411,9 +413,11 @@
       "mode": "paper",
       "strategy_version": "111",
       "status": "open",
-      "current_price": 690.0,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 688.6799926757812,
+      "trailing_stop_price": 692.502167,
+      "current_price": 688.679993,
+      "unrealized_pnl_pct": 0.001913,
+      "unrealized_pnl_usd": 7.23
     },
     {
       "id": "USD/CHF_20260828224037",
@@ -438,6 +442,70 @@
       "strategy_version": "111",
       "status": "open",
       "current_price": 0.8093,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "DOGE-USD_20260829035242",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.08489999920129776,
+      "entry_time": "2026-08-29T03:52:42.056536+00:00",
+      "stop_loss_pct": 0.00909,
+      "take_profit_pct": 0.02131,
+      "size_usd": 4624.72,
+      "position_size_pct": 0.0442,
+      "confidence": 0.69,
+      "signals": [
+        "RSI oversold (32.1)",
+        "MACD crossover",
+        "1d momentum -3.34%",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.696,
+      "news_headlines": [
+        "Can Dogecoin Reach $1 by 2030?",
+        "MSTR Stock Hits 2-Month High With Bitcoin Back Above $80K Ahead Of Kevin Warsh\u2019s Jackson Hole Speech",
+        "3 Big Changes Just Hit XRP, Dogecoin, and Ethereum ETFs"
+      ],
+      "mode": "paper",
+      "strategy_version": "111",
+      "status": "open",
+      "current_price": 0.0849,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AVAX-USD_20260829035242",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 7.269999980926514,
+      "entry_time": "2026-08-29T03:52:42.061026+00:00",
+      "stop_loss_pct": 0.00763,
+      "take_profit_pct": 0.01771,
+      "size_usd": 4316.4,
+      "position_size_pct": 0.0412,
+      "confidence": 0.644,
+      "signals": [
+        "RSI oversold (32.3)",
+        "5d momentum -0.47%",
+        "1d momentum -2.40%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.351,
+      "news_headlines": [
+        "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+        "Treasury eases as Warsh vows to fight inflation",
+        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
+      ],
+      "mode": "paper",
+      "strategy_version": "111",
+      "status": "open",
+      "current_price": 7.27,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -487,7 +555,7 @@
     },
     {
       "asset": "PYPL",
-      "rank_score": 0.7467,
+      "rank_score": 0.7338,
       "price": 53.654998779296875,
       "rsi": 4.99597143164722,
       "momentum_5d": -0.01432906354948409,
@@ -496,40 +564,19 @@
       "atr_pct": 0.01850940496551238,
       "bollinger_pct_b": 0.1372,
       "volume_spike": true,
-      "volume_spike_ratio": 16.49,
-      "news_sentiment": 0.386,
-      "news_confidence": 0.63,
+      "volume_spike_ratio": 2.05,
+      "news_sentiment": 0.479,
+      "news_confidence": 0.55,
       "news_headlines": [
         "Affirm is 'firing on all cylinders': COO talks perspective on US consumer",
         "Trending: Take-Two Interactive price ascends as 'Grand Theft Auto VI' is teased",
-        "Marvell, Nvidia, PayPal, Workday, Iren, Elastic, Pasqal, Affirm, and More Stocks That Explain Today\u2019s Market"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRVL",
-      "rank_score": 0.665,
-      "price": 216.59500122070312,
-      "rsi": 9.548141963180782,
-      "momentum_5d": -0.02702034667425779,
-      "momentum_1d": -0.09984620723138012,
-      "macd_crossover": false,
-      "atr_pct": 0.023790044804228194,
-      "bollinger_pct_b": 0.1177,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.86,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.65,
-      "news_headlines": [
-        "Trending: Take-Two Interactive price ascends as 'Grand Theft Auto VI' is teased",
-        "Marvell Stock Faces Critical Test After Sharp Drop",
-        "Marvell Stock Crashes 10% After Guidance Disappoints Investors"
+        "PayPal (PYPL) Hit After Stripe, Advent Drop $53B Planned Takeover"
       ],
       "high_impact_news": true
     },
     {
       "asset": "SLB",
-      "rank_score": 0.6624,
+      "rank_score": 0.7024,
       "price": 57.32500076293945,
       "rsi": 82.646832462851,
       "momentum_5d": 0.024667102969756667,
@@ -538,19 +585,40 @@
       "atr_pct": 0.012811783348013655,
       "bollinger_pct_b": 0.9206,
       "volume_spike": true,
-      "volume_spike_ratio": 1.51,
-      "news_sentiment": 0.071,
-      "news_confidence": 0.56,
+      "volume_spike_ratio": 1.86,
+      "news_sentiment": 0.164,
+      "news_confidence": 0.55,
       "news_headlines": [
+        "SLB\u2019s Venezuela Bet: Massive Opportunity or Risky Gamble?",
         "The World\u2019s Largest Oil Reserves Are Opening Their Data to SLB. Should Investors Trust Venezuela to Pay?",
-        "Sector Update: Energy Stocks Decline Premarket Wednesday",
-        "An Oil Catastrophe Was Averted in 2026. What If It Comes in 2027?"
+        "Sector Update: Energy Stocks Decline Premarket Wednesday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRVL",
+      "rank_score": 0.6573,
+      "price": 216.59500122070312,
+      "rsi": 9.548141963180782,
+      "momentum_5d": -0.02702034667425779,
+      "momentum_1d": -0.09984620723138012,
+      "macd_crossover": false,
+      "atr_pct": 0.023790044804228194,
+      "bollinger_pct_b": 0.1177,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.1,
+      "news_sentiment": 0.58,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Trending: Take-Two Interactive price ascends as 'Grand Theft Auto VI' is teased",
+        "Jim Cramer Explained What Turned The Tide For NVIDIA Corporation (NASDAQ:NVDA)\u2019s Stock",
+        "Marvell Technology Inc. (NASDAQ: MRVL) Is Only Expensive If It Doesn\u2019t Work, Jim Cramer Said"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ABBV",
-      "rank_score": 0.6139,
+      "rank_score": 0.6369,
       "price": 255.4550018310547,
       "rsi": 18.13517499313842,
       "momentum_5d": -0.005624725962476801,
@@ -559,13 +627,55 @@
       "atr_pct": 0.006281614499223926,
       "bollinger_pct_b": 0.1527,
       "volume_spike": true,
-      "volume_spike_ratio": 1.58,
+      "volume_spike_ratio": 1.81,
       "news_sentiment": 0.442,
       "news_confidence": 0.43,
       "news_headlines": [
         "Did A Product Swap Fuel JNJ Stock\u2019s 54% Surge?",
         "Can Merck Stock Outrun Its Pipeline?",
         "AbbVie Seeks EU Nod for Subcutaneous Skyrizi in Crohn's Disease"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "WFC",
+      "rank_score": 0.6232,
+      "price": 86.69000244140625,
+      "rsi": 70.164612956184,
+      "momentum_5d": 0.0036469168324891462,
+      "momentum_1d": 0.028168178037478907,
+      "macd_crossover": false,
+      "atr_pct": 0.005726144385259632,
+      "bollinger_pct_b": 0.9711,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.95,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Wells Fargo\u2019s Fixed\u2011Income Moves and Dividends Could Be A Game Changer For Wells Fargo (WFC)",
+        "Wells Fargo (WFC) Gains As Market Dips: What You Should Know",
+        "WFC Broadens Wealth Focus: Can Its Multi-Year Revamp Drive Growth?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LLY",
+      "rank_score": 0.6226,
+      "price": 1173.9599609375,
+      "rsi": 37.59133077732971,
+      "momentum_5d": 0.00034128027848304295,
+      "momentum_1d": -0.059711214363527464,
+      "macd_crossover": true,
+      "atr_pct": 0.007305840976976083,
+      "bollinger_pct_b": 0.3515,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.72,
+      "news_sentiment": 0.014,
+      "news_confidence": 0.69,
+      "news_headlines": [
+        "Sector Update: Healthcare Stocks Decline Late Afternoon",
+        "Is OmniAb (OABI)\u2019s Eli Lilly (LLY) Partnership a Game Changer for OABI?",
+        "GLP-1 Coverage Fell From 72% to 60%. Is Eli Lilly\u2019s Weight-Loss Boom Hitting an Insurance Wall?"
       ],
       "high_impact_news": true
     },
@@ -580,7 +690,7 @@
       "atr_pct": 0.007089095434651675,
       "bollinger_pct_b": 0.0457,
       "volume_spike": false,
-      "volume_spike_ratio": 0.5,
+      "volume_spike_ratio": 0.87,
       "news_sentiment": 0.319,
       "news_confidence": 0.47,
       "news_headlines": [
@@ -601,7 +711,7 @@
       "atr_pct": 0.017051433322364758,
       "bollinger_pct_b": 0.0275,
       "volume_spike": false,
-      "volume_spike_ratio": 0.64,
+      "volume_spike_ratio": 0.79,
       "news_sentiment": 0.603,
       "news_confidence": 0.47,
       "news_headlines": [
@@ -612,29 +722,50 @@
       "high_impact_news": true
     },
     {
-      "asset": "LLY",
-      "rank_score": 0.6046,
-      "price": 1173.9599609375,
-      "rsi": 37.59133077732971,
-      "momentum_5d": 0.00034128027848304295,
-      "momentum_1d": -0.059711214363527464,
-      "macd_crossover": true,
-      "atr_pct": 0.007305840976976083,
-      "bollinger_pct_b": 0.3515,
+      "asset": "HAL",
+      "rank_score": 0.6054,
+      "price": 36.18000030517578,
+      "rsi": 80.34873247203086,
+      "momentum_5d": 0.009205072387740956,
+      "momentum_1d": 0.06271118375849834,
+      "macd_crossover": false,
+      "atr_pct": 0.011771291684559513,
+      "bollinger_pct_b": 0.7976,
       "volume_spike": true,
-      "volume_spike_ratio": 1.54,
-      "news_sentiment": 0.014,
-      "news_confidence": 0.69,
+      "volume_spike_ratio": 1.5,
+      "news_sentiment": 0.583,
+      "news_confidence": 0.48,
       "news_headlines": [
-        "Sector Update: Healthcare Stocks Decline Late Afternoon",
-        "Is OmniAb (OABI)\u2019s Eli Lilly (LLY) Partnership a Game Changer for OABI?",
-        "GLP-1 Coverage Fell From 72% to 60%. Is Eli Lilly\u2019s Weight-Loss Boom Hitting an Insurance Wall?"
+        "Pentagon in talks for Venezuelan oil fields deal through middleman - Bloomberg",
+        "Sector Update: Energy Stocks Mixed Late Afternoon",
+        "CVX, HAL Stocks Gain \u2014 Chevron, Halliburton Reportedly Eye Venezuela Oil Opportunities"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.6021,
+      "price": 0.08489999920129776,
+      "rsi": 32.119243692918005,
+      "momentum_5d": -0.002818864338609559,
+      "momentum_1d": -0.033359904780510714,
+      "macd_crossover": true,
+      "atr_pct": 0.010196877488345696,
+      "bollinger_pct_b": 0.3,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.42,
+      "news_sentiment": 0.696,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Can Dogecoin Reach $1 by 2030?",
+        "MSTR Stock Hits 2-Month High With Bitcoin Back Above $80K Ahead Of Kevin Warsh\u2019s Jackson Hole Speech",
+        "3 Big Changes Just Hit XRP, Dogecoin, and Ethereum ETFs"
       ],
       "high_impact_news": true
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.5944,
+      "rank_score": 0.5894,
       "price": 104.2699966430664,
       "rsi": 36.310659283843805,
       "momentum_5d": -0.03889760626599112,
@@ -644,33 +775,12 @@
       "bollinger_pct_b": 0.0318,
       "volume_spike": false,
       "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.652,
+      "news_confidence": 0.46,
       "news_headlines": [
         "DKNG Soars Nearly 10%, FLUT Jumps 8% \u2014 DraftKings, Flutter Entertainment Rally On Ruling That Sports Bets Aren\u2019t Swaps",
         "Coinbase (COIN) Q2 Revenue Fell, but Its Diversification Story Got Stronger",
         "Ninth Circuit rules states can regulate prediction markets as gambling"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.5943,
-      "price": 368.67999267578125,
-      "rsi": 70.50061150330095,
-      "momentum_5d": -0.012495168087610612,
-      "momentum_1d": 0.0318500007601636,
-      "macd_crossover": false,
-      "atr_pct": 0.010799574374400633,
-      "bollinger_pct_b": 0.6454,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.85,
-      "news_sentiment": 0.558,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "6 things investors need to watch in the week ahead",
-        "Stock Market Today, Aug. 28: Marvell Slides 10% on Softer Fiscal 2028 Guidance and Google Deal Timing",
-        "Jobs report, Broadcom results pose next hurdles for stock market rally"
       ],
       "high_impact_news": true
     },
@@ -696,23 +806,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "WFC",
-      "rank_score": 0.5882,
-      "price": 86.69000244140625,
-      "rsi": 70.164612956184,
-      "momentum_5d": 0.0036469168324891462,
-      "momentum_1d": 0.028168178037478907,
+      "asset": "ARKK",
+      "rank_score": 0.5866,
+      "price": 84.48999786376953,
+      "rsi": 41.22862201853974,
+      "momentum_5d": -0.022445938152913264,
+      "momentum_1d": -0.024702752597213135,
       "macd_crossover": false,
-      "atr_pct": 0.005726144385259632,
-      "bollinger_pct_b": 0.9711,
+      "atr_pct": 0.009023630070989117,
+      "bollinger_pct_b": 0.1667,
       "volume_spike": true,
-      "volume_spike_ratio": 1.66,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
+      "volume_spike_ratio": 2.21,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.28,
       "news_headlines": [
-        "Wells Fargo (WFC) Gains As Market Dips: What You Should Know",
-        "WFC Broadens Wealth Focus: Can Its Multi-Year Revamp Drive Growth?",
-        "Goldman Sachs expresses doubts about Scott Bessent's plan"
+        "Bitcoin and Cathie Wood are partying like it's 2021 again: Chart of the Day",
+        "Cathie Wood buys $17.2 million of beaten-down AI stock",
+        "Cathie Wood Just Sold Another $18 Million of AMD Stock"
       ],
       "high_impact_news": true
     },
@@ -727,7 +837,7 @@
       "atr_pct": 0.011767920621581631,
       "bollinger_pct_b": 0.0482,
       "volume_spike": false,
-      "volume_spike_ratio": 1.0,
+      "volume_spike_ratio": 1.39,
       "news_sentiment": 0.863,
       "news_confidence": 0.73,
       "news_headlines": [
@@ -759,6 +869,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MSFT",
+      "rank_score": 0.5744,
+      "price": 513.6699829101562,
+      "rsi": 73.33331163192679,
+      "momentum_5d": -0.0031858846053123896,
+      "momentum_1d": 0.04860572055401872,
+      "macd_crossover": false,
+      "atr_pct": 0.009105826927696282,
+      "bollinger_pct_b": 0.7764,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.59,
+      "news_sentiment": 0.536,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Microsoft Made $24.1 Billion From OpenAI in 2026. Investors Still Can\u2019t See One Crucial Number",
+        "Why ZM Stock Prints So Much Cash Right Now",
+        "Has Microsoft Stock Run Ahead Of Its AI Payoff?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "REGN",
       "rank_score": 0.562,
       "price": 794.0599975585938,
@@ -780,27 +911,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "HAL",
-      "rank_score": 0.5554,
-      "price": 36.18000030517578,
-      "rsi": 80.34873247203086,
-      "momentum_5d": 0.009205072387740956,
-      "momentum_1d": 0.06271118375849834,
-      "macd_crossover": false,
-      "atr_pct": 0.011771291684559513,
-      "bollinger_pct_b": 0.7976,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.3,
-      "news_sentiment": 0.583,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Pentagon in talks for Venezuelan oil fields deal through middleman - Bloomberg",
-        "Sector Update: Energy Stocks Mixed Late Afternoon",
-        "CVX, HAL Stocks Gain \u2014 Chevron, Halliburton Reportedly Eye Venezuela Oil Opportunities"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SLV",
       "rank_score": 0.5536,
       "price": 60.029998779296875,
@@ -811,55 +921,13 @@
       "atr_pct": 0.014668964230283568,
       "bollinger_pct_b": 0.0774,
       "volume_spike": false,
-      "volume_spike_ratio": 0.39,
+      "volume_spike_ratio": 0.71,
       "news_sentiment": -0.6,
       "news_confidence": 0.35,
       "news_headlines": [
         "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech",
         "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Ahead of Fed's Jackson Hole Symposium",
         "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.5471,
-      "price": 66.57499694824219,
-      "rsi": 24.424127611673953,
-      "momentum_5d": 0.0015043020145389463,
-      "momentum_1d": -0.016036161027800942,
-      "macd_crossover": false,
-      "atr_pct": 0.005335575010887676,
-      "bollinger_pct_b": 0.2769,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.7,
-      "news_sentiment": 0.741,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "Cytokinetics Boasts A First-Ever In Heart Disease \u2014 And Shares Drop",
-        "Can Atrium Therapeutics (RNA)\u2019s $15 Million Milestone From Bristol-Myers Squibb (BMY) Validate its RNA Platform?",
-        "Can Merck Stock Outrun Its Pipeline?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NVDA",
-      "rank_score": 0.5321,
-      "price": 217.5399932861328,
-      "rsi": 60.54487962228056,
-      "momentum_5d": -0.028839315686907088,
-      "momentum_1d": 0.024875148006879035,
-      "macd_crossover": false,
-      "atr_pct": 0.01822964813929554,
-      "bollinger_pct_b": 0.4219,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.75,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "6 things investors need to watch in the week ahead",
-        "Nvidia could hit a $13 trillion market cap, analyst says",
-        "Nvidia Drops 3.3% as $315 Target Meets a $108 Billion Test"
       ],
       "high_impact_news": true
     }
