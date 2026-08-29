@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104521.49,
+  "portfolio_balance": 104507.36,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.13,
-  "unrealized_pnl_usd": 475.31,
-  "equity_value": 104996.8,
-  "open_positions": 16,
-  "day_trades_open": 7,
+  "portfolio_drawdown_pct": 3.14,
+  "unrealized_pnl_usd": 462.06,
+  "equity_value": 104969.42,
+  "open_positions": 15,
+  "day_trades_open": 6,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 31820.92,
+  "day_capital_used_usd": 28040.72,
   "swing_capital_used_usd": 43233.89,
-  "total_trades": 1256,
-  "last_tick": "2026-08-29T18:35:19.782440+00:00",
+  "total_trades": 1257,
+  "last_tick": "2026-08-29T21:10:00.576889+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 2,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -348,43 +348,9 @@
       "status": "open",
       "price_trough": 1.3795000314712524,
       "trailing_stop_price": 1.396054,
-      "current_price": 1.3922,
-      "unrealized_pnl_pct": -0.007381,
-      "unrealized_pnl_usd": -31.86
-    },
-    {
-      "id": "BNB-USD_20260828224037",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 690.0,
-      "entry_time": "2026-08-28T22:40:37.929035+00:00",
-      "stop_loss_pct": 0.00555,
-      "take_profit_pct": 0.01266,
-      "size_usd": 3780.2,
-      "position_size_pct": 0.0361,
-      "confidence": 0.564,
-      "signals": [
-        "RSI oversold (23.0)",
-        "5d momentum -0.53%",
-        "1d momentum -3.18%",
-        "High-impact catalyst",
-        "Claude [contradicts]: product catalyst; price surge"
-      ],
-      "news_sentiment": 0.476,
-      "news_headlines": [
-        "Nano Labs H1 Earnings Call Highlights",
-        "What is crypto?",
-        "Should You Go 'All In' on Bitcoin? Binance Founder Changpeng Zhao Has the Answer"
-      ],
-      "mode": "paper",
-      "strategy_version": "111",
-      "status": "open",
-      "price_trough": 688.6799926757812,
-      "trailing_stop_price": 692.502167,
-      "current_price": 691.390015,
-      "unrealized_pnl_pct": -0.002015,
-      "unrealized_pnl_usd": -7.62
+      "current_price": 1.3946,
+      "unrealized_pnl_pct": -0.009117,
+      "unrealized_pnl_usd": -39.35
     },
     {
       "id": "USD/CHF_20260828224037",
@@ -442,9 +408,9 @@
       "status": "open",
       "price_trough": 0.08460000157356262,
       "trailing_stop_price": 0.085369,
-      "current_price": 0.08515,
-      "unrealized_pnl_pct": -0.002945,
-      "unrealized_pnl_usd": -13.62
+      "current_price": 0.08513,
+      "unrealized_pnl_pct": -0.002709,
+      "unrealized_pnl_usd": -12.53
     },
     {
       "id": "SOL-USD_20260829151607",
@@ -475,11 +441,9 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "price_trough": 104.91999816894531,
-      "trailing_stop_price": 105.497058,
-      "current_price": 104.889999,
-      "unrealized_pnl_pct": 0.001903,
-      "unrealized_pnl_usd": 11.16
+      "current_price": 105.089996,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     },
     {
       "id": "AVAX-USD_20260829151607",
@@ -509,11 +473,11 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "price_trough": 7.307000160217285,
-      "trailing_stop_price": 7.337032,
-      "current_price": 7.307,
-      "unrealized_pnl_pct": 0.005038,
-      "unrealized_pnl_usd": 19.01
+      "price_trough": 7.315000057220459,
+      "trailing_stop_price": 7.345065,
+      "current_price": 7.315,
+      "unrealized_pnl_pct": 0.003949,
+      "unrealized_pnl_usd": 14.9
     },
     {
       "id": "BTC-USD_20260829151607",
@@ -544,9 +508,9 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 78069.9375,
-      "unrealized_pnl_pct": -0.001762,
-      "unrealized_pnl_usd": -9.35
+      "current_price": 78057.976562,
+      "unrealized_pnl_pct": -0.001609,
+      "unrealized_pnl_usd": -8.53
     }
   ],
   "last_candidates": [
@@ -594,7 +558,7 @@
     },
     {
       "asset": "PYPL",
-      "rank_score": 0.7267,
+      "rank_score": 0.7197,
       "price": 53.654998779296875,
       "rsi": 4.99597143164722,
       "momentum_5d": -0.01432906354948409,
@@ -604,12 +568,12 @@
       "bollinger_pct_b": 0.1372,
       "volume_spike": true,
       "volume_spike_ratio": 2.05,
-      "news_sentiment": 0.322,
-      "news_confidence": 0.6,
+      "news_sentiment": 0.202,
+      "news_confidence": 0.61,
       "news_headlines": [
-        "Affirm is 'firing on all cylinders': COO talks perspective on US consumer",
         "PayPal (PYPL) Hit After Stripe, Advent Drop $53B Planned Takeover",
-        "Here\u2019s What Jim Cramer Thinks Is In Store For PayPal Holdings, Inc. (NASDAQ:PYPL) & Klarna"
+        "Here\u2019s What Jim Cramer Thinks Is In Store For PayPal Holdings, Inc. (NASDAQ:PYPL) & Klarna",
+        "Why PayPal (PYPL) Shares Are Plunging Today"
       ],
       "high_impact_news": true
     },
@@ -656,29 +620,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "ABBV",
-      "rank_score": 0.6399,
-      "price": 255.4550018310547,
-      "rsi": 18.13517499313842,
-      "momentum_5d": -0.005624725962476801,
-      "momentum_1d": -0.040526558185191824,
-      "macd_crossover": false,
-      "atr_pct": 0.006281614499223926,
-      "bollinger_pct_b": 0.1527,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.81,
-      "news_sentiment": 0.55,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AbbVie vs. Johnson & Johnson: Which Healthcare Stock Is a Better Buy in 2026?",
-        "Did A Product Swap Fuel JNJ Stock\u2019s 54% Surge?",
-        "Can Merck Stock Outrun Its Pipeline?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "LLY",
-      "rank_score": 0.6386,
+      "rank_score": 0.6457,
       "price": 1173.9599609375,
       "rsi": 37.59133077732971,
       "momentum_5d": 0.00034128027848304295,
@@ -688,12 +631,33 @@
       "bollinger_pct_b": 0.3515,
       "volume_spike": true,
       "volume_spike_ratio": 1.72,
-      "news_sentiment": 0.239,
-      "news_confidence": 0.71,
+      "news_sentiment": 0.343,
+      "news_confidence": 0.7,
       "news_headlines": [
+        "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?",
         "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level",
-        "Sector Update: Healthcare Stocks Decline Late Afternoon",
-        "Is OmniAb (OABI)\u2019s Eli Lilly (LLY) Partnership a Game Changer for OABI?"
+        "Sector Update: Healthcare Stocks Decline Late Afternoon"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.6419,
+      "price": 255.4550018310547,
+      "rsi": 18.13517499313842,
+      "momentum_5d": -0.005624725962476801,
+      "momentum_1d": -0.040526558185191824,
+      "macd_crossover": false,
+      "atr_pct": 0.006281614499223926,
+      "bollinger_pct_b": 0.1527,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.81,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?",
+        "AbbVie vs. Johnson & Johnson: Which Healthcare Stock Is a Better Buy in 2026?",
+        "Did A Product Swap Fuel JNJ Stock\u2019s 54% Surge?"
       ],
       "high_impact_news": true
     },
@@ -845,6 +809,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MSFT",
+      "rank_score": 0.5857,
+      "price": 513.6699829101562,
+      "rsi": 73.33331163192679,
+      "momentum_5d": -0.0031858846053123896,
+      "momentum_1d": 0.04860572055401872,
+      "macd_crossover": false,
+      "atr_pct": 0.009105826927696282,
+      "bollinger_pct_b": 0.7764,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.59,
+      "news_sentiment": 0.781,
+      "news_confidence": 0.53,
+      "news_headlines": [
+        "Should Stronger Analyst Focus On Earnings Power In Astera Labs\u2019 AI Story (ALAB) Require Action From Investors?",
+        "Elastic (ESTC) Is Up 16.3% After AI-Fueled Q1 Beat And Higher 2027 Revenue Guidance \u2013 Has The Bull Case Changed?",
+        "Meta Continues to Trade Jobs for AI: Robots Are \u201cComing For Us All\u201d"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMAT",
       "rank_score": 0.5854,
       "price": 461.6000061035156,
@@ -866,27 +851,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MSFT",
-      "rank_score": 0.5848,
-      "price": 513.6699829101562,
-      "rsi": 73.33331163192679,
-      "momentum_5d": -0.0031858846053123896,
-      "momentum_1d": 0.04860572055401872,
-      "macd_crossover": false,
-      "atr_pct": 0.009105826927696282,
-      "bollinger_pct_b": 0.7764,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.59,
-      "news_sentiment": 0.777,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Elastic (ESTC) Is Up 16.3% After AI-Fueled Q1 Beat And Higher 2027 Revenue Guidance \u2013 Has The Bull Case Changed?",
-        "Meta Continues to Trade Jobs for AI: Robots Are \u201cComing For Us All\u201d",
-        "Chevron's Microsoft Data Center Deal Was a Bigger Story Than Its Earnings. Here's Why."
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "CRM",
       "rank_score": 0.5818,
       "price": 256.239990234375,
@@ -901,15 +865,15 @@
       "news_sentiment": 0.533,
       "news_confidence": 0.6,
       "news_headlines": [
-        "6 things investors need to watch in the week ahead",
         "Salesforce Shares Surge 23%. This Is Why the Stock Looks Like It Has a Lot More Upside Ahead.",
-        "Salesforce CEO Dismisses \u2018SaaSpocalypse\u2019 Fears as \u2018Nonsense\u2019 After CRM\u2019s Record Q2: \u2018Time for It to Stop\u2019"
+        "Salesforce CEO Dismisses \u2018SaaSpocalypse\u2019 Fears as \u2018Nonsense\u2019 After CRM\u2019s Record Q2: \u2018Time for It to Stop\u2019",
+        "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do."
       ],
       "high_impact_news": true
     },
     {
       "asset": "REGN",
-      "rank_score": 0.562,
+      "rank_score": 0.564,
       "price": 794.0599975585938,
       "rsi": 20.709379784020854,
       "momentum_5d": -0.0014524741835454877,
@@ -919,12 +883,12 @@
       "bollinger_pct_b": 0.2005,
       "volume_spike": true,
       "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.731,
-      "news_confidence": 0.57,
+      "news_sentiment": 0.74,
+      "news_confidence": 0.59,
       "news_headlines": [
+        "Regeneron Pharmaceuticals (REGN) Wins FDA Approval For Pasatru In Adult FOP",
         "SNY Stock Trading Above 50- & 200-Day SMAs: Buy, Hold or Sell?",
-        "Can Regeneron (REGN)\u2019s Rare-Disease Win Move the Earnings Needle?",
-        "Amgen, AstraZeneca Score With Tezspire; Can They Take On Dupixent?"
+        "Can Regeneron (REGN)\u2019s Rare-Disease Win Move the Earnings Needle?"
       ],
       "high_impact_news": true
     },
