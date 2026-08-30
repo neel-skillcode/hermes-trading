@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104395.98,
+  "portfolio_balance": 104329.87,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.25,
-  "unrealized_pnl_usd": 538.48,
-  "equity_value": 104934.46,
+  "portfolio_drawdown_pct": 3.31,
+  "unrealized_pnl_usd": 514.07,
+  "equity_value": 104843.94,
   "open_positions": 17,
   "day_trades_open": 8,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 38711.81,
+  "day_capital_used_usd": 41731.95,
   "swing_capital_used_usd": 43233.89,
-  "total_trades": 1260,
-  "last_tick": "2026-08-30T06:47:32.666123+00:00",
+  "total_trades": 1263,
+  "last_tick": "2026-08-30T12:18:12.915920+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 6,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -374,43 +374,9 @@
       "status": "open",
       "price_trough": 0.08460000157356262,
       "trailing_stop_price": 0.085369,
-      "current_price": 0.08505,
-      "unrealized_pnl_pct": -0.001767,
-      "unrealized_pnl_usd": -8.17
-    },
-    {
-      "id": "AVAX-USD_20260829151607",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 7.343999862670898,
-      "entry_time": "2026-08-29T15:16:07.160000+00:00",
-      "stop_loss_pct": 0.00411,
-      "take_profit_pct": 0.00938,
-      "size_usd": 3772.81,
-      "position_size_pct": 0.0361,
-      "confidence": 0.564,
-      "signals": [
-        "5d momentum +1.12%",
-        "BB overbought (pct_b=0.98)",
-        "Volume spike 2.8\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.351,
-      "news_headlines": [
-        "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-        "Treasury eases as Warsh vows to fight inflation",
-        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
-      ],
-      "mode": "paper",
-      "strategy_version": "112",
-      "status": "open",
-      "price_trough": 7.315000057220459,
-      "trailing_stop_price": 7.345065,
-      "current_price": 7.333,
-      "unrealized_pnl_pct": 0.001498,
-      "unrealized_pnl_usd": 5.65
+      "current_price": 0.08529,
+      "unrealized_pnl_pct": -0.004594,
+      "unrealized_pnl_usd": -21.24
     },
     {
       "id": "SOL-USD_20260829231706",
@@ -443,75 +409,9 @@
       "status": "open",
       "price_trough": 105.04000091552734,
       "trailing_stop_price": 105.672342,
-      "current_price": 105.040001,
-      "unrealized_pnl_pct": 0.006526,
-      "unrealized_pnl_usd": 40.75
-    },
-    {
-      "id": "ETH-USD_20260829231706",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 2455.35009765625,
-      "entry_time": "2026-08-29T23:17:06.703434+00:00",
-      "stop_loss_pct": 0.00258,
-      "take_profit_pct": 0.00598,
-      "size_usd": 4231.58,
-      "position_size_pct": 0.0405,
-      "confidence": 0.633,
-      "signals": [
-        "RSI overbought (78.5)",
-        "1d momentum +0.51%",
-        "BB overbought (pct_b=0.87)",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.73,
-      "news_headlines": [
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?",
-        "Arthur Hayes Names Ethereum His \u2018No. 1 Crypto Pick\u2019, Sees ETH Surging 3X To 5X \u2018Pretty Quickly\u2019",
-        "Tom Lee's Bitmine Continues to Buy Ethereum Hand Over Fist. Should Crypto Investors Be Doing the Same?"
-      ],
-      "mode": "paper",
-      "strategy_version": "112",
-      "status": "open",
-      "current_price": 2459.629883,
-      "unrealized_pnl_pct": -0.001743,
-      "unrealized_pnl_usd": -7.38
-    },
-    {
-      "id": "BTC-USD_20260829231706",
-      "asset": "BTC-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 78229.9921875,
-      "entry_time": "2026-08-29T23:17:06.706537+00:00",
-      "stop_loss_pct": 0.00229,
-      "take_profit_pct": 0.0053,
-      "size_usd": 4231.58,
-      "position_size_pct": 0.0405,
-      "confidence": 0.633,
-      "signals": [
-        "RSI overbought (75.3)",
-        "1d momentum +0.50%",
-        "BB overbought (pct_b=0.85)",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": 0.135,
-      "news_headlines": [
-        "Bitcoin Is Stuck Below $80,000. What Does That Mean for XRP?",
-        "MARA Holdings (MARA) Is Down 5.2% After Bitcoin Pullback Tests Its AI Diversification Story \u2013 Has The Bull Case Changed?",
-        "Coinbase CEO Says Crypto Is 'Updating the Financial System' as Trump Pushes CLARITY Act"
-      ],
-      "mode": "paper",
-      "strategy_version": "112",
-      "status": "open",
-      "price_trough": 78229.140625,
-      "trailing_stop_price": 78408.285357,
-      "current_price": 78229.148438,
-      "unrealized_pnl_pct": 1.1e-05,
-      "unrealized_pnl_usd": 0.05
+      "current_price": 105.5,
+      "unrealized_pnl_pct": 0.002175,
+      "unrealized_pnl_usd": 13.58
     },
     {
       "id": "XRP-USD_20260830064732",
@@ -543,9 +443,11 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 1.4002,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1.3986999988555908,
+      "trailing_stop_price": 1.405204,
+      "current_price": 1.3987,
+      "unrealized_pnl_pct": 0.001071,
+      "unrealized_pnl_usd": 6.8
     },
     {
       "id": "BNB-USD_20260830064732",
@@ -575,7 +477,111 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 694.159973,
+      "price_peak": 695.1599731445312,
+      "trailing_stop_price": 693.547202,
+      "current_price": 695.159973,
+      "unrealized_pnl_pct": 0.001441,
+      "unrealized_pnl_usd": 7.35
+    },
+    {
+      "id": "BTC-USD_20260830121812",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 78576.921875,
+      "entry_time": "2026-08-30T12:18:12.907417+00:00",
+      "stop_loss_pct": 0.00251,
+      "take_profit_pct": 0.00621,
+      "size_usd": 6343.26,
+      "position_size_pct": 0.0608,
+      "confidence": 0.95,
+      "signals": [
+        "RSI overbought (63.9)",
+        "5d momentum +0.61%",
+        "1d momentum +1.28%",
+        "BB overbought (pct_b=1.41)",
+        "Volume spike 9.2\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.73,
+      "news_headlines": [
+        "Bitcoin Buyers Step Back In As Realized Cap Gains $4.6 Billion, Is A Bull Market Finally Here?",
+        "Tim Cook Owns Crypto But Apple Never Bought Bitcoin: Will This Change?",
+        "The Midwestern Burger Chain That\u2019s Going Full MAGA"
+      ],
+      "mode": "paper",
+      "strategy_version": "112",
+      "status": "open",
+      "current_price": 78576.921875,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "ETH-USD_20260830121812",
+      "asset": "ETH-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 2467.570068359375,
+      "entry_time": "2026-08-30T12:18:12.909571+00:00",
+      "stop_loss_pct": 0.00287,
+      "take_profit_pct": 0.00699,
+      "size_usd": 5809.09,
+      "position_size_pct": 0.0557,
+      "confidence": 0.87,
+      "signals": [
+        "RSI overbought (66.9)",
+        "5d momentum +0.50%",
+        "1d momentum +1.35%",
+        "BB overbought (pct_b=1.23)",
+        "Volume spike 7.5\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.73,
+      "news_headlines": [
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?",
+        "Arthur Hayes Names Ethereum His \u2018No. 1 Crypto Pick\u2019, Sees ETH Surging 3X To 5X \u2018Pretty Quickly\u2019",
+        "Tom Lee's Bitmine Continues to Buy Ethereum Hand Over Fist. Should Crypto Investors Be Doing the Same?"
+      ],
+      "mode": "paper",
+      "strategy_version": "112",
+      "status": "open",
+      "current_price": 2467.570068,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AVAX-USD_20260830121812",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 7.39300012588501,
+      "entry_time": "2026-08-30T12:18:12.910915+00:00",
+      "stop_loss_pct": 0.00465,
+      "take_profit_pct": 0.01152,
+      "size_usd": 3103.76,
+      "position_size_pct": 0.0297,
+      "confidence": 0.95,
+      "signals": [
+        "RSI overbought (65.6)",
+        "5d momentum +0.90%",
+        "1d momentum +1.51%",
+        "BB overbought (pct_b=1.05)",
+        "Volume spike 5.2\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.351,
+      "news_headlines": [
+        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued",
+        "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+        "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum"
+      ],
+      "mode": "paper",
+      "strategy_version": "112",
+      "status": "open",
+      "current_price": 7.393,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -666,8 +672,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.6909,
+      "price": 78576.921875,
+      "rsi": 63.946751445370516,
+      "momentum_5d": 0.0060676068177978465,
+      "momentum_1d": 0.012789966922204195,
+      "macd_crossover": false,
+      "atr_pct": 0.0024690106183201227,
+      "bollinger_pct_b": 1.4132,
+      "volume_spike": true,
+      "volume_spike_ratio": 9.2,
+      "news_sentiment": 0.73,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Bitcoin Buyers Step Back In As Realized Cap Gains $4.6 Billion, Is A Bull Market Finally Here?",
+        "Tim Cook Owns Crypto But Apple Never Bought Bitcoin: Will This Change?",
+        "The Midwestern Burger Chain That\u2019s Going Full MAGA"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MRVL",
-      "rank_score": 0.6573,
+      "rank_score": 0.6533,
       "price": 216.59500122070312,
       "rsi": 9.548141963180782,
       "momentum_5d": -0.02702034667425779,
@@ -677,12 +704,12 @@
       "bollinger_pct_b": 0.1177,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.58,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.547,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "How networking became the critical layer of AI",
-        "Jim Cramer Explained What Turned The Tide For NVIDIA Corporation (NASDAQ:NVDA)\u2019s Stock",
-        "Marvell Technology Inc. (NASDAQ: MRVL) Is Only Expensive If It Doesn\u2019t Work, Jim Cramer Said"
+        "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented",
+        "MarketBeat Week in Review \u2013 08/24 - 08/28",
+        "How networking became the critical layer of AI"
       ],
       "high_impact_news": true
     },
@@ -704,6 +731,48 @@
         "3 Things That Matter Most for Eli Lilly Now",
         "Has Novo Nordisk Finally Found the Catalyst That Could Flip the Script on Eli Lilly?",
         "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6482,
+      "price": 2467.570068359375,
+      "rsi": 66.9258736705014,
+      "momentum_5d": 0.005026041547549465,
+      "momentum_1d": 0.013471518280991392,
+      "macd_crossover": false,
+      "atr_pct": 0.002935802174550283,
+      "bollinger_pct_b": 1.2284,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.48,
+      "news_sentiment": 0.73,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?",
+        "Arthur Hayes Names Ethereum His \u2018No. 1 Crypto Pick\u2019, Sees ETH Surging 3X To 5X \u2018Pretty Quickly\u2019",
+        "Tom Lee's Bitmine Continues to Buy Ethereum Hand Over Fist. Should Crypto Investors Be Doing the Same?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.6345,
+      "price": 1.3986999988555908,
+      "rsi": 55.53272881836214,
+      "momentum_5d": 0.005029797610606295,
+      "momentum_1d": 0.010110535692839996,
+      "macd_crossover": true,
+      "atr_pct": 0.004856528431748582,
+      "bollinger_pct_b": 0.846,
+      "volume_spike": true,
+      "volume_spike_ratio": 7.79,
+      "news_sentiment": 0.636,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Bitcoin Is Stuck Below $80,000. What Does That Mean for XRP?",
+        "XRP Is Up 33% in August. Here's Why I'm Not Buying XRP at a Price of $1.44",
+        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?"
       ],
       "high_impact_news": true
     },
@@ -792,6 +861,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5974,
+      "price": 7.39300012588501,
+      "rsi": 65.61093490409304,
+      "momentum_5d": 0.009007777189821079,
+      "momentum_1d": 0.015103684419831974,
+      "macd_crossover": false,
+      "atr_pct": 0.004579625957738855,
+      "bollinger_pct_b": 1.0523,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.24,
+      "news_sentiment": 0.351,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued",
+        "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+        "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HOOD",
       "rank_score": 0.5944,
       "price": 104.2699966430664,
@@ -834,6 +924,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MSFT",
+      "rank_score": 0.5867,
+      "price": 513.6699829101562,
+      "rsi": 73.33331163192679,
+      "momentum_5d": -0.0031858846053123896,
+      "momentum_1d": 0.04860572055401872,
+      "macd_crossover": false,
+      "atr_pct": 0.009105826927696282,
+      "bollinger_pct_b": 0.7764,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.59,
+      "news_sentiment": 0.785,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Nvidia's Earnings Reveal a New Buyer Class Outgrowing Microsoft, Google and Amazon",
+        "SK Hynix CEO Warns Memory Shortage Will Persist Through 2030 as Chipmaker Builds $4 Billion Indiana Fab",
+        "Should Stronger Analyst Focus On Earnings Power In Astera Labs\u2019 AI Story (ALAB) Require Action From Investors?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARKK",
       "rank_score": 0.5866,
       "price": 84.48999786376953,
@@ -851,27 +962,6 @@
         "Cathie Wood buys $17.2 million of beaten-down AI stock",
         "Cathie Wood Just Sold Another $18 Million of AMD Stock",
         "Bitcoin and Cathie Wood are partying like it's 2021 again: Chart of the Day"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MSFT",
-      "rank_score": 0.5857,
-      "price": 513.6699829101562,
-      "rsi": 73.33331163192679,
-      "momentum_5d": -0.0031858846053123896,
-      "momentum_1d": 0.04860572055401872,
-      "macd_crossover": false,
-      "atr_pct": 0.009105826927696282,
-      "bollinger_pct_b": 0.7764,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.59,
-      "news_sentiment": 0.781,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "SK Hynix CEO Warns Memory Shortage Will Persist Through 2030 as Chipmaker Builds $4 Billion Indiana Fab",
-        "Should Stronger Analyst Focus On Earnings Power In Astera Labs\u2019 AI Story (ALAB) Require Action From Investors?",
-        "Oracle vs. Microsoft: Big Tech\u2019s AI Cloud Battle Has a New Underdog"
       ],
       "high_impact_news": true
     },
@@ -914,90 +1004,6 @@
         "Will Bandwidth\u2019s (BAND) Higher 2026 Outlook and AI Partnerships Reshape Its Investment Narrative?",
         "Salesforce Shares Surge 23%. This Is Why the Stock Looks Like It Has a Lot More Upside Ahead.",
         "Salesforce CEO Dismisses \u2018SaaSpocalypse\u2019 Fears as \u2018Nonsense\u2019 After CRM\u2019s Record Q2: \u2018Time for It to Stop\u2019"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "REGN",
-      "rank_score": 0.565,
-      "price": 794.0599975585938,
-      "rsi": 20.709379784020854,
-      "momentum_5d": -0.0014524741835454877,
-      "momentum_1d": -0.04984920141310137,
-      "macd_crossover": false,
-      "atr_pct": 0.006551219379409404,
-      "bollinger_pct_b": 0.2005,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "Regeneron Pharmaceuticals (REGN) As Pasatru Approval Tests An Undervalued View",
-        "Regeneron Pharmaceuticals (REGN) Wins FDA Approval For Pasatru In Adult FOP",
-        "SNY Stock Trading Above 50- & 200-Day SMAs: Buy, Hold or Sell?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ABBV",
-      "rank_score": 0.5619,
-      "price": 255.4550018310547,
-      "rsi": 18.13517499313842,
-      "momentum_5d": -0.005624725962476801,
-      "momentum_1d": -0.040526558185191824,
-      "macd_crossover": false,
-      "atr_pct": 0.006281614499223926,
-      "bollinger_pct_b": 0.1527,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.81,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Is AbbVie (ABBV) Undervalued As It Expands Skyrizi In Crohns Disease?",
-        "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?",
-        "AbbVie vs. Johnson & Johnson: Which Healthcare Stock Is a Better Buy in 2026?"
-      ],
-      "high_impact_news": false
-    },
-    {
-      "asset": "SLV",
-      "rank_score": 0.5536,
-      "price": 60.029998779296875,
-      "rsi": 36.901854032714056,
-      "momentum_5d": -0.04090112425387441,
-      "momentum_1d": -0.03317766738973273,
-      "macd_crossover": false,
-      "atr_pct": 0.014668964230283568,
-      "bollinger_pct_b": 0.0774,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": -0.6,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech",
-        "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Ahead of Fed's Jackson Hole Symposium",
-        "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.5477,
-      "price": 1.4002000093460083,
-      "rsi": 63.455156080444205,
-      "momentum_5d": 0.005963119715542078,
-      "momentum_1d": 0.014123283317580646,
-      "macd_crossover": false,
-      "atr_pct": 0.004580966044277517,
-      "bollinger_pct_b": 0.8856,
-      "volume_spike": true,
-      "volume_spike_ratio": 35.04,
-      "news_sentiment": 0.636,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Bitcoin Is Stuck Below $80,000. What Does That Mean for XRP?",
-        "XRP Is Up 33% in August. Here's Why I'm Not Buying XRP at a Price of $1.44",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?"
       ],
       "high_impact_news": true
     }

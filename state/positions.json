@@ -327,37 +327,6 @@
     "price_trough": 0.08460000157356262,
     "trailing_stop_price": 0.085369
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260829151607",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.343999862670898,
-    "entry_time": "2026-08-29T15:16:07.160000+00:00",
-    "stop_loss_pct": 0.00411,
-    "take_profit_pct": 0.00938,
-    "size_usd": 3772.81,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "5d momentum +1.12%",
-      "BB overbought (pct_b=0.98)",
-      "Volume spike 2.8\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.351,
-    "news_headlines": [
-      "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-      "Treasury eases as Warsh vows to fight inflation",
-      "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
-    ],
-    "mode": "paper",
-    "strategy_version": "112",
-    "status": "open",
-    "price_trough": 7.315000057220459,
-    "trailing_stop_price": 7.345065
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260829231706",
     "asset": "SOL-USD",
@@ -390,66 +359,6 @@
     "price_trough": 105.04000091552734,
     "trailing_stop_price": 105.672342
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260829231706",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2455.35009765625,
-    "entry_time": "2026-08-29T23:17:06.703434+00:00",
-    "stop_loss_pct": 0.00258,
-    "take_profit_pct": 0.00598,
-    "size_usd": 4231.58,
-    "position_size_pct": 0.0405,
-    "confidence": 0.633,
-    "signals": [
-      "RSI overbought (78.5)",
-      "1d momentum +0.51%",
-      "BB overbought (pct_b=0.87)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.73,
-    "news_headlines": [
-      "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?",
-      "Arthur Hayes Names Ethereum His \u2018No. 1 Crypto Pick\u2019, Sees ETH Surging 3X To 5X \u2018Pretty Quickly\u2019",
-      "Tom Lee's Bitmine Continues to Buy Ethereum Hand Over Fist. Should Crypto Investors Be Doing the Same?"
-    ],
-    "mode": "paper",
-    "strategy_version": "112",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260829231706",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 78229.9921875,
-    "entry_time": "2026-08-29T23:17:06.706537+00:00",
-    "stop_loss_pct": 0.00229,
-    "take_profit_pct": 0.0053,
-    "size_usd": 4231.58,
-    "position_size_pct": 0.0405,
-    "confidence": 0.633,
-    "signals": [
-      "RSI overbought (75.3)",
-      "1d momentum +0.50%",
-      "BB overbought (pct_b=0.85)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.135,
-    "news_headlines": [
-      "Bitcoin Is Stuck Below $80,000. What Does That Mean for XRP?",
-      "MARA Holdings (MARA) Is Down 5.2% After Bitcoin Pullback Tests Its AI Diversification Story \u2013 Has The Bull Case Changed?",
-      "Coinbase CEO Says Crypto Is 'Updating the Financial System' as Trump Pushes CLARITY Act"
-    ],
-    "mode": "paper",
-    "strategy_version": "112",
-    "status": "open",
-    "price_trough": 78229.140625,
-    "trailing_stop_price": 78408.285357
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260830064732",
     "asset": "XRP-USD",
@@ -479,7 +388,9 @@
     ],
     "mode": "paper",
     "strategy_version": "112",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.3986999988555908,
+    "trailing_stop_price": 1.405204
   },
   "BNB-USD": {
     "id": "BNB-USD_20260830064732",
@@ -505,6 +416,101 @@
       "Nano Labs H1 Earnings Call Highlights",
       "What is crypto?",
       "Should You Go 'All In' on Bitcoin? Binance Founder Changpeng Zhao Has the Answer"
+    ],
+    "mode": "paper",
+    "strategy_version": "112",
+    "status": "open",
+    "price_peak": 695.1599731445312,
+    "trailing_stop_price": 693.547202
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260830121812",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 78576.921875,
+    "entry_time": "2026-08-30T12:18:12.907417+00:00",
+    "stop_loss_pct": 0.00251,
+    "take_profit_pct": 0.00621,
+    "size_usd": 6343.26,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (63.9)",
+      "5d momentum +0.61%",
+      "1d momentum +1.28%",
+      "BB overbought (pct_b=1.41)",
+      "Volume spike 9.2\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Bitcoin Buyers Step Back In As Realized Cap Gains $4.6 Billion, Is A Bull Market Finally Here?",
+      "Tim Cook Owns Crypto But Apple Never Bought Bitcoin: Will This Change?",
+      "The Midwestern Burger Chain That\u2019s Going Full MAGA"
+    ],
+    "mode": "paper",
+    "strategy_version": "112",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260830121812",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2467.570068359375,
+    "entry_time": "2026-08-30T12:18:12.909571+00:00",
+    "stop_loss_pct": 0.00287,
+    "take_profit_pct": 0.00699,
+    "size_usd": 5809.09,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (66.9)",
+      "5d momentum +0.50%",
+      "1d momentum +1.35%",
+      "BB overbought (pct_b=1.23)",
+      "Volume spike 7.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?",
+      "Arthur Hayes Names Ethereum His \u2018No. 1 Crypto Pick\u2019, Sees ETH Surging 3X To 5X \u2018Pretty Quickly\u2019",
+      "Tom Lee's Bitmine Continues to Buy Ethereum Hand Over Fist. Should Crypto Investors Be Doing the Same?"
+    ],
+    "mode": "paper",
+    "strategy_version": "112",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260830121812",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.39300012588501,
+    "entry_time": "2026-08-30T12:18:12.910915+00:00",
+    "stop_loss_pct": 0.00465,
+    "take_profit_pct": 0.01152,
+    "size_usd": 3103.76,
+    "position_size_pct": 0.0297,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (65.6)",
+      "5d momentum +0.90%",
+      "1d momentum +1.51%",
+      "BB overbought (pct_b=1.05)",
+      "Volume spike 5.2\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.351,
+    "news_headlines": [
+      "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued",
+      "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
+      "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum"
     ],
     "mode": "paper",
     "strategy_version": "112",
