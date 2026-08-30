@@ -3,16 +3,16 @@
   "portfolio_balance": 104008.47,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.6,
-  "unrealized_pnl_usd": 507.58,
-  "equity_value": 104516.05,
+  "unrealized_pnl_usd": 615.75,
+  "equity_value": 104624.22,
   "open_positions": 17,
   "day_trades_open": 8,
   "swing_trades_open": 9,
   "day_capital_used_usd": 41603.39,
   "swing_capital_used_usd": 43233.89,
   "total_trades": 1270,
-  "last_tick": "2026-08-30T16:47:12.897910+00:00",
-  "last_reflection": "2026-08-30",
+  "last_tick": "2026-08-30T19:29:56.326958+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -106,8 +106,8 @@
       "mode": "paper",
       "strategy_version": "101",
       "status": "open",
-      "price_peak": 160.03799438476562,
-      "trailing_stop_price": 158.75769,
+      "price_peak": 160.1269989013672,
+      "trailing_stop_price": 158.845983,
       "current_price": 160.037994,
       "unrealized_pnl_pct": 0.009818,
       "unrealized_pnl_usd": 43.2
@@ -374,9 +374,11 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 2528.620117,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 2506.010009765625,
+      "trailing_stop_price": 2517.111634,
+      "current_price": 2506.0,
+      "unrealized_pnl_pct": 0.008946,
+      "unrealized_pnl_usd": 51.81
     },
     {
       "id": "BNB-USD_20260830164712",
@@ -408,9 +410,11 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 703.780029,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 700.239990234375,
+      "trailing_stop_price": 702.697833,
+      "current_price": 700.23999,
+      "unrealized_pnl_pct": 0.00503,
+      "unrealized_pnl_usd": 29.13
     },
     {
       "id": "BTC-USD_20260830164712",
@@ -442,9 +446,11 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 79184.242188,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 78903.546875,
+      "trailing_stop_price": 79163.92858,
+      "current_price": 78903.5625,
+      "unrealized_pnl_pct": 0.003545,
+      "unrealized_pnl_usd": 22.42
     },
     {
       "id": "XRP-USD_20260830164712",
@@ -476,9 +482,9 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 1.4126,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 1.415,
+      "unrealized_pnl_pct": -0.001699,
+      "unrealized_pnl_usd": -10.74
     },
     {
       "id": "AVAX-USD_20260830164712",
@@ -510,9 +516,11 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 7.436,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 7.425000190734863,
+      "trailing_stop_price": 7.463907,
+      "current_price": 7.425,
+      "unrealized_pnl_pct": 0.001479,
+      "unrealized_pnl_usd": 9.35
     },
     {
       "id": "DOGE-USD_20260830164712",
@@ -544,9 +552,11 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 0.08596,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.08594000339508057,
+      "trailing_stop_price": 0.086377,
+      "current_price": 0.08594,
+      "unrealized_pnl_pct": 0.000233,
+      "unrealized_pnl_usd": 1.35
     },
     {
       "id": "SOL-USD_20260830164712",
@@ -578,33 +588,14 @@
       "mode": "paper",
       "strategy_version": "112",
       "status": "open",
-      "current_price": 106.730003,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 106.2699966430664,
+      "trailing_stop_price": 106.973504,
+      "current_price": 106.260002,
+      "unrealized_pnl_pct": 0.004404,
+      "unrealized_pnl_usd": 4.86
     }
   ],
   "last_candidates": [
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.9067,
-      "price": 2528.6201171875,
-      "rsi": 88.56831944284416,
-      "momentum_5d": 0.027890174084459013,
-      "momentum_1d": 0.031736068657102094,
-      "macd_crossover": false,
-      "atr_pct": 0.00453014206945278,
-      "bollinger_pct_b": 1.4546,
-      "volume_spike": true,
-      "volume_spike_ratio": 16.75,
-      "news_sentiment": 0.73,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Cronos Blockchain Stops After Reported $75 Million Hack Attempt",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?",
-        "Arthur Hayes Names Ethereum His \u2018No. 1 Crypto Pick\u2019, Sees ETH Surging 3X To 5X \u2018Pretty Quickly\u2019"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "LRCX",
       "rank_score": 0.765,
@@ -649,10 +640,10 @@
     },
     {
       "asset": "PYPL",
-      "rank_score": 0.7197,
+      "rank_score": 0.72,
       "price": 53.654998779296875,
       "rsi": 4.99597143164722,
-      "momentum_5d": -0.01432906354948409,
+      "momentum_5d": -0.01441954201348892,
       "momentum_1d": -0.13640756708706517,
       "macd_crossover": false,
       "atr_pct": 0.01850940496551238,
@@ -669,29 +660,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.7044,
-      "price": 703.780029296875,
-      "rsi": 72.89899802024708,
-      "momentum_5d": 0.015819436299170403,
-      "momentum_1d": 0.018141368033768007,
-      "macd_crossover": false,
-      "atr_pct": 0.003585746829801067,
-      "bollinger_pct_b": 1.227,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.39,
-      "news_sentiment": 0.476,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Crypto\u2019s Next Meme Coin War? Traders Want Tokens That Can Move Real Stocks",
-        "Nano Labs H1 Earnings Call Highlights",
-        "What is crypto?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SLB",
-      "rank_score": 0.6984,
+      "rank_score": 0.7094,
       "price": 57.32500076293945,
       "rsi": 82.646832462851,
       "momentum_5d": 0.024667102969756667,
@@ -701,33 +671,12 @@
       "bollinger_pct_b": 0.9206,
       "volume_spike": true,
       "volume_spike_ratio": 1.86,
-      "news_sentiment": -0.111,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.32,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "Does SLB\u2019s (SLB) Carbon Storage Push Reframe Its Core Energy Services Investment Story?",
-        "Trump\u2019s New Oil Deal With Venezuela Is Insane \u2014 U.S. Now Controls 7.1% of Proven Global Reserves",
-        "SLB (SLB) Lands North Sea Carbon Role And Launches New Downhole Control System"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6817,
-      "price": 79184.2421875,
-      "rsi": 79.6372376877312,
-      "momentum_5d": 0.013060279566565077,
-      "momentum_1d": 0.014945019379978865,
-      "macd_crossover": false,
-      "atr_pct": 0.003252304282841944,
-      "bollinger_pct_b": 1.1443,
-      "volume_spike": true,
-      "volume_spike_ratio": 9.39,
-      "news_sentiment": 0.526,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Michael Saylor Hints At Strategy\u2019s Return To Bitcoin Buying After 10-Week Hiatus",
-        "Bitcoin Is Surging, But Investors Are Still Worried About Bitcoin Treasury Companies. Here's Why They're Right.",
-        "Eric Trump Says \u2018The Tides Have Turned\u2019 For Bitcoin As AI And Institutions Fuel Crypto Adoption"
+        "SLB (SLB) Stock Trades At A Discount To Fair Value",
+        "SLB (SLB) Lands Havstjerne Role As Carbon Growth Narrative Keeps Valuation In Focus",
+        "Does SLB\u2019s (SLB) Carbon Storage Push Reframe Its Core Energy Services Investment Story?"
       ],
       "high_impact_news": true
     },
@@ -774,27 +723,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.6377,
-      "price": 1.412600040435791,
-      "rsi": 62.77174353176699,
-      "momentum_5d": 0.01450733534367017,
-      "momentum_1d": 0.014725999742588083,
-      "macd_crossover": false,
-      "atr_pct": 0.006189173209180723,
-      "bollinger_pct_b": 1.1294,
-      "volume_spike": true,
-      "volume_spike_ratio": 4.26,
-      "news_sentiment": 0.636,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Bitcoin Is Stuck Below $80,000. What Does That Mean for XRP?",
-        "XRP Is Up 33% in August. Here's Why I'm Not Buying XRP at a Price of $1.44",
-        "Bitcoin, Ethereum, or XRP: Which Crypto Is the Best to Buy Right Now?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "WFC",
       "rank_score": 0.6232,
       "price": 86.69000244140625,
@@ -816,27 +744,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6179,
-      "price": 7.435999870300293,
-      "rsi": 82.40346597467236,
-      "momentum_5d": 0.006905841548792869,
-      "momentum_1d": 0.015985804989297386,
-      "macd_crossover": false,
-      "atr_pct": 0.0051583096278180205,
-      "bollinger_pct_b": 0.9518,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.95,
-      "news_sentiment": 0.351,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued",
-        "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-        "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HAL",
       "rank_score": 0.6174,
       "price": 36.18000030517578,
@@ -854,27 +761,6 @@
         "Halliburton (HAL) Stock Looks Cheap On Earnings But Full After A 97% Run",
         "Halliburton (HAL) Lands Integrated Brazil Deepwater Appraisal Contract",
         "Pentagon in talks for Venezuelan oil fields deal through middleman - Bloomberg"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.6122,
-      "price": 0.08596000075340271,
-      "rsi": 64.53677695786718,
-      "momentum_5d": 0.01177026885055675,
-      "momentum_1d": 0.008446759333919486,
-      "macd_crossover": false,
-      "atr_pct": 0.005193440457984605,
-      "bollinger_pct_b": 1.1192,
-      "volume_spike": true,
-      "volume_spike_ratio": 5.3,
-      "news_sentiment": 0.696,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Can Dogecoin Reach $1 by 2030?",
-        "MSTR Stock Hits 2-Month High With Bitcoin Back Above $80K Ahead Of Kevin Warsh\u2019s Jackson Hole Speech",
-        "3 Big Changes Just Hit XRP, Dogecoin, and Ethereum ETFs"
       ],
       "high_impact_news": true
     },
@@ -917,27 +803,6 @@
         "SoFi Technologies (SOFI) Up 16.5% Since Last Earnings Report: Can It Continue?",
         "Affirm Stock Surged After Earnings. A Big Shopify Deal Is Adding Fuel.",
         "Is SoFi Technologies (SOFI) A Bargain After Its Recent Rebound?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.5945,
-      "price": 106.7300033569336,
-      "rsi": 64.13666304741224,
-      "momentum_5d": 0.015315834934221513,
-      "momentum_1d": 0.01763926536959682,
-      "macd_crossover": false,
-      "atr_pct": 0.006397979968487174,
-      "bollinger_pct_b": 0.9425,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.5,
-      "news_sentiment": 0.46,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Solana Just Set an All-Time Record for Blockchain Network Activity. Does That Make Solana a Buy, Sell, or Hold Right Now?",
-        "Bitcoin, Ethereum And HYPE? Charles Schwab's Adam Lynch Maps Out A Crypto Portfolio As Debasement Fears Build",
-        "This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond"
       ],
       "high_impact_news": true
     },
@@ -1001,6 +866,153 @@
         "Vertex Pharmaceuticals Up 15% in a Month: How to Play the Stock",
         "2 Large-Cap Stocks to Research Further and 1 We Question",
         "Inflation Is Rising Again. History Says These 2 Stocks Are Among the Smartest Places to Hide"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARKK",
+      "rank_score": 0.5866,
+      "price": 84.48999786376953,
+      "rsi": 41.22862201853974,
+      "momentum_5d": -0.022445938152913264,
+      "momentum_1d": -0.024702752597213135,
+      "macd_crossover": false,
+      "atr_pct": 0.009032085963050189,
+      "bollinger_pct_b": 0.1667,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.21,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.28,
+      "news_headlines": [
+        "Cathie Wood buys $53 million of popular semiconductor stock",
+        "Cathie Wood buys $17.2 million of beaten-down AI stock",
+        "Cathie Wood Just Sold Another $18 Million of AMD Stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMAT",
+      "rank_score": 0.5864,
+      "price": 461.6000061035156,
+      "rsi": 26.66231757805967,
+      "momentum_5d": -0.021567458904363464,
+      "momentum_1d": -0.03299465758587324,
+      "macd_crossover": false,
+      "atr_pct": 0.011767920621581631,
+      "bollinger_pct_b": 0.0482,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.39,
+      "news_sentiment": 0.865,
+      "news_confidence": 0.74,
+      "news_headlines": [
+        "These 3 GARP Stocks Show Why Growth and Value Do Not Have to Clash",
+        "How Far Applied Materials Stock Can Move On You In A Year",
+        "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "CRM",
+      "rank_score": 0.5788,
+      "price": 256.239990234375,
+      "rsi": 89.00983997425719,
+      "momentum_5d": -0.02078875952945457,
+      "momentum_1d": 0.24460843285984743,
+      "macd_crossover": false,
+      "atr_pct": 0.026396269256216864,
+      "bollinger_pct_b": 0.6814,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.46,
+      "news_confidence": 0.63,
+      "news_headlines": [
+        "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.",
+        "Will Bandwidth\u2019s (BAND) Higher 2026 Outlook and AI Partnerships Reshape Its Investment Narrative?",
+        "Salesforce Shares Surge 23%. This Is Why the Stock Looks Like It Has a Lot More Upside Ahead."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "REGN",
+      "rank_score": 0.565,
+      "price": 794.0599975585938,
+      "rsi": 20.709379784020854,
+      "momentum_5d": -0.0014524741835454877,
+      "momentum_1d": -0.04984920141310137,
+      "macd_crossover": false,
+      "atr_pct": 0.006551219379409404,
+      "bollinger_pct_b": 0.2005,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.744,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Regeneron Pharmaceuticals (REGN) As Pasatru Approval Tests An Undervalued View",
+        "Regeneron Pharmaceuticals (REGN) Wins FDA Approval For Pasatru In Adult FOP",
+        "SNY Stock Trading Above 50- & 200-Day SMAs: Buy, Hold or Sell?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.5627,
+      "price": 255.4600067138672,
+      "rsi": 18.14298983523811,
+      "momentum_5d": -0.005605244129345592,
+      "momentum_1d": -0.04050776014990745,
+      "macd_crossover": false,
+      "atr_pct": 0.006281491432036829,
+      "bollinger_pct_b": 0.1531,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.82,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Is AbbVie (ABBV) Undervalued As It Expands Skyrizi In Crohns Disease?",
+        "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?",
+        "AbbVie vs. Johnson & Johnson: Which Healthcare Stock Is a Better Buy in 2026?"
+      ],
+      "high_impact_news": false
+    },
+    {
+      "asset": "SLV",
+      "rank_score": 0.5536,
+      "price": 60.029998779296875,
+      "rsi": 36.901854032714056,
+      "momentum_5d": -0.04090112425387441,
+      "momentum_1d": -0.03317766738973273,
+      "macd_crossover": false,
+      "atr_pct": 0.014686693708190477,
+      "bollinger_pct_b": 0.0774,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": -0.6,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of Warsh Speech",
+        "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Ahead of Fed's Jackson Hole Symposium",
+        "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RXRX",
+      "rank_score": 0.5299,
+      "price": 3.3299999237060547,
+      "rsi": 31.33397022435574,
+      "momentum_5d": -0.01914581961285317,
+      "momentum_1d": -0.05531919613779498,
+      "macd_crossover": false,
+      "atr_pct": 0.01672671555621634,
+      "bollinger_pct_b": 0.1142,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.91,
+      "news_sentiment": 0.636,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
+        "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
+        "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
       ],
       "high_impact_news": true
     }
