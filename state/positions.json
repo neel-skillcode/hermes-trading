@@ -327,7 +327,9 @@
     ],
     "mode": "paper",
     "strategy_version": "113",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.08281999826431274,
+    "trailing_stop_price": 0.081902
   },
   "SOL-USD": {
     "id": "SOL-USD_20260831002334",
@@ -358,7 +360,9 @@
     ],
     "mode": "paper",
     "strategy_version": "113",
-    "status": "open"
+    "status": "open",
+    "price_peak": 102.66000366210938,
+    "trailing_stop_price": 101.527664
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260831002334",
@@ -389,7 +393,9 @@
     ],
     "mode": "paper",
     "strategy_version": "113",
-    "status": "open"
+    "status": "open",
+    "price_peak": 7.208000183105469,
+    "trailing_stop_price": 7.137794
   },
   "XRP-USD": {
     "id": "XRP-USD_20260831002334",
@@ -420,7 +426,9 @@
     ],
     "mode": "paper",
     "strategy_version": "113",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.364799976348877,
+    "trailing_stop_price": 1.348668
   },
   "BNB-USD": {
     "id": "BNB-USD_20260831002334",
@@ -482,6 +490,37 @@
     ],
     "mode": "paper",
     "strategy_version": "113",
+    "status": "open",
+    "price_peak": 2436.969970703125,
+    "trailing_stop_price": 2413.50195
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20260831055036",
+    "asset": "AUD/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.7167431116104126,
+    "entry_time": "2026-08-31T05:50:36.161015+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02732,
+    "size_usd": 8332.52,
+    "position_size_pct": 0.0797,
+    "confidence": 0.83,
+    "signals": [
+      "RSI oversold (29.5)",
+      "MACD crossover",
+      "1d momentum -0.46%",
+      "High-impact catalyst",
+      "Claude [supports]: fed hawkish"
+    ],
+    "news_sentiment": 0.048,
+    "news_headlines": [
+      "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
+      "USD/CAD Turns Bullish as GBP/USD, AUD/USD Lose Momentum",
+      "Australia inflation runs hot in July, markets reprice rate hike risk"
+    ],
+    "mode": "paper",
+    "strategy_version": "114",
     "status": "open"
   }
 }
