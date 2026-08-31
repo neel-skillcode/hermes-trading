@@ -85,38 +85,6 @@
     "price_peak": 160.03799438476562,
     "trailing_stop_price": 158.75769
   },
-  "AMZN": {
-    "id": "AMZN_20260821135337",
-    "asset": "AMZN",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 259.0299987792969,
-    "entry_time": "2026-08-21T13:53:37.672627+00:00",
-    "stop_loss_pct": 0.02417,
-    "take_profit_pct": 0.08143,
-    "size_usd": 7334.46,
-    "position_size_pct": 0.0708,
-    "confidence": 0.737,
-    "signals": [
-      "RSI oversold (43.2)",
-      "5d momentum -1.22%",
-      "BB oversold (pct_b=0.13)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.447,
-    "news_headlines": [
-      "QQQ Cut Its Fee After 26 Years. On $250,000, the VGT ETF Still Saves You $225 Every Year",
-      "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
-      "Tesla, Waymo, Uber Granted Las Vegas Robotaxi Permits"
-    ],
-    "mode": "paper",
-    "strategy_version": "102",
-    "status": "open",
-    "price_peak": 266.43,
-    "trailing_stop_price": 259.990387
-  },
   "HD": {
     "id": "HD_20260821194841",
     "asset": "HD",
@@ -145,8 +113,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 328.6099853515625,
-    "trailing_stop_price": 337.502172
+    "price_trough": 328.2799987792969,
+    "trailing_stop_price": 337.163256
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -208,8 +176,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 218.5,
-    "trailing_stop_price": 221.591775
+    "price_trough": 217.9875030517578,
+    "trailing_stop_price": 221.072026
   },
   "C": {
     "id": "C_20260825160444",
@@ -239,8 +207,8 @@
     "mode": "paper",
     "strategy_version": "108",
     "status": "open",
-    "price_trough": 132.67999267578125,
-    "trailing_stop_price": 134.548127
+    "price_trough": 131.9600067138672,
+    "trailing_stop_price": 133.818004
   },
   "BAC": {
     "id": "BAC_20260827162836",
@@ -295,8 +263,8 @@
     "mode": "paper",
     "strategy_version": "113",
     "status": "open",
-    "price_trough": 0.80867999792099,
-    "trailing_stop_price": 0.810297
+    "price_trough": 0.8079900145530701,
+    "trailing_stop_price": 0.809606
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260831002334",
@@ -328,8 +296,8 @@
     "mode": "paper",
     "strategy_version": "113",
     "status": "open",
-    "price_peak": 0.08281999826431274,
-    "trailing_stop_price": 0.081902
+    "price_peak": 0.0834600031375885,
+    "trailing_stop_price": 0.082534
   },
   "SOL-USD": {
     "id": "SOL-USD_20260831002334",
@@ -361,8 +329,8 @@
     "mode": "paper",
     "strategy_version": "113",
     "status": "open",
-    "price_peak": 102.66000366210938,
-    "trailing_stop_price": 101.527664
+    "price_peak": 103.9800033569336,
+    "trailing_stop_price": 102.833104
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260831002334",
@@ -394,8 +362,8 @@
     "mode": "paper",
     "strategy_version": "113",
     "status": "open",
-    "price_peak": 7.208000183105469,
-    "trailing_stop_price": 7.137794
+    "price_peak": 7.25,
+    "trailing_stop_price": 7.179385
   },
   "XRP-USD": {
     "id": "XRP-USD_20260831002334",
@@ -427,8 +395,8 @@
     "mode": "paper",
     "strategy_version": "113",
     "status": "open",
-    "price_peak": 1.364799976348877,
-    "trailing_stop_price": 1.348668
+    "price_peak": 1.3883999586105347,
+    "trailing_stop_price": 1.371989
   },
   "BNB-USD": {
     "id": "BNB-USD_20260831002334",
@@ -459,7 +427,9 @@
     ],
     "mode": "paper",
     "strategy_version": "113",
-    "status": "open"
+    "status": "open",
+    "price_peak": 693.8099975585938,
+    "trailing_stop_price": 689.536128
   },
   "ETH-USD": {
     "id": "ETH-USD_20260831002334",
@@ -491,8 +461,8 @@
     "mode": "paper",
     "strategy_version": "113",
     "status": "open",
-    "price_peak": 2436.969970703125,
-    "trailing_stop_price": 2413.50195
+    "price_peak": 2477.050048828125,
+    "trailing_stop_price": 2453.196057
   },
   "AUD/USD": {
     "id": "AUD/USD_20260831055036",
@@ -518,6 +488,35 @@
       "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
       "USD/CAD Turns Bullish as GBP/USD, AUD/USD Lose Momentum",
       "Australia inflation runs hot in July, markets reprice rate hike risk"
+    ],
+    "mode": "paper",
+    "strategy_version": "114",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260831182052",
+    "asset": "BTC-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 79032.953125,
+    "entry_time": "2026-08-31T18:20:52.896663+00:00",
+    "stop_loss_pct": 0.01626,
+    "take_profit_pct": 0.05337,
+    "size_usd": 5661.48,
+    "position_size_pct": 0.0541,
+    "confidence": 0.564,
+    "signals": [
+      "RSI overbought (73.0)",
+      "5d momentum +1.54%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.217,
+    "news_headlines": [
+      "Bitcoin treasury companies shed over $80 billion in value",
+      "How Russia is going to operate a regulated, state-controlled crypto market",
+      "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower"
     ],
     "mode": "paper",
     "strategy_version": "114",
