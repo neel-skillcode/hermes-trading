@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104563.46,
+  "portfolio_balance": 104558.13,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.09,
-  "unrealized_pnl_usd": 941.43,
-  "equity_value": 105504.89,
-  "open_positions": 17,
-  "day_trades_open": 7,
+  "unrealized_pnl_usd": 790.11,
+  "equity_value": 105348.24,
+  "open_positions": 15,
+  "day_trades_open": 5,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41829.92,
+  "day_capital_used_usd": 29547.14,
   "swing_capital_used_usd": 49893.43,
-  "total_trades": 1281,
-  "last_tick": "2026-09-01T06:44:56.349795+00:00",
+  "total_trades": 1284,
+  "last_tick": "2026-09-01T12:03:57.619388+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 4,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8385,
-      "unrealized_pnl_pct": 0.000536,
-      "unrealized_pnl_usd": 0.72
+      "current_price": 7.841,
+      "unrealized_pnl_pct": 0.000855,
+      "unrealized_pnl_usd": 1.15
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.8568,
-      "unrealized_pnl_pct": -0.003361,
-      "unrealized_pnl_usd": -23.39
+      "current_price": 0.85647,
+      "unrealized_pnl_pct": -0.002974,
+      "unrealized_pnl_usd": -20.7
     },
     {
       "id": "USD/JPY_20260821090347",
@@ -106,11 +106,11 @@
       "mode": "paper",
       "strategy_version": "101",
       "status": "open",
-      "price_peak": 160.03799438476562,
-      "trailing_stop_price": 158.75769,
-      "current_price": 159.968002,
-      "unrealized_pnl_pct": 0.009377,
-      "unrealized_pnl_usd": 41.25
+      "price_peak": 160.12600708007812,
+      "trailing_stop_price": 158.844999,
+      "current_price": 160.128998,
+      "unrealized_pnl_pct": 0.010392,
+      "unrealized_pnl_usd": 45.72
     },
     {
       "id": "HD_20260821194841",
@@ -284,34 +284,6 @@
       "unrealized_pnl_usd": 27.24
     },
     {
-      "id": "USD/CHF_20260830220029",
-      "asset": "USD/CHF",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.8093000054359436,
-      "entry_time": "2026-08-30T22:00:29.771742+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00462,
-      "size_usd": 4143.67,
-      "position_size_pct": 0.0397,
-      "confidence": 0.62,
-      "signals": [
-        "RSI overbought (75.7)",
-        "1d momentum +0.67%",
-        "BB overbought (pct_b=0.87)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "113",
-      "status": "open",
-      "price_trough": 0.8079900145530701,
-      "trailing_stop_price": 0.809606,
-      "current_price": 0.80957,
-      "unrealized_pnl_pct": -0.000334,
-      "unrealized_pnl_usd": -1.38
-    },
-    {
       "id": "DOGE-USD_20260831002334",
       "asset": "DOGE-USD",
       "trade_type": "day",
@@ -341,47 +313,11 @@
       "mode": "paper",
       "strategy_version": "113",
       "status": "open",
-      "price_peak": 0.08354000002145767,
-      "trailing_stop_price": 0.082614,
-      "current_price": 0.08354,
-      "unrealized_pnl_pct": 0.013958,
-      "unrealized_pnl_usd": 92.48
-    },
-    {
-      "id": "SOL-USD_20260831002334",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 102.29000091552734,
-      "entry_time": "2026-08-31T00:23:34.754458+00:00",
-      "stop_loss_pct": 0.01103,
-      "take_profit_pct": 0.02686,
-      "size_usd": 5822.72,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI oversold (36.8)",
-        "5d momentum -3.85%",
-        "1d momentum -3.06%",
-        "BB oversold (pct_b=-0.20)",
-        "Volume spike 3.2\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: price decline"
-      ],
-      "news_sentiment": 0.46,
-      "news_headlines": [
-        "Solana Just Set an All-Time Record for Blockchain Network Activity. Does That Make Solana a Buy, Sell, or Hold Right Now?",
-        "Bitcoin, Ethereum And HYPE? Charles Schwab's Adam Lynch Maps Out A Crypto Portfolio As Debasement Fears Build",
-        "This New AI Agent Platform Could Send Solana's Price Higher in September and Beyond"
-      ],
-      "mode": "paper",
-      "strategy_version": "113",
-      "status": "open",
-      "price_peak": 103.9800033569336,
-      "trailing_stop_price": 102.833104,
-      "current_price": 103.790001,
-      "unrealized_pnl_pct": 0.014664,
-      "unrealized_pnl_usd": 85.39
+      "price_peak": 0.0834600031375885,
+      "trailing_stop_price": 0.082534,
+      "current_price": 0.08313,
+      "unrealized_pnl_pct": 0.008982,
+      "unrealized_pnl_usd": 59.51
     },
     {
       "id": "AVAX-USD_20260831002334",
@@ -413,11 +349,11 @@
       "mode": "paper",
       "strategy_version": "113",
       "status": "open",
-      "price_peak": 7.298999786376953,
-      "trailing_stop_price": 7.227908,
-      "current_price": 7.299,
-      "unrealized_pnl_pct": 0.019841,
-      "unrealized_pnl_usd": 126.15
+      "price_peak": 7.2820000648498535,
+      "trailing_stop_price": 7.211073,
+      "current_price": 7.287,
+      "unrealized_pnl_pct": 0.018164,
+      "unrealized_pnl_usd": 115.49
     },
     {
       "id": "XRP-USD_20260831002334",
@@ -451,45 +387,9 @@
       "status": "open",
       "price_peak": 1.3883999586105347,
       "trailing_stop_price": 1.371989,
-      "current_price": 1.387,
-      "unrealized_pnl_pct": 0.016639,
-      "unrealized_pnl_usd": 110.24
-    },
-    {
-      "id": "BNB-USD_20260831002334",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 686.6599731445312,
-      "entry_time": "2026-08-31T00:23:34.757916+00:00",
-      "stop_loss_pct": 0.00616,
-      "take_profit_pct": 0.01536,
-      "size_usd": 6625.86,
-      "position_size_pct": 0.0634,
-      "confidence": 0.99,
-      "signals": [
-        "RSI oversold (39.3)",
-        "5d momentum -2.03%",
-        "1d momentum -0.92%",
-        "BB oversold (pct_b=-0.09)",
-        "Volume spike 2.3\u00d7",
-        "High-impact catalyst",
-        "Claude [strongly_supports]: product catalyst; price surge"
-      ],
-      "news_sentiment": 0.476,
-      "news_headlines": [
-        "Crypto\u2019s Next Meme Coin War? Traders Want Tokens That Can Move Real Stocks",
-        "Nano Labs H1 Earnings Call Highlights",
-        "What is crypto?"
-      ],
-      "mode": "paper",
-      "strategy_version": "113",
-      "status": "open",
-      "price_peak": 693.8099975585938,
-      "trailing_stop_price": 689.536128,
-      "current_price": 690.909973,
-      "unrealized_pnl_pct": 0.006189,
-      "unrealized_pnl_usd": 41.01
+      "current_price": 1.3806,
+      "unrealized_pnl_pct": 0.011947,
+      "unrealized_pnl_usd": 79.16
     },
     {
       "id": "ETH-USD_20260831002334",
@@ -523,9 +423,9 @@
       "status": "open",
       "price_peak": 2477.050048828125,
       "trailing_stop_price": 2453.196057,
-      "current_price": 2475.75,
-      "unrealized_pnl_pct": 0.01928,
-      "unrealized_pnl_usd": 108.51
+      "current_price": 2455.840088,
+      "unrealized_pnl_pct": 0.011083,
+      "unrealized_pnl_usd": 62.37
     },
     {
       "id": "AUD/USD_20260831055036",
@@ -555,11 +455,11 @@
       "mode": "paper",
       "strategy_version": "114",
       "status": "open",
-      "price_trough": 0.7166917324066162,
-      "trailing_stop_price": 0.722425,
-      "current_price": 0.716692,
-      "unrealized_pnl_pct": 7.2e-05,
-      "unrealized_pnl_usd": 0.6
+      "price_trough": 0.7145919799804688,
+      "trailing_stop_price": 0.720309,
+      "current_price": 0.714592,
+      "unrealized_pnl_pct": 0.003001,
+      "unrealized_pnl_usd": 25.01
     },
     {
       "id": "BTC-USD_20260831182052",
@@ -589,11 +489,43 @@
       "mode": "paper",
       "strategy_version": "114",
       "status": "open",
-      "price_trough": 78840.0078125,
-      "trailing_stop_price": 80121.94634,
-      "current_price": 78840.007812,
-      "unrealized_pnl_pct": 0.002441,
-      "unrealized_pnl_usd": 13.82
+      "price_trough": 77979.0703125,
+      "trailing_stop_price": 79247.009996,
+      "current_price": 77966.898438,
+      "unrealized_pnl_pct": 0.013489,
+      "unrealized_pnl_usd": 76.37
+    },
+    {
+      "id": "SOL-USD_20260901120357",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 102.2699966430664,
+      "entry_time": "2026-09-01T12:03:57.617063+00:00",
+      "stop_loss_pct": 0.00574,
+      "take_profit_pct": 0.01333,
+      "size_usd": 4309.47,
+      "position_size_pct": 0.0412,
+      "confidence": 0.644,
+      "signals": [
+        "RSI oversold (39.2)",
+        "5d momentum -0.83%",
+        "1d momentum -0.47%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.244,
+      "news_headlines": [
+        "Solana Treasury Firm Dangles 13% Dividends to Bankroll Its Next SOL Buys",
+        "Why Is The Crypto Market Up Today?",
+        "Will North Korea Allegations Derail Hyperliquid's US Entry Plans?"
+      ],
+      "mode": "paper",
+      "strategy_version": "114",
+      "status": "open",
+      "current_price": 102.269997,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -641,7 +573,7 @@
     },
     {
       "asset": "RBLX",
-      "rank_score": 0.6809,
+      "rank_score": 0.6859,
       "price": 41.275001525878906,
       "rsi": 71.87747655063215,
       "momentum_5d": 0.013555041596059686,
@@ -651,12 +583,12 @@
       "bollinger_pct_b": 0.9229,
       "volume_spike": true,
       "volume_spike_ratio": 2.1,
-      "news_sentiment": 0.657,
-      "news_confidence": 0.35,
+      "news_sentiment": 0.737,
+      "news_confidence": 0.38,
       "news_headlines": [
+        "What Is Cathie Wood Buying Now? Nvidia, SpaceX And Crypto Stocks Led ARK\u2019s August Trades \u2013 While Cutting These Growth Stocks",
         "EU to Hold ChatGPT, Reddit, Roblox to Higher Standard of Scrutiny",
-        "Can Gaming Become the Next Revenue Pillar for Netflix Stock?",
-        "GameStop Climbs 4% as $358M Cash Payment Caps Dilution, Roblox Slips, Take-Two Interactive Treads Water"
+        "Can Gaming Become the Next Revenue Pillar for Netflix Stock?"
       ],
       "high_impact_news": true
     },
@@ -745,6 +677,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "PYPL",
+      "rank_score": 0.62,
+      "price": 52.665000915527344,
+      "rsi": 11.507829190892792,
+      "momentum_5d": -0.018268236254521265,
+      "momentum_1d": -0.14843560714657567,
+      "macd_crossover": false,
+      "atr_pct": 0.02182054293523418,
+      "bollinger_pct_b": 0.2781,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.5,
+      "news_sentiment": 0.309,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Social Networking Stocks Q2 In Review: Yelp (NYSE:YELP) Vs Peers",
+        "The PayPal (PYPL) Buyout Is No More. Now Investors Have to Decide if the Business Is Worth It.",
+        "PYPL Stock Hit With Price-Target Cuts As Stripe Takeover Hopes Fade: Analyst Sees Possible Negotiating Tactic"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "IONQ",
       "rank_score": 0.618,
       "price": 39.275001525878906,
@@ -783,27 +736,6 @@
         "UNH Stock Gets Cheaper Only If The Margins Come Back",
         "CVS vs. UNH: Which Health Insurance Stock Has More Upside Now?",
         "SCHD Is Up Nearly 30% and Its Yield Is Back Near 3% | Did Dividend Investors Miss the Easy Money?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PYPL",
-      "rank_score": 0.6129,
-      "price": 52.665000915527344,
-      "rsi": 11.507829190892792,
-      "momentum_5d": -0.018268236254521265,
-      "momentum_1d": -0.14843560714657567,
-      "macd_crossover": false,
-      "atr_pct": 0.02182054293523418,
-      "bollinger_pct_b": 0.2781,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.5,
-      "news_sentiment": 0.197,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "The PayPal (PYPL) Buyout Is No More. Now Investors Have to Decide if the Business Is Worth It.",
-        "PYPL Stock Hit With Price-Target Cuts As Stripe Takeover Hopes Fade: Analyst Sees Possible Negotiating Tactic",
-        "PayPal Stock's Real Risk Is Not How Far It Falls"
       ],
       "high_impact_news": true
     },
@@ -872,7 +804,7 @@
     },
     {
       "asset": "UBER",
-      "rank_score": 0.5786,
+      "rank_score": 0.5866,
       "price": 75.62999725341797,
       "rsi": 39.9439233433033,
       "momentum_5d": -0.004606555515289866,
@@ -882,18 +814,18 @@
       "bollinger_pct_b": 0.179,
       "volume_spike": true,
       "volume_spike_ratio": 2.0,
-      "news_sentiment": 0.515,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.641,
+      "news_confidence": 0.39,
       "news_headlines": [
+        "UBER Stock Rises Overnight: Rosenblatt Calls Uber A 'Durably Compounding Platform', Sees 32% Upside",
         "Coinbase CEO Says Tokenized Assets Could Do For Finance What the iPhone Did For Tech: \u2018An Entirely New Wave of Companies\u2019",
-        "Autonomous Deliveries Could Go Mainstream By 2030",
-        "The end of the driver\u2019s license: Uber exec calls car ownership \u2018the most inefficient asset\u2019 and says no one will need one in 15 to 20 years"
+        "Autonomous Deliveries Could Go Mainstream By 2030"
       ],
       "high_impact_news": true
     },
     {
       "asset": "TGT",
-      "rank_score": 0.5607,
+      "rank_score": 0.5767,
       "price": 160.88999938964844,
       "rsi": 17.6357173695759,
       "momentum_5d": -0.0062383850828413735,
@@ -903,54 +835,12 @@
       "bollinger_pct_b": 0.1574,
       "volume_spike": true,
       "volume_spike_ratio": 1.83,
-      "news_sentiment": 0.545,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.56,
       "news_headlines": [
-        "161-year-old kids clothing giant closes 29 more stores",
-        "Ulta Beauty Climbs 4%, e.l.f. Beauty Rises 5% as Post-Earnings Selloff Reverses",
-        "Target (TGT) Adds Exclusive Hydration Mix Rollout Across Stores And Online"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRNA",
-      "rank_score": 0.5557,
-      "price": 140.41000366210938,
-      "rsi": 45.74796206953918,
-      "momentum_5d": -0.009627863115068334,
-      "momentum_1d": -0.04993633829783104,
-      "macd_crossover": true,
-      "atr_pct": 0.024636880510987082,
-      "bollinger_pct_b": 0.5817,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.69,
-      "news_sentiment": 0.684,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Moderna (MRNA) Soars 156% in August \u2014 Here\u2019s What Propelled The Rally",
-        "Stock Market Enjoys August Gains\u2014Thanks to Unusual Winners",
-        "There Was No Beating Moderna in August. These Are the Best and Worst S&P 500 Stocks for the Month."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XOM",
-      "rank_score": 0.5549,
-      "price": 160.9600067138672,
-      "rsi": 73.14352151526582,
-      "momentum_5d": 0.01054751348220552,
-      "momentum_1d": 0.007952935393854289,
-      "macd_crossover": false,
-      "atr_pct": 0.00776805753193783,
-      "bollinger_pct_b": 0.9583,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.86,
-      "news_sentiment": 0.767,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck",
-        "This Oil Major Is Perfectly Positioned to Benefit From Trump's Oil Deal With Venezuela",
-        "Where CVX's $119 billion Of Shareholder Cash Came From"
+        "1 Reason Target Stock Is Worth a Second Look This Month",
+        "Bear of the Day: Albertsons (ACI)",
+        "161-year-old kids clothing giant closes 29 more stores"
       ],
       "high_impact_news": true
     },
@@ -976,6 +866,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MRNA",
+      "rank_score": 0.5487,
+      "price": 140.41000366210938,
+      "rsi": 45.74796206953918,
+      "momentum_5d": -0.009627863115068334,
+      "momentum_1d": -0.04993633829783104,
+      "macd_crossover": true,
+      "atr_pct": 0.024636880510987082,
+      "bollinger_pct_b": 0.5817,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.69,
+      "news_sentiment": 0.514,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Moderna Stock More Than Doubled in August. Is the Stock a Buy, a Hold, or a Sell?",
+        "Moderna (MRNA) Soars 156% in August \u2014 Here\u2019s What Propelled The Rally",
+        "Stock Market Enjoys August Gains\u2014Thanks to Unusual Winners"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LCID",
       "rank_score": 0.5443,
       "price": 4.855000019073486,
@@ -997,21 +908,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "CAD/JPY",
-      "rank_score": 0.5375,
-      "price": 115.35399627685547,
-      "rsi": 63.20580346595884,
-      "momentum_5d": 0.0009110337359857068,
-      "momentum_1d": 0.003191637025882363,
-      "macd_crossover": true,
-      "atr_pct": 0.0010378102036992414,
-      "bollinger_pct_b": 0.8315,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
+      "asset": "XOM",
+      "rank_score": 0.5409,
+      "price": 160.9600067138672,
+      "rsi": 73.14352151526582,
+      "momentum_5d": 0.01054751348220552,
+      "momentum_1d": 0.007952935393854289,
+      "macd_crossover": false,
+      "atr_pct": 0.00776805753193783,
+      "bollinger_pct_b": 0.9583,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.86,
+      "news_sentiment": 0.576,
+      "news_confidence": 0.33,
       "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+        "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck",
+        "Stock Market News for Sep 1, 2026",
+        "Why Are XOM, CVX, GEV Stocks Rising Overnight?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MA",
+      "rank_score": 0.5363,
+      "price": 589.4000244140625,
+      "rsi": 42.49083349702089,
+      "momentum_5d": -0.006841231773453503,
+      "momentum_1d": -0.014002032292872354,
+      "macd_crossover": false,
+      "atr_pct": 0.003968424093870286,
+      "bollinger_pct_b": 0.0608,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.51,
+      "news_sentiment": 0.453,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Can you use a credit card on Venmo?",
+        "PayPal Stock's Real Risk Is Not How Far It Falls",
+        "Visa, Mastercard, and Fiserv Just Joined a Group Writing the Rules for AI Agent Payments"
       ],
       "high_impact_news": true
     }
