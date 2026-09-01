@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 160.1739959716797,
-    "trailing_stop_price": 158.892604
+    "price_peak": 160.1999969482422,
+    "trailing_stop_price": 158.918397
   },
   "HD": {
     "id": "HD_20260821194841",
@@ -113,8 +113,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 321.0299987792969,
-    "trailing_stop_price": 329.717071
+    "price_trough": 319.2699890136719,
+    "trailing_stop_price": 327.909435
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -176,8 +176,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 215.55499267578125,
-    "trailing_stop_price": 218.605096
+    "price_trough": 215.5500030517578,
+    "trailing_stop_price": 218.600036
   },
   "C": {
     "id": "C_20260825160444",
@@ -333,39 +333,8 @@
     "mode": "paper",
     "strategy_version": "114",
     "status": "open",
-    "price_trough": 77481.5234375,
-    "trailing_stop_price": 78741.373009
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260901120357",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 102.2699966430664,
-    "entry_time": "2026-09-01T12:03:57.617063+00:00",
-    "stop_loss_pct": 0.00574,
-    "take_profit_pct": 0.01333,
-    "size_usd": 4309.47,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (39.2)",
-      "5d momentum -0.83%",
-      "1d momentum -0.47%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.244,
-    "news_headlines": [
-      "Solana Treasury Firm Dangles 13% Dividends to Bankroll Its Next SOL Buys",
-      "Why Is The Crypto Market Up Today?",
-      "Will North Korea Allegations Derail Hyperliquid's US Entry Plans?"
-    ],
-    "mode": "paper",
-    "strategy_version": "114",
-    "status": "open",
-    "price_trough": 101.16000366210938,
-    "trailing_stop_price": 101.740662
+    "price_trough": 77320.640625,
+    "trailing_stop_price": 78577.874242
   },
   "USO": {
     "id": "USO_20260901163231",
@@ -457,36 +426,6 @@
     "strategy_version": "114",
     "status": "open"
   },
-  "MRNA": {
-    "id": "MRNA_20260901163231",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 147.48500061035156,
-    "entry_time": "2026-09-01T16:32:31.023855+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5311.59,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (70.3)",
-      "5d momentum +6.92%",
-      "1d momentum +3.15%",
-      "BB overbought (pct_b=0.95)",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.538,
-    "news_headlines": [
-      "GSK hopes to take on Moderna as it moves mRNA flu vaccine to Phase III trial",
-      "Healthcare ETFs to Watch Post Merck-Moderna Cancer Vaccine Breakthrough",
-      "S&P 500 biggest August 2026 winners: Moderna, software stocks"
-    ],
-    "mode": "paper",
-    "strategy_version": "114",
-    "status": "open"
-  },
   "SOFI": {
     "id": "SOFI_20260901163231",
     "asset": "SOFI",
@@ -542,6 +481,70 @@
       "How ASML Can Hit $1 Trillion Value and Why the China Threat Is Overblown",
       "I Keep Buying Marvell Technology Because Its Type Historically Wins",
       "Is Applied Materials Stock Outperforming the Dow?"
+    ],
+    "mode": "paper",
+    "strategy_version": "114",
+    "status": "open",
+    "price_peak": 443.0799865722656,
+    "trailing_stop_price": 438.042167
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260901193121",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 100.08000183105469,
+    "entry_time": "2026-09-01T19:31:21.116785+00:00",
+    "stop_loss_pct": 0.0104,
+    "take_profit_pct": 0.02594,
+    "size_usd": 6618.1,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (16.0)",
+      "5d momentum -1.85%",
+      "1d momentum -3.42%",
+      "BB oversold (pct_b=0.05)",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.538,
+    "news_headlines": [
+      "Robinhood Chain is exploding with nearly $1 billion daily DEX volume",
+      "Solana hits a new transaction record in August, up 23% from July",
+      "Solana Treasury DeFi Development Corp Eyes $20 Million Raise to Buy More SOL"
+    ],
+    "mode": "paper",
+    "strategy_version": "114",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260901193121",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2421.0,
+    "entry_time": "2026-09-01T19:31:21.119047+00:00",
+    "stop_loss_pct": 0.00758,
+    "take_profit_pct": 0.01845,
+    "size_usd": 2973.54,
+    "position_size_pct": 0.0285,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (22.0)",
+      "5d momentum -1.12%",
+      "1d momentum -2.44%",
+      "BB oversold (pct_b=0.09)",
+      "Volume spike 5.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge; fed hawkish"
+    ],
+    "news_sentiment": 0.217,
+    "news_headlines": [
+      "Robinhood Chain is exploding with nearly $1 billion daily DEX volume",
+      "Bitcoin and ethereum prices today, Tuesday, September 1, 2026: Crypto prices falling as inflation concerns persist",
+      "Crypto\u2019s Next Bull Market Could Be Led by Wall Street, Not Retail"
     ],
     "mode": "paper",
     "strategy_version": "114",
