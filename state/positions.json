@@ -241,39 +241,6 @@
     "price_peak": 62.32,
     "trailing_stop_price": 61.435056
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260831002334",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 7.1570000648498535,
-    "entry_time": "2026-08-31T00:23:34.755423+00:00",
-    "stop_loss_pct": 0.00974,
-    "take_profit_pct": 0.02412,
-    "size_usd": 6358.15,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (33.2)",
-      "5d momentum -3.57%",
-      "1d momentum -2.28%",
-      "BB oversold (pct_b=-0.25)",
-      "Volume spike 4.7\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.351,
-    "news_headlines": [
-      "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued",
-      "Charles Schwab expands crypto access with Solana, Avalanche, and Chainlink",
-      "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum"
-    ],
-    "mode": "paper",
-    "strategy_version": "113",
-    "status": "open",
-    "price_peak": 7.2820000648498535,
-    "trailing_stop_price": 7.211073
-  },
   "AUD/USD": {
     "id": "AUD/USD_20260831055036",
     "asset": "AUD/USD",
@@ -333,8 +300,8 @@
     "mode": "paper",
     "strategy_version": "114",
     "status": "open",
-    "price_trough": 77320.640625,
-    "trailing_stop_price": 78577.874242
+    "price_trough": 77221.828125,
+    "trailing_stop_price": 78477.45505
   },
   "USO": {
     "id": "USO_20260901163231",
@@ -394,37 +361,9 @@
     ],
     "mode": "paper",
     "strategy_version": "114",
-    "status": "open"
-  },
-  "LCID": {
-    "id": "LCID_20260901163231",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 4.625,
-    "entry_time": "2026-09-01T16:32:31.022477+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6248.14,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (17.1)",
-      "5d momentum -5.09%",
-      "1d momentum -6.66%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": -0.023,
-    "news_headlines": [
-      "Tesla Falls 3% as Mixed European Registrations Land Ahead of Cybercab Launch",
-      "Stock Market Today, Aug. 31: Tesla Stock Surges on Cybercab Event Anticipation",
-      "Tesla Jumps 4% as Oil Climbs to $86: Is the Gas-Price Trade Back?"
-    ],
-    "mode": "paper",
-    "strategy_version": "114",
-    "status": "open"
+    "status": "open",
+    "price_peak": 141.32000732421875,
+    "trailing_stop_price": 139.499806
   },
   "SOFI": {
     "id": "SOFI_20260901163231",
@@ -545,6 +484,98 @@
       "Robinhood Chain is exploding with nearly $1 billion daily DEX volume",
       "Bitcoin and ethereum prices today, Tuesday, September 1, 2026: Crypto prices falling as inflation concerns persist",
       "Crypto\u2019s Next Bull Market Could Be Led by Wall Street, Not Retail"
+    ],
+    "mode": "paper",
+    "strategy_version": "114",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260901215707",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.3502000570297241,
+    "entry_time": "2026-09-01T21:57:07.321971+00:00",
+    "stop_loss_pct": 0.01074,
+    "take_profit_pct": 0.02614,
+    "size_usd": 5812.89,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (32.5)",
+      "5d momentum -1.08%",
+      "1d momentum -2.60%",
+      "BB oversold (pct_b=0.05)",
+      "Volume spike 1.9\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Ripple unlocks 1 billion XRP, here's what it actually means for investors",
+      "Ripple Unlocked 1 Billion XRP \u2014 But That's Not the Sell Wall You Think It Is",
+      "Goldman Sachs Leads Wall Street\u2019s XRP ETF Bets With $87M Exposure"
+    ],
+    "mode": "paper",
+    "strategy_version": "114",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260901215707",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 680.47998046875,
+    "entry_time": "2026-09-01T21:57:07.324374+00:00",
+    "stop_loss_pct": 0.00442,
+    "take_profit_pct": 0.01046,
+    "size_usd": 4924.25,
+    "position_size_pct": 0.0472,
+    "confidence": 0.737,
+    "signals": [
+      "RSI oversold (18.9)",
+      "5d momentum -0.46%",
+      "1d momentum -1.74%",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.224,
+    "news_headlines": [
+      "XRP ETF Demand Holds Firm as Fed Pressure Breaks XRP Price Support",
+      "Crypto\u2019s Next Meme Coin War? Traders Want Tokens That Can Move Real Stocks",
+      "Nano Labs H1 Earnings Call Highlights"
+    ],
+    "mode": "paper",
+    "strategy_version": "114",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260901215707",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08156000077724457,
+    "entry_time": "2026-09-01T21:57:07.326469+00:00",
+    "stop_loss_pct": 0.00995,
+    "take_profit_pct": 0.02484,
+    "size_usd": 1847.45,
+    "position_size_pct": 0.0177,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (30.0)",
+      "5d momentum -0.69%",
+      "1d momentum -2.14%",
+      "BB oversold (pct_b=0.07)",
+      "Volume spike 1.6\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.478,
+    "news_headlines": [
+      "Musk once called Bitcoin his biggest crypto bet, here's what $1 billion invested would be worth today",
+      "Can Dogecoin Reach $1 by 2030?",
+      "MSTR Stock Hits 2-Month High With Bitcoin Back Above $80K Ahead Of Kevin Warsh\u2019s Jackson Hole Speech"
     ],
     "mode": "paper",
     "strategy_version": "114",
