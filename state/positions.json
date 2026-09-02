@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 318.7250061035156,
-    "trailing_stop_price": 327.349705
+    "price_trough": 318.510009765625,
+    "trailing_stop_price": 327.128891
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -113,8 +113,8 @@
     "mode": "paper",
     "strategy_version": "107",
     "status": "open",
-    "price_trough": 929.760009765625,
-    "trailing_stop_price": 943.520458
+    "price_trough": 928.47998046875,
+    "trailing_stop_price": 942.221484
   },
   "AUD/USD": {
     "id": "AUD/USD_20260831055036",
@@ -238,40 +238,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 99.22000122070312,
-    "trailing_stop_price": 98.366709
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260902112144",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.316499948501587,
-    "entry_time": "2026-09-02T11:21:44.950050+00:00",
-    "stop_loss_pct": 0.00906,
-    "take_profit_pct": 0.02173,
-    "size_usd": 5283.13,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (31.2)",
-      "5d momentum -2.21%",
-      "1d momentum -4.73%",
-      "BB oversold (pct_b=-0.05)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed hawkish"
-    ],
-    "news_sentiment": -0.371,
-    "news_headlines": [
-      "XRP Price Faces Crucial September Test as Wintermute Flags Fed Risk and Binance Reserves Fall",
-      "Why Is The Crypto Market Down Today?",
-      "Ripple unlocks 1 billion XRP, here's what it actually means for investors"
-    ],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open",
-    "price_peak": 1.3378000259399414,
-    "trailing_stop_price": 1.32568
+    "price_peak": 99.58999633789062,
+    "trailing_stop_price": 98.733522
   },
   "ETH-USD": {
     "id": "ETH-USD_20260902112144",
@@ -302,8 +270,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 2391.239990234375,
-    "trailing_stop_price": 2375.218682
+    "price_peak": 2391.2900390625,
+    "trailing_stop_price": 2375.268396
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260902112144",
@@ -334,8 +302,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 7.159999847412109,
-    "trailing_stop_price": 7.100357
+    "price_peak": 7.173999786376953,
+    "trailing_stop_price": 7.11424
   },
   "PLTR": {
     "id": "PLTR_20260902150931",
@@ -396,8 +364,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_trough": 89.31990051269531,
-    "trailing_stop_price": 90.049644
+    "price_trough": 89.2699966430664,
+    "trailing_stop_price": 89.999333
   },
   "NVDA": {
     "id": "NVDA_20260902150931",
@@ -429,8 +397,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_trough": 224.97000122070312,
-    "trailing_stop_price": 231.674107
+    "price_trough": 224.41000366210938,
+    "trailing_stop_price": 231.097422
   },
   "GBP/AUD": {
     "id": "GBP/AUD_20260902150931",
@@ -507,7 +475,9 @@
     ],
     "mode": "paper",
     "strategy_version": "116",
-    "status": "open"
+    "status": "open",
+    "price_trough": 852.030029296875,
+    "trailing_stop_price": 857.619346
   },
   "IONQ": {
     "id": "IONQ_20260902183949",
@@ -567,7 +537,9 @@
     ],
     "mode": "paper",
     "strategy_version": "116",
-    "status": "open"
+    "status": "open",
+    "price_trough": 37.630001068115234,
+    "trailing_stop_price": 37.931417
   },
   "RXRX": {
     "id": "RXRX_20260902183949",
@@ -593,6 +565,34 @@
       "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
       "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
       "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
+    ],
+    "mode": "paper",
+    "strategy_version": "116",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20260902211717",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 113.54299926757812,
+    "entry_time": "2026-09-02T21:17:17.319678+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00471,
+    "size_usd": 4765.16,
+    "position_size_pct": 0.0456,
+    "confidence": 0.713,
+    "signals": [
+      "RSI oversold (29.7)",
+      "1d momentum -0.76%",
+      "BB oversold (pct_b=0.01)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+      "Further Strength for the Australian Dollar After Higher Inflation"
     ],
     "mode": "paper",
     "strategy_version": "116",

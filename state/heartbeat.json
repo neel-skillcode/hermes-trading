@@ -1,21 +1,21 @@
 {
   "status": "running",
-  "portfolio_balance": 104298.52,
+  "portfolio_balance": 104425.73,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.34,
-  "unrealized_pnl_usd": 562.42,
-  "equity_value": 104860.94,
+  "portfolio_drawdown_pct": 3.22,
+  "unrealized_pnl_usd": 466.32,
+  "equity_value": 104892.05,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41719.41,
+  "day_capital_used_usd": 41201.44,
   "swing_capital_used_usd": 52149.26,
-  "total_trades": 1305,
-  "last_tick": "2026-09-02T18:39:49.508251+00:00",
+  "total_trades": 1306,
+  "last_tick": "2026-09-02T21:17:17.321855+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 4,
   "universe_scanned": 110,
-  "market_open": true,
+  "market_open": false,
   "open_position_list": [
     {
       "id": "USD/HKD_20260524050433",
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8418,
-      "unrealized_pnl_pct": 0.000957,
-      "unrealized_pnl_usd": 1.29
+      "current_price": 7.8414,
+      "unrealized_pnl_pct": 0.000906,
+      "unrealized_pnl_usd": 1.22
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85908,
-      "unrealized_pnl_pct": -0.006031,
-      "unrealized_pnl_usd": -41.98
+      "current_price": 0.85881,
+      "unrealized_pnl_pct": -0.005715,
+      "unrealized_pnl_usd": -39.78
     },
     {
       "id": "HD_20260821194841",
@@ -106,11 +106,11 @@
       "mode": "paper",
       "strategy_version": "103",
       "status": "open",
-      "price_trough": 318.7250061035156,
-      "trailing_stop_price": 327.349705,
-      "current_price": 318.804993,
-      "unrealized_pnl_pct": 0.054384,
-      "unrealized_pnl_usd": 59.05
+      "price_trough": 318.510009765625,
+      "trailing_stop_price": 327.128891,
+      "current_price": 318.540009,
+      "unrealized_pnl_pct": 0.05517,
+      "unrealized_pnl_usd": 59.9
     },
     {
       "id": "COST_20260824175145",
@@ -140,11 +140,11 @@
       "mode": "paper",
       "strategy_version": "107",
       "status": "open",
-      "price_trough": 929.760009765625,
-      "trailing_stop_price": 943.520458,
-      "current_price": 929.734985,
-      "unrealized_pnl_pct": 0.0401,
-      "unrealized_pnl_usd": 258.39
+      "price_trough": 928.47998046875,
+      "trailing_stop_price": 942.221484,
+      "current_price": 928.469971,
+      "unrealized_pnl_pct": 0.041406,
+      "unrealized_pnl_usd": 266.81
     },
     {
       "id": "AUD/USD_20260831055036",
@@ -176,9 +176,9 @@
       "status": "open",
       "price_trough": 0.7138268351554871,
       "trailing_stop_price": 0.719537,
-      "current_price": 0.717154,
-      "unrealized_pnl_pct": -0.000574,
-      "unrealized_pnl_usd": -4.78
+      "current_price": 0.716794,
+      "unrealized_pnl_pct": -7.2e-05,
+      "unrealized_pnl_usd": -0.6
     },
     {
       "id": "BTC-USD_20260831182052",
@@ -210,9 +210,9 @@
       "status": "open",
       "price_trough": 76487.453125,
       "trailing_stop_price": 77731.139113,
-      "current_price": 77297.523438,
-      "unrealized_pnl_pct": 0.021958,
-      "unrealized_pnl_usd": 124.32
+      "current_price": 77250.609375,
+      "unrealized_pnl_pct": 0.022552,
+      "unrealized_pnl_usd": 127.68
     },
     {
       "id": "CAD/JPY_20260902061401",
@@ -244,9 +244,9 @@
       "status": "open",
       "price_peak": 114.85099792480469,
       "trailing_stop_price": 114.621296,
-      "current_price": 114.848,
-      "unrealized_pnl_pct": 0.001465,
-      "unrealized_pnl_usd": 7.18
+      "current_price": 114.616997,
+      "unrealized_pnl_pct": -0.000549,
+      "unrealized_pnl_usd": -2.69
     },
     {
       "id": "SOL-USD_20260902112144",
@@ -277,46 +277,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "price_peak": 99.22000122070312,
-      "trailing_stop_price": 98.366709,
-      "current_price": 99.209999,
-      "unrealized_pnl_pct": 0.014521,
-      "unrealized_pnl_usd": 90.24
-    },
-    {
-      "id": "XRP-USD_20260902112144",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1.316499948501587,
-      "entry_time": "2026-09-02T11:21:44.950050+00:00",
-      "stop_loss_pct": 0.00906,
-      "take_profit_pct": 0.02173,
-      "size_usd": 5283.13,
-      "position_size_pct": 0.0508,
-      "confidence": 0.794,
-      "signals": [
-        "RSI oversold (31.2)",
-        "5d momentum -2.21%",
-        "1d momentum -4.73%",
-        "BB oversold (pct_b=-0.05)",
-        "High-impact catalyst",
-        "Claude [contradicts]: fed hawkish"
-      ],
-      "news_sentiment": -0.371,
-      "news_headlines": [
-        "XRP Price Faces Crucial September Test as Wintermute Flags Fed Risk and Binance Reserves Fall",
-        "Why Is The Crypto Market Down Today?",
-        "Ripple unlocks 1 billion XRP, here's what it actually means for investors"
-      ],
-      "mode": "paper",
-      "strategy_version": "115",
-      "status": "open",
-      "price_peak": 1.3378000259399414,
-      "trailing_stop_price": 1.32568,
-      "current_price": 1.3379,
-      "unrealized_pnl_pct": 0.016255,
-      "unrealized_pnl_usd": 85.88
+      "price_peak": 99.58999633789062,
+      "trailing_stop_price": 98.733522,
+      "current_price": 99.57,
+      "unrealized_pnl_pct": 0.018202,
+      "unrealized_pnl_usd": 113.12
     },
     {
       "id": "ETH-USD_20260902112144",
@@ -347,11 +312,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "price_peak": 2391.239990234375,
-      "trailing_stop_price": 2375.218682,
-      "current_price": 2391.26001,
-      "unrealized_pnl_pct": 0.008566,
-      "unrealized_pnl_usd": 41.27
+      "price_peak": 2391.2900390625,
+      "trailing_stop_price": 2375.268396,
+      "current_price": 2390.800049,
+      "unrealized_pnl_pct": 0.008372,
+      "unrealized_pnl_usd": 40.33
     },
     {
       "id": "AVAX-USD_20260902112144",
@@ -382,11 +347,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "price_peak": 7.159999847412109,
-      "trailing_stop_price": 7.100357,
-      "current_price": 7.16,
-      "unrealized_pnl_pct": 0.010871,
-      "unrealized_pnl_usd": 8.55
+      "price_peak": 7.173999786376953,
+      "trailing_stop_price": 7.11424,
+      "current_price": 7.174,
+      "unrealized_pnl_pct": 0.012848,
+      "unrealized_pnl_usd": 10.1
     },
     {
       "id": "PLTR_20260902150931",
@@ -417,9 +382,9 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "current_price": 169.054993,
-      "unrealized_pnl_pct": -0.015233,
-      "unrealized_pnl_usd": -88.68
+      "current_price": 169.460007,
+      "unrealized_pnl_pct": -0.012873,
+      "unrealized_pnl_usd": -74.95
     },
     {
       "id": "WFC_20260902150931",
@@ -450,11 +415,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "price_trough": 89.31990051269531,
-      "trailing_stop_price": 90.049644,
-      "current_price": 89.324997,
-      "unrealized_pnl_pct": 0.003292,
-      "unrealized_pnl_usd": 4.31
+      "price_trough": 89.2699966430664,
+      "trailing_stop_price": 89.999333,
+      "current_price": 89.269997,
+      "unrealized_pnl_pct": 0.003905,
+      "unrealized_pnl_usd": 5.12
     },
     {
       "id": "NVDA_20260902150931",
@@ -486,11 +451,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "price_trough": 224.97000122070312,
-      "trailing_stop_price": 231.674107,
-      "current_price": 225.014999,
-      "unrealized_pnl_pct": 0.002637,
-      "unrealized_pnl_usd": 22.93
+      "price_trough": 224.41000366210938,
+      "trailing_stop_price": 231.097422,
+      "current_price": 224.399994,
+      "unrealized_pnl_pct": 0.005363,
+      "unrealized_pnl_usd": 46.62
     },
     {
       "id": "GBP/AUD_20260902150931",
@@ -514,9 +479,9 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "current_price": 1.88131,
-      "unrealized_pnl_pct": -0.000908,
-      "unrealized_pnl_usd": -5.08
+      "current_price": 1.88048,
+      "unrealized_pnl_pct": -0.001349,
+      "unrealized_pnl_usd": -7.55
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -540,9 +505,9 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "current_price": 1.61621,
-      "unrealized_pnl_pct": -0.000198,
-      "unrealized_pnl_usd": -0.46
+      "current_price": 1.61599,
+      "unrealized_pnl_pct": -0.000334,
+      "unrealized_pnl_usd": -0.78
     },
     {
       "id": "REGN_20260902183949",
@@ -574,9 +539,11 @@
       "mode": "paper",
       "strategy_version": "116",
       "status": "open",
-      "current_price": 852.47998,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 852.030029296875,
+      "trailing_stop_price": 857.619346,
+      "current_price": 852.22998,
+      "unrealized_pnl_pct": 0.000293,
+      "unrealized_pnl_usd": 1.15
     },
     {
       "id": "IONQ_20260902183949",
@@ -607,9 +574,9 @@
       "mode": "paper",
       "strategy_version": "116",
       "status": "open",
-      "current_price": 37.470001,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 37.66,
+      "unrealized_pnl_pct": -0.005071,
+      "unrealized_pnl_usd": -31.51
     },
     {
       "id": "HAL_20260902183949",
@@ -640,9 +607,11 @@
       "mode": "paper",
       "strategy_version": "116",
       "status": "open",
-      "current_price": 37.805,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 37.630001068115234,
+      "trailing_stop_price": 37.931417,
+      "current_price": 37.630001,
+      "unrealized_pnl_pct": 0.004629,
+      "unrealized_pnl_usd": 11.41
     },
     {
       "id": "RXRX_20260902183949",
@@ -672,7 +641,38 @@
       "mode": "paper",
       "strategy_version": "116",
       "status": "open",
-      "current_price": 3.3403,
+      "current_price": 3.375,
+      "unrealized_pnl_pct": -0.010388,
+      "unrealized_pnl_usd": -59.29
+    },
+    {
+      "id": "AUD/JPY_20260902211717",
+      "asset": "AUD/JPY",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 113.54299926757812,
+      "entry_time": "2026-09-02T21:17:17.319678+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00471,
+      "size_usd": 4765.16,
+      "position_size_pct": 0.0456,
+      "confidence": 0.713,
+      "signals": [
+        "RSI oversold (29.7)",
+        "1d momentum -0.76%",
+        "BB oversold (pct_b=0.01)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+        "Further Strength for the Australian Dollar After Higher Inflation"
+      ],
+      "mode": "paper",
+      "strategy_version": "116",
+      "status": "open",
+      "current_price": 113.542999,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -680,16 +680,16 @@
   "last_candidates": [
     {
       "asset": "REGN",
-      "rank_score": 0.648,
-      "price": 852.47998046875,
-      "rsi": 95.53390149141497,
-      "momentum_5d": 0.019767766256650433,
-      "momentum_1d": 0.0784810740402162,
+      "rank_score": 0.7737,
+      "price": 852.22998046875,
+      "rsi": 95.50312484554546,
+      "momentum_5d": 0.0162047667448941,
+      "momentum_1d": 0.07734705216573366,
       "macd_crossover": false,
-      "atr_pct": 0.007804741295686259,
-      "bollinger_pct_b": 0.9297,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.11,
+      "atr_pct": 0.007700386222496472,
+      "bollinger_pct_b": 0.8857,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.07,
       "news_sentiment": 0.795,
       "news_confidence": 0.65,
       "news_headlines": [
@@ -700,290 +700,17 @@
       "high_impact_news": true
     },
     {
-      "asset": "IONQ",
-      "rank_score": 0.6064,
-      "price": 37.470001220703125,
-      "rsi": 32.14642189865974,
-      "momentum_5d": -0.017180295850409835,
-      "momentum_1d": -0.037386978522415744,
-      "macd_crossover": true,
-      "atr_pct": 0.016717176850109934,
-      "bollinger_pct_b": 0.2594,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.06,
-      "news_sentiment": 0.371,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "IonQ\u2019s Investor Day Is Approaching. What to Expect From the \u2018Nvidia of Quantum.\u2019",
-        "Pasqal Stock Slump Highlights Growing Macro Risks Facing Quantum Computing Industry",
-        "Rigetti Expands Quantum Footprint as 1,000-Qubit Roadmap Advances"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PLTR",
-      "rank_score": 0.5981,
-      "price": 169.05499267578125,
-      "rsi": 10.898292434341514,
-      "momentum_5d": -0.026180952004254177,
-      "momentum_1d": -0.0881115851321335,
-      "macd_crossover": false,
-      "atr_pct": 0.017146711731684926,
-      "bollinger_pct_b": 0.1238,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.08,
-      "news_sentiment": 0.435,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Jim Cramer Explains Why Palantir\u2019s Rule of 40 Dominance Proves Bears Wrong",
-        "The AI Engine That Re-Accelerated Snowflake",
-        "Palantir stock tumbles as Google encroaches on defense AI market"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HAL",
-      "rank_score": 0.5959,
-      "price": 37.80500030517578,
-      "rsi": 70.71161668996078,
-      "momentum_5d": 0.02438698159187565,
-      "momentum_1d": 0.049555797466054013,
-      "macd_crossover": false,
-      "atr_pct": 0.008508129117140663,
-      "bollinger_pct_b": 1.0491,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.13,
-      "news_sentiment": 0.744,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "Energy ETFs to Watch as US-Venezuela Sign Historic Oil Deal",
-        "Chevron, Exxon and Other Oil Stocks Jump as Two Huge Energy Stories Collide",
-        "New US, Iran Strikes Highlight Shrinking US Oil Reserves"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "CVX",
-      "rank_score": 0.5417,
-      "price": 212.19500732421875,
-      "rsi": 95.21568982287873,
-      "momentum_5d": 0.0028119149505697457,
-      "momentum_1d": 0.05281569889000355,
-      "macd_crossover": false,
-      "atr_pct": 0.005916063344428044,
-      "bollinger_pct_b": 0.8001,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.07,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Chevron's big bet: Why its $7B Venezuelan oil investment makes sense",
-        "Sector Update: Energy Stocks Higher in Afternoon Trading",
-        "Cramer Called the September Open Unholy and Then Named the One Stock He Would Still Buy"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.5387,
-      "price": 223.7899932861328,
-      "rsi": 68.78634844054754,
-      "momentum_5d": 0.012624404009650736,
-      "momentum_1d": 0.030435587223816472,
-      "macd_crossover": false,
-      "atr_pct": 0.009713311975722927,
-      "bollinger_pct_b": 0.9502,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.14,
-      "news_sentiment": 0.887,
-      "news_confidence": 0.71,
-      "news_headlines": [
-        "Why Is Vertex (VRTX) Up 14.4% Since Last Earnings Report?",
-        "Biogen\u2019s (BIIB) Immunology Bet Meets A Pricier Balance Sheet",
-        "Josh Brown Says \u2018Take a Break From AI CapEx World,\u2019 Highlights His 2 Top Healthcare Stock Picks"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MPC",
-      "rank_score": 0.5237,
-      "price": 389.4150085449219,
-      "rsi": 75.36955516915017,
-      "momentum_5d": 0.006760653656878582,
-      "momentum_1d": 0.06380104666473364,
-      "macd_crossover": false,
-      "atr_pct": 0.01133557600190062,
-      "bollinger_pct_b": 0.8702,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.1,
-      "news_sentiment": 0.787,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "DK Stock Rallies 59.5% in 3 Months: Is There More Upside Ahead?",
-        "If You Invested $1000 in Marathon Petroleum a Decade Ago, This is How Much It'd Be Worth Now",
-        "Why Marathon Petroleum (MPC) Is Up 7.9% After Refining Peers\u2019 Earnings Strength and Analyst Optimism"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLE",
-      "rank_score": 0.5204,
-      "price": 65.12000274658203,
-      "rsi": 85.22438250696695,
-      "momentum_5d": 0.007347917521573148,
-      "momentum_1d": 0.0419200439453125,
-      "macd_crossover": false,
-      "atr_pct": 0.0051224300691725165,
-      "bollinger_pct_b": 0.8298,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.15,
-      "news_sentiment": 0.269,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Sector Update: Energy Stocks Higher in Afternoon Trading",
-        "Exchange-Traded Funds Rise as US Equities Advance After Midday",
-        "Sector Update: Energy Stocks Decline Premarket Wednesday"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MSFT",
-      "rank_score": 0.5046,
-      "price": 495.7149963378906,
-      "rsi": 15.118568309482313,
-      "momentum_5d": -0.004168448886904478,
-      "momentum_1d": -0.04023238024965225,
-      "macd_crossover": false,
-      "atr_pct": 0.006646411173575706,
-      "bollinger_pct_b": 0.1885,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.06,
-      "news_sentiment": 0.352,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "Sandisk Stock: Buy, Sell, or Hold?",
-        "Is Oracle Stock A Hedge Or A Downside Trap?",
-        "Cramer Called the September Open Unholy and Then Named the One Stock He Would Still Buy"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "USO",
-      "rank_score": 0.4965,
-      "price": 141.139892578125,
-      "rsi": 85.45950479666507,
-      "momentum_5d": 0.009151236680880637,
-      "momentum_1d": 0.09199143193907157,
-      "macd_crossover": false,
-      "atr_pct": 0.009538387533443396,
-      "bollinger_pct_b": 0.7508,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.18,
-      "news_sentiment": -0.28,
-      "news_confidence": 0.25,
-      "news_headlines": [
-        "Sector Update: Energy Stocks Decline Premarket Wednesday",
-        "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
-        "Sector Update: Energy Stocks Advance Premarket Tuesday"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "VLO",
-      "rank_score": 0.492,
-      "price": 368.19000244140625,
-      "rsi": 64.19211108924256,
-      "momentum_5d": 0.009334261949131097,
-      "momentum_1d": 0.049004281277497036,
-      "macd_crossover": false,
-      "atr_pct": 0.01153108291560075,
-      "bollinger_pct_b": 0.8788,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.14,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Subsea7 Secures New LLOG Contract Award in the Gulf of America",
-        "DK Stock Rallies 59.5% in 3 Months: Is There More Upside Ahead?",
-        "Why Marathon Petroleum (MPC) Is Up 7.9% After Refining Peers\u2019 Earnings Strength and Analyst Optimism"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LRCX",
-      "rank_score": 0.4852,
-      "price": 287.5899963378906,
-      "rsi": 26.212341277700745,
-      "momentum_5d": -0.007951129764690562,
-      "momentum_1d": -0.05485080356370053,
-      "macd_crossover": false,
-      "atr_pct": 0.013237952629801882,
-      "bollinger_pct_b": 0.255,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.08,
-      "news_sentiment": 0.621,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?",
-        "Lam Research Corporation (LRCX) is Exploring Growth Opportunities in the Semiconductor Equipment Market",
-        "4 Stocks to Buy Now to Ride the AI Data Center Spending Boom"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "WFC",
-      "rank_score": 0.4822,
-      "price": 89.32499694824219,
-      "rsi": 67.81114896097219,
-      "momentum_5d": -0.0003917151059790854,
-      "momentum_1d": 0.03649334685460107,
-      "macd_crossover": false,
-      "atr_pct": 0.00840830014704712,
-      "bollinger_pct_b": 0.8814,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.16,
-      "news_sentiment": 0.778,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "How credit card points can save you hundreds on holiday gifts",
-        "Large U.S. banks face rising G-SIB buffers and tighter excess capital: GS",
-        "Banks Just Hijacked Crypto\u2019s Original Promise: The Revolution Against Wall Street Is Now Owned by Wall Street"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PFE",
-      "rank_score": 0.4752,
-      "price": 28.93199920654297,
-      "rsi": 61.844249261968216,
-      "momentum_5d": 0.003537956403289584,
-      "momentum_1d": 0.03941081940549651,
-      "macd_crossover": false,
-      "atr_pct": 0.006888084391825648,
-      "bollinger_pct_b": 0.8564,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.06,
-      "news_sentiment": 0.651,
-      "news_confidence": 0.63,
-      "news_headlines": [
-        "Can AI Save Pfizer Stock Before Its Patent Cliff Hits?",
-        "3 AI Stocks To Watch With Up To 45% Earnings Growth",
-        "Should You Buy Pfizer Stock Below $30?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VRTX",
-      "rank_score": 0.4729,
-      "price": 554.4299926757812,
-      "rsi": 80.91331086803484,
-      "momentum_5d": 0.0020694932753051536,
-      "momentum_1d": 0.023471687492444052,
+      "rank_score": 0.6607,
+      "price": 556.9000244140625,
+      "rsi": 81.91899906568631,
+      "momentum_5d": 0.00869416598512029,
+      "momentum_1d": 0.02539087741790186,
       "macd_crossover": false,
-      "atr_pct": 0.006061659315023746,
-      "bollinger_pct_b": 0.8397,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.13,
+      "atr_pct": 0.0060934479937685675,
+      "bollinger_pct_b": 0.9164,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.99,
       "news_sentiment": 0.742,
       "news_confidence": 0.62,
       "news_headlines": [
@@ -994,107 +721,380 @@
       "high_impact_news": true
     },
     {
-      "asset": "GS",
-      "rank_score": 0.4676,
-      "price": 1000.77001953125,
-      "rsi": 27.044711707625197,
-      "momentum_5d": -0.015140415903142855,
-      "momentum_1d": -0.032511604881160235,
+      "asset": "PYPL",
+      "rank_score": 0.6263,
+      "price": 54.65999984741211,
+      "rsi": 83.7563497647279,
+      "momentum_5d": 0.009791220558631502,
+      "momentum_1d": 0.01291250772561172,
       "macd_crossover": false,
-      "atr_pct": 0.009382776648198976,
-      "bollinger_pct_b": 0.2006,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.08,
-      "news_sentiment": 0.28,
-      "news_confidence": 0.25,
+      "atr_pct": 0.007883927042912612,
+      "bollinger_pct_b": 0.9651,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.04,
+      "news_sentiment": 0.406,
+      "news_confidence": 0.46,
       "news_headlines": [
-        "Goldman Sachs warns investors to expect lower returns over the next year",
-        "Large U.S. banks face rising G-SIB buffers and tighter excess capital: GS",
-        "Elon Musk Says AI Could Add $20-$30 Trillion a Year to the Global Economy"
+        "Affirm Rallies 6% on $104 Price Target From BofA, Sezzle Climbs 4%, PayPal Rises 3%",
+        "AI Is Turbocharging Investment Scams and Draining Retirement Savings",
+        "Michael Burry takes money off the table after stock nearly doubles"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "AMAT",
-      "rank_score": 0.464,
-      "price": 437.6000061035156,
-      "rsi": 26.566079152099206,
-      "momentum_5d": -0.0037110507980822765,
-      "momentum_1d": -0.05465540748878566,
+      "asset": "BMY",
+      "rank_score": 0.6128,
+      "price": 67.66000366210938,
+      "rsi": 72.88465745586726,
+      "momentum_5d": 0.008420931978937209,
+      "momentum_1d": 0.021900084544432034,
       "macd_crossover": false,
-      "atr_pct": 0.011747563801757328,
-      "bollinger_pct_b": 0.2465,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.12,
-      "news_sentiment": 0.459,
+      "atr_pct": 0.005959205664121989,
+      "bollinger_pct_b": 1.0302,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.66,
+      "news_sentiment": 0.804,
       "news_confidence": 0.51,
       "news_headlines": [
-        "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?",
-        "Applied Materials\u2019 stock buybacks: History & investor impact explained",
-        "Entegris, Penguin Solutions, Teradyne, Applied Materials, and KLA Corporation Stocks Trade Down, What You Need To Know"
+        "Amgen Stock Signals Its Confidence. The Market Agrees.",
+        "Can CYTK's Aficamten Strengthen Its HCM Growth Prospects?",
+        "Can AI Save Pfizer Stock Before Its Patent Cliff Hits?"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "XOM",
-      "rank_score": 0.4634,
-      "price": 163.8699951171875,
-      "rsi": 76.80624462525634,
-      "momentum_5d": 0.004628572470943381,
-      "momentum_1d": 0.048902256919806826,
+      "asset": "WFC",
+      "rank_score": 0.6038,
+      "price": 89.2699966430664,
+      "rsi": 70.21276825996665,
+      "momentum_5d": -0.004349843889285799,
+      "momentum_1d": 0.03585514419759229,
       "macd_crossover": false,
-      "atr_pct": 0.005778064844581136,
-      "bollinger_pct_b": 0.7084,
+      "atr_pct": 0.008526696331638165,
+      "bollinger_pct_b": 0.8247,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.76,
+      "news_sentiment": 0.84,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Large U.S. banks face rising G-SIB buffers and tighter excess capital: GS",
+        "Banks Just Hijacked Crypto\u2019s Original Promise: The Revolution Against Wall Street Is Now Owned by Wall Street",
+        "Morgan Stanley Stock Is Up Nearly 20% in 2026: What Will It Take to Break Through $250?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.5978,
+      "price": 261.7099914550781,
+      "rsi": 69.40780961389169,
+      "momentum_5d": 0.012476570347516824,
+      "momentum_1d": 0.02298397209841898,
+      "macd_crossover": false,
+      "atr_pct": 0.007950884083923984,
+      "bollinger_pct_b": 0.9089,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.81,
+      "news_sentiment": 0.872,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Can AI Save Pfizer Stock Before Its Patent Cliff Hits?",
+        "How Did Merck Stock Beat The Market With Slowing Sales?",
+        "AbbVie (ABBV) Stock Looks Fully Priced Despite A 43% Fair Value Gap"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LYFT",
+      "rank_score": 0.5706,
+      "price": 17.350000381469727,
+      "rsi": 67.28633339194855,
+      "momentum_5d": 0.008427809265135873,
+      "momentum_1d": -0.02060399480520711,
+      "macd_crossover": false,
+      "atr_pct": 0.011547970979216119,
+      "bollinger_pct_b": 0.8688,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.1,
+      "news_sentiment": 0.524,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Uber lays off 10% of its workforce in biggest cut since 2020",
+        "2 Reasons Uber Is Slashing 3,300 Jobs",
+        "Stop Overpaying for Uber. How to Score Senior Discounts on Rideshare Apps"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.569,
+      "price": 222.72000122070312,
+      "rsi": 66.76365659645677,
+      "momentum_5d": 0.0005390616078047128,
+      "momentum_1d": 0.0261230043272252,
+      "macd_crossover": false,
+      "atr_pct": 0.010587404651898797,
+      "bollinger_pct_b": 0.8211,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.887,
+      "news_confidence": 0.71,
+      "news_headlines": [
+        "Why Is Vertex (VRTX) Up 14.4% Since Last Earnings Report?",
+        "Biogen\u2019s (BIIB) Immunology Bet Meets A Pricier Balance Sheet",
+        "Josh Brown Says \u2018Take a Break From AI CapEx World,\u2019 Highlights His 2 Top Healthcare Stock Picks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "VLO",
+      "rank_score": 0.5228,
+      "price": 366.20001220703125,
+      "rsi": 61.74303704880292,
+      "momentum_5d": 0.0039203422332690216,
+      "momentum_1d": 0.04023750024164571,
+      "macd_crossover": false,
+      "atr_pct": 0.012309295798753235,
+      "bollinger_pct_b": 0.7385,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.51,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Subsea7 Secures New LLOG Contract Award in the Gulf of America",
+        "DK Stock Rallies 59.5% in 3 Months: Is There More Upside Ahead?",
+        "Why Marathon Petroleum (MPC) Is Up 7.9% After Refining Peers\u2019 Earnings Strength and Analyst Optimism"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PFE",
+      "rank_score": 0.5217,
+      "price": 29.030000686645508,
+      "rsi": 70.76353560604691,
+      "momentum_5d": 0.005367989147896374,
+      "momentum_1d": 0.043306375226088496,
+      "macd_crossover": false,
+      "atr_pct": 0.006827915605142217,
+      "bollinger_pct_b": 0.9108,
       "volume_spike": false,
-      "volume_spike_ratio": 0.06,
-      "news_sentiment": 0.59,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.651,
+      "news_confidence": 0.63,
+      "news_headlines": [
+        "Is BioNTech Stock a No-Brainer Buy on the Dip?",
+        "Can AI Save Pfizer Stock Before Its Patent Cliff Hits?",
+        "3 AI Stocks To Watch With Up To 45% Earnings Growth"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "CVX",
+      "rank_score": 0.5212,
+      "price": 211.72999572753906,
+      "rsi": 84.83702947351514,
+      "momentum_5d": 0.00011806001874401005,
+      "momentum_1d": 0.048479712626394666,
+      "macd_crossover": false,
+      "atr_pct": 0.005989767959968603,
+      "bollinger_pct_b": 0.7298,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.579,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "The biggest questions behind the $100 billion Venezuelan oil bet by the US",
+        "Chevron's big bet: Why its $7B Venezuelan oil investment makes sense",
+        "US energy firms dominate Venezuela deals worth billions"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HAL",
+      "rank_score": 0.5183,
+      "price": 37.630001068115234,
+      "rsi": 66.57916481176972,
+      "momentum_5d": 0.0010641371472457917,
+      "momentum_1d": 0.03849870109744528,
+      "macd_crossover": false,
+      "atr_pct": 0.008519217574201623,
+      "bollinger_pct_b": 0.8816,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.38,
+      "news_sentiment": 0.744,
       "news_confidence": 0.39,
       "news_headlines": [
-        "Chevron's big bet: Why its $7B Venezuelan oil investment makes sense",
-        "Cramer Called the September Open Unholy and Then Named the One Stock He Would Still Buy",
-        "Exxon Slips 0.8% as $95 Oil Meets Venezuela's Hard Reality"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "TLT",
-      "rank_score": 0.4614,
-      "price": 81.875,
-      "rsi": 28.083616066542632,
-      "momentum_5d": -0.0005614875424549867,
-      "momentum_1d": -0.012128387813839547,
-      "macd_crossover": true,
-      "atr_pct": 0.0023875994666712106,
-      "bollinger_pct_b": 0.2833,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.06,
-      "news_sentiment": 0.152,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "\u2018The Maradona Theory of Interest Rates\u2019 Is Back: Is Kevin Warsh Playing Wall Street?",
-        "Inflation Isn\u2019t Causing the Bond Selloff. Blame This Instead.",
-        "There\u2019s Finally 1 Covered Call ETF I Like. Here\u2019s What Makes It Stand Out."
+        "Energy ETFs to Watch as US-Venezuela Sign Historic Oil Deal",
+        "Chevron, Exxon and Other Oil Stocks Jump as Two Huge Energy Stories Collide",
+        "New US, Iran Strikes Highlight Shrinking US Oil Reserves"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MRNA",
-      "rank_score": 0.4606,
-      "price": 150.5749969482422,
-      "rsi": 74.20470210213757,
-      "momentum_5d": 0.005710631315576256,
-      "momentum_1d": 0.10574623516631156,
+      "rank_score": 0.5149,
+      "price": 150.80999755859375,
+      "rsi": 71.01861525955402,
+      "momentum_5d": 0.01610294717109429,
+      "momentum_1d": 0.0944121496278151,
       "macd_crossover": false,
-      "atr_pct": 0.024845996648270707,
-      "bollinger_pct_b": 0.731,
+      "atr_pct": 0.02590027969894017,
+      "bollinger_pct_b": 0.7235,
       "volume_spike": false,
-      "volume_spike_ratio": 0.08,
+      "volume_spike_ratio": 0.87,
       "news_sentiment": 0.404,
       "news_confidence": 0.47,
       "news_headlines": [
         "Billionaire Portfolios: 2 Under-$20 Healthcare Stock Picks",
         "US Stock Market Today: S&P 500 Futures Slip As Rising Yields Pressure Equities",
         "Did Merck\u2019s (MRK) First Positive Phase 3 Individualized mRNA Cancer Trial Just Redefine Its Moat?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MPC",
+      "rank_score": 0.5121,
+      "price": 386.9700012207031,
+      "rsi": 70.9255764500754,
+      "momentum_5d": 0.002824702819783691,
+      "momentum_1d": 0.05797434342551113,
+      "macd_crossover": false,
+      "atr_pct": 0.012152514412449225,
+      "bollinger_pct_b": 0.7509,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.43,
+      "news_sentiment": 0.84,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Top Stock Reports for AMD, Costco & AstraZeneca",
+        "DK Stock Rallies 59.5% in 3 Months: Is There More Upside Ahead?",
+        "If You Invested $1000 in Marathon Petroleum a Decade Ago, This is How Much It'd Be Worth Now"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.5077,
+      "price": 928.469970703125,
+      "rsi": 35.89082740044482,
+      "momentum_5d": -0.006282569496781044,
+      "momentum_1d": -0.01817265076729687,
+      "macd_crossover": false,
+      "atr_pct": 0.006428380414611858,
+      "bollinger_pct_b": 0.1428,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.97,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Top Stock Reports for AMD, Costco & AstraZeneca",
+        "DoJ requests beef price data from major retailers including Amazon and Walmart",
+        "Costco has ended this online service without notice"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RXRX",
+      "rank_score": 0.5015,
+      "price": 3.375,
+      "rsi": 47.184682114680086,
+      "momentum_5d": 0.025368344561666204,
+      "momentum_1d": 0.005961246143908174,
+      "macd_crossover": false,
+      "atr_pct": 0.016590471620912903,
+      "bollinger_pct_b": 0.7779,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.26,
+      "news_sentiment": 0.636,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
+        "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
+        "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOUN",
+      "rank_score": 0.4958,
+      "price": 6.78000020980835,
+      "rsi": 32.62963175343472,
+      "momentum_5d": -0.014162287015703372,
+      "momentum_1d": -0.038979394078175744,
+      "macd_crossover": false,
+      "atr_pct": 0.01969973888594949,
+      "bollinger_pct_b": 0.2277,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 0.75,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Ondas, SoundHound AI Among 5 Stocks Facing Heavy Short Bets",
+        "SoundHound AI, Fastly, and Oracle Shares Plummet, What You Need To Know",
+        "SoundHound Healthcare Deals Surge: Is This Its Next Growth Engine?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PLTR",
+      "rank_score": 0.4944,
+      "price": 169.4600067138672,
+      "rsi": 13.514747505626502,
+      "momentum_5d": 0.0017143024653357957,
+      "momentum_1d": -0.08831200153938298,
+      "macd_crossover": false,
+      "atr_pct": 0.01723138646678394,
+      "bollinger_pct_b": 0.1763,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.79,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "AI has become a 'non-negotiable', Sam Altman says at G20 summit",
+        "Palantir Shares Sink Despite $192 Million Army Contract",
+        "Palantir Stock Gets New Problem From Google"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RBLX",
+      "rank_score": 0.4921,
+      "price": 41.220001220703125,
+      "rsi": 49.51197618167565,
+      "momentum_5d": 0.025883546730420908,
+      "momentum_1d": 0.06291909536389341,
+      "macd_crossover": false,
+      "atr_pct": 0.016800287713888248,
+      "bollinger_pct_b": 0.9211,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.92,
+      "news_sentiment": 0.562,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Roblox Falls 3% as Cathie Wood\u2019s ARK Keeps Selling, Take-Two Interactive Barely Budges",
+        "Cathie Wood's Ark Just Bought $7.6 Million of Nuclear Supplier BWX Technologies While Continuing to Dump Roblox Stock. Is Nuclear Power Ark's Next Big AI-Adjacent Bet?",
+        "What Is Cathie Wood Buying Now? Nvidia, SpaceX And Crypto Stocks Led ARK\u2019s August Trades \u2013 While Cutting These Growth Stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ON",
+      "rank_score": 0.4908,
+      "price": 72.33999633789062,
+      "rsi": 38.31307722314819,
+      "momentum_5d": -0.016451484210214033,
+      "momentum_1d": -0.0011046925307572485,
+      "macd_crossover": false,
+      "atr_pct": 0.013190876980549519,
+      "bollinger_pct_b": 0.26,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.56,
+      "news_sentiment": 0.729,
+      "news_confidence": 0.59,
+      "news_headlines": [
+        "Synaptics (SYNA) Agrees to $7 Billion Deal With Onsemi: What Investors Should Know",
+        "onsemi Says Auto Demand Has Bottomed as AI Data Centers Accelerate Growth",
+        "STM vs. ON: Which EV Semiconductor Stock Is More Compelling?"
       ],
       "high_impact_news": true
     }
