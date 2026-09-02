@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "101",
     "status": "open",
-    "price_peak": 160.1999969482422,
-    "trailing_stop_price": 158.918397
+    "price_peak": 160.28599548339844,
+    "trailing_stop_price": 159.003708
   },
   "HD": {
     "id": "HD_20260821194841",
@@ -300,8 +300,8 @@
     "mode": "paper",
     "strategy_version": "114",
     "status": "open",
-    "price_trough": 77221.828125,
-    "trailing_stop_price": 78477.45505
+    "price_trough": 77169.1328125,
+    "trailing_stop_price": 78423.902912
   },
   "USO": {
     "id": "USO_20260901163231",
@@ -520,36 +520,6 @@
     "strategy_version": "114",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260901215707",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 680.47998046875,
-    "entry_time": "2026-09-01T21:57:07.324374+00:00",
-    "stop_loss_pct": 0.00442,
-    "take_profit_pct": 0.01046,
-    "size_usd": 4924.25,
-    "position_size_pct": 0.0472,
-    "confidence": 0.737,
-    "signals": [
-      "RSI oversold (18.9)",
-      "5d momentum -0.46%",
-      "1d momentum -1.74%",
-      "Volume spike 2.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.224,
-    "news_headlines": [
-      "XRP ETF Demand Holds Firm as Fed Pressure Breaks XRP Price Support",
-      "Crypto\u2019s Next Meme Coin War? Traders Want Tokens That Can Move Real Stocks",
-      "Nano Labs H1 Earnings Call Highlights"
-    ],
-    "mode": "paper",
-    "strategy_version": "114",
-    "status": "open"
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260901215707",
     "asset": "DOGE-USD",
@@ -579,6 +549,37 @@
     ],
     "mode": "paper",
     "strategy_version": "114",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260902012809",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 683.760009765625,
+    "entry_time": "2026-09-02T01:28:09.038859+00:00",
+    "stop_loss_pct": 0.00464,
+    "take_profit_pct": 0.0113,
+    "size_usd": 4914.76,
+    "position_size_pct": 0.0471,
+    "confidence": 0.87,
+    "signals": [
+      "RSI oversold (38.3)",
+      "MACD crossover",
+      "5d momentum +0.47%",
+      "1d momentum -1.07%",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: product catalyst; price surge"
+    ],
+    "news_sentiment": 0.224,
+    "news_headlines": [
+      "XRP ETF Demand Holds Firm as Fed Pressure Breaks XRP Price Support",
+      "Crypto\u2019s Next Meme Coin War? Traders Want Tokens That Can Move Real Stocks",
+      "Nano Labs H1 Earnings Call Highlights"
+    ],
+    "mode": "paper",
+    "strategy_version": "115",
     "status": "open"
   }
 }
