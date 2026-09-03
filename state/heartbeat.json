@@ -3,15 +3,15 @@
   "portfolio_balance": 104646.2,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.01,
-  "unrealized_pnl_usd": -436.5,
-  "equity_value": 104209.7,
+  "unrealized_pnl_usd": -240.91,
+  "equity_value": 104405.29,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41858.48,
   "swing_capital_used_usd": 48789.63,
   "total_trades": 1330,
-  "last_tick": "2026-09-03T20:54:09.866732+00:00",
+  "last_tick": "2026-09-03T22:53:47.302141+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 6,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8394,
-      "unrealized_pnl_pct": 0.000651,
-      "unrealized_pnl_usd": 0.87
+      "current_price": 7.8395,
+      "unrealized_pnl_pct": 0.000664,
+      "unrealized_pnl_usd": 0.89
     },
     {
       "id": "HD_20260821194841",
@@ -173,9 +173,9 @@
       "status": "open",
       "price_peak": 1.8843899965286255,
       "trailing_stop_price": 1.869315,
-      "current_price": 1.87812,
-      "unrealized_pnl_pct": -0.002602,
-      "unrealized_pnl_usd": -14.56
+      "current_price": 1.87804,
+      "unrealized_pnl_pct": -0.002645,
+      "unrealized_pnl_usd": -14.8
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -201,9 +201,9 @@
       "status": "open",
       "price_peak": 1.6198300123214722,
       "trailing_stop_price": 1.606871,
-      "current_price": 1.61439,
-      "unrealized_pnl_pct": -0.001324,
-      "unrealized_pnl_usd": -3.08
+      "current_price": 1.61435,
+      "unrealized_pnl_pct": -0.001349,
+      "unrealized_pnl_usd": -3.14
     },
     {
       "id": "HAL_20260902183949",
@@ -471,11 +471,11 @@
       "mode": "paper",
       "strategy_version": "118",
       "status": "open",
-      "price_trough": 0.08877000212669373,
-      "trailing_stop_price": 0.089953,
-      "current_price": 0.08877,
-      "unrealized_pnl_pct": 0.006714,
-      "unrealized_pnl_usd": 42.61
+      "price_trough": 0.08747000247240067,
+      "trailing_stop_price": 0.088636,
+      "current_price": 0.08748,
+      "unrealized_pnl_pct": 0.021148,
+      "unrealized_pnl_usd": 134.21
     },
     {
       "id": "XRP-USD_20260903180022",
@@ -507,9 +507,11 @@
       "mode": "paper",
       "strategy_version": "118",
       "status": "open",
-      "current_price": 1.4744,
-      "unrealized_pnl_pct": -0.008689,
-      "unrealized_pnl_usd": -50.5
+      "price_trough": 1.4541000127792358,
+      "trailing_stop_price": 1.472044,
+      "current_price": 1.4539,
+      "unrealized_pnl_pct": 0.005336,
+      "unrealized_pnl_usd": 31.01
     },
     {
       "id": "ETH-USD_20260903180022",
@@ -541,9 +543,9 @@
       "mode": "paper",
       "strategy_version": "118",
       "status": "open",
-      "current_price": 2506.659912,
-      "unrealized_pnl_pct": -0.002504,
-      "unrealized_pnl_usd": -14.55
+      "current_price": 2500.719971,
+      "unrealized_pnl_pct": -0.000128,
+      "unrealized_pnl_usd": -0.74
     },
     {
       "id": "BTC-USD_20260903180022",
@@ -575,9 +577,9 @@
       "mode": "paper",
       "strategy_version": "118",
       "status": "open",
-      "current_price": 81487.65625,
-      "unrealized_pnl_pct": -0.005578,
-      "unrealized_pnl_usd": -26.0
+      "current_price": 81163.601562,
+      "unrealized_pnl_pct": -0.001579,
+      "unrealized_pnl_usd": -7.36
     },
     {
       "id": "XLK_20260903180022",
@@ -638,9 +640,9 @@
       "mode": "paper",
       "strategy_version": "118",
       "status": "open",
-      "current_price": 112.967003,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 113.117996,
+      "unrealized_pnl_pct": -0.001337,
+      "unrealized_pnl_usd": -5.66
     },
     {
       "id": "USD/JPY_20260903205409",
@@ -670,36 +672,15 @@
       "mode": "paper",
       "strategy_version": "118",
       "status": "open",
-      "current_price": 155.789001,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 156.037994,
+      "unrealized_pnl_pct": -0.001598,
+      "unrealized_pnl_usd": -4.04
     }
   ],
   "last_candidates": [
     {
-      "asset": "BTC-USD",
-      "rank_score": 0.6658,
-      "price": 81487.65625,
-      "rsi": 81.70610373899162,
-      "momentum_5d": 0.001591054068278872,
-      "momentum_1d": 0.05310994166429903,
-      "macd_crossover": false,
-      "atr_pct": 0.007770862260854035,
-      "bollinger_pct_b": 0.8738,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.13,
-      "news_sentiment": 0.514,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
-        "New bull signal could send bitcoin higher",
-        "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HOOD",
-      "rank_score": 0.6585,
+      "rank_score": 0.6619,
       "price": 124.70999908447266,
       "rsi": 92.27697392501328,
       "momentum_5d": 0.017542440997936778,
@@ -709,18 +690,18 @@
       "bollinger_pct_b": 0.8747,
       "volume_spike": false,
       "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.826,
-      "news_confidence": 0.64,
+      "news_sentiment": 0.923,
+      "news_confidence": 0.61,
       "news_headlines": [
-        "Stock Market Today: Nasdaq Posts Back-To-Back Gains; Tesla, SpaceX Rise As Cybercab Event Nears (Live Coverage)",
-        "Robinhood Stock Soars Thanks to Wall Street Upgrades, Platform Expansion",
-        "Nvidia, Tesla, Robinhood, Snowflake, Ultragenyx, Ciena, and More Stocks That Explain Today\u2019s Market"
+        "Dow Jones Futures: Stocks Jump On Fed's Waller; Tesla Cybercab Event Private, Jobs Report Looms",
+        "RIA referrals, tech and service: How TradePMR by Robinhood pitches advisors",
+        "Crypto Stocks Jump After Bitcoin Rises 5%"
       ],
       "high_impact_news": true
     },
     {
       "asset": "PYPL",
-      "rank_score": 0.6408,
+      "rank_score": 0.6328,
       "price": 56.81999969482422,
       "rsi": 89.6303420435103,
       "momentum_5d": 0.023046430648131753,
@@ -730,39 +711,39 @@
       "bollinger_pct_b": 0.9261,
       "volume_spike": false,
       "volume_spike_ratio": 1.47,
-      "news_sentiment": 0.294,
-      "news_confidence": 0.51,
+      "news_sentiment": 0.156,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "PayPal cuts jobs in India and Ireland as it aims to simplify global operations",
-        "1 Stock Under $50 with Promising Prospects and 2 We Turn Down",
-        "PayPal Cuts Around 600 Jobs in India, Moneycontrol Reports"
+        "What Are You Actually Buying In PayPal Stock?",
+        "A $50 Billion Bid Just Put PayPal Back in the Takeover Spotlight",
+        "PayPal cuts jobs in India and Ireland as it aims to simplify global operations"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ETH-USD",
-      "rank_score": 0.6386,
-      "price": 2506.659912109375,
-      "rsi": 73.87056383126173,
-      "momentum_5d": -0.004100178960284397,
-      "momentum_1d": 0.047553686305222345,
+      "rank_score": 0.6074,
+      "price": 2500.719970703125,
+      "rsi": 73.31460674157303,
+      "momentum_5d": 9.197416092373301e-05,
+      "momentum_1d": 0.05128366449156023,
       "macd_crossover": false,
-      "atr_pct": 0.009026532596555384,
-      "bollinger_pct_b": 0.8384,
+      "atr_pct": 0.00930246887744089,
+      "bollinger_pct_b": 0.7472,
       "volume_spike": true,
-      "volume_spike_ratio": 6.18,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.28,
+      "volume_spike_ratio": 2.63,
+      "news_sentiment": 0.562,
+      "news_confidence": 0.32,
       "news_headlines": [
         "UK trading platform Hargreaves Lansdown ends its crypto holdout",
         "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam",
-        "Why Bitmine Immersion Technologies Soared 46.5% In August"
+        "Crypto Market Today, Sept. 3: Bitcoin Reclaims $81,000 on Fed Rate Pause Signals"
       ],
       "high_impact_news": true
     },
     {
       "asset": "LRCX",
-      "rank_score": 0.6094,
+      "rank_score": 0.6034,
       "price": 292.7300109863281,
       "rsi": 54.363893889205514,
       "momentum_5d": 0.014099336343858754,
@@ -772,60 +753,18 @@
       "bollinger_pct_b": 0.9325,
       "volume_spike": true,
       "volume_spike_ratio": 1.91,
-      "news_sentiment": 0.887,
-      "news_confidence": 0.67,
+      "news_sentiment": 0.848,
+      "news_confidence": 0.63,
       "news_headlines": [
+        "Lam Research (LRCX) Rises Higher Than Market: Key Facts",
         "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
-        "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run",
-        "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.5771,
-      "price": 1.4744000434875488,
-      "rsi": 86.53839312888091,
-      "momentum_5d": 0.006416389006674174,
-      "momentum_1d": 0.0917438408165373,
-      "macd_crossover": false,
-      "atr_pct": 0.0132983937054614,
-      "bollinger_pct_b": 0.8978,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.91,
-      "news_sentiment": 0.385,
-      "news_confidence": 0.26,
-      "news_headlines": [
-        "Bitcoin ETFs Rebound as Ethereum and XRP ETFs End Winning Streaks",
-        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
-        "XRP Price Prediction: XRP Jumps +4% And Could It Target $2?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOUN",
-      "rank_score": 0.5768,
-      "price": 6.739999771118164,
-      "rsi": 41.70185274580915,
-      "momentum_5d": 0.003722951297423105,
-      "momentum_1d": -0.054035119843064694,
-      "macd_crossover": true,
-      "atr_pct": 0.016225107492520895,
-      "bollinger_pct_b": 0.2185,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.7,
-      "news_sentiment": 0.554,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "3 IT Services Stocks to Buy Right Now From a Prospering Industry",
-        "LivePerson Shareholders Approved SoundHound\u2019s Deal. Does Closing Solve the Hard Part?",
-        "Wall Street vs. Short Sellers: 2 \u2018Strong Buy\u2019 Stocks That Could Squeeze"
+        "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run"
       ],
       "high_impact_news": true
     },
     {
       "asset": "XLF",
-      "rank_score": 0.5644,
+      "rank_score": 0.5694,
       "price": 58.54199981689453,
       "rsi": 79.18487364053667,
       "momentum_5d": 0.0020025773446611835,
@@ -835,12 +774,75 @@
       "bollinger_pct_b": 0.8771,
       "volume_spike": true,
       "volume_spike_ratio": 2.12,
-      "news_sentiment": 0.442,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.522,
+      "news_confidence": 0.46,
       "news_headlines": [
         "Sector Update: Financial Stocks Gain Late Afternoon",
         "Sector Update: Financial Stocks Higher Thursday Afternoon",
         "Exchange-Traded Funds Rise as US Equities Advance After Midday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOUN",
+      "rank_score": 0.5688,
+      "price": 6.739999771118164,
+      "rsi": 41.70185274580915,
+      "momentum_5d": 0.003722951297423105,
+      "momentum_1d": -0.054035119843064694,
+      "macd_crossover": true,
+      "atr_pct": 0.016225107492520895,
+      "bollinger_pct_b": 0.2185,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.7,
+      "news_sentiment": 0.437,
+      "news_confidence": 0.59,
+      "news_headlines": [
+        "With Nearly 40% Short Interest, Is SoundHound Stock a Buy or Sell?",
+        "3 IT Services Stocks to Buy Right Now From a Prospering Industry",
+        "LivePerson Shareholders Approved SoundHound\u2019s Deal. Does Closing Solve the Hard Part?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COIN",
+      "rank_score": 0.5673,
+      "price": 192.75,
+      "rsi": 78.19134707306173,
+      "momentum_5d": 0.0033366812138628465,
+      "momentum_1d": 0.035956156773029324,
+      "macd_crossover": false,
+      "atr_pct": 0.017407267275222345,
+      "bollinger_pct_b": 0.8556,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.88,
+      "news_sentiment": 0.927,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Coinbase files for SEC approval to offer equity perpetuals",
+        "Crypto Stocks Jump After Bitcoin Rises 5%",
+        "Coinbase, Circle, MicroStrategy stocks surge on crypto rebound"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.5643,
+      "price": 81163.6015625,
+      "rsi": 77.91289857028646,
+      "momentum_5d": 0.0013708323088075928,
+      "momentum_1d": 0.05402344715816356,
+      "macd_crossover": false,
+      "atr_pct": 0.008384135179349436,
+      "bollinger_pct_b": 0.7576,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.53,
+      "news_sentiment": 0.524,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
+        "New bull signal could send bitcoin higher",
+        "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam"
       ],
       "high_impact_news": true
     },
@@ -866,21 +868,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "CAD/JPY",
-      "rank_score": 0.561,
-      "price": 112.96700286865234,
-      "rsi": 28.51532872939204,
-      "momentum_5d": 0.0019068749945021968,
-      "momentum_1d": -0.014507497379496264,
-      "macd_crossover": true,
-      "atr_pct": 0.002923109410353693,
-      "bollinger_pct_b": 0.3439,
+      "asset": "SOFI",
+      "rank_score": 0.5597,
+      "price": 18.5049991607666,
+      "rsi": 86.82469873193267,
+      "momentum_5d": 0.014806610440241362,
+      "momentum_1d": 0.0378575008384097,
+      "macd_crossover": false,
+      "atr_pct": 0.015188192746485415,
+      "bollinger_pct_b": 0.8259,
       "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
+      "volume_spike_ratio": 0.77,
+      "news_sentiment": 0.574,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+        "SoFi Pushes SoFiUSD Onto Kraken in Payward Partnership",
+        "What Are You Actually Buying In PayPal Stock?",
+        "SoFi Links Banking Network and Stablecoin to Kraken in New Deal"
       ],
       "high_impact_news": true
     },
@@ -906,92 +910,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOFI",
-      "rank_score": 0.5494,
-      "price": 18.5049991607666,
-      "rsi": 86.82469873193267,
-      "momentum_5d": 0.014806610440241362,
-      "momentum_1d": 0.0378575008384097,
-      "macd_crossover": false,
-      "atr_pct": 0.015188192746485415,
-      "bollinger_pct_b": 0.8259,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.39,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "SoFi Links Banking Network and Stablecoin to Kraken in New Deal",
-        "Price Prediction: SoFi\u2019s Price Target For 2027 May Surprise Investors",
-        "SoFi Just Posted Another Quarter of Fast Growth. What Has to Happen Next for the Stock to Follow?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COIN",
-      "rank_score": 0.5473,
-      "price": 192.75,
-      "rsi": 78.19134707306173,
-      "momentum_5d": 0.0033366812138628465,
-      "momentum_1d": 0.035956156773029324,
-      "macd_crossover": false,
-      "atr_pct": 0.017407267275222345,
-      "bollinger_pct_b": 0.8556,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.88,
-      "news_sentiment": 0.689,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Coinbase taps Musk ally to board of directors",
-        "Why Robinhood and Coinbase Are the Top S&P 500 Stocks Today",
-        "Bitcoin Retakes $80,000 as Bond Yields Retreat"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5448,
-      "price": 0.08877000212669373,
-      "rsi": 83.14351879745186,
-      "momentum_5d": -0.004597420936164866,
-      "momentum_1d": 0.08693523787941901,
-      "macd_crossover": false,
-      "atr_pct": 0.01359855324521763,
-      "bollinger_pct_b": 0.8103,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.69,
-      "news_sentiment": 0.395,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Japan\u2019s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
-        "Top firm dumps XRP but keeps Bitcoin",
-        "Japan's Remixpoint Dumps XRP, ETH, SOL and DOGE to Go All-In on Bitcoin"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "USD/JPY",
-      "rank_score": 0.5422,
-      "price": 155.78900146484375,
-      "rsi": 20.82983515238743,
-      "momentum_5d": 0.0025806431339770145,
-      "momentum_1d": -0.018311892153216523,
-      "macd_crossover": true,
-      "atr_pct": 0.0027954477185450446,
-      "bollinger_pct_b": 0.3394,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.125,
-      "news_confidence": 0.8,
-      "news_headlines": [
-        "Treasury Yields Rise Amid Data, Geopolitical Lull",
-        "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
-        "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ORCL",
-      "rank_score": 0.5422,
+      "rank_score": 0.5261,
       "price": 154.0500030517578,
       "rsi": 83.63256102109887,
       "momentum_5d": 0.008464418884550254,
@@ -1001,75 +921,33 @@
       "bollinger_pct_b": 0.8226,
       "volume_spike": false,
       "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.758,
-      "news_confidence": 0.66,
+      "news_sentiment": 0.63,
+      "news_confidence": 0.54,
       "news_headlines": [
         "AI demand is 'exceptional,' but the supply chain is not: HPE CEO",
-        "Down 55% From Its High, Is Oracle a Buy?",
-        "Oracle Stock Could Be Software\u2019s Next Big Winner"
+        "BlackLine, Upland Software, Zeta Global, Oracle, and Okta Shares Are Soaring and Falling, What You Need To Know",
+        "Why Is Oracle Stock Up Today?"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5407,
-      "price": 724.510009765625,
-      "rsi": 82.60245464640002,
-      "momentum_5d": -0.0031919530972425057,
-      "momentum_1d": 0.05397075700164927,
-      "macd_crossover": false,
-      "atr_pct": 0.007614004972091139,
-      "bollinger_pct_b": 0.8174,
+      "asset": "COST",
+      "rank_score": 0.5253,
+      "price": 925.3499755859375,
+      "rsi": 35.82738216934425,
+      "momentum_5d": -0.0018337869903633517,
+      "momentum_1d": -0.019756381794557732,
+      "macd_crossover": true,
+      "atr_pct": 0.006682268293723102,
+      "bollinger_pct_b": 0.2636,
       "volume_spike": false,
-      "volume_spike_ratio": 0.5,
-      "news_sentiment": 0.308,
-      "news_confidence": 0.52,
-      "news_headlines": [
-        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
-        "Binance Founder CZ Says His X Follower Count Has Been a 'Consistent Early Indicator\u2019 of Crypto Cycles",
-        "XRP ETF Demand Holds Firm as Fed Pressure Breaks XRP Price Support"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5395,
-      "price": 7.521999835968018,
-      "rsi": 83.01882669874712,
-      "momentum_5d": 0.001464476013364645,
-      "momentum_1d": 0.047194729791063275,
-      "macd_crossover": false,
-      "atr_pct": 0.008403913230777027,
-      "bollinger_pct_b": 0.8528,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.42,
-      "news_sentiment": 0.235,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Ethena Launches Neobank App on Avalanche",
-        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi",
-        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.5247,
-      "price": 105.02999877929688,
-      "rsi": 75.51770281572345,
-      "momentum_5d": -0.001331172312312321,
-      "momentum_1d": 0.05388315191512647,
-      "macd_crossover": false,
-      "atr_pct": 0.010561612729143861,
-      "bollinger_pct_b": 0.8351,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.57,
-      "news_sentiment": 0.6,
+      "volume_spike_ratio": 1.3,
+      "news_sentiment": 0.371,
       "news_confidence": 0.35,
       "news_headlines": [
-        "What Is Pons? The Robinhood Chain Meme Coin Factory Token Up 18,000% Since July",
-        "Can Canada's Derivatives Launch Boost Coinbase's Global Growth?",
-        "XRP Price Prediction: XRP Jumps +4% And Could It Target $2?"
+        "Costco Stock Is Priced For Two Good Years, Is That A Safe Bet?",
+        "Walmart Jumps Nearly 2.8% as Justice Department Widens Beef-Pricing Review",
+        "The Gap Between HD Stock And Its Own Numbers"
       ],
       "high_impact_news": true
     },
@@ -1091,6 +969,132 @@
         "SHOP Stock Heads For Weekly Loss As Cathie Wood\u2019s ARK Trims Stake After 25% August Rally: Valuation Nears 100x Earnings",
         "Nvidia Blew Wall Street Away with Its Q2 Results. Cathie Wood Is Celebrating by Buying More Than 243,000 Shares.",
         "Cathie Wood\u2019s Ark Invest Buys $37 Million in Bitcoin and Payments Firm Block"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "C",
+      "rank_score": 0.5133,
+      "price": 138.16000366210938,
+      "rsi": 77.44622463894699,
+      "momentum_5d": 0.0023215854085943824,
+      "momentum_1d": 0.04948915020097973,
+      "macd_crossover": false,
+      "atr_pct": 0.008649855009005987,
+      "bollinger_pct_b": 0.8648,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.21,
+      "news_sentiment": 0.767,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Can Citigroup Sustain Its Aggressive Capital Return Strategy?",
+        "Will Citi\u2019s Blockchain Push and New Notes Issuance Change Citigroup\u2019s (C) Narrative",
+        "Citi goes short USD/CAD. Here\u2019s why"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5113,
+      "price": 0.08748000115156174,
+      "rsi": 72.39960314689473,
+      "momentum_5d": -0.021147994695806718,
+      "momentum_1d": 0.07960021192273169,
+      "macd_crossover": false,
+      "atr_pct": 0.014346145311943417,
+      "bollinger_pct_b": 0.658,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.98,
+      "news_sentiment": 0.395,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Japan\u2019s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
+        "Top firm dumps XRP but keeps Bitcoin",
+        "Japan's Remixpoint Dumps XRP, ETH, SOL and DOGE to Go All-In on Bitcoin"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "RBLX",
+      "rank_score": 0.5092,
+      "price": 41.47999954223633,
+      "rsi": 58.35895373304026,
+      "momentum_5d": -0.010378178785387313,
+      "momentum_1d": 0.03415604365588559,
+      "macd_crossover": false,
+      "atr_pct": 0.017704249838973028,
+      "bollinger_pct_b": 0.6877,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.71,
+      "news_sentiment": 0.562,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Netflix\u2019s Acquisition Wishlist: Which Streaming Target Has the Best Odds?",
+        "Roblox Falls 3% as Cathie Wood\u2019s ARK Keeps Selling, Take-Two Interactive Barely Budges",
+        "Cathie Wood's Ark Just Bought $7.6 Million of Nuclear Supplier BWX Technologies While Continuing to Dump Roblox Stock. Is Nuclear Power Ark's Next Big AI-Adjacent Bet?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "WMT",
+      "rank_score": 0.5079,
+      "price": 108.44999694824219,
+      "rsi": 72.08099205060124,
+      "momentum_5d": -0.003033662757472781,
+      "momentum_1d": 0.038693546062951965,
+      "macd_crossover": false,
+      "atr_pct": 0.006339251682753133,
+      "bollinger_pct_b": 0.7931,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.28,
+      "news_sentiment": 0.349,
+      "news_confidence": 0.63,
+      "news_headlines": [
+        "There's no end in sight for Campbell's quarterly sales declines: AlphaSpace",
+        "Whole Foods CEO bets on smaller stores and the latest Amazon tech to win over shoppers",
+        "Costco Stock Is Priced For Two Good Years, Is That A Safe Bet?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.5033,
+      "price": 723.4199829101562,
+      "rsi": 77.26502492850567,
+      "momentum_5d": 0.002244382300616161,
+      "momentum_1d": 0.05462492898362386,
+      "macd_crossover": false,
+      "atr_pct": 0.007790367204948736,
+      "bollinger_pct_b": 0.7424,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.69,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "BNB Price Forecast: $740 Break Could Open Path to $825",
+        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
+        "Binance Founder CZ Says His X Follower Count Has Been a 'Consistent Early Indicator\u2019 of Crypto Cycles"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MCD",
+      "rank_score": 0.5028,
+      "price": 259.6199951171875,
+      "rsi": 43.16199240507633,
+      "momentum_5d": 0.004643532339219125,
+      "momentum_1d": -0.021239691480745157,
+      "macd_crossover": true,
+      "atr_pct": 0.005782947999378545,
+      "bollinger_pct_b": 0.351,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.11,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Dutch Bros Stock Is Down Sharply, But History Has A Warning For Dip Buyers",
+        "McDonald\u2019s Is Near a 52-Week Low. Is This the Contrarian Buy of 2026?",
+        "McDonald's (MCD) Down 4.8% Since Last Earnings Report: Can It Rebound?"
       ],
       "high_impact_news": true
     }
