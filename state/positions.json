@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 318.510009765625,
-    "trailing_stop_price": 327.128891
+    "price_trough": 318.51,
+    "trailing_stop_price": 327.128881
   },
   "COST": {
     "id": "COST_20260824175145",
@@ -209,38 +209,6 @@
     "price_peak": 114.85099792480469,
     "trailing_stop_price": 114.621296
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260902112144",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 97.79000091552734,
-    "entry_time": "2026-09-02T11:21:44.948192+00:00",
-    "stop_loss_pct": 0.0086,
-    "take_profit_pct": 0.02122,
-    "size_usd": 6214.66,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (33.4)",
-      "5d momentum -2.26%",
-      "1d momentum -4.37%",
-      "BB oversold (pct_b=-0.11)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "Robinhood Chain is exploding with nearly $1 billion daily DEX volume",
-      "AI Adoption in Crypto Crime Soared by 40% Over the Past Year. Here Are 4 Practical Solutions to Keep Your Crypto Safe.",
-      "Why Is The Crypto Market Down Today?"
-    ],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open",
-    "price_peak": 99.58999633789062,
-    "trailing_stop_price": 98.733522
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260902112144",
     "asset": "ETH-USD",
@@ -302,8 +270,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 7.173999786376953,
-    "trailing_stop_price": 7.11424
+    "price_peak": 7.191999912261963,
+    "trailing_stop_price": 7.132091
   },
   "PLTR": {
     "id": "PLTR_20260902150931",
@@ -397,8 +365,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_trough": 224.41000366210938,
-    "trailing_stop_price": 231.097422
+    "price_trough": 224.41,
+    "trailing_stop_price": 231.097418
   },
   "GBP/AUD": {
     "id": "GBP/AUD_20260902150931",
@@ -444,7 +412,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "115",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.6173499822616577,
+    "trailing_stop_price": 1.604411
   },
   "REGN": {
     "id": "REGN_20260902183949",
@@ -476,8 +446,8 @@
     "mode": "paper",
     "strategy_version": "116",
     "status": "open",
-    "price_trough": 852.030029296875,
-    "trailing_stop_price": 857.619346
+    "price_trough": 852.03,
+    "trailing_stop_price": 857.619317
   },
   "IONQ": {
     "id": "IONQ_20260902183949",
@@ -538,8 +508,8 @@
     "mode": "paper",
     "strategy_version": "116",
     "status": "open",
-    "price_trough": 37.630001068115234,
-    "trailing_stop_price": 37.931417
+    "price_trough": 37.63,
+    "trailing_stop_price": 37.931416
   },
   "RXRX": {
     "id": "RXRX_20260902183949",
@@ -593,6 +563,36 @@
     "news_headlines": [
       "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
       "Further Strength for the Australian Dollar After Higher Inflation"
+    ],
+    "mode": "paper",
+    "strategy_version": "116",
+    "status": "open",
+    "price_peak": 113.68199920654297,
+    "trailing_stop_price": 113.454635
+  },
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260903011337",
+    "asset": "EUR/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 183.85499572753906,
+    "entry_time": "2026-09-03T01:13:37.079938+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00477,
+    "size_usd": 5153.71,
+    "position_size_pct": 0.0493,
+    "confidence": 0.77,
+    "signals": [
+      "RSI oversold (22.2)",
+      "MACD crossover",
+      "1d momentum -0.99%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+    ],
+    "news_sentiment": -0.778,
+    "news_headlines": [
+      "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
     ],
     "mode": "paper",
     "strategy_version": "116",
