@@ -23,37 +23,6 @@
     "price_peak": 7.847400188446045,
     "trailing_stop_price": 7.784621
   },
-  "EUR/GBP": {
-    "id": "EUR/GBP_20260723042718",
-    "asset": "EUR/GBP",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 0.8539299964904785,
-    "entry_time": "2026-07-23T04:27:18.685540+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02676,
-    "size_usd": 6960.08,
-    "position_size_pct": 0.0662,
-    "confidence": 0.69,
-    "signals": [
-      "RSI overbought (64.5)",
-      "MACD crossover",
-      "BB overbought (pct_b=1.02)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish"
-    ],
-    "news_sentiment": -0.467,
-    "news_headlines": [
-      "British Pound Rises as Burnham to Become U.K. Prime Minister",
-      "Pound Mostly Steady After Weaker GDP",
-      "ECB holds interest rates at 2% after eurozone inflation drops in January"
-    ],
-    "mode": "paper",
-    "strategy_version": "64",
-    "status": "open",
-    "price_trough": 0.8531200289726257,
-    "trailing_stop_price": 0.859945
-  },
   "HD": {
     "id": "HD_20260821194841",
     "asset": "HD",
@@ -82,39 +51,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 318.51,
-    "trailing_stop_price": 327.128881
-  },
-  "COST": {
-    "id": "COST_20260824175145",
-    "asset": "COST",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 968.5750122070312,
-    "entry_time": "2026-08-24T17:51:45.805329+00:00",
-    "stop_loss_pct": 0.0148,
-    "take_profit_pct": 0.04917,
-    "size_usd": 6443.68,
-    "position_size_pct": 0.0618,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (89.1)",
-      "5d momentum +2.22%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.64,
-    "news_headlines": [
-      "Will Costco's AI Search Growth Become a Meaningful Sales Catalyst?",
-      "Michael Burry Says LULU Stock Is \u2018Screaming Cheap\u2019 While Apple Shares Are \u2018Permacostly\u2019 Like Costco",
-      "The Ultimate Growth Stock to Buy With $10,000 Right Now"
-    ],
-    "mode": "paper",
-    "strategy_version": "107",
-    "status": "open",
-    "price_trough": 928.47998046875,
-    "trailing_stop_price": 942.221484
+    "price_trough": 315.8299865722656,
+    "trailing_stop_price": 324.376346
   },
   "AUD/USD": {
     "id": "AUD/USD_20260831055036",
@@ -147,99 +85,6 @@
     "price_trough": 0.7138268351554871,
     "trailing_stop_price": 0.719537
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260831182052",
-    "asset": "BTC-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 79032.953125,
-    "entry_time": "2026-08-31T18:20:52.896663+00:00",
-    "stop_loss_pct": 0.01626,
-    "take_profit_pct": 0.05337,
-    "size_usd": 5661.48,
-    "position_size_pct": 0.0541,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (73.0)",
-      "5d momentum +1.54%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.217,
-    "news_headlines": [
-      "Bitcoin treasury companies shed over $80 billion in value",
-      "How Russia is going to operate a regulated, state-controlled crypto market",
-      "Bitcoin and ethereum prices today, Monday, August 31, 2026: Higher rate expectations pressure crypto prices lower"
-    ],
-    "mode": "paper",
-    "strategy_version": "114",
-    "status": "open",
-    "price_trough": 76487.453125,
-    "trailing_stop_price": 77731.139113
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260902112144",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2370.949951171875,
-    "entry_time": "2026-09-02T11:21:44.951907+00:00",
-    "stop_loss_pct": 0.0067,
-    "take_profit_pct": 0.01582,
-    "size_usd": 4817.36,
-    "position_size_pct": 0.0463,
-    "confidence": 0.724,
-    "signals": [
-      "RSI oversold (28.5)",
-      "5d momentum -2.01%",
-      "1d momentum -3.55%",
-      "BB oversold (pct_b=-0.05)",
-      "High-impact catalyst",
-      "Claude [strongly_contradicts]: price surge; analyst downgrade; fed hawkish"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Robinhood Chain is exploding with nearly $1 billion daily DEX volume",
-      "Bitcoin and ethereum prices today, Tuesday, September 1, 2026: Crypto prices falling as inflation concerns persist",
-      "Elon Musk Grok AI Predicts Ethereum Price by January 1, 2027"
-    ],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open",
-    "price_peak": 2395.320068359375,
-    "trailing_stop_price": 2379.271424
-  },
-  "PLTR": {
-    "id": "PLTR_20260902150931",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 171.6699981689453,
-    "entry_time": "2026-09-02T15:09:31.917037+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5821.76,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (15.5)",
-      "5d momentum -5.92%",
-      "1d momentum -7.98%",
-      "BB oversold (pct_b=-0.21)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.355,
-    "news_headlines": [
-      "Update: US Equity Futures Mostly Flat Pre-Bell as Global Bond Yields Continue Rising",
-      "Palantir CEO Alex Karp Is Doubling Down on Defense Tech",
-      "Michael Burry AI Short Bets Get Crushed as Palantir, Nvidia, Micron Soar"
-    ],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open"
-  },
   "WFC": {
     "id": "WFC_20260902150931",
     "asset": "WFC",
@@ -269,8 +114,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_trough": 89.2699966430664,
-    "trailing_stop_price": 89.999333
+    "price_trough": 89.01000213623047,
+    "trailing_stop_price": 89.737214
   },
   "NVDA": {
     "id": "NVDA_20260902150931",
@@ -355,69 +200,6 @@
     "price_peak": 1.6198300123214722,
     "trailing_stop_price": 1.606871
   },
-  "REGN": {
-    "id": "REGN_20260902183949",
-    "asset": "REGN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 852.47998046875,
-    "entry_time": "2026-09-02T18:39:49.481850+00:00",
-    "stop_loss_pct": 0.00656,
-    "take_profit_pct": 0.01504,
-    "size_usd": 3904.94,
-    "position_size_pct": 0.0374,
-    "confidence": 0.585,
-    "signals": [
-      "RSI overbought (95.5)",
-      "5d momentum +1.98%",
-      "1d momentum +7.85%",
-      "BB overbought (pct_b=0.93)",
-      "News +0.80 (conf 0.65) \u2192 long",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; product catalyst"
-    ],
-    "news_sentiment": 0.795,
-    "news_headlines": [
-      "Regeneron Pharmaceuticals Stock: Is REGN Outperforming the Healthcare Sector?",
-      "Regeneron Pharmaceuticals (REGN) As Pasatru Approval Tests An Undervalued View",
-      "Regeneron Pharmaceuticals (REGN) Wins FDA Approval For Pasatru In Adult FOP"
-    ],
-    "mode": "paper",
-    "strategy_version": "116",
-    "status": "open",
-    "price_trough": 852.03,
-    "trailing_stop_price": 857.619317
-  },
-  "IONQ": {
-    "id": "IONQ_20260902183949",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 37.470001220703125,
-    "entry_time": "2026-09-02T18:39:49.483357+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03698,
-    "size_usd": 6214.52,
-    "position_size_pct": 0.0596,
-    "confidence": 0.931,
-    "signals": [
-      "RSI oversold (32.1)",
-      "MACD crossover",
-      "5d momentum -1.72%",
-      "1d momentum -3.74%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.371,
-    "news_headlines": [
-      "IonQ\u2019s Investor Day Is Approaching. What to Expect From the \u2018Nvidia of Quantum.\u2019",
-      "Pasqal Stock Slump Highlights Growing Macro Risks Facing Quantum Computing Industry",
-      "Rigetti Expands Quantum Footprint as 1,000-Qubit Roadmap Advances"
-    ],
-    "mode": "paper",
-    "strategy_version": "116",
-    "status": "open"
-  },
   "HAL": {
     "id": "HAL_20260902183949",
     "asset": "HAL",
@@ -477,94 +259,310 @@
     ],
     "mode": "paper",
     "strategy_version": "116",
-    "status": "open"
+    "status": "open",
+    "price_trough": 3.3299999237060547,
+    "trailing_stop_price": 3.487376
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20260903100844",
-    "asset": "EUR/JPY",
+  "BTC-USD": {
+    "id": "BTC-USD_20260903143205",
+    "asset": "BTC-USD",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 181.33399963378906,
-    "entry_time": "2026-09-03T10:08:44.504297+00:00",
-    "stop_loss_pct": 0.00245,
-    "take_profit_pct": 0.00597,
-    "size_usd": 5843.13,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
+    "direction": "short",
+    "entry_price": 79686.0390625,
+    "entry_time": "2026-09-03T14:32:05.738063+00:00",
+    "stop_loss_pct": 0.00627,
+    "take_profit_pct": 0.01527,
+    "size_usd": 5844.91,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI oversold (7.7)",
-      "5d momentum -0.67%",
-      "1d momentum -2.00%",
-      "BB oversold (pct_b=-0.01)",
+      "RSI overbought (86.0)",
+      "5d momentum +2.72%",
+      "1d momentum +3.45%",
+      "BB overbought (pct_b=1.27)",
+      "Volume spike 2.7\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": -0.778,
+    "news_sentiment": 0.667,
     "news_headlines": [
-      "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
-      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+      "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam",
+      "The SEC is gearing up for blockchain & 24-hour trading. Here's what you should know.",
+      "3 ways historically high bond yields are impacting ETF investors"
     ],
     "mode": "paper",
-    "strategy_version": "116",
+    "strategy_version": "117",
     "status": "open"
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260903100844",
-    "asset": "CAD/JPY",
+  "AVGO": {
+    "id": "AVGO_20260903143205",
+    "asset": "AVGO",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 113.19599914550781,
-    "entry_time": "2026-09-03T10:08:44.505634+00:00",
-    "stop_loss_pct": 0.00276,
-    "take_profit_pct": 0.00682,
-    "size_usd": 6351.23,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
+    "entry_price": 343.2601013183594,
+    "entry_time": "2026-09-03T14:32:05.739288+00:00",
+    "stop_loss_pct": 0.01271,
+    "take_profit_pct": 0.03171,
+    "size_usd": 6651.11,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
     "signals": [
-      "RSI oversold (10.9)",
-      "5d momentum -0.50%",
-      "1d momentum -1.38%",
-      "BB oversold (pct_b=0.01)",
-      "News +1.00 (conf 0.70) \u2192 long",
+      "RSI oversold (11.1)",
+      "5d momentum -7.02%",
+      "1d momentum -6.92%",
+      "BB oversold (pct_b=-0.25)",
+      "News +0.80 (conf 0.60) \u2192 long",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+      "Claude [strongly_supports]: earnings beat; analyst upgrade; price surge"
     ],
-    "news_sentiment": 1.0,
+    "news_sentiment": 0.8,
     "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+      "Tech stocks today: Nvidia to acquire Hugging Face for $13 billion in strategic move",
+      "Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy",
+      "Broadcom's price sinks over 6% after releasing Q3 earnings"
     ],
     "mode": "paper",
-    "strategy_version": "116",
+    "strategy_version": "117",
     "status": "open"
   },
-  "USD/JPY": {
-    "id": "USD/JPY_20260903100844",
-    "asset": "USD/JPY",
+  "HOOD": {
+    "id": "HOOD_20260903143205",
+    "asset": "HOOD",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 156.29100036621094,
-    "entry_time": "2026-09-03T10:08:44.507251+00:00",
-    "stop_loss_pct": 0.00266,
-    "take_profit_pct": 0.00639,
-    "size_usd": 5056.57,
-    "position_size_pct": 0.0484,
+    "direction": "short",
+    "entry_price": 122.91999816894531,
+    "entry_time": "2026-09-03T14:32:05.851643+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5334.32,
+    "position_size_pct": 0.0508,
     "confidence": 0.794,
     "signals": [
-      "RSI oversold (8.3)",
-      "5d momentum -0.69%",
-      "1d momentum -2.25%",
-      "BB oversold (pct_b=0.01)",
+      "RSI overbought (81.5)",
+      "5d momentum +16.50%",
+      "1d momentum +17.21%",
+      "BB overbought (pct_b=1.24)",
       "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
+      "Claude [contradicts]: analyst upgrade; price surge"
     ],
-    "news_sentiment": 0.125,
+    "news_sentiment": 0.92,
     "news_headlines": [
-      "Treasury Yields Rise Amid Data, Geopolitical Lull",
-      "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
-      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
+      "Robinhood Stock Jumps After Wave of Analysts Upgrade",
+      "Robinhood Rallies 11% on Price Target Hikes, Webull Climbs 7%, Interactive Brokers Gains 4%",
+      "Robinhood Earns Transaction Revenue Directly on Crypto. That Cuts Both Ways."
     ],
     "mode": "paper",
-    "strategy_version": "116",
+    "strategy_version": "117",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260903143205",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 102.76000213623047,
+    "entry_time": "2026-09-03T14:32:05.853011+00:00",
+    "stop_loss_pct": 0.00928,
+    "take_profit_pct": 0.02259,
+    "size_usd": 5844.91,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (73.7)",
+      "5d momentum +2.63%",
+      "1d momentum +3.91%",
+      "BB overbought (pct_b=1.19)",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.576,
+    "news_headlines": [
+      "Wall Street firms are all in on a stablecoin launch",
+      "Hyperliquid's HYPE Joins Hashdex Crypto ETF as Fifth-Largest Holding",
+      "Solana Foundation president sees a 'token supercycle' reshaping finance"
+    ],
+    "mode": "paper",
+    "strategy_version": "117",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260903143205",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2452.4599609375,
+    "entry_time": "2026-09-03T14:32:05.854323+00:00",
+    "stop_loss_pct": 0.00736,
+    "take_profit_pct": 0.01792,
+    "size_usd": 5844.91,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (79.1)",
+      "5d momentum +2.51%",
+      "1d momentum +2.46%",
+      "BB overbought (pct_b=1.25)",
+      "Volume spike 4.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.278,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam",
+      "The SEC is gearing up for blockchain & 24-hour trading. Here's what you should know.",
+      "A \u2018Too Big to Fail' Bank Is Now Delivering Actual Bitcoin and Ethereum to Institutions"
+    ],
+    "mode": "paper",
+    "strategy_version": "117",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260903143205",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.4076999425888062,
+    "entry_time": "2026-09-03T14:32:05.858329+00:00",
+    "stop_loss_pct": 0.00978,
+    "take_profit_pct": 0.02344,
+    "size_usd": 5334.32,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (84.1)",
+      "5d momentum +3.42%",
+      "1d momentum +5.71%",
+      "BB overbought (pct_b=1.16)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.657,
+    "news_headlines": [
+      "Better Buy: XRP vs. Bitcoin",
+      "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage",
+      "Hyperliquid's HYPE Joins Hashdex Crypto ETF as Fifth-Largest Holding"
+    ],
+    "mode": "paper",
+    "strategy_version": "117",
+    "status": "open"
+  },
+  "TSLA": {
+    "id": "TSLA_20260903143205",
+    "asset": "TSLA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 379.2699890136719,
+    "entry_time": "2026-09-03T14:32:05.859333+00:00",
+    "stop_loss_pct": 0.01279,
+    "take_profit_pct": 0.03116,
+    "size_usd": 3359.95,
+    "position_size_pct": 0.032,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (75.8)",
+      "5d momentum +7.23%",
+      "1d momentum +9.08%",
+      "BB overbought (pct_b=1.11)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.217,
+    "news_headlines": [
+      "Tesla's Cybercab event is tonight. Here's what the industry \u2014 and Wall Street \u2014 expects",
+      "Tesla's Cybercab to take center stage at Austin event",
+      "Tesla\u2019s Impossible Comeback"
+    ],
+    "mode": "paper",
+    "strategy_version": "117",
+    "status": "open"
+  },
+  "ORCL": {
+    "id": "ORCL_20260903143205",
+    "asset": "ORCL",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 152.17999267578125,
+    "entry_time": "2026-09-03T14:32:05.864877+00:00",
+    "stop_loss_pct": 0.03141,
+    "take_profit_pct": 0.10141,
+    "size_usd": 4605.39,
+    "position_size_pct": 0.0439,
+    "confidence": 0.457,
+    "signals": [
+      "RSI overbought (78.5)",
+      "5d momentum +5.06%",
+      "BB overbought (pct_b=0.95)",
+      "News +0.91 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.907,
+    "news_headlines": [
+      "Texas Instruments Incorporated (TXN) Benefits from AI without Being Pure Play AI",
+      "Andvari Associates Strategic Investment in Martin Marietta Materials (MLM)",
+      "Snowflake Soars 23% as AI-Fueled Guidance Raise Tops Estimates, Oracle Advances 3%, Cloudflare Edges Higher"
+    ],
+    "mode": "paper",
+    "strategy_version": "117",
+    "status": "open"
+  },
+  "GLD": {
+    "id": "GLD_20260903143205",
+    "asset": "GLD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 410.54010009765625,
+    "entry_time": "2026-09-03T14:32:05.909611+00:00",
+    "stop_loss_pct": 0.01373,
+    "take_profit_pct": 0.04562,
+    "size_usd": 6489.87,
+    "position_size_pct": 0.0618,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (74.3)",
+      "5d momentum +2.42%",
+      "BB overbought (pct_b=0.98)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.548,
+    "news_headlines": [
+      "His One-Ounce Gold Trade Was Still Open. The IRS Treated It as Sold Anyway.",
+      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
+      "Gold Miners or Gold Itself: Which Trade Actually Paid Investors More"
+    ],
+    "mode": "paper",
+    "strategy_version": "117",
+    "status": "open"
+  },
+  "SOFI": {
+    "id": "SOFI_20260903143205",
+    "asset": "SOFI",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 18.229999542236328,
+    "entry_time": "2026-09-03T14:32:05.910721+00:00",
+    "stop_loss_pct": 0.0381,
+    "take_profit_pct": 0.12655,
+    "size_usd": 6489.87,
+    "position_size_pct": 0.0618,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (77.9)",
+      "5d momentum +2.60%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.378,
+    "news_headlines": [
+      "Price Prediction: SoFi\u2019s Price Target For 2027 May Surprise Investors",
+      "SoFi Just Posted Another Quarter of Fast Growth. What Has to Happen Next for the Stock to Follow?",
+      "Financial Coach? How A Money Mentor Can Help You Live Large"
+    ],
+    "mode": "paper",
+    "strategy_version": "117",
     "status": "open"
   }
 }
