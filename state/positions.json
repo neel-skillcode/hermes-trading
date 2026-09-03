@@ -198,8 +198,8 @@
     "mode": "paper",
     "strategy_version": "116",
     "status": "open",
-    "price_trough": 37.33000183105469,
-    "trailing_stop_price": 37.629015
+    "price_trough": 37.290000915527344,
+    "trailing_stop_price": 37.588694
   },
   "RXRX": {
     "id": "RXRX_20260902183949",
@@ -231,39 +231,6 @@
     "status": "open",
     "price_trough": 3.3299999237060547,
     "trailing_stop_price": 3.487376
-  },
-  "AVGO": {
-    "id": "AVGO_20260903143205",
-    "asset": "AVGO",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 343.2601013183594,
-    "entry_time": "2026-09-03T14:32:05.739288+00:00",
-    "stop_loss_pct": 0.01271,
-    "take_profit_pct": 0.03171,
-    "size_usd": 6651.11,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (11.1)",
-      "5d momentum -7.02%",
-      "1d momentum -6.92%",
-      "BB oversold (pct_b=-0.25)",
-      "News +0.80 (conf 0.60) \u2192 long",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: earnings beat; analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.8,
-    "news_headlines": [
-      "Tech stocks today: Nvidia to acquire Hugging Face for $13 billion in strategic move",
-      "Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy",
-      "Broadcom's price sinks over 6% after releasing Q3 earnings"
-    ],
-    "mode": "paper",
-    "strategy_version": "117",
-    "status": "open",
-    "price_peak": 352.7699890136719,
-    "trailing_stop_price": 348.286282
   },
   "HOOD": {
     "id": "HOOD_20260903143205",
@@ -323,7 +290,9 @@
     ],
     "mode": "paper",
     "strategy_version": "117",
-    "status": "open"
+    "status": "open",
+    "price_trough": 376.364990234375,
+    "trailing_stop_price": 381.178698
   },
   "ORCL": {
     "id": "ORCL_20260903143205",
@@ -382,7 +351,9 @@
     ],
     "mode": "paper",
     "strategy_version": "117",
-    "status": "open"
+    "status": "open",
+    "price_trough": 410.2200012207031,
+    "trailing_stop_price": 415.852322
   },
   "SOFI": {
     "id": "SOFI_20260903143205",
@@ -442,7 +413,9 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.08877000212669373,
+    "trailing_stop_price": 0.089953
   },
   "XRP-USD": {
     "id": "XRP-USD_20260903180022",
@@ -561,6 +534,63 @@
       "Exchange-Traded Funds Rise as US Equities Advance After Midday",
       "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
       "3 No-Brainer Tech Stocks to Buy With $5,000 Right Now"
+    ],
+    "mode": "paper",
+    "strategy_version": "118",
+    "status": "open"
+  },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260903205409",
+    "asset": "CAD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 112.96700286865234,
+    "entry_time": "2026-09-03T20:54:09.862787+00:00",
+    "stop_loss_pct": 0.00252,
+    "take_profit_pct": 0.00584,
+    "size_usd": 4232.73,
+    "position_size_pct": 0.0404,
+    "confidence": 0.632,
+    "signals": [
+      "RSI oversold (28.5)",
+      "MACD crossover",
+      "1d momentum -1.45%",
+      "News +1.00 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+    ],
+    "mode": "paper",
+    "strategy_version": "118",
+    "status": "open"
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20260903205409",
+    "asset": "USD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 155.78900146484375,
+    "entry_time": "2026-09-03T20:54:09.864671+00:00",
+    "stop_loss_pct": 0.00268,
+    "take_profit_pct": 0.00647,
+    "size_usd": 2526.11,
+    "position_size_pct": 0.0241,
+    "confidence": 0.83,
+    "signals": [
+      "RSI oversold (20.8)",
+      "MACD crossover",
+      "1d momentum -1.83%",
+      "High-impact catalyst",
+      "Claude [supports]: macro risk"
+    ],
+    "news_sentiment": 0.125,
+    "news_headlines": [
+      "Treasury Yields Rise Amid Data, Geopolitical Lull",
+      "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
+      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
     ],
     "mode": "paper",
     "strategy_version": "118",
