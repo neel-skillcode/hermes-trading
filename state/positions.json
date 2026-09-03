@@ -54,37 +54,6 @@
     "price_trough": 315.8299865722656,
     "trailing_stop_price": 324.376346
   },
-  "AUD/USD": {
-    "id": "AUD/USD_20260831055036",
-    "asset": "AUD/USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 0.7167431116104126,
-    "entry_time": "2026-08-31T05:50:36.161015+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02732,
-    "size_usd": 8332.52,
-    "position_size_pct": 0.0797,
-    "confidence": 0.83,
-    "signals": [
-      "RSI oversold (29.5)",
-      "MACD crossover",
-      "1d momentum -0.46%",
-      "High-impact catalyst",
-      "Claude [supports]: fed hawkish"
-    ],
-    "news_sentiment": 0.048,
-    "news_headlines": [
-      "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
-      "USD/CAD Turns Bullish as GBP/USD, AUD/USD Lose Momentum",
-      "Australia inflation runs hot in July, markets reprice rate hike risk"
-    ],
-    "mode": "paper",
-    "strategy_version": "114",
-    "status": "open",
-    "price_trough": 0.7138268351554871,
-    "trailing_stop_price": 0.719537
-  },
   "WFC": {
     "id": "WFC_20260902150931",
     "asset": "WFC",
@@ -229,8 +198,8 @@
     "mode": "paper",
     "strategy_version": "116",
     "status": "open",
-    "price_trough": 37.63,
-    "trailing_stop_price": 37.931416
+    "price_trough": 37.33000183105469,
+    "trailing_stop_price": 37.629015
   },
   "RXRX": {
     "id": "RXRX_20260902183949",
@@ -263,37 +232,6 @@
     "price_trough": 3.3299999237060547,
     "trailing_stop_price": 3.487376
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260903143205",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 79686.0390625,
-    "entry_time": "2026-09-03T14:32:05.738063+00:00",
-    "stop_loss_pct": 0.00627,
-    "take_profit_pct": 0.01527,
-    "size_usd": 5844.91,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (86.0)",
-      "5d momentum +2.72%",
-      "1d momentum +3.45%",
-      "BB overbought (pct_b=1.27)",
-      "Volume spike 2.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.667,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam",
-      "The SEC is gearing up for blockchain & 24-hour trading. Here's what you should know.",
-      "3 ways historically high bond yields are impacting ETF investors"
-    ],
-    "mode": "paper",
-    "strategy_version": "117",
-    "status": "open"
-  },
   "AVGO": {
     "id": "AVGO_20260903143205",
     "asset": "AVGO",
@@ -323,7 +261,9 @@
     ],
     "mode": "paper",
     "strategy_version": "117",
-    "status": "open"
+    "status": "open",
+    "price_peak": 352.7699890136719,
+    "trailing_stop_price": 348.286282
   },
   "HOOD": {
     "id": "HOOD_20260903143205",
@@ -350,98 +290,6 @@
       "Robinhood Stock Jumps After Wave of Analysts Upgrade",
       "Robinhood Rallies 11% on Price Target Hikes, Webull Climbs 7%, Interactive Brokers Gains 4%",
       "Robinhood Earns Transaction Revenue Directly on Crypto. That Cuts Both Ways."
-    ],
-    "mode": "paper",
-    "strategy_version": "117",
-    "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260903143205",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 102.76000213623047,
-    "entry_time": "2026-09-03T14:32:05.853011+00:00",
-    "stop_loss_pct": 0.00928,
-    "take_profit_pct": 0.02259,
-    "size_usd": 5844.91,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (73.7)",
-      "5d momentum +2.63%",
-      "1d momentum +3.91%",
-      "BB overbought (pct_b=1.19)",
-      "Volume spike 2.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.576,
-    "news_headlines": [
-      "Wall Street firms are all in on a stablecoin launch",
-      "Hyperliquid's HYPE Joins Hashdex Crypto ETF as Fifth-Largest Holding",
-      "Solana Foundation president sees a 'token supercycle' reshaping finance"
-    ],
-    "mode": "paper",
-    "strategy_version": "117",
-    "status": "open"
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260903143205",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2452.4599609375,
-    "entry_time": "2026-09-03T14:32:05.854323+00:00",
-    "stop_loss_pct": 0.00736,
-    "take_profit_pct": 0.01792,
-    "size_usd": 5844.91,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (79.1)",
-      "5d momentum +2.51%",
-      "1d momentum +2.46%",
-      "BB overbought (pct_b=1.25)",
-      "Volume spike 4.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.278,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, September 3, 2026: Crypto prices lift this morning despite oil costs gaining steam",
-      "The SEC is gearing up for blockchain & 24-hour trading. Here's what you should know.",
-      "A \u2018Too Big to Fail' Bank Is Now Delivering Actual Bitcoin and Ethereum to Institutions"
-    ],
-    "mode": "paper",
-    "strategy_version": "117",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260903143205",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.4076999425888062,
-    "entry_time": "2026-09-03T14:32:05.858329+00:00",
-    "stop_loss_pct": 0.00978,
-    "take_profit_pct": 0.02344,
-    "size_usd": 5334.32,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (84.1)",
-      "5d momentum +3.42%",
-      "1d momentum +5.71%",
-      "BB overbought (pct_b=1.16)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.657,
-    "news_headlines": [
-      "Better Buy: XRP vs. Bitcoin",
-      "XRP Millionaires \u2018Overnight\u2019? Popular YouTuber Makes Bold CLARITY Act Claim as SEC Chair Anticipates Passage",
-      "Hyperliquid's HYPE Joins Hashdex Crypto ETF as Fifth-Largest Holding"
     ],
     "mode": "paper",
     "strategy_version": "117",
@@ -563,6 +411,159 @@
     ],
     "mode": "paper",
     "strategy_version": "117",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260903180022",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.089369997382164,
+    "entry_time": "2026-09-03T18:00:22.293268+00:00",
+    "stop_loss_pct": 0.01333,
+    "take_profit_pct": 0.033,
+    "size_usd": 6346.11,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (91.0)",
+      "5d momentum +6.88%",
+      "1d momentum +9.79%",
+      "BB overbought (pct_b=1.02)",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.395,
+    "news_headlines": [
+      "Japan\u2019s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
+      "Top firm dumps XRP but keeps Bitcoin",
+      "Japan's Remixpoint Dumps XRP, ETH, SOL and DOGE to Go All-In on Bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "118",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260903180022",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.4616999626159668,
+    "entry_time": "2026-09-03T18:00:22.295320+00:00",
+    "stop_loss_pct": 0.01234,
+    "take_profit_pct": 0.03006,
+    "size_usd": 5811.7,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (83.1)",
+      "5d momentum +5.44%",
+      "1d momentum +9.28%",
+      "BB overbought (pct_b=1.00)",
+      "Volume spike 1.5\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; price surge"
+    ],
+    "news_sentiment": 0.385,
+    "news_headlines": [
+      "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt",
+      "XRP Price Prediction: XRP Jumps +4% And Could It Target $2?",
+      "BIS Tests XRP Ledger for Verifiable Official Data \u2014 Could IMF and World Bank Follow?"
+    ],
+    "mode": "paper",
+    "strategy_version": "118",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260903180022",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2500.39990234375,
+    "entry_time": "2026-09-03T18:00:22.297111+00:00",
+    "stop_loss_pct": 0.00884,
+    "take_profit_pct": 0.02151,
+    "size_usd": 5811.7,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (75.7)",
+      "5d momentum +3.22%",
+      "1d momentum +4.51%",
+      "BB overbought (pct_b=0.98)",
+      "Volume spike 3.7\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; price surge"
+    ],
+    "news_sentiment": 0.152,
+    "news_headlines": [
+      "UK trading platform Hargreaves Lansdown ends its crypto holdout",
+      "Standard Chartered Launches Spot Bitcoin, Ether Trading for UAE Institutions",
+      "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12%"
+    ],
+    "mode": "paper",
+    "strategy_version": "118",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260903180022",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 81035.6171875,
+    "entry_time": "2026-09-03T18:00:22.298853+00:00",
+    "stop_loss_pct": 0.00738,
+    "take_profit_pct": 0.01796,
+    "size_usd": 4660.98,
+    "position_size_pct": 0.0447,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (84.0)",
+      "5d momentum +3.07%",
+      "1d momentum +4.76%",
+      "BB overbought (pct_b=0.98)",
+      "Volume spike 1.8\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; price surge"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Bitcoin tops $80,000: 'Crypto winter is close to being over'",
+      "New bull signal could send bitcoin higher",
+      "Sector Update: Financial Stocks Higher Thursday Afternoon"
+    ],
+    "mode": "paper",
+    "strategy_version": "118",
+    "status": "open"
+  },
+  "XLK": {
+    "id": "XLK_20260903180022",
+    "asset": "XLK",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 185.97000122070312,
+    "entry_time": "2026-09-03T18:00:22.327254+00:00",
+    "stop_loss_pct": 0.01259,
+    "take_profit_pct": 0.04183,
+    "size_usd": 6453.0,
+    "position_size_pct": 0.0618,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (80.2)",
+      "5d momentum +1.28%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 3 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": -0.067,
+    "news_headlines": [
+      "Exchange-Traded Funds Rise as US Equities Advance After Midday",
+      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
+      "3 No-Brainer Tech Stocks to Buy With $5,000 Right Now"
+    ],
+    "mode": "paper",
+    "strategy_version": "118",
     "status": "open"
   }
 }
