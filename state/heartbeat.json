@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104580.16,
+  "portfolio_balance": 104568.0,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.07,
-  "unrealized_pnl_usd": 352.41,
-  "equity_value": 104932.57,
-  "open_positions": 20,
-  "day_trades_open": 10,
+  "portfolio_drawdown_pct": 3.09,
+  "unrealized_pnl_usd": 357.69,
+  "equity_value": 104925.69,
+  "open_positions": 19,
+  "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40140.49,
+  "day_capital_used_usd": 41827.2,
   "swing_capital_used_usd": 52149.26,
-  "total_trades": 1307,
-  "last_tick": "2026-09-03T01:13:37.082172+00:00",
+  "total_trades": 1311,
+  "last_tick": "2026-09-03T05:49:41.313564+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.84139,
-      "unrealized_pnl_pct": 0.000905,
-      "unrealized_pnl_usd": 1.22
+      "current_price": 7.84192,
+      "unrealized_pnl_pct": 0.000973,
+      "unrealized_pnl_usd": 1.31
     },
     {
       "id": "EUR/GBP_20260723042718",
@@ -74,9 +74,9 @@
       "status": "open",
       "price_trough": 0.8531200289726257,
       "trailing_stop_price": 0.859945,
-      "current_price": 0.85918,
-      "unrealized_pnl_pct": -0.006148,
-      "unrealized_pnl_usd": -42.79
+      "current_price": 0.85961,
+      "unrealized_pnl_pct": -0.006652,
+      "unrealized_pnl_usd": -46.3
     },
     {
       "id": "HD_20260821194841",
@@ -176,9 +176,9 @@
       "status": "open",
       "price_trough": 0.7138268351554871,
       "trailing_stop_price": 0.719537,
-      "current_price": 0.716794,
-      "unrealized_pnl_pct": -7.2e-05,
-      "unrealized_pnl_usd": -0.6
+      "current_price": 0.716281,
+      "unrealized_pnl_pct": 0.000645,
+      "unrealized_pnl_usd": 5.37
     },
     {
       "id": "BTC-USD_20260831182052",
@@ -210,43 +210,9 @@
       "status": "open",
       "price_trough": 76487.453125,
       "trailing_stop_price": 77731.139113,
-      "current_price": 77375.726562,
-      "unrealized_pnl_pct": 0.020969,
-      "unrealized_pnl_usd": 118.71
-    },
-    {
-      "id": "CAD/JPY_20260902061401",
-      "asset": "CAD/JPY",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 114.68000030517578,
-      "entry_time": "2026-09-02T06:14:01.580083+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00495,
-      "size_usd": 4901.88,
-      "position_size_pct": 0.047,
-      "confidence": 0.95,
-      "signals": [
-        "RSI oversold (27.0)",
-        "5d momentum -0.59%",
-        "1d momentum -0.57%",
-        "BB oversold (pct_b=-0.26)",
-        "News +1.00 (conf 0.70) \u2192 long",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-      ],
-      "news_sentiment": 1.0,
-      "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-      ],
-      "mode": "paper",
-      "strategy_version": "115",
-      "status": "open",
-      "price_peak": 114.85099792480469,
-      "trailing_stop_price": 114.621296,
-      "current_price": 114.657997,
-      "unrealized_pnl_pct": -0.000192,
-      "unrealized_pnl_usd": -0.94
+      "current_price": 77445.1875,
+      "unrealized_pnl_pct": 0.02009,
+      "unrealized_pnl_usd": 113.74
     },
     {
       "id": "ETH-USD_20260902112144",
@@ -277,46 +243,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "price_peak": 2391.2900390625,
-      "trailing_stop_price": 2375.268396,
-      "current_price": 2387.959961,
-      "unrealized_pnl_pct": 0.007174,
-      "unrealized_pnl_usd": 34.56
-    },
-    {
-      "id": "AVAX-USD_20260902112144",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 7.083000183105469,
-      "entry_time": "2026-09-02T11:21:44.953230+00:00",
-      "stop_loss_pct": 0.00833,
-      "take_profit_pct": 0.02029,
-      "size_usd": 786.28,
-      "position_size_pct": 0.0076,
-      "confidence": 0.874,
-      "signals": [
-        "RSI oversold (34.9)",
-        "5d momentum -1.91%",
-        "1d momentum -2.72%",
-        "BB oversold (pct_b=-0.02)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-      ],
-      "news_sentiment": 0.235,
-      "news_headlines": [
-        "Ethena Launches Neobank App on Avalanche",
-        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi",
-        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
-      ],
-      "mode": "paper",
-      "strategy_version": "115",
-      "status": "open",
-      "price_peak": 7.191999912261963,
-      "trailing_stop_price": 7.132091,
-      "current_price": 7.193,
-      "unrealized_pnl_pct": 0.01553,
-      "unrealized_pnl_usd": 12.21
+      "price_peak": 2395.320068359375,
+      "trailing_stop_price": 2379.271424,
+      "current_price": 2395.320068,
+      "unrealized_pnl_pct": 0.010279,
+      "unrealized_pnl_usd": 49.52
     },
     {
       "id": "PLTR_20260902150931",
@@ -444,9 +375,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "current_price": 1.88229,
-      "unrealized_pnl_pct": -0.000388,
-      "unrealized_pnl_usd": -2.17
+      "price_peak": 1.8843899965286255,
+      "trailing_stop_price": 1.869315,
+      "current_price": 1.88438,
+      "unrealized_pnl_pct": 0.000722,
+      "unrealized_pnl_usd": 4.04
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -470,11 +403,11 @@
       "mode": "paper",
       "strategy_version": "115",
       "status": "open",
-      "price_peak": 1.6173499822616577,
-      "trailing_stop_price": 1.604411,
-      "current_price": 1.61736,
-      "unrealized_pnl_pct": 0.000513,
-      "unrealized_pnl_usd": 1.19
+      "price_peak": 1.6198300123214722,
+      "trailing_stop_price": 1.606871,
+      "current_price": 1.61983,
+      "unrealized_pnl_pct": 0.002041,
+      "unrealized_pnl_usd": 4.75
     },
     {
       "id": "REGN_20260902183949",
@@ -613,21 +546,54 @@
       "unrealized_pnl_usd": -59.29
     },
     {
-      "id": "AUD/JPY_20260902211717",
+      "id": "CAD/JPY_20260903054941",
+      "asset": "CAD/JPY",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 113.91999816894531,
+      "entry_time": "2026-09-03T05:49:41.308749+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00495,
+      "size_usd": 6357.73,
+      "position_size_pct": 0.0608,
+      "confidence": 0.95,
+      "signals": [
+        "RSI oversold (24.4)",
+        "5d momentum -0.68%",
+        "1d momentum -0.82%",
+        "BB oversold (pct_b=-0.09)",
+        "News +1.00 (conf 0.70) \u2192 long",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+      ],
+      "news_sentiment": 1.0,
+      "news_headlines": [
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+      ],
+      "mode": "paper",
+      "strategy_version": "116",
+      "status": "open",
+      "current_price": 113.919998,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AUD/JPY_20260903054941",
       "asset": "AUD/JPY",
       "trade_type": "day",
       "direction": "long",
-      "entry_price": 113.54299926757812,
-      "entry_time": "2026-09-02T21:17:17.319678+00:00",
+      "entry_price": 112.81900024414062,
+      "entry_time": "2026-09-03T05:49:41.309653+00:00",
       "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00471,
-      "size_usd": 4765.16,
-      "position_size_pct": 0.0456,
-      "confidence": 0.713,
+      "take_profit_pct": 0.00487,
+      "size_usd": 5849.12,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
       "signals": [
-        "RSI oversold (29.7)",
-        "1d momentum -0.76%",
-        "BB oversold (pct_b=0.01)",
+        "RSI oversold (12.1)",
+        "5d momentum -0.80%",
+        "1d momentum -1.16%",
+        "BB oversold (pct_b=-0.12)",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
       ],
@@ -639,28 +605,27 @@
       "mode": "paper",
       "strategy_version": "116",
       "status": "open",
-      "price_peak": 113.68199920654297,
-      "trailing_stop_price": 113.454635,
-      "current_price": 113.68,
-      "unrealized_pnl_pct": 0.001207,
-      "unrealized_pnl_usd": 5.75
+      "current_price": 112.819,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "EUR/JPY_20260903011337",
+      "id": "EUR/JPY_20260903054941",
       "asset": "EUR/JPY",
       "trade_type": "day",
-      "direction": "short",
-      "entry_price": 183.85499572753906,
-      "entry_time": "2026-09-03T01:13:37.079938+00:00",
+      "direction": "long",
+      "entry_price": 182.75599670410156,
+      "entry_time": "2026-09-03T05:49:41.310380+00:00",
       "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00477,
-      "size_usd": 5153.71,
-      "position_size_pct": 0.0493,
-      "confidence": 0.77,
+      "take_profit_pct": 0.00487,
+      "size_usd": 5086.89,
+      "position_size_pct": 0.0486,
+      "confidence": 0.874,
       "signals": [
-        "RSI oversold (22.2)",
-        "MACD crossover",
-        "1d momentum -0.99%",
+        "RSI oversold (16.2)",
+        "5d momentum -0.64%",
+        "1d momentum -1.25%",
+        "BB oversold (pct_b=0.02)",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
       ],
@@ -672,7 +637,7 @@
       "mode": "paper",
       "strategy_version": "116",
       "status": "open",
-      "current_price": 183.854996,
+      "current_price": 182.755997,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -742,27 +707,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BMY",
-      "rank_score": 0.6128,
-      "price": 67.66000366210938,
-      "rsi": 72.88465745586726,
-      "momentum_5d": 0.008420931978937209,
-      "momentum_1d": 0.021900084544432034,
-      "macd_crossover": false,
-      "atr_pct": 0.005959205664121989,
-      "bollinger_pct_b": 1.0302,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.66,
-      "news_sentiment": 0.804,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "Amgen Stock Signals Its Confidence. The Market Agrees.",
-        "Can CYTK's Aficamten Strengthen Its HCM Growth Prospects?",
-        "Can AI Save Pfizer Stock Before Its Patent Cliff Hits?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "WFC",
       "rank_score": 0.6038,
       "price": 89.2699966430664,
@@ -780,6 +724,27 @@
         "Large U.S. banks face rising G-SIB buffers and tighter excess capital: GS",
         "Banks Just Hijacked Crypto\u2019s Original Promise: The Revolution Against Wall Street Is Now Owned by Wall Street",
         "Morgan Stanley Stock Is Up Nearly 20% in 2026: What Will It Take to Break Through $250?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BMY",
+      "rank_score": 0.6008,
+      "price": 67.66000366210938,
+      "rsi": 72.88465745586726,
+      "momentum_5d": 0.008420931978937209,
+      "momentum_1d": 0.021900084544432034,
+      "macd_crossover": false,
+      "atr_pct": 0.005959205664121989,
+      "bollinger_pct_b": 1.0302,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.66,
+      "news_sentiment": 0.592,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "What Does Bristol Myers Squibb (BMY) Trial Pause Mean For Its Pipeline?",
+        "Amgen Stock Signals Its Confidence. The Market Agrees.",
+        "Can CYTK's Aficamten Strengthen Its HCM Growth Prospects?"
       ],
       "high_impact_news": true
     },
@@ -827,7 +792,7 @@
     },
     {
       "asset": "BIIB",
-      "rank_score": 0.569,
+      "rank_score": 0.5681,
       "price": 222.72000122070312,
       "rsi": 66.76365659645677,
       "momentum_5d": 0.0005390616078047128,
@@ -837,32 +802,72 @@
       "bollinger_pct_b": 0.8211,
       "volume_spike": true,
       "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.887,
-      "news_confidence": 0.71,
+      "news_sentiment": 0.886,
+      "news_confidence": 0.7,
       "news_headlines": [
+        "Biogen (BIIB) Stock Could Be 48% Below Fair Value On New Dravet Data",
         "Why Is Vertex (VRTX) Up 14.4% Since Last Earnings Report?",
-        "Biogen\u2019s (BIIB) Immunology Bet Meets A Pricier Balance Sheet",
-        "Josh Brown Says \u2018Take a Break From AI CapEx World,\u2019 Highlights His 2 Top Healthcare Stock Picks"
+        "Biogen\u2019s (BIIB) Immunology Bet Meets A Pricier Balance Sheet"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "EUR/JPY",
-      "rank_score": 0.5507,
-      "price": 183.85499572753906,
-      "rsi": 22.24842767295597,
-      "momentum_5d": -0.0002555549812021887,
-      "momentum_1d": -0.00986606906971487,
-      "macd_crossover": true,
-      "atr_pct": 0.0015509074420093738,
-      "bollinger_pct_b": 0.2416,
+      "asset": "CAD/JPY",
+      "rank_score": 0.5414,
+      "price": 113.91999816894531,
+      "rsi": 24.412865109661865,
+      "momentum_5d": -0.006774374541234897,
+      "momentum_1d": -0.008209787329039703,
+      "macd_crossover": false,
+      "atr_pct": 0.001798261637682704,
+      "bollinger_pct_b": -0.0889,
       "volume_spike": false,
       "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.778,
-      "news_confidence": 0.45,
+      "news_sentiment": 1.0,
+      "news_confidence": 0.7,
       "news_headlines": [
-        "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AUD/JPY",
+      "rank_score": 0.5335,
+      "price": 112.81900024414062,
+      "rsi": 12.134529660532635,
+      "momentum_5d": -0.007984006896355094,
+      "momentum_1d": -0.011634146256692856,
+      "macd_crossover": false,
+      "atr_pct": 0.001789837966817414,
+      "bollinger_pct_b": -0.1192,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
+        "Further Strength for the Australian Dollar After Higher Inflation"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PFE",
+      "rank_score": 0.5307,
+      "price": 29.030000686645508,
+      "rsi": 70.76353560604691,
+      "momentum_5d": 0.005367989147896374,
+      "momentum_1d": 0.043306375226088496,
+      "macd_crossover": false,
+      "atr_pct": 0.006827915605142217,
+      "bollinger_pct_b": 0.9108,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.99,
+      "news_sentiment": 0.833,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "Why Did PFE, GTLB, COP Stocks Jump To 52-Week Highs Today?",
+        "Amgen Stock Signals Its Confidence. The Market Agrees.",
+        "Is BioNTech Stock a No-Brainer Buy on the Dip?"
       ],
       "high_impact_news": true
     },
@@ -909,44 +914,43 @@
       "high_impact_news": true
     },
     {
-      "asset": "PFE",
-      "rank_score": 0.5167,
-      "price": 29.030000686645508,
-      "rsi": 70.76353560604691,
-      "momentum_5d": 0.005367989147896374,
-      "momentum_1d": 0.043306375226088496,
+      "asset": "AVAX-USD",
+      "rank_score": 0.519,
+      "price": 7.264999866485596,
+      "rsi": 67.33519422549585,
+      "momentum_5d": 0.015090093706462459,
+      "momentum_1d": 0.003175885551182463,
       "macd_crossover": false,
-      "atr_pct": 0.006827915605142217,
-      "bollinger_pct_b": 0.9108,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.99,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.6,
+      "atr_pct": 0.0074820444388611065,
+      "bollinger_pct_b": 0.8877,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.8,
+      "news_sentiment": 0.235,
+      "news_confidence": 0.34,
       "news_headlines": [
-        "Amgen Stock Signals Its Confidence. The Market Agrees.",
-        "Is BioNTech Stock a No-Brainer Buy on the Dip?",
-        "Can AI Save Pfizer Stock Before Its Patent Cliff Hits?"
+        "Ethena Launches Neobank App on Avalanche",
+        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi",
+        "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.5163,
-      "price": 100.2300033569336,
-      "rsi": 66.26142813248228,
-      "momentum_5d": 0.0057194428444611025,
-      "momentum_1d": 0.011811082446754434,
+      "asset": "EUR/JPY",
+      "rank_score": 0.5179,
+      "price": 182.75599670410156,
+      "rsi": 16.159093773632463,
+      "momentum_5d": -0.006393722071900774,
+      "momentum_1d": -0.012514099612998035,
       "macd_crossover": false,
-      "atr_pct": 0.008779805933637677,
-      "bollinger_pct_b": 0.8712,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.98,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.36,
+      "atr_pct": 0.0015359970545688753,
+      "bollinger_pct_b": 0.0168,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -0.778,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "Wall Street firms are all in on a stablecoin launch",
-        "Solana Foundation president sees a 'token supercycle' reshaping finance",
-        "Japan\u2019s Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury"
+        "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
+        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
       ],
       "high_impact_news": true
     },
@@ -961,7 +965,7 @@
       "atr_pct": 0.02590027969894017,
       "bollinger_pct_b": 0.7235,
       "volume_spike": false,
-      "volume_spike_ratio": 0.87,
+      "volume_spike_ratio": 0.89,
       "news_sentiment": 0.442,
       "news_confidence": 0.43,
       "news_headlines": [
@@ -1035,65 +1039,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "RXRX",
-      "rank_score": 0.5015,
-      "price": 3.375,
-      "rsi": 47.184682114680086,
-      "momentum_5d": 0.025368344561666204,
-      "momentum_1d": 0.005961246143908174,
+      "asset": "GBP/JPY",
+      "rank_score": 0.5066,
+      "price": 212.60699462890625,
+      "rsi": 15.233951242772832,
+      "momentum_5d": -0.006797104834658669,
+      "momentum_1d": -0.014773296726475482,
       "macd_crossover": false,
-      "atr_pct": 0.016590471620912903,
-      "bollinger_pct_b": 0.7779,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.26,
-      "news_sentiment": 0.636,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "The Zacks Analyst Blog Highlights Recursion Pharmaceuticals, Schrodinger, Relay Therapeutics and Absci",
-        "Contineum, Disc Medicine, Recursion Advance Pipelines Ahead of Catalysts, Morgan Stanley Says",
-        "4 AI-Powered Drug Discovery Stocks to Watch as AI Reshapes Pharma"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOUN",
-      "rank_score": 0.4958,
-      "price": 6.78000020980835,
-      "rsi": 32.62963175343472,
-      "momentum_5d": -0.014162287015703372,
-      "momentum_1d": -0.038979394078175744,
-      "macd_crossover": false,
-      "atr_pct": 0.01969973888594949,
-      "bollinger_pct_b": 0.2277,
+      "atr_pct": 0.0016563166909255866,
+      "bollinger_pct_b": 0.0136,
       "volume_spike": false,
-      "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.56,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -0.28,
+      "news_confidence": 0.357,
       "news_headlines": [
-        "Ondas, SoundHound AI Among 5 Stocks Facing Heavy Short Bets",
-        "SoundHound AI, Fastly, and Oracle Shares Plummet, What You Need To Know",
-        "SoundHound Healthcare Deals Surge: Is This Its Next Growth Engine?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PLTR",
-      "rank_score": 0.4944,
-      "price": 169.4600067138672,
-      "rsi": 13.514747505626502,
-      "momentum_5d": 0.0017143024653357957,
-      "momentum_1d": -0.08831200153938298,
-      "macd_crossover": false,
-      "atr_pct": 0.01723138646678394,
-      "bollinger_pct_b": 0.1763,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "AI has become a 'non-negotiable', Sam Altman says at G20 summit",
-        "Palantir Shares Sink Despite $192 Million Army Contract",
-        "Palantir Stock Gets New Problem From Google"
+        "Pound Mostly Steady After Weaker GDP",
+        "Sterling Declines as the BoE Appears More Dovish",
+        "Mixed Performance by the Pound After Weaker Job Data"
       ],
       "high_impact_news": true
     }

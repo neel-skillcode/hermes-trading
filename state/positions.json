@@ -178,37 +178,6 @@
     "price_trough": 76487.453125,
     "trailing_stop_price": 77731.139113
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260902061401",
-    "asset": "CAD/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 114.68000030517578,
-    "entry_time": "2026-09-02T06:14:01.580083+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00495,
-    "size_usd": 4901.88,
-    "position_size_pct": 0.047,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (27.0)",
-      "5d momentum -0.59%",
-      "1d momentum -0.57%",
-      "BB oversold (pct_b=-0.26)",
-      "News +1.00 (conf 0.70) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-    ],
-    "news_sentiment": 1.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open",
-    "price_peak": 114.85099792480469,
-    "trailing_stop_price": 114.621296
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260902112144",
     "asset": "ETH-USD",
@@ -238,40 +207,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 2391.2900390625,
-    "trailing_stop_price": 2375.268396
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260902112144",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 7.083000183105469,
-    "entry_time": "2026-09-02T11:21:44.953230+00:00",
-    "stop_loss_pct": 0.00833,
-    "take_profit_pct": 0.02029,
-    "size_usd": 786.28,
-    "position_size_pct": 0.0076,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (34.9)",
-      "5d momentum -1.91%",
-      "1d momentum -2.72%",
-      "BB oversold (pct_b=-0.02)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.235,
-    "news_headlines": [
-      "Ethena Launches Neobank App on Avalanche",
-      "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi",
-      "Charles Schwab (SCHW) Expands Crypto Offering As Investors Weigh Whether Shares Are Fully Valued"
-    ],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open",
-    "price_peak": 7.191999912261963,
-    "trailing_stop_price": 7.132091
+    "price_peak": 2395.320068359375,
+    "trailing_stop_price": 2379.271424
   },
   "PLTR": {
     "id": "PLTR_20260902150931",
@@ -389,7 +326,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "115",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.8843899965286255,
+    "trailing_stop_price": 1.869315
   },
   "EUR/AUD": {
     "id": "EUR/AUD_20260902150931",
@@ -413,8 +352,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 1.6173499822616577,
-    "trailing_stop_price": 1.604411
+    "price_peak": 1.6198300123214722,
+    "trailing_stop_price": 1.606871
   },
   "REGN": {
     "id": "REGN_20260902183949",
@@ -540,22 +479,52 @@
     "strategy_version": "116",
     "status": "open"
   },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260903054941",
+    "asset": "CAD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 113.91999816894531,
+    "entry_time": "2026-09-03T05:49:41.308749+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00495,
+    "size_usd": 6357.73,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (24.4)",
+      "5d momentum -0.68%",
+      "1d momentum -0.82%",
+      "BB oversold (pct_b=-0.09)",
+      "News +1.00 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+    ],
+    "mode": "paper",
+    "strategy_version": "116",
+    "status": "open"
+  },
   "AUD/JPY": {
-    "id": "AUD/JPY_20260902211717",
+    "id": "AUD/JPY_20260903054941",
     "asset": "AUD/JPY",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 113.54299926757812,
-    "entry_time": "2026-09-02T21:17:17.319678+00:00",
+    "entry_price": 112.81900024414062,
+    "entry_time": "2026-09-03T05:49:41.309653+00:00",
     "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00471,
-    "size_usd": 4765.16,
-    "position_size_pct": 0.0456,
-    "confidence": 0.713,
+    "take_profit_pct": 0.00487,
+    "size_usd": 5849.12,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
     "signals": [
-      "RSI oversold (29.7)",
-      "1d momentum -0.76%",
-      "BB oversold (pct_b=0.01)",
+      "RSI oversold (12.1)",
+      "5d momentum -0.80%",
+      "1d momentum -1.16%",
+      "BB oversold (pct_b=-0.12)",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
     ],
@@ -566,26 +535,25 @@
     ],
     "mode": "paper",
     "strategy_version": "116",
-    "status": "open",
-    "price_peak": 113.68199920654297,
-    "trailing_stop_price": 113.454635
+    "status": "open"
   },
   "EUR/JPY": {
-    "id": "EUR/JPY_20260903011337",
+    "id": "EUR/JPY_20260903054941",
     "asset": "EUR/JPY",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 183.85499572753906,
-    "entry_time": "2026-09-03T01:13:37.079938+00:00",
+    "direction": "long",
+    "entry_price": 182.75599670410156,
+    "entry_time": "2026-09-03T05:49:41.310380+00:00",
     "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00477,
-    "size_usd": 5153.71,
-    "position_size_pct": 0.0493,
-    "confidence": 0.77,
+    "take_profit_pct": 0.00487,
+    "size_usd": 5086.89,
+    "position_size_pct": 0.0486,
+    "confidence": 0.874,
     "signals": [
-      "RSI oversold (22.2)",
-      "MACD crossover",
-      "1d momentum -0.99%",
+      "RSI oversold (16.2)",
+      "5d momentum -0.64%",
+      "1d momentum -1.25%",
+      "BB oversold (pct_b=0.02)",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
     ],
