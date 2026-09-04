@@ -54,38 +54,6 @@
     "price_trough": 315.8299865722656,
     "trailing_stop_price": 324.376346
   },
-  "WFC": {
-    "id": "WFC_20260902150931",
-    "asset": "WFC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 89.62000274658203,
-    "entry_time": "2026-09-02T15:09:31.918969+00:00",
-    "stop_loss_pct": 0.00817,
-    "take_profit_pct": 0.0199,
-    "size_usd": 1310.22,
-    "position_size_pct": 0.0126,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (75.0)",
-      "5d momentum +3.61%",
-      "1d momentum +5.78%",
-      "BB overbought (pct_b=1.23)",
-      "High-impact catalyst",
-      "Claude [neutral]: analyst downgrade"
-    ],
-    "news_sentiment": 0.84,
-    "news_headlines": [
-      "How credit card points can save you hundreds on holiday gifts",
-      "Banks Just Hijacked Crypto\u2019s Original Promise: The Revolution Against Wall Street Is Now Owned by Wall Street",
-      "Morgan Stanley Stock Is Up Nearly 20% in 2026: What Will It Take to Break Through $250?"
-    ],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open",
-    "price_trough": 89.01000213623047,
-    "trailing_stop_price": 89.737214
-  },
   "GBP/AUD": {
     "id": "GBP/AUD_20260902150931",
     "asset": "GBP/AUD",
@@ -354,8 +322,8 @@
     "mode": "paper",
     "strategy_version": "118",
     "status": "open",
-    "price_trough": 251.7100067138672,
-    "trailing_stop_price": 255.485657
+    "price_trough": 249.5850067138672,
+    "trailing_stop_price": 253.328782
   },
   "ORCL": {
     "id": "ORCL_20260904134252",
@@ -387,8 +355,8 @@
     "mode": "paper",
     "strategy_version": "118",
     "status": "open",
-    "price_trough": 157.6199951171875,
-    "trailing_stop_price": 159.798303
+    "price_trough": 157.3300018310547,
+    "trailing_stop_price": 159.504302
   },
   "XLE": {
     "id": "XLE_20260904134252",
@@ -448,8 +416,8 @@
     "mode": "paper",
     "strategy_version": "118",
     "status": "open",
-    "price_peak": 112.82599639892578,
-    "trailing_stop_price": 111.892925
+    "price_peak": 112.93299865722656,
+    "trailing_stop_price": 111.999043
   },
   "SMCI": {
     "id": "SMCI_20260904170633",
@@ -480,7 +448,9 @@
     ],
     "mode": "paper",
     "strategy_version": "119",
-    "status": "open"
+    "status": "open",
+    "price_trough": 39.369998931884766,
+    "trailing_stop_price": 39.960549
   },
   "KLAC": {
     "id": "KLAC_20260904170633",
@@ -510,7 +480,9 @@
     ],
     "mode": "paper",
     "strategy_version": "119",
-    "status": "open"
+    "status": "open",
+    "price_trough": 184.50999450683594,
+    "trailing_stop_price": 187.104205
   },
   "MRVL": {
     "id": "MRVL_20260904170633",
@@ -566,6 +538,36 @@
       "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
       "Sector Update: Healthcare Stocks Edge Higher Late Afternoon",
       "Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense"
+    ],
+    "mode": "paper",
+    "strategy_version": "119",
+    "status": "open"
+  },
+  "RBLX": {
+    "id": "RBLX_20260904193049",
+    "asset": "RBLX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 43.404998779296875,
+    "entry_time": "2026-09-04T19:30:49.169943+00:00",
+    "stop_loss_pct": 0.01413,
+    "take_profit_pct": 0.03387,
+    "size_usd": 1308.93,
+    "position_size_pct": 0.0125,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (77.1)",
+      "5d momentum +1.87%",
+      "1d momentum +7.31%",
+      "BB overbought (pct_b=0.86)",
+      "High-impact catalyst",
+      "Claude [contradicts]: ma catalyst"
+    ],
+    "news_sentiment": 0.371,
+    "news_headlines": [
+      "A Roblox Director Sells 16,666 Shares After a 67% One-Year Decline in Stock Price",
+      "Netflix\u2019s Acquisition Wishlist: Which Streaming Target Has the Best Odds?",
+      "Roblox Falls 3% as Cathie Wood\u2019s ARK Keeps Selling, Take-Two Interactive Barely Budges"
     ],
     "mode": "paper",
     "strategy_version": "119",
