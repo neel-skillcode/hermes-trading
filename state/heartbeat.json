@@ -3,15 +3,15 @@
   "portfolio_balance": 104124.5,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.5,
-  "unrealized_pnl_usd": 375.46,
-  "equity_value": 104499.96,
+  "unrealized_pnl_usd": 382.41,
+  "equity_value": 104506.91,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 35366.06,
   "swing_capital_used_usd": 52153.02,
   "total_trades": 1346,
-  "last_tick": "2026-09-04T21:44:17.784271+00:00",
+  "last_tick": "2026-09-04T23:22:09.865174+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -130,9 +130,9 @@
       "status": "open",
       "price_peak": 1.6198300123214722,
       "trailing_stop_price": 1.606871,
-      "current_price": 1.61183,
-      "unrealized_pnl_pct": -0.002907,
-      "unrealized_pnl_usd": -6.76
+      "current_price": 1.6122,
+      "unrealized_pnl_pct": -0.002679,
+      "unrealized_pnl_usd": -6.23
     },
     {
       "id": "GLD_20260903143205",
@@ -234,9 +234,9 @@
       "status": "open",
       "price_trough": 2448.7900390625,
       "trailing_stop_price": 2470.437343,
-      "current_price": 2456.780029,
-      "unrealized_pnl_pct": 0.017445,
-      "unrealized_pnl_usd": 101.39
+      "current_price": 2454.02002,
+      "unrealized_pnl_pct": 0.018549,
+      "unrealized_pnl_usd": 107.8
     },
     {
       "id": "XLK_20260903180022",
@@ -746,7 +746,7 @@
     },
     {
       "asset": "AMD",
-      "rank_score": 0.5551,
+      "rank_score": 0.5621,
       "price": 477.45001220703125,
       "rsi": 77.11787741149882,
       "momentum_5d": 0.016391723697778072,
@@ -756,12 +756,12 @@
       "bollinger_pct_b": 0.992,
       "volume_spike": false,
       "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.102,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.273,
+      "news_confidence": 0.44,
       "news_headlines": [
+        "Elon Musk Committed SpaceX to Building \"Exclusively on Nvidia.\" Here's What That Locks In for SpaceX's Compute Bill.",
         "Marvell Stock Had A Huge Year And Still Sits Well Below Its High",
-        "Here\u2019s the Real Reason Nvidia Is Buying Hugging Face",
-        "How Far AMD Stock Can Swing In Its Calm Case"
+        "Here\u2019s the Real Reason Nvidia Is Buying Hugging Face"
       ],
       "high_impact_news": true
     },
@@ -788,7 +788,7 @@
     },
     {
       "asset": "MRVL",
-      "rank_score": 0.5488,
+      "rank_score": 0.5538,
       "price": 223.5,
       "rsi": 84.21287413370456,
       "momentum_5d": 0.01461776483814725,
@@ -798,33 +798,12 @@
       "bollinger_pct_b": 0.92,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.05,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.163,
+      "news_confidence": 0.43,
       "news_headlines": [
+        "Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)",
         "Update: Wall Street Wraps Mixed Week in Red Following Strong Jobs Report",
-        "Marvell Stock Had A Huge Year And Still Sits Well Below Its High",
-        "Here\u2019s the Real Reason Nvidia Is Buying Hugging Face"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MS",
-      "rank_score": 0.5469,
-      "price": 217.72000122070312,
-      "rsi": 70.8333512933357,
-      "momentum_5d": 0.013641268337240916,
-      "momentum_1d": 0.02688424126676878,
-      "macd_crossover": false,
-      "atr_pct": 0.007731888007513375,
-      "bollinger_pct_b": 0.7598,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.73,
-      "news_sentiment": 0.459,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Market Chatter: Anthropic May Give Morgan Stanley, Goldman Sachs Key Roles in $2 Trillion IPO",
-        "Bapcor (ASX:BAP) Shares See Fair Value Lift As Analysts Reassess Key Assumptions",
-        "VA Tech Wabag (NSEI:WABAG) Stock Sees Modest Fair Value Lift On Backlog Confidence"
+        "Marvell Stock Had A Huge Year And Still Sits Well Below Its High"
       ],
       "high_impact_news": true
     },
@@ -850,6 +829,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MS",
+      "rank_score": 0.5449,
+      "price": 217.72000122070312,
+      "rsi": 70.8333512933357,
+      "momentum_5d": 0.013641268337240916,
+      "momentum_1d": 0.02688424126676878,
+      "macd_crossover": false,
+      "atr_pct": 0.007731888007513375,
+      "bollinger_pct_b": 0.7598,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.73,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.35,
+      "news_headlines": [
+        "Anthropic Weighs Morgan Stanley And Goldman Sachs For Key Roles In $2 Trillion IPO, Says Report",
+        "Morgan Stanley makes a buy call on tumbling retail giant stock",
+        "Market Chatter: Anthropic May Give Morgan Stanley, Goldman Sachs Key Roles in $2 Trillion IPO"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MU",
       "rank_score": 0.5434,
       "price": 1014.9500122070312,
@@ -864,9 +864,9 @@
       "news_sentiment": 0.628,
       "news_confidence": 0.43,
       "news_headlines": [
-        "David Tepper Sold 41% of His Micron Shares and It Is Still His Second-Biggest Holding",
+        "Why ASML Holding Stock Bumped 4% Higher Today",
         "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-        "Update: Wall Street Wraps Mixed Week in Red Following Strong Jobs Report"
+        "David Tepper Sold 41% of His Micron Shares and It Is Still His Second-Biggest Holding"
       ],
       "high_impact_news": true
     },
@@ -892,27 +892,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ABBV",
-      "rank_score": 0.5361,
-      "price": 256.3599853515625,
-      "rsi": 28.619393519557434,
-      "momentum_5d": -0.0034042784406731964,
-      "momentum_1d": -0.012404659015600552,
-      "macd_crossover": false,
-      "atr_pct": 0.00686779469177911,
-      "bollinger_pct_b": 0.1615,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.09,
-      "news_sentiment": 0.682,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "AbbVie vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?",
-        "Was JNJ Stock Rally Actually Its Own?",
-        "Lilly (LLY) Down 2.7% Since Last Earnings Report: Can It Rebound?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ON",
       "rank_score": 0.5357,
       "price": 74.41500091552734,
@@ -927,15 +906,36 @@
       "news_sentiment": 0.736,
       "news_confidence": 0.53,
       "news_headlines": [
+        "What Is The Market Really Expecting From MPWR Stock?",
         "Skyworks Chair: It Will Be a While Before This Cycle Ends",
-        "Q2 Earnings Roundup: onsemi (NASDAQ:ON) And The Rest Of The Analog Semiconductors Segment",
-        "Synaptics (SYNA) Agrees to $7 Billion Deal With Onsemi: What Investors Should Know"
+        "Q2 Earnings Roundup: onsemi (NASDAQ:ON) And The Rest Of The Analog Semiconductors Segment"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.5301,
+      "price": 256.3599853515625,
+      "rsi": 28.619393519557434,
+      "momentum_5d": -0.0034042784406731964,
+      "momentum_1d": -0.012404659015600552,
+      "macd_crossover": false,
+      "atr_pct": 0.00686779469177911,
+      "bollinger_pct_b": 0.1615,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.09,
+      "news_sentiment": 0.6,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "ANI Pharmaceuticals (ANIP) Appoints Henry Gosebruch To Its Board",
+        "AbbVie vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?",
+        "Was JNJ Stock Rally Actually Its Own?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.5102,
+      "rank_score": 0.5192,
       "price": 158.76499938964844,
       "rsi": 83.43430679285993,
       "momentum_5d": 0.0069404100818853415,
@@ -945,12 +945,33 @@
       "bollinger_pct_b": 0.7878,
       "volume_spike": false,
       "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.478,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.585,
+      "news_confidence": 0.53,
       "news_headlines": [
-        "Own Oracle For The AI Boom? PTC's Story Looks Cleaner",
-        "Stock Market Today: Dow Sinks Amid Rate Fears; Sandisk, KLA Lead Nasdaq-100 As Utilities Gain",
-        "Oracle Jumps Before Its $638 Billion Backlog Faces Reality"
+        "Jim Cramer Shares a Cautious Take on Oracle (ORCL) and Its Massive AI Buildout",
+        "Looking Ahead to the Q3 Earnings Season: What to Expect",
+        "Own Oracle For The AI Boom? PTC's Story Looks Cleaner"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.5157,
+      "price": 357.8699951171875,
+      "rsi": 39.57677737757486,
+      "momentum_5d": 0.004730680882528079,
+      "momentum_1d": -0.031160348728883156,
+      "macd_crossover": true,
+      "atr_pct": 0.015398817895030805,
+      "bollinger_pct_b": 0.4609,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.72,
+      "news_sentiment": 0.309,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Adobe appoints new CEO to succeed Narayen in December",
+        "Jim Cramer Says \u201cSomeone Must Know Something\u201d About Broadcom Inc. (NASDAQ:AVGO)\u2019s Post-Earnings Share Dip",
+        "Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?"
       ],
       "high_impact_news": true
     },
@@ -976,23 +997,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.4987,
-      "price": 357.8699951171875,
-      "rsi": 39.57677737757486,
-      "momentum_5d": 0.004730680882528079,
-      "momentum_1d": -0.031160348728883156,
-      "macd_crossover": true,
-      "atr_pct": 0.015398817895030805,
-      "bollinger_pct_b": 0.4609,
+      "asset": "META",
+      "rank_score": 0.4778,
+      "price": 616.75,
+      "rsi": 73.5959276345982,
+      "momentum_5d": 0.007744955407167644,
+      "momentum_1d": 0.06280319449979423,
+      "macd_crossover": false,
+      "atr_pct": 0.01123847057950663,
+      "bollinger_pct_b": 0.756,
       "volume_spike": false,
-      "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.48,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
       "news_headlines": [
-        "Adobe appoints new CEO to succeed Narayen in December",
-        "Top Research Reports for Apple, Broadcom & Shell",
-        "Marvell Stock Had A Huge Year And Still Sits Well Below Its High"
+        "Energy stocks could be the biggest winners of the AI boom",
+        "Jim Cramer Said Meta Platforms, Inc. (NASDAQ: META)\u2019s Big Court Win Was A Close Call",
+        "Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?"
       ],
       "high_impact_news": true
     },
@@ -1014,27 +1035,6 @@
         "This Biotech Wins a Big FDA Approval. Why Wall Street Is Shrugging.",
         "Exelixis (EXEL) Up 13.3% Since Last Earnings Report: Can It Continue?",
         "Why Is Veeva Systems (VEEV) Winning Big In AI For Biopharma?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "META",
-      "rank_score": 0.4748,
-      "price": 616.75,
-      "rsi": 73.5959276345982,
-      "momentum_5d": 0.007744955407167644,
-      "momentum_1d": 0.06280319449979423,
-      "macd_crossover": false,
-      "atr_pct": 0.01123847057950663,
-      "bollinger_pct_b": 0.756,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.561,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Energy stocks could be the biggest winners of the AI boom",
-        "Corning (GLW) Stock Looks Below Fair Value As Its 393% Run Continues",
-        "5-star analyst resets Broadcom stock price target"
       ],
       "high_impact_news": true
     }
