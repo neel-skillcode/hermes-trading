@@ -414,8 +414,8 @@
     "mode": "paper",
     "strategy_version": "118",
     "status": "open",
-    "price_trough": 0.08877000212669373,
-    "trailing_stop_price": 0.089953
+    "price_trough": 0.08713000267744064,
+    "trailing_stop_price": 0.088291
   },
   "XRP-USD": {
     "id": "XRP-USD_20260903180022",
@@ -446,7 +446,9 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.448099970817566,
+    "trailing_stop_price": 1.46597
   },
   "ETH-USD": {
     "id": "ETH-USD_20260903180022",
@@ -508,7 +510,9 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
-    "status": "open"
+    "status": "open",
+    "price_trough": 80999.96875,
+    "trailing_stop_price": 81597.748519
   },
   "XLK": {
     "id": "XLK_20260903180022",
@@ -539,50 +543,52 @@
     "strategy_version": "118",
     "status": "open"
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260903205409",
-    "asset": "CAD/JPY",
+  "EUR/JPY": {
+    "id": "EUR/JPY_20260904050107",
+    "asset": "EUR/JPY",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 112.96700286865234,
-    "entry_time": "2026-09-03T20:54:09.862787+00:00",
-    "stop_loss_pct": 0.00252,
-    "take_profit_pct": 0.00584,
-    "size_usd": 4232.73,
-    "position_size_pct": 0.0404,
-    "confidence": 0.632,
+    "entry_price": 181.7449951171875,
+    "entry_time": "2026-09-04T05:01:07.983525+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00487,
+    "size_usd": 5852.19,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
     "signals": [
-      "RSI oversold (28.5)",
-      "MACD crossover",
-      "1d momentum -1.45%",
-      "News +1.00 (conf 0.70) \u2192 long",
+      "RSI overbought (77.6)",
+      "5d momentum +0.43%",
+      "1d momentum -0.59%",
+      "BB overbought (pct_b=0.95)",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone mixed sentiment across 2 articles. Overall new"
     ],
-    "news_sentiment": 1.0,
+    "news_sentiment": -0.778,
     "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+      "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
+      "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
     ],
     "mode": "paper",
     "strategy_version": "118",
     "status": "open"
   },
   "USD/JPY": {
-    "id": "USD/JPY_20260903205409",
+    "id": "USD/JPY_20260904050107",
     "asset": "USD/JPY",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 155.78900146484375,
-    "entry_time": "2026-09-03T20:54:09.864671+00:00",
-    "stop_loss_pct": 0.00268,
-    "take_profit_pct": 0.00647,
-    "size_usd": 2526.11,
-    "position_size_pct": 0.0241,
-    "confidence": 0.83,
+    "entry_price": 156.3350067138672,
+    "entry_time": "2026-09-04T05:01:07.985288+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00493,
+    "size_usd": 897.34,
+    "position_size_pct": 0.0086,
+    "confidence": 0.934,
     "signals": [
-      "RSI oversold (20.8)",
-      "MACD crossover",
-      "1d momentum -1.83%",
+      "RSI overbought (72.7)",
+      "5d momentum +0.37%",
+      "1d momentum -0.66%",
+      "BB overbought (pct_b=0.88)",
       "High-impact catalyst",
       "Claude [supports]: macro risk"
     ],
