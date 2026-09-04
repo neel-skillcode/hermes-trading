@@ -136,38 +136,6 @@
     "price_peak": 1.6198300123214722,
     "trailing_stop_price": 1.606871
   },
-  "HOOD": {
-    "id": "HOOD_20260903143205",
-    "asset": "HOOD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 122.91999816894531,
-    "entry_time": "2026-09-03T14:32:05.851643+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5334.32,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (81.5)",
-      "5d momentum +16.50%",
-      "1d momentum +17.21%",
-      "BB overbought (pct_b=1.24)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.92,
-    "news_headlines": [
-      "Robinhood Stock Jumps After Wave of Analysts Upgrade",
-      "Robinhood Rallies 11% on Price Target Hikes, Webull Climbs 7%, Interactive Brokers Gains 4%",
-      "Robinhood Earns Transaction Revenue Directly on Crypto. That Cuts Both Ways."
-    ],
-    "mode": "paper",
-    "strategy_version": "117",
-    "status": "open",
-    "price_trough": 120.22000122070312,
-    "trailing_stop_price": 122.023301
-  },
   "GLD": {
     "id": "GLD_20260903143205",
     "asset": "GLD",
@@ -292,38 +260,6 @@
     "strategy_version": "118",
     "status": "open"
   },
-  "USD/JPY": {
-    "id": "USD/JPY_20260904050107",
-    "asset": "USD/JPY",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 156.3350067138672,
-    "entry_time": "2026-09-04T05:01:07.985288+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00493,
-    "size_usd": 897.34,
-    "position_size_pct": 0.0086,
-    "confidence": 0.934,
-    "signals": [
-      "RSI overbought (72.7)",
-      "5d momentum +0.37%",
-      "1d momentum -0.66%",
-      "BB overbought (pct_b=0.88)",
-      "High-impact catalyst",
-      "Claude [supports]: macro risk"
-    ],
-    "news_sentiment": 0.125,
-    "news_headlines": [
-      "Treasury Yields Rise Amid Data, Geopolitical Lull",
-      "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
-      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "118",
-    "status": "open",
-    "price_trough": 155.66700744628906,
-    "trailing_stop_price": 155.978341
-  },
   "RXRX": {
     "id": "RXRX_20260904134252",
     "asset": "RXRX",
@@ -353,7 +289,9 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
-    "status": "open"
+    "status": "open",
+    "price_trough": 3.610100030899048,
+    "trailing_stop_price": 3.664252
   },
   "MU": {
     "id": "MU_20260904134252",
@@ -415,37 +353,9 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
-    "status": "open"
-  },
-  "KLAC": {
-    "id": "KLAC_20260904134252",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 181.40859985351562,
-    "entry_time": "2026-09-04T13:42:52.274555+00:00",
-    "stop_loss_pct": 0.01196,
-    "take_profit_pct": 0.02914,
-    "size_usd": 5846.67,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (76.1)",
-      "5d momentum +5.76%",
-      "1d momentum +3.37%",
-      "BB overbought (pct_b=1.47)",
-      "High-impact catalyst",
-      "Claude [neutral]: analyst upgrade; price decline"
-    ],
-    "news_sentiment": 0.464,
-    "news_headlines": [
-      "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
-      "Teradyne Stock Plunges 15% in a Month: Should You Buy the Dip?",
-      "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses"
-    ],
-    "mode": "paper",
-    "strategy_version": "118",
-    "status": "open"
+    "status": "open",
+    "price_trough": 251.7100067138672,
+    "trailing_stop_price": 255.485657
   },
   "ORCL": {
     "id": "ORCL_20260904134252",
@@ -476,7 +386,9 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
-    "status": "open"
+    "status": "open",
+    "price_trough": 157.6199951171875,
+    "trailing_stop_price": 159.798303
   },
   "XLE": {
     "id": "XLE_20260904134252",
@@ -505,7 +417,9 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
-    "status": "open"
+    "status": "open",
+    "price_peak": 64.16000366210938,
+    "trailing_stop_price": 63.254064
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260904134252",
@@ -533,6 +447,128 @@
     ],
     "mode": "paper",
     "strategy_version": "118",
+    "status": "open",
+    "price_peak": 112.82599639892578,
+    "trailing_stop_price": 111.892925
+  },
+  "SMCI": {
+    "id": "SMCI_20260904170633",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 40.45000076293945,
+    "entry_time": "2026-09-04T17:06:33.511310+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03436,
+    "size_usd": 3878.52,
+    "position_size_pct": 0.0372,
+    "confidence": 0.581,
+    "signals": [
+      "RSI overbought (84.1)",
+      "5d momentum +6.14%",
+      "1d momentum +12.53%",
+      "BB overbought (pct_b=1.03)",
+      "News +0.69 (conf 0.72) \u2192 long",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.688,
+    "news_headlines": [
+      "Hardware & Infrastructure Stocks Q2 Teardown: Super Micro (NASDAQ:SMCI) Vs The Rest",
+      "SMCI Rises 29% Year to Date: Time to Buy, Sell or Hold the Stock?",
+      "HPE Cannot Build AI Servers Fast Enough. Is the Stock Still Cheap?"
+    ],
+    "mode": "paper",
+    "strategy_version": "119",
+    "status": "open"
+  },
+  "KLAC": {
+    "id": "KLAC_20260904170633",
+    "asset": "KLAC",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 187.08999633789062,
+    "entry_time": "2026-09-04T17:06:33.513053+00:00",
+    "stop_loss_pct": 0.01406,
+    "take_profit_pct": 0.03426,
+    "size_usd": 5834.46,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (80.6)",
+      "5d momentum +8.71%",
+      "1d momentum +11.08%",
+      "BB overbought (pct_b=1.04)",
+      "High-impact catalyst",
+      "Claude [neutral]: analyst upgrade; price decline"
+    ],
+    "news_sentiment": 0.464,
+    "news_headlines": [
+      "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
+      "Teradyne Stock Plunges 15% in a Month: Should You Buy the Dip?",
+      "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses"
+    ],
+    "mode": "paper",
+    "strategy_version": "119",
+    "status": "open"
+  },
+  "MRVL": {
+    "id": "MRVL_20260904170633",
+    "asset": "MRVL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 221.86000061035156,
+    "entry_time": "2026-09-04T17:06:33.514472+00:00",
+    "stop_loss_pct": 0.01454,
+    "take_profit_pct": 0.03543,
+    "size_usd": 2278.09,
+    "position_size_pct": 0.0218,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (82.7)",
+      "5d momentum +5.35%",
+      "1d momentum +7.91%",
+      "BB overbought (pct_b=1.03)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.581,
+    "news_headlines": [
+      "How Far AMD Stock Can Swing In Its Calm Case",
+      "Unpacking Q2 Earnings: Marvell Technology (NASDAQ:MRVL) In The Context Of Other Semiconductor Manufacturing Stocks",
+      "Marvell Rises 6% as Beaten-Down AI Silicon Bounces, Qualcomm Barely Budges"
+    ],
+    "mode": "paper",
+    "strategy_version": "119",
+    "status": "open"
+  },
+  "XLV": {
+    "id": "XLV_20260904170633",
+    "asset": "XLV",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 171.5,
+    "entry_time": "2026-09-04T17:06:33.545809+00:00",
+    "stop_loss_pct": 0.01266,
+    "take_profit_pct": 0.04283,
+    "size_usd": 7427.34,
+    "position_size_pct": 0.0712,
+    "confidence": 0.764,
+    "signals": [
+      "RSI oversold (40.3)",
+      "5d momentum -0.92%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade"
+    ],
+    "news_sentiment": 0.796,
+    "news_headlines": [
+      "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+      "Sector Update: Healthcare Stocks Edge Higher Late Afternoon",
+      "Healthcare Stocks Pick Up Steam as Investors Play Offense and Defense"
+    ],
+    "mode": "paper",
+    "strategy_version": "119",
     "status": "open"
   }
 }
