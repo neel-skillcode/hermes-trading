@@ -3,15 +3,15 @@
   "portfolio_balance": 104124.5,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.5,
-  "unrealized_pnl_usd": 387.78,
-  "equity_value": 104512.28,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "unrealized_pnl_usd": 372.49,
+  "equity_value": 104496.99,
+  "open_positions": 20,
+  "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 35366.06,
+  "day_capital_used_usd": 41649.8,
   "swing_capital_used_usd": 52153.02,
   "total_trades": 1346,
-  "last_tick": "2026-09-05T05:42:31.126888+00:00",
+  "last_tick": "2026-09-05T09:22:49.345970+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 5,
   "universe_scanned": 110,
@@ -234,9 +234,9 @@
       "status": "open",
       "price_trough": 2448.7900390625,
       "trailing_stop_price": 2470.437343,
-      "current_price": 2451.709961,
-      "unrealized_pnl_pct": 0.019473,
-      "unrealized_pnl_usd": 113.17
+      "current_price": 2458.290039,
+      "unrealized_pnl_pct": 0.016841,
+      "unrealized_pnl_usd": 97.88
     },
     {
       "id": "XLK_20260903180022",
@@ -615,27 +615,94 @@
       "current_price": 43.285,
       "unrealized_pnl_pct": 0.002765,
       "unrealized_pnl_usd": 3.62
+    },
+    {
+      "id": "BNB-USD_20260905092249",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 751.469970703125,
+      "entry_time": "2026-09-05T09:22:49.342123+00:00",
+      "stop_loss_pct": 0.00599,
+      "take_profit_pct": 0.01458,
+      "size_usd": 5797.65,
+      "position_size_pct": 0.0557,
+      "confidence": 0.87,
+      "signals": [
+        "RSI overbought (84.8)",
+        "5d momentum +4.14%",
+        "1d momentum +4.53%",
+        "BB overbought (pct_b=1.18)",
+        "Volume spike 3.1\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed dovish; product catalyst; price surge"
+      ],
+      "news_sentiment": 0.333,
+      "news_headlines": [
+        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
+        "BNB Price Forecast: $740 Break Could Open Path to $825",
+        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
+      ],
+      "mode": "paper",
+      "strategy_version": "119",
+      "status": "open",
+      "current_price": 751.469971,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "DOGE-USD_20260905092249",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.08607999980449677,
+      "entry_time": "2026-09-05T09:22:49.343933+00:00",
+      "stop_loss_pct": 0.0046,
+      "take_profit_pct": 0.01121,
+      "size_usd": 486.09,
+      "position_size_pct": 0.0047,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (79.2)",
+        "5d momentum +1.68%",
+        "1d momentum -1.81%",
+        "BB overbought (pct_b=1.10)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": 0.389,
+      "news_headlines": [
+        "Why Is Dogecoin Down?",
+        "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
+        "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets"
+      ],
+      "mode": "paper",
+      "strategy_version": "119",
+      "status": "open",
+      "current_price": 0.08608,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
-      "asset": "LRCX",
-      "rank_score": 0.6723,
-      "price": 307.6400146484375,
-      "rsi": 70.1136975422865,
-      "momentum_5d": 0.018169852268254516,
-      "momentum_1d": 0.0627149255248136,
+      "asset": "BNB-USD",
+      "rank_score": 0.8663,
+      "price": 751.469970703125,
+      "rsi": 84.76010696869592,
+      "momentum_5d": 0.041379673172087496,
+      "momentum_1d": 0.04533436122712179,
       "macd_crossover": false,
-      "atr_pct": 0.01596163442293313,
-      "bollinger_pct_b": 0.9325,
+      "atr_pct": 0.006124192413613442,
+      "bollinger_pct_b": 1.1806,
       "volume_spike": true,
-      "volume_spike_ratio": 1.74,
-      "news_sentiment": 0.679,
-      "news_confidence": 0.61,
+      "volume_spike_ratio": 3.11,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "Zacks.com featured highlights include Fortinet, Brinker International, Lincoln Electric and Lam Research",
-        "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
-        "Is the Options Market Predicting a Spike in Lam Research Stock?"
+        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
+        "BNB Price Forecast: $740 Break Could Open Path to $825",
+        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
       ],
       "high_impact_news": true
     },
@@ -662,7 +729,7 @@
     },
     {
       "asset": "LYFT",
-      "rank_score": 0.6608,
+      "rank_score": 0.6658,
       "price": 16.69499969482422,
       "rsi": 20.888809015586034,
       "momentum_5d": -0.018806917796241576,
@@ -672,12 +739,33 @@
       "bollinger_pct_b": -0.1955,
       "volume_spike": true,
       "volume_spike_ratio": 3.39,
-      "news_sentiment": 0.512,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
       "news_headlines": [
+        "Lyft (LYFT) And The Case For An Undervalued Autonomous Vehicle Narrative",
         "CFOs On the Move: Week ending Sept. 4",
-        "TSLA Stock Slips Overnight As Safety Regulator Scrutinizes Cybercab \u2014 Retail Fumes Over Event Blackout",
-        "Vietnamese Rival To Uber, Lyft Plans To Enter U.S. Market This Year"
+        "TSLA Stock Slips Overnight As Safety Regulator Scrutinizes Cybercab \u2014 Retail Fumes Over Event Blackout"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LRCX",
+      "rank_score": 0.6619,
+      "price": 307.6400146484375,
+      "rsi": 70.1136975422865,
+      "momentum_5d": 0.018169852268254516,
+      "momentum_1d": 0.0627149255248136,
+      "macd_crossover": false,
+      "atr_pct": 0.01596163442293313,
+      "bollinger_pct_b": 0.9325,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.74,
+      "news_sentiment": 0.544,
+      "news_confidence": 0.57,
+      "news_headlines": [
+        "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
+        "Zacks.com featured highlights include Fortinet, Brinker International, Lincoln Electric and Lam Research",
+        "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes"
       ],
       "high_impact_news": true
     },
@@ -738,9 +826,9 @@
       "news_sentiment": 0.467,
       "news_confidence": 0.45,
       "news_headlines": [
+        "CEO Brian Niccol Just Announced Incredible News for Starbucks Investors",
         "Starbucks (SBUX) Stock Looks Overvalued On Current Assumptions",
-        "Starbucks (SBUX) Brings A New Wellness Bar To Stores Nationwide",
-        "McDonald's Trades at 19.15X P/E: Is This a Discounted Opportunity?"
+        "Starbucks (SBUX) Brings A New Wellness Bar To Stores Nationwide"
       ],
       "high_impact_news": true
     },
@@ -885,9 +973,9 @@
       "news_sentiment": 0.538,
       "news_confidence": 0.39,
       "news_headlines": [
+        "South Korea exports surpass annual record as AI chip boom drives shipments",
         "Micron and Western Digital Shares Skyrocket, What You Need To Know",
-        "Why ASML Holding Stock Bumped 4% Higher Today",
-        "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead"
+        "Why ASML Holding Stock Bumped 4% Higher Today"
       ],
       "high_impact_news": true
     },
@@ -914,7 +1002,7 @@
     },
     {
       "asset": "ABBV",
-      "rank_score": 0.5301,
+      "rank_score": 0.535,
       "price": 256.3599853515625,
       "rsi": 28.619393519557434,
       "momentum_5d": -0.0034042784406731964,
@@ -924,12 +1012,12 @@
       "bollinger_pct_b": 0.1615,
       "volume_spike": true,
       "volume_spike_ratio": 2.09,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.4,
+      "news_sentiment": 0.674,
+      "news_confidence": 0.43,
       "news_headlines": [
+        "3 Dividend Stocks to Buy and Hold Forever (Including 1 Dividend King)",
         "ANI Pharmaceuticals (ANIP) Appoints Henry Gosebruch To Its Board",
-        "AbbVie vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?",
-        "Was JNJ Stock Rally Actually Its Own?"
+        "AbbVie vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     },
@@ -955,6 +1043,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5228,
+      "price": 0.08607999980449677,
+      "rsi": 79.2035762912462,
+      "momentum_5d": 0.016772958740276338,
+      "momentum_1d": -0.018136176933403178,
+      "macd_crossover": false,
+      "atr_pct": 0.004696637992268341,
+      "bollinger_pct_b": 1.0953,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.07,
+      "news_sentiment": 0.389,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Why Is Dogecoin Down?",
+        "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
+        "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AVGO",
       "rank_score": 0.5207,
       "price": 357.8699951171875,
@@ -970,8 +1079,8 @@
       "news_confidence": 0.52,
       "news_headlines": [
         "Adobe appoints new CEO to succeed Narayen in December",
-        "Why Broadcom CEO Hock Tan Called Anthropic and OpenAI 'Two Geniuses in the Middle of Mongolia'",
-        "Jim Cramer Says \u201cSomeone Must Know Something\u201d About Broadcom Inc. (NASDAQ:AVGO)\u2019s Post-Earnings Share Dip"
+        "South Korea exports surpass annual record as AI chip boom drives shipments",
+        "Broadcom And 2 Other Undervalued Stocks To Own"
       ],
       "high_impact_news": true
     },
@@ -993,48 +1102,6 @@
         "Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
         "Black Diamond (BDTX) Up 9.4% Since Last Earnings Report: Can It Continue?",
         "Trailing rivals, AbbVie scores win with dual-acting myeloma drug"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.4786,
-      "price": 0.08472999930381775,
-      "rsi": 57.264940936733844,
-      "momentum_5d": 0.0008268155421608602,
-      "momentum_1d": -0.026091934001213676,
-      "macd_crossover": true,
-      "atr_pct": 0.004855772204554347,
-      "bollinger_pct_b": 0.4415,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.11,
-      "news_sentiment": 0.389,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Why Is Dogecoin Down?",
-        "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
-        "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "META",
-      "rank_score": 0.4778,
-      "price": 616.75,
-      "rsi": 73.5959276345982,
-      "momentum_5d": 0.007744955407167644,
-      "momentum_1d": 0.06280319449979423,
-      "macd_crossover": false,
-      "atr_pct": 0.01123847057950663,
-      "bollinger_pct_b": 0.756,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.71,
-      "news_sentiment": 0.591,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "Energy stocks could be the biggest winners of the AI boom",
-        "Jim Cramer Said Meta Platforms, Inc. (NASDAQ: META)\u2019s Big Court Win Was A Close Call",
-        "Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?"
       ],
       "high_impact_news": true
     }
