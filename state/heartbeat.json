@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 104044.4,
+  "portfolio_balance": 104000.8,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.57,
-  "unrealized_pnl_usd": 336.18,
-  "equity_value": 104380.58,
+  "portfolio_drawdown_pct": 3.61,
+  "unrealized_pnl_usd": 270.39,
+  "equity_value": 104271.19,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41617.76,
+  "day_capital_used_usd": 41600.32,
   "swing_capital_used_usd": 52153.02,
-  "total_trades": 1348,
-  "last_tick": "2026-09-05T15:39:57.094590+00:00",
+  "total_trades": 1350,
+  "last_tick": "2026-09-05T17:38:48.664427+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -201,42 +201,6 @@
       "current_price": 18.215,
       "unrealized_pnl_pct": 0.000823,
       "unrealized_pnl_usd": 5.34
-    },
-    {
-      "id": "ETH-USD_20260903180022",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 2500.39990234375,
-      "entry_time": "2026-09-03T18:00:22.297111+00:00",
-      "stop_loss_pct": 0.00884,
-      "take_profit_pct": 0.02151,
-      "size_usd": 5811.7,
-      "position_size_pct": 0.0557,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (75.7)",
-        "5d momentum +3.22%",
-        "1d momentum +4.51%",
-        "BB overbought (pct_b=0.98)",
-        "Volume spike 3.7\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: fed dovish; price surge"
-      ],
-      "news_sentiment": 0.152,
-      "news_headlines": [
-        "UK trading platform Hargreaves Lansdown ends its crypto holdout",
-        "Standard Chartered Launches Spot Bitcoin, Ether Trading for UAE Institutions",
-        "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12%"
-      ],
-      "mode": "paper",
-      "strategy_version": "118",
-      "status": "open",
-      "price_trough": 2448.7900390625,
-      "trailing_stop_price": 2470.437343,
-      "current_price": 2458.72998,
-      "unrealized_pnl_pct": 0.016665,
-      "unrealized_pnl_usd": 96.85
     },
     {
       "id": "XLK_20260903180022",
@@ -617,39 +581,6 @@
       "unrealized_pnl_usd": 3.62
     },
     {
-      "id": "BNB-USD_20260905125207",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 761.0399780273438,
-      "entry_time": "2026-09-05T12:52:07.516257+00:00",
-      "stop_loss_pct": 0.00781,
-      "take_profit_pct": 0.01873,
-      "size_usd": 5287.12,
-      "position_size_pct": 0.0508,
-      "confidence": 0.794,
-      "signals": [
-        "RSI overbought (89.5)",
-        "5d momentum +3.08%",
-        "1d momentum +6.33%",
-        "BB overbought (pct_b=1.09)",
-        "High-impact catalyst",
-        "Claude [contradicts]: fed dovish; product catalyst; price surge"
-      ],
-      "news_sentiment": 0.333,
-      "news_headlines": [
-        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
-        "BNB Price Forecast: $740 Break Could Open Path to $825",
-        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
-      ],
-      "mode": "paper",
-      "strategy_version": "119",
-      "status": "open",
-      "current_price": 766.099976,
-      "unrealized_pnl_pct": -0.006649,
-      "unrealized_pnl_usd": -35.15
-    },
-    {
       "id": "AVAX-USD_20260905125207",
       "asset": "AVAX-USD",
       "trade_type": "day",
@@ -679,30 +610,119 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "current_price": 7.538,
-      "unrealized_pnl_pct": -0.000133,
-      "unrealized_pnl_usd": -0.13
+      "current_price": 7.57,
+      "unrealized_pnl_pct": -0.004378,
+      "unrealized_pnl_usd": -4.22
+    },
+    {
+      "id": "DOGE-USD_20260905173848",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.08905000239610672,
+      "entry_time": "2026-09-05T17:38:48.660359+00:00",
+      "stop_loss_pct": 0.00889,
+      "take_profit_pct": 0.02201,
+      "size_usd": 6323.25,
+      "position_size_pct": 0.0608,
+      "confidence": 0.95,
+      "signals": [
+        "RSI overbought (91.7)",
+        "5d momentum +1.96%",
+        "1d momentum +5.84%",
+        "BB overbought (pct_b=1.07)",
+        "Volume spike 12.3\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": 0.389,
+      "news_headlines": [
+        "Why Is Dogecoin Down?",
+        "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
+        "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets"
+      ],
+      "mode": "paper",
+      "strategy_version": "119",
+      "status": "open",
+      "current_price": 0.08905,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "BNB-USD_20260905173848",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 775.5399780273438,
+      "entry_time": "2026-09-05T17:38:48.662445+00:00",
+      "stop_loss_pct": 0.01065,
+      "take_profit_pct": 0.02593,
+      "size_usd": 4758.13,
+      "position_size_pct": 0.0458,
+      "confidence": 0.87,
+      "signals": [
+        "RSI overbought (90.6)",
+        "5d momentum +1.61%",
+        "1d momentum +8.15%",
+        "BB overbought (pct_b=0.91)",
+        "Volume spike 2.0\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed dovish; product catalyst; price surge"
+      ],
+      "news_sentiment": 0.333,
+      "news_headlines": [
+        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
+        "BNB Price Forecast: $740 Break Could Open Path to $825",
+        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
+      ],
+      "mode": "paper",
+      "strategy_version": "119",
+      "status": "open",
+      "current_price": 775.539978,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "DOGE-USD",
-      "rank_score": 0.7864,
-      "price": 0.0878399983048439,
-      "rsi": 91.42853825342823,
-      "momentum_5d": 0.02317994076332825,
-      "momentum_1d": 0.040881607015817764,
+      "rank_score": 0.7964,
+      "price": 0.08905000239610672,
+      "rsi": 91.69821452921404,
+      "momentum_5d": 0.019578717169332065,
+      "momentum_1d": 0.05835511658466955,
       "macd_crossover": false,
-      "atr_pct": 0.006976964548731734,
-      "bollinger_pct_b": 1.0004,
+      "atr_pct": 0.008751094234895436,
+      "bollinger_pct_b": 1.0657,
       "volume_spike": true,
-      "volume_spike_ratio": 4.55,
+      "volume_spike_ratio": 12.3,
       "news_sentiment": 0.389,
       "news_confidence": 0.36,
       "news_headlines": [
         "Why Is Dogecoin Down?",
         "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
         "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BNB-USD",
+      "rank_score": 0.7274,
+      "price": 775.5399780273438,
+      "rsi": 90.64022098238075,
+      "momentum_5d": 0.016062189838456115,
+      "momentum_1d": 0.08152501749351564,
+      "macd_crossover": false,
+      "atr_pct": 0.010894716898999608,
+      "bollinger_pct_b": 0.9082,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.03,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
+        "BNB Price Forecast: $740 Break Could Open Path to $825",
+        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
       ],
       "high_impact_news": true
     },
@@ -724,6 +744,27 @@
         "A Roblox Director Sells 16,666 Shares After a 67% One-Year Decline in Stock Price",
         "Netflix\u2019s Acquisition Wishlist: Which Streaming Target Has the Best Odds?",
         "Roblox Falls 3% as Cathie Wood\u2019s ARK Keeps Selling, Take-Two Interactive Barely Budges"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.6662,
+      "price": 103.75,
+      "rsi": 73.84610569229746,
+      "momentum_5d": 0.004842615012106538,
+      "momentum_1d": 0.024691358024691357,
+      "macd_crossover": false,
+      "atr_pct": 0.004922543130109724,
+      "bollinger_pct_b": 1.0778,
+      "volume_spike": true,
+      "volume_spike_ratio": 27.0,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
+        "Cathie Wood\u2019s Ark Invest Buys HOOD Stock As Robinhood Sees Its Third-Best Week In Six Months",
+        "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
       ],
       "high_impact_news": true
     },
@@ -791,23 +832,65 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.6283,
-      "price": 766.0999755859375,
-      "rsi": 84.92266211246974,
-      "momentum_5d": 0.023978832182112154,
-      "momentum_1d": 0.06924030485804038,
+      "asset": "AVAX-USD",
+      "rank_score": 0.6559,
+      "price": 7.570000171661377,
+      "rsi": 87.16806130501016,
+      "momentum_5d": 0.00384568130394256,
+      "momentum_1d": 0.03147566964301667,
       "macd_crossover": false,
-      "atr_pct": 0.010008954448516894,
-      "bollinger_pct_b": 0.913,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.95,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.54,
+      "atr_pct": 0.005114166142354272,
+      "bollinger_pct_b": 0.8602,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.42,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
-        "BNB Price Forecast: $740 Break Could Open Path to $825",
-        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
+        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
+        "Ethena Launches Neobank App on Avalanche",
+        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.6529,
+      "price": 2475.469970703125,
+      "rsi": 72.73422937309918,
+      "momentum_5d": 0.006771500915420579,
+      "momentum_1d": 0.012263437228640291,
+      "macd_crossover": false,
+      "atr_pct": 0.0027928329976009726,
+      "bollinger_pct_b": 1.2452,
+      "volume_spike": true,
+      "volume_spike_ratio": 6.64,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.26,
+      "news_headlines": [
+        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
+        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
+        "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XRP-USD",
+      "rank_score": 0.6123,
+      "price": 1.4199999570846558,
+      "rsi": 78.96117166212534,
+      "momentum_5d": 0.0034626377728257237,
+      "momentum_1d": 0.018432169118338584,
+      "macd_crossover": false,
+      "atr_pct": 0.004617711087787079,
+      "bollinger_pct_b": 1.0003,
+      "volume_spike": true,
+      "volume_spike_ratio": 25.0,
+      "news_sentiment": 0.081,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "XRP Price Shows the Same Pattern That Sparked a 650% Rally",
+        "XRP Is Down 50% in a Year and Zcash Is Up 2,361%. Can Zcash Hold $1,000?",
+        "Ripple Put the XRP Logo on a College Football Field. Does That Move the XRP Price?"
       ],
       "high_impact_news": true
     },
@@ -854,6 +937,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.5682,
+      "price": 79996.9765625,
+      "rsi": 69.13766342307922,
+      "momentum_5d": 0.0035911101597544165,
+      "momentum_1d": 0.006633018555287426,
+      "macd_crossover": false,
+      "atr_pct": 0.0019930440730523704,
+      "bollinger_pct_b": 1.1079,
+      "volume_spike": true,
+      "volume_spike_ratio": 37.42,
+      "news_sentiment": 0.152,
+      "news_confidence": 0.33,
+      "news_headlines": [
+        "Bitcoin's $80,000 breakout failed after a blowout jobs report",
+        "Bitcoin ETFs see $731M inflow surge",
+        "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMD",
       "rank_score": 0.5591,
       "price": 477.45001220703125,
@@ -871,27 +975,6 @@
         "Thinking Machines Lab Seeks $40B Valuation as Nvidia Extends Its Capital Allocator Role Into Model-Space",
         "Elon Musk Committed SpaceX to Building \"Exclusively on Nvidia.\" Here's What That Locks In for SpaceX's Compute Bill.",
         "Marvell Stock Had A Huge Year And Still Sits Well Below Its High"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5578,
-      "price": 7.538000106811523,
-      "rsi": 83.2598822822621,
-      "momentum_5d": 0.0053347507441597625,
-      "momentum_1d": 0.023350519581589967,
-      "macd_crossover": false,
-      "atr_pct": 0.004889505646226849,
-      "bollinger_pct_b": 0.8332,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.7,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
-        "Ethena Launches Neobank App on Avalanche",
-        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi"
       ],
       "high_impact_news": true
     },
@@ -1015,93 +1098,9 @@
       "news_sentiment": 0.488,
       "news_confidence": 0.43,
       "news_headlines": [
+        "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
         "3 Incredible High-Growth Stocks to Buy With $10,000 Right Now",
-        "Bitcoin\u2019s \u2018Coiled Spring\u2019 Setup Has Economist James Thorne Bullish On The \u2018Next Big Trade\u2019",
-        "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ON",
-      "rank_score": 0.5357,
-      "price": 74.41500091552734,
-      "rsi": 62.66021060706635,
-      "momentum_5d": -0.0012750129912683318,
-      "momentum_1d": 0.024717682471167308,
-      "macd_crossover": false,
-      "atr_pct": 0.012091946839171053,
-      "bollinger_pct_b": 0.7022,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.36,
-      "news_sentiment": 0.736,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "What Is The Market Really Expecting From MPWR Stock?",
-        "Skyworks Chair: It Will Be a While Before This Cycle Ends",
-        "Q2 Earnings Roundup: onsemi (NASDAQ:ON) And The Rest Of The Analog Semiconductors Segment"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ABBV",
-      "rank_score": 0.535,
-      "price": 256.3599853515625,
-      "rsi": 28.619393519557434,
-      "momentum_5d": -0.0034042784406731964,
-      "momentum_1d": -0.012404659015600552,
-      "macd_crossover": false,
-      "atr_pct": 0.00686779469177911,
-      "bollinger_pct_b": 0.1615,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.09,
-      "news_sentiment": 0.674,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "3 Dividend Stocks to Buy and Hold Forever (Including 1 Dividend King)",
-        "ANI Pharmaceuticals (ANIP) Appoints Henry Gosebruch To Its Board",
-        "AbbVie vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.5267,
-      "price": 357.8699951171875,
-      "rsi": 39.57677737757486,
-      "momentum_5d": 0.004730680882528079,
-      "momentum_1d": -0.031160348728883156,
-      "macd_crossover": true,
-      "atr_pct": 0.015398817895030805,
-      "bollinger_pct_b": 0.4609,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "Broadcom (AVGO) AI Revenue Soars, But Wall Street Wants More",
-        "Broadcom And 2 Other Undervalued Stocks To Own",
-        "Why Broadcom CEO Hock Tan Called Anthropic and OpenAI 'Two Geniuses in the Middle of Mongolia'"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.5242,
-      "price": 158.76499938964844,
-      "rsi": 83.43430679285993,
-      "momentum_5d": 0.0069404100818853415,
-      "momentum_1d": 0.1271120169083761,
-      "macd_crossover": false,
-      "atr_pct": 0.014487821108125942,
-      "bollinger_pct_b": 0.7878,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.643,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "What Could IonQ (IONQ) Gain From Adding Two Veteran Board Members?",
-        "Jim Cramer Shares a Cautious Take on Oracle (ORCL) and Its Massive AI Buildout",
-        "Looking Ahead to the Q3 Earnings Season: What to Expect"
+        "Bitcoin\u2019s \u2018Coiled Spring\u2019 Setup Has Economist James Thorne Bullish On The \u2018Next Big Trade\u2019"
       ],
       "high_impact_news": true
     }

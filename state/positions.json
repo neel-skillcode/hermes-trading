@@ -166,39 +166,6 @@
     "price_trough": 18.03499984741211,
     "trailing_stop_price": 18.722133
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260903180022",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2500.39990234375,
-    "entry_time": "2026-09-03T18:00:22.297111+00:00",
-    "stop_loss_pct": 0.00884,
-    "take_profit_pct": 0.02151,
-    "size_usd": 5811.7,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (75.7)",
-      "5d momentum +3.22%",
-      "1d momentum +4.51%",
-      "BB overbought (pct_b=0.98)",
-      "Volume spike 3.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; price surge"
-    ],
-    "news_sentiment": 0.152,
-    "news_headlines": [
-      "UK trading platform Hargreaves Lansdown ends its crypto holdout",
-      "Standard Chartered Launches Spot Bitcoin, Ether Trading for UAE Institutions",
-      "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12%"
-    ],
-    "mode": "paper",
-    "strategy_version": "118",
-    "status": "open",
-    "price_trough": 2448.7900390625,
-    "trailing_stop_price": 2470.437343
-  },
   "XLK": {
     "id": "XLK_20260903180022",
     "asset": "XLK",
@@ -544,36 +511,6 @@
     "price_trough": 43.310001373291016,
     "trailing_stop_price": 43.921972
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260905125207",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 761.0399780273438,
-    "entry_time": "2026-09-05T12:52:07.516257+00:00",
-    "stop_loss_pct": 0.00781,
-    "take_profit_pct": 0.01873,
-    "size_usd": 5287.12,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (89.5)",
-      "5d momentum +3.08%",
-      "1d momentum +6.33%",
-      "BB overbought (pct_b=1.09)",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; product catalyst; price surge"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
-      "BNB Price Forecast: $740 Break Could Open Path to $825",
-      "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
-    ],
-    "mode": "paper",
-    "strategy_version": "119",
-    "status": "open"
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260905125207",
     "asset": "AVAX-USD",
@@ -600,6 +537,68 @@
       "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
       "Ethena Launches Neobank App on Avalanche",
       "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi"
+    ],
+    "mode": "paper",
+    "strategy_version": "119",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260905173848",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.08905000239610672,
+    "entry_time": "2026-09-05T17:38:48.660359+00:00",
+    "stop_loss_pct": 0.00889,
+    "take_profit_pct": 0.02201,
+    "size_usd": 6323.25,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (91.7)",
+      "5d momentum +1.96%",
+      "1d momentum +5.84%",
+      "BB overbought (pct_b=1.07)",
+      "Volume spike 12.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.389,
+    "news_headlines": [
+      "Why Is Dogecoin Down?",
+      "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
+      "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets"
+    ],
+    "mode": "paper",
+    "strategy_version": "119",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260905173848",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 775.5399780273438,
+    "entry_time": "2026-09-05T17:38:48.662445+00:00",
+    "stop_loss_pct": 0.01065,
+    "take_profit_pct": 0.02593,
+    "size_usd": 4758.13,
+    "position_size_pct": 0.0458,
+    "confidence": 0.87,
+    "signals": [
+      "RSI overbought (90.6)",
+      "5d momentum +1.61%",
+      "1d momentum +8.15%",
+      "BB overbought (pct_b=0.91)",
+      "Volume spike 2.0\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish; product catalyst; price surge"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
+      "BNB Price Forecast: $740 Break Could Open Path to $825",
+      "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
     ],
     "mode": "paper",
     "strategy_version": "119",
