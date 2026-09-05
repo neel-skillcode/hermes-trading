@@ -3,16 +3,16 @@
   "portfolio_balance": 103831.71,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.77,
-  "unrealized_pnl_usd": 263.75,
-  "equity_value": 104095.47,
+  "unrealized_pnl_usd": 311.08,
+  "equity_value": 104142.79,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41532.69,
   "swing_capital_used_usd": 52153.02,
   "total_trades": 1352,
-  "last_tick": "2026-09-05T19:28:52.347690+00:00",
-  "last_reflection": "2026-09-05",
+  "last_tick": "2026-09-05T21:33:18.048088+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -610,9 +610,11 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "current_price": 777.309998,
-      "unrealized_pnl_pct": -0.002282,
-      "unrealized_pnl_usd": -10.86
+      "price_trough": 770.0599975585938,
+      "trailing_stop_price": 778.261137,
+      "current_price": 770.059998,
+      "unrealized_pnl_pct": 0.007066,
+      "unrealized_pnl_usd": 33.62
     },
     {
       "id": "DOGE-USD_20260905192851",
@@ -644,9 +646,11 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "current_price": 0.09123,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.09115999937057495,
+      "trailing_stop_price": 0.092527,
+      "current_price": 0.09119,
+      "unrealized_pnl_pct": 0.000438,
+      "unrealized_pnl_usd": 2.77
     },
     {
       "id": "ETH-USD_20260905192851",
@@ -678,33 +682,14 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "current_price": 2481.330078,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 2480.830078125,
+      "trailing_stop_price": 2487.875636,
+      "current_price": 2481.120117,
+      "unrealized_pnl_pct": 8.5e-05,
+      "unrealized_pnl_usd": 0.08
     }
   ],
   "last_candidates": [
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.729,
-      "price": 0.09122999757528305,
-      "rsi": 74.29421500412383,
-      "momentum_5d": 0.03977662523331892,
-      "momentum_1d": 0.07620615774611196,
-      "macd_crossover": false,
-      "atr_pct": 0.01522837650081614,
-      "bollinger_pct_b": 0.9131,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.97,
-      "news_sentiment": 0.389,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Why Is Dogecoin Down?",
-        "Weekly Wrap: Bitcoin\u2019s Win Streak Continues",
-        "Zcash Hits Highest Price in Nearly a Decade, Crushing Short Bets"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "RBLX",
       "rank_score": 0.6693,
@@ -769,23 +754,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.6142,
-      "price": 2481.330078125,
-      "rsi": 79.61165513214446,
-      "momentum_5d": 0.00973800632059379,
-      "momentum_1d": 0.010116140922714973,
+      "asset": "XOM",
+      "rank_score": 0.6523,
+      "price": 159.42999267578125,
+      "rsi": 19.071681496818698,
+      "momentum_5d": -0.006295249004336448,
+      "momentum_1d": -0.028014030737309552,
       "macd_crossover": false,
-      "atr_pct": 0.0027986134061209565,
-      "bollinger_pct_b": 1.0376,
+      "atr_pct": 0.006542038108677377,
+      "bollinger_pct_b": 0.0973,
       "volume_spike": true,
-      "volume_spike_ratio": 15.8,
-      "news_sentiment": 0.385,
-      "news_confidence": 0.26,
+      "volume_spike_ratio": 2.5,
+      "news_sentiment": 0.487,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
-        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
-        "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
+        "Why I Just Added to My Chevron Position Despite Trump Criticism",
+        "Exxon Falls While Diesel Margins Explode to $108",
+        "Can ExxonMobil Benefit From the Current Energy Market Tightness?"
       ],
       "high_impact_news": true
     },
@@ -811,23 +796,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5997,
-      "price": 777.3099975585938,
-      "rsi": 94.04742212822603,
-      "momentum_5d": 0.009493503322849026,
-      "momentum_1d": 0.0791625890553282,
+      "asset": "DOGE-USD",
+      "rank_score": 0.5899,
+      "price": 0.09119000285863876,
+      "rsi": 70.14927862749066,
+      "momentum_5d": 0.03636779161202992,
+      "momentum_1d": 0.07942708494102595,
       "macd_crossover": false,
-      "atr_pct": 0.011112482237288458,
-      "bollinger_pct_b": 0.8423,
+      "atr_pct": 0.01578335295491852,
+      "bollinger_pct_b": 0.8376,
       "volume_spike": false,
-      "volume_spike_ratio": 0.31,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.54,
+      "volume_spike_ratio": 0.51,
+      "news_sentiment": 0.389,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
-        "BNB Price Forecast: $740 Break Could Open Path to $825",
-        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
+        "Can Dogecoin Reach $1 in the Next 12 Months?",
+        "Why Is Dogecoin Down?",
+        "Weekly Wrap: Bitcoin\u2019s Win Streak Continues"
       ],
       "high_impact_news": true
     },
@@ -874,23 +859,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5659,
-      "price": 7.630000114440918,
-      "rsi": 84.48836158938938,
-      "momentum_5d": 0.00952633313933039,
-      "momentum_1d": 0.03233666988171006,
+      "asset": "ETH-USD",
+      "rank_score": 0.556,
+      "price": 2481.1201171875,
+      "rsi": 73.09648846833329,
+      "momentum_5d": 0.004002111012295995,
+      "momentum_1d": 0.011698676963904881,
       "macd_crossover": false,
-      "atr_pct": 0.005663733476869558,
-      "bollinger_pct_b": 0.933,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.29,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.4,
+      "atr_pct": 0.0030066977912268146,
+      "bollinger_pct_b": 0.9281,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.39,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.26,
       "news_headlines": [
-        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
-        "Ethena Launches Neobank App on Avalanche",
-        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi"
+        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
+        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
+        "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
       ],
       "high_impact_news": true
     },
@@ -914,23 +899,6 @@
         "1 Value Stock with Impressive Fundamentals and 2 We Question"
       ],
       "high_impact_news": true
-    },
-    {
-      "asset": "XOM",
-      "rank_score": 0.5533,
-      "price": 159.42999267578125,
-      "rsi": 19.071681496818698,
-      "momentum_5d": -0.006295249004336448,
-      "momentum_1d": -0.028014030737309552,
-      "macd_crossover": false,
-      "atr_pct": 0.006542038108677377,
-      "bollinger_pct_b": 0.0973,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.5,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.1,
-      "news_headlines": [],
-      "high_impact_news": false
     },
     {
       "asset": "MRVL",
@@ -1080,23 +1048,65 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5314,
-      "price": 1.420300006866455,
-      "rsi": 69.18825234625358,
-      "momentum_5d": 0.003745614951456965,
-      "momentum_1d": 0.014789923868227233,
+      "asset": "MU",
+      "rank_score": 0.5304,
+      "price": 1014.9500122070312,
+      "rsi": 72.14377602909646,
+      "momentum_5d": 0.015158136974004864,
+      "momentum_1d": 0.07958474565817637,
       "macd_crossover": false,
-      "atr_pct": 0.005164898529239316,
-      "bollinger_pct_b": 0.8655,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.28,
-      "news_sentiment": 0.081,
-      "news_confidence": 0.37,
+      "atr_pct": 0.016061683405713314,
+      "bollinger_pct_b": 0.936,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.259,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "XRP Price Shows the Same Pattern That Sparked a 650% Rally",
-        "XRP Is Down 50% in a Year and Zcash Is Up 2,361%. Can Zcash Hold $1,000?",
-        "Ripple Put the XRP Logo on a College Football Field. Does That Move the XRP Price?"
+        "3 Great Quality Stocks To Own In September 2026",
+        "The S&P 500 Fell, but These 2 AI Memory Stocks Exploded Higher",
+        "Dow Jones Futures: U.S., Iran Exchange Attacks; Nvidia, Micron, Sandisk Flash Buy Signals"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.5242,
+      "price": 158.76499938964844,
+      "rsi": 83.43430679285993,
+      "momentum_5d": 0.0069404100818853415,
+      "momentum_1d": 0.1271120169083761,
+      "macd_crossover": false,
+      "atr_pct": 0.014487821108125942,
+      "bollinger_pct_b": 0.7878,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.643,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "What Could IonQ (IONQ) Gain From Adding Two Veteran Board Members?",
+        "Jim Cramer Shares a Cautious Take on Oracle (ORCL) and Its Massive AI Buildout",
+        "Looking Ahead to the Q3 Earnings Season: What to Expect"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5125,
+      "price": 7.614999771118164,
+      "rsi": 73.38396630592638,
+      "momentum_5d": 0.006609347457966317,
+      "momentum_1d": 0.035350068167291464,
+      "macd_crossover": false,
+      "atr_pct": 0.005487286172901006,
+      "bollinger_pct_b": 0.8442,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.56,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
+        "Ethena Launches Neobank App on Avalanche",
+        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi"
       ],
       "high_impact_news": true
     }
