@@ -3,15 +3,15 @@
   "portfolio_balance": 103831.71,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.77,
-  "unrealized_pnl_usd": 311.08,
-  "equity_value": 104142.79,
+  "unrealized_pnl_usd": 425.23,
+  "equity_value": 104256.94,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41532.69,
   "swing_capital_used_usd": 52153.02,
   "total_trades": 1352,
-  "last_tick": "2026-09-05T21:33:18.048088+00:00",
+  "last_tick": "2026-09-05T23:14:02.650608+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -610,11 +610,11 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "price_trough": 770.0599975585938,
-      "trailing_stop_price": 778.261137,
-      "current_price": 770.059998,
-      "unrealized_pnl_pct": 0.007066,
-      "unrealized_pnl_usd": 33.62
+      "price_trough": 765.0,
+      "trailing_stop_price": 773.14725,
+      "current_price": 765.119995,
+      "unrealized_pnl_pct": 0.013436,
+      "unrealized_pnl_usd": 63.93
     },
     {
       "id": "DOGE-USD_20260905192851",
@@ -646,11 +646,11 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "price_trough": 0.09115999937057495,
-      "trailing_stop_price": 0.092527,
-      "current_price": 0.09119,
-      "unrealized_pnl_pct": 0.000438,
-      "unrealized_pnl_usd": 2.77
+      "price_trough": 0.08998999744653702,
+      "trailing_stop_price": 0.09134,
+      "current_price": 0.08999,
+      "unrealized_pnl_pct": 0.013592,
+      "unrealized_pnl_usd": 85.81
     },
     {
       "id": "ETH-USD_20260905192851",
@@ -682,11 +682,11 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "price_trough": 2480.830078125,
-      "trailing_stop_price": 2487.875636,
-      "current_price": 2481.120117,
-      "unrealized_pnl_pct": 8.5e-05,
-      "unrealized_pnl_usd": 0.08
+      "price_trough": 2478.840087890625,
+      "trailing_stop_price": 2485.879994,
+      "current_price": 2478.919922,
+      "unrealized_pnl_pct": 0.000971,
+      "unrealized_pnl_usd": 0.88
     }
   ],
   "last_candidates": [
@@ -796,27 +796,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5899,
-      "price": 0.09119000285863876,
-      "rsi": 70.14927862749066,
-      "momentum_5d": 0.03636779161202992,
-      "momentum_1d": 0.07942708494102595,
-      "macd_crossover": false,
-      "atr_pct": 0.01578335295491852,
-      "bollinger_pct_b": 0.8376,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.51,
-      "news_sentiment": 0.389,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Can Dogecoin Reach $1 in the Next 12 Months?",
-        "Why Is Dogecoin Down?",
-        "Weekly Wrap: Bitcoin\u2019s Win Streak Continues"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SBUX",
       "rank_score": 0.576,
       "price": 104.44999694824219,
@@ -852,30 +831,9 @@
       "news_sentiment": 0.391,
       "news_confidence": 0.46,
       "news_headlines": [
+        "AMD Committed Up to $5 Billion to Anthropic, and Anthropic's IPO Prospectus Is Reportedly Days Away",
         "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
-        "Thinking Machines Lab Seeks $40B Valuation as Nvidia Extends Its Capital Allocator Role Into Model-Space",
-        "Elon Musk Committed SpaceX to Building \"Exclusively on Nvidia.\" Here's What That Locks In for SpaceX's Compute Bill."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.556,
-      "price": 2481.1201171875,
-      "rsi": 73.09648846833329,
-      "momentum_5d": 0.004002111012295995,
-      "momentum_1d": 0.011698676963904881,
-      "macd_crossover": false,
-      "atr_pct": 0.0030066977912268146,
-      "bollinger_pct_b": 0.9281,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.39,
-      "news_sentiment": 0.385,
-      "news_confidence": 0.26,
-      "news_headlines": [
-        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
-        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
-        "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
+        "Thinking Machines Lab Seeks $40B Valuation as Nvidia Extends Its Capital Allocator Role Into Model-Space"
       ],
       "high_impact_news": true
     },
@@ -1090,23 +1048,65 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5125,
-      "price": 7.614999771118164,
-      "rsi": 73.38396630592638,
-      "momentum_5d": 0.006609347457966317,
-      "momentum_1d": 0.035350068167291464,
+      "asset": "REGN",
+      "rank_score": 0.5007,
+      "price": 827.6900024414062,
+      "rsi": 24.896385770853655,
+      "momentum_5d": -0.007565944314860611,
+      "momentum_1d": 0.014636840259155685,
       "macd_crossover": false,
-      "atr_pct": 0.005487286172901006,
-      "bollinger_pct_b": 0.8442,
+      "atr_pct": 0.00773107095896934,
+      "bollinger_pct_b": 0.0656,
       "volume_spike": false,
-      "volume_spike_ratio": 0.56,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.4,
+      "volume_spike_ratio": 1.32,
+      "news_sentiment": 0.813,
+      "news_confidence": 0.57,
       "news_headlines": [
-        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
-        "Ethena Launches Neobank App on Avalanche",
-        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi"
+        "Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
+        "Black Diamond (BDTX) Up 9.4% Since Last Earnings Report: Can It Continue?",
+        "Trailing rivals, AbbVie scores win with dual-acting myeloma drug"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "META",
+      "rank_score": 0.4859,
+      "price": 616.75,
+      "rsi": 73.5959276345982,
+      "momentum_5d": 0.007744955407167644,
+      "momentum_1d": 0.06280319449979423,
+      "macd_crossover": false,
+      "atr_pct": 0.01123847057950663,
+      "bollinger_pct_b": 0.756,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.71,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Meta stands to gain as Mark Zuckerberg makes shocking decision",
+        "\u2018AI Laggard\u2019 Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform",
+        "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That\u2019s Climbed 200,000% Since Its IPO -- And It\u2019s His Top Position."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.4763,
+      "price": 220.97000122070312,
+      "rsi": 41.56120130443484,
+      "momentum_5d": 0.004223754923605366,
+      "momentum_1d": 0.03435845232469571,
+      "macd_crossover": false,
+      "atr_pct": 0.007026901237372674,
+      "bollinger_pct_b": 0.2498,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.29,
+      "news_sentiment": 0.898,
+      "news_confidence": 0.59,
+      "news_headlines": [
+        "This Biotech Wins a Big FDA Approval. Why Wall Street Is Shrugging.",
+        "Exelixis (EXEL) Up 13.3% Since Last Earnings Report: Can It Continue?",
+        "Why Is Veeva Systems (VEEV) Winning Big In AI For Biopharma?"
       ],
       "high_impact_news": true
     }
