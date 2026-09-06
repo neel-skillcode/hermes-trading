@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 103831.71,
+  "portfolio_balance": 103828.42,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.77,
-  "unrealized_pnl_usd": 425.23,
-  "equity_value": 104256.94,
+  "unrealized_pnl_usd": 395.71,
+  "equity_value": 104224.13,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41532.69,
+  "day_capital_used_usd": 41531.37,
   "swing_capital_used_usd": 52153.02,
-  "total_trades": 1352,
-  "last_tick": "2026-09-05T23:14:02.650608+00:00",
+  "total_trades": 1353,
+  "last_tick": "2026-09-06T01:00:13.320785+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 0,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -610,11 +610,11 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "price_trough": 765.0,
-      "trailing_stop_price": 773.14725,
-      "current_price": 765.119995,
-      "unrealized_pnl_pct": 0.013436,
-      "unrealized_pnl_usd": 63.93
+      "price_trough": 767.0800170898438,
+      "trailing_stop_price": 775.249419,
+      "current_price": 767.080017,
+      "unrealized_pnl_pct": 0.010908,
+      "unrealized_pnl_usd": 51.9
     },
     {
       "id": "DOGE-USD_20260905192851",
@@ -646,47 +646,45 @@
       "mode": "paper",
       "strategy_version": "119",
       "status": "open",
-      "price_trough": 0.08998999744653702,
-      "trailing_stop_price": 0.09134,
-      "current_price": 0.08999,
-      "unrealized_pnl_pct": 0.013592,
-      "unrealized_pnl_usd": 85.81
+      "price_trough": 0.09023000299930573,
+      "trailing_stop_price": 0.091583,
+      "current_price": 0.09023,
+      "unrealized_pnl_pct": 0.010961,
+      "unrealized_pnl_usd": 69.2
     },
     {
-      "id": "ETH-USD_20260905192851",
+      "id": "ETH-USD_20260906010013",
       "asset": "ETH-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 2481.330078125,
-      "entry_time": "2026-09-05T19:28:51.819289+00:00",
-      "stop_loss_pct": 0.00284,
-      "take_profit_pct": 0.00704,
-      "size_usd": 907.23,
+      "entry_price": 2490.35009765625,
+      "entry_time": "2026-09-06T01:00:13.317712+00:00",
+      "stop_loss_pct": 0.00377,
+      "take_profit_pct": 0.00934,
+      "size_usd": 905.91,
       "position_size_pct": 0.0087,
       "confidence": 0.95,
       "signals": [
-        "RSI overbought (79.6)",
-        "5d momentum +0.97%",
-        "1d momentum +1.01%",
-        "BB overbought (pct_b=1.04)",
-        "Volume spike 15.8\u00d7",
+        "RSI overbought (75.6)",
+        "5d momentum +0.51%",
+        "1d momentum +1.55%",
+        "BB overbought (pct_b=0.94)",
+        "Volume spike 14.4\u00d7",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
       ],
       "news_sentiment": 0.385,
       "news_headlines": [
+        "Banksy, Star Wars and JPMorgan Meet in a $1 Billion Museum",
         "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
-        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
-        "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
+        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket"
       ],
       "mode": "paper",
-      "strategy_version": "119",
+      "strategy_version": "120",
       "status": "open",
-      "price_trough": 2478.840087890625,
-      "trailing_stop_price": 2485.879994,
-      "current_price": 2478.919922,
-      "unrealized_pnl_pct": 0.000971,
-      "unrealized_pnl_usd": 0.88
+      "current_price": 2490.350098,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -792,6 +790,27 @@
         "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
         "Micron and Western Digital Shares Skyrocket, What You Need To Know",
         "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5846,
+      "price": 2490.35009765625,
+      "rsi": 75.55526391224913,
+      "momentum_5d": 0.005113721854797968,
+      "momentum_1d": 0.015507775590776552,
+      "macd_crossover": false,
+      "atr_pct": 0.003712908691442042,
+      "bollinger_pct_b": 0.9395,
+      "volume_spike": true,
+      "volume_spike_ratio": 14.37,
+      "news_sentiment": 0.385,
+      "news_confidence": 0.26,
+      "news_headlines": [
+        "Banksy, Star Wars and JPMorgan Meet in a $1 Billion Museum",
+        "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
+        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket"
       ],
       "high_impact_news": true
     },
@@ -1083,30 +1102,9 @@
       "news_sentiment": 0.81,
       "news_confidence": 0.42,
       "news_headlines": [
+        "Mark Zuckerberg Opposes Federal AI Watchdog in Call With Trump: Report",
         "Meta stands to gain as Mark Zuckerberg makes shocking decision",
-        "\u2018AI Laggard\u2019 Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform",
-        "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That\u2019s Climbed 200,000% Since Its IPO -- And It\u2019s His Top Position."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.4763,
-      "price": 220.97000122070312,
-      "rsi": 41.56120130443484,
-      "momentum_5d": 0.004223754923605366,
-      "momentum_1d": 0.03435845232469571,
-      "macd_crossover": false,
-      "atr_pct": 0.007026901237372674,
-      "bollinger_pct_b": 0.2498,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.29,
-      "news_sentiment": 0.898,
-      "news_confidence": 0.59,
-      "news_headlines": [
-        "This Biotech Wins a Big FDA Approval. Why Wall Street Is Shrugging.",
-        "Exelixis (EXEL) Up 13.3% Since Last Earnings Report: Can It Continue?",
-        "Why Is Veeva Systems (VEEV) Winning Big In AI For Biopharma?"
+        "\u2018AI Laggard\u2019 Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform"
       ],
       "high_impact_news": true
     }

@@ -540,7 +540,9 @@
     ],
     "mode": "paper",
     "strategy_version": "119",
-    "status": "open"
+    "status": "open",
+    "price_trough": 767.0800170898438,
+    "trailing_stop_price": 775.249419
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260905192851",
@@ -571,37 +573,39 @@
     ],
     "mode": "paper",
     "strategy_version": "119",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.09023000299930573,
+    "trailing_stop_price": 0.091583
   },
   "ETH-USD": {
-    "id": "ETH-USD_20260905192851",
+    "id": "ETH-USD_20260906010013",
     "asset": "ETH-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 2481.330078125,
-    "entry_time": "2026-09-05T19:28:51.819289+00:00",
-    "stop_loss_pct": 0.00284,
-    "take_profit_pct": 0.00704,
-    "size_usd": 907.23,
+    "entry_price": 2490.35009765625,
+    "entry_time": "2026-09-06T01:00:13.317712+00:00",
+    "stop_loss_pct": 0.00377,
+    "take_profit_pct": 0.00934,
+    "size_usd": 905.91,
     "position_size_pct": 0.0087,
     "confidence": 0.95,
     "signals": [
-      "RSI overbought (79.6)",
-      "5d momentum +0.97%",
-      "1d momentum +1.01%",
-      "BB overbought (pct_b=1.04)",
-      "Volume spike 15.8\u00d7",
+      "RSI overbought (75.6)",
+      "5d momentum +0.51%",
+      "1d momentum +1.55%",
+      "BB overbought (pct_b=0.94)",
+      "Volume spike 14.4\u00d7",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
     ],
     "news_sentiment": 0.385,
     "news_headlines": [
+      "Banksy, Star Wars and JPMorgan Meet in a $1 Billion Museum",
       "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
-      "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
-      "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
+      "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket"
     ],
     "mode": "paper",
-    "strategy_version": "119",
+    "strategy_version": "120",
     "status": "open"
   }
 }
