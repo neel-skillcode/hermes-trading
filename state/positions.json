@@ -511,39 +511,6 @@
     "price_trough": 43.310001373291016,
     "trailing_stop_price": 43.921972
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260905173848",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 775.5399780273438,
-    "entry_time": "2026-09-05T17:38:48.662445+00:00",
-    "stop_loss_pct": 0.01065,
-    "take_profit_pct": 0.02593,
-    "size_usd": 4758.13,
-    "position_size_pct": 0.0458,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (90.6)",
-      "5d momentum +1.61%",
-      "1d momentum +8.15%",
-      "BB overbought (pct_b=0.91)",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed dovish; product catalyst; price surge"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
-      "BNB Price Forecast: $740 Break Could Open Path to $825",
-      "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
-    ],
-    "mode": "paper",
-    "strategy_version": "119",
-    "status": "open",
-    "price_trough": 763.1599731445312,
-    "trailing_stop_price": 771.287627
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260906054533",
     "asset": "SOL-USD",
@@ -601,6 +568,38 @@
       "Banksy, Star Wars and JPMorgan Meet in a $1 Billion Museum",
       "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
       "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket"
+    ],
+    "mode": "paper",
+    "strategy_version": "120",
+    "status": "open",
+    "price_trough": 2499.219970703125,
+    "trailing_stop_price": 2511.866024
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260906130810",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 754.5,
+    "entry_time": "2026-09-06T13:08:10.403853+00:00",
+    "stop_loss_pct": 0.00453,
+    "take_profit_pct": 0.01129,
+    "size_usd": 4809.76,
+    "position_size_pct": 0.0463,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (17.6)",
+      "5d momentum -0.34%",
+      "1d momentum -0.86%",
+      "BB oversold (pct_b=0.14)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: fed dovish; product catalyst; price surge"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
+      "BNB Price Forecast: $740 Break Could Open Path to $825",
+      "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
     ],
     "mode": "paper",
     "strategy_version": "120",

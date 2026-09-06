@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 103787.71,
+  "portfolio_balance": 103916.8,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 3.81,
-  "unrealized_pnl_usd": 400.13,
-  "equity_value": 104187.84,
+  "portfolio_drawdown_pct": 3.69,
+  "unrealized_pnl_usd": 254.7,
+  "equity_value": 104171.49,
   "open_positions": 20,
   "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 41515.09,
+  "day_capital_used_usd": 41566.72,
   "swing_capital_used_usd": 52153.02,
-  "total_trades": 1355,
-  "last_tick": "2026-09-06T09:41:07.066536+00:00",
+  "total_trades": 1356,
+  "last_tick": "2026-09-06T13:08:10.405487+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 4,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -581,42 +581,6 @@
       "unrealized_pnl_usd": 3.62
     },
     {
-      "id": "BNB-USD_20260905173848",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 775.5399780273438,
-      "entry_time": "2026-09-05T17:38:48.662445+00:00",
-      "stop_loss_pct": 0.01065,
-      "take_profit_pct": 0.02593,
-      "size_usd": 4758.13,
-      "position_size_pct": 0.0458,
-      "confidence": 0.87,
-      "signals": [
-        "RSI overbought (90.6)",
-        "5d momentum +1.61%",
-        "1d momentum +8.15%",
-        "BB overbought (pct_b=0.91)",
-        "Volume spike 2.0\u00d7",
-        "High-impact catalyst",
-        "Claude [contradicts]: fed dovish; product catalyst; price surge"
-      ],
-      "news_sentiment": 0.333,
-      "news_headlines": [
-        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
-        "BNB Price Forecast: $740 Break Could Open Path to $825",
-        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
-      ],
-      "mode": "paper",
-      "strategy_version": "119",
-      "status": "open",
-      "price_trough": 757.5999755859375,
-      "trailing_stop_price": 765.668415,
-      "current_price": 757.599976,
-      "unrealized_pnl_pct": 0.023132,
-      "unrealized_pnl_usd": 110.07
-    },
-    {
       "id": "SOL-USD_20260906054533",
       "asset": "SOL-USD",
       "trade_type": "day",
@@ -646,11 +610,9 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "price_trough": 106.41000366210938,
-      "trailing_stop_price": 107.295335,
-      "current_price": 106.410004,
-      "unrealized_pnl_pct": 0.001408,
-      "unrealized_pnl_usd": 8.88
+      "current_price": 107.0,
+      "unrealized_pnl_pct": -0.004129,
+      "unrealized_pnl_usd": -26.06
     },
     {
       "id": "ETH-USD_20260906054533",
@@ -682,35 +644,47 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "price_trough": 2498.10009765625,
-      "trailing_stop_price": 2510.740484,
-      "current_price": 2498.100098,
-      "unrealized_pnl_pct": 0.007359,
-      "unrealized_pnl_usd": 6.57
+      "price_trough": 2499.219970703125,
+      "trailing_stop_price": 2511.866024,
+      "current_price": 2499.290039,
+      "unrealized_pnl_pct": 0.006886,
+      "unrealized_pnl_usd": 6.14
+    },
+    {
+      "id": "BNB-USD_20260906130810",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 754.5,
+      "entry_time": "2026-09-06T13:08:10.403853+00:00",
+      "stop_loss_pct": 0.00453,
+      "take_profit_pct": 0.01129,
+      "size_usd": 4809.76,
+      "position_size_pct": 0.0463,
+      "confidence": 0.99,
+      "signals": [
+        "RSI oversold (17.6)",
+        "5d momentum -0.34%",
+        "1d momentum -0.86%",
+        "BB oversold (pct_b=0.14)",
+        "High-impact catalyst",
+        "Claude [strongly_supports]: fed dovish; product catalyst; price surge"
+      ],
+      "news_sentiment": 0.333,
+      "news_headlines": [
+        "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
+        "BNB Price Forecast: $740 Break Could Open Path to $825",
+        "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
+      ],
+      "mode": "paper",
+      "strategy_version": "120",
+      "status": "open",
+      "current_price": 754.5,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.6764,
-      "price": 106.41000366210938,
-      "rsi": 70.67773824146417,
-      "momentum_5d": 0.0063363515403418854,
-      "momentum_1d": 0.03774139567026284,
-      "macd_crossover": false,
-      "atr_pct": 0.009182810312119835,
-      "bollinger_pct_b": 0.9518,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.42,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
-        "Cathie Wood\u2019s Ark Invest Buys HOOD Stock As Robinhood Sees Its Third-Best Week In Six Months",
-        "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "RBLX",
       "rank_score": 0.6693,
@@ -817,6 +791,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.5795,
+      "price": 107.0,
+      "rsi": 77.02118910027488,
+      "momentum_5d": 0.017110295665154856,
+      "momentum_1d": 0.042275435253003674,
+      "macd_crossover": false,
+      "atr_pct": 0.009205613180855724,
+      "bollinger_pct_b": 0.8701,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.23,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Coinbase Says Crypto's Next Wave of Growth Will Come From AI Agents. Here's What Crypto Investors Need to Know.",
+        "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
+        "Cathie Wood\u2019s Ark Invest Buys HOOD Stock As Robinhood Sees Its Third-Best Week In Six Months"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SBUX",
       "rank_score": 0.576,
       "price": 104.44999694824219,
@@ -855,6 +850,27 @@
         "AMD Committed Up to $5 Billion to Anthropic, and Anthropic's IPO Prospectus Is Reportedly Days Away",
         "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
         "Thinking Machines Lab Seeks $40B Valuation as Nvidia Extends Its Capital Allocator Role Into Model-Space"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.5617,
+      "price": 357.8699951171875,
+      "rsi": 39.57677737757486,
+      "momentum_5d": 0.004730680882528079,
+      "momentum_1d": -0.031160348728883156,
+      "macd_crossover": true,
+      "atr_pct": 0.015398817895030805,
+      "bollinger_pct_b": 0.4609,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.72,
+      "news_sentiment": 0.94,
+      "news_confidence": 0.67,
+      "news_headlines": [
+        "These AI numbers are getting crazy",
+        "Broadcom And 2 Top Growth Stocks To Watch",
+        "Nvidia\u2019s Hugging Face Deal Is a Hedge against Broadcom\u2019s Custom Silicon Threat"
       ],
       "high_impact_news": true
     },
@@ -901,27 +917,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.5467,
-      "price": 357.8699951171875,
-      "rsi": 39.57677737757486,
-      "momentum_5d": 0.004730680882528079,
-      "momentum_1d": -0.031160348728883156,
-      "macd_crossover": true,
-      "atr_pct": 0.015398817895030805,
-      "bollinger_pct_b": 0.4609,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.774,
-      "news_confidence": 0.62,
-      "news_headlines": [
-        "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
-        "With AI Revenue Set to Surge 400% Over the Next 2 Years, Broadcom Stock Looks Like a Buy on Recent Dip",
-        "Broadcom (AVGO) AI Revenue Soars, But Wall Street Wants More"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "RXRX",
       "rank_score": 0.545,
       "price": 3.634999990463257,
@@ -960,6 +955,27 @@
         "Morgan Stanley delivers bold Carvana stock verdict",
         "Anthropic Weighs Morgan Stanley And Goldman Sachs For Key Roles In $2 Trillion IPO, Says Report",
         "Morgan Stanley makes a buy call on tumbling retail giant stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MU",
+      "rank_score": 0.5394,
+      "price": 1014.9500122070312,
+      "rsi": 72.14377602909646,
+      "momentum_5d": 0.015158136974004864,
+      "momentum_1d": 0.07958474565817637,
+      "macd_crossover": false,
+      "atr_pct": 0.016061683405713314,
+      "bollinger_pct_b": 0.936,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.377,
+      "news_confidence": 0.61,
+      "news_headlines": [
+        "Broadcom And 2 Top Growth Stocks To Watch",
+        "Dow Jones Futures Loom After U.S.-Iran Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
+        "3 Great Quality Stocks To Own In September 2026"
       ],
       "high_impact_news": true
     },
@@ -1020,36 +1036,15 @@
       "news_sentiment": 0.674,
       "news_confidence": 0.43,
       "news_headlines": [
+        "Plastic surgery is booming with boomers. Here\u2019s how to cash in on the antiaging craze.",
         "3 Dividend Stocks to Buy and Hold Forever (Including 1 Dividend King)",
-        "ANI Pharmaceuticals (ANIP) Appoints Henry Gosebruch To Its Board",
-        "AbbVie vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MU",
-      "rank_score": 0.5304,
-      "price": 1014.9500122070312,
-      "rsi": 72.14377602909646,
-      "momentum_5d": 0.015158136974004864,
-      "momentum_1d": 0.07958474565817637,
-      "macd_crossover": false,
-      "atr_pct": 0.016061683405713314,
-      "bollinger_pct_b": 0.936,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.259,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "3 Great Quality Stocks To Own In September 2026",
-        "The S&P 500 Fell, but These 2 AI Memory Stocks Exploded Higher",
-        "Dow Jones Futures: U.S., Iran Exchange Attacks; Nvidia, Micron, Sandisk Flash Buy Signals"
+        "ANI Pharmaceuticals (ANIP) Appoints Henry Gosebruch To Its Board"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.5242,
+      "rank_score": 0.5262,
       "price": 158.76499938964844,
       "rsi": 83.43430679285993,
       "momentum_5d": 0.0069404100818853415,
@@ -1059,12 +1054,12 @@
       "bollinger_pct_b": 0.7878,
       "volume_spike": false,
       "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.643,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.623,
+      "news_confidence": 0.61,
       "news_headlines": [
-        "What Could IonQ (IONQ) Gain From Adding Two Veteran Board Members?",
-        "Jim Cramer Shares a Cautious Take on Oracle (ORCL) and Its Massive AI Buildout",
-        "Looking Ahead to the Q3 Earnings Season: What to Expect"
+        "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
+        "Broadcom And 2 Top Growth Stocks To Watch",
+        "What to Expect in Markets This Week: Fresh Inflation Data; Apple\u2019s Fall Launch Event and Oracle Earnings"
       ],
       "high_impact_news": true
     },
