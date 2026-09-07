@@ -3,19 +3,19 @@
   "portfolio_balance": 103818.95,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.78,
-  "unrealized_pnl_usd": 309.12,
-  "equity_value": 104128.07,
+  "unrealized_pnl_usd": 323.64,
+  "equity_value": 104142.59,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41550.11,
   "swing_capital_used_usd": 49255.33,
   "total_trades": 1359,
-  "last_tick": "2026-09-07T08:47:48.599197+00:00",
+  "last_tick": "2026-09-07T14:29:17.189242+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
-  "market_open": false,
+  "market_open": true,
   "open_position_list": [
     {
       "id": "USD/HKD_20260524050433",
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.84032,
-      "unrealized_pnl_pct": 0.000768,
-      "unrealized_pnl_usd": 1.03
+      "current_price": 7.83958,
+      "unrealized_pnl_pct": 0.000674,
+      "unrealized_pnl_usd": 0.91
     },
     {
       "id": "HD_20260821194841",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_peak": 1.8843899965286255,
       "trailing_stop_price": 1.869315,
-      "current_price": 1.87523,
-      "unrealized_pnl_pct": -0.004137,
-      "unrealized_pnl_usd": -23.15
+      "current_price": 1.87518,
+      "unrealized_pnl_pct": -0.004164,
+      "unrealized_pnl_usd": -23.3
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_peak": 1.6198300123214722,
       "trailing_stop_price": 1.606871,
-      "current_price": 1.61056,
-      "unrealized_pnl_pct": -0.003693,
-      "unrealized_pnl_usd": -8.59
+      "current_price": 1.6108,
+      "unrealized_pnl_pct": -0.003545,
+      "unrealized_pnl_usd": -8.25
     },
     {
       "id": "GLD_20260903143205",
@@ -577,11 +577,11 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "price_trough": 104.83000183105469,
-      "trailing_stop_price": 105.702187,
-      "current_price": 104.839996,
-      "unrealized_pnl_pct": 0.016141,
-      "unrealized_pnl_usd": 101.86
+      "price_trough": 104.37999725341797,
+      "trailing_stop_price": 105.248439,
+      "current_price": 104.32,
+      "unrealized_pnl_pct": 0.021021,
+      "unrealized_pnl_usd": 132.65
     },
     {
       "id": "BNB-USD_20260906161306",
@@ -612,9 +612,9 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "current_price": 744.690002,
-      "unrealized_pnl_pct": -0.002825,
-      "unrealized_pnl_usd": -16.06
+      "current_price": 743.5,
+      "unrealized_pnl_pct": -0.004419,
+      "unrealized_pnl_usd": -25.12
     },
     {
       "id": "USD/NOK_20260907084748",
@@ -638,31 +638,12 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "current_price": 9.27604,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 9.26393,
+      "unrealized_pnl_pct": -0.001305,
+      "unrealized_pnl_usd": -7.29
     }
   ],
   "last_candidates": [
-    {
-      "asset": "CAD/JPY",
-      "rank_score": 0.6851,
-      "price": 111.60199737548828,
-      "rsi": 17.35393995365962,
-      "momentum_5d": -0.010436357479068193,
-      "momentum_1d": -0.01435170089878039,
-      "macd_crossover": false,
-      "atr_pct": 0.001942491899455638,
-      "bollinger_pct_b": -0.4058,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "RBLX",
       "rank_score": 0.6693,
@@ -681,6 +662,27 @@
         "A Roblox Director Sells 16,666 Shares After a 67% One-Year Decline in Stock Price",
         "Netflix\u2019s Acquisition Wishlist: Which Streaming Target Has the Best Odds?",
         "Roblox Falls 3% as Cathie Wood\u2019s ARK Keeps Selling, Take-Two Interactive Barely Budges"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "LRCX",
+      "rank_score": 0.6618,
+      "price": 307.6400146484375,
+      "rsi": 70.1136975422865,
+      "momentum_5d": 0.018169852268254516,
+      "momentum_1d": 0.0627149255248136,
+      "macd_crossover": false,
+      "atr_pct": 0.01596163442293313,
+      "bollinger_pct_b": 0.9325,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.74,
+      "news_sentiment": 0.525,
+      "news_confidence": 0.59,
+      "news_headlines": [
+        "Lam Research Nearly Triples in a Year: Is the Stock Still Worth Buying?",
+        "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
+        "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?"
       ],
       "high_impact_news": true
     },
@@ -706,85 +708,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "EUR/JPY",
-      "rank_score": 0.6589,
-      "price": 179.36199951171875,
-      "rsi": 15.844754707313953,
-      "momentum_5d": -0.010121634265866354,
-      "momentum_1d": -0.01264455443182662,
+      "asset": "AVAX-USD",
+      "rank_score": 0.616,
+      "price": 8.060999870300293,
+      "rsi": 60.20669048792509,
+      "momentum_5d": 0.02219118823572734,
+      "momentum_1d": 0.060518359203365124,
       "macd_crossover": false,
-      "atr_pct": 0.0017406944810594153,
-      "bollinger_pct_b": -0.4483,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.778,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
-        "Mixed Performance by the Yen Ahead of Inflation and the BoJ\u2019s Meeting"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "LRCX",
-      "rank_score": 0.6579,
-      "price": 307.6400146484375,
-      "rsi": 70.1136975422865,
-      "momentum_5d": 0.018169852268254516,
-      "momentum_1d": 0.0627149255248136,
-      "macd_crossover": false,
-      "atr_pct": 0.01596163442293313,
-      "bollinger_pct_b": 0.9325,
+      "atr_pct": 0.013504162562744856,
+      "bollinger_pct_b": 0.9961,
       "volume_spike": true,
-      "volume_spike_ratio": 1.74,
-      "news_sentiment": 0.491,
-      "news_confidence": 0.55,
+      "volume_spike_ratio": 1.53,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.4,
       "news_headlines": [
-        "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
-        "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
-        "Zacks.com featured highlights include Fortinet, Brinker International, Lincoln Electric and Lam Research"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "USD/JPY",
-      "rank_score": 0.6304,
-      "price": 154.2729949951172,
-      "rsi": 20.582133619000345,
-      "momentum_5d": -0.01135571914909845,
-      "momentum_1d": -0.012817105434798741,
-      "macd_crossover": false,
-      "atr_pct": 0.0021427649467392566,
-      "bollinger_pct_b": -0.4733,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.125,
-      "news_confidence": 0.8,
-      "news_headlines": [
-        "Treasury Yields Rise Amid Data, Geopolitical Lull",
-        "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
-        "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GBP/JPY",
-      "rank_score": 0.6249,
-      "price": 208.83599853515625,
-      "rsi": 20.82116028860932,
-      "momentum_5d": -0.009462532441872415,
-      "momentum_1d": -0.012754441794081724,
-      "macd_crossover": false,
-      "atr_pct": 0.0018743280808140525,
-      "bollinger_pct_b": -0.4381,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.6,
-      "news_confidence": 0.333,
-      "news_headlines": [
-        "Pound Mostly Steady After Weaker GDP",
-        "Sterling Declines as the BoE Appears More Dovish",
-        "Mixed Performance by the Pound After Weaker Job Data"
+        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
+        "Ethena Launches Neobank App on Avalanche",
+        "Ethena Enters Crypto Neobanking With New App, Takes USDe Beyond DeFi"
       ],
       "high_impact_news": true
     },
@@ -810,22 +750,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AUD/JPY",
-      "rank_score": 0.5955,
-      "price": 111.36599731445312,
-      "rsi": 20.863916647238057,
-      "momentum_5d": -0.009384370602592628,
-      "momentum_1d": -0.010484604785003744,
+      "asset": "AMD",
+      "rank_score": 0.5781,
+      "price": 477.45001220703125,
+      "rsi": 77.11787741149882,
+      "momentum_5d": 0.016391723697778072,
+      "momentum_1d": 0.04513719817187123,
       "macd_crossover": false,
-      "atr_pct": 0.0019215835371167397,
-      "bollinger_pct_b": -0.4382,
+      "atr_pct": 0.012362177821393695,
+      "bollinger_pct_b": 0.992,
       "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.7,
+      "volume_spike_ratio": 1.34,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
-        "Further Strength for the Australian Dollar After Higher Inflation"
+        "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
+        "AMD\u2019s Whole AI Story Has One Threat It Cannot Ignore: Broadcom",
+        "Micron Jumps 6% as AI Memory Trade Keeps Running"
       ],
       "high_impact_news": true
     },
@@ -872,48 +813,6 @@
       "high_impact_news": false
     },
     {
-      "asset": "AMD",
-      "rank_score": 0.5641,
-      "price": 477.45001220703125,
-      "rsi": 77.11787741149882,
-      "momentum_5d": 0.016391723697778072,
-      "momentum_1d": 0.04513719817187123,
-      "macd_crossover": false,
-      "atr_pct": 0.012362177821393695,
-      "bollinger_pct_b": 0.992,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.389,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "AMD and Intel Soared as Nvidia Lagged: Has the AI Trade Changed?",
-        "Prediction: Data Center Passes 70% of AMD's Revenue in 2027, Before the Helios Ramp Is Finished",
-        "Did Nvidia Just Say Checkmate to AMD and Intel?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVGO",
-      "rank_score": 0.5627,
-      "price": 357.8699951171875,
-      "rsi": 39.57677737757486,
-      "momentum_5d": 0.004730680882528079,
-      "momentum_1d": -0.031160348728883156,
-      "macd_crossover": true,
-      "atr_pct": 0.015398817895030805,
-      "bollinger_pct_b": 0.4609,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.97,
-      "news_confidence": 0.66,
-      "news_headlines": [
-        "These AI numbers are getting crazy",
-        "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-        "Broadcom And 2 Top Growth Stocks To Watch"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRVL",
       "rank_score": 0.5618,
       "price": 223.5,
@@ -925,12 +824,12 @@
       "bollinger_pct_b": 0.92,
       "volume_spike": false,
       "volume_spike_ratio": 1.11,
-      "news_sentiment": 0.366,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner",
         "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-        "Nvidia Barely Moved. These 2 AI Connectivity Stocks Jumped More Than 7%",
-        "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know"
+        "Nvidia Barely Moved. These 2 AI Connectivity Stocks Jumped More Than 7%"
       ],
       "high_impact_news": true
     },
@@ -956,6 +855,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MU",
+      "rank_score": 0.5484,
+      "price": 1014.9500122070312,
+      "rsi": 72.14377602909646,
+      "momentum_5d": 0.015158136974004864,
+      "momentum_1d": 0.07958474565817637,
+      "macd_crossover": false,
+      "atr_pct": 0.016061683405713314,
+      "bollinger_pct_b": 0.936,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.615,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "Can Silicon Motion's CRA Compliance Efforts Drive Future Growth?",
+        "Do You Think Micron Technology\u2019s (MU) Return Drivers May Falter Ahead",
+        "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "RXRX",
       "rank_score": 0.545,
       "price": 3.634999990463257,
@@ -977,23 +897,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MU",
-      "rank_score": 0.5404,
-      "price": 1014.9500122070312,
-      "rsi": 72.14377602909646,
-      "momentum_5d": 0.015158136974004864,
-      "momentum_1d": 0.07958474565817637,
-      "macd_crossover": false,
-      "atr_pct": 0.016061683405713314,
-      "bollinger_pct_b": 0.936,
+      "asset": "AVGO",
+      "rank_score": 0.5427,
+      "price": 357.8699951171875,
+      "rsi": 39.57677737757486,
+      "momentum_5d": 0.004730680882528079,
+      "momentum_1d": -0.031160348728883156,
+      "macd_crossover": true,
+      "atr_pct": 0.015398817895030805,
+      "bollinger_pct_b": 0.4609,
       "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.364,
-      "news_confidence": 0.66,
+      "volume_spike_ratio": 0.72,
+      "news_sentiment": 0.786,
+      "news_confidence": 0.56,
       "news_headlines": [
-        "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-        "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-        "Prediction: Micron Stock Will Skyrocket After Sept. 30"
+        "The S&P 100 ETF Just Dumped Nike and Colgate for 4 AI Stocks. Here\u2019s What That Means for Your Portfolio",
+        "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner",
+        "Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It"
       ],
       "high_impact_news": true
     },
@@ -1012,9 +932,9 @@
       "news_sentiment": 0.312,
       "news_confidence": 0.32,
       "news_headlines": [
+        "Investors Heavily Search Morgan Stanley (MS): Here is What You Need to Know",
         "Morgan Stanley, Goldman near top roles on Anthropic\u2019s $2tn IPO \u2013 report",
-        "Morgan Stanley delivers bold Carvana stock verdict",
-        "Anthropic Weighs Morgan Stanley And Goldman Sachs For Key Roles In $2 Trillion IPO, Says Report"
+        "Morgan Stanley delivers bold Carvana stock verdict"
       ],
       "high_impact_news": true
     },
@@ -1057,6 +977,90 @@
         "What Is The Market Really Expecting From MPWR Stock?",
         "Skyworks Chair: It Will Be a While Before This Cycle Ends",
         "Q2 Earnings Roundup: onsemi (NASDAQ:ON) And The Rest Of The Analog Semiconductors Segment"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ABBV",
+      "rank_score": 0.535,
+      "price": 256.3599853515625,
+      "rsi": 28.619393519557434,
+      "momentum_5d": -0.0034042784406731964,
+      "momentum_1d": -0.012404659015600552,
+      "macd_crossover": false,
+      "atr_pct": 0.00686779469177911,
+      "bollinger_pct_b": 0.1615,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.09,
+      "news_sentiment": 0.674,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Moderna Just Doubled Overnight, and 2 More Healthcare Stocks Could Follow It",
+        "Plastic surgery is booming with boomers. Here\u2019s how to cash in on the antiaging craze.",
+        "3 Dividend Stocks to Buy and Hold Forever (Including 1 Dividend King)"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "INTC",
+      "rank_score": 0.5168,
+      "price": 95.80999755859375,
+      "rsi": 74.62739057803714,
+      "momentum_5d": 0.009216832806678604,
+      "momentum_1d": 0.079875385314822,
+      "macd_crossover": false,
+      "atr_pct": 0.014888615865100352,
+      "bollinger_pct_b": 0.8996,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.97,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
+        "Nvidia just sent a strong signal to AMD and Intel investors",
+        "AMD and Intel Soared as Nvidia Lagged: Has the AI Trade Changed?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.5022,
+      "price": 158.76499938964844,
+      "rsi": 83.43430679285993,
+      "momentum_5d": 0.0069404100818853415,
+      "momentum_1d": 0.1271120169083761,
+      "macd_crossover": false,
+      "atr_pct": 0.014487821108125942,
+      "bollinger_pct_b": 0.7878,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.259,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
+        "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
+        "Nvidia, Tech Giants Flash Stunning Market Signal"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "REGN",
+      "rank_score": 0.5007,
+      "price": 827.6900024414062,
+      "rsi": 24.896385770853655,
+      "momentum_5d": -0.007565944314860611,
+      "momentum_1d": 0.014636840259155685,
+      "macd_crossover": false,
+      "atr_pct": 0.00773107095896934,
+      "bollinger_pct_b": 0.0656,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.32,
+      "news_sentiment": 0.813,
+      "news_confidence": 0.57,
+      "news_headlines": [
+        "Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
+        "Black Diamond (BDTX) Up 9.4% Since Last Earnings Report: Can It Continue?",
+        "Trailing rivals, AbbVie scores win with dual-acting myeloma drug"
       ],
       "high_impact_news": true
     }
