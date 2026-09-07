@@ -3,19 +3,19 @@
   "portfolio_balance": 103919.28,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.69,
-  "unrealized_pnl_usd": 222.14,
-  "equity_value": 104141.42,
+  "unrealized_pnl_usd": -5445.26,
+  "equity_value": 98474.02,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41567.71,
   "swing_capital_used_usd": 49255.33,
   "total_trades": 1361,
-  "last_tick": "2026-09-07T18:50:01.903299+00:00",
+  "last_tick": "2026-09-07T21:48:55.279300+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
-  "universe_scanned": 110,
-  "market_open": true,
+  "universe_scanned": 109,
+  "market_open": false,
   "open_position_list": [
     {
       "id": "USD/HKD_20260524050433",
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8395,
-      "unrealized_pnl_pct": 0.000664,
-      "unrealized_pnl_usd": 0.89
+      "current_price": 7.8388,
+      "unrealized_pnl_pct": 0.000574,
+      "unrealized_pnl_usd": 0.77
     },
     {
       "id": "HD_20260821194841",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_peak": 1.8843899965286255,
       "trailing_stop_price": 1.869315,
-      "current_price": 1.87604,
-      "unrealized_pnl_pct": -0.003707,
-      "unrealized_pnl_usd": -20.74
+      "current_price": 1.87525,
+      "unrealized_pnl_pct": -0.004126,
+      "unrealized_pnl_usd": -23.09
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_peak": 1.6198300123214722,
       "trailing_stop_price": 1.606871,
-      "current_price": 1.61033,
-      "unrealized_pnl_pct": -0.003835,
-      "unrealized_pnl_usd": -8.92
+      "current_price": 1.60969,
+      "unrealized_pnl_pct": -0.004231,
+      "unrealized_pnl_usd": -9.85
     },
     {
       "id": "GLD_20260903143205",
@@ -338,9 +338,9 @@
       "status": "open",
       "price_trough": 157.3300018310547,
       "trailing_stop_price": 159.504302,
-      "current_price": 158.764999,
-      "unrealized_pnl_pct": 0.003108,
-      "unrealized_pnl_usd": 14.34
+      "current_price": 353.94989,
+      "unrealized_pnl_pct": -1.222466,
+      "unrealized_pnl_usd": -5641.12
     },
     {
       "id": "XLE_20260904134252",
@@ -569,9 +569,9 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "current_price": 9.27085,
-      "unrealized_pnl_pct": -0.000559,
-      "unrealized_pnl_usd": -3.12
+      "current_price": 9.25663,
+      "unrealized_pnl_pct": -0.002093,
+      "unrealized_pnl_usd": -11.68
     },
     {
       "id": "LRCX_20260907185001",
@@ -636,6 +636,8 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
+      "price_peak": 16.719999313354492,
+      "trailing_stop_price": 16.510665,
       "current_price": 16.695,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
@@ -748,23 +750,21 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMD",
-      "rank_score": 0.5801,
-      "price": 477.45001220703125,
-      "rsi": 77.11787741149882,
-      "momentum_5d": 0.016391723697778072,
-      "momentum_1d": 0.04513719817187123,
-      "macd_crossover": false,
-      "atr_pct": 0.012362177821393695,
-      "bollinger_pct_b": 0.992,
+      "asset": "CAD/JPY",
+      "rank_score": 0.577,
+      "price": 111.66699981689453,
+      "rsi": 23.22018669955989,
+      "momentum_5d": -0.00048335455436014424,
+      "momentum_1d": -0.010807278158596815,
+      "macd_crossover": true,
+      "atr_pct": 0.002135817412534385,
+      "bollinger_pct_b": 0.2777,
       "volume_spike": false,
-      "volume_spike_ratio": 1.34,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.4,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 1.0,
+      "news_confidence": 0.7,
       "news_headlines": [
-        "Wall Street Is Worried About AMD. Here\u2019s Why Long-Term Investors Shouldn\u2019t Be",
-        "Cathie Wood Dumps $25 Million of Palantir Shares. Should PLTR Investors Worry?",
-        "Nvidia Is No Longer Just a Chip Company. It\u2019s the Infrastructure Platform for All of AI"
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
       ],
       "high_impact_news": true
     },
@@ -783,9 +783,30 @@
       "news_sentiment": 0.467,
       "news_confidence": 0.45,
       "news_headlines": [
+        "Scooter\u2019s Has a Role to Play in the Drive-Thru Coffee Rush",
         "CEO Brian Niccol Just Announced Incredible News for Starbucks Investors",
-        "Starbucks (SBUX) Stock Looks Overvalued On Current Assumptions",
-        "Starbucks (SBUX) Brings A New Wellness Bar To Stores Nationwide"
+        "Starbucks (SBUX) Stock Looks Overvalued On Current Assumptions"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.5671,
+      "price": 477.45001220703125,
+      "rsi": 77.11787741149882,
+      "momentum_5d": 0.016391723697778072,
+      "momentum_1d": 0.04513719817187123,
+      "macd_crossover": false,
+      "atr_pct": 0.012362177821393695,
+      "bollinger_pct_b": 0.992,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.34,
+      "news_sentiment": 0.548,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027",
+        "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+        "Cathie Wood Is Moving Money From Palantir Into Rocket Lab and Fintech"
       ],
       "high_impact_news": true
     },
@@ -804,15 +825,15 @@
       "news_sentiment": 0.353,
       "news_confidence": 0.34,
       "news_headlines": [
+        "TotalEnergies Gains 1.5% After Cutting Papua LNG Exposure by One-Third",
         "2 Safe High-Yield Energy Dividend Stocks You've Probably Never Heard Of",
-        "TotalEnergies to transfer Papua LNG operatorship to ExxonMobil",
-        "TotalEnergies Cuts Papua LNG Cost to $14 Billion, Exxon to Become Operator"
+        "TotalEnergies to transfer Papua LNG operatorship to ExxonMobil"
       ],
       "high_impact_news": false
     },
     {
       "asset": "OXY",
-      "rank_score": 0.5542,
+      "rank_score": 0.5592,
       "price": 60.05500030517578,
       "rsi": 22.85730201826685,
       "momentum_5d": -0.0009149942541559321,
@@ -822,18 +843,18 @@
       "bollinger_pct_b": 0.1586,
       "volume_spike": true,
       "volume_spike_ratio": 2.0,
-      "news_sentiment": 0.638,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.701,
+      "news_confidence": 0.49,
       "news_headlines": [
+        "Is Occidental Petroleum Stock Outperforming the Nasdaq?",
         "Occidental (OXY) Up 8.2% Since Last Earnings Report: Can It Continue?",
-        "2 Cash-Producing Stocks on Our Buy List and 1 We Turn Down",
-        "1 Value Stock with Impressive Fundamentals and 2 We Question"
+        "2 Cash-Producing Stocks on Our Buy List and 1 We Turn Down"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "MS",
-      "rank_score": 0.5479,
+      "asset": "BAC",
+      "rank_score": 0.5569,
       "price": 217.72000122070312,
       "rsi": 70.8333512933357,
       "momentum_5d": 0.013641268337240916,
@@ -843,12 +864,12 @@
       "bollinger_pct_b": 0.7598,
       "volume_spike": true,
       "volume_spike_ratio": 1.73,
-      "news_sentiment": 0.474,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.692,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "What's Powering Bank of America's Strong Capital Return Strategy?",
-        "Stock Funds Are Up 12.6% for Year So Far",
-        "Investors Heavily Search Morgan Stanley (MS): Here is What You Need to Know"
+        "DBS, Citi Complete First Weekend Cross-Border Payment",
+        "BofA stays bullish on a cloud titan that is down 25%",
+        "What's Powering Bank of America's Strong Capital Return Strategy?"
       ],
       "high_impact_news": true
     },
@@ -867,9 +888,9 @@
       "news_sentiment": 0.756,
       "news_confidence": 0.41,
       "news_headlines": [
+        "Micron, SanDisk get new aggressive price targets from top analyst",
         "Is Micron Technology Stock Running Out of Steam?",
-        "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stack",
-        "Not Nvidia. Not Micron. This Is My Top AI Infrastructure Stock to Buy Right Now (Hint: It Can Double Within 3 Years)"
+        "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stack"
       ],
       "high_impact_news": true
     },
@@ -916,6 +937,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "CRM",
+      "rank_score": 0.5362,
+      "price": 158.76499938964844,
+      "rsi": 83.43430679285993,
+      "momentum_5d": 0.0069404100818853415,
+      "momentum_1d": 0.1271120169083761,
+      "macd_crossover": false,
+      "atr_pct": 0.014487821108125942,
+      "bollinger_pct_b": 0.7878,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.774,
+      "news_confidence": 0.62,
+      "news_headlines": [
+        "Palantir Surged 51% in August. The Rest of Tech Wasn't Even Close",
+        "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
+        "Battered Oracle May Be Poised for Rally as Investors Renew Software Bets"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GBP/JPY",
+      "rank_score": 0.536,
+      "price": 208.94500732421875,
+      "rsi": 18.19286998915898,
+      "momentum_5d": -0.0002918068421221315,
+      "momentum_1d": -0.010550575984538096,
+      "macd_crossover": true,
+      "atr_pct": 0.0018750768095708952,
+      "bollinger_pct_b": 0.2942,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": -0.6,
+      "news_confidence": 0.333,
+      "news_headlines": [
+        "Pound Mostly Steady After Weaker GDP",
+        "Sterling Declines as the BoE Appears More Dovish",
+        "Mixed Performance by the Pound After Weaker Job Data"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ON",
       "rank_score": 0.5357,
       "price": 74.41500091552734,
@@ -958,44 +1021,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVGO",
-      "rank_score": 0.5347,
-      "price": 357.8699951171875,
-      "rsi": 39.57677737757486,
-      "momentum_5d": 0.004730680882528079,
-      "momentum_1d": -0.031160348728883156,
-      "macd_crossover": true,
-      "atr_pct": 0.015398817895030805,
-      "bollinger_pct_b": 0.4609,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Broadcom Inc. (AVGO)\u2019s AI Opportunity Expands Across AI Infrastructure",
-        "Should You Buy Marvell Technology Stock Before Oct. 6?",
-        "AI Is Moving Into Everyday Business \u2014 These 5 Stocks Sit Squarely in the Path of the Surge"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.5283,
-      "price": 158.76499938964844,
-      "rsi": 83.43430679285993,
-      "momentum_5d": 0.0069404100818853415,
-      "momentum_1d": 0.1271120169083761,
+      "asset": "AVAX-USD",
+      "rank_score": 0.53,
+      "price": 8.109000205993652,
+      "rsi": 84.61553352950287,
+      "momentum_5d": 0.005331046532827513,
+      "momentum_1d": 0.04108360126471735,
       "macd_crossover": false,
-      "atr_pct": 0.014487821108125942,
-      "bollinger_pct_b": 0.7878,
+      "atr_pct": 0.011592053577802445,
+      "bollinger_pct_b": 0.785,
       "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.741,
-      "news_confidence": 0.54,
+      "volume_spike_ratio": 0.19,
+      "news_sentiment": 0.081,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
-        "BofA stays bullish on a cloud titan that is down 25%",
-        "Workday's Q2 Beat and AI Gains Raise the Stakes for Fiscal 2028 Growth"
+        "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone",
+        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
+        "Ethena Launches Neobank App on Avalanche"
       ],
       "high_impact_news": true
     },
@@ -1014,51 +1056,9 @@
       "news_sentiment": 0.737,
       "news_confidence": 0.38,
       "news_headlines": [
+        "5-star analyst resets Intel stock price target",
         "Nvidia Is No Longer Just a Chip Company. It\u2019s the Infrastructure Platform for All of AI",
-        "DELL Expands Consumer PC Reach: Can It Challenge HPQ & AAPL?",
-        "Prediction: Intel Stock Is Up Big in 2026. But the Best May Still Be Ahead"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "REGN",
-      "rank_score": 0.5058,
-      "price": 827.6900024414062,
-      "rsi": 24.896385770853655,
-      "momentum_5d": -0.007565944314860611,
-      "momentum_1d": 0.014636840259155685,
-      "macd_crossover": false,
-      "atr_pct": 0.00773107095896934,
-      "bollinger_pct_b": 0.0656,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.32,
-      "news_sentiment": 0.856,
-      "news_confidence": 0.6,
-      "news_headlines": [
-        "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
-        "Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
-        "Black Diamond (BDTX) Up 9.4% Since Last Earnings Report: Can It Continue?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.4957,
-      "price": 8.086000442504883,
-      "rsi": 70.254163777011,
-      "momentum_5d": 0.002106853123049867,
-      "momentum_1d": 0.05990303373805633,
-      "macd_crossover": false,
-      "atr_pct": 0.013091395732495532,
-      "bollinger_pct_b": 0.8453,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.21,
-      "news_sentiment": 0.081,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone",
-        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
-        "Ethena Launches Neobank App on Avalanche"
+        "DELL Expands Consumer PC Reach: Can It Challenge HPQ & AAPL?"
       ],
       "high_impact_news": true
     }
