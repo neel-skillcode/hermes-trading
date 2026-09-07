@@ -3,18 +3,18 @@
   "portfolio_balance": 103919.28,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.69,
-  "unrealized_pnl_usd": -5445.26,
-  "equity_value": 98474.02,
+  "unrealized_pnl_usd": 215.91,
+  "equity_value": 104135.19,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41567.71,
   "swing_capital_used_usd": 49255.33,
   "total_trades": 1361,
-  "last_tick": "2026-09-07T21:48:55.279300+00:00",
+  "last_tick": "2026-09-07T23:49:27.449490+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
-  "universe_scanned": 109,
+  "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
     {
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8388,
-      "unrealized_pnl_pct": 0.000574,
-      "unrealized_pnl_usd": 0.77
+      "current_price": 7.8396,
+      "unrealized_pnl_pct": 0.000677,
+      "unrealized_pnl_usd": 0.91
     },
     {
       "id": "HD_20260821194841",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_peak": 1.8843899965286255,
       "trailing_stop_price": 1.869315,
-      "current_price": 1.87525,
-      "unrealized_pnl_pct": -0.004126,
-      "unrealized_pnl_usd": -23.09
+      "current_price": 1.87564,
+      "unrealized_pnl_pct": -0.003919,
+      "unrealized_pnl_usd": -21.93
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_peak": 1.6198300123214722,
       "trailing_stop_price": 1.606871,
-      "current_price": 1.60969,
-      "unrealized_pnl_pct": -0.004231,
-      "unrealized_pnl_usd": -9.85
+      "current_price": 1.60984,
+      "unrealized_pnl_pct": -0.004138,
+      "unrealized_pnl_usd": -9.63
     },
     {
       "id": "GLD_20260903143205",
@@ -338,9 +338,9 @@
       "status": "open",
       "price_trough": 157.3300018310547,
       "trailing_stop_price": 159.504302,
-      "current_price": 353.94989,
-      "unrealized_pnl_pct": -1.222466,
-      "unrealized_pnl_usd": -5641.12
+      "current_price": 158.764999,
+      "unrealized_pnl_pct": 0.003108,
+      "unrealized_pnl_usd": 14.34
     },
     {
       "id": "XLE_20260904134252",
@@ -569,9 +569,9 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "current_price": 9.25663,
-      "unrealized_pnl_pct": -0.002093,
-      "unrealized_pnl_usd": -11.68
+      "current_price": 9.26362,
+      "unrealized_pnl_pct": -0.001339,
+      "unrealized_pnl_usd": -7.47
     },
     {
       "id": "LRCX_20260907185001",
@@ -708,6 +708,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XOM",
+      "rank_score": 0.6453,
+      "price": 159.42999267578125,
+      "rsi": 19.071681496818698,
+      "momentum_5d": -0.006295249004336448,
+      "momentum_1d": -0.028014030737309552,
+      "macd_crossover": false,
+      "atr_pct": 0.006542038108677377,
+      "bollinger_pct_b": 0.0973,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.5,
+      "news_sentiment": 0.353,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Piper Sandles Sees ExxonMobil (XOM) Heading Toward New Highs",
+        "TotalEnergies Gains 1.5% After Cutting Papua LNG Exposure by One-Third",
+        "2 Safe High-Yield Energy Dividend Stocks You've Probably Never Heard Of"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "KLAC",
       "rank_score": 0.6046,
       "price": 185.5399932861328,
@@ -746,25 +767,6 @@
         "Should You Buy Marvell Technology Stock Before Oct. 6?",
         "Marvell's AI Business Is Booming. Photonics Could Be Next",
         "Nvidia Is No Longer Just a Chip Company. It\u2019s the Infrastructure Platform for All of AI"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "CAD/JPY",
-      "rank_score": 0.577,
-      "price": 111.66699981689453,
-      "rsi": 23.22018669955989,
-      "momentum_5d": -0.00048335455436014424,
-      "momentum_1d": -0.010807278158596815,
-      "macd_crossover": true,
-      "atr_pct": 0.002135817412534385,
-      "bollinger_pct_b": 0.2777,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
-      "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
       ],
       "high_impact_news": true
     },
@@ -811,27 +813,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "XOM",
-      "rank_score": 0.5653,
-      "price": 159.42999267578125,
-      "rsi": 19.071681496818698,
-      "momentum_5d": -0.006295249004336448,
-      "momentum_1d": -0.028014030737309552,
-      "macd_crossover": false,
-      "atr_pct": 0.006542038108677377,
-      "bollinger_pct_b": 0.0973,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.5,
-      "news_sentiment": 0.353,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "TotalEnergies Gains 1.5% After Cutting Papua LNG Exposure by One-Third",
-        "2 Safe High-Yield Energy Dividend Stocks You've Probably Never Heard Of",
-        "TotalEnergies to transfer Papua LNG operatorship to ExxonMobil"
-      ],
-      "high_impact_news": false
-    },
-    {
       "asset": "OXY",
       "rank_score": 0.5592,
       "price": 60.05500030517578,
@@ -853,29 +834,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "BAC",
-      "rank_score": 0.5569,
-      "price": 217.72000122070312,
-      "rsi": 70.8333512933357,
-      "momentum_5d": 0.013641268337240916,
-      "momentum_1d": 0.02688424126676878,
-      "macd_crossover": false,
-      "atr_pct": 0.007731888007513375,
-      "bollinger_pct_b": 0.7598,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.73,
-      "news_sentiment": 0.692,
-      "news_confidence": 0.39,
-      "news_headlines": [
-        "DBS, Citi Complete First Weekend Cross-Border Payment",
-        "BofA stays bullish on a cloud titan that is down 25%",
-        "What's Powering Bank of America's Strong Capital Return Strategy?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MU",
-      "rank_score": 0.5474,
+      "rank_score": 0.5524,
       "price": 1014.9500122070312,
       "rsi": 72.14377602909646,
       "momentum_5d": 0.015158136974004864,
@@ -885,12 +845,33 @@
       "bollinger_pct_b": 0.936,
       "volume_spike": false,
       "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.756,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
       "news_headlines": [
-        "Micron, SanDisk get new aggressive price targets from top analyst",
-        "Is Micron Technology Stock Running Out of Steam?",
-        "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stack"
+        "The AI Memory Stock That Could Outshine the Obvious Picks",
+        "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
+        "Micron's $50 Billion Guide Gets an 8.3% Signal From Seoul"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MS",
+      "rank_score": 0.5479,
+      "price": 217.72000122070312,
+      "rsi": 70.8333512933357,
+      "momentum_5d": 0.013641268337240916,
+      "momentum_1d": 0.02688424126676878,
+      "macd_crossover": false,
+      "atr_pct": 0.007731888007513375,
+      "bollinger_pct_b": 0.7598,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.73,
+      "news_sentiment": 0.562,
+      "news_confidence": 0.32,
+      "news_headlines": [
+        "Robinhood Wins a New Role in the Oura IPO: Underwriter",
+        "What's Powering Bank of America's Strong Capital Return Strategy?",
+        "Stock Funds Are Up 12.6% for Year So Far"
       ],
       "high_impact_news": true
     },
@@ -937,48 +918,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "CRM",
-      "rank_score": 0.5362,
-      "price": 158.76499938964844,
-      "rsi": 83.43430679285993,
-      "momentum_5d": 0.0069404100818853415,
-      "momentum_1d": 0.1271120169083761,
-      "macd_crossover": false,
-      "atr_pct": 0.014487821108125942,
-      "bollinger_pct_b": 0.7878,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.14,
-      "news_sentiment": 0.774,
-      "news_confidence": 0.62,
-      "news_headlines": [
-        "Palantir Surged 51% in August. The Rest of Tech Wasn't Even Close",
-        "Investors Pulled $700 Million From IGV Hours Before Snowflake Reignited Software",
-        "Battered Oracle May Be Poised for Rally as Investors Renew Software Bets"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GBP/JPY",
-      "rank_score": 0.536,
-      "price": 208.94500732421875,
-      "rsi": 18.19286998915898,
-      "momentum_5d": -0.0002918068421221315,
-      "momentum_1d": -0.010550575984538096,
-      "macd_crossover": true,
-      "atr_pct": 0.0018750768095708952,
-      "bollinger_pct_b": 0.2942,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.6,
-      "news_confidence": 0.333,
-      "news_headlines": [
-        "Pound Mostly Steady After Weaker GDP",
-        "Sterling Declines as the BoE Appears More Dovish",
-        "Mixed Performance by the Pound After Weaker Job Data"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ON",
       "rank_score": 0.5357,
       "price": 74.41500091552734,
@@ -1021,23 +960,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.53,
-      "price": 8.109000205993652,
-      "rsi": 84.61553352950287,
-      "momentum_5d": 0.005331046532827513,
-      "momentum_1d": 0.04108360126471735,
+      "asset": "ORCL",
+      "rank_score": 0.5283,
+      "price": 158.76499938964844,
+      "rsi": 83.43430679285993,
+      "momentum_5d": 0.0069404100818853415,
+      "momentum_1d": 0.1271120169083761,
       "macd_crossover": false,
-      "atr_pct": 0.011592053577802445,
-      "bollinger_pct_b": 0.785,
+      "atr_pct": 0.014487821108125942,
+      "bollinger_pct_b": 0.7878,
       "volume_spike": false,
-      "volume_spike_ratio": 0.19,
-      "news_sentiment": 0.081,
-      "news_confidence": 0.37,
+      "volume_spike_ratio": 1.14,
+      "news_sentiment": 0.741,
+      "news_confidence": 0.54,
       "news_headlines": [
-        "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone",
-        "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
-        "Ethena Launches Neobank App on Avalanche"
+        "Inflation data, Oracle earnings, and an energy supply crunch: What to watch this week",
+        "Energy Transfer Just Delayed a New Mexico Pipeline. Here's Why I'm Not Worried Yet.",
+        "Oracle\u2019s AI Earnings Story Is Improving, but the Cash Flow Test Remains"
       ],
       "high_impact_news": true
     },
@@ -1059,6 +998,69 @@
         "5-star analyst resets Intel stock price target",
         "Nvidia Is No Longer Just a Chip Company. It\u2019s the Infrastructure Platform for All of AI",
         "DELL Expands Consumer PC Reach: Can It Challenge HPQ & AAPL?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVGO",
+      "rank_score": 0.5227,
+      "price": 357.8699951171875,
+      "rsi": 39.57677737757486,
+      "momentum_5d": 0.004730680882528079,
+      "momentum_1d": -0.031160348728883156,
+      "macd_crossover": true,
+      "atr_pct": 0.015398817895030805,
+      "bollinger_pct_b": 0.4609,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.72,
+      "news_sentiment": 0.48,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "How a 64-Year-Old\u2019s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+        "Broadcom\u2019s AI Forecast Suggests Hyperscalers Want More Than Just Nvidia GPUs",
+        "Broadcom Inc. (AVGO)\u2019s AI Opportunity Expands Across AI Infrastructure"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "REGN",
+      "rank_score": 0.5058,
+      "price": 827.6900024414062,
+      "rsi": 24.896385770853655,
+      "momentum_5d": -0.007565944314860611,
+      "momentum_1d": 0.014636840259155685,
+      "macd_crossover": false,
+      "atr_pct": 0.00773107095896934,
+      "bollinger_pct_b": 0.0656,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.32,
+      "news_sentiment": 0.856,
+      "news_confidence": 0.6,
+      "news_headlines": [
+        "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
+        "Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
+        "Black Diamond (BDTX) Up 9.4% Since Last Earnings Report: Can It Continue?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARM",
+      "rank_score": 0.4789,
+      "price": 252.10000610351562,
+      "rsi": 71.91112243752805,
+      "momentum_5d": 0.002186456152197487,
+      "momentum_1d": 0.07569553442124584,
+      "macd_crossover": false,
+      "atr_pct": 0.017270865816372175,
+      "bollinger_pct_b": 0.8202,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.08,
+      "news_sentiment": 0.7,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Arm Expands Into AI Accelerators With Samsung \u2014 But It\u2019s Not the Data Center Goldmine Investors Hope For",
+        "Rising CPU Demand Positions Arm Holdings (ARM) for Gains",
+        "Marvell Rises 6% as Beaten-Down AI Silicon Bounces, Qualcomm Barely Budges"
       ],
       "high_impact_news": true
     }
