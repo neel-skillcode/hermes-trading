@@ -325,36 +325,6 @@
     "price_peak": 64.16000366210938,
     "trailing_stop_price": 63.254064
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260904134252",
-    "asset": "CAD/JPY",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 112.32499694824219,
-    "entry_time": "2026-09-04T13:42:52.291511+00:00",
-    "stop_loss_pct": 0.00827,
-    "take_profit_pct": 0.02832,
-    "size_usd": 8479.0,
-    "position_size_pct": 0.0811,
-    "confidence": 0.845,
-    "signals": [
-      "RSI oversold (36.2)",
-      "5d momentum -0.89%",
-      "BB oversold (pct_b=-0.09)",
-      "News +1.00 (conf 0.70) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-    ],
-    "news_sentiment": 1.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "118",
-    "status": "open",
-    "price_peak": 112.93299865722656,
-    "trailing_stop_price": 111.999043
-  },
   "SMCI": {
     "id": "SMCI_20260904170633",
     "asset": "SMCI",
@@ -541,8 +511,8 @@
     "mode": "paper",
     "strategy_version": "120",
     "status": "open",
-    "price_trough": 105.88999938964844,
-    "trailing_stop_price": 106.771004
+    "price_trough": 104.83000183105469,
+    "trailing_stop_price": 105.702187
   },
   "BNB-USD": {
     "id": "BNB-USD_20260906161306",
@@ -570,6 +540,29 @@
       "BNB Price Forecast: $740 Break Could Open Path to $825",
       "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
     ],
+    "mode": "paper",
+    "strategy_version": "120",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20260907084748",
+    "asset": "USD/NOK",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 9.276040077209473,
+    "entry_time": "2026-09-07T08:47:48.597098+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5581.31,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (36.9)",
+      "5d momentum -0.32%",
+      "BB oversold (pct_b=-0.13)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "120",
     "status": "open"
