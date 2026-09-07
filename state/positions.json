@@ -481,69 +481,6 @@
     "price_trough": 43.310001373291016,
     "trailing_stop_price": 43.921972
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260906054533",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 106.55999755859375,
-    "entry_time": "2026-09-06T05:45:33.449019+00:00",
-    "stop_loss_pct": 0.00832,
-    "take_profit_pct": 0.02058,
-    "size_usd": 6310.29,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (75.1)",
-      "5d momentum +3.16%",
-      "1d momentum +4.58%",
-      "BB overbought (pct_b=1.13)",
-      "Volume spike 1.9\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.647,
-    "news_headlines": [
-      "Bitwise's Matt Hougan Names Robinhood, Solana, Uniswap And Ethereum As His Tokenization Basket",
-      "Cathie Wood\u2019s Ark Invest Buys HOOD Stock As Robinhood Sees Its Third-Best Week In Six Months",
-      "Solana Co-Founder Slams Robinhood Chain Fees, Calls Congestion Profits \u2018Brain Dead'"
-    ],
-    "mode": "paper",
-    "strategy_version": "120",
-    "status": "open",
-    "price_trough": 104.83000183105469,
-    "trailing_stop_price": 105.702187
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260906161306",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 746.7999877929688,
-    "entry_time": "2026-09-06T16:13:06.312558+00:00",
-    "stop_loss_pct": 0.00535,
-    "take_profit_pct": 0.01334,
-    "size_usd": 5685.46,
-    "position_size_pct": 0.0547,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (24.3)",
-      "5d momentum -1.50%",
-      "1d momentum -3.43%",
-      "BB oversold (pct_b=0.11)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: fed dovish; product catalyst; price surge"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "Grayscale Names 3 Blockchains Leading the Tokenized Stock Boom",
-      "BNB Price Forecast: $740 Break Could Open Path to $825",
-      "Bitcoin Pumps as Fed Signals Rate Pause, $415 Million in Shorts Get Rekt"
-    ],
-    "mode": "paper",
-    "strategy_version": "120",
-    "status": "open"
-  },
   "USD/NOK": {
     "id": "USD/NOK_20260907084748",
     "asset": "USD/NOK",
@@ -563,6 +500,67 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "120",
+    "status": "open"
+  },
+  "LRCX": {
+    "id": "LRCX_20260907185001",
+    "asset": "LRCX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 307.6400146484375,
+    "entry_time": "2026-09-07T18:50:01.871132+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6318.29,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (70.1)",
+      "5d momentum +1.82%",
+      "1d momentum +6.27%",
+      "BB overbought (pct_b=0.93)",
+      "Volume spike 1.7\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: macro risk"
+    ],
+    "news_sentiment": 0.525,
+    "news_headlines": [
+      "Lam Research Nearly Triples in a Year: Is the Stock Still Worth Buying?",
+      "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
+      "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?"
+    ],
+    "mode": "paper",
+    "strategy_version": "120",
+    "status": "open"
+  },
+  "LYFT": {
+    "id": "LYFT_20260907185001",
+    "asset": "LYFT",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 16.69499969482422,
+    "entry_time": "2026-09-07T18:50:01.873295+00:00",
+    "stop_loss_pct": 0.01252,
+    "take_profit_pct": 0.03053,
+    "size_usd": 5695.06,
+    "position_size_pct": 0.0548,
+    "confidence": 0.877,
+    "signals": [
+      "RSI oversold (20.9)",
+      "5d momentum -1.88%",
+      "BB oversold (pct_b=-0.20)",
+      "Volume spike 3.4\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: earnings beat"
+    ],
+    "news_sentiment": 0.5,
+    "news_headlines": [
+      "Everyone Says to Go Into the Trades to Make Good Money. This 48-Year-Old Auto Mechanic With Worn-Out Knees Is Looking for a Way Out",
+      "Lyft (LYFT) And The Case For An Undervalued Autonomous Vehicle Narrative",
+      "CFOs On the Move: Week ending Sept. 4"
+    ],
     "mode": "paper",
     "strategy_version": "120",
     "status": "open"
