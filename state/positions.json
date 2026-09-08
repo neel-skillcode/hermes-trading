@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 315.8299865722656,
-    "trailing_stop_price": 324.376346
+    "price_trough": 314.8900146484375,
+    "trailing_stop_price": 323.410938
   },
   "GBP/AUD": {
     "id": "GBP/AUD_20260902150931",
@@ -132,8 +132,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 404.1000061035156,
-    "trailing_stop_price": 409.648299
+    "price_trough": 402.0400085449219,
+    "trailing_stop_price": 407.560018
   },
   "SOFI": {
     "id": "SOFI_20260903143205",
@@ -281,36 +281,6 @@
     "strategy_version": "120",
     "status": "open"
   },
-  "IONQ": {
-    "id": "IONQ_20260908151710",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 42.97999954223633,
-    "entry_time": "2026-09-08T15:17:10.199674+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5225.92,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (76.5)",
-      "5d momentum +10.06%",
-      "1d momentum +12.32%",
-      "BB overbought (pct_b=1.18)",
-      "High-impact catalyst",
-      "Claude [contradicts]: ma catalyst; price surge"
-    ],
-    "news_sentiment": 0.714,
-    "news_headlines": [
-      "Quantum Stocks Rally as Commerce Department Takes Equity Stakes: Rigetti Surges 6%, D-Wave Climbs 5%",
-      "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Rising Oil Prices",
-      "IonQ Raises 2026 Revenue Outlook Following SkyWater Acquisition"
-    ],
-    "mode": "paper",
-    "strategy_version": "120",
-    "status": "open"
-  },
   "VRTX": {
     "id": "VRTX_20260908151710",
     "asset": "VRTX",
@@ -399,7 +369,9 @@
     ],
     "mode": "paper",
     "strategy_version": "120",
-    "status": "open"
+    "status": "open",
+    "price_trough": 174.5800018310547,
+    "trailing_stop_price": 176.926357
   },
   "RBLX": {
     "id": "RBLX_20260908151710",
@@ -429,7 +401,9 @@
     ],
     "mode": "paper",
     "strategy_version": "120",
-    "status": "open"
+    "status": "open",
+    "price_trough": 44.647499084472656,
+    "trailing_stop_price": 45.307836
   },
   "LRCX": {
     "id": "LRCX_20260908151710",
@@ -515,6 +489,39 @@
     ],
     "mode": "paper",
     "strategy_version": "120",
+    "status": "open",
+    "price_trough": 111.822998046875,
+    "trailing_stop_price": 112.717582
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260908184621",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.4386999607086182,
+    "entry_time": "2026-09-08T18:46:21.793040+00:00",
+    "stop_loss_pct": 0.01011,
+    "take_profit_pct": 0.02503,
+    "size_usd": 5369.4,
+    "position_size_pct": 0.052,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (77.0)",
+      "5d momentum +2.55%",
+      "1d momentum +3.15%",
+      "BB overbought (pct_b=1.02)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.28,
+    "news_headlines": [
+      "Tech, Media & Telecom Roundup: Market Talk",
+      "Ripple BatchV1_1 Vote Stalls as XRP Trades at $1.41",
+      "Altcoin Open Interest Just Passed Bitcoin for the First Time Since December 2024. What That Actually Signals"
+    ],
+    "mode": "paper",
+    "strategy_version": "121",
     "status": "open"
   }
 }
