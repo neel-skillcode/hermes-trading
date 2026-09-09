@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "103",
     "status": "open",
-    "price_trough": 314.8900146484375,
-    "trailing_stop_price": 323.410938
+    "price_trough": 313.70001220703125,
+    "trailing_stop_price": 322.188735
   },
   "GBP/AUD": {
     "id": "GBP/AUD_20260902150931",
@@ -132,8 +132,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 402.0400085449219,
-    "trailing_stop_price": 407.560018
+    "price_trough": 399.7200012207031,
+    "trailing_stop_price": 405.208157
   },
   "SOFI": {
     "id": "SOFI_20260903143205",
@@ -163,8 +163,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 18.03499984741211,
-    "trailing_stop_price": 18.722133
+    "price_trough": 18.010000228881836,
+    "trailing_stop_price": 18.696181
   },
   "XLE": {
     "id": "XLE_20260904134252",
@@ -197,29 +197,6 @@
     "price_peak": 64.88999938964844,
     "trailing_stop_price": 63.973753
   },
-  "USD/NOK": {
-    "id": "USD/NOK_20260907084748",
-    "asset": "USD/NOK",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 9.276040077209473,
-    "entry_time": "2026-09-07T08:47:48.597098+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 5581.31,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (36.9)",
-      "5d momentum -0.32%",
-      "BB oversold (pct_b=-0.13)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "120",
-    "status": "open"
-  },
   "AMD": {
     "id": "AMD_20260908151710",
     "asset": "AMD",
@@ -249,7 +226,9 @@
     ],
     "mode": "paper",
     "strategy_version": "120",
-    "status": "open"
+    "status": "open",
+    "price_trough": 505.739990234375,
+    "trailing_stop_price": 512.269094
   },
   "INTC": {
     "id": "INTC_20260908151710",
@@ -339,7 +318,9 @@
     ],
     "mode": "paper",
     "strategy_version": "120",
-    "status": "open"
+    "status": "open",
+    "price_peak": 16.239999771118164,
+    "trailing_stop_price": 16.034564
   },
   "QCOM": {
     "id": "QCOM_20260908151710",
@@ -370,8 +351,8 @@
     "mode": "paper",
     "strategy_version": "120",
     "status": "open",
-    "price_trough": 174.5800018310547,
-    "trailing_stop_price": 176.926357
+    "price_trough": 174.08999633789062,
+    "trailing_stop_price": 176.429766
   },
   "RBLX": {
     "id": "RBLX_20260908151710",
@@ -490,8 +471,8 @@
     "mode": "paper",
     "strategy_version": "120",
     "status": "open",
-    "price_trough": 111.822998046875,
-    "trailing_stop_price": 112.717582
+    "price_trough": 111.36199951171875,
+    "trailing_stop_price": 112.252896
   },
   "XRP-USD": {
     "id": "XRP-USD_20260908184621",
@@ -519,6 +500,37 @@
       "Tech, Media & Telecom Roundup: Market Talk",
       "Ripple BatchV1_1 Vote Stalls as XRP Trades at $1.41",
       "Altcoin Open Interest Just Passed Bitcoin for the First Time Since December 2024. What That Actually Signals"
+    ],
+    "mode": "paper",
+    "strategy_version": "121",
+    "status": "open",
+    "price_trough": 1.4222999811172485,
+    "trailing_stop_price": 1.436679
+  },
+  "EUR/USD": {
+    "id": "EUR/USD_20260909114551",
+    "asset": "EUR/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.164958119392395,
+    "entry_time": "2026-09-09T11:45:51.593263+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02708,
+    "size_usd": 7624.59,
+    "position_size_pct": 0.0739,
+    "confidence": 0.77,
+    "signals": [
+      "RSI overbought (65.2)",
+      "MACD crossover",
+      "BB overbought (pct_b=1.13)",
+      "High-impact catalyst",
+      "Claude [neutral]: fed hawkish"
+    ],
+    "news_sentiment": -0.227,
+    "news_headlines": [
+      "US Dollar Price Forecast: Dollar Weakens as ECB Hike and U.S. CPI Take Focus",
+      "Dollar Slips on Japanese Yen Strength",
+      "Dollar Weighed Down by a Stronger Yen"
     ],
     "mode": "paper",
     "strategy_version": "121",

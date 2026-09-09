@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 103198.83,
+  "portfolio_balance": 103146.52,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 4.35,
-  "unrealized_pnl_usd": 358.72,
-  "equity_value": 103557.55,
+  "portfolio_drawdown_pct": 4.4,
+  "unrealized_pnl_usd": 466.12,
+  "equity_value": 103612.64,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 41279.53,
-  "swing_capital_used_usd": 45672.17,
-  "total_trades": 1373,
-  "last_tick": "2026-09-09T06:30:36.422242+00:00",
+  "swing_capital_used_usd": 47715.45,
+  "total_trades": 1374,
+  "last_tick": "2026-09-09T11:45:51.599187+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8417,
-      "unrealized_pnl_pct": 0.000945,
-      "unrealized_pnl_usd": 1.27
+      "current_price": 7.8416,
+      "unrealized_pnl_pct": 0.000932,
+      "unrealized_pnl_usd": 1.25
     },
     {
       "id": "HD_20260821194841",
@@ -102,9 +102,9 @@
       "status": "open",
       "price_peak": 1.8843899965286255,
       "trailing_stop_price": 1.869315,
-      "current_price": 1.87477,
-      "unrealized_pnl_pct": -0.004381,
-      "unrealized_pnl_usd": -24.51
+      "current_price": 1.87756,
+      "unrealized_pnl_pct": -0.0029,
+      "unrealized_pnl_usd": -16.22
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -130,9 +130,9 @@
       "status": "open",
       "price_peak": 1.6198300123214722,
       "trailing_stop_price": 1.606871,
-      "current_price": 1.6096,
-      "unrealized_pnl_pct": -0.004287,
-      "unrealized_pnl_usd": -9.97
+      "current_price": 1.61244,
+      "unrealized_pnl_pct": -0.00253,
+      "unrealized_pnl_usd": -5.89
     },
     {
       "id": "GLD_20260903143205",
@@ -235,32 +235,6 @@
       "current_price": 64.779999,
       "unrealized_pnl_pct": 0.021364,
       "unrealized_pnl_usd": 138.06
-    },
-    {
-      "id": "USD/NOK_20260907084748",
-      "asset": "USD/NOK",
-      "trade_type": "swing",
-      "direction": "long",
-      "entry_price": 9.276040077209473,
-      "entry_time": "2026-09-07T08:47:48.597098+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02624,
-      "size_usd": 5581.31,
-      "position_size_pct": 0.0538,
-      "confidence": 0.56,
-      "signals": [
-        "RSI oversold (36.9)",
-        "5d momentum -0.32%",
-        "BB oversold (pct_b=-0.13)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "120",
-      "status": "open",
-      "current_price": 9.2034,
-      "unrealized_pnl_pct": -0.007831,
-      "unrealized_pnl_usd": -43.71
     },
     {
       "id": "AMD_20260908151710",
@@ -560,11 +534,11 @@
       "mode": "paper",
       "strategy_version": "120",
       "status": "open",
-      "price_trough": 111.21800231933594,
-      "trailing_stop_price": 112.107746,
-      "current_price": 111.213997,
-      "unrealized_pnl_pct": 0.006699,
-      "unrealized_pnl_usd": 29.43
+      "price_trough": 111.36199951171875,
+      "trailing_stop_price": 112.252896,
+      "current_price": 111.361,
+      "unrealized_pnl_pct": 0.005386,
+      "unrealized_pnl_usd": 23.66
     },
     {
       "id": "XRP-USD_20260908184621",
@@ -596,11 +570,43 @@
       "mode": "paper",
       "strategy_version": "121",
       "status": "open",
-      "price_trough": 1.4371999502182007,
-      "trailing_stop_price": 1.45173,
-      "current_price": 1.4376,
-      "unrealized_pnl_pct": 0.000765,
-      "unrealized_pnl_usd": 4.11
+      "price_trough": 1.4222999811172485,
+      "trailing_stop_price": 1.436679,
+      "current_price": 1.4223,
+      "unrealized_pnl_pct": 0.011399,
+      "unrealized_pnl_usd": 61.21
+    },
+    {
+      "id": "EUR/USD_20260909114551",
+      "asset": "EUR/USD",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 1.164958119392395,
+      "entry_time": "2026-09-09T11:45:51.593263+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02708,
+      "size_usd": 7624.59,
+      "position_size_pct": 0.0739,
+      "confidence": 0.77,
+      "signals": [
+        "RSI overbought (65.2)",
+        "MACD crossover",
+        "BB overbought (pct_b=1.13)",
+        "High-impact catalyst",
+        "Claude [neutral]: fed hawkish"
+      ],
+      "news_sentiment": -0.227,
+      "news_headlines": [
+        "US Dollar Price Forecast: Dollar Weakens as ECB Hike and U.S. CPI Take Focus",
+        "Dollar Slips on Japanese Yen Strength",
+        "Dollar Weighed Down by a Stronger Yen"
+      ],
+      "mode": "paper",
+      "strategy_version": "121",
+      "status": "open",
+      "current_price": 1.164958,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -647,27 +653,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ABBV",
-      "rank_score": 0.6995,
-      "price": 248.7899932861328,
-      "rsi": 18.970130265254994,
-      "momentum_5d": -0.009554556837242257,
-      "momentum_1d": -0.03997685068242676,
-      "macd_crossover": false,
-      "atr_pct": 0.008111043732549457,
-      "bollinger_pct_b": 0.0911,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.42,
-      "news_sentiment": 0.375,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "AbbVie (ABBV) Registers a Bigger Fall Than the Market: Important Facts to Note",
-        "Is AbbVie Stock Too Reliant On Skyrizi?",
-        "Move Aside, Pfizer: This Stock Is the Smarter Dividend Buy Right Now"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "BIIB",
       "rank_score": 0.697,
       "price": 212.41000366210938,
@@ -710,8 +695,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "ABBV",
+      "rank_score": 0.6925,
+      "price": 248.7899932861328,
+      "rsi": 18.970130265254994,
+      "momentum_5d": -0.009554556837242257,
+      "momentum_1d": -0.03997685068242676,
+      "macd_crossover": false,
+      "atr_pct": 0.008111043732549457,
+      "bollinger_pct_b": 0.0911,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.42,
+      "news_sentiment": 0.256,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Billionaire Israel Englander Is Doubling Down on These 2 Outstanding Dividend Stocks. Should You?",
+        "AbbVie (ABBV) Registers a Bigger Fall Than the Market: Important Facts to Note",
+        "Is AbbVie Stock Too Reliant On Skyrizi?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BMY",
-      "rank_score": 0.6775,
+      "rank_score": 0.6805,
       "price": 64.69499969482422,
       "rsi": 14.672141429249649,
       "momentum_5d": -0.0046157864309589415,
@@ -721,12 +727,12 @@
       "bollinger_pct_b": 0.1145,
       "volume_spike": true,
       "volume_spike_ratio": 2.2,
-      "news_sentiment": -0.04,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.111,
+      "news_confidence": 0.45,
       "news_headlines": [
+        "A new immuno-oncology play raises $225M for a next-generation drug",
         "Is AbbVie Stock Too Reliant On Skyrizi?",
-        "Here\u2019s How Much You Need Invested to Collect $1,000 a Month in Dividends",
-        "Roivant surges on \u2018exceptional\u2019 results; Bristol Myers touts first-of-its-kind CAR-T therapy"
+        "Here\u2019s How Much You Need Invested to Collect $1,000 a Month in Dividends"
       ],
       "high_impact_news": true
     },
@@ -878,27 +884,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "HD",
-      "rank_score": 0.5896,
-      "price": 313.7200012207031,
-      "rsi": 32.67368223847521,
-      "momentum_5d": -0.011563102991124433,
-      "momentum_1d": -0.01821370460219086,
-      "macd_crossover": false,
-      "atr_pct": 0.005401735265138655,
-      "bollinger_pct_b": 0.0005,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.88,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "1 Consumer Stock for Long-Term Investors and 2 Facing Challenges",
-        "Here's What to Expect Ahead of RH's Q2 Earnings Release",
-        "5 Magnificent Dividend Stocks to Buy in September (1 Yields 5.3%)"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "AMAT",
       "rank_score": 0.5863,
       "price": 472.7200012207031,
@@ -941,23 +926,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "COST",
-      "rank_score": 0.5762,
-      "price": 910.1300048828125,
-      "rsi": 22.73387304877994,
-      "momentum_5d": 0.0031412303742056106,
-      "momentum_1d": -0.02159180554258767,
-      "macd_crossover": true,
-      "atr_pct": 0.003971307419099972,
-      "bollinger_pct_b": 0.2485,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.04,
-      "news_sentiment": 0.265,
-      "news_confidence": 0.37,
+      "asset": "HD",
+      "rank_score": 0.5826,
+      "price": 313.7200012207031,
+      "rsi": 32.67368223847521,
+      "momentum_5d": -0.011563102991124433,
+      "momentum_1d": -0.01821370460219086,
+      "macd_crossover": false,
+      "atr_pct": 0.005401735265138655,
+      "bollinger_pct_b": 0.0005,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.88,
+      "news_sentiment": 0.412,
+      "news_confidence": 0.51,
       "news_headlines": [
-        "Costco (COST): Buy, Sell, or Hold Post Q2 Earnings?",
-        "Cramer Warns Costco May Have Lost Its Edge, Days Before Clark Howard Sends Retirees Straight Back",
-        "Walmart, Ulta and Other Retailers That Can Win With AI"
+        "AMD and Nvidia Just Experienced an Unprecedented Valuation Split",
+        "1 Consumer Stock for Long-Term Investors and 2 Facing Challenges",
+        "Here's What to Expect Ahead of RH's Q2 Earnings Release"
       ],
       "high_impact_news": true
     },
@@ -983,6 +968,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "MA",
+      "rank_score": 0.5699,
+      "price": 570.9450073242188,
+      "rsi": 23.18650509538371,
+      "momentum_5d": 0.004071192904924781,
+      "momentum_1d": -0.028988559657898354,
+      "macd_crossover": false,
+      "atr_pct": 0.005065123087483349,
+      "bollinger_pct_b": 0.2309,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.96,
+      "news_sentiment": -0.333,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "The Institutional Pivot: Why Wall Street\u2019s Blockchain Bets No Longer Need Washington\u2019s Permission",
+        "Capital Flows in Agentic AI: The Six-Jurisdiction Unlock",
+        "Strategy just dropped $250 'Bitcoin' Jordans with one big catch"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.5682,
+      "price": 910.1300048828125,
+      "rsi": 22.73387304877994,
+      "momentum_5d": 0.0031412303742056106,
+      "momentum_1d": -0.02159180554258767,
+      "macd_crossover": true,
+      "atr_pct": 0.003971307419099972,
+      "bollinger_pct_b": 0.2485,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.04,
+      "news_sentiment": 0.058,
+      "news_confidence": 0.31,
+      "news_headlines": [
+        "Billionaire Israel Englander Is Doubling Down on These 2 Outstanding Dividend Stocks. Should You?",
+        "Costco (COST): Buy, Sell, or Hold Post Q2 Earnings?",
+        "Cramer Warns Costco May Have Lost Its Edge, Days Before Clark Howard Sends Retirees Straight Back"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "REGN",
       "rank_score": 0.5677,
       "price": 810.3200073242188,
@@ -1000,27 +1027,6 @@
         "Evaluating Bullish Potential in Regeneron Pharmaceuticals (REGN) Stock",
         "Big Short Billionaire Goes Long: Michael Burry Avoids AI, Bets on Beaten own Stocks Instead",
         "3 Reasons to Avoid REGN and 1 Stock to Buy Instead"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.5672,
-      "price": 40.470298767089844,
-      "rsi": 58.71846003884131,
-      "momentum_5d": -0.05872078677789252,
-      "momentum_1d": 0.0961768299455737,
-      "macd_crossover": false,
-      "atr_pct": 0.029966582965410573,
-      "bollinger_pct_b": 0.5865,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.08,
-      "news_sentiment": 0.69,
-      "news_confidence": 0.58,
-      "news_headlines": [
-        "IonQ Just Raised Its 2026 Revenue Outlook by About 60%. Most of the Raise Isn't Quantum Computing.",
-        "Why Is IonQ (IONQ) Stock Rocketing Higher Today",
-        "Stock Market Today, Sept. 8: IonQ Raises 2026 Revenue Guidance on Investor Day"
       ],
       "high_impact_news": true
     }
