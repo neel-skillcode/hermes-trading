@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 1.6216299533843994,
-    "trailing_stop_price": 1.608657
+    "price_peak": 1.6218199729919434,
+    "trailing_stop_price": 1.608845
   },
   "GLD": {
     "id": "GLD_20260903143205",
@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 399.489990234375,
-    "trailing_stop_price": 404.974988
+    "price_trough": 396.4599914550781,
+    "trailing_stop_price": 401.903387
   },
   "SOFI": {
     "id": "SOFI_20260903143205",
@@ -132,8 +132,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 17.261999130249023,
-    "trailing_stop_price": 17.919681
+    "price_trough": 17.209999084472656,
+    "trailing_stop_price": 17.8657
   },
   "XLE": {
     "id": "XLE_20260904134252",
@@ -223,8 +223,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1623852252960205,
-    "trailing_stop_price": 1.171684
+    "price_trough": 1.16130530834198,
+    "trailing_stop_price": 1.170596
   },
   "META": {
     "id": "META_20260909151955",
@@ -256,40 +256,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 648.75,
-    "trailing_stop_price": 657.07995
-  },
-  "LCID": {
-    "id": "LCID_20260909184318",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 4.244999885559082,
-    "entry_time": "2026-09-09T18:43:18.563679+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5724.73,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (20.8)",
-      "5d momentum -3.74%",
-      "1d momentum -8.41%",
-      "BB oversold (pct_b=0.06)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.348,
-    "news_headlines": [
-      "The EV Brain Drain: Lucid Is Bleeding Talent While Rivian Is Evolving",
-      "Why Lucid Stock Tumbled 34% in August",
-      "Lucid Just Dropped 33% in a Month. Is It Time to Sell?"
-    ],
-    "mode": "paper",
-    "strategy_version": "121",
-    "status": "open",
-    "price_peak": 4.315000057220459,
-    "trailing_stop_price": 4.250275
+    "price_trough": 644.3800048828125,
+    "trailing_stop_price": 652.653844
   },
   "NVDA": {
     "id": "NVDA_20260910143740",
@@ -352,8 +320,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_peak": 55.935001373291016,
-    "trailing_stop_price": 55.282799
+    "price_peak": 56.0,
+    "trailing_stop_price": 55.34704
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260910143740",
@@ -442,7 +410,9 @@
     ],
     "mode": "paper",
     "strategy_version": "122",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.3515000343322754,
+    "trailing_stop_price": 1.361893
   },
   "XLV": {
     "id": "XLV_20260910175112",
@@ -472,7 +442,9 @@
     ],
     "mode": "paper",
     "strategy_version": "122",
-    "status": "open"
+    "status": "open",
+    "price_trough": 165.6699981689453,
+    "trailing_stop_price": 166.234933
   },
   "BNB-USD": {
     "id": "BNB-USD_20260910175112",
@@ -532,6 +504,35 @@
     ],
     "mode": "paper",
     "strategy_version": "122",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260910200720",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.08399000018835068,
+    "entry_time": "2026-09-10T20:07:20.304820+00:00",
+    "stop_loss_pct": 0.00807,
+    "take_profit_pct": 0.01874,
+    "size_usd": 4193.53,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (27.3)",
+      "5d momentum +0.36%",
+      "1d momentum -3.49%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.027,
+    "news_headlines": [
+      "Trump promises $5,000 payout if Republicans win election",
+      "What Would 10,000 XRP, 10,000 Cardano and 10,000 Dogecoin Be Worth in 2028?",
+      "Only One of These Four Cryptos Is Up in 2026, and It Is Not XRP, Cardano or Dogecoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "123",
     "status": "open"
   }
 }
