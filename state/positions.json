@@ -478,36 +478,6 @@
     "price_trough": 169.52999877929688,
     "trailing_stop_price": 171.189697
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260909211330",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.08674000203609467,
-    "entry_time": "2026-09-09T21:13:30.129168+00:00",
-    "stop_loss_pct": 0.0113,
-    "take_profit_pct": 0.02754,
-    "size_usd": 5020.25,
-    "position_size_pct": 0.049,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (24.8)",
-      "5d momentum -2.70%",
-      "1d momentum -3.15%",
-      "BB oversold (pct_b=-0.03)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": -0.027,
-    "news_headlines": [
-      "What Would 10,000 XRP, 10,000 Cardano and 10,000 Dogecoin Be Worth in 2028?",
-      "Only One of These Four Cryptos Is Up in 2026, and It Is Not XRP, Cardano or Dogecoin",
-      "Trump declares \u2018the moon is ours\u2019, DOGE says 'there is a queue'"
-    ],
-    "mode": "paper",
-    "strategy_version": "121",
-    "status": "open"
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260909231621",
     "asset": "BNB-USD",
@@ -563,6 +533,36 @@
       "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone",
       "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
       "Ethena Launches Neobank App on Avalanche"
+    ],
+    "mode": "paper",
+    "strategy_version": "122",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260910103617",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.3741999864578247,
+    "entry_time": "2026-09-10T10:36:17.462299+00:00",
+    "stop_loss_pct": 0.00748,
+    "take_profit_pct": 0.01823,
+    "size_usd": 4982.98,
+    "position_size_pct": 0.0488,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (30.7)",
+      "5d momentum -1.25%",
+      "1d momentum -3.42%",
+      "BB oversold (pct_b=0.14)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.487,
+    "news_headlines": [
+      "Ex-Ripple CTO Says XRP Could Overtake Bitcoin as Viral $60 Price Target Gains Traction",
+      "What Would 10,000 XRP, 10,000 Cardano and 10,000 Dogecoin Be Worth in 2028?",
+      "XRP Holds at $1.44 as Senate Vote and Fed Meeting Approach: Can It Break $1.50?"
     ],
     "mode": "paper",
     "strategy_version": "122",
