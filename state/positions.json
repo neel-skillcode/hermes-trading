@@ -192,8 +192,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1607661247253418,
-    "trailing_stop_price": 1.170052
+    "price_trough": 1.160092830657959,
+    "trailing_stop_price": 1.169374
   },
   "NVDA": {
     "id": "NVDA_20260910143740",
@@ -318,8 +318,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_trough": 165.66000366210938,
-    "trailing_stop_price": 166.224904
+    "price_trough": 165.6199951171875,
+    "trailing_stop_price": 166.184759
   },
   "LRCX": {
     "id": "LRCX_20260910175112",
@@ -350,8 +350,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_peak": 301.7349853515625,
-    "trailing_stop_price": 289.641447
+    "price_peak": 302.2349853515625,
+    "trailing_stop_price": 290.121407
   },
   "QCOM": {
     "id": "QCOM_20260911134633",
@@ -382,38 +382,9 @@
     ],
     "mode": "paper",
     "strategy_version": "123",
-    "status": "open"
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260911134633",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2523.969970703125,
-    "entry_time": "2026-09-11T13:46:33.518592+00:00",
-    "stop_loss_pct": 0.0075,
-    "take_profit_pct": 0.01826,
-    "size_usd": 5670.56,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (79.8)",
-      "5d momentum +1.95%",
-      "1d momentum +3.67%",
-      "BB overbought (pct_b=1.25)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.4,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Friday, September 11, 2026: Bitcoin falls below $77,000 with key inflation data on deck",
-      "630 Page CLARITY Act Draft Drops Days Before Senate Vote With Major DeFi and Prediction Market Changes",
-      "Bitcoin vs. Ethereum ETFs: Which Has More Room to Grow in 2026"
-    ],
-    "mode": "paper",
-    "strategy_version": "123",
-    "status": "open"
+    "status": "open",
+    "price_trough": 184.6699981689453,
+    "trailing_stop_price": 187.440048
   },
   "SOL-USD": {
     "id": "SOL-USD_20260911134633",
@@ -475,7 +446,9 @@
     ],
     "mode": "paper",
     "strategy_version": "123",
-    "status": "open"
+    "status": "open",
+    "price_trough": 138.75039672851562,
+    "trailing_stop_price": 139.625912
   },
   "WFC": {
     "id": "WFC_20260911134633",
@@ -503,6 +476,68 @@
       "How Top Fidelity Manager Beats The Herd With 'Overanalyzed' Stocks",
       "RH Stock Climbs Premarket: Wells Fargo Backs H2 \u2018Time To Shine\u2019 Thesis, But BofA Warns Of Q4 Risk",
       "What to Know as Wells Fargo Upgrades Synopsys Stock"
+    ],
+    "mode": "paper",
+    "strategy_version": "123",
+    "status": "open",
+    "price_trough": 90.24500274658203,
+    "trailing_stop_price": 92.09683
+  },
+  "ON": {
+    "id": "ON_20260911171905",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 75.01000213623047,
+    "entry_time": "2026-09-11T17:19:05.823460+00:00",
+    "stop_loss_pct": 0.01178,
+    "take_profit_pct": 0.02825,
+    "size_usd": 5169.33,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (69.5)",
+      "5d momentum +6.62%",
+      "1d momentum +1.63%",
+      "BB overbought (pct_b=1.12)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.875,
+    "news_headlines": [
+      "Investors Heavily Search ON Semiconductor Corporation (ON): Here is What You Need to Know",
+      "TXN Starts Raising Prices: Can Higher ASPs Boost Profits in 2026?",
+      "Analog Devices to Acquire Alif Semiconductor for $1.35 Billion"
+    ],
+    "mode": "paper",
+    "strategy_version": "123",
+    "status": "open"
+  },
+  "MRNA": {
+    "id": "MRNA_20260911171905",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 148.07000732421875,
+    "entry_time": "2026-09-11T17:19:05.825374+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 455.0,
+    "position_size_pct": 0.0045,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (73.5)",
+      "5d momentum +9.70%",
+      "1d momentum +2.51%",
+      "BB overbought (pct_b=0.95)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.528,
+    "news_headlines": [
+      "Moderna Rallies 8% on 2026 Melt-Up Momentum Even While BioNTech and Merck Stay Flat",
+      "Why Is Techne (TECH) Down 0.1% Since Last Earnings Report?",
+      "Amgen vs. Moderna: Which Healthcare Stock Is a Better Buy in 2026?"
     ],
     "mode": "paper",
     "strategy_version": "123",
