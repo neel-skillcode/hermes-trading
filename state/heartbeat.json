@@ -3,15 +3,15 @@
   "portfolio_balance": 101838.79,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 5.62,
-  "unrealized_pnl_usd": 495.66,
-  "equity_value": 102334.45,
+  "unrealized_pnl_usd": 520.17,
+  "equity_value": 102358.96,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40735.52,
   "swing_capital_used_usd": 50921.0,
   "total_trades": 1411,
-  "last_tick": "2026-09-12T00:08:10.092677+00:00",
+  "last_tick": "2026-09-12T04:29:13.915429+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
@@ -332,11 +332,11 @@
       "mode": "paper",
       "strategy_version": "123",
       "status": "open",
-      "price_trough": 101.76000213623047,
-      "trailing_stop_price": 102.637173,
-      "current_price": 102.190002,
-      "unrealized_pnl_pct": -0.004028,
-      "unrealized_pnl_usd": -22.84
+      "price_trough": 101.73999786376953,
+      "trailing_stop_price": 102.616997,
+      "current_price": 101.75,
+      "unrealized_pnl_pct": 0.000295,
+      "unrealized_pnl_usd": 1.67
     },
     {
       "id": "WFC_20260911134633",
@@ -502,7 +502,7 @@
       "mode": "paper",
       "strategy_version": "123",
       "status": "open",
-      "price_peak": 5.68,
+      "price_peak": 5.679999828338623,
       "trailing_stop_price": 5.595822,
       "current_price": 5.67,
       "unrealized_pnl_pct": 0.000883,
@@ -537,7 +537,7 @@
       "mode": "paper",
       "strategy_version": "123",
       "status": "open",
-      "price_peak": 4.22,
+      "price_peak": 4.21999979019165,
       "trailing_stop_price": 4.1567,
       "current_price": 4.19,
       "unrealized_pnl_pct": -0.001953,
@@ -572,7 +572,7 @@
       "mode": "paper",
       "strategy_version": "123",
       "status": "open",
-      "price_trough": 6.26,
+      "price_trough": 6.260000228881836,
       "trailing_stop_price": 6.314274,
       "current_price": 6.26,
       "unrealized_pnl_pct": 0.000798,
@@ -607,8 +607,8 @@
       "mode": "paper",
       "strategy_version": "123",
       "status": "open",
-      "price_trough": 180.64,
-      "trailing_stop_price": 182.952192,
+      "price_trough": 180.63999938964844,
+      "trailing_stop_price": 182.952191,
       "current_price": 180.75,
       "unrealized_pnl_pct": 0.000442,
       "unrealized_pnl_usd": 2.01
@@ -659,7 +659,7 @@
     },
     {
       "asset": "ORCL",
-      "rank_score": 0.6259,
+      "rank_score": 0.6299,
       "price": 150.2550048828125,
       "rsi": 16.860473343474723,
       "momentum_5d": -0.023303377147800577,
@@ -669,7 +669,7 @@
       "bollinger_pct_b": 0.1348,
       "volume_spike": false,
       "volume_spike_ratio": 1.06,
-      "news_sentiment": 0.75,
+      "news_sentiment": 0.833,
       "news_confidence": 0.48,
       "news_headlines": [
         "Oracle stock trims gains as AI cloud demand outpaces supply",
@@ -722,7 +722,7 @@
     },
     {
       "asset": "UNH",
-      "rank_score": 0.5888,
+      "rank_score": 0.5868,
       "price": 378.8699951171875,
       "rsi": 20.042106618593877,
       "momentum_5d": -0.0015022330817815433,
@@ -732,12 +732,12 @@
       "bollinger_pct_b": 0.1864,
       "volume_spike": true,
       "volume_spike_ratio": 1.5,
-      "news_sentiment": 0.651,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.633,
+      "news_confidence": 0.4,
       "news_headlines": [
+        "3 Profitable Stocks to Keep an Eye On",
         "UnitedHealth Group (UNH) Stock Drops Despite Market Gains: Important Facts to Note",
-        "Can Centene's Medicare Advantage Strategy Unlock Better Margins?",
-        "Should You Buy Elevance Health Stock For The Margin It Lost?"
+        "Can Centene's Medicare Advantage Strategy Unlock Better Margins?"
       ],
       "high_impact_news": true
     },
@@ -805,6 +805,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XOM",
+      "rank_score": 0.5451,
+      "price": 166.0,
+      "rsi": 62.927182077681216,
+      "momentum_5d": 0.005025136769728085,
+      "momentum_1d": 0.04428782705580161,
+      "macd_crossover": false,
+      "atr_pct": 0.008166951689990992,
+      "bollinger_pct_b": 0.8311,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.6,
+      "news_sentiment": 0.256,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Exxon's 2030 Targets Call for $35 Billion More in Cash Flow. Here's the Milestone That Tells You It's on Track By 2028.",
+        "Forget VYM: HDV\u2019s 3.42% Yield and 8-Point Year-to-Date Lead Deserve a Hard Look",
+        "Exxon Edged Higher as IEA Sees a 5.7 Million-Barrel Supply Drop"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BIIB",
       "rank_score": 0.5416,
       "price": 217.10000610351562,
@@ -822,27 +843,6 @@
         "This Biotech Wins a Big FDA Approval. Why Wall Street Is Shrugging.",
         "Exelixis (EXEL) Up 13.3% Since Last Earnings Report: Can It Continue?",
         "Why Is Veeva Systems (VEEV) Winning Big In AI For Biopharma?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XOM",
-      "rank_score": 0.5401,
-      "price": 166.0,
-      "rsi": 62.927182077681216,
-      "momentum_5d": 0.005025136769728085,
-      "momentum_1d": 0.04428782705580161,
-      "macd_crossover": false,
-      "atr_pct": 0.008166951689990992,
-      "bollinger_pct_b": 0.8311,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.6,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Forget VYM: HDV\u2019s 3.42% Yield and 8-Point Year-to-Date Lead Deserve a Hard Look",
-        "Exxon Edged Higher as IEA Sees a 5.7 Million-Barrel Supply Drop",
-        "Update: Market Chatter: White House Looking to Expand US Oil Refining Capacity"
       ],
       "high_impact_news": true
     },
