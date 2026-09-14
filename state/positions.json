@@ -192,8 +192,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1592857837677002,
-    "trailing_stop_price": 1.16856
+    "price_trough": 1.156738042831421,
+    "trailing_stop_price": 1.165992
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260910143740",
@@ -508,32 +508,59 @@
     "price_trough": 180.63999938964844,
     "trailing_stop_price": 182.952191
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260914002553",
-    "asset": "DOGE-USD",
+  "NZD/USD": {
+    "id": "NZD/USD_20260914051557",
+    "asset": "NZD/USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 0.08239000290632248,
-    "entry_time": "2026-09-14T00:25:53.314964+00:00",
-    "stop_loss_pct": 0.00703,
-    "take_profit_pct": 0.0174,
-    "size_usd": 5723.15,
-    "position_size_pct": 0.0561,
-    "confidence": 0.95,
+    "entry_price": 0.5784358978271484,
+    "entry_time": "2026-09-14T05:15:57.890386+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00477,
+    "size_usd": 5050.48,
+    "position_size_pct": 0.0495,
+    "confidence": 0.773,
     "signals": [
-      "RSI oversold (33.1)",
-      "5d momentum -1.83%",
-      "1d momentum -2.64%",
-      "BB oversold (pct_b=-0.12)",
-      "Volume spike 2.5\u00d7",
+      "RSI oversold (14.4)",
+      "1d momentum -0.75%",
+      "BB oversold (pct_b=0.03)",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      "Claude [supports]: fed hawkish"
     ],
-    "news_sentiment": -0.562,
+    "news_sentiment": 0.145,
     "news_headlines": [
-      "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
-      "Bitwise Closes Dogecoin ETF After 10 Months",
-      "Can Dogecoin Reach $1 by 2027? The Answer Might Shock You."
+      "Five Currencies, One Message: Is a 75-Day U.S. Dollar Rally Taking Shape?",
+      "AUD/USD, NZD/USD, and USD/JPY Short -Term Forecast for 09/07/2026",
+      "USD/JPY Eyes Breakout as Rising Yields Support US Dollar"
+    ],
+    "mode": "paper",
+    "strategy_version": "124",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260914051557",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3775999546051025,
+    "entry_time": "2026-09-14T05:15:57.892569+00:00",
+    "stop_loss_pct": 0.00707,
+    "take_profit_pct": 0.01682,
+    "size_usd": 719.63,
+    "position_size_pct": 0.007,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (69.7)",
+      "5d momentum +2.29%",
+      "1d momentum +0.72%",
+      "BB overbought (pct_b=1.00)",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.385,
+    "news_headlines": [
+      "XRP News: Will the CLARITY Act Pass on Tuesday? Senate Democrats Meet Tonight and Republicans Need Nine of Them",
+      "What Will 10,000 XRP Be Worth in 2030?",
+      "What Will XRP Be Worth by 2028?"
     ],
     "mode": "paper",
     "strategy_version": "124",
