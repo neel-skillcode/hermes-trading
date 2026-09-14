@@ -318,37 +318,6 @@
     "strategy_version": "124",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260914104435",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.398300051689148,
-    "entry_time": "2026-09-14T10:44:35.149213+00:00",
-    "stop_loss_pct": 0.00934,
-    "take_profit_pct": 0.02275,
-    "size_usd": 715.28,
-    "position_size_pct": 0.007,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (68.2)",
-      "5d momentum +1.36%",
-      "1d momentum +4.34%",
-      "BB overbought (pct_b=0.93)",
-      "Volume spike 2.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.548,
-    "news_headlines": [
-      "XRP Could Rally to $1.60 if $1.38 Breakout Confirms, Analyst Says",
-      "XRP News: Will the CLARITY Act Pass on Tuesday? Senate Democrats Meet Tonight and Republicans Need Nine of Them",
-      "What Will 10,000 XRP Be Worth in 2030?"
-    ],
-    "mode": "paper",
-    "strategy_version": "124",
-    "status": "open"
-  },
   "LRCX": {
     "id": "LRCX_20260914163729",
     "asset": "LRCX",
@@ -374,36 +343,6 @@
       "Chip Equipment Stocks Slide as AI Pacing Call Reaches Fab Spending: Applied Materials and Lam Research Fall 6%, ASML Sinks 5%",
       "Which Tech Stocks Are Getting Hit Hardest Today",
       "ASML Fell For a Month Straight: A Prominent Wall Street Ratings Agency Says It Will Return 70% From Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "124",
-    "status": "open"
-  },
-  "RBLX": {
-    "id": "RBLX_20260914163729",
-    "asset": "RBLX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 50.525001525878906,
-    "entry_time": "2026-09-14T16:37:29.878550+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5161.63,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (79.6)",
-      "5d momentum +10.29%",
-      "1d momentum +14.47%",
-      "BB overbought (pct_b=1.05)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge"
-    ],
-    "news_sentiment": 0.143,
-    "news_headlines": [
-      "Roblox Jumps 10% as Wedbush Lifts Target to $48 While Staying Neutral; Take-Two and GameStop Nudge Higher",
-      "Roblox Takes Steps to Build Re-Expansion Opportunity, Wedbush Says",
-      "Walt Disney vs. Roblox: Which Media Stock Is a Better Buy in 2026?"
     ],
     "mode": "paper",
     "strategy_version": "124",
@@ -527,7 +466,9 @@
     ],
     "mode": "paper",
     "strategy_version": "124",
-    "status": "open"
+    "status": "open",
+    "price_peak": 924.030029296875,
+    "trailing_stop_price": 910.585392
   },
   "ETH-USD": {
     "id": "ETH-USD_20260914163729",
@@ -556,6 +497,39 @@
     ],
     "mode": "paper",
     "strategy_version": "124",
+    "status": "open",
+    "price_peak": 2596.97998046875,
+    "trailing_stop_price": 2552.156106
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260914203119",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.743000030517578,
+    "entry_time": "2026-09-14T20:31:19.136109+00:00",
+    "stop_loss_pct": 0.01029,
+    "take_profit_pct": 0.02547,
+    "size_usd": 5827.72,
+    "position_size_pct": 0.0574,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (86.7)",
+      "5d momentum +3.79%",
+      "1d momentum +3.99%",
+      "BB overbought (pct_b=1.20)",
+      "Volume spike 3.0\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone",
+      "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
+      "Ethena Launches Neobank App on Avalanche"
+    ],
+    "mode": "paper",
+    "strategy_version": "125",
     "status": "open"
   }
 }
