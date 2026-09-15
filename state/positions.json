@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 17.12019920349121,
-    "trailing_stop_price": 17.772479
+    "price_trough": 17.069900512695312,
+    "trailing_stop_price": 17.720264
   },
   "XLE": {
     "id": "XLE_20260904134252",
@@ -222,8 +222,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_peak": 110.56600189208984,
-    "trailing_stop_price": 109.681474
+    "price_peak": 110.59200286865234,
+    "trailing_stop_price": 109.707267
   },
   "WFC": {
     "id": "WFC_20260911134633",
@@ -257,70 +257,6 @@
     "status": "open",
     "price_trough": 88.57499694824219,
     "trailing_stop_price": 90.392556
-  },
-  "ARM": {
-    "id": "ARM_20260914163729",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 240.89999389648438,
-    "entry_time": "2026-09-14T16:37:29.882305+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6435.79,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (32.9)",
-      "5d momentum -8.80%",
-      "1d momentum -10.87%",
-      "BB oversold (pct_b=0.04)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: analyst upgrade"
-    ],
-    "news_sentiment": 0.75,
-    "news_headlines": [
-      "Prediction: Arm Could Be the Picks-and-Shovels Winner of the AI Boom",
-      "Wall Street Analyst Sees Between 19% to 37% Upside in These 5 AI Chip Stocks",
-      "Arm vs. Credo Technology Group: Which Semiconductor Stock Is a Better Buy in 2026?"
-    ],
-    "mode": "paper",
-    "strategy_version": "124",
-    "status": "open",
-    "price_peak": 242.97999572753906,
-    "trailing_stop_price": 239.335296
-  },
-  "MU": {
-    "id": "MU_20260914163729",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 919.4000244140625,
-    "entry_time": "2026-09-14T16:37:29.885525+00:00",
-    "stop_loss_pct": 0.01455,
-    "take_profit_pct": 0.03547,
-    "size_usd": 1763.27,
-    "position_size_pct": 0.0174,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (15.4)",
-      "5d momentum -5.70%",
-      "1d momentum -11.08%",
-      "BB oversold (pct_b=0.06)",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge; macro risk"
-    ],
-    "news_sentiment": 0.371,
-    "news_headlines": [
-      "Tech pulls back on AI concerns, cybersecurity takes a step up",
-      "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
-      "Nvidia and other chipmakers suffer as AI warnings raise spending concerns"
-    ],
-    "mode": "paper",
-    "strategy_version": "124",
-    "status": "open",
-    "price_peak": 925.2899780273438,
-    "trailing_stop_price": 911.827009
   },
   "BNB-USD": {
     "id": "BNB-USD_20260915013551",
@@ -375,35 +311,6 @@
     "strategy_version": "125",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260915063917",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.4040000438690186,
-    "entry_time": "2026-09-15T06:39:17.139285+00:00",
-    "stop_loss_pct": 0.01126,
-    "take_profit_pct": 0.02615,
-    "size_usd": 714.74,
-    "position_size_pct": 0.007,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (44.6)",
-      "5d momentum -1.27%",
-      "1d momentum +1.31%",
-      "High-impact catalyst",
-      "Claude [neutral]: fed hawkish"
-    ],
-    "news_sentiment": 0.496,
-    "news_headlines": [
-      "XRP and XLM Explode 8% as the CLARITY Act Nears Crucial Vote",
-      "XRP Price Prediction 3 Years: Where XRP Could Be in 2029?",
-      "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision?"
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open"
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260915165306",
     "asset": "ETH-USD",
@@ -435,152 +342,216 @@
     "strategy_version": "125",
     "status": "open"
   },
-  "USO": {
-    "id": "USO_20260915165306",
-    "asset": "USO",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 162.19979858398438,
-    "entry_time": "2026-09-15T16:53:06.990729+00:00",
-    "stop_loss_pct": 0.01222,
-    "take_profit_pct": 0.02977,
-    "size_usd": 5692.33,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (76.7)",
-      "5d momentum +4.09%",
-      "1d momentum +5.89%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge"
-    ],
-    "news_sentiment": -0.538,
-    "news_headlines": [
-      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Prepare for Fed Meeting",
-      "Sector Update: Energy Stocks Advance Pre-Bell Tuesday",
-      "This Bull Call Spread In Oil Provides A Hedge Against Stocks And Bonds"
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open"
-  },
-  "VLO": {
-    "id": "VLO_20260915165306",
-    "asset": "VLO",
+  "XRP-USD": {
+    "id": "XRP-USD_20260915195436",
+    "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 395.3900146484375,
-    "entry_time": "2026-09-15T16:53:06.992451+00:00",
+    "entry_price": 1.3033000230789185,
+    "entry_time": "2026-09-15T19:54:36.325800+00:00",
     "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03598,
-    "size_usd": 5197.34,
-    "position_size_pct": 0.0511,
-    "confidence": 0.798,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6189.31,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
     "signals": [
-      "MACD crossover",
-      "5d momentum +4.13%",
-      "1d momentum +2.92%",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: price surge"
-    ],
-    "news_sentiment": 0.878,
-    "news_headlines": [
-      "Saipem Lands $350M Contract for West Hub Tails Project in Angola",
-      "What Does the Future Hold for Valero Energy's Refining Business?",
-      "Best Growth Stocks to Buy for September 15th"
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open"
-  },
-  "LRCX": {
-    "id": "LRCX_20260915165306",
-    "asset": "LRCX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 267.7650146484375,
-    "entry_time": "2026-09-15T16:53:06.994203+00:00",
-    "stop_loss_pct": 0.01436,
-    "take_profit_pct": 0.03276,
-    "size_usd": 3673.31,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI oversold (4.8)",
-      "5d momentum -2.97%",
-      "1d momentum -11.75%",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.447,
-    "news_headlines": [
-      "KLA Stock Jumps 40% Year to Date: 4 Reasons You Should Still Buy It",
-      "Can Applied Materials Sustain Strong AGS Growth Beyond 2026?",
-      "Lam Research Vs. Applied Materials: Who Actually Helps ASML Share Prices Rise Higher?"
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open"
-  },
-  "GS": {
-    "id": "GS_20260915165306",
-    "asset": "GS",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 961.7625122070312,
-    "entry_time": "2026-09-15T16:53:06.995602+00:00",
-    "stop_loss_pct": 0.01107,
-    "take_profit_pct": 0.02698,
-    "size_usd": 5692.33,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (8.2)",
-      "5d momentum -2.46%",
-      "1d momentum -6.06%",
-      "BB oversold (pct_b=0.11)",
+      "RSI oversold (23.6)",
+      "5d momentum -5.83%",
+      "1d momentum -10.98%",
+      "BB oversold (pct_b=-0.28)",
+      "Volume spike 4.3\u00d7",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
     ],
-    "news_sentiment": -0.448,
+    "news_sentiment": 0.429,
     "news_headlines": [
-      "Why Goldman Sachs (GS) is a Great Dividend Stock Right Now",
-      "TIGR vs. GS: Which Stock Is the Better Value Option?",
-      "The Zacks Analyst Blog Highlights United Health, Dell Technologies and The Goldman Sachs"
+      "Why the Cryptocurrency XRP Is Down Today",
+      "Ripple CEO sends bold message on Bessent\u2019s CLARITY call",
+      "XRP News: Deeper Liquidity Leaves Traders Waiting for Conviction"
     ],
     "mode": "paper",
-    "strategy_version": "125",
+    "strategy_version": "126",
     "status": "open"
   },
-  "OXY": {
-    "id": "OXY_20260915165306",
-    "asset": "OXY",
+  "SOL-USD": {
+    "id": "SOL-USD_20260915195436",
+    "asset": "SOL-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 63.45000076293945,
-    "entry_time": "2026-09-15T16:53:06.997359+00:00",
-    "stop_loss_pct": 0.00948,
-    "take_profit_pct": 0.02272,
-    "size_usd": 5004.83,
-    "position_size_pct": 0.0492,
-    "confidence": 0.794,
+    "direction": "long",
+    "entry_price": 97.80000305175781,
+    "entry_time": "2026-09-15T19:54:36.327737+00:00",
+    "stop_loss_pct": 0.01344,
+    "take_profit_pct": 0.03352,
+    "size_usd": 6449.91,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
     "signals": [
-      "RSI overbought (75.7)",
-      "5d momentum +3.00%",
-      "1d momentum +4.91%",
-      "BB overbought (pct_b=0.93)",
+      "RSI oversold (28.3)",
+      "5d momentum -1.01%",
+      "1d momentum -5.29%",
+      "BB oversold (pct_b=-0.04)",
+      "Volume spike 5.6\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [supports]: ma catalyst"
     ],
-    "news_sentiment": 0.578,
+    "news_sentiment": 0.548,
     "news_headlines": [
-      "Stocks to Watch: UBS, Dave & Buster\u2019s, Coinbase, CrowdStrike",
-      "Occidental Petroleum Corporation (OXY) is Attracting Investor Attention: Here is What You Should Know",
-      "Should You Buy ExxonMobil Stock For What Guyana Pays Next?"
+      "SEC Chair Atkins reveals what comes next if CLARITY Act stalls",
+      "Bitcoin, crypto stocks slip ahead of CLARITY Act, Fed decision",
+      "Forward Industries Sweetens SkyAI Takeover Offer to 50% Premium"
     ],
     "mode": "paper",
-    "strategy_version": "125",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260915195436",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08083000034093857,
+    "entry_time": "2026-09-15T19:54:36.328950+00:00",
+    "stop_loss_pct": 0.01333,
+    "take_profit_pct": 0.033,
+    "size_usd": 6189.31,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (29.0)",
+      "5d momentum -0.48%",
+      "1d momentum -4.58%",
+      "BB oversold (pct_b=0.03)",
+      "Volume spike 3.8\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.562,
+    "news_headlines": [
+      "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
+      "Bitwise Closes Dogecoin ETF After 10 Months",
+      "Can Dogecoin Reach $1 by 2027? The Answer Might Shock You."
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260915195436",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 7.3429999351501465,
+    "entry_time": "2026-09-15T19:54:36.330244+00:00",
+    "stop_loss_pct": 0.01463,
+    "take_profit_pct": 0.0362,
+    "size_usd": 6189.31,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (37.0)",
+      "5d momentum -0.74%",
+      "1d momentum -3.46%",
+      "BB oversold (pct_b=-0.05)",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.081,
+    "news_headlines": [
+      "Grayscale Just Made XRP 26% of Its New Portfolio for Advisors",
+      "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone",
+      "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?"
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "SMCI": {
+    "id": "SMCI_20260915195436",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 35.744998931884766,
+    "entry_time": "2026-09-15T19:54:36.331895+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0337,
+    "size_usd": 3218.44,
+    "position_size_pct": 0.0316,
+    "confidence": 0.494,
+    "signals": [
+      "RSI oversold (9.8)",
+      "5d momentum -2.54%",
+      "1d momentum -6.95%",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: analyst upgrade; price surge; analyst downgrade"
+    ],
+    "news_sentiment": 0.5,
+    "news_headlines": [
+      "3 Artificial Intelligence (AI) Stocks That Turned $10,000 Into More Than $100,000 in 5 Years (Hint: They've All Outperformed Nvidia)",
+      "Dell Jumps 5.8% as Europe's AI Chip Challenger Enters Its Servers",
+      "Hewlett Packard Enterprise Rises 4% a Day After Evercore ISI Downgrade; Dell Climbs 4%, Super Micro Holds Steady"
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20260915195436",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 925.6500244140625,
+    "entry_time": "2026-09-15T19:54:36.333678+00:00",
+    "stop_loss_pct": 0.01381,
+    "take_profit_pct": 0.0335,
+    "size_usd": 5544.32,
+    "position_size_pct": 0.0545,
+    "confidence": 0.851,
+    "signals": [
+      "RSI oversold (28.9)",
+      "MACD crossover",
+      "5d momentum -0.44%",
+      "1d momentum -5.72%",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": -0.484,
+    "news_headlines": [
+      "3 Artificial Intelligence (AI) Stocks That Turned $10,000 Into More Than $100,000 in 5 Years (Hint: They've All Outperformed Nvidia)",
+      "Nvidia vs. Micron: Which Is the Better Artificial Intelligence (AI) Semiconductor Stock to Own for the Next 5 Years?",
+      "Sector Update: Tech Stocks Mixed Tuesday Afternoon"
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "ORCL": {
+    "id": "ORCL_20260915195436",
+    "asset": "ORCL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 140.22999572753906,
+    "entry_time": "2026-09-15T19:54:36.335339+00:00",
+    "stop_loss_pct": 0.01244,
+    "take_profit_pct": 0.02796,
+    "size_usd": 406.46,
+    "position_size_pct": 0.004,
+    "confidence": 0.494,
+    "signals": [
+      "RSI oversold (23.5)",
+      "5d momentum -2.59%",
+      "1d momentum -10.52%",
+      "High-impact catalyst",
+      "Claude [strongly_contradicts]: price surge; analyst downgrade; macro risk"
+    ],
+    "news_sentiment": 0.63,
+    "news_headlines": [
+      "Can CRM Stock Justify $260 While Its Cash Engine Cools Off?",
+      "AI Slowdown Fears Rise: Buy NVIDIA, HPE That Connect AI and Quantum",
+      "Should You Buy Adobe Stock At $260?"
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
     "status": "open"
   }
 }
