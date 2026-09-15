@@ -192,8 +192,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1542012691497803,
-    "trailing_stop_price": 1.163435
+    "price_trough": 1.1532695293426514,
+    "trailing_stop_price": 1.162496
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260910143740",
@@ -441,68 +441,6 @@
     "price_peak": 924.030029296875,
     "trailing_stop_price": 910.585392
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260914203119",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.743000030517578,
-    "entry_time": "2026-09-14T20:31:19.136109+00:00",
-    "stop_loss_pct": 0.01029,
-    "take_profit_pct": 0.02547,
-    "size_usd": 5827.72,
-    "position_size_pct": 0.0574,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (86.7)",
-      "5d momentum +3.79%",
-      "1d momentum +3.99%",
-      "BB overbought (pct_b=1.20)",
-      "Volume spike 3.0\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.081,
-    "news_headlines": [
-      "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone",
-      "Does Schwab\u2019s Crypto Expansion and Tighter Risk Controls Change The Bull Case For Charles Schwab (SCHW)?",
-      "Ethena Launches Neobank App on Avalanche"
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open",
-    "price_trough": 7.548999786376953,
-    "trailing_stop_price": 7.626679
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260915013551",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.08378999680280685,
-    "entry_time": "2026-09-15T01:35:51.198650+00:00",
-    "stop_loss_pct": 0.00761,
-    "take_profit_pct": 0.01767,
-    "size_usd": 4181.07,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (43.3)",
-      "5d momentum -1.45%",
-      "1d momentum +1.71%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": -0.562,
-    "news_headlines": [
-      "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
-      "Bitwise Closes Dogecoin ETF After 10 Months",
-      "Can Dogecoin Reach $1 by 2027? The Answer Might Shock You."
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open"
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260915013551",
     "asset": "BNB-USD",
@@ -528,6 +466,117 @@
       "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
       "Why Is XRP Dropping Today?",
       "Solana apps top blockchain revenue with $5.09 million"
+    ],
+    "mode": "paper",
+    "strategy_version": "125",
+    "status": "open"
+  },
+  "USD/SEK": {
+    "id": "USD/SEK_20260915063917",
+    "asset": "USD/SEK",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 9.787910461425781,
+    "entry_time": "2026-09-15T06:39:17.134899+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 3758.59,
+    "position_size_pct": 0.037,
+    "confidence": 0.67,
+    "signals": [
+      "RSI overbought (83.8)",
+      "MACD crossover",
+      "1d momentum +0.42%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "125",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260915063917",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08298999816179276,
+    "entry_time": "2026-09-15T06:39:17.136318+00:00",
+    "stop_loss_pct": 0.00688,
+    "take_profit_pct": 0.01677,
+    "size_usd": 5681.93,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (31.0)",
+      "5d momentum -0.94%",
+      "1d momentum -1.53%",
+      "BB oversold (pct_b=0.09)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.562,
+    "news_headlines": [
+      "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
+      "Bitwise Closes Dogecoin ETF After 10 Months",
+      "Can Dogecoin Reach $1 by 2027? The Answer Might Shock You."
+    ],
+    "mode": "paper",
+    "strategy_version": "125",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260915063917",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2489.0,
+    "entry_time": "2026-09-15T06:39:17.137715+00:00",
+    "stop_loss_pct": 0.0067,
+    "take_profit_pct": 0.01529,
+    "size_usd": 3666.6,
+    "position_size_pct": 0.0361,
+    "confidence": 0.564,
+    "signals": [
+      "RSI oversold (35.3)",
+      "5d momentum -1.03%",
+      "1d momentum -0.97%",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.349,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Monday, September 14, 2026: Crypto prices trying to hold as rate-hike expectations grow",
+      "Treasury Firms Stack Ethereum, Solana, and Bitcoin Through a Jittery September Market",
+      "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision?"
+    ],
+    "mode": "paper",
+    "strategy_version": "125",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260915063917",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.4040000438690186,
+    "entry_time": "2026-09-15T06:39:17.139285+00:00",
+    "stop_loss_pct": 0.01126,
+    "take_profit_pct": 0.02615,
+    "size_usd": 714.74,
+    "position_size_pct": 0.007,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (44.6)",
+      "5d momentum -1.27%",
+      "1d momentum +1.31%",
+      "High-impact catalyst",
+      "Claude [neutral]: fed hawkish"
+    ],
+    "news_sentiment": 0.496,
+    "news_headlines": [
+      "XRP and XLM Explode 8% as the CLARITY Act Nears Crucial Vote",
+      "XRP Price Prediction 3 Years: Where XRP Could Be in 2029?",
+      "What Is the Best Crypto to Buy Before the CLARITY Vote and the Fed Decision?"
     ],
     "mode": "paper",
     "strategy_version": "125",
