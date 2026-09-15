@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "115",
     "status": "open",
-    "price_peak": 1.891510009765625,
-    "trailing_stop_price": 1.876378
+    "price_peak": 1.8918499946594238,
+    "trailing_stop_price": 1.876715
   },
   "EUR/AUD": {
     "id": "EUR/AUD_20260902150931",
@@ -192,8 +192,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.154334545135498,
-    "trailing_stop_price": 1.163569
+    "price_trough": 1.1542012691497803,
+    "trailing_stop_price": 1.163435
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260910143740",
@@ -288,35 +288,6 @@
     "status": "open",
     "price_peak": 5.84499979019165,
     "trailing_stop_price": 5.758377
-  },
-  "NZD/USD": {
-    "id": "NZD/USD_20260914051557",
-    "asset": "NZD/USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.5784358978271484,
-    "entry_time": "2026-09-14T05:15:57.890386+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00477,
-    "size_usd": 5050.48,
-    "position_size_pct": 0.0495,
-    "confidence": 0.773,
-    "signals": [
-      "RSI oversold (14.4)",
-      "1d momentum -0.75%",
-      "BB oversold (pct_b=0.03)",
-      "High-impact catalyst",
-      "Claude [supports]: fed hawkish"
-    ],
-    "news_sentiment": 0.145,
-    "news_headlines": [
-      "Five Currencies, One Message: Is a 75-Day U.S. Dollar Rally Taking Shape?",
-      "AUD/USD, NZD/USD, and USD/JPY Short -Term Forecast for 09/07/2026",
-      "USD/JPY Eyes Breakout as Rising Yields Support US Dollar"
-    ],
-    "mode": "paper",
-    "strategy_version": "124",
-    "status": "open"
   },
   "LRCX": {
     "id": "LRCX_20260914163729",
@@ -500,7 +471,66 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_trough": 7.604000091552734,
-    "trailing_stop_price": 7.682245
+    "price_trough": 7.548999786376953,
+    "trailing_stop_price": 7.626679
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260915013551",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08378999680280685,
+    "entry_time": "2026-09-15T01:35:51.198650+00:00",
+    "stop_loss_pct": 0.00761,
+    "take_profit_pct": 0.01767,
+    "size_usd": 4181.07,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (43.3)",
+      "5d momentum -1.45%",
+      "1d momentum +1.71%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.562,
+    "news_headlines": [
+      "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
+      "Bitwise Closes Dogecoin ETF After 10 Months",
+      "Can Dogecoin Reach $1 by 2027? The Answer Might Shock You."
+    ],
+    "mode": "paper",
+    "strategy_version": "125",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260915013551",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 719.8900146484375,
+    "entry_time": "2026-09-15T01:35:51.201129+00:00",
+    "stop_loss_pct": 0.00505,
+    "take_profit_pct": 0.01231,
+    "size_usd": 865.8,
+    "position_size_pct": 0.0085,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (40.1)",
+      "5d momentum -1.02%",
+      "1d momentum +0.53%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.561,
+    "news_headlines": [
+      "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
+      "Why Is XRP Dropping Today?",
+      "Solana apps top blockchain revenue with $5.09 million"
+    ],
+    "mode": "paper",
+    "strategy_version": "125",
+    "status": "open"
   }
 }
