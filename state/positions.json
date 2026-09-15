@@ -132,8 +132,8 @@
     "mode": "paper",
     "strategy_version": "118",
     "status": "open",
-    "price_peak": 65.86499786376953,
-    "trailing_stop_price": 64.934984
+    "price_peak": 65.93000030517578,
+    "trailing_stop_price": 64.999069
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260908151710",
@@ -258,36 +258,6 @@
     "price_trough": 88.57499694824219,
     "trailing_stop_price": 90.392556
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260915013551",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 719.8900146484375,
-    "entry_time": "2026-09-15T01:35:51.201129+00:00",
-    "stop_loss_pct": 0.00505,
-    "take_profit_pct": 0.01231,
-    "size_usd": 865.8,
-    "position_size_pct": 0.0085,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (40.1)",
-      "5d momentum -1.02%",
-      "1d momentum +0.53%",
-      "BB oversold (pct_b=0.12)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.561,
-    "news_headlines": [
-      "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
-      "Why Is XRP Dropping Today?",
-      "Solana apps top blockchain revenue with $5.09 million"
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open"
-  },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
     "asset": "USD/SEK",
@@ -309,68 +279,6 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "125",
-    "status": "open"
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260915165306",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2423.639892578125,
-    "entry_time": "2026-09-15T16:53:06.989290+00:00",
-    "stop_loss_pct": 0.00891,
-    "take_profit_pct": 0.0217,
-    "size_usd": 5666.28,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI oversold (23.4)",
-      "5d momentum -2.09%",
-      "1d momentum -4.15%",
-      "BB oversold (pct_b=0.08)",
-      "Volume spike 1.7\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.568,
-    "news_headlines": [
-      "Bitcoin tumbles 3% to $76,000 as hopes of CLARITY Act passage this year fade",
-      "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting",
-      "Is Ethereum a Good Investment Right Now? It\u2019s Down 16% This Year and Up 33% This Month"
-    ],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260915195436",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.3033000230789185,
-    "entry_time": "2026-09-15T19:54:36.325800+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 6189.31,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (23.6)",
-      "5d momentum -5.83%",
-      "1d momentum -10.98%",
-      "BB oversold (pct_b=-0.28)",
-      "Volume spike 4.3\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.429,
-    "news_headlines": [
-      "Why the Cryptocurrency XRP Is Down Today",
-      "Ripple CEO sends bold message on Bessent\u2019s CLARITY call",
-      "XRP News: Deeper Liquidity Leaves Traders Waiting for Conviction"
-    ],
-    "mode": "paper",
-    "strategy_version": "126",
     "status": "open"
   },
   "SOL-USD": {
@@ -493,7 +401,9 @@
     ],
     "mode": "paper",
     "strategy_version": "126",
-    "status": "open"
+    "status": "open",
+    "price_trough": 35.63999938964844,
+    "trailing_stop_price": 36.174599
   },
   "MU": {
     "id": "MU_20260915195436",
@@ -549,6 +459,95 @@
       "Can CRM Stock Justify $260 While Its Cash Engine Cools Off?",
       "AI Slowdown Fears Rise: Buy NVIDIA, HPE That Connect AI and Quantum",
       "Should You Buy Adobe Stock At $260?"
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260915223529",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.2829999923706055,
+    "entry_time": "2026-09-15T22:35:29.677736+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5684.36,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI oversold (22.7)",
+      "5d momentum -8.66%",
+      "1d momentum -10.60%",
+      "BB oversold (pct_b=0.02)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.429,
+    "news_headlines": [
+      "How Much XRP Do You Need to Be in the Top 10% of Holders?",
+      "Ripple (XRP) Price Prediction 2030: What Has to Happen for XRP to Hit $5, $10 and $28",
+      "XRP ledger hits record transactions in a single block"
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260915223529",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 75564.9765625,
+    "entry_time": "2026-09-15T22:35:29.680386+00:00",
+    "stop_loss_pct": 0.00866,
+    "take_profit_pct": 0.02076,
+    "size_usd": 5164.05,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (34.9)",
+      "5d momentum -1.75%",
+      "1d momentum -3.79%",
+      "BB oversold (pct_b=0.09)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.467,
+    "news_headlines": [
+      "Crypto tax & bitcoin reserve bills set for House markup & vote on Wednesday: What to know",
+      "Revolut faces ransom demands over customer data",
+      "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting"
+    ],
+    "mode": "paper",
+    "strategy_version": "126",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260915223529",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2398.31005859375,
+    "entry_time": "2026-09-15T22:35:29.682064+00:00",
+    "stop_loss_pct": 0.01076,
+    "take_profit_pct": 0.02498,
+    "size_usd": 1802.87,
+    "position_size_pct": 0.0177,
+    "confidence": 0.644,
+    "signals": [
+      "RSI oversold (32.2)",
+      "5d momentum -1.69%",
+      "1d momentum -5.31%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.5,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting",
+      "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto",
+      "Can Ethereum Hit $3,000 This Month? The Last Time This Pattern Formed, It Rallied 31% in Three Days"
     ],
     "mode": "paper",
     "strategy_version": "126",
