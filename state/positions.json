@@ -135,35 +135,6 @@
     "price_peak": 65.93000030517578,
     "trailing_stop_price": 64.999069
   },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20260908151710",
-    "asset": "CAD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 111.96399688720703,
-    "entry_time": "2026-09-08T15:17:10.230206+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02578,
-    "size_usd": 4393.33,
-    "position_size_pct": 0.0427,
-    "confidence": 0.445,
-    "signals": [
-      "RSI overbought (73.4)",
-      "BB overbought (pct_b=0.96)",
-      "News +1.00 (conf 0.70) \u2192 long",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
-    ],
-    "news_sentiment": 1.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "120",
-    "status": "open",
-    "price_trough": 110.61399841308594,
-    "trailing_stop_price": 111.49891
-  },
   "EUR/USD": {
     "id": "EUR/USD_20260909114551",
     "asset": "EUR/USD",
@@ -222,8 +193,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_peak": 110.59200286865234,
-    "trailing_stop_price": 109.707267
+    "price_peak": 110.68099975585938,
+    "trailing_stop_price": 109.795552
   },
   "WFC": {
     "id": "WFC_20260911134633",
@@ -492,7 +463,9 @@
     ],
     "mode": "paper",
     "strategy_version": "126",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.287500023841858,
+    "trailing_stop_price": 1.268188
   },
   "BTC-USD": {
     "id": "BTC-USD_20260915223529",
@@ -522,7 +495,9 @@
     ],
     "mode": "paper",
     "strategy_version": "126",
-    "status": "open"
+    "status": "open",
+    "price_peak": 75735.2109375,
+    "trailing_stop_price": 75079.344011
   },
   "ETH-USD": {
     "id": "ETH-USD_20260915223529",
@@ -551,6 +526,36 @@
     ],
     "mode": "paper",
     "strategy_version": "126",
+    "status": "open"
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20260916004559",
+    "asset": "USD/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 155.3350067138672,
+    "entry_time": "2026-09-16T00:45:59.882111+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02796,
+    "size_usd": 4423.77,
+    "position_size_pct": 0.0435,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (78.8)",
+      "MACD crossover",
+      "1d momentum +0.43%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [supports]: macro risk"
+    ],
+    "news_sentiment": 0.125,
+    "news_headlines": [
+      "Treasury Yields Rise Amid Data, Geopolitical Lull",
+      "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks",
+      "What the Yen\u2019s Massive Breakdown Means for the US Stock Market"
+    ],
+    "mode": "paper",
+    "strategy_version": "127",
     "status": "open"
   }
 }
