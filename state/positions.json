@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 16.8799991607666,
-    "trailing_stop_price": 17.523127
+    "price_trough": 16.84000015258789,
+    "trailing_stop_price": 17.481604
   },
   "EUR/USD": {
     "id": "EUR/USD_20260909114551",
@@ -132,8 +132,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1502184867858887,
-    "trailing_stop_price": 1.15942
+    "price_trough": 1.1466574668884277,
+    "trailing_stop_price": 1.155831
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260910143740",
@@ -195,8 +195,8 @@
     "mode": "paper",
     "strategy_version": "123",
     "status": "open",
-    "price_trough": 88.16000366210938,
-    "trailing_stop_price": 89.969047
+    "price_trough": 87.05000305175781,
+    "trailing_stop_price": 88.836269
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -220,8 +220,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.815910339355469,
-    "trailing_stop_price": 9.737383
+    "price_peak": 9.84391975402832,
+    "trailing_stop_price": 9.765168
   },
   "SOL-USD": {
     "id": "SOL-USD_20260915195436",
@@ -253,8 +253,8 @@
     "mode": "paper",
     "strategy_version": "126",
     "status": "open",
-    "price_peak": 98.0999984741211,
-    "trailing_stop_price": 96.781534
+    "price_peak": 98.30000305175781,
+    "trailing_stop_price": 96.978851
   },
   "MU": {
     "id": "MU_20260915195436",
@@ -315,8 +315,8 @@
     "mode": "paper",
     "strategy_version": "126",
     "status": "open",
-    "price_peak": 75877.421875,
-    "trailing_stop_price": 75220.323402
+    "price_peak": 76002.359375,
+    "trailing_stop_price": 75344.178943
   },
   "USD/JPY": {
     "id": "USD/JPY_20260916004559",
@@ -439,40 +439,8 @@
     "mode": "paper",
     "strategy_version": "127",
     "status": "open",
-    "price_trough": 518.75,
-    "trailing_stop_price": 525.063188
-  },
-  "GS": {
-    "id": "GS_20260916145230",
-    "asset": "GS",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 976.989990234375,
-    "entry_time": "2026-09-16T14:52:30.516618+00:00",
-    "stop_loss_pct": 0.01193,
-    "take_profit_pct": 0.02942,
-    "size_usd": 4695.59,
-    "position_size_pct": 0.0463,
-    "confidence": 0.931,
-    "signals": [
-      "RSI oversold (35.5)",
-      "MACD crossover",
-      "5d momentum +1.88%",
-      "1d momentum -3.88%",
-      "High-impact catalyst",
-      "Claude [neutral]: price surge"
-    ],
-    "news_sentiment": -0.353,
-    "news_headlines": [
-      "Circle Unveils New Arc Blockchain",
-      "Investors Heavily Search The Goldman Sachs Group, Inc. (GS): Here is What You Need to Know",
-      "What We Learned From a Volatile Walmart Trade"
-    ],
-    "mode": "paper",
-    "strategy_version": "127",
-    "status": "open",
-    "price_trough": 969.4349975585938,
-    "trailing_stop_price": 981.000357
+    "price_trough": 512.5,
+    "trailing_stop_price": 518.737125
   },
   "IWM": {
     "id": "IWM_20260916145230",
@@ -503,8 +471,8 @@
     "mode": "paper",
     "strategy_version": "127",
     "status": "open",
-    "price_trough": 285.739990234375,
-    "trailing_stop_price": 289.020285
+    "price_trough": 283.9200134277344,
+    "trailing_stop_price": 287.179415
   },
   "HOOD": {
     "id": "HOOD_20260916182956",
@@ -531,6 +499,37 @@
       "Crypto stocks hold as Clarity Act stalls in Senate",
       "Why investors should start hedging portfolios if Fed hikes",
       "Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9%"
+    ],
+    "mode": "paper",
+    "strategy_version": "127",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260916213657",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 7.380000114440918,
+    "entry_time": "2026-09-16T21:36:57.423687+00:00",
+    "stop_loss_pct": 0.00975,
+    "take_profit_pct": 0.02414,
+    "size_usd": 4770.59,
+    "position_size_pct": 0.047,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (65.4)",
+      "5d momentum +1.84%",
+      "1d momentum +1.99%",
+      "BB overbought (pct_b=1.02)",
+      "Volume spike 3.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.238,
+    "news_headlines": [
+      "Exclusive: Tare raises $13 million from Blockchain Capital to manage private credit transactions on the blockchain",
+      "Grayscale Just Made XRP 26% of Its New Portfolio for Advisors",
+      "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone"
     ],
     "mode": "paper",
     "strategy_version": "127",
