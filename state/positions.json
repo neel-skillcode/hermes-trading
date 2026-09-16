@@ -101,8 +101,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 16.940000534057617,
-    "trailing_stop_price": 17.585415
+    "price_trough": 16.8799991607666,
+    "trailing_stop_price": 17.523127
   },
   "EUR/USD": {
     "id": "EUR/USD_20260909114551",
@@ -132,8 +132,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1532695293426514,
-    "trailing_stop_price": 1.162496
+    "price_trough": 1.1502184867858887,
+    "trailing_stop_price": 1.15942
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260910143740",
@@ -195,8 +195,8 @@
     "mode": "paper",
     "strategy_version": "123",
     "status": "open",
-    "price_trough": 88.57499694824219,
-    "trailing_stop_price": 90.392556
+    "price_trough": 88.16000366210938,
+    "trailing_stop_price": 89.969047
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -219,7 +219,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "125",
-    "status": "open"
+    "status": "open",
+    "price_peak": 9.815910339355469,
+    "trailing_stop_price": 9.737383
   },
   "SOL-USD": {
     "id": "SOL-USD_20260915195436",
@@ -250,7 +252,9 @@
     ],
     "mode": "paper",
     "strategy_version": "126",
-    "status": "open"
+    "status": "open",
+    "price_peak": 98.0999984741211,
+    "trailing_stop_price": 96.781534
   },
   "MU": {
     "id": "MU_20260915195436",
@@ -311,39 +315,8 @@
     "mode": "paper",
     "strategy_version": "126",
     "status": "open",
-    "price_peak": 75735.2109375,
-    "trailing_stop_price": 75079.344011
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260915223529",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2398.31005859375,
-    "entry_time": "2026-09-15T22:35:29.682064+00:00",
-    "stop_loss_pct": 0.01076,
-    "take_profit_pct": 0.02498,
-    "size_usd": 1802.87,
-    "position_size_pct": 0.0177,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (32.2)",
-      "5d momentum -1.69%",
-      "1d momentum -5.31%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.5,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting",
-      "Crypto Market Today, Sept. 15: Crypto Prices Plummet as Clarity Act Fails, Here's What it Means for Crypto",
-      "Can Ethereum Hit $3,000 This Month? The Last Time This Pattern Formed, It Rallied 31% in Three Days"
-    ],
-    "mode": "paper",
-    "strategy_version": "126",
-    "status": "open",
-    "price_trough": 2379.77001953125,
-    "trailing_stop_price": 2405.376345
+    "price_peak": 75877.421875,
+    "trailing_stop_price": 75220.323402
   },
   "USD/JPY": {
     "id": "USD/JPY_20260916004559",
@@ -465,7 +438,9 @@
     ],
     "mode": "paper",
     "strategy_version": "127",
-    "status": "open"
+    "status": "open",
+    "price_trough": 518.75,
+    "trailing_stop_price": 525.063188
   },
   "GS": {
     "id": "GS_20260916145230",
@@ -495,7 +470,9 @@
     ],
     "mode": "paper",
     "strategy_version": "127",
-    "status": "open"
+    "status": "open",
+    "price_trough": 969.4349975585938,
+    "trailing_stop_price": 981.000357
   },
   "IWM": {
     "id": "IWM_20260916145230",
@@ -522,6 +499,38 @@
       "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",
       "5 Leveraged ETF Areas of Last Week",
       "3 ETFs That Could Move as Rate Expectations Shift"
+    ],
+    "mode": "paper",
+    "strategy_version": "127",
+    "status": "open",
+    "price_trough": 285.739990234375,
+    "trailing_stop_price": 289.020285
+  },
+  "HOOD": {
+    "id": "HOOD_20260916182956",
+    "asset": "HOOD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 104.70989990234375,
+    "entry_time": "2026-09-16T18:29:56.700357+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 1800.24,
+    "position_size_pct": 0.0178,
+    "confidence": 0.794,
+    "signals": [
+      "RSI oversold (23.5)",
+      "5d momentum -5.19%",
+      "1d momentum -8.49%",
+      "BB oversold (pct_b=0.07)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price decline"
+    ],
+    "news_sentiment": 0.55,
+    "news_headlines": [
+      "Crypto stocks hold as Clarity Act stalls in Senate",
+      "Why investors should start hedging portfolios if Fed hikes",
+      "Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9%"
     ],
     "mode": "paper",
     "strategy_version": "127",
