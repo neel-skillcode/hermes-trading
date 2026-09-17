@@ -162,8 +162,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_peak": 110.69400024414062,
-    "trailing_stop_price": 109.808448
+    "price_peak": 110.72000122070312,
+    "trailing_stop_price": 109.834241
   },
   "WFC": {
     "id": "WFC_20260911134633",
@@ -253,8 +253,8 @@
     "mode": "paper",
     "strategy_version": "126",
     "status": "open",
-    "price_peak": 98.61000061035156,
-    "trailing_stop_price": 97.284682
+    "price_peak": 100.33999633789062,
+    "trailing_stop_price": 98.991427
   },
   "MU": {
     "id": "MU_20260915195436",
@@ -315,8 +315,8 @@
     "mode": "paper",
     "strategy_version": "126",
     "status": "open",
-    "price_peak": 76127.4921875,
-    "trailing_stop_price": 75468.228105
+    "price_peak": 76422.78125,
+    "trailing_stop_price": 75760.959964
   },
   "USD/JPY": {
     "id": "USD/JPY_20260916004559",
@@ -504,24 +504,51 @@
     "strategy_version": "127",
     "status": "open"
   },
+  "ETH-USD": {
+    "id": "ETH-USD_20260917121005",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2445.610107421875,
+    "entry_time": "2026-09-17T12:10:05.420263+00:00",
+    "stop_loss_pct": 0.00508,
+    "take_profit_pct": 0.01162,
+    "size_usd": 3730.59,
+    "position_size_pct": 0.0368,
+    "confidence": 0.575,
+    "signals": [
+      "RSI overbought (82.3)",
+      "1d momentum +1.70%",
+      "Volume spike 2.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.389,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
+      "Bitcoin Looks Resilient After 2 Blows, The On-Chain Data Disagrees",
+      "Ethereum Falls to $2,400 as the CLARITY Act Fails in the Senate"
+    ],
+    "mode": "paper",
+    "strategy_version": "128",
+    "status": "open"
+  },
   "AVAX-USD": {
-    "id": "AVAX-USD_20260916234900",
+    "id": "AVAX-USD_20260917121005",
     "asset": "AVAX-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 7.459000110626221,
-    "entry_time": "2026-09-16T23:49:00.738607+00:00",
-    "stop_loss_pct": 0.01025,
-    "take_profit_pct": 0.02536,
-    "size_usd": 4749.39,
-    "position_size_pct": 0.0468,
-    "confidence": 0.95,
+    "direction": "long",
+    "entry_price": 7.5879998207092285,
+    "entry_time": "2026-09-17T12:10:05.421920+00:00",
+    "stop_loss_pct": 0.00737,
+    "take_profit_pct": 0.01712,
+    "size_usd": 987.22,
+    "position_size_pct": 0.0097,
+    "confidence": 0.644,
     "signals": [
-      "RSI overbought (67.6)",
-      "5d momentum +2.67%",
-      "1d momentum +2.63%",
-      "BB overbought (pct_b=1.17)",
-      "Volume spike 16.9\u00d7",
+      "RSI overbought (76.6)",
+      "5d momentum +0.78%",
+      "1d momentum +4.25%",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
     ],
@@ -532,7 +559,7 @@
       "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone"
     ],
     "mode": "paper",
-    "strategy_version": "127",
+    "strategy_version": "128",
     "status": "open"
   }
 }
