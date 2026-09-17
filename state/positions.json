@@ -198,39 +198,6 @@
     "price_peak": 9.852540016174316,
     "trailing_stop_price": 9.77372
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260915195436",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 97.80000305175781,
-    "entry_time": "2026-09-15T19:54:36.327737+00:00",
-    "stop_loss_pct": 0.01344,
-    "take_profit_pct": 0.03352,
-    "size_usd": 6449.91,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (28.3)",
-      "5d momentum -1.01%",
-      "1d momentum -5.29%",
-      "BB oversold (pct_b=-0.04)",
-      "Volume spike 5.6\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: ma catalyst"
-    ],
-    "news_sentiment": 0.548,
-    "news_headlines": [
-      "SEC Chair Atkins reveals what comes next if CLARITY Act stalls",
-      "Bitcoin, crypto stocks slip ahead of CLARITY Act, Fed decision",
-      "Forward Industries Sweetens SkyAI Takeover Offer to 50% Premium"
-    ],
-    "mode": "paper",
-    "strategy_version": "126",
-    "status": "open",
-    "price_peak": 101.05000305175781,
-    "trailing_stop_price": 99.691891
-  },
   "BTC-USD": {
     "id": "BTC-USD_20260915223529",
     "asset": "BTC-USD",
@@ -450,7 +417,9 @@
     ],
     "mode": "paper",
     "strategy_version": "128",
-    "status": "open"
+    "status": "open",
+    "price_trough": 40.34000015258789,
+    "trailing_stop_price": 40.9451
   },
   "AMD": {
     "id": "AMD_20260917165742",
@@ -570,6 +539,66 @@
       "Ethereum Price Prediction: Can ETH Hold $2,400 After the Fed\u2019s First Hike in Three Years?",
       "Goldman Reversed Its Fed Call Twice in Four Days. What an October Hike Does to Bitcoin and XRP.",
       "The SEC and CFTC Say They Will Write Crypto Rules Without Congress. What Atkins and Selig Can Actually Do for XRP and Bitcoin."
+    ],
+    "mode": "paper",
+    "strategy_version": "128",
+    "status": "open",
+    "price_peak": 1.2944999933242798,
+    "trailing_stop_price": 1.284066
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260917224905",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 101.41999816894531,
+    "entry_time": "2026-09-17T22:49:05.784112+00:00",
+    "stop_loss_pct": 0.00721,
+    "take_profit_pct": 0.0167,
+    "size_usd": 4106.85,
+    "position_size_pct": 0.0405,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (65.5)",
+      "1d momentum +4.13%",
+      "BB overbought (pct_b=0.85)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade"
+    ],
+    "news_sentiment": 0.273,
+    "news_headlines": [
+      "Ethereum Price Prediction: Can ETH Hold $2,400 After the Fed\u2019s First Hike in Three Years?",
+      "JPMorgan Says Agency Crypto Rules Can Be Overturned in Court. Is Losing the CLARITY Act Worse Than It Looks?",
+      "Over the Past 90 Days, 38% of Altcoins Outperformed Bitcoin. These 3 Altcoins Need To Be On Your Investment Radar."
+    ],
+    "mode": "paper",
+    "strategy_version": "128",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260917224905",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2445.0,
+    "entry_time": "2026-09-17T22:49:05.786316+00:00",
+    "stop_loss_pct": 0.00674,
+    "take_profit_pct": 0.01579,
+    "size_usd": 2438.55,
+    "position_size_pct": 0.0241,
+    "confidence": 0.684,
+    "signals": [
+      "5d momentum -0.64%",
+      "1d momentum +2.28%",
+      "Volume spike 2.8\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; price surge; fed hawkish"
+    ],
+    "news_sentiment": 0.308,
+    "news_headlines": [
+      "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
+      "What Is Ethereum? How It Works and How It Differs From Bitcoin",
+      "Major gold holder quietly lends $1.5 billion to top U.S. dealer"
     ],
     "mode": "paper",
     "strategy_version": "128",
