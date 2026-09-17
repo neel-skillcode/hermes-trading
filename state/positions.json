@@ -76,8 +76,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 16.84000015258789,
-    "trailing_stop_price": 17.481604
+    "price_trough": 16.729999542236328,
+    "trailing_stop_price": 17.367413
   },
   "EUR/USD": {
     "id": "EUR/USD_20260909114551",
@@ -170,8 +170,8 @@
     "mode": "paper",
     "strategy_version": "123",
     "status": "open",
-    "price_trough": 87.05000305175781,
-    "trailing_stop_price": 88.836269
+    "price_trough": 86.88639831542969,
+    "trailing_stop_price": 88.669307
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -327,38 +327,6 @@
     "price_peak": 6.045000076293945,
     "trailing_stop_price": 5.954325
   },
-  "COIN": {
-    "id": "COIN_20260916145230",
-    "asset": "COIN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 166.73500061035156,
-    "entry_time": "2026-09-16T14:52:30.496335+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5667.76,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (25.5)",
-      "5d momentum -6.95%",
-      "1d momentum -3.79%",
-      "BB oversold (pct_b=0.06)",
-      "High-impact catalyst",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.429,
-    "news_headlines": [
-      "Why Is Bitcoin Dropping Today?",
-      "Bitcoin ETFs See $450 Million In Outflows After Clarity Act Vote",
-      "Crypto Stocks Plunge As Clarity Act Fails In U.S. Senate"
-    ],
-    "mode": "paper",
-    "strategy_version": "127",
-    "status": "open",
-    "price_peak": 171.0399932861328,
-    "trailing_stop_price": 168.474393
-  },
   "IWM": {
     "id": "IWM_20260916145230",
     "asset": "IWM",
@@ -390,69 +358,6 @@
     "status": "open",
     "price_trough": 283.9200134277344,
     "trailing_stop_price": 287.179415
-  },
-  "HOOD": {
-    "id": "HOOD_20260916182956",
-    "asset": "HOOD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 104.70989990234375,
-    "entry_time": "2026-09-16T18:29:56.700357+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 1800.24,
-    "position_size_pct": 0.0178,
-    "confidence": 0.794,
-    "signals": [
-      "RSI oversold (23.5)",
-      "5d momentum -5.19%",
-      "1d momentum -8.49%",
-      "BB oversold (pct_b=0.07)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price decline"
-    ],
-    "news_sentiment": 0.55,
-    "news_headlines": [
-      "Crypto stocks hold as Clarity Act stalls in Senate",
-      "Why investors should start hedging portfolios if Fed hikes",
-      "Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9%"
-    ],
-    "mode": "paper",
-    "strategy_version": "127",
-    "status": "open",
-    "price_peak": 107.51959991455078,
-    "trailing_stop_price": 105.906806
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20260917121005",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2445.610107421875,
-    "entry_time": "2026-09-17T12:10:05.420263+00:00",
-    "stop_loss_pct": 0.00508,
-    "take_profit_pct": 0.01162,
-    "size_usd": 3730.59,
-    "position_size_pct": 0.0368,
-    "confidence": 0.575,
-    "signals": [
-      "RSI overbought (82.3)",
-      "1d momentum +1.70%",
-      "Volume spike 2.2\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: fed hawkish"
-    ],
-    "news_sentiment": 0.389,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
-      "Bitcoin Looks Resilient After 2 Blows, The On-Chain Data Disagrees",
-      "Ethereum Falls to $2,400 as the CLARITY Act Fails in the Senate"
-    ],
-    "mode": "paper",
-    "strategy_version": "128",
-    "status": "open",
-    "price_peak": 2464.18994140625,
-    "trailing_stop_price": 2451.671857
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260917121005",
@@ -513,7 +418,9 @@
     ],
     "mode": "paper",
     "strategy_version": "128",
-    "status": "open"
+    "status": "open",
+    "price_trough": 40.349998474121094,
+    "trailing_stop_price": 40.955248
   },
   "IONQ": {
     "id": "IONQ_20260917165742",
@@ -573,7 +480,9 @@
     ],
     "mode": "paper",
     "strategy_version": "128",
-    "status": "open"
+    "status": "open",
+    "price_trough": 545.0900268554688,
+    "trailing_stop_price": 553.195516
   },
   "AAPL": {
     "id": "AAPL_20260917165742",
@@ -601,6 +510,66 @@
       "Who's really going to buy Snap's Specs",
       "Top strategist thinks the Federal Reserve interest rate hike won't fix this huge earnings risk",
       "Apple (AAPL) Faces a $2.7 Billion UK Lawsuit over its App Tracking Rules"
+    ],
+    "mode": "paper",
+    "strategy_version": "128",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260917200259",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 731.77001953125,
+    "entry_time": "2026-09-17T20:02:59.133048+00:00",
+    "stop_loss_pct": 0.00498,
+    "take_profit_pct": 0.01213,
+    "size_usd": 5657.08,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (63.5)",
+      "5d momentum +0.65%",
+      "1d momentum +1.63%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?",
+      "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
+      "Why Is XRP Dropping Today?"
+    ],
+    "mode": "paper",
+    "strategy_version": "128",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260917200259",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.294100046157837,
+    "entry_time": "2026-09-17T20:02:59.135455+00:00",
+    "stop_loss_pct": 0.00806,
+    "take_profit_pct": 0.01989,
+    "size_usd": 5676.14,
+    "position_size_pct": 0.0561,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (43.1)",
+      "5d momentum -0.96%",
+      "1d momentum -0.58%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.448,
+    "news_headlines": [
+      "Ethereum Price Prediction: Can ETH Hold $2,400 After the Fed\u2019s First Hike in Three Years?",
+      "Goldman Reversed Its Fed Call Twice in Four Days. What an October Hike Does to Bitcoin and XRP.",
+      "The SEC and CFTC Say They Will Write Crypto Rules Without Congress. What Atkins and Selig Can Actually Do for XRP and Bitcoin."
     ],
     "mode": "paper",
     "strategy_version": "128",
