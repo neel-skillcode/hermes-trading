@@ -137,8 +137,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_peak": 110.97200012207031,
-    "trailing_stop_price": 110.084224
+    "price_peak": 111.13200378417969,
+    "trailing_stop_price": 110.242948
   },
   "WFC": {
     "id": "WFC_20260911134633",
@@ -354,8 +354,8 @@
     "mode": "paper",
     "strategy_version": "128",
     "status": "open",
-    "price_peak": 7.5980000495910645,
-    "trailing_stop_price": 7.542003
+    "price_peak": 7.605000019073486,
+    "trailing_stop_price": 7.548951
   },
   "SMCI": {
     "id": "SMCI_20260917165742",
@@ -418,7 +418,7 @@
     "mode": "paper",
     "strategy_version": "128",
     "status": "open",
-    "price_trough": 40.34000015258789,
+    "price_trough": 40.34,
     "trailing_stop_price": 40.9451
   },
   "AMD": {
@@ -450,8 +450,8 @@
     "mode": "paper",
     "strategy_version": "128",
     "status": "open",
-    "price_trough": 545.0900268554688,
-    "trailing_stop_price": 553.195516
+    "price_trough": 545.09,
+    "trailing_stop_price": 553.195488
   },
   "AAPL": {
     "id": "AAPL_20260917165742",
@@ -479,36 +479,6 @@
       "Who's really going to buy Snap's Specs",
       "Top strategist thinks the Federal Reserve interest rate hike won't fix this huge earnings risk",
       "Apple (AAPL) Faces a $2.7 Billion UK Lawsuit over its App Tracking Rules"
-    ],
-    "mode": "paper",
-    "strategy_version": "128",
-    "status": "open"
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260917200259",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 731.77001953125,
-    "entry_time": "2026-09-17T20:02:59.133048+00:00",
-    "stop_loss_pct": 0.00498,
-    "take_profit_pct": 0.01213,
-    "size_usd": 5657.08,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (63.5)",
-      "5d momentum +0.65%",
-      "1d momentum +1.63%",
-      "BB overbought (pct_b=1.05)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?",
-      "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
-      "Why Is XRP Dropping Today?"
     ],
     "mode": "paper",
     "strategy_version": "128",
@@ -573,7 +543,9 @@
     ],
     "mode": "paper",
     "strategy_version": "128",
-    "status": "open"
+    "status": "open",
+    "price_trough": 101.1500015258789,
+    "trailing_stop_price": 101.879293
   },
   "ETH-USD": {
     "id": "ETH-USD_20260917224905",
@@ -599,6 +571,36 @@
       "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
       "What Is Ethereum? How It Works and How It Differs From Bitcoin",
       "Major gold holder quietly lends $1.5 billion to top U.S. dealer"
+    ],
+    "mode": "paper",
+    "strategy_version": "128",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260918004954",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 735.5700073242188,
+    "entry_time": "2026-09-18T00:49:54.706304+00:00",
+    "stop_loss_pct": 0.00534,
+    "take_profit_pct": 0.01301,
+    "size_usd": 5645.33,
+    "position_size_pct": 0.0557,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (69.3)",
+      "5d momentum +0.96%",
+      "1d momentum +2.39%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?",
+      "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
+      "Why Is XRP Dropping Today?"
     ],
     "mode": "paper",
     "strategy_version": "128",
