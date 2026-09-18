@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101314.58,
+  "portfolio_balance": 101197.72,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 6.1,
-  "unrealized_pnl_usd": 1111.53,
-  "equity_value": 102426.11,
+  "portfolio_drawdown_pct": 6.21,
+  "unrealized_pnl_usd": 1098.87,
+  "equity_value": 102296.59,
   "open_positions": 18,
   "day_trades_open": 9,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 40525.83,
+  "day_capital_used_usd": 40479.09,
   "swing_capital_used_usd": 45975.35,
-  "total_trades": 1470,
-  "last_tick": "2026-09-18T05:18:45.068730+00:00",
-  "last_reflection": "2026-09-18",
-  "trades_since_last_reflection": 0,
+  "total_trades": 1472,
+  "last_tick": "2026-09-18T09:53:02.696118+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8443,
-      "unrealized_pnl_pct": 0.001276,
-      "unrealized_pnl_usd": 1.72
+      "current_price": 7.8449,
+      "unrealized_pnl_pct": 0.001353,
+      "unrealized_pnl_usd": 1.82
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_peak": 1.6219300031661987,
       "trailing_stop_price": 1.608955,
-      "current_price": 1.61117,
-      "unrealized_pnl_pct": -0.003316,
-      "unrealized_pnl_usd": -7.71
+      "current_price": 1.61166,
+      "unrealized_pnl_pct": -0.003013,
+      "unrealized_pnl_usd": -7.01
     },
     {
       "id": "SOFI_20260903143205",
@@ -167,11 +167,11 @@
       "mode": "paper",
       "strategy_version": "122",
       "status": "open",
-      "price_peak": 112.07599639892578,
-      "trailing_stop_price": 111.179388,
-      "current_price": 112.082001,
-      "unrealized_pnl_pct": 0.01576,
-      "unrealized_pnl_usd": 99.3
+      "price_peak": 112.54199981689453,
+      "trailing_stop_price": 111.641664,
+      "current_price": 112.538002,
+      "unrealized_pnl_pct": 0.019893,
+      "unrealized_pnl_usd": 125.33
     },
     {
       "id": "WFC_20260911134633",
@@ -233,9 +233,9 @@
       "status": "open",
       "price_peak": 9.852540016174316,
       "trailing_stop_price": 9.77372,
-      "current_price": 9.80715,
-      "unrealized_pnl_pct": 0.001966,
-      "unrealized_pnl_usd": 7.39
+      "current_price": 9.81737,
+      "unrealized_pnl_pct": 0.00301,
+      "unrealized_pnl_usd": 11.31
     },
     {
       "id": "SOUN_20260916145230",
@@ -476,43 +476,9 @@
       "mode": "paper",
       "strategy_version": "128",
       "status": "open",
-      "current_price": 105.580002,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
-    },
-    {
-      "id": "DOGE-USD_20260918051844",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.08428999781608582,
-      "entry_time": "2026-09-18T05:18:44.537545+00:00",
-      "stop_loss_pct": 0.00742,
-      "take_profit_pct": 0.01837,
-      "size_usd": 6159.93,
-      "position_size_pct": 0.0608,
-      "confidence": 0.95,
-      "signals": [
-        "RSI overbought (75.4)",
-        "5d momentum +3.11%",
-        "1d momentum +4.27%",
-        "BB overbought (pct_b=1.02)",
-        "Volume spike 1.6\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-      ],
-      "news_sentiment": -0.385,
-      "news_headlines": [
-        "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
-        "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
-        "Bitwise Closes Dogecoin ETF After 10 Months"
-      ],
-      "mode": "paper",
-      "strategy_version": "128",
-      "status": "open",
-      "current_price": 0.08429,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 106.370003,
+      "unrealized_pnl_pct": -0.007482,
+      "unrealized_pnl_usd": -42.21
     },
     {
       "id": "AVAX-USD_20260918051844",
@@ -543,9 +509,9 @@
       "mode": "paper",
       "strategy_version": "128",
       "status": "open",
-      "current_price": 7.919,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 7.945,
+      "unrealized_pnl_pct": -0.003283,
+      "unrealized_pnl_usd": -18.61
     },
     {
       "id": "BNB-USD_20260918051844",
@@ -576,127 +542,121 @@
       "mode": "paper",
       "strategy_version": "128",
       "status": "open",
-      "current_price": 753.01001,
+      "price_trough": 750.1799926757812,
+      "trailing_stop_price": 754.33599,
+      "current_price": 750.700012,
+      "unrealized_pnl_pct": 0.003068,
+      "unrealized_pnl_usd": 17.38
+    },
+    {
+      "id": "DOGE-USD_20260918095302",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.08577000349760056,
+      "entry_time": "2026-09-18T09:53:02.686456+00:00",
+      "stop_loss_pct": 0.00786,
+      "take_profit_pct": 0.01945,
+      "size_usd": 6152.82,
+      "position_size_pct": 0.0608,
+      "confidence": 0.95,
+      "signals": [
+        "RSI overbought (86.7)",
+        "5d momentum +1.55%",
+        "1d momentum +5.92%",
+        "BB overbought (pct_b=1.03)",
+        "Volume spike 4.3\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+      ],
+      "news_sentiment": -0.172,
+      "news_headlines": [
+        "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
+        "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
+        "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
+      ],
+      "mode": "paper",
+      "strategy_version": "129",
+      "status": "open",
+      "current_price": 0.08577,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "ETH-USD_20260918051844",
+      "id": "ETH-USD_20260918095302",
       "asset": "ETH-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 2485.260009765625,
-      "entry_time": "2026-09-18T05:18:44.541147+00:00",
-      "stop_loss_pct": 0.00532,
-      "take_profit_pct": 0.01294,
-      "size_usd": 870.91,
-      "position_size_pct": 0.0086,
-      "confidence": 0.87,
+      "entry_price": 2503.820068359375,
+      "entry_time": "2026-09-18T09:53:02.688107+00:00",
+      "stop_loss_pct": 0.00552,
+      "take_profit_pct": 0.01367,
+      "size_usd": 831.28,
+      "position_size_pct": 0.0082,
+      "confidence": 0.95,
       "signals": [
-        "RSI overbought (61.4)",
-        "5d momentum +1.60%",
-        "1d momentum +2.08%",
-        "BB overbought (pct_b=1.03)",
-        "Volume spike 2.0\u00d7",
+        "RSI overbought (88.1)",
+        "5d momentum +0.98%",
+        "1d momentum +2.76%",
+        "BB overbought (pct_b=1.01)",
+        "Volume spike 5.9\u00d7",
         "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price surge; fed hawkish"
+        "Claude [neutral]: price surge; fed hawkish"
       ],
       "news_sentiment": 0.484,
       "news_headlines": [
         "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
-        "Crypto Price Prediction: Where Will XRP, Bitcoin and Ethereum Be by Year End Now That the CLARITY Act Has Failed?",
-        "We Asked ChatGPT Which Coin Lost the Most From the Dead CLARITY Act: XRP, Ethereum, or Solana?"
+        "With a Key Vote Failed, What's Next for the Clarity Act?",
+        "WikiLeaks Founder Says \u201cI'm Back.\u201d A Token Most People Forgot Existed Jumps 743%"
       ],
       "mode": "paper",
-      "strategy_version": "128",
+      "strategy_version": "129",
       "status": "open",
-      "current_price": 2485.26001,
+      "current_price": 2503.820068,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.7847,
-      "price": 105.58000183105469,
-      "rsi": 82.49266490382874,
-      "momentum_5d": 0.041942168392397075,
-      "momentum_1d": 0.06153230246246266,
-      "macd_crossover": false,
-      "atr_pct": 0.008368745542612056,
-      "bollinger_pct_b": 1.0942,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.82,
-      "news_sentiment": 0.105,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "Upexi Inc (UPXI) (Q4 2026) Earnings Call Highlights: Massive Solana Treasury Fuels $246 Million ...",
-        "Upexi Q4 Earnings Call Highlights",
-        "We Asked ChatGPT Which Coin Lost the Most From the Dead CLARITY Act: XRP, Ethereum, or Solana?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "DOGE-USD",
-      "rank_score": 0.7043,
-      "price": 0.08428999781608582,
-      "rsi": 75.43105801499752,
-      "momentum_5d": 0.031070334485051858,
-      "momentum_1d": 0.04267687825093102,
+      "rank_score": 0.7536,
+      "price": 0.08577000349760056,
+      "rsi": 86.70226397846196,
+      "momentum_5d": 0.015510369636492638,
+      "momentum_1d": 0.05915041302970148,
       "macd_crossover": false,
-      "atr_pct": 0.007304708360960113,
-      "bollinger_pct_b": 1.0227,
+      "atr_pct": 0.007736627031128221,
+      "bollinger_pct_b": 1.0348,
       "volume_spike": true,
-      "volume_spike_ratio": 1.64,
-      "news_sentiment": -0.385,
-      "news_confidence": 0.26,
+      "volume_spike_ratio": 4.35,
+      "news_sentiment": -0.172,
+      "news_confidence": 0.29,
       "news_headlines": [
+        "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
         "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
-        "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
-        "Bitwise Closes Dogecoin ETF After 10 Months"
+        "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.6795,
-      "price": 7.919000148773193,
-      "rsi": 82.55585195387535,
-      "momentum_5d": 0.03651836219415249,
-      "momentum_1d": 0.05544453928650847,
+      "asset": "ETH-USD",
+      "rank_score": 0.7076,
+      "price": 2503.820068359375,
+      "rsi": 88.10055534694361,
+      "momentum_5d": 0.009759539779554502,
+      "momentum_1d": 0.02758760896701246,
       "macd_crossover": false,
-      "atr_pct": 0.00830733014043208,
-      "bollinger_pct_b": 1.0375,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.73,
-      "news_sentiment": 0.238,
-      "news_confidence": 0.42,
+      "atr_pct": 0.005437958786440847,
+      "bollinger_pct_b": 1.0127,
+      "volume_spike": true,
+      "volume_spike_ratio": 5.87,
+      "news_sentiment": 0.484,
+      "news_confidence": 0.31,
       "news_headlines": [
-        "Exclusive: Tare raises $13 million from Blockchain Capital to manage private credit transactions on the blockchain",
-        "Grayscale Just Made XRP 26% of Its New Portfolio for Advisors",
-        "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BNB-USD",
-      "rank_score": 0.6642,
-      "price": 753.010009765625,
-      "rsi": 93.12290762208538,
-      "momentum_5d": 0.020919754220919656,
-      "momentum_1d": 0.03979619606327078,
-      "macd_crossover": false,
-      "atr_pct": 0.005651593912322583,
-      "bollinger_pct_b": 0.9878,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.44,
-      "news_sentiment": 0.444,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?",
-        "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
-        "Why Is XRP Dropping Today?"
+        "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
+        "With a Key Vote Failed, What's Next for the Clarity Act?",
+        "WikiLeaks Founder Says \u201cI'm Back.\u201d A Token Most People Forgot Existed Jumps 743%"
       ],
       "high_impact_news": true
     },
@@ -723,7 +683,7 @@
     },
     {
       "asset": "ARM",
-      "rank_score": 0.6518,
+      "rank_score": 0.6468,
       "price": 264.8900146484375,
       "rsi": 77.61793798744532,
       "momentum_5d": 0.01863139445298202,
@@ -733,12 +693,33 @@
       "bollinger_pct_b": 0.9191,
       "volume_spike": true,
       "volume_spike_ratio": 1.5,
-      "news_sentiment": 0.472,
-      "news_confidence": 0.53,
+      "news_sentiment": 0.4,
+      "news_confidence": 0.5,
       "news_headlines": [
-        "Why Arm Stock Popped Today",
-        "Update: US Equity Indexes Rise, Big Tech Perks Up After Fed's Commitment to Controlling Inflation Sinks Treasury Yields",
-        "AMD Leads Chip Stocks Higher Amid Sector Rebound"
+        "US Stock Market Today S&P 500 Futures Climb On Fed Hike Resilience Hope",
+        "SoftBank Raises Arm Margin Loan to $25 Billion as AI Bets Grow",
+        "Why Arm Stock Popped Today"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BTC-USD",
+      "rank_score": 0.6452,
+      "price": 78090.71875,
+      "rsi": 83.51109907958852,
+      "momentum_5d": 0.007670834105800068,
+      "momentum_1d": 0.02218418027791072,
+      "macd_crossover": false,
+      "atr_pct": 0.004228819891882844,
+      "bollinger_pct_b": 0.9884,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.88,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.3,
+      "news_headlines": [
+        "Coinbase CEO recalls sending one bitcoin to entice early users",
+        "Exclusive: Brian Armstrong on crypto\u2019s future after Clarity Act fails",
+        "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase"
       ],
       "high_impact_news": true
     },
@@ -764,6 +745,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.6332,
+      "price": 1.3335000276565552,
+      "rsi": 76.3513317589141,
+      "momentum_5d": 0.006871096264655434,
+      "momentum_1d": 0.026796067846581947,
+      "macd_crossover": false,
+      "atr_pct": 0.007632963819237471,
+      "bollinger_pct_b": 0.9385,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.55,
+      "news_sentiment": 0.28,
+      "news_confidence": 0.25,
+      "news_headlines": [
+        "Coinbase Just Embedded Its Rails Inside 4,000-Plus Community Banks",
+        "With a Key Vote Failed, What's Next for the Clarity Act?",
+        "XRP Price Prediction: We Asked ChatGPT Where XRP Goes Now That the CLARITY Act Failed"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SNAP",
       "rank_score": 0.6124,
       "price": 5.640100002288818,
@@ -785,27 +787,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.6048,
-      "price": 2485.260009765625,
-      "rsi": 61.408943522556115,
-      "momentum_5d": 0.01600912086422644,
-      "momentum_1d": 0.020770640030724524,
-      "macd_crossover": false,
-      "atr_pct": 0.0054369109162384945,
-      "bollinger_pct_b": 1.0339,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.03,
-      "news_sentiment": 0.484,
-      "news_confidence": 0.31,
-      "news_headlines": [
-        "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
-        "Crypto Price Prediction: Where Will XRP, Bitcoin and Ethereum Be by Year End Now That the CLARITY Act Has Failed?",
-        "We Asked ChatGPT Which Coin Lost the Most From the Dead CLARITY Act: XRP, Ethereum, or Solana?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "CRM",
       "rank_score": 0.5998,
       "price": 243.00999450683594,
@@ -817,31 +798,33 @@
       "bollinger_pct_b": 0.1721,
       "volume_spike": true,
       "volume_spike_ratio": 1.57,
-      "news_sentiment": 0.48,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.522,
+      "news_confidence": 0.46,
       "news_headlines": [
-        "Salesforce CEO Marc Benioff: 'We cannot let AI become social media 2.0'",
-        "Salesforce CEO warns AI companies not to repeat this costly mistake",
-        "will.i.am on Personal AI Agents, Fundraising Efforts"
+        "Why Salesforce CEO Marc Benioff thinks AI chip king Nvidia is 'exquisite'",
+        "AI is the latest addiction \u2014 Does it need to be regulated like cigarettes?",
+        "Salesforce CEO warns AI companies not to repeat this costly mistake"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "CAD/JPY",
-      "rank_score": 0.5859,
-      "price": 112.46700286865234,
-      "rsi": 89.12708579038548,
-      "momentum_5d": 0.0072272898090259986,
-      "momentum_1d": 0.010231028213846726,
+      "asset": "SOL-USD",
+      "rank_score": 0.5908,
+      "price": 106.37000274658203,
+      "rsi": 88.68455130142013,
+      "momentum_5d": 0.006148330669444001,
+      "momentum_1d": 0.06200078731448674,
       "macd_crossover": false,
-      "atr_pct": 0.0017389414610143481,
-      "bollinger_pct_b": 1.0697,
+      "atr_pct": 0.008340164035000885,
+      "bollinger_pct_b": 0.919,
       "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
+      "volume_spike_ratio": 0.73,
+      "news_sentiment": 0.273,
+      "news_confidence": 0.44,
       "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+        "With a Key Vote Failed, What's Next for the Clarity Act?",
+        "Solana (HSDT) Stock Gets Fair Value Boost As Analysts Lift Treasury Valuation",
+        "Upexi Inc (UPXI) (Q4 2026) Earnings Call Highlights: Massive Solana Treasury Fuels $246 Million ..."
       ],
       "high_impact_news": true
     },
@@ -909,23 +892,42 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.5563,
-      "price": 1.3207000494003296,
-      "rsi": 61.21799831502209,
-      "momentum_5d": 0.016314013875429363,
-      "momentum_1d": 0.020160697730695665,
+      "asset": "BNB-USD",
+      "rank_score": 0.568,
+      "price": 750.7000122070312,
+      "rsi": 80.39536401574335,
+      "momentum_5d": -0.0004526600850269552,
+      "momentum_1d": 0.03567681749550913,
       "macd_crossover": false,
-      "atr_pct": 0.007025487272417568,
-      "bollinger_pct_b": 0.9615,
+      "atr_pct": 0.006197061956786218,
+      "bollinger_pct_b": 0.7572,
       "volume_spike": true,
-      "volume_spike_ratio": 1.77,
-      "news_sentiment": 0.484,
-      "news_confidence": 0.31,
+      "volume_spike_ratio": 1.65,
+      "news_sentiment": 0.444,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "XRP Price Prediction: We Asked ChatGPT Where XRP Goes Now That the CLARITY Act Failed",
-        "Ripple CEO Blames Democrats' 'Politics' for CLARITY Act Failure",
-        "We Asked ChatGPT if SEC and CFTC Rules Can Replace the CLARITY Act for XRP"
+        "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
+        "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?",
+        "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "CAD/JPY",
+      "rank_score": 0.5563,
+      "price": 112.84600067138672,
+      "rsi": 82.19184729257104,
+      "momentum_5d": 0.004048383195713783,
+      "momentum_1d": 0.013726440171745333,
+      "macd_crossover": false,
+      "atr_pct": 0.0025338079053489238,
+      "bollinger_pct_b": 1.0168,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 1.0,
+      "news_confidence": 0.7,
+      "news_headlines": [
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
       ],
       "high_impact_news": true
     },
@@ -944,30 +946,30 @@
       "news_sentiment": 0.153,
       "news_confidence": 0.48,
       "news_headlines": [
+        "Here's What $1,000 Invested in IonQ Stock Could Be Worth by 2030",
         "Why IonQ (IONQ) Stock Is Trading Up Today",
-        "IonQ's Quantum Growth Under Pressure: Is it Time to Sell the Stock?",
-        "Why IonQ Stock Popped Today"
+        "IonQ's Quantum Growth Under Pressure: Is it Time to Sell the Stock?"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "GBP/JPY",
-      "rank_score": 0.5442,
-      "price": 210.20599365234375,
-      "rsi": 92.59655961557596,
-      "momentum_5d": 0.007356021510935316,
-      "momentum_1d": 0.008883866299156051,
+      "asset": "AVAX-USD",
+      "rank_score": 0.5434,
+      "price": 7.945000171661377,
+      "rsi": 82.14287234812522,
+      "momentum_5d": 0.0015126791618076823,
+      "momentum_1d": 0.057078284913889527,
       "macd_crossover": false,
-      "atr_pct": 0.0016616455337323279,
-      "bollinger_pct_b": 1.0804,
+      "atr_pct": 0.008648744694806263,
+      "bollinger_pct_b": 0.8684,
       "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": -0.6,
-      "news_confidence": 0.333,
+      "volume_spike_ratio": 0.7,
+      "news_sentiment": 0.238,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Pound Mostly Steady After Weaker GDP",
-        "Sterling Declines as the BoE Appears More Dovish",
-        "Mixed Performance by the Pound After Weaker Job Data"
+        "Exclusive: Tare raises $13 million from Blockchain Capital to manage private credit transactions on the blockchain",
+        "Grayscale Just Made XRP 26% of Its New Portfolio for Advisors",
+        "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone"
       ],
       "high_impact_news": true
     },
@@ -986,9 +988,9 @@
       "news_sentiment": 0.673,
       "news_confidence": 0.55,
       "news_headlines": [
+        "BioNTech Threw in the Towel on Its Colorectal Cancer Vaccine Trial. Should Investors Be Worried?",
         "Dow Jones Futures: S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash Buy Signals",
-        "Why Are Moderna (MRNA) Shares Soaring Today",
-        "Will 2026 Doom and Gloom Lead to Opportunity?"
+        "Why Are Moderna (MRNA) Shares Soaring Today"
       ],
       "high_impact_news": true
     },

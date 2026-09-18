@@ -137,8 +137,8 @@
     "mode": "paper",
     "strategy_version": "122",
     "status": "open",
-    "price_peak": 112.07599639892578,
-    "trailing_stop_price": 111.179388
+    "price_peak": 112.54199981689453,
+    "trailing_stop_price": 111.641664
   },
   "WFC": {
     "id": "WFC_20260911134633",
@@ -420,37 +420,6 @@
     "strategy_version": "128",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260918051844",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.08428999781608582,
-    "entry_time": "2026-09-18T05:18:44.537545+00:00",
-    "stop_loss_pct": 0.00742,
-    "take_profit_pct": 0.01837,
-    "size_usd": 6159.93,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (75.4)",
-      "5d momentum +3.11%",
-      "1d momentum +4.27%",
-      "BB overbought (pct_b=1.02)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": -0.385,
-    "news_headlines": [
-      "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
-      "Bitwise to Close Dogecoin ETF Before Its First Anniversary",
-      "Bitwise Closes Dogecoin ETF After 10 Months"
-    ],
-    "mode": "paper",
-    "strategy_version": "128",
-    "status": "open"
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260918051844",
     "asset": "AVAX-USD",
@@ -509,37 +478,70 @@
     ],
     "mode": "paper",
     "strategy_version": "128",
+    "status": "open",
+    "price_trough": 750.1799926757812,
+    "trailing_stop_price": 754.33599
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260918095302",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.08577000349760056,
+    "entry_time": "2026-09-18T09:53:02.686456+00:00",
+    "stop_loss_pct": 0.00786,
+    "take_profit_pct": 0.01945,
+    "size_usd": 6152.82,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (86.7)",
+      "5d momentum +1.55%",
+      "1d momentum +5.92%",
+      "BB overbought (pct_b=1.03)",
+      "Volume spike 4.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.172,
+    "news_headlines": [
+      "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
+      "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
+      "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
+    ],
+    "mode": "paper",
+    "strategy_version": "129",
     "status": "open"
   },
   "ETH-USD": {
-    "id": "ETH-USD_20260918051844",
+    "id": "ETH-USD_20260918095302",
     "asset": "ETH-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 2485.260009765625,
-    "entry_time": "2026-09-18T05:18:44.541147+00:00",
-    "stop_loss_pct": 0.00532,
-    "take_profit_pct": 0.01294,
-    "size_usd": 870.91,
-    "position_size_pct": 0.0086,
-    "confidence": 0.87,
+    "entry_price": 2503.820068359375,
+    "entry_time": "2026-09-18T09:53:02.688107+00:00",
+    "stop_loss_pct": 0.00552,
+    "take_profit_pct": 0.01367,
+    "size_usd": 831.28,
+    "position_size_pct": 0.0082,
+    "confidence": 0.95,
     "signals": [
-      "RSI overbought (61.4)",
-      "5d momentum +1.60%",
-      "1d momentum +2.08%",
-      "BB overbought (pct_b=1.03)",
-      "Volume spike 2.0\u00d7",
+      "RSI overbought (88.1)",
+      "5d momentum +0.98%",
+      "1d momentum +2.76%",
+      "BB overbought (pct_b=1.01)",
+      "Volume spike 5.9\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge; fed hawkish"
+      "Claude [neutral]: price surge; fed hawkish"
     ],
     "news_sentiment": 0.484,
     "news_headlines": [
       "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
-      "Crypto Price Prediction: Where Will XRP, Bitcoin and Ethereum Be by Year End Now That the CLARITY Act Has Failed?",
-      "We Asked ChatGPT Which Coin Lost the Most From the Dead CLARITY Act: XRP, Ethereum, or Solana?"
+      "With a Key Vote Failed, What's Next for the Clarity Act?",
+      "WikiLeaks Founder Says \u201cI'm Back.\u201d A Token Most People Forgot Existed Jumps 743%"
     ],
     "mode": "paper",
-    "strategy_version": "128",
+    "strategy_version": "129",
     "status": "open"
   }
 }
