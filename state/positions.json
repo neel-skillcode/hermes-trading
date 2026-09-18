@@ -263,37 +263,6 @@
     "price_trough": 334.8999938964844,
     "trailing_stop_price": 341.916149
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260918135705",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.08727999776601791,
-    "entry_time": "2026-09-18T13:57:05.000794+00:00",
-    "stop_loss_pct": 0.01083,
-    "take_profit_pct": 0.02681,
-    "size_usd": 6149.54,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (88.5)",
-      "5d momentum +2.91%",
-      "1d momentum +7.22%",
-      "BB overbought (pct_b=1.02)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": -0.172,
-    "news_headlines": [
-      "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
-      "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
-      "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
-    ],
-    "mode": "paper",
-    "strategy_version": "129",
-    "status": "open"
-  },
   "USD/MXN": {
     "id": "USD/MXN_20260918135705",
     "asset": "USD/MXN",
@@ -346,7 +315,9 @@
     ],
     "mode": "paper",
     "strategy_version": "130",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2630.340087890625,
+    "trailing_stop_price": 2655.144195
   },
   "SOL-USD": {
     "id": "SOL-USD_20260918195455",
@@ -377,7 +348,9 @@
     ],
     "mode": "paper",
     "strategy_version": "130",
-    "status": "open"
+    "status": "open",
+    "price_trough": 113.30000305175781,
+    "trailing_stop_price": 114.614283
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260918195455",
@@ -408,7 +381,9 @@
     ],
     "mode": "paper",
     "strategy_version": "130",
-    "status": "open"
+    "status": "open",
+    "price_trough": 8.23900032043457,
+    "trailing_stop_price": 8.330865
   },
   "CVX": {
     "id": "CVX_20260918195455",
@@ -439,7 +414,9 @@
     ],
     "mode": "paper",
     "strategy_version": "130",
-    "status": "open"
+    "status": "open",
+    "price_peak": 209.50999450683594,
+    "trailing_stop_price": 208.286456
   },
   "RXRX": {
     "id": "RXRX_20260918195455",
@@ -500,6 +477,64 @@
     ],
     "mode": "paper",
     "strategy_version": "130",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260918220858",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.08826000243425369,
+    "entry_time": "2026-09-18T22:08:58.713656+00:00",
+    "stop_loss_pct": 0.00934,
+    "take_profit_pct": 0.02169,
+    "size_usd": 4142.46,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (77.1)",
+      "5d momentum +0.76%",
+      "1d momentum +8.37%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.172,
+    "news_headlines": [
+      "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
+      "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
+      "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260918220858",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.4018000364303589,
+    "entry_time": "2026-09-18T22:08:58.716334+00:00",
+    "stop_loss_pct": 0.01212,
+    "take_profit_pct": 0.0285,
+    "size_usd": 1979.46,
+    "position_size_pct": 0.0197,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (70.1)",
+      "5d momentum +0.78%",
+      "1d momentum +8.24%",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.429,
+    "news_headlines": [
+      "1.6 billion XRP floods Binance as whale activity hits six-month high",
+      "Ripple-Backed Treasury Lines Up $30M: Can XRP Reach $3 in 2026?",
+      "Why XRP Is Up Today"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
     "status": "open"
   }
 }
