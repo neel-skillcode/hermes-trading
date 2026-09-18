@@ -107,8 +107,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1466574668884277,
-    "trailing_stop_price": 1.155831
+    "price_trough": 1.1463946104049683,
+    "trailing_stop_price": 1.155566
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260910143740",
@@ -170,8 +170,8 @@
     "mode": "paper",
     "strategy_version": "123",
     "status": "open",
-    "price_trough": 86.88639831542969,
-    "trailing_stop_price": 88.669307
+    "price_trough": 86.22000122070312,
+    "trailing_stop_price": 87.989236
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -195,40 +195,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.852540016174316,
-    "trailing_stop_price": 9.77372
-  },
-  "SOUN": {
-    "id": "SOUN_20260916145230",
-    "asset": "SOUN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 5.941299915313721,
-    "entry_time": "2026-09-16T14:52:30.494730+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 6056.85,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (21.1)",
-      "5d momentum -6.51%",
-      "1d momentum -5.41%",
-      "BB oversold (pct_b=-0.07)",
-      "High-impact catalyst",
-      "Claude [supports]: price surge; price decline"
-    ],
-    "news_sentiment": 0.298,
-    "news_headlines": [
-      "SoundHound AI, Inc. (SOUN) Falls More Steeply Than Broader Market: What Investors Need to Know",
-      "C3.ai Jumps 7% as Software Rally Lifts Beaten-Down AI Names; UiPath Climbs 8%, SoundHound AI Gains 5%",
-      "This Is the Biggest Problem With SoundHound AI Stock"
-    ],
-    "mode": "paper",
-    "strategy_version": "127",
-    "status": "open",
-    "price_peak": 6.045000076293945,
-    "trailing_stop_price": 5.954325
+    "price_peak": 9.86046028137207,
+    "trailing_stop_price": 9.781577
   },
   "IWM": {
     "id": "IWM_20260916145230",
@@ -259,72 +227,8 @@
     "mode": "paper",
     "strategy_version": "127",
     "status": "open",
-    "price_trough": 283.9200134277344,
-    "trailing_stop_price": 287.179415
-  },
-  "SMCI": {
-    "id": "SMCI_20260917165742",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 40.767398834228516,
-    "entry_time": "2026-09-17T16:57:42.653134+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5122.16,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (78.1)",
-      "5d momentum +14.45%",
-      "1d momentum +8.44%",
-      "BB overbought (pct_b=1.04)",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade; price surge; analyst downgrade"
-    ],
-    "news_sentiment": 0.321,
-    "news_headlines": [
-      "Vertiv's Product Revenue Accelerates: Can It Outpace APH & SMCI?",
-      "Can INTC's AI Inference Advancements Strengthen Its Growth Prospects?",
-      "AI Server Stocks Rally as the Hardware Bid Broadens: Hewlett Packard Enterprise Jumps 9%, Super Micro Climbs 6%, Dell Rises 3%"
-    ],
-    "mode": "paper",
-    "strategy_version": "128",
-    "status": "open",
-    "price_trough": 40.349998474121094,
-    "trailing_stop_price": 40.955248
-  },
-  "IONQ": {
-    "id": "IONQ_20260917165742",
-    "asset": "IONQ",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 40.349998474121094,
-    "entry_time": "2026-09-17T16:57:42.655136+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5122.16,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (75.0)",
-      "5d momentum +11.26%",
-      "1d momentum +6.44%",
-      "BB overbought (pct_b=1.04)",
-      "High-impact catalyst",
-      "Claude [contradicts]: earnings beat; product catalyst"
-    ],
-    "news_sentiment": 0.684,
-    "news_headlines": [
-      "IonQ Climbs 9% on Quantum Optimization Work With NVIDIA; D-Wave Rises 8%, Rigetti Gains 7%",
-      "IBM and IonQ Stocks Rally on Fresh Quantum Computing Breakthroughs",
-      "3 Cash-Heavy Stocks to Research Further"
-    ],
-    "mode": "paper",
-    "strategy_version": "128",
-    "status": "open",
-    "price_trough": 40.34,
-    "trailing_stop_price": 40.9451
+    "price_trough": 283.2699890136719,
+    "trailing_stop_price": 286.521928
   },
   "AMD": {
     "id": "AMD_20260917165742",
@@ -387,119 +291,153 @@
     ],
     "mode": "paper",
     "strategy_version": "128",
-    "status": "open"
+    "status": "open",
+    "price_trough": 334.8999938964844,
+    "trailing_stop_price": 341.916149
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260918051844",
-    "asset": "SOL-USD",
+  "GOOGL": {
+    "id": "GOOGL_20260918135704",
+    "asset": "GOOGL",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 105.58000183105469,
-    "entry_time": "2026-09-18T05:18:44.536248+00:00",
-    "stop_loss_pct": 0.00818,
-    "take_profit_pct": 0.01992,
-    "size_usd": 5641.2,
+    "entry_price": 355.29998779296875,
+    "entry_time": "2026-09-18T13:57:04.994546+00:00",
+    "stop_loss_pct": 0.00891,
+    "take_profit_pct": 0.02168,
+    "size_usd": 5631.68,
     "position_size_pct": 0.0557,
     "confidence": 0.87,
     "signals": [
-      "RSI overbought (82.5)",
-      "5d momentum +4.19%",
-      "1d momentum +6.15%",
-      "BB overbought (pct_b=1.09)",
-      "Volume spike 1.8\u00d7",
+      "RSI overbought (69.5)",
+      "MACD crossover",
+      "5d momentum +2.90%",
+      "1d momentum +2.19%",
+      "BB overbought (pct_b=1.40)",
+      "Volume spike 6.4\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.105,
+    "news_sentiment": 0.415,
     "news_headlines": [
-      "Upexi Inc (UPXI) (Q4 2026) Earnings Call Highlights: Massive Solana Treasury Fuels $246 Million ...",
-      "Upexi Q4 Earnings Call Highlights",
-      "We Asked ChatGPT Which Coin Lost the Most From the Dead CLARITY Act: XRP, Ethereum, or Solana?"
+      "AI agents will need their own financial infrastructure: Coinbase CEO",
+      "Stock Market Today: Dow Falls As Oil Prices Turn Higher; Buffett Departs Berkshire (Live Coverage)",
+      "The HBM Bottleneck: 3 Tech Companies Have Locked Up 85% of the Supply of AI's Scarcest Asset"
     ],
     "mode": "paper",
-    "strategy_version": "128",
+    "strategy_version": "129",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260918051844",
-    "asset": "AVAX-USD",
+  "BTC-USD": {
+    "id": "BTC-USD_20260918135704",
+    "asset": "BTC-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 7.919000148773193,
-    "entry_time": "2026-09-18T05:18:44.538615+00:00",
-    "stop_loss_pct": 0.00814,
-    "take_profit_pct": 0.01983,
-    "size_usd": 5667.13,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
+    "entry_price": 80097.1875,
+    "entry_time": "2026-09-18T13:57:04.996447+00:00",
+    "stop_loss_pct": 0.00625,
+    "take_profit_pct": 0.01522,
+    "size_usd": 5631.68,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI overbought (82.6)",
-      "5d momentum +3.65%",
-      "1d momentum +5.54%",
-      "BB overbought (pct_b=1.04)",
+      "RSI overbought (91.9)",
+      "5d momentum +2.43%",
+      "1d momentum +4.55%",
+      "BB overbought (pct_b=1.25)",
+      "Volume spike 3.2\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": 0.238,
+    "news_sentiment": 0.385,
     "news_headlines": [
-      "Exclusive: Tare raises $13 million from Blockchain Capital to manage private credit transactions on the blockchain",
-      "Grayscale Just Made XRP 26% of Its New Portfolio for Advisors",
-      "South Korea\u2019s Hanwha Is Building a Tokenization Platform on Avalanche \u2013 and It Is Not Alone"
+      "Bitcoin and ethereum prices today, Friday, September 18, 2026: Crypto prices rise as investors move past CLARITY's failure",
+      "AI agents will need their own financial infrastructure: Coinbase CEO",
+      "Exclusive: Brian Armstrong on crypto\u2019s future after Clarity Act fails"
     ],
     "mode": "paper",
-    "strategy_version": "128",
+    "strategy_version": "129",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260918051844",
-    "asset": "BNB-USD",
+  "ETH-USD": {
+    "id": "ETH-USD_20260918135704",
+    "asset": "ETH-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 753.010009765625,
-    "entry_time": "2026-09-18T05:18:44.539688+00:00",
-    "stop_loss_pct": 0.00554,
-    "take_profit_pct": 0.01349,
-    "size_usd": 5667.13,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
+    "entry_price": 2554.199951171875,
+    "entry_time": "2026-09-18T13:57:04.998183+00:00",
+    "stop_loss_pct": 0.0075,
+    "take_profit_pct": 0.01826,
+    "size_usd": 5631.68,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI overbought (93.1)",
-      "5d momentum +2.09%",
-      "1d momentum +3.98%",
-      "BB overbought (pct_b=0.99)",
+      "RSI overbought (90.7)",
+      "5d momentum +2.04%",
+      "1d momentum +3.83%",
+      "BB overbought (pct_b=1.16)",
+      "Volume spike 5.2\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": 0.444,
+    "news_sentiment": 0.429,
     "news_headlines": [
-      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?",
-      "Crypto Billionaire Finds iPhone Duo Pretty 'Good' For Gawking at  Financial Charts \u2014 Crypto Prediction Market is Already Betting on The Next Big Apple Gadget",
-      "Why Is XRP Dropping Today?"
+      "Bitcoin and ethereum prices today, Friday, September 18, 2026: Crypto prices rise as investors move past CLARITY's failure",
+      "Bitmine Climbs 4% as Ethereum Rallies Despite CLARITY Act Failure; Sharplink Gains 3%",
+      "With a Key Vote Failed, What's Next for the Clarity Act?"
     ],
     "mode": "paper",
-    "strategy_version": "128",
-    "status": "open",
-    "price_trough": 750.1799926757812,
-    "trailing_stop_price": 754.33599
+    "strategy_version": "129",
+    "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260918095302",
-    "asset": "DOGE-USD",
+  "AVGO": {
+    "id": "AVGO_20260918135704",
+    "asset": "AVGO",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 0.08577000349760056,
-    "entry_time": "2026-09-18T09:53:02.686456+00:00",
-    "stop_loss_pct": 0.00786,
-    "take_profit_pct": 0.01945,
-    "size_usd": 6152.82,
+    "entry_price": 360.6499938964844,
+    "entry_time": "2026-09-18T13:57:04.999576+00:00",
+    "stop_loss_pct": 0.01085,
+    "take_profit_pct": 0.02686,
+    "size_usd": 6149.54,
     "position_size_pct": 0.0608,
     "confidence": 0.95,
     "signals": [
-      "RSI overbought (86.7)",
-      "5d momentum +1.55%",
-      "1d momentum +5.92%",
-      "BB overbought (pct_b=1.03)",
-      "Volume spike 4.3\u00d7",
+      "RSI overbought (74.2)",
+      "5d momentum +3.60%",
+      "1d momentum +4.24%",
+      "BB overbought (pct_b=1.22)",
+      "Volume spike 3.4\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": 0.125,
+    "news_headlines": [
+      "Broadcom Inc. (AVGO) is Attracting Investor Attention: Here is What You Should Know",
+      "Here\u2019s When Nividia\u2019s Dominance Fades, Opening Broadcom\u2019s Era of Dominance",
+      "AI Chips Update - BrainChip Expands Edge AI Capabilities With New Development Card"
+    ],
+    "mode": "paper",
+    "strategy_version": "129",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260918135705",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.08727999776601791,
+    "entry_time": "2026-09-18T13:57:05.000794+00:00",
+    "stop_loss_pct": 0.01083,
+    "take_profit_pct": 0.02681,
+    "size_usd": 6149.54,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (88.5)",
+      "5d momentum +2.91%",
+      "1d momentum +7.22%",
+      "BB overbought (pct_b=1.02)",
+      "Volume spike 2.5\u00d7",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
     ],
@@ -513,33 +451,87 @@
     "strategy_version": "129",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260918095302",
-    "asset": "ETH-USD",
+  "COIN": {
+    "id": "COIN_20260918135705",
+    "asset": "COIN",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 2503.820068359375,
-    "entry_time": "2026-09-18T09:53:02.688107+00:00",
-    "stop_loss_pct": 0.00552,
-    "take_profit_pct": 0.01367,
-    "size_usd": 831.28,
-    "position_size_pct": 0.0082,
+    "entry_price": 185.6699981689453,
+    "entry_time": "2026-09-18T13:57:05.002038+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6149.54,
+    "position_size_pct": 0.0608,
     "confidence": 0.95,
     "signals": [
-      "RSI overbought (88.1)",
-      "5d momentum +0.98%",
-      "1d momentum +2.76%",
-      "BB overbought (pct_b=1.01)",
-      "Volume spike 5.9\u00d7",
+      "RSI overbought (73.0)",
+      "5d momentum +9.04%",
+      "1d momentum -2.56%",
+      "BB overbought (pct_b=1.11)",
+      "Volume spike 1.8\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: price surge; fed hawkish"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
     ],
-    "news_sentiment": 0.484,
+    "news_sentiment": 0.217,
     "news_headlines": [
-      "Bitcoin and ethereum prices today, Thursday, September 17, 2026: Crypto prices move up following Fed's rate increase",
-      "With a Key Vote Failed, What's Next for the Clarity Act?",
-      "WikiLeaks Founder Says \u201cI'm Back.\u201d A Token Most People Forgot Existed Jumps 743%"
+      "Coinbase CEO recalls sending one bitcoin to entice early users",
+      "Why Coinbase's CEO thinks it's good for the world to 'tokenize everything'",
+      "Crypto's new regulatory concerns after the Clarity Act fails to pass"
     ],
+    "mode": "paper",
+    "strategy_version": "129",
+    "status": "open"
+  },
+  "HOOD": {
+    "id": "HOOD_20260918135705",
+    "asset": "HOOD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 115.32499694824219,
+    "entry_time": "2026-09-18T13:57:05.003281+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 4895.47,
+    "position_size_pct": 0.0484,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (74.1)",
+      "5d momentum +7.20%",
+      "1d momentum +1.25%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 1.9\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.7,
+    "news_headlines": [
+      "Intel, Netflix, Berkshire Hathaway, and More Stocks That Explain Today\u2019s Market",
+      "Why Bitcoin and Strategy Stock Are Rallying Against All the Odds",
+      "Stocks to Watch: Nestle, Nike, Netflix"
+    ],
+    "mode": "paper",
+    "strategy_version": "129",
+    "status": "open"
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20260918135705",
+    "asset": "USD/MXN",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 17.192699432373047,
+    "entry_time": "2026-09-18T13:57:05.046595+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 4596.51,
+    "position_size_pct": 0.0454,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (66.9)",
+      "5d momentum +0.30%",
+      "BB overbought (pct_b=1.07)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "129",
     "status": "open"
