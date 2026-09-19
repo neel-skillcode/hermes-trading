@@ -316,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "130",
     "status": "open",
-    "price_trough": 112.22000122070312,
-    "trailing_stop_price": 113.521753
+    "price_trough": 111.77999877929688,
+    "trailing_stop_price": 113.076647
   },
   "CVX": {
     "id": "CVX_20260918195455",
@@ -443,8 +443,8 @@
     "mode": "paper",
     "strategy_version": "131",
     "status": "open",
-    "price_peak": 1.4146000146865845,
-    "trailing_stop_price": 1.397455
+    "price_peak": 1.4361000061035156,
+    "trailing_stop_price": 1.418694
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260919044449",
@@ -468,37 +468,6 @@
     "news_sentiment": 1.0,
     "news_headlines": [
       "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "131",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260919090021",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 8.802000045776367,
-    "entry_time": "2026-09-19T09:00:21.840260+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 6114.32,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (72.1)",
-      "5d momentum +3.69%",
-      "1d momentum +11.00%",
-      "BB overbought (pct_b=1.06)",
-      "Volume spike 2.1\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.353,
-    "news_headlines": [
-      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin",
-      "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios"
     ],
     "mode": "paper",
     "strategy_version": "131",
@@ -533,24 +502,57 @@
     ],
     "mode": "paper",
     "strategy_version": "131",
+    "status": "open",
+    "price_trough": 2641.699951171875,
+    "trailing_stop_price": 2659.399341
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260919130240",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 9.295999526977539,
+    "entry_time": "2026-09-19T13:02:40.358566+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5605.04,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (81.0)",
+      "5d momentum +5.70%",
+      "1d momentum +15.22%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.059,
+    "news_headlines": [
+      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
     "status": "open"
   },
   "BNB-USD": {
-    "id": "BNB-USD_20260919090021",
+    "id": "BNB-USD_20260919130240",
     "asset": "BNB-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 765.8400268554688,
-    "entry_time": "2026-09-19T09:00:21.843641+00:00",
-    "stop_loss_pct": 0.00461,
-    "take_profit_pct": 0.01066,
-    "size_usd": 1710.16,
-    "position_size_pct": 0.017,
-    "confidence": 0.621,
+    "entry_price": 771.22998046875,
+    "entry_time": "2026-09-19T13:02:40.360382+00:00",
+    "stop_loss_pct": 0.00559,
+    "take_profit_pct": 0.01363,
+    "size_usd": 2075.48,
+    "position_size_pct": 0.0207,
+    "confidence": 0.874,
     "signals": [
-      "5d momentum +0.85%",
-      "1d momentum +1.54%",
-      "BB overbought (pct_b=0.90)",
+      "RSI overbought (65.7)",
+      "5d momentum +0.70%",
+      "1d momentum +1.76%",
+      "BB overbought (pct_b=1.01)",
       "High-impact catalyst",
       "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
     ],

@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100564.47,
+  "portfolio_balance": 100204.57,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 6.8,
-  "unrealized_pnl_usd": 1023.7,
-  "equity_value": 101588.17,
+  "portfolio_drawdown_pct": 7.13,
+  "unrealized_pnl_usd": 1081.17,
+  "equity_value": 101285.74,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40225.79,
+  "day_capital_used_usd": 40081.83,
   "swing_capital_used_usd": 50571.86,
-  "total_trades": 1497,
-  "last_tick": "2026-09-19T09:00:21.847894+00:00",
+  "total_trades": 1499,
+  "last_tick": "2026-09-19T13:02:40.363323+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 7,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -364,11 +364,11 @@
       "mode": "paper",
       "strategy_version": "130",
       "status": "open",
-      "price_trough": 112.22000122070312,
-      "trailing_stop_price": 113.521753,
-      "current_price": 112.220001,
-      "unrealized_pnl_pct": 0.013971,
-      "unrealized_pnl_usd": 78.24
+      "price_trough": 111.77999877929688,
+      "trailing_stop_price": 113.076647,
+      "current_price": 111.769997,
+      "unrealized_pnl_pct": 0.017925,
+      "unrealized_pnl_usd": 100.38
     },
     {
       "id": "CVX_20260918195455",
@@ -471,9 +471,9 @@
       "status": "open",
       "price_trough": 80962.09375,
       "trailing_stop_price": 81543.401583,
-      "current_price": 81282.210938,
-      "unrealized_pnl_pct": -0.001082,
-      "unrealized_pnl_usd": -5.16
+      "current_price": 81304.710938,
+      "unrealized_pnl_pct": -0.001359,
+      "unrealized_pnl_usd": -6.48
     },
     {
       "id": "XRP-USD_20260918220858",
@@ -503,11 +503,11 @@
       "mode": "paper",
       "strategy_version": "131",
       "status": "open",
-      "price_peak": 1.4146000146865845,
-      "trailing_stop_price": 1.397455,
-      "current_price": 1.4146,
-      "unrealized_pnl_pct": 0.009131,
-      "unrealized_pnl_usd": 18.07
+      "price_peak": 1.4361000061035156,
+      "trailing_stop_price": 1.418694,
+      "current_price": 1.437,
+      "unrealized_pnl_pct": 0.025111,
+      "unrealized_pnl_usd": 49.71
     },
     {
       "id": "CAD/JPY_20260919044449",
@@ -536,40 +536,6 @@
       "strategy_version": "131",
       "status": "open",
       "current_price": 112.115997,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
-    },
-    {
-      "id": "AVAX-USD_20260919090021",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 8.802000045776367,
-      "entry_time": "2026-09-19T09:00:21.840260+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03712,
-      "size_usd": 6114.32,
-      "position_size_pct": 0.0608,
-      "confidence": 0.95,
-      "signals": [
-        "RSI overbought (72.1)",
-        "5d momentum +3.69%",
-        "1d momentum +11.00%",
-        "BB overbought (pct_b=1.06)",
-        "Volume spike 2.1\u00d7",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.353,
-      "news_headlines": [
-        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin",
-        "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios"
-      ],
-      "mode": "paper",
-      "strategy_version": "131",
-      "status": "open",
-      "current_price": 8.802,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     },
@@ -603,26 +569,62 @@
       "mode": "paper",
       "strategy_version": "131",
       "status": "open",
-      "current_price": 2644.0,
+      "price_trough": 2641.699951171875,
+      "trailing_stop_price": 2659.399341,
+      "current_price": 2641.830078,
+      "unrealized_pnl_pct": 0.000821,
+      "unrealized_pnl_usd": 5.02
+    },
+    {
+      "id": "AVAX-USD_20260919130240",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 9.295999526977539,
+      "entry_time": "2026-09-19T13:02:40.358566+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03655,
+      "size_usd": 5605.04,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (81.0)",
+        "5d momentum +5.70%",
+        "1d momentum +15.22%",
+        "BB overbought (pct_b=0.94)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.059,
+      "news_headlines": [
+        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
+      ],
+      "mode": "paper",
+      "strategy_version": "131",
+      "status": "open",
+      "current_price": 9.296,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "BNB-USD_20260919090021",
+      "id": "BNB-USD_20260919130240",
       "asset": "BNB-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 765.8400268554688,
-      "entry_time": "2026-09-19T09:00:21.843641+00:00",
-      "stop_loss_pct": 0.00461,
-      "take_profit_pct": 0.01066,
-      "size_usd": 1710.16,
-      "position_size_pct": 0.017,
-      "confidence": 0.621,
+      "entry_price": 771.22998046875,
+      "entry_time": "2026-09-19T13:02:40.360382+00:00",
+      "stop_loss_pct": 0.00559,
+      "take_profit_pct": 0.01363,
+      "size_usd": 2075.48,
+      "position_size_pct": 0.0207,
+      "confidence": 0.874,
       "signals": [
-        "5d momentum +0.85%",
-        "1d momentum +1.54%",
-        "BB overbought (pct_b=0.90)",
+        "RSI overbought (65.7)",
+        "5d momentum +0.70%",
+        "1d momentum +1.76%",
+        "BB overbought (pct_b=1.01)",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
       ],
@@ -635,7 +637,7 @@
       "mode": "paper",
       "strategy_version": "131",
       "status": "open",
-      "current_price": 765.840027,
+      "current_price": 771.22998,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -698,9 +700,9 @@
       "news_sentiment": 0.448,
       "news_confidence": 0.29,
       "news_headlines": [
+        "Is Recursion Pharmaceuticals (RXRX) A Bargain As Its Shares Rebound?",
         "Recursion Pharmaceuticals (RXRX) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "Why Recursion Pharmaceuticals (RXRX) Dipped More Than Broader Market Today",
-        "2 Beaten-Down Stocks to Avoid Right Now"
+        "Why Recursion Pharmaceuticals (RXRX) Dipped More Than Broader Market Today"
       ],
       "high_impact_news": true
     },
@@ -747,29 +749,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.7647,
-      "price": 8.802000045776367,
-      "rsi": 72.13236722360793,
-      "momentum_5d": 0.036871211394391104,
-      "momentum_1d": 0.10996219877856325,
-      "macd_crossover": false,
-      "atr_pct": 0.01937061364996546,
-      "bollinger_pct_b": 1.0611,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.07,
-      "news_sentiment": 0.353,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin",
-        "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRVL",
-      "rank_score": 0.7499,
+      "rank_score": 0.7549,
       "price": 244.1199951171875,
       "rsi": 76.3350325993412,
       "momentum_5d": 0.024594983402400072,
@@ -779,12 +760,12 @@
       "bollinger_pct_b": 0.8407,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.815,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.925,
+      "news_confidence": 0.53,
       "news_headlines": [
-        "Bet on These Photonics ETFs to Exploit the Next Wave of AI Revolution",
-        "APH's AI Datacom Strength Grows: Can It Challenge TEL & MRVL?",
-        "GlobalFoundries Jumps 7% on an Expanded Marvell Agreement"
+        "3 Stocks to Buy Before Wall Street Catches On Before September Ends",
+        "Semiconductor Stocks to Buy and Hold Through 2030",
+        "Bet on These Photonics ETFs to Exploit the Next Wave of AI Revolution"
       ],
       "high_impact_news": true
     },
@@ -831,6 +812,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "NVDA",
+      "rank_score": 0.6646,
+      "price": 222.08999633789062,
+      "rsi": 85.25615899614611,
+      "momentum_5d": 0.010257645757749977,
+      "momentum_1d": 0.05091560314960812,
+      "macd_crossover": false,
+      "atr_pct": 0.006739639687123317,
+      "bollinger_pct_b": 0.9211,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.441,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "S&P 500 wavers after best one-day rally in six weeks: AlphaCheck",
+        "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+        "Can Bitcoin Reclaim $100,000 in 2026? One Factor Could Decide Everything."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.6627,
       "price": 15.085000038146973,
@@ -869,6 +871,27 @@
         "Jim Cramer Believes Chevron Corporation (NYSE:CVX)\u2019s CEO Is A \u201cBeacon\u201d",
         "Red Flags Emerge for Oil Prices in Europe and China",
         "2 Stocks to Buy if You Think $100 Oil Will Last"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6498,
+      "price": 9.295999526977539,
+      "rsi": 81.03057320369265,
+      "momentum_5d": 0.05696412124361298,
+      "momentum_1d": 0.15220621115281235,
+      "macd_crossover": false,
+      "atr_pct": 0.024119445017562927,
+      "bollinger_pct_b": 0.9367,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.03,
+      "news_sentiment": 0.059,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
       ],
       "high_impact_news": true
     },
@@ -915,44 +938,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.6194,
-      "price": 2644.0,
-      "rsi": 63.386831019693865,
-      "momentum_5d": 0.009476274638309398,
-      "momentum_1d": 0.05632817674891237,
+      "asset": "MU",
+      "rank_score": 0.6115,
+      "price": 1015.375,
+      "rsi": 91.64985927499482,
+      "momentum_5d": 0.025026982900447532,
+      "momentum_1d": 0.09619293475986838,
       "macd_crossover": false,
-      "atr_pct": 0.006599315794183595,
-      "bollinger_pct_b": 0.8554,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.29,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.3,
-      "news_headlines": [
-        "The SEC is bringing tokenized stocks to markets: 7 key details you need to know",
-        "Which Crypto ETF Drew the Most Money Last Week? Not Bitcoin, and Not Ethereum",
-        "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HOOD",
-      "rank_score": 0.6127,
-      "price": 119.83000183105469,
-      "rsi": 93.85410306893176,
-      "momentum_5d": 0.010456240251757804,
-      "momentum_1d": 0.08247520446708988,
-      "macd_crossover": false,
-      "atr_pct": 0.018313338912996708,
-      "bollinger_pct_b": 0.8608,
+      "atr_pct": 0.011626917642364714,
+      "bollinger_pct_b": 0.8784,
       "volume_spike": false,
-      "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.48,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.467,
+      "news_confidence": 0.6,
       "news_headlines": [
-        "Prediction: Robinhood Will Pass $500 Billion in Customer Assets in 2027",
-        "Dow Jones Futures: Nasdaq, S&P 500 Hold; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "Bitwise CIO Matt Hougan Adjusts His Crypto Outlook After the Senate Vote. Here\u2019s What He Changed"
+        "Semiconductor Stocks to Buy and Hold Through 2030",
+        "UBS now expects AI capex to reach nearly $1tn this year and around $1.4tn by 2027",
+        "Nvidia, SK Hynix send strong signal to Micron investors"
       ],
       "high_impact_news": true
     },
@@ -971,15 +973,36 @@
       "news_sentiment": 0.358,
       "news_confidence": 0.33,
       "news_headlines": [
+        "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
         "Ranking the Safest Dividend Stocks in the Energy Sector Right Now",
-        "500th Episode: Investing Tips from 11 Years of Podcasting About Stocks",
-        "ExxonMobil's Advantaged Assets and Refining Strength Drive Outlook"
+        "500th Episode: Investing Tips from 11 Years of Podcasting About Stocks"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HOOD",
+      "rank_score": 0.6097,
+      "price": 119.83000183105469,
+      "rsi": 93.85410306893176,
+      "momentum_5d": 0.010456240251757804,
+      "momentum_1d": 0.08247520446708988,
+      "macd_crossover": false,
+      "atr_pct": 0.018313338912996708,
+      "bollinger_pct_b": 0.8608,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.82,
+      "news_sentiment": 0.467,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Dow Jones Futures: Nasdaq, S&P 500 Hold; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "Robinhood Soars, SpaceX Orbits Entry: Five Stocks Near Buy Points",
+        "Coinbase Stock Jumped 12% Yesterday. Bitcoin\u2019s Breakout Wasn\u2019t the Whole Story."
       ],
       "high_impact_news": true
     },
     {
       "asset": "CRM",
-      "rank_score": 0.6075,
+      "rank_score": 0.6025,
       "price": 237.94500732421875,
       "rsi": 25.8944415690044,
       "momentum_5d": -0.012020383066317192,
@@ -989,33 +1012,12 @@
       "bollinger_pct_b": 0.1924,
       "volume_spike": true,
       "volume_spike_ratio": 1.52,
-      "news_sentiment": 0.822,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.762,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Why Salesforce CEO Marc Benioff thinks AI chip king Nvidia is 'exquisite'",
         "Ross Gerber Sees Jensen Huang\u2019s Charisma As Part Of Nvidia\u2019s Edge, Says \u2018This Is Why I Own Nvidia\u2019 After Dreamforce Exchange With Marc Benioff: 'Big is Unnecessary'",
-        "How Atlassian Stock Shook Off 'SaaSpocalypse' AI Fears For A Big Rally"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MU",
-      "rank_score": 0.6034,
-      "price": 1015.375,
-      "rsi": 91.64985927499482,
-      "momentum_5d": 0.025026982900447532,
-      "momentum_1d": 0.09619293475986838,
-      "macd_crossover": false,
-      "atr_pct": 0.011626917642364714,
-      "bollinger_pct_b": 0.8784,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.37,
-      "news_confidence": 0.54,
-      "news_headlines": [
-        "UBS now expects AI capex to reach nearly $1tn this year and around $1.4tn by 2027",
-        "Nvidia, SK Hynix send strong signal to Micron investors",
-        "What Does Micron Technology (MU) Warning Of Shortages Through 2027 Mean?"
+        "How Atlassian Stock Shook Off 'SaaSpocalypse' AI Fears For A Big Rally",
+        "Why Salesforce\u2019s Homegrown AI Model Won\u2019t Move the Stock Until 2027"
       ],
       "high_impact_news": true
     },
