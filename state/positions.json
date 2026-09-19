@@ -286,39 +286,6 @@
     "strategy_version": "129",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260918195455",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2637.929931640625,
-    "entry_time": "2026-09-18T19:54:55.949406+00:00",
-    "stop_loss_pct": 0.00943,
-    "take_profit_pct": 0.02296,
-    "size_usd": 5600.02,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (93.8)",
-      "5d momentum +2.18%",
-      "1d momentum +7.79%",
-      "BB overbought (pct_b=1.00)",
-      "Volume spike 4.1\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.071,
-    "news_headlines": [
-      "The SEC is bringing tokenized stocks to markets: 7 key details you need to know",
-      "Ethereum ETFs Experience $366 Million Loss in Just Two Days as Whales Capitalize on the Dip",
-      "Why Ethereum Jumped 5.8% Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "130",
-    "status": "open",
-    "price_trough": 2614.590087890625,
-    "trailing_stop_price": 2639.245672
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260918195455",
     "asset": "SOL-USD",
@@ -349,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "130",
     "status": "open",
-    "price_trough": 112.33999633789062,
-    "trailing_stop_price": 113.64314
+    "price_trough": 112.22000122070312,
+    "trailing_stop_price": 113.521753
   },
   "CVX": {
     "id": "CVX_20260918195455",
@@ -448,35 +415,6 @@
     "price_trough": 80962.09375,
     "trailing_stop_price": 81543.401583
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260918220858",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.08826000243425369,
-    "entry_time": "2026-09-18T22:08:58.713656+00:00",
-    "stop_loss_pct": 0.00934,
-    "take_profit_pct": 0.02169,
-    "size_usd": 4142.46,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (77.1)",
-      "5d momentum +0.76%",
-      "1d momentum +8.37%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": -0.172,
-    "news_headlines": [
-      "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
-      "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
-      "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
-    ],
-    "mode": "paper",
-    "strategy_version": "131",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260918220858",
     "asset": "XRP-USD",
@@ -505,37 +443,8 @@
     "mode": "paper",
     "strategy_version": "131",
     "status": "open",
-    "price_peak": 1.413599967956543,
-    "trailing_stop_price": 1.396467
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260919044449",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 8.390000343322754,
-    "entry_time": "2026-09-19T04:44:49.713391+00:00",
-    "stop_loss_pct": 0.01471,
-    "take_profit_pct": 0.03416,
-    "size_usd": 4138.95,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (60.8)",
-      "5d momentum +2.32%",
-      "1d momentum +5.76%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.353,
-    "news_headlines": [
-      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin",
-      "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios"
-    ],
-    "mode": "paper",
-    "strategy_version": "131",
-    "status": "open"
+    "price_peak": 1.4146000146865845,
+    "trailing_stop_price": 1.397455
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260919044449",
@@ -559,6 +468,97 @@
     "news_sentiment": 1.0,
     "news_headlines": [
       "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260919090021",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 8.802000045776367,
+    "entry_time": "2026-09-19T09:00:21.840260+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 6114.32,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (72.1)",
+      "5d momentum +3.69%",
+      "1d momentum +11.00%",
+      "BB overbought (pct_b=1.06)",
+      "Volume spike 2.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.353,
+    "news_headlines": [
+      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin",
+      "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260919090021",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2644.0,
+    "entry_time": "2026-09-19T09:00:21.841892+00:00",
+    "stop_loss_pct": 0.0067,
+    "take_profit_pct": 0.01659,
+    "size_usd": 6114.32,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (63.4)",
+      "5d momentum +0.95%",
+      "1d momentum +5.63%",
+      "BB overbought (pct_b=0.86)",
+      "Volume spike 2.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.2,
+    "news_headlines": [
+      "The SEC is bringing tokenized stocks to markets: 7 key details you need to know",
+      "Which Crypto ETF Drew the Most Money Last Week? Not Bitcoin, and Not Ethereum",
+      "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote."
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260919090021",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 765.8400268554688,
+    "entry_time": "2026-09-19T09:00:21.843641+00:00",
+    "stop_loss_pct": 0.00461,
+    "take_profit_pct": 0.01066,
+    "size_usd": 1710.16,
+    "position_size_pct": 0.017,
+    "confidence": 0.621,
+    "signals": [
+      "5d momentum +0.85%",
+      "1d momentum +1.54%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
+      "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
+      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
     ],
     "mode": "paper",
     "strategy_version": "131",
