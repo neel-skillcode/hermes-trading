@@ -316,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "130",
     "status": "open",
-    "price_trough": 111.61000061035156,
-    "trailing_stop_price": 112.904677
+    "price_trough": 110.66999816894531,
+    "trailing_stop_price": 111.95377
   },
   "CVX": {
     "id": "CVX_20260918195455",
@@ -382,37 +382,6 @@
     "strategy_version": "130",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260918220858",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.4018000364303589,
-    "entry_time": "2026-09-18T22:08:58.716334+00:00",
-    "stop_loss_pct": 0.01212,
-    "take_profit_pct": 0.0285,
-    "size_usd": 1979.46,
-    "position_size_pct": 0.0197,
-    "confidence": 0.704,
-    "signals": [
-      "RSI overbought (70.1)",
-      "5d momentum +0.78%",
-      "1d momentum +8.24%",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.429,
-    "news_headlines": [
-      "1.6 billion XRP floods Binance as whale activity hits six-month high",
-      "Ripple-Backed Treasury Lines Up $30M: Can XRP Reach $3 in 2026?",
-      "Why XRP Is Up Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "131",
-    "status": "open",
-    "price_peak": 1.4361000061035156,
-    "trailing_stop_price": 1.418694
-  },
   "CAD/JPY": {
     "id": "CAD/JPY_20260919044449",
     "asset": "CAD/JPY",
@@ -470,8 +439,8 @@
     "mode": "paper",
     "strategy_version": "131",
     "status": "open",
-    "price_trough": 2641.699951171875,
-    "trailing_stop_price": 2659.399341
+    "price_trough": 2629.0,
+    "trailing_stop_price": 2646.6143
   },
   "BNB-USD": {
     "id": "BNB-USD_20260919130240",
@@ -502,38 +471,8 @@
     "mode": "paper",
     "strategy_version": "131",
     "status": "open",
-    "price_trough": 766.719970703125,
-    "trailing_stop_price": 771.005935
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260919162232",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.62399959564209,
-    "entry_time": "2026-09-19T16:22:32.712677+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5591.84,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (86.0)",
-      "5d momentum +3.30%",
-      "1d momentum +19.09%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.059,
-    "news_headlines": [
-      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "131",
-    "status": "open"
+    "price_trough": 761.1099853515625,
+    "trailing_stop_price": 765.36459
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260919162232",
@@ -560,6 +499,66 @@
       "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
       "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
       "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open",
+    "price_trough": 0.08772999793291092,
+    "trailing_stop_price": 0.088608
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260919225227",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.8149995803833,
+    "entry_time": "2026-09-19T22:52:27.147734+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03483,
+    "size_usd": 4116.74,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (83.6)",
+      "5d momentum +1.75%",
+      "1d momentum +19.78%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.059,
+    "news_headlines": [
+      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260919225227",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.4156999588012695,
+    "entry_time": "2026-09-19T22:52:27.148874+00:00",
+    "stop_loss_pct": 0.00884,
+    "take_profit_pct": 0.02017,
+    "size_usd": 3419.98,
+    "position_size_pct": 0.0342,
+    "confidence": 0.564,
+    "signals": [
+      "5d momentum -0.81%",
+      "1d momentum +1.28%",
+      "Volume spike 3.1\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.128,
+    "news_headlines": [
+      "XRP ETFs Have Been Frozen at $1.71 Billion. When Will Inflows Reach $2 Billion?",
+      "XRP Price Prediction: Bull Flag Breakout Sets Stage for a 46% Gain",
+      "After a Long Hiatus, Crypto ETFs Are Making a Comeback. Here's the 1 Crypto ETF You Need to Own."
     ],
     "mode": "paper",
     "strategy_version": "131",
