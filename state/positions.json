@@ -316,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "130",
     "status": "open",
-    "price_trough": 2630.340087890625,
-    "trailing_stop_price": 2655.144195
+    "price_trough": 2614.590087890625,
+    "trailing_stop_price": 2639.245672
   },
   "SOL-USD": {
     "id": "SOL-USD_20260918195455",
@@ -349,41 +349,8 @@
     "mode": "paper",
     "strategy_version": "130",
     "status": "open",
-    "price_trough": 113.30000305175781,
-    "trailing_stop_price": 114.614283
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260918195455",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 8.274999618530273,
-    "entry_time": "2026-09-18T19:54:55.952718+00:00",
-    "stop_loss_pct": 0.01115,
-    "take_profit_pct": 0.02759,
-    "size_usd": 6114.96,
-    "position_size_pct": 0.0608,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (80.9)",
-      "5d momentum +1.66%",
-      "1d momentum +9.10%",
-      "BB overbought (pct_b=0.97)",
-      "Volume spike 2.3\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.353,
-    "news_headlines": [
-      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin",
-      "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios"
-    ],
-    "mode": "paper",
-    "strategy_version": "130",
-    "status": "open",
-    "price_trough": 8.23900032043457,
-    "trailing_stop_price": 8.330865
+    "price_trough": 112.33999633789062,
+    "trailing_stop_price": 113.64314
   },
   "CVX": {
     "id": "CVX_20260918195455",
@@ -477,7 +444,9 @@
     ],
     "mode": "paper",
     "strategy_version": "130",
-    "status": "open"
+    "status": "open",
+    "price_trough": 80962.09375,
+    "trailing_stop_price": 81543.401583
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260918220858",
@@ -532,6 +501,64 @@
       "1.6 billion XRP floods Binance as whale activity hits six-month high",
       "Ripple-Backed Treasury Lines Up $30M: Can XRP Reach $3 in 2026?",
       "Why XRP Is Up Today"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open",
+    "price_peak": 1.413599967956543,
+    "trailing_stop_price": 1.396467
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260919044449",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 8.390000343322754,
+    "entry_time": "2026-09-19T04:44:49.713391+00:00",
+    "stop_loss_pct": 0.01471,
+    "take_profit_pct": 0.03416,
+    "size_usd": 4138.95,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (60.8)",
+      "5d momentum +2.32%",
+      "1d momentum +5.76%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.353,
+    "news_headlines": [
+      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin",
+      "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open"
+  },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20260919044449",
+    "asset": "CAD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 112.11599731445312,
+    "entry_time": "2026-09-19T04:44:49.714833+00:00",
+    "stop_loss_pct": 0.00203,
+    "take_profit_pct": 0.00476,
+    "size_usd": 1942.02,
+    "position_size_pct": 0.0193,
+    "confidence": 0.684,
+    "signals": [
+      "RSI oversold (38.0)",
+      "1d momentum +0.59%",
+      "News +1.00 (conf 0.70) \u2192 long",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 1 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 1 articles. Overa"
+    ],
+    "news_sentiment": 1.0,
+    "news_headlines": [
+      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
     ],
     "mode": "paper",
     "strategy_version": "131",
