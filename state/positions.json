@@ -316,8 +316,8 @@
     "mode": "paper",
     "strategy_version": "130",
     "status": "open",
-    "price_trough": 111.77999877929688,
-    "trailing_stop_price": 113.076647
+    "price_trough": 111.61000061035156,
+    "trailing_stop_price": 112.904677
   },
   "CVX": {
     "id": "CVX_20260918195455",
@@ -381,39 +381,6 @@
     "mode": "paper",
     "strategy_version": "130",
     "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260918195455",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 81194.3984375,
-    "entry_time": "2026-09-18T19:54:55.957357+00:00",
-    "stop_loss_pct": 0.00718,
-    "take_profit_pct": 0.01748,
-    "size_usd": 4767.28,
-    "position_size_pct": 0.0474,
-    "confidence": 0.87,
-    "signals": [
-      "RSI overbought (88.3)",
-      "5d momentum +0.36%",
-      "1d momentum +6.08%",
-      "BB overbought (pct_b=0.89)",
-      "Volume spike 1.6\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.415,
-    "news_headlines": [
-      "Bitcoin and ethereum prices today, Friday, September 18, 2026: Crypto prices rise as investors move past CLARITY's failure",
-      "New SEC, CFTC rules after CLARITY setback fuel Bitcoin rally",
-      "Why Bitcoin Is Up Today"
-    ],
-    "mode": "paper",
-    "strategy_version": "130",
-    "status": "open",
-    "price_trough": 80962.09375,
-    "trailing_stop_price": 81543.401583
   },
   "XRP-USD": {
     "id": "XRP-USD_20260918220858",
@@ -506,36 +473,6 @@
     "price_trough": 2641.699951171875,
     "trailing_stop_price": 2659.399341
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260919130240",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.295999526977539,
-    "entry_time": "2026-09-19T13:02:40.358566+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5605.04,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (81.0)",
-      "5d momentum +5.70%",
-      "1d momentum +15.22%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.059,
-    "news_headlines": [
-      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "131",
-    "status": "open"
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260919130240",
     "asset": "BNB-USD",
@@ -561,6 +498,68 @@
       "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
       "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
       "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open",
+    "price_trough": 766.719970703125,
+    "trailing_stop_price": 771.005935
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260919162232",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 9.62399959564209,
+    "entry_time": "2026-09-19T16:22:32.712677+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5591.84,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (86.0)",
+      "5d momentum +3.30%",
+      "1d momentum +19.09%",
+      "BB overbought (pct_b=0.94)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.059,
+    "news_headlines": [
+      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "131",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260919162232",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.0891600027680397,
+    "entry_time": "2026-09-19T16:22:32.714283+00:00",
+    "stop_loss_pct": 0.01001,
+    "take_profit_pct": 0.02457,
+    "size_usd": 4686.06,
+    "position_size_pct": 0.0469,
+    "confidence": 0.908,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +0.89%",
+      "1d momentum +1.64%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
+    ],
+    "news_sentiment": -0.172,
+    "news_headlines": [
+      "Can Dogecoin Reach $1 by Year-End? Here's How the Meme Coin Traded During the Last Election Year.",
+      "Crypto Volatility to Stay High as Fed, CLARITY Failure Weigh on Markets",
+      "Bitwise to Close Dogecoin ETF Before Its First Anniversary"
     ],
     "mode": "paper",
     "strategy_version": "131",
