@@ -254,7 +254,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "129",
-    "status": "open"
+    "status": "open",
+    "price_trough": 17.190000534057617,
+    "trailing_stop_price": 17.327521
   },
   "CVX": {
     "id": "CVX_20260918195455",
@@ -410,38 +412,6 @@
     "price_peak": 0.08735000342130661,
     "trailing_stop_price": 0.086262
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260920170128",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 11.312000274658203,
-    "entry_time": "2026-09-20T17:01:28.366021+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03655,
-    "size_usd": 5661.44,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (85.6)",
-      "5d momentum +9.05%",
-      "1d momentum +17.28%",
-      "BB overbought (pct_b=0.97)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.189,
-    "news_headlines": [
-      "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
-      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction"
-    ],
-    "mode": "paper",
-    "strategy_version": "132",
-    "status": "open",
-    "price_trough": 11.074999809265137,
-    "trailing_stop_price": 11.241125
-  },
   "SOL-USD": {
     "id": "SOL-USD_20260920170128",
     "asset": "SOL-USD",
@@ -501,7 +471,9 @@
     ],
     "mode": "paper",
     "strategy_version": "133",
-    "status": "open"
+    "status": "open",
+    "price_trough": 765.72998046875,
+    "trailing_stop_price": 770.1559
   },
   "ETH-USD": {
     "id": "ETH-USD_20260920192103",
@@ -527,6 +499,37 @@
       "Is This Cryptocurrency Still a Millionaire Maker?",
       "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
       "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years"
+    ],
+    "mode": "paper",
+    "strategy_version": "133",
+    "status": "open",
+    "price_trough": 2627.0,
+    "trailing_stop_price": 2669.24216
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260920213904",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 11.265000343322754,
+    "entry_time": "2026-09-20T21:39:04.884843+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03483,
+    "size_usd": 4174.95,
+    "position_size_pct": 0.0412,
+    "confidence": 0.644,
+    "signals": [
+      "RSI overbought (82.3)",
+      "5d momentum -0.30%",
+      "1d momentum +16.30%",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
+      "AVAX Eyes 90% Price Rally As Wall Street Tests Avalanche for 24/7 Tokenized Trading",
+      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million"
     ],
     "mode": "paper",
     "strategy_version": "133",

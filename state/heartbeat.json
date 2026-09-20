@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101266.28,
+  "portfolio_balance": 101294.31,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 6.15,
-  "unrealized_pnl_usd": 1136.27,
-  "equity_value": 102402.55,
+  "portfolio_drawdown_pct": 6.12,
+  "unrealized_pnl_usd": 1029.23,
+  "equity_value": 102323.54,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40506.51,
+  "day_capital_used_usd": 39020.02,
   "swing_capital_used_usd": 49754.31,
-  "total_trades": 1514,
-  "last_tick": "2026-09-20T19:21:03.431124+00:00",
+  "total_trades": 1515,
+  "last_tick": "2026-09-20T21:39:04.889760+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -297,6 +297,8 @@
       "mode": "paper",
       "strategy_version": "129",
       "status": "open",
+      "price_trough": 17.190000534057617,
+      "trailing_stop_price": 17.327521,
       "current_price": 17.219,
       "unrealized_pnl_pct": -0.00153,
       "unrealized_pnl_usd": -7.03
@@ -431,9 +433,9 @@
       "status": "open",
       "price_peak": 1.4076000452041626,
       "trailing_stop_price": 1.392595,
-      "current_price": 1.404,
-      "unrealized_pnl_pct": 0.014011,
-      "unrealized_pnl_usd": 84.61
+      "current_price": 1.4034,
+      "unrealized_pnl_pct": 0.013578,
+      "unrealized_pnl_usd": 82.0
     },
     {
       "id": "DOGE-USD_20260920051259",
@@ -466,44 +468,9 @@
       "status": "open",
       "price_peak": 0.08735000342130661,
       "trailing_stop_price": 0.086262,
-      "current_price": 0.08678,
-      "unrealized_pnl_pct": 0.013548,
-      "unrealized_pnl_usd": 76.56
-    },
-    {
-      "id": "AVAX-USD_20260920170128",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 11.312000274658203,
-      "entry_time": "2026-09-20T17:01:28.366021+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03655,
-      "size_usd": 5661.44,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI overbought (85.6)",
-        "5d momentum +9.05%",
-        "1d momentum +17.28%",
-        "BB overbought (pct_b=0.97)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.189,
-      "news_headlines": [
-        "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
-        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction"
-      ],
-      "mode": "paper",
-      "strategy_version": "132",
-      "status": "open",
-      "price_trough": 11.074999809265137,
-      "trailing_stop_price": 11.241125,
-      "current_price": 11.078,
-      "unrealized_pnl_pct": 0.020686,
-      "unrealized_pnl_usd": 117.11
+      "current_price": 0.08672,
+      "unrealized_pnl_pct": 0.012847,
+      "unrealized_pnl_usd": 72.6
     },
     {
       "id": "SOL-USD_20260920170128",
@@ -535,9 +502,9 @@
       "status": "open",
       "price_trough": 109.97000122070312,
       "trailing_stop_price": 110.606728,
-      "current_price": 109.949997,
-      "unrealized_pnl_pct": 0.000455,
-      "unrealized_pnl_usd": 1.66
+      "current_price": 109.980003,
+      "unrealized_pnl_pct": 0.000182,
+      "unrealized_pnl_usd": 0.66
     },
     {
       "id": "BNB-USD_20260920192103",
@@ -568,9 +535,11 @@
       "mode": "paper",
       "strategy_version": "133",
       "status": "open",
-      "current_price": 767.700012,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 765.72998046875,
+      "trailing_stop_price": 770.1559,
+      "current_price": 765.72998,
+      "unrealized_pnl_pct": 0.002566,
+      "unrealized_pnl_usd": 14.27
     },
     {
       "id": "ETH-USD_20260920192103",
@@ -600,7 +569,41 @@
       "mode": "paper",
       "strategy_version": "133",
       "status": "open",
-      "current_price": 2628.780029,
+      "price_trough": 2627.0,
+      "trailing_stop_price": 2669.24216,
+      "current_price": 2627.159912,
+      "unrealized_pnl_pct": 0.000616,
+      "unrealized_pnl_usd": 3.38
+    },
+    {
+      "id": "AVAX-USD_20260920213904",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 11.265000343322754,
+      "entry_time": "2026-09-20T21:39:04.884843+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03483,
+      "size_usd": 4174.95,
+      "position_size_pct": 0.0412,
+      "confidence": 0.644,
+      "signals": [
+        "RSI overbought (82.3)",
+        "5d momentum -0.30%",
+        "1d momentum +16.30%",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.333,
+      "news_headlines": [
+        "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
+        "AVAX Eyes 90% Price Rally As Wall Street Tests Avalanche for 24/7 Tokenized Trading",
+        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million"
+      ],
+      "mode": "paper",
+      "strategy_version": "133",
+      "status": "open",
+      "current_price": 11.265,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -608,7 +611,7 @@
   "last_candidates": [
     {
       "asset": "AMD",
-      "rank_score": 0.8438,
+      "rank_score": 0.8508,
       "price": 559.7999877929688,
       "rsi": 82.9909780284215,
       "momentum_5d": 0.029867606042779687,
@@ -618,12 +621,12 @@
       "bollinger_pct_b": 0.9042,
       "volume_spike": true,
       "volume_spike_ratio": 1.71,
-      "news_sentiment": 0.533,
-      "news_confidence": 0.3,
+      "news_sentiment": 0.657,
+      "news_confidence": 0.35,
       "news_headlines": [
+        "Better Artificial Intelligence Stock: Advanced Micro Devices vs. SK Hynix",
         "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "3 AI Hardware Stocks Linked To Nvidia And US China Trade Talks",
-        "Jim Cramer sends a blunt message to AMD stock investors"
+        "3 AI Hardware Stocks Linked To Nvidia And US China Trade Talks"
       ],
       "high_impact_news": true
     },
@@ -775,6 +778,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "NVDA",
+      "rank_score": 0.6743,
+      "price": 222.08999633789062,
+      "rsi": 85.25615899614611,
+      "momentum_5d": 0.010257645757749977,
+      "momentum_1d": 0.05091560314960812,
+      "macd_crossover": false,
+      "atr_pct": 0.006739639687123317,
+      "bollinger_pct_b": 0.9211,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.464,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "The AI Slowdown Trade Has Some Winners: CrowdStrike and Palo Alto Rally While Chips Fall",
+        "Why CrowdStrike, Palo Alto Networks, SentinelOne, and Other Cybersecurity Stocks Surged This Week",
+        "Should You Buy SpaceX Stock Before Its Next Earnings Report?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.6627,
       "price": 15.085000038146973,
@@ -813,27 +837,6 @@
         "Chevron CEO sends a strong message on oil price and the economy",
         "Chevron (CVX) Supercharges its Venezuela Bet with More Oil Rigs",
         "Jim Cramer Believes Chevron Corporation (NYSE:CVX)\u2019s CEO Is A \u201cBeacon\u201d"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NVDA",
-      "rank_score": 0.6543,
-      "price": 222.08999633789062,
-      "rsi": 85.25615899614611,
-      "momentum_5d": 0.010257645757749977,
-      "momentum_1d": 0.05091560314960812,
-      "macd_crossover": false,
-      "atr_pct": 0.006739639687123317,
-      "bollinger_pct_b": 0.9211,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.69,
-      "news_sentiment": 0.176,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now.",
-        "Dutch Bros and McDonald's Hit 52-Week Lows on the Same Day. Here's Why Only One Is a Buy Now.",
-        "Rigetti Turned $10,000 Into Over $81,000 in 3 Years -- and It's Still 73% Off Its High. Here's Why I Still Wouldn't Touch It."
       ],
       "high_impact_news": true
     },
@@ -937,8 +940,8 @@
       "news_confidence": 0.42,
       "news_headlines": [
         "3 notable business takes that flew under the radar this week",
-        "Tech titan unveils surprising new role for Slack in AI expansion",
-        "Ross Gerber Sees Jensen Huang\u2019s Charisma As Part Of Nvidia\u2019s Edge, Says \u2018This Is Why I Own Nvidia\u2019 After Dreamforce Exchange With Marc Benioff: 'Big is Unnecessary'"
+        "Salesforce AIforce Makes the Agent the Enterprise UI \u2014 and Forces a Pricing Question",
+        "Tech titan unveils surprising new role for Slack in AI expansion"
       ],
       "high_impact_news": true
     },
@@ -964,27 +967,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "HOOD",
-      "rank_score": 0.5947,
-      "price": 119.83000183105469,
-      "rsi": 93.85410306893176,
-      "momentum_5d": 0.010456240251757804,
-      "momentum_1d": 0.08247520446708988,
-      "macd_crossover": false,
-      "atr_pct": 0.018313338912996708,
-      "bollinger_pct_b": 0.8608,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.143,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "Robinhood CEO Says Civil Liability May Not Be Enough To Contain Biggest AI Risks",
-        "Robinhood Soars, SpaceX Orbits Entry: Five Stocks Near Buy Points"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HAL",
       "rank_score": 0.5913,
       "price": 33.630001068115234,
@@ -999,9 +981,9 @@
       "news_sentiment": 0.733,
       "news_confidence": 0.45,
       "news_headlines": [
+        "Halliburton (HAL) Wins Integrated Cyprus Contract. Can Broader Services Improve Returns?",
         "Halliburton Stock: Is HAL Underperforming the Energy Sector?",
-        "Halliburton (HAL) Dips More Than Broader Market: What You Should Know",
-        "Halliburton Wins Eni Contract for Cyprus Deepwater Gas Project"
+        "Halliburton (HAL) Dips More Than Broader Market: What You Should Know"
       ],
       "high_impact_news": true
     },
@@ -1023,6 +1005,27 @@
         "Morgan Stanley Sees Marathon Petroleum (MPC) Breaking into New Highs",
         "Marathon Petroleum (MPC) Could Smash its All-Time High, UBS Says",
         "Marathon Petroleum (MPC) Is Up 7.3% After Analyst Upgrades And Earnings Beat - Has The Bull Case Changed?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COIN",
+      "rank_score": 0.5897,
+      "price": 194.27499389648438,
+      "rsi": 87.57664245946037,
+      "momentum_5d": 0.00817331070672108,
+      "momentum_1d": 0.0841843364559962,
+      "macd_crossover": false,
+      "atr_pct": 0.02081087727147743,
+      "bollinger_pct_b": 0.8413,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.795,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "3 Bullish Setups for the Week Ahead",
+        "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "Brian Armstrong Says Coinbase May Benefit After CLARITY Act Fails, Banks Face More Competition"
       ],
       "high_impact_news": true
     }
