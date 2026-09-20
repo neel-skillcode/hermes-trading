@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101212.89,
+  "portfolio_balance": 101266.28,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 6.2,
-  "unrealized_pnl_usd": 1148.35,
-  "equity_value": 102361.25,
-  "open_positions": 17,
-  "day_trades_open": 7,
+  "portfolio_drawdown_pct": 6.15,
+  "unrealized_pnl_usd": 1136.27,
+  "equity_value": 102402.55,
+  "open_positions": 18,
+  "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 34945.19,
-  "swing_capital_used_usd": 50571.86,
-  "total_trades": 1513,
-  "last_tick": "2026-09-20T17:01:28.953525+00:00",
-  "last_reflection": "2026-09-20",
-  "trades_since_last_reflection": 0,
+  "day_capital_used_usd": 40506.51,
+  "swing_capital_used_usd": 49754.31,
+  "total_trades": 1514,
+  "last_tick": "2026-09-20T19:21:03.431124+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -139,39 +139,6 @@
       "current_price": 1.148897,
       "unrealized_pnl_pct": 0.013787,
       "unrealized_pnl_usd": 105.12
-    },
-    {
-      "id": "AUD/JPY_20260910143740",
-      "asset": "AUD/JPY",
-      "trade_type": "swing",
-      "direction": "long",
-      "entry_price": 110.34300231933594,
-      "entry_time": "2026-09-10T14:37:40.611019+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02658,
-      "size_usd": 6300.51,
-      "position_size_pct": 0.0618,
-      "confidence": 0.644,
-      "signals": [
-        "RSI oversold (32.2)",
-        "5d momentum -0.44%",
-        "BB oversold (pct_b=-0.14)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
-        "Further Strength for the Australian Dollar After Higher Inflation"
-      ],
-      "mode": "paper",
-      "strategy_version": "122",
-      "status": "open",
-      "price_peak": 112.54199981689453,
-      "trailing_stop_price": 111.641664,
-      "current_price": 111.678001,
-      "unrealized_pnl_pct": 0.012099,
-      "unrealized_pnl_usd": 76.23
     },
     {
       "id": "WFC_20260911134633",
@@ -464,9 +431,9 @@
       "status": "open",
       "price_peak": 1.4076000452041626,
       "trailing_stop_price": 1.392595,
-      "current_price": 1.4079,
-      "unrealized_pnl_pct": 0.016828,
-      "unrealized_pnl_usd": 101.62
+      "current_price": 1.404,
+      "unrealized_pnl_pct": 0.014011,
+      "unrealized_pnl_usd": 84.61
     },
     {
       "id": "DOGE-USD_20260920051259",
@@ -499,9 +466,9 @@
       "status": "open",
       "price_peak": 0.08735000342130661,
       "trailing_stop_price": 0.086262,
-      "current_price": 0.08735,
-      "unrealized_pnl_pct": 0.020206,
-      "unrealized_pnl_usd": 114.18
+      "current_price": 0.08678,
+      "unrealized_pnl_pct": 0.013548,
+      "unrealized_pnl_usd": 76.56
     },
     {
       "id": "AVAX-USD_20260920170128",
@@ -532,9 +499,11 @@
       "mode": "paper",
       "strategy_version": "132",
       "status": "open",
-      "current_price": 11.312,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 11.074999809265137,
+      "trailing_stop_price": 11.241125,
+      "current_price": 11.078,
+      "unrealized_pnl_pct": 0.020686,
+      "unrealized_pnl_usd": 117.11
     },
     {
       "id": "SOL-USD_20260920170128",
@@ -564,7 +533,74 @@
       "mode": "paper",
       "strategy_version": "132",
       "status": "open",
-      "current_price": 110.0,
+      "price_trough": 109.97000122070312,
+      "trailing_stop_price": 110.606728,
+      "current_price": 109.949997,
+      "unrealized_pnl_pct": 0.000455,
+      "unrealized_pnl_usd": 1.66
+    },
+    {
+      "id": "BNB-USD_20260920192103",
+      "asset": "BNB-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 767.7000122070312,
+      "entry_time": "2026-09-20T19:21:03.424061+00:00",
+      "stop_loss_pct": 0.00578,
+      "take_profit_pct": 0.01409,
+      "size_usd": 5561.32,
+      "position_size_pct": 0.0549,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (78.1)",
+        "5d momentum +1.94%",
+        "1d momentum +0.62%",
+        "BB overbought (pct_b=0.99)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.444,
+      "news_headlines": [
+        "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
+        "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
+        "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
+      ],
+      "mode": "paper",
+      "strategy_version": "133",
+      "status": "open",
+      "current_price": 767.700012,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "ETH-USD_20260920192103",
+      "asset": "ETH-USD",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 2628.780029296875,
+      "entry_time": "2026-09-20T19:21:03.427010+00:00",
+      "stop_loss_pct": 0.01608,
+      "take_profit_pct": 0.05276,
+      "size_usd": 5482.96,
+      "position_size_pct": 0.0541,
+      "confidence": 0.564,
+      "signals": [
+        "RSI overbought (73.5)",
+        "5d momentum +1.70%",
+        "BB overbought (pct_b=0.86)",
+        "High-impact catalyst",
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.172,
+      "news_headlines": [
+        "Is This Cryptocurrency Still a Millionaire Maker?",
+        "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
+        "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years"
+      ],
+      "mode": "paper",
+      "strategy_version": "133",
+      "status": "open",
+      "current_price": 2628.780029,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -572,7 +608,7 @@
   "last_candidates": [
     {
       "asset": "AMD",
-      "rank_score": 0.8448,
+      "rank_score": 0.8438,
       "price": 559.7999877929688,
       "rsi": 82.9909780284215,
       "momentum_5d": 0.029867606042779687,
@@ -582,10 +618,10 @@
       "bollinger_pct_b": 0.9042,
       "volume_spike": true,
       "volume_spike_ratio": 1.71,
-      "news_sentiment": 0.548,
-      "news_confidence": 0.31,
+      "news_sentiment": 0.533,
+      "news_confidence": 0.3,
       "news_headlines": [
-        "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
         "3 AI Hardware Stocks Linked To Nvidia And US China Trade Talks",
         "Jim Cramer sends a blunt message to AMD stock investors"
       ],
@@ -718,27 +754,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.7152,
-      "price": 11.312000274658203,
-      "rsi": 85.60390374213335,
-      "momentum_5d": 0.0905234856432622,
-      "momentum_1d": 0.1728356389607729,
-      "macd_crossover": false,
-      "atr_pct": 0.026533135243742643,
-      "bollinger_pct_b": 0.9691,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.189,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
-        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "XLK",
       "rank_score": 0.6748,
       "price": 189.63999938964844,
@@ -803,7 +818,7 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.6533,
+      "rank_score": 0.6543,
       "price": 222.08999633789062,
       "rsi": 85.25615899614611,
       "momentum_5d": 0.010257645757749977,
@@ -813,12 +828,33 @@
       "bollinger_pct_b": 0.9211,
       "volume_spike": true,
       "volume_spike_ratio": 1.69,
-      "news_sentiment": 0.152,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.176,
+      "news_confidence": 0.34,
       "news_headlines": [
-        "Prediction: Even With the $1,999 Price Tag, Apple's Foldable iPhone Duo Will Be a Hit and Apple Will Join Nvidia in the $5 Trillion Club.",
-        "Jensen Huang Just Announced Fantastic News for Nvidia Shareholders",
-        "I'm Watching PG&E Closely, but Here's Why I Haven't Bought the Dip"
+        "I Own Constellation for the Nuclear Fleet, Not the AI Headlines. Here's Why That Matters Now.",
+        "Dutch Bros and McDonald's Hit 52-Week Lows on the Same Day. Here's Why Only One Is a Buy Now.",
+        "Rigetti Turned $10,000 Into Over $81,000 in 3 Years -- and It's Still 73% Off Its High. Here's Why I Still Wouldn't Touch It."
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.6368,
+      "price": 178.00999450683594,
+      "rsi": 38.49005350090745,
+      "momentum_5d": -0.010093159862133348,
+      "momentum_1d": -0.058895055506821725,
+      "macd_crossover": false,
+      "atr_pct": 0.01939321162344388,
+      "bollinger_pct_b": 0.1356,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.34,
+      "news_sentiment": 0.581,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Astera Labs vs. Qualcomm: Which Semiconductor Stock Is a Better Buy in 2026?",
+        "MediaTek Is Stepping Up Competition Against Qualcomm With a New 2-Nanometer Chip. What This Means for QCOM Stock.",
+        "MarketBeat Week in Review \u2013 09/14 - 09/18"
       ],
       "high_impact_news": true
     },
@@ -844,23 +880,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "QCOM",
-      "rank_score": 0.6308,
-      "price": 178.00999450683594,
-      "rsi": 38.49005350090745,
-      "momentum_5d": -0.010093159862133348,
-      "momentum_1d": -0.058895055506821725,
+      "asset": "MU",
+      "rank_score": 0.6095,
+      "price": 1015.375,
+      "rsi": 91.64985927499482,
+      "momentum_5d": 0.025026982900447532,
+      "momentum_1d": 0.09619293475986838,
       "macd_crossover": false,
-      "atr_pct": 0.01939321162344388,
-      "bollinger_pct_b": 0.1356,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.34,
-      "news_sentiment": 0.487,
-      "news_confidence": 0.39,
+      "atr_pct": 0.011626917642364714,
+      "bollinger_pct_b": 0.8784,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
       "news_headlines": [
-        "MediaTek Is Stepping Up Competition Against Qualcomm With a New 2-Nanometer Chip. What This Means for QCOM Stock.",
-        "MarketBeat Week in Review \u2013 09/14 - 09/18",
-        "Qualcomm (QCOM) Joins New Edge AI Ecosystem"
+        "Prediction: Micron Will Earn More Profit Than Microsoft in Fiscal 2027",
+        "Billionaire David Tepper Has 40% of His Fund in Just 3 AI Stocks. Are They Still Buys?",
+        "If a Stock Market Crash Is Coming, History Says This Is the Smartest Move You Can Make."
       ],
       "high_impact_news": true
     },
@@ -929,7 +965,7 @@
     },
     {
       "asset": "HOOD",
-      "rank_score": 0.5957,
+      "rank_score": 0.5947,
       "price": 119.83000183105469,
       "rsi": 93.85410306893176,
       "momentum_5d": 0.010456240251757804,
@@ -939,33 +975,12 @@
       "bollinger_pct_b": 0.8608,
       "volume_spike": false,
       "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.163,
-      "news_confidence": 0.43,
+      "news_sentiment": 0.143,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
         "Robinhood CEO Says Civil Liability May Not Be Enough To Contain Biggest AI Risks",
         "Robinhood Soars, SpaceX Orbits Entry: Five Stocks Near Buy Points"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MU",
-      "rank_score": 0.5945,
-      "price": 1015.375,
-      "rsi": 91.64985927499482,
-      "momentum_5d": 0.025026982900447532,
-      "momentum_1d": 0.09619293475986838,
-      "macd_crossover": false,
-      "atr_pct": 0.011626917642364714,
-      "bollinger_pct_b": 0.8784,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.256,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Billionaire David Tepper Has 40% of His Fund in Just 3 AI Stocks. Are They Still Buys?",
-        "If a Stock Market Crash Is Coming, History Says This Is the Smartest Move You Can Make.",
-        "Should You Buy Micron Stock Before Its Next Earnings Report?"
       ],
       "high_impact_news": true
     },
@@ -987,6 +1002,27 @@
         "Halliburton Stock: Is HAL Underperforming the Energy Sector?",
         "Halliburton (HAL) Dips More Than Broader Market: What You Should Know",
         "Halliburton Wins Eni Contract for Cyprus Deepwater Gas Project"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MPC",
+      "rank_score": 0.5912,
+      "price": 424.3599853515625,
+      "rsi": 73.48998718235526,
+      "momentum_5d": -0.0051692405078324144,
+      "momentum_1d": 0.03351188271677198,
+      "macd_crossover": false,
+      "atr_pct": 0.010023788654946214,
+      "bollinger_pct_b": 0.7561,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.06,
+      "news_sentiment": 0.286,
+      "news_confidence": 0.56,
+      "news_headlines": [
+        "Morgan Stanley Sees Marathon Petroleum (MPC) Breaking into New Highs",
+        "Marathon Petroleum (MPC) Could Smash its All-Time High, UBS Says",
+        "Marathon Petroleum (MPC) Is Up 7.3% After Analyst Upgrades And Earnings Beat - Has The Bull Case Changed?"
       ],
       "high_impact_news": true
     }

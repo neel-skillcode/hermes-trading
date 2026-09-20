@@ -110,36 +110,6 @@
     "price_trough": 1.1463946104049683,
     "trailing_stop_price": 1.155566
   },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20260910143740",
-    "asset": "AUD/JPY",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 110.34300231933594,
-    "entry_time": "2026-09-10T14:37:40.611019+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02658,
-    "size_usd": 6300.51,
-    "position_size_pct": 0.0618,
-    "confidence": 0.644,
-    "signals": [
-      "RSI oversold (32.2)",
-      "5d momentum -0.44%",
-      "BB oversold (pct_b=-0.14)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 2 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 2 articles. Overa"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen",
-      "Further Strength for the Australian Dollar After Higher Inflation"
-    ],
-    "mode": "paper",
-    "strategy_version": "122",
-    "status": "open",
-    "price_peak": 112.54199981689453,
-    "trailing_stop_price": 111.641664
-  },
   "WFC": {
     "id": "WFC_20260911134633",
     "asset": "WFC",
@@ -468,7 +438,9 @@
     ],
     "mode": "paper",
     "strategy_version": "132",
-    "status": "open"
+    "status": "open",
+    "price_trough": 11.074999809265137,
+    "trailing_stop_price": 11.241125
   },
   "SOL-USD": {
     "id": "SOL-USD_20260920170128",
@@ -497,6 +469,67 @@
     ],
     "mode": "paper",
     "strategy_version": "132",
+    "status": "open",
+    "price_trough": 109.97000122070312,
+    "trailing_stop_price": 110.606728
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260920192103",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 767.7000122070312,
+    "entry_time": "2026-09-20T19:21:03.424061+00:00",
+    "stop_loss_pct": 0.00578,
+    "take_profit_pct": 0.01409,
+    "size_usd": 5561.32,
+    "position_size_pct": 0.0549,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (78.1)",
+      "5d momentum +1.94%",
+      "1d momentum +0.62%",
+      "BB overbought (pct_b=0.99)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
+      "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
+      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
+    ],
+    "mode": "paper",
+    "strategy_version": "133",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20260920192103",
+    "asset": "ETH-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 2628.780029296875,
+    "entry_time": "2026-09-20T19:21:03.427010+00:00",
+    "stop_loss_pct": 0.01608,
+    "take_profit_pct": 0.05276,
+    "size_usd": 5482.96,
+    "position_size_pct": 0.0541,
+    "confidence": 0.564,
+    "signals": [
+      "RSI overbought (73.5)",
+      "5d momentum +1.70%",
+      "BB overbought (pct_b=0.86)",
+      "High-impact catalyst",
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.172,
+    "news_headlines": [
+      "Is This Cryptocurrency Still a Millionaire Maker?",
+      "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
+      "Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years"
+    ],
+    "mode": "paper",
+    "strategy_version": "133",
     "status": "open"
   }
 }
