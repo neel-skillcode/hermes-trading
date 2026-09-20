@@ -376,66 +376,6 @@
     "strategy_version": "131",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260920051259",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2583.97998046875,
-    "entry_time": "2026-09-20T05:12:59.875836+00:00",
-    "stop_loss_pct": 0.00627,
-    "take_profit_pct": 0.01539,
-    "size_usd": 5883.86,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (27.0)",
-      "5d momentum -1.63%",
-      "1d momentum -1.68%",
-      "BB oversold (pct_b=0.06)",
-      "Volume spike 2.0\u00d7",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.548,
-    "news_headlines": [
-      "Fairshake Has $193 Million for the Midterms. Which Coin Stands to Gain the Most on November 3?",
-      "Can Ethereum Close the Week Above $2,672? This Level Opens the Door to $3,000",
-      "Bitcoin ETFs Now Own 6.29% of Every Bitcoin. What Happens When They Hit 10%?"
-    ],
-    "mode": "paper",
-    "strategy_version": "132",
-    "status": "open"
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260920051259",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 750.5900268554688,
-    "entry_time": "2026-09-20T05:12:59.878098+00:00",
-    "stop_loss_pct": 0.00583,
-    "take_profit_pct": 0.0142,
-    "size_usd": 5651.1,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (26.5)",
-      "5d momentum -1.62%",
-      "1d momentum -1.69%",
-      "BB oversold (pct_b=0.10)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
-      "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
-      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
-    ],
-    "mode": "paper",
-    "strategy_version": "132",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20260920051259",
     "asset": "XRP-USD",
@@ -464,7 +404,9 @@
     ],
     "mode": "paper",
     "strategy_version": "132",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.4076000452041626,
+    "trailing_stop_price": 1.392595
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260920051259",
@@ -494,24 +436,56 @@
     ],
     "mode": "paper",
     "strategy_version": "132",
+    "status": "open",
+    "price_peak": 0.08735000342130661,
+    "trailing_stop_price": 0.086262
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260920170128",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 11.312000274658203,
+    "entry_time": "2026-09-20T17:01:28.366021+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03655,
+    "size_usd": 5661.44,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (85.6)",
+      "5d momentum +9.05%",
+      "1d momentum +17.28%",
+      "BB overbought (pct_b=0.97)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.189,
+    "news_headlines": [
+      "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
+      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction"
+    ],
+    "mode": "paper",
+    "strategy_version": "132",
     "status": "open"
   },
   "SOL-USD": {
-    "id": "SOL-USD_20260920051259",
+    "id": "SOL-USD_20260920170128",
     "asset": "SOL-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 109.16999816894531,
-    "entry_time": "2026-09-20T05:12:59.883016+00:00",
-    "stop_loss_pct": 0.00742,
-    "take_profit_pct": 0.01694,
-    "size_usd": 3245.83,
-    "position_size_pct": 0.0321,
+    "entry_price": 110.0,
+    "entry_time": "2026-09-20T17:01:28.368082+00:00",
+    "stop_loss_pct": 0.00579,
+    "take_profit_pct": 0.01321,
+    "size_usd": 3653.38,
+    "position_size_pct": 0.0361,
     "confidence": 0.564,
     "signals": [
-      "RSI oversold (33.2)",
-      "5d momentum -1.58%",
-      "1d momentum -2.42%",
+      "RSI overbought (62.0)",
+      "5d momentum +1.52%",
+      "1d momentum -1.23%",
       "High-impact catalyst",
       "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
     ],

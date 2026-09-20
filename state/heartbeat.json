@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 101027.9,
+  "portfolio_balance": 101212.89,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 6.37,
-  "unrealized_pnl_usd": 872.18,
-  "equity_value": 101900.08,
-  "open_positions": 18,
-  "day_trades_open": 8,
+  "portfolio_drawdown_pct": 6.2,
+  "unrealized_pnl_usd": 1148.35,
+  "equity_value": 102361.25,
+  "open_positions": 17,
+  "day_trades_open": 7,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 40411.16,
+  "day_capital_used_usd": 34945.19,
   "swing_capital_used_usd": 50571.86,
-  "total_trades": 1510,
-  "last_tick": "2026-09-20T13:45:23.143382+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "total_trades": 1513,
+  "last_tick": "2026-09-20T17:01:28.953525+00:00",
+  "last_reflection": "2026-09-20",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -434,74 +434,6 @@
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "ETH-USD_20260920051259",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 2583.97998046875,
-      "entry_time": "2026-09-20T05:12:59.875836+00:00",
-      "stop_loss_pct": 0.00627,
-      "take_profit_pct": 0.01539,
-      "size_usd": 5883.86,
-      "position_size_pct": 0.0582,
-      "confidence": 0.91,
-      "signals": [
-        "RSI oversold (27.0)",
-        "5d momentum -1.63%",
-        "1d momentum -1.68%",
-        "BB oversold (pct_b=0.06)",
-        "Volume spike 2.0\u00d7",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.548,
-      "news_headlines": [
-        "Fairshake Has $193 Million for the Midterms. Which Coin Stands to Gain the Most on November 3?",
-        "Can Ethereum Close the Week Above $2,672? This Level Opens the Door to $3,000",
-        "Bitcoin ETFs Now Own 6.29% of Every Bitcoin. What Happens When They Hit 10%?"
-      ],
-      "mode": "paper",
-      "strategy_version": "132",
-      "status": "open",
-      "current_price": 2578.800049,
-      "unrealized_pnl_pct": -0.002005,
-      "unrealized_pnl_usd": -11.79
-    },
-    {
-      "id": "BNB-USD_20260920051259",
-      "asset": "BNB-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 750.5900268554688,
-      "entry_time": "2026-09-20T05:12:59.878098+00:00",
-      "stop_loss_pct": 0.00583,
-      "take_profit_pct": 0.0142,
-      "size_usd": 5651.1,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI oversold (26.5)",
-        "5d momentum -1.62%",
-        "1d momentum -1.69%",
-        "BB oversold (pct_b=0.10)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.444,
-      "news_headlines": [
-        "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
-        "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
-        "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
-      ],
-      "mode": "paper",
-      "strategy_version": "132",
-      "status": "open",
-      "price_peak": 750.9000244140625,
-      "trailing_stop_price": 746.522277,
-      "current_price": 750.900024,
-      "unrealized_pnl_pct": 0.000413,
-      "unrealized_pnl_usd": 2.33
-    },
-    {
       "id": "XRP-USD_20260920051259",
       "asset": "XRP-USD",
       "trade_type": "day",
@@ -530,9 +462,11 @@
       "mode": "paper",
       "strategy_version": "132",
       "status": "open",
-      "current_price": 1.3765,
-      "unrealized_pnl_pct": -0.00585,
-      "unrealized_pnl_usd": -35.33
+      "price_peak": 1.4076000452041626,
+      "trailing_stop_price": 1.392595,
+      "current_price": 1.4079,
+      "unrealized_pnl_pct": 0.016828,
+      "unrealized_pnl_usd": 101.62
     },
     {
       "id": "DOGE-USD_20260920051259",
@@ -563,26 +497,61 @@
       "mode": "paper",
       "strategy_version": "132",
       "status": "open",
-      "current_price": 0.08492,
-      "unrealized_pnl_pct": -0.008176,
-      "unrealized_pnl_usd": -46.2
+      "price_peak": 0.08735000342130661,
+      "trailing_stop_price": 0.086262,
+      "current_price": 0.08735,
+      "unrealized_pnl_pct": 0.020206,
+      "unrealized_pnl_usd": 114.18
     },
     {
-      "id": "SOL-USD_20260920051259",
+      "id": "AVAX-USD_20260920170128",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 11.312000274658203,
+      "entry_time": "2026-09-20T17:01:28.366021+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03655,
+      "size_usd": 5661.44,
+      "position_size_pct": 0.0559,
+      "confidence": 0.874,
+      "signals": [
+        "RSI overbought (85.6)",
+        "5d momentum +9.05%",
+        "1d momentum +17.28%",
+        "BB overbought (pct_b=0.97)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.189,
+      "news_headlines": [
+        "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
+        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction"
+      ],
+      "mode": "paper",
+      "strategy_version": "132",
+      "status": "open",
+      "current_price": 11.312,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "SOL-USD_20260920170128",
       "asset": "SOL-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 109.16999816894531,
-      "entry_time": "2026-09-20T05:12:59.883016+00:00",
-      "stop_loss_pct": 0.00742,
-      "take_profit_pct": 0.01694,
-      "size_usd": 3245.83,
-      "position_size_pct": 0.0321,
+      "entry_price": 110.0,
+      "entry_time": "2026-09-20T17:01:28.368082+00:00",
+      "stop_loss_pct": 0.00579,
+      "take_profit_pct": 0.01321,
+      "size_usd": 3653.38,
+      "position_size_pct": 0.0361,
       "confidence": 0.564,
       "signals": [
-        "RSI oversold (33.2)",
-        "5d momentum -1.58%",
-        "1d momentum -2.42%",
+        "RSI overbought (62.0)",
+        "5d momentum +1.52%",
+        "1d momentum -1.23%",
         "High-impact catalyst",
         "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
       ],
@@ -595,17 +564,15 @@
       "mode": "paper",
       "strategy_version": "132",
       "status": "open",
-      "price_trough": 108.12999725341797,
-      "trailing_stop_price": 108.932322,
-      "current_price": 108.139999,
-      "unrealized_pnl_pct": 0.009435,
-      "unrealized_pnl_usd": 30.62
+      "current_price": 110.0,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
       "asset": "AMD",
-      "rank_score": 0.8498,
+      "rank_score": 0.8448,
       "price": 559.7999877929688,
       "rsi": 82.9909780284215,
       "momentum_5d": 0.029867606042779687,
@@ -615,12 +582,12 @@
       "bollinger_pct_b": 0.9042,
       "volume_spike": true,
       "volume_spike_ratio": 1.71,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
+      "news_sentiment": 0.548,
+      "news_confidence": 0.31,
       "news_headlines": [
         "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "Jim Cramer sends a blunt message to AMD stock investors",
-        "Cathie Wood Sold Palantir and AMD, Then Poured $3.35 Million Into Archer Aviation. Is ARK Betting Big on Flying Taxis?"
+        "3 AI Hardware Stocks Linked To Nvidia And US China Trade Talks",
+        "Jim Cramer sends a blunt message to AMD stock investors"
       ],
       "high_impact_news": true
     },
@@ -709,29 +676,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "AVAX-USD",
-      "rank_score": 0.755,
-      "price": 10.560999870300293,
-      "rsi": 58.9457546615941,
-      "momentum_5d": 0.0957667960430133,
-      "momentum_1d": 0.1263864563606036,
-      "macd_crossover": false,
-      "atr_pct": 0.0317272382801756,
-      "bollinger_pct_b": 1.072,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.56,
-      "news_sentiment": 0.059,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "MRVL",
-      "rank_score": 0.7479,
+      "rank_score": 0.7409,
       "price": 244.1199951171875,
       "rsi": 76.3350325993412,
       "momentum_5d": 0.024594983402400072,
@@ -741,12 +687,12 @@
       "bollinger_pct_b": 0.8407,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.778,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.49,
       "news_headlines": [
+        "3 AI Hardware Stocks Linked To Nvidia And US China Trade Talks",
         "How Expanded GlobalFoundries SiGe Capacity for AI Optics Will Impact Marvell Technology (MRVL) Investors",
-        "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033",
-        "Marvell (MRVL) and GlobalFoundries (GFS) Rise on Expanded Deal: What Investors Should Know"
+        "Prediction: This Nvidia-Backed Artificial Intelligence (AI) Stock Could 10X by 2033"
       ],
       "high_impact_news": true
     },
@@ -772,6 +718,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.7152,
+      "price": 11.312000274658203,
+      "rsi": 85.60390374213335,
+      "momentum_5d": 0.0905234856432622,
+      "momentum_1d": 0.1728356389607729,
+      "macd_crossover": false,
+      "atr_pct": 0.026533135243742643,
+      "bollinger_pct_b": 0.9691,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.0,
+      "news_sentiment": 0.189,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
+        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "XLK",
       "rank_score": 0.6748,
       "price": 189.63999938964844,
@@ -789,27 +756,6 @@
         "Sector Update: Tech Stocks Rise Late Afternoon",
         "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
         "Sector Update: Tech Stocks Edge Higher Friday Afternoon"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "NVDA",
-      "rank_score": 0.6723,
-      "price": 222.08999633789062,
-      "rsi": 85.25615899614611,
-      "momentum_5d": 0.010257645757749977,
-      "momentum_1d": 0.05091560314960812,
-      "macd_crossover": false,
-      "atr_pct": 0.006739639687123317,
-      "bollinger_pct_b": 0.9211,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.69,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Is a Recession Coming in 2026? History Has Good and Bad News for Investors.",
-        "Could $5,000 Invested in SpaceX Help You Retire a Millionaire?",
-        "Billionaire David Tepper Has 40% of His Fund in Just 3 AI Stocks. Are They Still Buys?"
       ],
       "high_impact_news": true
     },
@@ -836,7 +782,7 @@
     },
     {
       "asset": "CVX",
-      "rank_score": 0.6608,
+      "rank_score": 0.6578,
       "price": 209.39999389648438,
       "rsi": 34.16465497968743,
       "momentum_5d": -0.008170544007178804,
@@ -846,18 +792,39 @@
       "bollinger_pct_b": 0.0776,
       "volume_spike": true,
       "volume_spike_ratio": 4.18,
-      "news_sentiment": 0.84,
-      "news_confidence": 0.5,
+      "news_sentiment": 0.83,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "Jim Cramer Believes Chevron Corporation (NYSE:CVX)\u2019s CEO Is A \u201cBeacon\u201d",
-        "Red Flags Emerge for Oil Prices in Europe and China",
-        "2 Stocks to Buy if You Think $100 Oil Will Last"
+        "Chevron CEO sends a strong message on oil price and the economy",
+        "Chevron (CVX) Supercharges its Venezuela Bet with More Oil Rigs",
+        "Jim Cramer Believes Chevron Corporation (NYSE:CVX)\u2019s CEO Is A \u201cBeacon\u201d"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "NVDA",
+      "rank_score": 0.6533,
+      "price": 222.08999633789062,
+      "rsi": 85.25615899614611,
+      "momentum_5d": 0.010257645757749977,
+      "momentum_1d": 0.05091560314960812,
+      "macd_crossover": false,
+      "atr_pct": 0.006739639687123317,
+      "bollinger_pct_b": 0.9211,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.152,
+      "news_confidence": 0.33,
+      "news_headlines": [
+        "Prediction: Even With the $1,999 Price Tag, Apple's Foldable iPhone Duo Will Be a Hit and Apple Will Join Nvidia in the $5 Trillion Club.",
+        "Jensen Huang Just Announced Fantastic News for Nvidia Shareholders",
+        "I'm Watching PG&E Closely, but Here's Why I Haven't Bought the Dip"
       ],
       "high_impact_news": true
     },
     {
       "asset": "V",
-      "rank_score": 0.6395,
+      "rank_score": 0.6335,
       "price": 367.6099853515625,
       "rsi": 29.239345509893454,
       "momentum_5d": -0.006298364800959298,
@@ -867,12 +834,12 @@
       "bollinger_pct_b": -0.0943,
       "volume_spike": true,
       "volume_spike_ratio": 3.24,
-      "news_sentiment": 0.459,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.333,
+      "news_confidence": 0.33,
       "news_headlines": [
+        "Visa Moves to Close Meme Coin Credit Card Rewards Loophole",
         "Could Circle Internet Group (CRCL) Become A Bigger Force In Onchain Finance?",
-        "Visa Has Quietly Gained 6% in 2026 While the Market Got Distracted: Is V Stock Still a Buy?",
-        "Europe Has Agent Payment Rails Live Across 30+ Banks. The US Is Still Debating Who Pays When They Break."
+        "Visa Has Quietly Gained 6% in 2026 While the Market Got Distracted: Is V Stock Still a Buy?"
       ],
       "high_impact_news": true
     },
@@ -898,29 +865,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "HOOD",
-      "rank_score": 0.6047,
-      "price": 119.83000183105469,
-      "rsi": 93.85410306893176,
-      "momentum_5d": 0.010456240251757804,
-      "momentum_1d": 0.08247520446708988,
-      "macd_crossover": false,
-      "atr_pct": 0.018313338912996708,
-      "bollinger_pct_b": 0.8608,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.82,
-      "news_sentiment": 0.32,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "Robinhood Soars, SpaceX Orbits Entry: Five Stocks Near Buy Points",
-        "Not Just Banks: 3 Trading Stocks to Watch After the Fed Rate Hike"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "XOM",
-      "rank_score": 0.6031,
+      "rank_score": 0.6073,
       "price": 163.18499755859375,
       "rsi": 48.99372494371933,
       "momentum_5d": -0.00018379916043235995,
@@ -930,12 +876,12 @@
       "bollinger_pct_b": 0.5315,
       "volume_spike": true,
       "volume_spike_ratio": 2.77,
-      "news_sentiment": 0.097,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.222,
+      "news_confidence": 0.36,
       "news_headlines": [
-        "ExxonMobil Stock And Oil Majors Facing New Pressure On Global Supply Routes",
-        "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
-        "Ranking the Safest Dividend Stocks in the Energy Sector Right Now"
+        "Exxon (XOM) Eyes a Return to Venezuela After Nearly Two Decades Away",
+        "Targa Resources (TRGP) Gets a Fresh Vote of Confidence from TD Cowen",
+        "ExxonMobil Stock And Oil Majors Facing New Pressure On Global Supply Routes"
       ],
       "high_impact_news": true
     },
@@ -978,6 +924,27 @@
         "Visa\u2019s Stablecoin Settlements Grew 15 Times in a Year. Is the Stock Still a Buy Near $370?",
         "500th Episode: Investing Tips from 11 Years of Podcasting About Stocks",
         "Can PayPal World Drive Deeper Customer Engagement?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "HOOD",
+      "rank_score": 0.5957,
+      "price": 119.83000183105469,
+      "rsi": 93.85410306893176,
+      "momentum_5d": 0.010456240251757804,
+      "momentum_1d": 0.08247520446708988,
+      "macd_crossover": false,
+      "atr_pct": 0.018313338912996708,
+      "bollinger_pct_b": 0.8608,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.82,
+      "news_sentiment": 0.163,
+      "news_confidence": 0.43,
+      "news_headlines": [
+        "Dow Jones Futures: Can The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "Robinhood CEO Says Civil Liability May Not Be Enough To Contain Biggest AI Risks",
+        "Robinhood Soars, SpaceX Orbits Entry: Five Stocks Near Buy Points"
       ],
       "high_impact_news": true
     },
