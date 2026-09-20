@@ -346,7 +346,9 @@
     ],
     "mode": "paper",
     "strategy_version": "131",
-    "status": "open"
+    "status": "open",
+    "price_peak": 112.19499969482422,
+    "trailing_stop_price": 111.967244
   },
   "XRP-USD": {
     "id": "XRP-USD_20260920051259",
@@ -377,8 +379,8 @@
     "mode": "paper",
     "strategy_version": "132",
     "status": "open",
-    "price_peak": 1.4076000452041626,
-    "trailing_stop_price": 1.392595
+    "price_peak": 1.4098000526428223,
+    "trailing_stop_price": 1.394772
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260920051259",
@@ -411,69 +413,6 @@
     "status": "open",
     "price_peak": 0.08735000342130661,
     "trailing_stop_price": 0.086262
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260920170128",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 110.0,
-    "entry_time": "2026-09-20T17:01:28.368082+00:00",
-    "stop_loss_pct": 0.00579,
-    "take_profit_pct": 0.01321,
-    "size_usd": 3653.38,
-    "position_size_pct": 0.0361,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (62.0)",
-      "5d momentum +1.52%",
-      "1d momentum -1.23%",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.75,
-    "news_headlines": [
-      "Solana Rose 10% and Bitcoin 5%: Is the Rotation Into Altcoins Starting?",
-      "Fairshake Has $193 Million for the Midterms. Which Coin Stands to Gain the Most on November 3?",
-      "A Zcash ETF Launched in August Now Accounts for a Third of All Crypto ETF Trading"
-    ],
-    "mode": "paper",
-    "strategy_version": "132",
-    "status": "open",
-    "price_trough": 109.97000122070312,
-    "trailing_stop_price": 110.606728
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20260920192103",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 767.7000122070312,
-    "entry_time": "2026-09-20T19:21:03.424061+00:00",
-    "stop_loss_pct": 0.00578,
-    "take_profit_pct": 0.01409,
-    "size_usd": 5561.32,
-    "position_size_pct": 0.0549,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (78.1)",
-      "5d momentum +1.94%",
-      "1d momentum +0.62%",
-      "BB overbought (pct_b=0.99)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.444,
-    "news_headlines": [
-      "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
-      "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
-      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
-    ],
-    "mode": "paper",
-    "strategy_version": "133",
-    "status": "open",
-    "price_trough": 765.72998046875,
-    "trailing_stop_price": 770.1559
   },
   "ETH-USD": {
     "id": "ETH-USD_20260920192103",
@@ -530,6 +469,38 @@
       "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
       "AVAX Eyes 90% Price Rally As Wall Street Tests Avalanche for 24/7 Tokenized Trading",
       "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million"
+    ],
+    "mode": "paper",
+    "strategy_version": "133",
+    "status": "open",
+    "price_peak": 11.321999549865723,
+    "trailing_stop_price": 11.15217
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20260920233055",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 772.2899780273438,
+    "entry_time": "2026-09-20T23:30:55.662765+00:00",
+    "stop_loss_pct": 0.00701,
+    "take_profit_pct": 0.0171,
+    "size_usd": 5662.89,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (78.5)",
+      "5d momentum +0.81%",
+      "1d momentum +1.35%",
+      "BB overbought (pct_b=0.91)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.444,
+    "news_headlines": [
+      "Is Solana a Good Investment Right Now? It Reclaimed $100 After Losing It on the Vote.",
+      "One Clap From Changpeng Zhao and a BNB Chain Token Went Vertical",
+      "Tokenized Stocks Draw $247.8 Million Into DeFi: What Are They Actually Used For?"
     ],
     "mode": "paper",
     "strategy_version": "133",
