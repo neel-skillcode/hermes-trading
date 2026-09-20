@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99882.09,
+  "portfolio_balance": 100162.27,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 7.43,
-  "unrealized_pnl_usd": 1224.55,
-  "equity_value": 101106.63,
+  "portfolio_drawdown_pct": 7.17,
+  "unrealized_pnl_usd": 1205.66,
+  "equity_value": 101367.93,
   "open_positions": 19,
   "day_trades_open": 9,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39952.83,
+  "day_capital_used_usd": 40064.91,
   "swing_capital_used_usd": 50571.86,
-  "total_trades": 1503,
-  "last_tick": "2026-09-19T22:52:27.618329+00:00",
-  "last_reflection": "2026-09-19",
-  "trades_since_last_reflection": 0,
+  "total_trades": 1504,
+  "last_tick": "2026-09-20T00:28:13.066836+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 1,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -366,9 +366,9 @@
       "status": "open",
       "price_trough": 110.66999816894531,
       "trailing_stop_price": 111.95377,
-      "current_price": 110.660004,
-      "unrealized_pnl_pct": 0.027678,
-      "unrealized_pnl_usd": 155.0
+      "current_price": 110.669998,
+      "unrealized_pnl_pct": 0.02759,
+      "unrealized_pnl_usd": 154.5
     },
     {
       "id": "CVX_20260918195455",
@@ -499,11 +499,11 @@
       "mode": "paper",
       "strategy_version": "131",
       "status": "open",
-      "price_trough": 2629.0,
-      "trailing_stop_price": 2646.6143,
-      "current_price": 2629.26001,
-      "unrealized_pnl_pct": 0.005575,
-      "unrealized_pnl_usd": 34.09
+      "price_trough": 2627.590087890625,
+      "trailing_stop_price": 2645.194941,
+      "current_price": 2627.939941,
+      "unrealized_pnl_pct": 0.006074,
+      "unrealized_pnl_usd": 37.14
     },
     {
       "id": "BNB-USD_20260919130240",
@@ -536,9 +536,9 @@
       "status": "open",
       "price_trough": 761.1099853515625,
       "trailing_stop_price": 765.36459,
-      "current_price": 761.109985,
-      "unrealized_pnl_pct": 0.013122,
-      "unrealized_pnl_usd": 27.23
+      "current_price": 762.059998,
+      "unrealized_pnl_pct": 0.01189,
+      "unrealized_pnl_usd": 24.68
     },
     {
       "id": "DOGE-USD_20260919162232",
@@ -569,43 +569,11 @@
       "mode": "paper",
       "strategy_version": "131",
       "status": "open",
-      "price_trough": 0.08772999793291092,
-      "trailing_stop_price": 0.088608,
-      "current_price": 0.08772,
-      "unrealized_pnl_pct": 0.016151,
-      "unrealized_pnl_usd": 75.68
-    },
-    {
-      "id": "AVAX-USD_20260919225227",
-      "asset": "AVAX-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 9.8149995803833,
-      "entry_time": "2026-09-19T22:52:27.147734+00:00",
-      "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03483,
-      "size_usd": 4116.74,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
-      "signals": [
-        "RSI overbought (83.6)",
-        "5d momentum +1.75%",
-        "1d momentum +19.78%",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.059,
-      "news_headlines": [
-        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
-      ],
-      "mode": "paper",
-      "strategy_version": "131",
-      "status": "open",
-      "current_price": 9.815,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.08755999803543091,
+      "trailing_stop_price": 0.088436,
+      "current_price": 0.08756,
+      "unrealized_pnl_pct": 0.017945,
+      "unrealized_pnl_usd": 84.09
     },
     {
       "id": "XRP-USD_20260919225227",
@@ -635,12 +603,67 @@
       "mode": "paper",
       "strategy_version": "131",
       "status": "open",
-      "current_price": 1.4157,
+      "current_price": 1.4044,
+      "unrealized_pnl_pct": -0.007982,
+      "unrealized_pnl_usd": -27.3
+    },
+    {
+      "id": "AVAX-USD_20260920002813",
+      "asset": "AVAX-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 10.482000350952148,
+      "entry_time": "2026-09-20T00:28:13.061899+00:00",
+      "stop_loss_pct": 0.015,
+      "take_profit_pct": 0.03712,
+      "size_usd": 4228.82,
+      "position_size_pct": 0.0422,
+      "confidence": 0.95,
+      "signals": [
+        "RSI overbought (86.4)",
+        "5d momentum +9.02%",
+        "1d momentum +25.62%",
+        "BB overbought (pct_b=1.04)",
+        "Volume spike 2.5\u00d7",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.059,
+      "news_headlines": [
+        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
+      ],
+      "mode": "paper",
+      "strategy_version": "132",
+      "status": "open",
+      "current_price": 10.482,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.8929,
+      "price": 10.482000350952148,
+      "rsi": 86.36115793635929,
+      "momentum_5d": 0.09017166931592736,
+      "momentum_1d": 0.256232085746569,
+      "macd_crossover": false,
+      "atr_pct": 0.023046309702675984,
+      "bollinger_pct_b": 1.0422,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.54,
+      "news_sentiment": 0.059,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+        "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+        "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "AMD",
       "rank_score": 0.8498,
@@ -810,6 +833,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "NVDA",
+      "rank_score": 0.6663,
+      "price": 222.08999633789062,
+      "rsi": 85.25615899614611,
+      "momentum_5d": 0.010257645757749977,
+      "momentum_1d": 0.05091560314960812,
+      "macd_crossover": false,
+      "atr_pct": 0.006739639687123317,
+      "bollinger_pct_b": 0.9211,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.409,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Oracle Has Committed Hundreds of Billions to AI Data Centers. These 2 Industrial Stocks Will Power Them.",
+        "I Think IBM Stock Will Be Higher in 5 Years. I Still Wouldn't Buy It Today.",
+        "Berkshire's Energy Holdings Are Worth More Than Most Stand-Alone Utilities. Here's the Math."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.6627,
       "price": 15.085000038146973,
@@ -957,27 +1001,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.6073,
-      "price": 110.66000366210938,
-      "rsi": 27.29885624461501,
-      "momentum_5d": -0.006375137532215301,
-      "momentum_1d": -0.02166030355425504,
-      "macd_crossover": false,
-      "atr_pct": 0.006416045598528355,
-      "bollinger_pct_b": 0.0799,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.45,
-      "news_sentiment": 0.576,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "XRP ETFs Have Been Frozen at $1.71 Billion. When Will Inflows Reach $2 Billion?",
-        "After a Long Hiatus, Crypto ETFs Are Making a Comeback. Here's the 1 Crypto ETF You Need to Own.",
-        "Prediction: The Hard Times Are Ending for These 3 Leading Cryptocurrencies"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "CRM",
       "rank_score": 0.6025,
       "price": 237.94500732421875,
@@ -1037,27 +1060,6 @@
         "SpaceX Nasdaq 100 weight to jump to 2.82% in quarterly rebalance -Bloomberg",
         "Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil \u2014 NVDA, TSLA, SPCX, ONON In Focus",
         "QQQI\u2019s 14% Monthly Yield Masked $940 in Forgone Gains Per $10,000 Since Inception"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "HAL",
-      "rank_score": 0.5913,
-      "price": 33.630001068115234,
-      "rsi": 22.699231438922325,
-      "momentum_5d": -0.003112480816262653,
-      "momentum_1d": -0.061270052981964494,
-      "macd_crossover": false,
-      "atr_pct": 0.007232060386456482,
-      "bollinger_pct_b": 0.2333,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.64,
-      "news_sentiment": 0.733,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Halliburton Stock: Is HAL Underperforming the Energy Sector?",
-        "Halliburton (HAL) Dips More Than Broader Market: What You Should Know",
-        "Halliburton Wins Eni Contract for Cyprus Deepwater Gas Project"
       ],
       "high_impact_news": true
     }

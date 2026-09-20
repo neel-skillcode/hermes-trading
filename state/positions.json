@@ -439,8 +439,8 @@
     "mode": "paper",
     "strategy_version": "131",
     "status": "open",
-    "price_trough": 2629.0,
-    "trailing_stop_price": 2646.6143
+    "price_trough": 2627.590087890625,
+    "trailing_stop_price": 2645.194941
   },
   "BNB-USD": {
     "id": "BNB-USD_20260919130240",
@@ -503,37 +503,8 @@
     "mode": "paper",
     "strategy_version": "131",
     "status": "open",
-    "price_trough": 0.08772999793291092,
-    "trailing_stop_price": 0.088608
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260919225227",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 9.8149995803833,
-    "entry_time": "2026-09-19T22:52:27.147734+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03483,
-    "size_usd": 4116.74,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (83.6)",
-      "5d momentum +1.75%",
-      "1d momentum +19.78%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.059,
-    "news_headlines": [
-      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
-      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
-      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
-    ],
-    "mode": "paper",
-    "strategy_version": "131",
-    "status": "open"
+    "price_trough": 0.08755999803543091,
+    "trailing_stop_price": 0.088436
   },
   "XRP-USD": {
     "id": "XRP-USD_20260919225227",
@@ -562,6 +533,37 @@
     ],
     "mode": "paper",
     "strategy_version": "131",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260920002813",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 10.482000350952148,
+    "entry_time": "2026-09-20T00:28:13.061899+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 4228.82,
+    "position_size_pct": 0.0422,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (86.4)",
+      "5d momentum +9.02%",
+      "1d momentum +25.62%",
+      "BB overbought (pct_b=1.04)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.059,
+    "news_headlines": [
+      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million",
+      "Kevin O'Leary says he's buying crypto again, here's his Bitcoin prediction",
+      "Kevin O\u2019Leary Is Buying Crypto Again \u2014 His Gold Theory Points to $760K Bitcoin"
+    ],
+    "mode": "paper",
+    "strategy_version": "132",
     "status": "open"
   }
 }
