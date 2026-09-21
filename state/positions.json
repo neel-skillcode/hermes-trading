@@ -258,36 +258,6 @@
     "price_trough": 17.190000534057617,
     "trailing_stop_price": 17.327521
   },
-  "AMD": {
-    "id": "AMD_20260921135159",
-    "asset": "AMD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 603.7000122070312,
-    "entry_time": "2026-09-21T13:51:59.492690+00:00",
-    "stop_loss_pct": 0.01416,
-    "take_profit_pct": 0.03477,
-    "size_usd": 5837.52,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (87.0)",
-      "5d momentum +11.10%",
-      "1d momentum +19.66%",
-      "BB overbought (pct_b=1.30)",
-      "Volume spike 3.2\u00d7",
-      "Claude [neutral]: price decline"
-    ],
-    "news_sentiment": 0.864,
-    "news_headlines": [
-      "Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck",
-      "AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up",
-      "Company News for Sep 21, 2026"
-    ],
-    "mode": "paper",
-    "strategy_version": "134",
-    "status": "open"
-  },
   "MU": {
     "id": "MU_20260921135159",
     "asset": "MU",
@@ -318,8 +288,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 1046.300048828125,
-    "trailing_stop_price": 1057.443144
+    "price_trough": 1043.9599609375,
+    "trailing_stop_price": 1055.078135
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -347,8 +317,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 112.19200134277344,
-    "trailing_stop_price": 113.089537
+    "price_trough": 112.13899993896484,
+    "trailing_stop_price": 113.036112
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260921185700",
@@ -409,7 +379,9 @@
     ],
     "mode": "paper",
     "strategy_version": "134",
-    "status": "open"
+    "status": "open",
+    "price_trough": 741.2449951171875,
+    "trailing_stop_price": 752.259896
   },
   "RXRX": {
     "id": "RXRX_20260921185700",
@@ -439,7 +411,9 @@
     ],
     "mode": "paper",
     "strategy_version": "134",
-    "status": "open"
+    "status": "open",
+    "price_trough": 3.9700000286102295,
+    "trailing_stop_price": 4.02955
   },
   "ARM": {
     "id": "ARM_20260921185700",
@@ -499,7 +473,9 @@
     ],
     "mode": "paper",
     "strategy_version": "134",
-    "status": "open"
+    "status": "open",
+    "price_trough": 257.3800048828125,
+    "trailing_stop_price": 260.674469
   },
   "KLAC": {
     "id": "KLAC_20260921185700",
@@ -529,6 +505,67 @@
     ],
     "mode": "paper",
     "strategy_version": "134",
+    "status": "open",
+    "price_trough": 183.97000122070312,
+    "trailing_stop_price": 185.75451
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260921222655",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.5520999431610107,
+    "entry_time": "2026-09-21T22:26:55.167783+00:00",
+    "stop_loss_pct": 0.0134,
+    "take_profit_pct": 0.03211,
+    "size_usd": 5022.59,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (85.0)",
+      "5d momentum +3.78%",
+      "1d momentum +10.10%",
+      "BB overbought (pct_b=0.95)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.273,
+    "news_headlines": [
+      "Is it worth investing in bitcoin if I'm Gen X?",
+      "Why Is Zcash Rallying Today? Privacy Coins Are Up 90% in a Month and Monero Just Added 13%",
+      "The ECB Just Launched a Way to Settle Tokenized Assets Without Stablecoins. What It Means for RLUSD and XRP in Europe."
+    ],
+    "mode": "paper",
+    "strategy_version": "135",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260921222655",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 119.37000274658203,
+    "entry_time": "2026-09-21T22:26:55.169834+00:00",
+    "stop_loss_pct": 0.00954,
+    "take_profit_pct": 0.02243,
+    "size_usd": 769.22,
+    "position_size_pct": 0.0078,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (84.3)",
+      "5d momentum +1.86%",
+      "1d momentum +7.52%",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Strategy is buying bitcoin again! But this crypto treasury is buying more.",
+      "Inside crypto's Clarity Act collapse",
+      "Why Is Zcash Rallying Today? Privacy Coins Are Up 90% in a Month and Monero Just Added 13%"
+    ],
+    "mode": "paper",
+    "strategy_version": "135",
     "status": "open"
   }
 }
