@@ -321,37 +321,6 @@
     "strategy_version": "130",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260920213904",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 11.265000343322754,
-    "entry_time": "2026-09-20T21:39:04.884843+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03483,
-    "size_usd": 4174.95,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (82.3)",
-      "5d momentum -0.30%",
-      "1d momentum +16.30%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule",
-      "AVAX Eyes 90% Price Rally As Wall Street Tests Avalanche for 24/7 Tokenized Trading",
-      "Kevin O'Leary Names the One Thing Standing Between Bitcoin and $1 Million"
-    ],
-    "mode": "paper",
-    "strategy_version": "133",
-    "status": "open",
-    "price_peak": 11.440999984741211,
-    "trailing_stop_price": 11.269385
-  },
   "BNB-USD": {
     "id": "BNB-USD_20260921013109",
     "asset": "BNB-USD",
@@ -381,7 +350,9 @@
     ],
     "mode": "paper",
     "strategy_version": "133",
-    "status": "open"
+    "status": "open",
+    "price_trough": 772.4500122070312,
+    "trailing_stop_price": 778.614163
   },
   "XRP-USD": {
     "id": "XRP-USD_20260921013109",
@@ -443,7 +414,9 @@
     ],
     "mode": "paper",
     "strategy_version": "133",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.08907999843358994,
+    "trailing_stop_price": 0.090049
   },
   "SOL-USD": {
     "id": "SOL-USD_20260921013109",
@@ -474,7 +447,9 @@
     ],
     "mode": "paper",
     "strategy_version": "133",
-    "status": "open"
+    "status": "open",
+    "price_trough": 112.16999816894531,
+    "trailing_stop_price": 113.255804
   },
   "ETH-USD": {
     "id": "ETH-USD_20260921013109",
@@ -501,6 +476,37 @@
       "Investors Can Now Invest in the Surging Tron Cryptocurrency Via an ETF. Here's What Crypto Investors Need to Know.",
       "Is This Cryptocurrency Still a Millionaire Maker?",
       "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule"
+    ],
+    "mode": "paper",
+    "strategy_version": "133",
+    "status": "open",
+    "price_trough": 2662.840087890625,
+    "trailing_stop_price": 2684.835147
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260921070014",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 81620.28125,
+    "entry_time": "2026-09-21T07:00:14.624478+00:00",
+    "stop_loss_pct": 0.00468,
+    "take_profit_pct": 0.01078,
+    "size_usd": 3959.84,
+    "position_size_pct": 0.039,
+    "confidence": 0.61,
+    "signals": [
+      "5d momentum +0.79%",
+      "1d momentum +1.68%",
+      "BB overbought (pct_b=0.88)",
+      "Volume spike 1.8\u00d7",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.187,
+    "news_headlines": [
+      "Billionaire Tim Draper Predicts Bitcoin Will Hit $250,000 Within 2 Years. Here's What Needs to Happen.",
+      "Is the Trump-Xi Summit Now an Iran Summit? Bitcoin, Stocks and Oil Are Trading Like It",
+      "Is Bitcoin's Bear Market Low In? A Signal Absent for 45 Weeks Returns"
     ],
     "mode": "paper",
     "strategy_version": "133",
