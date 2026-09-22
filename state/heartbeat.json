@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 98822.48,
+  "portfolio_balance": 98874.58,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.41,
-  "unrealized_pnl_usd": 1032.47,
-  "equity_value": 99854.95,
-  "open_positions": 19,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 8.36,
+  "unrealized_pnl_usd": 1047.25,
+  "equity_value": 99921.83,
+  "open_positions": 20,
+  "day_trades_open": 10,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 39528.99,
+  "day_capital_used_usd": 39549.83,
   "swing_capital_used_usd": 48553.27,
-  "total_trades": 1537,
-  "last_tick": "2026-09-22T06:00:26.210146+00:00",
+  "total_trades": 1538,
+  "last_tick": "2026-09-22T11:25:16.276668+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 2,
+  "trades_since_last_reflection": 3,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8439,
-      "unrealized_pnl_pct": 0.001225,
-      "unrealized_pnl_usd": 1.65
+      "current_price": 7.8428,
+      "unrealized_pnl_pct": 0.001085,
+      "unrealized_pnl_usd": 1.46
     },
     {
       "id": "EUR/AUD_20260902150931",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_peak": 1.6219300031661987,
       "trailing_stop_price": 1.608955,
-      "current_price": 1.61046,
-      "unrealized_pnl_pct": -0.003755,
-      "unrealized_pnl_usd": -8.74
+      "current_price": 1.61133,
+      "unrealized_pnl_pct": -0.003217,
+      "unrealized_pnl_usd": -7.48
     },
     {
       "id": "SOFI_20260903143205",
@@ -136,9 +136,9 @@
       "status": "open",
       "price_trough": 1.1463946104049683,
       "trailing_stop_price": 1.155566,
-      "current_price": 1.147447,
-      "unrealized_pnl_pct": 0.015032,
-      "unrealized_pnl_usd": 114.61
+      "current_price": 1.146395,
+      "unrealized_pnl_pct": 0.015935,
+      "unrealized_pnl_usd": 121.5
     },
     {
       "id": "WFC_20260911134633",
@@ -200,9 +200,9 @@
       "status": "open",
       "price_peak": 9.86046028137207,
       "trailing_stop_price": 9.781577,
-      "current_price": 9.82888,
-      "unrealized_pnl_pct": 0.004186,
-      "unrealized_pnl_usd": 15.73
+      "current_price": 9.81095,
+      "unrealized_pnl_pct": 0.002354,
+      "unrealized_pnl_usd": 8.85
     },
     {
       "id": "IWM_20260916145230",
@@ -299,9 +299,9 @@
       "status": "open",
       "price_trough": 17.190000534057617,
       "trailing_stop_price": 17.327521,
-      "current_price": 17.2152,
-      "unrealized_pnl_pct": -0.001309,
-      "unrealized_pnl_usd": -6.02
+      "current_price": 17.238001,
+      "unrealized_pnl_pct": -0.002635,
+      "unrealized_pnl_usd": -12.11
     },
     {
       "id": "MU_20260921135159",
@@ -365,11 +365,11 @@
       "mode": "paper",
       "strategy_version": "134",
       "status": "open",
-      "price_trough": 112.13899993896484,
-      "trailing_stop_price": 113.036112,
-      "current_price": 112.262001,
-      "unrealized_pnl_pct": 0.001468,
-      "unrealized_pnl_usd": 6.28
+      "price_trough": 111.9469985961914,
+      "trailing_stop_price": 112.842575,
+      "current_price": 111.960999,
+      "unrealized_pnl_pct": 0.004145,
+      "unrealized_pnl_usd": 17.75
     },
     {
       "id": "DOGE-USD_20260921185700",
@@ -401,9 +401,11 @@
       "mode": "paper",
       "strategy_version": "134",
       "status": "open",
-      "current_price": 0.10008,
-      "unrealized_pnl_pct": -0.003308,
-      "unrealized_pnl_usd": -19.9
+      "price_trough": 0.098130002617836,
+      "trailing_stop_price": 0.099602,
+      "current_price": 0.09814,
+      "unrealized_pnl_pct": 0.01614,
+      "unrealized_pnl_usd": 97.11
     },
     {
       "id": "META_20260921185700",
@@ -579,41 +581,6 @@
       "unrealized_pnl_usd": 4.8
     },
     {
-      "id": "XRP-USD_20260921222655",
-      "asset": "XRP-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.5520999431610107,
-      "entry_time": "2026-09-21T22:26:55.167783+00:00",
-      "stop_loss_pct": 0.0134,
-      "take_profit_pct": 0.03211,
-      "size_usd": 5022.59,
-      "position_size_pct": 0.0508,
-      "confidence": 0.794,
-      "signals": [
-        "RSI overbought (85.0)",
-        "5d momentum +3.78%",
-        "1d momentum +10.10%",
-        "BB overbought (pct_b=0.95)",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": 0.273,
-      "news_headlines": [
-        "Is it worth investing in bitcoin if I'm Gen X?",
-        "Why Is Zcash Rallying Today? Privacy Coins Are Up 90% in a Month and Monero Just Added 13%",
-        "The ECB Just Launched a Way to Settle Tokenized Assets Without Stablecoins. What It Means for RLUSD and XRP in Europe."
-      ],
-      "mode": "paper",
-      "strategy_version": "135",
-      "status": "open",
-      "price_trough": 1.5132999420166016,
-      "trailing_stop_price": 1.533578,
-      "current_price": 1.5135,
-      "unrealized_pnl_pct": 0.02487,
-      "unrealized_pnl_usd": 124.91
-    },
-    {
       "id": "AVAX-USD_20260922060026",
       "asset": "AVAX-USD",
       "trade_type": "day",
@@ -642,7 +609,68 @@
       "mode": "paper",
       "strategy_version": "135",
       "status": "open",
-      "current_price": 10.702,
+      "price_peak": 10.928000450134277,
+      "trailing_stop_price": 10.76408,
+      "current_price": 10.93,
+      "unrealized_pnl_pct": 0.021304,
+      "unrealized_pnl_usd": 16.25
+    },
+    {
+      "id": "XRP-USD_20260922112516",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1.5365999937057495,
+      "entry_time": "2026-09-22T11:25:16.272994+00:00",
+      "stop_loss_pct": 0.01287,
+      "take_profit_pct": 0.03027,
+      "size_usd": 4454.89,
+      "position_size_pct": 0.0451,
+      "confidence": 0.704,
+      "signals": [
+        "RSI oversold (44.3)",
+        "5d momentum +1.15%",
+        "1d momentum +3.47%",
+        "High-impact catalyst",
+        "Claude [supports]: price surge"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [
+        "Is it worth investing in bitcoin if I'm Gen X?",
+        "DOGE, SUI, SOL, XRP Rally Faster Than Bitcoin As BTC Hits 8-Month High",
+        "Peter Brandt Just Posted Long-Term XRP and ETH Charts \u2014 Read His Warning First"
+      ],
+      "mode": "paper",
+      "strategy_version": "135",
+      "status": "open",
+      "current_price": 1.5366,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "GBP/CHF_20260922112516",
+      "asset": "GBP/CHF",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 1.0942100286483765,
+      "entry_time": "2026-09-22T11:25:16.274453+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00476,
+      "size_usd": 588.54,
+      "position_size_pct": 0.006,
+      "confidence": 0.76,
+      "signals": [
+        "RSI oversold (18.5)",
+        "5d momentum -0.32%",
+        "1d momentum -0.51%",
+        "BB oversold (pct_b=-0.10)"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "135",
+      "status": "open",
+      "current_price": 1.09421,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -650,7 +678,7 @@
   "last_candidates": [
     {
       "asset": "MPC",
-      "rank_score": 0.783,
+      "rank_score": 0.79,
       "price": 402.1700134277344,
       "rsi": 25.124114764128933,
       "momentum_5d": -0.029980686186188286,
@@ -660,12 +688,12 @@
       "bollinger_pct_b": -0.1087,
       "volume_spike": true,
       "volume_spike_ratio": 2.99,
-      "news_sentiment": 0.22,
-      "news_confidence": 0.59,
+      "news_sentiment": 0.37,
+      "news_confidence": 0.54,
       "news_headlines": [
+        "US Stock Market Today: S&P 500 Futures Climb On Higher-For-Longer Rate Jitters",
         "Will UK interest rates fall in 2026?",
-        "Phillips 66 Is Minting Money on $102 Diesel Margins. How Long Can It Last?",
-        "MPC vs. PSX: A Closer Look at Two Strong Refining Powerhouses"
+        "Phillips 66 Is Minting Money on $102 Diesel Margins. How Long Can It Last?"
       ],
       "high_impact_news": true
     },
@@ -713,7 +741,7 @@
     },
     {
       "asset": "META",
-      "rank_score": 0.7058,
+      "rank_score": 0.7039,
       "price": 741.1300048828125,
       "rsi": 77.40875220671896,
       "momentum_5d": 0.040131408023506246,
@@ -723,12 +751,12 @@
       "bollinger_pct_b": 0.9031,
       "volume_spike": true,
       "volume_spike_ratio": 1.63,
-      "news_sentiment": 0.456,
+      "news_sentiment": 0.408,
       "news_confidence": 0.38,
       "news_headlines": [
-        "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil  falls",
-        "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
-        "Trump and Xi dine with AI titans and Meta takes the stage: What to watch this week"
+        "Why Muse really just added billions to Meta's market cap and to Mark Zuckerberg's net worth",
+        "Meta stock jumps as Wells Fargo raises price target",
+        "Beyond Meta, Cathie Wood\u2019s ARKG Loads Up On These 4 Biotech Names"
       ],
       "high_impact_news": true
     },
@@ -750,6 +778,27 @@
         "XLE Is 91% Oil and Gas. Investors Buying \u201cEnergy\u201d May Own Less Than They Think",
         "Equinor Expands LNG Reach in Asia With PTT Trading Supply Agreement",
         "This Energy Stock Could Give ExxonMobil a Run: Should You Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ARM",
+      "rank_score": 0.6764,
+      "price": 323.1000061035156,
+      "rsi": 99.18881045303966,
+      "momentum_5d": 0.024608390485646024,
+      "momentum_1d": 0.3120545763415936,
+      "macd_crossover": false,
+      "atr_pct": 0.019819019174475847,
+      "bollinger_pct_b": 0.8845,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.45,
+      "news_sentiment": 0.605,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "AMD stock soars to new record as semiconductors bounce: Chart of the Day",
+        "US Stock Market Today: S&P 500 Futures Climb On Higher-For-Longer Rate Jitters",
+        "ARM Stock Jumped 17% Yesterday After Its CEO Said Demand Is Off the Charts. Here\u2019s What Got Investors So Excited."
       ],
       "high_impact_news": true
     },
@@ -792,27 +841,6 @@
         "ExxonMobil Nears a Venezuela Return After 19 Years. Here\u2019s Where the Stock Could Go",
         "Exxon Mobil Holdings (XOM) Stock Drops Despite Market Gains: Important Facts to Note",
         "Exxon Could Return to the Venezuelan Field It Was Forced Out of in 2007. Here's What Changed."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.6091,
-      "price": 615.3599853515625,
-      "rsi": 87.09848382770944,
-      "momentum_5d": 0.006040900586028924,
-      "momentum_1d": 0.1790312796999978,
-      "macd_crossover": false,
-      "atr_pct": 0.014989031576121236,
-      "bollinger_pct_b": 0.8702,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.12,
-      "news_sentiment": 0.831,
-      "news_confidence": 0.59,
-      "news_headlines": [
-        "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil  falls",
-        "AMD joins trillion-dollar chipmaker club as AI demand surges",
-        "Why Did AMD, WBD, MRNA Stocks Surge To 52-Week Highs Today?"
       ],
       "high_impact_news": true
     },
@@ -901,65 +929,44 @@
       "high_impact_news": true
     },
     {
-      "asset": "ARM",
-      "rank_score": 0.6024,
-      "price": 323.1000061035156,
-      "rsi": 99.18881045303966,
-      "momentum_5d": 0.024608390485646024,
-      "momentum_1d": 0.3120545763415936,
+      "asset": "AMD",
+      "rank_score": 0.597,
+      "price": 615.3599853515625,
+      "rsi": 87.09848382770944,
+      "momentum_5d": 0.006040900586028924,
+      "momentum_1d": 0.1790312796999978,
       "macd_crossover": false,
-      "atr_pct": 0.019819019174475847,
-      "bollinger_pct_b": 0.8845,
+      "atr_pct": 0.014989031576121236,
+      "bollinger_pct_b": 0.8702,
       "volume_spike": false,
-      "volume_spike_ratio": 1.45,
-      "news_sentiment": 0.673,
-      "news_confidence": 0.53,
+      "volume_spike_ratio": 1.12,
+      "news_sentiment": 0.755,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "AMD stock soars to new record as semiconductors bounce: Chart of the Day",
-        "ARM Stock Jumped 17% Yesterday After Its CEO Said Demand Is Off the Charts. Here\u2019s What Got Investors So Excited.",
-        "ARM, Intel, AMD Surge As Meta\u2019s Muse AI Fuels Fresh Chip Demand Bets: Retail Turns Extremely Bullish"
-      ],
-      "high_impact_news": false
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5923,
-      "price": 10.70199966430664,
-      "rsi": 36.24259968949203,
-      "momentum_5d": -0.04146890274324226,
-      "momentum_1d": -0.038368232267047324,
-      "macd_crossover": false,
-      "atr_pct": 0.016719159874438946,
-      "bollinger_pct_b": 0.0237,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.0,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Crypto Tokens Jump Up to 50% in a Post-Clarity Regulatory Bet",
-        "Morning Minute: Kevin O\u2019Leary Calls for $1 Million Bitcoin, With an Asterisk",
-        "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule"
+        "Why AMD's new $1 trillion valuation makes perfect sense",
+        "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
+        "Morning Bid: As oil swoons, AI recharges"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "MRNA",
-      "rank_score": 0.5897,
-      "price": 172.92999267578125,
-      "rsi": 71.38084656866754,
-      "momentum_5d": 0.023617794345414757,
-      "momentum_1d": 0.16271093688844424,
+      "asset": "INTC",
+      "rank_score": 0.5856,
+      "price": 121.77999877929688,
+      "rsi": 78.1668742512442,
+      "momentum_5d": -0.016316673850294026,
+      "momentum_1d": 0.19909297733532608,
       "macd_crossover": false,
-      "atr_pct": 0.024003025009586298,
-      "bollinger_pct_b": 0.8877,
+      "atr_pct": 0.018922596414923793,
+      "bollinger_pct_b": 0.8263,
       "volume_spike": false,
-      "volume_spike_ratio": 0.75,
-      "news_sentiment": 0.636,
-      "news_confidence": 0.44,
+      "volume_spike_ratio": 0.8,
+      "news_sentiment": 0.684,
+      "news_confidence": 0.57,
       "news_headlines": [
-        "Why Did AMD, WBD, MRNA Stocks Surge To 52-Week Highs Today?",
-        "Moderna (MRNA) Stock Trades Up, Here Is Why",
-        "Tempus AI Sees Pricing, Data Growth Fueling Long-Term Expansion"
+        "Stock market today: Nasdaq surges 2% to record high, Dow and S&P 500 gain as chip stocks rally, oil  falls",
+        "AMD, Intel, Salesforce, GameStop, and More Stocks That Explain Today\u2019s Market",
+        "AI Stock Rally Loses Steam, Oil Prices Turn Negative"
       ],
       "high_impact_news": true
     },
@@ -985,6 +992,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MRNA",
+      "rank_score": 0.5827,
+      "price": 172.92999267578125,
+      "rsi": 71.38084656866754,
+      "momentum_5d": 0.023617794345414757,
+      "momentum_1d": 0.16271093688844424,
+      "macd_crossover": false,
+      "atr_pct": 0.024003025009586298,
+      "bollinger_pct_b": 0.8877,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.75,
+      "news_sentiment": 0.538,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Moderna Stock Jumped 12% Yesterday. An ESMO Presidential Slot Explains Why.",
+        "Why Did AMD, WBD, MRNA Stocks Surge To 52-Week Highs Today?",
+        "Moderna (MRNA) Stock Trades Up, Here Is Why"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "AMZN",
       "rank_score": 0.5703,
       "price": 258.42999267578125,
@@ -1000,8 +1028,8 @@
       "news_confidence": 0.3,
       "news_headlines": [
         "Meta stock jumps as Wells Fargo raises price target",
-        "Paper Bottles Are Coming to Stores. Why They\u2019re More Than a Novelty.",
-        "META Stock Rallies As Muse AI Tops App Charts \u2014 Exec Admits It\u2019s \u2018Heavily Inspired\u2019 By OpenClaw"
+        "Amazon, Alphabet, and Microsoft: 2 Cloud Giants I Am Buying in September and 1 I Am Avoiding",
+        "Enjoy Meta\u2019s Bump While It Lasts\u2014But Know That Chip Stocks Are a Safer AI Bet"
       ],
       "high_impact_news": true
     },
@@ -1020,15 +1048,15 @@
       "news_sentiment": 0.756,
       "news_confidence": 0.41,
       "news_headlines": [
+        "History Says a $1,000 Investment in Broadcom Will Be Worth This Much by 2028",
         "3 Stocks That Pay Dividends and Offer AI Exposure",
-        "NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?",
-        "Prediction: This Data Center Stock Will Be the AI Supercycle's Biggest Winner -- and It's Not a Household Name"
+        "NVIDIA Or Micron: Which Gets Paid More Safely For The AI Shortage?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.5678,
+      "rank_score": 0.5638,
       "price": 227.25,
       "rsi": 89.09041450619723,
       "momentum_5d": 0.010628832976790504,
@@ -1038,33 +1066,33 @@
       "bollinger_pct_b": 0.9036,
       "volume_spike": false,
       "volume_spike_ratio": 0.79,
-      "news_sentiment": 0.636,
-      "news_confidence": 0.33,
+      "news_sentiment": 0.548,
+      "news_confidence": 0.31,
       "news_headlines": [
-        "Could Nvidia's prospects in China shift following the Trump and Xi's meeting?",
-        "Bitcoin prices, Logan & Jake Paul, Jensen Huang talks human survival: 3 crazy market movers",
-        "AMD joins trillion-dollar chipmaker club as AI demand surges"
+        "Why AMD's new $1 trillion valuation makes perfect sense",
+        "Tech stocks today: Oura files IPO paperwork, Nvidia's Huang pushes back on AI doomsday talk",
+        "Jensen Huang pushes back on AI extinction fears"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "SBUX",
-      "rank_score": 0.5648,
-      "price": 94.88999938964844,
-      "rsi": 34.21904027787305,
-      "momentum_5d": 0.008020366880380481,
-      "momentum_1d": -0.030250374354941895,
-      "macd_crossover": true,
-      "atr_pct": 0.008461767352476376,
-      "bollinger_pct_b": 0.2985,
+      "asset": "ARKK",
+      "rank_score": 0.5573,
+      "price": 90.8499984741211,
+      "rsi": 87.05436764794293,
+      "momentum_5d": 0.0033130360270866668,
+      "momentum_1d": 0.08387018378539757,
+      "macd_crossover": false,
+      "atr_pct": 0.006594474681896711,
+      "bollinger_pct_b": 0.8494,
       "volume_spike": false,
-      "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.0,
+      "volume_spike_ratio": 1.16,
+      "news_sentiment": 0.385,
       "news_confidence": 0.26,
       "news_headlines": [
-        "Starbucks rival closes more cafes, exits key market",
-        "Ex-Starbucks CFO joins Jack in the Box board",
-        "Jack in the Box adds a former Starbucks exec to its board"
+        "Beyond Meta, Cathie Wood\u2019s ARKG Loads Up On These 4 Biotech Names",
+        "Cathie Wood Makes a Big AI Bet and Cuts Bitcoin Exposure",
+        "Cathie Wood Sold Palantir and AMD, Then Poured $3.35 Million Into Archer Aviation. Is ARK Betting Big on Flying Taxis?"
       ],
       "high_impact_news": true
     }

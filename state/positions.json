@@ -317,8 +317,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 112.13899993896484,
-    "trailing_stop_price": 113.036112
+    "price_trough": 111.9469985961914,
+    "trailing_stop_price": 112.842575
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260921185700",
@@ -349,7 +349,9 @@
     ],
     "mode": "paper",
     "strategy_version": "134",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.098130002617836,
+    "trailing_stop_price": 0.099602
   },
   "META": {
     "id": "META_20260921185700",
@@ -509,38 +511,6 @@
     "price_trough": 183.97000122070312,
     "trailing_stop_price": 185.75451
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260921222655",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.5520999431610107,
-    "entry_time": "2026-09-21T22:26:55.167783+00:00",
-    "stop_loss_pct": 0.0134,
-    "take_profit_pct": 0.03211,
-    "size_usd": 5022.59,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (85.0)",
-      "5d momentum +3.78%",
-      "1d momentum +10.10%",
-      "BB overbought (pct_b=0.95)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.273,
-    "news_headlines": [
-      "Is it worth investing in bitcoin if I'm Gen X?",
-      "Why Is Zcash Rallying Today? Privacy Coins Are Up 90% in a Month and Monero Just Added 13%",
-      "The ECB Just Launched a Way to Settle Tokenized Assets Without Stablecoins. What It Means for RLUSD and XRP in Europe."
-    ],
-    "mode": "paper",
-    "strategy_version": "135",
-    "status": "open",
-    "price_trough": 1.5132999420166016,
-    "trailing_stop_price": 1.533578
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20260922060026",
     "asset": "AVAX-USD",
@@ -567,6 +537,61 @@
       "Morning Minute: Kevin O\u2019Leary Calls for $1 Million Bitcoin, With an Asterisk",
       "Altcoin Rally Explodes: NEAR, ARB, AVAX, INJ, UNI Lead As Kevin O\u2019Leary Says Ethereum May No Longer Rule"
     ],
+    "mode": "paper",
+    "strategy_version": "135",
+    "status": "open",
+    "price_peak": 10.928000450134277,
+    "trailing_stop_price": 10.76408
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260922112516",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.5365999937057495,
+    "entry_time": "2026-09-22T11:25:16.272994+00:00",
+    "stop_loss_pct": 0.01287,
+    "take_profit_pct": 0.03027,
+    "size_usd": 4454.89,
+    "position_size_pct": 0.0451,
+    "confidence": 0.704,
+    "signals": [
+      "RSI oversold (44.3)",
+      "5d momentum +1.15%",
+      "1d momentum +3.47%",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [
+      "Is it worth investing in bitcoin if I'm Gen X?",
+      "DOGE, SUI, SOL, XRP Rally Faster Than Bitcoin As BTC Hits 8-Month High",
+      "Peter Brandt Just Posted Long-Term XRP and ETH Charts \u2014 Read His Warning First"
+    ],
+    "mode": "paper",
+    "strategy_version": "135",
+    "status": "open"
+  },
+  "GBP/CHF": {
+    "id": "GBP/CHF_20260922112516",
+    "asset": "GBP/CHF",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.0942100286483765,
+    "entry_time": "2026-09-22T11:25:16.274453+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 588.54,
+    "position_size_pct": 0.006,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (18.5)",
+      "5d momentum -0.32%",
+      "1d momentum -0.51%",
+      "BB oversold (pct_b=-0.10)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "135",
     "status": "open"
