@@ -23,31 +23,6 @@
     "price_peak": 7.847400188446045,
     "trailing_stop_price": 7.784621
   },
-  "EUR/AUD": {
-    "id": "EUR/AUD_20260902150931",
-    "asset": "EUR/AUD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 1.616529941558838,
-    "entry_time": "2026-09-02T15:09:31.955480+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 2326.78,
-    "position_size_pct": 0.0224,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (41.3)",
-      "5d momentum -0.36%",
-      "BB oversold (pct_b=-0.05)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "115",
-    "status": "open",
-    "price_peak": 1.6219300031661987,
-    "trailing_stop_price": 1.608955
-  },
   "SOFI": {
     "id": "SOFI_20260903143205",
     "asset": "SOFI",
@@ -135,38 +110,6 @@
     "price_peak": 9.863160133361816,
     "trailing_stop_price": 9.784255
   },
-  "IWM": {
-    "id": "IWM_20260916145230",
-    "asset": "IWM",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 286.1300048828125,
-    "entry_time": "2026-09-16T14:52:30.535386+00:00",
-    "stop_loss_pct": 0.01148,
-    "take_profit_pct": 0.03977,
-    "size_usd": 6305.01,
-    "position_size_pct": 0.0622,
-    "confidence": 0.931,
-    "signals": [
-      "RSI oversold (43.4)",
-      "MACD crossover",
-      "5d momentum +0.41%",
-      "1d momentum -0.47%",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone mixed sentiment across 10 articles. Overall n"
-    ],
-    "news_sentiment": 0.576,
-    "news_headlines": [
-      "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Brent Crude Exceeds $100 a Barrel",
-      "5 Leveraged ETF Areas of Last Week",
-      "3 ETFs That Could Move as Rate Expectations Shift"
-    ],
-    "mode": "paper",
-    "strategy_version": "127",
-    "status": "open",
-    "price_trough": 283.239990234375,
-    "trailing_stop_price": 286.491585
-  },
   "USD/MXN": {
     "id": "USD/MXN_20260918135705",
     "asset": "USD/MXN",
@@ -250,71 +193,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 741.2449951171875,
-    "trailing_stop_price": 752.259896
-  },
-  "KLAC": {
-    "id": "KLAC_20260921185700",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 184.6999969482422,
-    "entry_time": "2026-09-21T18:57:00.381068+00:00",
-    "stop_loss_pct": 0.0097,
-    "take_profit_pct": 0.02325,
-    "size_usd": 1197.58,
-    "position_size_pct": 0.0121,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (97.5)",
-      "5d momentum +1.99%",
-      "1d momentum +8.52%",
-      "BB overbought (pct_b=0.91)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.609,
-    "news_headlines": [
-      "Better Artificial Intelligence Stock: Aehr Test Systems vs. KLA Corporation",
-      "Chip Stocks Break Through Ceiling As Sector Rebounds. Macom Is A Standout.",
-      "KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML?"
-    ],
-    "mode": "paper",
-    "strategy_version": "134",
-    "status": "open",
-    "price_trough": 183.97000122070312,
-    "trailing_stop_price": 185.75451
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260922112516",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.5365999937057495,
-    "entry_time": "2026-09-22T11:25:16.272994+00:00",
-    "stop_loss_pct": 0.01287,
-    "take_profit_pct": 0.03027,
-    "size_usd": 4454.89,
-    "position_size_pct": 0.0451,
-    "confidence": 0.704,
-    "signals": [
-      "RSI oversold (44.3)",
-      "5d momentum +1.15%",
-      "1d momentum +3.47%",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [
-      "Is it worth investing in bitcoin if I'm Gen X?",
-      "DOGE, SUI, SOL, XRP Rally Faster Than Bitcoin As BTC Hits 8-Month High",
-      "Peter Brandt Just Posted Long-Term XRP and ETH Charts \u2014 Read His Warning First"
-    ],
-    "mode": "paper",
-    "strategy_version": "135",
-    "status": "open",
-    "price_peak": 1.5722999572753906,
-    "trailing_stop_price": 1.552064
+    "price_trough": 738.72998046875,
+    "trailing_stop_price": 749.707508
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20260922112516",
@@ -370,7 +250,9 @@
     ],
     "mode": "paper",
     "strategy_version": "135",
-    "status": "open"
+    "status": "open",
+    "price_peak": 83.54000091552734,
+    "trailing_stop_price": 82.930994
   },
   "VLO": {
     "id": "VLO_20260922153438",
@@ -400,7 +282,9 @@
     ],
     "mode": "paper",
     "strategy_version": "135",
-    "status": "open"
+    "status": "open",
+    "price_peak": 385.4501037597656,
+    "trailing_stop_price": 379.668352
   },
   "MRNA": {
     "id": "MRNA_20260922153438",
@@ -460,37 +344,9 @@
     ],
     "mode": "paper",
     "strategy_version": "135",
-    "status": "open"
-  },
-  "MU": {
-    "id": "MU_20260922153438",
-    "asset": "MU",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1078.39501953125,
-    "entry_time": "2026-09-22T15:34:38.178439+00:00",
-    "stop_loss_pct": 0.01322,
-    "take_profit_pct": 0.03169,
-    "size_usd": 5025.81,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (86.9)",
-      "5d momentum +3.37%",
-      "1d momentum +16.41%",
-      "BB overbought (pct_b=0.92)",
-      "High-impact catalyst",
-      "Claude [contradicts]: macro risk"
-    ],
-    "news_sentiment": 0.762,
-    "news_headlines": [
-      "AMD\u2019s path to $1T market cap: A timeline of CEO Lisa Su\u2019s big wins",
-      "Micron Has Jumped Back Above $1,000: Here\u2019s What I\u2019m Doing",
-      "Why Gabelli Global Growth Fund Added Micron Technology (MU) in Q2"
-    ],
-    "mode": "paper",
-    "strategy_version": "135",
-    "status": "open"
+    "status": "open",
+    "price_peak": 56.459999084472656,
+    "trailing_stop_price": 56.101478
   },
   "MPC": {
     "id": "MPC_20260922153438",
@@ -548,6 +404,126 @@
     ],
     "mode": "paper",
     "strategy_version": "135",
+    "status": "open",
+    "price_trough": 52.31949996948242,
+    "trailing_stop_price": 53.627487
+  },
+  "UNG": {
+    "id": "UNG_20260922190600",
+    "asset": "UNG",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 10.810099601745605,
+    "entry_time": "2026-09-22T19:06:00.864852+00:00",
+    "stop_loss_pct": 0.00843,
+    "take_profit_pct": 0.0208,
+    "size_usd": 5913.75,
+    "position_size_pct": 0.0598,
+    "confidence": 0.934,
+    "signals": [
+      "RSI overbought (75.6)",
+      "5d momentum +2.37%",
+      "1d momentum +3.59%",
+      "BB overbought (pct_b=1.06)",
+      "High-impact catalyst",
+      "Claude [supports]: fed hawkish"
+    ],
+    "news_sentiment": -0.467,
+    "news_headlines": [
+      "Sector Update: Energy Stocks Fall Pre-Bell Tuesday",
+      "Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict",
+      "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline"
+    ],
+    "mode": "paper",
+    "strategy_version": "136",
+    "status": "open"
+  },
+  "SMCI": {
+    "id": "SMCI_20260922190600",
+    "asset": "SMCI",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 41.43600082397461,
+    "entry_time": "2026-09-22T19:06:00.866762+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 4776.37,
+    "position_size_pct": 0.0483,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (74.1)",
+      "MACD crossover",
+      "5d momentum +1.77%",
+      "1d momentum +1.85%",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.891,
+    "news_headlines": [
+      "Super Micro Computer (SMCI) Is Up 12.1% After Record AI Backlog Sparks Major Capacity Expansion",
+      "Stocks to Watch Recap: Paramount, Intel, Strategy, Critical Metals",
+      "AMD, Intel, Meta, Warner Bros., Moderna, Grail, Strategy, and More Stocks That Explain Today\u2019s Market"
+    ],
+    "mode": "paper",
+    "strategy_version": "136",
+    "status": "open"
+  },
+  "HD": {
+    "id": "HD_20260922190600",
+    "asset": "HD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 305.1199951171875,
+    "entry_time": "2026-09-22T19:06:00.889117+00:00",
+    "stop_loss_pct": 0.02041,
+    "take_profit_pct": 0.06842,
+    "size_usd": 6686.21,
+    "position_size_pct": 0.0676,
+    "confidence": 0.704,
+    "signals": [
+      "RSI overbought (68.0)",
+      "5d momentum +1.24%",
+      "BB overbought (pct_b=1.05)",
+      "High-impact catalyst",
+      "Claude [supports]: macro risk; price decline"
+    ],
+    "news_sentiment": 0.294,
+    "news_headlines": [
+      "How Much Further Could Lowe's Stock Fall With Its DIY Shoppers Holding Back?",
+      "His Bet On Home Depot Made Ken Langone A Billionaire. Now He Sees Eli Lilly Stock Hitting $2,000",
+      "Is Home Depot Winning Bigger Projects Through Pro Investments?"
+    ],
+    "mode": "paper",
+    "strategy_version": "136",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260922190600",
+    "asset": "SOL-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 118.22000122070312,
+    "entry_time": "2026-09-22T19:06:00.897184+00:00",
+    "stop_loss_pct": 0.02309,
+    "take_profit_pct": 0.07578,
+    "size_usd": 5356.56,
+    "position_size_pct": 0.0541,
+    "confidence": 0.564,
+    "signals": [
+      "RSI overbought (62.1)",
+      "5d momentum +1.13%",
+      "BB overbought (pct_b=0.88)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.514,
+    "news_headlines": [
+      "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
+      "Financial Services Roundup: Market Talk",
+      "\u2018Crypto Hurdle\u2019 Solved: SoFi Is First Bank Deploying Stablecoin Settlement Across Mastercard Network"
+    ],
+    "mode": "paper",
+    "strategy_version": "136",
     "status": "open"
   }
 }
