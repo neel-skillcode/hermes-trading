@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 98594.03,
+  "portfolio_balance": 98544.97,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.62,
-  "unrealized_pnl_usd": 625.19,
-  "equity_value": 99219.22,
-  "open_positions": 19,
+  "portfolio_drawdown_pct": 8.67,
+  "unrealized_pnl_usd": 953.61,
+  "equity_value": 99498.58,
+  "open_positions": 18,
   "day_trades_open": 9,
-  "swing_trades_open": 10,
-  "day_capital_used_usd": 39437.61,
-  "swing_capital_used_usd": 49365.01,
-  "total_trades": 1557,
-  "last_tick": "2026-09-23T04:53:56.111108+00:00",
-  "last_reflection": "2026-09-23",
-  "trades_since_last_reflection": 0,
+  "swing_trades_open": 9,
+  "day_capital_used_usd": 39417.99,
+  "swing_capital_used_usd": 44768.5,
+  "total_trades": 1559,
+  "last_tick": "2026-09-23T09:38:10.951150+00:00",
+  "last_reflection": null,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.84322,
-      "unrealized_pnl_pct": 0.001139,
-      "unrealized_pnl_usd": 1.53
+      "current_price": 7.84277,
+      "unrealized_pnl_pct": 0.001081,
+      "unrealized_pnl_usd": 1.45
     },
     {
       "id": "SOFI_20260903143205",
@@ -106,11 +106,11 @@
       "mode": "paper",
       "strategy_version": "121",
       "status": "open",
-      "price_trough": 1.1431183815002441,
-      "trailing_stop_price": 1.152263,
-      "current_price": 1.143118,
-      "unrealized_pnl_pct": 0.018747,
-      "unrealized_pnl_usd": 142.94
+      "price_trough": 1.1415525674819946,
+      "trailing_stop_price": 1.150685,
+      "current_price": 1.141553,
+      "unrealized_pnl_pct": 0.020091,
+      "unrealized_pnl_usd": 153.19
     },
     {
       "id": "USD/SEK_20260915063917",
@@ -136,37 +136,9 @@
       "status": "open",
       "price_peak": 9.863160133361816,
       "trailing_stop_price": 9.784255,
-      "current_price": 9.85019,
-      "unrealized_pnl_pct": 0.006363,
-      "unrealized_pnl_usd": 23.92
-    },
-    {
-      "id": "USD/MXN_20260918135705",
-      "asset": "USD/MXN",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 17.192699432373047,
-      "entry_time": "2026-09-18T13:57:05.046595+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02624,
-      "size_usd": 4596.51,
-      "position_size_pct": 0.0454,
-      "confidence": 0.56,
-      "signals": [
-        "RSI overbought (66.9)",
-        "5d momentum +0.30%",
-        "BB overbought (pct_b=1.07)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "129",
-      "status": "open",
-      "price_trough": 17.190000534057617,
-      "trailing_stop_price": 17.327521,
-      "current_price": 17.3207,
-      "unrealized_pnl_pct": -0.007445,
-      "unrealized_pnl_usd": -34.22
+      "current_price": 9.86032,
+      "unrealized_pnl_pct": 0.007398,
+      "unrealized_pnl_usd": 27.81
     },
     {
       "id": "CAD/JPY_20260921135159",
@@ -196,9 +168,9 @@
       "status": "open",
       "price_trough": 111.87699890136719,
       "trailing_stop_price": 112.772015,
-      "current_price": 111.867996,
-      "unrealized_pnl_pct": 0.004972,
-      "unrealized_pnl_usd": 21.29
+      "current_price": 112.130997,
+      "unrealized_pnl_pct": 0.002633,
+      "unrealized_pnl_usd": 11.27
     },
     {
       "id": "META_20260921185700",
@@ -234,35 +206,6 @@
       "current_price": 736.679993,
       "unrealized_pnl_pct": 0.010597,
       "unrealized_pnl_usd": 53.28
-    },
-    {
-      "id": "GBP/CHF_20260922112516",
-      "asset": "GBP/CHF",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 1.0942100286483765,
-      "entry_time": "2026-09-22T11:25:16.274453+00:00",
-      "stop_loss_pct": 0.002,
-      "take_profit_pct": 0.00476,
-      "size_usd": 588.54,
-      "position_size_pct": 0.006,
-      "confidence": 0.76,
-      "signals": [
-        "RSI oversold (18.5)",
-        "5d momentum -0.32%",
-        "1d momentum -0.51%",
-        "BB oversold (pct_b=-0.10)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "135",
-      "status": "open",
-      "price_peak": 1.0955300331115723,
-      "trailing_stop_price": 1.093339,
-      "current_price": 1.09386,
-      "unrealized_pnl_pct": -0.00032,
-      "unrealized_pnl_usd": -0.19
     },
     {
       "id": "WFC_20260922153438",
@@ -530,11 +473,11 @@
       "mode": "paper",
       "strategy_version": "136",
       "status": "open",
-      "price_trough": 118.1500015258789,
-      "trailing_stop_price": 120.878085,
-      "current_price": 119.480003,
-      "unrealized_pnl_pct": -0.010658,
-      "unrealized_pnl_usd": -57.09
+      "price_trough": 117.33000183105469,
+      "trailing_stop_price": 120.039152,
+      "current_price": 117.330002,
+      "unrealized_pnl_pct": 0.007528,
+      "unrealized_pnl_usd": 40.33
     },
     {
       "id": "AVAX-USD_20260923001905",
@@ -564,11 +507,11 @@
       "mode": "paper",
       "strategy_version": "136",
       "status": "open",
-      "price_trough": 11.145000457763672,
-      "trailing_stop_price": 11.517355,
-      "current_price": 11.143,
-      "unrealized_pnl_pct": 0.010039,
-      "unrealized_pnl_usd": 39.25
+      "price_trough": 11.102999687194824,
+      "trailing_stop_price": 11.473951,
+      "current_price": 11.103,
+      "unrealized_pnl_pct": 0.013593,
+      "unrealized_pnl_usd": 53.14
     },
     {
       "id": "XRP-USD_20260923045355",
@@ -600,9 +543,11 @@
       "mode": "paper",
       "strategy_version": "136",
       "status": "open",
-      "current_price": 1.6456,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1.597499966621399,
+      "trailing_stop_price": 1.621462,
+      "current_price": 1.5977,
+      "unrealized_pnl_pct": 0.029108,
+      "unrealized_pnl_usd": 159.79
     },
     {
       "id": "ETH-USD_20260923045355",
@@ -634,33 +579,48 @@
       "mode": "paper",
       "strategy_version": "136",
       "status": "open",
-      "current_price": 2781.360107,
+      "price_trough": 2736.56005859375,
+      "trailing_stop_price": 2755.250764,
+      "current_price": 2736.560059,
+      "unrealized_pnl_pct": 0.016107,
+      "unrealized_pnl_usd": 18.86
+    },
+    {
+      "id": "BTC-USD_20260923093810",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 85814.1015625,
+      "entry_time": "2026-09-23T09:38:10.942902+00:00",
+      "stop_loss_pct": 0.00521,
+      "take_profit_pct": 0.013,
+      "size_usd": 568.92,
+      "position_size_pct": 0.0058,
+      "confidence": 0.99,
+      "signals": [
+        "RSI oversold (42.9)",
+        "5d momentum -1.55%",
+        "1d momentum -0.48%",
+        "BB oversold (pct_b=0.02)",
+        "Volume spike 19.3\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.429,
+      "news_headlines": [
+        "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
+        "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
+        "MSTR Purchases Bitcoin After 2-Week Pause, Keeps Buying Back STRC: BMNR, ASST Keep Adding To Their Crypto Treasuries"
+      ],
+      "mode": "paper",
+      "strategy_version": "137",
+      "status": "open",
+      "current_price": 85814.101562,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
-    {
-      "asset": "XRP-USD",
-      "rank_score": 0.8491,
-      "price": 1.6455999612808228,
-      "rsi": 79.08826487571012,
-      "momentum_5d": 0.046419912181125955,
-      "momentum_1d": 0.08908002698500622,
-      "macd_crossover": false,
-      "atr_pct": 0.015587024785902265,
-      "bollinger_pct_b": 1.1707,
-      "volume_spike": true,
-      "volume_spike_ratio": 7.02,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "What Would Have to Happen for XRP to Reach $5?",
-        "The Crypto Market Surpasses $3 Trillion. What Drove This Milestone and What Could Keep It There?",
-        "Ripple Confirms Asset Managers Are Prepared for XRP Ledger\u2019s Upcoming Batch Upgrade: What It Changes for XRP"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "ON",
       "rank_score": 0.7324,
@@ -679,69 +639,6 @@
         "ON Semiconductor Corp. (ON) Stock Moves 2.62%: What You Should Know",
         "Is Vicor Stock Worth Buying Before Its Second Fab Exists?",
         "AI Infrastructure Stocks Worth Watching While Rates Stay Higher for Longer"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ETH-USD",
-      "rank_score": 0.7032,
-      "price": 2781.360107421875,
-      "rsi": 80.60028463766551,
-      "momentum_5d": 0.010162137373065278,
-      "momentum_1d": 0.019679792764014964,
-      "macd_crossover": false,
-      "atr_pct": 0.006717932276883551,
-      "bollinger_pct_b": 1.2045,
-      "volume_spike": true,
-      "volume_spike_ratio": 31.6,
-      "news_sentiment": 0.278,
-      "news_confidence": 0.36,
-      "news_headlines": [
-        "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
-        "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
-        "In Switzerland, People Are Long on Franc, Gold, BTC Because of US $40T Debt"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.6918,
-      "price": 119.4800033569336,
-      "rsi": 82.90807389588247,
-      "momentum_5d": 0.0077598331417404595,
-      "momentum_1d": 0.02707815246537719,
-      "macd_crossover": false,
-      "atr_pct": 0.008046764220855403,
-      "bollinger_pct_b": 1.0299,
-      "volume_spike": true,
-      "volume_spike_ratio": 16.43,
-      "news_sentiment": 0.486,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
-        "Ripple (XRP) Bounces Back for the Month After Losing 8% on the Senate Vote",
-        "Financial Services Roundup: Market Talk"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.6868,
-      "price": 87141.7734375,
-      "rsi": 71.72649363181716,
-      "momentum_5d": 0.010948352041764288,
-      "momentum_1d": 0.020037146640524407,
-      "macd_crossover": false,
-      "atr_pct": 0.005108458764260504,
-      "bollinger_pct_b": 1.2289,
-      "volume_spike": true,
-      "volume_spike_ratio": 51.36,
-      "news_sentiment": 0.333,
-      "news_confidence": 0.3,
-      "news_headlines": [
-        "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
-        "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
-        "CRCL Vs COIN: Which Crypto Stock Is The Better Bet Amid Rising Bitcoin Prices?"
       ],
       "high_impact_news": true
     },
@@ -810,7 +707,7 @@
     },
     {
       "asset": "WMT",
-      "rank_score": 0.6432,
+      "rank_score": 0.6502,
       "price": 110.12000274658203,
       "rsi": 85.85507014668852,
       "momentum_5d": 0.011203870495500545,
@@ -820,33 +717,12 @@
       "bollinger_pct_b": 0.9844,
       "volume_spike": true,
       "volume_spike_ratio": 1.59,
-      "news_sentiment": 0.227,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.347,
+      "news_confidence": 0.49,
       "news_headlines": [
+        "PhonePe moves closer to UAE launch with central bank initial approval",
         "How Walmart, Home Depot, Lowe\u2019s tariff refunds affect shoppers",
-        "Two years after a costly retreat, Walmart tries health again",
-        "How Much Upside Is Left In eBay Stock?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "DOGE-USD",
-      "rank_score": 0.6423,
-      "price": 0.10366000235080719,
-      "rsi": 83.88893104756649,
-      "momentum_5d": 0.03226453137761401,
-      "momentum_1d": 0.03846923788071518,
-      "macd_crossover": false,
-      "atr_pct": 0.013243863118045629,
-      "bollinger_pct_b": 0.9999,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.23,
-      "news_sentiment": 0.789,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "3 Meme Coins to Watch in the Fourth Week of September 2026",
-        "Can Shiba Inu Reach $1 During the Next Crypto Bull Market? The Answer Might Shock You.",
-        "Dogecoin Targets 30% Surge Following $12.66M Short Squeeze"
+        "Two years after a costly retreat, Walmart tries health again"
       ],
       "high_impact_news": true
     },
@@ -956,6 +832,48 @@
       "high_impact_news": true
     },
     {
+      "asset": "ARM",
+      "rank_score": 0.596,
+      "price": 333.3299865722656,
+      "rsi": 97.05018221281719,
+      "momentum_5d": 0.012976323604668914,
+      "momentum_1d": 0.2667400167838552,
+      "macd_crossover": false,
+      "atr_pct": 0.021616582741830245,
+      "bollinger_pct_b": 0.7444,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.61,
+      "news_sentiment": 0.522,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "AeroVironment And 2 Top Automation Stocks To Watch",
+        "3 Trending AI Stocks to Watch: ARM, AMD, and CRWV",
+        "AMD Stock Just Sent a Huge AI Signal"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.5954,
+      "price": 198.27000427246094,
+      "rsi": 95.12249164675208,
+      "momentum_5d": 0.010164363459507903,
+      "momentum_1d": 0.0405689685037409,
+      "macd_crossover": false,
+      "atr_pct": 0.014058822960945145,
+      "bollinger_pct_b": 0.7986,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.09,
+      "news_sentiment": 0.512,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Meta\u2019s Muse just changed the AI game",
+        "Qualcomm CFO on agentic AI and the race to the edge",
+        "QCOM Stock On Track For Best Month Since May: Analysts See AI Gains From Dual Flagship Snapdragon Launch"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "LYFT",
       "rank_score": 0.5954,
       "price": 14.899999618530273,
@@ -977,71 +895,50 @@
       "high_impact_news": true
     },
     {
-      "asset": "ARM",
-      "rank_score": 0.594,
-      "price": 333.3299865722656,
-      "rsi": 97.05018221281719,
-      "momentum_5d": 0.012976323604668914,
-      "momentum_1d": 0.2667400167838552,
+      "asset": "OXY",
+      "rank_score": 0.5895,
+      "price": 56.30500030517578,
+      "rsi": 18.505609141780425,
+      "momentum_5d": -0.015818891693401553,
+      "momentum_1d": -0.051785124749528,
       "macd_crossover": false,
-      "atr_pct": 0.021616582741830245,
-      "bollinger_pct_b": 0.7444,
+      "atr_pct": 0.00901328265898553,
+      "bollinger_pct_b": 0.1413,
       "volume_spike": false,
-      "volume_spike_ratio": 0.61,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.44,
+      "volume_spike_ratio": 1.47,
+      "news_sentiment": 0.556,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "3 Trending AI Stocks to Watch: ARM, AMD, and CRWV",
-        "AMD Stock Just Sent a Huge AI Signal",
-        "Arm Gains 1.5% as Agentic AI Multiplies CPU Cores"
+        "Occidental Now Trades Below Wall Street\u2019s Raised Targets. Here\u2019s Where the Stock Could Go",
+        "Occidental Petroleum (OXY) Stock Declines While Market Improves: Some Information for Investors",
+        "Can ExxonMobil Turn Carbon Capture Into a Major Growth Market?"
       ],
       "high_impact_news": true
     },
     {
-      "asset": "BNB-USD",
-      "rank_score": 0.5934,
-      "price": 796.2000122070312,
-      "rsi": 70.54463542483904,
-      "momentum_5d": 0.010021596519594623,
-      "momentum_1d": 0.011908537948060505,
+      "asset": "XLK",
+      "rank_score": 0.5854,
+      "price": 196.25999450683594,
+      "rsi": 96.8838343232098,
+      "momentum_5d": 0.005687935665221454,
+      "momentum_1d": 0.044116646661749456,
       "macd_crossover": false,
-      "atr_pct": 0.005600715250456096,
-      "bollinger_pct_b": 1.0681,
-      "volume_spike": true,
-      "volume_spike_ratio": 10.75,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.3,
+      "atr_pct": 0.004012504517010198,
+      "bollinger_pct_b": 0.7733,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.24,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "Ondo opens new path for institutions to bring shares onchain",
-        "Why Is BNB Up Today? It\u2019s Back Above $100 Billion and Up 12% This Month",
-        "Robinhood Crypto Chain\u2019s $146M Tokenized-Stock Bet Faces Its First Fee Test"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.5913,
-      "price": 225.41000366210938,
-      "rsi": 75.1398157466904,
-      "momentum_5d": -0.003029689090406241,
-      "momentum_1d": 0.03617730357114174,
-      "macd_crossover": false,
-      "atr_pct": 0.009877243664349002,
-      "bollinger_pct_b": 0.8533,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.55,
-      "news_sentiment": 0.631,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Novo Nordisk shares plunge over 7% as new targets fail to reassure investors",
-        "Is Biogen Stock Outperforming the S&P 500?",
-        "Biogen (BIIB) and AbbVie (ABBV) Get Wolfe Upgrades\u2014Which Pharma Stock Has More Upside?"
+        "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",
+        "Sector Update: Tech Stocks Gain Late Afternoon",
+        "Sector Update: Tech Stocks Higher in Afternoon Trading"
       ],
       "high_impact_news": true
     },
     {
       "asset": "MU",
-      "rank_score": 0.5913,
+      "rank_score": 0.5853,
       "price": 1094.5799560546875,
       "rsi": 85.76692108144103,
       "momentum_5d": 0.021043742576428836,
@@ -1051,12 +948,96 @@
       "bollinger_pct_b": 0.8656,
       "volume_spike": false,
       "volume_spike_ratio": 0.73,
-      "news_sentiment": 0.867,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.647,
+      "news_confidence": 0.51,
       "news_headlines": [
         "AMD\u2019s path to $1T market cap: A timeline of CEO Lisa Su\u2019s big wins",
-        "SK Hynix Is Eyeing Intel\u2019s (INTC) Ohio Site. Why Micron (MU) Should Pay Attention",
-        "Should You Buy Micron Before Sept. 30? 1 Number Could Send the Stock Soaring"
+        "Micron (MU) Stock Looks Reasonable Despite Its Very Large Run",
+        "Should You Buy Micron Before Sept. 30?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.5833,
+      "price": 225.41000366210938,
+      "rsi": 75.1398157466904,
+      "momentum_5d": -0.003029689090406241,
+      "momentum_1d": 0.03617730357114174,
+      "macd_crossover": false,
+      "atr_pct": 0.009877243664349002,
+      "bollinger_pct_b": 0.8533,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.55,
+      "news_sentiment": 0.528,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Biogen (BIIB) Posts New Kidney Trial Data, Is It Still 5% Undervalued?",
+        "Novo Nordisk shares plunge over 7% as new targets fail to reassure investors",
+        "Is Biogen Stock Outperforming the S&P 500?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLF",
+      "rank_score": 0.5769,
+      "price": 54.779998779296875,
+      "rsi": 24.29243627922878,
+      "momentum_5d": 0.003388543904338197,
+      "momentum_1d": -0.021436241028084772,
+      "macd_crossover": false,
+      "atr_pct": 0.004894523508825992,
+      "bollinger_pct_b": 0.1337,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.78,
+      "news_sentiment": 0.064,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Sector Update: Financial Stocks Fall Tuesday",
+        "Sector Update: Financial Stocks Decline Tuesday Afternoon",
+        "Exchange-Traded Funds Rise, US Equities Mixed After Midday"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "USO",
+      "rank_score": 0.5655,
+      "price": 144.0399932861328,
+      "rsi": 21.40606028259971,
+      "momentum_5d": -0.020002738650613482,
+      "momentum_1d": -0.07941075219741586,
+      "macd_crossover": false,
+      "atr_pct": 0.013506226331703128,
+      "bollinger_pct_b": 0.151,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.4,
+      "news_sentiment": -0.037,
+      "news_confidence": 0.54,
+      "news_headlines": [
+        "Sector Update: Energy Stocks Fall Pre-Bell Tuesday",
+        "Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict",
+        "Oil ETFs Surge: What's Next for Commodity Investors?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLE",
+      "rank_score": 0.5607,
+      "price": 61.7599983215332,
+      "rsi": 17.17951451685947,
+      "momentum_5d": -0.009939126899100648,
+      "momentum_1d": -0.03987561210104462,
+      "macd_crossover": false,
+      "atr_pct": 0.007991765399711892,
+      "bollinger_pct_b": 0.1627,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.23,
+      "news_sentiment": -0.236,
+      "news_confidence": 0.55,
+      "news_headlines": [
+        "Sector Update: Energy Stocks Decline Late Afternoon",
+        "Sector Update: Energy Stocks Mixed Tuesday Afternoon",
+        "Exchange-Traded Funds Rise, US Equities Mixed After Midday"
       ],
       "high_impact_news": true
     }

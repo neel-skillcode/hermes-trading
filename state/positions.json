@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1431183815002441,
-    "trailing_stop_price": 1.152263
+    "price_trough": 1.1415525674819946,
+    "trailing_stop_price": 1.150685
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -109,31 +109,6 @@
     "status": "open",
     "price_peak": 9.863160133361816,
     "trailing_stop_price": 9.784255
-  },
-  "USD/MXN": {
-    "id": "USD/MXN_20260918135705",
-    "asset": "USD/MXN",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 17.192699432373047,
-    "entry_time": "2026-09-18T13:57:05.046595+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 4596.51,
-    "position_size_pct": 0.0454,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (66.9)",
-      "5d momentum +0.30%",
-      "BB overbought (pct_b=1.07)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "129",
-    "status": "open",
-    "price_trough": 17.190000534057617,
-    "trailing_stop_price": 17.327521
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -195,32 +170,6 @@
     "status": "open",
     "price_trough": 736.594970703125,
     "trailing_stop_price": 747.540772
-  },
-  "GBP/CHF": {
-    "id": "GBP/CHF_20260922112516",
-    "asset": "GBP/CHF",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.0942100286483765,
-    "entry_time": "2026-09-22T11:25:16.274453+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 588.54,
-    "position_size_pct": 0.006,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (18.5)",
-      "5d momentum -0.32%",
-      "1d momentum -0.51%",
-      "BB oversold (pct_b=-0.10)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "135",
-    "status": "open",
-    "price_peak": 1.0955300331115723,
-    "trailing_stop_price": 1.093339
   },
   "WFC": {
     "id": "WFC_20260922153438",
@@ -467,8 +416,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 118.1500015258789,
-    "trailing_stop_price": 120.878085
+    "price_trough": 117.33000183105469,
+    "trailing_stop_price": 120.039152
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260923001905",
@@ -498,8 +447,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 11.145000457763672,
-    "trailing_stop_price": 11.517355
+    "price_trough": 11.102999687194824,
+    "trailing_stop_price": 11.473951
   },
   "XRP-USD": {
     "id": "XRP-USD_20260923045355",
@@ -530,7 +479,9 @@
     ],
     "mode": "paper",
     "strategy_version": "136",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.597499966621399,
+    "trailing_stop_price": 1.621462
   },
   "ETH-USD": {
     "id": "ETH-USD_20260923045355",
@@ -561,6 +512,39 @@
     ],
     "mode": "paper",
     "strategy_version": "136",
+    "status": "open",
+    "price_trough": 2736.56005859375,
+    "trailing_stop_price": 2755.250764
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260923093810",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 85814.1015625,
+    "entry_time": "2026-09-23T09:38:10.942902+00:00",
+    "stop_loss_pct": 0.00521,
+    "take_profit_pct": 0.013,
+    "size_usd": 568.92,
+    "position_size_pct": 0.0058,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (42.9)",
+      "5d momentum -1.55%",
+      "1d momentum -0.48%",
+      "BB oversold (pct_b=0.02)",
+      "Volume spike 19.3\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.429,
+    "news_headlines": [
+      "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
+      "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
+      "MSTR Purchases Bitcoin After 2-Week Pause, Keeps Buying Back STRC: BMNR, ASST Keep Adding To Their Crypto Treasuries"
+    ],
+    "mode": "paper",
+    "strategy_version": "137",
     "status": "open"
   }
 }
