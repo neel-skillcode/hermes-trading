@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1440337896347046,
-    "trailing_stop_price": 1.153186
+    "price_trough": 1.1431183815002441,
+    "trailing_stop_price": 1.152263
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -161,8 +161,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 111.87999725341797,
-    "trailing_stop_price": 112.775037
+    "price_trough": 111.87699890136719,
+    "trailing_stop_price": 112.772015
   },
   "META": {
     "id": "META_20260921185700",
@@ -497,63 +497,67 @@
     ],
     "mode": "paper",
     "strategy_version": "136",
-    "status": "open"
+    "status": "open",
+    "price_trough": 11.145000457763672,
+    "trailing_stop_price": 11.517355
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260923001905",
-    "asset": "DOGE-USD",
+  "XRP-USD": {
+    "id": "XRP-USD_20260923045355",
+    "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 0.10110999643802643,
-    "entry_time": "2026-09-23T00:19:05.148532+00:00",
-    "stop_loss_pct": 0.01173,
-    "take_profit_pct": 0.02813,
-    "size_usd": 5017.06,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
+    "entry_price": 1.6455999612808228,
+    "entry_time": "2026-09-23T04:53:55.368559+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03653,
+    "size_usd": 5489.72,
+    "position_size_pct": 0.0557,
+    "confidence": 0.87,
     "signals": [
-      "RSI overbought (66.1)",
-      "5d momentum +1.19%",
-      "1d momentum +1.31%",
-      "BB overbought (pct_b=0.94)",
+      "RSI overbought (79.1)",
+      "5d momentum +4.64%",
+      "1d momentum +8.91%",
+      "BB overbought (pct_b=1.17)",
+      "Volume spike 7.0\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: price surge"
+      "Claude [contradicts]: analyst upgrade"
     ],
-    "news_sentiment": 0.789,
+    "news_sentiment": 0.2,
     "news_headlines": [
-      "3 Meme Coins to Watch in the Fourth Week of September 2026",
-      "Can Shiba Inu Reach $1 During the Next Crypto Bull Market? The Answer Might Shock You.",
-      "Dogecoin Targets 30% Surge Following $12.66M Short Squeeze"
+      "What Would Have to Happen for XRP to Reach $5?",
+      "The Crypto Market Surpasses $3 Trillion. What Drove This Milestone and What Could Keep It There?",
+      "Ripple Confirms Asset Managers Are Prepared for XRP Ledger\u2019s Upcoming Batch Upgrade: What It Changes for XRP"
     ],
     "mode": "paper",
     "strategy_version": "136",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20260923001905",
-    "asset": "BNB-USD",
+  "ETH-USD": {
+    "id": "ETH-USD_20260923045355",
+    "asset": "ETH-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 791.3300170898438,
-    "entry_time": "2026-09-23T00:19:05.150278+00:00",
-    "stop_loss_pct": 0.00542,
-    "take_profit_pct": 0.01299,
-    "size_usd": 1697.91,
-    "position_size_pct": 0.0172,
-    "confidence": 0.793,
+    "entry_price": 2781.360107421875,
+    "entry_time": "2026-09-23T04:53:55.370456+00:00",
+    "stop_loss_pct": 0.00683,
+    "take_profit_pct": 0.01689,
+    "size_usd": 1170.85,
+    "position_size_pct": 0.0119,
+    "confidence": 0.95,
     "signals": [
-      "5d momentum +0.48%",
-      "1d momentum -0.99%",
-      "BB overbought (pct_b=0.98)",
-      "Volume spike 1.8\u00d7",
+      "RSI overbought (80.6)",
+      "5d momentum +1.02%",
+      "1d momentum +1.97%",
+      "BB overbought (pct_b=1.20)",
+      "Volume spike 31.6\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.0,
+    "news_sentiment": 0.278,
     "news_headlines": [
-      "Ondo opens new path for institutions to bring shares onchain",
-      "Why Is BNB Up Today? It\u2019s Back Above $100 Billion and Up 12% This Month",
-      "Robinhood Crypto Chain\u2019s $146M Tokenized-Stock Bet Faces Its First Fee Test"
+      "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
+      "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
+      "In Switzerland, People Are Long on Franc, Gold, BTC Because of US $40T Debt"
     ],
     "mode": "paper",
     "strategy_version": "136",
