@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 98803.28,
+  "portfolio_balance": 98730.02,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.43,
-  "unrealized_pnl_usd": 633.88,
-  "equity_value": 99437.16,
-  "open_positions": 18,
+  "portfolio_drawdown_pct": 8.5,
+  "unrealized_pnl_usd": 595.66,
+  "equity_value": 99325.68,
+  "open_positions": 19,
   "day_trades_open": 9,
-  "swing_trades_open": 9,
-  "day_capital_used_usd": 39521.31,
-  "swing_capital_used_usd": 45455.23,
-  "total_trades": 1553,
-  "last_tick": "2026-09-22T22:01:59.966272+00:00",
+  "swing_trades_open": 10,
+  "day_capital_used_usd": 39492.01,
+  "swing_capital_used_usd": 49365.01,
+  "total_trades": 1555,
+  "last_tick": "2026-09-23T00:19:05.153755+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8432,
-      "unrealized_pnl_pct": 0.001136,
-      "unrealized_pnl_usd": 1.53
+      "current_price": 7.84325,
+      "unrealized_pnl_pct": 0.001142,
+      "unrealized_pnl_usd": 1.54
     },
     {
       "id": "SOFI_20260903143205",
@@ -136,9 +136,9 @@
       "status": "open",
       "price_peak": 9.863160133361816,
       "trailing_stop_price": 9.784255,
-      "current_price": 9.83161,
-      "unrealized_pnl_pct": 0.004465,
-      "unrealized_pnl_usd": 16.78
+      "current_price": 9.83406,
+      "unrealized_pnl_pct": 0.004715,
+      "unrealized_pnl_usd": 17.72
     },
     {
       "id": "USD/MXN_20260918135705",
@@ -164,9 +164,9 @@
       "status": "open",
       "price_trough": 17.190000534057617,
       "trailing_stop_price": 17.327521,
-      "current_price": 17.292721,
-      "unrealized_pnl_pct": -0.005818,
-      "unrealized_pnl_usd": -26.74
+      "current_price": 17.297001,
+      "unrealized_pnl_pct": -0.006067,
+      "unrealized_pnl_usd": -27.89
     },
     {
       "id": "CAD/JPY_20260921135159",
@@ -196,9 +196,9 @@
       "status": "open",
       "price_trough": 111.87999725341797,
       "trailing_stop_price": 112.775037,
-      "current_price": 111.872002,
-      "unrealized_pnl_pct": 0.004937,
-      "unrealized_pnl_usd": 21.14
+      "current_price": 111.963997,
+      "unrealized_pnl_pct": 0.004118,
+      "unrealized_pnl_usd": 17.63
     },
     {
       "id": "META_20260921185700",
@@ -260,9 +260,9 @@
       "status": "open",
       "price_peak": 1.0955300331115723,
       "trailing_stop_price": 1.093339,
-      "current_price": 1.09449,
-      "unrealized_pnl_pct": 0.000256,
-      "unrealized_pnl_usd": 0.15
+      "current_price": 1.09517,
+      "unrealized_pnl_pct": 0.000877,
+      "unrealized_pnl_usd": 0.52
     },
     {
       "id": "WFC_20260922153438",
@@ -532,26 +532,26 @@
       "status": "open",
       "price_trough": 118.1500015258789,
       "trailing_stop_price": 120.878085,
-      "current_price": 118.150002,
-      "unrealized_pnl_pct": 0.000592,
-      "unrealized_pnl_usd": 3.17
+      "current_price": 118.919998,
+      "unrealized_pnl_pct": -0.005921,
+      "unrealized_pnl_usd": -31.72
     },
     {
-      "id": "AVAX-USD_20260922220159",
+      "id": "AVAX-USD_20260923001905",
       "asset": "AVAX-USD",
-      "trade_type": "day",
+      "trade_type": "swing",
       "direction": "short",
-      "entry_price": 11.109999656677246,
-      "entry_time": "2026-09-22T22:01:59.960176+00:00",
-      "stop_loss_pct": 0.01022,
-      "take_profit_pct": 0.02333,
-      "size_usd": 3566.4,
-      "position_size_pct": 0.0361,
+      "entry_price": 11.255999565124512,
+      "entry_time": "2026-09-23T00:19:05.146201+00:00",
+      "stop_loss_pct": 0.03341,
+      "take_profit_pct": 0.10965,
+      "size_usd": 3909.78,
+      "position_size_pct": 0.0396,
       "confidence": 0.564,
       "signals": [
-        "RSI overbought (68.5)",
-        "5d momentum +0.61%",
-        "1d momentum -1.17%",
+        "RSI overbought (73.5)",
+        "5d momentum +2.32%",
+        "BB overbought (pct_b=1.01)",
         "High-impact catalyst",
         "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
       ],
@@ -564,26 +564,60 @@
       "mode": "paper",
       "strategy_version": "136",
       "status": "open",
-      "current_price": 11.11,
+      "current_price": 11.256,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "BNB-USD_20260922220159",
+      "id": "DOGE-USD_20260923001905",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.10110999643802643,
+      "entry_time": "2026-09-23T00:19:05.148532+00:00",
+      "stop_loss_pct": 0.01173,
+      "take_profit_pct": 0.02813,
+      "size_usd": 5017.06,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (66.1)",
+        "5d momentum +1.19%",
+        "1d momentum +1.31%",
+        "BB overbought (pct_b=0.94)",
+        "High-impact catalyst",
+        "Claude [contradicts]: price surge"
+      ],
+      "news_sentiment": 0.789,
+      "news_headlines": [
+        "3 Meme Coins to Watch in the Fourth Week of September 2026",
+        "Can Shiba Inu Reach $1 During the Next Crypto Bull Market? The Answer Might Shock You.",
+        "Dogecoin Targets 30% Surge Following $12.66M Short Squeeze"
+      ],
+      "mode": "paper",
+      "strategy_version": "136",
+      "status": "open",
+      "current_price": 0.10111,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "BNB-USD_20260923001905",
       "asset": "BNB-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 784.8900146484375,
-      "entry_time": "2026-09-22T22:01:59.961848+00:00",
-      "stop_loss_pct": 0.00479,
-      "take_profit_pct": 0.01112,
-      "size_usd": 3177.87,
-      "position_size_pct": 0.0322,
-      "confidence": 0.644,
+      "entry_price": 791.3300170898438,
+      "entry_time": "2026-09-23T00:19:05.150278+00:00",
+      "stop_loss_pct": 0.00542,
+      "take_profit_pct": 0.01299,
+      "size_usd": 1697.91,
+      "position_size_pct": 0.0172,
+      "confidence": 0.793,
       "signals": [
-        "RSI oversold (43.2)",
-        "5d momentum -0.48%",
-        "1d momentum -2.02%",
+        "5d momentum +0.48%",
+        "1d momentum -0.99%",
+        "BB overbought (pct_b=0.98)",
+        "Volume spike 1.8\u00d7",
         "High-impact catalyst",
         "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 0 bullish / 1 bearish across 10 articles. Ove"
       ],
@@ -596,7 +630,7 @@
       "mode": "paper",
       "strategy_version": "136",
       "status": "open",
-      "current_price": 784.890015,
+      "current_price": 791.330017,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -604,7 +638,7 @@
   "last_candidates": [
     {
       "asset": "ON",
-      "rank_score": 0.7404,
+      "rank_score": 0.7324,
       "price": 73.5999984741211,
       "rsi": 85.04859115285473,
       "momentum_5d": 0.013704222452769579,
@@ -614,18 +648,18 @@
       "bollinger_pct_b": 0.9096,
       "volume_spike": true,
       "volume_spike_ratio": 2.55,
-      "news_sentiment": 0.741,
-      "news_confidence": 0.49,
+      "news_sentiment": 0.659,
+      "news_confidence": 0.43,
       "news_headlines": [
+        "ON Semiconductor Corp. (ON) Stock Moves 2.62%: What You Should Know",
         "AI Infrastructure Stocks Worth Watching While Rates Stay Higher for Longer",
-        "Microchip Rises 17% YTD: Should You Buy, Sell or Hold the Stock?",
-        "Dear ON Semiconductor Stock Fans, Here\u2019s What You Need to Know About ON\u2019s Financial Analyst Day"
+        "Microchip Rises 17% YTD: Should You Buy, Sell or Hold the Stock?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "KLAC",
-      "rank_score": 0.6937,
+      "rank_score": 0.6858,
       "price": 188.2899932861328,
       "rsi": 94.22777692326953,
       "momentum_5d": 0.02043132953815206,
@@ -635,39 +669,18 @@
       "bollinger_pct_b": 0.8428,
       "volume_spike": true,
       "volume_spike_ratio": 1.58,
-      "news_sentiment": 0.591,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.474,
+      "news_confidence": 0.38,
       "news_headlines": [
+        "KLA (KLAC) Stock Moves 2.36%: What You Should Know",
         "LRCX Eyes Mid-40s Operating Margin: Is the Long-Term Goal Achievable?",
-        "Qnity Is Added to the PHLX Semiconductor Index. Why the Stock Is Down.",
-        "Better Artificial Intelligence Stock: Aehr Test Systems vs. KLA Corporation"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "VLO",
-      "rank_score": 0.6786,
-      "price": 377.2200012207031,
-      "rsi": 19.293458760475474,
-      "momentum_5d": -0.01639599293057336,
-      "momentum_1d": -0.08026551045052294,
-      "macd_crossover": false,
-      "atr_pct": 0.02217855800762818,
-      "bollinger_pct_b": 0.0446,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.51,
-      "news_sentiment": 0.822,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Diesel Hits a Record. Why Valero and Marathon Stock Could Be Running Out of Gas.",
-        "Netflix downgraded, SanDisk initiated: Wall Street's top analyst calls",
-        "The Zacks Analyst Blog Highlights Valero, Phillips 66 and Eni"
+        "Qnity Is Added to the PHLX Semiconductor Index. Why the Stock Is Down."
       ],
       "high_impact_news": true
     },
     {
       "asset": "MPC",
-      "rank_score": 0.6757,
+      "rank_score": 0.6707,
       "price": 389.7099914550781,
       "rsi": 17.743474182245052,
       "momentum_5d": -0.021050528674173775,
@@ -677,12 +690,33 @@
       "bollinger_pct_b": 0.0703,
       "volume_spike": true,
       "volume_spike_ratio": 1.69,
-      "news_sentiment": 0.156,
-      "news_confidence": 0.45,
+      "news_sentiment": 0.048,
+      "news_confidence": 0.42,
       "news_headlines": [
+        "Trump Supports Diesel Export Ban, Knocking Refining Stocks",
         "Sector Update: Energy Stocks Decline Late Afternoon",
-        "Diesel Hits a Record. Why Valero and Marathon Stock Could Be Running Out of Gas.",
         "Does HF Sinclair's Diversified Refining Base Enhance Its Resilience?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "VLO",
+      "rank_score": 0.6666,
+      "price": 377.2200012207031,
+      "rsi": 19.293458760475474,
+      "momentum_5d": -0.01639599293057336,
+      "momentum_1d": -0.08026551045052294,
+      "macd_crossover": false,
+      "atr_pct": 0.02217855800762818,
+      "bollinger_pct_b": 0.0446,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.51,
+      "news_sentiment": 0.676,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Valero Energy (VLO) Stock Moves -4.10%: What You Should Know",
+        "Trump Supports Diesel Export Ban, Knocking Refining Stocks",
+        "Netflix downgraded, SanDisk initiated: Wall Street's top analyst calls"
       ],
       "high_impact_news": true
     },
@@ -751,7 +785,7 @@
     },
     {
       "asset": "CRM",
-      "rank_score": 0.6318,
+      "rank_score": 0.6368,
       "price": 233.27999877929688,
       "rsi": 36.501710432667934,
       "momentum_5d": 0.011534141524709156,
@@ -761,12 +795,12 @@
       "bollinger_pct_b": 0.2627,
       "volume_spike": false,
       "volume_spike_ratio": 1.06,
-      "news_sentiment": 0.684,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.756,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "$223 Billion Back To Shareholders: Inside The MSFT Machine",
         "How Far Could CRM Stock Swing In A Year?",
-        "Sandisk, Lennar, Viking Therapeutics, Shopify, GameStop, and More Stocks That Explain Today\u2019s Market",
-        "Adobe Is Down 32% This Year: Is ADBE Stock Dead Money or Due for a Bounce?"
+        "Sandisk, Lennar, Viking Therapeutics, Shopify, GameStop, and More Stocks That Explain Today\u2019s Market"
       ],
       "high_impact_news": true
     },
@@ -813,6 +847,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MU",
+      "rank_score": 0.6003,
+      "price": 1094.5799560546875,
+      "rsi": 85.76692108144103,
+      "momentum_5d": 0.021043742576428836,
+      "momentum_1d": 0.12126607495119594,
+      "macd_crossover": false,
+      "atr_pct": 0.01400380288598927,
+      "bollinger_pct_b": 0.8656,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.74,
+      "news_sentiment": 0.923,
+      "news_confidence": 0.52,
+      "news_headlines": [
+        "AMD\u2019s path to $1T market cap: A timeline of CEO Lisa Su\u2019s big wins",
+        "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
+        "Micron's Memory Boom Is Facing a New Test"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ARM",
       "rank_score": 0.5977,
       "price": 333.3299865722656,
@@ -855,27 +910,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MU",
-      "rank_score": 0.5953,
-      "price": 1094.5799560546875,
-      "rsi": 85.76692108144103,
-      "momentum_5d": 0.021043742576428836,
-      "momentum_1d": 0.12126607495119594,
-      "macd_crossover": false,
-      "atr_pct": 0.01400380288598927,
-      "bollinger_pct_b": 0.8656,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.74,
-      "news_sentiment": 0.878,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "AMD\u2019s path to $1T market cap: A timeline of CEO Lisa Su\u2019s big wins",
-        "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
-        "Nasdaq sets record high, oil dips on improved crude flows"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "BIIB",
       "rank_score": 0.5913,
       "price": 225.41000366210938,
@@ -893,27 +927,6 @@
         "Novo Nordisk shares plunge over 7% as new targets fail to reassure investors",
         "Is Biogen Stock Outperforming the S&P 500?",
         "Biogen (BIIB) and AbbVie (ABBV) Get Wolfe Upgrades\u2014Which Pharma Stock Has More Upside?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "XLK",
-      "rank_score": 0.5904,
-      "price": 196.25999450683594,
-      "rsi": 96.8838343232098,
-      "momentum_5d": 0.005687935665221454,
-      "momentum_1d": 0.044116646661749456,
-      "macd_crossover": false,
-      "atr_pct": 0.004012504517010198,
-      "bollinger_pct_b": 0.7733,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.24,
-      "news_sentiment": 0.644,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Sector Update: Tech Stocks Higher in Afternoon Trading",
-        "Exchange-Traded Funds Rise, US Equities Mixed After Midday",
-        "Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat"
       ],
       "high_impact_news": true
     },
@@ -953,9 +966,30 @@
       "news_sentiment": 0.387,
       "news_confidence": 0.37,
       "news_headlines": [
+        "Meta\u2019s Muse just changed the AI game",
         "Qualcomm CFO on agentic AI and the race to the edge",
-        "Qualcomm Launches Two New Smartphone Chips As AI Push Intensifies \u2014 QCOM Stock Edges Lower After-Hours",
-        "Qualcomm launches two new smartphone chips with emphasis on AI"
+        "Qualcomm Launches Two New Smartphone Chips As AI Push Intensifies \u2014 QCOM Stock Edges Lower After-Hours"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "XLK",
+      "rank_score": 0.5854,
+      "price": 196.25999450683594,
+      "rsi": 96.8838343232098,
+      "momentum_5d": 0.005687935665221454,
+      "momentum_1d": 0.044116646661749456,
+      "macd_crossover": false,
+      "atr_pct": 0.004012504517010198,
+      "bollinger_pct_b": 0.7733,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.24,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",
+        "Sector Update: Tech Stocks Higher in Afternoon Trading",
+        "Exchange-Traded Funds Rise, US Equities Mixed After Midday"
       ],
       "high_impact_news": true
     },
@@ -981,6 +1015,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "AMD",
+      "rank_score": 0.5711,
+      "price": 624.0,
+      "rsi": 86.83724836328004,
+      "momentum_5d": 0.010231847233452657,
+      "momentum_1d": 0.13972602739726028,
+      "macd_crossover": false,
+      "atr_pct": 0.015365754291688129,
+      "bollinger_pct_b": 0.7322,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.68,
+      "news_sentiment": 0.87,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "Should investors play AI bottlenecks over social media stocks?",
+        "The return of the AI rally: What's fueling the latest push into tech?",
+        "Shopify Stock Jumps on Meta Muse Deal: Time to Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "USO",
       "rank_score": 0.5655,
       "price": 144.0399932861328,
@@ -998,27 +1053,6 @@
         "Sector Update: Energy Stocks Fall Pre-Bell Tuesday",
         "Exchange-Traded Funds Mixed, Equity Futures Up Pre-Bell Tuesday as Oil Prices Drop Due to Possible Diplomacy in US-Iran Conflict",
         "Oil ETFs Surge: What's Next for Commodity Investors?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMD",
-      "rank_score": 0.5651,
-      "price": 624.0,
-      "rsi": 86.83724836328004,
-      "momentum_5d": 0.010231847233452657,
-      "momentum_1d": 0.13972602739726028,
-      "macd_crossover": false,
-      "atr_pct": 0.015365754291688129,
-      "bollinger_pct_b": 0.7322,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.68,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Should investors play AI bottlenecks over social media stocks?",
-        "The return of the AI rally: What's fueling the latest push into tech?",
-        "The AI Rally Is Back\u2014and Facing a Wall of Worry"
       ],
       "high_impact_news": true
     }
