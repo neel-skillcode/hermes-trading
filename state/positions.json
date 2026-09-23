@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1415525674819946,
-    "trailing_stop_price": 1.150685
+    "price_trough": 1.1396011114120483,
+    "trailing_stop_price": 1.148718
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -107,8 +107,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.863160133361816,
-    "trailing_stop_price": 9.784255
+    "price_peak": 9.903160095214844,
+    "trailing_stop_price": 9.823935
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -203,38 +203,6 @@
     "price_peak": 83.54000091552734,
     "trailing_stop_price": 82.930994
   },
-  "MRNA": {
-    "id": "MRNA_20260922153438",
-    "asset": "MRNA",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 183.00999450683594,
-    "entry_time": "2026-09-22T15:34:38.175178+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03596,
-    "size_usd": 5025.81,
-    "position_size_pct": 0.0508,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (84.6)",
-      "5d momentum +4.03%",
-      "1d momentum +25.65%",
-      "BB overbought (pct_b=0.94)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.76,
-    "news_headlines": [
-      "Should You Buy Moderna Stock? Why Many Wall Street Analysts Say \"No.\"",
-      "Moderna Adds Another 5% and Is Up 500% in 2026. Can MRNA Stock Continue the Melt-Up?",
-      "MRNA Hits 52-Week High: How Melanoma Study Results Keep Rally Going"
-    ],
-    "mode": "paper",
-    "strategy_version": "135",
-    "status": "open",
-    "price_trough": 182.55999755859375,
-    "trailing_stop_price": 185.298398
-  },
   "BAC": {
     "id": "BAC_20260922153438",
     "asset": "BAC",
@@ -325,7 +293,9 @@
     ],
     "mode": "paper",
     "strategy_version": "136",
-    "status": "open"
+    "status": "open",
+    "price_trough": 10.698399543762207,
+    "trailing_stop_price": 10.788587
   },
   "SMCI": {
     "id": "SMCI_20260922190600",
@@ -356,8 +326,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_peak": 41.540000915527344,
-    "trailing_stop_price": 40.916901
+    "price_peak": 41.630001068115234,
+    "trailing_stop_price": 41.005551
   },
   "HD": {
     "id": "HD_20260922190600",
@@ -386,7 +356,9 @@
     ],
     "mode": "paper",
     "strategy_version": "136",
-    "status": "open"
+    "status": "open",
+    "price_trough": 299.75,
+    "trailing_stop_price": 305.867898
   },
   "SOL-USD": {
     "id": "SOL-USD_20260922190600",
@@ -416,8 +388,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 117.33000183105469,
-    "trailing_stop_price": 120.039152
+    "price_trough": 113.91000366210938,
+    "trailing_stop_price": 116.540186
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260923001905",
@@ -447,102 +419,121 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 11.102999687194824,
-    "trailing_stop_price": 11.473951
+    "price_trough": 10.390999794006348,
+    "trailing_stop_price": 10.738163
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260923045355",
-    "asset": "XRP-USD",
+  "IONQ": {
+    "id": "IONQ_20260923142537",
+    "asset": "IONQ",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 1.6455999612808228,
-    "entry_time": "2026-09-23T04:53:55.368559+00:00",
+    "entry_price": 42.77000045776367,
+    "entry_time": "2026-09-23T14:25:37.492198+00:00",
     "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03653,
-    "size_usd": 5489.72,
-    "position_size_pct": 0.0557,
-    "confidence": 0.87,
+    "take_profit_pct": 0.03682,
+    "size_usd": 5755.12,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
     "signals": [
-      "RSI overbought (79.1)",
-      "5d momentum +4.64%",
-      "1d momentum +8.91%",
-      "BB overbought (pct_b=1.17)",
-      "Volume spike 7.0\u00d7",
-      "High-impact catalyst",
-      "Claude [contradicts]: analyst upgrade"
+      "RSI overbought (78.5)",
+      "MACD crossover",
+      "5d momentum +6.37%",
+      "1d momentum +5.32%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 19.7\u00d7",
+      "Claude [contradicts]: product catalyst; price surge"
     ],
-    "news_sentiment": 0.2,
+    "news_sentiment": 0.647,
     "news_headlines": [
-      "What Would Have to Happen for XRP to Reach $5?",
-      "The Crypto Market Surpasses $3 Trillion. What Drove This Milestone and What Could Keep It There?",
-      "Ripple Confirms Asset Managers Are Prepared for XRP Ledger\u2019s Upcoming Batch Upgrade: What It Changes for XRP"
+      "Tech retreats as Treasury yields and oil climb: AlphaCheck",
+      "IONQ Stock On Track To Hit Over 1-Month High On Nvidia Superion 256 Deployment, Quantum Error Decoder Breakthrough",
+      "IonQ Surges 11% as NVIDIA Research Center Deal Follows Error-Decoder Breakthrough; D-Wave Climbs 5%, Rigetti Rises 4%"
     ],
     "mode": "paper",
-    "strategy_version": "136",
-    "status": "open",
-    "price_trough": 1.597499966621399,
-    "trailing_stop_price": 1.621462
+    "strategy_version": "137",
+    "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260923045355",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2781.360107421875,
-    "entry_time": "2026-09-23T04:53:55.370456+00:00",
-    "stop_loss_pct": 0.00683,
-    "take_profit_pct": 0.01689,
-    "size_usd": 1170.85,
-    "position_size_pct": 0.0119,
-    "confidence": 0.95,
-    "signals": [
-      "RSI overbought (80.6)",
-      "5d momentum +1.02%",
-      "1d momentum +1.97%",
-      "BB overbought (pct_b=1.20)",
-      "Volume spike 31.6\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.278,
-    "news_headlines": [
-      "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
-      "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
-      "In Switzerland, People Are Long on Franc, Gold, BTC Because of US $40T Debt"
-    ],
-    "mode": "paper",
-    "strategy_version": "136",
-    "status": "open",
-    "price_trough": 2736.56005859375,
-    "trailing_stop_price": 2755.250764
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260923093810",
-    "asset": "BTC-USD",
+  "MCD": {
+    "id": "MCD_20260923142537",
+    "asset": "MCD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 85814.1015625,
-    "entry_time": "2026-09-23T09:38:10.942902+00:00",
-    "stop_loss_pct": 0.00521,
-    "take_profit_pct": 0.013,
-    "size_usd": 568.92,
-    "position_size_pct": 0.0058,
+    "entry_price": 240.23500061035156,
+    "entry_time": "2026-09-23T14:25:37.494133+00:00",
+    "stop_loss_pct": 0.00916,
+    "take_profit_pct": 0.02285,
+    "size_usd": 6261.07,
+    "position_size_pct": 0.0634,
     "confidence": 0.99,
     "signals": [
-      "RSI oversold (42.9)",
-      "5d momentum -1.55%",
-      "1d momentum -0.48%",
-      "BB oversold (pct_b=0.02)",
-      "Volume spike 19.3\u00d7",
+      "RSI oversold (31.9)",
+      "5d momentum -4.37%",
+      "1d momentum -3.71%",
+      "BB oversold (pct_b=-0.40)",
+      "Volume spike 6.7\u00d7",
       "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 1 bearish across 10 articles. Ove"
+      "Claude [strongly_supports]: analyst upgrade; price surge"
     ],
-    "news_sentiment": 0.429,
+    "news_sentiment": 0.8,
     "news_headlines": [
-      "'Crypto winter is over,' analyst says as bitcoin tops $86,000: Chart of the Day",
-      "Bitcoin and ethereum prices today, Tuesday, September 22, 2026: Crypto prices continue to surge to prices last seen in January",
-      "MSTR Purchases Bitcoin After 2-Week Pause, Keeps Buying Back STRC: BMNR, ASST Keep Adding To Their Crypto Treasuries"
+      "Cracker Barrel stock jumps on earnings under new CEO: A closer look",
+      "McDonald's 'NEXT' strategy is reexamining value 'across the menu': CFO",
+      "McDonald\u2019s to invest $8.5B as part of Next strategy"
     ],
+    "mode": "paper",
+    "strategy_version": "137",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260923142537",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.09453000128269196,
+    "entry_time": "2026-09-23T14:25:37.495847+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 348.07,
+    "position_size_pct": 0.0035,
+    "confidence": 0.99,
+    "signals": [
+      "RSI oversold (29.6)",
+      "5d momentum -5.37%",
+      "1d momentum -5.48%",
+      "BB oversold (pct_b=-0.28)",
+      "Volume spike 58.7\u00d7",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: price surge"
+    ],
+    "news_sentiment": 0.789,
+    "news_headlines": [
+      "Where Will Cardano (ADA) Be in 3 Years?",
+      "3 Meme Coins to Watch in the Fourth Week of September 2026",
+      "Can Shiba Inu Reach $1 During the Next Crypto Bull Market? The Answer Might Shock You."
+    ],
+    "mode": "paper",
+    "strategy_version": "137",
+    "status": "open"
+  },
+  "USD/CAD": {
+    "id": "USD/CAD_20260923142537",
+    "asset": "USD/CAD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.4102200269699097,
+    "entry_time": "2026-09-23T14:25:37.522950+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 4640.18,
+    "position_size_pct": 0.047,
+    "confidence": 0.67,
+    "signals": [
+      "RSI overbought (77.2)",
+      "MACD crossover",
+      "BB overbought (pct_b=0.99)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "137",
     "status": "open"
