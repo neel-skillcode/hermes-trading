@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 16.710100173950195,
-    "trailing_stop_price": 17.346755
+    "price_trough": 16.34000015258789,
+    "trailing_stop_price": 16.962554
   },
   "EUR/USD": {
     "id": "EUR/USD_20260909114551",
@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1384334564208984,
-    "trailing_stop_price": 1.147541
+    "price_trough": 1.138044834136963,
+    "trailing_stop_price": 1.147149
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -169,38 +169,6 @@
     "price_trough": 51.849998474121094,
     "trailing_stop_price": 53.146248
   },
-  "SMCI": {
-    "id": "SMCI_20260922190600",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 41.43600082397461,
-    "entry_time": "2026-09-22T19:06:00.866762+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 4776.37,
-    "position_size_pct": 0.0483,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (74.1)",
-      "MACD crossover",
-      "5d momentum +1.77%",
-      "1d momentum +1.85%",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.891,
-    "news_headlines": [
-      "Super Micro Computer (SMCI) Is Up 12.1% After Record AI Backlog Sparks Major Capacity Expansion",
-      "Stocks to Watch Recap: Paramount, Intel, Strategy, Critical Metals",
-      "AMD, Intel, Meta, Warner Bros., Moderna, Grail, Strategy, and More Stocks That Explain Today\u2019s Market"
-    ],
-    "mode": "paper",
-    "strategy_version": "136",
-    "status": "open",
-    "price_peak": 41.630001068115234,
-    "trailing_stop_price": 41.005551
-  },
   "HD": {
     "id": "HD_20260922190600",
     "asset": "HD",
@@ -229,8 +197,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 299.6700134277344,
-    "trailing_stop_price": 305.786278
+    "price_trough": 293.9200134277344,
+    "trailing_stop_price": 299.918921
   },
   "SOL-USD": {
     "id": "SOL-USD_20260922190600",
@@ -324,8 +292,8 @@
     "mode": "paper",
     "strategy_version": "137",
     "status": "open",
-    "price_trough": 42.70539855957031,
-    "trailing_stop_price": 43.34598
+    "price_trough": 42.13990020751953,
+    "trailing_stop_price": 42.771999
   },
   "USD/CAD": {
     "id": "USD/CAD_20260923142537",
@@ -380,7 +348,9 @@
     ],
     "mode": "paper",
     "strategy_version": "137",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.09440000355243683,
+    "trailing_stop_price": 0.092984
   },
   "XRP-USD": {
     "id": "XRP-USD_20260923183027",
@@ -410,7 +380,9 @@
     ],
     "mode": "paper",
     "strategy_version": "137",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.500599980354309,
+    "trailing_stop_price": 1.478091
   },
   "VLO": {
     "id": "VLO_20260923183027",
@@ -441,7 +413,9 @@
     ],
     "mode": "paper",
     "strategy_version": "137",
-    "status": "open"
+    "status": "open",
+    "price_peak": 382.81500244140625,
+    "trailing_stop_price": 377.072777
   },
   "ETH-USD": {
     "id": "ETH-USD_20260923183027",
@@ -471,7 +445,9 @@
     ],
     "mode": "paper",
     "strategy_version": "137",
-    "status": "open"
+    "status": "open",
+    "price_peak": 2664.699951171875,
+    "trailing_stop_price": 2641.517062
   },
   "BTC-USD": {
     "id": "BTC-USD_20260923183027",
@@ -501,6 +477,39 @@
     ],
     "mode": "paper",
     "strategy_version": "137",
+    "status": "open",
+    "price_peak": 84159.5078125,
+    "trailing_stop_price": 83551.034571
+  },
+  "ORCL": {
+    "id": "ORCL_20260924141228",
+    "asset": "ORCL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 134.40499877929688,
+    "entry_time": "2026-09-24T14:12:28.244867+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03712,
+    "size_usd": 4729.3,
+    "position_size_pct": 0.048,
+    "confidence": 0.95,
+    "signals": [
+      "RSI oversold (12.9)",
+      "5d momentum -8.50%",
+      "1d momentum -8.32%",
+      "BB oversold (pct_b=-0.44)",
+      "Volume spike 7.4\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: ma catalyst; price decline"
+    ],
+    "news_sentiment": 0.737,
+    "news_headlines": [
+      "Nasdaq climbs higher, McDonald's investor day updates",
+      "Oracle just declared a very unusual force majeure at its AI data center",
+      "MGM Resorts stock sinks after Barry Diller withdraws buyout offer"
+    ],
+    "mode": "paper",
+    "strategy_version": "138",
     "status": "open"
   }
 }
