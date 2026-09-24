@@ -166,8 +166,8 @@
     "mode": "paper",
     "strategy_version": "135",
     "status": "open",
-    "price_trough": 51.71500015258789,
-    "trailing_stop_price": 53.007875
+    "price_trough": 51.43000030517578,
+    "trailing_stop_price": 52.71575
   },
   "HD": {
     "id": "HD_20260922190600",
@@ -197,8 +197,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 293.0299987792969,
-    "trailing_stop_price": 299.010741
+    "price_trough": 292.17999267578125,
+    "trailing_stop_price": 298.143386
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20260923001905",
@@ -285,8 +285,8 @@
     "mode": "paper",
     "strategy_version": "137",
     "status": "open",
-    "price_peak": 1.5312000513076782,
-    "trailing_stop_price": 1.508232
+    "price_peak": 1.5369999408721924,
+    "trailing_stop_price": 1.513945
   },
   "ETH-USD": {
     "id": "ETH-USD_20260923183027",
@@ -317,8 +317,8 @@
     "mode": "paper",
     "strategy_version": "137",
     "status": "open",
-    "price_peak": 2679.909912109375,
-    "trailing_stop_price": 2656.594696
+    "price_peak": 2689.090087890625,
+    "trailing_stop_price": 2665.695004
   },
   "BTC-USD": {
     "id": "BTC-USD_20260923183027",
@@ -349,41 +349,8 @@
     "mode": "paper",
     "strategy_version": "137",
     "status": "open",
-    "price_peak": 84389.2734375,
-    "trailing_stop_price": 83779.138991
-  },
-  "ORCL": {
-    "id": "ORCL_20260924141228",
-    "asset": "ORCL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 134.40499877929688,
-    "entry_time": "2026-09-24T14:12:28.244867+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03712,
-    "size_usd": 4729.3,
-    "position_size_pct": 0.048,
-    "confidence": 0.95,
-    "signals": [
-      "RSI oversold (12.9)",
-      "5d momentum -8.50%",
-      "1d momentum -8.32%",
-      "BB oversold (pct_b=-0.44)",
-      "Volume spike 7.4\u00d7",
-      "High-impact catalyst",
-      "Claude [neutral]: ma catalyst; price decline"
-    ],
-    "news_sentiment": 0.737,
-    "news_headlines": [
-      "Nasdaq climbs higher, McDonald's investor day updates",
-      "Oracle just declared a very unusual force majeure at its AI data center",
-      "MGM Resorts stock sinks after Barry Diller withdraws buyout offer"
-    ],
-    "mode": "paper",
-    "strategy_version": "138",
-    "status": "open",
-    "price_peak": 138.88250732421875,
-    "trailing_stop_price": 136.79927
+    "price_peak": 84419.46875,
+    "trailing_stop_price": 83809.115991
   },
   "RBLX": {
     "id": "RBLX_20260924182539",
@@ -414,7 +381,9 @@
     ],
     "mode": "paper",
     "strategy_version": "138",
-    "status": "open"
+    "status": "open",
+    "price_peak": 48.83000183105469,
+    "trailing_stop_price": 48.097552
   },
   "META": {
     "id": "META_20260924182539",
@@ -475,7 +444,9 @@
     ],
     "mode": "paper",
     "strategy_version": "138",
-    "status": "open"
+    "status": "open",
+    "price_trough": 44.97999954223633,
+    "trailing_stop_price": 45.6547
   },
   "UNG": {
     "id": "UNG_20260924182539",
@@ -505,7 +476,9 @@
     ],
     "mode": "paper",
     "strategy_version": "138",
-    "status": "open"
+    "status": "open",
+    "price_trough": 11.550000190734863,
+    "trailing_stop_price": 11.72325
   },
   "RIVN": {
     "id": "RIVN_20260924182539",
@@ -532,6 +505,32 @@
       "Rivian\u2019s New R2 Joins R1S And R1T In EV Maker\u2019s Largest Recall",
       "2 Under-the-Radar Auto Stocks Poised to Soar While Nobody Is Looking"
     ],
+    "mode": "paper",
+    "strategy_version": "138",
+    "status": "open",
+    "price_trough": 15.289999961853027,
+    "trailing_stop_price": 15.8805
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20260924213917",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 17.716999053955078,
+    "entry_time": "2026-09-24T21:39:17.809649+00:00",
+    "stop_loss_pct": 0.00375,
+    "take_profit_pct": 0.00892,
+    "size_usd": 4801.57,
+    "position_size_pct": 0.0485,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (74.9)",
+      "5d momentum +0.41%",
+      "1d momentum +1.25%",
+      "BB overbought (pct_b=0.89)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "138",
     "status": "open"
