@@ -136,8 +136,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 111.71199798583984,
-    "trailing_stop_price": 112.605694
+    "price_trough": 111.2699966430664,
+    "trailing_stop_price": 112.160157
   },
   "SLB": {
     "id": "SLB_20260922153438",
@@ -288,71 +288,6 @@
     "price_peak": 2704.02001953125,
     "trailing_stop_price": 2680.495045
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260923183027",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 84137.1171875,
-    "entry_time": "2026-09-23T18:30:27.951659+00:00",
-    "stop_loss_pct": 0.00723,
-    "take_profit_pct": 0.01763,
-    "size_usd": 5035.62,
-    "position_size_pct": 0.0511,
-    "confidence": 0.874,
-    "signals": [
-      "RSI oversold (15.3)",
-      "5d momentum -1.92%",
-      "1d momentum -2.70%",
-      "BB oversold (pct_b=0.09)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": -0.019,
-    "news_headlines": [
-      "Bitcoin ETFs rakes in the dough",
-      "Bitcoin and ethereum prices today, Wednesday, September 23, 2026: Crypto prices open near 8-month highs. Is the crypto winter over?",
-      "Anthony Pompliano-Led Silvia Buys Back Shares After SVIA Stock Falls Below NAV"
-    ],
-    "mode": "paper",
-    "strategy_version": "137",
-    "status": "open",
-    "price_peak": 84595.3984375,
-    "trailing_stop_price": 83983.773707
-  },
-  "RBLX": {
-    "id": "RBLX_20260924182539",
-    "asset": "RBLX",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 47.43000030517578,
-    "entry_time": "2026-09-24T18:25:39.405768+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6258.8,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (29.7)",
-      "5d momentum -3.20%",
-      "1d momentum -6.52%",
-      "BB oversold (pct_b=-0.21)",
-      "Volume spike 3.3\u00d7",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: Scanned 10 headlines: no clear catalyst. Headline tone 4 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.659,
-    "news_headlines": [
-      "The Engine Behind Unity Stock Has Real Parts",
-      "Roblox (RBLX) Stock Moves -2.69%: What You Should Know",
-      "Roblox shares rise as JPMorgan notes surge in weekend platform engagement"
-    ],
-    "mode": "paper",
-    "strategy_version": "138",
-    "status": "open",
-    "price_peak": 48.83000183105469,
-    "trailing_stop_price": 48.097552
-  },
   "META": {
     "id": "META_20260924182539",
     "asset": "META",
@@ -382,7 +317,9 @@
     ],
     "mode": "paper",
     "strategy_version": "138",
-    "status": "open"
+    "status": "open",
+    "price_trough": 748.7249755859375,
+    "trailing_stop_price": 759.574
   },
   "IONQ": {
     "id": "IONQ_20260924182539",
@@ -413,40 +350,8 @@
     "mode": "paper",
     "strategy_version": "138",
     "status": "open",
-    "price_trough": 44.97999954223633,
-    "trailing_stop_price": 45.6547
-  },
-  "UNG": {
-    "id": "UNG_20260924182539",
-    "asset": "UNG",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 11.555000305175781,
-    "entry_time": "2026-09-24T18:25:39.410931+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03701,
-    "size_usd": 317.66,
-    "position_size_pct": 0.0032,
-    "confidence": 0.934,
-    "signals": [
-      "RSI overbought (81.3)",
-      "5d momentum +6.40%",
-      "1d momentum +12.24%",
-      "BB overbought (pct_b=0.99)",
-      "High-impact catalyst",
-      "Claude [supports]: fed hawkish"
-    ],
-    "news_sentiment": -0.156,
-    "news_headlines": [
-      "Sector Update: Energy Stocks Rise Premarket Thursday",
-      "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks",
-      "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday as Traders Await Developments in US-Iran Talks"
-    ],
-    "mode": "paper",
-    "strategy_version": "138",
-    "status": "open",
-    "price_trough": 11.550000190734863,
-    "trailing_stop_price": 11.72325
+    "price_trough": 44.560001373291016,
+    "trailing_stop_price": 45.228401
   },
   "RIVN": {
     "id": "RIVN_20260924182539",
@@ -479,63 +384,6 @@
     "price_trough": 15.289999961853027,
     "trailing_stop_price": 15.8805
   },
-  "USD/MXN": {
-    "id": "USD/MXN_20260924213917",
-    "asset": "USD/MXN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 17.716999053955078,
-    "entry_time": "2026-09-24T21:39:17.809649+00:00",
-    "stop_loss_pct": 0.00375,
-    "take_profit_pct": 0.00892,
-    "size_usd": 4801.57,
-    "position_size_pct": 0.0485,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (74.9)",
-      "5d momentum +0.41%",
-      "1d momentum +1.25%",
-      "BB overbought (pct_b=0.89)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "138",
-    "status": "open",
-    "price_trough": 17.670000076293945,
-    "trailing_stop_price": 17.736263
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20260925094854",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 118.33000183105469,
-    "entry_time": "2026-09-25T09:48:54.708634+00:00",
-    "stop_loss_pct": 0.00742,
-    "take_profit_pct": 0.01821,
-    "size_usd": 5779.86,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (60.6)",
-      "MACD crossover",
-      "5d momentum +1.69%",
-      "1d momentum +4.61%",
-      "BB overbought (pct_b=1.04)",
-      "Volume spike 1.8\u00d7",
-      "Claude [contradicts]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.189,
-    "news_headlines": [
-      "What does an on-chain economy mean for retail investors?",
-      "New NFT Cathedrals Are Going Up Everywhere",
-      "Solana Just Beat the NYSE in Weekly Trades\u00a0 \u2014 and Is Closing In on Nasdaq"
-    ],
-    "mode": "paper",
-    "strategy_version": "138",
-    "status": "open"
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20260925094854",
     "asset": "DOGE-USD",
@@ -561,6 +409,128 @@
       "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?",
       "XRP Is Flashing 3 Bullish Signals Heading Into a Historically Weak October",
       "Shiba Inu investors eye highest-ever Q3 return"
+    ],
+    "mode": "paper",
+    "strategy_version": "138",
+    "status": "open"
+  },
+  "PYPL": {
+    "id": "PYPL_20260925144659",
+    "asset": "PYPL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 55.06999969482422,
+    "entry_time": "2026-09-25T14:46:59.800378+00:00",
+    "stop_loss_pct": 0.00912,
+    "take_profit_pct": 0.02222,
+    "size_usd": 5545.08,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (82.6)",
+      "5d momentum +5.81%",
+      "1d momentum +4.44%",
+      "BB overbought (pct_b=1.27)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.789,
+    "news_headlines": [
+      "What Would You Have Needed To Notice In Coinbase Stock?",
+      "PayPal Holdings (PYPL), What Is Behind The Fresh Attention?",
+      "Meta Muse's E-Commerce Adoption Remains Uncertain, Wedbush Says"
+    ],
+    "mode": "paper",
+    "strategy_version": "138",
+    "status": "open"
+  },
+  "QCOM": {
+    "id": "QCOM_20260925144659",
+    "asset": "QCOM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 200.86000061035156,
+    "entry_time": "2026-09-25T14:46:59.801943+00:00",
+    "stop_loss_pct": 0.01204,
+    "take_profit_pct": 0.02979,
+    "size_usd": 6027.26,
+    "position_size_pct": 0.0608,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (65.4)",
+      "MACD crossover",
+      "5d momentum +3.92%",
+      "1d momentum +3.76%",
+      "BB overbought (pct_b=1.07)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.652,
+    "news_headlines": [
+      "Meta's new AI device changes everything",
+      "These are stocks getting lifted up by Meta's Muse",
+      "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally"
+    ],
+    "mode": "paper",
+    "strategy_version": "138",
+    "status": "open"
+  },
+  "ON": {
+    "id": "ON_20260925144659",
+    "asset": "ON",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 76.30500030517578,
+    "entry_time": "2026-09-25T14:46:59.803289+00:00",
+    "stop_loss_pct": 0.0135,
+    "take_profit_pct": 0.03289,
+    "size_usd": 5545.08,
+    "position_size_pct": 0.0559,
+    "confidence": 0.874,
+    "signals": [
+      "RSI overbought (64.0)",
+      "5d momentum +5.13%",
+      "1d momentum +7.23%",
+      "BB overbought (pct_b=1.18)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 1 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.333,
+    "news_headlines": [
+      "Himax, Power Integrations, MACOM, onsemi, and Microchip Technology Shares Are Falling, What You Need To Know",
+      "ON Semiconductor Corp. (ON) Declines More Than Market: Some Information for Investors",
+      "Own ON Semiconductor For AI Power, Or Own Micron's Contracts?"
+    ],
+    "mode": "paper",
+    "strategy_version": "138",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260925144659",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 119.77999877929688,
+    "entry_time": "2026-09-25T14:46:59.804647+00:00",
+    "stop_loss_pct": 0.01255,
+    "take_profit_pct": 0.03106,
+    "size_usd": 5032.28,
+    "position_size_pct": 0.0508,
+    "confidence": 0.95,
+    "signals": [
+      "RSI overbought (65.8)",
+      "5d momentum +1.18%",
+      "1d momentum +4.54%",
+      "BB overbought (pct_b=0.86)",
+      "Volume spike 3.3\u00d7",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.562,
+    "news_headlines": [
+      "What does an on-chain economy mean for retail investors?",
+      "Morehead Casts Ripple as a SWIFT Rival, Not a Replacement",
+      "AI Crypto Coins Revenue Gap Puts Token Value to the Test"
     ],
     "mode": "paper",
     "strategy_version": "138",
