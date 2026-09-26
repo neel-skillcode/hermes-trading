@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99004.15,
+  "portfolio_balance": 99220.2,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.24,
-  "unrealized_pnl_usd": 1653.05,
-  "equity_value": 100657.2,
+  "portfolio_drawdown_pct": 8.04,
+  "unrealized_pnl_usd": 1337.68,
+  "equity_value": 100557.89,
   "open_positions": 18,
-  "day_trades_open": 8,
-  "swing_trades_open": 10,
-  "day_capital_used_usd": 39601.66,
-  "swing_capital_used_usd": 49390.76,
-  "total_trades": 1584,
-  "last_tick": "2026-09-25T21:58:40.315195+00:00",
+  "day_trades_open": 9,
+  "swing_trades_open": 9,
+  "day_capital_used_usd": 39688.08,
+  "swing_capital_used_usd": 45480.98,
+  "total_trades": 1585,
+  "last_tick": "2026-09-26T00:26:28.087998+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 3,
+  "trades_since_last_reflection": 4,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8434,
-      "unrealized_pnl_pct": 0.001162,
-      "unrealized_pnl_usd": 1.56
+      "current_price": 7.8431,
+      "unrealized_pnl_pct": 0.001123,
+      "unrealized_pnl_usd": 1.51
     },
     {
       "id": "SOFI_20260903143205",
@@ -240,40 +240,6 @@
       "unrealized_pnl_usd": 264.06
     },
     {
-      "id": "AVAX-USD_20260923001905",
-      "asset": "AVAX-USD",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 11.255999565124512,
-      "entry_time": "2026-09-23T00:19:05.146201+00:00",
-      "stop_loss_pct": 0.03341,
-      "take_profit_pct": 0.10965,
-      "size_usd": 3909.78,
-      "position_size_pct": 0.0396,
-      "confidence": 0.564,
-      "signals": [
-        "RSI overbought (73.5)",
-        "5d momentum +2.32%",
-        "BB overbought (pct_b=1.01)",
-        "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-      ],
-      "news_sentiment": 0.66,
-      "news_headlines": [
-        "Kevin O'Leary Is Certain Ethereum Won't Be the 'Standard' Across Industry Sectors \u2014 The 'Shark' Says These Coins Could Gain Interest",
-        "Crypto Tokens Jump Up to 50% in a Post-Clarity Regulatory Bet",
-        "Morning Minute: Kevin O\u2019Leary Calls for $1 Million Bitcoin, With an Asterisk"
-      ],
-      "mode": "paper",
-      "strategy_version": "136",
-      "status": "open",
-      "price_trough": 10.229000091552734,
-      "trailing_stop_price": 10.570751,
-      "current_price": 10.463,
-      "unrealized_pnl_pct": 0.070451,
-      "unrealized_pnl_usd": 275.45
-    },
-    {
       "id": "USD/CAD_20260923142537",
       "asset": "USD/CAD",
       "trade_type": "swing",
@@ -332,9 +298,9 @@
       "status": "open",
       "price_peak": 2704.02001953125,
       "trailing_stop_price": 2680.495045,
-      "current_price": 2680.800049,
-      "unrealized_pnl_pct": 0.007585,
-      "unrealized_pnl_usd": 44.72
+      "current_price": 2689.850098,
+      "unrealized_pnl_pct": 0.010986,
+      "unrealized_pnl_usd": 64.78
     },
     {
       "id": "META_20260924182539",
@@ -435,8 +401,8 @@
       "mode": "paper",
       "strategy_version": "138",
       "status": "open",
-      "price_trough": 55.040000915527344,
-      "trailing_stop_price": 55.541966,
+      "price_trough": 55.04,
+      "trailing_stop_price": 55.541965,
       "current_price": 55.040001,
       "unrealized_pnl_pct": 0.000545,
       "unrealized_pnl_usd": 3.02
@@ -537,11 +503,9 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "price_trough": 120.97000122070312,
-      "trailing_stop_price": 122.6285,
-      "current_price": 120.980003,
-      "unrealized_pnl_pct": 0.008361,
-      "unrealized_pnl_usd": 46.3
+      "current_price": 122.300003,
+      "unrealized_pnl_pct": -0.002459,
+      "unrealized_pnl_usd": -13.62
     },
     {
       "id": "IONQ_20260925185631",
@@ -604,11 +568,44 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "price_trough": 516.1699829101562,
-      "trailing_stop_price": 520.474841,
+      "price_trough": 516.17,
+      "trailing_stop_price": 520.474858,
       "current_price": 516.099976,
       "unrealized_pnl_pct": 0.000736,
       "unrealized_pnl_usd": 0.43
+    },
+    {
+      "id": "DOGE-USD_20260926002628",
+      "asset": "DOGE-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 0.09920000284910202,
+      "entry_time": "2026-09-26T00:26:28.081703+00:00",
+      "stop_loss_pct": 0.01272,
+      "take_profit_pct": 0.03049,
+      "size_usd": 86.42,
+      "position_size_pct": 0.0009,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (69.5)",
+        "5d momentum +1.69%",
+        "1d momentum +3.60%",
+        "BB overbought (pct_b=0.92)",
+        "High-impact catalyst",
+        "Claude [contradicts]: price surge"
+      ],
+      "news_sentiment": 0.641,
+      "news_headlines": [
+        "Is Dogecoin the Best Crypto You Can Buy Right Now?",
+        "Dogecoin Reclaims $0.10 Amidst $12.7 Million Short Squeeze: Can It Maintain This Level in October?",
+        "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?"
+      ],
+      "mode": "paper",
+      "strategy_version": "139",
+      "status": "open",
+      "current_price": 0.0992,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -645,18 +642,18 @@
       "bollinger_pct_b": 0.8481,
       "volume_spike": true,
       "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.171,
-      "news_confidence": 0.41,
+      "news_sentiment": 0.2,
+      "news_confidence": 0.35,
       "news_headlines": [
+        "ON Semiconductor (ON) Could Be 28% Below Fair Value As Product Momentum Builds",
         "Update: Dow Snaps 3-Day Losing Streak as Oil Retreats; Wall Street Logs Weekly Gains",
-        "Update: Equities Rise Intraday as Oil Prices Fall Following Iran's Proposal",
-        "Himax, Power Integrations, MACOM, onsemi, and Microchip Technology Shares Are Falling, What You Need To Know"
+        "Update: Equities Rise Intraday as Oil Prices Fall Following Iran's Proposal"
       ],
       "high_impact_news": true
     },
     {
       "asset": "PYPL",
-      "rank_score": 0.5935,
+      "rank_score": 0.5885,
       "price": 55.040000915527344,
       "rsi": 76.31027136308528,
       "momentum_5d": 0.004746296860611321,
@@ -666,12 +663,12 @@
       "bollinger_pct_b": 0.8472,
       "volume_spike": true,
       "volume_spike_ratio": 1.6,
-      "news_sentiment": 0.864,
-      "news_confidence": 0.44,
+      "news_sentiment": 0.805,
+      "news_confidence": 0.41,
       "news_headlines": [
+        "PYPL Stock Climbs On West Coast Takeover Rumors After Stripe Walk-Away Leaves Room For A New Bidder",
         "How Much Upside Does PayPal Stock Have Without A Buyer?",
-        "PayPal Stock Jumps on Fresh Takeover Chatter After Stripe Walks Away",
-        "How Has Visa's Growth Story Changed?"
+        "PayPal Stock Jumps on Fresh Takeover Chatter After Stripe Walks Away"
       ],
       "high_impact_news": true
     },
@@ -693,6 +690,48 @@
         "Gaming stocks fall after Meta unveils AI game-building tools",
         "The Engine Behind Unity Stock Has Real Parts",
         "Roblox (RBLX) Stock Moves -2.69%: What You Should Know"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "DOGE-USD",
+      "rank_score": 0.5668,
+      "price": 0.09920000284910202,
+      "rsi": 69.47046283003957,
+      "momentum_5d": 0.016914460534796658,
+      "momentum_1d": 0.036031398109474436,
+      "macd_crossover": false,
+      "atr_pct": 0.013515281999800151,
+      "bollinger_pct_b": 0.9177,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.41,
+      "news_sentiment": 0.641,
+      "news_confidence": 0.39,
+      "news_headlines": [
+        "Is Dogecoin the Best Crypto You Can Buy Right Now?",
+        "Dogecoin Reclaims $0.10 Amidst $12.7 Million Short Squeeze: Can It Maintain This Level in October?",
+        "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.5659,
+      "price": 10.633000373840332,
+      "rsi": 62.26882801521646,
+      "momentum_5d": 0.016928083418407902,
+      "momentum_1d": 0.04224668924873794,
+      "macd_crossover": false,
+      "atr_pct": 0.01594764653505626,
+      "bollinger_pct_b": 0.9383,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.28,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
+        "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?",
+        "Stellar Now Hosts $2.75 Billion in Tokenized Real-World Assets: What Does It Mean for XLM Holders?"
       ],
       "high_impact_news": true
     },
@@ -760,27 +799,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "MSFT",
-      "rank_score": 0.5292,
-      "price": 516.0999755859375,
-      "rsi": 72.83852775763377,
-      "momentum_5d": 0.0038900555335523524,
-      "momentum_1d": 0.03861860655330455,
-      "macd_crossover": false,
-      "atr_pct": 0.008909596669220794,
-      "bollinger_pct_b": 0.8393,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.684,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "What's different about Microsoft's Copilot AI reboot",
-        "CEO Satya Nadella on Microsoft's AI bet",
-        "Microsoft CEO: Autopilot is the 'next generation' of enterprise AI"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "VRTX",
       "rank_score": 0.5104,
       "price": 526.4400024414062,
@@ -798,6 +816,27 @@
         "Maze Therapeutics (MAZE) Shares Moved, So What Is Driving Attention Now?",
         "Vertex Pharmaceuticals (VRTX) Increases Despite Market Slip: Here's What You Need to Know",
         "Will Vertex's Kidney Disease Pipeline Be a New Growth Engine?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MSFT",
+      "rank_score": 0.5102,
+      "price": 516.0999755859375,
+      "rsi": 72.83852775763377,
+      "momentum_5d": 0.0038900555335523524,
+      "momentum_1d": 0.03861860655330455,
+      "macd_crossover": false,
+      "atr_pct": 0.008909596669220794,
+      "bollinger_pct_b": 0.8393,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.1,
+      "news_sentiment": 0.189,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "What's different about Microsoft's Copilot AI reboot",
+        "CEO Satya Nadella on Microsoft's AI bet",
+        "Microsoft CEO: Autopilot is the 'next generation' of enterprise AI"
       ],
       "high_impact_news": true
     },
@@ -837,9 +876,9 @@
       "news_sentiment": 0.073,
       "news_confidence": 0.41,
       "news_headlines": [
+        "Citigroup targets over $3 billion Banamex IPO for January - Bloomberg",
         "Bank of America Says Stocks Are Overdue for a Pullback. These 2 Financial Stocks Are Built for One.",
-        "Higher Lithium Prices Strengthen J.P. Morgan\u2019s Case, But Execution Still Matters",
-        "JPMorgan Chase (JPM) Stock Could Be Undervalued Based On Capital Returns"
+        "Higher Lithium Prices Strengthen J.P. Morgan\u2019s Case, But Execution Still Matters"
       ],
       "high_impact_news": true
     },
@@ -858,9 +897,9 @@
       "news_sentiment": 0.507,
       "news_confidence": 0.46,
       "news_headlines": [
+        "Lam Research (LRCX) Outperforms Broader Market: What You Need to Know",
         "Wall Street Bulls Look Optimistic About Lam Research (LRCX): Should You Buy?",
-        "Lam Research (LRCX) Following Higher 2026 Outlook And Packaging Growth Is It Still Undervalued",
-        "Lam Research, Marvell Technology, Western Digital, FormFactor, and Penguin Solutions Shares Are Falling, What You Need To Know"
+        "Lam Research (LRCX) Following Higher 2026 Outlook And Packaging Growth Is It Still Undervalued"
       ],
       "high_impact_news": true
     },
@@ -886,27 +925,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "SOL-USD",
-      "rank_score": 0.4844,
-      "price": 120.9800033569336,
-      "rsi": 73.61970416910775,
-      "momentum_5d": 0.0010757541121553208,
-      "momentum_1d": 0.03543313205069303,
-      "macd_crossover": false,
-      "atr_pct": 0.014778111391481396,
-      "bollinger_pct_b": 0.719,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.4,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.389,
-      "news_headlines": [
-        "Weekly Wrap: The Crypto Rally Continues",
-        "Ethereum Breaks Year-Long Downtrend but Faces Resistance at $2,800",
-        "Solana Foundation\u2019s New Hires: What Does It Mean for SOL?"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SNAP",
       "rank_score": 0.484,
       "price": 5.429999828338623,
@@ -924,6 +942,48 @@
         "PINS Rides on Growing International Monetization: Can Momentum Continue?",
         "RDDT Expands Global Footprint: Can It Stay Ahead of PINS & SNAP?",
         "Meta Slides 4% as Retracement Follows 32% Monthly Run; Pinterest and Snap Inch Higher"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.4817,
+      "price": 922.9500122070312,
+      "rsi": 69.09485040527551,
+      "momentum_5d": 0.00354468327041828,
+      "momentum_1d": 0.025750719237747723,
+      "macd_crossover": false,
+      "atr_pct": 0.007824132253616067,
+      "bollinger_pct_b": 0.9039,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.41,
+      "news_sentiment": 0.406,
+      "news_confidence": 0.48,
+      "news_headlines": [
+        "How Costco is keeping shoppers coming back as K-shaped economy widens",
+        "Costco tops Q4 estimates, boosted by tariff refunds",
+        "Stocks to Watch Recap: Costco, Akamai Technologies, People"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "SOL-USD",
+      "rank_score": 0.4786,
+      "price": 122.30000305175781,
+      "rsi": 71.63361013076931,
+      "momentum_5d": 0.003116837996387802,
+      "momentum_1d": 0.04512054828369587,
+      "macd_crossover": false,
+      "atr_pct": 0.013871033844513747,
+      "bollinger_pct_b": 0.8147,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.03,
+      "news_sentiment": 0.714,
+      "news_confidence": 0.389,
+      "news_headlines": [
+        "Weekly Wrap: The Crypto Rally Continues",
+        "Ethereum Breaks Year-Long Downtrend but Faces Resistance at $2,800",
+        "Solana Foundation\u2019s New Hires: What Does It Mean for SOL?"
       ],
       "high_impact_news": true
     },
@@ -966,69 +1026,6 @@
         "Applied Materials (AMAT), What Is Behind The Fresh Attention Today?",
         "ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better Buy?",
         "Richard Ross Names Semiconductor Equipment And Memory Buys"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.4697,
-      "price": 922.9500122070312,
-      "rsi": 69.09485040527551,
-      "momentum_5d": 0.00354468327041828,
-      "momentum_1d": 0.025750719237747723,
-      "macd_crossover": false,
-      "atr_pct": 0.007824132253616067,
-      "bollinger_pct_b": 0.9039,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.15,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "How Costco is keeping shoppers coming back as K-shaped economy widens",
-        "Costco tops Q4 estimates, boosted by tariff refunds",
-        "Stock Market Today: Dow Surges 450 Points On U.S.-Iran Peace Hopes; Micron Rises"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PLTR",
-      "rank_score": 0.468,
-      "price": 189.66000366210938,
-      "rsi": 39.671442506920265,
-      "momentum_5d": -0.010925405686195497,
-      "momentum_1d": 0.02624320203228149,
-      "macd_crossover": false,
-      "atr_pct": 0.010502195078629735,
-      "bollinger_pct_b": -0.0455,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.66,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.28,
-      "news_headlines": [
-        "How to make sense of 7% mortgage rates and Oracle's AI data center disruption",
-        "Can Palantir\u2019s AI moat survive the competition?",
-        "Palantir vs. Snowflake: Which Enterprise AI Stock Better Justifies Its Valuation?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "C",
-      "rank_score": 0.463,
-      "price": 134.28500366210938,
-      "rsi": 71.20529384845601,
-      "momentum_5d": 0.005503561164777437,
-      "momentum_1d": 0.015387551320297732,
-      "macd_crossover": false,
-      "atr_pct": 0.006922843719596905,
-      "bollinger_pct_b": 0.8504,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.15,
-      "news_sentiment": 0.742,
-      "news_confidence": 0.62,
-      "news_headlines": [
-        "Citigroup (C) Exceeds Market Returns: Some Facts to Consider",
-        "Major Banks Face Lack of Catalysts Through Upcoming Earnings, But Strong Medium-Term Outlook, Morgan Stanley Says",
-        "Zscaler Sinks 9% on Chief Revenue Officer Exit, Fastly Drops 6% as Citi Questions AI Traffic Payoff"
       ],
       "high_impact_news": true
     }

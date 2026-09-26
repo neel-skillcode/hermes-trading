@@ -200,37 +200,6 @@
     "price_trough": 292.17999267578125,
     "trailing_stop_price": 298.143386
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260923001905",
-    "asset": "AVAX-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 11.255999565124512,
-    "entry_time": "2026-09-23T00:19:05.146201+00:00",
-    "stop_loss_pct": 0.03341,
-    "take_profit_pct": 0.10965,
-    "size_usd": 3909.78,
-    "position_size_pct": 0.0396,
-    "confidence": 0.564,
-    "signals": [
-      "RSI overbought (73.5)",
-      "5d momentum +2.32%",
-      "BB overbought (pct_b=1.01)",
-      "High-impact catalyst",
-      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.66,
-    "news_headlines": [
-      "Kevin O'Leary Is Certain Ethereum Won't Be the 'Standard' Across Industry Sectors \u2014 The 'Shark' Says These Coins Could Gain Interest",
-      "Crypto Tokens Jump Up to 50% in a Post-Clarity Regulatory Bet",
-      "Morning Minute: Kevin O\u2019Leary Calls for $1 Million Bitcoin, With an Asterisk"
-    ],
-    "mode": "paper",
-    "strategy_version": "136",
-    "status": "open",
-    "price_trough": 10.229000091552734,
-    "trailing_stop_price": 10.570751
-  },
   "USD/CAD": {
     "id": "USD/CAD_20260923142537",
     "asset": "USD/CAD",
@@ -380,7 +349,9 @@
     ],
     "mode": "paper",
     "strategy_version": "138",
-    "status": "open"
+    "status": "open",
+    "price_trough": 55.04,
+    "trailing_stop_price": 55.541965
   },
   "QCOM": {
     "id": "QCOM_20260925144659",
@@ -527,6 +498,38 @@
       "Microsoft CEO: We 'have to earn that permission' to build data centers from communities",
       "CEO Satya Nadella on Microsoft's AI bet",
       "Microsoft CEO: Autopilot is the 'next generation' of enterprise AI"
+    ],
+    "mode": "paper",
+    "strategy_version": "139",
+    "status": "open",
+    "price_trough": 516.17,
+    "trailing_stop_price": 520.474858
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260926002628",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.09920000284910202,
+    "entry_time": "2026-09-26T00:26:28.081703+00:00",
+    "stop_loss_pct": 0.01272,
+    "take_profit_pct": 0.03049,
+    "size_usd": 86.42,
+    "position_size_pct": 0.0009,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (69.5)",
+      "5d momentum +1.69%",
+      "1d momentum +3.60%",
+      "BB overbought (pct_b=0.92)",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge"
+    ],
+    "news_sentiment": 0.641,
+    "news_headlines": [
+      "Is Dogecoin the Best Crypto You Can Buy Right Now?",
+      "Dogecoin Reclaims $0.10 Amidst $12.7 Million Short Squeeze: Can It Maintain This Level in October?",
+      "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?"
     ],
     "mode": "paper",
     "strategy_version": "139",
