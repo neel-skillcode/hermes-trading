@@ -3,15 +3,15 @@
   "portfolio_balance": 99220.2,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 8.04,
-  "unrealized_pnl_usd": 1337.68,
-  "equity_value": 100557.89,
+  "unrealized_pnl_usd": 1419.1,
+  "equity_value": 100639.3,
   "open_positions": 18,
   "day_trades_open": 9,
   "swing_trades_open": 9,
   "day_capital_used_usd": 39688.08,
   "swing_capital_used_usd": 45480.98,
   "total_trades": 1585,
-  "last_tick": "2026-09-26T00:26:28.087998+00:00",
+  "last_tick": "2026-09-26T05:17:26.589633+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 4,
   "universe_scanned": 110,
@@ -298,9 +298,9 @@
       "status": "open",
       "price_peak": 2704.02001953125,
       "trailing_stop_price": 2680.495045,
-      "current_price": 2689.850098,
-      "unrealized_pnl_pct": 0.010986,
-      "unrealized_pnl_usd": 64.78
+      "current_price": 2687.02002,
+      "unrealized_pnl_pct": 0.009922,
+      "unrealized_pnl_usd": 58.5
     },
     {
       "id": "META_20260924182539",
@@ -503,9 +503,11 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 122.300003,
-      "unrealized_pnl_pct": -0.002459,
-      "unrealized_pnl_usd": -13.62
+      "price_trough": 120.37999725341797,
+      "trailing_stop_price": 122.030407,
+      "current_price": 120.400002,
+      "unrealized_pnl_pct": 0.013115,
+      "unrealized_pnl_usd": 72.63
     },
     {
       "id": "IONQ_20260925185631",
@@ -568,8 +570,8 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "price_trough": 516.17,
-      "trailing_stop_price": 520.474858,
+      "price_trough": 516.1699829101562,
+      "trailing_stop_price": 520.474841,
       "current_price": 516.099976,
       "unrealized_pnl_pct": 0.000736,
       "unrealized_pnl_usd": 0.43
@@ -603,15 +605,17 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 0.0992,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.0975399985909462,
+      "trailing_stop_price": 0.098781,
+      "current_price": 0.09754,
+      "unrealized_pnl_pct": 0.016734,
+      "unrealized_pnl_usd": 1.45
     }
   ],
   "last_candidates": [
     {
       "asset": "PFE",
-      "rank_score": 0.6194,
+      "rank_score": 0.6124,
       "price": 28.684999465942383,
       "rsi": 65.29405098895872,
       "momentum_5d": 0.014321031452029813,
@@ -621,18 +625,18 @@
       "bollinger_pct_b": 0.8967,
       "volume_spike": true,
       "volume_spike_ratio": 1.84,
-      "news_sentiment": 0.643,
-      "news_confidence": 0.56,
+      "news_sentiment": 0.569,
+      "news_confidence": 0.51,
       "news_headlines": [
         "The 8:30: Trump-Xi summit takeaways, an interview with Microsoft CEO Satya Nadella",
-        "AbbVie vs. Pfizer: Which Healthcare Stock Makes Your Portfolio Healthier in 2026?",
-        "Is LLY Stock Cheaper Than It Looks?"
+        "Pfizer (PFE) Targets Air Traffic Fees Over Unpaid Vaccines. Can it Turn a Court Win Into Cash?",
+        "AbbVie vs. Pfizer: Which Healthcare Stock Makes Your Portfolio Healthier in 2026?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ON",
-      "rank_score": 0.5958,
+      "rank_score": 0.6008,
       "price": 77.18000030517578,
       "rsi": 67.89468424189857,
       "momentum_5d": 0.011069643424873076,
@@ -642,12 +646,12 @@
       "bollinger_pct_b": 0.8481,
       "volume_spike": true,
       "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.2,
-      "news_confidence": 0.35,
+      "news_sentiment": 0.316,
+      "news_confidence": 0.38,
       "news_headlines": [
+        "Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know",
         "ON Semiconductor (ON) Could Be 28% Below Fair Value As Product Momentum Builds",
-        "Update: Dow Snaps 3-Day Losing Streak as Oil Retreats; Wall Street Logs Weekly Gains",
-        "Update: Equities Rise Intraday as Oil Prices Fall Following Iran's Proposal"
+        "Update: Dow Snaps 3-Day Losing Streak as Oil Retreats; Wall Street Logs Weekly Gains"
       ],
       "high_impact_news": true
     },
@@ -668,7 +672,7 @@
       "news_headlines": [
         "PYPL Stock Climbs On West Coast Takeover Rumors After Stripe Walk-Away Leaves Room For A New Bidder",
         "How Much Upside Does PayPal Stock Have Without A Buyer?",
-        "PayPal Stock Jumps on Fresh Takeover Chatter After Stripe Walks Away"
+        "PYPL Stock Alert: What to Know as PayPal Takeover Rumors Restart"
       ],
       "high_impact_news": true
     },
@@ -694,44 +698,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "DOGE-USD",
-      "rank_score": 0.5668,
-      "price": 0.09920000284910202,
-      "rsi": 69.47046283003957,
-      "momentum_5d": 0.016914460534796658,
-      "momentum_1d": 0.036031398109474436,
+      "asset": "MRNA",
+      "rank_score": 0.5707,
+      "price": 198.88999938964844,
+      "rsi": 76.65736908447153,
+      "momentum_5d": 0.01162230722395274,
+      "momentum_1d": 0.08933069008119383,
       "macd_crossover": false,
-      "atr_pct": 0.013515281999800151,
-      "bollinger_pct_b": 0.9177,
+      "atr_pct": 0.022429591417516114,
+      "bollinger_pct_b": 0.85,
       "volume_spike": false,
-      "volume_spike_ratio": 0.41,
-      "news_sentiment": 0.641,
-      "news_confidence": 0.39,
+      "volume_spike_ratio": 0.67,
+      "news_sentiment": 0.687,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "Is Dogecoin the Best Crypto You Can Buy Right Now?",
-        "Dogecoin Reclaims $0.10 Amidst $12.7 Million Short Squeeze: Can It Maintain This Level in October?",
-        "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5659,
-      "price": 10.633000373840332,
-      "rsi": 62.26882801521646,
-      "momentum_5d": 0.016928083418407902,
-      "momentum_1d": 0.04224668924873794,
-      "macd_crossover": false,
-      "atr_pct": 0.01594764653505626,
-      "bollinger_pct_b": 0.9383,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.28,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
-        "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?",
-        "Stellar Now Hosts $2.75 Billion in Tokenized Real-World Assets: What Does It Mean for XLM Holders?"
+        "Moderna (MRNA) Surpasses Market Returns: Some Facts Worth Knowing",
+        "MRNA, PGEN Stocks Hit Multi-Year Highs \u2013 What\u2019s Driving The Momentum Today?",
+        "Stock Market Midday, Sept. 25: AI Momentum Lifts Markets as Akamai Soars on Anthropic Deal"
       ],
       "high_impact_news": true
     },
@@ -767,7 +750,7 @@
       "atr_pct": 0.02517621327751179,
       "bollinger_pct_b": 0.2583,
       "volume_spike": false,
-      "volume_spike_ratio": 0.85,
+      "volume_spike_ratio": 0.86,
       "news_sentiment": 0.736,
       "news_confidence": 0.53,
       "news_headlines": [
@@ -799,6 +782,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MSFT",
+      "rank_score": 0.5222,
+      "price": 516.0999755859375,
+      "rsi": 72.83852775763377,
+      "momentum_5d": 0.0038900555335523524,
+      "momentum_1d": 0.03861860655330455,
+      "macd_crossover": false,
+      "atr_pct": 0.008909596669220794,
+      "bollinger_pct_b": 0.8393,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.1,
+      "news_sentiment": 0.404,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "What's different about Microsoft's Copilot AI reboot",
+        "CEO Satya Nadella on Microsoft's AI bet",
+        "Qualcomm's CMO reveals the secret behind Snapdragon's rise"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "VRTX",
       "rank_score": 0.5104,
       "price": 526.4400024414062,
@@ -820,29 +824,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "MSFT",
-      "rank_score": 0.5102,
-      "price": 516.0999755859375,
-      "rsi": 72.83852775763377,
-      "momentum_5d": 0.0038900555335523524,
-      "momentum_1d": 0.03861860655330455,
-      "macd_crossover": false,
-      "atr_pct": 0.008909596669220794,
-      "bollinger_pct_b": 0.8393,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.189,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "What's different about Microsoft's Copilot AI reboot",
-        "CEO Satya Nadella on Microsoft's AI bet",
-        "Microsoft CEO: Autopilot is the 'next generation' of enterprise AI"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "BMY",
-      "rank_score": 0.5044,
+      "rank_score": 0.4984,
       "price": 62.869998931884766,
       "rsi": 80.3592328119103,
       "momentum_5d": 0.01632553362817331,
@@ -852,12 +835,12 @@
       "bollinger_pct_b": 1.0074,
       "volume_spike": false,
       "volume_spike_ratio": 1.45,
-      "news_sentiment": 0.652,
-      "news_confidence": 0.46,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
       "news_headlines": [
+        "Novartis (NVS) and Bristol Myers (BMY) Pause Autoimmune CAR-T Studies. Can Their Programs Recover?",
         "Pfizer Stock Paid Out $49B: So Why Did Investors Lose Money?",
-        "Acadia Pharmaceuticals Fell 19% Today. Here\u2019s Where the Stock Could Go in 2026",
-        "Bristol Myers Squibb (BMY) Adds Restricted Pharmacy Path For New Myeloma Drug"
+        "Acadia Pharmaceuticals Fell 19% Today. Here\u2019s Where the Stock Could Go in 2026"
       ],
       "high_impact_news": true
     },
@@ -876,9 +859,9 @@
       "news_sentiment": 0.073,
       "news_confidence": 0.41,
       "news_headlines": [
+        "Morgan Stanley public finance co-head Zach Solomon leaves for TD - Bloomberg",
         "Citigroup targets over $3 billion Banamex IPO for January - Bloomberg",
-        "Bank of America Says Stocks Are Overdue for a Pullback. These 2 Financial Stocks Are Built for One.",
-        "Higher Lithium Prices Strengthen J.P. Morgan\u2019s Case, But Execution Still Matters"
+        "Bank of America Says Stocks Are Overdue for a Pullback. These 2 Financial Stocks Are Built for One."
       ],
       "high_impact_news": true
     },
@@ -904,6 +887,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "SNAP",
+      "rank_score": 0.4873,
+      "price": 5.429999828338623,
+      "rsi": 63.98448840990813,
+      "momentum_5d": -0.008219192160326677,
+      "momentum_1d": -0.03895513244486784,
+      "macd_crossover": false,
+      "atr_pct": 0.014483035303827512,
+      "bollinger_pct_b": 0.7277,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.36,
+      "news_sentiment": 0.633,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "Reddit (RDDT) vs Snap (SNAP): Which is a Better Stock to Buy?",
+        "PINS Rides on Growing International Monetization: Can Momentum Continue?",
+        "Anthropic\u2019s founders seek voting control ahead of IPO"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "IONQ",
       "rank_score": 0.4857,
       "price": 45.5,
@@ -925,29 +929,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "SNAP",
-      "rank_score": 0.484,
-      "price": 5.429999828338623,
-      "rsi": 63.98448840990813,
-      "momentum_5d": -0.008219192160326677,
-      "momentum_1d": -0.03895513244486784,
-      "macd_crossover": false,
-      "atr_pct": 0.014483035303827512,
-      "bollinger_pct_b": 0.7277,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.36,
-      "news_sentiment": 0.581,
-      "news_confidence": 0.478,
-      "news_headlines": [
-        "PINS Rides on Growing International Monetization: Can Momentum Continue?",
-        "RDDT Expands Global Footprint: Can It Stay Ahead of PINS & SNAP?",
-        "Meta Slides 4% as Retracement Follows 32% Monthly Run; Pinterest and Snap Inch Higher"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "COST",
-      "rank_score": 0.4817,
+      "rank_score": 0.4777,
       "price": 922.9500122070312,
       "rsi": 69.09485040527551,
       "momentum_5d": 0.00354468327041828,
@@ -957,54 +940,12 @@
       "bollinger_pct_b": 0.9039,
       "volume_spike": false,
       "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.406,
-      "news_confidence": 0.48,
+      "news_sentiment": 0.337,
+      "news_confidence": 0.46,
       "news_headlines": [
         "How Costco is keeping shoppers coming back as K-shaped economy widens",
-        "Costco tops Q4 estimates, boosted by tariff refunds",
-        "Stocks to Watch Recap: Costco, Akamai Technologies, People"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.4786,
-      "price": 122.30000305175781,
-      "rsi": 71.63361013076931,
-      "momentum_5d": 0.003116837996387802,
-      "momentum_1d": 0.04512054828369587,
-      "macd_crossover": false,
-      "atr_pct": 0.013871033844513747,
-      "bollinger_pct_b": 0.8147,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.03,
-      "news_sentiment": 0.714,
-      "news_confidence": 0.389,
-      "news_headlines": [
-        "Weekly Wrap: The Crypto Rally Continues",
-        "Ethereum Breaks Year-Long Downtrend but Faces Resistance at $2,800",
-        "Solana Foundation\u2019s New Hires: What Does It Mean for SOL?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.477,
-      "price": 201.9499969482422,
-      "rsi": 61.9959200809441,
-      "momentum_5d": -0.01217963932414701,
-      "momentum_1d": 0.03101466214801372,
-      "macd_crossover": false,
-      "atr_pct": 0.013634324326205963,
-      "bollinger_pct_b": 0.7412,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.796,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "How Much Track Is Left For MRVL Stock?",
-        "Chip Stocks Rise After Two-Day Skid. Tower Semiconductor Among Leaders.",
-        "US Equity Indexes Rose This Week as Mega-Cap Tech Jumps While Iran Proposes Conditional Reopening of Hormuz Chokepoint"
+        "Costco is getting squeezed by the AI boom",
+        "Costco tops Q4 estimates, boosted by tariff refunds"
       ],
       "high_impact_news": true
     },
@@ -1026,6 +967,69 @@
         "Applied Materials (AMAT), What Is Behind The Fresh Attention Today?",
         "ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better Buy?",
         "Richard Ross Names Semiconductor Equipment And Memory Buys"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "QCOM",
+      "rank_score": 0.474,
+      "price": 201.9499969482422,
+      "rsi": 61.9959200809441,
+      "momentum_5d": -0.01217963932414701,
+      "momentum_1d": 0.03101466214801372,
+      "macd_crossover": false,
+      "atr_pct": 0.013634324326205963,
+      "bollinger_pct_b": 0.7412,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.39,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Qualcomm's CMO reveals the secret behind Snapdragon's rise",
+        "These are stocks getting lifted up by Meta's Muse",
+        "Qualcomm (QCOM) Shares Skyrocket, What You Need To Know"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PLTR",
+      "rank_score": 0.47,
+      "price": 189.66000366210938,
+      "rsi": 39.671442506920265,
+      "momentum_5d": -0.010925405686195497,
+      "momentum_1d": 0.02624320203228149,
+      "macd_crossover": false,
+      "atr_pct": 0.010502195078629735,
+      "bollinger_pct_b": -0.0455,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.66,
+      "news_sentiment": 0.389,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "How to make sense of 7% mortgage rates and Oracle's AI data center disruption",
+        "Can Palantir\u2019s AI moat survive the competition?",
+        "Why Palantir (PLTR) Is Up 6.8% After Expanding AIP Deals And Announcing Nebius AI Partnership"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.4689,
+      "price": 343.8399963378906,
+      "rsi": 80.2020943086223,
+      "momentum_5d": -0.00023266191765418577,
+      "momentum_1d": -0.024429041199984552,
+      "macd_crossover": false,
+      "atr_pct": 0.0069807147563068885,
+      "bollinger_pct_b": 0.7715,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.05,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.36,
+      "news_headlines": [
+        "Why this early Uber investor would short OpenAI",
+        "Could OpenAI and Anthropic going public backfire?",
+        "AI financing fears are mounting, sparked by Oracle's force majeure notice"
       ],
       "high_impact_news": true
     }
