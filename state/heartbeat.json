@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99269.91,
+  "portfolio_balance": 99241.96,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.0,
-  "unrealized_pnl_usd": 1288.75,
-  "equity_value": 100558.66,
+  "portfolio_drawdown_pct": 8.02,
+  "unrealized_pnl_usd": 1280.2,
+  "equity_value": 100522.16,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 31329.1,
+  "day_capital_used_usd": 32344.48,
   "swing_capital_used_usd": 49634.95,
-  "total_trades": 1589,
-  "last_tick": "2026-09-27T16:58:14.405706+00:00",
+  "total_trades": 1590,
+  "last_tick": "2026-09-27T19:58:56.466012+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -166,8 +166,8 @@
       "mode": "paper",
       "strategy_version": "134",
       "status": "open",
-      "price_trough": 111.08899688720703,
-      "trailing_stop_price": 111.977709,
+      "price_trough": 111.08399963378906,
+      "trailing_stop_price": 111.972672,
       "current_price": 111.150002,
       "unrealized_pnl_pct": 0.011358,
       "unrealized_pnl_usd": 48.64
@@ -537,9 +537,9 @@
       "status": "open",
       "price_trough": 0.09664999693632126,
       "trailing_stop_price": 0.097879,
-      "current_price": 0.09665,
-      "unrealized_pnl_pct": 0.025706,
-      "unrealized_pnl_usd": 2.22
+      "current_price": 0.09716,
+      "unrealized_pnl_pct": 0.020565,
+      "unrealized_pnl_usd": 1.78
     },
     {
       "id": "ETH-USD_20260927165814",
@@ -569,65 +569,44 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 2686.340088,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 2691.580078,
+      "unrealized_pnl_pct": -0.001951,
+      "unrealized_pnl_usd": -8.1
     },
     {
-      "id": "XRP-USD_20260927165814",
-      "asset": "XRP-USD",
+      "id": "SOL-USD_20260927195856",
+      "asset": "SOL-USD",
       "trade_type": "day",
-      "direction": "short",
-      "entry_price": 1.5180000066757202,
-      "entry_time": "2026-09-27T16:58:14.402959+00:00",
-      "stop_loss_pct": 0.0062,
-      "take_profit_pct": 0.01391,
-      "size_usd": 3074.98,
-      "position_size_pct": 0.031,
-      "confidence": 0.484,
+      "direction": "long",
+      "entry_price": 123.0999984741211,
+      "entry_time": "2026-09-27T19:58:56.463396+00:00",
+      "stop_loss_pct": 0.00733,
+      "take_profit_pct": 0.01703,
+      "size_usd": 4090.36,
+      "position_size_pct": 0.0412,
+      "confidence": 0.644,
       "signals": [
-        "5d momentum -1.27%",
-        "1d momentum -1.83%",
-        "Volume spike 1.5\u00d7",
+        "RSI overbought (62.7)",
+        "5d momentum +1.16%",
+        "1d momentum +1.63%",
         "High-impact catalyst",
-        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
       ],
-      "news_sentiment": 0.814,
+      "news_sentiment": 0.105,
       "news_headlines": [
         "Is It Too Late to Buy XRP After a 42% Rally in Two Months?",
-        "Can XRP Reach $3 Again in 2026? The Math From $1.53",
-        "Should You Buy XRP Now or Wait for a Pullback?"
+        "Hyperliquid vs Solana: Which Has More Upside by 2030?",
+        "Solana News: Ex-Binance and Polygon Execs Join the Solana Foundation"
       ],
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 1.518,
+      "current_price": 123.099998,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
-    {
-      "asset": "ON",
-      "rank_score": 0.6058,
-      "price": 77.18000030517578,
-      "rsi": 67.89468424189857,
-      "momentum_5d": 0.011069643424873076,
-      "momentum_1d": 0.060747636602176476,
-      "macd_crossover": false,
-      "atr_pct": 0.015065907639871397,
-      "bollinger_pct_b": 0.8481,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "ON Semiconductor (ON) Stock Stays Near Fair Value Despite Its 69% Run",
-        "Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know",
-        "ON Semiconductor (ON) Could Be 28% Below Fair Value As Product Momentum Builds"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "PFE",
       "rank_score": 0.6044,
@@ -646,6 +625,27 @@
         "Innovation Is Driving a New Bull Market in Biotech. 16 Ways to Play It, From Our Roundtable Experts.",
         "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks.",
         "D-Wave Quantum vs. QuantumScape: Which Moonshot Tech Stock Is a Better Buy in 2026?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ON",
+      "rank_score": 0.6008,
+      "price": 77.18000030517578,
+      "rsi": 67.89468424189857,
+      "momentum_5d": 0.011069643424873076,
+      "momentum_1d": 0.060747636602176476,
+      "macd_crossover": false,
+      "atr_pct": 0.015065907639871397,
+      "bollinger_pct_b": 0.8481,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.8,
+      "news_sentiment": 0.316,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Prediction: ON Semiconductor Could Be a Sleeper AI Infrastructure Winner",
+        "ON Semiconductor (ON) Stock Stays Near Fair Value Despite Its 69% Run",
+        "Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know"
       ],
       "high_impact_news": true
     },
@@ -756,7 +756,7 @@
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.5313,
+      "rank_score": 0.5123,
       "price": 516.0999755859375,
       "rsi": 72.83852775763377,
       "momentum_5d": 0.0038900555335523524,
@@ -766,12 +766,12 @@
       "bollinger_pct_b": 0.8393,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.737,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.184,
+      "news_confidence": 0.49,
       "news_headlines": [
         "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
-        "Dow Jones Futures Due Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
-        "Microsoft\u2019s AI Investment Could Pay Off for Years. Here\u2019s My Price Target"
+        "Microsoft (MSFT) Puts GitHub\u2019s Coding Engine Inside the App Office Workers Already Use",
+        "Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent"
       ],
       "high_impact_news": true
     },
@@ -798,7 +798,7 @@
     },
     {
       "asset": "JPM",
-      "rank_score": 0.4966,
+      "rank_score": 0.5046,
       "price": 342.9200134277344,
       "rsi": 71.80756305923316,
       "momentum_5d": 0.00785317679778525,
@@ -808,12 +808,12 @@
       "bollinger_pct_b": 0.9831,
       "volume_spike": true,
       "volume_spike_ratio": 1.61,
-      "news_sentiment": -0.111,
-      "news_confidence": 0.36,
+      "news_sentiment": -0.245,
+      "news_confidence": 0.49,
       "news_headlines": [
-        "A Decade of JPMorgan Chase Delivered 572% Returns but This Year Tells a Different Story",
-        "McDonald\u2019s New Investment Plan Signals Long-Term Growth\u2014and a Short-Term Reality Check",
-        "JPMorgan Predicts IREN Will Generate $24 Billion in Annual Revenue by 2030"
+        "JPMorgan doubles down on diesel as record prices test inflation",
+        "This Is the No. 1 Move Investors Should Make Before Buying Stocks Right Now.",
+        "A Decade of JPMorgan Chase Delivered 572% Returns but This Year Tells a Different Story"
       ],
       "high_impact_news": true
     },
@@ -902,29 +902,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "ORCL",
-      "rank_score": 0.4837,
-      "price": 137.0850067138672,
-      "rsi": 25.58284274520888,
-      "momentum_5d": -0.007062080703809724,
-      "momentum_1d": -0.08073759118949078,
-      "macd_crossover": false,
-      "atr_pct": 0.015046601641352334,
-      "bollinger_pct_b": 0.2616,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.7,
-      "news_sentiment": 0.818,
-      "news_confidence": 0.44,
-      "news_headlines": [
-        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
-        "How to Know When the AI Boom Is About to Go Bust",
-        "3 Founder Run Stocks To Own In September 2026"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "COST",
-      "rank_score": 0.4827,
+      "rank_score": 0.4837,
       "price": 922.9500122070312,
       "rsi": 69.09485040527551,
       "momentum_5d": 0.00354468327041828,
@@ -934,12 +913,33 @@
       "bollinger_pct_b": 0.9039,
       "volume_spike": false,
       "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.554,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.566,
+      "news_confidence": 0.38,
       "news_headlines": [
+        "Costco Costs More Than $920 a Share. Here's Why I'd Still Buy One.",
         "Amazon copies Costco move that benefits members and workers",
-        "Why Costco\u2019s Next Quarter Is the Real Test of Its 7% Fee Growth",
-        "Costco killed a popular member perk and finally says why"
+        "Why Costco\u2019s Next Quarter Is the Real Test of Its 7% Fee Growth"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ORCL",
+      "rank_score": 0.4777,
+      "price": 137.0850067138672,
+      "rsi": 25.58284274520888,
+      "momentum_5d": -0.007062080703809724,
+      "momentum_1d": -0.08073759118949078,
+      "macd_crossover": false,
+      "atr_pct": 0.015046601641352334,
+      "bollinger_pct_b": 0.2616,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.7,
+      "news_sentiment": 0.6,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
+        "IBM\u2019s Dividend Survived the Old IBM. Can It Survive the New One?",
+        "AI\u2019s $10 Trillion Buildout Will Reach 3.6% of GDP. Who\u2019s Going to Pay for It?"
       ],
       "high_impact_news": true
     },
@@ -997,12 +997,12 @@
       "bollinger_pct_b": 0.7715,
       "volume_spike": false,
       "volume_spike_ratio": 1.05,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
+      "news_sentiment": 0.429,
+      "news_confidence": 0.56,
       "news_headlines": [
         "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
-        "Google set to challenge Meta Muse in the Agentic AI race",
-        "Meta Is Up 30% in a Month. Is Its New AI Agent Really That Good?"
+        "Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent",
+        "AI\u2019s $10 Trillion Buildout Will Reach 3.6% of GDP. Who\u2019s Going to Pay for It?"
       ],
       "high_impact_news": true
     },
@@ -1021,9 +1021,9 @@
       "news_sentiment": 0.667,
       "news_confidence": 0.46,
       "news_headlines": [
+        "Qualcomm Stock Has an Opportunity Investors May Be Underestimating",
         "What Catalysts Could Drive Qualcomm (QCOM)\u2019s Stock Higher or Lower?",
-        "ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026?",
-        "Apple Stock Is Up 34% Over the Past Year: Can the iPhone 18 Keep the Rally Going?"
+        "ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     }
