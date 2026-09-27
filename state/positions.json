@@ -254,8 +254,8 @@
     "mode": "paper",
     "strategy_version": "137",
     "status": "open",
-    "price_peak": 2704.02001953125,
-    "trailing_stop_price": 2680.495045
+    "price_peak": 2713.219970703125,
+    "trailing_stop_price": 2689.614957
   },
   "META": {
     "id": "META_20260924182539",
@@ -414,36 +414,6 @@
     "strategy_version": "138",
     "status": "open"
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260925185631",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 122.0,
-    "entry_time": "2026-09-25T18:56:31.556396+00:00",
-    "stop_loss_pct": 0.01371,
-    "take_profit_pct": 0.03342,
-    "size_usd": 5537.9,
-    "position_size_pct": 0.0559,
-    "confidence": 0.874,
-    "signals": [
-      "RSI overbought (80.6)",
-      "5d momentum +2.11%",
-      "1d momentum +3.94%",
-      "BB overbought (pct_b=0.96)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 8 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 8 articles. Overa"
-    ],
-    "news_sentiment": 0.758,
-    "news_headlines": [
-      "What does an on-chain economy mean for retail investors?",
-      "Solana Foundation\u2019s New Hires: What Does It Mean for SOL?",
-      "Can Solana Clear $120 Before Alpenglow Activates?"
-    ],
-    "mode": "paper",
-    "strategy_version": "139",
-    "status": "open"
-  },
   "IONQ": {
     "id": "IONQ_20260925185631",
     "asset": "IONQ",
@@ -502,8 +472,8 @@
     "mode": "paper",
     "strategy_version": "139",
     "status": "open",
-    "price_trough": 516.17,
-    "trailing_stop_price": 520.474858
+    "price_trough": 516.1699829101562,
+    "trailing_stop_price": 520.474841
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20260926002628",
@@ -530,6 +500,66 @@
       "Is Dogecoin the Best Crypto You Can Buy Right Now?",
       "Dogecoin Reclaims $0.10 Amidst $12.7 Million Short Squeeze: Can It Maintain This Level in October?",
       "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?"
+    ],
+    "mode": "paper",
+    "strategy_version": "139",
+    "status": "open",
+    "price_trough": 0.09826000034809113,
+    "trailing_stop_price": 0.09951
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20260927121226",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 124.16000366210938,
+    "entry_time": "2026-09-27T12:12:26.915183+00:00",
+    "stop_loss_pct": 0.00688,
+    "take_profit_pct": 0.01621,
+    "size_usd": 4523.1,
+    "position_size_pct": 0.0456,
+    "confidence": 0.713,
+    "signals": [
+      "RSI overbought (69.3)",
+      "1d momentum +2.56%",
+      "BB overbought (pct_b=0.88)",
+      "High-impact catalyst",
+      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+    ],
+    "news_sentiment": 0.105,
+    "news_headlines": [
+      "A Former BlackRock Executive Calls Bitcoin an \u201cExit Asset\u201d and Ethereum \u201cthe New Rails.\u201d Bitwise Says the Opposite.",
+      "XRP News: Ripple Takes Aim at SWIFT, Pantera CEO Says",
+      "Bitcoin ETF Inflows Reach $2.4 Billion This Week, But Daily Figures Decline: Is the Momentum Fading?"
+    ],
+    "mode": "paper",
+    "strategy_version": "139",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260927121226",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 84945.0625,
+    "entry_time": "2026-09-27T12:12:26.917352+00:00",
+    "stop_loss_pct": 0.00221,
+    "take_profit_pct": 0.00513,
+    "size_usd": 975.22,
+    "position_size_pct": 0.0098,
+    "confidence": 0.633,
+    "signals": [
+      "RSI overbought (74.4)",
+      "1d momentum +1.06%",
+      "BB overbought (pct_b=0.90)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed hawkish"
+    ],
+    "news_sentiment": 0.87,
+    "news_headlines": [
+      "In 5 Years, One of These Cryptocurrencies Could Be Worth More Than Bitcoin",
+      "BTC USD Gains Momentum as it Posts Super Strong Q3 Numbers",
+      "Fidelity's $100,000 Bitcoin Signal Just Flashed"
     ],
     "mode": "paper",
     "strategy_version": "139",

@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99220.2,
+  "portfolio_balance": 99121.24,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.04,
-  "unrealized_pnl_usd": 1421.07,
-  "equity_value": 100641.27,
-  "open_positions": 18,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 8.13,
+  "unrealized_pnl_usd": 1404.2,
+  "equity_value": 100525.44,
+  "open_positions": 19,
+  "day_trades_open": 10,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 39688.08,
+  "day_capital_used_usd": 39648.5,
   "swing_capital_used_usd": 45480.98,
-  "total_trades": 1585,
-  "last_tick": "2026-09-27T06:17:51.075500+00:00",
+  "total_trades": 1586,
+  "last_tick": "2026-09-27T12:12:26.923860+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 4,
+  "trades_since_last_reflection": 5,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -296,11 +296,11 @@
       "mode": "paper",
       "strategy_version": "137",
       "status": "open",
-      "price_peak": 2707.8798828125,
-      "trailing_stop_price": 2684.321328,
-      "current_price": 2708.100098,
-      "unrealized_pnl_pct": 0.017845,
-      "unrealized_pnl_usd": 105.22
+      "price_peak": 2713.219970703125,
+      "trailing_stop_price": 2689.614957,
+      "current_price": 2713.350098,
+      "unrealized_pnl_pct": 0.019819,
+      "unrealized_pnl_usd": 116.85
     },
     {
       "id": "META_20260924182539",
@@ -475,41 +475,6 @@
       "unrealized_pnl_usd": -63.59
     },
     {
-      "id": "SOL-USD_20260925185631",
-      "asset": "SOL-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 122.0,
-      "entry_time": "2026-09-25T18:56:31.556396+00:00",
-      "stop_loss_pct": 0.01371,
-      "take_profit_pct": 0.03342,
-      "size_usd": 5537.9,
-      "position_size_pct": 0.0559,
-      "confidence": 0.874,
-      "signals": [
-        "RSI overbought (80.6)",
-        "5d momentum +2.11%",
-        "1d momentum +3.94%",
-        "BB overbought (pct_b=0.96)",
-        "High-impact catalyst",
-        "Claude [neutral]: Scanned 8 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 8 articles. Overa"
-      ],
-      "news_sentiment": 0.758,
-      "news_headlines": [
-        "What does an on-chain economy mean for retail investors?",
-        "Solana Foundation\u2019s New Hires: What Does It Mean for SOL?",
-        "Can Solana Clear $120 Before Alpenglow Activates?"
-      ],
-      "mode": "paper",
-      "strategy_version": "139",
-      "status": "open",
-      "price_trough": 121.41999816894531,
-      "trailing_stop_price": 123.084666,
-      "current_price": 121.400002,
-      "unrealized_pnl_pct": 0.004918,
-      "unrealized_pnl_usd": 27.24
-    },
-    {
       "id": "IONQ_20260925185631",
       "asset": "IONQ",
       "trade_type": "day",
@@ -605,35 +570,78 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "price_trough": 0.09679999947547913,
-      "trailing_stop_price": 0.098031,
-      "current_price": 0.0968,
-      "unrealized_pnl_pct": 0.024194,
-      "unrealized_pnl_usd": 2.09
+      "price_trough": 0.09826000034809113,
+      "trailing_stop_price": 0.09951,
+      "current_price": 0.09826,
+      "unrealized_pnl_pct": 0.009476,
+      "unrealized_pnl_usd": 0.82
+    },
+    {
+      "id": "SOL-USD_20260927121226",
+      "asset": "SOL-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 124.16000366210938,
+      "entry_time": "2026-09-27T12:12:26.915183+00:00",
+      "stop_loss_pct": 0.00688,
+      "take_profit_pct": 0.01621,
+      "size_usd": 4523.1,
+      "position_size_pct": 0.0456,
+      "confidence": 0.713,
+      "signals": [
+        "RSI overbought (69.3)",
+        "1d momentum +2.56%",
+        "BB overbought (pct_b=0.88)",
+        "High-impact catalyst",
+        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      ],
+      "news_sentiment": 0.105,
+      "news_headlines": [
+        "A Former BlackRock Executive Calls Bitcoin an \u201cExit Asset\u201d and Ethereum \u201cthe New Rails.\u201d Bitwise Says the Opposite.",
+        "XRP News: Ripple Takes Aim at SWIFT, Pantera CEO Says",
+        "Bitcoin ETF Inflows Reach $2.4 Billion This Week, But Daily Figures Decline: Is the Momentum Fading?"
+      ],
+      "mode": "paper",
+      "strategy_version": "139",
+      "status": "open",
+      "current_price": 124.160004,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "BTC-USD_20260927121226",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 84945.0625,
+      "entry_time": "2026-09-27T12:12:26.917352+00:00",
+      "stop_loss_pct": 0.00221,
+      "take_profit_pct": 0.00513,
+      "size_usd": 975.22,
+      "position_size_pct": 0.0098,
+      "confidence": 0.633,
+      "signals": [
+        "RSI overbought (74.4)",
+        "1d momentum +1.06%",
+        "BB overbought (pct_b=0.90)",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed hawkish"
+      ],
+      "news_sentiment": 0.87,
+      "news_headlines": [
+        "In 5 Years, One of These Cryptocurrencies Could Be Worth More Than Bitcoin",
+        "BTC USD Gains Momentum as it Posts Super Strong Q3 Numbers",
+        "Fidelity's $100,000 Bitcoin Signal Just Flashed"
+      ],
+      "mode": "paper",
+      "strategy_version": "139",
+      "status": "open",
+      "current_price": 84945.0625,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
-    {
-      "asset": "PFE",
-      "rank_score": 0.6124,
-      "price": 28.684999465942383,
-      "rsi": 65.29405098895872,
-      "momentum_5d": 0.014321031452029813,
-      "momentum_1d": 0.031648953465495684,
-      "macd_crossover": false,
-      "atr_pct": 0.00671057211464511,
-      "bollinger_pct_b": 0.8967,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.84,
-      "news_sentiment": 0.569,
-      "news_confidence": 0.51,
-      "news_headlines": [
-        "D-Wave Quantum vs. QuantumScape: Which Moonshot Tech Stock Is a Better Buy in 2026?",
-        "Pfizer (PFE) Targets Air Traffic Fees Over Unpaid Vaccines. Can it Turn a Court Win Into Cash?",
-        "AbbVie vs. Pfizer: Which Healthcare Stock Makes Your Portfolio Healthier in 2026?"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "ON",
       "rank_score": 0.6058,
@@ -652,6 +660,27 @@
         "ON Semiconductor (ON) Stock Stays Near Fair Value Despite Its 69% Run",
         "Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know",
         "ON Semiconductor (ON) Could Be 28% Below Fair Value As Product Momentum Builds"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PFE",
+      "rank_score": 0.6044,
+      "price": 28.684999465942383,
+      "rsi": 65.29405098895872,
+      "momentum_5d": 0.014321031452029813,
+      "momentum_1d": 0.031648953465495684,
+      "macd_crossover": false,
+      "atr_pct": 0.00671057211464511,
+      "bollinger_pct_b": 0.8967,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.84,
+      "news_sentiment": 0.467,
+      "news_confidence": 0.45,
+      "news_headlines": [
+        "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks.",
+        "D-Wave Quantum vs. QuantumScape: Which Moonshot Tech Stock Is a Better Buy in 2026?",
+        "Pfizer (PFE) Targets Air Traffic Fees Over Unpaid Vaccines. Can it Turn a Court Win Into Cash?"
       ],
       "high_impact_news": true
     },
@@ -678,7 +707,7 @@
     },
     {
       "asset": "RBLX",
-      "rank_score": 0.5824,
+      "rank_score": 0.5774,
       "price": 46.459999084472656,
       "rsi": 33.063507712719144,
       "momentum_5d": -0.009592853643214803,
@@ -688,18 +717,18 @@
       "bollinger_pct_b": 0.13,
       "volume_spike": true,
       "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.231,
-      "news_confidence": 0.39,
+      "news_sentiment": 0.111,
+      "news_confidence": 0.36,
       "news_headlines": [
         "\u2018Mum, where did my Robux go?\u2019 The Roblox scam targeting children",
-        "Gaming stocks fall after Meta unveils AI game-building tools",
-        "The Engine Behind Unity Stock Has Real Parts"
+        "Meta Unveiled an AI Game Builder. Roblox\u2019s Q3 Guidance Shows What the AI Race Costs",
+        "Gaming stocks fall after Meta unveils AI game-building tools"
       ],
       "high_impact_news": true
     },
     {
       "asset": "ARM",
-      "rank_score": 0.5673,
+      "rank_score": 0.5693,
       "price": 310.54998779296875,
       "rsi": 30.07785179431481,
       "momentum_5d": -0.026336491903345728,
@@ -709,12 +738,33 @@
       "bollinger_pct_b": 0.2583,
       "volume_spike": false,
       "volume_spike_ratio": 0.86,
-      "news_sentiment": 0.815,
-      "news_confidence": 0.54,
+      "news_sentiment": 0.821,
+      "news_confidence": 0.56,
       "news_headlines": [
         "1 Agentic AI Chip Stock to Buy and 1 to Sell",
-        "US Equity Indexes Rose This Week as Mega-Cap Tech Jumps While Iran Proposes Conditional Reopening of Hormuz Chokepoint",
-        "ARM vs. Intel: What Revenue Growth Trends Reveal About These Artificial Intelligence Companies"
+        "MarketBeat Week in Review \u2013 09/21 - 09/25",
+        "Arm Holdings Stock Fell 8% in a Day. Here\u2019s What SoftBank\u2019s $25 Billion Loan Means for the Stock"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "MRNA",
+      "rank_score": 0.5687,
+      "price": 198.88999938964844,
+      "rsi": 76.65736908447153,
+      "momentum_5d": 0.01162230722395274,
+      "momentum_1d": 0.08933069008119383,
+      "macd_crossover": false,
+      "atr_pct": 0.022429591417516114,
+      "bollinger_pct_b": 0.85,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.67,
+      "news_sentiment": 0.674,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Why Moderna (MRNA) Is Up 29.1% After Melanoma Vaccine Success And Middle East Expansion Talks",
+        "Moderna (MRNA) Held Investment Talks With The UAE Government",
+        "Moderna (MRNA) Surpasses Market Returns: Some Facts Worth Knowing"
       ],
       "high_impact_news": true
     },
@@ -762,7 +812,7 @@
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.5252,
+      "rank_score": 0.5303,
       "price": 516.0999755859375,
       "rsi": 72.83852775763377,
       "momentum_5d": 0.0038900555335523524,
@@ -772,12 +822,12 @@
       "bollinger_pct_b": 0.8393,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.647,
-      "news_confidence": 0.34,
+      "news_sentiment": 0.73,
+      "news_confidence": 0.37,
       "news_headlines": [
-        "Big Tech's AI build-out ran to the Middle East. Then the Iran war hit.",
-        "3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion",
-        "Anthropic's IPO is a $300 billion test for Amazon"
+        "The AI gold rush is fueling a record corporate bond boom: Chart of the Day",
+        "JD Vance Warns Companies Against 'Cheap' H-1B Replacements: 'We're Not Going to Let You Lay Off American Workers'",
+        "3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion"
       ],
       "high_impact_news": true
     },
@@ -803,27 +853,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "BMY",
-      "rank_score": 0.4984,
-      "price": 62.869998931884766,
-      "rsi": 80.3592328119103,
-      "momentum_5d": 0.01632553362817331,
-      "momentum_1d": 0.005115902457671344,
-      "macd_crossover": false,
-      "atr_pct": 0.006390738366657537,
-      "bollinger_pct_b": 1.0074,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.45,
-      "news_sentiment": 0.571,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Novartis (NVS) and Bristol Myers (BMY) Pause Autoimmune CAR-T Studies. Can Their Programs Recover?",
-        "Pfizer Stock Paid Out $49B: So Why Did Investors Lose Money?",
-        "Acadia Pharmaceuticals Fell 19% Today. Here\u2019s Where the Stock Could Go in 2026"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "JPM",
       "rank_score": 0.4936,
       "price": 342.9200134277344,
@@ -838,9 +867,51 @@
       "news_sentiment": 0.026,
       "news_confidence": 0.39,
       "news_headlines": [
+        "McDonald\u2019s New Investment Plan Signals Long-Term Growth\u2014and a Short-Term Reality Check",
         "JPMorgan Predicts IREN Will Generate $24 Billion in Annual Revenue by 2030",
-        "Here's how high-income Americans keep spending in a shaky economy",
-        "Morgan Stanley public finance co-head Zach Solomon leaves for TD - Bloomberg"
+        "Here's how high-income Americans keep spending in a shaky economy"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "IONQ",
+      "rank_score": 0.4936,
+      "price": 45.5,
+      "rsi": 66.24736800306911,
+      "momentum_5d": -0.008714629903734996,
+      "momentum_1d": 0.12959288428246185,
+      "macd_crossover": false,
+      "atr_pct": 0.026115393526325793,
+      "bollinger_pct_b": 0.7504,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.33,
+      "news_sentiment": 0.469,
+      "news_confidence": 0.49,
+      "news_headlines": [
+        "IonQ Just Announced a Major Breakthrough. Should Investors Buy the Stock Now?",
+        "Top Quantum Computing Stocks For September 2026",
+        "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang\u2019s 30-Year Quantum Warning"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "BMY",
+      "rank_score": 0.4924,
+      "price": 62.869998931884766,
+      "rsi": 80.3592328119103,
+      "momentum_5d": 0.01632553362817331,
+      "momentum_1d": 0.005115902457671344,
+      "macd_crossover": false,
+      "atr_pct": 0.006390738366657537,
+      "bollinger_pct_b": 1.0074,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.45,
+      "news_sentiment": 0.474,
+      "news_confidence": 0.38,
+      "news_headlines": [
+        "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks.",
+        "Novartis (NVS) and Bristol Myers (BMY) Pause Autoimmune CAR-T Studies. Can Their Programs Recover?",
+        "Pfizer Stock Paid Out $49B: So Why Did Investors Lose Money?"
       ],
       "high_impact_news": true
     },
@@ -866,6 +937,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "COST",
+      "rank_score": 0.4878,
+      "price": 922.9500122070312,
+      "rsi": 69.09485040527551,
+      "momentum_5d": 0.00354468327041828,
+      "momentum_1d": 0.025750719237747723,
+      "macd_crossover": false,
+      "atr_pct": 0.007824132253616067,
+      "bollinger_pct_b": 0.9039,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.41,
+      "news_sentiment": 0.638,
+      "news_confidence": 0.4,
+      "news_headlines": [
+        "Why Costco\u2019s Next Quarter Is the Real Test of Its 7% Fee Growth",
+        "Costco killed a popular member perk and finally says why",
+        "Prediction: Here's What a $10,000 Investment in Costco (COST) Stock Could Be Worth in 5 Years"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "SNAP",
       "rank_score": 0.4873,
       "price": 5.429999828338623,
@@ -887,50 +979,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "IONQ",
-      "rank_score": 0.4837,
-      "price": 45.5,
-      "rsi": 66.24736800306911,
-      "momentum_5d": -0.008714629903734996,
-      "momentum_1d": 0.12959288428246185,
-      "macd_crossover": false,
-      "atr_pct": 0.026115393526325793,
-      "bollinger_pct_b": 0.7504,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.33,
-      "news_sentiment": 0.277,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Top Quantum Computing Stocks For September 2026",
-        "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang\u2019s 30-Year Quantum Warning",
-        "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "COST",
-      "rank_score": 0.4827,
-      "price": 922.9500122070312,
-      "rsi": 69.09485040527551,
-      "momentum_5d": 0.00354468327041828,
-      "momentum_1d": 0.025750719237747723,
-      "macd_crossover": false,
-      "atr_pct": 0.007824132253616067,
-      "bollinger_pct_b": 0.9039,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.554,
-      "news_confidence": 0.37,
-      "news_headlines": [
-        "Costco killed a popular member perk and finally says why",
-        "Prediction: Here's What a $10,000 Investment in Costco (COST) Stock Could Be Worth in 5 Years",
-        "3 Elite Dividend Stocks Hiding in the Nasdaq-100"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "ORCL",
-      "rank_score": 0.4787,
+      "rank_score": 0.4837,
       "price": 137.0850067138672,
       "rsi": 25.58284274520888,
       "momentum_5d": -0.007062080703809724,
@@ -940,12 +990,33 @@
       "bollinger_pct_b": 0.2616,
       "volume_spike": false,
       "volume_spike_ratio": 0.7,
-      "news_sentiment": 0.66,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.818,
+      "news_confidence": 0.44,
       "news_headlines": [
-        "3 Founder Run Stocks To Own In September 2026",
-        "Here's How Oracle's \"Force Majeure\" Changes the AI Data Center Thesis",
-        "Intuit vs. Oracle: Which Technology Stock Is a Better Buy in 2026?"
+        "The AI gold rush is fueling a record corporate bond boom: Chart of the Day",
+        "How to Know When the AI Boom Is About to Go Bust",
+        "3 Founder Run Stocks To Own In September 2026"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "PLTR",
+      "rank_score": 0.476,
+      "price": 189.66000366210938,
+      "rsi": 39.671442506920265,
+      "momentum_5d": -0.010925405686195497,
+      "momentum_1d": 0.02624320203228149,
+      "macd_crossover": false,
+      "atr_pct": 0.010502195078629735,
+      "bollinger_pct_b": -0.0455,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.66,
+      "news_sentiment": 0.435,
+      "news_confidence": 0.46,
+      "news_headlines": [
+        "3 Founder Led Stocks To Own In September 2026",
+        "Is Palantir a Millionaire-Maker Stock After Its Rally?",
+        "Figma vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     },
@@ -971,29 +1042,8 @@
       "high_impact_news": true
     },
     {
-      "asset": "PLTR",
-      "rank_score": 0.471,
-      "price": 189.66000366210938,
-      "rsi": 39.671442506920265,
-      "momentum_5d": -0.010925405686195497,
-      "momentum_1d": 0.02624320203228149,
-      "macd_crossover": false,
-      "atr_pct": 0.010502195078629735,
-      "bollinger_pct_b": -0.0455,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.66,
-      "news_sentiment": 0.349,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Figma vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
-        "The Biggest Risk to Palantir Stock Has Nothing to Do With Its Valuation",
-        "Why Palantir (PLTR) Is Up 6.8% After Expanding AIP Deals And Announcing Nebius AI Partnership"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "QCOM",
-      "rank_score": 0.4697,
+      "rank_score": 0.4687,
       "price": 201.9499969482422,
       "rsi": 61.9959200809441,
       "momentum_5d": -0.01217963932414701,
@@ -1003,33 +1053,12 @@
       "bollinger_pct_b": 0.7412,
       "volume_spike": false,
       "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.674,
-      "news_confidence": 0.47,
+      "news_sentiment": 0.667,
+      "news_confidence": 0.46,
       "news_headlines": [
+        "What Catalysts Could Drive Qualcomm (QCOM)\u2019s Stock Higher or Lower?",
         "ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026?",
-        "China, U.S. agree to $30 billion tariff cut, launch AI dialogue",
-        "Qualcomm (QCOM) Shares Skyrocket, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SMCI",
-      "rank_score": 0.4645,
-      "price": 43.2599983215332,
-      "rsi": 65.6677908265678,
-      "momentum_5d": 0.003945188404347285,
-      "momentum_1d": 0.059904441433062595,
-      "macd_crossover": false,
-      "atr_pct": 0.019088729733349224,
-      "bollinger_pct_b": 0.8344,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.72,
-      "news_sentiment": 0.5,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Is Super Micro Computer a Buy?",
-        "What's Going On With Super Micro Stock Thursday",
-        "NVIDIA\u2019s Next AI Chip Ramp Could Open the Door to Another Major Stock Move"
+        "Apple Stock Is Up 34% Over the Past Year: Can the iPhone 18 Keep the Rally Going?"
       ],
       "high_impact_news": true
     }
