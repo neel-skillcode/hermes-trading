@@ -225,38 +225,6 @@
     "price_trough": 1.4098399877548218,
     "trailing_stop_price": 1.421119
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20260923183027",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2660.6201171875,
-    "entry_time": "2026-09-23T18:30:27.950354+00:00",
-    "stop_loss_pct": 0.0087,
-    "take_profit_pct": 0.02147,
-    "size_usd": 5896.06,
-    "position_size_pct": 0.0598,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (10.5)",
-      "5d momentum -2.01%",
-      "1d momentum -3.33%",
-      "BB oversold (pct_b=0.08)",
-      "High-impact catalyst",
-      "Claude [supports]: product catalyst"
-    ],
-    "news_sentiment": 0.333,
-    "news_headlines": [
-      "SoFi and Mastercard's new stablecoin partnership is a big deal. Here's why.",
-      "Bitcoin and ethereum prices today, Wednesday, September 23, 2026: Crypto prices open near 8-month highs. Is the crypto winter over?",
-      "BlackRock predicts what happens once AI starts shopping"
-    ],
-    "mode": "paper",
-    "strategy_version": "137",
-    "status": "open",
-    "price_peak": 2713.219970703125,
-    "trailing_stop_price": 2689.614957
-  },
   "META": {
     "id": "META_20260924182539",
     "asset": "META",
@@ -504,62 +472,62 @@
     "mode": "paper",
     "strategy_version": "139",
     "status": "open",
-    "price_trough": 0.09826000034809113,
-    "trailing_stop_price": 0.09951
+    "price_trough": 0.09664999693632126,
+    "trailing_stop_price": 0.097879
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260927121226",
-    "asset": "SOL-USD",
-    "trade_type": "day",
+  "ETH-USD": {
+    "id": "ETH-USD_20260927165814",
+    "asset": "ETH-USD",
+    "trade_type": "swing",
     "direction": "short",
-    "entry_price": 124.16000366210938,
-    "entry_time": "2026-09-27T12:12:26.915183+00:00",
-    "stop_loss_pct": 0.00688,
-    "take_profit_pct": 0.01621,
-    "size_usd": 4523.1,
-    "position_size_pct": 0.0456,
-    "confidence": 0.713,
+    "entry_price": 2686.340087890625,
+    "entry_time": "2026-09-27T16:58:14.401446+00:00",
+    "stop_loss_pct": 0.0108,
+    "take_profit_pct": 0.03515,
+    "size_usd": 4153.97,
+    "position_size_pct": 0.0418,
+    "confidence": 0.506,
     "signals": [
-      "RSI overbought (69.3)",
-      "1d momentum +2.56%",
-      "BB overbought (pct_b=0.88)",
+      "RSI oversold (42.9)",
+      "5d momentum -0.84%",
+      "Volume spike 2.9\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [contradicts]: price surge"
     ],
-    "news_sentiment": 0.105,
+    "news_sentiment": 0.5,
     "news_headlines": [
-      "A Former BlackRock Executive Calls Bitcoin an \u201cExit Asset\u201d and Ethereum \u201cthe New Rails.\u201d Bitwise Says the Opposite.",
-      "XRP News: Ripple Takes Aim at SWIFT, Pantera CEO Says",
-      "Bitcoin ETF Inflows Reach $2.4 Billion This Week, But Daily Figures Decline: Is the Momentum Fading?"
+      "Is It Too Late to Buy XRP After a 42% Rally in Two Months?",
+      "Bitcoin vs Ethereum: Which Gets Back to Its All-Time High First?",
+      "Ethereum Has Beaten Bitcoin for Three Months. Is the Flippening Trade Back?"
     ],
     "mode": "paper",
     "strategy_version": "139",
     "status": "open"
   },
-  "BTC-USD": {
-    "id": "BTC-USD_20260927121226",
-    "asset": "BTC-USD",
+  "XRP-USD": {
+    "id": "XRP-USD_20260927165814",
+    "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 84945.0625,
-    "entry_time": "2026-09-27T12:12:26.917352+00:00",
-    "stop_loss_pct": 0.00221,
-    "take_profit_pct": 0.00513,
-    "size_usd": 975.22,
-    "position_size_pct": 0.0098,
-    "confidence": 0.633,
+    "entry_price": 1.5180000066757202,
+    "entry_time": "2026-09-27T16:58:14.402959+00:00",
+    "stop_loss_pct": 0.0062,
+    "take_profit_pct": 0.01391,
+    "size_usd": 3074.98,
+    "position_size_pct": 0.031,
+    "confidence": 0.484,
     "signals": [
-      "RSI overbought (74.4)",
-      "1d momentum +1.06%",
-      "BB overbought (pct_b=0.90)",
+      "5d momentum -1.27%",
+      "1d momentum -1.83%",
+      "Volume spike 1.5\u00d7",
       "High-impact catalyst",
-      "Claude [contradicts]: fed hawkish"
+      "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.87,
+    "news_sentiment": 0.814,
     "news_headlines": [
-      "In 5 Years, One of These Cryptocurrencies Could Be Worth More Than Bitcoin",
-      "BTC USD Gains Momentum as it Posts Super Strong Q3 Numbers",
-      "Fidelity's $100,000 Bitcoin Signal Just Flashed"
+      "Is It Too Late to Buy XRP After a 42% Rally in Two Months?",
+      "Can XRP Reach $3 Again in 2026? The Math From $1.53",
+      "Should You Buy XRP Now or Wait for a Pullback?"
     ],
     "mode": "paper",
     "strategy_version": "139",

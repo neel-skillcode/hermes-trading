@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99121.24,
+  "portfolio_balance": 99269.91,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.13,
-  "unrealized_pnl_usd": 1404.2,
-  "equity_value": 100525.44,
-  "open_positions": 19,
-  "day_trades_open": 10,
-  "swing_trades_open": 9,
-  "day_capital_used_usd": 39648.5,
-  "swing_capital_used_usd": 45480.98,
-  "total_trades": 1586,
-  "last_tick": "2026-09-27T12:12:26.923860+00:00",
+  "portfolio_drawdown_pct": 8.0,
+  "unrealized_pnl_usd": 1288.75,
+  "equity_value": 100558.66,
+  "open_positions": 18,
+  "day_trades_open": 8,
+  "swing_trades_open": 10,
+  "day_capital_used_usd": 31329.1,
+  "swing_capital_used_usd": 49634.95,
+  "total_trades": 1589,
+  "last_tick": "2026-09-27T16:58:14.405706+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 5,
+  "trades_since_last_reflection": 8,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -266,41 +266,6 @@
       "current_price": 1.4141,
       "unrealized_pnl_pct": -0.002751,
       "unrealized_pnl_usd": -12.77
-    },
-    {
-      "id": "ETH-USD_20260923183027",
-      "asset": "ETH-USD",
-      "trade_type": "day",
-      "direction": "long",
-      "entry_price": 2660.6201171875,
-      "entry_time": "2026-09-23T18:30:27.950354+00:00",
-      "stop_loss_pct": 0.0087,
-      "take_profit_pct": 0.02147,
-      "size_usd": 5896.06,
-      "position_size_pct": 0.0598,
-      "confidence": 0.934,
-      "signals": [
-        "RSI oversold (10.5)",
-        "5d momentum -2.01%",
-        "1d momentum -3.33%",
-        "BB oversold (pct_b=0.08)",
-        "High-impact catalyst",
-        "Claude [supports]: product catalyst"
-      ],
-      "news_sentiment": 0.333,
-      "news_headlines": [
-        "SoFi and Mastercard's new stablecoin partnership is a big deal. Here's why.",
-        "Bitcoin and ethereum prices today, Wednesday, September 23, 2026: Crypto prices open near 8-month highs. Is the crypto winter over?",
-        "BlackRock predicts what happens once AI starts shopping"
-      ],
-      "mode": "paper",
-      "strategy_version": "137",
-      "status": "open",
-      "price_peak": 2713.219970703125,
-      "trailing_stop_price": 2689.614957,
-      "current_price": 2713.350098,
-      "unrealized_pnl_pct": 0.019819,
-      "unrealized_pnl_usd": 116.85
     },
     {
       "id": "META_20260924182539",
@@ -570,73 +535,73 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "price_trough": 0.09826000034809113,
-      "trailing_stop_price": 0.09951,
-      "current_price": 0.09826,
-      "unrealized_pnl_pct": 0.009476,
-      "unrealized_pnl_usd": 0.82
+      "price_trough": 0.09664999693632126,
+      "trailing_stop_price": 0.097879,
+      "current_price": 0.09665,
+      "unrealized_pnl_pct": 0.025706,
+      "unrealized_pnl_usd": 2.22
     },
     {
-      "id": "SOL-USD_20260927121226",
-      "asset": "SOL-USD",
-      "trade_type": "day",
+      "id": "ETH-USD_20260927165814",
+      "asset": "ETH-USD",
+      "trade_type": "swing",
       "direction": "short",
-      "entry_price": 124.16000366210938,
-      "entry_time": "2026-09-27T12:12:26.915183+00:00",
-      "stop_loss_pct": 0.00688,
-      "take_profit_pct": 0.01621,
-      "size_usd": 4523.1,
-      "position_size_pct": 0.0456,
-      "confidence": 0.713,
+      "entry_price": 2686.340087890625,
+      "entry_time": "2026-09-27T16:58:14.401446+00:00",
+      "stop_loss_pct": 0.0108,
+      "take_profit_pct": 0.03515,
+      "size_usd": 4153.97,
+      "position_size_pct": 0.0418,
+      "confidence": 0.506,
       "signals": [
-        "RSI overbought (69.3)",
-        "1d momentum +2.56%",
-        "BB overbought (pct_b=0.88)",
+        "RSI oversold (42.9)",
+        "5d momentum -0.84%",
+        "Volume spike 2.9\u00d7",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+        "Claude [contradicts]: price surge"
       ],
-      "news_sentiment": 0.105,
+      "news_sentiment": 0.5,
       "news_headlines": [
-        "A Former BlackRock Executive Calls Bitcoin an \u201cExit Asset\u201d and Ethereum \u201cthe New Rails.\u201d Bitwise Says the Opposite.",
-        "XRP News: Ripple Takes Aim at SWIFT, Pantera CEO Says",
-        "Bitcoin ETF Inflows Reach $2.4 Billion This Week, But Daily Figures Decline: Is the Momentum Fading?"
+        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?",
+        "Bitcoin vs Ethereum: Which Gets Back to Its All-Time High First?",
+        "Ethereum Has Beaten Bitcoin for Three Months. Is the Flippening Trade Back?"
       ],
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 124.160004,
+      "current_price": 2686.340088,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     },
     {
-      "id": "BTC-USD_20260927121226",
-      "asset": "BTC-USD",
+      "id": "XRP-USD_20260927165814",
+      "asset": "XRP-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 84945.0625,
-      "entry_time": "2026-09-27T12:12:26.917352+00:00",
-      "stop_loss_pct": 0.00221,
-      "take_profit_pct": 0.00513,
-      "size_usd": 975.22,
-      "position_size_pct": 0.0098,
-      "confidence": 0.633,
+      "entry_price": 1.5180000066757202,
+      "entry_time": "2026-09-27T16:58:14.402959+00:00",
+      "stop_loss_pct": 0.0062,
+      "take_profit_pct": 0.01391,
+      "size_usd": 3074.98,
+      "position_size_pct": 0.031,
+      "confidence": 0.484,
       "signals": [
-        "RSI overbought (74.4)",
-        "1d momentum +1.06%",
-        "BB overbought (pct_b=0.90)",
+        "5d momentum -1.27%",
+        "1d momentum -1.83%",
+        "Volume spike 1.5\u00d7",
         "High-impact catalyst",
-        "Claude [contradicts]: fed hawkish"
+        "Claude [contradicts]: Scanned 10 headlines: no clear catalyst. Headline tone 3 bullish / 0 bearish across 10 articles. Ove"
       ],
-      "news_sentiment": 0.87,
+      "news_sentiment": 0.814,
       "news_headlines": [
-        "In 5 Years, One of These Cryptocurrencies Could Be Worth More Than Bitcoin",
-        "BTC USD Gains Momentum as it Posts Super Strong Q3 Numbers",
-        "Fidelity's $100,000 Bitcoin Signal Just Flashed"
+        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?",
+        "Can XRP Reach $3 Again in 2026? The Math From $1.53",
+        "Should You Buy XRP Now or Wait for a Pullback?"
       ],
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 84945.0625,
+      "current_price": 1.518,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -678,9 +643,9 @@
       "news_sentiment": 0.467,
       "news_confidence": 0.45,
       "news_headlines": [
+        "Innovation Is Driving a New Bull Market in Biotech. 16 Ways to Play It, From Our Roundtable Experts.",
         "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks.",
-        "D-Wave Quantum vs. QuantumScape: Which Moonshot Tech Stock Is a Better Buy in 2026?",
-        "Pfizer (PFE) Targets Air Traffic Fees Over Unpaid Vaccines. Can it Turn a Court Win Into Cash?"
+        "D-Wave Quantum vs. QuantumScape: Which Moonshot Tech Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     },
@@ -699,9 +664,9 @@
       "news_sentiment": 0.737,
       "news_confidence": 0.38,
       "news_headlines": [
+        "Buyout firm Advent eyes Monzo stake amid \u00a310bn Nubank bid talks",
         "Peter Thiel Warns Even JD Vance Could Struggle to Win 2028 White House \u2014 Says Vance Vs Rubio is 'The Wrong Question'",
-        "PYPL Stock Climbs On West Coast Takeover Rumors After Stripe Walk-Away Leaves Room For A New Bidder",
-        "How Much Upside Does PayPal Stock Have Without A Buyer?"
+        "PYPL Stock Climbs On West Coast Takeover Rumors After Stripe Walk-Away Leaves Room For A New Bidder"
       ],
       "high_impact_news": true
     },
@@ -744,27 +709,6 @@
         "1 Agentic AI Chip Stock to Buy and 1 to Sell",
         "MarketBeat Week in Review \u2013 09/21 - 09/25",
         "Arm Holdings Stock Fell 8% in a Day. Here\u2019s What SoftBank\u2019s $25 Billion Loan Means for the Stock"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "MRNA",
-      "rank_score": 0.5687,
-      "price": 198.88999938964844,
-      "rsi": 76.65736908447153,
-      "momentum_5d": 0.01162230722395274,
-      "momentum_1d": 0.08933069008119383,
-      "macd_crossover": false,
-      "atr_pct": 0.022429591417516114,
-      "bollinger_pct_b": 0.85,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.67,
-      "news_sentiment": 0.674,
-      "news_confidence": 0.47,
-      "news_headlines": [
-        "Why Moderna (MRNA) Is Up 29.1% After Melanoma Vaccine Success And Middle East Expansion Talks",
-        "Moderna (MRNA) Held Investment Talks With The UAE Government",
-        "Moderna (MRNA) Surpasses Market Returns: Some Facts Worth Knowing"
       ],
       "high_impact_news": true
     },
@@ -812,7 +756,7 @@
     },
     {
       "asset": "MSFT",
-      "rank_score": 0.5303,
+      "rank_score": 0.5313,
       "price": 516.0999755859375,
       "rsi": 72.83852775763377,
       "momentum_5d": 0.0038900555335523524,
@@ -822,12 +766,12 @@
       "bollinger_pct_b": 0.8393,
       "volume_spike": false,
       "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.73,
-      "news_confidence": 0.37,
+      "news_sentiment": 0.737,
+      "news_confidence": 0.38,
       "news_headlines": [
-        "The AI gold rush is fueling a record corporate bond boom: Chart of the Day",
-        "JD Vance Warns Companies Against 'Cheap' H-1B Replacements: 'We're Not Going to Let You Lay Off American Workers'",
-        "3 Cloud And AI Stocks Retail Investors Are Watching After Microsoft Copilot Expansion"
+        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
+        "Dow Jones Futures Due Amid Trump Iran Comments; Micron, SpaceX, Tesla Eye Buy Points",
+        "Microsoft\u2019s AI Investment Could Pay Off for Years. Here\u2019s My Price Target"
       ],
       "high_impact_news": true
     },
@@ -854,7 +798,7 @@
     },
     {
       "asset": "JPM",
-      "rank_score": 0.4936,
+      "rank_score": 0.4966,
       "price": 342.9200134277344,
       "rsi": 71.80756305923316,
       "momentum_5d": 0.00785317679778525,
@@ -864,33 +808,12 @@
       "bollinger_pct_b": 0.9831,
       "volume_spike": true,
       "volume_spike_ratio": 1.61,
-      "news_sentiment": 0.026,
-      "news_confidence": 0.39,
+      "news_sentiment": -0.111,
+      "news_confidence": 0.36,
       "news_headlines": [
+        "A Decade of JPMorgan Chase Delivered 572% Returns but This Year Tells a Different Story",
         "McDonald\u2019s New Investment Plan Signals Long-Term Growth\u2014and a Short-Term Reality Check",
-        "JPMorgan Predicts IREN Will Generate $24 Billion in Annual Revenue by 2030",
-        "Here's how high-income Americans keep spending in a shaky economy"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "IONQ",
-      "rank_score": 0.4936,
-      "price": 45.5,
-      "rsi": 66.24736800306911,
-      "momentum_5d": -0.008714629903734996,
-      "momentum_1d": 0.12959288428246185,
-      "macd_crossover": false,
-      "atr_pct": 0.026115393526325793,
-      "bollinger_pct_b": 0.7504,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.33,
-      "news_sentiment": 0.469,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "IonQ Just Announced a Major Breakthrough. Should Investors Buy the Stock Now?",
-        "Top Quantum Computing Stocks For September 2026",
-        "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang\u2019s 30-Year Quantum Warning"
+        "JPMorgan Predicts IREN Will Generate $24 Billion in Annual Revenue by 2030"
       ],
       "high_impact_news": true
     },
@@ -909,9 +832,9 @@
       "news_sentiment": 0.474,
       "news_confidence": 0.38,
       "news_headlines": [
+        "Xenon Files Azetukalner NDA as It Pauses Psychiatry Trials for Tolerability Review",
         "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks.",
-        "Novartis (NVS) and Bristol Myers (BMY) Pause Autoimmune CAR-T Studies. Can Their Programs Recover?",
-        "Pfizer Stock Paid Out $49B: So Why Did Investors Lose Money?"
+        "Novartis (NVS) and Bristol Myers (BMY) Pause Autoimmune CAR-T Studies. Can Their Programs Recover?"
       ],
       "high_impact_news": true
     },
@@ -937,27 +860,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "COST",
-      "rank_score": 0.4878,
-      "price": 922.9500122070312,
-      "rsi": 69.09485040527551,
-      "momentum_5d": 0.00354468327041828,
-      "momentum_1d": 0.025750719237747723,
-      "macd_crossover": false,
-      "atr_pct": 0.007824132253616067,
-      "bollinger_pct_b": 0.9039,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.638,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Why Costco\u2019s Next Quarter Is the Real Test of Its 7% Fee Growth",
-        "Costco killed a popular member perk and finally says why",
-        "Prediction: Here's What a $10,000 Investment in Costco (COST) Stock Could Be Worth in 5 Years"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "SNAP",
       "rank_score": 0.4873,
       "price": 5.429999828338623,
@@ -979,6 +881,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "IONQ",
+      "rank_score": 0.4867,
+      "price": 45.5,
+      "rsi": 66.24736800306911,
+      "momentum_5d": -0.008714629903734996,
+      "momentum_1d": 0.12959288428246185,
+      "macd_crossover": false,
+      "atr_pct": 0.026115393526325793,
+      "bollinger_pct_b": 0.7504,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.33,
+      "news_sentiment": 0.364,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "IonQ Lined Up 3 Superion 256 Systems With NVIDIA, FIU, and SDT. Here\u2019s Where the Stock Could Go",
+        "IonQ Just Announced a Major Breakthrough. Should Investors Buy the Stock Now?",
+        "Top Quantum Computing Stocks For September 2026"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "ORCL",
       "rank_score": 0.4837,
       "price": 137.0850067138672,
@@ -993,9 +916,30 @@
       "news_sentiment": 0.818,
       "news_confidence": 0.44,
       "news_headlines": [
-        "The AI gold rush is fueling a record corporate bond boom: Chart of the Day",
+        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
         "How to Know When the AI Boom Is About to Go Bust",
         "3 Founder Run Stocks To Own In September 2026"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "COST",
+      "rank_score": 0.4827,
+      "price": 922.9500122070312,
+      "rsi": 69.09485040527551,
+      "momentum_5d": 0.00354468327041828,
+      "momentum_1d": 0.025750719237747723,
+      "macd_crossover": false,
+      "atr_pct": 0.007824132253616067,
+      "bollinger_pct_b": 0.9039,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.41,
+      "news_sentiment": 0.554,
+      "news_confidence": 0.37,
+      "news_headlines": [
+        "Amazon copies Costco move that benefits members and workers",
+        "Why Costco\u2019s Next Quarter Is the Real Test of Its 7% Fee Growth",
+        "Costco killed a popular member perk and finally says why"
       ],
       "high_impact_news": true
     },
@@ -1038,6 +982,27 @@
         "3 Chip Equipment Stocks Retail Investors Are Watching After The US China Summit",
         "Applied Materials (AMAT), What Is Behind The Fresh Attention Today?",
         "ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GOOGL",
+      "rank_score": 0.4689,
+      "price": 343.8399963378906,
+      "rsi": 80.2020943086223,
+      "momentum_5d": -0.00023266191765418577,
+      "momentum_1d": -0.024429041199984552,
+      "macd_crossover": false,
+      "atr_pct": 0.0069807147563068885,
+      "bollinger_pct_b": 0.7715,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.05,
+      "news_sentiment": 0.571,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
+        "Google set to challenge Meta Muse in the Agentic AI race",
+        "Meta Is Up 30% in a Month. Is Its New AI Agent Really That Good?"
       ],
       "high_impact_news": true
     },
