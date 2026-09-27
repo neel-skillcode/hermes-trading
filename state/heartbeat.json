@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99241.96,
+  "portfolio_balance": 99189.01,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 8.02,
-  "unrealized_pnl_usd": 1280.2,
-  "equity_value": 100522.16,
+  "portfolio_drawdown_pct": 8.07,
+  "unrealized_pnl_usd": 1305.08,
+  "equity_value": 100494.1,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
-  "day_capital_used_usd": 32344.48,
+  "day_capital_used_usd": 39675.6,
   "swing_capital_used_usd": 49634.95,
-  "total_trades": 1590,
-  "last_tick": "2026-09-27T19:58:56.466012+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "total_trades": 1592,
+  "last_tick": "2026-09-27T22:53:34.283031+00:00",
+  "last_reflection": "2026-09-27",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -134,8 +134,8 @@
       "mode": "paper",
       "strategy_version": "125",
       "status": "open",
-      "price_peak": 9.925129890441895,
-      "trailing_stop_price": 9.845729,
+      "price_peak": 9.929699897766113,
+      "trailing_stop_price": 9.850262,
       "current_price": 9.9145,
       "unrealized_pnl_pct": 0.012933,
       "unrealized_pnl_usd": 48.61
@@ -507,41 +507,6 @@
       "unrealized_pnl_usd": 0.43
     },
     {
-      "id": "DOGE-USD_20260926002628",
-      "asset": "DOGE-USD",
-      "trade_type": "day",
-      "direction": "short",
-      "entry_price": 0.09920000284910202,
-      "entry_time": "2026-09-26T00:26:28.081703+00:00",
-      "stop_loss_pct": 0.01272,
-      "take_profit_pct": 0.03049,
-      "size_usd": 86.42,
-      "position_size_pct": 0.0009,
-      "confidence": 0.794,
-      "signals": [
-        "RSI overbought (69.5)",
-        "5d momentum +1.69%",
-        "1d momentum +3.60%",
-        "BB overbought (pct_b=0.92)",
-        "High-impact catalyst",
-        "Claude [contradicts]: price surge"
-      ],
-      "news_sentiment": 0.641,
-      "news_headlines": [
-        "Is Dogecoin the Best Crypto You Can Buy Right Now?",
-        "Dogecoin Reclaims $0.10 Amidst $12.7 Million Short Squeeze: Can It Maintain This Level in October?",
-        "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?"
-      ],
-      "mode": "paper",
-      "strategy_version": "139",
-      "status": "open",
-      "price_trough": 0.09664999693632126,
-      "trailing_stop_price": 0.097879,
-      "current_price": 0.09716,
-      "unrealized_pnl_pct": 0.020565,
-      "unrealized_pnl_usd": 1.78
-    },
-    {
       "id": "ETH-USD_20260927165814",
       "asset": "ETH-USD",
       "trade_type": "swing",
@@ -569,65 +534,81 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 2691.580078,
-      "unrealized_pnl_pct": -0.001951,
-      "unrealized_pnl_usd": -8.1
+      "price_trough": 2674.18994140625,
+      "trailing_stop_price": 2703.071193,
+      "current_price": 2674.340088,
+      "unrealized_pnl_pct": 0.004467,
+      "unrealized_pnl_usd": 18.56
     },
     {
-      "id": "SOL-USD_20260927195856",
-      "asset": "SOL-USD",
+      "id": "XRP-USD_20260927225333",
+      "asset": "XRP-USD",
       "trade_type": "day",
       "direction": "long",
-      "entry_price": 123.0999984741211,
-      "entry_time": "2026-09-27T19:58:56.463396+00:00",
-      "stop_loss_pct": 0.00733,
-      "take_profit_pct": 0.01703,
-      "size_usd": 4090.36,
-      "position_size_pct": 0.0412,
-      "confidence": 0.644,
+      "entry_price": 1.5081000328063965,
+      "entry_time": "2026-09-27T22:53:33.608770+00:00",
+      "stop_loss_pct": 0.00876,
+      "take_profit_pct": 0.02186,
+      "size_usd": 6284.62,
+      "position_size_pct": 0.0634,
+      "confidence": 0.99,
       "signals": [
-        "RSI overbought (62.7)",
-        "5d momentum +1.16%",
-        "1d momentum +1.63%",
+        "RSI oversold (33.2)",
+        "5d momentum -1.07%",
+        "1d momentum -0.91%",
+        "BB oversold (pct_b=0.07)",
+        "Volume spike 7.0\u00d7",
         "High-impact catalyst",
-        "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+        "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
       ],
-      "news_sentiment": 0.105,
+      "news_sentiment": 0.81,
       "news_headlines": [
-        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?",
-        "Hyperliquid vs Solana: Which Has More Upside by 2030?",
-        "Solana News: Ex-Binance and Polygon Execs Join the Solana Foundation"
+        "Is XRP a Good Investment Right Now at $1.54?",
+        "Will XRP Hit $4 By 2028?",
+        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
       ],
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 123.099998,
+      "current_price": 1.5081,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "BTC-USD_20260927225333",
+      "asset": "BTC-USD",
+      "trade_type": "day",
+      "direction": "long",
+      "entry_price": 84205.4296875,
+      "entry_time": "2026-09-27T22:53:33.611256+00:00",
+      "stop_loss_pct": 0.00385,
+      "take_profit_pct": 0.0094,
+      "size_usd": 5223.28,
+      "position_size_pct": 0.0527,
+      "confidence": 0.877,
+      "signals": [
+        "RSI oversold (38.3)",
+        "5d momentum -0.42%",
+        "BB oversold (pct_b=0.02)",
+        "Volume spike 2.5\u00d7",
+        "High-impact catalyst",
+        "Claude [supports]: price surge"
+      ],
+      "news_sentiment": 0.415,
+      "news_headlines": [
+        "Strategy (MSTR) Proposes Daily Dividends On Four Preferred Shares",
+        "Is XRP a Good Investment Right Now at $1.54?",
+        "Coinbase (COIN) vs Strategy (MSTR): Which is a Better Stock to Buy?"
+      ],
+      "mode": "paper",
+      "strategy_version": "139",
+      "status": "open",
+      "current_price": 84205.429688,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
-    {
-      "asset": "PFE",
-      "rank_score": 0.6044,
-      "price": 28.684999465942383,
-      "rsi": 65.29405098895872,
-      "momentum_5d": 0.014321031452029813,
-      "momentum_1d": 0.031648953465495684,
-      "macd_crossover": false,
-      "atr_pct": 0.00671057211464511,
-      "bollinger_pct_b": 0.8967,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.84,
-      "news_sentiment": 0.467,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "Innovation Is Driving a New Bull Market in Biotech. 16 Ways to Play It, From Our Roundtable Experts.",
-        "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks.",
-        "D-Wave Quantum vs. QuantumScape: Which Moonshot Tech Stock Is a Better Buy in 2026?"
-      ],
-      "high_impact_news": true
-    },
     {
       "asset": "ON",
       "rank_score": 0.6008,
@@ -650,6 +631,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "PFE",
+      "rank_score": 0.6004,
+      "price": 28.684999465942383,
+      "rsi": 65.29405098895872,
+      "momentum_5d": 0.014321031452029813,
+      "momentum_1d": 0.031648953465495684,
+      "macd_crossover": false,
+      "atr_pct": 0.00671057211464511,
+      "bollinger_pct_b": 0.8967,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.84,
+      "news_sentiment": 0.415,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Pfizer (PFE) Balances Global Pricing Opportunity with New Revenue Sharing",
+        "Innovation Is Driving a New Bull Market in Biotech. 16 Ways to Play It, From Our Roundtable Experts.",
+        "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks."
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "PYPL",
       "rank_score": 0.5835,
       "price": 55.040000915527344,
@@ -667,6 +669,27 @@
         "Buyout firm Advent eyes Monzo stake amid \u00a310bn Nubank bid talks",
         "Peter Thiel Warns Even JD Vance Could Struggle to Win 2028 White House \u2014 Says Vance Vs Rubio is 'The Wrong Question'",
         "PYPL Stock Climbs On West Coast Takeover Rumors After Stripe Walk-Away Leaves Room For A New Bidder"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5782,
+      "price": 2674.340087890625,
+      "rsi": 24.252331336117848,
+      "momentum_5d": -0.006039567332510212,
+      "momentum_1d": -0.005137293288995703,
+      "macd_crossover": false,
+      "atr_pct": 0.004546120310705926,
+      "bollinger_pct_b": 0.0026,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.1,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Can Arbitrum Reach $1? What It Would Take, and Why Ethereum Could Decide It",
+        "Is XRP a Good Investment Right Now at $1.54?",
+        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
       ],
       "high_impact_news": true
     },
@@ -713,6 +736,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.568,
+      "price": 1.5081000328063965,
+      "rsi": 33.24876744076984,
+      "momentum_5d": -0.010692707322425157,
+      "momentum_1d": -0.009132669369422785,
+      "macd_crossover": false,
+      "atr_pct": 0.008463828884812123,
+      "bollinger_pct_b": 0.0698,
+      "volume_spike": true,
+      "volume_spike_ratio": 6.95,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Is XRP a Good Investment Right Now at $1.54?",
+        "Will XRP Hit $4 By 2028?",
+        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "REGN",
       "rank_score": 0.5649,
       "price": 787.3300170898438,
@@ -755,23 +799,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "MSFT",
-      "rank_score": 0.5123,
-      "price": 516.0999755859375,
-      "rsi": 72.83852775763377,
-      "momentum_5d": 0.0038900555335523524,
-      "momentum_1d": 0.03861860655330455,
+      "asset": "AVAX-USD",
+      "rank_score": 0.5164,
+      "price": 10.77299976348877,
+      "rsi": 32.64035180766368,
+      "momentum_5d": -0.017779051894036422,
+      "momentum_1d": 0.0013012305226488125,
       "macd_crossover": false,
-      "atr_pct": 0.008909596669220794,
-      "bollinger_pct_b": 0.8393,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.184,
-      "news_confidence": 0.49,
+      "atr_pct": 0.012929140963528124,
+      "bollinger_pct_b": 0.1119,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.92,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
       "news_headlines": [
-        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
-        "Microsoft (MSFT) Puts GitHub\u2019s Coding Engine Inside the App Office Workers Already Use",
-        "Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent"
+        "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
+        "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?",
+        "Stellar Now Hosts $2.75 Billion in Tokenized Real-World Assets: What Does It Mean for XLM Holders?"
       ],
       "high_impact_news": true
     },
@@ -797,6 +841,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "MSFT",
+      "rank_score": 0.5072,
+      "price": 516.0999755859375,
+      "rsi": 72.83852775763377,
+      "momentum_5d": 0.0038900555335523524,
+      "momentum_1d": 0.03861860655330455,
+      "macd_crossover": false,
+      "atr_pct": 0.008909596669220794,
+      "bollinger_pct_b": 0.8393,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.1,
+      "news_sentiment": -0.08,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
+        "Michael Burry just put a date on Big Tech's AI reckoning, and Oracle's $664 billion lands in crosshairs",
+        "Is Synopsys (SNPS) a Breakout Play as Headwinds Subside and BNP Paribas Upgrades?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "JPM",
       "rank_score": 0.5046,
       "price": 342.9200134277344,
@@ -818,8 +883,29 @@
       "high_impact_news": true
     },
     {
+      "asset": "BTC-USD",
+      "rank_score": 0.4986,
+      "price": 84205.4296875,
+      "rsi": 38.34038311630225,
+      "momentum_5d": -0.004190084913153579,
+      "momentum_1d": -0.0007230606371500192,
+      "macd_crossover": false,
+      "atr_pct": 0.003927913857035299,
+      "bollinger_pct_b": 0.0241,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.46,
+      "news_sentiment": 0.415,
+      "news_confidence": 0.41,
+      "news_headlines": [
+        "Strategy (MSTR) Proposes Daily Dividends On Four Preferred Shares",
+        "Is XRP a Good Investment Right Now at $1.54?",
+        "Coinbase (COIN) vs Strategy (MSTR): Which is a Better Stock to Buy?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "BMY",
-      "rank_score": 0.4924,
+      "rank_score": 0.4944,
       "price": 62.869998931884766,
       "rsi": 80.3592328119103,
       "momentum_5d": 0.01632553362817331,
@@ -829,12 +915,12 @@
       "bollinger_pct_b": 1.0074,
       "volume_spike": false,
       "volume_spike_ratio": 1.45,
-      "news_sentiment": 0.474,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.5,
+      "news_confidence": 0.4,
       "news_headlines": [
+        "Bristol Myers Squibb vs. Novo Nordisk: Which Healthcare Stock Is a Better Buy in 2026?",
         "Xenon Files Azetukalner NDA as It Pauses Psychiatry Trials for Tolerability Review",
-        "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks.",
-        "Novartis (NVS) and Bristol Myers (BMY) Pause Autoimmune CAR-T Studies. Can Their Programs Recover?"
+        "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks."
       ],
       "high_impact_news": true
     },
@@ -903,7 +989,7 @@
     },
     {
       "asset": "COST",
-      "rank_score": 0.4837,
+      "rank_score": 0.4812,
       "price": 922.9500122070312,
       "rsi": 69.09485040527551,
       "momentum_5d": 0.00354468327041828,
@@ -913,33 +999,12 @@
       "bollinger_pct_b": 0.9039,
       "volume_spike": false,
       "volume_spike_ratio": 1.41,
-      "news_sentiment": 0.566,
-      "news_confidence": 0.38,
+      "news_sentiment": 0.487,
+      "news_confidence": 0.39,
       "news_headlines": [
-        "Costco Costs More Than $920 a Share. Here's Why I'd Still Buy One.",
-        "Amazon copies Costco move that benefits members and workers",
-        "Why Costco\u2019s Next Quarter Is the Real Test of Its 7% Fee Growth"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "ORCL",
-      "rank_score": 0.4777,
-      "price": 137.0850067138672,
-      "rsi": 25.58284274520888,
-      "momentum_5d": -0.007062080703809724,
-      "momentum_1d": -0.08073759118949078,
-      "macd_crossover": false,
-      "atr_pct": 0.015046601641352334,
-      "bollinger_pct_b": 0.2616,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.7,
-      "news_sentiment": 0.6,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
-        "IBM\u2019s Dividend Survived the Old IBM. Can It Survive the New One?",
-        "AI\u2019s $10 Trillion Buildout Will Reach 3.6% of GDP. Who\u2019s Going to Pay for It?"
+        "3 UK Stocks Tied To Water Spending As Drought Risk Hits Food Supply",
+        "Here is Why BJ\u2019s Wholesale Club (BJ) is a Good Investment",
+        "Costco Costs More Than $920 a Share. Here's Why I'd Still Buy One."
       ],
       "high_impact_news": true
     },
@@ -961,69 +1026,6 @@
         "3 Founder Led Stocks To Own In September 2026",
         "Is Palantir a Millionaire-Maker Stock After Its Rally?",
         "Figma vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AMAT",
-      "rank_score": 0.4719,
-      "price": 485.04998779296875,
-      "rsi": 64.55625500434941,
-      "momentum_5d": 0.011616702842695661,
-      "momentum_1d": 0.03532548088147012,
-      "macd_crossover": false,
-      "atr_pct": 0.011999865970183795,
-      "bollinger_pct_b": 0.8626,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.43,
-      "news_sentiment": 0.363,
-      "news_confidence": 0.45,
-      "news_headlines": [
-        "3 Chip Equipment Stocks Retail Investors Are Watching After The US China Summit",
-        "Applied Materials (AMAT), What Is Behind The Fresh Attention Today?",
-        "ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better Buy?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "GOOGL",
-      "rank_score": 0.4689,
-      "price": 343.8399963378906,
-      "rsi": 80.2020943086223,
-      "momentum_5d": -0.00023266191765418577,
-      "momentum_1d": -0.024429041199984552,
-      "macd_crossover": false,
-      "atr_pct": 0.0069807147563068885,
-      "bollinger_pct_b": 0.7715,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.05,
-      "news_sentiment": 0.429,
-      "news_confidence": 0.56,
-      "news_headlines": [
-        "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
-        "Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent",
-        "AI\u2019s $10 Trillion Buildout Will Reach 3.6% of GDP. Who\u2019s Going to Pay for It?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.4687,
-      "price": 201.9499969482422,
-      "rsi": 61.9959200809441,
-      "momentum_5d": -0.01217963932414701,
-      "momentum_1d": 0.03101466214801372,
-      "macd_crossover": false,
-      "atr_pct": 0.013634324326205963,
-      "bollinger_pct_b": 0.7412,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "Qualcomm Stock Has an Opportunity Investors May Be Underestimating",
-        "What Catalysts Could Drive Qualcomm (QCOM)\u2019s Stock Higher or Lower?",
-        "ASML vs. Qualcomm: Which AI Semiconductor Stock Is a Better Buy in 2026?"
       ],
       "high_impact_news": true
     }

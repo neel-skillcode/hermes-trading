@@ -107,8 +107,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.925129890441895,
-    "trailing_stop_price": 9.845729
+    "price_peak": 9.929699897766113,
+    "trailing_stop_price": 9.850262
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -443,38 +443,6 @@
     "price_trough": 516.1699829101562,
     "trailing_stop_price": 520.474841
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20260926002628",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.09920000284910202,
-    "entry_time": "2026-09-26T00:26:28.081703+00:00",
-    "stop_loss_pct": 0.01272,
-    "take_profit_pct": 0.03049,
-    "size_usd": 86.42,
-    "position_size_pct": 0.0009,
-    "confidence": 0.794,
-    "signals": [
-      "RSI overbought (69.5)",
-      "5d momentum +1.69%",
-      "1d momentum +3.60%",
-      "BB overbought (pct_b=0.92)",
-      "High-impact catalyst",
-      "Claude [contradicts]: price surge"
-    ],
-    "news_sentiment": 0.641,
-    "news_headlines": [
-      "Is Dogecoin the Best Crypto You Can Buy Right Now?",
-      "Dogecoin Reclaims $0.10 Amidst $12.7 Million Short Squeeze: Can It Maintain This Level in October?",
-      "The Average XRP Holder of the Past Year Is Down 12% and Bitcoin\u2019s Is in Profit. Which One Rallies Next?"
-    ],
-    "mode": "paper",
-    "strategy_version": "139",
-    "status": "open",
-    "price_trough": 0.09664999693632126,
-    "trailing_stop_price": 0.097879
-  },
   "ETH-USD": {
     "id": "ETH-USD_20260927165814",
     "asset": "ETH-USD",
@@ -502,32 +470,66 @@
     ],
     "mode": "paper",
     "strategy_version": "139",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2674.18994140625,
+    "trailing_stop_price": 2703.071193
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20260927195856",
-    "asset": "SOL-USD",
+  "XRP-USD": {
+    "id": "XRP-USD_20260927225333",
+    "asset": "XRP-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 123.0999984741211,
-    "entry_time": "2026-09-27T19:58:56.463396+00:00",
-    "stop_loss_pct": 0.00733,
-    "take_profit_pct": 0.01703,
-    "size_usd": 4090.36,
-    "position_size_pct": 0.0412,
-    "confidence": 0.644,
+    "entry_price": 1.5081000328063965,
+    "entry_time": "2026-09-27T22:53:33.608770+00:00",
+    "stop_loss_pct": 0.00876,
+    "take_profit_pct": 0.02186,
+    "size_usd": 6284.62,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
     "signals": [
-      "RSI overbought (62.7)",
-      "5d momentum +1.16%",
-      "1d momentum +1.63%",
+      "RSI oversold (33.2)",
+      "5d momentum -1.07%",
+      "1d momentum -0.91%",
+      "BB oversold (pct_b=0.07)",
+      "Volume spike 7.0\u00d7",
       "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 0 bearish across 10 articles. Ove"
+      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
     ],
-    "news_sentiment": 0.105,
+    "news_sentiment": 0.81,
     "news_headlines": [
-      "Is It Too Late to Buy XRP After a 42% Rally in Two Months?",
-      "Hyperliquid vs Solana: Which Has More Upside by 2030?",
-      "Solana News: Ex-Binance and Polygon Execs Join the Solana Foundation"
+      "Is XRP a Good Investment Right Now at $1.54?",
+      "Will XRP Hit $4 By 2028?",
+      "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
+    ],
+    "mode": "paper",
+    "strategy_version": "139",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260927225333",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 84205.4296875,
+    "entry_time": "2026-09-27T22:53:33.611256+00:00",
+    "stop_loss_pct": 0.00385,
+    "take_profit_pct": 0.0094,
+    "size_usd": 5223.28,
+    "position_size_pct": 0.0527,
+    "confidence": 0.877,
+    "signals": [
+      "RSI oversold (38.3)",
+      "5d momentum -0.42%",
+      "BB oversold (pct_b=0.02)",
+      "Volume spike 2.5\u00d7",
+      "High-impact catalyst",
+      "Claude [supports]: price surge"
+    ],
+    "news_sentiment": 0.415,
+    "news_headlines": [
+      "Strategy (MSTR) Proposes Daily Dividends On Four Preferred Shares",
+      "Is XRP a Good Investment Right Now at $1.54?",
+      "Coinbase (COIN) vs Strategy (MSTR): Which is a Better Stock to Buy?"
     ],
     "mode": "paper",
     "strategy_version": "139",
