@@ -107,8 +107,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.929699897766113,
-    "trailing_stop_price": 9.850262
+    "price_peak": 9.942859649658203,
+    "trailing_stop_price": 9.863317
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -471,27 +471,56 @@
     "mode": "paper",
     "strategy_version": "139",
     "status": "open",
-    "price_trough": 2674.18994140625,
-    "trailing_stop_price": 2703.071193
+    "price_trough": 2650.18994140625,
+    "trailing_stop_price": 2678.811993
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260927225333",
-    "asset": "XRP-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260928070234",
+    "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 1.5081000328063965,
-    "entry_time": "2026-09-27T22:53:33.608770+00:00",
-    "stop_loss_pct": 0.00876,
-    "take_profit_pct": 0.02186,
-    "size_usd": 6284.62,
+    "entry_price": 10.555000305175781,
+    "entry_time": "2026-09-28T07:02:34.053782+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03742,
+    "size_usd": 6273.7,
     "position_size_pct": 0.0634,
     "confidence": 0.99,
     "signals": [
-      "RSI oversold (33.2)",
-      "5d momentum -1.07%",
-      "1d momentum -0.91%",
-      "BB oversold (pct_b=0.07)",
-      "Volume spike 7.0\u00d7",
+      "RSI oversold (25.5)",
+      "5d momentum -2.06%",
+      "1d momentum -5.39%",
+      "BB oversold (pct_b=0.02)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.81,
+    "news_headlines": [
+      "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
+      "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?",
+      "Stellar Now Hosts $2.75 Billion in Tokenized Real-World Assets: What Does It Mean for XLM Holders?"
+    ],
+    "mode": "paper",
+    "strategy_version": "140",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260928070234",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.482200026512146,
+    "entry_time": "2026-09-28T07:02:34.056057+00:00",
+    "stop_loss_pct": 0.01141,
+    "take_profit_pct": 0.02815,
+    "size_usd": 5165.28,
+    "position_size_pct": 0.0522,
+    "confidence": 0.934,
+    "signals": [
+      "RSI oversold (29.1)",
+      "5d momentum -0.93%",
+      "1d momentum -3.66%",
+      "BB oversold (pct_b=0.08)",
       "High-impact catalyst",
       "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
     ],
@@ -502,37 +531,7 @@
       "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
     ],
     "mode": "paper",
-    "strategy_version": "139",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20260927225333",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 84205.4296875,
-    "entry_time": "2026-09-27T22:53:33.611256+00:00",
-    "stop_loss_pct": 0.00385,
-    "take_profit_pct": 0.0094,
-    "size_usd": 5223.28,
-    "position_size_pct": 0.0527,
-    "confidence": 0.877,
-    "signals": [
-      "RSI oversold (38.3)",
-      "5d momentum -0.42%",
-      "BB oversold (pct_b=0.02)",
-      "Volume spike 2.5\u00d7",
-      "High-impact catalyst",
-      "Claude [supports]: price surge"
-    ],
-    "news_sentiment": 0.415,
-    "news_headlines": [
-      "Strategy (MSTR) Proposes Daily Dividends On Four Preferred Shares",
-      "Is XRP a Good Investment Right Now at $1.54?",
-      "Coinbase (COIN) vs Strategy (MSTR): Which is a Better Stock to Buy?"
-    ],
-    "mode": "paper",
-    "strategy_version": "139",
+    "strategy_version": "140",
     "status": "open"
   }
 }
