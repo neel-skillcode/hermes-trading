@@ -3,16 +3,16 @@
   "portfolio_balance": 99189.01,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 8.07,
-  "unrealized_pnl_usd": 1305.08,
-  "equity_value": 100494.1,
+  "unrealized_pnl_usd": 1289.41,
+  "equity_value": 100478.42,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 39675.6,
   "swing_capital_used_usd": 49634.95,
   "total_trades": 1592,
-  "last_tick": "2026-09-27T22:53:34.283031+00:00",
-  "last_reflection": "2026-09-27",
+  "last_tick": "2026-09-28T01:17:24.596671+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8431,
-      "unrealized_pnl_pct": 0.001123,
-      "unrealized_pnl_usd": 1.51
+      "current_price": 7.84356,
+      "unrealized_pnl_pct": 0.001182,
+      "unrealized_pnl_usd": 1.59
     },
     {
       "id": "SOFI_20260903143205",
@@ -108,9 +108,9 @@
       "status": "open",
       "price_trough": 1.1373976469039917,
       "trailing_stop_price": 1.146497,
-      "current_price": 1.139212,
-      "unrealized_pnl_pct": 0.022101,
-      "unrealized_pnl_usd": 168.51
+      "current_price": 1.138952,
+      "unrealized_pnl_pct": 0.022324,
+      "unrealized_pnl_usd": 170.21
     },
     {
       "id": "USD/SEK_20260915063917",
@@ -136,9 +136,9 @@
       "status": "open",
       "price_peak": 9.929699897766113,
       "trailing_stop_price": 9.850262,
-      "current_price": 9.9145,
-      "unrealized_pnl_pct": 0.012933,
-      "unrealized_pnl_usd": 48.61
+      "current_price": 9.93004,
+      "unrealized_pnl_pct": 0.014521,
+      "unrealized_pnl_usd": 54.58
     },
     {
       "id": "CAD/JPY_20260921135159",
@@ -168,9 +168,9 @@
       "status": "open",
       "price_trough": 111.08399963378906,
       "trailing_stop_price": 111.972672,
-      "current_price": 111.150002,
-      "unrealized_pnl_pct": 0.011358,
-      "unrealized_pnl_usd": 48.64
+      "current_price": 111.466003,
+      "unrealized_pnl_pct": 0.008548,
+      "unrealized_pnl_usd": 36.6
     },
     {
       "id": "SLB_20260922153438",
@@ -263,9 +263,9 @@
       "status": "open",
       "price_trough": 1.4098399877548218,
       "trailing_stop_price": 1.421119,
-      "current_price": 1.4141,
-      "unrealized_pnl_pct": -0.002751,
-      "unrealized_pnl_usd": -12.77
+      "current_price": 1.41545,
+      "unrealized_pnl_pct": -0.003709,
+      "unrealized_pnl_usd": -17.21
     },
     {
       "id": "META_20260924182539",
@@ -534,11 +534,11 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "price_trough": 2674.18994140625,
-      "trailing_stop_price": 2703.071193,
-      "current_price": 2674.340088,
-      "unrealized_pnl_pct": 0.004467,
-      "unrealized_pnl_usd": 18.56
+      "price_trough": 2668.5400390625,
+      "trailing_stop_price": 2697.360271,
+      "current_price": 2668.540039,
+      "unrealized_pnl_pct": 0.006626,
+      "unrealized_pnl_usd": 27.52
     },
     {
       "id": "XRP-USD_20260927225333",
@@ -570,9 +570,11 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 1.5081,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_peak": 1.5084999799728394,
+      "trailing_stop_price": 1.495286,
+      "current_price": 1.5085,
+      "unrealized_pnl_pct": 0.000265,
+      "unrealized_pnl_usd": 1.67
     },
     {
       "id": "BTC-USD_20260927225333",
@@ -603,12 +605,33 @@
       "mode": "paper",
       "strategy_version": "139",
       "status": "open",
-      "current_price": 84205.429688,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 83922.078125,
+      "unrealized_pnl_pct": -0.003365,
+      "unrealized_pnl_usd": -17.58
     }
   ],
   "last_candidates": [
+    {
+      "asset": "PFE",
+      "rank_score": 0.6044,
+      "price": 28.684999465942383,
+      "rsi": 65.29405098895872,
+      "momentum_5d": 0.014321031452029813,
+      "momentum_1d": 0.031648953465495684,
+      "macd_crossover": false,
+      "atr_pct": 0.00671057211464511,
+      "bollinger_pct_b": 0.8967,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.84,
+      "news_sentiment": 0.447,
+      "news_confidence": 0.47,
+      "news_headlines": [
+        "Gilead\u2019s HIV Concentration or Pfizer\u2019s Patent Cliff: Which Risk is Easier to Own?",
+        "Pfizer vs. Medtronic: Which Healthcare Turnaround is More Convincing?",
+        "Pfizer vs. Thermo Fisher: Which Healthcare Turnaround has More Upside?"
+      ],
+      "high_impact_news": true
+    },
     {
       "asset": "ON",
       "rank_score": 0.6008,
@@ -627,27 +650,6 @@
         "Prediction: ON Semiconductor Could Be a Sleeper AI Infrastructure Winner",
         "ON Semiconductor (ON) Stock Stays Near Fair Value Despite Its 69% Run",
         "Penguin Solutions and onsemi Shares Skyrocket, What You Need To Know"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PFE",
-      "rank_score": 0.6004,
-      "price": 28.684999465942383,
-      "rsi": 65.29405098895872,
-      "momentum_5d": 0.014321031452029813,
-      "momentum_1d": 0.031648953465495684,
-      "macd_crossover": false,
-      "atr_pct": 0.00671057211464511,
-      "bollinger_pct_b": 0.8967,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.84,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Pfizer (PFE) Balances Global Pricing Opportunity with New Revenue Sharing",
-        "Innovation Is Driving a New Bull Market in Biotech. 16 Ways to Play It, From Our Roundtable Experts.",
-        "Kevin Warsh Just Signaled Higher-for-Longer Rates. Here's What That Means for Big Pharma Dividend Stocks."
       ],
       "high_impact_news": true
     },
@@ -673,23 +675,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "ETH-USD",
-      "rank_score": 0.5782,
-      "price": 2674.340087890625,
-      "rsi": 24.252331336117848,
-      "momentum_5d": -0.006039567332510212,
-      "momentum_1d": -0.005137293288995703,
+      "asset": "BTC-USD",
+      "rank_score": 0.5827,
+      "price": 83922.078125,
+      "rsi": 34.28408325318988,
+      "momentum_5d": -0.007217663534662548,
+      "momentum_1d": -0.006503952101435127,
       "macd_crossover": false,
-      "atr_pct": 0.004546120310705926,
-      "bollinger_pct_b": 0.0026,
+      "atr_pct": 0.004586724542066299,
+      "bollinger_pct_b": -0.1018,
       "volume_spike": true,
-      "volume_spike_ratio": 3.1,
-      "news_sentiment": 0.591,
-      "news_confidence": 0.44,
+      "volume_spike_ratio": 2.57,
+      "news_sentiment": 0.511,
+      "news_confidence": 0.45,
       "news_headlines": [
-        "Can Arbitrum Reach $1? What It Would Take, and Why Ethereum Could Decide It",
-        "Is XRP a Good Investment Right Now at $1.54?",
-        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
+        "Cipher Digital (CIFR) Extends Barber Lake Deal to $9 Billion and 300 MW",
+        "Strategy (MSTR) Proposes Daily Dividends On Four Preferred Shares",
+        "Is XRP a Good Investment Right Now at $1.54?"
       ],
       "high_impact_news": true
     },
@@ -736,23 +738,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "XRP-USD",
-      "rank_score": 0.568,
-      "price": 1.5081000328063965,
-      "rsi": 33.24876744076984,
-      "momentum_5d": -0.010692707322425157,
-      "momentum_1d": -0.009132669369422785,
+      "asset": "MRNA",
+      "rank_score": 0.5687,
+      "price": 198.88999938964844,
+      "rsi": 76.65736908447153,
+      "momentum_5d": 0.01162230722395274,
+      "momentum_1d": 0.08933069008119383,
       "macd_crossover": false,
-      "atr_pct": 0.008463828884812123,
-      "bollinger_pct_b": 0.0698,
-      "volume_spike": true,
-      "volume_spike_ratio": 6.95,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.42,
+      "atr_pct": 0.022429591417516114,
+      "bollinger_pct_b": 0.85,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.67,
+      "news_sentiment": 0.674,
+      "news_confidence": 0.47,
       "news_headlines": [
-        "Is XRP a Good Investment Right Now at $1.54?",
-        "Will XRP Hit $4 By 2028?",
-        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
+        "Innovation Is Driving a New Bull Market in Biotech. 16 Ways to Play It, From Our Roundtable Experts.",
+        "Why Moderna (MRNA) Is Up 29.1% After Melanoma Vaccine Success And Middle East Expansion Talks",
+        "Moderna (MRNA) Held Investment Talks With The UAE Government"
       ],
       "high_impact_news": true
     },
@@ -778,6 +780,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "ETH-USD",
+      "rank_score": 0.563,
+      "price": 2668.5400390625,
+      "rsi": 29.485610214748604,
+      "momentum_5d": -0.006326494229827442,
+      "momentum_1d": -0.012058030611148284,
+      "macd_crossover": false,
+      "atr_pct": 0.005505416247671291,
+      "bollinger_pct_b": 0.0379,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.02,
+      "news_sentiment": 0.591,
+      "news_confidence": 0.44,
+      "news_headlines": [
+        "Can Arbitrum Reach $1? What It Would Take, and Why Ethereum Could Decide It",
+        "Is XRP a Good Investment Right Now at $1.54?",
+        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "HAL",
       "rank_score": 0.5551,
       "price": 32.7599983215332,
@@ -795,27 +818,6 @@
         "Halliburton (HAL) Enters Venezuela\u2019s Oil Revival with Two New Deals",
         "Halliburton (HAL) Signed Venezuela Oil And Gas Revival Agreements",
         "Wall Street Analysts Look Bullish on Halliburton (HAL): Should You Buy?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.5164,
-      "price": 10.77299976348877,
-      "rsi": 32.64035180766368,
-      "momentum_5d": -0.017779051894036422,
-      "momentum_1d": 0.0013012305226488125,
-      "macd_crossover": false,
-      "atr_pct": 0.012929140963528124,
-      "bollinger_pct_b": 0.1119,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.92,
-      "news_sentiment": 0.81,
-      "news_confidence": 0.42,
-      "news_headlines": [
-        "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
-        "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?",
-        "Stellar Now Hosts $2.75 Billion in Tokenized Real-World Assets: What Does It Mean for XLM Holders?"
       ],
       "high_impact_news": true
     },
@@ -841,6 +843,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "XRP-USD",
+      "rank_score": 0.5092,
+      "price": 1.5084999799728394,
+      "rsi": 34.10087289325291,
+      "momentum_5d": -0.009455647435450349,
+      "momentum_1d": -0.009585738527407218,
+      "macd_crossover": false,
+      "atr_pct": 0.00945595710881428,
+      "bollinger_pct_b": 0.0839,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.69,
+      "news_sentiment": 0.81,
+      "news_confidence": 0.42,
+      "news_headlines": [
+        "Is XRP a Good Investment Right Now at $1.54?",
+        "Will XRP Hit $4 By 2028?",
+        "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "MSFT",
       "rank_score": 0.5072,
       "price": 516.0999755859375,
@@ -856,8 +879,8 @@
       "news_confidence": 0.5,
       "news_headlines": [
         "The AI gold rush is fueling a record tech bond boom: Chart of the Day",
-        "Michael Burry just put a date on Big Tech's AI reckoning, and Oracle's $664 billion lands in crosshairs",
-        "Is Synopsys (SNPS) a Breakout Play as Headwinds Subside and BNP Paribas Upgrades?"
+        "Microsoft (MSFT) Reportedly Plans a Vast Data Center Expansion. Can Azure Justify the Cost?",
+        "Michael Burry just put a date on Big Tech's AI reckoning, and Oracle's $664 billion lands in crosshairs"
       ],
       "high_impact_news": true
     },
@@ -879,27 +902,6 @@
         "JPMorgan doubles down on diesel as record prices test inflation",
         "This Is the No. 1 Move Investors Should Make Before Buying Stocks Right Now.",
         "A Decade of JPMorgan Chase Delivered 572% Returns but This Year Tells a Different Story"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BTC-USD",
-      "rank_score": 0.4986,
-      "price": 84205.4296875,
-      "rsi": 38.34038311630225,
-      "momentum_5d": -0.004190084913153579,
-      "momentum_1d": -0.0007230606371500192,
-      "macd_crossover": false,
-      "atr_pct": 0.003927913857035299,
-      "bollinger_pct_b": 0.0241,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.46,
-      "news_sentiment": 0.415,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Strategy (MSTR) Proposes Daily Dividends On Four Preferred Shares",
-        "Is XRP a Good Investment Right Now at $1.54?",
-        "Coinbase (COIN) vs Strategy (MSTR): Which is a Better Stock to Buy?"
       ],
       "high_impact_news": true
     },
@@ -988,6 +990,27 @@
       "high_impact_news": true
     },
     {
+      "asset": "PLTR",
+      "rank_score": 0.482,
+      "price": 189.66000366210938,
+      "rsi": 39.671442506920265,
+      "momentum_5d": -0.010925405686195497,
+      "momentum_1d": 0.02624320203228149,
+      "macd_crossover": false,
+      "atr_pct": 0.010502195078629735,
+      "bollinger_pct_b": -0.0455,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.66,
+      "news_sentiment": 0.52,
+      "news_confidence": 0.5,
+      "news_headlines": [
+        "Salesforce vs. Palantir Technologies: What Revenue Trends Reveal to Investors About These Tech Giants",
+        "3 Founder Led Stocks To Own In September 2026",
+        "Is Palantir a Millionaire-Maker Stock After Its Rally?"
+      ],
+      "high_impact_news": true
+    },
+    {
       "asset": "COST",
       "rank_score": 0.4812,
       "price": 922.9500122070312,
@@ -1002,30 +1025,9 @@
       "news_sentiment": 0.487,
       "news_confidence": 0.39,
       "news_headlines": [
-        "3 UK Stocks Tied To Water Spending As Drought Risk Hits Food Supply",
-        "Here is Why BJ\u2019s Wholesale Club (BJ) is a Good Investment",
-        "Costco Costs More Than $920 a Share. Here's Why I'd Still Buy One."
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "PLTR",
-      "rank_score": 0.476,
-      "price": 189.66000366210938,
-      "rsi": 39.671442506920265,
-      "momentum_5d": -0.010925405686195497,
-      "momentum_1d": 0.02624320203228149,
-      "macd_crossover": false,
-      "atr_pct": 0.010502195078629735,
-      "bollinger_pct_b": -0.0455,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.66,
-      "news_sentiment": 0.435,
-      "news_confidence": 0.46,
-      "news_headlines": [
-        "3 Founder Led Stocks To Own In September 2026",
-        "Is Palantir a Millionaire-Maker Stock After Its Rally?",
-        "Figma vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?"
+        "In 1980, His Business Became The Fastest Company In History To Reach $1 Billion In Sales. Today, His Heirs Sit On Top a $453 Billion Combined Fortune. Here\u2019s How Sam Walton Built the Biggest Retail Empire in America\u2019s History",
+        "Walmart, Aldi, and Kroger follow Costco's lead",
+        "3 UK Stocks Tied To Water Spending As Drought Risk Hits Food Supply"
       ],
       "high_impact_news": true
     }
