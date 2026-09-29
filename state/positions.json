@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1346874237060547,
-    "trailing_stop_price": 1.143765
+    "price_trough": 1.134429931640625,
+    "trailing_stop_price": 1.143505
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -107,8 +107,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.982529640197754,
-    "trailing_stop_price": 9.902669
+    "price_peak": 9.98882007598877,
+    "trailing_stop_price": 9.90891
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -136,8 +136,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 110.9530029296875,
-    "trailing_stop_price": 111.840627
+    "price_trough": 110.86299896240234,
+    "trailing_stop_price": 111.749903
   },
   "SLB": {
     "id": "SLB_20260922153438",
@@ -166,8 +166,8 @@
     "mode": "paper",
     "strategy_version": "135",
     "status": "open",
-    "price_trough": 51.43000030517578,
-    "trailing_stop_price": 52.71575
+    "price_trough": 49.77000045776367,
+    "trailing_stop_price": 51.01425
   },
   "HD": {
     "id": "HD_20260922190600",
@@ -197,8 +197,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 289.89,
-    "trailing_stop_price": 295.806655
+    "price_trough": 289.4849853515625,
+    "trailing_stop_price": 295.393374
   },
   "USD/CAD": {
     "id": "USD/CAD_20260923142537",
@@ -285,8 +285,8 @@
     "mode": "paper",
     "strategy_version": "138",
     "status": "open",
-    "price_trough": 54.244998931884766,
-    "trailing_stop_price": 54.739713
+    "price_trough": 53.85499954223633,
+    "trailing_stop_price": 54.346157
   },
   "MSFT": {
     "id": "MSFT_20260925185631",
@@ -349,7 +349,9 @@
     ],
     "mode": "paper",
     "strategy_version": "140",
-    "status": "open"
+    "status": "open",
+    "price_peak": 382.2720031738281,
+    "trailing_stop_price": 379.447013
   },
   "SLV": {
     "id": "SLV_20260928151831",
@@ -380,7 +382,9 @@
     ],
     "mode": "paper",
     "strategy_version": "140",
-    "status": "open"
+    "status": "open",
+    "price_peak": 55.36050033569336,
+    "trailing_stop_price": 54.745999
   },
   "INTC": {
     "id": "INTC_20260928151831",
@@ -411,66 +415,8 @@
     "mode": "paper",
     "strategy_version": "140",
     "status": "open",
-    "price_peak": 116.03,
-    "trailing_stop_price": 114.28955
-  },
-  "ARM": {
-    "id": "ARM_20260928151831",
-    "asset": "ARM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 281.6695861816406,
-    "entry_time": "2026-09-28T15:18:31.551062+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 370.79,
-    "position_size_pct": 0.0037,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (27.0)",
-      "5d momentum -11.18%",
-      "1d momentum -14.94%",
-      "BB oversold (pct_b=-0.11)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: price surge"
-    ],
-    "news_sentiment": 0.571,
-    "news_headlines": [
-      "Chip stocks fall as AI breach fuels safety concerns, but Nvidia bucks the trend: Chart of the Day",
-      "1 Agentic AI Chip Stock to Buy and 1 to Sell",
-      "MarketBeat Week in Review \u2013 09/21 - 09/25"
-    ],
-    "mode": "paper",
-    "strategy_version": "140",
-    "status": "open",
-    "price_peak": 283.33,
-    "trailing_stop_price": 279.08005
-  },
-  "USD/MXN": {
-    "id": "USD/MXN_20260928211709",
-    "asset": "USD/MXN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 17.97467041015625,
-    "entry_time": "2026-09-28T21:17:09.097788+00:00",
-    "stop_loss_pct": 0.00302,
-    "take_profit_pct": 0.0072,
-    "size_usd": 4841.38,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (86.0)",
-      "5d momentum +0.64%",
-      "1d momentum +1.69%",
-      "BB overbought (pct_b=0.99)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "140",
-    "status": "open",
-    "price_trough": 17.961000442504883,
-    "trailing_stop_price": 18.015243
+    "price_peak": 116.51000213623047,
+    "trailing_stop_price": 114.762352
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20260929064809",
@@ -488,31 +434,6 @@
       "RSI oversold (35.9)",
       "5d momentum -0.37%",
       "BB oversold (pct_b=-0.00)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "140",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20260929132357",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.54830002784729,
-    "entry_time": "2026-09-29T13:23:57.952032+00:00",
-    "stop_loss_pct": 0.0112,
-    "take_profit_pct": 0.02749,
-    "size_usd": 5782.68,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (71.9)",
-      "5d momentum +3.16%",
-      "1d momentum +1.82%",
-      "BB overbought (pct_b=1.11)",
-      "Volume spike 1.8\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
@@ -542,6 +463,79 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "140",
+    "status": "open",
+    "price_trough": 11.300999641418457,
+    "trailing_stop_price": 11.470515
+  },
+  "OXY": {
+    "id": "OXY_20260929184524",
+    "asset": "OXY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 54.94499969482422,
+    "entry_time": "2026-09-29T18:45:24.287313+00:00",
+    "stop_loss_pct": 0.00752,
+    "take_profit_pct": 0.0179,
+    "size_usd": 4838.26,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (13.7)",
+      "5d momentum -1.04%",
+      "1d momentum -4.98%",
+      "BB oversold (pct_b=0.04)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "141",
+    "status": "open"
+  },
+  "RXRX": {
+    "id": "RXRX_20260929184524",
+    "asset": "RXRX",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 3.924999952316284,
+    "entry_time": "2026-09-29T18:45:24.289181+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0357,
+    "size_usd": 4838.26,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (61.5)",
+      "5d momentum +3.00%",
+      "1d momentum +6.09%",
+      "BB overbought (pct_b=1.00)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "141",
+    "status": "open"
+  },
+  "CRM": {
+    "id": "CRM_20260929184524",
+    "asset": "CRM",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 225.07000732421875,
+    "entry_time": "2026-09-29T18:45:24.290514+00:00",
+    "stop_loss_pct": 0.00991,
+    "take_profit_pct": 0.02259,
+    "size_usd": 1390.44,
+    "position_size_pct": 0.014,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (19.2)",
+      "5d momentum -1.61%",
+      "1d momentum -6.35%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "141",
     "status": "open"
   }
 }
