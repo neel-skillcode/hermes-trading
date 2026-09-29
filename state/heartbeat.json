@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 99535.04,
+  "portfolio_balance": 99455.62,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 7.75,
-  "unrealized_pnl_usd": 1918.59,
-  "equity_value": 101453.63,
-  "open_positions": 18,
+  "portfolio_drawdown_pct": 7.82,
+  "unrealized_pnl_usd": 1970.53,
+  "equity_value": 101426.15,
+  "open_positions": 19,
   "day_trades_open": 9,
-  "swing_trades_open": 9,
-  "day_capital_used_usd": 39729.17,
-  "swing_capital_used_usd": 45480.98,
-  "total_trades": 1600,
-  "last_tick": "2026-09-29T01:02:30.265829+00:00",
+  "swing_trades_open": 10,
+  "day_capital_used_usd": 39782.25,
+  "swing_capital_used_usd": 49727.81,
+  "total_trades": 1601,
+  "last_tick": "2026-09-29T06:48:09.815622+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 8,
+  "trades_since_last_reflection": 9,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8439,
-      "unrealized_pnl_pct": 0.001225,
-      "unrealized_pnl_usd": 1.65
+      "current_price": 7.844,
+      "unrealized_pnl_pct": 0.001238,
+      "unrealized_pnl_usd": 1.66
     },
     {
       "id": "SOFI_20260903143205",
@@ -134,11 +134,11 @@
       "mode": "paper",
       "strategy_version": "125",
       "status": "open",
-      "price_peak": 9.96442985534668,
-      "trailing_stop_price": 9.884714,
-      "current_price": 9.96443,
-      "unrealized_pnl_pct": 0.018034,
-      "unrealized_pnl_usd": 67.78
+      "price_peak": 9.975310325622559,
+      "trailing_stop_price": 9.895508,
+      "current_price": 9.9743,
+      "unrealized_pnl_pct": 0.019043,
+      "unrealized_pnl_usd": 71.57
     },
     {
       "id": "CAD/JPY_20260921135159",
@@ -166,11 +166,11 @@
       "mode": "paper",
       "strategy_version": "134",
       "status": "open",
-      "price_trough": 110.96800231933594,
-      "trailing_stop_price": 111.855746,
-      "current_price": 110.972,
-      "unrealized_pnl_pct": 0.012942,
-      "unrealized_pnl_usd": 55.42
+      "price_trough": 110.9530029296875,
+      "trailing_stop_price": 111.840627,
+      "current_price": 110.954002,
+      "unrealized_pnl_pct": 0.013102,
+      "unrealized_pnl_usd": 56.1
     },
     {
       "id": "SLB_20260922153438",
@@ -263,9 +263,9 @@
       "status": "open",
       "price_trough": 1.4098399877548218,
       "trailing_stop_price": 1.421119,
-      "current_price": 1.41817,
-      "unrealized_pnl_pct": -0.005637,
-      "unrealized_pnl_usd": -26.16
+      "current_price": 1.4182,
+      "unrealized_pnl_pct": -0.005659,
+      "unrealized_pnl_usd": -26.26
     },
     {
       "id": "RIVN_20260924182539",
@@ -400,11 +400,11 @@
       "mode": "paper",
       "strategy_version": "140",
       "status": "open",
-      "price_peak": 1.4931000471115112,
-      "trailing_stop_price": 1.476064,
-      "current_price": 1.4912,
-      "unrealized_pnl_pct": 0.006072,
-      "unrealized_pnl_usd": 31.36
+      "price_peak": 1.5026999711990356,
+      "trailing_stop_price": 1.485554,
+      "current_price": 1.5024,
+      "unrealized_pnl_pct": 0.013628,
+      "unrealized_pnl_usd": 70.39
     },
     {
       "id": "GLD_20260928151831",
@@ -567,48 +567,88 @@
       "mode": "paper",
       "strategy_version": "140",
       "status": "open",
-      "current_price": 17.984591,
-      "unrealized_pnl_pct": -0.000552,
-      "unrealized_pnl_usd": -2.67
+      "price_trough": 17.961000442504883,
+      "trailing_stop_price": 18.015243,
+      "current_price": 17.952999,
+      "unrealized_pnl_pct": 0.001206,
+      "unrealized_pnl_usd": 5.84
     },
     {
-      "id": "AVAX-USD_20260929010230",
+      "id": "AVAX-USD_20260929064809",
       "asset": "AVAX-USD",
       "trade_type": "day",
       "direction": "short",
-      "entry_price": 10.699000358581543,
-      "entry_time": "2026-09-29T01:02:30.261925+00:00",
+      "entry_price": 10.871000289916992,
+      "entry_time": "2026-09-29T06:48:09.809131+00:00",
       "stop_loss_pct": 0.015,
-      "take_profit_pct": 0.03596,
-      "size_usd": 5057.97,
-      "position_size_pct": 0.0508,
-      "confidence": 0.794,
+      "take_profit_pct": 0.03682,
+      "size_usd": 5111.05,
+      "position_size_pct": 0.0514,
+      "confidence": 0.91,
       "signals": [
-        "RSI overbought (62.8)",
-        "5d momentum +1.70%",
-        "1d momentum -1.88%",
-        "BB overbought (pct_b=0.93)",
-        "High-impact catalyst",
-        "Claude [contradicts]: analyst upgrade; price surge"
+        "RSI overbought (62.9)",
+        "5d momentum +3.17%",
+        "1d momentum +3.15%",
+        "BB overbought (pct_b=1.20)",
+        "Volume spike 2.4\u00d7"
       ],
-      "news_sentiment": 0.81,
-      "news_headlines": [
-        "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
-        "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?",
-        "Stellar Now Hosts $2.75 Billion in Tokenized Real-World Assets: What Does It Mean for XLM Holders?"
-      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
       "mode": "paper",
       "strategy_version": "140",
       "status": "open",
-      "current_price": 10.699,
+      "current_price": 10.871,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "AUD/JPY_20260929064809",
+      "asset": "AUD/JPY",
+      "trade_type": "swing",
+      "direction": "long",
+      "entry_price": 110.08000183105469,
+      "entry_time": "2026-09-29T06:48:09.812934+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02624,
+      "size_usd": 4246.83,
+      "position_size_pct": 0.0427,
+      "confidence": 0.56,
+      "signals": [
+        "RSI oversold (35.9)",
+        "5d momentum -0.37%",
+        "BB oversold (pct_b=-0.00)"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "140",
+      "status": "open",
+      "current_price": 110.080002,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
     {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6588,
+      "price": 10.871000289916992,
+      "rsi": 62.853694638413586,
+      "momentum_5d": 0.03169788335341839,
+      "momentum_1d": 0.031502110860775485,
+      "macd_crossover": false,
+      "atr_pct": 0.019823384088100422,
+      "bollinger_pct_b": 1.1964,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.42,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
       "asset": "SOUN",
-      "rank_score": 0.7435,
+      "rank_score": 0.6331,
       "price": 5.840000152587891,
       "rsi": 27.818403690593414,
       "momentum_5d": -0.01519364127059763,
@@ -618,18 +658,14 @@
       "bollinger_pct_b": -0.0665,
       "volume_spike": true,
       "volume_spike_ratio": 2.31,
-      "news_sentiment": 0.572,
-      "news_confidence": 0.53,
-      "news_headlines": [
-        "Innodata vs. SoundHound AI: Which Technology Stock Is a Better Buy in 2026?",
-        "SoundHound vs. BigBear.ai: Which AI Stock Is the Better Buy Now?",
-        "3 of Wall Street\u2019s Favorite Stocks with Questionable Fundamentals"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "REGN",
-      "rank_score": 0.7317,
+      "rank_score": 0.6197,
       "price": 752.239990234375,
       "rsi": 19.541720819211193,
       "momentum_5d": -0.016165296555353204,
@@ -639,18 +675,31 @@
       "bollinger_pct_b": 0.0789,
       "volume_spike": true,
       "volume_spike_ratio": 2.25,
-      "news_sentiment": 0.667,
-      "news_confidence": 0.48,
-      "news_headlines": [
-        "Why This Regeneron Eye Rival Just Catapulted More Than 170%",
-        "Inside the Eye-Drug Breakthrough That Sent Kodiak Sciences Up 183%",
-        "\ud83d\udd0e Under the Radar: Kodiak Stock Surges as Eye Drug Matches Regeneron\u2019s"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
+      "asset": "ETH-USD",
+      "rank_score": 0.5842,
+      "price": 2697.22998046875,
+      "rsi": 53.89207909424443,
+      "momentum_5d": 0.012333070045064445,
+      "momentum_1d": 0.018206863144110984,
+      "macd_crossover": true,
+      "atr_pct": 0.007296374998645503,
+      "bollinger_pct_b": 0.8889,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.61,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "MS",
-      "rank_score": 0.6373,
+      "rank_score": 0.5543,
       "price": 193.64999389648438,
       "rsi": 34.624485082159524,
       "momentum_5d": 5.161385492377658e-05,
@@ -660,18 +709,14 @@
       "bollinger_pct_b": 0.1072,
       "volume_spike": true,
       "volume_spike_ratio": 1.56,
-      "news_sentiment": -0.086,
-      "news_confidence": 0.35,
-      "news_headlines": [
-        "2 red flags in markets shaking investors' confidence",
-        "Morgan Stanley Plans 3,800 Dallas Jobs as Zohran Mamdani Pushes NYC Tax Changes",
-        "Morgan Stanley (MS) Sees a More Significant Dip Than Broader Market: Some Facts to Know"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "RBLX",
-      "rank_score": 0.6372,
+      "rank_score": 0.5495,
       "price": 41.88945388793945,
       "rsi": 15.506096929789464,
       "momentum_5d": -0.03279952528996234,
@@ -681,18 +726,14 @@
       "bollinger_pct_b": 0.0927,
       "volume_spike": false,
       "volume_spike_ratio": 1.49,
-      "news_sentiment": -0.118,
-      "news_confidence": 0.65,
-      "news_headlines": [
-        "Roblox (RBLX) Dips More Than Broader Market: What You Should Know",
-        "Sector Update: Tech Stocks Fall Late Afternoon",
-        "Roblox Stock Falls After Jefferies Cuts It to Underperform"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "LCID",
-      "rank_score": 0.6081,
+      "rank_score": 0.5265,
       "price": 3.9054999351501465,
       "rsi": 24.711123741694266,
       "momentum_5d": -0.004968157300137044,
@@ -702,18 +743,14 @@
       "bollinger_pct_b": 0.1137,
       "volume_spike": true,
       "volume_spike_ratio": 1.8,
-      "news_sentiment": 0.039,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Can This Number Push Tesla Stock Higher?",
-        "Is Rivian Stock Riskier Than It Looks?",
-        "3 Growth Stocks with Warning Signs"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "CRM",
-      "rank_score": 0.5991,
+      "rank_score": 0.5031,
       "price": 227.30999755859375,
       "rsi": 8.739548896967932,
       "momentum_5d": -0.009542494298066449,
@@ -723,60 +760,14 @@
       "bollinger_pct_b": 0.1232,
       "volume_spike": false,
       "volume_spike_ratio": 1.22,
-      "news_sentiment": 0.421,
-      "news_confidence": 0.38,
-      "news_headlines": [
-        "The impact that AI will have on advertising, according to Sir Martin Sorrell",
-        "Stock Market Today: Dow Ends Lower But Nvidia Pops On This; Leisure Play Tests Entry, MongoDB Dives",
-        "Meta Platform Takes Aim at Salesforce, ServiceNow With AI Push"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BMY",
-      "rank_score": 0.5956,
-      "price": 63.880001068115234,
-      "rsi": 84.79733535903159,
-      "momentum_5d": 0.009481705126306993,
-      "momentum_1d": 0.03844593516918367,
-      "macd_crossover": false,
-      "atr_pct": 0.006865550683182359,
-      "bollinger_pct_b": 0.8875,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.47,
-      "news_sentiment": 0.707,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Could Bristol-Myers Squibb (BMY)\u2019s New Myeloma Data Reshape its Growth Outlook?",
-        "Bristol-Myers Squibb (BMY) is Building its Next Growth Engine. Can It Replace Lost Revenue?",
-        "What Are Merck Stock Investors Overlooking?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SLB",
-      "rank_score": 0.5929,
-      "price": 51.474998474121094,
-      "rsi": 50.85995039937314,
-      "momentum_5d": -0.0013580307946618954,
-      "momentum_1d": -0.014266616797524464,
-      "macd_crossover": true,
-      "atr_pct": 0.008924168633116302,
-      "bollinger_pct_b": 0.3683,
-      "volume_spike": true,
-      "volume_spike_ratio": 3.24,
-      "news_sentiment": 0.93,
-      "news_confidence": 0.57,
-      "news_headlines": [
-        "SLB Secures Major Aramco Contracts, Expands Saudi Arabia Footprint",
-        "Sector Update: Energy Stocks Rise Late Afternoon",
-        "Sector Update: Energy Stocks Rise Thursday Afternoon"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "WFC",
-      "rank_score": 0.5891,
+      "rank_score": 0.4991,
       "price": 80.81500244140625,
       "rsi": 29.50826382382637,
       "momentum_5d": -0.01173951778122377,
@@ -786,18 +777,31 @@
       "bollinger_pct_b": 0.0779,
       "volume_spike": true,
       "volume_spike_ratio": 2.12,
-      "news_sentiment": 0.25,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Does Wells Fargo\u2019s New Digital Tools and AI-Era Deposit Mobility Strategy Reshape The Bull Case For WFC?",
-        "Could Boston Scientific\u2019s $300 Million Cyber Hit Be Mostly a 2026 Problem?",
-        "20 Years on Wall Street, 1 Core Strategy: How I Play Rising Rates"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
+      "asset": "BMY",
+      "rank_score": 0.4866,
+      "price": 63.880001068115234,
+      "rsi": 84.79733535903159,
+      "momentum_5d": 0.009481705126306993,
+      "momentum_1d": 0.03844593516918367,
+      "macd_crossover": false,
+      "atr_pct": 0.006865550683182359,
+      "bollinger_pct_b": 0.8875,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.47,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "META",
-      "rank_score": 0.5817,
+      "rank_score": 0.4827,
       "price": 715.719970703125,
       "rsi": 12.26469097767199,
       "momentum_5d": -0.006523989226458464,
@@ -807,18 +811,14 @@
       "bollinger_pct_b": 0.1316,
       "volume_spike": false,
       "volume_spike_ratio": 0.62,
-      "news_sentiment": 0.576,
-      "news_confidence": 0.33,
-      "news_headlines": [
-        "What Nvidia's $150 billion stock buyback means for shareholders and potential investors",
-        "Meta enters the enterprise AI battle",
-        "Nvidia boosts stock buyback program, how AI will change the advertising landscape"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "VRTX",
-      "rank_score": 0.5721,
+      "rank_score": 0.4651,
       "price": 527.6400146484375,
       "rsi": 62.82250371243953,
       "momentum_5d": -0.0006723178667085902,
@@ -828,60 +828,31 @@
       "bollinger_pct_b": 0.7755,
       "volume_spike": true,
       "volume_spike_ratio": 2.21,
-      "news_sentiment": 0.628,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Could Vertex Pharmaceuticals (VRTX)\u2019s Kidney Breakthrough Unlock a New Opportunity for Maze Therapeutics (MAZE)?",
-        "2 Healthcare Stocks to Target This Week and 1 We Avoid",
-        "2 Healthcare Stocks That Just Delivered Great News for Investors"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
-      "asset": "GLD",
-      "rank_score": 0.5552,
-      "price": 377.94000244140625,
-      "rsi": 18.934562085210274,
-      "momentum_5d": -0.0006649947521012373,
-      "momentum_1d": -0.03736528223300286,
-      "macd_crossover": false,
-      "atr_pct": 0.006752474663678314,
-      "bollinger_pct_b": 0.122,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.39,
-      "news_sentiment": 0.61,
-      "news_confidence": 0.41,
-      "news_headlines": [
-        "Toogood Gold Narrows Table Mountain Targets as Two Major Gold Corridors Take Shape",
-        "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise",
-        "Bitcoin Surges 36% Since August 18 While Gold and Stocks Remain Stagnant: A Shift in Correlation?"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "SNAP",
-      "rank_score": 0.5508,
-      "price": 5.2195000648498535,
-      "rsi": 27.380237465233876,
-      "momentum_5d": -0.016116826815345188,
-      "momentum_1d": -0.010521332609324295,
-      "macd_crossover": false,
-      "atr_pct": 0.016721627608670783,
-      "bollinger_pct_b": 0.0088,
+      "asset": "SLB",
+      "rank_score": 0.4599,
+      "price": 51.474998474121094,
+      "rsi": 50.85995039937314,
+      "momentum_5d": -0.0013580307946618954,
+      "momentum_1d": -0.014266616797524464,
+      "macd_crossover": true,
+      "atr_pct": 0.008924168633116302,
+      "bollinger_pct_b": 0.3683,
       "volume_spike": true,
-      "volume_spike_ratio": 1.52,
-      "news_sentiment": 0.633,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Snapchat launches pitch for B2B ad spend",
-        "Meta Up 37%: Was It The Muse App Or The Ad Machine?",
-        "Meta Platforms Boosts Ad Engagement With AI: More Upside Ahead?"
-      ],
-      "high_impact_news": true
+      "volume_spike_ratio": 3.24,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "SLV",
-      "rank_score": 0.5476,
+      "rank_score": 0.4546,
       "price": 54.95000076293945,
       "rsi": 22.7367166840787,
       "momentum_5d": -0.004528985444649607,
@@ -891,81 +862,31 @@
       "bollinger_pct_b": 0.1018,
       "volume_spike": false,
       "volume_spike_ratio": 0.83,
-      "news_sentiment": 0.302,
-      "news_confidence": 0.43,
-      "news_headlines": [
-        "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise",
-        "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
-        "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions Before US-China Talks"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
-      "asset": "AMAT",
-      "rank_score": 0.5421,
-      "price": 486.7099914550781,
-      "rsi": 66.81768196665843,
-      "momentum_5d": 0.024092036893867203,
-      "momentum_1d": 0.03432079645587254,
+      "asset": "GLD",
+      "rank_score": 0.4502,
+      "price": 377.94000244140625,
+      "rsi": 18.934562085210274,
+      "momentum_5d": -0.0006649947521012373,
+      "momentum_1d": -0.03736528223300286,
       "macd_crossover": false,
-      "atr_pct": 0.01190972206266861,
-      "bollinger_pct_b": 0.7779,
+      "atr_pct": 0.006752474663678314,
+      "bollinger_pct_b": 0.122,
       "volume_spike": false,
-      "volume_spike_ratio": 1.46,
-      "news_sentiment": 0.596,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "Wall Street Analysts Believe Applied Materials (AMAT) Could Rally 34.23%: Here's is How to Trade",
-        "Here's How Much a $1000 Investment in Applied Materials Made 10 Years Ago Would Be Worth Today",
-        "AI Is Powering A Profit Boom \u2014 But Is It An 'Earnings Bubble'? Wall Street Analyst Weighs In"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "BIIB",
-      "rank_score": 0.5395,
-      "price": 228.7100067138672,
-      "rsi": 59.04408889685152,
-      "momentum_5d": -0.003963018999525264,
-      "momentum_1d": 0.028002566999136995,
-      "macd_crossover": false,
-      "atr_pct": 0.008344254786400454,
-      "bollinger_pct_b": 0.724,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.22,
-      "news_sentiment": 0.565,
-      "news_confidence": 0.49,
-      "news_headlines": [
-        "Can Biogen's Growth Portfolio Maintain Its Lead Over Legacy MS Drugs?",
-        "Biogen (NASDAQ:BIIB) Q2 Earnings: Leading The Therapeutics Pack",
-        "How Investors May Respond To Biogen (BIIB) Advancing At-Home LEQEMBI Pen And Kidney Disease Data"
-      ],
-      "high_impact_news": true
-    },
-    {
-      "asset": "OXY",
-      "rank_score": 0.5332,
-      "price": 56.099998474121094,
-      "rsi": 22.364714474507892,
-      "momentum_5d": -0.014838901136738927,
-      "momentum_1d": -0.024687099658235758,
-      "macd_crossover": false,
-      "atr_pct": 0.00877768955932581,
-      "bollinger_pct_b": 0.127,
-      "volume_spike": false,
-      "volume_spike_ratio": 1.1,
-      "news_sentiment": 0.75,
-      "news_confidence": 0.4,
-      "news_headlines": [
-        "Occidental Petroleum (OXY) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-        "Investors Heavily Search Occidental Petroleum Corporation (OXY): Here is What You Need to Know",
-        "What Happens To ExxonMobil Stock If Refining Profits Fade?"
-      ],
-      "high_impact_news": true
+      "volume_spike_ratio": 1.39,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "TLT",
-      "rank_score": 0.5239,
+      "rank_score": 0.4419,
       "price": 78.625,
       "rsi": 36.28058532424539,
       "momentum_5d": 0.0027419503615521345,
@@ -975,39 +896,31 @@
       "bollinger_pct_b": 0.258,
       "volume_spike": false,
       "volume_spike_ratio": 0.8,
-      "news_sentiment": -0.059,
-      "news_confidence": 0.34,
-      "news_headlines": [
-        "Soaring Yields Lead Traders to Snap Up Options on BlackRock ETFs",
-        "4 Best ETF Areas of Q3 That Are in High Momentum",
-        "67-Year-Old Costs Himself $1,315 A Year In Taxes Using A Treasury Fund To Add $1,000 A Month In Income To His Social Security And Pension. If He\u2019d Used SCHD Instead His Tax Bill Would Be Reduced By Over 60%"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
-      "asset": "IONQ",
-      "rank_score": 0.5203,
-      "price": 44.560001373291016,
-      "rsi": 47.934908929671366,
-      "momentum_5d": -0.03403424362609418,
-      "momentum_1d": 0.04185178621391434,
+      "asset": "SNAP",
+      "rank_score": 0.4398,
+      "price": 5.2195000648498535,
+      "rsi": 27.380237465233876,
+      "momentum_5d": -0.016116826815345188,
+      "momentum_1d": -0.010521332609324295,
       "macd_crossover": false,
-      "atr_pct": 0.0266565171328295,
-      "bollinger_pct_b": 0.3035,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.66,
-      "news_sentiment": 0.88,
-      "news_confidence": 0.5,
-      "news_headlines": [
-        "Quantum Stocks Have Pulled Back Lately. Bank of America Says It\u2019s Time to Buy This One",
-        "IonQ Shares Rise After BofA Starts Coverage at Buy",
-        "IonQ Is Building the Infrastructure for Quantum Computing. The Stock Market Is Taking Notice."
-      ],
-      "high_impact_news": true
+      "atr_pct": 0.016721627608670783,
+      "bollinger_pct_b": 0.0088,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.52,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     },
     {
       "asset": "TSLA",
-      "rank_score": 0.5197,
+      "rank_score": 0.4377,
       "price": 357.3900146484375,
       "rsi": 16.568902271070726,
       "momentum_5d": -0.008214212307319417,
@@ -1017,14 +930,44 @@
       "bollinger_pct_b": 0.1184,
       "volume_spike": false,
       "volume_spike_ratio": 0.77,
-      "news_sentiment": 0.062,
-      "news_confidence": 0.32,
-      "news_headlines": [
-        "The minivan renaissance: Why SUV sales are falling behind",
-        "Stocks slip as bond yields rise, but Nvidia stock is rising: AlphaCheck",
-        "Elon Musk's Tesla and SpaceX have a huge week on tap"
-      ],
-      "high_impact_news": true
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
+      "asset": "BIIB",
+      "rank_score": 0.4318,
+      "price": 228.7100067138672,
+      "rsi": 59.04408889685152,
+      "momentum_5d": -0.003963018999525264,
+      "momentum_1d": 0.028002566999136995,
+      "macd_crossover": false,
+      "atr_pct": 0.008344254786400454,
+      "bollinger_pct_b": 0.724,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.22,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
+      "asset": "AMAT",
+      "rank_score": 0.4258,
+      "price": 486.7099914550781,
+      "rsi": 66.81768196665843,
+      "momentum_5d": 0.024092036893867203,
+      "momentum_1d": 0.03432079645587254,
+      "macd_crossover": false,
+      "atr_pct": 0.01190972206266861,
+      "bollinger_pct_b": 0.7779,
+      "volume_spike": false,
+      "volume_spike_ratio": 1.46,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
     }
   ]
 }
