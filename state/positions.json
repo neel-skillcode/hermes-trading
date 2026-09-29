@@ -23,37 +23,6 @@
     "price_peak": 7.847400188446045,
     "trailing_stop_price": 7.784621
   },
-  "SOFI": {
-    "id": "SOFI_20260903143205",
-    "asset": "SOFI",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 18.229999542236328,
-    "entry_time": "2026-09-03T14:32:05.910721+00:00",
-    "stop_loss_pct": 0.0381,
-    "take_profit_pct": 0.12655,
-    "size_usd": 6489.87,
-    "position_size_pct": 0.0618,
-    "confidence": 0.644,
-    "signals": [
-      "RSI overbought (77.9)",
-      "5d momentum +2.60%",
-      "BB overbought (pct_b=0.90)",
-      "High-impact catalyst",
-      "Claude [neutral]: Scanned 10 headlines: no clear catalyst. Headline tone 1 bullish / 2 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.378,
-    "news_headlines": [
-      "Price Prediction: SoFi\u2019s Price Target For 2027 May Surprise Investors",
-      "SoFi Just Posted Another Quarter of Fast Growth. What Has to Happen Next for the Stock to Follow?",
-      "Financial Coach? How A Money Mentor Can Help You Live Large"
-    ],
-    "mode": "paper",
-    "strategy_version": "117",
-    "status": "open",
-    "price_trough": 15.93,
-    "trailing_stop_price": 16.536933
-  },
   "EUR/USD": {
     "id": "EUR/USD_20260909114551",
     "asset": "EUR/USD",
@@ -82,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.134429931640625,
-    "trailing_stop_price": 1.143505
+    "price_trough": 1.1343011856079102,
+    "trailing_stop_price": 1.143376
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -197,8 +166,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 289.4849853515625,
-    "trailing_stop_price": 295.393374
+    "price_trough": 288.0400085449219,
+    "trailing_stop_price": 293.918905
   },
   "USD/CAD": {
     "id": "USD/CAD_20260923142537",
@@ -317,8 +286,8 @@
     "mode": "paper",
     "strategy_version": "139",
     "status": "open",
-    "price_trough": 509.22,
-    "trailing_stop_price": 513.466895
+    "price_trough": 508.9599914550781,
+    "trailing_stop_price": 513.204718
   },
   "GLD": {
     "id": "GLD_20260928151831",
@@ -350,8 +319,8 @@
     "mode": "paper",
     "strategy_version": "140",
     "status": "open",
-    "price_peak": 382.2720031738281,
-    "trailing_stop_price": 379.447013
+    "price_peak": 382.8900146484375,
+    "trailing_stop_price": 380.060457
   },
   "SLV": {
     "id": "SLV_20260928151831",
@@ -383,8 +352,8 @@
     "mode": "paper",
     "strategy_version": "140",
     "status": "open",
-    "price_peak": 55.36050033569336,
-    "trailing_stop_price": 54.745999
+    "price_peak": 55.47999954223633,
+    "trailing_stop_price": 54.864172
   },
   "INTC": {
     "id": "INTC_20260928151831",
@@ -491,30 +460,6 @@
     "strategy_version": "141",
     "status": "open"
   },
-  "RXRX": {
-    "id": "RXRX_20260929184524",
-    "asset": "RXRX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 3.924999952316284,
-    "entry_time": "2026-09-29T18:45:24.289181+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4838.26,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (61.5)",
-      "5d momentum +3.00%",
-      "1d momentum +6.09%",
-      "BB overbought (pct_b=1.00)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "141",
-    "status": "open"
-  },
   "CRM": {
     "id": "CRM_20260929184524",
     "asset": "CRM",
@@ -531,6 +476,76 @@
       "RSI oversold (19.2)",
       "5d momentum -1.61%",
       "1d momentum -6.35%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "141",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20260929224039",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.09407000243663788,
+    "entry_time": "2026-09-29T22:40:39.260075+00:00",
+    "stop_loss_pct": 0.00964,
+    "take_profit_pct": 0.0227,
+    "size_usd": 4551.6,
+    "position_size_pct": 0.0454,
+    "confidence": 0.71,
+    "signals": [
+      "RSI oversold (43.2)",
+      "5d momentum +0.91%",
+      "1d momentum +0.62%",
+      "Volume spike 2.2\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "141",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20260929224039",
+    "asset": "BTC-USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 83533.2734375,
+    "entry_time": "2026-09-29T22:40:39.262604+00:00",
+    "stop_loss_pct": 0.01282,
+    "take_profit_pct": 0.04171,
+    "size_usd": 4904.19,
+    "position_size_pct": 0.049,
+    "confidence": 0.51,
+    "signals": [
+      "RSI oversold (44.9)",
+      "5d momentum +0.58%",
+      "Volume spike 4.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "141",
+    "status": "open"
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20260929224039",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 18.04840087890625,
+    "entry_time": "2026-09-29T22:40:39.263974+00:00",
+    "stop_loss_pct": 0.00285,
+    "take_profit_pct": 0.0065,
+    "size_usd": 565.25,
+    "position_size_pct": 0.0056,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (60.2)",
+      "5d momentum -0.44%",
+      "1d momentum +0.43%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
