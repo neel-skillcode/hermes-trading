@@ -51,7 +51,7 @@
     "mode": "paper",
     "strategy_version": "117",
     "status": "open",
-    "price_trough": 15.930000305175781,
+    "price_trough": 15.93,
     "trailing_stop_price": 16.536933
   },
   "EUR/USD": {
@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1370097398757935,
-    "trailing_stop_price": 1.146106
+    "price_trough": 1.1368803977966309,
+    "trailing_stop_price": 1.145975
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -107,8 +107,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.963239669799805,
-    "trailing_stop_price": 9.883534
+    "price_peak": 9.96442985534668,
+    "trailing_stop_price": 9.884714
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -136,8 +136,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 111.00800323486328,
-    "trailing_stop_price": 111.896067
+    "price_trough": 110.96800231933594,
+    "trailing_stop_price": 111.855746
   },
   "SLB": {
     "id": "SLB_20260922153438",
@@ -197,8 +197,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 289.8900146484375,
-    "trailing_stop_price": 295.80667
+    "price_trough": 289.89,
+    "trailing_stop_price": 295.806655
   },
   "USD/CAD": {
     "id": "USD/CAD_20260923142537",
@@ -317,8 +317,8 @@
     "mode": "paper",
     "strategy_version": "139",
     "status": "open",
-    "price_trough": 509.2200012207031,
-    "trailing_stop_price": 513.466896
+    "price_trough": 509.22,
+    "trailing_stop_price": 513.466895
   },
   "XRP-USD": {
     "id": "XRP-USD_20260928070234",
@@ -443,8 +443,8 @@
     "mode": "paper",
     "strategy_version": "140",
     "status": "open",
-    "price_peak": 116.02999877929688,
-    "trailing_stop_price": 114.289549
+    "price_peak": 116.03,
+    "trailing_stop_price": 114.28955
   },
   "ARM": {
     "id": "ARM_20260928151831",
@@ -475,8 +475,8 @@
     "mode": "paper",
     "strategy_version": "140",
     "status": "open",
-    "price_peak": 283.3299865722656,
-    "trailing_stop_price": 279.080037
+    "price_peak": 283.33,
+    "trailing_stop_price": 279.08005
   },
   "USD/MXN": {
     "id": "USD/MXN_20260928211709",
@@ -498,6 +498,36 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "140",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260929010230",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 10.699000358581543,
+    "entry_time": "2026-09-29T01:02:30.261925+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.03596,
+    "size_usd": 5057.97,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (62.8)",
+      "5d momentum +1.70%",
+      "1d momentum -1.88%",
+      "BB overbought (pct_b=0.93)",
+      "High-impact catalyst",
+      "Claude [contradicts]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.81,
+    "news_headlines": [
+      "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
+      "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?",
+      "Stellar Now Hosts $2.75 Billion in Tokenized Real-World Assets: What Does It Mean for XLM Holders?"
+    ],
     "mode": "paper",
     "strategy_version": "140",
     "status": "open"
