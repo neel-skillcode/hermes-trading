@@ -82,8 +82,8 @@
     "mode": "paper",
     "strategy_version": "121",
     "status": "open",
-    "price_trough": 1.1368803977966309,
-    "trailing_stop_price": 1.145975
+    "price_trough": 1.1346874237060547,
+    "trailing_stop_price": 1.143765
   },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
@@ -107,8 +107,8 @@
     "mode": "paper",
     "strategy_version": "125",
     "status": "open",
-    "price_peak": 9.975310325622559,
-    "trailing_stop_price": 9.895508
+    "price_peak": 9.982529640197754,
+    "trailing_stop_price": 9.902669
   },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
@@ -320,38 +320,6 @@
     "price_trough": 509.22,
     "trailing_stop_price": 513.466895
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20260928070234",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.482200026512146,
-    "entry_time": "2026-09-28T07:02:34.056057+00:00",
-    "stop_loss_pct": 0.01141,
-    "take_profit_pct": 0.02815,
-    "size_usd": 5165.28,
-    "position_size_pct": 0.0522,
-    "confidence": 0.934,
-    "signals": [
-      "RSI oversold (29.1)",
-      "5d momentum -0.93%",
-      "1d momentum -3.66%",
-      "BB oversold (pct_b=0.08)",
-      "High-impact catalyst",
-      "Claude [supports]: Scanned 10 headlines: no clear catalyst. Headline tone 2 bullish / 0 bearish across 10 articles. Ove"
-    ],
-    "news_sentiment": 0.81,
-    "news_headlines": [
-      "Is XRP a Good Investment Right Now at $1.54?",
-      "Will XRP Hit $4 By 2028?",
-      "Is It Too Late to Buy XRP After a 42% Rally in Two Months?"
-    ],
-    "mode": "paper",
-    "strategy_version": "140",
-    "status": "open",
-    "price_peak": 1.5026999711990356,
-    "trailing_stop_price": 1.485554
-  },
   "GLD": {
     "id": "GLD_20260928151831",
     "asset": "GLD",
@@ -504,31 +472,6 @@
     "price_trough": 17.961000442504883,
     "trailing_stop_price": 18.015243
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260929064809",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 10.871000289916992,
-    "entry_time": "2026-09-29T06:48:09.809131+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03682,
-    "size_usd": 5111.05,
-    "position_size_pct": 0.0514,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (62.9)",
-      "5d momentum +3.17%",
-      "1d momentum +3.15%",
-      "BB overbought (pct_b=1.20)",
-      "Volume spike 2.4\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "140",
-    "status": "open"
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20260929064809",
     "asset": "AUD/JPY",
@@ -545,6 +488,55 @@
       "RSI oversold (35.9)",
       "5d momentum -0.37%",
       "BB oversold (pct_b=-0.00)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "140",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20260929132357",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.54830002784729,
+    "entry_time": "2026-09-29T13:23:57.952032+00:00",
+    "stop_loss_pct": 0.0112,
+    "take_profit_pct": 0.02749,
+    "size_usd": 5782.68,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (71.9)",
+      "5d momentum +3.16%",
+      "1d momentum +1.82%",
+      "BB overbought (pct_b=1.11)",
+      "Volume spike 1.8\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "140",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260929132357",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 11.704999923706055,
+    "entry_time": "2026-09-29T13:23:57.953245+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0357,
+    "size_usd": 4427.63,
+    "position_size_pct": 0.0446,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (75.6)",
+      "5d momentum +2.93%",
+      "1d momentum +11.58%",
+      "BB overbought (pct_b=0.87)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
