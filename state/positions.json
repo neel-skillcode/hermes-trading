@@ -105,8 +105,8 @@
     "mode": "paper",
     "strategy_version": "134",
     "status": "open",
-    "price_trough": 110.86299896240234,
-    "trailing_stop_price": 111.749903
+    "price_trough": 110.56300354003906,
+    "trailing_stop_price": 111.447508
   },
   "SLB": {
     "id": "SLB_20260922153438",
@@ -410,32 +410,6 @@
     "strategy_version": "140",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20260929132357",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 11.704999923706055,
-    "entry_time": "2026-09-29T13:23:57.953245+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4427.63,
-    "position_size_pct": 0.0446,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (75.6)",
-      "5d momentum +2.93%",
-      "1d momentum +11.58%",
-      "BB overbought (pct_b=0.87)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "140",
-    "status": "open",
-    "price_trough": 11.300999641418457,
-    "trailing_stop_price": 11.470515
-  },
   "OXY": {
     "id": "OXY_20260929184524",
     "asset": "OXY",
@@ -549,6 +523,35 @@
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "141",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20260930072135",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 11.088000297546387,
+    "entry_time": "2026-09-30T07:21:35.667617+00:00",
+    "stop_loss_pct": 0.01173,
+    "take_profit_pct": 0.02781,
+    "size_usd": 4520.99,
+    "position_size_pct": 0.045,
+    "confidence": 0.741,
+    "signals": [
+      "5d momentum -2.51%",
+      "1d momentum -3.15%",
+      "BB oversold (pct_b=0.12)",
+      "High-impact catalyst",
+      "Claude [strongly_supports]: analyst upgrade; price surge"
+    ],
+    "news_sentiment": 0.73,
+    "news_headlines": [
+      "Avalanche Token Hits 6-Month High After Goldman Sachs Brings $100B Treasury Fund To AVAX-Based Network",
+      "Wall Street Tests Avalanche for 24/7 Tokenized Trading: AVAX Drops 8% After Major Upgrade",
+      "Who Can Freeze the XRP Stolen in Bitget\u2019s $351.6 Million Hack?"
+    ],
     "mode": "paper",
     "strategy_version": "141",
     "status": "open"
