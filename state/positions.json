@@ -23,37 +23,6 @@
     "price_peak": 7.847400188446045,
     "trailing_stop_price": 7.784621
   },
-  "EUR/USD": {
-    "id": "EUR/USD_20260909114551",
-    "asset": "EUR/USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1.164958119392395,
-    "entry_time": "2026-09-09T11:45:51.593263+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02708,
-    "size_usd": 7624.59,
-    "position_size_pct": 0.0739,
-    "confidence": 0.77,
-    "signals": [
-      "RSI overbought (65.2)",
-      "MACD crossover",
-      "BB overbought (pct_b=1.13)",
-      "High-impact catalyst",
-      "Claude [neutral]: fed hawkish"
-    ],
-    "news_sentiment": -0.227,
-    "news_headlines": [
-      "US Dollar Price Forecast: Dollar Weakens as ECB Hike and U.S. CPI Take Focus",
-      "Dollar Slips on Japanese Yen Strength",
-      "Dollar Weighed Down by a Stronger Yen"
-    ],
-    "mode": "paper",
-    "strategy_version": "121",
-    "status": "open",
-    "price_trough": 1.133529782295227,
-    "trailing_stop_price": 1.142598
-  },
   "USD/SEK": {
     "id": "USD/SEK_20260915063917",
     "asset": "USD/SEK",
@@ -135,8 +104,8 @@
     "mode": "paper",
     "strategy_version": "135",
     "status": "open",
-    "price_trough": 49.0,
-    "trailing_stop_price": 50.225
+    "price_trough": 48.720001220703125,
+    "trailing_stop_price": 49.938001
   },
   "HD": {
     "id": "HD_20260922190600",
@@ -166,8 +135,8 @@
     "mode": "paper",
     "strategy_version": "136",
     "status": "open",
-    "price_trough": 284.7449951171875,
-    "trailing_stop_price": 290.55664
+    "price_trough": 284.489990234375,
+    "trailing_stop_price": 290.296431
   },
   "RIVN": {
     "id": "RIVN_20260924182539",
@@ -199,38 +168,6 @@
     "status": "open",
     "price_trough": 14.789999961853027,
     "trailing_stop_price": 15.36119
-  },
-  "INTC": {
-    "id": "INTC_20260928151831",
-    "asset": "INTC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 115.37999725341797,
-    "entry_time": "2026-09-28T15:18:31.549531+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03742,
-    "size_usd": 6309.96,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI oversold (31.2)",
-      "5d momentum -7.36%",
-      "1d momentum -6.05%",
-      "BB oversold (pct_b=-0.18)",
-      "High-impact catalyst",
-      "Claude [strongly_supports]: product catalyst; price surge"
-    ],
-    "news_sentiment": 0.692,
-    "news_headlines": [
-      "Nvidia and AMD Just Got a New AI Demand Risk to Watch",
-      "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
-      "Why Sandisk, Marvell and Other AI Stocks Are Falling"
-    ],
-    "mode": "paper",
-    "strategy_version": "140",
-    "status": "open",
-    "price_peak": 119.16999816894531,
-    "trailing_stop_price": 117.382448
   },
   "OXY": {
     "id": "OXY_20260929184524",
@@ -344,8 +281,8 @@
     "mode": "paper",
     "strategy_version": "141",
     "status": "open",
-    "price_trough": 5.494999885559082,
-    "trailing_stop_price": 5.577425
+    "price_trough": 5.400000095367432,
+    "trailing_stop_price": 5.481
   },
   "XOM": {
     "id": "XOM_20260930135615",
@@ -375,7 +312,9 @@
     ],
     "mode": "paper",
     "strategy_version": "141",
-    "status": "open"
+    "status": "open",
+    "price_trough": 162.75,
+    "trailing_stop_price": 166.276792
   },
   "MPC": {
     "id": "MPC_20260930184854",
@@ -405,7 +344,9 @@
     ],
     "mode": "paper",
     "strategy_version": "142",
-    "status": "open"
+    "status": "open",
+    "price_trough": 395.4200134277344,
+    "trailing_stop_price": 399.39003
   },
   "MS": {
     "id": "MS_20260930184854",
@@ -525,6 +466,8 @@
     ],
     "mode": "paper",
     "strategy_version": "142",
-    "status": "open"
+    "status": "open",
+    "price_trough": 4.070000171661377,
+    "trailing_stop_price": 4.264831
   }
 }
