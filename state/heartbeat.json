@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100772.95,
+  "portfolio_balance": 100873.27,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 6.6,
-  "unrealized_pnl_usd": 1459.58,
-  "equity_value": 102232.53,
-  "open_positions": 18,
-  "day_trades_open": 9,
+  "portfolio_drawdown_pct": 6.51,
+  "unrealized_pnl_usd": 1375.5,
+  "equity_value": 102248.77,
+  "open_positions": 19,
+  "day_trades_open": 10,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 40309.18,
-  "swing_capital_used_usd": 42525.99,
-  "total_trades": 1621,
-  "last_tick": "2026-10-01T01:34:13.272874+00:00",
+  "day_capital_used_usd": 40349.31,
+  "swing_capital_used_usd": 44190.35,
+  "total_trades": 1622,
+  "last_tick": "2026-10-01T07:44:12.820488+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 7,
+  "trades_since_last_reflection": 8,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,37 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8468,
-      "unrealized_pnl_pct": 0.001596,
-      "unrealized_pnl_usd": 2.14
-    },
-    {
-      "id": "USD/SEK_20260915063917",
-      "asset": "USD/SEK",
-      "trade_type": "swing",
-      "direction": "long",
-      "entry_price": 9.787910461425781,
-      "entry_time": "2026-09-15T06:39:17.134899+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02668,
-      "size_usd": 3758.59,
-      "position_size_pct": 0.037,
-      "confidence": 0.67,
-      "signals": [
-        "RSI overbought (83.8)",
-        "MACD crossover",
-        "1d momentum +0.42%"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "125",
-      "status": "open",
-      "price_peak": 10.010180473327637,
-      "trailing_stop_price": 9.930099,
-      "current_price": 10.00592,
-      "unrealized_pnl_pct": 0.022273,
-      "unrealized_pnl_usd": 83.72
+      "current_price": 7.8466,
+      "unrealized_pnl_pct": 0.00157,
+      "unrealized_pnl_usd": 2.11
     },
     {
       "id": "CAD/JPY_20260921135159",
@@ -100,9 +72,9 @@
       "status": "open",
       "price_trough": 110.50399780273438,
       "trailing_stop_price": 111.38803,
-      "current_price": 111.038002,
-      "unrealized_pnl_pct": 0.012355,
-      "unrealized_pnl_usd": 52.9
+      "current_price": 111.182999,
+      "unrealized_pnl_pct": 0.011065,
+      "unrealized_pnl_usd": 47.38
     },
     {
       "id": "SLB_20260922153438",
@@ -258,9 +230,9 @@
       "status": "open",
       "price_peak": 84530.6015625,
       "trailing_stop_price": 83446.91925,
-      "current_price": 83504.640625,
-      "unrealized_pnl_pct": -0.000343,
-      "unrealized_pnl_usd": -1.68
+      "current_price": 83483.367188,
+      "unrealized_pnl_pct": -0.000597,
+      "unrealized_pnl_usd": -2.93
     },
     {
       "id": "RXRX_20260930135614",
@@ -565,9 +537,11 @@
       "mode": "paper",
       "strategy_version": "142",
       "status": "open",
-      "current_price": 209.761993,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 209.41600036621094,
+      "trailing_stop_price": 209.834832,
+      "current_price": 209.410995,
+      "unrealized_pnl_pct": 0.001673,
+      "unrealized_pnl_usd": 8.57
     },
     {
       "id": "USD/JPY_20261001013413",
@@ -597,7 +571,66 @@
       "mode": "paper",
       "strategy_version": "142",
       "status": "open",
-      "current_price": 158.076996,
+      "current_price": 158.320007,
+      "unrealized_pnl_pct": -0.001537,
+      "unrealized_pnl_usd": -2.12
+    },
+    {
+      "id": "XRP-USD_20261001074412",
+      "asset": "XRP-USD",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 1.4866000413894653,
+      "entry_time": "2026-10-01T07:44:12.813896+00:00",
+      "stop_loss_pct": 0.00635,
+      "take_profit_pct": 0.01504,
+      "size_usd": 40.13,
+      "position_size_pct": 0.0004,
+      "confidence": 0.737,
+      "signals": [
+        "RSI oversold (40.2)",
+        "5d momentum -0.36%",
+        "1d momentum -0.88%",
+        "Volume spike 11.2\u00d7",
+        "High-impact catalyst",
+        "Claude [contradicts]: price surge; fed hawkish"
+      ],
+      "news_sentiment": 0.23,
+      "news_headlines": [
+        "Crypto Kicks Off Q4 With More Momentum Than Stocks or Gold: Which Will Carry Bitcoin, XRP, or Solana the Furthest?",
+        "A Senate Bill Would Make Small Stablecoin Purchases Tax-Free and Close Crypto\u2019s Wash-Sale Loophole. What Changes for Bitcoin and XRP Holders?",
+        "Bitcoin Crossed $85,000 on Cooler Inflation Data, Then Lost It the Same Day. Why Does Bitcoin Keep Failing at $85,000?"
+      ],
+      "mode": "paper",
+      "strategy_version": "142",
+      "status": "open",
+      "current_price": 1.4866,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "GBP/CHF_20261001074412",
+      "asset": "GBP/CHF",
+      "trade_type": "swing",
+      "direction": "long",
+      "entry_price": 1.104830026626587,
+      "entry_time": "2026-10-01T07:44:12.817105+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02624,
+      "size_usd": 5422.95,
+      "position_size_pct": 0.0538,
+      "confidence": 0.56,
+      "signals": [
+        "RSI oversold (35.4)",
+        "5d momentum -0.31%",
+        "BB oversold (pct_b=-0.40)"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "142",
+      "status": "open",
+      "current_price": 1.10483,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -639,15 +672,15 @@
       "news_sentiment": 0.577,
       "news_confidence": 0.52,
       "news_headlines": [
+        "This Fidelity Manager Likes Coca-Cola, Keurig Dr Pepper, and Other Consumer Staples Bargains",
         "Walmart Stocks Slip as Digital Labels Reject Personalized Pricing",
-        "What Should Costco Stock Holders Take From Its Fiscal Fourth Quarter?",
-        "The $66 Billion Consolation Prize For HD Shareholders"
+        "What Should Costco Stock Holders Take From Its Fiscal Fourth Quarter?"
       ],
       "high_impact_news": true
     },
     {
       "asset": "JPM",
-      "rank_score": 0.6906,
+      "rank_score": 0.6926,
       "price": 330.8399963378906,
       "rsi": 20.59925880358294,
       "momentum_5d": -0.007604060478768279,
@@ -657,12 +690,12 @@
       "bollinger_pct_b": 0.0521,
       "volume_spike": true,
       "volume_spike_ratio": 2.58,
-      "news_sentiment": 0.517,
-      "news_confidence": 0.58,
+      "news_sentiment": 0.533,
+      "news_confidence": 0.6,
       "news_headlines": [
+        "Bank Stocks Are Beaten Down. The Case for Buying Now.",
         "JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn",
-        "JPMorgan Stocks Edge Lower as Bank Joins Open Agent-Safety Project",
-        "JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock?"
+        "JPMorgan Stocks Edge Lower as Bank Joins Open Agent-Safety Project"
       ],
       "high_impact_news": true
     },
@@ -828,9 +861,9 @@
       "news_sentiment": 0.672,
       "news_confidence": 0.67,
       "news_headlines": [
-        "JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn",
-        "Cramer Says Buy Apple Before New Phone Comes Out. Because Apple\u2019s Duo Model Is, \u201cKind Of Astounding\u201d",
-        "JPMorgan Trades Below 50-Day SMA: Buy, Sell or Hold the Stock?"
+        "Bank Stocks Are Beaten Down. The Case for Buying Now.",
+        "Bank of America (BAC) Stock Could Be 40% Below Fair Value On AI Spending Plans",
+        "JPM vs. BAC: The Bank Built to Sustain Dividend Growth When Markets Turn"
       ],
       "high_impact_news": true
     },
@@ -856,27 +889,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "GS",
-      "rank_score": 0.57,
-      "price": 901.1500244140625,
-      "rsi": 29.696946303381793,
-      "momentum_5d": -0.007817204058285164,
-      "momentum_1d": -0.02963896275953374,
-      "macd_crossover": false,
-      "atr_pct": 0.005122113172793314,
-      "bollinger_pct_b": 0.107,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.68,
-      "news_sentiment": -0.448,
-      "news_confidence": 0.29,
-      "news_headlines": [
-        "Here's Why Goldman Sachs (GS) Fell More Than Broader Market",
-        "Goldman pushes Fed rate hike to December after cooler inflation",
-        "Goldman Sachs CEO succession would signal continuity, Bank of America says"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "PYPL",
       "rank_score": 0.564,
       "price": 52.52000045776367,
@@ -894,6 +906,27 @@
         "Bank of America Flags Surprising Risk to Apple Stock",
         "PayPal (PYPL) Stock Looks Reasonable Based On Current Earnings",
         "Why Is PayPal Holdings (PYPL) Tightening Fraud Controls Across Its Payments Network?"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "GS",
+      "rank_score": 0.563,
+      "price": 901.1500244140625,
+      "rsi": 29.696946303381793,
+      "momentum_5d": -0.007817204058285164,
+      "momentum_1d": -0.02963896275953374,
+      "macd_crossover": false,
+      "atr_pct": 0.005122113172793314,
+      "bollinger_pct_b": 0.107,
+      "volume_spike": true,
+      "volume_spike_ratio": 1.68,
+      "news_sentiment": -0.176,
+      "news_confidence": 0.34,
+      "news_headlines": [
+        "Bank Stocks Are Beaten Down. The Case for Buying Now.",
+        "Here's Why Goldman Sachs (GS) Fell More Than Broader Market",
+        "Goldman pushes Fed rate hike to December after cooler inflation"
       ],
       "high_impact_news": true
     },
@@ -1003,21 +1036,23 @@
       "high_impact_news": true
     },
     {
-      "asset": "CAD/JPY",
-      "rank_score": 0.5452,
-      "price": 111.03800201416016,
-      "rsi": 67.28061347874589,
-      "momentum_5d": 0.004187249185588417,
-      "momentum_1d": 0.005615051447179063,
+      "asset": "UNH",
+      "rank_score": 0.5423,
+      "price": 367.1499938964844,
+      "rsi": 28.807144633940652,
+      "momentum_5d": -0.010817330718155682,
+      "momentum_1d": -0.028677998407230888,
       "macd_crossover": false,
-      "atr_pct": 0.0014319506727524798,
-      "bollinger_pct_b": 1.2517,
+      "atr_pct": 0.007769280004700328,
+      "bollinger_pct_b": 0.0321,
       "volume_spike": false,
-      "volume_spike_ratio": 1.0,
-      "news_sentiment": 1.0,
-      "news_confidence": 0.7,
+      "volume_spike_ratio": 1.47,
+      "news_sentiment": 0.684,
+      "news_confidence": 0.38,
       "news_headlines": [
-        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
+        "UnitedHealth Group (UNH) Dips More Than Broader Market: What You Should Know",
+        "Her Surgery Is Set for January. Her Broker Learned in August That UnitedHealthcare May Leave Her County in 2027",
+        "Cigna Investor Day Spotlights Specialty Drugs"
       ],
       "high_impact_news": true
     }

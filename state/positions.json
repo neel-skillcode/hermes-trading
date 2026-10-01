@@ -23,31 +23,6 @@
     "price_peak": 7.847400188446045,
     "trailing_stop_price": 7.784621
   },
-  "USD/SEK": {
-    "id": "USD/SEK_20260915063917",
-    "asset": "USD/SEK",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 9.787910461425781,
-    "entry_time": "2026-09-15T06:39:17.134899+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 3758.59,
-    "position_size_pct": 0.037,
-    "confidence": 0.67,
-    "signals": [
-      "RSI overbought (83.8)",
-      "MACD crossover",
-      "1d momentum +0.42%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "125",
-    "status": "open",
-    "price_peak": 10.010180473327637,
-    "trailing_stop_price": 9.930099
-  },
   "CAD/JPY": {
     "id": "CAD/JPY_20260921135159",
     "asset": "CAD/JPY",
@@ -498,7 +473,9 @@
     ],
     "mode": "paper",
     "strategy_version": "142",
-    "status": "open"
+    "status": "open",
+    "price_trough": 209.41600036621094,
+    "trailing_stop_price": 209.834832
   },
   "USD/JPY": {
     "id": "USD/JPY_20261001013413",
@@ -525,6 +502,59 @@
       "Treasury Yields Rise Amid Data, Geopolitical Lull",
       "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks"
     ],
+    "mode": "paper",
+    "strategy_version": "142",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261001074412",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.4866000413894653,
+    "entry_time": "2026-10-01T07:44:12.813896+00:00",
+    "stop_loss_pct": 0.00635,
+    "take_profit_pct": 0.01504,
+    "size_usd": 40.13,
+    "position_size_pct": 0.0004,
+    "confidence": 0.737,
+    "signals": [
+      "RSI oversold (40.2)",
+      "5d momentum -0.36%",
+      "1d momentum -0.88%",
+      "Volume spike 11.2\u00d7",
+      "High-impact catalyst",
+      "Claude [contradicts]: price surge; fed hawkish"
+    ],
+    "news_sentiment": 0.23,
+    "news_headlines": [
+      "Crypto Kicks Off Q4 With More Momentum Than Stocks or Gold: Which Will Carry Bitcoin, XRP, or Solana the Furthest?",
+      "A Senate Bill Would Make Small Stablecoin Purchases Tax-Free and Close Crypto\u2019s Wash-Sale Loophole. What Changes for Bitcoin and XRP Holders?",
+      "Bitcoin Crossed $85,000 on Cooler Inflation Data, Then Lost It the Same Day. Why Does Bitcoin Keep Failing at $85,000?"
+    ],
+    "mode": "paper",
+    "strategy_version": "142",
+    "status": "open"
+  },
+  "GBP/CHF": {
+    "id": "GBP/CHF_20261001074412",
+    "asset": "GBP/CHF",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 1.104830026626587,
+    "entry_time": "2026-10-01T07:44:12.817105+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5422.95,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (35.4)",
+      "5d momentum -0.31%",
+      "BB oversold (pct_b=-0.40)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
     "mode": "paper",
     "strategy_version": "142",
     "status": "open"
