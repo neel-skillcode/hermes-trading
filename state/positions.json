@@ -469,5 +469,64 @@
     "status": "open",
     "price_trough": 4.070000171661377,
     "trailing_stop_price": 4.264831
+  },
+  "GBP/JPY": {
+    "id": "GBP/JPY_20261001013413",
+    "asset": "GBP/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 209.76199340820312,
+    "entry_time": "2026-10-01T01:34:13.263477+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00479,
+    "size_usd": 5120.88,
+    "position_size_pct": 0.0508,
+    "confidence": 0.794,
+    "signals": [
+      "RSI overbought (72.7)",
+      "5d momentum +0.48%",
+      "1d momentum +1.17%",
+      "BB overbought (pct_b=1.17)",
+      "High-impact catalyst",
+      "Claude [contradicts]: fed dovish"
+    ],
+    "news_sentiment": -0.6,
+    "news_headlines": [
+      "Pound Mostly Steady After Weaker GDP",
+      "Sterling Declines as the BoE Appears More Dovish",
+      "Mixed Performance by the Pound After Weaker Job Data"
+    ],
+    "mode": "paper",
+    "strategy_version": "142",
+    "status": "open"
+  },
+  "USD/JPY": {
+    "id": "USD/JPY_20261001013413",
+    "asset": "USD/JPY",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 158.07699584960938,
+    "entry_time": "2026-10-01T01:34:13.265305+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00493,
+    "size_usd": 1377.79,
+    "position_size_pct": 0.0137,
+    "confidence": 0.934,
+    "signals": [
+      "RSI overbought (82.1)",
+      "5d momentum +0.44%",
+      "1d momentum +0.85%",
+      "BB overbought (pct_b=1.13)",
+      "High-impact catalyst",
+      "Claude [supports]: macro risk"
+    ],
+    "news_sentiment": -0.176,
+    "news_headlines": [
+      "Treasury Yields Rise Amid Data, Geopolitical Lull",
+      "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks"
+    ],
+    "mode": "paper",
+    "strategy_version": "142",
+    "status": "open"
   }
 }

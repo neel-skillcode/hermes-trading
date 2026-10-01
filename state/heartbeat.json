@@ -3,15 +3,15 @@
   "portfolio_balance": 100772.95,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 6.6,
-  "unrealized_pnl_usd": 1490.31,
-  "equity_value": 102263.26,
-  "open_positions": 16,
-  "day_trades_open": 7,
+  "unrealized_pnl_usd": 1459.58,
+  "equity_value": 102232.53,
+  "open_positions": 18,
+  "day_trades_open": 9,
   "swing_trades_open": 9,
-  "day_capital_used_usd": 33810.51,
+  "day_capital_used_usd": 40309.18,
   "swing_capital_used_usd": 42525.99,
   "total_trades": 1621,
-  "last_tick": "2026-09-30T22:39:46.201396+00:00",
+  "last_tick": "2026-10-01T01:34:13.272874+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 7,
   "universe_scanned": 110,
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.847400188446045,
       "trailing_stop_price": 7.784621,
-      "current_price": 7.8458,
-      "unrealized_pnl_pct": 0.001468,
-      "unrealized_pnl_usd": 1.97
+      "current_price": 7.8468,
+      "unrealized_pnl_pct": 0.001596,
+      "unrealized_pnl_usd": 2.14
     },
     {
       "id": "USD/SEK_20260915063917",
@@ -68,9 +68,9 @@
       "status": "open",
       "price_peak": 10.010180473327637,
       "trailing_stop_price": 9.930099,
-      "current_price": 10.00395,
-      "unrealized_pnl_pct": 0.022072,
-      "unrealized_pnl_usd": 82.96
+      "current_price": 10.00592,
+      "unrealized_pnl_pct": 0.022273,
+      "unrealized_pnl_usd": 83.72
     },
     {
       "id": "CAD/JPY_20260921135159",
@@ -100,9 +100,9 @@
       "status": "open",
       "price_trough": 110.50399780273438,
       "trailing_stop_price": 111.38803,
-      "current_price": 110.601997,
-      "unrealized_pnl_pct": 0.016233,
-      "unrealized_pnl_usd": 69.51
+      "current_price": 111.038002,
+      "unrealized_pnl_pct": 0.012355,
+      "unrealized_pnl_usd": 52.9
     },
     {
       "id": "SLB_20260922153438",
@@ -258,9 +258,9 @@
       "status": "open",
       "price_peak": 84530.6015625,
       "trailing_stop_price": 83446.91925,
-      "current_price": 83761.140625,
-      "unrealized_pnl_pct": 0.002728,
-      "unrealized_pnl_usd": 13.38
+      "current_price": 83504.640625,
+      "unrealized_pnl_pct": -0.000343,
+      "unrealized_pnl_usd": -1.68
     },
     {
       "id": "RXRX_20260930135614",
@@ -535,6 +535,71 @@
       "current_price": 4.075,
       "unrealized_pnl_pct": 0.016888,
       "unrealized_pnl_usd": 76.97
+    },
+    {
+      "id": "GBP/JPY_20261001013413",
+      "asset": "GBP/JPY",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 209.76199340820312,
+      "entry_time": "2026-10-01T01:34:13.263477+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00479,
+      "size_usd": 5120.88,
+      "position_size_pct": 0.0508,
+      "confidence": 0.794,
+      "signals": [
+        "RSI overbought (72.7)",
+        "5d momentum +0.48%",
+        "1d momentum +1.17%",
+        "BB overbought (pct_b=1.17)",
+        "High-impact catalyst",
+        "Claude [contradicts]: fed dovish"
+      ],
+      "news_sentiment": -0.6,
+      "news_headlines": [
+        "Pound Mostly Steady After Weaker GDP",
+        "Sterling Declines as the BoE Appears More Dovish",
+        "Mixed Performance by the Pound After Weaker Job Data"
+      ],
+      "mode": "paper",
+      "strategy_version": "142",
+      "status": "open",
+      "current_price": 209.761993,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "USD/JPY_20261001013413",
+      "asset": "USD/JPY",
+      "trade_type": "day",
+      "direction": "short",
+      "entry_price": 158.07699584960938,
+      "entry_time": "2026-10-01T01:34:13.265305+00:00",
+      "stop_loss_pct": 0.002,
+      "take_profit_pct": 0.00493,
+      "size_usd": 1377.79,
+      "position_size_pct": 0.0137,
+      "confidence": 0.934,
+      "signals": [
+        "RSI overbought (82.1)",
+        "5d momentum +0.44%",
+        "1d momentum +0.85%",
+        "BB overbought (pct_b=1.13)",
+        "High-impact catalyst",
+        "Claude [supports]: macro risk"
+      ],
+      "news_sentiment": -0.176,
+      "news_headlines": [
+        "Treasury Yields Rise Amid Data, Geopolitical Lull",
+        "A Multidecade High for Japanese Yields Is a Coded Warning for U.S. Stocks"
+      ],
+      "mode": "paper",
+      "strategy_version": "142",
+      "status": "open",
+      "current_price": 158.076996,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
     }
   ],
   "last_candidates": [
@@ -854,27 +919,6 @@
       "high_impact_news": true
     },
     {
-      "asset": "AMD",
-      "rank_score": 0.5582,
-      "price": 611.739990234375,
-      "rsi": 56.300746931396496,
-      "momentum_5d": 0.015799767585493816,
-      "momentum_1d": -0.028212882868347895,
-      "macd_crossover": true,
-      "atr_pct": 0.009534831593662167,
-      "bollinger_pct_b": 0.7213,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.81,
-      "news_sentiment": 0.738,
-      "news_confidence": 0.61,
-      "news_headlines": [
-        "What Changed In Marvell's Story?",
-        "HPE, IBD Stock Of The Day, Breaks Out On Hiked Guidance, AI Momentum",
-        "S&P 500 dips, Nasdaq higher after data shows moderate inflation rise"
-      ],
-      "high_impact_news": true
-    },
-    {
       "asset": "HOOD",
       "rank_score": 0.5551,
       "price": 112.5199966430664,
@@ -891,7 +935,28 @@
       "news_headlines": [
         "Will Robinhood's Vlad Tenev debate AMC's Adam Aron on stock tokens?",
         "Robinhood expands AI agentic trading with automation and 24/7 cycle",
-        "Stocks to Watch Recap: Micron, Boeing, Robinhood, Mattel"
+        "Robinhood Markets Unveils 24/7 Trading, AI Agents and Private-Market Push at HOOD Summit"
+      ],
+      "high_impact_news": true
+    },
+    {
+      "asset": "AMD",
+      "rank_score": 0.5532,
+      "price": 611.739990234375,
+      "rsi": 56.300746931396496,
+      "momentum_5d": 0.015799767585493816,
+      "momentum_1d": -0.028212882868347895,
+      "macd_crossover": true,
+      "atr_pct": 0.009534831593662167,
+      "bollinger_pct_b": 0.7213,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.81,
+      "news_sentiment": 0.69,
+      "news_confidence": 0.58,
+      "news_headlines": [
+        "In AI Race, Software Is Now Winning Alongside Chips",
+        "What Changed In Marvell's Story?",
+        "HPE, IBD Stock Of The Day, Breaks Out On Hiked Guidance, AI Momentum"
       ],
       "high_impact_news": true
     },
@@ -938,23 +1003,21 @@
       "high_impact_news": true
     },
     {
-      "asset": "UNH",
-      "rank_score": 0.5423,
-      "price": 367.1499938964844,
-      "rsi": 28.807144633940652,
-      "momentum_5d": -0.010817330718155682,
-      "momentum_1d": -0.028677998407230888,
+      "asset": "CAD/JPY",
+      "rank_score": 0.5452,
+      "price": 111.03800201416016,
+      "rsi": 67.28061347874589,
+      "momentum_5d": 0.004187249185588417,
+      "momentum_1d": 0.005615051447179063,
       "macd_crossover": false,
-      "atr_pct": 0.007769280004700328,
-      "bollinger_pct_b": 0.0321,
+      "atr_pct": 0.0014319506727524798,
+      "bollinger_pct_b": 1.2517,
       "volume_spike": false,
-      "volume_spike_ratio": 1.47,
-      "news_sentiment": 0.684,
-      "news_confidence": 0.38,
+      "volume_spike_ratio": 1.0,
+      "news_sentiment": 1.0,
+      "news_confidence": 0.7,
       "news_headlines": [
-        "UnitedHealth Group (UNH) Dips More Than Broader Market: What You Should Know",
-        "Her Surgery Is Set for January. Her Broker Learned in August That UnitedHealthcare May Leave Her County in 2027",
-        "Cigna Investor Day Spotlights Specialty Drugs"
+        "Yen Crosses Forecasts \u2013 Rising US Rates and Oil Surge Punish Japanese Yen"
       ],
       "high_impact_news": true
     }
