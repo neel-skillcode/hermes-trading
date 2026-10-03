@@ -281,8 +281,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_peak": 0.09261000156402588,
-    "trailing_stop_price": 0.09133
+    "price_peak": 0.0931600034236908,
+    "trailing_stop_price": 0.091873
   },
   "ON": {
     "id": "ON_20261002195903",
@@ -333,8 +333,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_peak": 1.4833999872207642,
-    "trailing_stop_price": 1.465436
+    "price_peak": 1.4904999732971191,
+    "trailing_stop_price": 1.47245
   },
   "RBLX": {
     "id": "RBLX_20261002195903",
@@ -386,8 +386,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_peak": 2678.25,
-    "trailing_stop_price": 2655.886612
+    "price_peak": 2682.070068359375,
+    "trailing_stop_price": 2659.674783
   },
   "COST": {
     "id": "COST_20261002195903",
@@ -439,58 +439,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_peak": 84796.34375,
-    "trailing_stop_price": 84195.137673
-  },
-  "BNB-USD": {
-    "id": "BNB-USD_20261002195903",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 765.969970703125,
-    "entry_time": "2026-10-02T19:59:03.045607+00:00",
-    "stop_loss_pct": 0.00579,
-    "take_profit_pct": 0.01422,
-    "size_usd": 192.83,
-    "position_size_pct": 0.0019,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (30.5)",
-      "5d momentum -1.23%",
-      "1d momentum -0.41%",
-      "BB oversold (pct_b=-0.02)",
-      "Volume spike 1.8\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "144",
-    "status": "open",
-    "price_peak": 772.489990234375,
-    "trailing_stop_price": 768.017273
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261003132929",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 11.053999900817871,
-    "entry_time": "2026-10-03T13:29:29.764296+00:00",
-    "stop_loss_pct": 0.00729,
-    "take_profit_pct": 0.01662,
-    "size_usd": 3608.74,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (68.9)",
-      "5d momentum +1.38%",
-      "1d momentum -0.42%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "145",
-    "status": "open"
+    "price_peak": 84829.546875,
+    "trailing_stop_price": 84228.105388
   },
   "USD/MXN": {
     "id": "USD/MXN_20261003132929",
@@ -508,6 +458,31 @@
       "RSI oversold (40.8)",
       "5d momentum -0.31%",
       "1d momentum -0.80%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "145",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261003173227",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 788.739990234375,
+    "entry_time": "2026-10-03T17:32:27.040127+00:00",
+    "stop_loss_pct": 0.00389,
+    "take_profit_pct": 0.00956,
+    "size_usd": 3792.24,
+    "position_size_pct": 0.0377,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (88.5)",
+      "5d momentum +2.23%",
+      "1d momentum +1.95%",
+      "BB overbought (pct_b=1.25)",
+      "Volume spike 63.9\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
