@@ -254,33 +254,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_trough": 1.6043000221252441,
-    "trailing_stop_price": 1.617134
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261002195903",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 10.604000091552734,
-    "entry_time": "2026-10-02T19:59:03.023486+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03682,
-    "size_usd": 5849.82,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (27.8)",
-      "5d momentum -4.20%",
-      "1d momentum -3.53%",
-      "BB oversold (pct_b=-0.15)",
-      "Volume spike 3.3\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "144",
-    "status": "open"
+    "price_trough": 1.6031999588012695,
+    "trailing_stop_price": 1.616026
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261002195903",
@@ -305,7 +280,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "144",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.09261000156402588,
+    "trailing_stop_price": 0.09133
   },
   "ON": {
     "id": "ON_20261002195903",
@@ -355,7 +332,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "144",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.4833999872207642,
+    "trailing_stop_price": 1.465436
   },
   "RBLX": {
     "id": "RBLX_20261002195903",
@@ -379,7 +358,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "144",
-    "status": "open"
+    "status": "open",
+    "price_trough": 44.119998931884766,
+    "trailing_stop_price": 44.781799
   },
   "ETH-USD": {
     "id": "ETH-USD_20261002195903",
@@ -404,7 +385,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "144",
-    "status": "open"
+    "status": "open",
+    "price_peak": 2678.25,
+    "trailing_stop_price": 2655.886612
   },
   "COST": {
     "id": "COST_20261002195903",
@@ -428,7 +411,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "144",
-    "status": "open"
+    "status": "open",
+    "price_trough": 920.6500244140625,
+    "trailing_stop_price": 936.264249
   },
   "BTC-USD": {
     "id": "BTC-USD_20261002195903",
@@ -453,7 +438,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "144",
-    "status": "open"
+    "status": "open",
+    "price_peak": 84796.34375,
+    "trailing_stop_price": 84195.137673
   },
   "BNB-USD": {
     "id": "BNB-USD_20261002195903",
@@ -478,6 +465,54 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "144",
+    "status": "open",
+    "price_peak": 772.489990234375,
+    "trailing_stop_price": 768.017273
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261003132929",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 11.053999900817871,
+    "entry_time": "2026-10-03T13:29:29.764296+00:00",
+    "stop_loss_pct": 0.00729,
+    "take_profit_pct": 0.01662,
+    "size_usd": 3608.74,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (68.9)",
+      "5d momentum +1.38%",
+      "1d momentum -0.42%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "145",
+    "status": "open"
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20261003132929",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 18.145000457763672,
+    "entry_time": "2026-10-03T13:29:29.765589+00:00",
+    "stop_loss_pct": 0.00281,
+    "take_profit_pct": 0.00641,
+    "size_usd": 2339.94,
+    "position_size_pct": 0.0232,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (40.8)",
+      "5d momentum -0.31%",
+      "1d momentum -0.80%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "145",
     "status": "open"
   }
 }
