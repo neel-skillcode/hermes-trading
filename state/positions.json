@@ -253,33 +253,6 @@
     "strategy_version": "144",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20261002195903",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.4708000421524048,
-    "entry_time": "2026-10-02T19:59:03.027104+00:00",
-    "stop_loss_pct": 0.01211,
-    "take_profit_pct": 0.02973,
-    "size_usd": 5849.82,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (31.7)",
-      "5d momentum -2.78%",
-      "1d momentum -1.97%",
-      "BB oversold (pct_b=0.00)",
-      "Volume spike 2.7\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "144",
-    "status": "open",
-    "price_peak": 1.5108000040054321,
-    "trailing_stop_price": 1.492504
-  },
   "RBLX": {
     "id": "RBLX_20261002195903",
     "asset": "RBLX",
@@ -330,8 +303,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_peak": 2704.070068359375,
-    "trailing_stop_price": 2681.491083
+    "price_peak": 2720.81005859375,
+    "trailing_stop_price": 2698.091295
   },
   "COST": {
     "id": "COST_20261002195903",
@@ -405,32 +378,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "145",
-    "status": "open"
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20261004212605",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 85870.3828125,
-    "entry_time": "2026-10-04T21:26:05.747247+00:00",
-    "stop_loss_pct": 0.00264,
-    "take_profit_pct": 0.00649,
-    "size_usd": 5881.12,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (79.8)",
-      "5d momentum +0.60%",
-      "1d momentum +1.37%",
-      "BB overbought (pct_b=1.09)",
-      "Volume spike 3.8\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "145",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.09561999887228012,
+    "trailing_stop_price": 0.09626
   },
   "BNB-USD": {
     "id": "BNB-USD_20261004212605",
@@ -449,6 +399,54 @@
       "5d momentum +0.60%",
       "1d momentum +1.03%",
       "BB overbought (pct_b=1.02)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "145",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261005000336",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 86330.03125,
+    "entry_time": "2026-10-05T00:03:36.962348+00:00",
+    "stop_loss_pct": 0.0028,
+    "take_profit_pct": 0.00666,
+    "size_usd": 4918.88,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (84.8)",
+      "5d momentum +1.27%",
+      "1d momentum +1.88%",
+      "BB overbought (pct_b=1.37)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "145",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261005000336",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.5161999464035034,
+    "entry_time": "2026-10-05T00:03:36.963730+00:00",
+    "stop_loss_pct": 0.00401,
+    "take_profit_pct": 0.00954,
+    "size_usd": 4918.88,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (73.6)",
+      "5d momentum +0.78%",
+      "1d momentum +1.75%",
+      "BB overbought (pct_b=1.16)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
