@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.847400188446045,
-    "trailing_stop_price": 7.784621
+    "price_peak": 7.847700119018555,
+    "trailing_stop_price": 7.784919
   },
   "RIVN": {
     "id": "RIVN_20260924182539",
@@ -189,31 +189,8 @@
     "mode": "paper",
     "strategy_version": "146",
     "status": "open",
-    "price_peak": 0.562556266784668,
-    "trailing_stop_price": 0.558056
-  },
-  "EUR/CHF": {
-    "id": "EUR/CHF_20261006075538",
-    "asset": "EUR/CHF",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.9345700144767761,
-    "entry_time": "2026-10-06T07:55:38.845407+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 4021.56,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI overbought (85.0)",
-      "1d momentum +0.65%",
-      "BB overbought (pct_b=1.29)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "147",
-    "status": "open"
+    "price_peak": 0.5626512169837952,
+    "trailing_stop_price": 0.55815
   },
   "GBP/USD": {
     "id": "GBP/USD_20261006075538",
@@ -286,8 +263,8 @@
     "mode": "paper",
     "strategy_version": "147",
     "status": "open",
-    "price_trough": 1.5017999410629272,
-    "trailing_stop_price": 1.510435
+    "price_trough": 1.4986000061035156,
+    "trailing_stop_price": 1.507217
   },
   "AXP": {
     "id": "AXP_20261006144124",
@@ -384,7 +361,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "148",
-    "status": "open"
+    "status": "open",
+    "price_peak": 224.99000549316406,
+    "trailing_stop_price": 223.09559
   },
   "MU": {
     "id": "MU_20261006195024",
@@ -432,7 +411,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "148",
-    "status": "open"
+    "status": "open",
+    "price_trough": 5.78000020980835,
+    "trailing_stop_price": 5.85751
   },
   "SOUN": {
     "id": "SOUN_20261006195024",
@@ -474,6 +455,32 @@
       "RSI oversold (44.3)",
       "5d momentum -1.95%",
       "BB oversold (pct_b=0.03)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "148",
+    "status": "open",
+    "price_peak": 112.0,
+    "trailing_stop_price": 108.9032
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261006232204",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 11.675000190734863,
+    "entry_time": "2026-10-06T23:22:04.518614+00:00",
+    "stop_loss_pct": 0.0111,
+    "take_profit_pct": 0.02641,
+    "size_usd": 4017.91,
+    "position_size_pct": 0.0398,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (68.3)",
+      "5d momentum +1.69%",
+      "1d momentum +4.94%",
+      "BB overbought (pct_b=1.00)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
