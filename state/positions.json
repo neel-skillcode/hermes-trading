@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.847700119018555,
-    "trailing_stop_price": 7.784919
+    "price_peak": 7.847750186920166,
+    "trailing_stop_price": 7.784968
   },
   "RIVN": {
     "id": "RIVN_20260924182539",
@@ -237,34 +237,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "147",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20261006144124",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.5189000368118286,
-    "entry_time": "2026-10-06T14:41:24.258941+00:00",
-    "stop_loss_pct": 0.00575,
-    "take_profit_pct": 0.01412,
-    "size_usd": 2876.96,
-    "position_size_pct": 0.0285,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (60.6)",
-      "5d momentum +1.06%",
-      "1d momentum +1.33%",
-      "BB overbought (pct_b=1.05)",
-      "Volume spike 4.6\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "147",
     "status": "open",
-    "price_trough": 1.4986000061035156,
-    "trailing_stop_price": 1.507217
+    "price_peak": 10.01630973815918,
+    "trailing_stop_price": 9.996277
   },
   "AXP": {
     "id": "AXP_20261006144124",
@@ -312,31 +287,6 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "147",
-    "status": "open"
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261006195024",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.09376999735832214,
-    "entry_time": "2026-10-06T19:50:24.453985+00:00",
-    "stop_loss_pct": 0.00745,
-    "take_profit_pct": 0.01829,
-    "size_usd": 5883.96,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (41.4)",
-      "5d momentum -2.63%",
-      "1d momentum -1.76%",
-      "BB oversold (pct_b=-0.02)",
-      "Volume spike 6.3\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "148",
     "status": "open"
   },
   "CRM": {
@@ -464,23 +414,74 @@
     "price_peak": 112.0,
     "trailing_stop_price": 108.9032
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261006232204",
-    "asset": "AVAX-USD",
+  "ETH-USD": {
+    "id": "ETH-USD_20261007023004",
+    "asset": "ETH-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 11.675000190734863,
-    "entry_time": "2026-10-06T23:22:04.518614+00:00",
-    "stop_loss_pct": 0.0111,
-    "take_profit_pct": 0.02641,
-    "size_usd": 4017.91,
-    "position_size_pct": 0.0398,
-    "confidence": 0.76,
+    "direction": "long",
+    "entry_price": 2611.3701171875,
+    "entry_time": "2026-10-07T02:30:04.516259+00:00",
+    "stop_loss_pct": 0.00614,
+    "take_profit_pct": 0.01508,
+    "size_usd": 5888.81,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
     "signals": [
-      "RSI overbought (68.3)",
-      "5d momentum +1.69%",
-      "1d momentum +4.94%",
-      "BB overbought (pct_b=1.00)"
+      "RSI oversold (15.0)",
+      "5d momentum -3.22%",
+      "1d momentum -3.56%",
+      "BB oversold (pct_b=-0.40)",
+      "Volume spike 14.8\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "148",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261007023004",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.09012000262737274,
+    "entry_time": "2026-10-07T02:30:04.518764+00:00",
+    "stop_loss_pct": 0.01022,
+    "take_profit_pct": 0.0251,
+    "size_usd": 5888.81,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (14.2)",
+      "5d momentum -3.71%",
+      "1d momentum -5.07%",
+      "BB oversold (pct_b=-0.25)",
+      "Volume spike 19.5\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "148",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261007023004",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.4563000202178955,
+    "entry_time": "2026-10-07T02:30:04.519815+00:00",
+    "stop_loss_pct": 0.00766,
+    "take_profit_pct": 0.01881,
+    "size_usd": 1038.14,
+    "position_size_pct": 0.0103,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (18.1)",
+      "5d momentum -3.06%",
+      "1d momentum -2.99%",
+      "BB oversold (pct_b=-0.33)",
+      "Volume spike 101.5\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
