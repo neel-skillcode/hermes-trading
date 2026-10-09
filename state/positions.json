@@ -20,8 +20,8 @@
     "mode": "paper",
     "strategy_version": "03",
     "status": "open",
-    "price_peak": 7.847799777984619,
-    "trailing_stop_price": 7.785017
+    "price_peak": 7.847909927368164,
+    "trailing_stop_price": 7.785127
   },
   "RIVN": {
     "id": "RIVN_20260924182539",
@@ -51,8 +51,8 @@
     "mode": "paper",
     "strategy_version": "138",
     "status": "open",
-    "price_trough": 14.095000267028809,
-    "trailing_stop_price": 14.639349
+    "price_trough": 13.96500015258789,
+    "trailing_stop_price": 14.504328
   },
   "LCID": {
     "id": "LCID_20260930184854",
@@ -259,8 +259,8 @@
     "mode": "paper",
     "strategy_version": "150",
     "status": "open",
-    "price_trough": 2493.550048828125,
-    "trailing_stop_price": 2506.017799
+    "price_trough": 2480.5400390625,
+    "trailing_stop_price": 2492.942739
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261009062145",
@@ -284,8 +284,8 @@
     "mode": "paper",
     "strategy_version": "150",
     "status": "open",
-    "price_trough": 10.272000312805176,
-    "trailing_stop_price": 10.377083
+    "price_trough": 10.147000312805176,
+    "trailing_stop_price": 10.250804
   },
   "BNB-USD": {
     "id": "BNB-USD_20261009062145",
@@ -309,8 +309,8 @@
     "mode": "paper",
     "strategy_version": "150",
     "status": "open",
-    "price_trough": 740.9600219726562,
-    "trailing_stop_price": 744.435124
+    "price_trough": 739.27001953125,
+    "trailing_stop_price": 742.737196
   },
   "AUD/USD": {
     "id": "AUD/USD_20261009062145",
@@ -359,8 +359,8 @@
     "mode": "paper",
     "strategy_version": "150",
     "status": "open",
-    "price_trough": 0.08470000326633453,
-    "trailing_stop_price": 0.085281
+    "price_trough": 0.08451999723911285,
+    "trailing_stop_price": 0.0851
   },
   "SOL-USD": {
     "id": "SOL-USD_20261009062145",
@@ -384,8 +384,8 @@
     "mode": "paper",
     "strategy_version": "150",
     "status": "open",
-    "price_trough": 110.16999816894531,
-    "trailing_stop_price": 111.095426
+    "price_trough": 109.33999633789062,
+    "trailing_stop_price": 110.258452
   },
   "XRP-USD": {
     "id": "XRP-USD_20261009062145",
@@ -409,57 +409,8 @@
     "mode": "paper",
     "strategy_version": "150",
     "status": "open",
-    "price_trough": 1.3867000341415405,
-    "trailing_stop_price": 1.39735
-  },
-  "SNAP": {
-    "id": "SNAP_20261009133029",
-    "asset": "SNAP",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 5.954999923706055,
-    "entry_time": "2026-10-09T13:30:29.145624+00:00",
-    "stop_loss_pct": 0.01323,
-    "take_profit_pct": 0.033,
-    "size_usd": 6373.47,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (73.4)",
-      "MACD crossover",
-      "5d momentum +2.94%",
-      "1d momentum +4.66%",
-      "BB overbought (pct_b=1.13)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "151",
-    "status": "open"
-  },
-  "PLTR": {
-    "id": "PLTR_20261009133029",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 201.76499938964844,
-    "entry_time": "2026-10-09T13:30:29.147280+00:00",
-    "stop_loss_pct": 0.01195,
-    "take_profit_pct": 0.02843,
-    "size_usd": 3371.83,
-    "position_size_pct": 0.0335,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (77.6)",
-      "5d momentum +1.71%",
-      "1d momentum +6.57%",
-      "BB overbought (pct_b=1.02)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "151",
-    "status": "open"
+    "price_trough": 1.3863999843597412,
+    "trailing_stop_price": 1.397048
   },
   "SLV": {
     "id": "SLV_20261009133029",
@@ -501,6 +452,56 @@
       "RSI overbought (70.7)",
       "5d momentum +3.34%",
       "BB overbought (pct_b=1.15)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "151",
+    "status": "open",
+    "price_trough": 229.13999938964844,
+    "trailing_stop_price": 234.611863
+  },
+  "MRNA": {
+    "id": "MRNA_20261009185732",
+    "asset": "MRNA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 222.0500030517578,
+    "entry_time": "2026-10-09T18:57:32.804611+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0357,
+    "size_usd": 4871.63,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (77.7)",
+      "5d momentum +3.41%",
+      "1d momentum +16.87%",
+      "BB overbought (pct_b=0.98)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "151",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20261009185732",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 207.43499755859375,
+    "entry_time": "2026-10-09T18:57:32.805929+00:00",
+    "stop_loss_pct": 0.01316,
+    "take_profit_pct": 0.03133,
+    "size_usd": 4699.86,
+    "position_size_pct": 0.0469,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (81.9)",
+      "5d momentum +2.23%",
+      "1d momentum +8.15%",
+      "BB overbought (pct_b=0.92)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
