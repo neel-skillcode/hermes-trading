@@ -183,8 +183,8 @@
     "mode": "paper",
     "strategy_version": "148",
     "status": "open",
-    "price_peak": 227.69500732421875,
-    "trailing_stop_price": 225.777815
+    "price_peak": 227.8,
+    "trailing_stop_price": 225.881924
   },
   "EUR/AUD": {
     "id": "EUR/AUD_20261007090929",
@@ -209,8 +209,8 @@
     "mode": "paper",
     "strategy_version": "149",
     "status": "open",
-    "price_peak": 1.6110399961471558,
-    "trailing_stop_price": 1.607818
+    "price_peak": 1.6112200021743774,
+    "trailing_stop_price": 1.607998
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20261008144247",
@@ -260,8 +260,8 @@
     "mode": "paper",
     "strategy_version": "149",
     "status": "open",
-    "price_trough": 81803.9921875,
-    "trailing_stop_price": 83287.098566
+    "price_trough": 81666.84375,
+    "trailing_stop_price": 83147.463627
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261008201005",
@@ -284,7 +284,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.08388999849557877,
+    "trailing_stop_price": 0.084887
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261008201005",
@@ -307,7 +309,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 10.041000366210938,
+    "trailing_stop_price": 10.191615
   },
   "ETH-USD": {
     "id": "ETH-USD_20261008201005",
@@ -353,7 +357,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 108.91999816894531,
+    "trailing_stop_price": 110.090888
   },
   "USD/MXN": {
     "id": "USD/MXN_20261008201005",
@@ -376,7 +382,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 18.185300827026367,
+    "trailing_stop_price": 18.238584
   },
   "XRP-USD": {
     "id": "XRP-USD_20261008201005",
@@ -418,6 +426,31 @@
       "5d momentum -0.46%",
       "1d momentum -0.42%",
       "BB oversold (pct_b=0.04)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "150",
+    "status": "open",
+    "price_peak": 9.964369773864746,
+    "trailing_stop_price": 9.943445
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261009002142",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 735.47998046875,
+    "entry_time": "2026-10-09T00:21:42.458893+00:00",
+    "stop_loss_pct": 0.00809,
+    "take_profit_pct": 0.01843,
+    "size_usd": 3610.98,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (24.3)",
+      "5d momentum +0.61%",
+      "1d momentum -4.52%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
