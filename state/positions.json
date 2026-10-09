@@ -160,32 +160,6 @@
     "price_trough": 1.3213878870010376,
     "trailing_stop_price": 1.331959
   },
-  "CRM": {
-    "id": "CRM_20261006195024",
-    "asset": "CRM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 223.7899932861328,
-    "entry_time": "2026-10-06T19:50:24.470971+00:00",
-    "stop_loss_pct": 0.00842,
-    "take_profit_pct": 0.02003,
-    "size_usd": 4914.08,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (17.4)",
-      "5d momentum -1.89%",
-      "1d momentum -4.26%",
-      "BB oversold (pct_b=0.10)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "148",
-    "status": "open",
-    "price_peak": 227.8000030517578,
-    "trailing_stop_price": 225.881927
-  },
   "AUD/JPY": {
     "id": "AUD/JPY_20261008144247",
     "asset": "AUD/JPY",
@@ -237,31 +211,6 @@
     "price_trough": 81666.84375,
     "trailing_stop_price": 83147.463627
   },
-  "USD/MXN": {
-    "id": "USD/MXN_20261008201005",
-    "asset": "USD/MXN",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 18.19700050354004,
-    "entry_time": "2026-10-08T20:10:05.703681+00:00",
-    "stop_loss_pct": 0.00293,
-    "take_profit_pct": 0.00677,
-    "size_usd": 3997.87,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI overbought (71.1)",
-      "1d momentum +1.23%",
-      "BB overbought (pct_b=0.90)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "150",
-    "status": "open",
-    "price_trough": 18.17753028869629,
-    "trailing_stop_price": 18.23079
-  },
   "USD/SEK": {
     "id": "USD/SEK_20261008201005",
     "asset": "USD/SEK",
@@ -285,8 +234,8 @@
     "mode": "paper",
     "strategy_version": "150",
     "status": "open",
-    "price_peak": 9.964369773864746,
-    "trailing_stop_price": 9.943445
+    "price_peak": 9.992420196533203,
+    "trailing_stop_price": 9.971436
   },
   "ETH-USD": {
     "id": "ETH-USD_20261009062145",
@@ -309,7 +258,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2493.550048828125,
+    "trailing_stop_price": 2506.017799
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261009062145",
@@ -332,7 +283,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 10.272000312805176,
+    "trailing_stop_price": 10.377083
   },
   "BNB-USD": {
     "id": "BNB-USD_20261009062145",
@@ -355,7 +308,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 740.9600219726562,
+    "trailing_stop_price": 744.435124
   },
   "AUD/USD": {
     "id": "AUD/USD_20261009062145",
@@ -378,7 +333,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.6974959969520569,
+    "trailing_stop_price": 0.698891
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261009062145",
@@ -401,7 +358,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.08470000326633453,
+    "trailing_stop_price": 0.085281
   },
   "SOL-USD": {
     "id": "SOL-USD_20261009062145",
@@ -424,7 +383,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
-    "status": "open"
+    "status": "open",
+    "price_trough": 110.16999816894531,
+    "trailing_stop_price": 111.095426
   },
   "XRP-USD": {
     "id": "XRP-USD_20261009062145",
@@ -447,6 +408,104 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "150",
+    "status": "open",
+    "price_trough": 1.3867000341415405,
+    "trailing_stop_price": 1.39735
+  },
+  "SNAP": {
+    "id": "SNAP_20261009133029",
+    "asset": "SNAP",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 5.954999923706055,
+    "entry_time": "2026-10-09T13:30:29.145624+00:00",
+    "stop_loss_pct": 0.01323,
+    "take_profit_pct": 0.033,
+    "size_usd": 6373.47,
+    "position_size_pct": 0.0634,
+    "confidence": 0.99,
+    "signals": [
+      "RSI overbought (73.4)",
+      "MACD crossover",
+      "5d momentum +2.94%",
+      "1d momentum +4.66%",
+      "BB overbought (pct_b=1.13)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "151",
+    "status": "open"
+  },
+  "PLTR": {
+    "id": "PLTR_20261009133029",
+    "asset": "PLTR",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 201.76499938964844,
+    "entry_time": "2026-10-09T13:30:29.147280+00:00",
+    "stop_loss_pct": 0.01195,
+    "take_profit_pct": 0.02843,
+    "size_usd": 3371.83,
+    "position_size_pct": 0.0335,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (77.6)",
+      "5d momentum +1.71%",
+      "1d momentum +6.57%",
+      "BB overbought (pct_b=1.02)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "151",
+    "status": "open"
+  },
+  "SLV": {
+    "id": "SLV_20261009133029",
+    "asset": "SLV",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 54.880001068115234,
+    "entry_time": "2026-10-09T13:30:29.148812+00:00",
+    "stop_loss_pct": 0.02271,
+    "take_profit_pct": 0.07733,
+    "size_usd": 7821.98,
+    "position_size_pct": 0.0778,
+    "confidence": 0.81,
+    "signals": [
+      "RSI overbought (65.2)",
+      "MACD crossover",
+      "5d momentum +3.17%",
+      "1d momentum -0.53%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "151",
+    "status": "open"
+  },
+  "CRM": {
+    "id": "CRM_20261009133029",
+    "asset": "CRM",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 229.97000122070312,
+    "entry_time": "2026-10-09T13:30:29.149960+00:00",
+    "stop_loss_pct": 0.02388,
+    "take_profit_pct": 0.07834,
+    "size_usd": 2883.02,
+    "position_size_pct": 0.0287,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (70.7)",
+      "5d momentum +3.34%",
+      "BB overbought (pct_b=1.15)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "151",
     "status": "open"
   }
 }
