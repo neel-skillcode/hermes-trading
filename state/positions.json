@@ -432,7 +432,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "151",
-    "status": "open"
+    "status": "open",
+    "price_peak": 18.38800048828125,
+    "trailing_stop_price": 18.336514
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261010021519",
@@ -459,29 +461,6 @@
     "strategy_version": "151",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261010021519",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 10.418999671936035,
-    "entry_time": "2026-10-10T02:15:19.768753+00:00",
-    "stop_loss_pct": 0.00884,
-    "take_profit_pct": 0.02007,
-    "size_usd": 3460.35,
-    "position_size_pct": 0.0346,
-    "confidence": 0.54,
-    "signals": [
-      "5d momentum +2.88%",
-      "1d momentum +3.46%",
-      "BB overbought (pct_b=0.85)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "151",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20261010021519",
     "asset": "XRP-USD",
@@ -499,6 +478,32 @@
       "5d momentum +0.97%",
       "1d momentum +1.07%",
       "BB overbought (pct_b=0.89)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "151",
+    "status": "open",
+    "price_trough": 1.4056999683380127,
+    "trailing_stop_price": 1.413825
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261010083421",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 10.557000160217285,
+    "entry_time": "2026-10-10T08:34:21.705508+00:00",
+    "stop_loss_pct": 0.00838,
+    "take_profit_pct": 0.01994,
+    "size_usd": 3442.02,
+    "position_size_pct": 0.0344,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (75.6)",
+      "5d momentum +1.62%",
+      "1d momentum +1.52%",
+      "BB overbought (pct_b=0.86)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
