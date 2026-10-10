@@ -211,32 +211,6 @@
     "price_trough": 81666.84375,
     "trailing_stop_price": 83147.463627
   },
-  "USD/SEK": {
-    "id": "USD/SEK_20261008201005",
-    "asset": "USD/SEK",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 9.963120460510254,
-    "entry_time": "2026-10-08T20:10:05.705624+00:00",
-    "stop_loss_pct": 0.0021,
-    "take_profit_pct": 0.005,
-    "size_usd": 4900.62,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (33.1)",
-      "5d momentum -0.46%",
-      "1d momentum -0.42%",
-      "BB oversold (pct_b=0.04)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "150",
-    "status": "open",
-    "price_peak": 9.994000434875488,
-    "trailing_stop_price": 9.973013
-  },
   "AUD/USD": {
     "id": "AUD/USD_20261009062145",
     "asset": "AUD/USD",
@@ -409,7 +383,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "151",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.0859299972653389,
+    "trailing_stop_price": 0.086497
   },
   "XRP-USD": {
     "id": "XRP-USD_20261010021519",
@@ -434,8 +410,8 @@
     "mode": "paper",
     "strategy_version": "151",
     "status": "open",
-    "price_trough": 1.4056999683380127,
-    "trailing_stop_price": 1.413825
+    "price_trough": 1.4036999940872192,
+    "trailing_stop_price": 1.411813
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261010083421",
@@ -459,7 +435,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "151",
-    "status": "open"
+    "status": "open",
+    "price_trough": 10.4350004196167,
+    "trailing_stop_price": 10.522446
   },
   "ETH-USD": {
     "id": "ETH-USD_20261010144116",
@@ -484,7 +462,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "151",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2507.97998046875,
+    "trailing_stop_price": 2513.597856
   },
   "BNB-USD": {
     "id": "BNB-USD_20261010144116",
@@ -509,6 +489,8 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "151",
-    "status": "open"
+    "status": "open",
+    "price_trough": 750.5499877929688,
+    "trailing_stop_price": 752.771616
   }
 }
