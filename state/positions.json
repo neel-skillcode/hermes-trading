@@ -384,8 +384,8 @@
     "mode": "paper",
     "strategy_version": "151",
     "status": "open",
-    "price_trough": 0.0859299972653389,
-    "trailing_stop_price": 0.086497
+    "price_trough": 0.08568999916315079,
+    "trailing_stop_price": 0.086256
   },
   "XRP-USD": {
     "id": "XRP-USD_20261010021519",
@@ -410,34 +410,8 @@
     "mode": "paper",
     "strategy_version": "151",
     "status": "open",
-    "price_trough": 1.4036999940872192,
-    "trailing_stop_price": 1.411813
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261010083421",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 10.557000160217285,
-    "entry_time": "2026-10-10T08:34:21.705508+00:00",
-    "stop_loss_pct": 0.00838,
-    "take_profit_pct": 0.01994,
-    "size_usd": 3442.02,
-    "position_size_pct": 0.0344,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (75.6)",
-      "5d momentum +1.62%",
-      "1d momentum +1.52%",
-      "BB overbought (pct_b=0.86)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "151",
-    "status": "open",
-    "price_trough": 10.4350004196167,
-    "trailing_stop_price": 10.522446
+    "price_trough": 1.3975000381469727,
+    "trailing_stop_price": 1.405578
   },
   "ETH-USD": {
     "id": "ETH-USD_20261010144116",
@@ -463,8 +437,8 @@
     "mode": "paper",
     "strategy_version": "151",
     "status": "open",
-    "price_trough": 2507.97998046875,
-    "trailing_stop_price": 2513.597856
+    "price_trough": 2503.239990234375,
+    "trailing_stop_price": 2508.847248
   },
   "BNB-USD": {
     "id": "BNB-USD_20261010144116",
@@ -490,7 +464,31 @@
     "mode": "paper",
     "strategy_version": "151",
     "status": "open",
-    "price_trough": 750.5499877929688,
-    "trailing_stop_price": 752.771616
+    "price_trough": 747.239990234375,
+    "trailing_stop_price": 749.451821
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261011005241",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 10.336999893188477,
+    "entry_time": "2026-10-11T00:52:41.670682+00:00",
+    "stop_loss_pct": 0.0058,
+    "take_profit_pct": 0.01365,
+    "size_usd": 4549.55,
+    "position_size_pct": 0.0454,
+    "confidence": 0.71,
+    "signals": [
+      "RSI oversold (28.2)",
+      "5d momentum -1.46%",
+      "BB oversold (pct_b=-0.12)",
+      "Volume spike 3.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "152",
+    "status": "open"
   }
 }
