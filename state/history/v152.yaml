@@ -1,0 +1,65 @@
+entry:
+  indicators:
+    bollinger:
+      entry_pct_b_high: 0.85
+      entry_pct_b_low: 0.15
+      period: 20
+      std_dev: 2.0
+    macd:
+      fast: 12
+      signal: 9
+      slow: 26
+    momentum:
+      lookback_days: 5
+      min_pct: 0.003
+    momentum_1d:
+      min_pct: 0.004
+    rsi:
+      overbought: 60
+      oversold: 45
+      period: 14
+    volume_spike:
+      multiplier: 1.5
+  min_confidence: 0.15
+  min_signal_confluence: 3
+  news_sentiment_weight: 0.25
+position_sizing:
+  day_trade:
+    max_position_pct: 0.08
+  kelly_fraction: 0.8
+  method: kelly_fractional
+  swing_trade:
+    max_position_pct: 0.12
+regime_detection:
+  lookback_days: 20
+  method: rolling_return_classifier
+stop_loss:
+  day_trade:
+    atr_multiplier: 0.8
+    max_pct: 0.015
+    min_pct: 0.002
+  swing_trade:
+    atr_multiplier: 2.5
+    max_pct: 0.06
+    min_pct: 0.008
+  trailing: true
+take_profit:
+  day_trade:
+    rr_ratio: 2.0
+  news_boost_max: 0.5
+  swing_trade:
+    rr_ratio: 3.0
+universe_selection:
+  cash_reserve_pct: 0.1
+  crypto_weight: 0.1
+  day_trade_capital_pct: 0.4
+  display_candidates: 20
+  equity_weight: 0.55
+  forex_weight: 0.35
+  max_day_trades: 12
+  max_positions: 20
+  max_swing_trades: 10
+  min_momentum_score: 0.15
+  min_volume_percentile: 50
+  swing_capital_pct: 0.5
+version: '152'

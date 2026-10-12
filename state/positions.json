@@ -185,31 +185,6 @@
     "price_trough": 109.89700317382812,
     "trailing_stop_price": 110.776179
   },
-  "AUD/USD": {
-    "id": "AUD/USD_20261009062145",
-    "asset": "AUD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.6984703540802002,
-    "entry_time": "2026-10-09T06:21:45.630841+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 3986.48,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI overbought (83.5)",
-      "1d momentum +0.44%",
-      "BB overbought (pct_b=0.89)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "150",
-    "status": "open",
-    "price_trough": 0.6974959969520569,
-    "trailing_stop_price": 0.698891
-  },
   "SLV": {
     "id": "SLV_20261009133029",
     "asset": "SLV",
@@ -406,7 +381,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "152",
-    "status": "open"
+    "status": "open",
+    "price_trough": 111.51000213623047,
+    "trailing_stop_price": 112.136688
   },
   "ETH-USD": {
     "id": "ETH-USD_20261011181906",
@@ -449,6 +426,31 @@
       "5d momentum +1.86%",
       "1d momentum +1.00%",
       "BB overbought (pct_b=0.91)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "152",
+    "status": "open",
+    "price_trough": 0.08675999939441681,
+    "trailing_stop_price": 0.087218
+  },
+  "EUR/AUD": {
+    "id": "EUR/AUD_20261012011807",
+    "asset": "EUR/AUD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.6040500402450562,
+    "entry_time": "2026-10-12T01:18:07.267770+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 5329.69,
+    "position_size_pct": 0.0534,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (35.8)",
+      "MACD crossover",
+      "1d momentum -0.40%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
