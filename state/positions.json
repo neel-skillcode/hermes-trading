@@ -146,8 +146,8 @@
     "mode": "paper",
     "strategy_version": "151",
     "status": "open",
-    "price_trough": 53.52470016479492,
-    "trailing_stop_price": 54.740246
+    "price_trough": 53.4900016784668,
+    "trailing_stop_price": 54.70476
   },
   "PLTR": {
     "id": "PLTR_20261009185732",
@@ -199,33 +199,6 @@
     "status": "open",
     "price_trough": 1.6034400463104248,
     "trailing_stop_price": 1.616268
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20261012232422",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2461.6298828125,
-    "entry_time": "2026-10-12T23:24:22.347539+00:00",
-    "stop_loss_pct": 0.00761,
-    "take_profit_pct": 0.01868,
-    "size_usd": 5842.09,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (17.7)",
-      "5d momentum -1.96%",
-      "1d momentum -2.86%",
-      "BB oversold (pct_b=-0.04)",
-      "Volume spike 1.9\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "154",
-    "status": "open",
-    "price_peak": 2505.760009765625,
-    "trailing_stop_price": 2486.691176
   },
   "BTC-USD": {
     "id": "BTC-USD_20261013034156",
@@ -299,7 +272,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "154",
-    "status": "open"
+    "status": "open",
+    "price_peak": 464.239990234375,
+    "trailing_stop_price": 457.27639
   },
   "MCD": {
     "id": "MCD_20261013181332",
@@ -324,7 +299,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "154",
-    "status": "open"
+    "status": "open",
+    "price_trough": 235.80999755859375,
+    "trailing_stop_price": 236.970183
   },
   "MU": {
     "id": "MU_20261013181332",
@@ -348,7 +325,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "154",
-    "status": "open"
+    "status": "open",
+    "price_peak": 953.1900024414062,
+    "trailing_stop_price": 938.892152
   },
   "VRTX": {
     "id": "VRTX_20261013181332",
@@ -395,7 +374,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "154",
-    "status": "open"
+    "status": "open",
+    "price_trough": 34.72999954223633,
+    "trailing_stop_price": 35.25095
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261013181332",
@@ -419,6 +400,29 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "154",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20261013224617",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2509.330078125,
+    "entry_time": "2026-10-13T22:46:17.914871+00:00",
+    "stop_loss_pct": 0.00502,
+    "take_profit_pct": 0.01128,
+    "size_usd": 3151.33,
+    "position_size_pct": 0.0314,
+    "confidence": 0.49,
+    "signals": [
+      "5d momentum +0.44%",
+      "1d momentum +1.77%",
+      "Volume spike 1.8\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "155",
     "status": "open"
   }
 }
