@@ -431,7 +431,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "154",
-    "status": "open"
+    "status": "open",
+    "price_peak": 2500.77001953125,
+    "trailing_stop_price": 2481.73916
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261012232422",
@@ -451,6 +453,31 @@
       "1d momentum -6.78%",
       "BB oversold (pct_b=0.08)",
       "Volume spike 1.5\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "154",
+    "status": "open",
+    "price_peak": 10.430000305175781,
+    "trailing_stop_price": 10.275011
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261013034156",
+    "asset": "BTC-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 83124.5625,
+    "entry_time": "2026-10-13T03:41:56.711502+00:00",
+    "stop_loss_pct": 0.01801,
+    "take_profit_pct": 0.05935,
+    "size_usd": 4808.48,
+    "position_size_pct": 0.0479,
+    "confidence": 0.59,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +1.31%",
+      "1d momentum -0.46%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
