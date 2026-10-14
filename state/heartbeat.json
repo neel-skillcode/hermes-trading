@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100488.84,
+  "portfolio_balance": 100451.43,
   "portfolio_peak": 107897.44,
-  "portfolio_drawdown_pct": 6.87,
-  "unrealized_pnl_usd": 268.16,
-  "equity_value": 100757.0,
-  "open_positions": 18,
+  "portfolio_drawdown_pct": 6.9,
+  "unrealized_pnl_usd": 367.16,
+  "equity_value": 100818.59,
+  "open_positions": 19,
   "day_trades_open": 9,
-  "swing_trades_open": 9,
+  "swing_trades_open": 10,
   "day_capital_used_usd": 40195.54,
-  "swing_capital_used_usd": 49738.85,
-  "total_trades": 1769,
-  "last_tick": "2026-10-14T01:26:19.411615+00:00",
+  "swing_capital_used_usd": 50225.71,
+  "total_trades": 1770,
+  "last_tick": "2026-10-14T06:27:10.120442+00:00",
   "last_reflection": null,
-  "trades_since_last_reflection": 1,
+  "trades_since_last_reflection": 2,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,8 +40,8 @@
       "status": "open",
       "price_peak": 7.848299980163574,
       "trailing_stop_price": 7.785514,
-      "current_price": 7.848,
-      "unrealized_pnl_pct": 0.001749,
+      "current_price": 7.84801,
+      "unrealized_pnl_pct": 0.00175,
       "unrealized_pnl_usd": 2.35
     },
     {
@@ -68,9 +68,9 @@
       "status": "open",
       "price_trough": 1.5914100408554077,
       "trailing_stop_price": 1.604141,
-      "current_price": 1.5918,
-      "unrealized_pnl_pct": 0.008064,
-      "unrealized_pnl_usd": 39.2
+      "current_price": 1.59151,
+      "unrealized_pnl_pct": 0.008244,
+      "unrealized_pnl_usd": 40.08
     },
     {
       "id": "NZD/USD_20261005052546",
@@ -96,9 +96,9 @@
       "status": "open",
       "price_peak": 0.5626512169837952,
       "trailing_stop_price": 0.55815,
-      "current_price": 0.562398,
-      "unrealized_pnl_pct": 0.005343,
-      "unrealized_pnl_usd": 25.42
+      "current_price": 0.56224,
+      "unrealized_pnl_pct": 0.00506,
+      "unrealized_pnl_usd": 24.08
     },
     {
       "id": "GBP/USD_20261006075538",
@@ -124,37 +124,9 @@
       "status": "open",
       "price_trough": 1.3204283714294434,
       "trailing_stop_price": 1.330992,
-      "current_price": 1.326137,
-      "unrealized_pnl_pct": -0.002069,
-      "unrealized_pnl_usd": -13.49
-    },
-    {
-      "id": "AUD/JPY_20261008144247",
-      "asset": "AUD/JPY",
-      "trade_type": "swing",
-      "direction": "short",
-      "entry_price": 110.1760025024414,
-      "entry_time": "2026-10-08T14:42:47.019419+00:00",
-      "stop_loss_pct": 0.008,
-      "take_profit_pct": 0.02668,
-      "size_usd": 6491.22,
-      "position_size_pct": 0.0643,
-      "confidence": 0.67,
-      "signals": [
-        "RSI overbought (63.1)",
-        "MACD crossover",
-        "BB overbought (pct_b=1.03)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "149",
-      "status": "open",
-      "price_trough": 109.89700317382812,
-      "trailing_stop_price": 110.776179,
-      "current_price": 110.746002,
-      "unrealized_pnl_pct": -0.005174,
-      "unrealized_pnl_usd": -33.58
+      "current_price": 1.326841,
+      "unrealized_pnl_pct": -0.002601,
+      "unrealized_pnl_usd": -16.95
     },
     {
       "id": "SLV_20261009133029",
@@ -236,11 +208,11 @@
       "mode": "paper",
       "strategy_version": "152",
       "status": "open",
-      "price_trough": 1.6028399467468262,
-      "trailing_stop_price": 1.615663,
-      "current_price": 1.60286,
-      "unrealized_pnl_pct": 0.000742,
-      "unrealized_pnl_usd": 3.95
+      "price_trough": 1.600659966468811,
+      "trailing_stop_price": 1.613465,
+      "current_price": 1.60065,
+      "unrealized_pnl_pct": 0.00212,
+      "unrealized_pnl_usd": 11.3
     },
     {
       "id": "BTC-USD_20261013034156",
@@ -266,9 +238,9 @@
       "status": "open",
       "price_trough": 83082.21875,
       "trailing_stop_price": 84578.52951,
-      "current_price": 83303.570312,
-      "unrealized_pnl_pct": -0.002153,
-      "unrealized_pnl_usd": -10.36
+      "current_price": 83445.789062,
+      "unrealized_pnl_pct": -0.003864,
+      "unrealized_pnl_usd": -18.58
     },
     {
       "id": "VLO_20261013181332",
@@ -464,9 +436,11 @@
       "mode": "paper",
       "strategy_version": "154",
       "status": "open",
-      "current_price": 10.287,
-      "unrealized_pnl_pct": -0.002143,
-      "unrealized_pnl_usd": -16.73
+      "price_trough": 10.197999954223633,
+      "trailing_stop_price": 10.562374,
+      "current_price": 10.198,
+      "unrealized_pnl_pct": 0.006527,
+      "unrealized_pnl_usd": 50.95
     },
     {
       "id": "ETH-USD_20261013224617",
@@ -490,9 +464,9 @@
       "mode": "paper",
       "strategy_version": "155",
       "status": "open",
-      "current_price": 2503.639893,
-      "unrealized_pnl_pct": -0.002268,
-      "unrealized_pnl_usd": -7.15
+      "current_price": 2504.570068,
+      "unrealized_pnl_pct": -0.001897,
+      "unrealized_pnl_usd": -5.98
     },
     {
       "id": "GBP/JPY_20261014012619",
@@ -516,7 +490,61 @@
       "mode": "paper",
       "strategy_version": "155",
       "status": "open",
-      "current_price": 210.113998,
+      "price_trough": 210.0070037841797,
+      "trailing_stop_price": 210.427018,
+      "current_price": 210.007004,
+      "unrealized_pnl_pct": 0.000509,
+      "unrealized_pnl_usd": 1.39
+    },
+    {
+      "id": "USD/SEK_20261014062710",
+      "asset": "USD/SEK",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 9.950929641723633,
+      "entry_time": "2026-10-14T06:27:10.113144+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02668,
+      "size_usd": 6461.04,
+      "position_size_pct": 0.0643,
+      "confidence": 0.67,
+      "signals": [
+        "RSI oversold (29.6)",
+        "MACD crossover",
+        "1d momentum -0.64%"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "155",
+      "status": "open",
+      "current_price": 9.95093,
+      "unrealized_pnl_pct": 0.0,
+      "unrealized_pnl_usd": 0.0
+    },
+    {
+      "id": "USD/CAD_20261014062710",
+      "asset": "USD/CAD",
+      "trade_type": "swing",
+      "direction": "short",
+      "entry_price": 1.420259952545166,
+      "entry_time": "2026-10-14T06:27:10.115242+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02668,
+      "size_usd": 517.04,
+      "position_size_pct": 0.0051,
+      "confidence": 0.67,
+      "signals": [
+        "RSI oversold (38.2)",
+        "MACD crossover",
+        "1d momentum -0.46%"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "155",
+      "status": "open",
+      "current_price": 1.42026,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -788,7 +816,7 @@
       "atr_pct": 0.016573747782686332,
       "bollinger_pct_b": 0.2417,
       "volume_spike": false,
-      "volume_spike_ratio": 0.8,
+      "volume_spike_ratio": 1.03,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],
@@ -822,7 +850,7 @@
       "atr_pct": 0.017024168533997328,
       "bollinger_pct_b": 0.2842,
       "volume_spike": false,
-      "volume_spike_ratio": 1.01,
+      "volume_spike_ratio": 1.47,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],

@@ -98,31 +98,6 @@
     "price_trough": 1.3204283714294434,
     "trailing_stop_price": 1.330992
   },
-  "AUD/JPY": {
-    "id": "AUD/JPY_20261008144247",
-    "asset": "AUD/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 110.1760025024414,
-    "entry_time": "2026-10-08T14:42:47.019419+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 6491.22,
-    "position_size_pct": 0.0643,
-    "confidence": 0.67,
-    "signals": [
-      "RSI overbought (63.1)",
-      "MACD crossover",
-      "BB overbought (pct_b=1.03)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "149",
-    "status": "open",
-    "price_trough": 109.89700317382812,
-    "trailing_stop_price": 110.776179
-  },
   "SLV": {
     "id": "SLV_20261009133029",
     "asset": "SLV",
@@ -197,8 +172,8 @@
     "mode": "paper",
     "strategy_version": "152",
     "status": "open",
-    "price_trough": 1.6028399467468262,
-    "trailing_stop_price": 1.615663
+    "price_trough": 1.600659966468811,
+    "trailing_stop_price": 1.613465
   },
   "BTC-USD": {
     "id": "BTC-USD_20261013034156",
@@ -400,7 +375,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "154",
-    "status": "open"
+    "status": "open",
+    "price_trough": 10.197999954223633,
+    "trailing_stop_price": 10.562374
   },
   "ETH-USD": {
     "id": "ETH-USD_20261013224617",
@@ -441,6 +418,54 @@
       "RSI overbought (76.5)",
       "1d momentum +0.42%",
       "BB overbought (pct_b=0.88)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "155",
+    "status": "open",
+    "price_trough": 210.0070037841797,
+    "trailing_stop_price": 210.427018
+  },
+  "USD/SEK": {
+    "id": "USD/SEK_20261014062710",
+    "asset": "USD/SEK",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 9.950929641723633,
+    "entry_time": "2026-10-14T06:27:10.113144+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 6461.04,
+    "position_size_pct": 0.0643,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (29.6)",
+      "MACD crossover",
+      "1d momentum -0.64%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "155",
+    "status": "open"
+  },
+  "USD/CAD": {
+    "id": "USD/CAD_20261014062710",
+    "asset": "USD/CAD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.420259952545166,
+    "entry_time": "2026-10-14T06:27:10.115242+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 517.04,
+    "position_size_pct": 0.0051,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (38.2)",
+      "MACD crossover",
+      "1d momentum -0.46%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
