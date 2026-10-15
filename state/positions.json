@@ -99,31 +99,6 @@
     "price_trough": 200.97000122070312,
     "trailing_stop_price": 203.614766
   },
-  "EUR/AUD": {
-    "id": "EUR/AUD_20261012011807",
-    "asset": "EUR/AUD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1.6040500402450562,
-    "entry_time": "2026-10-12T01:18:07.267770+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 5329.69,
-    "position_size_pct": 0.0534,
-    "confidence": 0.67,
-    "signals": [
-      "RSI oversold (35.8)",
-      "MACD crossover",
-      "1d momentum -0.40%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "152",
-    "status": "open",
-    "price_trough": 1.5987800359725952,
-    "trailing_stop_price": 1.61157
-  },
   "BTC-USD": {
     "id": "BTC-USD_20261013034156",
     "asset": "BTC-USD",
@@ -197,8 +172,8 @@
     "mode": "paper",
     "strategy_version": "154",
     "status": "open",
-    "price_trough": 9.920999526977539,
-    "trailing_stop_price": 10.275477
+    "price_trough": 9.887999534606934,
+    "trailing_stop_price": 10.241298
   },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
@@ -466,6 +441,29 @@
       "RSI oversold (42.7)",
       "5d momentum -0.48%",
       "BB oversold (pct_b=0.11)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "156",
+    "status": "open"
+  },
+  "AUD/NZD": {
+    "id": "AUD/NZD_20261015014123",
+    "asset": "AUD/NZD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 1.2391999959945679,
+    "entry_time": "2026-10-15T01:41:23.123011+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5436.46,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (11.3)",
+      "5d momentum -0.56%",
+      "BB oversold (pct_b=-0.22)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
