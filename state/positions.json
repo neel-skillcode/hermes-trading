@@ -143,8 +143,8 @@
     "mode": "paper",
     "strategy_version": "156",
     "status": "open",
-    "price_trough": 2410.760009765625,
-    "trailing_stop_price": 2479.490778
+    "price_trough": 2408.06005859375,
+    "trailing_stop_price": 2476.713851
   },
   "VRTX": {
     "id": "VRTX_20261015160833",
@@ -196,58 +196,6 @@
     "status": "open",
     "price_peak": 118.8499984741211,
     "trailing_stop_price": 117.846904
-  },
-  "AMAT": {
-    "id": "AMAT_20261015195203",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 429.8399963378906,
-    "entry_time": "2026-10-15T19:52:03.877735+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03608,
-    "size_usd": 5313.59,
-    "position_size_pct": 0.0518,
-    "confidence": 0.81,
-    "signals": [
-      "RSI oversold (23.1)",
-      "MACD crossover",
-      "5d momentum +0.86%",
-      "1d momentum -13.52%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "157",
-    "status": "open",
-    "price_trough": 416.6549987792969,
-    "trailing_stop_price": 422.904824
-  },
-  "KLAC": {
-    "id": "KLAC_20261015195203",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 174.3249969482422,
-    "entry_time": "2026-10-15T19:52:03.881672+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03608,
-    "size_usd": 4862.95,
-    "position_size_pct": 0.0474,
-    "confidence": 0.81,
-    "signals": [
-      "RSI oversold (28.5)",
-      "MACD crossover",
-      "5d momentum +0.31%",
-      "1d momentum -8.53%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "157",
-    "status": "open",
-    "price_trough": 168.75,
-    "trailing_stop_price": 171.28125
   },
   "JPM": {
     "id": "JPM_20261015195203",
@@ -349,8 +297,8 @@
     "mode": "paper",
     "strategy_version": "158",
     "status": "open",
-    "price_trough": 310.239990234375,
-    "trailing_stop_price": 313.146939
+    "price_trough": 309.6300048828125,
+    "trailing_stop_price": 312.531238
   },
   "AVGO": {
     "id": "AVGO_20261016181041",
@@ -399,7 +347,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "158",
-    "status": "open"
+    "status": "open",
+    "price_trough": 528.75,
+    "trailing_stop_price": 536.68125
   },
   "GOOGL": {
     "id": "GOOGL_20261016181041",
@@ -444,6 +394,76 @@
       "1d momentum +5.93%",
       "BB overbought (pct_b=1.00)",
       "Volume spike 1.6\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "158",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261016210501",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3001999855041504,
+    "entry_time": "2026-10-16T21:05:01.868977+00:00",
+    "stop_loss_pct": 0.00767,
+    "take_profit_pct": 0.01748,
+    "size_usd": 3740.96,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (27.5)",
+      "5d momentum -0.40%",
+      "1d momentum -2.92%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "158",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261016210501",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 719.4600219726562,
+    "entry_time": "2026-10-16T21:05:01.870192+00:00",
+    "stop_loss_pct": 0.00452,
+    "take_profit_pct": 0.01075,
+    "size_usd": 5077.02,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (19.3)",
+      "5d momentum -0.41%",
+      "1d momentum -1.55%",
+      "BB oversold (pct_b=0.11)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "158",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20261016210501",
+    "asset": "USD/NOK",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.41349983215332,
+    "entry_time": "2026-10-16T21:05:01.871107+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 1555.97,
+    "position_size_pct": 0.0149,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (33.0)",
+      "1d momentum -0.44%",
+      "BB oversold (pct_b=-0.05)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
