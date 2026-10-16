@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.4178500175476074,
-    "trailing_stop_price": 1.429193
+    "price_trough": 1.4158999919891357,
+    "trailing_stop_price": 1.427227
   },
   "AXP": {
     "id": "AXP_20261014171344",
@@ -389,30 +389,6 @@
     "strategy_version": "157",
     "status": "open"
   },
-  "NZD/USD": {
-    "id": "NZD/USD_20261016050850",
-    "asset": "NZD/USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.5654189586639404,
-    "entry_time": "2026-10-16T05:08:50.242331+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 4963.17,
-    "position_size_pct": 0.0484,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (92.0)",
-      "5d momentum +0.49%",
-      "1d momentum +0.70%",
-      "BB overbought (pct_b=0.99)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "157",
-    "status": "open"
-  },
   "AUD/USD": {
     "id": "AUD/USD_20261016050850",
     "asset": "AUD/USD",
@@ -434,6 +410,31 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261016094353",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 10.29800033569336,
+    "entry_time": "2026-10-16T09:43:53.187710+00:00",
+    "stop_loss_pct": 0.0087,
+    "take_profit_pct": 0.02137,
+    "size_usd": 4958.34,
+    "position_size_pct": 0.0483,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (69.6)",
+      "5d momentum +2.51%",
+      "1d momentum +7.05%",
+      "BB overbought (pct_b=1.17)",
+      "Volume spike 2.6\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "158",
     "status": "open"
   }
 }
