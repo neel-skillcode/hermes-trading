@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.4158999919891357,
-    "trailing_stop_price": 1.427227
+    "price_trough": 1.413699984550476,
+    "trailing_stop_price": 1.42501
   },
   "AXP": {
     "id": "AXP_20261014171344",
@@ -95,8 +95,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_peak": 313.8699951171875,
-    "trailing_stop_price": 309.020704
+    "price_peak": 318.34991455078125,
+    "trailing_stop_price": 313.431408
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -194,30 +194,6 @@
     "price_trough": 508.4549865722656,
     "trailing_stop_price": 522.264624
   },
-  "SMCI": {
-    "id": "SMCI_20261015195203",
-    "asset": "SMCI",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 34.97999954223633,
-    "entry_time": "2026-10-15T19:52:03.875098+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03608,
-    "size_usd": 5313.59,
-    "position_size_pct": 0.0518,
-    "confidence": 0.81,
-    "signals": [
-      "RSI oversold (24.4)",
-      "MACD crossover",
-      "5d momentum +2.66%",
-      "1d momentum -12.29%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "157",
-    "status": "open"
-  },
   "WMT": {
     "id": "WMT_20261015195203",
     "asset": "WMT",
@@ -240,7 +216,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
-    "status": "open"
+    "status": "open",
+    "price_peak": 118.8499984741211,
+    "trailing_stop_price": 117.846904
   },
   "AMAT": {
     "id": "AMAT_20261015195203",
@@ -264,7 +242,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
-    "status": "open"
+    "status": "open",
+    "price_trough": 422.80999755859375,
+    "trailing_stop_price": 429.152148
   },
   "LRCX": {
     "id": "LRCX_20261015195203",
@@ -288,7 +268,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
-    "status": "open"
+    "status": "open",
+    "price_trough": 270.6400146484375,
+    "trailing_stop_price": 274.699615
   },
   "AMD": {
     "id": "AMD_20261015195203",
@@ -313,8 +295,8 @@
     "mode": "paper",
     "strategy_version": "157",
     "status": "open",
-    "price_trough": 562.22998046875,
-    "trailing_stop_price": 570.66343
+    "price_trough": 545.0399780273438,
+    "trailing_stop_price": 553.215578
   },
   "INTC": {
     "id": "INTC_20261015195203",
@@ -339,8 +321,8 @@
     "mode": "paper",
     "strategy_version": "157",
     "status": "open",
-    "price_trough": 95.37000274658203,
-    "trailing_stop_price": 96.800553
+    "price_trough": 92.70999908447266,
+    "trailing_stop_price": 94.100649
   },
   "KLAC": {
     "id": "KLAC_20261015195203",
@@ -364,7 +346,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
-    "status": "open"
+    "status": "open",
+    "price_trough": 170.27000427246094,
+    "trailing_stop_price": 172.824054
   },
   "JPM": {
     "id": "JPM_20261015195203",
@@ -387,7 +371,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
-    "status": "open"
+    "status": "open",
+    "price_peak": 342.2200012207031,
+    "trailing_stop_price": 335.519334
   },
   "AUD/USD": {
     "id": "AUD/USD_20261016050850",
@@ -430,6 +416,55 @@
       "1d momentum +7.05%",
       "BB overbought (pct_b=1.17)",
       "Volume spike 2.6\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "158",
+    "status": "open"
+  },
+  "HAL": {
+    "id": "HAL_20261016141849",
+    "asset": "HAL",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 33.49399948120117,
+    "entry_time": "2026-10-16T14:18:49.260662+00:00",
+    "stop_loss_pct": 0.00922,
+    "take_profit_pct": 0.02209,
+    "size_usd": 5200.53,
+    "position_size_pct": 0.0506,
+    "confidence": 0.79,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +3.44%",
+      "1d momentum +2.85%",
+      "BB overbought (pct_b=1.22)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "158",
+    "status": "open"
+  },
+  "HD": {
+    "id": "HD_20261016141849",
+    "asset": "HD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 311.30999755859375,
+    "entry_time": "2026-10-16T14:18:49.262297+00:00",
+    "stop_loss_pct": 0.00937,
+    "take_profit_pct": 0.023,
+    "size_usd": 209.66,
+    "position_size_pct": 0.002,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (91.7)",
+      "5d momentum +1.86%",
+      "1d momentum +6.97%",
+      "BB overbought (pct_b=0.94)",
+      "Volume spike 1.7\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
