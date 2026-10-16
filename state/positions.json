@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.4184000492095947,
-    "trailing_stop_price": 1.429747
+    "price_trough": 1.4178500175476074,
+    "trailing_stop_price": 1.429193
   },
   "AXP": {
     "id": "AXP_20261014171344",
@@ -95,8 +95,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_peak": 313.6700134277344,
-    "trailing_stop_price": 308.823812
+    "price_peak": 313.8699951171875,
+    "trailing_stop_price": 309.020704
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -145,55 +145,6 @@
     "status": "open",
     "price_peak": 158.1999969482422,
     "trailing_stop_price": 156.934397
-  },
-  "AUD/NZD": {
-    "id": "AUD/NZD_20261015014123",
-    "asset": "AUD/NZD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 1.2391999959945679,
-    "entry_time": "2026-10-15T01:41:23.123011+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 5436.46,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (11.3)",
-      "5d momentum -0.56%",
-      "BB oversold (pct_b=-0.22)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "156",
-    "status": "open"
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261015062736",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07940000295639038,
-    "entry_time": "2026-10-15T06:27:36.802324+00:00",
-    "stop_loss_pct": 0.01205,
-    "take_profit_pct": 0.02867,
-    "size_usd": 4911.43,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (23.8)",
-      "5d momentum -2.34%",
-      "1d momentum -6.02%",
-      "BB oversold (pct_b=0.08)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "156",
-    "status": "open",
-    "price_peak": 0.08150999993085861,
-    "trailing_stop_price": 0.080528
   },
   "ETH-USD": {
     "id": "ETH-USD_20261015160833",
@@ -361,7 +312,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
-    "status": "open"
+    "status": "open",
+    "price_trough": 562.22998046875,
+    "trailing_stop_price": 570.66343
   },
   "INTC": {
     "id": "INTC_20261015195203",
@@ -385,7 +338,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "157",
-    "status": "open"
+    "status": "open",
+    "price_trough": 95.37000274658203,
+    "trailing_stop_price": 96.800553
   },
   "KLAC": {
     "id": "KLAC_20261015195203",
@@ -427,6 +382,53 @@
       "RSI overbought (71.8)",
       "MACD crossover",
       "5d momentum +0.40%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "157",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20261016050850",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.5654189586639404,
+    "entry_time": "2026-10-16T05:08:50.242331+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 4963.17,
+    "position_size_pct": 0.0484,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (92.0)",
+      "5d momentum +0.49%",
+      "1d momentum +0.70%",
+      "BB overbought (pct_b=0.99)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "157",
+    "status": "open"
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20261016050850",
+    "asset": "AUD/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.6947339177131653,
+    "entry_time": "2026-10-16T05:08:50.244031+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5517.34,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (79.7)",
+      "5d momentum +0.33%",
+      "BB overbought (pct_b=0.98)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
