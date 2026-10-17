@@ -401,54 +401,6 @@
     "strategy_version": "158",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20261016210501",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.3001999855041504,
-    "entry_time": "2026-10-16T21:05:01.868977+00:00",
-    "stop_loss_pct": 0.00767,
-    "take_profit_pct": 0.01748,
-    "size_usd": 3740.96,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (27.5)",
-      "5d momentum -0.40%",
-      "1d momentum -2.92%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "158",
-    "status": "open",
-    "price_trough": 1.2893999814987183,
-    "trailing_stop_price": 1.29929
-  },
-  "USD/NOK": {
-    "id": "USD/NOK_20261016210501",
-    "asset": "USD/NOK",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 9.41349983215332,
-    "entry_time": "2026-10-16T21:05:01.871107+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 1555.97,
-    "position_size_pct": 0.0149,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (33.0)",
-      "1d momentum -0.44%",
-      "BB oversold (pct_b=-0.05)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "158",
-    "status": "open"
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20261017164045",
     "asset": "AVAX-USD",
@@ -472,6 +424,54 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "158",
+    "status": "open",
+    "price_peak": 9.883000373840332,
+    "trailing_stop_price": 9.81125
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20261017210405",
+    "asset": "USD/NOK",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.41349983215332,
+    "entry_time": "2026-10-17T21:04:05.114276+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 4140.34,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (33.0)",
+      "1d momentum -0.44%",
+      "BB oversold (pct_b=-0.05)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "159",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261017210405",
+    "asset": "BNB-USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 718.77001953125,
+    "entry_time": "2026-10-17T21:04:05.115840+00:00",
+    "stop_loss_pct": 0.00859,
+    "take_profit_pct": 0.02795,
+    "size_usd": 5108.65,
+    "position_size_pct": 0.049,
+    "confidence": 0.51,
+    "signals": [
+      "RSI oversold (43.2)",
+      "5d momentum +0.82%",
+      "Volume spike 3.4\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "159",
     "status": "open"
   }
 }
