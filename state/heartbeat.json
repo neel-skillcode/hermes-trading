@@ -3,15 +3,15 @@
   "portfolio_balance": 104379.6,
   "portfolio_peak": 107897.44,
   "portfolio_drawdown_pct": 3.26,
-  "unrealized_pnl_usd": 273.57,
-  "equity_value": 104653.17,
+  "unrealized_pnl_usd": 312.6,
+  "equity_value": 104692.2,
   "open_positions": 19,
   "day_trades_open": 10,
   "swing_trades_open": 9,
   "day_capital_used_usd": 41751.84,
   "swing_capital_used_usd": 40104.58,
   "total_trades": 1810,
-  "last_tick": "2026-10-17T10:18:41.368725+00:00",
+  "last_tick": "2026-10-17T13:48:24.503312+00:00",
   "last_reflection": null,
   "trades_since_last_reflection": 9,
   "universe_scanned": 110,
@@ -178,9 +178,9 @@
       "status": "open",
       "price_trough": 2408.06005859375,
       "trailing_stop_price": 2476.713851,
-      "current_price": 2431.449951,
-      "unrealized_pnl_pct": 0.004369,
-      "unrealized_pnl_usd": 24.0
+      "current_price": 2421.449951,
+      "unrealized_pnl_pct": 0.008464,
+      "unrealized_pnl_usd": 46.48
     },
     {
       "id": "VRTX_20261015160833",
@@ -489,9 +489,11 @@
       "mode": "paper",
       "strategy_version": "158",
       "status": "open",
-      "current_price": 1.3037,
-      "unrealized_pnl_pct": -0.002692,
-      "unrealized_pnl_usd": -10.07
+      "price_trough": 1.2954000234603882,
+      "trailing_stop_price": 1.305336,
+      "current_price": 1.2954,
+      "unrealized_pnl_pct": 0.003692,
+      "unrealized_pnl_usd": 13.81
     },
     {
       "id": "BNB-USD_20261016210501",
@@ -516,11 +518,9 @@
       "mode": "paper",
       "strategy_version": "158",
       "status": "open",
-      "price_peak": 719.9199829101562,
-      "trailing_stop_price": 716.665945,
-      "current_price": 719.919983,
-      "unrealized_pnl_pct": 0.000639,
-      "unrealized_pnl_usd": 3.25
+      "current_price": 718.880005,
+      "unrealized_pnl_pct": -0.000806,
+      "unrealized_pnl_usd": -4.09
     },
     {
       "id": "USD/NOK_20261016210501",
@@ -550,6 +550,23 @@
     }
   ],
   "last_candidates": [
+    {
+      "asset": "AVAX-USD",
+      "rank_score": 0.6636,
+      "price": 9.821000099182129,
+      "rsi": 34.90099711064529,
+      "momentum_5d": -0.020153613596048746,
+      "momentum_1d": -0.04325379730059544,
+      "macd_crossover": false,
+      "atr_pct": 0.006814830886052034,
+      "bollinger_pct_b": -0.2069,
+      "volume_spike": true,
+      "volume_spike_ratio": 3.45,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
     {
       "asset": "RIVN",
       "rank_score": 0.6009,
@@ -868,23 +885,6 @@
       "bollinger_pct_b": 0.0607,
       "volume_spike": false,
       "volume_spike_ratio": 1.27,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.1,
-      "news_headlines": [],
-      "high_impact_news": false
-    },
-    {
-      "asset": "QCOM",
-      "rank_score": 0.4656,
-      "price": 172.0399932861328,
-      "rsi": 47.8015456517814,
-      "momentum_5d": -0.024052674849814146,
-      "momentum_1d": -0.035455614267554766,
-      "macd_crossover": false,
-      "atr_pct": 0.017106124699616494,
-      "bollinger_pct_b": 0.1819,
-      "volume_spike": true,
-      "volume_spike_ratio": 1.68,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],
