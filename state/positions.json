@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_trough": 1.5867700576782227,
-    "trailing_stop_price": 1.599464
+    "price_trough": 1.584190011024475,
+    "trailing_stop_price": 1.596864
   },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.4134999513626099,
-    "trailing_stop_price": 1.424808
+    "price_trough": 1.412660002708435,
+    "trailing_stop_price": 1.423961
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -422,56 +422,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "159",
-    "status": "open"
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261018164824",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07742000371217728,
-    "entry_time": "2026-10-18T16:48:24.907993+00:00",
-    "stop_loss_pct": 0.00762,
-    "take_profit_pct": 0.01872,
-    "size_usd": 6063.75,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (25.1)",
-      "5d momentum -2.41%",
-      "1d momentum -2.04%",
-      "BB oversold (pct_b=-0.06)",
-      "Volume spike 1.5\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "159",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261018164824",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 9.498000144958496,
-    "entry_time": "2026-10-18T16:48:24.909684+00:00",
-    "stop_loss_pct": 0.0084,
-    "take_profit_pct": 0.02,
-    "size_usd": 64.64,
-    "position_size_pct": 0.0006,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (28.1)",
-      "5d momentum -2.70%",
-      "1d momentum -2.16%",
-      "BB oversold (pct_b=-0.04)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "159",
-    "status": "open"
+    "status": "open",
+    "price_peak": 9.435589790344238,
+    "trailing_stop_price": 9.416719
   },
   "BNB-USD": {
     "id": "BNB-USD_20261018164824",
@@ -489,6 +442,32 @@
       "RSI oversold (25.9)",
       "5d momentum -1.65%",
       "BB oversold (pct_b=-0.03)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "159",
+    "status": "open",
+    "price_peak": 720.2999877929688,
+    "trailing_stop_price": 713.320281
+  },
+  "EUR/AUD": {
+    "id": "EUR/AUD_20261018232456",
+    "asset": "EUR/AUD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.610069990158081,
+    "entry_time": "2026-10-18T23:24:56.912207+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 5071.24,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (36.6)",
+      "5d momentum -0.48%",
+      "1d momentum -0.63%",
+      "BB oversold (pct_b=-0.40)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
