@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.413699984550476,
-    "trailing_stop_price": 1.42501
+    "price_trough": 1.4134999513626099,
+    "trailing_stop_price": 1.424808
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -143,8 +143,8 @@
     "mode": "paper",
     "strategy_version": "156",
     "status": "open",
-    "price_trough": 2389.8798828125,
-    "trailing_stop_price": 2458.015358
+    "price_trough": 2361.949951171875,
+    "trailing_stop_price": 2429.289144
   },
   "VRTX": {
     "id": "VRTX_20261015160833",
@@ -424,22 +424,24 @@
     "strategy_version": "159",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20261017210405",
-    "asset": "BNB-USD",
-    "trade_type": "swing",
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261018164824",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
     "direction": "long",
-    "entry_price": 718.77001953125,
-    "entry_time": "2026-10-17T21:04:05.115840+00:00",
-    "stop_loss_pct": 0.00859,
-    "take_profit_pct": 0.02795,
-    "size_usd": 5108.65,
-    "position_size_pct": 0.049,
-    "confidence": 0.51,
+    "entry_price": 0.07742000371217728,
+    "entry_time": "2026-10-18T16:48:24.907993+00:00",
+    "stop_loss_pct": 0.00762,
+    "take_profit_pct": 0.01872,
+    "size_usd": 6063.75,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
     "signals": [
-      "RSI oversold (43.2)",
-      "5d momentum +0.82%",
-      "Volume spike 3.4\u00d7"
+      "RSI oversold (25.1)",
+      "5d momentum -2.41%",
+      "1d momentum -2.04%",
+      "BB oversold (pct_b=-0.06)",
+      "Volume spike 1.5\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
@@ -448,22 +450,22 @@
     "status": "open"
   },
   "AVAX-USD": {
-    "id": "AVAX-USD_20261017230238",
+    "id": "AVAX-USD_20261018164824",
     "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "long",
-    "entry_price": 9.70300006866455,
-    "entry_time": "2026-10-17T23:02:38.294825+00:00",
-    "stop_loss_pct": 0.00969,
-    "take_profit_pct": 0.02306,
-    "size_usd": 5073.24,
-    "position_size_pct": 0.0486,
+    "entry_price": 9.498000144958496,
+    "entry_time": "2026-10-18T16:48:24.909684+00:00",
+    "stop_loss_pct": 0.0084,
+    "take_profit_pct": 0.02,
+    "size_usd": 64.64,
+    "position_size_pct": 0.0006,
     "confidence": 0.76,
     "signals": [
-      "RSI oversold (34.2)",
-      "5d momentum -1.30%",
-      "1d momentum -2.41%",
-      "BB oversold (pct_b=0.14)"
+      "RSI oversold (28.1)",
+      "5d momentum -2.70%",
+      "1d momentum -2.16%",
+      "BB oversold (pct_b=-0.04)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
@@ -471,23 +473,22 @@
     "strategy_version": "159",
     "status": "open"
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261017230238",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
+  "BNB-USD": {
+    "id": "BNB-USD_20261018164824",
+    "asset": "BNB-USD",
+    "trade_type": "swing",
     "direction": "long",
-    "entry_price": 0.07880999892950058,
-    "entry_time": "2026-10-17T23:02:38.295732+00:00",
-    "stop_loss_pct": 0.00814,
-    "take_profit_pct": 0.01937,
-    "size_usd": 1129.27,
-    "position_size_pct": 0.0108,
-    "confidence": 0.76,
+    "entry_price": 710.5800170898438,
+    "entry_time": "2026-10-18T16:48:24.911228+00:00",
+    "stop_loss_pct": 0.00969,
+    "take_profit_pct": 0.03177,
+    "size_usd": 5597.31,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
     "signals": [
-      "RSI oversold (37.9)",
-      "5d momentum -1.14%",
-      "1d momentum -2.49%",
-      "BB oversold (pct_b=0.13)"
+      "RSI oversold (25.9)",
+      "5d momentum -1.65%",
+      "BB oversold (pct_b=-0.03)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
