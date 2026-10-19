@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.412660002708435,
-    "trailing_stop_price": 1.423961
+    "price_trough": 1.4122200012207031,
+    "trailing_stop_price": 1.423518
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -448,8 +448,8 @@
     "mode": "paper",
     "strategy_version": "159",
     "status": "open",
-    "price_peak": 720.2999877929688,
-    "trailing_stop_price": 713.320281
+    "price_peak": 725.22998046875,
+    "trailing_stop_price": 718.202502
   },
   "EUR/AUD": {
     "id": "EUR/AUD_20261018232456",
@@ -468,6 +468,31 @@
       "5d momentum -0.48%",
       "1d momentum -0.63%",
       "BB oversold (pct_b=-0.40)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "159",
+    "status": "open",
+    "price_peak": 1.6115100383758545,
+    "trailing_stop_price": 1.608287
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261019012759",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 104.56999969482422,
+    "entry_time": "2026-10-19T01:27:59.900693+00:00",
+    "stop_loss_pct": 0.00728,
+    "take_profit_pct": 0.01653,
+    "size_usd": 1114.78,
+    "position_size_pct": 0.0107,
+    "confidence": 0.54,
+    "signals": [
+      "5d momentum +3.83%",
+      "1d momentum +1.21%",
+      "BB overbought (pct_b=0.91)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
