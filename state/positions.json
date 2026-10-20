@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_trough": 1.5812000036239624,
-    "trailing_stop_price": 1.59385
+    "price_trough": 1.5757700204849243,
+    "trailing_stop_price": 1.588376
   },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.40802001953125,
-    "trailing_stop_price": 1.419284
+    "price_trough": 1.4052300453186035,
+    "trailing_stop_price": 1.416472
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -451,31 +451,6 @@
     "strategy_version": "160",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261019230307",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.605999946594238,
-    "entry_time": "2026-10-19T23:03:07.470697+00:00",
-    "stop_loss_pct": 0.00862,
-    "take_profit_pct": 0.01964,
-    "size_usd": 3250.8,
-    "position_size_pct": 0.0312,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (39.8)",
-      "5d momentum +0.70%",
-      "1d momentum -1.65%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "160",
-    "status": "open",
-    "price_trough": 9.545999526977539,
-    "trailing_stop_price": 9.628286
-  },
   "NZD/USD": {
     "id": "NZD/USD_20261020063820",
     "asset": "NZD/USD",
@@ -492,6 +467,32 @@
       "RSI overbought (88.5)",
       "5d momentum +0.31%",
       "BB overbought (pct_b=1.10)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "160",
+    "status": "open",
+    "price_trough": 0.5681172609329224,
+    "trailing_stop_price": 0.572662
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261020120922",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.411999702453613,
+    "entry_time": "2026-10-20T12:09:22.533235+00:00",
+    "stop_loss_pct": 0.00726,
+    "take_profit_pct": 0.01729,
+    "size_usd": 3276.93,
+    "position_size_pct": 0.0314,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (24.1)",
+      "5d momentum -0.54%",
+      "1d momentum -3.30%",
+      "BB oversold (pct_b=0.09)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
