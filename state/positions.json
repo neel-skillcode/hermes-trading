@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_trough": 1.5814599990844727,
-    "trailing_stop_price": 1.594112
+    "price_trough": 1.5812000036239624,
+    "trailing_stop_price": 1.59385
   },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.4101300239562988,
-    "trailing_stop_price": 1.421411
+    "price_trough": 1.40802001953125,
+    "trailing_stop_price": 1.419284
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -467,6 +467,31 @@
       "RSI oversold (39.8)",
       "5d momentum +0.70%",
       "1d momentum -1.65%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "160",
+    "status": "open",
+    "price_trough": 9.545999526977539,
+    "trailing_stop_price": 9.628286
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20261020063820",
+    "asset": "NZD/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.5684725046157837,
+    "entry_time": "2026-10-20T06:38:20.202878+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5606.68,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (88.5)",
+      "5d momentum +0.31%",
+      "BB overbought (pct_b=1.10)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
