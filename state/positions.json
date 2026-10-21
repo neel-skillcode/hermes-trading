@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.404420018196106,
-    "trailing_stop_price": 1.415655
+    "price_trough": 1.4042999744415283,
+    "trailing_stop_price": 1.415534
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -123,32 +123,6 @@
     "price_peak": 158.53900146484375,
     "trailing_stop_price": 157.270689
   },
-  "WMT": {
-    "id": "WMT_20261015195203",
-    "asset": "WMT",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 117.93499755859375,
-    "entry_time": "2026-10-15T19:52:03.876639+00:00",
-    "stop_loss_pct": 0.00844,
-    "take_profit_pct": 0.01988,
-    "size_usd": 4657.59,
-    "position_size_pct": 0.0454,
-    "confidence": 0.71,
-    "signals": [
-      "RSI overbought (76.1)",
-      "5d momentum -1.14%",
-      "1d momentum +4.55%",
-      "Volume spike 6.0\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "157",
-    "status": "open",
-    "price_peak": 118.8499984741211,
-    "trailing_stop_price": 117.846904
-  },
   "AVGO": {
     "id": "AVGO_20261016181041",
     "asset": "AVGO",
@@ -198,7 +172,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "160",
-    "status": "open"
+    "status": "open",
+    "price_peak": 436.75,
+    "trailing_stop_price": 432.08551
   },
   "NZD/USD": {
     "id": "NZD/USD_20261020063820",
@@ -325,8 +301,8 @@
     "mode": "paper",
     "strategy_version": "161",
     "status": "open",
-    "price_peak": 9.880410194396973,
-    "trailing_stop_price": 9.801367
+    "price_peak": 9.884770393371582,
+    "trailing_stop_price": 9.805692
   },
   "USD/NOK": {
     "id": "USD/NOK_20261021121741",
@@ -376,7 +352,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "161",
-    "status": "open"
+    "status": "open",
+    "price_trough": 386.4700012207031,
+    "trailing_stop_price": 390.504748
   },
   "SMCI": {
     "id": "SMCI_20261021172103",
@@ -400,7 +378,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "161",
-    "status": "open"
+    "status": "open",
+    "price_trough": 35.56999969482422,
+    "trailing_stop_price": 36.10355
   },
   "COIN": {
     "id": "COIN_20261021172103",
@@ -425,7 +405,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "161",
-    "status": "open"
+    "status": "open",
+    "price_trough": 177.0800018310547,
+    "trailing_stop_price": 179.736202
   },
   "MRNA": {
     "id": "MRNA_20261021172103",
@@ -449,7 +431,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "161",
-    "status": "open"
+    "status": "open",
+    "price_trough": 245.80999755859375,
+    "trailing_stop_price": 249.497148
   },
   "GS": {
     "id": "GS_20261021172103",
@@ -467,6 +451,30 @@
       "RSI overbought (74.6)",
       "5d momentum +2.06%",
       "BB overbought (pct_b=1.08)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "161",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261021204354",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3910000324249268,
+    "entry_time": "2026-10-21T20:43:54.104532+00:00",
+    "stop_loss_pct": 0.0089,
+    "take_profit_pct": 0.02118,
+    "size_usd": 4655.46,
+    "position_size_pct": 0.0446,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (91.7)",
+      "5d momentum +0.82%",
+      "1d momentum +4.32%",
+      "BB overbought (pct_b=0.88)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
