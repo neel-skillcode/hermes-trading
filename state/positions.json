@@ -301,8 +301,8 @@
     "mode": "paper",
     "strategy_version": "161",
     "status": "open",
-    "price_peak": 9.884770393371582,
-    "trailing_stop_price": 9.805692
+    "price_peak": 9.89307975769043,
+    "trailing_stop_price": 9.813935
   },
   "USD/NOK": {
     "id": "USD/NOK_20261021121741",
@@ -458,28 +458,29 @@
     "strategy_version": "161",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20261021204354",
-    "asset": "XRP-USD",
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261022015151",
+    "asset": "AVAX-USD",
     "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.3910000324249268,
-    "entry_time": "2026-10-21T20:43:54.104532+00:00",
-    "stop_loss_pct": 0.0089,
-    "take_profit_pct": 0.02118,
-    "size_usd": 4655.46,
-    "position_size_pct": 0.0446,
-    "confidence": 0.76,
+    "direction": "long",
+    "entry_price": 9.562999725341797,
+    "entry_time": "2026-10-22T01:51:51.010530+00:00",
+    "stop_loss_pct": 0.01304,
+    "take_profit_pct": 0.03202,
+    "size_usd": 4706.33,
+    "position_size_pct": 0.045,
+    "confidence": 0.91,
     "signals": [
-      "RSI overbought (91.7)",
-      "5d momentum +0.82%",
-      "1d momentum +4.32%",
-      "BB overbought (pct_b=0.88)"
+      "RSI oversold (42.1)",
+      "5d momentum -3.16%",
+      "1d momentum -1.85%",
+      "BB oversold (pct_b=0.07)",
+      "Volume spike 2.5\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
     "mode": "paper",
-    "strategy_version": "161",
+    "strategy_version": "162",
     "status": "open"
   }
 }
