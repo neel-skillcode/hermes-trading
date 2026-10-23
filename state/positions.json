@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_trough": 1.571370005607605,
-    "trailing_stop_price": 1.583941
+    "price_trough": 1.5702999830245972,
+    "trailing_stop_price": 1.582862
   },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.400879979133606,
-    "trailing_stop_price": 1.412087
+    "price_trough": 1.4005999565124512,
+    "trailing_stop_price": 1.411805
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -170,8 +170,8 @@
     "mode": "paper",
     "strategy_version": "161",
     "status": "open",
-    "price_peak": 9.911179542541504,
-    "trailing_stop_price": 9.83189
+    "price_peak": 9.912349700927734,
+    "trailing_stop_price": 9.833051
   },
   "USD/NOK": {
     "id": "USD/NOK_20261021121741",
@@ -370,30 +370,6 @@
     "strategy_version": "162",
     "status": "open"
   },
-  "ETH-USD": {
-    "id": "ETH-USD_20261022204335",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2378.719970703125,
-    "entry_time": "2026-10-22T20:43:35.232873+00:00",
-    "stop_loss_pct": 0.00601,
-    "take_profit_pct": 0.01416,
-    "size_usd": 4849.91,
-    "position_size_pct": 0.0454,
-    "confidence": 0.71,
-    "signals": [
-      "RSI oversold (22.2)",
-      "5d momentum -0.73%",
-      "1d momentum -4.49%",
-      "Volume spike 7.3\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "163",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20261022204335",
     "asset": "XRP-USD",
@@ -416,7 +392,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "163",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.3145999908447266,
+    "trailing_stop_price": 1.305779
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261022204335",
@@ -440,7 +418,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "163",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.07915999740362167,
+    "trailing_stop_price": 0.078603
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261022204335",
@@ -459,6 +439,32 @@
       "5d momentum -1.07%",
       "1d momentum -7.77%",
       "BB oversold (pct_b=0.12)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "163",
+    "status": "open",
+    "price_peak": 9.175999641418457,
+    "trailing_stop_price": 9.100665
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261023015520",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 81409.34375,
+    "entry_time": "2026-10-23T01:55:20.655375+00:00",
+    "stop_loss_pct": 0.00447,
+    "take_profit_pct": 0.01053,
+    "size_usd": 4837.26,
+    "position_size_pct": 0.0453,
+    "confidence": 0.71,
+    "signals": [
+      "RSI oversold (43.8)",
+      "5d momentum +0.30%",
+      "1d momentum -2.30%",
+      "Volume spike 3.0\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
