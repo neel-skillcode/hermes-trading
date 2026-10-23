@@ -220,8 +220,8 @@
     "mode": "paper",
     "strategy_version": "161",
     "status": "open",
-    "price_trough": 881.530029296875,
-    "trailing_stop_price": 901.293933
+    "price_trough": 875.6799926757812,
+    "trailing_stop_price": 895.312738
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261022064047",
@@ -298,8 +298,8 @@
     "mode": "paper",
     "strategy_version": "162",
     "status": "open",
-    "price_peak": 86.8949966430664,
-    "trailing_stop_price": 85.591572
+    "price_peak": 86.95999908447266,
+    "trailing_stop_price": 85.655599
   },
   "LRCX": {
     "id": "LRCX_20261022172823",
@@ -324,55 +324,6 @@
     "mode": "paper",
     "strategy_version": "162",
     "status": "open"
-  },
-  "KLAC": {
-    "id": "KLAC_20261022172823",
-    "asset": "KLAC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 148.7550048828125,
-    "entry_time": "2026-10-22T17:28:23.591315+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 2844.48,
-    "position_size_pct": 0.0268,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (19.9)",
-      "5d momentum -9.21%",
-      "1d momentum -12.97%",
-      "BB oversold (pct_b=-0.02)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "162",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20261023065004",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.3269000053405762,
-    "entry_time": "2026-10-23T06:50:04.239476+00:00",
-    "stop_loss_pct": 0.00547,
-    "take_profit_pct": 0.01229,
-    "size_usd": 1323.6,
-    "position_size_pct": 0.0124,
-    "confidence": 0.49,
-    "signals": [
-      "5d momentum +1.21%",
-      "1d momentum -1.01%",
-      "Volume spike 5.6\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "163",
-    "status": "open",
-    "price_trough": 1.3116999864578247,
-    "trailing_stop_price": 1.318875
   },
   "USO": {
     "id": "USO_20261023170735",
@@ -420,7 +371,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "163",
-    "status": "open"
+    "status": "open",
+    "price_peak": 313.2200012207031,
+    "trailing_stop_price": 310.72677
   },
   "AMAT": {
     "id": "AMAT_20261023170735",
@@ -444,7 +397,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "163",
-    "status": "open"
+    "status": "open",
+    "price_trough": 377.239990234375,
+    "trailing_stop_price": 382.800508
   },
   "SLB": {
     "id": "SLB_20261023170735",
@@ -492,6 +447,32 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "163",
+    "status": "open",
+    "price_peak": 9.59000015258789,
+    "trailing_stop_price": 9.50369
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261023202414",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.029000282287598,
+    "entry_time": "2026-10-23T20:24:14.142273+00:00",
+    "stop_loss_pct": 0.00825,
+    "take_profit_pct": 0.01964,
+    "size_usd": 4153.24,
+    "position_size_pct": 0.0388,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (22.0)",
+      "5d momentum -1.04%",
+      "1d momentum -0.75%",
+      "BB oversold (pct_b=0.03)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "164",
     "status": "open"
   }
 }
