@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_trough": 1.5662800073623657,
-    "trailing_stop_price": 1.57881
+    "price_trough": 1.565940022468567,
+    "trailing_stop_price": 1.578468
   },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
@@ -273,7 +273,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "163",
-    "status": "open"
+    "status": "open",
+    "price_trough": 166.22999572753906,
+    "trailing_stop_price": 167.819154
   },
   "AXP": {
     "id": "AXP_20261023170735",
@@ -298,34 +300,8 @@
     "mode": "paper",
     "strategy_version": "163",
     "status": "open",
-    "price_peak": 313.44000244140625,
-    "trailing_stop_price": 310.94502
-  },
-  "SLB": {
-    "id": "SLB_20261023170735",
-    "asset": "SLB",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 52.77000045776367,
-    "entry_time": "2026-10-23T17:07:35.555169+00:00",
-    "stop_loss_pct": 0.01318,
-    "take_profit_pct": 0.03138,
-    "size_usd": 5201.85,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (61.7)",
-      "5d momentum +6.26%",
-      "1d momentum +6.40%",
-      "BB overbought (pct_b=0.92)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "163",
-    "status": "open",
-    "price_trough": 52.345001220703125,
-    "trailing_stop_price": 53.034908
+    "price_peak": 315.04998779296875,
+    "trailing_stop_price": 312.54219
   },
   "UNG": {
     "id": "UNG_20261023170735",
@@ -375,7 +351,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "164",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2300.60009765625,
+    "trailing_stop_price": 2316.152154
   },
   "PYPL": {
     "id": "PYPL_20261026165539",
@@ -399,7 +377,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "164",
-    "status": "open"
+    "status": "open",
+    "price_peak": 54.9900016784668,
+    "trailing_stop_price": 54.583626
   },
   "TSLA": {
     "id": "TSLA_20261026165539",
@@ -423,7 +403,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "164",
-    "status": "open"
+    "status": "open",
+    "price_trough": 391.6199951171875,
+    "trailing_stop_price": 396.758049
   },
   "MU": {
     "id": "MU_20261026165539",
@@ -447,7 +429,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "164",
-    "status": "open"
+    "status": "open",
+    "price_trough": 903.7000122070312,
+    "trailing_stop_price": 915.222187
   },
   "MSFT": {
     "id": "MSFT_20261026165539",
@@ -470,7 +454,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "164",
-    "status": "open"
+    "status": "open",
+    "price_peak": 532.5999755859375,
+    "trailing_stop_price": 525.143576
   },
   "NKE": {
     "id": "NKE_20261026165539",
@@ -493,6 +479,31 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "164",
+    "status": "open",
+    "price_peak": 37.90999984741211,
+    "trailing_stop_price": 37.005088
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20261026211749",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 18.54400062561035,
+    "entry_time": "2026-10-26T21:17:49.509472+00:00",
+    "stop_loss_pct": 0.00261,
+    "take_profit_pct": 0.00603,
+    "size_usd": 4249.11,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (23.2)",
+      "1d momentum -0.59%",
+      "BB oversold (pct_b=0.13)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "165",
     "status": "open"
   }
 }
