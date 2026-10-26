@@ -170,33 +170,8 @@
     "mode": "paper",
     "strategy_version": "161",
     "status": "open",
-    "price_peak": 9.943499565124512,
-    "trailing_stop_price": 9.863952
-  },
-  "GS": {
-    "id": "GS_20261021172103",
-    "asset": "GS",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 903.8099975585938,
-    "entry_time": "2026-10-21T17:21:03.451248+00:00",
-    "stop_loss_pct": 0.02242,
-    "take_profit_pct": 0.07355,
-    "size_usd": 5613.18,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (74.6)",
-      "5d momentum +2.06%",
-      "BB overbought (pct_b=1.08)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "161",
-    "status": "open",
-    "price_trough": 875.6799926757812,
-    "trailing_stop_price": 895.312738
+    "price_peak": 9.951939582824707,
+    "trailing_stop_price": 9.872324
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261022064047",
@@ -220,8 +195,8 @@
     "mode": "paper",
     "strategy_version": "162",
     "status": "open",
-    "price_peak": 0.9244999885559082,
-    "trailing_stop_price": 0.917104
+    "price_peak": 0.925029993057251,
+    "trailing_stop_price": 0.91763
   },
   "ORCL": {
     "id": "ORCL_20261022172823",
@@ -250,32 +225,6 @@
     "price_peak": 127.5999984741211,
     "trailing_stop_price": 125.871018
   },
-  "INTC": {
-    "id": "INTC_20261022172823",
-    "asset": "INTC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 86.06919860839844,
-    "entry_time": "2026-10-22T17:28:23.589385+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 5158.46,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (18.1)",
-      "5d momentum -7.27%",
-      "1d momentum -8.76%",
-      "BB oversold (pct_b=-0.10)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "162",
-    "status": "open",
-    "price_peak": 86.95999908447266,
-    "trailing_stop_price": 85.655599
-  },
   "LRCX": {
     "id": "LRCX_20261022172823",
     "asset": "LRCX",
@@ -298,7 +247,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "162",
-    "status": "open"
+    "status": "open",
+    "price_peak": 237.85000610351562,
+    "trailing_stop_price": 234.282256
   },
   "USO": {
     "id": "USO_20261023170735",
@@ -347,34 +298,8 @@
     "mode": "paper",
     "strategy_version": "163",
     "status": "open",
-    "price_peak": 313.2200012207031,
-    "trailing_stop_price": 310.72677
-  },
-  "AMAT": {
-    "id": "AMAT_20261023170735",
-    "asset": "AMAT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 380.8500061035156,
-    "entry_time": "2026-10-23T17:07:35.553874+00:00",
-    "stop_loss_pct": 0.01474,
-    "take_profit_pct": 0.03546,
-    "size_usd": 5544.08,
-    "position_size_pct": 0.0518,
-    "confidence": 0.81,
-    "signals": [
-      "RSI oversold (15.6)",
-      "MACD crossover",
-      "5d momentum +0.52%",
-      "1d momentum -7.23%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "163",
-    "status": "open",
-    "price_trough": 377.239990234375,
-    "trailing_stop_price": 382.800508
+    "price_peak": 313.44000244140625,
+    "trailing_stop_price": 310.94502
   },
   "SLB": {
     "id": "SLB_20261023170735",
@@ -398,7 +323,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "163",
-    "status": "open"
+    "status": "open",
+    "price_trough": 52.345001220703125,
+    "trailing_stop_price": 53.034908
   },
   "UNG": {
     "id": "UNG_20261023170735",
@@ -443,6 +370,124 @@
       "5d momentum -0.60%",
       "1d momentum -2.20%",
       "Volume spike 3.5\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "164",
+    "status": "open"
+  },
+  "PYPL": {
+    "id": "PYPL_20261026165539",
+    "asset": "PYPL",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 54.935001373291016,
+    "entry_time": "2026-10-26T16:55:39.564921+00:00",
+    "stop_loss_pct": 0.00739,
+    "take_profit_pct": 0.01759,
+    "size_usd": 5210.07,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (21.6)",
+      "5d momentum -3.77%",
+      "1d momentum -4.31%",
+      "BB oversold (pct_b=-0.06)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "164",
+    "status": "open"
+  },
+  "TSLA": {
+    "id": "TSLA_20261026165539",
+    "asset": "TSLA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 394.8399963378906,
+    "entry_time": "2026-10-26T16:55:39.566072+00:00",
+    "stop_loss_pct": 0.01312,
+    "take_profit_pct": 0.03123,
+    "size_usd": 5210.07,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (66.8)",
+      "5d momentum +6.04%",
+      "1d momentum +2.58%",
+      "BB overbought (pct_b=0.90)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "164",
+    "status": "open"
+  },
+  "MU": {
+    "id": "MU_20261026165539",
+    "asset": "MU",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 905.439697265625,
+    "entry_time": "2026-10-26T16:55:39.566954+00:00",
+    "stop_loss_pct": 0.01275,
+    "take_profit_pct": 0.03002,
+    "size_usd": 371.53,
+    "position_size_pct": 0.0035,
+    "confidence": 0.71,
+    "signals": [
+      "RSI overbought (73.5)",
+      "5d momentum +3.11%",
+      "1d momentum -0.42%",
+      "Volume spike 4.5\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "164",
+    "status": "open"
+  },
+  "MSFT": {
+    "id": "MSFT_20261026165539",
+    "asset": "MSFT",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 529.5930786132812,
+    "entry_time": "2026-10-26T16:55:39.568009+00:00",
+    "stop_loss_pct": 0.014,
+    "take_profit_pct": 0.04557,
+    "size_usd": 5244.35,
+    "position_size_pct": 0.049,
+    "confidence": 0.51,
+    "signals": [
+      "RSI overbought (65.7)",
+      "5d momentum +1.14%",
+      "Volume spike 8.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "164",
+    "status": "open"
+  },
+  "NKE": {
+    "id": "NKE_20261026165539",
+    "asset": "NKE",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 37.625,
+    "entry_time": "2026-10-26T16:55:39.569930+00:00",
+    "stop_loss_pct": 0.02387,
+    "take_profit_pct": 0.07768,
+    "size_usd": 5244.35,
+    "position_size_pct": 0.049,
+    "confidence": 0.51,
+    "signals": [
+      "RSI oversold (36.3)",
+      "5d momentum +0.63%",
+      "Volume spike 3.6\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
