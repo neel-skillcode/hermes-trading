@@ -23,31 +23,6 @@
     "price_peak": 7.848400115966797,
     "trailing_stop_price": 7.785613
   },
-  "EUR/CAD": {
-    "id": "EUR/CAD_20261002151552",
-    "asset": "EUR/CAD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 1.604740023612976,
-    "entry_time": "2026-10-02T15:15:52.203792+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02624,
-    "size_usd": 4861.62,
-    "position_size_pct": 0.0486,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (73.8)",
-      "5d momentum +0.32%",
-      "BB overbought (pct_b=1.03)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "144",
-    "status": "open",
-    "price_trough": 1.5656299591064453,
-    "trailing_stop_price": 1.578155
-  },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
     "asset": "USD/CAD",
@@ -479,8 +454,8 @@
     "mode": "paper",
     "strategy_version": "165",
     "status": "open",
-    "price_peak": 18.55299949645996,
-    "trailing_stop_price": 18.504576
+    "price_peak": 18.600940704345703,
+    "trailing_stop_price": 18.552392
   },
   "XRP-USD": {
     "id": "XRP-USD_20261027003415",
@@ -500,6 +475,32 @@
       "1d momentum +0.97%",
       "BB overbought (pct_b=1.09)",
       "Volume spike 1.7\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "165",
+    "status": "open",
+    "price_trough": 1.3005000352859497,
+    "trailing_stop_price": 1.31158
+  },
+  "EUR/AUD": {
+    "id": "EUR/AUD_20261027105135",
+    "asset": "EUR/AUD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.585129976272583,
+    "entry_time": "2026-10-27T10:51:35.782142+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 51.56,
+    "position_size_pct": 0.0005,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (28.6)",
+      "5d momentum -0.32%",
+      "1d momentum -0.49%",
+      "BB oversold (pct_b=-0.09)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
