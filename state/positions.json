@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "144",
     "status": "open",
-    "price_trough": 1.565940022468567,
-    "trailing_stop_price": 1.578468
+    "price_trough": 1.5656299591064453,
+    "trailing_stop_price": 1.578155
   },
   "USD/CAD": {
     "id": "USD/CAD_20261014062710",
@@ -170,8 +170,8 @@
     "mode": "paper",
     "strategy_version": "161",
     "status": "open",
-    "price_peak": 9.951939582824707,
-    "trailing_stop_price": 9.872324
+    "price_peak": 9.952529907226562,
+    "trailing_stop_price": 9.87291
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261022064047",
@@ -300,8 +300,8 @@
     "mode": "paper",
     "strategy_version": "163",
     "status": "open",
-    "price_peak": 315.04998779296875,
-    "trailing_stop_price": 312.54219
+    "price_peak": 315.05,
+    "trailing_stop_price": 312.542202
   },
   "UNG": {
     "id": "UNG_20261023170735",
@@ -328,32 +328,6 @@
     "status": "open",
     "price_peak": 9.59000015258789,
     "trailing_stop_price": 9.50369
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20261026044017",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2313.030029296875,
-    "entry_time": "2026-10-26T04:40:17.075850+00:00",
-    "stop_loss_pct": 0.00676,
-    "take_profit_pct": 0.01591,
-    "size_usd": 4146.57,
-    "position_size_pct": 0.0388,
-    "confidence": 0.71,
-    "signals": [
-      "RSI oversold (36.7)",
-      "5d momentum -0.60%",
-      "1d momentum -2.20%",
-      "Volume spike 3.5\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "164",
-    "status": "open",
-    "price_trough": 2300.60009765625,
-    "trailing_stop_price": 2316.152154
   },
   "PYPL": {
     "id": "PYPL_20261026165539",
@@ -430,8 +404,8 @@
     "mode": "paper",
     "strategy_version": "164",
     "status": "open",
-    "price_trough": 903.7000122070312,
-    "trailing_stop_price": 915.222187
+    "price_trough": 903.7,
+    "trailing_stop_price": 915.222175
   },
   "MSFT": {
     "id": "MSFT_20261026165539",
@@ -455,8 +429,8 @@
     "mode": "paper",
     "strategy_version": "164",
     "status": "open",
-    "price_peak": 532.5999755859375,
-    "trailing_stop_price": 525.143576
+    "price_peak": 532.6,
+    "trailing_stop_price": 525.1436
   },
   "NKE": {
     "id": "NKE_20261026165539",
@@ -480,7 +454,7 @@
     "mode": "paper",
     "strategy_version": "164",
     "status": "open",
-    "price_peak": 37.90999984741211,
+    "price_peak": 37.91,
     "trailing_stop_price": 37.005088
   },
   "USD/MXN": {
@@ -499,6 +473,33 @@
       "RSI oversold (23.2)",
       "1d momentum -0.59%",
       "BB oversold (pct_b=0.13)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "165",
+    "status": "open",
+    "price_peak": 18.55299949645996,
+    "trailing_stop_price": 18.504576
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261027003415",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.3071999549865723,
+    "entry_time": "2026-10-27T00:34:15.470654+00:00",
+    "stop_loss_pct": 0.00852,
+    "take_profit_pct": 0.02091,
+    "size_usd": 5080.46,
+    "position_size_pct": 0.0475,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (62.5)",
+      "5d momentum +1.25%",
+      "1d momentum +0.97%",
+      "BB overbought (pct_b=1.09)",
+      "Volume spike 1.7\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
