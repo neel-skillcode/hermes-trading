@@ -397,7 +397,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "166",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.07898999750614166,
+    "trailing_stop_price": 0.078542
   },
   "BTC-USD": {
     "id": "BTC-USD_20261027203804",
@@ -462,6 +464,30 @@
       "RSI overbought (76.4)",
       "5d momentum -0.38%",
       "1d momentum +0.84%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "166",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261027235952",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 8.949999809265137,
+    "entry_time": "2026-10-27T23:59:52.765871+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.01884,
+    "size_usd": 4822.12,
+    "position_size_pct": 0.0446,
+    "confidence": 0.71,
+    "signals": [
+      "RSI overbought (74.5)",
+      "5d momentum +0.94%",
+      "BB overbought (pct_b=1.01)",
+      "Volume spike 2.1\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
