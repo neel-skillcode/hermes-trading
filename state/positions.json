@@ -95,8 +95,8 @@
     "mode": "paper",
     "strategy_version": "160",
     "status": "open",
-    "price_trough": 0.5681172609329224,
-    "trailing_stop_price": 0.572662
+    "price_trough": 0.5608839392662048,
+    "trailing_stop_price": 0.565371
   },
   "ABBV": {
     "id": "ABBV_20261020165857",
@@ -145,8 +145,8 @@
     "mode": "paper",
     "strategy_version": "161",
     "status": "open",
-    "price_peak": 9.954099655151367,
-    "trailing_stop_price": 9.874467
+    "price_peak": 9.954270362854004,
+    "trailing_stop_price": 9.874636
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261022064047",
@@ -248,30 +248,6 @@
     "status": "open",
     "price_peak": 37.91,
     "trailing_stop_price": 37.005088
-  },
-  "EUR/AUD": {
-    "id": "EUR/AUD_20261027105135",
-    "asset": "EUR/AUD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.585129976272583,
-    "entry_time": "2026-10-27T10:51:35.782142+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 51.56,
-    "position_size_pct": 0.0005,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (28.6)",
-      "5d momentum -0.32%",
-      "1d momentum -0.49%",
-      "BB oversold (pct_b=-0.09)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "165",
-    "status": "open"
   },
   "SOFI": {
     "id": "SOFI_20261027160441",
@@ -376,31 +352,6 @@
     "price_trough": 198.72999572753906,
     "trailing_stop_price": 203.992366
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261027203804",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07817000150680542,
-    "entry_time": "2026-10-27T20:38:04.851157+00:00",
-    "stop_loss_pct": 0.00567,
-    "take_profit_pct": 0.01295,
-    "size_usd": 3943.7,
-    "position_size_pct": 0.0365,
-    "confidence": 0.57,
-    "signals": [
-      "RSI overbought (65.7)",
-      "1d momentum +1.55%",
-      "Volume spike 4.8\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "166",
-    "status": "open",
-    "price_peak": 0.07898999750614166,
-    "trailing_stop_price": 0.078542
-  },
   "BTC-USD": {
     "id": "BTC-USD_20261027203804",
     "asset": "BTC-USD",
@@ -488,6 +439,30 @@
       "5d momentum +0.94%",
       "BB overbought (pct_b=1.01)",
       "Volume spike 2.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "166",
+    "status": "open"
+  },
+  "AUD/NZD": {
+    "id": "AUD/NZD_20261028050902",
+    "asset": "AUD/NZD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.2542200088500977,
+    "entry_time": "2026-10-28T05:09:02.405877+00:00",
+    "stop_loss_pct": 0.00251,
+    "take_profit_pct": 0.00598,
+    "size_usd": 4021.04,
+    "position_size_pct": 0.0372,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (88.8)",
+      "5d momentum +1.11%",
+      "1d momentum +1.70%",
+      "BB overbought (pct_b=0.94)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
