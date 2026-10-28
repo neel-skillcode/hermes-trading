@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.3996200561523438,
-    "trailing_stop_price": 1.410817
+    "price_trough": 1.3992300033569336,
+    "trailing_stop_price": 1.410424
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -173,32 +173,6 @@
     "price_peak": 0.925029993057251,
     "trailing_stop_price": 0.91763
   },
-  "AXP": {
-    "id": "AXP_20261023170735",
-    "asset": "AXP",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 311.70001220703125,
-    "entry_time": "2026-10-23T17:07:35.552474+00:00",
-    "stop_loss_pct": 0.00796,
-    "take_profit_pct": 0.01896,
-    "size_usd": 5201.85,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (16.1)",
-      "5d momentum -3.93%",
-      "1d momentum -2.87%",
-      "BB oversold (pct_b=-0.07)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "163",
-    "status": "open",
-    "price_peak": 316.57000732421875,
-    "trailing_stop_price": 314.05011
-  },
   "MSFT": {
     "id": "MSFT_20261026165539",
     "asset": "MSFT",
@@ -322,34 +296,8 @@
     "mode": "paper",
     "strategy_version": "166",
     "status": "open",
-    "price_peak": 1.115200161933899,
-    "trailing_stop_price": 1.11297
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261027235952",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 8.949999809265137,
-    "entry_time": "2026-10-27T23:59:52.765871+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.01884,
-    "size_usd": 4822.12,
-    "position_size_pct": 0.0446,
-    "confidence": 0.71,
-    "signals": [
-      "RSI overbought (74.5)",
-      "5d momentum +0.94%",
-      "BB overbought (pct_b=1.01)",
-      "Volume spike 2.1\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "166",
-    "status": "open",
-    "price_trough": 8.836999893188477,
-    "trailing_stop_price": 8.907696
+    "price_peak": 1.1158223152160645,
+    "trailing_stop_price": 1.113591
   },
   "AUD/NZD": {
     "id": "AUD/NZD_20261028050902",
@@ -399,7 +347,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "166",
-    "status": "open"
+    "status": "open",
+    "price_trough": 253.82000732421875,
+    "trailing_stop_price": 256.72117
   },
   "ARKK": {
     "id": "ARKK_20261028171243",
@@ -423,7 +373,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "166",
-    "status": "open"
+    "status": "open",
+    "price_peak": 86.12000274658203,
+    "trailing_stop_price": 85.595532
   },
   "RXRX": {
     "id": "RXRX_20261028171243",
@@ -471,6 +423,75 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "166",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20261028213948",
+    "asset": "USD/NOK",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.250029563903809,
+    "entry_time": "2026-10-28T21:39:48.748025+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 4281.55,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (13.6)",
+      "1d momentum -0.78%",
+      "BB oversold (pct_b=0.13)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "167",
+    "status": "open"
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20261028213948",
+    "asset": "AUD/USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.7059155702590942,
+    "entry_time": "2026-10-28T21:39:48.749685+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 4281.55,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI overbought (69.8)",
+      "1d momentum +0.44%",
+      "BB overbought (pct_b=1.04)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "167",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261028213948",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 754.9099731445312,
+    "entry_time": "2026-10-28T21:39:48.750893+00:00",
+    "stop_loss_pct": 0.00562,
+    "take_profit_pct": 0.01281,
+    "size_usd": 1495.63,
+    "position_size_pct": 0.0139,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (64.2)",
+      "5d momentum +0.94%",
+      "1d momentum +1.23%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "167",
     "status": "open"
   }
 }
