@@ -173,31 +173,6 @@
     "price_trough": 193.5,
     "trailing_stop_price": 198.62388
   },
-  "EUR/USD": {
-    "id": "EUR/USD_20261027203804",
-    "asset": "EUR/USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.113089919090271,
-    "entry_time": "2026-10-27T20:38:04.869821+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 4289.64,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (25.5)",
-      "1d momentum -0.41%",
-      "BB oversold (pct_b=0.07)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "166",
-    "status": "open",
-    "price_peak": 1.1170687675476074,
-    "trailing_stop_price": 1.114835
-  },
   "AUD/NZD": {
     "id": "AUD/NZD_20261028050902",
     "asset": "AUD/NZD",
@@ -221,8 +196,8 @@
     "mode": "paper",
     "strategy_version": "166",
     "status": "open",
-    "price_trough": 1.2489800453186035,
-    "trailing_stop_price": 1.252115
+    "price_trough": 1.2475299835205078,
+    "trailing_stop_price": 1.250661
   },
   "LRCX": {
     "id": "LRCX_20261028171243",
@@ -376,8 +351,8 @@
     "mode": "paper",
     "strategy_version": "167",
     "status": "open",
-    "price_trough": 57.209999084472656,
-    "trailing_stop_price": 58.838768
+    "price_trough": 56.95000076293945,
+    "trailing_stop_price": 58.571367
   },
   "GLD": {
     "id": "GLD_20261029141259",
@@ -424,7 +399,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "167",
-    "status": "open"
+    "status": "open",
+    "price_peak": 3.200000047683716,
+    "trailing_stop_price": 3.152
   },
   "SNAP": {
     "id": "SNAP_20261029193831",
@@ -448,7 +425,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "167",
-    "status": "open"
+    "status": "open",
+    "price_peak": 5.679999828338623,
+    "trailing_stop_price": 5.5948
   },
   "INTC": {
     "id": "INTC_20261029193831",
@@ -471,6 +450,33 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "167",
+    "status": "open",
+    "price_peak": 92.06999969482422,
+    "trailing_stop_price": 88.699317
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20261029233546",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2264.43994140625,
+    "entry_time": "2026-10-29T23:35:46.370755+00:00",
+    "stop_loss_pct": 0.01206,
+    "take_profit_pct": 0.02962,
+    "size_usd": 4298.86,
+    "position_size_pct": 0.0398,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (36.6)",
+      "5d momentum -2.75%",
+      "1d momentum -3.92%",
+      "BB oversold (pct_b=0.05)",
+      "Volume spike 2.3\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "168",
     "status": "open"
   }
 }
