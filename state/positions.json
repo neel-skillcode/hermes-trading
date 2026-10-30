@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.3964999914169312,
-    "trailing_stop_price": 1.407672
+    "price_trough": 1.3964899778366089,
+    "trailing_stop_price": 1.407662
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -172,32 +172,6 @@
     "status": "open",
     "price_trough": 193.5,
     "trailing_stop_price": 198.62388
-  },
-  "AUD/NZD": {
-    "id": "AUD/NZD_20261028050902",
-    "asset": "AUD/NZD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.2542200088500977,
-    "entry_time": "2026-10-28T05:09:02.405877+00:00",
-    "stop_loss_pct": 0.00251,
-    "take_profit_pct": 0.00598,
-    "size_usd": 4021.04,
-    "position_size_pct": 0.0372,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (88.8)",
-      "5d momentum +1.11%",
-      "1d momentum +1.70%",
-      "BB overbought (pct_b=0.94)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "166",
-    "status": "open",
-    "price_trough": 1.2475299835205078,
-    "trailing_stop_price": 1.250661
   },
   "LRCX": {
     "id": "LRCX_20261028171243",
@@ -472,6 +446,31 @@
       "1d momentum -4.61%",
       "BB oversold (pct_b=0.01)",
       "Volume spike 2.0\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "168",
+    "status": "open",
+    "price_peak": 2220.719970703125,
+    "trailing_stop_price": 2187.409171
+  },
+  "USD/CHF": {
+    "id": "USD/CHF_20261030091150",
+    "asset": "USD/CHF",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.8220099806785583,
+    "entry_time": "2026-10-30T09:11:50.864121+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00467,
+    "size_usd": 4031.81,
+    "position_size_pct": 0.0374,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (32.5)",
+      "MACD crossover",
+      "1d momentum -0.82%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
