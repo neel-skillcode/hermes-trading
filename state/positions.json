@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "155",
     "status": "open",
-    "price_trough": 1.3955199718475342,
-    "trailing_stop_price": 1.406684
+    "price_trough": 1.3954499959945679,
+    "trailing_stop_price": 1.406614
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261014171344",
@@ -170,33 +170,8 @@
     "mode": "paper",
     "strategy_version": "165",
     "status": "open",
-    "price_trough": 186.61900329589844,
-    "trailing_stop_price": 191.560675
-  },
-  "GOOGL": {
-    "id": "GOOGL_20261029141259",
-    "asset": "GOOGL",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 285.05999755859375,
-    "entry_time": "2026-10-29T14:12:59.505974+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03682,
-    "size_usd": 4784.32,
-    "position_size_pct": 0.0443,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (20.9)",
-      "5d momentum -11.86%",
-      "1d momentum -11.47%",
-      "BB oversold (pct_b=-0.50)",
-      "Volume spike 17.5\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "167",
-    "status": "open"
+    "price_trough": 184.11000061035156,
+    "trailing_stop_price": 188.985233
   },
   "PYPL": {
     "id": "PYPL_20261029141259",
@@ -245,8 +220,8 @@
     "mode": "paper",
     "strategy_version": "167",
     "status": "open",
-    "price_trough": 357.239990234375,
-    "trailing_stop_price": 361.298237
+    "price_trough": 355.7799987792969,
+    "trailing_stop_price": 359.82166
   },
   "ETH-USD": {
     "id": "ETH-USD_20261030025309",
@@ -272,8 +247,8 @@
     "mode": "paper",
     "strategy_version": "168",
     "status": "open",
-    "price_peak": 2224.340087890625,
-    "trailing_stop_price": 2190.974987
+    "price_peak": 2236.300048828125,
+    "trailing_stop_price": 2202.755548
   },
   "QCOM": {
     "id": "QCOM_20261030155632",
@@ -322,7 +297,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "168",
-    "status": "open"
+    "status": "open",
+    "price_peak": 65.76000213623047,
+    "trailing_stop_price": 64.773602
   },
   "REGN": {
     "id": "REGN_20261030155632",
@@ -395,7 +372,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "168",
-    "status": "open"
+    "status": "open",
+    "price_peak": 205.64999389648438,
+    "trailing_stop_price": 202.565244
   },
   "AMD": {
     "id": "AMD_20261030155632",
@@ -443,7 +422,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "168",
-    "status": "open"
+    "status": "open",
+    "price_peak": 42.97999954223633,
+    "trailing_stop_price": 42.3353
   },
   "LRCX": {
     "id": "LRCX_20261030155632",
@@ -466,6 +447,32 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "168",
+    "status": "open",
+    "price_peak": 239.11000061035156,
+    "trailing_stop_price": 228.091812
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261030202244",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 76728.5390625,
+    "entry_time": "2026-10-30T20:22:44.147295+00:00",
+    "stop_loss_pct": 0.00712,
+    "take_profit_pct": 0.01711,
+    "size_usd": 4749.27,
+    "position_size_pct": 0.0447,
+    "confidence": 0.81,
+    "signals": [
+      "RSI oversold (26.0)",
+      "MACD crossover",
+      "5d momentum -0.95%",
+      "1d momentum -2.59%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "169",
     "status": "open"
   }
 }
