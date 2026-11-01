@@ -247,8 +247,8 @@
     "mode": "paper",
     "strategy_version": "168",
     "status": "open",
-    "price_peak": 2248.389892578125,
-    "trailing_stop_price": 2214.664044
+    "price_peak": 2267.10009765625,
+    "trailing_stop_price": 2233.093596
   },
   "QCOM": {
     "id": "QCOM_20261030155632",
@@ -452,44 +452,22 @@
     "trailing_stop_price": 228.091812
   },
   "AVAX-USD": {
-    "id": "AVAX-USD_20261031153718",
+    "id": "AVAX-USD_20261101080107",
     "asset": "AVAX-USD",
     "trade_type": "day",
-    "direction": "long",
-    "entry_price": 8.531999588012695,
-    "entry_time": "2026-10-31T15:37:18.660732+00:00",
-    "stop_loss_pct": 0.00511,
-    "take_profit_pct": 0.01166,
-    "size_usd": 3805.38,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
+    "direction": "short",
+    "entry_price": 8.854000091552734,
+    "entry_time": "2026-11-01T08:01:07.163003+00:00",
+    "stop_loss_pct": 0.00819,
+    "take_profit_pct": 0.0195,
+    "size_usd": 4772.71,
+    "position_size_pct": 0.0449,
+    "confidence": 0.76,
     "signals": [
-      "RSI oversold (40.7)",
-      "5d momentum +1.38%",
-      "1d momentum +2.29%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "169",
-    "status": "open"
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20261031153718",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 95.86000061035156,
-    "entry_time": "2026-10-31T15:37:18.664051+00:00",
-    "stop_loss_pct": 0.00433,
-    "take_profit_pct": 0.00987,
-    "size_usd": 910.13,
-    "position_size_pct": 0.0086,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (40.6)",
-      "5d momentum +0.45%",
-      "1d momentum +1.16%"
+      "RSI overbought (74.4)",
+      "5d momentum +2.55%",
+      "1d momentum +5.14%",
+      "BB overbought (pct_b=0.90)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
