@@ -123,56 +123,6 @@
     "price_peak": 39.345001220703125,
     "trailing_stop_price": 38.405836
   },
-  "PYPL": {
-    "id": "PYPL_20261029141259",
-    "asset": "PYPL",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 57.33000183105469,
-    "entry_time": "2026-10-29T14:12:59.507682+00:00",
-    "stop_loss_pct": 0.02847,
-    "take_profit_pct": 0.09338,
-    "size_usd": 5808.28,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (78.5)",
-      "5d momentum +2.48%",
-      "BB overbought (pct_b=1.09)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "167",
-    "status": "open",
-    "price_trough": 56.95000076293945,
-    "trailing_stop_price": 58.571367
-  },
-  "QCOM": {
-    "id": "QCOM_20261030155632",
-    "asset": "QCOM",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 164.97000122070312,
-    "entry_time": "2026-10-30T15:56:32.087822+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03682,
-    "size_usd": 6193.76,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (23.2)",
-      "5d momentum -10.17%",
-      "1d momentum -8.16%",
-      "BB oversold (pct_b=-0.12)",
-      "Volume spike 7.0\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "168",
-    "status": "open"
-  },
   "RBLX": {
     "id": "RBLX_20261030155632",
     "asset": "RBLX",
@@ -245,7 +195,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "169",
-    "status": "open"
+    "status": "open",
+    "price_peak": 92.22000122070312,
+    "trailing_stop_price": 91.348522
   },
   "AMD": {
     "id": "AMD_20261102193738",
@@ -268,7 +220,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "169",
-    "status": "open"
+    "status": "open",
+    "price_trough": 466.84,
+    "trailing_stop_price": 473.8426
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261102193738",
@@ -292,7 +246,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "169",
-    "status": "open"
+    "status": "open",
+    "price_peak": 8.380000114440918,
+    "trailing_stop_price": 8.301144
   },
   "SMCI": {
     "id": "SMCI_20261102193738",
@@ -339,7 +295,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "169",
-    "status": "open"
+    "status": "open",
+    "price_trough": 59.97,
+    "trailing_stop_price": 60.86955
   },
   "LRCX": {
     "id": "LRCX_20261102193738",
@@ -363,7 +321,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "169",
-    "status": "open"
+    "status": "open",
+    "price_peak": 227.56,
+    "trailing_stop_price": 224.1466
   },
   "NVDA": {
     "id": "NVDA_20261102193738",
@@ -387,7 +347,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "169",
-    "status": "open"
+    "status": "open",
+    "price_trough": 202.06,
+    "trailing_stop_price": 204.424102
   },
   "XRP-USD": {
     "id": "XRP-USD_20261102193738",
@@ -410,6 +372,54 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "169",
+    "status": "open",
+    "price_peak": 1.248900055885315,
+    "trailing_stop_price": 1.226108
+  },
+  "USD/CHF": {
+    "id": "USD/CHF_20261103014637",
+    "asset": "USD/CHF",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.8192999958992004,
+    "entry_time": "2026-11-03T01:46:37.485524+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 6775.83,
+    "position_size_pct": 0.0643,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (40.0)",
+      "MACD crossover",
+      "1d momentum -0.68%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "170",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261103014637",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.0743200033903122,
+    "entry_time": "2026-11-03T01:46:37.488178+00:00",
+    "stop_loss_pct": 0.00722,
+    "take_profit_pct": 0.01645,
+    "size_usd": 3775.59,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (36.0)",
+      "5d momentum +0.91%",
+      "1d momentum -1.10%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "170",
     "status": "open"
   }
 }
