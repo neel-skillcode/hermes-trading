@@ -354,31 +354,6 @@
     "price_trough": 145.4499969482422,
     "trailing_stop_price": 147.631747
   },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261103163021",
-    "asset": "DOGE-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 0.07508999854326248,
-    "entry_time": "2026-11-03T16:30:21.723166+00:00",
-    "stop_loss_pct": 0.01717,
-    "take_profit_pct": 0.05632,
-    "size_usd": 5658.86,
-    "position_size_pct": 0.0538,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (69.4)",
-      "5d momentum +0.93%",
-      "BB overbought (pct_b=0.87)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "170",
-    "status": "open",
-    "price_trough": 0.07374999672174454,
-    "trailing_stop_price": 0.075016
-  },
   "SOL-USD": {
     "id": "SOL-USD_20261103163021",
     "asset": "SOL-USD",
@@ -451,7 +426,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "171",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.9256900548934937,
+    "trailing_stop_price": 1.941096
   },
   "EUR/USD": {
     "id": "EUR/USD_20261104014711",
@@ -470,6 +447,32 @@
       "5d momentum +0.60%",
       "1d momentum +0.65%",
       "BB overbought (pct_b=1.48)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "171",
+    "status": "open",
+    "price_trough": 1.1243535280227661,
+    "trailing_stop_price": 1.126602
+  },
+  "GBP/JPY": {
+    "id": "GBP/JPY_20261104080642",
+    "asset": "GBP/JPY",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 213.09300231933594,
+    "entry_time": "2026-11-04T08:06:42.455814+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02716,
+    "size_usd": 7627.41,
+    "position_size_pct": 0.0724,
+    "confidence": 0.79,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +0.36%",
+      "1d momentum +0.53%",
+      "BB overbought (pct_b=0.88)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
