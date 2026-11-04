@@ -120,8 +120,8 @@
     "mode": "paper",
     "strategy_version": "164",
     "status": "open",
-    "price_peak": 40.480098724365234,
-    "trailing_stop_price": 39.513839
+    "price_peak": 40.4900016784668,
+    "trailing_stop_price": 39.523505
   },
   "USD/CHF": {
     "id": "USD/CHF_20261103014637",
@@ -147,32 +147,6 @@
     "status": "open",
     "price_trough": 0.8140900135040283,
     "trailing_stop_price": 0.820603
-  },
-  "PLTR": {
-    "id": "PLTR_20261103163021",
-    "asset": "PLTR",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 171.93499755859375,
-    "entry_time": "2026-11-03T16:30:21.697713+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 5119.92,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (23.4)",
-      "5d momentum -5.70%",
-      "1d momentum -12.64%",
-      "BB oversold (pct_b=0.06)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "170",
-    "status": "open",
-    "price_peak": 175.4,
-    "trailing_stop_price": 172.769
   },
   "AUD/NZD": {
     "id": "AUD/NZD_20261103215451",
@@ -300,57 +274,6 @@
     "strategy_version": "171",
     "status": "open"
   },
-  "UBER": {
-    "id": "UBER_20261104161305",
-    "asset": "UBER",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 72.18499755859375,
-    "entry_time": "2026-11-04T16:13:05.262286+00:00",
-    "stop_loss_pct": 0.01133,
-    "take_profit_pct": 0.02781,
-    "size_usd": 6113.8,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (80.6)",
-      "5d momentum +8.42%",
-      "1d momentum +10.07%",
-      "BB overbought (pct_b=1.24)",
-      "Volume spike 1.7\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "171",
-    "status": "open"
-  },
-  "XLV": {
-    "id": "XLV_20261104161305",
-    "asset": "XLV",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 187.77999877929688,
-    "entry_time": "2026-11-04T16:13:05.263158+00:00",
-    "stop_loss_pct": 0.00604,
-    "take_profit_pct": 0.01506,
-    "size_usd": 6651.28,
-    "position_size_pct": 0.0634,
-    "confidence": 0.99,
-    "signals": [
-      "RSI overbought (75.4)",
-      "MACD crossover",
-      "5d momentum +1.50%",
-      "1d momentum +2.37%",
-      "BB overbought (pct_b=1.36)",
-      "Volume spike 1.5\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "171",
-    "status": "open"
-  },
   "TSLA": {
     "id": "TSLA_20261104161305",
     "asset": "TSLA",
@@ -369,31 +292,6 @@
       "1d momentum -4.77%",
       "BB oversold (pct_b=-0.09)",
       "Volume spike 11.3\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "171",
-    "status": "open"
-  },
-  "MCD": {
-    "id": "MCD_20261104161305",
-    "asset": "MCD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 276.0950012207031,
-    "entry_time": "2026-11-04T16:13:05.264822+00:00",
-    "stop_loss_pct": 0.00854,
-    "take_profit_pct": 0.02096,
-    "size_usd": 6113.8,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (78.4)",
-      "5d momentum +5.12%",
-      "1d momentum +7.18%",
-      "BB overbought (pct_b=1.20)",
-      "Volume spike 1.6\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
@@ -423,7 +321,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "171",
-    "status": "open"
+    "status": "open",
+    "price_peak": 392.67999267578125,
+    "trailing_stop_price": 386.789793
   },
   "SOFI": {
     "id": "SOFI_20261104161305",
@@ -446,6 +346,125 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "171",
+    "status": "open",
+    "price_trough": 17.3799991607666,
+    "trailing_stop_price": 18.066162
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261104215358",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 80049.1796875,
+    "entry_time": "2026-11-04T21:53:58.422101+00:00",
+    "stop_loss_pct": 0.00611,
+    "take_profit_pct": 0.0144,
+    "size_usd": 4771.52,
+    "position_size_pct": 0.0454,
+    "confidence": 0.71,
+    "signals": [
+      "RSI overbought (75.7)",
+      "5d momentum -0.51%",
+      "1d momentum +2.89%",
+      "Volume spike 2.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "172",
+    "status": "open"
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20261104215358",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 2413.4599609375,
+    "entry_time": "2026-11-04T21:53:58.423606+00:00",
+    "stop_loss_pct": 0.00897,
+    "take_profit_pct": 0.02113,
+    "size_usd": 4771.52,
+    "position_size_pct": 0.0454,
+    "confidence": 0.71,
+    "signals": [
+      "RSI overbought (77.0)",
+      "5d momentum -0.81%",
+      "1d momentum +5.31%",
+      "Volume spike 1.5\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "172",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261104215358",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.07677000015974045,
+    "entry_time": "2026-11-04T21:53:58.425346+00:00",
+    "stop_loss_pct": 0.00871,
+    "take_profit_pct": 0.01985,
+    "size_usd": 3763.46,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (67.7)",
+      "5d momentum -0.94%",
+      "1d momentum +1.66%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "172",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261104215358",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.3032000064849854,
+    "entry_time": "2026-11-04T21:53:58.427113+00:00",
+    "stop_loss_pct": 0.00856,
+    "take_profit_pct": 0.01951,
+    "size_usd": 3763.46,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (67.1)",
+      "5d momentum -0.82%",
+      "1d momentum +1.74%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "172",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261104215358",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 8.734000205993652,
+    "entry_time": "2026-11-04T21:53:58.428012+00:00",
+    "stop_loss_pct": 0.01095,
+    "take_profit_pct": 0.02497,
+    "size_usd": 3763.46,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (61.1)",
+      "5d momentum -2.12%",
+      "1d momentum +2.01%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "172",
     "status": "open"
   }
 }
