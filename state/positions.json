@@ -120,8 +120,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2391899824142456,
-    "trailing_stop_price": 1.249104
+    "price_trough": 1.2386300563812256,
+    "trailing_stop_price": 1.248539
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -146,61 +146,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 212.68099975585938,
-    "trailing_stop_price": 214.382448
-  },
-  "LYFT": {
-    "id": "LYFT_20261104161305",
-    "asset": "LYFT",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 18.69499969482422,
-    "entry_time": "2026-11-04T16:13:05.261251+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.03682,
-    "size_usd": 6113.8,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (79.3)",
-      "5d momentum +12.18%",
-      "1d momentum +13.72%",
-      "BB overbought (pct_b=1.21)",
-      "Volume spike 2.0\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "171",
-    "status": "open",
-    "price_trough": 18.040000915527344,
-    "trailing_stop_price": 18.310601
-  },
-  "MPC": {
-    "id": "MPC_20261104161305",
-    "asset": "MPC",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 391.7799987792969,
-    "entry_time": "2026-11-04T16:13:05.265676+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 3414.49,
-    "position_size_pct": 0.0325,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (23.8)",
-      "5d momentum -9.22%",
-      "1d momentum -7.68%",
-      "BB oversold (pct_b=-0.23)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "171",
-    "status": "open",
-    "price_peak": 392.68,
-    "trailing_stop_price": 386.7898
+    "price_trough": 211.95899963378906,
+    "trailing_stop_price": 213.654672
   },
   "SOFI": {
     "id": "SOFI_20261104161305",
@@ -226,31 +173,6 @@
     "status": "open",
     "price_trough": 15.925000190734863,
     "trailing_stop_price": 16.553719
-  },
-  "ETH-USD": {
-    "id": "ETH-USD_20261105165140",
-    "asset": "ETH-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 2267.679931640625,
-    "entry_time": "2026-11-05T16:51:40.940313+00:00",
-    "stop_loss_pct": 0.0113,
-    "take_profit_pct": 0.02774,
-    "size_usd": 6023.77,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (16.1)",
-      "5d momentum -6.24%",
-      "1d momentum -6.79%",
-      "BB oversold (pct_b=-0.14)",
-      "Volume spike 9.9\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "172",
-    "status": "open"
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261105165140",
@@ -295,31 +217,6 @@
       "1d momentum -6.35%",
       "BB oversold (pct_b=-0.14)",
       "Volume spike 3.2\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "172",
-    "status": "open"
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20261105165140",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.2473000288009644,
-    "entry_time": "2026-11-05T16:51:40.942792+00:00",
-    "stop_loss_pct": 0.01105,
-    "take_profit_pct": 0.02712,
-    "size_usd": 6023.77,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (23.8)",
-      "5d momentum -5.31%",
-      "1d momentum -5.08%",
-      "BB oversold (pct_b=-0.16)",
-      "Volume spike 5.1\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
@@ -398,7 +295,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "172",
-    "status": "open"
+    "status": "open",
+    "price_trough": 344.1700134277344,
+    "trailing_stop_price": 355.331447
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261105165140",
@@ -421,7 +320,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "172",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.9146100282669067,
+    "trailing_stop_price": 0.907293
   },
   "TLT": {
     "id": "TLT_20261105165140",
@@ -444,6 +345,125 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "172",
+    "status": "open",
+    "price_trough": 81.93000030517578,
+    "trailing_stop_price": 82.63296
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20261105222516",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 2233.6298828125,
+    "entry_time": "2026-11-05T22:25:16.778502+00:00",
+    "stop_loss_pct": 0.01157,
+    "take_profit_pct": 0.02726,
+    "size_usd": 4696.62,
+    "position_size_pct": 0.0454,
+    "confidence": 0.71,
+    "signals": [
+      "RSI oversold (13.4)",
+      "5d momentum -0.81%",
+      "1d momentum -8.23%",
+      "Volume spike 1.9\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "173",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261105222516",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.2214000225067139,
+    "entry_time": "2026-11-05T22:25:16.779893+00:00",
+    "stop_loss_pct": 0.01151,
+    "take_profit_pct": 0.02739,
+    "size_usd": 5027.37,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (10.0)",
+      "5d momentum -0.98%",
+      "1d momentum -6.81%",
+      "BB oversold (pct_b=0.13)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "173",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261105222516",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 688.6199951171875,
+    "entry_time": "2026-11-05T22:25:16.780708+00:00",
+    "stop_loss_pct": 0.00633,
+    "take_profit_pct": 0.01442,
+    "size_usd": 3704.38,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (20.7)",
+      "5d momentum -0.31%",
+      "1d momentum -4.53%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "173",
+    "status": "open"
+  },
+  "CAD/JPY": {
+    "id": "CAD/JPY_20261105222516",
+    "asset": "CAD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 112.45700073242188,
+    "entry_time": "2026-11-05T22:25:16.781561+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 4101.28,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (8.4)",
+      "1d momentum -0.79%",
+      "BB oversold (pct_b=0.05)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "173",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20261105222516",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 109.30599975585938,
+    "entry_time": "2026-11-05T22:25:16.782333+00:00",
+    "stop_loss_pct": 0.0023,
+    "take_profit_pct": 0.0053,
+    "size_usd": 4017.63,
+    "position_size_pct": 0.0389,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (11.2)",
+      "1d momentum -1.42%",
+      "BB oversold (pct_b=0.12)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "173",
     "status": "open"
   }
 }
