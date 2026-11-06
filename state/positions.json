@@ -96,8 +96,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 211.93899536132812,
-    "trailing_stop_price": 213.634507
+    "price_trough": 211.5399932861328,
+    "trailing_stop_price": 213.232313
   },
   "SOFI": {
     "id": "SOFI_20261104161305",
@@ -148,8 +148,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_peak": 0.07225000113248825,
-    "trailing_stop_price": 0.071399
+    "price_peak": 0.0730699971318245,
+    "trailing_stop_price": 0.072209
   },
   "SOL-USD": {
     "id": "SOL-USD_20261105165140",
@@ -174,7 +174,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "172",
-    "status": "open"
+    "status": "open",
+    "price_peak": 90.58000183105469,
+    "trailing_stop_price": 89.377099
   },
   "BTC-USD": {
     "id": "BTC-USD_20261105165140",
@@ -225,8 +227,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_peak": 8.3149995803833,
-    "trailing_stop_price": 8.199338
+    "price_peak": 8.40999984741211,
+    "trailing_stop_price": 8.293017
   },
   "AAPL": {
     "id": "AAPL_20261105165140",
@@ -325,56 +327,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "173",
-    "status": "open"
-  },
-  "CAD/JPY": {
-    "id": "CAD/JPY_20261105222516",
-    "asset": "CAD/JPY",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 112.45700073242188,
-    "entry_time": "2026-11-05T22:25:16.781561+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 4101.28,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (8.4)",
-      "1d momentum -0.79%",
-      "BB oversold (pct_b=0.05)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "173",
     "status": "open",
-    "price_peak": 112.5780029296875,
-    "trailing_stop_price": 112.352847
-  },
-  "USD/NOK": {
-    "id": "USD/NOK_20261106095343",
-    "asset": "USD/NOK",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.405830383300781,
-    "entry_time": "2026-11-06T09:53:43.568058+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 5017.51,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (87.9)",
-      "5d momentum +0.94%",
-      "1d momentum +1.45%",
-      "BB overbought (pct_b=1.18)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "173",
-    "status": "open"
+    "price_trough": 2232.340087890625,
+    "trailing_stop_price": 2258.168263
   },
   "AUD/USD": {
     "id": "AUD/USD_20261106095343",
@@ -445,6 +400,58 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "173",
+    "status": "open",
+    "price_trough": 176.46800231933594,
+    "trailing_stop_price": 177.879746
+  },
+  "AMD": {
+    "id": "AMD_20261106170030",
+    "asset": "AMD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 444.9599914550781,
+    "entry_time": "2026-11-06T17:00:30.944464+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0372,
+    "size_usd": 6335.87,
+    "position_size_pct": 0.0614,
+    "confidence": 0.96,
+    "signals": [
+      "RSI oversold (36.8)",
+      "MACD crossover",
+      "5d momentum +7.45%",
+      "1d momentum -4.68%",
+      "Volume spike 3.7\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
+    "status": "open"
+  },
+  "TSLA": {
+    "id": "TSLA_20261106170030",
+    "asset": "TSLA",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 361.03009033203125,
+    "entry_time": "2026-11-06T17:00:30.945660+00:00",
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.0372,
+    "size_usd": 2769.65,
+    "position_size_pct": 0.0269,
+    "confidence": 0.96,
+    "signals": [
+      "RSI oversold (32.4)",
+      "MACD crossover",
+      "5d momentum +5.78%",
+      "1d momentum -10.63%",
+      "Volume spike 5.4\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
     "status": "open"
   }
 }
