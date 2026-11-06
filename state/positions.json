@@ -272,7 +272,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "172",
-    "status": "open"
+    "status": "open",
+    "price_peak": 8.309000015258789,
+    "trailing_stop_price": 8.193422
   },
   "AAPL": {
     "id": "AAPL_20261105165140",
@@ -321,8 +323,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_peak": 0.9146100282669067,
-    "trailing_stop_price": 0.907293
+    "price_peak": 0.9158300161361694,
+    "trailing_stop_price": 0.908503
   },
   "TLT": {
     "id": "TLT_20261105165140",
@@ -397,29 +399,6 @@
     "strategy_version": "173",
     "status": "open"
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20261105222516",
-    "asset": "BNB-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 688.6199951171875,
-    "entry_time": "2026-11-05T22:25:16.780708+00:00",
-    "stop_loss_pct": 0.00633,
-    "take_profit_pct": 0.01442,
-    "size_usd": 3704.38,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (20.7)",
-      "5d momentum -0.31%",
-      "1d momentum -4.53%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "173",
-    "status": "open"
-  },
   "CAD/JPY": {
     "id": "CAD/JPY_20261105222516",
     "asset": "CAD/JPY",
@@ -441,7 +420,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "173",
-    "status": "open"
+    "status": "open",
+    "price_peak": 112.5780029296875,
+    "trailing_stop_price": 112.352847
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20261105222516",
@@ -459,6 +440,32 @@
       "RSI oversold (11.2)",
       "1d momentum -1.42%",
       "BB oversold (pct_b=0.12)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "173",
+    "status": "open",
+    "price_peak": 109.30899810791016,
+    "trailing_stop_price": 109.057587
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20261106024006",
+    "asset": "NZD/USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.5585343837738037,
+    "entry_time": "2026-11-06T02:40:06.533938+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 3691.52,
+    "position_size_pct": 0.0357,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (12.3)",
+      "5d momentum -0.35%",
+      "1d momentum -0.93%",
+      "BB oversold (pct_b=0.06)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
