@@ -124,33 +124,6 @@
     "price_trough": 15.925000190734863,
     "trailing_stop_price": 16.553719
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20261105165140",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 90.4800033569336,
-    "entry_time": "2026-11-05T16:51:40.942076+00:00",
-    "stop_loss_pct": 0.01328,
-    "take_profit_pct": 0.03259,
-    "size_usd": 6023.77,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (19.7)",
-      "5d momentum -6.16%",
-      "1d momentum -6.35%",
-      "BB oversold (pct_b=-0.14)",
-      "Volume spike 3.2\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "172",
-    "status": "open",
-    "price_peak": 90.58000183105469,
-    "trailing_stop_price": 89.377099
-  },
   "AAPL": {
     "id": "AAPL_20261105165140",
     "asset": "AAPL",
@@ -249,8 +222,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 2232.340087890625,
-    "trailing_stop_price": 2258.168263
+    "price_trough": 2230.1298828125,
+    "trailing_stop_price": 2255.932486
   },
   "AUD/USD": {
     "id": "AUD/USD_20261106095343",
@@ -269,30 +242,6 @@
       "5d momentum -0.36%",
       "1d momentum -1.96%",
       "BB oversold (pct_b=0.12)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "173",
-    "status": "open"
-  },
-  "USD/SEK": {
-    "id": "USD/SEK_20261106095343",
-    "asset": "USD/SEK",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.874810218811035,
-    "entry_time": "2026-11-06T09:53:43.570252+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 2633.3,
-    "position_size_pct": 0.0255,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (88.9)",
-      "5d momentum +0.44%",
-      "1d momentum +1.18%",
-      "BB overbought (pct_b=1.00)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
@@ -399,31 +348,8 @@
     "mode": "paper",
     "strategy_version": "174",
     "status": "open",
-    "price_trough": 1.1624000072479248,
-    "trailing_stop_price": 1.170049
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261107142451",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.07190000265836716,
-    "entry_time": "2026-11-07T14:24:51.447417+00:00",
-    "stop_loss_pct": 0.00349,
-    "take_profit_pct": 0.00816,
-    "size_usd": 1736.53,
-    "position_size_pct": 0.0168,
-    "confidence": 0.67,
-    "signals": [
-      "RSI oversold (38.9)",
-      "MACD crossover",
-      "1d momentum -1.29%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "174",
-    "status": "open"
+    "price_trough": 1.1589000225067139,
+    "trailing_stop_price": 1.166526
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261107185741",
@@ -446,24 +372,75 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "174",
+    "status": "open",
+    "price_trough": 8.192999839782715,
+    "trailing_stop_price": 8.230524
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261107223009",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.07124999910593033,
+    "entry_time": "2026-11-07T22:30:09.571181+00:00",
+    "stop_loss_pct": 0.00424,
+    "take_profit_pct": 0.0104,
+    "size_usd": 6004.69,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (29.1)",
+      "5d momentum -0.71%",
+      "1d momentum -1.47%",
+      "BB oversold (pct_b=-0.01)",
+      "Volume spike 1.5\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
     "status": "open"
   },
   "USD/MXN": {
-    "id": "USD/MXN_20261107185741",
+    "id": "USD/MXN_20261107223009",
     "asset": "USD/MXN",
     "trade_type": "day",
     "direction": "long",
     "entry_price": 18.59749984741211,
-    "entry_time": "2026-11-07T18:57:41.012590+00:00",
+    "entry_time": "2026-11-07T22:30:09.573311+00:00",
     "stop_loss_pct": 0.00239,
     "take_profit_pct": 0.00553,
-    "size_usd": 4091.7,
+    "size_usd": 4091.11,
     "position_size_pct": 0.0397,
     "confidence": 0.62,
     "signals": [
       "RSI oversold (15.5)",
       "1d momentum -0.76%",
       "BB oversold (pct_b=0.12)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261107223009",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 89.1500015258789,
+    "entry_time": "2026-11-07T22:30:09.574488+00:00",
+    "stop_loss_pct": 0.00415,
+    "take_profit_pct": 0.00988,
+    "size_usd": 5014.9,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (29.1)",
+      "5d momentum -0.54%",
+      "1d momentum -0.80%",
+      "BB oversold (pct_b=0.09)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
