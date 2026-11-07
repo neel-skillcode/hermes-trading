@@ -176,33 +176,6 @@
     "strategy_version": "172",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261105165140",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 8.305000305175781,
-    "entry_time": "2026-11-05T16:51:40.944160+00:00",
-    "stop_loss_pct": 0.01391,
-    "take_profit_pct": 0.03414,
-    "size_usd": 1724.91,
-    "position_size_pct": 0.0167,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (25.1)",
-      "5d momentum -5.01%",
-      "1d momentum -6.95%",
-      "BB oversold (pct_b=-0.10)",
-      "Volume spike 24.5\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "172",
-    "status": "open",
-    "price_peak": 8.40999984741211,
-    "trailing_stop_price": 8.293017
-  },
   "AAPL": {
     "id": "AAPL_20261105165140",
     "asset": "AAPL",
@@ -429,29 +402,6 @@
     "price_trough": 358.2200012207031,
     "trailing_stop_price": 363.593301
   },
-  "USD/MXN": {
-    "id": "USD/MXN_20261107074945",
-    "asset": "USD/MXN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 18.59749984741211,
-    "entry_time": "2026-11-07T07:49:45.967606+00:00",
-    "stop_loss_pct": 0.00239,
-    "take_profit_pct": 0.00553,
-    "size_usd": 4091.26,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (15.5)",
-      "1d momentum -0.76%",
-      "BB oversold (pct_b=0.12)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "174",
-    "status": "open"
-  },
   "XRP-USD": {
     "id": "XRP-USD_20261107074945",
     "asset": "XRP-USD",
@@ -468,6 +418,54 @@
       "RSI oversold (41.2)",
       "5d momentum +0.46%",
       "1d momentum -1.00%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
+    "status": "open",
+    "price_trough": 1.1663000583648682,
+    "trailing_stop_price": 1.173974
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20261107142451",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 18.59749984741211,
+    "entry_time": "2026-11-07T14:24:51.446206+00:00",
+    "stop_loss_pct": 0.00239,
+    "take_profit_pct": 0.00553,
+    "size_usd": 4092.54,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (15.5)",
+      "1d momentum -0.76%",
+      "BB oversold (pct_b=0.12)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261107142451",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.07190000265836716,
+    "entry_time": "2026-11-07T14:24:51.447417+00:00",
+    "stop_loss_pct": 0.00349,
+    "take_profit_pct": 0.00816,
+    "size_usd": 1736.53,
+    "position_size_pct": 0.0168,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (38.9)",
+      "MACD crossover",
+      "1d momentum -1.29%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
