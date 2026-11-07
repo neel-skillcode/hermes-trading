@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2386300563812256,
-    "trailing_stop_price": 1.248539
+    "price_trough": 1.2375099658966064,
+    "trailing_stop_price": 1.24741
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -123,33 +123,6 @@
     "status": "open",
     "price_trough": 15.925000190734863,
     "trailing_stop_price": 16.553719
-  },
-  "DOGE-USD": {
-    "id": "DOGE-USD_20261105165140",
-    "asset": "DOGE-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.07220999896526337,
-    "entry_time": "2026-11-05T16:51:40.941349+00:00",
-    "stop_loss_pct": 0.01178,
-    "take_profit_pct": 0.02893,
-    "size_usd": 6023.77,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (17.0)",
-      "5d momentum -5.96%",
-      "1d momentum -6.83%",
-      "BB oversold (pct_b=-0.14)",
-      "Volume spike 6.4\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "172",
-    "status": "open",
-    "price_peak": 0.0730699971318245,
-    "trailing_stop_price": 0.072209
   },
   "SOL-USD": {
     "id": "SOL-USD_20261105165140",
@@ -252,8 +225,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_trough": 344.1700134277344,
-    "trailing_stop_price": 355.331447
+    "price_trough": 342.3699951171875,
+    "trailing_stop_price": 353.473054
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261105165140",
@@ -302,8 +275,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_trough": 81.93000030517578,
-    "trailing_stop_price": 82.63296
+    "price_trough": 81.91999816894531,
+    "trailing_stop_price": 82.622872
   },
   "ETH-USD": {
     "id": "ETH-USD_20261105222516",
@@ -401,8 +374,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 176.46800231933594,
-    "trailing_stop_price": 177.879746
+    "price_trough": 176.33999633789062,
+    "trailing_stop_price": 177.750716
   },
   "AMD": {
     "id": "AMD_20261106170030",
@@ -447,6 +420,54 @@
       "5d momentum +5.78%",
       "1d momentum -10.63%",
       "Volume spike 5.4\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
+    "status": "open",
+    "price_trough": 358.2200012207031,
+    "trailing_stop_price": 363.593301
+  },
+  "USD/MXN": {
+    "id": "USD/MXN_20261107074945",
+    "asset": "USD/MXN",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 18.59749984741211,
+    "entry_time": "2026-11-07T07:49:45.967606+00:00",
+    "stop_loss_pct": 0.00239,
+    "take_profit_pct": 0.00553,
+    "size_usd": 4091.26,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (15.5)",
+      "1d momentum -0.76%",
+      "BB oversold (pct_b=0.12)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "174",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261107074945",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.1721999645233154,
+    "entry_time": "2026-11-07T07:49:45.970580+00:00",
+    "stop_loss_pct": 0.00658,
+    "take_profit_pct": 0.015,
+    "size_usd": 1925.84,
+    "position_size_pct": 0.0187,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (41.2)",
+      "5d momentum +0.46%",
+      "1d momentum -1.00%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
