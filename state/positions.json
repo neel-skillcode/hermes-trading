@@ -70,8 +70,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2375099658966064,
-    "trailing_stop_price": 1.24741
+    "price_trough": 1.232200026512146,
+    "trailing_stop_price": 1.242058
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -96,8 +96,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 211.5399932861328,
-    "trailing_stop_price": 213.232313
+    "price_trough": 211.38999938964844,
+    "trailing_stop_price": 213.081119
   },
   "SOFI": {
     "id": "SOFI_20261104161305",
@@ -247,7 +247,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "173",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.6877579092979431,
+    "trailing_stop_price": 0.686382
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20261106095343",
@@ -271,8 +273,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 176.33999633789062,
-    "trailing_stop_price": 177.750716
+    "price_trough": 176.30799865722656,
+    "trailing_stop_price": 177.718463
   },
   "AMD": {
     "id": "AMD_20261106170030",
@@ -326,31 +328,6 @@
     "price_trough": 358.2200012207031,
     "trailing_stop_price": 363.593301
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20261107074945",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.1721999645233154,
-    "entry_time": "2026-11-07T07:49:45.970580+00:00",
-    "stop_loss_pct": 0.00658,
-    "take_profit_pct": 0.015,
-    "size_usd": 1925.84,
-    "position_size_pct": 0.0187,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (41.2)",
-      "5d momentum +0.46%",
-      "1d momentum -1.00%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "174",
-    "status": "open",
-    "price_trough": 1.1589000225067139,
-    "trailing_stop_price": 1.166526
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20261107185741",
     "asset": "AVAX-USD",
@@ -373,8 +350,8 @@
     "mode": "paper",
     "strategy_version": "174",
     "status": "open",
-    "price_trough": 8.182999610900879,
-    "trailing_stop_price": 8.220478
+    "price_trough": 8.175999641418457,
+    "trailing_stop_price": 8.213446
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261107223009",
@@ -422,7 +399,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "174",
-    "status": "open"
+    "status": "open",
+    "price_peak": 18.614999771118164,
+    "trailing_stop_price": 18.57051
   },
   "SOL-USD": {
     "id": "SOL-USD_20261107223009",
@@ -447,8 +426,8 @@
     "mode": "paper",
     "strategy_version": "174",
     "status": "open",
-    "price_peak": 89.22000122070312,
-    "trailing_stop_price": 88.849738
+    "price_peak": 89.44999694824219,
+    "trailing_stop_price": 89.078779
   },
   "BNB-USD": {
     "id": "BNB-USD_20261108080045",
@@ -467,6 +446,33 @@
       "5d momentum +0.58%",
       "1d momentum +0.56%",
       "BB overbought (pct_b=1.08)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "175",
+    "status": "open",
+    "price_trough": 696.77001953125,
+    "trailing_stop_price": 698.28201
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261108192701",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 1.1541999578475952,
+    "entry_time": "2026-11-08T19:27:01.289161+00:00",
+    "stop_loss_pct": 0.00549,
+    "take_profit_pct": 0.01348,
+    "size_usd": 1937.67,
+    "position_size_pct": 0.0188,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (37.0)",
+      "5d momentum -0.37%",
+      "1d momentum -0.56%",
+      "BB oversold (pct_b=0.12)",
+      "Volume spike 1.6\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
