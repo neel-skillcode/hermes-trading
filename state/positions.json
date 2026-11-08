@@ -373,8 +373,8 @@
     "mode": "paper",
     "strategy_version": "174",
     "status": "open",
-    "price_trough": 8.192999839782715,
-    "trailing_stop_price": 8.230524
+    "price_trough": 8.182999610900879,
+    "trailing_stop_price": 8.220478
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261107223009",
@@ -446,6 +446,32 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "174",
+    "status": "open",
+    "price_peak": 89.22000122070312,
+    "trailing_stop_price": 88.849738
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261108080045",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 699.1300048828125,
+    "entry_time": "2026-11-08T08:00:45.772864+00:00",
+    "stop_loss_pct": 0.00217,
+    "take_profit_pct": 0.00517,
+    "size_usd": 1623.07,
+    "position_size_pct": 0.0157,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (64.3)",
+      "5d momentum +0.58%",
+      "1d momentum +0.56%",
+      "BB overbought (pct_b=1.08)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "175",
     "status": "open"
   }
 }
