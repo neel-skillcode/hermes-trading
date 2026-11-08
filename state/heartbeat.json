@@ -3,16 +3,16 @@
   "portfolio_balance": 103102.48,
   "portfolio_peak": 108835.32,
   "portfolio_drawdown_pct": 5.27,
-  "unrealized_pnl_usd": 579.96,
-  "equity_value": 103682.44,
+  "unrealized_pnl_usd": 572.89,
+  "equity_value": 103675.37,
   "open_positions": 18,
   "day_trades_open": 9,
   "swing_trades_open": 9,
   "day_capital_used_usd": 39617.92,
   "swing_capital_used_usd": 49700.98,
   "total_trades": 2001,
-  "last_tick": "2026-11-07T22:30:10.074983+00:00",
-  "last_reflection": "2026-11-07",
+  "last_tick": "2026-11-08T01:45:32.441773+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -266,9 +266,9 @@
       "status": "open",
       "price_trough": 2230.1298828125,
       "trailing_stop_price": 2255.932486,
-      "current_price": 2229.98999,
-      "unrealized_pnl_pct": 0.00163,
-      "unrealized_pnl_usd": 7.65
+      "current_price": 2232.040039,
+      "unrealized_pnl_pct": 0.000712,
+      "unrealized_pnl_usd": 3.34
     },
     {
       "id": "AUD/USD_20261106095343",
@@ -405,11 +405,11 @@
       "mode": "paper",
       "strategy_version": "174",
       "status": "open",
-      "price_trough": 1.1589000225067139,
-      "trailing_stop_price": 1.166526,
-      "current_price": 1.1589,
-      "unrealized_pnl_pct": 0.011346,
-      "unrealized_pnl_usd": 21.85
+      "price_trough": 1.1578999757766724,
+      "trailing_stop_price": 1.165519,
+      "current_price": 1.1579,
+      "unrealized_pnl_pct": 0.012199,
+      "unrealized_pnl_usd": 23.49
     },
     {
       "id": "AVAX-USD_20261107185741",
@@ -433,11 +433,11 @@
       "mode": "paper",
       "strategy_version": "174",
       "status": "open",
-      "price_trough": 8.192999839782715,
-      "trailing_stop_price": 8.230524,
-      "current_price": 8.193,
-      "unrealized_pnl_pct": 0.006548,
-      "unrealized_pnl_usd": 24.63
+      "price_trough": 8.178000450134277,
+      "trailing_stop_price": 8.215456,
+      "current_price": 8.178,
+      "unrealized_pnl_pct": 0.008367,
+      "unrealized_pnl_usd": 31.47
     },
     {
       "id": "DOGE-USD_20261107223009",
@@ -463,9 +463,9 @@
       "mode": "paper",
       "strategy_version": "174",
       "status": "open",
-      "current_price": 0.07125,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 0.07117,
+      "unrealized_pnl_pct": -0.001123,
+      "unrealized_pnl_usd": -6.74
     },
     {
       "id": "USD/MXN_20261107223009",
@@ -516,9 +516,9 @@
       "mode": "paper",
       "strategy_version": "174",
       "status": "open",
-      "current_price": 89.150002,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "current_price": 89.07,
+      "unrealized_pnl_pct": -0.000897,
+      "unrealized_pnl_usd": -4.5
     }
   ],
   "last_candidates": [
@@ -608,6 +608,23 @@
       "high_impact_news": false
     },
     {
+      "asset": "DOGE-USD",
+      "rank_score": 0.4716,
+      "price": 0.07117000222206116,
+      "rsi": 34.72238031671789,
+      "momentum_5d": -0.0014030341960444702,
+      "momentum_1d": -0.019021317184623233,
+      "macd_crossover": false,
+      "atr_pct": 0.004335690707190023,
+      "bollinger_pct_b": 0.0492,
+      "volume_spike": true,
+      "volume_spike_ratio": 8.27,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
       "asset": "HD",
       "rank_score": 0.45,
       "price": 343.4700012207031,
@@ -676,6 +693,23 @@
       "high_impact_news": false
     },
     {
+      "asset": "SOL-USD",
+      "rank_score": 0.431,
+      "price": 89.06999969482422,
+      "rsi": 37.80488372201211,
+      "momentum_5d": 0.0013491034367528747,
+      "momentum_1d": -0.01536590099177913,
+      "macd_crossover": false,
+      "atr_pct": 0.004819639871872573,
+      "bollinger_pct_b": 0.1085,
+      "volume_spike": true,
+      "volume_spike_ratio": 952.6,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
       "asset": "SOFI",
       "rank_score": 0.4309,
       "price": 16.204999923706055,
@@ -738,23 +772,6 @@
       "bollinger_pct_b": 0.2767,
       "volume_spike": false,
       "volume_spike_ratio": 0.87,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.1,
-      "news_headlines": [],
-      "high_impact_news": false
-    },
-    {
-      "asset": "AVAX-USD",
-      "rank_score": 0.4236,
-      "price": 8.192999839782715,
-      "rsi": 35.09610094266955,
-      "momentum_5d": -0.0044957113622827,
-      "momentum_1d": -0.01762593646470879,
-      "macd_crossover": false,
-      "atr_pct": 0.005971975832933536,
-      "bollinger_pct_b": 0.2244,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.48,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],
@@ -840,23 +857,6 @@
       "bollinger_pct_b": 0.1664,
       "volume_spike": false,
       "volume_spike_ratio": 0.95,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.1,
-      "news_headlines": [],
-      "high_impact_news": false
-    },
-    {
-      "asset": "AXP",
-      "rank_score": 0.4043,
-      "price": 321.0299987792969,
-      "rsi": 9.022170602215127,
-      "momentum_5d": -0.007941926068433499,
-      "momentum_1d": -0.0146414968928385,
-      "macd_crossover": false,
-      "atr_pct": 0.010460209197393844,
-      "bollinger_pct_b": 0.1324,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.89,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],
