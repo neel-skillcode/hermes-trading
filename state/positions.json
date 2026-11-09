@@ -23,31 +23,6 @@
     "price_peak": 7.848400115966797,
     "trailing_stop_price": 7.785613
   },
-  "USD/CHF": {
-    "id": "USD/CHF_20261103014637",
-    "asset": "USD/CHF",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 0.8192999958992004,
-    "entry_time": "2026-11-03T01:46:37.485524+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 6775.83,
-    "position_size_pct": 0.0643,
-    "confidence": 0.67,
-    "signals": [
-      "RSI oversold (40.0)",
-      "MACD crossover",
-      "1d momentum -0.68%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "170",
-    "status": "open",
-    "price_trough": 0.8140199780464172,
-    "trailing_stop_price": 0.820532
-  },
   "AUD/NZD": {
     "id": "AUD/NZD_20261103215451",
     "asset": "AUD/NZD",
@@ -222,8 +197,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_peak": 0.6877579092979431,
-    "trailing_stop_price": 0.686382
+    "price_peak": 0.6901787519454956,
+    "trailing_stop_price": 0.688798
   },
   "EUR/JPY": {
     "id": "EUR/JPY_20261106095343",
@@ -350,7 +325,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "175",
-    "status": "open"
+    "status": "open",
+    "price_peak": 2152.070068359375,
+    "trailing_stop_price": 2133.562266
   },
   "XRP-USD": {
     "id": "XRP-USD_20261108230001",
@@ -375,7 +352,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "175",
-    "status": "open"
+    "status": "open",
+    "price_peak": 1.1195000410079956,
+    "trailing_stop_price": 1.108596
   },
   "SOL-USD": {
     "id": "SOL-USD_20261108230001",
@@ -400,7 +379,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "175",
-    "status": "open"
+    "status": "open",
+    "price_peak": 88.12000274658203,
+    "trailing_stop_price": 87.25907
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261108230001",
@@ -420,6 +401,54 @@
       "1d momentum -3.33%",
       "BB oversold (pct_b=-0.13)",
       "Volume spike 7.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "175",
+    "status": "open",
+    "price_peak": 8.072999954223633,
+    "trailing_stop_price": 7.985489
+  },
+  "USD/CHF": {
+    "id": "USD/CHF_20261109023147",
+    "asset": "USD/CHF",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 0.8209900259971619,
+    "entry_time": "2026-11-09T02:31:47.941882+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02668,
+    "size_usd": 6631.96,
+    "position_size_pct": 0.0643,
+    "confidence": 0.67,
+    "signals": [
+      "RSI overbought (68.7)",
+      "MACD crossover",
+      "1d momentum +0.46%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "175",
+    "status": "open"
+  },
+  "NZD/USD": {
+    "id": "NZD/USD_20261109023147",
+    "asset": "NZD/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 0.5582226514816284,
+    "entry_time": "2026-11-09T02:31:47.943803+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 1997.28,
+    "position_size_pct": 0.0194,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (76.4)",
+      "5d momentum +0.71%",
+      "BB overbought (pct_b=1.15)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
