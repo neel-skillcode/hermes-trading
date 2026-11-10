@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2254300117492676,
-    "trailing_stop_price": 1.235233
+    "price_trough": 1.2251499891281128,
+    "trailing_stop_price": 1.234951
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_peak": 0.9212499856948853,
-    "trailing_stop_price": 0.91388
+    "price_peak": 0.9213299751281738,
+    "trailing_stop_price": 0.913959
   },
   "TLT": {
     "id": "TLT_20261105165140",
@@ -324,8 +324,8 @@
     "mode": "paper",
     "strategy_version": "176",
     "status": "open",
-    "price_peak": 8.277999877929688,
-    "trailing_stop_price": 8.19613
+    "price_peak": 8.390000343322754,
+    "trailing_stop_price": 8.307023
   },
   "NVDA": {
     "id": "NVDA_20261110181821",
@@ -350,55 +350,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "177",
-    "status": "open"
-  },
-  "LCID": {
-    "id": "LCID_20261110181821",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 3.943000078201294,
-    "entry_time": "2026-11-10T18:18:21.346972+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4921.89,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (78.7)",
-      "5d momentum +8.77%",
-      "1d momentum +27.12%",
-      "BB overbought (pct_b=0.87)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "177",
-    "status": "open"
-  },
-  "SOUN": {
-    "id": "SOUN_20261110181821",
-    "asset": "SOUN",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 3.734999895095825,
-    "entry_time": "2026-11-10T18:18:21.347767+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4921.89,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (37.5)",
-      "5d momentum -9.56%",
-      "1d momentum -5.92%",
-      "BB oversold (pct_b=-0.01)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "177",
-    "status": "open"
+    "status": "open",
+    "price_peak": 168.88999938964844,
+    "trailing_stop_price": 166.356649
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261110181821",
@@ -422,7 +376,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "177",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.06769999861717224,
+    "trailing_stop_price": 0.066957
   },
   "ETH-USD": {
     "id": "ETH-USD_20261110181821",
@@ -447,7 +403,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "177",
-    "status": "open"
+    "status": "open",
+    "price_peak": 2047.6400146484375,
+    "trailing_stop_price": 2022.781665
   },
   "UNG": {
     "id": "UNG_20261110181821",
@@ -466,6 +424,76 @@
       "5d momentum +2.53%",
       "1d momentum +11.01%",
       "BB overbought (pct_b=0.87)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "177",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261110233151",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.054800033569336,
+    "entry_time": "2026-11-10T23:31:51.090627+00:00",
+    "stop_loss_pct": 0.01335,
+    "take_profit_pct": 0.03211,
+    "size_usd": 5266.11,
+    "position_size_pct": 0.0518,
+    "confidence": 0.81,
+    "signals": [
+      "RSI oversold (32.9)",
+      "MACD crossover",
+      "5d momentum -1.51%",
+      "1d momentum -3.89%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "177",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261110233151",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 73590.8984375,
+    "entry_time": "2026-11-10T23:31:51.092115+00:00",
+    "stop_loss_pct": 0.007,
+    "take_profit_pct": 0.01633,
+    "size_usd": 4355.92,
+    "position_size_pct": 0.0429,
+    "confidence": 0.67,
+    "signals": [
+      "RSI oversold (40.5)",
+      "MACD crossover",
+      "1d momentum -2.22%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "177",
+    "status": "open"
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261110233151",
+    "asset": "BNB-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 677.3099975585938,
+    "entry_time": "2026-11-10T23:31:51.093863+00:00",
+    "stop_loss_pct": 0.00614,
+    "take_profit_pct": 0.014,
+    "size_usd": 379.29,
+    "position_size_pct": 0.0037,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (32.7)",
+      "5d momentum +0.40%",
+      "1d momentum -1.91%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
