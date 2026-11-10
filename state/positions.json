@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2299699783325195,
-    "trailing_stop_price": 1.23981
+    "price_trough": 1.2269500494003296,
+    "trailing_stop_price": 1.236766
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_peak": 0.9193500280380249,
-    "trailing_stop_price": 0.911995
+    "price_peak": 0.9204699993133545,
+    "trailing_stop_price": 0.913106
   },
   "TLT": {
     "id": "TLT_20261105165140",
@@ -218,7 +218,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "175",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.0764000415802002,
+    "trailing_stop_price": 1.090146
   },
   "ETH-USD": {
     "id": "ETH-USD_20261109101239",
@@ -241,7 +243,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "175",
-    "status": "open"
+    "status": "open",
+    "price_trough": 2083.340087890625,
+    "trailing_stop_price": 2109.902674
   },
   "SOL-USD": {
     "id": "SOL-USD_20261109101239",
@@ -264,7 +268,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "175",
-    "status": "open"
+    "status": "open",
+    "price_trough": 84.30000305175781,
+    "trailing_stop_price": 85.328463
   },
   "LCID": {
     "id": "LCID_20261109204414",
@@ -288,7 +294,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "176",
-    "status": "open"
+    "status": "open",
+    "price_trough": 3.5999999046325684,
+    "trailing_stop_price": 3.654
   },
   "AMD": {
     "id": "AMD_20261109204414",
@@ -312,30 +320,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "176",
-    "status": "open"
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261109204414",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 8.63599967956543,
-    "entry_time": "2026-11-09T20:44:14.243406+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0342,
-    "size_usd": 3637.79,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (71.0)",
-      "5d momentum -3.91%",
-      "1d momentum +5.72%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "176",
-    "status": "open"
+    "status": "open",
+    "price_trough": 508.5799865722656,
+    "trailing_stop_price": 516.208686
   },
   "RBLX": {
     "id": "RBLX_20261109204414",
@@ -359,7 +346,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "176",
-    "status": "open"
+    "status": "open",
+    "price_trough": 51.599998474121094,
+    "trailing_stop_price": 52.373998
   },
   "KLAC": {
     "id": "KLAC_20261109204414",
@@ -383,7 +372,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "176",
-    "status": "open"
+    "status": "open",
+    "price_trough": 151.3800048828125,
+    "trailing_stop_price": 153.650705
   },
   "IONQ": {
     "id": "IONQ_20261109204414",
@@ -430,7 +421,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "176",
-    "status": "open"
+    "status": "open",
+    "price_trough": 10.079999923706055,
+    "trailing_stop_price": 10.21991
   },
   "LRCX": {
     "id": "LRCX_20261109204414",
@@ -453,7 +446,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "176",
-    "status": "open"
+    "status": "open",
+    "price_trough": 221.30999755859375,
+    "trailing_stop_price": 234.588597
   },
   "IWM": {
     "id": "IWM_20261109204414",
@@ -471,6 +466,32 @@
       "RSI overbought (90.0)",
       "5d momentum +0.85%",
       "BB overbought (pct_b=0.90)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "176",
+    "status": "open",
+    "price_trough": 282.510009765625,
+    "trailing_stop_price": 286.767436
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261110104632",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 8.27299976348877,
+    "entry_time": "2026-11-10T10:46:32.356890+00:00",
+    "stop_loss_pct": 0.00989,
+    "take_profit_pct": 0.02353,
+    "size_usd": 3576.79,
+    "position_size_pct": 0.0353,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (24.1)",
+      "5d momentum -3.78%",
+      "1d momentum +3.57%",
+      "BB oversold (pct_b=-0.06)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
