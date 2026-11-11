@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_peak": 0.9213299751281738,
-    "trailing_stop_price": 0.913959
+    "price_peak": 0.92194002866745,
+    "trailing_stop_price": 0.914565
   },
   "TLT": {
     "id": "TLT_20261105165140",
@@ -301,32 +301,6 @@
     "price_trough": 279.5799865722656,
     "trailing_stop_price": 283.793257
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261110104632",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 8.27299976348877,
-    "entry_time": "2026-11-10T10:46:32.356890+00:00",
-    "stop_loss_pct": 0.00989,
-    "take_profit_pct": 0.02353,
-    "size_usd": 3576.79,
-    "position_size_pct": 0.0353,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (24.1)",
-      "5d momentum -3.78%",
-      "1d momentum +3.57%",
-      "BB oversold (pct_b=-0.06)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "176",
-    "status": "open",
-    "price_peak": 8.390000343322754,
-    "trailing_stop_price": 8.307023
-  },
   "NVDA": {
     "id": "NVDA_20261110181821",
     "asset": "NVDA",
@@ -377,8 +351,8 @@
     "mode": "paper",
     "strategy_version": "177",
     "status": "open",
-    "price_peak": 0.06769999861717224,
-    "trailing_stop_price": 0.066957
+    "price_peak": 0.06830000132322311,
+    "trailing_stop_price": 0.067551
   },
   "ETH-USD": {
     "id": "ETH-USD_20261110181821",
@@ -404,8 +378,8 @@
     "mode": "paper",
     "strategy_version": "177",
     "status": "open",
-    "price_peak": 2047.6400146484375,
-    "trailing_stop_price": 2022.781665
+    "price_peak": 2057.60009765625,
+    "trailing_stop_price": 2032.620832
   },
   "UNG": {
     "id": "UNG_20261110181821",
@@ -494,6 +468,29 @@
       "RSI oversold (32.7)",
       "5d momentum +0.40%",
       "1d momentum -1.91%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "177",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261111025755",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 8.47700023651123,
+    "entry_time": "2026-11-11T02:57:55.780550+00:00",
+    "stop_loss_pct": 0.01166,
+    "take_profit_pct": 0.02647,
+    "size_usd": 3513.79,
+    "position_size_pct": 0.0346,
+    "confidence": 0.54,
+    "signals": [
+      "5d momentum +1.99%",
+      "1d momentum -1.36%",
+      "BB overbought (pct_b=0.91)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
