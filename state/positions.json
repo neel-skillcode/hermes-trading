@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "172",
     "status": "open",
-    "price_peak": 0.92194002866745,
-    "trailing_stop_price": 0.914565
+    "price_peak": 0.9229300022125244,
+    "trailing_stop_price": 0.915547
   },
   "TLT": {
     "id": "TLT_20261105165140",
@@ -196,8 +196,8 @@
     "mode": "paper",
     "strategy_version": "175",
     "status": "open",
-    "price_peak": 0.8257799744606018,
-    "trailing_stop_price": 0.819174
+    "price_peak": 0.8285700082778931,
+    "trailing_stop_price": 0.821941
   },
   "AMD": {
     "id": "AMD_20261109204414",
@@ -476,26 +476,28 @@
     "status": "open"
   },
   "AVAX-USD": {
-    "id": "AVAX-USD_20261111025755",
+    "id": "AVAX-USD_20261111102610",
     "asset": "AVAX-USD",
     "trade_type": "day",
     "direction": "short",
-    "entry_price": 8.47700023651123,
-    "entry_time": "2026-11-11T02:57:55.780550+00:00",
-    "stop_loss_pct": 0.01166,
-    "take_profit_pct": 0.02647,
-    "size_usd": 3513.79,
-    "position_size_pct": 0.0346,
-    "confidence": 0.54,
+    "entry_price": 8.663000106811523,
+    "entry_time": "2026-11-11T10:26:10.025937+00:00",
+    "stop_loss_pct": 0.01047,
+    "take_profit_pct": 0.02571,
+    "size_usd": 3581.23,
+    "position_size_pct": 0.0353,
+    "confidence": 0.91,
     "signals": [
-      "5d momentum +1.99%",
-      "1d momentum -1.36%",
-      "BB overbought (pct_b=0.91)"
+      "RSI overbought (86.8)",
+      "5d momentum +2.13%",
+      "1d momentum +4.51%",
+      "BB overbought (pct_b=0.98)",
+      "Volume spike 5.3\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
     "mode": "paper",
-    "strategy_version": "177",
+    "strategy_version": "178",
     "status": "open"
   }
 }
