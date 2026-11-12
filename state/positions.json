@@ -247,7 +247,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "177",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.048799991607666,
+    "trailing_stop_price": 1.062801
   },
   "AVAX-USD": {
     "id": "AVAX-USD_20261111102610",
@@ -273,8 +275,8 @@
     "mode": "paper",
     "strategy_version": "178",
     "status": "open",
-    "price_trough": 8.642000198364258,
-    "trailing_stop_price": 8.732482
+    "price_trough": 8.5,
+    "trailing_stop_price": 8.588995
   },
   "SNAP": {
     "id": "SNAP_20261111180108",
@@ -298,7 +300,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "178",
-    "status": "open"
+    "status": "open",
+    "price_trough": 5.340000152587891,
+    "trailing_stop_price": 5.4201
   },
   "ORCL": {
     "id": "ORCL_20261111180108",
@@ -322,7 +326,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "178",
-    "status": "open"
+    "status": "open",
+    "price_trough": 128.3800048828125,
+    "trailing_stop_price": 130.305705
   },
   "GS": {
     "id": "GS_20261111180108",
@@ -347,7 +353,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "178",
-    "status": "open"
+    "status": "open",
+    "price_trough": 926.8099975585938,
+    "trailing_stop_price": 934.103992
   },
   "ON": {
     "id": "ON_20261111180108",
@@ -371,7 +379,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "178",
-    "status": "open"
+    "status": "open",
+    "price_trough": 73.62000274658203,
+    "trailing_stop_price": 74.724303
   },
   "MU": {
     "id": "MU_20261111180108",
@@ -395,7 +405,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "178",
-    "status": "open"
+    "status": "open",
+    "price_trough": 811.2999877929688,
+    "trailing_stop_price": 823.469488
   },
   "ARM": {
     "id": "ARM_20261111180108",
@@ -419,7 +431,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "178",
-    "status": "open"
+    "status": "open",
+    "price_trough": 203.36000061035156,
+    "trailing_stop_price": 206.410401
   },
   "LRCX": {
     "id": "LRCX_20261111180108",
@@ -443,6 +457,31 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "178",
+    "status": "open",
+    "price_trough": 235.8800048828125,
+    "trailing_stop_price": 239.418205
+  },
+  "BNB-USD": {
+    "id": "BNB-USD_20261112001337",
+    "asset": "BNB-USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 678.1199951171875,
+    "entry_time": "2026-11-12T00:13:37.801555+00:00",
+    "stop_loss_pct": 0.01321,
+    "take_profit_pct": 0.04301,
+    "size_usd": 4933.28,
+    "position_size_pct": 0.049,
+    "confidence": 0.51,
+    "signals": [
+      "RSI oversold (44.6)",
+      "5d momentum -1.02%",
+      "Volume spike 7.0\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "179",
     "status": "open"
   }
 }
