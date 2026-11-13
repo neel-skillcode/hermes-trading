@@ -71,8 +71,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 211.18299865722656,
-    "trailing_stop_price": 212.872463
+    "price_trough": 210.968994140625,
+    "trailing_stop_price": 212.656746
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261105165140",
@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 176.30799865722656,
-    "trailing_stop_price": 177.718463
+    "price_trough": 175.98599243164062,
+    "trailing_stop_price": 177.39388
   },
   "USD/CHF": {
     "id": "USD/CHF_20261109023147",
@@ -174,32 +174,6 @@
     "price_trough": 276.5450134277344,
     "trailing_stop_price": 280.712547
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20261110233151",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.054800033569336,
-    "entry_time": "2026-11-10T23:31:51.090627+00:00",
-    "stop_loss_pct": 0.01335,
-    "take_profit_pct": 0.03211,
-    "size_usd": 5266.11,
-    "position_size_pct": 0.0518,
-    "confidence": 0.81,
-    "signals": [
-      "RSI oversold (32.9)",
-      "MACD crossover",
-      "5d momentum -1.51%",
-      "1d momentum -3.89%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "177",
-    "status": "open",
-    "price_trough": 1.0221999883651733,
-    "trailing_stop_price": 1.035846
-  },
   "USD/SEK": {
     "id": "USD/SEK_20261112155941",
     "asset": "USD/SEK",
@@ -245,33 +219,8 @@
     "mode": "paper",
     "strategy_version": "179",
     "status": "open",
-    "price_trough": 0.678104043006897,
-    "trailing_stop_price": 0.683529
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20261113023633",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 80.5999984741211,
-    "entry_time": "2026-11-13T02:36:33.919871+00:00",
-    "stop_loss_pct": 0.01005,
-    "take_profit_pct": 0.02468,
-    "size_usd": 30.17,
-    "position_size_pct": 0.0003,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (23.7)",
-      "5d momentum -1.15%",
-      "1d momentum -3.50%",
-      "BB oversold (pct_b=0.06)",
-      "Volume spike 5.0\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "179",
-    "status": "open"
+    "price_trough": 0.6774150133132935,
+    "trailing_stop_price": 0.682834
   },
   "ETH-USD": {
     "id": "ETH-USD_20261113095708",
@@ -296,8 +245,8 @@
     "mode": "paper",
     "strategy_version": "179",
     "status": "open",
-    "price_trough": 1931.77001953125,
-    "trailing_stop_price": 1951.570662
+    "price_trough": 1929.6199951171875,
+    "trailing_stop_price": 1949.3986
   },
   "BTC-USD": {
     "id": "BTC-USD_20261113095708",
@@ -322,8 +271,8 @@
     "mode": "paper",
     "strategy_version": "179",
     "status": "open",
-    "price_trough": 68656.8203125,
-    "trailing_stop_price": 69280.224241
+    "price_trough": 68345.03125,
+    "trailing_stop_price": 68965.604134
   },
   "IONQ": {
     "id": "IONQ_20261113173110",
@@ -347,31 +296,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "180",
-    "status": "open"
-  },
-  "LCID": {
-    "id": "LCID_20261113173110",
-    "asset": "LCID",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 3.0450000762939453,
-    "entry_time": "2026-11-13T17:31:10.942370+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4970.66,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (20.9)",
-      "5d momentum -6.88%",
-      "1d momentum -27.07%",
-      "BB oversold (pct_b=0.13)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "180",
-    "status": "open"
+    "status": "open",
+    "price_peak": 28.8799991607666,
+    "trailing_stop_price": 28.446799
   },
   "HOOD": {
     "id": "HOOD_20261113173110",
@@ -395,7 +322,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "180",
-    "status": "open"
+    "status": "open",
+    "price_peak": 77.86000061035156,
+    "trailing_stop_price": 76.692101
   },
   "AMAT": {
     "id": "AMAT_20261113173110",
@@ -419,31 +348,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "180",
-    "status": "open"
-  },
-  "RXRX": {
-    "id": "RXRX_20261113173110",
-    "asset": "RXRX",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 3.240000009536743,
-    "entry_time": "2026-11-13T17:31:10.944071+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4970.66,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (24.0)",
-      "5d momentum -3.86%",
-      "1d momentum -10.99%",
-      "BB oversold (pct_b=0.13)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "180",
-    "status": "open"
+    "status": "open",
+    "price_peak": 370.5,
+    "trailing_stop_price": 364.9425
   },
   "ARM": {
     "id": "ARM_20261113173110",
@@ -466,7 +373,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "180",
-    "status": "open"
+    "status": "open",
+    "price_peak": 190.52999877929688,
+    "trailing_stop_price": 187.672049
   },
   "SLV": {
     "id": "SLV_20261113173110",
@@ -485,6 +394,100 @@
       "5d momentum -1.93%",
       "1d momentum -5.32%",
       "BB oversold (pct_b=0.15)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "180",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261113224855",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 78.19999694824219,
+    "entry_time": "2026-11-13T22:48:55.909321+00:00",
+    "stop_loss_pct": 0.01116,
+    "take_profit_pct": 0.0274,
+    "size_usd": 5951.51,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (38.2)",
+      "5d momentum -2.14%",
+      "1d momentum -3.87%",
+      "BB oversold (pct_b=0.07)",
+      "Volume spike 1.9\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "180",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261113224855",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.0091999769210815,
+    "entry_time": "2026-11-13T22:48:55.910633+00:00",
+    "stop_loss_pct": 0.01005,
+    "take_profit_pct": 0.02292,
+    "size_usd": 3662.46,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (38.0)",
+      "5d momentum -1.05%",
+      "1d momentum -2.49%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "180",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261113224855",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 8.199000358581543,
+    "entry_time": "2026-11-13T22:48:55.911413+00:00",
+    "stop_loss_pct": 0.01111,
+    "take_profit_pct": 0.02493,
+    "size_usd": 3204.66,
+    "position_size_pct": 0.0314,
+    "confidence": 0.49,
+    "signals": [
+      "5d momentum -1.78%",
+      "1d momentum -1.60%",
+      "Volume spike 1.6\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "180",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20261113224855",
+    "asset": "AUD/JPY",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 108.13500213623047,
+    "entry_time": "2026-11-13T22:48:55.912179+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 2417.56,
+    "position_size_pct": 0.0237,
+    "confidence": 0.62,
+    "signals": [
+      "RSI oversold (23.8)",
+      "1d momentum -0.60%",
+      "BB oversold (pct_b=0.07)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
