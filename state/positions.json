@@ -146,8 +146,8 @@
     "mode": "paper",
     "strategy_version": "175",
     "status": "open",
-    "price_peak": 0.8347100019454956,
-    "trailing_stop_price": 0.828032
+    "price_peak": 0.8354700207710266,
+    "trailing_stop_price": 0.828786
   },
   "IWM": {
     "id": "IWM_20261109204414",
@@ -197,8 +197,8 @@
     "mode": "paper",
     "strategy_version": "177",
     "status": "open",
-    "price_trough": 1.0264999866485596,
-    "trailing_stop_price": 1.040204
+    "price_trough": 1.0245000123977661,
+    "trailing_stop_price": 1.038177
   },
   "ORCL": {
     "id": "ORCL_20261111180108",
@@ -331,56 +331,6 @@
     "price_trough": 233.77999877929688,
     "trailing_stop_price": 237.286699
   },
-  "BNB-USD": {
-    "id": "BNB-USD_20261112001337",
-    "asset": "BNB-USD",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 678.1199951171875,
-    "entry_time": "2026-11-12T00:13:37.801555+00:00",
-    "stop_loss_pct": 0.01321,
-    "take_profit_pct": 0.04301,
-    "size_usd": 4933.28,
-    "position_size_pct": 0.049,
-    "confidence": 0.51,
-    "signals": [
-      "RSI oversold (44.6)",
-      "5d momentum -1.02%",
-      "Volume spike 7.0\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "179",
-    "status": "open",
-    "price_trough": 653.25,
-    "trailing_stop_price": 661.879433
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20261112155941",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 71619.7734375,
-    "entry_time": "2026-11-12T15:59:41.171858+00:00",
-    "stop_loss_pct": 0.0058,
-    "take_profit_pct": 0.01425,
-    "size_usd": 5887.61,
-    "position_size_pct": 0.0582,
-    "confidence": 0.91,
-    "signals": [
-      "RSI oversold (11.4)",
-      "5d momentum -2.39%",
-      "1d momentum -3.10%",
-      "BB oversold (pct_b=-0.07)",
-      "Volume spike 5.8\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "179",
-    "status": "open"
-  },
   "NVDA": {
     "id": "NVDA_20261112155941",
     "asset": "NVDA",
@@ -497,6 +447,58 @@
       "RSI oversold (41.3)",
       "5d momentum +0.33%",
       "1d momentum -1.84%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "179",
+    "status": "open",
+    "price_trough": 0.06558000296354294,
+    "trailing_stop_price": 0.066137
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261113023633",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 70360.671875,
+    "entry_time": "2026-11-13T02:36:33.918704+00:00",
+    "stop_loss_pct": 0.00788,
+    "take_profit_pct": 0.01934,
+    "size_usd": 5903.48,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (10.2)",
+      "5d momentum -1.73%",
+      "1d momentum -4.91%",
+      "BB oversold (pct_b=0.04)",
+      "Volume spike 1.9\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "179",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261113023633",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 80.5999984741211,
+    "entry_time": "2026-11-13T02:36:33.919871+00:00",
+    "stop_loss_pct": 0.01005,
+    "take_profit_pct": 0.02468,
+    "size_usd": 30.17,
+    "position_size_pct": 0.0003,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (23.7)",
+      "5d momentum -1.15%",
+      "1d momentum -3.50%",
+      "BB oversold (pct_b=0.06)",
+      "Volume spike 5.0\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
