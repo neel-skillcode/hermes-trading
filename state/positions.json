@@ -245,8 +245,8 @@
     "mode": "paper",
     "strategy_version": "179",
     "status": "open",
-    "price_trough": 1902.7900390625,
-    "trailing_stop_price": 1922.293637
+    "price_trough": 1900.8299560546875,
+    "trailing_stop_price": 1920.313463
   },
   "IONQ": {
     "id": "IONQ_20261113173110",
@@ -375,31 +375,6 @@
     "strategy_version": "180",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20261113224855",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 1.0091999769210815,
-    "entry_time": "2026-11-13T22:48:55.910633+00:00",
-    "stop_loss_pct": 0.01005,
-    "take_profit_pct": 0.02292,
-    "size_usd": 3662.46,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (38.0)",
-      "5d momentum -1.05%",
-      "1d momentum -2.49%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "180",
-    "status": "open",
-    "price_trough": 0.998199999332428,
-    "trailing_stop_price": 1.008232
-  },
   "AVAX-USD": {
     "id": "AVAX-USD_20261113224855",
     "asset": "AVAX-USD",
@@ -422,8 +397,8 @@
     "mode": "paper",
     "strategy_version": "180",
     "status": "open",
-    "price_trough": 8.083000183105469,
-    "trailing_stop_price": 8.172802
+    "price_trough": 8.015999794006348,
+    "trailing_stop_price": 8.105058
   },
   "SOL-USD": {
     "id": "SOL-USD_20261114024350",
@@ -468,6 +443,52 @@
       "1d momentum -3.85%",
       "BB oversold (pct_b=-0.14)",
       "Volume spike 2.8\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "181",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261114092711",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.9858999848365784,
+    "entry_time": "2026-11-14T09:27:11.352843+00:00",
+    "stop_loss_pct": 0.00892,
+    "take_profit_pct": 0.02034,
+    "size_usd": 3661.01,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (20.3)",
+      "5d momentum -0.92%",
+      "1d momentum -4.10%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "181",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261114092711",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.06266999989748001,
+    "entry_time": "2026-11-14T09:27:11.353862+00:00",
+    "stop_loss_pct": 0.00984,
+    "take_profit_pct": 0.02244,
+    "size_usd": 35.71,
+    "position_size_pct": 0.0003,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (23.0)",
+      "5d momentum -0.48%",
+      "1d momentum -3.14%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
