@@ -3,16 +3,16 @@
   "portfolio_balance": 101958.04,
   "portfolio_peak": 108835.32,
   "portfolio_drawdown_pct": 6.32,
-  "unrealized_pnl_usd": 741.36,
-  "equity_value": 102699.4,
+  "unrealized_pnl_usd": 880.27,
+  "equity_value": 102838.31,
   "open_positions": 20,
   "day_trades_open": 11,
   "swing_trades_open": 9,
   "day_capital_used_usd": 40783.22,
   "swing_capital_used_usd": 45691.54,
   "total_trades": 2088,
-  "last_tick": "2026-11-15T13:55:45.018056+00:00",
-  "last_reflection": "2026-11-15",
+  "last_tick": "2026-11-15T19:31:51.498795+00:00",
+  "last_reflection": null,
   "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
@@ -151,8 +151,8 @@
       "mode": "paper",
       "strategy_version": "173",
       "status": "open",
-      "price_trough": 175.98599243164062,
-      "trailing_stop_price": 177.39388,
+      "price_trough": 175.86000061035156,
+      "trailing_stop_price": 177.266881,
       "current_price": 175.985992,
       "unrealized_pnl_pct": 0.005043,
       "unrealized_pnl_usd": 33.46
@@ -434,9 +434,9 @@
       "status": "open",
       "price_peak": 7.301000118255615,
       "trailing_stop_price": 7.191485,
-      "current_price": 7.296,
-      "unrealized_pnl_pct": 0.029781,
-      "unrealized_pnl_usd": 146.86
+      "current_price": 7.239,
+      "unrealized_pnl_pct": 0.021736,
+      "unrealized_pnl_usd": 107.18
     },
     {
       "id": "SOL-USD_20261115135544",
@@ -461,9 +461,11 @@
       "mode": "paper",
       "strategy_version": "182",
       "status": "open",
-      "current_price": 72.730003,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 71.66999816894531,
+      "trailing_stop_price": 72.745048,
+      "current_price": 71.650002,
+      "unrealized_pnl_pct": 0.014849,
+      "unrealized_pnl_usd": 73.64
     },
     {
       "id": "ETH-USD_20261115135544",
@@ -487,9 +489,11 @@
       "mode": "paper",
       "strategy_version": "182",
       "status": "open",
-      "current_price": 1834.829956,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 1825.6099853515625,
+      "trailing_stop_price": 1847.973708,
+      "current_price": 1824.849976,
+      "unrealized_pnl_pct": 0.005439,
+      "unrealized_pnl_usd": 19.88
     },
     {
       "id": "DOGE-USD_20261115135544",
@@ -513,9 +517,11 @@
       "mode": "paper",
       "strategy_version": "182",
       "status": "open",
-      "current_price": 0.05938,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.058970000594854355,
+      "trailing_stop_price": 0.059701,
+      "current_price": 0.05897,
+      "unrealized_pnl_pct": 0.006905,
+      "unrealized_pnl_usd": 25.23
     },
     {
       "id": "XRP-USD_20261115135544",
@@ -539,9 +545,11 @@
       "mode": "paper",
       "strategy_version": "182",
       "status": "open",
-      "current_price": 0.9716,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 0.9577000141143799,
+      "trailing_stop_price": 0.971826,
+      "current_price": 0.9572,
+      "unrealized_pnl_pct": 0.014821,
+      "unrealized_pnl_usd": 54.16
     },
     {
       "id": "BTC-USD_20261115135544",
@@ -565,9 +573,11 @@
       "mode": "paper",
       "strategy_version": "182",
       "status": "open",
-      "current_price": 65468.101562,
-      "unrealized_pnl_pct": 0.0,
-      "unrealized_pnl_usd": 0.0
+      "price_trough": 64950.0,
+      "trailing_stop_price": 65625.48,
+      "current_price": 64929.671875,
+      "unrealized_pnl_pct": 0.008224,
+      "unrealized_pnl_usd": 5.68
     }
   ],
   "last_candidates": [
@@ -800,7 +810,7 @@
       "momentum_5d": -0.0200984429388364,
       "momentum_1d": -0.1354711160881808,
       "macd_crossover": false,
-      "atr_pct": 0.024651482780894515,
+      "atr_pct": 0.024635424340788827,
       "bollinger_pct_b": 0.1597,
       "volume_spike": false,
       "volume_spike_ratio": 1.08,
@@ -821,23 +831,6 @@
       "bollinger_pct_b": 0.8482,
       "volume_spike": true,
       "volume_spike_ratio": 2.04,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.1,
-      "news_headlines": [],
-      "high_impact_news": false
-    },
-    {
-      "asset": "SOL-USD",
-      "rank_score": 0.4355,
-      "price": 72.7300033569336,
-      "rsi": 62.029022684753144,
-      "momentum_5d": 0.02278164439146701,
-      "momentum_1d": -0.035922574188375654,
-      "macd_crossover": false,
-      "atr_pct": 0.01684312659709673,
-      "bollinger_pct_b": 0.8526,
-      "volume_spike": false,
-      "volume_spike_ratio": 0.51,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],
@@ -906,6 +899,23 @@
       "bollinger_pct_b": 0.1702,
       "volume_spike": false,
       "volume_spike_ratio": 0.64,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
+      "asset": "IONQ",
+      "rank_score": 0.4087,
+      "price": 28.860000610351562,
+      "rsi": 11.365545395222199,
+      "momentum_5d": 0.0013879568338277086,
+      "momentum_1d": -0.16757997881286,
+      "macd_crossover": false,
+      "atr_pct": 0.026666908617892268,
+      "bollinger_pct_b": 0.2167,
+      "volume_spike": false,
+      "volume_spike_ratio": 0.87,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],
