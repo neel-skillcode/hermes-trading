@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2251499891281128,
-    "trailing_stop_price": 1.234951
+    "price_trough": 1.2249200344085693,
+    "trailing_stop_price": 1.234719
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -71,8 +71,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 210.968994140625,
-    "trailing_stop_price": 212.656746
+    "price_trough": 210.6280059814453,
+    "trailing_stop_price": 212.31303
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261105165140",
@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 175.98599243164062,
-    "trailing_stop_price": 177.39388
+    "price_trough": 175.75900268554688,
+    "trailing_stop_price": 177.165075
   },
   "USD/CHF": {
     "id": "USD/CHF_20261109023147",
@@ -146,8 +146,8 @@
     "mode": "paper",
     "strategy_version": "175",
     "status": "open",
-    "price_peak": 0.8392199873924255,
-    "trailing_stop_price": 0.832506
+    "price_peak": 0.8404600024223328,
+    "trailing_stop_price": 0.833736
   },
   "IWM": {
     "id": "IWM_20261109204414",
@@ -219,8 +219,8 @@
     "mode": "paper",
     "strategy_version": "179",
     "status": "open",
-    "price_trough": 0.6774150133132935,
-    "trailing_stop_price": 0.682834
+    "price_trough": 0.6759039759635925,
+    "trailing_stop_price": 0.681311
   },
   "IONQ": {
     "id": "IONQ_20261113173110",
@@ -349,32 +349,6 @@
     "strategy_version": "180",
     "status": "open"
   },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261115000235",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 7.085000038146973,
-    "entry_time": "2026-11-15T00:02:35.771949+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4931.18,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (9.5)",
-      "5d momentum -7.63%",
-      "1d momentum -15.42%",
-      "BB oversold (pct_b=-0.13)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "182",
-    "status": "open",
-    "price_peak": 7.301000118255615,
-    "trailing_stop_price": 7.191485
-  },
   "SOL-USD": {
     "id": "SOL-USD_20261115135544",
     "asset": "SOL-USD",
@@ -397,7 +371,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "182",
-    "status": "open"
+    "status": "open",
+    "price_trough": 71.3499984741211,
+    "trailing_stop_price": 72.420248
   },
   "ETH-USD": {
     "id": "ETH-USD_20261115135544",
@@ -420,7 +396,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "182",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1803.27001953125,
+    "trailing_stop_price": 1825.360077
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261115135544",
@@ -443,7 +421,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "182",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.05852999910712242,
+    "trailing_stop_price": 0.059255
   },
   "XRP-USD": {
     "id": "XRP-USD_20261115135544",
@@ -466,7 +446,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "182",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.949999988079071,
+    "trailing_stop_price": 0.964012
   },
   "BTC-USD": {
     "id": "BTC-USD_20261115135544",
@@ -489,6 +471,33 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "182",
+    "status": "open",
+    "price_trough": 64428.12109375,
+    "trailing_stop_price": 65098.173553
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261116104749",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 7.0970001220703125,
+    "entry_time": "2026-11-16T10:47:49.638620+00:00",
+    "stop_loss_pct": 0.01288,
+    "take_profit_pct": 0.03162,
+    "size_usd": 4934.52,
+    "position_size_pct": 0.0484,
+    "confidence": 0.91,
+    "signals": [
+      "RSI oversold (35.4)",
+      "5d momentum -0.56%",
+      "1d momentum -2.34%",
+      "BB oversold (pct_b=0.08)",
+      "Volume spike 250.0\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "183",
     "status": "open"
   }
 }
