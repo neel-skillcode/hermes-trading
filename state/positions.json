@@ -71,8 +71,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 210.21400451660156,
-    "trailing_stop_price": 211.895717
+    "price_trough": 209.9969940185547,
+    "trailing_stop_price": 211.67697
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261105165140",
@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 175.38800048828125,
-    "trailing_stop_price": 176.791104
+    "price_trough": 175.01100158691406,
+    "trailing_stop_price": 176.41109
   },
   "USD/CHF": {
     "id": "USD/CHF_20261109023147",
@@ -199,32 +199,6 @@
     "price_trough": 0.6736274361610413,
     "trailing_stop_price": 0.679016
   },
-  "SOL-USD": {
-    "id": "SOL-USD_20261115135544",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 72.7300033569336,
-    "entry_time": "2026-11-15T13:55:44.364480+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0357,
-    "size_usd": 4959.24,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (62.0)",
-      "5d momentum +2.28%",
-      "1d momentum -3.59%",
-      "BB overbought (pct_b=0.85)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "182",
-    "status": "open",
-    "price_trough": 71.29000091552734,
-    "trailing_stop_price": 72.359351
-  },
   "ETH-USD": {
     "id": "ETH-USD_20261115135544",
     "asset": "ETH-USD",
@@ -249,31 +223,6 @@
     "status": "open",
     "price_trough": 1803.27001953125,
     "trailing_stop_price": 1825.360077
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20261115135544",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.9715999960899353,
-    "entry_time": "2026-11-15T13:55:44.367287+00:00",
-    "stop_loss_pct": 0.01475,
-    "take_profit_pct": 0.03363,
-    "size_usd": 3654.18,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI overbought (70.0)",
-      "5d momentum +1.58%",
-      "1d momentum -2.36%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "182",
-    "status": "open",
-    "price_trough": 0.949999988079071,
-    "trailing_stop_price": 0.964012
   },
   "BTC-USD": {
     "id": "BTC-USD_20261115135544",
@@ -324,8 +273,8 @@
     "mode": "paper",
     "strategy_version": "183",
     "status": "open",
-    "price_peak": 7.139999866485596,
-    "trailing_stop_price": 7.048037
+    "price_peak": 7.22599983215332,
+    "trailing_stop_price": 7.132929
   },
   "PLTR": {
     "id": "PLTR_20261116204159",
@@ -349,7 +298,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "183",
-    "status": "open"
+    "status": "open",
+    "price_peak": 160.38999938964844,
+    "trailing_stop_price": 157.984149
   },
   "HOOD": {
     "id": "HOOD_20261116204159",
@@ -396,7 +347,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "183",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.9566600322723389,
+    "trailing_stop_price": 1.972313
   },
   "NVDA": {
     "id": "NVDA_20261116204159",
@@ -420,7 +373,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "183",
-    "status": "open"
+    "status": "open",
+    "price_peak": 156.13999938964844,
+    "trailing_stop_price": 153.797899
   },
   "RXRX": {
     "id": "RXRX_20261116204159",
@@ -485,6 +440,56 @@
       "RSI oversold (17.5)",
       "5d momentum -1.71%",
       "1d momentum -11.21%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "183",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261117114814",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.9674999713897705,
+    "entry_time": "2026-11-17T11:48:14.771482+00:00",
+    "stop_loss_pct": 0.00841,
+    "take_profit_pct": 0.02078,
+    "size_usd": 6057.09,
+    "position_size_pct": 0.0602,
+    "confidence": 0.94,
+    "signals": [
+      "MACD crossover",
+      "5d momentum +0.97%",
+      "1d momentum +1.29%",
+      "BB overbought (pct_b=1.04)",
+      "Volume spike 4.4\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "183",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261117114814",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 73.2699966430664,
+    "entry_time": "2026-11-17T11:48:14.772885+00:00",
+    "stop_loss_pct": 0.0096,
+    "take_profit_pct": 0.02357,
+    "size_usd": 2546.75,
+    "position_size_pct": 0.0253,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (62.9)",
+      "5d momentum +0.92%",
+      "1d momentum +2.76%",
+      "BB overbought (pct_b=0.98)",
+      "Volume spike 3.4\u00d7"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
