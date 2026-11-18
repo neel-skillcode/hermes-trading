@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2245700359344482,
-    "trailing_stop_price": 1.234367
+    "price_trough": 1.223870038986206,
+    "trailing_stop_price": 1.233661
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -171,8 +171,8 @@
     "mode": "paper",
     "strategy_version": "179",
     "status": "open",
-    "price_trough": 0.673445999622345,
-    "trailing_stop_price": 0.678834
+    "price_trough": 0.6724949479103088,
+    "trailing_stop_price": 0.677875
   },
   "ETH-USD": {
     "id": "ETH-USD_20261115135544",
@@ -247,62 +247,8 @@
     "mode": "paper",
     "strategy_version": "183",
     "status": "open",
-    "price_trough": 11.920000076293945,
-    "trailing_stop_price": 12.054338
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20261117114814",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.9674999713897705,
-    "entry_time": "2026-11-17T11:48:14.771482+00:00",
-    "stop_loss_pct": 0.00841,
-    "take_profit_pct": 0.02078,
-    "size_usd": 6057.09,
-    "position_size_pct": 0.0602,
-    "confidence": 0.94,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +0.97%",
-      "1d momentum +1.29%",
-      "BB overbought (pct_b=1.04)",
-      "Volume spike 4.4\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "183",
-    "status": "open",
-    "price_trough": 0.9638000130653381,
-    "trailing_stop_price": 0.971906
-  },
-  "SOL-USD": {
-    "id": "SOL-USD_20261117114814",
-    "asset": "SOL-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 73.2699966430664,
-    "entry_time": "2026-11-17T11:48:14.772885+00:00",
-    "stop_loss_pct": 0.0096,
-    "take_profit_pct": 0.02357,
-    "size_usd": 2546.75,
-    "position_size_pct": 0.0253,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (62.9)",
-      "5d momentum +0.92%",
-      "1d momentum +2.76%",
-      "BB overbought (pct_b=0.98)",
-      "Volume spike 3.4\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "183",
-    "status": "open",
-    "price_trough": 72.69999694824219,
-    "trailing_stop_price": 73.397917
+    "price_trough": 11.88,
+    "trailing_stop_price": 12.013888
   },
   "NKE": {
     "id": "NKE_20261117200418",
@@ -326,7 +272,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "184",
-    "status": "open"
+    "status": "open",
+    "price_peak": 35.85,
+    "trailing_stop_price": 35.31225
   },
   "BMY": {
     "id": "BMY_20261117200418",
@@ -351,7 +299,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "184",
-    "status": "open"
+    "status": "open",
+    "price_peak": 61.35,
+    "trailing_stop_price": 60.769629
   },
   "NVDA": {
     "id": "NVDA_20261117200418",
@@ -376,30 +326,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "184",
-    "status": "open"
-  },
-  "RXRX": {
-    "id": "RXRX_20261117200418",
-    "asset": "RXRX",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 2.6549999713897705,
-    "entry_time": "2026-11-17T20:04:18.549254+00:00",
-    "stop_loss_pct": 0.015,
-    "take_profit_pct": 0.0342,
-    "size_usd": 3617.75,
-    "position_size_pct": 0.0358,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (8.8)",
-      "5d momentum -5.85%",
-      "1d momentum -22.79%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "184",
-    "status": "open"
+    "status": "open",
+    "price_peak": 155.46,
+    "trailing_stop_price": 153.1281
   },
   "SLB": {
     "id": "SLB_20261117200418",
@@ -447,7 +376,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "184",
-    "status": "open"
+    "status": "open",
+    "price_peak": 24.14,
+    "trailing_stop_price": 23.7779
   },
   "TLT": {
     "id": "TLT_20261117200418",
@@ -470,6 +401,8 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "184",
-    "status": "open"
+    "status": "open",
+    "price_trough": 79.55,
+    "trailing_stop_price": 80.1864
   }
 }
