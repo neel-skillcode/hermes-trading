@@ -71,8 +71,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 209.9969940185547,
-    "trailing_stop_price": 211.67697
+    "price_trough": 209.70700073242188,
+    "trailing_stop_price": 211.384657
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261105165140",
@@ -121,8 +121,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 175.01100158691406,
-    "trailing_stop_price": 176.41109
+    "price_trough": 174.72000122070312,
+    "trailing_stop_price": 176.117761
   },
   "USD/CHF": {
     "id": "USD/CHF_20261109023147",
@@ -146,8 +146,8 @@
     "mode": "paper",
     "strategy_version": "175",
     "status": "open",
-    "price_peak": 0.8404600024223328,
-    "trailing_stop_price": 0.833736
+    "price_peak": 0.8416699767112732,
+    "trailing_stop_price": 0.834937
   },
   "AUD/USD": {
     "id": "AUD/USD_20261112220954",
@@ -327,8 +327,8 @@
     "mode": "paper",
     "strategy_version": "184",
     "status": "open",
-    "price_peak": 155.46,
-    "trailing_stop_price": 153.1281
+    "price_peak": 155.4600067138672,
+    "trailing_stop_price": 153.128107
   },
   "SLB": {
     "id": "SLB_20261117200418",
@@ -404,5 +404,76 @@
     "status": "open",
     "price_trough": 79.55,
     "trailing_stop_price": 80.1864
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261118102144",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.9995999932289124,
+    "entry_time": "2026-11-18T10:21:44.406393+00:00",
+    "stop_loss_pct": 0.00847,
+    "take_profit_pct": 0.02016,
+    "size_usd": 4902.01,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (78.0)",
+      "5d momentum +1.56%",
+      "1d momentum +4.59%",
+      "BB overbought (pct_b=0.90)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "185",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20261118102144",
+    "asset": "USD/NOK",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 9.686260223388672,
+    "entry_time": "2026-11-18T10:21:44.408076+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 4902.01,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (75.3)",
+      "5d momentum +0.47%",
+      "1d momentum +0.45%",
+      "BB overbought (pct_b=0.96)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "185",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261118102144",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 74.80999755859375,
+    "entry_time": "2026-11-18T10:21:44.409797+00:00",
+    "stop_loss_pct": 0.00829,
+    "take_profit_pct": 0.01889,
+    "size_usd": 2353.47,
+    "position_size_pct": 0.0234,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (64.6)",
+      "5d momentum -0.32%",
+      "1d momentum +3.82%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "185",
+    "status": "open"
   }
 }
