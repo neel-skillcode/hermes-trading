@@ -45,8 +45,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 1.2176400423049927,
-    "trailing_stop_price": 1.227381
+    "price_trough": 1.2175400257110596,
+    "trailing_stop_price": 1.22728
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261104080642",
@@ -226,30 +226,6 @@
     "price_peak": 36.70000076293945,
     "trailing_stop_price": 36.149501
   },
-  "USD/NOK": {
-    "id": "USD/NOK_20261118102144",
-    "asset": "USD/NOK",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 9.686260223388672,
-    "entry_time": "2026-11-18T10:21:44.408076+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 4902.01,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (75.3)",
-      "5d momentum +0.47%",
-      "1d momentum +0.45%",
-      "BB overbought (pct_b=0.96)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "185",
-    "status": "open"
-  },
   "QCOM": {
     "id": "QCOM_20261118185502",
     "asset": "QCOM",
@@ -420,7 +396,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "185",
-    "status": "open"
+    "status": "open",
+    "price_peak": 74.69999694824219,
+    "trailing_stop_price": 72.621096
   },
   "XRP-USD": {
     "id": "XRP-USD_20261119005309",
@@ -438,6 +416,32 @@
       "RSI oversold (23.3)",
       "5d momentum -0.37%",
       "BB oversold (pct_b=0.14)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "185",
+    "status": "open",
+    "price_peak": 0.9800999760627747,
+    "trailing_stop_price": 0.951834
+  },
+  "ETH-USD": {
+    "id": "ETH-USD_20261119080638",
+    "asset": "ETH-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1802.239990234375,
+    "entry_time": "2026-11-19T08:06:38.291503+00:00",
+    "stop_loss_pct": 0.00766,
+    "take_profit_pct": 0.01823,
+    "size_usd": 4895.27,
+    "position_size_pct": 0.0484,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (64.3)",
+      "5d momentum +0.58%",
+      "1d momentum -0.41%",
+      "BB overbought (pct_b=0.85)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
