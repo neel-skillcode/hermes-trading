@@ -46,8 +46,8 @@
     "mode": "paper",
     "strategy_version": "171",
     "status": "open",
-    "price_trough": 208.63600158691406,
-    "trailing_stop_price": 210.30509
+    "price_trough": 208.25100708007812,
+    "trailing_stop_price": 209.917015
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261105165140",
@@ -96,8 +96,8 @@
     "mode": "paper",
     "strategy_version": "173",
     "status": "open",
-    "price_trough": 174.72000122070312,
-    "trailing_stop_price": 176.117761
+    "price_trough": 174.4219970703125,
+    "trailing_stop_price": 175.817373
   },
   "AUD/USD": {
     "id": "AUD/USD_20261112220954",
@@ -202,31 +202,6 @@
     "status": "open",
     "price_trough": 165.92999267578125,
     "trailing_stop_price": 168.219827
-  },
-  "XRP-USD": {
-    "id": "XRP-USD_20261119005309",
-    "asset": "XRP-USD",
-    "trade_type": "swing",
-    "direction": "long",
-    "entry_price": 0.9661999940872192,
-    "entry_time": "2026-11-19T00:53:09.785511+00:00",
-    "stop_loss_pct": 0.02884,
-    "take_profit_pct": 0.09458,
-    "size_usd": 4732.56,
-    "position_size_pct": 0.0468,
-    "confidence": 0.56,
-    "signals": [
-      "RSI oversold (23.3)",
-      "5d momentum -0.37%",
-      "BB oversold (pct_b=0.14)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "185",
-    "status": "open",
-    "price_peak": 0.9800999760627747,
-    "trailing_stop_price": 0.951834
   },
   "RIVN": {
     "id": "RIVN_20261119171953",
@@ -446,6 +421,29 @@
       "RSI oversold (18.2)",
       "5d momentum -0.34%",
       "BB oversold (pct_b=0.00)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "186",
+    "status": "open"
+  },
+  "USD/CHF": {
+    "id": "USD/CHF_20261120130239",
+    "asset": "USD/CHF",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 0.8398799896240234,
+    "entry_time": "2026-11-20T13:02:39.131090+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 4682.6,
+    "position_size_pct": 0.0465,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (27.3)",
+      "5d momentum -0.36%",
+      "BB oversold (pct_b=-0.09)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],

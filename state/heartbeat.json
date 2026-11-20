@@ -1,19 +1,19 @@
 {
   "status": "running",
-  "portfolio_balance": 100865.46,
+  "portfolio_balance": 100765.54,
   "portfolio_peak": 108835.32,
-  "portfolio_drawdown_pct": 7.32,
-  "unrealized_pnl_usd": 479.0,
-  "equity_value": 101344.46,
+  "portfolio_drawdown_pct": 7.41,
+  "unrealized_pnl_usd": 481.25,
+  "equity_value": 101246.79,
   "open_positions": 18,
   "day_trades_open": 8,
   "swing_trades_open": 10,
   "day_capital_used_usd": 40374.71,
-  "swing_capital_used_usd": 50432.73,
-  "total_trades": 2128,
-  "last_tick": "2026-11-20T04:16:06.598361+00:00",
-  "last_reflection": null,
-  "trades_since_last_reflection": 9,
+  "swing_capital_used_usd": 50382.77,
+  "total_trades": 2129,
+  "last_tick": "2026-11-20T13:02:39.780421+00:00",
+  "last_reflection": "2026-11-20",
+  "trades_since_last_reflection": 0,
   "universe_scanned": 110,
   "market_open": false,
   "open_position_list": [
@@ -40,9 +40,9 @@
       "status": "open",
       "price_peak": 7.848400115966797,
       "trailing_stop_price": 7.785613,
-      "current_price": 7.8419,
-      "unrealized_pnl_pct": 0.00097,
-      "unrealized_pnl_usd": 1.3
+      "current_price": 7.83851,
+      "unrealized_pnl_pct": 0.000537,
+      "unrealized_pnl_usd": 0.72
     },
     {
       "id": "GBP/JPY_20261104080642",
@@ -67,11 +67,11 @@
       "mode": "paper",
       "strategy_version": "171",
       "status": "open",
-      "price_trough": 208.63600158691406,
-      "trailing_stop_price": 210.30509,
-      "current_price": 208.619003,
-      "unrealized_pnl_pct": 0.020996,
-      "unrealized_pnl_usd": 160.14
+      "price_trough": 208.25100708007812,
+      "trailing_stop_price": 209.917015,
+      "current_price": 208.257996,
+      "unrealized_pnl_pct": 0.02269,
+      "unrealized_pnl_usd": 173.06
     },
     {
       "id": "EUR/CHF_20261105165140",
@@ -97,9 +97,9 @@
       "status": "open",
       "price_peak": 0.9257100224494934,
       "trailing_stop_price": 0.918304,
-      "current_price": 0.92473,
-      "unrealized_pnl_pct": 0.01122,
-      "unrealized_pnl_usd": 62.39
+      "current_price": 0.92284,
+      "unrealized_pnl_pct": 0.009153,
+      "unrealized_pnl_usd": 50.89
     },
     {
       "id": "EUR/JPY_20261106095343",
@@ -123,11 +123,11 @@
       "mode": "paper",
       "strategy_version": "173",
       "status": "open",
-      "price_trough": 174.72000122070312,
-      "trailing_stop_price": 176.117761,
-      "current_price": 174.764008,
-      "unrealized_pnl_pct": 0.011952,
-      "unrealized_pnl_usd": 79.3
+      "price_trough": 174.4219970703125,
+      "trailing_stop_price": 175.817373,
+      "current_price": 174.412003,
+      "unrealized_pnl_pct": 0.013942,
+      "unrealized_pnl_usd": 92.5
     },
     {
       "id": "AUD/USD_20261112220954",
@@ -153,9 +153,9 @@
       "status": "open",
       "price_trough": 0.6650704741477966,
       "trailing_stop_price": 0.670391,
-      "current_price": 0.666445,
-      "unrealized_pnl_pct": 0.021526,
-      "unrealized_pnl_usd": 121.39
+      "current_price": 0.666889,
+      "unrealized_pnl_pct": 0.020874,
+      "unrealized_pnl_usd": 117.71
     },
     {
       "id": "GBP/AUD_20261116204159",
@@ -182,9 +182,9 @@
       "status": "open",
       "price_trough": 1.9566600322723389,
       "trailing_stop_price": 1.972313,
-      "current_price": 1.96696,
-      "unrealized_pnl_pct": -0.004853,
-      "unrealized_pnl_usd": -40.82
+      "current_price": 1.96754,
+      "unrealized_pnl_pct": -0.00515,
+      "unrealized_pnl_usd": -43.31
     },
     {
       "id": "QCOM_20261118185502",
@@ -244,34 +244,6 @@
       "current_price": 167.529999,
       "unrealized_pnl_pct": 0.02332,
       "unrealized_pnl_usd": 114.76
-    },
-    {
-      "id": "XRP-USD_20261119005309",
-      "asset": "XRP-USD",
-      "trade_type": "swing",
-      "direction": "long",
-      "entry_price": 0.9661999940872192,
-      "entry_time": "2026-11-19T00:53:09.785511+00:00",
-      "stop_loss_pct": 0.02884,
-      "take_profit_pct": 0.09458,
-      "size_usd": 4732.56,
-      "position_size_pct": 0.0468,
-      "confidence": 0.56,
-      "signals": [
-        "RSI oversold (23.3)",
-        "5d momentum -0.37%",
-        "BB oversold (pct_b=0.14)"
-      ],
-      "news_sentiment": 0.0,
-      "news_headlines": [],
-      "mode": "paper",
-      "strategy_version": "185",
-      "status": "open",
-      "price_peak": 0.9800999760627747,
-      "trailing_stop_price": 0.951834,
-      "current_price": 0.9609,
-      "unrealized_pnl_pct": -0.005485,
-      "unrealized_pnl_usd": -25.96
     },
     {
       "id": "RIVN_20261119171953",
@@ -411,9 +383,9 @@
       "mode": "paper",
       "strategy_version": "186",
       "status": "open",
-      "current_price": 1.10404,
-      "unrealized_pnl_pct": -0.000597,
-      "unrealized_pnl_usd": -3.24
+      "current_price": 1.10195,
+      "unrealized_pnl_pct": -0.002489,
+      "unrealized_pnl_usd": -13.5
     },
     {
       "id": "SBUX_20261119171953",
@@ -467,9 +439,9 @@
       "status": "open",
       "price_peak": 61780.140625,
       "trailing_stop_price": 61147.511985,
-      "current_price": 61773.96875,
-      "unrealized_pnl_pct": 0.000738,
-      "unrealized_pnl_usd": 4.34
+      "current_price": 61579.171875,
+      "unrealized_pnl_pct": -0.002418,
+      "unrealized_pnl_usd": -14.21
     },
     {
       "id": "ETH-USD_20261119233903",
@@ -495,9 +467,9 @@
       "mode": "paper",
       "strategy_version": "186",
       "status": "open",
-      "current_price": 1734.51001,
-      "unrealized_pnl_pct": -0.007331,
-      "unrealized_pnl_usd": -27.06
+      "current_price": 1740.030029,
+      "unrealized_pnl_pct": -0.004172,
+      "unrealized_pnl_usd": -15.4
     },
     {
       "id": "USD/JPY_20261120041606",
@@ -521,7 +493,33 @@
       "mode": "paper",
       "strategy_version": "186",
       "status": "open",
-      "current_price": 159.190002,
+      "current_price": 158.725998,
+      "unrealized_pnl_pct": -0.002915,
+      "unrealized_pnl_usd": -14.44
+    },
+    {
+      "id": "USD/CHF_20261120130239",
+      "asset": "USD/CHF",
+      "trade_type": "swing",
+      "direction": "long",
+      "entry_price": 0.8398799896240234,
+      "entry_time": "2026-11-20T13:02:39.131090+00:00",
+      "stop_loss_pct": 0.008,
+      "take_profit_pct": 0.02624,
+      "size_usd": 4682.6,
+      "position_size_pct": 0.0465,
+      "confidence": 0.56,
+      "signals": [
+        "RSI oversold (27.3)",
+        "5d momentum -0.36%",
+        "BB oversold (pct_b=-0.09)"
+      ],
+      "news_sentiment": 0.0,
+      "news_headlines": [],
+      "mode": "paper",
+      "strategy_version": "186",
+      "status": "open",
+      "current_price": 0.83988,
       "unrealized_pnl_pct": 0.0,
       "unrealized_pnl_usd": 0.0
     }
@@ -552,7 +550,7 @@
       "momentum_5d": -0.027229002916423443,
       "momentum_1d": -0.03676639275459078,
       "macd_crossover": false,
-      "atr_pct": 0.01001425281174975,
+      "atr_pct": 0.010007329652661708,
       "bollinger_pct_b": -0.1618,
       "volume_spike": true,
       "volume_spike_ratio": 4.96,
@@ -579,6 +577,23 @@
       "high_impact_news": false
     },
     {
+      "asset": "AMAT",
+      "rank_score": 0.6517,
+      "price": 338.7799987792969,
+      "rsi": 38.41801559260427,
+      "momentum_5d": -0.05038473422235544,
+      "momentum_1d": -0.037050732833032944,
+      "macd_crossover": false,
+      "atr_pct": 0.02381238065820275,
+      "bollinger_pct_b": 0.0293,
+      "volume_spike": true,
+      "volume_spike_ratio": 2.11,
+      "news_sentiment": 0.0,
+      "news_confidence": 0.1,
+      "news_headlines": [],
+      "high_impact_news": false
+    },
+    {
       "asset": "META",
       "rank_score": 0.6497,
       "price": 596.1900024414062,
@@ -590,23 +605,6 @@
       "bollinger_pct_b": -0.0811,
       "volume_spike": true,
       "volume_spike_ratio": 1.65,
-      "news_sentiment": 0.0,
-      "news_confidence": 0.1,
-      "news_headlines": [],
-      "high_impact_news": false
-    },
-    {
-      "asset": "AMAT",
-      "rank_score": 0.6493,
-      "price": 338.8500061035156,
-      "rsi": 38.51352264952527,
-      "momentum_5d": -0.05018850060752011,
-      "momentum_1d": -0.0368517438083099,
-      "macd_crossover": false,
-      "atr_pct": 0.023807460956201475,
-      "bollinger_pct_b": 0.0321,
-      "volume_spike": true,
-      "volume_spike_ratio": 2.11,
       "news_sentiment": 0.0,
       "news_confidence": 0.1,
       "news_headlines": [],
@@ -665,14 +663,14 @@
     },
     {
       "asset": "NVDA",
-      "rank_score": 0.6177,
+      "rank_score": 0.6176,
       "price": 146.0,
-      "rsi": 22.167040986194422,
+      "rsi": 22.186602557254545,
       "momentum_5d": -0.0472455198934951,
       "momentum_1d": -0.05888416431041553,
       "macd_crossover": false,
-      "atr_pct": 0.020151179364049508,
-      "bollinger_pct_b": -0.0933,
+      "atr_pct": 0.020116884414463826,
+      "bollinger_pct_b": -0.093,
       "volume_spike": false,
       "volume_spike_ratio": 0.59,
       "news_sentiment": 0.0,
@@ -701,11 +699,11 @@
       "asset": "SPY",
       "rank_score": 0.6086,
       "price": 715.780029296875,
-      "rsi": 19.392439324862636,
+      "rsi": 19.399591601748725,
       "momentum_5d": -0.018807362170150787,
       "momentum_1d": -0.033461121777318435,
       "macd_crossover": false,
-      "atr_pct": 0.00933546250532029,
+      "atr_pct": 0.009334963061895171,
       "bollinger_pct_b": -0.0997,
       "volume_spike": true,
       "volume_spike_ratio": 1.68,
@@ -790,7 +788,7 @@
       "momentum_5d": -0.014613550698578868,
       "momentum_1d": -0.04964153612882224,
       "macd_crossover": false,
-      "atr_pct": 0.01200782241243671,
+      "atr_pct": 0.012036400097203992,
       "bollinger_pct_b": 0.0535,
       "volume_spike": true,
       "volume_spike_ratio": 1.83,
@@ -824,7 +822,7 @@
       "momentum_5d": -0.01758815200491328,
       "momentum_1d": -0.08031517059911301,
       "macd_crossover": false,
-      "atr_pct": 0.01638402565226732,
+      "atr_pct": 0.01632599610414433,
       "bollinger_pct_b": 0.2188,
       "volume_spike": true,
       "volume_spike_ratio": 2.01,
@@ -842,7 +840,7 @@
       "momentum_1d": -0.03521684310981812,
       "macd_crossover": false,
       "atr_pct": 0.011233222624664004,
-      "bollinger_pct_b": -0.0001,
+      "bollinger_pct_b": -0.0,
       "volume_spike": true,
       "volume_spike_ratio": 1.54,
       "news_sentiment": 0.0,
