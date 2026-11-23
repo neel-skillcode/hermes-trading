@@ -246,8 +246,8 @@
     "mode": "paper",
     "strategy_version": "188",
     "status": "open",
-    "price_trough": 1.9770499467849731,
-    "trailing_stop_price": 1.981004
+    "price_trough": 1.9756100177764893,
+    "trailing_stop_price": 1.979561
   },
   "AUD/USD": {
     "id": "AUD/USD_20261121093933",
@@ -270,7 +270,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "188",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.663658082485199,
+    "trailing_stop_price": 0.662331
   },
   "BTC-USD": {
     "id": "BTC-USD_20261121165655",
@@ -294,8 +296,8 @@
     "mode": "paper",
     "strategy_version": "188",
     "status": "open",
-    "price_peak": 60791.421875,
-    "trailing_stop_price": 59923.928285
+    "price_peak": 60806.76953125,
+    "trailing_stop_price": 59939.05693
   },
   "ETH-USD": {
     "id": "ETH-USD_20261121165655",
@@ -346,8 +348,8 @@
     "mode": "paper",
     "strategy_version": "188",
     "status": "open",
-    "price_trough": 0.9247000217437744,
-    "trailing_stop_price": 0.938571
+    "price_trough": 0.919700026512146,
+    "trailing_stop_price": 0.933496
   },
   "SOL-USD": {
     "id": "SOL-USD_20261121165655",
@@ -396,33 +398,8 @@
     "mode": "paper",
     "strategy_version": "189",
     "status": "open",
-    "price_trough": 1.6569000482559204,
-    "trailing_stop_price": 1.660214
-  },
-  "AVAX-USD": {
-    "id": "AVAX-USD_20261122094118",
-    "asset": "AVAX-USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 6.610000133514404,
-    "entry_time": "2026-11-22T09:41:18.312152+00:00",
-    "stop_loss_pct": 0.00664,
-    "take_profit_pct": 0.01524,
-    "size_usd": 3755.76,
-    "position_size_pct": 0.0378,
-    "confidence": 0.59,
-    "signals": [
-      "MACD crossover",
-      "5d momentum +1.43%",
-      "1d momentum +3.54%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "189",
-    "status": "open",
-    "price_peak": 6.671999931335449,
-    "trailing_stop_price": 6.627698
+    "price_trough": 1.6551400423049927,
+    "trailing_stop_price": 1.65845
   },
   "BNB-USD": {
     "id": "BNB-USD_20261122172358",
@@ -465,6 +442,54 @@
       "5d momentum -0.35%",
       "1d momentum -1.20%",
       "BB oversold (pct_b=0.12)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "190",
+    "status": "open",
+    "price_peak": 105.4489974975586,
+    "trailing_stop_price": 105.176939
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261123030620",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 6.619999885559082,
+    "entry_time": "2026-11-23T03:06:20.372746+00:00",
+    "stop_loss_pct": 0.0056,
+    "take_profit_pct": 0.01276,
+    "size_usd": 3568.32,
+    "position_size_pct": 0.0358,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (37.8)",
+      "5d momentum -0.72%",
+      "1d momentum +0.82%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "190",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261123030620",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.05477999895811081,
+    "entry_time": "2026-11-23T03:06:20.373817+00:00",
+    "stop_loss_pct": 0.00579,
+    "take_profit_pct": 0.01321,
+    "size_usd": 190.17,
+    "position_size_pct": 0.0019,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (40.1)",
+      "5d momentum -0.69%",
+      "1d momentum -0.54%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
