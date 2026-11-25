@@ -98,31 +98,6 @@
     "price_peak": 0.5486366152763367,
     "trailing_stop_price": 0.544248
   },
-  "AUD/USD": {
-    "id": "AUD/USD_20261121093933",
-    "asset": "AUD/USD",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.6619009971618652,
-    "entry_time": "2026-11-21T09:39:33.250602+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00462,
-    "size_usd": 3928.64,
-    "position_size_pct": 0.0397,
-    "confidence": 0.62,
-    "signals": [
-      "RSI oversold (25.2)",
-      "1d momentum -0.57%",
-      "BB oversold (pct_b=0.10)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "188",
-    "status": "open",
-    "price_peak": 0.6644518375396729,
-    "trailing_stop_price": 0.663123
-  },
   "USD/SEK": {
     "id": "USD/SEK_20261123121911",
     "asset": "USD/SEK",
@@ -193,8 +168,8 @@
     "mode": "paper",
     "strategy_version": "191",
     "status": "open",
-    "price_trough": 59614.44921875,
-    "trailing_stop_price": 60014.462173
+    "price_trough": 59427.76953125,
+    "trailing_stop_price": 59826.529865
   },
   "ETH-USD": {
     "id": "ETH-USD_20261124094317",
@@ -218,8 +193,8 @@
     "mode": "paper",
     "strategy_version": "191",
     "status": "open",
-    "price_trough": 1672.5400390625,
-    "trailing_stop_price": 1685.686204
+    "price_trough": 1663.0999755859375,
+    "trailing_stop_price": 1676.171941
   },
   "BNB-USD": {
     "id": "BNB-USD_20261124094317",
@@ -243,8 +218,8 @@
     "mode": "paper",
     "strategy_version": "191",
     "status": "open",
-    "price_trough": 547.8099975585938,
-    "trailing_stop_price": 551.32146
+    "price_trough": 542.77001953125,
+    "trailing_stop_price": 546.249175
   },
   "XLV": {
     "id": "XLV_20261124202143",
@@ -269,7 +244,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "191",
-    "status": "open"
+    "status": "open",
+    "price_trough": 184.72000122070312,
+    "trailing_stop_price": 185.89482
   },
   "MPC": {
     "id": "MPC_20261124202143",
@@ -292,7 +269,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "191",
-    "status": "open"
+    "status": "open",
+    "price_trough": 355.1600036621094,
+    "trailing_stop_price": 359.464543
   },
   "BIIB": {
     "id": "BIIB_20261124202143",
@@ -316,7 +295,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "191",
-    "status": "open"
+    "status": "open",
+    "price_trough": 269.1099853515625,
+    "trailing_stop_price": 271.949096
   },
   "REGN": {
     "id": "REGN_20261124202143",
@@ -388,6 +369,98 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "191",
+    "status": "open"
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261125033559",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 69.23999786376953,
+    "entry_time": "2026-11-25T03:35:59.685514+00:00",
+    "stop_loss_pct": 0.00839,
+    "take_profit_pct": 0.01884,
+    "size_usd": 3122.31,
+    "position_size_pct": 0.0314,
+    "confidence": 0.49,
+    "signals": [
+      "5d momentum -0.90%",
+      "1d momentum -2.89%",
+      "Volume spike 4.7\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "AVAX-USD": {
+    "id": "AVAX-USD_20261125033559",
+    "asset": "AVAX-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 6.507999897003174,
+    "entry_time": "2026-11-25T03:35:59.686520+00:00",
+    "stop_loss_pct": 0.00841,
+    "take_profit_pct": 0.01918,
+    "size_usd": 805.39,
+    "position_size_pct": 0.0081,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (44.1)",
+      "5d momentum -1.21%",
+      "1d momentum -3.81%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "AUD/USD": {
+    "id": "AUD/USD_20261125033559",
+    "asset": "AUD/USD",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 0.6615068912506104,
+    "entry_time": "2026-11-25T03:35:59.687712+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5352.53,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (39.8)",
+      "5d momentum -0.40%",
+      "BB oversold (pct_b=-0.03)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "AUD/JPY": {
+    "id": "AUD/JPY_20261125033559",
+    "asset": "AUD/JPY",
+    "trade_type": "swing",
+    "direction": "long",
+    "entry_price": 105.34600067138672,
+    "entry_time": "2026-11-25T03:35:59.688963+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.02624,
+    "size_usd": 5352.53,
+    "position_size_pct": 0.0538,
+    "confidence": 0.56,
+    "signals": [
+      "RSI oversold (44.3)",
+      "5d momentum -0.36%",
+      "BB oversold (pct_b=0.03)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
     "status": "open"
   }
 }
