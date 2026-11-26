@@ -23,31 +23,6 @@
     "price_peak": 7.848400115966797,
     "trailing_stop_price": 7.785613
   },
-  "EUR/JPY": {
-    "id": "EUR/JPY_20261106095343",
-    "asset": "EUR/JPY",
-    "trade_type": "swing",
-    "direction": "short",
-    "entry_price": 176.8780059814453,
-    "entry_time": "2026-11-06T09:53:43.572516+00:00",
-    "stop_loss_pct": 0.008,
-    "take_profit_pct": 0.02668,
-    "size_usd": 6635.0,
-    "position_size_pct": 0.0643,
-    "confidence": 0.67,
-    "signals": [
-      "RSI oversold (42.3)",
-      "MACD crossover",
-      "1d momentum -0.53%"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "173",
-    "status": "open",
-    "price_trough": 173.3699951171875,
-    "trailing_stop_price": 174.756955
-  },
   "USD/JPY": {
     "id": "USD/JPY_20261120041606",
     "asset": "USD/JPY",
@@ -120,8 +95,8 @@
     "mode": "paper",
     "strategy_version": "190",
     "status": "open",
-    "price_trough": 10.214340209960938,
-    "trailing_stop_price": 10.296055
+    "price_trough": 10.193070411682129,
+    "trailing_stop_price": 10.274615
   },
   "GBP/JPY": {
     "id": "GBP/JPY_20261124094317",
@@ -324,58 +299,6 @@
     "price_peak": 105.73100280761719,
     "trailing_stop_price": 104.885155
   },
-  "EUR/CHF": {
-    "id": "EUR/CHF_20261125132713",
-    "asset": "EUR/CHF",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.9083200097084045,
-    "entry_time": "2026-11-25T13:27:13.239472+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 4856.41,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (1.6)",
-      "5d momentum -0.51%",
-      "1d momentum -1.08%",
-      "BB oversold (pct_b=-0.05)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "192",
-    "status": "open",
-    "price_peak": 0.9117199778556824,
-    "trailing_stop_price": 0.909897
-  },
-  "GBP/CHF": {
-    "id": "GBP/CHF_20261125132713",
-    "asset": "GBP/CHF",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 1.0847400426864624,
-    "entry_time": "2026-11-25T13:27:13.241317+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 4856.41,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (2.7)",
-      "5d momentum -0.59%",
-      "1d momentum -1.10%",
-      "BB oversold (pct_b=-0.02)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "192",
-    "status": "open",
-    "price_peak": 1.0896899700164795,
-    "trailing_stop_price": 1.087511
-  },
   "USD/CHF": {
     "id": "USD/CHF_20261125132713",
     "asset": "USD/CHF",
@@ -399,8 +322,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 0.8317599892616272,
-    "trailing_stop_price": 0.830096
+    "price_peak": 0.833329975605011,
+    "trailing_stop_price": 0.831663
   },
   "ETH-USD": {
     "id": "ETH-USD_20261125223955",
@@ -472,7 +395,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "192",
-    "status": "open"
+    "status": "open",
+    "price_trough": 0.9498999714851379,
+    "trailing_stop_price": 0.960187
   },
   "DOGE-USD": {
     "id": "DOGE-USD_20261126042306",
@@ -490,6 +415,76 @@
       "RSI overbought (98.4)",
       "5d momentum +1.50%",
       "1d momentum +4.16%"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "USD/NOK": {
+    "id": "USD/NOK_20261126140540",
+    "asset": "USD/NOK",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 9.749560356140137,
+    "entry_time": "2026-11-26T14:05:40.258791+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00476,
+    "size_usd": 4866.53,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI oversold (27.8)",
+      "5d momentum -0.51%",
+      "1d momentum -0.93%",
+      "BB oversold (pct_b=-0.10)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "GBP/USD": {
+    "id": "GBP/USD_20261126140540",
+    "asset": "GBP/USD",
+    "trade_type": "swing",
+    "direction": "short",
+    "entry_price": 1.3121981620788574,
+    "entry_time": "2026-11-26T14:05:40.259664+00:00",
+    "stop_loss_pct": 0.008,
+    "take_profit_pct": 0.0266,
+    "size_usd": 6243.24,
+    "position_size_pct": 0.0624,
+    "confidence": 0.65,
+    "signals": [
+      "MACD crossover",
+      "1d momentum +0.50%",
+      "BB overbought (pct_b=0.89)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "EUR/CAD": {
+    "id": "EUR/CAD_20261126140540",
+    "asset": "EUR/CAD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 1.5633000135421753,
+    "entry_time": "2026-11-26T14:05:40.260260+00:00",
+    "stop_loss_pct": 0.002,
+    "take_profit_pct": 0.00462,
+    "size_usd": 3970.06,
+    "position_size_pct": 0.0397,
+    "confidence": 0.62,
+    "signals": [
+      "RSI overbought (78.7)",
+      "1d momentum +0.41%",
+      "BB overbought (pct_b=1.10)"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
