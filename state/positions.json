@@ -296,8 +296,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 0.6627344489097595,
-    "trailing_stop_price": 0.657433
+    "price_peak": 0.6647168397903442,
+    "trailing_stop_price": 0.659399
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20261125033559",
@@ -321,8 +321,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 105.39600372314453,
-    "trailing_stop_price": 104.552836
+    "price_peak": 105.73100280761719,
+    "trailing_stop_price": 104.885155
   },
   "EUR/CHF": {
     "id": "EUR/CHF_20261125132713",
@@ -347,8 +347,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 0.9115999937057495,
-    "trailing_stop_price": 0.909777
+    "price_peak": 0.9117199778556824,
+    "trailing_stop_price": 0.909897
   },
   "GBP/CHF": {
     "id": "GBP/CHF_20261125132713",
@@ -373,8 +373,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 1.0888999700546265,
-    "trailing_stop_price": 1.086722
+    "price_peak": 1.0896899700164795,
+    "trailing_stop_price": 1.087511
   },
   "USD/CHF": {
     "id": "USD/CHF_20261125132713",
@@ -399,33 +399,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 0.830269992351532,
-    "trailing_stop_price": 0.828609
-  },
-  "BTC-USD": {
-    "id": "BTC-USD_20261125223955",
-    "asset": "BTC-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 60143.73828125,
-    "entry_time": "2026-11-25T22:39:55.647645+00:00",
-    "stop_loss_pct": 0.01135,
-    "take_profit_pct": 0.02787,
-    "size_usd": 5699.62,
-    "position_size_pct": 0.057,
-    "confidence": 0.91,
-    "signals": [
-      "RSI overbought (60.5)",
-      "5d momentum +1.05%",
-      "1d momentum +0.43%",
-      "BB overbought (pct_b=0.90)",
-      "Volume spike 4.7\u00d7"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "192",
-    "status": "open"
+    "price_peak": 0.8317599892616272,
+    "trailing_stop_price": 0.830096
   },
   "ETH-USD": {
     "id": "ETH-USD_20261125223955",
@@ -468,6 +443,53 @@
       "5d momentum +1.46%",
       "BB overbought (pct_b=0.86)",
       "Volume spike 2.0\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "XRP-USD": {
+    "id": "XRP-USD_20261126042306",
+    "asset": "XRP-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 0.9587000012397766,
+    "entry_time": "2026-11-26T04:23:06.313359+00:00",
+    "stop_loss_pct": 0.01083,
+    "take_profit_pct": 0.02578,
+    "size_usd": 4859.15,
+    "position_size_pct": 0.0486,
+    "confidence": 0.76,
+    "signals": [
+      "RSI overbought (90.0)",
+      "5d momentum +2.35%",
+      "1d momentum +4.48%",
+      "BB overbought (pct_b=0.89)"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "192",
+    "status": "open"
+  },
+  "DOGE-USD": {
+    "id": "DOGE-USD_20261126042306",
+    "asset": "DOGE-USD",
+    "trade_type": "day",
+    "direction": "long",
+    "entry_price": 0.05683000013232231,
+    "entry_time": "2026-11-26T04:23:06.314371+00:00",
+    "stop_loss_pct": 0.00946,
+    "take_profit_pct": 0.02157,
+    "size_usd": 811.67,
+    "position_size_pct": 0.0081,
+    "confidence": 0.56,
+    "signals": [
+      "RSI overbought (98.4)",
+      "5d momentum +1.50%",
+      "1d momentum +4.16%"
     ],
     "news_sentiment": 0.0,
     "news_headlines": [],
