@@ -271,8 +271,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 0.6647168397903442,
-    "trailing_stop_price": 0.659399
+    "price_peak": 0.666266918182373,
+    "trailing_stop_price": 0.660937
   },
   "AUD/JPY": {
     "id": "AUD/JPY_20261125033559",
@@ -296,34 +296,8 @@
     "mode": "paper",
     "strategy_version": "192",
     "status": "open",
-    "price_peak": 105.73100280761719,
-    "trailing_stop_price": 104.885155
-  },
-  "USD/CHF": {
-    "id": "USD/CHF_20261125132713",
-    "asset": "USD/CHF",
-    "trade_type": "day",
-    "direction": "long",
-    "entry_price": 0.8298199772834778,
-    "entry_time": "2026-11-25T13:27:13.241904+00:00",
-    "stop_loss_pct": 0.002,
-    "take_profit_pct": 0.00476,
-    "size_usd": 4217.51,
-    "position_size_pct": 0.0422,
-    "confidence": 0.76,
-    "signals": [
-      "RSI oversold (15.0)",
-      "5d momentum -0.54%",
-      "1d momentum -0.91%",
-      "BB oversold (pct_b=-0.13)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "192",
-    "status": "open",
-    "price_peak": 0.833329975605011,
-    "trailing_stop_price": 0.831663
+    "price_peak": 106.06800079345703,
+    "trailing_stop_price": 105.219457
   },
   "ETH-USD": {
     "id": "ETH-USD_20261125223955",
@@ -373,32 +347,6 @@
     "strategy_version": "192",
     "status": "open"
   },
-  "XRP-USD": {
-    "id": "XRP-USD_20261126042306",
-    "asset": "XRP-USD",
-    "trade_type": "day",
-    "direction": "short",
-    "entry_price": 0.9587000012397766,
-    "entry_time": "2026-11-26T04:23:06.313359+00:00",
-    "stop_loss_pct": 0.01083,
-    "take_profit_pct": 0.02578,
-    "size_usd": 4859.15,
-    "position_size_pct": 0.0486,
-    "confidence": 0.76,
-    "signals": [
-      "RSI overbought (90.0)",
-      "5d momentum +2.35%",
-      "1d momentum +4.48%",
-      "BB overbought (pct_b=0.89)"
-    ],
-    "news_sentiment": 0.0,
-    "news_headlines": [],
-    "mode": "paper",
-    "strategy_version": "192",
-    "status": "open",
-    "price_trough": 0.9498999714851379,
-    "trailing_stop_price": 0.960187
-  },
   "DOGE-USD": {
     "id": "DOGE-USD_20261126042306",
     "asset": "DOGE-USD",
@@ -420,7 +368,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "192",
-    "status": "open"
+    "status": "open",
+    "price_peak": 0.05772000178694725,
+    "trailing_stop_price": 0.057174
   },
   "USD/NOK": {
     "id": "USD/NOK_20261126140540",
@@ -467,7 +417,9 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "192",
-    "status": "open"
+    "status": "open",
+    "price_trough": 1.3115785121917725,
+    "trailing_stop_price": 1.322071
   },
   "EUR/CAD": {
     "id": "EUR/CAD_20261126140540",
@@ -490,6 +442,58 @@
     "news_headlines": [],
     "mode": "paper",
     "strategy_version": "192",
+    "status": "open",
+    "price_trough": 1.5629500150680542,
+    "trailing_stop_price": 1.566076
+  },
+  "SOL-USD": {
+    "id": "SOL-USD_20261127044552",
+    "asset": "SOL-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 72.83000183105469,
+    "entry_time": "2026-11-27T04:45:52.163573+00:00",
+    "stop_loss_pct": 0.00857,
+    "take_profit_pct": 0.02105,
+    "size_usd": 5827.76,
+    "position_size_pct": 0.0582,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (79.1)",
+      "5d momentum +2.64%",
+      "1d momentum +2.51%",
+      "BB overbought (pct_b=1.15)",
+      "Volume spike 2.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "193",
+    "status": "open"
+  },
+  "BTC-USD": {
+    "id": "BTC-USD_20261127044552",
+    "asset": "BTC-USD",
+    "trade_type": "day",
+    "direction": "short",
+    "entry_price": 61433.26171875,
+    "entry_time": "2026-11-27T04:45:52.164717+00:00",
+    "stop_loss_pct": 0.00622,
+    "take_profit_pct": 0.01527,
+    "size_usd": 4190.83,
+    "position_size_pct": 0.0419,
+    "confidence": 0.91,
+    "signals": [
+      "RSI overbought (71.3)",
+      "5d momentum +1.55%",
+      "1d momentum +0.89%",
+      "BB overbought (pct_b=1.12)",
+      "Volume spike 6.1\u00d7"
+    ],
+    "news_sentiment": 0.0,
+    "news_headlines": [],
+    "mode": "paper",
+    "strategy_version": "193",
     "status": "open"
   }
 }
